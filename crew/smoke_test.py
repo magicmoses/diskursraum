@@ -1,12 +1,11 @@
-from crewai import Agent, Task, Crew, LLM
+from config import get_llm, DEMO_MODE, LLM_PROVIDER
+from crewai import Agent, Task, Crew
 
-# Ollama lokal als LLM
-llm = LLM(
-    model="ollama/llama3.1",
-    base_url="http://localhost:11434"
-)
+print(f"Mode: {'DEMO' if DEMO_MODE else 'LIVE'}")
+print(f"LLM Provider: {LLM_PROVIDER}")
 
-# Minimaler Test-Agent
+llm = get_llm()
+
 analyst = Agent(
     role="Opinion Analyst",
     goal="Summarize a controversial statement in a neutral way",
@@ -15,20 +14,14 @@ analyst = Agent(
     verbose=True
 )
 
-# Minimaler Test-Task
 task = Task(
     description="Summarize the following statement in 2 neutral sentences that both supporters and opponents could agree with: 'Nuclear energy should be expanded to fight climate change.'",
     expected_output="A 2-sentence neutral summary that captures the core tension without taking sides.",
     agent=analyst
 )
 
-# Crew zusammenstellen und ausführen
-crew = Crew(
-    agents=[analyst],
-    tasks=[task],
-    verbose=True
-)
-
+crew = Crew(agents=[analyst], tasks=[task], verbose=True)
 result = crew.kickoff()
+
 print("\n=== RESULT ===")
 print(result)
