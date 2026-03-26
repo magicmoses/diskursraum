@@ -10,10 +10,6 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq").lower()
 
 # ── LLM Setup ─────────────────────────────────────
 def get_llm() -> LLM:
-    """
-    Returns the configured LLM based on LLM_PROVIDER env var.
-    Defaults to Groq for demo/cloud, Ollama for local dev.
-    """
     if LLM_PROVIDER == "ollama":
         return LLM(
             model="ollama/llama3.1",
@@ -25,88 +21,100 @@ def get_llm() -> LLM:
             api_key=os.getenv("OPENAI_API_KEY")
         )
     else:
-        # Default: Groq (free, fast, cloud)
+        # Default: Groq
         return LLM(
             model="groq/llama-3.1-8b-instant",
             api_key=os.getenv("GROQ_API_KEY")
         )
+
+# ── Data Sources ───────────────────────────────────
+DATA_SOURCES = ["newsapi", "bluesky", "youtube"]
 
 # ── Topics ────────────────────────────────────────
 TOPICS = {
     "migration": {
         "label": "Migration & Asylum Policy",
         "emoji": "🇩🇪",
-        "source": "reddit",
-        "subreddits": ["de", "germany", "europe"],
-        "keywords": ["migration", "asyl", "flüchtlinge", "einwanderung"]
+        "newsapi_keywords": ["Migration", "Asylpolitik", "Flüchtlinge", "Einwanderung"],
+        "bluesky_keywords": ["migration", "asyl", "flüchtlinge"],
+        "youtube_channels": ["tagesschau", "SPIEGEL TV", "ZDF"],
+        "youtube_keywords": ["migration deutschland", "asylpolitik"]
     },
     "basic_income": {
         "label": "Unconditional Basic Income",
         "emoji": "💰",
-        "source": "reddit",
-        "subreddits": ["de", "BasicIncome", "germany"],
-        "keywords": ["grundeinkommen", "bge", "basic income"]
+        "newsapi_keywords": ["Grundeinkommen", "BGE", "Basic Income"],
+        "bluesky_keywords": ["grundeinkommen", "basic income", "bge"],
+        "youtube_channels": ["tagesschau", "ZDF", "ARD"],
+        "youtube_keywords": ["bedingungsloses grundeinkommen"]
     },
     "nuclear_energy": {
         "label": "Nuclear Energy",
         "emoji": "⚛️",
-        "source": "both",          # reddit + polis
-        "subreddits": ["de", "germany", "energy"],
-        "keywords": ["atomkraft", "kernenergie", "nuclear", "akw"]
+        "newsapi_keywords": ["Atomkraft", "Kernenergie", "nuclear energy", "AKW"],
+        "bluesky_keywords": ["atomkraft", "kernenergie", "nuclear"],
+        "youtube_channels": ["tagesschau", "DW News", "ARD"],
+        "youtube_keywords": ["atomkraft deutschland", "kernenergie zukunft"]
     },
     "military_service": {
         "label": "Mandatory Military Service",
         "emoji": "🪖",
-        "source": "reddit",
-        "subreddits": ["de", "germany", "bundeswehr"],
-        "keywords": ["wehrpflicht", "bundeswehr", "military service"]
+        "newsapi_keywords": ["Wehrpflicht", "Bundeswehr", "mandatory military"],
+        "bluesky_keywords": ["wehrpflicht", "bundeswehr"],
+        "youtube_channels": ["tagesschau", "ZDF", "Bundeswehr"],
+        "youtube_keywords": ["wehrpflicht wiedereinführung"]
     },
     "retirement_age": {
         "label": "Retirement at 70",
         "emoji": "👴",
-        "source": "reddit",
-        "subreddits": ["de", "finanzen", "germany"],
-        "keywords": ["rente", "renteneintritt", "rente mit 70", "rentenalter"]
+        "newsapi_keywords": ["Rente mit 70", "Renteneintrittsalter", "Rentenreform"],
+        "bluesky_keywords": ["rente", "rentenalter", "rente mit 70"],
+        "youtube_channels": ["tagesschau", "ZDF", "ARD"],
+        "youtube_keywords": ["rente mit 70", "rentenreform deutschland"]
     },
     "speed_limit": {
         "label": "Autobahn Speed Limit",
         "emoji": "🚗",
-        "source": "reddit",
-        "subreddits": ["de", "germany", "autobahn"],
-        "keywords": ["tempolimit", "autobahn", "speed limit", "100 kmh"]
+        "newsapi_keywords": ["Tempolimit", "Autobahn", "Geschwindigkeitsbegrenzung"],
+        "bluesky_keywords": ["tempolimit", "autobahn"],
+        "youtube_channels": ["tagesschau", "ADAC", "ZDF"],
+        "youtube_keywords": ["tempolimit autobahn deutschland"]
     },
     "euthanasia": {
         "label": "Assisted Dying",
         "emoji": "💉",
-        "source": "reddit",
-        "subreddits": ["de", "germany"],
-        "keywords": ["sterbehilfe", "euthanasie", "assisted dying"]
+        "newsapi_keywords": ["Sterbehilfe", "Euthanasie", "assisted dying"],
+        "bluesky_keywords": ["sterbehilfe", "euthanasie"],
+        "youtube_channels": ["tagesschau", "ZDF", "ARD"],
+        "youtube_keywords": ["sterbehilfe deutschland debatte"]
     },
     "wealth_tax": {
         "label": "Wealth Tax",
         "emoji": "💸",
-        "source": "reddit",
-        "subreddits": ["de", "wirtschaft", "finanzen"],
-        "keywords": ["vermögenssteuer", "reichensteuer", "wealth tax"]
+        "newsapi_keywords": ["Vermögenssteuer", "Reichensteuer", "wealth tax"],
+        "bluesky_keywords": ["vermögenssteuer", "reichensteuer"],
+        "youtube_channels": ["tagesschau", "ZDF", "ARD"],
+        "youtube_keywords": ["vermögenssteuer deutschland"]
     },
     "ai_jobs": {
         "label": "AI Replacing Jobs",
         "emoji": "🤖",
-        "source": "reddit",
-        "subreddits": ["Futurology", "de", "artificial", "ChatGPT"],
-        "keywords": ["ai jobs", "automatisierung", "ki ersetzt", "future of work"]
+        "newsapi_keywords": ["KI Arbeitsplätze", "Automatisierung", "AI jobs", "future of work"],
+        "bluesky_keywords": ["ai jobs", "automatisierung", "ki arbeit"],
+        "youtube_channels": ["Fireship", "tagesschau", "DW News"],
+        "youtube_keywords": ["ki ersetzt jobs", "automatisierung arbeitsplätze"]
     },
     "ai_regulation": {
         "label": "AI Regulation & Ethics",
         "emoji": "🧠",
-        "source": "polis",         # Taiwan dataset only
-        "subreddits": [],
-        "keywords": []
+        "newsapi_keywords": ["KI Regulierung", "AI regulation", "AI Act", "KI Ethik"],
+        "bluesky_keywords": ["ai regulation", "ki regulierung", "ai act"],
+        "youtube_channels": ["tagesschau", "DW News", "Lex Fridman"],
+        "youtube_keywords": ["ki regulierung europa", "eu ai act"]
     },
 }
 
 # ── Data Paths ────────────────────────────────────
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
-REDDIT_CACHE_DIR = os.path.join(DATA_DIR, "reddit")
-POLIS_DIR = os.path.join(DATA_DIR, "polis")
+CACHE_DIR = os.path.join(DATA_DIR, "cache")
 RESULTS_DIR = os.path.join(DATA_DIR, "results")

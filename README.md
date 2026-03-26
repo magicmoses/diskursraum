@@ -4,7 +4,8 @@
 > that bridge opinion groups rather than divide them.
 
 Inspired by Taiwan's [vTaiwan](https://info.vtaiwan.tw/) civic deliberation platform
-and the [Pol.is](https://pol.is) bridging algorithm.
+and the [Pol.is](https://pol.is) bridging algorithm — but applied to real-time public
+discourse across news, social media, and video comments.
 
 ## What it does
 
@@ -16,31 +17,44 @@ This is the opposite of how social media algorithms typically work.
 
 ## Topics analyzed
 
-| Topic | Data Source | Notes |
-|-------|-------------|-------|
-| 🇩🇪 Migration & Asylum Policy | Reddit (r/de, r/germany, r/europe) | |
-| 💰 Unconditional Basic Income | Reddit (r/de, r/BasicIncome, r/germany) | |
-| ⚛️ Nuclear Energy | Reddit + Pol.is Taiwan | Cross-cultural comparison 🔥 |
-| 🪖 Mandatory Military Service | Reddit (r/de, r/germany) | High recency, active debate |
-| 👴 Retirement at 70 | Reddit (r/de, r/finanzen) | Generational cluster split |
-| 🚗 Autobahn Speed Limit | Reddit (r/de, r/germany) | German identity debate |
-| 💉 Assisted Dying / Euthanasia | Reddit (r/de, r/ethik) | Ethics polarization |
-| 💸 Wealth Tax | Reddit (r/de, r/wirtschaft) | Class-based clusters |
-| 🤖 AI Replacing Jobs | Reddit (r/Futurology, r/de, r/artificial) | Generational + industry clusters |
-| 🧠 AI Regulation & Ethics | Pol.is Taiwan (vTaiwan 2023) | IT context, Taiwanese dataset |
+| Topic | Notes |
+|-------|-------|
+| 🇩🇪 Migration & Asylum Policy | |
+| 💰 Unconditional Basic Income | |
+| ⚛️ Nuclear Energy | International sources included |
+| 🪖 Mandatory Military Service | |
+| 👴 Retirement at 70 | Generational cluster split |
+| 🚗 Autobahn Speed Limit | German identity debate |
+| 💉 Assisted Dying / Euthanasia | |
+| 💸 Wealth Tax | |
+| 🤖 AI Replacing Jobs | |
+| 🧠 AI Regulation & Ethics | Tech-focused sources |
+
+## Data Sources
+
+ConsensusAgent pulls from three complementary layers of public discourse:
+
+| Source | Type | Coverage |
+|--------|------|----------|
+| [NewsAPI](https://newsapi.org) | News articles | Spiegel, Zeit, FAZ, Tagesschau, BBC, Reuters |
+| [Bluesky AT Protocol](https://atproto.com) | Social media posts | Open API, no scraping |
+| [YouTube Data API v3](https://developers.google.com/youtube) | Video comments | ARD, ZDF, MrWissen2go, DW |
+
+> **Demo mode**: Pre-cached datasets ship with the repo — no API keys needed
+> to explore the interface and results.
 
 ## Architecture
 ```
-OpenClaw (trigger + data collection)
+OpenClaw (trigger + data collection skills)
     └── CrewAI Pipeline (4 agents)
-            ├── Collector Agent    — fetches Reddit / Pol.is data
-            ├── Clusterer Agent    — groups opinions via embeddings
+            ├── Collector Agent    — fetches from NewsAPI / Bluesky / YouTube
+            ├── Clusterer Agent    — groups opinions via sentence embeddings
             ├── Bridging Analyst   — scores cross-cluster approval
             └── Reporter Agent     — structured JSON output
-                    └── Ollama (local LLM — no cloud dependency)
+                    └── Ollama (local) or Groq (cloud/demo)
 
 React Frontend — topic selector + cluster visualization
-FastAPI         — bridge between frontend and crew pipeline
+FastAPI         — REST bridge between frontend and agent pipeline
 ```
 
 ## Tech Stack
@@ -48,8 +62,10 @@ FastAPI         — bridge between frontend and crew pipeline
 - **[OpenClaw](https://openclaw.ai)** — agentic trigger layer & skill system
 - **[CrewAI](https://crewai.com)** — multi-agent orchestration
 - **[Ollama](https://ollama.ai)** — local LLM inference (Llama 3.1)
-- **[PRAW](https://praw.readthedocs.io)** — Reddit data collection
-- **[Pol.is Open Data](https://github.com/compdemocracy/openData)** — vTaiwan datasets
+- **[Groq](https://groq.com)** — cloud LLM inference (demo mode)
+- **[NewsAPI](https://newsapi.org)** — news article data
+- **[Bluesky AT Protocol](https://atproto.com)** — social media data
+- **[YouTube Data API v3](https://developers.google.com/youtube)** — video comment data
 - **React + D3.js** — cluster visualization frontend
 - **FastAPI** — REST bridge between frontend and agent pipeline
 
@@ -58,15 +74,14 @@ FastAPI         — bridge between frontend and crew pipeline
 Traditional social media rewards content that maximizes engagement within a group.
 ConsensusAgent rewards content that finds approval *across* groups.
 ```
-1. Raw comments are embedded into vector space
-2. K-Means clustering groups users by opinion similarity
-3. Each statement is scored: how many distinct clusters approve?
+1. Raw text (articles, posts, comments) embedded into vector space
+2. K-Means clustering groups content by opinion similarity  
+3. Each statement scored: how many distinct clusters approve?
 4. High bridging score = consensus potential, not virality
 ```
 
-This logic is directly inspired by the Pol.is algorithm used in Taiwan's
-vTaiwan platform, where it helped resolve deadlocked policy debates on
-Uber regulation, FinTech legislation, and AI governance.
+Conceptually inspired by the [Pol.is](https://pol.is) algorithm used in Taiwan's
+vTaiwan platform — adapted here for multi-source, real-time discourse analysis.
 
 ## Setup
 ```bash
@@ -77,16 +92,16 @@ python -m venv venv
 venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 
-# 2. Configure environment
+# 2. Configure
 cp .env.example .env
-# → fill in your Reddit API credentials (see Reddit App setup below)
+# → fill in API keys (or leave as-is for demo mode)
 
-# 3. Start Ollama (separate terminal)
+# 3. Start Ollama (optional — only needed for local LLM mode)
 ollama pull llama3.1
 ollama serve
 
 # 4. Run analysis
-python api/run_crew.py --topic "nuclear_energy" --source reddit
+python api/run_crew.py --topic "nuclear_energy"
 
 # 5. Start frontend
 cd frontend
@@ -94,20 +109,12 @@ npm install
 npm run dev
 ```
 
-## Reddit API Setup
+## Modes
 
-1. Go to [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps)
-2. Click **Create App** → select **script**
-3. Copy `client_id` and `client_secret` into your `.env`
-
-## Data Sources
-
-**Reddit (PRAW)** — live data fetched per analysis run, cached locally in `data/reddit/`
-
-**Pol.is / vTaiwan Open Data** — static CSVs from the
-[Computational Democracy Project](https://github.com/compdemocracy/openData),
-stored in `data/polis/`. Covers real citizen deliberations on Uber regulation,
-FinTech, and AI governance in Taiwan.
+| Mode | LLM | Data | Use case |
+|------|-----|------|----------|
+| Demo | Groq (cloud) | Pre-cached JSON | Recruiters, quick explore |
+| Live | Ollama (local) | Live API calls | Full local run |
 
 ## Background
 
