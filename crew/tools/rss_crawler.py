@@ -38,6 +38,18 @@ def init_db(db_path: str):
             topic_hints  TEXT DEFAULT '[]'
         )
     """)
+
+    # ── Migration: add new columns if they don't exist ──
+    existing_columns = [
+        row[1] for row in conn.execute("PRAGMA table_info(articles)")
+    ]
+    if "word_count" not in existing_columns:
+        conn.execute("ALTER TABLE articles ADD COLUMN word_count INTEGER")
+        print("  ✓ Migrated: added word_count column")
+    if "language" not in existing_columns:
+        conn.execute("ALTER TABLE articles ADD COLUMN language TEXT DEFAULT 'de'")
+        print("  ✓ Migrated: added language column")
+
     conn.execute("""
         CREATE TABLE IF NOT EXISTS crawl_log (
             crawled_at      TEXT,
