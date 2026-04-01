@@ -75,6 +75,53 @@ NEWS_SOURCES = {
         "url": "https://www.stern.de/feed/standard/all/",
         "bias": "left-liberal"
     },
+    "bild": {
+    "label": "BILD",
+    "type": "rss",
+    "url": "https://www.bild.de/feed/alles.xml",
+    "bias": "populist-mixed"
+    },
+    "junge_freiheit": {
+        "label": "Junge Freiheit",
+        "type": "rss",
+        "url": "https://jungefreiheit.de/feed",
+        "bias": "far-right"
+    },
+    "focus": {
+        "label": "Focus Online",
+        "type": "rss",
+        "url": "https://www.focus.de/schlagzeilen/rss",
+        "bias": "right-conservative"
+    },
+    "cicero": {
+        "label": "Cicero",
+        "type": "rss",
+        "url": "https://www.cicero.de/rss.xml",
+        "bias": "conservative-liberal"
+    },"bild": {
+        "label": "BILD",
+        "type": "rss",
+        "url": "https://www.bild.de/feed/alles.xml",
+        "bias": "populist-mixed"
+    },
+    "junge_freiheit": {
+        "label": "Junge Freiheit",
+        "type": "rss",
+        "url": "https://jungefreiheit.de/feed",
+        "bias": "far-right"
+    },
+    "focus": {
+        "label": "Focus Online",
+        "type": "rss",
+        "url": "https://www.focus.de/schlagzeilen/rss",
+        "bias": "right-conservative"
+    },
+    "cicero": {
+        "label": "Cicero",
+        "type": "rss",
+        "url": "https://www.cicero.de/rss.xml",
+        "bias": "conservative-liberal"
+    },
 }
 
 
