@@ -49,3 +49,7 @@ def articles_per_day():
 @app.get("/stats/bias-over-time")
 def bias_over_time():
     return database.get_bias_over_time()
+
+@app.get("/topics/trending")
+def trending_topics(days_back: int = 7, top_n: int = 20):
+    return database.get_trending_topics_from_db(days_back=days_back, top_n=top_n)

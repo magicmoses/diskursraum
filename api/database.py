@@ -155,3 +155,16 @@ def get_bias_over_time():
         }
         for row in rows
     ]
+
+# ── Trending Topics ───────────────────────────────
+def get_trending_topics_from_db(days_back: int = 7, top_n: int = 20):
+    """
+    Calls the clusterer's get_trending_topics function.
+    Cached in DB for 6 hours to avoid repeated LLM calls.
+    """
+    import sys
+    import os
+    sys.path.append(os.path.join(os.path.dirname(__file__), "..", "crew", "tools"))
+    from clusterer import get_trending_topics
+
+    return get_trending_topics(days_back=days_back, top_n=top_n)
