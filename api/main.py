@@ -53,3 +53,39 @@ def bias_over_time():
 @app.get("/topics/trending")
 def trending_topics(days_back: int = 7, top_n: int = 20):
     return database.get_trending_topics_from_db(days_back=days_back, top_n=top_n)
+
+@app.get("/stats/publishing-times")
+def publishing_times():
+    return database.get_publishing_times()
+
+@app.get("/stats/weekday-activity")
+def weekday_activity():
+    return database.get_weekday_activity()
+
+@app.get("/stats/source-details")
+def source_details():
+    return database.get_articles_per_day_per_source()
+
+@app.get("/stats/sentiment-per-source")
+def sentiment_per_source():
+    return database.get_sentiment_per_source()
+
+@app.get("/stats/sentiment-per-bias")
+def sentiment_per_bias():
+    return database.get_sentiment_per_bias()
+
+@app.get("/stats/bias-focus")
+def bias_focus(days_back: int = 7):
+    return database.get_bias_focus(days_back)
+
+@app.get("/stats/neutrality-check")
+def neutrality_check():
+    return database.get_neutrality_check()
+
+@app.get("/stats/source-deep-dive/{source_id}")
+def source_deep_dive(source_id: str, days_back: int = 30):
+    return database.get_source_deep_dive(source_id, days_back)
+
+@app.get("/stats/left-right-comparison")
+def left_right_comparison(days_back: int = 14):
+    return database.get_left_right_comparison(days_back)

@@ -1,16 +1,16 @@
 import { useNavigate } from 'react-router-dom'
 
 const TOPICS = [
-  { id: 'migration', label: 'Migration & Asylum Policy', emoji: '🇩🇪', description: 'Debate on immigration and asylum in Germany' },
-  { id: 'basic_income', label: 'Unconditional Basic Income', emoji: '💰', description: 'Should Germany introduce a universal basic income?' },
-  { id: 'nuclear_energy', label: 'Nuclear Energy', emoji: '⚛️', description: 'Should nuclear power be part of Germany\'s energy mix?' },
-  { id: 'military_service', label: 'Mandatory Military Service', emoji: '🪖', description: 'Should Germany reintroduce compulsory military service?' },
-  { id: 'retirement_age', label: 'Retirement at 70', emoji: '👴', description: 'Should the retirement age be raised to 70?' },
-  { id: 'speed_limit', label: 'Autobahn Speed Limit', emoji: '🚗', description: 'Should Germany introduce a general speed limit on the Autobahn?' },
-  { id: 'euthanasia', label: 'Assisted Dying', emoji: '💉', description: 'Should assisted dying be legalized in Germany?' },
-  { id: 'wealth_tax', label: 'Wealth Tax', emoji: '💸', description: 'Should Germany introduce a wealth tax for high earners?' },
-  { id: 'ai_jobs', label: 'AI Replacing Jobs', emoji: '🤖', description: 'Will AI replace human workers — and who is most at risk?' },
-  { id: 'ai_regulation', label: 'AI Regulation & Ethics', emoji: '🧠', description: 'How should AI be regulated in Europe?' },
+  { id: 'migration', label: 'Migration & Asylpolitik', emoji: '🇩🇪', description: 'Debatte über Einwanderung und Asyl in Deutschland' },
+  { id: 'basic_income', label: 'Grundeinkommen', emoji: '💰', description: 'Sollte Deutschland ein bedingungsloses Grundeinkommen einführen?' },
+  { id: 'nuclear_energy', label: 'Atomkraft', emoji: '⚛️', description: 'Sollte Kernenergie Teil des deutschen Energiemix sein?' },
+  { id: 'military_service', label: 'Wehrpflicht', emoji: '🪖', description: 'Sollte Deutschland die allgemeine Wehrpflicht wieder einführen?' },
+  { id: 'retirement_age', label: 'Rente mit 70', emoji: '👴', description: 'Sollte das Renteneintrittsalter auf 70 angehoben werden?' },
+  { id: 'speed_limit', label: 'Tempolimit Autobahn', emoji: '🚗', description: 'Sollte Deutschland ein generelles Tempolimit auf der Autobahn einführen?' },
+  { id: 'euthanasia', label: 'Sterbehilfe', emoji: '💉', description: 'Sollte aktive Sterbehilfe in Deutschland legalisiert werden?' },
+  { id: 'wealth_tax', label: 'Vermögenssteuer', emoji: '💸', description: 'Sollte Deutschland eine Vermögenssteuer für Hochvermögende einführen?' },
+  { id: 'ai_jobs', label: 'KI ersetzt Jobs', emoji: '🤖', description: 'Wird KI menschliche Arbeit ersetzen — und wen trifft es zuerst?' },
+  { id: 'ai_regulation', label: 'KI Regulierung', emoji: '🧠', description: 'Wie sollte KI in Europa reguliert werden?' },
 ]
 
 export default function Home() {
@@ -23,9 +23,8 @@ export default function Home() {
       <div className="max-w-2xl">
         <h1 className="text-3xl font-bold mb-2">Consensus Analysis</h1>
         <p className="text-gray-400 leading-relaxed">
-          Select a topic to analyze bridging statements — content that finds
-          approval across ideologically distinct opinion clusters, not just
-          within echo chambers.
+          Wähle ein Thema um Bridging Statements zu analysieren — Aussagen die
+          über ideologisch unterschiedliche Meinungsgruppen hinweg Zustimmung finden.
         </p>
       </div>
 
@@ -40,23 +39,17 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Footer Note */}
+      {/* Footer */}
       <p className="text-gray-600 text-sm">
         Inspired by Taiwan's{' '}
         <a href="https://info.vtaiwan.tw/" target="_blank" rel="noopener noreferrer"
-          className="text-gray-500 hover:text-gray-300 underline">
-          vTaiwan
-        </a>{' '}
-        civic deliberation platform, the{' '}
+          className="text-gray-500 hover:text-gray-300 underline">vTaiwan</a>{' '}
+        and the{' '}
         <a href="https://pol.is" target="_blank" rel="noopener noreferrer"
-          className="text-gray-500 hover:text-gray-300 underline">
-          Pol.is
-        </a>{' '}
-        bridging algorithm, and the book{' '}
+          className="text-gray-500 hover:text-gray-300 underline">Pol.is</a>{' '}
+        bridging algorithm.{' '}
         <a href="https://www.plurality.net/" target="_blank" rel="noopener noreferrer"
-          className="text-gray-500 hover:text-gray-300 underline">
-          Plurality
-        </a>{' '}
+          className="text-gray-500 hover:text-gray-300 underline">Plurality</a>{' '}
         by Audrey Tang & E. Glen Weyl.
       </p>
 

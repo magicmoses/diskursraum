@@ -168,3 +168,367 @@ def get_trending_topics_from_db(days_back: int = 7, top_n: int = 20):
     from clusterer import get_trending_topics
 
     return get_trending_topics(days_back=days_back, top_n=top_n)
+
+  # ── Publishing Times ───────────────────────────────
+def get_publishing_times():
+    """Hour-of-day distribution per source."""
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT
+            source,
+            CAST(strftime('%H', crawled_at) AS INTEGER) as hour,
+            COUNT(*) as count
+        FROM articles
+        WHERE crawled_at IS NOT NULL
+        GROUP BY source, hour
+        ORDER BY source, hour
+    """).fetchall()
+    conn.close()
+    return [
+        {"source": row["source"], "hour": row["hour"], "count": row["count"]}
+        for row in rows
+    ]
+
+
+# ── Weekday Activity ──────────────────────────────
+def get_weekday_activity():
+    """Article count by weekday (0=Sunday, 6=Saturday)."""
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT
+            strftime('%w', crawled_at) as weekday,
+            source,
+            COUNT(*) as count
+        FROM articles
+        WHERE crawled_at IS NOT NULL
+        GROUP BY weekday, source
+        ORDER BY weekday, source
+    """).fetchall()
+    conn.close()
+
+    weekday_names = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"]
+    return [
+        {
+            "weekday": weekday_names[int(row["weekday"])],
+            "weekday_num": int(row["weekday"]),
+            "source": row["source"],
+            "count": row["count"]
+        }
+        for row in rows
+    ]
+
+
+# ── Articles per Day per Source ───────────────────
+def get_articles_per_day_per_source():
+    """Average articles per day per source."""
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT
+            source,
+            bias,
+            COUNT(*) as total_articles,
+            COUNT(DISTINCT DATE(crawled_at)) as active_days,
+            ROUND(COUNT(*) * 1.0 / COUNT(DISTINCT DATE(crawled_at)), 1) as avg_per_day
+        FROM articles
+        GROUP BY source
+        ORDER BY avg_per_day DESC
+    """).fetchall()
+    conn.close()
+    return [
+        {
+            "source": row["source"],
+            "bias": row["bias"],
+            "total_articles": row["total_articles"],
+            "active_days": row["active_days"],
+            "avg_per_day": row["avg_per_day"]
+        }
+        for row in rows
+    ]
+
+
+# ── Sentiment per Source ──────────────────────────
+def get_sentiment_per_source():
+    """Sentiment distribution per source."""
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT
+            source,
+            bias,
+            sentiment,
+            COUNT(*) as count
+        FROM articles
+        WHERE sentiment IS NOT NULL
+        GROUP BY source, sentiment
+        ORDER BY source, sentiment
+    """).fetchall()
+    conn.close()
+    return [
+        {
+            "source": row["source"],
+            "bias": row["bias"],
+            "sentiment": row["sentiment"],
+            "count": row["count"]
+        }
+        for row in rows
+    ]
+
+
+# ── Sentiment per Bias ────────────────────────────
+def get_sentiment_per_bias():
+    """Sentiment distribution per bias group."""
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT
+            bias,
+            sentiment,
+            COUNT(*) as count
+        FROM articles
+        WHERE sentiment IS NOT NULL
+        GROUP BY bias, sentiment
+        ORDER BY bias, sentiment
+    """).fetchall()
+    conn.close()
+    return [
+        {
+            "bias": row["bias"],
+            "sentiment": row["sentiment"],
+            "count": row["count"]
+        }
+        for row in rows
+    ]
+
+
+# ── What occupies left vs right ───────────────────
+def get_bias_focus(days_back: int = 7):
+    """
+    Top topic hints per bias group.
+    Shows what left vs right media focuses on.
+    """
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT bias, topic_hints, COUNT(*) as count
+        FROM articles
+        WHERE topic_hints != '[]'
+        AND crawled_at >= datetime('now', ?)
+        GROUP BY bias, topic_hints
+        ORDER BY bias, count DESC
+    """, (f'-{days_back} days',)).fetchall()
+    conn.close()
+
+    from collections import defaultdict, Counter
+    import json
+
+    bias_topics = defaultdict(Counter)
+    for row in rows:
+        try:
+            hints = json.loads(row["topic_hints"])
+            for hint in hints:
+                bias_topics[row["bias"]][hint] += row["count"]
+        except Exception:
+            pass
+
+    return {
+        bias: [
+            {"topic": topic, "count": count}
+            for topic, count in counter.most_common(5)
+        ]
+        for bias, counter in bias_topics.items()
+    }
+
+
+# ── Neutrality Check ──────────────────────────────
+def get_neutrality_check():
+    """
+    How neutral are the 'neutral' sources?
+    Compares sentiment of neutral sources vs left/right.
+    """
+    conn = get_conn()
+    rows = conn.execute("""
+        SELECT
+            bias,
+            sentiment,
+            COUNT(*) as count,
+            ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY bias), 1) as pct
+        FROM articles
+        WHERE sentiment IS NOT NULL
+        GROUP BY bias, sentiment
+        ORDER BY bias, sentiment
+    """).fetchall()
+    conn.close()
+    return [
+        {
+            "bias": row["bias"],
+            "sentiment": row["sentiment"],
+            "count": row["count"],
+            "percentage": row["pct"]
+        }
+        for row in rows
+    ]
+
+# ── Source Deep Dive ──────────────────────────────
+def get_source_deep_dive(source_id: str, days_back: int = 30):
+    """
+    Deep analysis for a specific source.
+    Top keywords, sentiment distribution, publishing patterns.
+    """
+    conn = get_conn()
+
+    # Basic stats
+    stats = conn.execute("""
+        SELECT
+            source,
+            bias,
+            COUNT(*) as total,
+            SUM(CASE WHEN sentiment = 'positive' THEN 1 ELSE 0 END) as positive,
+            SUM(CASE WHEN sentiment = 'negative' THEN 1 ELSE 0 END) as negative,
+            SUM(CASE WHEN sentiment = 'neutral' THEN 1 ELSE 0 END) as neutral,
+            ROUND(AVG(word_count), 0) as avg_word_count
+        FROM articles
+        WHERE source_id = ?
+        AND crawled_at >= datetime('now', ?)
+    """, (source_id, f'-{days_back} days')).fetchone()
+
+    # Recent titles sample
+    titles = conn.execute("""
+        SELECT title, sentiment, crawled_at
+        FROM articles
+        WHERE source_id = ?
+        AND crawled_at >= datetime('now', ?)
+        ORDER BY crawled_at DESC
+        LIMIT 10
+    """, (source_id, f'-{days_back} days')).fetchall()
+
+    # Publishing hours
+    hours = conn.execute("""
+        SELECT
+            CAST(strftime('%H', crawled_at) AS INTEGER) as hour,
+            COUNT(*) as count
+        FROM articles
+        WHERE source_id = ?
+        GROUP BY hour
+        ORDER BY hour
+    """, (source_id,)).fetchall()
+
+    conn.close()
+
+    if not stats or not stats["total"]:
+        return {"error": f"No data for source_id '{source_id}'"}
+
+    return {
+        "source_id": source_id,
+        "source": stats["source"],
+        "bias": stats["bias"],
+        "total_articles": stats["total"],
+        "sentiment": {
+            "positive": stats["positive"] or 0,
+            "negative": stats["negative"] or 0,
+            "neutral": stats["neutral"] or 0,
+        },
+        "avg_word_count": stats["avg_word_count"],
+        "recent_titles": [
+            {
+                "title": row["title"],
+                "sentiment": row["sentiment"],
+                "crawled_at": row["crawled_at"]
+            }
+            for row in titles
+        ],
+        "publishing_hours": [
+            {"hour": row["hour"], "count": row["count"]}
+            for row in hours
+        ]
+    }
+
+
+# ── Left vs Right Comparison ──────────────────────
+def get_left_right_comparison(days_back: int = 14):
+    """
+    Compares taz (left) vs Junge Freiheit (far-right) vs Die Welt (right-conservative).
+    Sentiment, volume, publishing patterns.
+    """
+    conn = get_conn()
+
+    sources = {
+        "taz": "left",
+        "junge_freiheit": "far-right",
+        "welt": "right-conservative"
+    }
+
+    result = {}
+
+    for source_id, bias in sources.items():
+        rows = conn.execute("""
+            SELECT
+                title,
+                text,
+                sentiment,
+                crawled_at,
+                word_count
+            FROM articles
+            WHERE source_id = ?
+            AND crawled_at >= datetime('now', ?)
+            ORDER BY crawled_at DESC
+        """, (source_id, f'-{days_back} days')).fetchall()
+
+        if not rows:
+            result[source_id] = {"error": "No data"}
+            continue
+
+        total = len(rows)
+        sentiment_counts = {"positive": 0, "negative": 0, "neutral": 0}
+        for row in rows:
+            if row["sentiment"] in sentiment_counts:
+                sentiment_counts[row["sentiment"]] += 1
+
+        # TF-IDF top keywords
+        texts = [row["text"] for row in rows if row["text"]]
+        top_keywords = []
+        if len(texts) >= 3:
+            try:
+                from sklearn.feature_extraction.text import TfidfVectorizer
+                german_stopwords = [
+                    "der", "die", "das", "den", "dem", "des", "ein", "eine",
+                    "und", "oder", "aber", "nicht", "auch", "sich", "mit",
+                    "von", "auf", "an", "in", "im", "ist", "sind", "war",
+                    "hat", "haben", "wird", "werden", "bei", "nach", "aus",
+                    "für", "zu", "als", "es", "er", "sie", "wir", "wie",
+                    "dass", "so", "noch", "mehr", "nur", "schon", "jetzt",
+                    "über", "durch", "bis", "seit", "vor", "unter", "the",
+                    "and", "for", "that", "this", "with", "from", "have",
+                ]
+                vec = TfidfVectorizer(
+                    max_features=200,
+                    ngram_range=(1, 1),
+                    min_df=2,
+                    stop_words=german_stopwords
+                )
+                tfidf = vec.fit_transform(texts)
+                scores = tfidf.mean(axis=0).A1
+                names = vec.get_feature_names_out()
+                top_idx = scores.argsort()[-15:][::-1]
+                top_keywords = [
+                    {"keyword": names[i], "score": round(float(scores[i]), 4)}
+                    for i in top_idx
+                    if len(names[i]) >= 4
+                ]
+            except Exception:
+                pass
+
+        result[source_id] = {
+            "source_id": source_id,
+            "bias": bias,
+            "total_articles": total,
+            "sentiment": sentiment_counts,
+            "sentiment_pct": {
+                k: round(v * 100 / total, 1) if total > 0 else 0
+                for k, v in sentiment_counts.items()
+            },
+            "avg_word_count": round(
+                sum(r["word_count"] or 0 for r in rows) / total, 0
+            ),
+            "top_keywords": top_keywords,
+            "sample_titles": [row["title"] for row in rows[:5]]
+        }
+
+    conn.close()
+    return result

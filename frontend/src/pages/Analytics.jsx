@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getOverview, getArticlesPerDay, getBiasOverTime, getCrawlHistory } from '../api/client'
+import { getOverview, getArticlesPerDay, getBiasOverTime, getCrawlHistory, getTrendingTopics } from '../api/client'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   LineChart, Line, PieChart, Pie, Cell, Legend
@@ -23,17 +23,21 @@ export default function Analytics() {
   const [crawlHistory, setCrawlHistory] = useState([])
   const [loading, setLoading] = useState(true)
 
+  const [trendingTopics, setTrendingTopics] = useState([])
+
   useEffect(() => {
     Promise.all([
       getOverview(),
       getArticlesPerDay(),
       getBiasOverTime(),
       getCrawlHistory(),
-    ]).then(([ov, apd, bot, ch]) => {
+      getTrendingTopics(7, 20),
+    ]).then(([ov, apd, bot, ch, tt]) => {
       setOverview(ov)
       setArticlesPerDay(apd)
       setBiasOverTime(bot)
       setCrawlHistory(ch.slice(0, 20).reverse())
+      setTrendingTopics(tt)
       setLoading(false)
     })
   }, [])
@@ -135,6 +139,30 @@ export default function Analytics() {
         </ResponsiveContainer>
       </Section>
 
+      {/* Trending Topics */}
+      <Section title="Trending Topics (letzte 7 Tage)">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          {trendingTopics.map(topic => (
+            <div
+              key={topic.topic}
+              className="bg-gray-800 rounded-lg p-3 border border-gray-700"
+            >
+              <div className="font-medium text-white text-sm mb-1">
+                {topic.topic}
+              </div>
+              <div className="text-gray-400 text-xs">
+                {topic.article_count} Artikel
+              </div>
+              <div className="text-gray-500 text-xs">
+                {topic.source_count} Quellen
+              </div>
+              {topic.is_core && (
+                <div className="mt-1 text-xs text-blue-500">Kernthema</div>
+              )}
+            </div>
+          ))}
+        </div>
+      </Section>
     </div>
   )
 }
