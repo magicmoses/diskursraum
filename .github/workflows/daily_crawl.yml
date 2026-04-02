@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install crawler dependencies
         run: |
           pip install requests python-dotenv
 
@@ -36,17 +36,17 @@ jobs:
         run: |
           python crew/tools/rss_crawler.py
 
-      - name: Commit new articles to repo
+      - name: Commit crawled articles
         run: |
           git config --global user.name "consensus-agent-bot"
           git config --global user.email "bot@consensus-agent"
           git add data/news.db data/last_crawl.json
           git diff --staged --quiet || git commit -m "chore: RSS crawl $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
-      
-            - name: Install full dependencies for agents
+
+      - name: Install agent dependencies
         run: |
-          pip install requests python-dotenv crewai litellm
+          pip install crewai litellm sentence-transformers scikit-learn
 
       - name: Run Topic Discovery Agent
         env:
@@ -54,3 +54,10 @@ jobs:
           LLM_PROVIDER: groq
         run: |
           python crew/agents/topic_discovery_agent.py
+
+      - name: Commit topic snapshots
+        run: |
+          git pull origin main --rebase
+          git add data/news.db
+          git diff --staged --quiet || git commit -m "chore: topic discovery $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
