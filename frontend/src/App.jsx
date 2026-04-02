@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import Analytics from './pages/Analytics'
 import Home from './pages/Home'
+import TopicView from './pages/TopicView'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         {/* Navbar */}
         <nav className="border-b border-gray-800 px-6 py-4 flex items-center gap-8">
           <span className="text-xl font-bold text-white">
-            Consensus Agent
+            🦞 ConsensusAgent
           </span>
           <NavLink
             to="/"
@@ -29,11 +30,12 @@ function App() {
             Data Analytics
           </NavLink>
         </nav>
-        {/* Page Content */}
+
         <main className="px-6 py-8">
           <Routes>
-            <Route path="/" elements={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/analytics" element={<Analytics />} />
+            <Route path="/topic/:topicId" element={<TopicView />} />
           </Routes>
         </main>
 
