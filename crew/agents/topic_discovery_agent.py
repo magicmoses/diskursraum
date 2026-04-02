@@ -1,3 +1,7 @@
+# NOTE: This agent was prototyped but not integrated into CI/CD.
+# Topic discovery runs on-demand via FastAPI instead.
+# Kept for reference and potential future use.
+
 import os
 import sys
 import json
