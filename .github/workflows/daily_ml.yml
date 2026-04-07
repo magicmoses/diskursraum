@@ -1,0 +1,51 @@
+name: Daily ML Processing
+
+on:
+  schedule:
+    - cron: "0 4 * * *"    # 04:00 UTC — nach dem Crawl
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ml_processing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install sentence-transformers scikit-learn numpy germansentiment transformers torch
+
+      - name: Fix word counts
+        run: |
+          python crew/tools/fix_word_count.py
+
+      - name: Compute embeddings
+        run: |
+          python crew/tools/embed_articles.py
+
+      - name: Compute sentiment
+        run: |
+          python crew/tools/sentiment_analyzer.py
+
+      - name: Compute bridging scores
+        run: |
+          python crew/tools/bridging_scorer.py --all
+
+      - name: Commit results
+        run: |
+          git config --global user.name "consensus-agent-bot"
+          git config --global user.email "bot@consensus-agent"
+          git pull origin main --rebase
+          git add data/news.db
+          git diff --staged --quiet || git commit -m "chore: daily ML processing $(date -u '+%Y-%m-%d')"
+          git push
