@@ -115,3 +115,14 @@ def emotion_trends(days_back: int = 14):
 @app.get("/stats/left-right-emotions")
 def left_right_emotions():
     return database.get_left_right_emotions()
+
+@app.get("/topic/{topic_id}")
+def get_topic(topic_id: str):
+    result = database.get_topic_analysis(topic_id)
+    if not result:
+        return {"error": f"No cached analysis for '{topic_id}'. Run bridging_scorer.py first."}
+    return result
+
+@app.get("/topics/summaries")
+def topic_summaries():
+    return database.get_all_topic_summaries()

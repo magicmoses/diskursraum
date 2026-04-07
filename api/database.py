@@ -661,3 +661,53 @@ def get_left_right_emotions():
 
     conn.close()
     return result
+
+# ── Topic Analysis ────────────────────────────────
+def get_topic_analysis(topic_id: str):
+    """
+    Loads cached bridging analysis for a topic.
+    Pre-computed by bridging_scorer.py via GitHub Actions.
+    Returns None if not yet computed.
+    """
+    conn = get_conn()
+    try:
+        row = conn.execute("""
+            SELECT result_json, computed_at, article_count
+            FROM analysis_results
+            WHERE topic_id = ?
+        """, (topic_id,)).fetchone()
+        conn.close()
+        if not row:
+            return None
+        result = json.loads(row["result_json"])
+        result["cached_at"] = row["computed_at"]
+        return result
+    except Exception:
+        conn.close()
+        return None
+
+
+def get_all_topic_summaries():
+    """
+    Returns lightweight summaries for all cached topics.
+    Used for Home page to show article counts per topic.
+    """
+    conn = get_conn()
+    try:
+        rows = conn.execute("""
+            SELECT topic_id, computed_at, article_count
+            FROM analysis_results
+            ORDER BY article_count DESC
+        """).fetchall()
+        conn.close()
+        return [
+            {
+                "topic_id": row["topic_id"],
+                "computed_at": row["computed_at"],
+                "article_count": row["article_count"]
+            }
+            for row in rows
+        ]
+    except Exception:
+        conn.close()
+        return []

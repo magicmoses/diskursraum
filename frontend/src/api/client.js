@@ -26,3 +26,7 @@ export const getEmotionsPerBias = () => api.get('/stats/emotions-per-bias').then
 export const getEmotionsPerSource = () => api.get('/stats/emotions-per-source').then(r => r.data)
 export const getEmotionTrends = (daysBack = 14) => api.get(`/stats/emotion-trends?days_back=${daysBack}`).then(r => r.data)
 export const getLeftRightEmotions = () => api.get('/stats/left-right-emotions').then(r => r.data)
+export const getTopicAnalysis = (topicId) =>
+  api.get(`/topic/${topicId}`).then(r => r.data)
+export const getTopicSummaries = () =>
+  api.get('/topics/summaries').then(r => r.data)
