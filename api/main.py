@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import database
+import time
 
 app = FastAPI(title="ConsensusAgent API", version="1.0.0")
 
@@ -50,9 +51,18 @@ def articles_per_day():
 def bias_over_time():
     return database.get_bias_over_time()
 
+_trending_cache = {"data": None, "timestamp": 0}
+CACHE_TTL = 3600  # 1 Stunde
+
 @app.get("/topics/trending")
 def trending_topics(days_back: int = 7, top_n: int = 20):
-    return database.get_trending_topics_from_db(days_back=days_back, top_n=top_n)
+    global _trending_cache
+    now = time.time()
+    if _trending_cache["data"] and (now - _trending_cache["timestamp"]) < CACHE_TTL:
+        return _trending_cache["data"]
+    result = database.get_trending_topics_from_db(days_back=days_back, top_n=top_n)
+    _trending_cache = {"data": result, "timestamp": now}
+    return result
 
 @app.get("/stats/publishing-times")
 def publishing_times():
@@ -89,3 +99,19 @@ def source_deep_dive(source_id: str, days_back: int = 30):
 @app.get("/stats/left-right-comparison")
 def left_right_comparison(days_back: int = 14):
     return database.get_left_right_comparison(days_back)
+
+@app.get("/stats/emotions-per-bias")
+def emotions_per_bias():
+    return database.get_emotions_per_bias()
+
+@app.get("/stats/emotions-per-source")
+def emotions_per_source():
+    return database.get_emotions_per_source()
+
+@app.get("/stats/emotion-trends")
+def emotion_trends(days_back: int = 14):
+    return database.get_emotion_trends(days_back)
+
+@app.get("/stats/left-right-emotions")
+def left_right_emotions():
+    return database.get_left_right_emotions()

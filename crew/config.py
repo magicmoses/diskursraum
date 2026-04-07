@@ -9,6 +9,7 @@ load_dotenv()
 DEMO_MODE = os.getenv("DEMO_MODE", "true").lower() == "true"
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq").lower()
 
+
 # ── LLM Setup ─────────────────────────────────────
 def get_llm() -> LLM:
     if LLM_PROVIDER == "ollama":
@@ -28,7 +29,44 @@ def get_llm() -> LLM:
             api_key=os.getenv("GROQ_API_KEY")
         )
 
-# ── Data Sources ───────────────────────────────────
+
+# ── Bias → Sources Map ────────────────────────────
+# Explicit mapping of bias groups to their source_ids.
+# Used for two-level bridging score calculation:
+#   Level 1: Bias-group bridging (main signal, 70%)
+#   Level 2: Source-level bridging within bias group (30%)
+BIAS_SOURCES = {
+    "left":                 ["taz"],
+    "left-liberal":         ["spiegel", "zeit", "sz", "stern"],
+    "neutral":              ["tagesschau", "zdf", "dw"],
+    "conservative-liberal": ["faz", "cicero"],
+    "right-conservative":   ["welt", "focus"],
+    "far-right":            ["junge_freiheit"],
+    "economic-liberal":     ["handelsblatt"],
+    "populist-mixed":       ["bild"],
+}
+
+# Reverse map: source_id → bias group
+SOURCE_BIAS = {
+    source_id: bias
+    for bias, sources in BIAS_SOURCES.items()
+    for source_id in sources
+}
+
+# Ordered bias spectrum (left to right)
+BIAS_SPECTRUM = [
+    "left",
+    "left-liberal",
+    "neutral",
+    "conservative-liberal",
+    "economic-liberal",
+    "right-conservative",
+    "populist-mixed",
+    "far-right",
+]
+
+
+# ── Data Sources ──────────────────────────────────
 DATA_SOURCES = ["newsapi", "bluesky", "youtube"]
 
 

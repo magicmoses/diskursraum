@@ -22,3 +22,7 @@ export const getSourceDeepDive = (sourceId, daysBack = 30) =>
   api.get(`/stats/source-deep-dive/${sourceId}?days_back=${daysBack}`).then(r => r.data)
 export const getLeftRightComparison = (daysBack = 14) =>
   api.get(`/stats/left-right-comparison?days_back=${daysBack}`).then(r => r.data)
+export const getEmotionsPerBias = () => api.get('/stats/emotions-per-bias').then(r => r.data)
+export const getEmotionsPerSource = () => api.get('/stats/emotions-per-source').then(r => r.data)
+export const getEmotionTrends = (daysBack = 14) => api.get(`/stats/emotion-trends?days_back=${daysBack}`).then(r => r.data)
+export const getLeftRightEmotions = () => api.get('/stats/left-right-emotions').then(r => r.data)

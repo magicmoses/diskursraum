@@ -5,12 +5,22 @@ from datetime import datetime
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.db")
 
-
 def get_conn():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
 
+def init_db():
+    """Ensures all required columns exist."""
+    conn = get_conn()
+    cols = [row[1] for row in conn.execute("PRAGMA table_info(articles)")]
+    if "sentiment" not in cols:
+        conn.execute("ALTER TABLE articles ADD COLUMN sentiment TEXT")
+        conn.commit()
+        print("✓ Migration: added sentiment column")
+    conn.close()
+
+init_db()
 
 # ── Overview ──────────────────────────────────────
 def get_overview():
@@ -529,6 +539,125 @@ def get_left_right_comparison(days_back: int = 14):
             "top_keywords": top_keywords,
             "sample_titles": [row["title"] for row in rows[:5]]
         }
+
+    conn.close()
+    return result
+
+# ── Emotions ──────────────────────────────────────
+def get_emotions_per_bias():
+    """Dominant emotion distribution per bias group."""
+    conn = get_conn()
+    try:
+        rows = conn.execute("""
+            SELECT bias, emotion, COUNT(*) as count
+            FROM articles
+            WHERE emotion IS NOT NULL
+            GROUP BY bias, emotion
+            ORDER BY bias, count DESC
+        """).fetchall()
+        conn.close()
+        return [
+            {"bias": row["bias"], "emotion": row["emotion"], "count": row["count"]}
+            for row in rows
+        ]
+    except Exception:
+        conn.close()
+        return []
+
+
+def get_emotions_per_source():
+    """Dominant emotion distribution per source."""
+    conn = get_conn()
+    try:
+        rows = conn.execute("""
+            SELECT source, bias, emotion, COUNT(*) as count
+            FROM articles
+            WHERE emotion IS NOT NULL
+            GROUP BY source, emotion
+            ORDER BY source, count DESC
+        """).fetchall()
+        conn.close()
+        return [
+            {
+                "source": row["source"],
+                "bias": row["bias"],
+                "emotion": row["emotion"],
+                "count": row["count"]
+            }
+            for row in rows
+        ]
+    except Exception:
+        conn.close()
+        return []
+
+
+def get_emotion_trends(days_back: int = 14):
+    """Emotion distribution over time (by day)."""
+    conn = get_conn()
+    try:
+        rows = conn.execute("""
+            SELECT
+                DATE(crawled_at) as date,
+                emotion,
+                COUNT(*) as count
+            FROM articles
+            WHERE emotion IS NOT NULL
+            AND crawled_at >= datetime('now', ?)
+            GROUP BY date, emotion
+            ORDER BY date ASC, count DESC
+        """, (f'-{days_back} days',)).fetchall()
+        conn.close()
+        return [
+            {"date": row["date"], "emotion": row["emotion"], "count": row["count"]}
+            for row in rows
+        ]
+    except Exception:
+        conn.close()
+        return []
+
+
+def get_left_right_emotions():
+    """
+    Emotion comparison: taz (left) vs Junge Freiheit (far-right) vs Welt (right-conservative).
+    Shows what emotions dominate in each outlet's reporting.
+    """
+    conn = get_conn()
+    sources = {
+        "taz": "left",
+        "junge_freiheit": "far-right",
+        "welt": "right-conservative"
+    }
+
+    result = {}
+    for source_id, bias in sources.items():
+        try:
+            rows = conn.execute("""
+                SELECT emotion, COUNT(*) as count
+                FROM articles
+                WHERE source_id = ?
+                AND emotion IS NOT NULL
+                GROUP BY emotion
+                ORDER BY count DESC
+            """, (source_id,)).fetchall()
+
+            total = sum(r["count"] for r in rows)
+            if total == 0:
+                continue
+
+            result[source_id] = {
+                "bias": bias,
+                "total": total,
+                "emotions": [
+                    {
+                        "emotion": row["emotion"],
+                        "count": row["count"],
+                        "pct": round(row["count"] * 100 / total, 1)
+                    }
+                    for row in rows[:8]
+                ]
+            }
+        except Exception:
+            continue
 
     conn.close()
     return result
