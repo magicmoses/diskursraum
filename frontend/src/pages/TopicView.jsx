@@ -29,7 +29,23 @@ const EMOTION_EMOJI = {
   disappointment: '😞', joy: '🎉', grief: '💔',
 }
 
-// ── Loading State ─────────────────────────────────
+// ── Helpers ───────────────────────────────────────
+function getBiasForSource(sourceId) {
+  const map = {
+    taz: 'left',
+    spiegel: 'left-liberal', zeit: 'left-liberal',
+    sz: 'left-liberal', stern: 'left-liberal',
+    tagesschau: 'neutral', zdf: 'neutral', dw: 'neutral',
+    faz: 'conservative-liberal', cicero: 'conservative-liberal',
+    welt: 'right-conservative', focus: 'right-conservative',
+    junge_freiheit: 'far-right',
+    handelsblatt: 'economic-liberal',
+    bild: 'populist-mixed',
+  }
+  return map[sourceId] || 'neutral'
+}
+
+// ── Sub-components ────────────────────────────────
 function LoadingState() {
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center gap-4">
@@ -39,8 +55,7 @@ function LoadingState() {
   )
 }
 
-// ── Empty State ───────────────────────────────────
-function EmptyState({ onBack }) {
+function EmptyState({ onBack, topicId }) {
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center gap-6 text-center px-4">
       <div className="text-5xl">🔄</div>
@@ -48,147 +63,29 @@ function EmptyState({ onBack }) {
         <p className="text-white font-semibold text-lg mb-2">Analyse noch nicht verfügbar</p>
         <p className="text-gray-400 text-sm max-w-sm">
           Dieses Thema wird beim nächsten täglichen ML-Run analysiert.
-          Schau später nochmal vorbei.
         </p>
       </div>
-      <button
-        onClick={onBack}
-        className="text-sm text-blue-400 hover:text-blue-300 transition-colors"
-      >
+      <button onClick={onBack} className="text-sm text-blue-400 hover:text-blue-300 transition-colors">
         ← Zurück zur Übersicht
       </button>
     </div>
   )
 }
 
-// ── Bridging Card ─────────────────────────────────
-function BridgingCard({ article, rank }) {
-  const bias = BIAS_COLORS[article.bias] || BIAS_COLORS['neutral']
-  const scorePercent = Math.min(article.bridging_score * 300, 100)
-
-  return (
-    <article className="group bg-gray-900/60 border border-gray-800 rounded-2xl p-5 hover:border-gray-600 hover:bg-gray-900 transition-all duration-200">
-      <div className="flex gap-4">
-
-        {/* Rank */}
-        <div className="shrink-0 w-8 pt-0.5">
-          <span className="text-xl font-bold text-gray-700 group-hover:text-gray-500 transition-colors">
-            {rank}
-          </span>
-        </div>
-
-        {/* Content */}
-        <div className="flex-1 min-w-0">
-          <h3 className="text-white font-medium leading-snug mb-3 group-hover:text-blue-100 transition-colors">
-            {article.title}
-          </h3>
-
-          {/* Meta row */}
-          <div className="flex items-center gap-2 flex-wrap">
-            <span
-              className="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-md font-medium"
-              style={{ background: bias.bg, color: bias.text }}
-            >
-              {bias.label}
-            </span>
-            <span className="text-gray-500 text-xs">{article.source}</span>
-            {article.emotion && article.emotion !== 'neutral' && (
-              <span className="text-gray-500 text-xs">
-                {EMOTION_EMOJI[article.emotion] || ''} {article.emotion}
-              </span>
-            )}
-            {article.url && (
-
-              <button
-                onClick={() => window.open(article.url, '_blank')}
-                className="text-xs text-blue-500 hover:text-blue-400 transition-colors ml-auto"
-              >
-                Lesen →
-              </button>
-            )}
-          </div>
-
-          {/* Score bar */}
-          <div className="mt-3 flex items-center gap-3">
-            <div className="flex-1 bg-gray-800 rounded-full h-1">
-              <div
-                className="h-1 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 transition-all duration-500"
-                style={{ width: `${scorePercent}%` }}
-              />
-            </div>
-            <span className="text-blue-400 text-xs font-mono shrink-0">
-              {(article.bridging_score * 100).toFixed(1)}
-            </span>
-          </div>
-        </div>
-
-      </div>
-    </article >
-  )
-}
-
-// ── Cluster Card ──────────────────────────────────
-function ClusterCard({ cluster }) {
-  const bias = BIAS_COLORS[cluster.bias] || BIAS_COLORS['neutral']
-  const sources = Object.entries(cluster.sources || {})
-
-  return (
-    <div
-      className="rounded-2xl p-5 border"
-      style={{ borderColor: bias.bg, background: `${bias.bg}18` }}
-    >
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-2">
-          <span
-            className="w-2.5 h-2.5 rounded-full shrink-0"
-            style={{ background: bias.text }}
-          />
-          <span className="font-semibold text-white">{bias.label}</span>
-        </div>
-        <span className="text-xs font-mono" style={{ color: bias.text }}>
-          {cluster.article_count} Artikel
-        </span>
-      </div>
-
-      {/* Sources */}
-      <div className="flex flex-wrap gap-1.5 mb-4">
-        {sources.map(([sourceId, articles]) => (
-          <span
-            key={sourceId}
-            className="text-xs px-2 py-1 rounded-lg"
-            style={{ background: `${bias.bg}60`, color: bias.text }}
-          >
-            {articles[0]?.source} · {articles.length}
-          </span>
-        ))}
-      </div>
-
-      {/* Sample titles */}
-      <div className="space-y-1.5 border-t border-white/5 pt-3">
-        {cluster.sample_titles?.slice(0, 3).map((title, i) => (
-          <p key={i} className="text-xs text-gray-400 truncate leading-relaxed">
-            <span className="text-gray-600 mr-1.5">·</span>{title}
-          </p>
-        ))}
-      </div>
-    </div>
-  )
-}
-
-// ── Spectrum Bar ──────────────────────────────────
-function SpectrumBar({ clusters }) {
-  const total = Object.values(clusters).reduce((s, c) => s + c.article_count, 0)
+function SpectrumBar({ biasDistribution }) {
+  const total = Object.values(biasDistribution).reduce((s, c) => s + c, 0)
   if (total === 0) return null
+
+  const ordered = BIAS_SPECTRUM.filter(b => biasDistribution[b])
 
   return (
     <div className="bg-gray-900/60 border border-gray-800 rounded-2xl p-5">
       <p className="text-xs text-gray-500 uppercase tracking-wider mb-3">
-        Politisches Spektrum
+        Politisches Spektrum der Berichterstattung
       </p>
       <div className="flex rounded-full overflow-hidden h-3 gap-px">
-        {BIAS_SPECTRUM.filter(b => clusters[b]).map(b => {
-          const cluster = clusters[b]
-          const pct = (cluster.article_count / total * 100).toFixed(1)
+        {ordered.map(b => {
+          const pct = (biasDistribution[b] / total * 100).toFixed(1)
           const bias = BIAS_COLORS[b]
           return (
             <div
@@ -204,6 +101,90 @@ function SpectrumBar({ clusters }) {
         <span className="text-xs text-blue-400">Links</span>
         <span className="text-xs text-red-400">Rechts</span>
       </div>
+      <div className="flex flex-wrap gap-2 mt-3">
+        {ordered.map(b => {
+          const pct = (biasDistribution[b] / total * 100).toFixed(0)
+          const bias = BIAS_COLORS[b]
+          return (
+            <span
+              key={b}
+              className="text-xs px-2 py-0.5 rounded-full"
+              style={{ background: bias.bg, color: bias.text }}
+            >
+              {bias.label} {pct}%
+            </span>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+function SynthesisCard({ shared, controversial }) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="bg-blue-950/40 border border-blue-800/40 rounded-2xl p-5">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-lg">🤝</span>
+          <span className="text-sm font-semibold text-blue-300">Gemeinsame Perspektiven</span>
+        </div>
+        <p className="text-gray-300 text-sm leading-relaxed">{shared}</p>
+      </div>
+      <div className="bg-red-950/30 border border-red-800/30 rounded-2xl p-5">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-lg">⚡</span>
+          <span className="text-sm font-semibold text-red-300">Kontroverse Punkte</span>
+        </div>
+        <p className="text-gray-300 text-sm leading-relaxed">{controversial}</p>
+      </div>
+    </div>
+  )
+}
+
+function OutletCard({ outlet }) {
+  const bias = BIAS_COLORS[outlet.bias] || BIAS_COLORS['neutral']
+  const emotion = outlet.dominant_emotion
+
+  return (
+    <div className="bg-gray-900/60 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition-colors">
+
+      {/* Header */}
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <span
+            className="w-2 h-2 rounded-full shrink-0"
+            style={{ background: bias.text }}
+          />
+          <span className="font-semibold text-white text-sm">{outlet.source}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          {emotion && emotion !== 'neutral' && (
+            <span className="text-xs text-gray-500">
+              {EMOTION_EMOJI[emotion] || ''} {emotion}
+            </span>
+          )}
+          <span
+            className="text-xs px-2 py-0.5 rounded-full"
+            style={{ background: bias.bg, color: bias.text }}
+          >
+            {outlet.article_count} Art.
+          </span>
+        </div>
+      </div>
+
+      {/* Sample titles */}
+      <div className="space-y-1.5">
+        {outlet.sample_titles?.slice(0, 3).map((title, i) => (
+          <p
+            key={i}
+            className="text-xs text-gray-400 leading-relaxed line-clamp-2"
+            style={{ borderLeft: `2px solid ${bias.bg}`, paddingLeft: '8px' }}
+          >
+            {title}
+          </p>
+        ))}
+      </div>
+
     </div>
   )
 }
@@ -214,7 +195,7 @@ export default function TopicView() {
   const navigate = useNavigate()
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
-  const [activeTab, setActiveTab] = useState('bridging')
+  const [activeTab, setActiveTab] = useState('overview')
 
   useEffect(() => {
     setLoading(true)
@@ -225,21 +206,26 @@ export default function TopicView() {
   }, [topicId])
 
   if (loading) return <LoadingState />
+  if (!data || data.error) return <EmptyState onBack={() => navigate('/')} topicId={topicId} />
 
-  if (!data || data.error) return <EmptyState onBack={() => navigate('/')} />
+  const outlets = data.outlets || {}
+  const outletList = Object.values(outlets)
 
-  const clusters = data.bias_clusters || {}
-  const orderedClusters = BIAS_SPECTRUM
-    .filter(b => clusters[b])
-    .map(b => clusters[b])
+  // Group outlets by bias spectrum order
+  const outletsByBias = {}
+  outletList.forEach(outlet => {
+    const bias = outlet.bias || getBiasForSource(outlet.source_id)
+    if (!outletsByBias[bias]) outletsByBias[bias] = []
+    outletsByBias[bias].push(outlet)
+  })
 
   const tabs = [
-    { id: 'bridging', label: '🌉 Bridging' },
-    { id: 'clusters', label: '🗂 Cluster' },
+    { id: 'overview', label: '📊 Überblick' },
+    { id: 'outlets', label: '🗞 Medienhäuser' },
   ]
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6 pb-16">
+    <div className="max-w-4xl mx-auto space-y-6 pb-16">
 
       {/* Back */}
       <button
@@ -252,10 +238,10 @@ export default function TopicView() {
       {/* Header */}
       <div>
         <h1 className="text-3xl font-bold text-white mb-2">{data.topic_label}</h1>
-        <div className="flex items-center gap-3 text-xs text-gray-500">
-          <span>{data.article_count} Artikel</span>
+        <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap">
+          <span>{data.article_count} relevante Artikel</span>
           <span>·</span>
-          <span>{Object.keys(clusters).length} Bias-Gruppen</span>
+          <span>{outletList.length} Medienhäuser</span>
           <span>·</span>
           <span>
             Stand: {data.cached_at
@@ -268,7 +254,17 @@ export default function TopicView() {
       </div>
 
       {/* Spectrum Bar */}
-      <SpectrumBar clusters={clusters} />
+      {data.bias_distribution && (
+        <SpectrumBar biasDistribution={data.bias_distribution} />
+      )}
+
+      {/* Synthesis */}
+      {data.shared_perspectives && data.controversial_points && (
+        <SynthesisCard
+          shared={data.shared_perspectives}
+          controversial={data.controversial_points}
+        />
+      )}
 
       {/* Tabs */}
       <div className="flex gap-1 bg-gray-900/60 border border-gray-800 rounded-xl p-1">
@@ -286,43 +282,63 @@ export default function TopicView() {
         ))}
       </div>
 
-      {/* Tab: Bridging Statements */}
-      {activeTab === 'bridging' && (
-        <div className="space-y-3">
+      {/* Tab: Überblick */}
+      {activeTab === 'overview' && (
+        <div className="space-y-4">
           <p className="text-gray-500 text-sm leading-relaxed">
-            Aussagen die über ideologisch unterschiedliche Gruppen hinweg Zustimmung finden —
-            nicht nur innerhalb der eigenen Echo-Kammer.
+            Wie viel berichtet jede politische Gruppe über dieses Thema?
           </p>
-          {data.top_bridging_statements?.length > 0
-            ? data.top_bridging_statements.map((article, i) => (
-              <BridgingCard key={i} article={article} rank={i + 1} />
-            ))
-            : (
-              <div className="text-center py-12 text-gray-500">
-                Keine Bridging Statements gefunden.
+          {BIAS_SPECTRUM.filter(b => outletsByBias[b]).map(b => {
+            const bias = BIAS_COLORS[b]
+            const groupOutlets = outletsByBias[b]
+            const groupTotal = groupOutlets.reduce((s, o) => s + o.article_count, 0)
+
+            return (
+              <div
+                key={b}
+                className="rounded-xl p-4 border"
+                style={{ borderColor: `${bias.bg}80`, background: `${bias.bg}18` }}
+              >
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2.5 h-2.5 rounded-full" style={{ background: bias.text }} />
+                    <span className="font-semibold text-white text-sm">{bias.label}</span>
+                    <span className="text-xs text-gray-500">
+                      ({groupOutlets.map(o => o.source).join(', ')})
+                    </span>
+                  </div>
+                  <span className="text-xs font-mono" style={{ color: bias.text }}>
+                    {groupTotal} Artikel
+                  </span>
+                </div>
+
+                {/* Top titles from this group */}
+                <div className="space-y-1">
+                  {groupOutlets.flatMap(o => o.sample_titles || []).slice(0, 3).map((title, i) => (
+                    <p key={i} className="text-xs text-gray-400 truncate">
+                      <span className="text-gray-600 mr-1.5">·</span>{title}
+                    </p>
+                  ))}
+                </div>
               </div>
             )
-          }
+          })}
         </div>
       )}
 
-      {/* Tab: Bias Clusters */}
-      {activeTab === 'clusters' && (
+      {/* Tab: Medienhäuser */}
+      {activeTab === 'outlets' && (
         <div className="space-y-3">
           <p className="text-gray-500 text-sm leading-relaxed">
-            Wie verschiedene Medien-Bias-Gruppen dieses Thema behandeln.
-            Geordnet von links nach rechts auf dem politischen Spektrum.
+            Detailansicht pro Medienhaus — Artikel-Anzahl, dominante Emotion und Beispiel-Titel.
           </p>
-          {orderedClusters.length > 0
-            ? orderedClusters.map(cluster => (
-              <ClusterCard key={cluster.bias} cluster={cluster} />
-            ))
-            : (
-              <div className="text-center py-12 text-gray-500">
-                Keine Cluster-Daten verfügbar.
-              </div>
-            )
-          }
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {BIAS_SPECTRUM.flatMap(b =>
+              (outletsByBias[b] || []).map(outlet => (
+                <OutletCard key={outlet.source_id} outlet={outlet} />
+              ))
+            )}
+          </div>
         </div>
       )}
 

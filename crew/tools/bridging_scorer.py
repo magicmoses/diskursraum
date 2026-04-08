@@ -15,6 +15,7 @@ Pipeline:
 import os
 import sys
 import json
+import re
 import sqlite3
 import pickle
 import numpy as np
@@ -80,7 +81,7 @@ TOPIC_KEYWORDS = {
         "riester rente", "betriebliche altersvorsorge",
         "rentensystem", "rentenversprechen",
         "frühverrentung", "frühzeitig in rente",
-        "grundrente", "mindestrentenr",
+        "grundrente", "mindestrente",
         "rentenkommission", "rentenberater",
     ],
     "wealth_tax": [
@@ -165,6 +166,37 @@ TOPIC_DESCRIPTIONS = {
 }
 
 GROQ_MODEL = "llama-3.3-70b-versatile"
+OLLAMA_MODEL = "llama3.1"
+
+
+# ── Unified LLM Call ──────────────────────────────
+def call_llm(prompt: str, max_tokens: int = 300) -> str:
+    """
+    Unified LLM call — uses Ollama or Groq based on LLM_PROVIDER env variable.
+    Defaults to Groq if not set.
+    """
+    provider = os.getenv("LLM_PROVIDER", "groq").lower()
+
+    if provider == "ollama":
+        import requests as req
+        base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+        model = os.getenv("OLLAMA_MODEL", OLLAMA_MODEL)
+        response = req.post(
+            f"{base_url}/api/generate",
+            json={"model": model, "prompt": prompt, "stream": False},
+            timeout=120
+        )
+        return response.json().get("response", "")
+    else:
+        from groq import Groq
+        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=max_tokens,
+        )
+        return response.choices[0].message.content.strip()
 
 
 # ── DB Setup ──────────────────────────────────────
@@ -256,21 +288,15 @@ def load_topic_articles(topic_id: str, db_path: str = DB_PATH) -> list[dict]:
 
 
 # ── Step 2: LLM Relevance Filter ─────────────────
-def llm_relevance_filter(articles: list[dict], topic_id: str, batch_size: int = 30) -> list[dict]:
+def llm_relevance_filter(
+    articles: list[dict], topic_id: str, batch_size: int = 30
+) -> list[dict]:
     """
-    Uses Groq LLM to filter articles by actual relevance to topic.
-    Sends batches of titles to LLM — asks which are truly about the topic.
+    Filters articles by actual relevance to topic using LLM.
+    Sends batches of titles — asks which are truly about the topic.
     Falls back to all articles if LLM fails.
     """
     topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
-
-    try:
-        from groq import Groq
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-    except Exception as e:
-        print(f"  ⚠ Groq not available: {e} — skipping LLM filter")
-        return articles
-
     relevant = []
     total_batches = (len(articles) + batch_size - 1) // batch_size
 
@@ -297,24 +323,19 @@ Example: [1, 3, 5, 7]
 If none are relevant, return: []"""
 
         try:
-            response = client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.0,
-                max_tokens=200,
-            )
-            raw = response.choices[0].message.content.strip()
-
-            import re
+            raw = call_llm(prompt, max_tokens=200)
             match = re.search(r'\[.*?\]', raw, re.DOTALL)
             if match:
                 indices = json.loads(match.group())
+                added = 0
                 for idx in indices:
                     if isinstance(idx, int) and 1 <= idx <= len(batch):
                         relevant.append(batch[idx - 1])
-
-            print(f"  Batch {batch_num}/{total_batches}: {len(indices) if match else 0}/{len(batch)} relevant")
-
+                        added += 1
+                print(f"  Batch {batch_num}/{total_batches}: {added}/{len(batch)} relevant")
+            else:
+                print(f"  Batch {batch_num}/{total_batches}: no valid JSON — including all")
+                relevant.extend(batch)
         except Exception as e:
             print(f"  ⚠ Batch {batch_num} failed: {e} — including all")
             relevant.extend(batch)
@@ -324,10 +345,7 @@ If none are relevant, return: []"""
 
 # ── Step 3: Per-Outlet Aggregation ───────────────
 def aggregate_by_outlet(articles: list[dict]) -> dict:
-    """
-    Aggregates relevant articles per media outlet.
-    Shows volume, dominant emotion, sample titles.
-    """
+    """Aggregates relevant articles per media outlet."""
     outlets = {}
 
     for article in articles:
@@ -358,7 +376,6 @@ def aggregate_by_outlet(articles: list[dict]) -> dict:
             if article.get("url"):
                 outlets[source_id]["urls"].append(article["url"])
 
-    # Compute dominant emotion per outlet
     for outlet in outlets.values():
         if outlet["emotions"]:
             outlet["dominant_emotion"] = max(
@@ -373,7 +390,6 @@ def aggregate_by_outlet(articles: list[dict]) -> dict:
             outlet["top_emotions"] = []
         del outlet["emotions"]
 
-    # Sort by article count
     return dict(sorted(
         outlets.items(),
         key=lambda x: x[1]["article_count"],
@@ -384,12 +400,11 @@ def aggregate_by_outlet(articles: list[dict]) -> dict:
 # ── Step 4: LLM Synthesis ─────────────────────────
 def llm_synthesize(articles: list[dict], topic_id: str) -> dict:
     """
-    Uses LLM to identify shared perspectives and controversial points
-    across different media outlets.
+    Identifies shared perspectives and controversial points
+    across different media outlets using LLM.
     """
     topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
 
-    # Build sample: top 3 titles per bias group
     bias_samples = {}
     for article in articles:
         bias = article.get("bias", "unknown")
@@ -424,17 +439,7 @@ Format your response as JSON:
 Be specific and insightful. Reference actual content from the titles."""
 
     try:
-        from groq import Groq
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-        response = client.chat.completions.create(
-            model=GROQ_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3,
-            max_tokens=300,
-        )
-        raw = response.choices[0].message.content.strip()
-
-        import re
+        raw = call_llm(prompt, max_tokens=400)
         raw = re.sub(r'```json|```', '', raw).strip()
         match = re.search(r'\{.*?\}', raw, re.DOTALL)
         if match:
@@ -443,8 +448,12 @@ Be specific and insightful. Reference actual content from the titles."""
                 "shared_perspectives": result.get("shared", ""),
                 "controversial_points": result.get("controversial", ""),
             }
+        else:
+            print(f"  ⚠ Synthesis: no valid JSON in response")
     except Exception as e:
         print(f"  ⚠ Synthesis failed: {e}")
+        import traceback
+        traceback.print_exc()
 
     return {
         "shared_perspectives": "Synthese nicht verfügbar.",
@@ -454,17 +463,10 @@ Be specific and insightful. Reference actual content from the titles."""
 
 # ── Main Analysis ─────────────────────────────────
 def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
-    """
-    Full Medienspiegel analysis pipeline:
-    1. Broad retrieval
-    2. LLM relevance filter
-    3. Per-outlet aggregation
-    4. LLM synthesis
-    """
+    """Full Medienspiegel analysis pipeline."""
     print(f"\n🔍 Analyzing: {topic_id}")
     init_db(db_path)
 
-    # Step 1: Broad retrieval
     candidates = load_topic_articles(topic_id, db_path)
     print(f"  → {len(candidates)} candidates retrieved")
 
@@ -475,7 +477,6 @@ def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
             "article_count": len(candidates)
         }
 
-    # Step 2: LLM relevance filter
     print(f"  → Running LLM relevance filter...")
     relevant = llm_relevance_filter(candidates, topic_id)
     print(f"  → {len(relevant)} relevant articles after filtering")
@@ -484,15 +485,12 @@ def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
         print(f"  ⚠ Too few after filtering — using all candidates")
         relevant = candidates
 
-    # Step 3: Per-outlet aggregation
     outlets = aggregate_by_outlet(relevant)
     print(f"  → {len(outlets)} outlets represented")
 
-    # Step 4: LLM synthesis
     print(f"  → Generating synthesis...")
     synthesis = llm_synthesize(relevant, topic_id)
 
-    # Bias spectrum distribution
     bias_dist = {}
     for article in relevant:
         bias = article.get("bias", "unknown")
@@ -518,6 +516,7 @@ def compute_all_topics(db_path: str = DB_PATH):
     init_db(db_path)
     print("\n🦞 ConsensusAgent — Medienspiegel Analysis")
     print(f"   Topics: {list(TOPICS.keys())}\n")
+    print(f"   LLM Provider: {os.getenv('LLM_PROVIDER', 'groq').upper()}\n")
 
     success = 0
     failed = 0
