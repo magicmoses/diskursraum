@@ -1,56 +1,43 @@
-# ── Topics ────────────────────────────────────────
-# Separated from config.py so crawler can import
-# without requiring crewai or other heavy dependencies
+"""
+topics.py — Core discussion topics for ConsensusAgent
+
+These topics represent polarizing societal debates in Germany
+where bridging statements across ideological groups are most valuable.
+"""
 
 TOPICS = {
     "migration": {
-        "label": "Migration & Asylum Policy",
-        "emoji": "🇩🇪",
-        "newsapi_keywords": ["Migration", "Asylpolitik", "Flüchtlinge", "Einwanderung", "Asyl"]
+        "label": "Migration & Asylpolitik",
+        "description": "Einwanderung, Asylrecht und Integration — eines der polarisierendsten Themen Deutschlands",
+        "emoji": "🌍",
     },
-    "basic_income": {
-        "label": "Unconditional Basic Income",
-        "emoji": "💰",
-        "newsapi_keywords": ["Grundeinkommen", "BGE", "Basic Income", "bedingungsloses Grundeinkommen"]
+    "energy_transition": {
+        "label": "Energiewende",
+        "description": "Atomkraft, erneuerbare Energien und Klimapolitik — zwischen Versorgungssicherheit und Klimaschutz",
+        "emoji": "⚡",
     },
-    "nuclear_energy": {
-        "label": "Nuclear Energy",
-        "emoji": "⚛️",
-        "newsapi_keywords": ["Atomkraft", "Kernenergie", "nuclear energy", "AKW", "Kernkraft"]
-    },
-    "military_service": {
-        "label": "Mandatory Military Service",
-        "emoji": "🪖",
-        "newsapi_keywords": ["Wehrpflicht", "Bundeswehr", "Wehrdienst", "mandatory military"]
-    },
-    "retirement_age": {
-        "label": "Retirement at 70",
+    "retirement": {
+        "label": "Rente & Altersvorsorge",
+        "description": "Rentenpolitik, Rentenalter und Generationengerechtigkeit als gesellschaftliche Dauerdebatte",
         "emoji": "👴",
-        "newsapi_keywords": ["Rente mit 70", "Renteneintrittsalter", "Rentenreform", "Rente", "Rentenalter"]
-    },
-    "speed_limit": {
-        "label": "Autobahn Speed Limit",
-        "emoji": "🚗",
-        "newsapi_keywords": ["Tempolimit", "Autobahn", "Geschwindigkeitsbegrenzung", "130 km/h"]
-    },
-    "euthanasia": {
-        "label": "Assisted Dying",
-        "emoji": "💉",
-        "newsapi_keywords": ["Sterbehilfe", "Euthanasie", "assistierter Suizid", "Sterbebegleitung"]
     },
     "wealth_tax": {
-        "label": "Wealth Tax",
+        "label": "Vermögenssteuer & Umverteilung",
+        "description": "Besteuerung großer Vermögen, Erbschaftssteuer und soziale Gerechtigkeit",
         "emoji": "💸",
-        "newsapi_keywords": ["Vermögenssteuer", "Reichensteuer", "wealth tax", "Vermögensabgabe"]
     },
-    "ai_jobs": {
-        "label": "AI Replacing Jobs",
+    "digitalization": {
+        "label": "Digitale Transformation & KI",
+        "description": "Digitalisierung, Künstliche Intelligenz und gesellschaftlicher Wandel durch Technologie",
         "emoji": "🤖",
-        "newsapi_keywords": ["KI Arbeitsplätze", "Automatisierung", "AI jobs", "KI ersetzt", "Jobverlust KI"]
     },
-    "ai_regulation": {
-        "label": "AI Regulation & Ethics",
-        "emoji": "🧠",
-        "newsapi_keywords": ["KI Regulierung", "AI regulation", "EU AI Act", "KI Ethik", "Künstliche Intelligenz Gesetz"]
-    },
+}
+
+FUTURE_TOPICS = {
+    "basic_income":   "Grundeinkommen & Bürgergeld",
+    "military_service": "Wehrpflicht",
+    "speed_limit":    "Tempolimit Autobahn",
+    "euthanasia":     "Sterbehilfe",
+    "ai_regulation":  "KI Regulierung (EU AI Act)",
+    "ai_jobs":        "KI & Arbeitsmarkt",
 }

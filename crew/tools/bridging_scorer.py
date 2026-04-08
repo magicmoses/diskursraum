@@ -1,30 +1,15 @@
 """
-bridging_scorer.py — Two-Level Bridging Score with Pre-computation Cache
+bridging_scorer.py — Medienspiegel Analysis Pipeline
 
-Conceptually inspired by Taiwan's Pol.is bridging algorithm.
-Applied to German news media using bias groups as opinion clusters.
+Inspired by Plurality (Audrey Tang, Glen Weyl) and Taiwan's Pol.is platform.
+Goal: Transparency about media diversity in an increasingly polarized discourse.
 
-Two-Level Bridging Score:
-  Level 1 — Bias-Group Bridging (70%):
-    How similar is this article to articles from OTHER bias groups?
-    e.g. taz article similar to FAZ articles → high bias-bridging
-
-  Level 2 — Source Bridging (30%):
-    How similar is this article to articles from OTHER sources
-    within the same bias group?
-    e.g. taz article similar to how Spiegel covers the same topic
-
-  Final Score = 0.7 * bias_bridging + 0.3 * source_bridging
-
-Caching:
-  Results pre-computed and stored in DB (analysis_results table).
-  Frontend loads cached JSON → no waiting time.
-  GitHub Actions re-computes daily after crawl.
-
-Future Work (Option C):
-  LLM-based frame extraction before clustering would produce
-  argument-level clusters instead of media-bias clusters.
-  See README for details.
+Pipeline:
+  1. Broad retrieval — keywords against title + text
+  2. LLM relevance filter — "Is this article really about topic X?"
+  3. Per-outlet aggregation — emotion, volume, sample titles
+  4. LLM synthesis — shared perspectives + controversial points
+  5. Cache results in DB for fast frontend delivery
 """
 
 import os
@@ -34,7 +19,9 @@ import sqlite3
 import pickle
 import numpy as np
 from datetime import datetime
-from sklearn.metrics.pairwise import cosine_similarity
+from dotenv import load_dotenv
+
+load_dotenv()
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from config import BIAS_SOURCES, SOURCE_BIAS, BIAS_SPECTRUM
@@ -44,31 +31,155 @@ DB_PATH = os.path.join(
     os.path.dirname(__file__), "..", "..", "data", "news.db"
 )
 
-# Topic keyword map for article retrieval
 TOPIC_KEYWORDS = {
-    "migration":        ["migration", "asyl", "flüchtlinge", "einwanderung", "migrant"],
-    "basic_income":     ["grundeinkommen", "bge", "basic income", "bedingungsloses"],
-    "nuclear_energy":   ["atomkraft", "kernenergie", "akw", "kernkraft"],
-    "military_service": ["wehrpflicht", "bundeswehr", "wehrdienst"],
-    "retirement_age":   ["rente", "renteneintritt", "rentenalter", "rentenreform"],
-    "speed_limit":      ["tempolimit", "autobahn", "geschwindigkeit"],
-    "euthanasia":       ["sterbehilfe", "euthanasie", "sterbebegleitung"],
-    "wealth_tax":       ["vermögenssteuer", "reichensteuer", "vermögensabgabe"],
-    "ai_jobs":          ["ki arbeitsplätze", "automatisierung", "ki ersetzt", "jobverlust"],
-    "ai_regulation":    ["ki regulierung", "ai regulation", "eu ai act", "ki ethik"],
+    "migration": [
+        "migration", "migrationspolitik", "migranten", "migrant",
+        "asyl", "asylpolitik", "asylbewerber", "asylrecht", "asylverfahren",
+        "asylantrag", "asylsuchende", "asylunterkunft",
+        "flüchtlinge", "flüchtlingspolitik", "flüchtlingskrise",
+        "flüchtlingsunterkunft", "flüchtlingsheim",
+        "einwanderung", "einwanderungsgesetz", "einwanderungsland",
+        "abschiebung", "abschiebungen", "abschiebestopp", "abschiebehaft",
+        "geflüchtete", "schutzsuchende", "schutzstatus",
+        "grenzschutz", "grenzkontrollen", "grenzöffnung",
+        "migrationsdebatte", "zuwanderung", "zuwanderer",
+        "aufenthaltsrecht", "aufenthaltserlaubnis", "bleiberecht",
+        "integration", "integrationspolitik", "integrationsgesetz",
+        "illegale einwanderung", "irreguläre migration",
+        "dublin abkommen", "seenotrettung",
+        "syrien rückkehr", "afghanen", "afghanen abschiebung",
+    ],
+    "energy_transition": [
+        "energiewende", "energie wende",
+        "erneuerbare energien", "erneuerbare",
+        "atomkraft", "atomausstieg", "atomenergie",
+        "kernenergie", "kernkraft", "kernkraftwerk", "akw",
+        "solarenergie", "solaranlage", "photovoltaik", "solarpanel",
+        "windenergie", "windkraft", "windrad", "windräder", "windpark",
+        "offshore wind", "onshore wind",
+        "kohleausstieg", "kohleenergie", "braunkohle", "steinkohle",
+        "klimaneutral", "co2 neutralität", "netto null", "treibhausgase",
+        "energiepolitik", "klimapolitik", "klimaschutzgesetz",
+        "strompreise", "energiekosten", "energieversorgung",
+        "gasversorgung", "gaspreise", "flüssiggas", "lng",
+        "wasserstoff", "grüner wasserstoff",
+        "stromnetz", "netzausbau", "energiespeicher",
+        "wärmepumpe", "heizungsgesetz", "gebäudeenergiegesetz",
+        "klimapaket", "klimaziele",
+    ],
+    "retirement": [
+        "rente", "rentenpolitik", "rentenreform", "rentenpaket",
+        "rentenalter", "renteneintrittsalter",
+        "rente mit 63", "rente mit 67", "rente mit 70",
+        "rentenerhöhung", "rentenanpassung", "rentenniveau",
+        "rentenlücke", "rentenkürzung", "rentenfinanzierung",
+        "altersarmut", "altersvorsorge", "altersrente",
+        "gesetzliche rentenversicherung", "rentenversicherung",
+        "generationenvertrag", "demographischer wandel",
+        "aktienrente", "kapitalgedeckte rente",
+        "riester rente", "betriebliche altersvorsorge",
+        "rentensystem", "rentenversprechen",
+        "frühverrentung", "frühzeitig in rente",
+        "grundrente", "mindestrentenr",
+        "rentenkommission", "rentenberater",
+    ],
+    "wealth_tax": [
+        "vermögenssteuer", "reichensteuer", "vermögensabgabe",
+        "millionärssteuer", "milliardärssteuer", "milliardäre steuer",
+        "superreiche", "ultrareiche", "hochvermögende",
+        "vermögensungleichheit", "vermögensverteilung",
+        "umverteilung", "umverteilungspolitik",
+        "erbschaftssteuer", "erbschaftsteuer", "erbschaftssteuerreform",
+        "schenkungssteuer",
+        "steuergerechtigkeit", "steuerreform", "steuererhöhung",
+        "spitzensteuersatz", "einkommensteuer erhöhung",
+        "kapitalertragsteuer", "abgeltungssteuer",
+        "finanztransaktionssteuer", "börsenumsatzsteuer",
+        "steuerparadies", "steueroasen", "steuervermeidung",
+        "vermögen ungleichheit", "reichtumsverteilung",
+        "soziale ungleichheit", "schere arm reich",
+    ],
+    "digitalization": [
+        "digitalisierung", "digitale transformation", "digitalstrategie",
+        "künstliche intelligenz", "ki", "chatgpt", "llm", "sprachmodell",
+        "maschinelles lernen", "deep learning", "neural network",
+        "automatisierung", "robotisierung", "automatisiert",
+        "digitale infrastruktur", "breitbandausbau", "glasfaser", "5g",
+        "e-government", "digitale verwaltung", "onlinezugangsgesetz", "ozg",
+        "industrie 4.0", "smart factory", "internet of things",
+        "datenschutz", "dsgvo", "datensouveränität", "datensicherheit",
+        "cybersicherheit", "cyberangriff", "cyberkriminalität", "hacker",
+        "digitale bildung", "ki bildung", "coding", "programmieren",
+        "eu ai act", "ki regulierung", "ki gesetz", "algorithmus",
+        "plattformökonomie", "big tech", "digitalsteuer", "plattformsteuer",
+        "arbeitsmarkt digitalisierung", "ki arbeitsplätze", "ki jobs",
+        "social media", "desinformation", "fake news digital",
+        "blockchain", "kryptowährung", "bitcoin",
+        "cloud computing", "saas", "digitale souveränität",
+        "quantencomputer", "chip industrie", "halbleiter",
+    ],
 }
+
+TOPIC_DESCRIPTIONS = {
+    "migration": (
+        "Migration und Asylpolitik in Deutschland. Dieser Themenbereich umfasst die gesamte "
+        "Debatte rund um Einwanderung, Asylrecht und Asylverfahren, Abschiebungen und "
+        "Rückführungen, die Integration von Geflüchteten und Migranten, Grenzkontrollen, "
+        "sowie politische Positionen von Parteien zur Migrationspolitik. Auch Artikel über "
+        "konkrete Ereignisse wie Abschiebungen nach Syrien oder Afghanistan, Debatten über "
+        "das Asylrecht oder Berichte über Flüchtlingsunterkünfte gehören dazu."
+    ),
+    "energy_transition": (
+        "Die deutsche Energiewende und Klimapolitik. Dazu gehören Debatten über Atomkraft "
+        "und Atomausstieg, den Ausbau erneuerbarer Energien wie Wind- und Solarenergie, "
+        "den Kohleausstieg, Strompreise und Energieversorgungssicherheit, Klimaschutzziele "
+        "und CO2-Neutralität, das Heizungsgesetz, Wasserstofftechnologie sowie die "
+        "politische und gesellschaftliche Debatte über den richtigen Energiemix für Deutschland."
+    ),
+    "retirement": (
+        "Das deutsche Rentensystem und die Debatte um Altersvorsorge. Dieser Themenbereich "
+        "umfasst Rentenreformen und Rentenerhöhungen, das Renteneintrittsalter und Debatten "
+        "über Rente mit 63, 67 oder 70, Altersarmut und Rentenlücken, die Aktienrente und "
+        "kapitalgedeckte Vorsorge, den demographischen Wandel als Herausforderung für das "
+        "Rentensystem, die Riester-Rente sowie grundsätzliche Fragen zur "
+        "Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung."
+    ),
+    "wealth_tax": (
+        "Vermögenssteuer, Umverteilung und Steuergerechtigkeit in Deutschland. Dazu gehören "
+        "Forderungen nach einer Vermögenssteuer oder Reichensteuer, Debatten über die "
+        "Erbschaftssteuer und deren Reform, Diskussionen über den Spitzensteuersatz und "
+        "Einkommensteuerpolitik, die Frage der Besteuerung von Superreichen und "
+        "Milliardären, Steuervermeidung und Steueroasen, sowie grundsätzliche "
+        "gesellschaftliche Debatten über Vermögensungleichheit und die Schere zwischen "
+        "Arm und Reich in Deutschland."
+    ),
+    "digitalization": (
+        "Digitalisierung, Künstliche Intelligenz und digitale Transformation in Deutschland "
+        "und Europa. Dieser Themenbereich umfasst KI-Entwicklungen und Large Language Models, "
+        "die Digitalisierung von Verwaltung und Wirtschaft, Datenschutz und Cybersicherheit, "
+        "den Breitbandausbau und digitale Infrastruktur, den EU AI Act und KI-Regulierung, "
+        "Automatisierung und deren Auswirkungen auf den Arbeitsmarkt, digitale Bildung, "
+        "sowie die gesellschaftliche und politische Debatte über Chancen und Risiken "
+        "von KI und Digitalisierung für Deutschland."
+    ),
+}
+
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 
 # ── DB Setup ──────────────────────────────────────
-def init_results_table(db_path: str = DB_PATH):
-    """Creates analysis_results table if not exists."""
+def init_db(db_path: str = DB_PATH):
     conn = sqlite3.connect(db_path)
+    cols = [row[1] for row in conn.execute("PRAGMA table_info(articles)")]
+    for col in ["sentiment", "emotion", "emotion_scores"]:
+        if col not in cols:
+            conn.execute(f"ALTER TABLE articles ADD COLUMN {col} TEXT")
     conn.execute("""
         CREATE TABLE IF NOT EXISTS analysis_results (
-            topic_id     TEXT PRIMARY KEY,
-            computed_at  TEXT,
+            topic_id      TEXT PRIMARY KEY,
+            computed_at   TEXT,
             article_count INTEGER,
-            result_json  TEXT
+            result_json   TEXT
         )
     """)
     conn.commit()
@@ -76,7 +187,6 @@ def init_results_table(db_path: str = DB_PATH):
 
 
 def save_result(topic_id: str, result: dict, db_path: str = DB_PATH):
-    """Saves analysis result to DB cache."""
     conn = sqlite3.connect(db_path)
     conn.execute("""
         INSERT OR REPLACE INTO analysis_results
@@ -92,15 +202,13 @@ def save_result(topic_id: str, result: dict, db_path: str = DB_PATH):
     conn.close()
 
 
-def load_cached_result(topic_id: str, db_path: str = DB_PATH) -> dict | None:
-    """Loads cached analysis result from DB."""
+def load_cached_result(topic_id: str, db_path: str = DB_PATH):
     conn = sqlite3.connect(db_path)
     row = conn.execute("""
         SELECT result_json, computed_at FROM analysis_results
         WHERE topic_id = ?
     """, (topic_id,)).fetchone()
     conn.close()
-
     if row:
         result = json.loads(row[0])
         result["cached_at"] = row[1]
@@ -108,213 +216,307 @@ def load_cached_result(topic_id: str, db_path: str = DB_PATH) -> dict | None:
     return None
 
 
-# ── Article Loading ───────────────────────────────
+# ── Step 1: Broad Retrieval ───────────────────────
 def load_topic_articles(topic_id: str, db_path: str = DB_PATH) -> list[dict]:
-    keywords = TOPIC_KEYWORDS.get(topic_id, [topic_id.replace("_", " ")])
+    """Broad keyword retrieval — title AND text."""
+    keywords = TOPIC_KEYWORDS.get(topic_id, [])
+    if not keywords:
+        return []
 
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
 
-    # Title match = starkes Signal, Text match = schwächeres Signal
-    # Kombination: Titel ODER Text mit mindestens 2 verschiedenen Keywords
-    title_conditions = " OR ".join([
-        f"LOWER(title) LIKE '%{kw}%'" for kw in keywords
-    ])
-    text_conditions = " OR ".join([
-        f"LOWER(text) LIKE '%{kw}%'" for kw in keywords
+    conditions = " OR ".join([
+        f"(LOWER(title) LIKE '%{kw}%' OR LOWER(text) LIKE '%{kw}%')"
+        for kw in keywords
     ])
 
     rows = conn.execute(f"""
         SELECT id, title, text, source, source_id, bias,
-               url, sentiment, emotion, embedding,
-               -- Relevanz-Score: Titel-Match zählt 3x mehr als Text-Match
-               CASE WHEN ({title_conditions}) THEN 3 ELSE 1 END as relevance
+               url, sentiment, emotion, embedding
         FROM articles
-        WHERE ({title_conditions} OR {text_conditions})
-        AND embedding IS NOT NULL
+        WHERE ({conditions})
         AND word_count >= 10
-        -- Schließe Artikel aus die primär über andere Themen berichten
-        AND NOT (
-            LOWER(title) LIKE '%iran%' AND
-            NOT ({title_conditions})
-        )
-        ORDER BY relevance DESC, crawled_at DESC
-        LIMIT 500
+        ORDER BY crawled_at DESC
+        LIMIT 800
     """).fetchall()
     conn.close()
 
     articles = []
     for row in rows:
         article = dict(row)
-        if article["embedding"]:
+        if article.get("embedding"):
             try:
                 article["embedding"] = pickle.loads(article["embedding"])
             except Exception:
-                continue
+                article["embedding"] = None
         articles.append(article)
 
     return articles
 
 
-# ── Bridging Score ────────────────────────────────
-def compute_two_level_bridging(articles: list[dict]) -> list[float]:
+# ── Step 2: LLM Relevance Filter ─────────────────
+def llm_relevance_filter(articles: list[dict], topic_id: str, batch_size: int = 30) -> list[dict]:
     """
-    Computes two-level bridging score for each article.
-
-    Level 1 (70%): Bias-group bridging
-        Average cosine similarity to articles from OTHER bias groups
-
-    Level 2 (30%): Source bridging
-        Average cosine similarity to articles from OTHER sources
-        within the same bias group
+    Uses Groq LLM to filter articles by actual relevance to topic.
+    Sends batches of titles to LLM — asks which are truly about the topic.
+    Falls back to all articles if LLM fails.
     """
-    embeddings = np.array([a["embedding"] for a in articles])
-    scores = []
+    topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
 
-    for i, article in enumerate(articles):
-        emb = embeddings[i].reshape(1, -1)
-        article_bias = article.get("bias", "unknown")
-        article_source = article.get("source_id", "unknown")
+    try:
+        from groq import Groq
+        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    except Exception as e:
+        print(f"  ⚠ Groq not available: {e} — skipping LLM filter")
+        return articles
 
-        # ── Level 1: Bias-Group Bridging ──────────
-        other_bias_sims = []
-        for bias_group in BIAS_SPECTRUM:
-            if bias_group == article_bias:
-                continue
-            # Find articles from this bias group
-            other_indices = [
-                j for j, a in enumerate(articles)
-                if a.get("bias") == bias_group
-            ]
-            if not other_indices:
-                continue
-            other_embs = embeddings[other_indices]
-            sims = cosine_similarity(emb, other_embs)[0]
-            other_bias_sims.append(float(np.mean(sims)))
+    relevant = []
+    total_batches = (len(articles) + batch_size - 1) // batch_size
 
-        bias_bridging = float(np.mean(other_bias_sims)) if other_bias_sims else 0.0
+    for batch_idx in range(0, len(articles), batch_size):
+        batch = articles[batch_idx:batch_idx + batch_size]
+        batch_num = batch_idx // batch_size + 1
 
-        # ── Level 2: Source Bridging ───────────────
-        other_source_sims = []
-        for j, other in enumerate(articles):
-            if j == i:
-                continue
-            if other.get("bias") != article_bias:
-                continue
-            if other.get("source_id") == article_source:
-                continue
-            sim = cosine_similarity(emb, embeddings[j].reshape(1, -1))[0][0]
-            other_source_sims.append(float(sim))
+        titles_list = "\n".join([
+            f"{i+1}. {a['title']}"
+            for i, a in enumerate(batch)
+        ])
 
-        source_bridging = float(np.mean(other_source_sims)) if other_source_sims else 0.0
+        prompt = f"""You are filtering German news articles by topic relevance.
 
-        # ── Combined Score ─────────────────────────
-        final_score = 0.7 * bias_bridging + 0.3 * source_bridging
-        scores.append(round(final_score, 4))
+Topic: {topic_desc}
 
-    return scores
+Article titles (numbered):
+{titles_list}
+
+Which of these articles are relevant to the topic?
+Include articles that are DIRECTLY about the topic OR closely related to it.
+Return ONLY a JSON array of the relevant article numbers.
+Example: [1, 3, 5, 7]
+If none are relevant, return: []"""
+
+        try:
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.0,
+                max_tokens=200,
+            )
+            raw = response.choices[0].message.content.strip()
+
+            import re
+            match = re.search(r'\[.*?\]', raw, re.DOTALL)
+            if match:
+                indices = json.loads(match.group())
+                for idx in indices:
+                    if isinstance(idx, int) and 1 <= idx <= len(batch):
+                        relevant.append(batch[idx - 1])
+
+            print(f"  Batch {batch_num}/{total_batches}: {len(indices) if match else 0}/{len(batch)} relevant")
+
+        except Exception as e:
+            print(f"  ⚠ Batch {batch_num} failed: {e} — including all")
+            relevant.extend(batch)
+
+    return relevant
+
+
+# ── Step 3: Per-Outlet Aggregation ───────────────
+def aggregate_by_outlet(articles: list[dict]) -> dict:
+    """
+    Aggregates relevant articles per media outlet.
+    Shows volume, dominant emotion, sample titles.
+    """
+    outlets = {}
+
+    for article in articles:
+        source_id = article.get("source_id", "unknown")
+        source = article.get("source", source_id)
+        bias = article.get("bias", "unknown")
+
+        if source_id not in outlets:
+            outlets[source_id] = {
+                "source_id": source_id,
+                "source": source,
+                "bias": bias,
+                "article_count": 0,
+                "emotions": {},
+                "sample_titles": [],
+                "urls": [],
+            }
+
+        outlets[source_id]["article_count"] += 1
+
+        emotion = article.get("emotion")
+        if emotion and emotion != "neutral":
+            outlets[source_id]["emotions"][emotion] = \
+                outlets[source_id]["emotions"].get(emotion, 0) + 1
+
+        if len(outlets[source_id]["sample_titles"]) < 4:
+            outlets[source_id]["sample_titles"].append(article["title"])
+            if article.get("url"):
+                outlets[source_id]["urls"].append(article["url"])
+
+    # Compute dominant emotion per outlet
+    for outlet in outlets.values():
+        if outlet["emotions"]:
+            outlet["dominant_emotion"] = max(
+                outlet["emotions"], key=outlet["emotions"].get
+            )
+            outlet["top_emotions"] = sorted(
+                [{"emotion": e, "count": c} for e, c in outlet["emotions"].items()],
+                key=lambda x: x["count"], reverse=True
+            )[:3]
+        else:
+            outlet["dominant_emotion"] = "neutral"
+            outlet["top_emotions"] = []
+        del outlet["emotions"]
+
+    # Sort by article count
+    return dict(sorted(
+        outlets.items(),
+        key=lambda x: x[1]["article_count"],
+        reverse=True
+    ))
+
+
+# ── Step 4: LLM Synthesis ─────────────────────────
+def llm_synthesize(articles: list[dict], topic_id: str) -> dict:
+    """
+    Uses LLM to identify shared perspectives and controversial points
+    across different media outlets.
+    """
+    topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
+
+    # Build sample: top 3 titles per bias group
+    bias_samples = {}
+    for article in articles:
+        bias = article.get("bias", "unknown")
+        if bias not in bias_samples:
+            bias_samples[bias] = []
+        if len(bias_samples[bias]) < 3:
+            bias_samples[bias].append(article["title"])
+
+    if len(bias_samples) < 2:
+        return {
+            "shared_perspectives": "Zu wenig Quellen für eine Synthese.",
+            "controversial_points": "Zu wenig Quellen für eine Synthese.",
+        }
+
+    samples_text = "\n".join([
+        f"{bias.upper()}:\n" + "\n".join(f"  - {t}" for t in titles)
+        for bias, titles in bias_samples.items()
+    ])
+
+    prompt = f"""You are analyzing German news coverage of: {topic_desc}
+
+Here are article titles grouped by media bias:
+{samples_text}
+
+In German, provide:
+1. SHARED: 1-2 sentences on what perspectives ALL groups seem to share
+2. CONTROVERSIAL: 1-2 sentences on where the coverage diverges most
+
+Format your response as JSON:
+{{"shared": "...", "controversial": "..."}}
+
+Be specific and insightful. Reference actual content from the titles."""
+
+    try:
+        from groq import Groq
+        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+            max_tokens=300,
+        )
+        raw = response.choices[0].message.content.strip()
+
+        import re
+        raw = re.sub(r'```json|```', '', raw).strip()
+        match = re.search(r'\{.*?\}', raw, re.DOTALL)
+        if match:
+            result = json.loads(match.group())
+            return {
+                "shared_perspectives": result.get("shared", ""),
+                "controversial_points": result.get("controversial", ""),
+            }
+    except Exception as e:
+        print(f"  ⚠ Synthesis failed: {e}")
+
+    return {
+        "shared_perspectives": "Synthese nicht verfügbar.",
+        "controversial_points": "Synthese nicht verfügbar.",
+    }
 
 
 # ── Main Analysis ─────────────────────────────────
 def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
     """
-    Full topic analysis:
-    1. Load articles with embeddings
-    2. Compute two-level bridging scores
-    3. Build bias-group clusters
-    4. Return structured result for caching
+    Full Medienspiegel analysis pipeline:
+    1. Broad retrieval
+    2. LLM relevance filter
+    3. Per-outlet aggregation
+    4. LLM synthesis
     """
     print(f"\n🔍 Analyzing: {topic_id}")
+    init_db(db_path)
 
-    articles = load_topic_articles(topic_id, db_path)
-    print(f"  → {len(articles)} articles loaded")
+    # Step 1: Broad retrieval
+    candidates = load_topic_articles(topic_id, db_path)
+    print(f"  → {len(candidates)} candidates retrieved")
 
-    if len(articles) < 6:
+    if len(candidates) < 3:
         return {
-            "error": f"Not enough articles for '{topic_id}' (found {len(articles)}, need 6+)",
+            "error": f"Not enough articles for '{topic_id}' (found {len(candidates)})",
             "topic_id": topic_id,
-            "article_count": len(articles)
+            "article_count": len(candidates)
         }
 
-    # Compute bridging scores
-    print("  → Computing two-level bridging scores...")
-    bridging_scores = compute_two_level_bridging(articles)
+    # Step 2: LLM relevance filter
+    print(f"  → Running LLM relevance filter...")
+    relevant = llm_relevance_filter(candidates, topic_id)
+    print(f"  → {len(relevant)} relevant articles after filtering")
 
-    # Build bias-group clusters
-    clusters = {}
-    for bias in BIAS_SPECTRUM:
-        bias_articles = [
-            a for a in articles if a.get("bias") == bias
-        ]
-        if not bias_articles:
-            continue
+    if len(relevant) < 3:
+        print(f"  ⚠ Too few after filtering — using all candidates")
+        relevant = candidates
 
-        # Sub-clusters by source
-        sources = {}
-        for a in bias_articles:
-            sid = a.get("source_id", "unknown")
-            if sid not in sources:
-                sources[sid] = []
-            sources[sid].append({
-                "title": a["title"],
-                "source": a["source"],
-                "url": a["url"],
-                "emotion": a.get("emotion"),
-                "sentiment": a.get("sentiment"),
-            })
+    # Step 3: Per-outlet aggregation
+    outlets = aggregate_by_outlet(relevant)
+    print(f"  → {len(outlets)} outlets represented")
 
-        clusters[bias] = {
-            "bias": bias,
-            "article_count": len(bias_articles),
-            "sources": sources,
-            "sample_titles": [a["title"] for a in bias_articles[:3]]
-        }
+    # Step 4: LLM synthesis
+    print(f"  → Generating synthesis...")
+    synthesis = llm_synthesize(relevant, topic_id)
 
-    # Scored articles — strip embeddings for JSON
-    scored_articles = []
-    for i, article in enumerate(articles):
-        scored_articles.append({
-            "title": article["title"],
-            "text": article["text"][:200],
-            "source": article["source"],
-            "source_id": article.get("source_id"),
-            "bias": article.get("bias"),
-            "url": article["url"],
-            "emotion": article.get("emotion"),
-            "sentiment": article.get("sentiment"),
-            "bridging_score": bridging_scores[i],
-        })
-
-    # Top bridging statements
-    top_bridging = sorted(
-        scored_articles,
-        key=lambda x: x["bridging_score"],
-        reverse=True
-    )[:10]
+    # Bias spectrum distribution
+    bias_dist = {}
+    for article in relevant:
+        bias = article.get("bias", "unknown")
+        bias_dist[bias] = bias_dist.get(bias, 0) + 1
 
     result = {
         "topic_id": topic_id,
         "topic_label": TOPICS.get(topic_id, {}).get("label", topic_id),
-        "article_count": len(articles),
-        "bias_clusters": clusters,
-        "top_bridging_statements": top_bridging,
-        "all_articles": scored_articles,
+        "article_count": len(relevant),
+        "candidate_count": len(candidates),
+        "outlets": outlets,
+        "bias_distribution": bias_dist,
+        "shared_perspectives": synthesis["shared_perspectives"],
+        "controversial_points": synthesis["controversial_points"],
     }
 
-    print(f"  ✅ Done — top bridging: {top_bridging[0]['title'][:60]}")
-    print(f"     Score: {top_bridging[0]['bridging_score']:.4f}")
-
+    print(f"  ✅ Done")
     return result
 
 
 def compute_all_topics(db_path: str = DB_PATH):
-    """
-    Pre-computes and caches analysis for all 10 topics.
-    Called by GitHub Actions daily after crawl.
-    """
-    init_results_table(db_path)
-
-    print("\n🦞 ConsensusAgent — Pre-computing all topic analyses")
+    """Pre-computes and caches all topic analyses. Called by GitHub Actions."""
+    init_db(db_path)
+    print("\n🦞 ConsensusAgent — Medienspiegel Analysis")
     print(f"   Topics: {list(TOPICS.keys())}\n")
 
     success = 0
@@ -325,33 +527,34 @@ def compute_all_topics(db_path: str = DB_PATH):
             result = analyze_topic(topic_id, db_path)
             if "error" not in result:
                 save_result(topic_id, result, db_path)
-                success += 1
                 print(f"  ✅ {topic_id} cached")
+                success += 1
             else:
                 print(f"  ⚠ {topic_id}: {result['error']}")
                 failed += 1
         except Exception as e:
             print(f"  ❌ {topic_id} failed: {e}")
+            import traceback
+            traceback.print_exc()
             failed += 1
 
     print(f"\n✅ Complete: {success} succeeded, {failed} failed")
 
 
-# ── Quick test ────────────────────────────────────
 if __name__ == "__main__":
-    topic_id = sys.argv[1] if len(sys.argv) > 1 else "nuclear_energy"
+    topic_id = sys.argv[1] if len(sys.argv) > 1 else "--all"
 
     if topic_id == "--all":
         compute_all_topics()
     else:
-        init_results_table()
+        init_db()
         result = analyze_topic(topic_id)
-
         if "error" in result:
             print(f"\nError: {result['error']}")
         else:
             save_result(topic_id, result)
-            print(f"\n=== Top 5 Bridging Statements ===")
-            for i, a in enumerate(result["top_bridging_statements"][:5]):
-                print(f"\n{i+1}. [{a['source']} / {a['bias']}] Score: {a['bridging_score']:.4f}")
-                print(f"   {a['title']}")
+            print(f"\n=== Result ===")
+            print(f"Articles: {result['article_count']} (from {result['candidate_count']} candidates)")
+            print(f"Outlets: {list(result['outlets'].keys())}")
+            print(f"\nShared: {result['shared_perspectives']}")
+            print(f"\nControversial: {result['controversial_points']}")
