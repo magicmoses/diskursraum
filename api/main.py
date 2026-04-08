@@ -76,33 +76,13 @@ def weekday_activity():
 def source_details():
     return database.get_articles_per_day_per_source()
 
-@app.get("/stats/sentiment-per-source")
-def sentiment_per_source():
-    return database.get_sentiment_per_source()
-
-@app.get("/stats/sentiment-per-bias")
-def sentiment_per_bias():
-    return database.get_sentiment_per_bias()
-
 @app.get("/stats/bias-focus")
 def bias_focus(days_back: int = 7):
     return database.get_bias_focus(days_back)
 
-@app.get("/stats/neutrality-check")
-def neutrality_check():
-    return database.get_neutrality_check()
-
 @app.get("/stats/source-deep-dive/{source_id}")
 def source_deep_dive(source_id: str, days_back: int = 30):
     return database.get_source_deep_dive(source_id, days_back)
-
-@app.get("/stats/left-right-comparison")
-def left_right_comparison(days_back: int = 14):
-    return database.get_left_right_comparison(days_back)
-
-@app.get("/stats/emotions-per-bias")
-def emotions_per_bias():
-    return database.get_emotions_per_bias()
 
 @app.get("/stats/emotions-per-source")
 def emotions_per_source():
@@ -126,3 +106,11 @@ def get_topic(topic_id: str):
 @app.get("/topics/summaries")
 def topic_summaries():
     return database.get_all_topic_summaries()
+
+@app.get("/stats/editorial-profiles")
+def editorial_profiles(days_back: int = 14):
+    return database.get_source_editorial_profile(days_back)
+
+@app.get("/stats/emotions-per-bias")
+def emotions_per_bias():
+    return database.get_emotions_per_bias_filtered()

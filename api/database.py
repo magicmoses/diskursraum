@@ -145,6 +145,39 @@ def get_articles_per_day():
 
 
 # ── Bias balance per day ──────────────────────────
+def get_emotions_per_bias_filtered():
+    from collections import defaultdict
+    conn = get_conn()
+    try:
+        rows = conn.execute("""
+            SELECT bias, emotion, COUNT(*) as count
+            FROM articles
+            WHERE emotion IS NOT NULL
+            AND emotion != 'neutral'
+            GROUP BY bias, emotion
+            ORDER BY bias, count DESC
+        """).fetchall()
+        conn.close()
+    except Exception:
+        conn.close()
+        return {}
+
+    bias_data = defaultdict(list)
+    bias_totals = defaultdict(int)
+
+    for row in rows:
+        bias_data[row["bias"]].append({"emotion": row["emotion"], "count": row["count"]})
+        bias_totals[row["bias"]] += row["count"]
+
+    return {
+        bias: [
+            {"emotion": e["emotion"], "count": e["count"],
+             "pct": round(e["count"] * 100 / bias_totals[bias], 1)}
+            for e in emotions[:5]
+        ]
+        for bias, emotions in bias_data.items()
+    }
+
 def get_bias_over_time():
     conn = get_conn()
     rows = conn.execute("""
@@ -711,3 +744,53 @@ def get_all_topic_summaries():
     except Exception:
         conn.close()
         return []
+
+def get_source_editorial_profile(days_back: int = 14):
+    """
+    Returns emotional tone for taz, WELT, Junge Freiheit.
+    Neutral excluded — not informative.
+    """
+    from collections import Counter
+
+    conn = get_conn()
+    sources = {
+        "taz":            "left",
+        "welt":           "right-conservative",
+        "junge_freiheit": "far-right",
+    }
+
+    result = {}
+
+    for source_id, bias in sources.items():
+        rows = conn.execute("""
+            SELECT emotion
+            FROM articles
+            WHERE source_id = ?
+            AND crawled_at >= datetime('now', ?)
+            AND emotion IS NOT NULL
+            AND emotion != 'neutral'
+        """, (source_id, f'-{days_back} days')).fetchall()
+
+        if not rows:
+            result[source_id] = {"error": "No data"}
+            continue
+
+        total = len(rows)
+        emotion_counts = Counter(row["emotion"] for row in rows)
+
+        result[source_id] = {
+            "source_id": source_id,
+            "bias": bias,
+            "total_non_neutral": total,
+            "top_emotions": [
+                {
+                    "emotion": emotion,
+                    "count": count,
+                    "pct": round(count * 100 / total, 1)
+                }
+                for emotion, count in emotion_counts.most_common(5)
+            ]
+        }
+
+    conn.close()
+    return result
