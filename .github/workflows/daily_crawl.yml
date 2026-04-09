@@ -23,6 +23,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Restore DB from cache
+        uses: actions/cache@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}
+          restore-keys: |
+            news-db-
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -36,10 +44,16 @@ jobs:
         run: |
           python crew/tools/rss_crawler.py
 
-      - name: Commit new articles
+      - name: Save DB to cache
+        uses: actions/cache@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}
+
+      - name: Commit crawl summary
         run: |
           git config --global user.name "consensus-agent-bot"
           git config --global user.email "bot@consensus-agent"
-          git add data/news.db data/last_crawl.json
+          git add data/last_crawl.json
           git diff --staged --quiet || git commit -m "chore: RSS crawl $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
