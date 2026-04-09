@@ -1,131 +1,157 @@
-# ConsensusAgent 🦞
+# Diskursraum 🎙️
 
-> A multi-agent AI system that inverts the engagement algorithm — surfacing statements
-> that bridge opinion groups rather than divide them.
+> Mapping Public Discourse in Germany — inspired by Taiwan's vTaiwan and the Pol.is bridging algorithm.
 
-Inspired by Taiwan's [vTaiwan](https://info.vtaiwan.tw/) civic deliberation platform
-and the [Pol.is](https://pol.is) bridging algorithm — but applied to real-time public
-discourse across news, social media, and video comments.
+**[Live Demo](https://deine-vercel-url.vercel.app)** · [GitHub](https://github.com/AyzennaMosesArndt/consensus-agent)
 
-## What it does
+---
 
-ConsensusAgent analyzes public discourse on controversial topics and identifies
-**bridging statements** — content that finds approval across ideologically distinct
-user clusters, not just within echo chambers.
+## What is Diskursraum?
 
-This is the opposite of how social media algorithms typically work.
+Diskursraum analyzes how 15 German news outlets cover polarizing societal topics. The goal is transparency about media diversity in an increasingly polarized public discourse.
 
-## Topics analyzed
+For each topic, the app shows:
+- **Political Spectrum** — which bias groups cover the topic and how extensively
+- **Shared Perspectives** — what all outlets agree on despite different political leanings
+- **Controversial Points** — where coverage diverges most strongly
+- **Emotional Tone** — which emotions dominate the reporting of each outlet
 
-| Topic | Notes |
-|-------|-------|
-| 🇩🇪 Migration & Asylum Policy | |
-| 💰 Unconditional Basic Income | |
-| ⚛️ Nuclear Energy | International sources included |
-| 🪖 Mandatory Military Service | |
-| 👴 Retirement at 70 | Generational cluster split |
-| 🚗 Autobahn Speed Limit | German identity debate |
-| 💉 Assisted Dying / Euthanasia | |
-| 💸 Wealth Tax | |
-| 🤖 AI Replacing Jobs | |
-| 🧠 AI Regulation & Ethics | Tech-focused sources |
+Inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl) and the [Pol.is](https://pol.is) bridging algorithm from Taiwan's vTaiwan platform — applied to the German media landscape.
 
-## Data Sources
+---
 
-ConsensusAgent pulls from three complementary layers of public discourse:
+## Topics
 
-| Source | Type | Coverage |
-|--------|------|----------|
-| [NewsAPI](https://newsapi.org) | News articles | Spiegel, Zeit, FAZ, Tagesschau, BBC, Reuters |
-| [Bluesky AT Protocol](https://atproto.com) | Social media posts | Open API, no scraping |
-| [YouTube Data API v3](https://developers.google.com/youtube) | Video comments | ARD, ZDF, MrWissen2go, DW |
+| Topic | Description |
+|-------|-------------|
+| 🌍 Migration & Asylum Policy | Immigration, asylum law, integration |
+| ⚡ Energy Transition | Nuclear power, renewables, climate policy |
+| 👴 Pension & Retirement | Pension reform, retirement age, generational justice |
+| 💸 Wealth Tax | Redistribution, inheritance tax, fiscal justice |
+| 🤖 Digital Transformation | AI, digitalization, societal change |
 
-> **Demo mode**: Pre-cached datasets ship with the repo — no API keys needed
-> to explore the interface and results.
+---
 
 ## Architecture
 ```
-OpenClaw (trigger + data collection skills)
-    └── CrewAI Pipeline (4 agents)
-            ├── Collector Agent    — fetches from NewsAPI / Bluesky / YouTube
-            ├── Clusterer Agent    — groups opinions via sentence embeddings
-            ├── Bridging Analyst   — scores cross-cluster approval
-            └── Reporter Agent     — structured JSON output
-                    └── Ollama (local) or Groq (cloud/demo)
+RSS Crawler (8x daily, GitHub Actions)
+  └── 15 German news sources → SQLite DB
 
-React Frontend — topic selector + cluster visualization
-FastAPI         — REST bridge between frontend and agent pipeline
+Daily ML Pipeline (GitHub Actions, 04:00 UTC)
+  ├── Sentence Embeddings    (jinaai/jina-embeddings-v2-base-de)
+  ├── Sentiment Analysis     (oliverguhr/german-sentiment-bert)
+  ├── Emotion Detection      (AnasAlokla/multilingual_go_emotions_V1.2)
+  ├── Medienspiegel Analysis
+  │   ├── Broad Retrieval    (keyword matching, title + text)
+  │   ├── LLM Relevance Filter (Groq llama-3.3-70b)
+  │   ├── Per-Outlet Aggregation
+  │   └── LLM Synthesis      (shared perspectives + controversial points)
+  └── JSON Export → committed to repo → triggers Vercel redeploy
+
+Backend (FastAPI / Railway)
+  └── Serves pre-computed JSON — stateless, no DB in production
+
+Frontend (React + Vite / Vercel)
+  ├── Home        — Topic Overview
+  ├── Analytics   — Media Statistics & Emotion Analysis
+  └── TopicView   — Medienspiegel per Topic
 ```
+
+---
 
 ## Tech Stack
 
-- **[OpenClaw](https://openclaw.ai)** — agentic trigger layer & skill system
-- **[CrewAI](https://crewai.com)** — multi-agent orchestration
-- **[Ollama](https://ollama.ai)** — local LLM inference (Llama 3.1)
-- **[Groq](https://groq.com)** — cloud LLM inference (demo mode)
-- **[NewsAPI](https://newsapi.org)** — news article data
-- **[Bluesky AT Protocol](https://atproto.com)** — social media data
-- **[YouTube Data API v3](https://developers.google.com/youtube)** — video comment data
-- **React + D3.js** — cluster visualization frontend
-- **FastAPI** — REST bridge between frontend and agent pipeline
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React, Vite, Tailwind CSS, Recharts |
+| Backend | FastAPI, Python 3.11 |
+| ML/NLP | sentence-transformers, germansentiment, transformers |
+| LLM | Groq (llama-3.3-70b-versatile) / Ollama (local) |
+| Database | SQLite |
+| Pipeline | GitHub Actions |
+| Deployment | Vercel (Frontend) + Railway (Backend) |
 
-## How the bridging score works
+---
 
-Traditional social media rewards content that maximizes engagement within a group.
-ConsensusAgent rewards content that finds approval *across* groups.
-```
-1. Raw text (articles, posts, comments) embedded into vector space
-2. K-Means clustering groups content by opinion similarity  
-3. Each statement scored: how many distinct clusters approve?
-4. High bridging score = consensus potential, not virality
-```
+## Data Sources
 
-Conceptually inspired by the [Pol.is](https://pol.is) algorithm used in Taiwan's
-vTaiwan platform — adapted here for multi-source, real-time discourse analysis.
+15 German news outlets with bias labels:
 
-## Setup
+| Bias | Outlets |
+|------|---------|
+| Left | taz |
+| Left-Liberal | Spiegel, Zeit, SZ, Stern |
+| Neutral | Tagesschau, ZDF, DW |
+| Conservative-Liberal | FAZ, Cicero |
+| Right-Conservative | WELT, Focus |
+| Far-Right | Junge Freiheit |
+| Economic-Liberal | Handelsblatt |
+| Populist-Mixed | BILD |
+
+---
+
+## Local Development
 ```bash
-# 1. Clone & install
+# Clone repository
 git clone https://github.com/AyzennaMosesArndt/consensus-agent.git
 cd consensus-agent
-python -m venv venv
-venv\Scripts\activate        # Windows
+
+# Python environment
+conda create -n consensus-agent python=3.11
+conda activate consensus-agent
 pip install -r requirements.txt
 
-# 2. Configure
+# Environment variables
 cp .env.example .env
-# → fill in API keys (or leave as-is for demo mode)
+# Set GROQ_API_KEY and LLM_PROVIDER
 
-# 3. Start Ollama (optional — only needed for local LLM mode)
+# Optional: Ollama for local LLM inference
 ollama pull llama3.1
 ollama serve
 
-# 4. Run analysis
-python api/run_crew.py --topic "nuclear_energy"
+# Start backend
+cd api && uvicorn main:app --reload --port 8001
 
-# 5. Start frontend
-cd frontend
-npm install
-npm run dev
+# Start frontend
+cd frontend && npm install && npm run dev
 ```
 
-## Modes
+---
 
-| Mode | LLM | Data | Use case |
-|------|-----|------|----------|
-| Demo | Groq (cloud) | Pre-cached JSON | Recruiters, quick explore |
-| Live | Ollama (local) | Live API calls | Full local run |
+## Deployment
 
-## Background
+Diskursraum runs fully stateless in production:
+- **Railway** hosts the FastAPI backend
+- **Vercel** hosts the React frontend
+- All analysis results are pre-computed daily, committed as JSON, and served directly by the backend — no database connection required in production
 
-This project is inspired by the work of Audrey Tang and the g0v civic tech community
-in Taiwan, who demonstrated that algorithmic design choices in social platforms are
-not neutral — and that inverting them toward consensus rather than engagement
-produces meaningfully different (and healthier) public discourse.
+---
 
-The concept is explored in depth in the book
-[Plurality](https://www.plurality.net/) by Audrey Tang and E. Glen Weyl.
+## Roadmap
+
+- [ ] **Party Manifesto Integration** — German party programs as a second data source; compare media coverage vs. party positions (Vector DB, PDF parsing)
+- [ ] **Bridging Statements** — LLM-based extraction of specific statements that find approval across ideological groups
+- [ ] **Time Series** — How does coverage of a topic evolve over time?
+- [ ] **More Topics** — Military service, speed limit, assisted dying, AI regulation, basic income
+
+---
+
+## Methodology
+
+> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural. Plurality captures the symbiotic relationship between democracy and collaborative technology. Together, democracy and collaborative technology can power infinite diversity in infinite combinations. Let's free the future — together."*  
+> — Audrey Tang & E. Glen Weyl, Plurality
+
+Diskursraum makes this principle visible — not for social media posts as in Pol.is, but for professional media discourse in Germany. Many voices, one discourse.
+
+---
 
 ## Status
 
-🚧 Active development — March 2026
+🚧 Active development — April 2026
+
+---
+
+## Author
+
+**Ayzenna Moses Arndt** — M.Sc. Business Informatics, HKA Karlsruhe  
+[GitHub](https://github.com/AyzennaMosesArndt) · [LinkedIn](https://linkedin.com/in/dein-profil)
