@@ -16,6 +16,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Restore DB from cache
+        uses: actions/cache@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}
+          restore-keys: |
+            news-db-
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -23,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sentence-transformers scikit-learn numpy germansentiment transformers torch
+          pip install sentence-transformers scikit-learn numpy germansentiment transformers torch requests python-dotenv groq
 
       - name: Fix word counts
         run: |
@@ -33,19 +41,33 @@ jobs:
         run: |
           python crew/tools/embed_articles.py
 
-      - name: Compute sentiment
+      - name: Compute sentiment + emotions
         run: |
           python crew/tools/sentiment_analyzer.py
 
-      - name: Compute bridging scores
+      - name: Compute Medienspiegel analysis
+        env:
+          LLM_PROVIDER: groq
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python crew/tools/bridging_scorer.py --all
+
+      - name: Export analytics to JSON
+        run: |
+          pip install fastapi
+          python crew/tools/export_analytics.py
+
+      - name: Save DB to cache
+        uses: actions/cache@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}
 
       - name: Commit results
         run: |
           git config --global user.name "consensus-agent-bot"
           git config --global user.email "bot@consensus-agent"
           git pull origin main --rebase
-          git add data/news.db
-          git diff --staged --quiet || git commit -m "chore: daily ML processing $(date -u '+%Y-%m-%d')"
+          git add data/results/
+          git diff --staged --quiet || git commit -m "chore: daily ML processing + analytics export $(date -u '+%Y-%m-%d')"
           git push

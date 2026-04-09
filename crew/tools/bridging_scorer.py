@@ -230,6 +230,12 @@ def save_result(topic_id: str, result: dict, db_path: str = DB_PATH):
         result.get("article_count", 0),
         json.dumps(result, ensure_ascii=False)
     ))
+    # Zusätzlich als JSON-Datei für Deployment
+    results_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data", "results")
+    os.makedirs(results_dir, exist_ok=True)
+    with open(os.path.join(results_dir, f"{topic_id}.json"), "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+        
     conn.commit()
     conn.close()
 
