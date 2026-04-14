@@ -38,13 +38,31 @@ jobs:
         run: |
           python crew/tools/fix_word_count.py
 
+      - name: Save DB to cache (after fix)
+        uses: actions/cache/save@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}-fix
+
       - name: Compute embeddings
         run: |
           python crew/tools/embed_articles.py
 
+      - name: Save DB to cache (after embeddings)
+        uses: actions/cache/save@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}-embeddings
+
       - name: Compute sentiment + emotions
         run: |
           python crew/tools/sentiment_analyzer.py
+
+      - name: Save DB to cache (after sentiment)
+        uses: actions/cache/save@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}-sentiment
 
       - name: Compute Medienspiegel analysis
         continue-on-error: true
@@ -54,13 +72,19 @@ jobs:
         run: |
           python crew/tools/bridging_scorer.py --all
 
+      - name: Save DB to cache (after bridging)
+        uses: actions/cache/save@v4
+        with:
+          path: data/news.db
+          key: news-db-${{ github.run_id }}-bridging
+
       - name: Export analytics to JSON
         continue-on-error: true
         run: |
           python crew/tools/export_analytics.py
 
-      - name: Save DB to cache
-        uses: actions/cache@v4
+      - name: Save DB to cache (final)
+        uses: actions/cache/save@v4
         with:
           path: data/news.db
           key: news-db-${{ github.run_id }}
