@@ -31,9 +31,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sentence-transformers scikit-learn numpy germansentiment "transformers==4.40.0" torch requests python-dotenv groq
+          pip install sentence-transformers scikit-learn numpy germansentiment "transformers==4.40.0" torch requests python-dotenv groq fastapi
 
       - name: Fix word counts
+        continue-on-error: true
         run: |
           python crew/tools/fix_word_count.py
 
@@ -46,6 +47,7 @@ jobs:
           python crew/tools/sentiment_analyzer.py
 
       - name: Compute Medienspiegel analysis
+        continue-on-error: true
         env:
           LLM_PROVIDER: groq
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -53,8 +55,8 @@ jobs:
           python crew/tools/bridging_scorer.py --all
 
       - name: Export analytics to JSON
+        continue-on-error: true
         run: |
-          pip install fastapi
           python crew/tools/export_analytics.py
 
       - name: Save DB to cache
