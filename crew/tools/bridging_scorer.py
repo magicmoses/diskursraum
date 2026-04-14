@@ -295,7 +295,7 @@ def load_topic_articles(topic_id: str, db_path: str = DB_PATH) -> list[dict]:
 
 # ── Step 2: LLM Relevance Filter ─────────────────
 def llm_relevance_filter(
-    articles: list[dict], topic_id: str, batch_size: int = 30
+    articles: list[dict], topic_id: str, batch_size: int = 50
 ) -> list[dict]:
     """
     Filters articles by actual relevance to topic using LLM.
@@ -338,12 +338,12 @@ If none are relevant, return: []"""
                     if isinstance(idx, int) and 1 <= idx <= len(batch):
                         relevant.append(batch[idx - 1])
                         added += 1
-                print(f"  Batch {batch_num}/{total_batches}: {added}/{len(batch)} relevant")
+                print(f"  Batch {batch_num}/{total_batches}: {added}/{len(batch)} relevant", flush=True)
             else:
                 print(f"  Batch {batch_num}/{total_batches}: no valid JSON — including all")
                 relevant.extend(batch)
         except Exception as e:
-            print(f"  ⚠ Batch {batch_num} failed: {e} — including all")
+            print(f"  ⚠ Batch {batch_num} failed: {e} — including all", flush=True)
             relevant.extend(batch)
 
     return relevant
@@ -532,13 +532,13 @@ def compute_all_topics(db_path: str = DB_PATH):
             result = analyze_topic(topic_id, db_path)
             if "error" not in result:
                 save_result(topic_id, result, db_path)
-                print(f"  ✅ {topic_id} cached")
+                print(f"  ✅ {topic_id} cached", flush=True)
                 success += 1
             else:
                 print(f"  ⚠ {topic_id}: {result['error']}")
                 failed += 1
         except Exception as e:
-            print(f"  ❌ {topic_id} failed: {e}")
+            print(f"  ❌ {topic_id} failed: {e}", flush=True)
             import traceback
             traceback.print_exc()
             failed += 1
