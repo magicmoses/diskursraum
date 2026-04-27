@@ -1,7 +1,6 @@
 import sqlite3
 import json
 import os
-from datetime import datetime
 from collections import defaultdict, Counter
 
 # ── JSON Fallback for deployment ──────────────────
@@ -41,12 +40,12 @@ def init_db():
         if "sentiment" not in cols:
             conn.execute("ALTER TABLE articles ADD COLUMN sentiment TEXT")
             conn.commit()
-            print("✓ Migration: added sentiment column")
         conn.close()
     except Exception:
         pass
 
 init_db()
+
 
 # ── Overview ──────────────────────────────────────
 def get_overview():
@@ -100,30 +99,6 @@ def get_crawl_history(limit: int = 50):
     ]
 
 
-# ── Timeline ──────────────────────────────────────
-def get_timeline():
-    conn = get_conn()
-    rows = conn.execute("""
-        SELECT DATE(crawled_at) as date, source, COUNT(*) as count
-        FROM articles
-        GROUP BY DATE(crawled_at), source
-        ORDER BY date ASC
-    """).fetchall()
-    conn.close()
-    return [{"date": row["date"], "source": row["source"], "count": row["count"]} for row in rows]
-
-
-# ── Topics ────────────────────────────────────────
-def get_topic_distribution():
-    conn = get_conn()
-    rows = conn.execute("SELECT topic_hints FROM articles WHERE topic_hints != '[]'").fetchall()
-    conn.close()
-    all_hints = []
-    for row in rows:
-        all_hints += json.loads(row["topic_hints"])
-    return [{"topic": t, "count": c} for t, c in Counter(all_hints).most_common()]
-
-
 # ── Articles per Day ──────────────────────────────
 def get_articles_per_day():
     if not _db_has_data():
@@ -137,19 +112,6 @@ def get_articles_per_day():
     """).fetchall()
     conn.close()
     return [{"date": row["date"], "count": row["count"]} for row in rows]
-
-
-# ── Bias over Time ────────────────────────────────
-def get_bias_over_time():
-    conn = get_conn()
-    rows = conn.execute("""
-        SELECT DATE(crawled_at) as date, bias, COUNT(*) as count
-        FROM articles
-        GROUP BY DATE(crawled_at), bias
-        ORDER BY date ASC
-    """).fetchall()
-    conn.close()
-    return [{"date": row["date"], "bias": row["bias"], "count": row["count"]} for row in rows]
 
 
 # ── Publishing Times ──────────────────────────────
@@ -220,170 +182,6 @@ def get_articles_per_day_per_source():
     ]
 
 
-# ── Sentiment per Source ──────────────────────────
-def get_sentiment_per_source():
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT source, bias, sentiment, COUNT(*) as count
-            FROM articles
-            WHERE sentiment IS NOT NULL
-            GROUP BY source, sentiment
-            ORDER BY source, sentiment
-        """).fetchall()
-        conn.close()
-        return [
-            {"source": row["source"], "bias": row["bias"], "sentiment": row["sentiment"], "count": row["count"]}
-            for row in rows
-        ]
-    except Exception:
-        conn.close()
-        return []
-
-
-# ── Sentiment per Bias ────────────────────────────
-def get_sentiment_per_bias():
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT bias, sentiment, COUNT(*) as count
-            FROM articles
-            WHERE sentiment IS NOT NULL
-            GROUP BY bias, sentiment
-            ORDER BY bias, sentiment
-        """).fetchall()
-        conn.close()
-        return [{"bias": row["bias"], "sentiment": row["sentiment"], "count": row["count"]} for row in rows]
-    except Exception:
-        conn.close()
-        return []
-
-
-# ── Bias Focus ────────────────────────────────────
-def get_bias_focus(days_back: int = 7):
-    conn = get_conn()
-    rows = conn.execute("""
-        SELECT bias, topic_hints, COUNT(*) as count
-        FROM articles
-        WHERE topic_hints != '[]'
-        AND crawled_at >= datetime('now', ?)
-        GROUP BY bias, topic_hints
-        ORDER BY bias, count DESC
-    """, (f'-{days_back} days',)).fetchall()
-    conn.close()
-    bias_topics = defaultdict(Counter)
-    for row in rows:
-        try:
-            hints = json.loads(row["topic_hints"])
-            for hint in hints:
-                bias_topics[row["bias"]][hint] += row["count"]
-        except Exception:
-            pass
-    return {
-        bias: [{"topic": t, "count": c} for t, c in counter.most_common(5)]
-        for bias, counter in bias_topics.items()
-    }
-
-
-# ── Neutrality Check ─────────────────────────────
-def get_neutrality_check():
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT bias, sentiment, COUNT(*) as count,
-                   ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (PARTITION BY bias), 1) as pct
-            FROM articles
-            WHERE sentiment IS NOT NULL
-            GROUP BY bias, sentiment
-            ORDER BY bias, sentiment
-        """).fetchall()
-        conn.close()
-        return [
-            {"bias": row["bias"], "sentiment": row["sentiment"], "count": row["count"], "percentage": row["pct"]}
-            for row in rows
-        ]
-    except Exception:
-        conn.close()
-        return []
-
-
-# ── Source Deep Dive ──────────────────────────────
-def get_source_deep_dive(source_id: str, days_back: int = 30):
-    conn = get_conn()
-    stats = conn.execute("""
-        SELECT source, bias, COUNT(*) as total,
-               SUM(CASE WHEN sentiment = 'positive' THEN 1 ELSE 0 END) as positive,
-               SUM(CASE WHEN sentiment = 'negative' THEN 1 ELSE 0 END) as negative,
-               SUM(CASE WHEN sentiment = 'neutral' THEN 1 ELSE 0 END) as neutral,
-               ROUND(AVG(word_count), 0) as avg_word_count
-        FROM articles
-        WHERE source_id = ? AND crawled_at >= datetime('now', ?)
-    """, (source_id, f'-{days_back} days')).fetchone()
-    titles = conn.execute("""
-        SELECT title, sentiment, crawled_at FROM articles
-        WHERE source_id = ? AND crawled_at >= datetime('now', ?)
-        ORDER BY crawled_at DESC LIMIT 10
-    """, (source_id, f'-{days_back} days')).fetchall()
-    hours = conn.execute("""
-        SELECT CAST(strftime('%H', crawled_at) AS INTEGER) as hour, COUNT(*) as count
-        FROM articles WHERE source_id = ?
-        GROUP BY hour ORDER BY hour
-    """, (source_id,)).fetchall()
-    conn.close()
-    if not stats or not stats["total"]:
-        return {"error": f"No data for source_id '{source_id}'"}
-    return {
-        "source_id": source_id,
-        "source": stats["source"],
-        "bias": stats["bias"],
-        "total_articles": stats["total"],
-        "sentiment": {
-            "positive": stats["positive"] or 0,
-            "negative": stats["negative"] or 0,
-            "neutral": stats["neutral"] or 0,
-        },
-        "avg_word_count": stats["avg_word_count"],
-        "recent_titles": [
-            {"title": r["title"], "sentiment": r["sentiment"], "crawled_at": r["crawled_at"]}
-            for r in titles
-        ],
-        "publishing_hours": [{"hour": r["hour"], "count": r["count"]} for r in hours]
-    }
-
-
-# ── Left vs Right Comparison ──────────────────────
-def get_left_right_comparison(days_back: int = 14):
-    conn = get_conn()
-    sources = {"taz": "left", "junge_freiheit": "far-right", "welt": "right-conservative"}
-    result = {}
-    for source_id, bias in sources.items():
-        rows = conn.execute("""
-            SELECT title, text, sentiment, crawled_at, word_count
-            FROM articles
-            WHERE source_id = ? AND crawled_at >= datetime('now', ?)
-            ORDER BY crawled_at DESC
-        """, (source_id, f'-{days_back} days')).fetchall()
-        if not rows:
-            result[source_id] = {"error": "No data"}
-            continue
-        total = len(rows)
-        sentiment_counts = {"positive": 0, "negative": 0, "neutral": 0}
-        for row in rows:
-            if row["sentiment"] in sentiment_counts:
-                sentiment_counts[row["sentiment"]] += 1
-        result[source_id] = {
-            "source_id": source_id,
-            "bias": bias,
-            "total_articles": total,
-            "sentiment": sentiment_counts,
-            "sentiment_pct": {k: round(v * 100 / total, 1) if total > 0 else 0 for k, v in sentiment_counts.items()},
-            "avg_word_count": round(sum(r["word_count"] or 0 for r in rows) / total, 0),
-            "sample_titles": [row["title"] for row in rows[:5]]
-        }
-    conn.close()
-    return result
-
-
 # ── Emotions per Bias (filtered) ──────────────────
 def get_emotions_per_bias_filtered():
     if not _db_has_data():
@@ -416,93 +214,6 @@ def get_emotions_per_bias_filtered():
         ]
         for bias, emotions in bias_data.items()
     }
-
-
-# ── Emotions per Bias (raw) ───────────────────────
-def get_emotions_per_bias():
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT bias, emotion, COUNT(*) as count
-            FROM articles
-            WHERE emotion IS NOT NULL
-            GROUP BY bias, emotion
-            ORDER BY bias, count DESC
-        """).fetchall()
-        conn.close()
-        return [{"bias": row["bias"], "emotion": row["emotion"], "count": row["count"]} for row in rows]
-    except Exception:
-        conn.close()
-        return []
-
-
-# ── Emotions per Source ───────────────────────────
-def get_emotions_per_source():
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT source, bias, emotion, COUNT(*) as count
-            FROM articles
-            WHERE emotion IS NOT NULL
-            GROUP BY source, emotion
-            ORDER BY source, count DESC
-        """).fetchall()
-        conn.close()
-        return [
-            {"source": row["source"], "bias": row["bias"], "emotion": row["emotion"], "count": row["count"]}
-            for row in rows
-        ]
-    except Exception:
-        conn.close()
-        return []
-
-
-# ── Emotion Trends ────────────────────────────────
-def get_emotion_trends(days_back: int = 14):
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT DATE(crawled_at) as date, emotion, COUNT(*) as count
-            FROM articles
-            WHERE emotion IS NOT NULL AND crawled_at >= datetime('now', ?)
-            GROUP BY date, emotion
-            ORDER BY date ASC, count DESC
-        """, (f'-{days_back} days',)).fetchall()
-        conn.close()
-        return [{"date": row["date"], "emotion": row["emotion"], "count": row["count"]} for row in rows]
-    except Exception:
-        conn.close()
-        return []
-
-
-# ── Left vs Right Emotions ────────────────────────
-def get_left_right_emotions():
-    conn = get_conn()
-    sources = {"taz": "left", "junge_freiheit": "far-right", "welt": "right-conservative"}
-    result = {}
-    for source_id, bias in sources.items():
-        try:
-            rows = conn.execute("""
-                SELECT emotion, COUNT(*) as count
-                FROM articles
-                WHERE source_id = ? AND emotion IS NOT NULL
-                GROUP BY emotion ORDER BY count DESC
-            """, (source_id,)).fetchall()
-            total = sum(r["count"] for r in rows)
-            if total == 0:
-                continue
-            result[source_id] = {
-                "bias": bias,
-                "total": total,
-                "emotions": [
-                    {"emotion": r["emotion"], "count": r["count"], "pct": round(r["count"] * 100 / total, 1)}
-                    for r in rows[:8]
-                ]
-            }
-        except Exception:
-            continue
-    conn.close()
-    return result
 
 
 # ── Editorial Profile ─────────────────────────────
@@ -569,7 +280,6 @@ def get_topic_analysis(topic_id: str):
     except Exception:
         conn.close()
 
-    # Fallback to JSON file
     json_path = os.path.join(
         os.path.dirname(__file__), "..", "data", "results", f"{topic_id}.json"
     )
@@ -577,21 +287,3 @@ def get_topic_analysis(topic_id: str):
         with open(json_path, "r", encoding="utf-8") as f:
             return json.load(f)
     return None
-
-
-# ── Topic Summaries ───────────────────────────────
-def get_all_topic_summaries():
-    conn = get_conn()
-    try:
-        rows = conn.execute("""
-            SELECT topic_id, computed_at, article_count
-            FROM analysis_results ORDER BY article_count DESC
-        """).fetchall()
-        conn.close()
-        return [
-            {"topic_id": row["topic_id"], "computed_at": row["computed_at"], "article_count": row["article_count"]}
-            for row in rows
-        ]
-    except Exception:
-        conn.close()
-        return []

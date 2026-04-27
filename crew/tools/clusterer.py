@@ -1,19 +1,14 @@
 """
-clusterer.py — Dynamic Topic Clustering from News Database
-
-Uses sentence embeddings to cluster ALL articles in the DB without
-predefined topics. Topics emerge organically from the data.
+clusterer.py — Embedding Cache & Trending Topics
 
 Embedding Model: jinaai/jina-embeddings-v2-base-de
 - German/English bilingual, optimized for German news text
-- Superior to generic multilingual models on German benchmarks
-- Supports up to 8192 tokens, no language bias for mixed DE/EN input
+- Supports up to 8192 tokens
 - Source: https://huggingface.co/jinaai/jina-embeddings-v2-base-de
 
 Architecture: Incremental embedding cache in SQLite
 - Embeddings computed once per article, stored in DB
 - Only new articles need embedding on each run
-- Re-clustering triggered when enough new articles accumulated
 """
 
 import os
@@ -22,9 +17,7 @@ import json
 import sqlite3
 import numpy as np
 import pickle
-from datetime import datetime
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
+import re
 from sklearn.preprocessing import normalize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sentence_transformers import SentenceTransformer
@@ -35,9 +28,6 @@ DB_PATH = os.path.join(
     os.path.dirname(__file__), "..", "..", "data", "news.db"
 )
 
-# jinaai/jina-embeddings-v2-base-de
-# German/English bilingual — best choice for German news text
-# trust_remote_code=True required by Jina
 MODEL_NAME = "jinaai/jina-embeddings-v2-base-de"
 
 
@@ -50,25 +40,11 @@ def init_embedding_cache(db_path: str = DB_PATH):
         conn.execute("ALTER TABLE articles ADD COLUMN embedding BLOB")
         conn.commit()
         print("✓ Added embedding column to articles table")
-
-    # Cluster results table
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS cluster_results (
-            id           INTEGER PRIMARY KEY AUTOINCREMENT,
-            computed_at  TEXT,
-            n_articles   INTEGER,
-            n_clusters   INTEGER,
-            silhouette   REAL,
-            results_json TEXT
-        )
-    """)
-    conn.commit()
     conn.close()
 
 
 # ── Embedding Cache ───────────────────────────────
 def get_articles_needing_embeddings(conn: sqlite3.Connection) -> list[dict]:
-    """Returns articles that don't have embeddings yet."""
     rows = conn.execute("""
         SELECT id, text FROM articles
         WHERE embedding IS NULL
@@ -78,7 +54,6 @@ def get_articles_needing_embeddings(conn: sqlite3.Connection) -> list[dict]:
 
 
 def save_embeddings(conn: sqlite3.Connection, article_ids: list, embeddings: np.ndarray):
-    """Saves embeddings to DB as binary blobs."""
     for article_id, embedding in zip(article_ids, embeddings):
         blob = pickle.dumps(embedding)
         conn.execute(
@@ -86,34 +61,6 @@ def save_embeddings(conn: sqlite3.Connection, article_ids: list, embeddings: np.
             (blob, article_id)
         )
     conn.commit()
-
-
-def load_all_embeddings(conn: sqlite3.Connection) -> tuple[list, np.ndarray]:
-    """Loads all cached embeddings from DB."""
-    rows = conn.execute("""
-        SELECT id, text, source, bias, title, url, embedding
-        FROM articles
-        WHERE embedding IS NOT NULL
-        AND word_count >= 10
-    """).fetchall()
-
-    article_ids = []
-    articles_meta = []
-    embeddings = []
-
-    for row in rows:
-        article_ids.append(row[0])
-        articles_meta.append({
-            "id": row[0],
-            "text": row[1],
-            "source": row[2],
-            "bias": row[3],
-            "title": row[4],
-            "url": row[5]
-        })
-        embeddings.append(pickle.loads(row[6]))
-
-    return articles_meta, np.array(embeddings)
 
 
 # ── Embedding Computation ─────────────────────────
@@ -138,7 +85,6 @@ def compute_and_cache_embeddings(db_path: str = DB_PATH, batch_size: int = 64):
     texts = [a["text"] for a in articles]
     ids = [a["id"] for a in articles]
 
-    # Process in batches
     all_embeddings = []
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
@@ -148,173 +94,13 @@ def compute_and_cache_embeddings(db_path: str = DB_PATH, batch_size: int = 64):
             batch_size=32
         )
         all_embeddings.extend(batch_embeddings)
-        print(f"  Processed {min(i + batch_size, len(texts))}/{len(texts)}")
+        print(f"  Processed {min(i + batch_size, len(texts))}/{len(texts)}", flush=True)
 
     embeddings_array = normalize(np.array(all_embeddings))
     save_embeddings(conn, ids, embeddings_array)
     conn.close()
     print(f"✓ Saved {len(articles)} new embeddings to DB")
 
-
-# ── Clustering ────────────────────────────────────
-def find_optimal_k(embeddings: np.ndarray, min_k: int = 5, max_k: int = 15) -> tuple[int, float]:
-    """
-    Finds optimal cluster count using silhouette score.
-    Range 5-15 for a news dataset with diverse topics.
-    """
-    best_k = min_k
-    best_score = -1
-
-    for k in range(min_k, min(max_k + 1, len(embeddings) // 10)):
-        kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
-        labels = kmeans.fit_predict(embeddings)
-        score = silhouette_score(embeddings, labels, sample_size=min(1000, len(embeddings)))
-        print(f"  k={k}: silhouette={score:.3f}")
-        if score > best_score:
-            best_score = score
-            best_k = k
-
-    return best_k, best_score
-
-
-def extract_topic_label(texts: list[str]) -> str:
-    """
-    Extracts a topic label from a cluster using TF-IDF.
-    Returns top 2 keywords as the topic name.
-    """
-    if not texts:
-        return "Unknown"
-
-    try:
-        vectorizer = TfidfVectorizer(
-            max_features=20,
-            stop_words=None,  # German stopwords not built-in
-            min_df=1
-        )
-        tfidf_matrix = vectorizer.fit_transform(texts)
-        feature_names = vectorizer.get_feature_names_out()
-        mean_tfidf = tfidf_matrix.mean(axis=0).A1
-        top_indices = mean_tfidf.argsort()[-3:][::-1]
-        top_keywords = [feature_names[i] for i in top_indices]
-
-        # Filter short words and numbers
-        top_keywords = [
-            kw for kw in top_keywords
-            if len(kw) > 3 and not kw.isdigit()
-        ]
-
-        return " · ".join(top_keywords[:2]) if top_keywords else "Diverses"
-    except Exception:
-        return "Diverses"
-
-
-def run_clustering(db_path: str = DB_PATH, force: bool = False) -> dict:
-    """
-    Main clustering function.
-    1. Computes missing embeddings (incremental)
-    2. Loads all embeddings
-    3. Finds optimal cluster count
-    4. Clusters and extracts topic labels
-    5. Saves results to DB
-    """
-    init_embedding_cache(db_path)
-
-    # Step 1: Compute missing embeddings
-    compute_and_cache_embeddings(db_path)
-
-    # Step 2: Load all embeddings
-    print("\nLoading embeddings from DB...")
-    conn = sqlite3.connect(db_path)
-    articles_meta, embeddings = load_all_embeddings(conn)
-
-    if len(articles_meta) < 50:
-        conn.close()
-        return {"error": f"Not enough articles with embeddings ({len(articles_meta)})"}
-
-    print(f"✓ Loaded {len(articles_meta)} articles with embeddings")
-
-    # Step 3: Find optimal k
-    print("\nFinding optimal cluster count...")
-    k, silhouette = find_optimal_k(embeddings)
-    print(f"✓ Optimal k={k} (silhouette={silhouette:.3f})")
-
-    # Step 4: Final clustering
-    print(f"\nClustering {len(articles_meta)} articles into {k} clusters...")
-    kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
-    labels = kmeans.fit_predict(embeddings)
-
-    # Step 5: Build cluster results
-    clusters = []
-    for cluster_id in range(k):
-        cluster_indices = np.where(labels == cluster_id)[0]
-        cluster_articles = [articles_meta[i] for i in cluster_indices]
-
-        texts = [a["text"] for a in cluster_articles]
-        topic_label = extract_topic_label(texts)
-
-        # Bias distribution
-        bias_counts = {}
-        for a in cluster_articles:
-            bias = a.get("bias", "unknown")
-            bias_counts[bias] = bias_counts.get(bias, 0) + 1
-
-        dominant_bias = max(bias_counts, key=bias_counts.get)
-
-        # Sample articles
-        samples = cluster_articles[:5]
-
-        clusters.append({
-            "cluster_id": cluster_id,
-            "topic_label": topic_label,
-            "size": len(cluster_articles),
-            "dominant_bias": dominant_bias,
-            "bias_distribution": bias_counts,
-            "sample_articles": [
-                {
-                    "title": a["title"],
-                    "source": a["source"],
-                    "bias": a["bias"],
-                    "url": a["url"]
-                }
-                for a in samples
-            ]
-        })
-
-    # Sort by size
-    clusters.sort(key=lambda x: x["size"], reverse=True)
-
-    result = {
-        "computed_at": datetime.utcnow().isoformat(),
-        "total_articles": len(articles_meta),
-        "n_clusters": k,
-        "silhouette_score": round(silhouette, 3),
-        "clusters": clusters
-    }
-
-    # Save to DB
-    conn.execute("""
-        INSERT INTO cluster_results
-        (computed_at, n_articles, n_clusters, silhouette, results_json)
-        VALUES (?, ?, ?, ?, ?)
-    """, (
-        result["computed_at"],
-        result["total_articles"],
-        result["n_clusters"],
-        result["silhouette_score"],
-        json.dumps(clusters, ensure_ascii=False)
-    ))
-    conn.commit()
-    conn.close()
-
-    print(f"\n✅ Clustering complete")
-    print(f"   Articles:   {result['total_articles']}")
-    print(f"   Clusters:   {result['n_clusters']}")
-    print(f"   Silhouette: {result['silhouette_score']}")
-    print()
-    for c in clusters[:5]:
-        print(f"   Cluster {c['cluster_id']:2d} [{c['size']:4d} articles] — {c['topic_label']} ({c['dominant_bias']})")
-
-    return result
 
 # ── Curated Topic List ────────────────────────────
 CURATED_TOPICS = [
@@ -351,14 +137,11 @@ CURATED_TOPICS = [
 def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_PATH) -> list[dict]:
     """
     Returns trending topics based on curated list + TF-IDF discovered topics.
-
-    1. Curated topics (Kernthemen + News) always included as base
+    1. Curated topics always included as base
     2. TF-IDF + LLM discovers additional emerging topics
     3. All topics scored by article count from DB
     4. Sorted by relevance, deduplicated
     """
-    import os
-    import re
     from dotenv import load_dotenv
     load_dotenv()
 
@@ -380,7 +163,6 @@ def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_P
     articles = [dict(row) for row in rows]
     texts = [a["title"] + " " + a["text"] for a in articles]
 
-    # ── Step 1: TF-IDF Keyword Extraction ─────────
     print(f"  Extracting keyword candidates from {len(articles)} articles...")
 
     german_stopwords = [
@@ -452,7 +234,6 @@ def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_P
 
         print(f"  → {len(tfidf_candidates)} new keyword candidates (excl. curated)")
 
-    # ── Step 2: LLM filters TF-IDF candidates ─────
     extra_topics = []
     if tfidf_candidates:
         print(f"  Sending to LLM for semantic filtering...")
@@ -513,9 +294,7 @@ Rules:
         except Exception as e:
             print(f"  ⚠ LLM step failed: {e}")
 
-    # ── Step 3: Score all topics from DB ──────────
     all_topics = CURATED_TOPICS + extra_topics
-    # Deduplicate case-insensitive
     seen = set()
     unique_topics = []
     for t in all_topics:
@@ -561,9 +340,3 @@ Rules:
     results.sort(key=lambda x: x["article_count"], reverse=True)
     print(f"  ✅ {len(results)} topics scored")
     return results[:top_n]
-
-# ── Quick test ────────────────────────────────────
-if __name__ == "__main__":
-    result = run_clustering()
-    if "error" in result:
-        print(f"Error: {result['error']}")
