@@ -93,7 +93,9 @@ jobs:
         run: |
           git config --global user.name "consensus-agent-bot"
           git config --global user.email "bot@consensus-agent"
+          git stash --include-untracked
           git pull origin main --rebase
+          git stash pop || true
           git add data/results/
           git diff --staged --quiet || git commit -m "chore: daily ML processing + analytics export $(date -u '+%Y-%m-%d')"
           git push
