@@ -538,10 +538,10 @@ def get_source_editorial_profile(days_back: int = 14):
 
 # ── Trending Topics ───────────────────────────────
 def get_trending_topics_from_db(days_back: int = 7, top_n: int = 20):
-    import sys
-    sys.path.append(os.path.join(os.path.dirname(__file__), "..", "crew", "tools"))
-    from clusterer import get_trending_topics
-    return get_trending_topics(days_back=days_back, top_n=top_n)
+    cached = _load_cached("trending_topics.json")
+    if cached:
+        return cached[:top_n]
+    return []
 
 
 # ── Topic Analysis ────────────────────────────────

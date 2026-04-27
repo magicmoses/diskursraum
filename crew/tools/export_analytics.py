@@ -43,6 +43,15 @@ def run():
     export("emotions_per_bias.json", database.get_emotions_per_bias_filtered())
     export("editorial_profiles.json",database.get_source_editorial_profile())
 
+    # Trending Topics 
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+        from clusterer import get_trending_topics
+        trending = get_trending_topics(days_back=7, top_n=20)
+        export("trending_topics.json", trending)
+    except Exception as e:
+        print(f"  ⚠ trending_topics skipped: {e}")
+
     print("\n✅ All analytics exported — ready to commit")
 
 
