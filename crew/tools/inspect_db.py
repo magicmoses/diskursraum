@@ -37,4 +37,18 @@ print("\n=== Sprachen ===")
 for row in conn.execute("SELECT language, COUNT(*) as c FROM articles GROUP BY language ORDER BY c DESC"):
     print(f"  {row[0]:<10} {row[1]}")
 
+# Letzte 10 Crawls
+print("\n=== Letzte 10 Crawl-Einträge ===")
+rows = conn.execute("""
+    SELECT crawled_at, COUNT(*) as count 
+    FROM articles 
+    GROUP BY DATE(crawled_at)
+    ORDER BY crawled_at DESC 
+    LIMIT 10
+""").fetchall()
+for row in rows:
+    print(f"  {row[0]}  {row[1]} Artikel")
+
 conn.close()
+
+

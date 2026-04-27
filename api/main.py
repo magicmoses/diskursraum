@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import database
 import time
 
-app = FastAPI(title="ConsensusAgent API", version="1.0.0")
+app = FastAPI(title="Diskursraum API", version="1.0.0")
 
 # ── CORS — allow React frontend ───────────────────
 app.add_middleware(

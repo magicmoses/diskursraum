@@ -472,36 +472,28 @@ def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
     """Full Medienspiegel analysis pipeline."""
     print(f"\n🔍 Analyzing: {topic_id}")
     init_db(db_path)
-
     candidates = load_topic_articles(topic_id, db_path)
     print(f"  → {len(candidates)} candidates retrieved")
-
     if len(candidates) < 3:
         return {
             "error": f"Not enough articles for '{topic_id}' (found {len(candidates)})",
             "topic_id": topic_id,
             "article_count": len(candidates)
         }
-
     print(f"  → Running LLM relevance filter...")
     relevant = llm_relevance_filter(candidates, topic_id)
     print(f"  → {len(relevant)} relevant articles after filtering")
-
     if len(relevant) < 3:
         print(f"  ⚠ Too few after filtering — using all candidates")
         relevant = candidates
-
     outlets = aggregate_by_outlet(relevant)
     print(f"  → {len(outlets)} outlets represented")
-
     print(f"  → Generating synthesis...")
     synthesis = llm_synthesize(relevant, topic_id)
-
     bias_dist = {}
     for article in relevant:
         bias = article.get("bias", "unknown")
         bias_dist[bias] = bias_dist.get(bias, 0) + 1
-
     result = {
         "topic_id": topic_id,
         "topic_label": TOPICS.get(topic_id, {}).get("label", topic_id),
@@ -511,8 +503,8 @@ def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
         "bias_distribution": bias_dist,
         "shared_perspectives": synthesis["shared_perspectives"],
         "controversial_points": synthesis["controversial_points"],
+        "cached_at": datetime.utcnow().isoformat(),
     }
-
     print(f"  ✅ Done")
     return result
 

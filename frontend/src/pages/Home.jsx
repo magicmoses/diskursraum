@@ -41,10 +41,10 @@ export default function Home() {
 
       {/* Header */}
       <div className="max-w-2xl">
-        <h1 className="text-3xl font-bold mb-2">Consensus Analysis</h1>
+        <h1 className="text-3xl font-bold mb-2">Diskursraum</h1>
         <p className="text-gray-400 leading-relaxed">
-          Wähle ein Thema um Bridging Statements zu analysieren — Aussagen die
-          über ideologisch unterschiedliche Meinungsgruppen hinweg Zustimmung finden.
+          Mapping Public Discourse in Germany — wie berichten 15 deutsche Medien
+          über gesellschaftliche Debatten? Wo gibt es Konsens, wo Divergenz?
         </p>
       </div>
 
