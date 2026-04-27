@@ -1,7 +1,7 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 78,
+  "article_count": 76,
   "candidate_count": 800,
   "outlets": {
     "faz": {
@@ -70,35 +70,6 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Unfälle: Achtjähriger bei Auffahrunfall schwer verletzt",
-        "Künstliche Intelligenz: KI findet seit Jahren schlummernde Software-Schwachstellen",
-        "Verfassungsschutz warnt vor Cyberangriffen auf Internet-Router",
-        "Entführer wollen im Irak verschleppte US-Journalistin wieder freilassen"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/unfaelle--achtjaehriger-bei-auffahrunfall-schwer-verletzt-37291982.html",
-        "https://www.stern.de/digital/kuenstliche-intelligenz--ki-findet-seit-jahren-schlummernde-software-schwachstellen-37288982.html",
-        "https://www.stern.de/news/verfassungsschutz-warnt-vor-cyberangriffen-auf-internet-router-37289016.html",
-        "https://www.stern.de/news/entfuehrer-wollen-im-irak-verschleppte-us-journalistin-wieder-freilassen-37289022.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
@@ -107,14 +78,14 @@
       "sample_titles": [
         "Bitcoin-Erfinder: Rätsel um Satoshi Nakamoto – Unternehmer Adam Back wehrt sich",
         "Anthropic: KI findet tief versteckte Software-Schwachstellen",
-        "Griechenland plant Social-Media-Verbot für unter 15-Jährige",
-        "KI findet tief versteckte Software-Schwachstellen"
+        "KI findet tief versteckte Software-Schwachstellen",
+        "Russische Staatshacker sollen beliebte Internetrouter infiltriert haben"
       ],
       "urls": [
         "https://www.spiegel.de/netzwelt/bitcoin-erfinder-raetsel-um-satoshi-nakamoto-unternehmer-adam-back-wehrt-sich-a-e17fbe04-78b1-4b68-824b-bfc1428a5353#ref=rss",
         "https://www.spiegel.de/netzwelt/anthropic-ki-findet-tief-versteckte-software-schwachstellen-a-4b177d96-da59-4ea1-813a-c9b9d4e29635#ref=rss",
-        "https://www.spiegel.de/panorama/gesellschaft/griechenland-plant-social-media-verbot-fuer-unter-15-jaehrige-a-e673f6f1-cb1e-486f-bb25-2b9b7f6089e3#ref=rss",
-        "https://www.spiegel.de/netzwelt/ki-findet-tief-versteckte-software-schwachstellen-a-4b177d96-da59-4ea1-813a-c9b9d4e29635#ref=rss"
+        "https://www.spiegel.de/netzwelt/ki-findet-tief-versteckte-software-schwachstellen-a-4b177d96-da59-4ea1-813a-c9b9d4e29635#ref=rss",
+        "https://www.spiegel.de/netzwelt/web/russische-staatshacker-sollen-beliebte-internetrouter-infiltriert-haben-a-d0506dc1-b481-4114-932a-99a185971c75#ref=rss"
       ],
       "dominant_emotion": "amusement",
       "top_emotions": [
@@ -149,6 +120,35 @@
         },
         {
           "emotion": "fear",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 7,
+      "sample_titles": [
+        "Unfälle: Achtjähriger bei Auffahrunfall schwer verletzt",
+        "Künstliche Intelligenz: KI findet seit Jahren schlummernde Software-Schwachstellen",
+        "Verfassungsschutz warnt vor Cyberangriffen auf Internet-Router",
+        "Raus aus der Grübelfalle: Wirksame Methoden gegen Overthinking"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/unfaelle--achtjaehriger-bei-auffahrunfall-schwer-verletzt-37291982.html",
+        "https://www.stern.de/digital/kuenstliche-intelligenz--ki-findet-seit-jahren-schlummernde-software-schwachstellen-37288982.html",
+        "https://www.stern.de/news/verfassungsschutz-warnt-vor-cyberangriffen-auf-internet-router-37289016.html",
+        "https://www.stern.de/geo/wirksame-methoden-gegen-overthinking--raus-aus-der-gruebelfalle-35693656.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -206,29 +206,6 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Cybersicherheit: Bald sind wir alle Hacker",
-        "Digital Detox: 11 Tricks, um vom Handy loszukommen",
-        "Radsport: Pogacar fährt bei Rot über die Gleise – und gewinnt"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/anthropic-ki-hacker-sicherheit-li.3464851",
-        "https://www.sueddeutsche.de/projekte/artikel/magazin/digital-detox-smartphone-e306248/",
-        "https://www.sueddeutsche.de/sport/pogacar-flandern-rundfahrt-van-der-poel-bahngleise-li.3463609"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
@@ -252,23 +229,23 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Künstliche Intelligenz und Intimität: Kann denn Liebe Silizium sein?",
-        "Unerfüllter Kinderwunsch: \"Manchmal wollen die Paare belogen werden, so hart das klingt\""
+        "Cybersicherheit: Bald sind wir alle Hacker",
+        "Digital Detox: 11 Tricks, um vom Handy loszukommen"
       ],
       "urls": [
-        "https://www.zeit.de/feuilleton/2026-04/kuenstliche-intelligenz-intimitaet-liebe-beziehung-einsamkeit",
-        "https://www.zeit.de/familie/2026-02/unerfuellter-kinderwunsch-behandlung-belastung-eltern"
+        "https://www.sueddeutsche.de/wirtschaft/anthropic-ki-hacker-sicherheit-li.3464851",
+        "https://www.sueddeutsche.de/projekte/artikel/magazin/digital-detox-smartphone-e306248/"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "excitement",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -277,26 +254,48 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
+        "Sagrada Familia: Letzter Turm fertiggestellt",
         "KI soll für mehr Sicherheit in Straßenbahnen sorgen"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/heute-in-europa/sagrada-familia-letzter-turm-fertiggestellt-100.html",
         "https://www.zdfheute.de/politik/deutschland/ki-strassenbahn-bremen-100.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Künstliche Intelligenz und Intimität: Kann denn Liebe Silizium sein?"
+      ],
+      "urls": [
+        "https://www.zeit.de/feuilleton/2026-04/kuenstliche-intelligenz-intimitaet-liebe-beziehung-einsamkeit"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
     "conservative-liberal": 20,
-    "left-liberal": 21,
+    "left-liberal": 18,
     "economic-liberal": 15,
-    "neutral": 4,
+    "neutral": 5,
     "right-conservative": 5,
     "left": 5,
     "populist-mixed": 8
   },
-  "shared_perspectives": "Synthese nicht verfügbar.",
-  "controversial_points": "Synthese nicht verfügbar."
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die Auswirkungen von Künstlicher Intelligenz (KI) und Digitalisierung auf verschiedene Aspekte des Lebens zu untersuchen, wie z.B. die Verwendung von KI in der Medizin, im Schulalltag und in der Wirtschaft. Dies zeigt, dass die Digitalisierung und KI ein wichtiges Thema in der deutschen Gesellschaft sind, das von allen politischen Lagern behandelt wird.",
+  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Risiken und Chancen von KI und Digitalisierung, wie z.B. die Warnung vor russischen Hackerangriffen durch den Verfassungsschutz in konservativen Medien oder die Kritik an Tech-Konzernen und der Frage, ob künstliche Intelligenz wirklich notwendig ist, in linken Medien. Dies zeigt, dass die politischen Lagen unterschiedliche Schwerpunkte und Perspektiven auf die Digitalisierung und KI haben.",
+  "cached_at": "2026-04-27T09:46:33.915918"
 }

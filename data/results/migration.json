@@ -1,25 +1,25 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 137,
+  "article_count": 144,
   "candidate_count": 187,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 28,
+      "article_count": 29,
       "sample_titles": [
+        "„Wir werden ihn aus der Haft abschieben“",
         "„Vielerorts kein Stein mehr auf dem anderen“ – Syrische Gemeinde sieht hohe Hürden für Rückkehr",
         "Behörden bestätigen mehrere Todesfälle in Berliner Flüchtlingsunterkunft",
-        "Bei den Abschiebezentren bröckelt die schwarz-rote Einigkeit in der Migrationspolitik",
-        "Ex-Leiterin der Bremer Asylbehörde verliert wegen Geheimnisverrats Pensionsansprüche"
+        "Bei den Abschiebezentren bröckelt die schwarz-rote Einigkeit in der Migrationspolitik"
       ],
       "urls": [
+        "https://www.welt.de/videos/video69d4f7258ba297d4b12317f7/wollhaus-raser-wird-ausgewiesen-wir-werden-ihn-aus-der-haft-abschieben.html",
         "https://www.welt.de/politik/deutschland/article69d0b0c18ba297d4b122ea69/nach-buergerkriegsende-vielerorts-kein-stein-mehr-auf-dem-anderen-syrische-gemeinde-sieht-hohe-huerden-fuer-rueckkehr.html",
         "https://www.welt.de/politik/deutschland/article69ce6aeb54836f652f88c6c4/flughafen-tempelhof-behoerden-bestaetigen-mehrere-todesfaelle-in-berliner-fluechtlingsunterkunft.html",
-        "https://www.welt.de/politik/deutschland/plus69ca944ca2fe7dd4030f5c96/return-hubs-bei-den-abschiebezentren-broeckelt-die-schwarz-rote-einigkeit-in-der-migrationspolitik.html",
-        "https://www.welt.de/politik/deutschland/article69ce1e5dde66bddfe53e2e81/bremen-ex-leiterin-der-asylbehoerde-verliert-wegen-geheimnisverrats-pensionsansprueche.html"
+        "https://www.welt.de/politik/deutschland/plus69ca944ca2fe7dd4030f5c96/return-hubs-bei-den-abschiebezentren-broeckelt-die-schwarz-rote-einigkeit-in-der-migrationspolitik.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -28,7 +28,7 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 17,
+      "article_count": 19,
       "sample_titles": [
         "US-Gericht stoppt Plan zur Aufhebung von Schutzstatus für 5000 Äthiopier",
         "Mittelmeer: Zwei Tote und 71 Vermisste bei Schiffsunglück vor Italien",
@@ -82,6 +82,39 @@
         },
         {
           "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 16,
+      "sample_titles": [
+        "Einwanderung und integration: Was lernen wir von den Russlanddeutschen?",
+        "Nach Bootsunglück: Mehr als 70 Migranten im Mittelmeer vermisst",
+        "Migrationsforschung: Strategisches Schweigen, das den öffentlichen Diskurs verzerrt",
+        "J.D. Vance: Die Irrlehre vom Ordo Amoris"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/feuilleton/debatten/einwanderung-was-lernen-wir-von-den-russlanddeutschen-accg-200670161.html",
+        "https://www.faz.net/aktuell/politik/ausland/mehr-als-70-migranten-nach-bootsunglueck-im-mittelmeer-vermisst-accg-200703355.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/migration-gut-gemeinte-desinformation-accg-200687088.html",
+        "https://www.faz.net/aktuell/wissen/geist-soziales/j-d-vances-irrlehre-vom-ordo-amoris-accg-200687083.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -148,39 +181,6 @@
         },
         {
           "emotion": "grief",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 12,
-      "sample_titles": [
-        "Einwanderung und integration: Was lernen wir von den Russlanddeutschen?",
-        "Nach Bootsunglück: Mehr als 70 Migranten im Mittelmeer vermisst",
-        "Migrationsforschung: Strategisches Schweigen, das den öffentlichen Diskurs verzerrt",
-        "Nach Merz-Aussage: „Es ist ein Mythos, alle Syrer wären Ärzte und Architekten\""
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/feuilleton/debatten/einwanderung-was-lernen-wir-von-den-russlanddeutschen-accg-200670161.html",
-        "https://www.faz.net/aktuell/politik/ausland/mehr-als-70-migranten-nach-bootsunglueck-im-mittelmeer-vermisst-accg-200703355.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/migration-gut-gemeinte-desinformation-accg-200687088.html",
-        "https://www.faz.net/aktuell/politik/inland/nach-syrien-aussage-von-merz-80-prozent-sind-illusorisch-accg-200693672.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
           "count": 1
         }
       ]
@@ -355,15 +355,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 45,
-    "conservative-liberal": 14,
+    "left-liberal": 47,
+    "conservative-liberal": 18,
+    "right-conservative": 29,
     "left": 16,
     "neutral": 21,
-    "right-conservative": 28,
     "far-right": 9,
     "populist-mixed": 1,
     "economic-liberal": 3
   },
-  "shared_perspectives": "Alle Gruppen berichten über die aktuellen Entwicklungen in der Migrations- und Asylpolitik, wie z.B. die Zahl der Asyl-Erstanträge oder die Situation von Flüchtlingen im Mittelmeer, was zeigt, dass dieses Thema in allen Medien eine wichtige Rolle spielt. Die Berichterstattung über Bootsunglücke und Abschiebungen, wie in den Artikeln 'Vermutlich viele Tote nach Bootsunglück' und 'Nach Bootsunglück: Mehr als 70 Migranten im Mittelmeer vermisst', zeigt, dass alle Gruppen sich mit den humanitären Aspekten der Migrationspolitik auseinandersetzen.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung der Migrationspolitik und der Rolle der Politik, wie z.B. in den Artikeln 'US-Gericht stoppt Plan zur Aufhebung von Schutzstatus für 5000 Äthiopier' und 'Bundesaufnahmeprogramm von Afghanen - „So etwas darf sich nicht wiederholen“', was zeigt, dass linke und konservative Medien unterschiedliche Positionen zu Fragen wie Abschiebungen und Asylrecht einnehmen. Die Art und Weise, wie die Medien über die Migrationspolitik berichten, variiert auch in Bezug auf die Betonung von Sicherheitsaspekten, wie in den Artikeln 'Jeder, einfach jeder muss zurückkommen' und 'Kommt jetzt Migrationsminister Åkesson?', was die Kontroverse um die Migrationspolitik unterstreicht."
+  "shared_perspectives": "Alle Gruppen berichten über die aktuellen Entwicklungen in der Migrations- und Asylpolitik, wie z.B. die Zahl der Asyl-Erstanträge oder Bootsunglücke im Mittelmeer, was zeigt, dass dies ein aktuelles und wichtiges Thema ist. Die Berichterstattung über konkrete Ereignisse wie Abschiebungen oder Flüchtlingsunterkünfte ist in allen Gruppen vertreten, was auf ein gemeinsames Interesse an der Umsetzung der Migrationspolitik hinweist.",
+  "controversial_points": "Die Berichterstattung divergiert insbesondere bei der Bewertung von politischen Positionen und Maßnahmen, wie z.B. der Aufhebung von Schutzstatus für äthiopische Migranten oder der Rückführung von Syrern, wobei linke und rechtspolitische Gruppen unterschiedliche Perspektiven vertreten. Die linken Gruppen betonen oft die humanitären Aspekte und die Notwendigkeit von Schutz und Integration, während rechtspolitische Gruppen eher auf die Sicherheit und die Notwendigkeit von Grenzkontrollen fokussieren, wie z.B. in den Artikeln über die Abschiebung von Afghanen oder die Grenzkontrollen zu Deutschland.",
+  "cached_at": "2026-04-27T09:44:00.226712"
 }
