@@ -1,370 +1,58 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 144,
-  "candidate_count": 187,
+  "article_count": 3,
+  "candidate_count": 12,
   "outlets": {
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 29,
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 1,
       "sample_titles": [
-        "„Wir werden ihn aus der Haft abschieben“",
-        "„Vielerorts kein Stein mehr auf dem anderen“ – Syrische Gemeinde sieht hohe Hürden für Rückkehr",
-        "Behörden bestätigen mehrere Todesfälle in Berliner Flüchtlingsunterkunft",
-        "Bei den Abschiebezentren bröckelt die schwarz-rote Einigkeit in der Migrationspolitik"
+        "Illegale erhalten Bleiberecht Warum die Zahl der Abschiebungen um 28 Prozent einbricht"
       ],
       "urls": [
-        "https://www.welt.de/videos/video69d4f7258ba297d4b12317f7/wollhaus-raser-wird-ausgewiesen-wir-werden-ihn-aus-der-haft-abschieben.html",
-        "https://www.welt.de/politik/deutschland/article69d0b0c18ba297d4b122ea69/nach-buergerkriegsende-vielerorts-kein-stein-mehr-auf-dem-anderen-syrische-gemeinde-sieht-hohe-huerden-fuer-rueckkehr.html",
-        "https://www.welt.de/politik/deutschland/article69ce6aeb54836f652f88c6c4/flughafen-tempelhof-behoerden-bestaetigen-mehrere-todesfaelle-in-berliner-fluechtlingsunterkunft.html",
-        "https://www.welt.de/politik/deutschland/plus69ca944ca2fe7dd4030f5c96/return-hubs-bei-den-abschiebezentren-broeckelt-die-schwarz-rote-einigkeit-in-der-migrationspolitik.html"
+        "https://jungefreiheit.de/politik/deutschland/2026/warum-die-zahl-der-abschiebungen-um-28-prozent-einbricht/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 19,
-      "sample_titles": [
-        "US-Gericht stoppt Plan zur Aufhebung von Schutzstatus für 5000 Äthiopier",
-        "Mittelmeer: Zwei Tote und 71 Vermisste bei Schiffsunglück vor Italien",
-        "Seenotrettung: SPD-Abgeordnete fordert Unterstützung durch Bundesregierung",
-        "Friedrich Merz und Angela Merkel: Merkel hatte Merz eine Sache voraus – Meinung"
-      ],
-      "urls": [
-        "https://www.spiegel.de/ausland/us-gericht-stoppt-plan-zur-aufhebung-von-schutzstatus-fuer-5000-aethiopier-a-460059a1-4fb3-4946-a2df-dcd3563e31f4#ref=rss",
-        "https://www.spiegel.de/ausland/mittelmeer-zwei-tote-und-71-vermisste-bei-schiffsunglueck-vor-italien-a-c44b9637-a2d3-4e85-bbf2-9a5cb4e5e485#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/seenotrettung-spd-abgeordnete-fordert-unterstuetzung-durch-bundesregierung-a-875dcbc4-acaa-4b9d-a729-3322220be68c#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/friedrich-merz-und-angela-merkel-merkel-hatte-merz-eine-sache-voraus-meinung-a-1e30cd92-4024-4e5a-bd7f-9fbbf778282c#ref=rss"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
     },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 16,
-      "sample_titles": [
-        "Flucht und Migration über das Meer: Die stille Katastrophe im Mittelmeer geht immer weiter",
-        "Todeszone Mittelmeer: Als Wal wäre ihnen das nicht passiert",
-        "Mitglieder von SPD, Grünen und Linken: 128 Abgeordnete formulieren „Osterappell zur Seenotrettung“",
-        "Liberale Einwanderung: Legalisieren statt dämonisieren"
-      ],
-      "urls": [
-        "https://taz.de/Flucht-und-Migration-ueber-das-Meer/!6168615/",
-        "https://taz.de/Todeszone-Mittelmeer/!6164508/",
-        "https://taz.de/Mitglieder-von-SPD-Gruenen-und-Linken/!6168511/",
-        "https://taz.de/Liberale-Einwanderung/!6164573/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 16,
-      "sample_titles": [
-        "Einwanderung und integration: Was lernen wir von den Russlanddeutschen?",
-        "Nach Bootsunglück: Mehr als 70 Migranten im Mittelmeer vermisst",
-        "Migrationsforschung: Strategisches Schweigen, das den öffentlichen Diskurs verzerrt",
-        "J.D. Vance: Die Irrlehre vom Ordo Amoris"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/feuilleton/debatten/einwanderung-was-lernen-wir-von-den-russlanddeutschen-accg-200670161.html",
-        "https://www.faz.net/aktuell/politik/ausland/mehr-als-70-migranten-nach-bootsunglueck-im-mittelmeer-vermisst-accg-200703355.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/migration-gut-gemeinte-desinformation-accg-200687088.html",
-        "https://www.faz.net/aktuell/wissen/geist-soziales/j-d-vances-irrlehre-vom-ordo-amoris-accg-200687083.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 14,
-      "sample_titles": [
-        "Migration: Zahl der Asyl-Erstanträge sinkt im ersten Quartal deutlich",
-        "US-Migrationspolitik: Kongo nimmt Abgeschobene aus den USA auf",
-        "Mittelmeer: Abgeordnete von SPD, Grünen und Linke fordern Seenotrettungsprogramm",
-        "Unterkünfte des Freistaats: Bayern plant Wegfall von Tausenden Betten für Asylbewerber"
-      ],
-      "urls": [
-        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-04/asylantraege-deutschland-afghanistan-bamf-statistik",
-        "https://www.zeit.de/politik/ausland/2026-04/usa-demokratische-republik-kongo-abschiebungen-drittstaaten-abkommen",
-        "https://www.zeit.de/politik/deutschland/2026-04/mittelmeer-seenotrettung-programm-spd-gruene-linke",
-        "https://www.zeit.de/news/2026-04/03/bayern-plant-wegfall-von-tausenden-betten-fuer-asylbewerber"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 13,
-      "sample_titles": [
-        "Vermutlich viele Tote nach Bootsunglück",
-        "Polen verlängert Grenzkontrollen zu Deutschland",
-        "\"Jeder, einfach jeder muss zurückkommen\"",
-        "Technikprobleme: Bezahlkarte für Geflüchtete kommt weiter schleppend voran"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/ausland/europa/bootsunglueck-mittelmeer-migranten-100.html",
-        "https://www.tagesschau.de/ausland/europa/grenzkontrolle-verlaengerung-polen-100.html",
-        "https://www.tagesschau.de/ausland/asien/syrien-fluechtlinge-rueckkehrer-100.html",
-        "https://www.hessenschau.de/gesellschaft/technikprobleme-bezahlkarte-fuer-gefluechtete-kommt-weiter-schleppend-voran--v1,bezahlkarte-hessen-stockt-100.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "grief",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 11,
-      "sample_titles": [
-        "Arbeiten im Backhandwerk: Migranten schließen Lücken in Hessens Bäckereien",
-        "AfD-Aussteiger: „Die wollen alle abschieben, die nicht deutsch sind“",
-        "Rückkehr von Kriegsflüchtlingen: Regierung betont Einigkeit mit Syrien",
-        "Flüchtlingsdebatte: Regierung will Debatte um Rückkehrziel für Syrer beenden"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/hessen/arbeiten-im-backhandwerk--migranten-schliessen-luecken-in-hessens-baeckereien-37286004.html",
-        "https://www.stern.de/politik/deutschland/afd-aussteiger---die-wollen-alle-abschieben--die-nicht-deutsch-sind--37274818.html",
-        "https://www.stern.de/news/rueckkehr-von-kriegsfluechtlingen--regierung-betont-einigkeit-mit-syrien-37275622.html",
-        "https://www.stern.de/politik/ausland/fluechtlingsdebatte--regierung-will-debatte-um-rueckkehrziel-fuer-syrer-beenden-37275522.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "remorse",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 9,
-      "sample_titles": [
-        "Migrationspolitik Wadephul stellt allen integrierten Syrern deutschen Pass in Aussicht",
-        "Bremen Ex-Asylamtschefin verliert Pensionsanspruch wegen Geheimnisverrat",
-        "Kommt jetzt Migrationsminister Åkesson? Rechte Schwedendemokraten sollen Ministerämter bekommen",
-        "Migrationspolitik Syriens Außenminister: Auslandssyrer sind „strategisches Gut“"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/wadephul-stellt-allen-integrierten-syrern-deutschen-pass-in-aussicht/",
-        "https://jungefreiheit.de/politik/deutschland/2026/ex-asylamtschefin-verliert-pensionsanspruch-wegen-geheimnisverrat/",
-        "https://jungefreiheit.de/politik/ausland/2026/rechte-schwedendemokraten-sollen-ministeraemter-bekommen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/syriens-aussenminister-auslandssyrer-sind-strategisches-gut/"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 8,
-      "sample_titles": [
-        "\"80 Prozent\": Weiter Debatte um Syrien-Ziel",
-        "Deals mit Syriens Machthaber Ahmed al-Scharaa",
-        "Jurist: Rückkehr von 80 Prozent der Syrer \"illusorisch\"",
-        "Wadephul stellt sich hinter Merz-Äußerung zu Syrern"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/video/heute-journal/stern-syrien-merz-100.html",
-        "https://www.zdfheute.de/video/frontal/syrien-gefluechtete-rueckkehrer-100.html",
-        "https://www.zdfheute.de/politik/deutschland/syrien-rueckkehr-integration-abschiebung-deutschland-100.html",
-        "https://www.zdfheute.de/politik/ausland/wadephul-syrien-merz-ansage-ausreise-rueckkehr-syrer-100.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Einwanderung: Berlin will Hunderte indische Studierende ausweisen",
-        "Migration: Von Rückkehr nach Syrien darf nur die Rede sein, wenn sie freiwillig und in Würde geschieht",
-        "Vorfall in Erding: Messerattacke in Asylunterkunft"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/berlin-indische-studenten-visum-abschiebung-li.3461549",
-        "https://www.sueddeutsche.de/meinung/syrien-rueckfuehrung-migration-merz-li.3461202",
-        "https://www.sueddeutsche.de/muenchen/erding/erding-messerangriff-sicherheitsmitarbeiter-asylunterkunft-li.3459426"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Migrationspolitik: Das sind die Folgen von Merz‘ heikler 80-Prozent-Aussage",
-        "Morning Briefing: Drei Zahlen zeigen den Syrien-Schlamassel von Friedrich Merz",
-        "Bundesregierung: Merz-Aussage zu Syrien sorgt für Ärger in der Koalition"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/migrationspolitik-das-sind-die-folgen-von-merz-heikler-80-prozent-aussage/100213670.html",
-        "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-drei-zahlen-zeigen-den-syrien-schlamassel-von-friedrich-merz/100213225.html",
-        "https://www.handelsblatt.com/politik/deutschland/bundesregierung-merz-aussage-zu-syrien-sorgt-fuer-aerger-in-der-koalition/100213181.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Bundesaufnahmeprogramm von Afghanen - „So etwas darf sich nicht wiederholen“",
-        "Rückkehrdebatte um syrische Flüchtlinge - „Das ist politisch vollmundig – aber praktisch kaum steuerbar“"
-      ],
-      "urls": [
-        "https://www.cicero.de/innenpolitik/bundesaufnahmeprogramm-fur-afghanen-so-etwas-darf-sich-nicht-wiederholen",
-        "https://www.cicero.de/innenpolitik/ruckkehrdebatte-um-syrische-fluchtlinge-das-ist-politisch-vollmundig-aber-praktisch-kaum-steuerbar"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
       "article_count": 1,
       "sample_titles": [
-        "Exklusive Asylzahlen - So viele Flüchtlinge kommen noch zu uns"
+        "Wissenschaftlerin über KI-Propaganda: „Abschiebungen, aber im lieblichen Stil von Studio Ghibli“"
       ],
       "urls": [
-        "https://www.bild.de/politik/exklusive-asylzahlen-so-viele-fluechtlinge-kommen-noch-zu-uns-69ce213fde66bddfe53e2ed5"
+        "https://taz.de/Wissenschaftlerin-ueber-KI-Propaganda/!6174983/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "Deutschland: Erstmals seit fünf Jahren weniger Abschiebungen"
+      ],
+      "urls": [
+        "https://www.dw.com/de/deutschland-erstmals-seit-fünf-jahren-weniger-abschiebungen/a-76994454?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "left-liberal": 47,
-    "conservative-liberal": 18,
-    "right-conservative": 29,
-    "left": 16,
-    "neutral": 21,
-    "far-right": 9,
-    "populist-mixed": 1,
-    "economic-liberal": 3
+    "far-right": 1,
+    "left": 1,
+    "neutral": 1
   },
-  "shared_perspectives": "Alle Gruppen berichten über die aktuellen Entwicklungen in der Migrations- und Asylpolitik, wie z.B. die Zahl der Asyl-Erstanträge oder Bootsunglücke im Mittelmeer, was zeigt, dass dies ein aktuelles und wichtiges Thema ist. Die Berichterstattung über konkrete Ereignisse wie Abschiebungen oder Flüchtlingsunterkünfte ist in allen Gruppen vertreten, was auf ein gemeinsames Interesse an der Umsetzung der Migrationspolitik hinweist.",
-  "controversial_points": "Die Berichterstattung divergiert insbesondere bei der Bewertung von politischen Positionen und Maßnahmen, wie z.B. der Aufhebung von Schutzstatus für äthiopische Migranten oder der Rückführung von Syrern, wobei linke und rechtspolitische Gruppen unterschiedliche Perspektiven vertreten. Die linken Gruppen betonen oft die humanitären Aspekte und die Notwendigkeit von Schutz und Integration, während rechtspolitische Gruppen eher auf die Sicherheit und die Notwendigkeit von Grenzkontrollen fokussieren, wie z.B. in den Artikeln über die Abschiebung von Afghanen oder die Grenzkontrollen zu Deutschland.",
-  "cached_at": "2026-04-27T09:44:00.226712"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass Abschiebungen ein wichtiger Aspekt der Migrationspolitik in Deutschland sind, wie aus den Artikeltiteln über den Rückgang der Abschiebungen hervorgeht. Die Berichterstattung über Abschiebungen, unabhängig von der politischen Ausrichtung, zeigt, dass dies ein zentrales Thema in der Debatte um Migration und Asylpolitik ist.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Art und Weise, wie die Abschiebungen thematisiert werden, wobei die rechtsextreme Berichterstattung auf die Illegale Einwanderung und den Rückgang der Abschiebungen fokussiert, während die linke Berichterstattung eher auf die humanitären Aspekte und die mögliche Verwendung von Propaganda eingeht, wie aus den Artikeltiteln über KI-Propaganda und die Darstellung von Abschiebungen im Stil von Studio Ghibli hervorgeht.",
+  "cached_at": "2026-05-01T06:48:22.714768"
 }

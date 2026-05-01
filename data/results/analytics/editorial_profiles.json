@@ -1,11 +1,73 @@
 {
   "taz": {
-    "error": "No data"
+    "source_id": "taz",
+    "bias": "left",
+    "total_non_neutral": 18,
+    "top_emotions": [
+      {
+        "emotion": "approval",
+        "count": 4,
+        "pct": 22.2
+      },
+      {
+        "emotion": "annoyance",
+        "count": 2,
+        "pct": 11.1
+      },
+      {
+        "emotion": "confusion",
+        "count": 2,
+        "pct": 11.1
+      },
+      {
+        "emotion": "grief",
+        "count": 2,
+        "pct": 11.1
+      },
+      {
+        "emotion": "relief",
+        "count": 1,
+        "pct": 5.6
+      }
+    ]
   },
   "welt": {
-    "error": "No data"
+    "source_id": "welt",
+    "bias": "right-conservative",
+    "total_non_neutral": 6,
+    "top_emotions": [
+      {
+        "emotion": "admiration",
+        "count": 3,
+        "pct": 50.0
+      },
+      {
+        "emotion": "optimism",
+        "count": 1,
+        "pct": 16.7
+      },
+      {
+        "emotion": "excitement",
+        "count": 1,
+        "pct": 16.7
+      },
+      {
+        "emotion": "disapproval",
+        "count": 1,
+        "pct": 16.7
+      }
+    ]
   },
   "junge_freiheit": {
-    "error": "No data"
+    "source_id": "junge_freiheit",
+    "bias": "far-right",
+    "total_non_neutral": 1,
+    "top_emotions": [
+      {
+        "emotion": "curiosity",
+        "count": 1,
+        "pct": 100.0
+      }
+    ]
   }
 }

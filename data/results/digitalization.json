@@ -1,25 +1,25 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 76,
-  "candidate_count": 800,
+  "article_count": 19,
+  "candidate_count": 86,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 20,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 7,
       "sample_titles": [
-        "Bücher zur DigitalisierunG: Jetzt herrschen die Algorithmen",
-        "Bücher zur DigitalisierunG: Jetzt herrschen die Algorithmen",
-        "Testbetrieb: KI wertet Kamerabilder an Frankfurts Hauptplätzen aus",
-        "Test autonomer Fahrzeuge: KIRA fährt zur Mathildenhöhe in Darmstadt"
+        "Digitale Kollegen im Einsatz",
+        "ForecastME: Ersetzt KI Anwälte?",
+        "So revolutioniert Künstliche Intelligenz die Musikwelt",
+        "KI als Psycho-Coach"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/neue-buecher-zur-digitalisierung-herrschaft-der-algorithmen-110855624.html",
-        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/neue-buecher-zur-digitalisierung-herrschaft-algorithmen-110855624.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/nicht-nur-im-bahnhofsviertel-ki-gestuetzte-videoueberwachung-in-frankfurt-200711408.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/autonomes-auto-kira-faehrt-nun-auch-zur-mathildenhoehe-in-darmstadt-accg-200708745.html"
+        "https://www.zdf.de/video/dokus/plan-b-104/plan-b-kuenstliche-intelligenz-roboter-job-100",
+        "https://www.zdf.de/video/dokus/wiso-die-doku-100/forecast-me-102",
+        "https://www.zdfheute.de/panorama/kuenstliche-intelligenz-einfluss-musikwelt-100.html",
+        "https://www.zdfheute.de/video/zdf-morgenmagazin/ki-coach-psyche-depression-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -28,180 +28,61 @@
           "count": 2
         },
         {
-          "emotion": "admiration",
-          "count": 2
+          "emotion": "excitement",
+          "count": 1
         },
         {
-          "emotion": "annoyance",
+          "emotion": "admiration",
           "count": 1
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 15,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 5,
       "sample_titles": [
-        "IT-Sicherheit: Zu gefährlich: Anthropic veröffentlicht neues KI-Modell vorerst nicht",
-        "Künstliche Intelligenz: KI findet seit Jahren schlummernde Software-Schwachstellen",
-        "Interview: Rüstungsexperte Loesekrug-Pietri: „KI-Einsatz ändert den Krieg fundamental“",
-        "Kreative Zerstörung: Ideen kaufen, nicht klauen - Wie Kreativität das KI-Zeitalter überlebt"
+        "KI-Künstler: Spotify will menschliche Inhalte kennzeichnen",
+        "Managementprofi im Interview: „Ich habe sieben große Effizienzkiller ausgemacht“",
+        "Entscheidungshilfe: Wie Menschen ChatGPT wirklich nutzen",
+        "Weiterbildung: Die besten KI-Kurse für Einsteiger und Entscheider"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/it-internet/ki-anthropic-haelt-neues-modell-wegensicherheitsbedenken-vorerst-zurueck/100215205.html",
-        "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-ki-findet-seit-jahren-schlummernde-software-schwachstellen/100215105.html",
-        "https://www.handelsblatt.com/technik/forschung-innovation/andre-loesekrug-pietri-ki-einsatz-aendert-den-krieg-fundamental/100213251.html",
-        "https://www.handelsblatt.com/meinung/kolumnen/kuenstliche-intelligenz-wie-kreativitaet-das-ki-zeitalter-ueberlebt-01/100214795.html"
+        "https://www.faz.net/aktuell/wirtschaft/ki-kunst-spotify-will-menschliche-inhalte-kennzeichnen-200787317.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/wie-effizientes-arbeiten-gelingt-tipps-vom-managementprofi-accg-110803390.html",
+        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/ueberraschende-ergebnisse-wie-menschen-chatgpt-wirklich-nutzen-110687940.html",
+        "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/fuer-2026-die-besten-ki-kurse-fuer-einsteiger-und-entscheider-accg-200376858.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "desire",
       "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
         {
           "emotion": "desire",
           "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Bitcoin-Erfinder: Rätsel um Satoshi Nakamoto – Unternehmer Adam Back wehrt sich",
-        "Anthropic: KI findet tief versteckte Software-Schwachstellen",
-        "KI findet tief versteckte Software-Schwachstellen",
-        "Russische Staatshacker sollen beliebte Internetrouter infiltriert haben"
-      ],
-      "urls": [
-        "https://www.spiegel.de/netzwelt/bitcoin-erfinder-raetsel-um-satoshi-nakamoto-unternehmer-adam-back-wehrt-sich-a-e17fbe04-78b1-4b68-824b-bfc1428a5353#ref=rss",
-        "https://www.spiegel.de/netzwelt/anthropic-ki-findet-tief-versteckte-software-schwachstellen-a-4b177d96-da59-4ea1-813a-c9b9d4e29635#ref=rss",
-        "https://www.spiegel.de/netzwelt/ki-findet-tief-versteckte-software-schwachstellen-a-4b177d96-da59-4ea1-813a-c9b9d4e29635#ref=rss",
-        "https://www.spiegel.de/netzwelt/web/russische-staatshacker-sollen-beliebte-internetrouter-infiltriert-haben-a-d0506dc1-b481-4114-932a-99a185971c75#ref=rss"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
+        },
         {
           "emotion": "amusement",
           "count": 1
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 8,
-      "sample_titles": [
-        "Riesiger Berg - Landwirt verschenkt Kartoffeln an alle",
-        "Schutz vor Ransomware - Google Drive stoppt Hacker-Angriffe automatisch",
-        "Schummeln mit Smart Glasses - Digitale Spickzettel erobern chinesische Schulen",
-        "Neue Version - Bringt iOS 26.5 das Siri-Update?"
-      ],
-      "urls": [
-        "https://www.bild.de/news/ausland/riesiger-berg-landwirt-verschenkt-kartoffeln-an-alle-69d4d108086bb1c024ff9cee",
-        "https://www.bild.de/leben-wissen/digital/ransomware-gestoppt-google-drive-schuetzt-ihre-daten-sofort-69d50a4029ec7b790142f262",
-        "https://www.bild.de/leben-wissen/digital/immer-mehr-studierende-schummeln-bei-pruefungen-mit-smart-glasses-69d4ccd9aeb40a828f74889b",
-        "https://www.bild.de/leben-wissen/digital/neue-version-bringt-ios-26-5-das-siri-update-69ce710254836f652f88c767"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Unfälle: Achtjähriger bei Auffahrunfall schwer verletzt",
-        "Künstliche Intelligenz: KI findet seit Jahren schlummernde Software-Schwachstellen",
-        "Verfassungsschutz warnt vor Cyberangriffen auf Internet-Router",
-        "Raus aus der Grübelfalle: Wirksame Methoden gegen Overthinking"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/unfaelle--achtjaehriger-bei-auffahrunfall-schwer-verletzt-37291982.html",
-        "https://www.stern.de/digital/kuenstliche-intelligenz--ki-findet-seit-jahren-schlummernde-software-schwachstellen-37288982.html",
-        "https://www.stern.de/news/verfassungsschutz-warnt-vor-cyberangriffen-auf-internet-router-37289016.html",
-        "https://www.stern.de/geo/wirksame-methoden-gegen-overthinking--raus-aus-der-gruebelfalle-35693656.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 5,
-      "sample_titles": [
-        "Verfassungsschutz warnt vor russischen Hackerangriffen auf beliebte Router",
-        "Verfassungsschutz warnt vor russischen Hackerangriffen auf beliebte Router",
-        "Kubicki hat was, was vielen aus der politischen Klasse fehlt",
-        "Drei von vier Eltern unterstützen Social-Media-Verbot für Kinder – eine Wählergruppe eher skeptisch"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article69d604a2463e9a2d40d161e9/weltweite-cyberattacke-verfassungsschutz-warnt-vor-russischen-hackerangriffen-auf-beliebte-router.html",
-        "https://www.welt.de/politik/deutschland/video69d6185b463e9a2d40d163a8/weltweite-cyberattacke-verfassungsschutz-warnt-vor-russischen-hackerangriffen-auf-beliebte-router.html",
-        "https://www.welt.de/debatte/plus69d4d51faeb40a828f74897d/fdp-kubicki-hat-was-was-vielen-aus-der-politischen-klasse-fehlt.html",
-        "https://www.welt.de/politik/deutschland/article69ce3ec9de66bddfe53e321c/social-media-drei-von-vier-eltern-unterstuetzen-verbot-fuer-kinder-eine-waehlergruppe-eher-skeptisch.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 5,
+      "article_count": 2,
       "sample_titles": [
-        "Konferenz gegen Tech-Konzerne: „Muss es wirklich künstliche Intelligenz sein?“",
-        "KI im Schulalltag: Das große Ausprobieren",
-        "Künstliche Intelligenz im Krieg: Riesige Datenmengen, tödliche Folgen",
-        "Hackerangriff auf Kunstmuseum in Florenz: Alarm in Uffizien-Galerie"
+        "KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft",
+        "Journalismus im Wandel: Führt die KI zum K.o. der Pressefreiheit?"
       ],
       "urls": [
-        "https://taz.de/Konferenz-gegen-Tech-Konzerne/!6167959/",
-        "https://taz.de/KI-im-Schulalltag/!6168838/",
-        "https://taz.de/Kuenstliche-Intelligenz-im-Krieg/!6165983/",
-        "https://taz.de/Hackerangriff-auf-Kunstmuseum-in-Florenz/!6168484/"
+        "https://taz.de/KI-und-CO2-Steuer/!6174980/",
+        "https://taz.de/Fuehrt-die-KI-zum-Ende-der-Pressefreiheit/!6167245/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -210,72 +91,33 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 3,
+      "article_count": 2,
       "sample_titles": [
-        "Wie viel bringen Hausaufgaben in Zeiten von KI? Saar-Lehrer für neue Regeln",
-        "Digitalisierung in der Medizin: KI im Kampf gegen Krebs",
-        "Deepfake-Pornografie: Vor allem Kinder und Jugendliche betroffen"
+        "KI-Investitionen steigen auf 725 Milliarden Dollar",
+        "Warum KI Extremwetter schlechter vorhersagt"
       ],
       "urls": [
-        "https://www.sr.de/sr/home/nachrichten/panorama/lehrerverband_ki_hausaufgaben_100.html",
-        "https://www.rbb24.de/panorama/beitrag/2026/04/kuenstliche-intelligenz-potsdam-krebs-prostata.html",
-        "https://www.sr.de/sr/home/nachrichten/panorama/deepnudes_deepfakes_kinder_social_media_100.html"
+        "https://www.tagesschau.de/wirtschaft/unternehmen/investitionen-kuenstliche-intelligenz-tech-konzerne-100.html",
+        "https://www.tagesschau.de/wissen/forschung/ki-wettervorhersage-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Cybersicherheit: Bald sind wir alle Hacker",
-        "Digital Detox: 11 Tricks, um vom Handy loszukommen"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/anthropic-ki-hacker-sicherheit-li.3464851",
-        "https://www.sueddeutsche.de/projekte/artikel/magazin/digital-detox-smartphone-e306248/"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 2,
-      "sample_titles": [
-        "Sagrada Familia: Letzter Turm fertiggestellt",
-        "KI soll für mehr Sicherheit in Straßenbahnen sorgen"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/video/heute-in-europa/sagrada-familia-letzter-turm-fertiggestellt-100.html",
-        "https://www.zdfheute.de/politik/deutschland/ki-strassenbahn-bremen-100.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
       "bias": "left-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Künstliche Intelligenz und Intimität: Kann denn Liebe Silizium sein?"
+        "Künstliche Intelligenz: Musks KI-Firma nutzte beim Training Modelle von OpenAI"
       ],
       "urls": [
-        "https://www.zeit.de/feuilleton/2026-04/kuenstliche-intelligenz-intimitaet-liebe-beziehung-einsamkeit"
+        "https://www.stern.de/digital/kuenstliche-intelligenz--musks-ki-firma-nutzte-beim-training-modelle-von-openai-37359502.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -284,18 +126,49 @@
           "count": 1
         }
       ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/technik/ki/silicon-valley-725-milliarden-dollar-fuer-ki-und-google-haengt-alle-ab/100220686.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "EU wirft Meta unzureichenden Kinderschutz vor"
+      ],
+      "urls": [
+        "https://www.dw.com/de/eu-wirft-meta-unzureichenden-kinderschutz-vor/a-76977377?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 20,
-    "left-liberal": 18,
-    "economic-liberal": 15,
-    "neutral": 5,
-    "right-conservative": 5,
-    "left": 5,
-    "populist-mixed": 8
+    "left-liberal": 1,
+    "economic-liberal": 1,
+    "conservative-liberal": 5,
+    "left": 2,
+    "neutral": 10
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die Auswirkungen von Künstlicher Intelligenz (KI) und Digitalisierung auf verschiedene Aspekte des Lebens zu untersuchen, wie z.B. die Verwendung von KI in der Medizin, im Schulalltag und in der Wirtschaft. Dies zeigt, dass die Digitalisierung und KI ein wichtiges Thema in der deutschen Gesellschaft sind, das von allen politischen Lagern behandelt wird.",
-  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Risiken und Chancen von KI und Digitalisierung, wie z.B. die Warnung vor russischen Hackerangriffen durch den Verfassungsschutz in konservativen Medien oder die Kritik an Tech-Konzernen und der Frage, ob künstliche Intelligenz wirklich notwendig ist, in linken Medien. Dies zeigt, dass die politischen Lagen unterschiedliche Schwerpunkte und Perspektiven auf die Digitalisierung und KI haben.",
-  "cached_at": "2026-04-27T09:46:33.915918"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die Auswirkungen von Künstlicher Intelligenz (KI) auf verschiedene Aspekte der Gesellschaft zu untersuchen, wie z.B. die Wirtschaft, den Arbeitsmarkt und die Umwelt, wie in den Artikeln über KI-Entwicklungen und ihre Anwendungen in verschiedenen Bereichen zu sehen ist. Die Bedeutung von KI für die Zukunft der Arbeit und die Notwendigkeit, ihre Entwicklung und Anwendung zu regulieren, wird in vielen Artikeln thematisiert, wie z.B. in 'EU wirft Meta unzureichenden Kinderschutz vor' und 'KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft'.",
+  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Auswirkungen von KI auf die Gesellschaft, wie z.B. in den Artikeln 'Journalismus im Wandel: Führt die KI zum K.o. der Pressefreiheit?' und 'ForecastME: Ersetzt KI Anwälte?', die Bedenken hinsichtlich der möglichen negativen Auswirkungen von KI auf die Pressefreiheit und die Arbeitswelt äußern, während andere Artikel wie 'Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab' die positiven Aspekte von KI und ihre Möglichkeiten für Wirtschaftswachstum betonen.",
+  "cached_at": "2026-05-01T06:48:27.433915"
 }

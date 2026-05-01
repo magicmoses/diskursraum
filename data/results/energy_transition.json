@@ -1,291 +1,50 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 95,
-  "candidate_count": 149,
+  "article_count": 18,
+  "candidate_count": 21,
   "outlets": {
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 14,
-      "sample_titles": [
-        "Ausbau von Wind- und Solarenergie in der Westpfalz gerät ins Stocken",
-        "98 Meter hoher Windradturm bei Olpe erfolgreich gesprengt",
-        "Weltgrößtes Windrad in Schipkau: Bauarbeiten gehen weiter",
-        "Landesregierung will Stromspeichersysteme für mittelständische Unternehmen fördern"
-      ],
-      "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/ausbau-windraeder-stockt-in-der-westpfalz-wegen-stromnetz-100.html",
-        "https://www1.wdr.de/nachrichten/westfalen-lippe/sprengung-windradturm-olpe-100.html",
-        "https://www.rbb24.de/panorama/beitrag/2026/04/brandenburg-schipkau-super-windrad-bauarbeiten-groesste-windrad-der-welt.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/stromspeicherfoerderung_fuer_mittelstaendische_unternehmen_100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 13,
+      "article_count": 4,
       "sample_titles": [
-        "Deutschlands Energiepolitik: Deutschland macht Energiewende, China Energieerweiterung",
-        "F.A.Z. exklusiv: Die Mehrheit der Deutschen will ein klimaneutrales Land",
-        "Energiewende: Schluss mit der Selbsttäuschung in der Energiepolitik",
-        "Energiewende: Wie Geothermie Gaskraftwerke ersetzen kann"
+        "neue Öl- und Gasheizungen: Koalition einigt sich auf Heizkostenbremse für Mieter",
+        "Stromerzeugung: Belgien stoppt Rückbau seiner Atomreaktoren",
+        "Der Geschichtspodcast: Fragen und Antworten zu Der Super-Gau von Tschernobyl und die deutsche Atomangst",
+        "Bei neuen fossilen heizungen: Mieter-Entlastung: Koalition plant Heizkostenteilung"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/energie-im-21-jahrhundert-mehr-strom-weniger-oel-200690280.html",
-        "https://www.faz.net/aktuell/politik/inland/klimaziel-2045-grosse-mehrheit-fuer-ein-klimaneutrales-land-accg-200708435.html",
-        "https://www.faz.net/aktuell/wirtschaft/katherina-reiche-in-der-f-a-z-schluss-mit-der-selbsttaeuschung-in-der-energiepolitik-accg-200707552.html",
-        "https://www.faz.net/aktuell/wissen/erde-klima/geothermie-wie-hoch-ist-das-potential-in-deutschland-accg-200687125.html"
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/union-und-spd-koalition-einigt-sich-auf-heizkostenbremse-fuer-mieter-accg-200783857.html",
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/belgien-stoppt-rueckbau-seiner-atomreaktoren-staatliche-uebernahme-angestrebt-accg-200784243.html",
+        "https://www.faz.net/podcasts/der-geschichtspodcast/qa-folge-zu-tschernobyl-und-die-deutsche-atomangst-200779953.html",
+        "https://www.faz.net/video/mieter-entlastung-koalition-plant-heizkostenteilung-200786529.html"
       ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 11,
-      "sample_titles": [
-        "Windräder, nein danke – wie eine Stadt die Energiewende ausbremst",
-        "Staatsmedien melden Angriff auf iranisches AKW – Russland zieht 200 Arbeiter ab",
-        "„Speicher, Netze und erneuerbare Energien sind der bessere Weg“",
-        "Umweltschutz oder Wohnungsnot? Auch die neuen Gesetze geben Windrädern und Kreuzkröten Vorrang"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/plus69ce8d95cdf80d124bb0c780/baden-baden-windraeder-nein-danke-wie-eine-stadt-die-energiewende-ausbremst.html",
-        "https://www.welt.de/politik/ausland/article69cf05f2cdf80d124bb0cc45/krieg-in-nahost-staatsmedien-melden-angriff-auf-iranisches-akw-russland-zieht-200-arbeiter-ab-liveticker.html",
-        "https://www.welt.de/regionales/hamburg/article69cd09eb54836f652f88b29c/energiewirtschaft-speicher-netze-und-erneuerbare-energien-sind-der-bessere-weg.html",
-        "https://www.welt.de/finanzen/plus69ce25a8cdf80d124bb0bcaa/umweltschutz-oder-wohnungsnot-die-neuen-gesetze-geben-lurchen-und-windraedern-vorrang.html"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "disappointment",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 10,
-      "sample_titles": [
-        "Umfrage zu Energieimporten: Viele Deutsche haben Angst vor fossiler Abhängigkeit",
-        "Erneuerbare-Energien-Gesetz: Weniger Solardächer, billiger Strom?",
-        "Wegen Energiekrise: Kohleausstieg erst 2038",
-        "Europäisches Stromnetz: Punkt 22 Uhr gerät das Netz aus dem Takt"
-      ],
-      "urls": [
-        "https://taz.de/Umfrage-zu-Energieimporten/!6168842/",
-        "https://taz.de/Erneuerbare-Energien-Gesetz/!6168409/",
-        "https://taz.de/Wegen-Energiekrise/!6167825/",
-        "https://taz.de/Europaeisches-Stromnetz/!6166827/"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Iran-Krieg: DIW-Expertin: Schwerste fossile Energiekrise unserer Zeit",
-        "Chef der Energieagentur: Iran-Krieg wird geopolitische Lage im Energiebereich ändern",
-        "Erneuerbare Energien: Solarbranche: Ausbau erneuerbarer Energien ist Bürgerwille",
-        "Staatsmedien: Erneuter Angriff auf Akw Buschehr - Russland zieht 200 Arbeiter ab"
-      ],
-      "urls": [
-        "https://www.stern.de/wirtschaft/news/iran-krieg--diw-expertin--schwerste-fossile-energiekrise-unserer-zeit-37288762.html",
-        "https://www.stern.de/news/chef-der-energieagentur--iran-krieg-wird-geopolitische-lage-im-energiebereich-aendern-37286462.html",
-        "https://www.stern.de/wirtschaft/news/erneuerbare-energien--solarbranche--ausbau-erneuerbarer-energien-ist-buergerwille-37282932.html",
-        "https://www.stern.de/news/staatsmedien--erneuter-angriff-auf-akw-buschehr---russland-zieht-200-arbeiter-ab-37282160.html"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 2
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "SPD: Energiepolitikerin Nina Scheer – Die Grünste unter den Roten",
-        "Energie: Hohe Energiepreise treiben Industrie zu grünen Investitionen",
-        "Gastkommentar: Emissionshandel: Europas Klimapolitik braucht mehr Realismus",
-        "Energieversorgung: Reiche fordert langfristige Verträge für die Gasbranche"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/spd-energiepolitikerin-nina-scheer-die-gruenste-unter-den-roten/100215204.html",
-        "https://www.handelsblatt.com/unternehmen/energie/energie-hohe-energiepreise-treiben-industrie-zu-gruenen-investitionen/100210980.html",
-        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-europas-klimapolitik-braucht-mehr-realismus/100213104.html",
-        "https://www.handelsblatt.com/politik/deutschland/energieversorgung-reiche-fordert-langfristige-vertraege-fuer-die-gasbranche/100213116.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 7,
-      "sample_titles": [
-        "Niederländer recyceln Windräder",
-        "Russlands Atomgeschäfte: Europa in der Falle",
-        "Russlands Atomgeschäfte: Europa in der Falle",
-        "Solar-Pläne von Reiche: Was Fachbetriebe und Experten sagen"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/video/heute-in-europa/niederlaender-recyceln-windraeder-100.html",
-        "https://www.zdf.de/video/dokus/frontal-die-doku-100/doku-russlands-atomgeschaefte-europa-in-der-falle-100",
-        "https://www.zdfheute.de/politik/ausland/russland-kernkraftwerk-europa-lingen-brennelemente-putin-100.html",
-        "https://www.zdfheute.de/politik/deutschland/solarenergie-katherina-reiche-einspeiseverguetung-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Iran-Krieg: Gaspreise für Neukunden in Deutschland auf Drei-Jahres-Hoch",
-        "Borkum: Zweite Bohrung erfolgt, mehr Erdgas wird gefördert",
-        "Öl und Gas: Erneuerbare Energien sind schon jetzt ein kleines Schutzschild",
-        "Sprit- und Gaspreise: Lars Klingbeil drängt auf Entlastungen"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/iran-krieg-gaspreise-fuer-neukunden-in-deutschland-auf-drei-jahres-hoch-a-77a8f13e-9912-4ac6-bfe2-508bfa21ca72#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/borkum-zweite-bohrung-erfolgt-mehr-erdgas-wird-gefoerdert-a-4818d561-2fc6-48e4-9063-e540715552b5#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/oel-und-gas-erneuerbare-energien-sind-schon-jetzt-ein-kleines-schutzschild-a-4feb190b-44d3-4255-9d00-42244ddfd9e9#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/sprit-und-gaspreise-lars-klingbeil-draengt-auf-entlastungen-a-f156eedb-58d3-4f97-8e0e-6df436edb1d3#ref=rss"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Erneuerbare Energien: Woidke will heimische Energie auch in Brandenburg nutzen",
-        "Folgen des Irankriegs: Gasversorgung laut Katherina Reiche trotz Irankrieg gesichert",
-        "Energie: Mehr als die Hälfte des Stroms in Deutschland aus erneuerbaren Quellen",
-        "Gas: Reiche will Gasversorgung mit langfristigen Verträgen sicherstellen"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-04/04/woidke-will-heimische-energie-auch-in-brandenburg-nutzen",
-        "https://www.zeit.de/wirtschaft/2026-04/katherina-reiche-gas-oel-preis-irankrieg-versorgung-deutschland",
-        "https://www.zeit.de/wirtschaft/2026-04/strom-erneuerbare-energie-wind-sonne-gxe",
-        "https://www.zeit.de/wirtschaft/2026-03/gas-katharina-reiche-versorung-liefervertrage-lng-sefe-gazprom-gxe"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
       "article_count": 4,
       "sample_titles": [
-        "Internationale Energieagentur: „Wir werden die Folgen viele Monate spüren, wenn nicht Jahre“",
-        "Energiewende: „Alle paar Jahre ein Kurswechsel – das ist Gift“",
-        "Ausbau der erneuerbaren Energien: Wegen Reiche-Plänen: Bayern bangt um seine Wind- und Solarvorhaben",
-        "Netzwerktreffen: Wie sich die Rathäuser beim Klimaschutz Rat holen"
+        "Heizungsgesetz: Schwarz-Rot vereinbart Kostenbremse für Mieter",
+        "Mehr Kontrolle über Eigenversorgung: Belgien stoppt Rückbau aller seiner Atomreaktoren",
+        "Kompromiss im Heizungsgesetz: Neue Gasrechnung für Ver­mie­te­r:in­nen",
+        "SPD und CDU koalieren in Rheinland-Pfalz: Kitapflicht kommt, Klimaschutzgesetz bleibt"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/energie-iran-benzinpreise-tempolimit-li.3464567",
-        "https://www.sueddeutsche.de/muenchen/dachau/energiewende-netzpaket-erneuerbare-energien-bundeswirtschaftsministerium-foerderung-windkraft-solar-landkreis-dachau-freising-li.3455496",
-        "https://www.sueddeutsche.de/bayern/reiche-bayern-stromnetz-solar-windkraft-ausbau-erneuerbare-energien-li.3462722",
-        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/klimaschutz-kommunen-energie-gebaeude-li.3458110"
+        "https://taz.de/Heizungsgesetz/!6175267/",
+        "https://taz.de/Mehr-Kontrolle-ueber-Eigenversorgung/!6175284/",
+        "https://taz.de/Kompromiss-im-Heizungsgesetz/!6175287/",
+        "https://taz.de/SPD-und-CDU-koalieren-in-Rheinland-Pfalz/!6175315/"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -296,89 +55,113 @@
       "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
-        "Gastbeitrag in der FAZ Wirtschaftsministerin Reiche verteidigt die Energiewende",
-        "Krieg im Iran IEA-Chef warnt vor „schwarzem April“ der Energieversorgung",
-        "Klimawandel? Harald Lesch und seine Energiewende"
+        "Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs",
+        "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen",
+        "Schwarz-Rot gegen die Bürger Die Heizungsgesetz-Lüge"
       ],
       "urls": [
-        "https://jungefreiheit.de/wirtschaft/2026/wirtschaftsministerin-reiche-verteidigt-die-energiewende/",
-        "https://jungefreiheit.de/wirtschaft/2026/iea-chef-warnt-vor-schwarzem-april-der-energieversorgung/",
-        "https://jungefreiheit.de/wissen/natur-und-technik/2026/harald-lesch-und-seine-energiewende/"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 2,
-      "sample_titles": [
-        "Klare Regeln - Darf man mehrere Balkonkraftwerke betreiben?",
-        "Grüne Energie für die Zukunft - Größter Stromspeicher Hamburgs am Netz"
-      ],
-      "urls": [
-        "https://www.bild.de/leben-wissen/wohnen-living/darf-man-mehrere-balkonkraftwerke-betreiben-69cd303454836f652f88b6cd",
-        "https://www.bild.de/news/inland/hamburg-groesster-batteriespeicher-der-stadt-am-netz-69ccf41154836f652f88b096"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "Iran-Krieg: Erneuter Angriff auf Atomkraftwerk Buschehr"
-      ],
-      "urls": [
-        "https://www.dw.com/de/iran-krieg-erneuter-angriff-auf-atomkraftwerk-buschehr/a-76662531?maca=de-rss-de-news-1089-xml-mrss"
+        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-verspricht-freiheit-im-keller-und-bleibt-doch-auf-gruenem-kurs/",
+        "https://jungefreiheit.de/politik/ausland/2026/belgien-stoppt-rueckbau-aller-atomkraftanlagen/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/die-heizungsgesetz-luege/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 1,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 2,
       "sample_titles": [
-        "Solarförderung vor dem Aus? - Reiches Kurs bringt Energiewende ins Wanken"
+        "Atomkraft: Was für und gegen eine Rückkehr spricht",
+        "Einigung beim \"Heizungsgesetz\": Was das für Mieter bedeutet"
       ],
       "urls": [
-        "https://www.cicero.de/wirtschaft/solarforderung-vor-dem-aus-reiches-kurs-bringt-energiewende-ins-wanken"
+        "https://www.zdfheute.de/wirtschaft/atomkraft-atomenergie-kernenergie-atomausstieg-deutschland-energiekrise-100.html",
+        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-mieter-gesetz-vermieter-waermepumpe-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "realization",
           "count": 1
         }
       ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 2,
+      "sample_titles": [
+        "Höhere Pacht: Eifeler Landwirt verliert Weide wegen Solaranlage",
+        "Belgien stoppt Rückbau seiner Atomkraftwerke"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/bau-von-photovoltaik-anlagen-landwirte-in-der-region-trier-unter-druck-100.html",
+        "https://www.tagesschau.de/ausland/europa/belgien-atomkraft-entscheidung-100.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Öl- und Gasheizungen: Vermieter müssen künftig Bio-Brennstoffe verheizen und die Hälfte der Kosten tragen"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/gasheizungen-vermieter-muessen-bald-bio-brennstoffe-verheizen-und-mitbezahlen/100221317.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 1,
+      "sample_titles": [
+        "Habecks „Heizungsgesetz“ ist Geschichte – so sieht die Lösung der neuen Regierung aus"
+      ],
+      "urls": [
+        "https://www.welt.de/finanzen/plus69f353fd6fe2dee7bfb0ec8d/habecks-heizungsgesetz-ist-geschichte-so-sieht-die-neue-loesung-aus.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Klimapolitik in Deutschland: Wasser predigen und Öl trinken"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wissenschaft/mensch/klimapolitik-in-deutschland-wasser-predigen-und-oel-trinken-a-167f989d-9fc2-4200-9b68-ea0c18d36c3c#ref=rss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "economic-liberal": 8,
     "far-right": 3,
-    "left-liberal": 25,
-    "conservative-liberal": 14,
-    "neutral": 22,
-    "left": 10,
-    "right-conservative": 11,
-    "populist-mixed": 2
+    "economic-liberal": 1,
+    "right-conservative": 1,
+    "conservative-liberal": 4,
+    "left": 4,
+    "left-liberal": 1,
+    "neutral": 4
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Energiewende und die Klimapolitik wichtige Themen für Deutschland sind, wie etwa die Notwendigkeit, den Kohleausstieg zu beschleunigen und erneuerbare Energien auszubauen, wie in den Artikeln 'Energie: Hohe Energiepreise treiben Industrie zu grünen Investitionen' und 'Internationale Energieagentur: „Wir werden die Folgen viele Monate spüren, wenn nicht Jahre“' deutlich wird. Dies zeigt, dass es einen breiten Konsens über die Bedeutung der Energiewende gibt.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Umsetzung und die Prioritäten der Energiewende, wie etwa die Frage, ob die Atomkraft noch eine Rolle spielen sollte, wie in dem Artikel 'Klimawandel? Harald Lesch und seine Energiewende' thematisiert wird, oder ob der Fokus auf erneuerbare Energien und Energieeffizienz liegen sollte, wie in dem Artikel 'Energiewende: Schluss mit der Selbsttäuschung in der Energiepolitik' betont wird.",
-  "cached_at": "2026-04-27T09:44:06.379144"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass die deutsche Energiewende und Klimapolitik wichtige Themen sind, die eine umfassende Debatte erfordern, wie die Artikel über das Heizungsgesetz und den Ausstieg aus der Atomkraft zeigen. Die Berichterstattung aller Gruppen befasst sich auch mit den Auswirkungen auf die Mieter und Verbraucher, wie die Artikel über die Heizkostenbremse und die Kostenbremse für Mieter verdeutlichen.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung der politischen Maßnahmen, wie das Heizungsgesetz, und der Rolle der Atomkraft, wobei die rechtspopulistischen Medien das Gesetz als „Lüge“ bezeichnen, während linke Medien von einer „Kostenbremse“ für Mieter sprechen. Die Darstellung der belgischen Entscheidung, den Rückbau von Atomkraftanlagen zu stoppen, variiert auch zwischen den Gruppen, wobei einige sie als positives Beispiel für die Energiewende sehen, während andere sie als Zeichen für die Unentschlossenheit der Politik interpretieren.",
+  "cached_at": "2026-05-01T06:48:24.388990"
 }
