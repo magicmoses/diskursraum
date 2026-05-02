@@ -1,21 +1,80 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 4,
-  "candidate_count": 4,
+  "article_count": 6,
+  "candidate_count": 10,
   "outlets": {
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Finanzen: Ost-Länder zahlen 2,3 Milliarden Euro für DDR-Sonderrenten"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/sachsen/finanzen--ost-laender-zahlen-2-3-milliarden-euro-fuer-ddr-sonderrenten-37361442.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/chefoekonom-welches-rentenniveau-kann-sich-deutschland-auf-dauer-leisten/100220363.html"
+      ],
+      "dominant_emotion": "disgust",
+      "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Rente: Koalition plant Milliarden-Griff in die Rentenkasse - Experte spricht von \"Diebstahl\""
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/soziales/rente-koalition-plant-milliarden-griff-in-die-rentenkasse-experte-spricht-von-diebstahl-a-8b673f8f-6dad-49bd-94e7-db10eb20b197#ref=rss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 1,
+      "sample_titles": [
+        "Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher"
+      ],
+      "urls": [
+        "https://taz.de/Hoeheres-Rentenalter/!6175381/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?",
-        "TV-Kritik Maybrit Illner: Bei der Vermögensteuer reden plötzlich alle durcheinander"
+        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/talkshow/tv-kritik-maybrit-illner-kubickis-eierarsch-beleidigung-und-kuehnerts-umverteilungsideen-accg-200787609.html"
+        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -24,20 +83,6 @@
           "count": 1
         }
       ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 1,
-      "sample_titles": [
-        "KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft"
-      ],
-      "urls": [
-        "https://taz.de/KI-und-CO2-Steuer/!6174980/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "zdf": {
       "source_id": "zdf",
@@ -55,11 +100,13 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 2,
+    "left-liberal": 2,
+    "economic-liberal": 1,
     "left": 1,
+    "conservative-liberal": 1,
     "neutral": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass die Altersvorsorge und das Rentensystem eine wichtige Rolle in der deutschen Gesellschaft spielen, wie etwa der Titel 'Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?' zeigt, der auf die individuelle Planung für den Ruhestand eingeht. Dies deutet darauf hin, dass alle Gruppen die Bedeutung einer sicheren Altersvorsorge anerkennen.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in Bezug auf die Lösungsansätze und die politischen Schwerpunkte, wie etwa die Erwähnung der 'Vermögensteuer' in der konservativ-liberalen Berichterstattung und die Betonung von 'KI und CO₂-Steuer' in der linken Berichterstattung, was auf unterschiedliche politische und wirtschaftliche Vorstellungen hinweist.",
-  "cached_at": "2026-05-01T06:48:25.524157"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass das deutsche Rentensystem eine Herausforderung darstellt, die sowohl finanzielle als auch generationenübergreifende Aspekte umfasst, wie etwa die Frage nach der Finanzierbarkeit der gesetzlichen Rentenversicherung und die Debatten um das Renteneintrittsalter. Dies zeigt sich in Titeln wie 'Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?' und 'Hausverkauf für Leibrente: Chance oder Risiko?', die auf die Notwendigkeit einer nachhaltigen und generationengerechten Lösung hinweisen.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung von Reformvorschlägen und der Rolle der Politik, wie etwa in den Titeln 'Rente: Koalition plant Milliarden-Griff in die Rentenkasse - Experte spricht von 'Diebstahl'' und 'Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?', die unterschiedliche Meinungen über die Verteilung von Lasten und Chancen im Rentensystem widerspiegeln und auf die politische und ideologische Ausrichtung der Medien hinweisen.",
+  "cached_at": "2026-05-02T06:18:52.748479"
 }

@@ -1,134 +1,45 @@
 {
   "topic_id": "wealth_tax",
   "topic_label": "Vermögenssteuer & Umverteilung",
-  "article_count": 11,
-  "candidate_count": 24,
+  "article_count": 3,
+  "candidate_count": 3,
   "outlets": {
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 2,
+      "sample_titles": [
+        "1.-Mai-Demo in Essen: „Nazis hatten wir schon – war Scheiße“",
+        "Gewerkschaften in den USA: Klasse sucht Kampf"
+      ],
+      "urls": [
+        "https://taz.de/1-Mai-Demo-in-Essen/!6175783/",
+        "https://taz.de/Junge-Arbeitnehmerinnen-in-den-USA-entdecken-Gewerkschaften-als-politische-Kraft/!6174926/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Steuergerechtigkeit: Warum Milliardäre kaum Steuern zahlen",
-        "Ausnahme für Unternehmenserben: Sollte man Betriebe wie privates Vermögen behandeln?",
-        "Ausnahme für Unternehmenserben: Die neue Erbschaftsteuersorge"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/gabriel-zucmans-reichensteuer-warum-milliardaere-kaum-steuern-zahlen-accg-200705033.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/schaerfere-erbschaftsteuer-familienunternehmen-warnen-vor-wirtschaftlichen-folgen-accg-200700371.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/schaerfere-erbschaftssteuer-familienunternehmen-warnen-vor-wirtschaftlichen-folgen-accg-200700371.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 2,
-      "sample_titles": [
-        "„Inakzeptabel, dass die Hauptlast auf die Mehrheit abgeladen wird“ – Klüssendorf will Steuerreform",
-        "Sollte das Ehegattensplitting abgeschafft werden?"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article69d32147086bb1c024ff8a46/steigende-lebenshaltungskosten-inakzeptabel-dass-die-hauptlast-auf-die-mehrheit-abgeladen-wird-kluessendorf-will-steuerreform.html",
-        "https://www.welt.de/politik/deutschland/video69c69c02c01b1139332dd558/civey-umfrage-sollte-das-ehegattensplitting-abgeschafft-werden.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Steuerreform: DGB-Chefin fordert ermäßigte Mehrwertsteuer auf Lebensmittel",
-        "Ehegattensplitting: Ein Ende des Splittings käme für viele einer Steuererhöhung gleich"
-      ],
-      "urls": [
-        "https://www.zeit.de/wirtschaft/2026-04/dgb-steuerreform-mehrwertsteuer-yasmin-fahimi-gxe",
-        "https://www.zeit.de/wirtschaft/2026-03/ehegattensplitting-spd-besteuerung-geschlechtergerechtigkeit-reform"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Steuerreform: Wer verliert wie viel bei einer Abschaffung des Ehegattensplittings?",
-        "Steuerreform: Wer verliert wie viel bei einer Abschaffung des Ehegattensplittings?"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/steuerreform-wer-verliert-wie-viel-bei-einer-abschaffung-des-ehegattensplittings-01/100212442.html",
-        "https://www.handelsblatt.com/politik/deutschland/steuerreform-wer-verliert-wie-viel-bei-einer-abschaffung-des-ehegattensplittings/100212442.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Immobilie im Nachlass: Streitfall Erbschaftsteuer"
+        "Deutschland-Liveblog: Klingbeil kündigt Konzept für Steuerreform „in den kommenden Wochen“ an"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/erbschaftsteuer-streit-muenchen-groebenzell-grundstueckswert-behoerdenkonflikt-li.3454295"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Linke fordert Vermögenssteuer für Finanzierung von Entwicklungszusammenarbeit"
-      ],
-      "urls": [
-        "https://www.stern.de/news/linke-fordert-vermoegenssteuer-fuer-finanzierung-von-entwicklungszusammenarbeit-37263110.html"
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-klingbeil-kuendigt-konzept-fuer-steuerreform-in-den-kommenden-wochen-an-faz-110093143.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 3,
-    "left-liberal": 4,
-    "right-conservative": 2,
-    "economic-liberal": 2
+    "conservative-liberal": 1,
+    "left": 2
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Steuergerechtigkeit in Deutschland verbessert werden muss, wie etwa in den Artikeln 'Steuergerechtigkeit: Warum Milliardäre kaum Steuern zahlen' und 'Immobilie im Nachlass: Streitfall Erbschaftsteuer' deutlich wird. Sie diskutieren auch über die Notwendigkeit einer Steuerreform, wie in 'Steuergerechtigkeit: Warum Milliardäre kaum Steuern zahlen' und 'Steuereform: DGB-Chefin fordert ermäßigte Mehrwertsteuer auf Lebensmittel' zu sehen ist.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in Bezug auf die konkreten Lösungsansätze, wie etwa die Forderung nach einer Vermögenssteuer oder Reichensteuer, die von linken Gruppen wie in 'Linke fordert Vermögenssteuer für Finanzierung von Entwicklungszusammenarbeit' unterstützt wird, während konservative Gruppen eher auf eine Reform der bestehenden Steuergesetze wie in 'Ausnahme für Unternehmenserben: Sollte man Betriebe wie privates Vermögen behandeln?' setzen.",
-  "cached_at": "2026-04-27T09:44:33.408374"
+  "shared_perspectives": "Alle Gruppen scheinen sich in der Notwendigkeit einer Diskussion über Steuerreformen und Vermögensungleichheit zu einigen, wie etwa die Ankündigung von Klingbeil, ein Konzept für eine Steuerreform in den kommenden Wochen vorzustellen. Dies deutet darauf hin, dass es einen breiten Konsens über die Notwendigkeit einer Reform gibt.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Art und Weise, wie die Themen angegangen werden, wobei konservativ-liberale Medien sich auf konkrete Reformpläne wie die Ankündigung von Klingbeil konzentrieren, während linke Medien eher auf soziale Unruhen und Proteste wie die 1.-Mai-Demo in Essen eingehen und eine stärkere Betonung auf die Klassenkampf- und Ungleichheitsthematik legen.",
+  "cached_at": "2026-05-02T06:18:54.132646"
 }

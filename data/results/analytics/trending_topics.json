@@ -1,16 +1,16 @@
 [
   {
     "topic": "Trump",
-    "article_count": 51,
-    "source_count": 13,
+    "article_count": 129,
+    "source_count": 14,
     "bias_distribution": {
-      "neutral": 19,
-      "left-liberal": 7,
-      "left": 3,
-      "conservative-liberal": 10,
-      "right-conservative": 4,
-      "economic-liberal": 3,
-      "populist-mixed": 3,
+      "neutral": 31,
+      "left-liberal": 34,
+      "left": 6,
+      "conservative-liberal": 19,
+      "right-conservative": 17,
+      "economic-liberal": 9,
+      "populist-mixed": 11,
       "far-right": 2
     },
     "sample_titles": [
@@ -23,16 +23,16 @@
   },
   {
     "topic": "Iran",
-    "article_count": 39,
-    "source_count": 13,
+    "article_count": 95,
+    "source_count": 14,
     "bias_distribution": {
-      "neutral": 15,
-      "left-liberal": 6,
-      "left": 2,
-      "conservative-liberal": 8,
-      "right-conservative": 3,
-      "economic-liberal": 2,
-      "populist-mixed": 1,
+      "neutral": 21,
+      "left-liberal": 29,
+      "left": 4,
+      "conservative-liberal": 15,
+      "right-conservative": 15,
+      "economic-liberal": 4,
+      "populist-mixed": 5,
       "far-right": 2
     },
     "sample_titles": [
@@ -45,16 +45,16 @@
   },
   {
     "topic": "Merz",
-    "article_count": 32,
-    "source_count": 11,
+    "article_count": 59,
+    "source_count": 13,
     "bias_distribution": {
-      "neutral": 12,
-      "left-liberal": 2,
-      "left": 1,
-      "conservative-liberal": 8,
-      "right-conservative": 3,
+      "neutral": 15,
+      "left-liberal": 7,
+      "left": 2,
+      "conservative-liberal": 12,
+      "right-conservative": 11,
       "economic-liberal": 1,
-      "populist-mixed": 2,
+      "populist-mixed": 8,
       "far-right": 3
     },
     "sample_titles": [
@@ -67,13 +67,15 @@
   },
   {
     "topic": "Wirtschaft",
-    "article_count": 18,
-    "source_count": 6,
+    "article_count": 36,
+    "source_count": 11,
     "bias_distribution": {
-      "neutral": 9,
-      "left": 3,
-      "conservative-liberal": 3,
-      "economic-liberal": 3
+      "neutral": 11,
+      "left": 4,
+      "conservative-liberal": 5,
+      "economic-liberal": 6,
+      "left-liberal": 5,
+      "right-conservative": 5
     },
     "sample_titles": [
       "Deutsche Wirtschaft wächst zu Jahresbeginn leicht",
@@ -85,13 +87,14 @@
   },
   {
     "topic": "Ukraine",
-    "article_count": 16,
-    "source_count": 6,
+    "article_count": 30,
+    "source_count": 9,
     "bias_distribution": {
-      "neutral": 12,
-      "left-liberal": 1,
+      "neutral": 13,
+      "left-liberal": 9,
       "left": 1,
-      "conservative-liberal": 2
+      "conservative-liberal": 5,
+      "right-conservative": 2
     },
     "sample_titles": [
       "Kreml schlägt bei Telefonat mit Trump Feuerpause im Krieg mit der Ukraine zum 9. Mai vor",
@@ -103,14 +106,15 @@
   },
   {
     "topic": "Russland",
-    "article_count": 15,
-    "source_count": 8,
+    "article_count": 29,
+    "source_count": 10,
     "bias_distribution": {
-      "neutral": 8,
-      "left-liberal": 3,
-      "left": 1,
-      "conservative-liberal": 2,
-      "right-conservative": 1
+      "neutral": 11,
+      "left-liberal": 7,
+      "left": 2,
+      "conservative-liberal": 5,
+      "right-conservative": 3,
+      "economic-liberal": 1
     },
     "sample_titles": [
       "Selenskyj will mehr Details zu Waffenruhe-Vorschlag",
@@ -122,14 +126,15 @@
   },
   {
     "topic": "Israel",
-    "article_count": 9,
-    "source_count": 7,
+    "article_count": 25,
+    "source_count": 10,
     "bias_distribution": {
-      "neutral": 2,
-      "left-liberal": 3,
-      "left": 2,
-      "conservative-liberal": 1,
-      "right-conservative": 1
+      "neutral": 4,
+      "left-liberal": 9,
+      "left": 4,
+      "conservative-liberal": 5,
+      "right-conservative": 1,
+      "populist-mixed": 2
     },
     "sample_titles": [
       "++ Israel verteidigt Vorgehen gegen Gaza-Flotte ++",
@@ -140,32 +145,17 @@
     "is_core": false
   },
   {
-    "topic": "Künstliche Intelligenz",
-    "article_count": 6,
-    "source_count": 4,
-    "bias_distribution": {
-      "neutral": 3,
-      "left": 1,
-      "conservative-liberal": 1,
-      "left-liberal": 1
-    },
-    "sample_titles": [
-      "Große Mehrheit erwartet, dass KI Jobs vernichtet",
-      "Wie eine KI mich einmal (beinahe) ersetzt hätte",
-      "So revolutioniert Künstliche Intelligenz die Musikwelt"
-    ],
-    "days_back": 7,
-    "is_core": true
-  },
-  {
     "topic": "AfD",
-    "article_count": 6,
-    "source_count": 5,
+    "article_count": 12,
+    "source_count": 8,
     "bias_distribution": {
       "neutral": 3,
-      "left": 1,
+      "left": 2,
       "right-conservative": 1,
-      "far-right": 1
+      "far-right": 3,
+      "conservative-liberal": 1,
+      "economic-liberal": 1,
+      "left-liberal": 1
     },
     "sample_titles": [
       "AfD scheitert wieder bei Wahl zum Landtags-Vizepräsidenten",
@@ -176,48 +166,16 @@
     "is_core": false
   },
   {
-    "topic": "NATO",
-    "article_count": 5,
-    "source_count": 5,
-    "bias_distribution": {
-      "neutral": 2,
-      "left-liberal": 1,
-      "left": 1,
-      "conservative-liberal": 1
-    },
-    "sample_titles": [
-      "Berliner Finanzsenator Evers übernimmt zusätzlich Kulturressort",
-      "Merz: Führungsrolle in Europa und NATO auch militärisch gerecht werden",
-      "Iran-Krieg: Senatoren grillen Trumps Verteidigungsminister und Pete Hegseth keilt zurück"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
-    "topic": "Gaza",
-    "article_count": 5,
-    "source_count": 5,
-    "bias_distribution": {
-      "neutral": 2,
-      "left-liberal": 2,
-      "left": 1
-    },
-    "sample_titles": [
-      "++ Israel verteidigt Vorgehen gegen Gaza-Flotte ++",
-      "Wegen Stopp von Gaza-Flotte: Rom und Berlin ermahnen Israel",
-      "Mittelmeer: Israelische Marine stoppt größte Gaza-Hilfsflotte"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
     "topic": "Rente",
-    "article_count": 4,
-    "source_count": 3,
+    "article_count": 10,
+    "source_count": 7,
     "bias_distribution": {
-      "neutral": 1,
-      "left": 1,
-      "conservative-liberal": 2
+      "neutral": 2,
+      "left": 2,
+      "conservative-liberal": 2,
+      "left-liberal": 2,
+      "economic-liberal": 1,
+      "right-conservative": 1
     },
     "sample_titles": [
       "Hausverkauf für Leibrente: Chance oder Risiko?",
@@ -228,12 +186,71 @@
     "is_core": true
   },
   {
-    "topic": "Inflation",
-    "article_count": 4,
-    "source_count": 2,
+    "topic": "Künstliche Intelligenz",
+    "article_count": 10,
+    "source_count": 5,
+    "bias_distribution": {
+      "neutral": 4,
+      "left": 1,
+      "conservative-liberal": 3,
+      "left-liberal": 1,
+      "economic-liberal": 1
+    },
+    "sample_titles": [
+      "Große Mehrheit erwartet, dass KI Jobs vernichtet",
+      "Wie eine KI mich einmal (beinahe) ersetzt hätte",
+      "So revolutioniert Künstliche Intelligenz die Musikwelt"
+    ],
+    "days_back": 7,
+    "is_core": true
+  },
+  {
+    "topic": "Gaza",
+    "article_count": 8,
+    "source_count": 7,
     "bias_distribution": {
       "neutral": 2,
-      "conservative-liberal": 2
+      "left-liberal": 2,
+      "left": 2,
+      "economic-liberal": 1,
+      "conservative-liberal": 1
+    },
+    "sample_titles": [
+      "++ Israel verteidigt Vorgehen gegen Gaza-Flotte ++",
+      "Wegen Stopp von Gaza-Flotte: Rom und Berlin ermahnen Israel",
+      "Mittelmeer: Israelische Marine stoppt größte Gaza-Hilfsflotte"
+    ],
+    "days_back": 7,
+    "is_core": false
+  },
+  {
+    "topic": "NATO",
+    "article_count": 7,
+    "source_count": 7,
+    "bias_distribution": {
+      "neutral": 2,
+      "left-liberal": 2,
+      "left": 1,
+      "conservative-liberal": 1,
+      "right-conservative": 1
+    },
+    "sample_titles": [
+      "Berliner Finanzsenator Evers übernimmt zusätzlich Kulturressort",
+      "Merz: Führungsrolle in Europa und NATO auch militärisch gerecht werden",
+      "Iran-Krieg: Senatoren grillen Trumps Verteidigungsminister und Pete Hegseth keilt zurück"
+    ],
+    "days_back": 7,
+    "is_core": false
+  },
+  {
+    "topic": "Inflation",
+    "article_count": 7,
+    "source_count": 4,
+    "bias_distribution": {
+      "neutral": 2,
+      "conservative-liberal": 2,
+      "left-liberal": 1,
+      "economic-liberal": 2
     },
     "sample_titles": [
       "EZB wartet weiter ab",
@@ -244,11 +261,28 @@
     "is_core": false
   },
   {
+    "topic": "Atomkraft",
+    "article_count": 5,
+    "source_count": 4,
+    "bias_distribution": {
+      "neutral": 2,
+      "far-right": 1,
+      "conservative-liberal": 2
+    },
+    "sample_titles": [
+      "Belgien stoppt Rückbau seiner Atomkraftwerke",
+      "Atomkraft: Was für und gegen eine Rückkehr spricht",
+      "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen"
+    ],
+    "days_back": 7,
+    "is_core": true
+  },
+  {
     "topic": "Migration",
-    "article_count": 3,
+    "article_count": 4,
     "source_count": 2,
     "bias_distribution": {
-      "left-liberal": 2,
+      "left-liberal": 3,
       "far-right": 1
     },
     "sample_titles": [
@@ -260,20 +294,50 @@
     "is_core": true
   },
   {
-    "topic": "Atomkraft",
+    "topic": "Energiepreise",
     "article_count": 3,
     "source_count": 3,
     "bias_distribution": {
-      "neutral": 2,
-      "far-right": 1
+      "neutral": 1,
+      "far-right": 1,
+      "left-liberal": 1
     },
     "sample_titles": [
-      "Belgien stoppt Rückbau seiner Atomkraftwerke",
-      "Atomkraft: Was für und gegen eine Rückkehr spricht",
-      "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen"
+      "Hohe Energiepreise: Krischer will stabilen Preis für Deutschlandticket",
+      "Konjunkturflaute Die Chemieindustrie kämpft ums nackte Überleben",
+      "Energiekosten: Eon verspricht Bestandskunden stabile Strom- und Gaspreise"
     ],
     "days_back": 7,
-    "is_core": true
+    "is_core": false
+  },
+  {
+    "topic": "Klimaschutz",
+    "article_count": 2,
+    "source_count": 2,
+    "bias_distribution": {
+      "left": 1,
+      "conservative-liberal": 1
+    },
+    "sample_titles": [
+      "SPD und CDU koalieren in Rheinland-Pfalz: Kitapflicht kommt, Klimaschutzgesetz bleibt",
+      "Özdemir und Palmer fordern: Schluss mit dem kleinteiligen Reinregieren!"
+    ],
+    "days_back": 7,
+    "is_core": false
+  },
+  {
+    "topic": "Bundeswehr",
+    "article_count": 2,
+    "source_count": 1,
+    "bias_distribution": {
+      "neutral": 2
+    },
+    "sample_titles": [
+      "Kampf im Weltall",
+      "Warum die Bundeswehr einen Imam sucht"
+    ],
+    "days_back": 7,
+    "is_core": false
   },
   {
     "topic": "Bundeshaushalt",
@@ -284,45 +348,6 @@
     },
     "sample_titles": [
       "Bundeshaushalt und Gesundheitsreform: Noch kleinere Schritte als Merkel"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
-    "topic": "Energiepreise",
-    "article_count": 1,
-    "source_count": 1,
-    "bias_distribution": {
-      "neutral": 1
-    },
-    "sample_titles": [
-      "Hohe Energiepreise: Krischer will stabilen Preis für Deutschlandticket"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
-    "topic": "Klimaschutz",
-    "article_count": 1,
-    "source_count": 1,
-    "bias_distribution": {
-      "left": 1
-    },
-    "sample_titles": [
-      "SPD und CDU koalieren in Rheinland-Pfalz: Kitapflicht kommt, Klimaschutzgesetz bleibt"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
-    "topic": "Bundeswehr",
-    "article_count": 1,
-    "source_count": 1,
-    "bias_distribution": {
-      "neutral": 1
-    },
-    "sample_titles": [
-      "Kampf im Weltall"
     ],
     "days_back": 7,
     "is_core": false

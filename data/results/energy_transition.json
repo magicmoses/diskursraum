@@ -1,50 +1,82 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 18,
-  "candidate_count": 21,
+  "article_count": 30,
+  "candidate_count": 37,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 4,
+      "article_count": 7,
       "sample_titles": [
-        "neue Öl- und Gasheizungen: Koalition einigt sich auf Heizkostenbremse für Mieter",
-        "Stromerzeugung: Belgien stoppt Rückbau seiner Atomreaktoren",
-        "Der Geschichtspodcast: Fragen und Antworten zu Der Super-Gau von Tschernobyl und die deutsche Atomangst",
-        "Bei neuen fossilen heizungen: Mieter-Entlastung: Koalition plant Heizkostenteilung"
+        "Kostenbremse für die Wärmewende: Das ändert sich für Mieter im neuen Heizungsgesetz",
+        "Wasserstoff: Die zweite grüne Energie",
+        "Belgien und die Atomkraft: Der Ausstieg aus dem Ausstieg",
+        "Energiepolitik: Also doch wieder Atomkraft?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/union-und-spd-koalition-einigt-sich-auf-heizkostenbremse-fuer-mieter-accg-200783857.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/belgien-stoppt-rueckbau-seiner-atomreaktoren-staatliche-uebernahme-angestrebt-accg-200784243.html",
-        "https://www.faz.net/podcasts/der-geschichtspodcast/qa-folge-zu-tschernobyl-und-die-deutsche-atomangst-200779953.html",
-        "https://www.faz.net/video/mieter-entlastung-koalition-plant-heizkostenteilung-200786529.html"
+        "https://www.faz.net/aktuell/wirtschaft/das-aendert-sich-fuer-mieter-im-neuen-heizungsgesetz-200787023.html",
+        "https://www.faz.net/aktuell/technik-motor/elektromobilitaet/daimler-truck-erprobt-wasserstoff-lkw-next-gen-h2-accg-200749832.html",
+        "https://www.faz.net/aktuell/politik/ausland/belgien-und-die-atomkraft-der-ausstieg-aus-dem-ausstieg-200786358.html",
+        "https://www.faz.net/aktuell/politik/inland/energiekrise-waere-atomkraft-die-loesung-accg-200786772.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "Grün-schwarzer Koalitionsvertrag steht: Handschlag wie bei Handwerkern",
         "Heizungsgesetz: Schwarz-Rot vereinbart Kostenbremse für Mieter",
         "Mehr Kontrolle über Eigenversorgung: Belgien stoppt Rückbau aller seiner Atomreaktoren",
-        "Kompromiss im Heizungsgesetz: Neue Gasrechnung für Ver­mie­te­r:in­nen",
-        "SPD und CDU koalieren in Rheinland-Pfalz: Kitapflicht kommt, Klimaschutzgesetz bleibt"
+        "Kompromiss im Heizungsgesetz: Neue Gasrechnung für Ver­mie­te­r:in­nen"
       ],
       "urls": [
+        "https://taz.de/Gruen-schwarzer-Koalitionsvertrag-steht/!6175441/",
         "https://taz.de/Heizungsgesetz/!6175267/",
         "https://taz.de/Mehr-Kontrolle-ueber-Eigenversorgung/!6175284/",
-        "https://taz.de/Kompromiss-im-Heizungsgesetz/!6175287/",
-        "https://taz.de/SPD-und-CDU-koalieren-in-Rheinland-Pfalz/!6175315/"
+        "https://taz.de/Kompromiss-im-Heizungsgesetz/!6175287/"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
         {
           "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Erneuerbare Energien: Der Bau neuer Solaranlagen stockt",
+        "Energiekosten: Eon verspricht Bestandskunden stabile Strom- und Gaspreise",
+        "Erneuerbare Energien: Erörterung zu Prestige-Windpark Altötting - Bühne für Bürger"
+      ],
+      "urls": [
+        "https://www.stern.de/wirtschaft/news/erneuerbare-energien--der-bau-neuer-solaranlagen-stockt-37361424.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/energiekosten--eon-verspricht-bestandskunden-stabile-strom--und-gaspreise-37361528.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/erneuerbare-energien--eroerterung-zu-prestige-windpark-altoetting---buehne-fuer-buerger-37361524.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -63,6 +95,54 @@
         "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-verspricht-freiheit-im-keller-und-bleibt-doch-auf-gruenem-kurs/",
         "https://jungefreiheit.de/politik/ausland/2026/belgien-stoppt-rueckbau-aller-atomkraftanlagen/",
         "https://jungefreiheit.de/debatte/kommentar/2026/die-heizungsgesetz-luege/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 2,
+      "sample_titles": [
+        "EU-Kommission zweifelt an der Wirksamkeit des deutschen Klimaziels",
+        "Habecks „Heizungsgesetz“ ist Geschichte – so sieht die Lösung der neuen Regierung aus"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/article69f3664b6fe2dee7bfb0ee76/eu-kommission-zweifelt-an-der-wirksamkeit-des-deutschen-klimaziels.html",
+        "https://www.welt.de/finanzen/plus69f353fd6fe2dee7bfb0ec8d/habecks-heizungsgesetz-ist-geschichte-so-sieht-die-neue-loesung-aus.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Gasversorgung: Wie Nordsee-Gas die Versorgungslage entspannen kann",
+        "Öl- und Gasheizungen: Vermieter müssen künftig Bio-Brennstoffe verheizen und die Hälfte der Kosten tragen"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/versorgungssicherheit-wie-nordsee-gas-die-versorgungslage-entspannen-kann/100221132.html",
+        "https://www.handelsblatt.com/politik/deutschland/gasheizungen-vermieter-muessen-bald-bio-brennstoffe-verheizen-und-mitbezahlen/100221317.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Strompreise und Energiewende: Warum Deutschland Strom ins Ausland verschenkt",
+        "Klimapolitik in Deutschland: Wasser predigen und Öl trinken"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/strompreise-und-energiewende-warum-deutschland-strom-ins-ausland-verschenkt-a-bb433fbf-bed1-4a9d-9000-8b9ba42de374#ref=rss",
+        "https://www.spiegel.de/wissenschaft/mensch/klimapolitik-in-deutschland-wasser-predigen-und-oel-trinken-a-167f989d-9fc2-4200-9b68-ea0c18d36c3c#ref=rss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -109,59 +189,46 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
       "article_count": 1,
       "sample_titles": [
-        "Öl- und Gasheizungen: Vermieter müssen künftig Bio-Brennstoffe verheizen und die Hälfte der Kosten tragen"
+        "Experten raten - „Schaltet eure Photovoltaik-Anlagen ab!“"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/gasheizungen-vermieter-muessen-bald-bio-brennstoffe-verheizen-und-mitbezahlen/100221317.html"
+        "https://www.bild.de/politik/inland/strom-flutet-netze-experten-raten-solar-anlagen-abzuschalten-69f47ccace673f8cd2abb2d5"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 1,
-      "sample_titles": [
-        "Habecks „Heizungsgesetz“ ist Geschichte – so sieht die Lösung der neuen Regierung aus"
-      ],
-      "urls": [
-        "https://www.welt.de/finanzen/plus69f353fd6fe2dee7bfb0ec8d/habecks-heizungsgesetz-ist-geschichte-so-sieht-die-neue-loesung-aus.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Klimapolitik in Deutschland: Wasser predigen und Öl trinken"
+        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?"
       ],
       "urls": [
-        "https://www.spiegel.de/wissenschaft/mensch/klimapolitik-in-deutschland-wasser-predigen-und-oel-trinken-a-167f989d-9fc2-4200-9b68-ea0c18d36c3c#ref=rss"
+        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
+    "left-liberal": 6,
+    "right-conservative": 2,
+    "conservative-liberal": 7,
+    "populist-mixed": 1,
+    "economic-liberal": 2,
+    "left": 5,
     "far-right": 3,
-    "economic-liberal": 1,
-    "right-conservative": 1,
-    "conservative-liberal": 4,
-    "left": 4,
-    "left-liberal": 1,
     "neutral": 4
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass die deutsche Energiewende und Klimapolitik wichtige Themen sind, die eine umfassende Debatte erfordern, wie die Artikel über das Heizungsgesetz und den Ausstieg aus der Atomkraft zeigen. Die Berichterstattung aller Gruppen befasst sich auch mit den Auswirkungen auf die Mieter und Verbraucher, wie die Artikel über die Heizkostenbremse und die Kostenbremse für Mieter verdeutlichen.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung der politischen Maßnahmen, wie das Heizungsgesetz, und der Rolle der Atomkraft, wobei die rechtspopulistischen Medien das Gesetz als „Lüge“ bezeichnen, während linke Medien von einer „Kostenbremse“ für Mieter sprechen. Die Darstellung der belgischen Entscheidung, den Rückbau von Atomkraftanlagen zu stoppen, variiert auch zwischen den Gruppen, wobei einige sie als positives Beispiel für die Energiewende sehen, während andere sie als Zeichen für die Unentschlossenheit der Politik interpretieren.",
-  "cached_at": "2026-05-01T06:48:24.388990"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die deutsche Energiewende und Klimapolitik zu diskutieren, insbesondere den Ausbau erneuerbarer Energien und den Kohleausstieg, wie in Titeln wie 'Erneuerbare Energien: Der Bau neuer Solaranlagen stockt' und 'Wasserstoff: Die zweite grüne Energie' zu sehen ist. Dies deutet darauf hin, dass die Bedeutung der Energiewende und des Klimaschutzes in der deutschen Gesellschaft weitgehend anerkannt ist.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Bewertung der Regierungspolitik und die Rolle von Atomkraft, wie in Titeln wie 'EU-Kommission zweifelt an der Wirksamkeit des deutschen Klimaziels' und 'Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs' zu sehen ist, was auf unterschiedliche Meinungen über den richtigen Energiemix und die Wirksamkeit der Klimapolitik hinweist.",
+  "cached_at": "2026-05-02T06:18:51.325229"
 }

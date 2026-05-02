@@ -1,9 +1,37 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 3,
-  "candidate_count": 12,
+  "article_count": 4,
+  "candidate_count": 16,
   "outlets": {
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 1,
+      "sample_titles": [
+        "BILD exklusiv - Zahl der Asyl-Erstanträge auf 13-Jahres-Tief"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/exklusiv-zahl-der-asyl-erstantraege-auf-13-jahres-tief-69f487726fe2dee7bfb0fa95"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Asyl: 6144 neue Anträge im April – niedrigster Wert seit 2020"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/asyl-6144-neue-antraege-im-april-niedrigster-wert-seit-2020-a-7800d50d-79f6-42fb-99f2-9cfc90caad38#ref=rss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
@@ -14,20 +42,6 @@
       ],
       "urls": [
         "https://jungefreiheit.de/politik/deutschland/2026/warum-die-zahl-der-abschiebungen-um-28-prozent-einbricht/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 1,
-      "sample_titles": [
-        "Wissenschaftlerin über KI-Propaganda: „Abschiebungen, aber im lieblichen Stil von Studio Ghibli“"
-      ],
-      "urls": [
-        "https://taz.de/Wissenschaftlerin-ueber-KI-Propaganda/!6174983/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -48,11 +62,12 @@
     }
   },
   "bias_distribution": {
+    "populist-mixed": 1,
+    "left-liberal": 1,
     "far-right": 1,
-    "left": 1,
     "neutral": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass Abschiebungen ein wichtiger Aspekt der Migrationspolitik in Deutschland sind, wie aus den Artikeltiteln über den Rückgang der Abschiebungen hervorgeht. Die Berichterstattung über Abschiebungen, unabhängig von der politischen Ausrichtung, zeigt, dass dies ein zentrales Thema in der Debatte um Migration und Asylpolitik ist.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Art und Weise, wie die Abschiebungen thematisiert werden, wobei die rechtsextreme Berichterstattung auf die Illegale Einwanderung und den Rückgang der Abschiebungen fokussiert, während die linke Berichterstattung eher auf die humanitären Aspekte und die mögliche Verwendung von Propaganda eingeht, wie aus den Artikeltiteln über KI-Propaganda und die Darstellung von Abschiebungen im Stil von Studio Ghibli hervorgeht.",
-  "cached_at": "2026-05-01T06:48:22.714768"
+  "shared_perspectives": "Alle Gruppen teilen die Perspektive, dass es eine Entwicklung im Bereich der Asylpolitik gibt, wie die Titel über die Zahl der Asyl-Erstanträge und Abschiebungen zeigen. Insbesondere die niedrigen Werte bei Asyl-Erstanträgen und Abschiebungen werden in allen Gruppen thematisiert, wie in den Titeln 'Zahl der Asyl-Erstanträge auf 13-Jahres-Tief' und 'Deutschland: Erstmals seit fünf Jahren weniger Abschiebungen' zu sehen ist.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung und Interpretation dieser Entwicklungen, wie der Titel 'Illegale erhalten Bleiberecht Warum die Zahl der Abschiebungen um 28 Prozent einbricht' von der Far-Right-Gruppe zeigt, der eine kritische Haltung gegenüber der Migrationspolitik einnimmt, im Gegensatz zu den neutralen oder linken Titeln, die eher auf die Fakten und Zahlen fokussieren, wie 'Asyl: 6144 neue Anträge im April – niedrigster Wert seit 2020'.",
+  "cached_at": "2026-05-02T06:18:49.976210"
 }

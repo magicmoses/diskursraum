@@ -1,31 +1,31 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 19,
-  "candidate_count": 86,
+  "article_count": 30,
+  "candidate_count": 162,
   "outlets": {
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 7,
+      "article_count": 9,
       "sample_titles": [
+        "Übernimmt KI deinen Job?",
+        "\"Kein Werkzeug. Es ist ein Ersatz\": Wie KI Jobs verändert",
         "Digitale Kollegen im Einsatz",
-        "ForecastME: Ersetzt KI Anwälte?",
-        "So revolutioniert Künstliche Intelligenz die Musikwelt",
-        "KI als Psycho-Coach"
+        "ForecastME: Ersetzt KI Anwälte?"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/zdfheute-live/ki-arbeit-gefahren-video-100.html",
+        "https://www.zdfheute.de/wirtschaft/ki-jobs-arbeitsmarkt-ersetzen-zukunft-100.html",
         "https://www.zdf.de/video/dokus/plan-b-104/plan-b-kuenstliche-intelligenz-roboter-job-100",
-        "https://www.zdf.de/video/dokus/wiso-die-doku-100/forecast-me-102",
-        "https://www.zdfheute.de/panorama/kuenstliche-intelligenz-einfluss-musikwelt-100.html",
-        "https://www.zdfheute.de/video/zdf-morgenmagazin/ki-coach-psyche-depression-100.html"
+        "https://www.zdf.de/video/dokus/wiso-die-doku-100/forecast-me-102"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 4
         },
         {
           "emotion": "excitement",
@@ -41,18 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
+        "Initiative „Played By Humans“: „KI lähmt das Gehirn, und wir verlieren unsere Fähigkeiten“",
+        "KI-Effekte: Techgiganten zwischen Entlassungen und Investitionen",
         "KI-Künstler: Spotify will menschliche Inhalte kennzeichnen",
-        "Managementprofi im Interview: „Ich habe sieben große Effizienzkiller ausgemacht“",
-        "Entscheidungshilfe: Wie Menschen ChatGPT wirklich nutzen",
-        "Weiterbildung: Die besten KI-Kurse für Einsteiger und Entscheider"
+        "Entscheidungshilfe: Wie Menschen ChatGPT wirklich nutzen"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/interview-mit-adrian-younge-ueber-zertifikat-played-by-humans-accg-200781700.html",
+        "https://www.faz.net/aktuell/wirtschaft/techgiganten-zwischen-entlassungen-und-investitionen-accg-200787293.html",
         "https://www.faz.net/aktuell/wirtschaft/ki-kunst-spotify-will-menschliche-inhalte-kennzeichnen-200787317.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/wie-effizientes-arbeiten-gelingt-tipps-vom-managementprofi-accg-110803390.html",
-        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/ueberraschende-ergebnisse-wie-menschen-chatgpt-wirklich-nutzen-110687940.html",
-        "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/fuer-2026-die-besten-ki-kurse-fuer-einsteiger-und-entscheider-accg-200376858.html"
+        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/ueberraschende-ergebnisse-wie-menschen-chatgpt-wirklich-nutzen-110687940.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -66,16 +66,67 @@
         }
       ]
     },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Immer mehr Jugendliche besprechen ihre persönlichen Probleme mit KI-Chatbots",
+        "Die Mutter aller Highways wird 100",
+        "KI-Investitionen steigen auf 725 Milliarden Dollar",
+        "Warum KI Extremwetter schlechter vorhersagt"
+      ],
+      "urls": [
+        "https://www.sr.de/sr/home/nachrichten/panorama/immer_mehr_jugendliche_vertrauen_ki-chatbots_persoenliche_probleme_an_100.html",
+        "https://www.tagesschau.de/ausland/amerika/100-jahre-route-66-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/investitionen-kuenstliche-intelligenz-tech-konzerne-100.html",
+        "https://www.tagesschau.de/wissen/forschung/ki-wettervorhersage-100.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Asia Techonomics: In Toyotas Smart City residiert der Ex-Chef als KI",
+        "Künstliche Intelligenz: Sicherheitsrat eingeschaltet – Mythos alarmiert Bundesregierung",
+        "Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab",
+        "Dario Amodei: Sechs Millionen Dollar Umsatz pro Mitarbeiter: Wie der Anthropic-Gründer seinen Erzrivalen abhängt"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/meinung/kolumnen/in-toyotas-smart-city-residiert-der-ex-chef-als-ki-aus-gutem-grund/100218945.html",
+        "https://www.handelsblatt.com/politik/deutschland/kuenstliche-intelligenz-sicherheitsrat-eingeschaltet-mythos-alarmiert-bundesregierung/100221485.html",
+        "https://www.handelsblatt.com/technik/ki/silicon-valley-725-milliarden-dollar-fuer-ki-und-google-haengt-alle-ab/100220686.html",
+        "https://www.handelsblatt.com/technik/it-internet/anthropic-gruender-wie-dario-amodei-seinen-erzrivalen-openai-abhaengt/100219906.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 2,
+      "article_count": 3,
       "sample_titles": [
+        "Fake News und Manipulation: Mit KI-Pornografie gegen journalistische Integrität",
         "KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft",
         "Journalismus im Wandel: Führt die KI zum K.o. der Pressefreiheit?"
       ],
       "urls": [
+        "https://taz.de/Fake-News-und-Manipulation/!6168053/",
         "https://taz.de/KI-und-CO2-Steuer/!6174980/",
         "https://taz.de/Fuehrt-die-KI-zum-Ende-der-Pressefreiheit/!6167245/"
       ],
@@ -87,23 +138,21 @@
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 2,
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 1,
       "sample_titles": [
-        "KI-Investitionen steigen auf 725 Milliarden Dollar",
-        "Warum KI Extremwetter schlechter vorhersagt"
+        "Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?"
       ],
       "urls": [
-        "https://www.tagesschau.de/wirtschaft/unternehmen/investitionen-kuenstliche-intelligenz-tech-konzerne-100.html",
-        "https://www.tagesschau.de/wissen/forschung/ki-wettervorhersage-100.html"
+        "https://www.cicero.de/wirtschaft/arbeitsmarkt-der-zukunft-werden-wir-durch-ki-alle-uberflussig"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -127,16 +176,16 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab"
+        "KI: Spotify will von Menschen produzierte Musik kennzeichnen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/ki/silicon-valley-725-milliarden-dollar-fuer-ki-und-google-haengt-alle-ab/100220686.html"
+        "https://www.spiegel.de/netzwelt/ki-spotify-will-von-menschen-produzierte-musik-kennzeichnen-a-cb7e029d-7e9d-4a56-b40c-a6f0e7cab253#ref=rss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -162,13 +211,13 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 1,
-    "economic-liberal": 1,
-    "conservative-liberal": 5,
-    "left": 2,
-    "neutral": 10
+    "neutral": 14,
+    "left": 3,
+    "economic-liberal": 4,
+    "conservative-liberal": 7,
+    "left-liberal": 2
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die Auswirkungen von Künstlicher Intelligenz (KI) auf verschiedene Aspekte der Gesellschaft zu untersuchen, wie z.B. die Wirtschaft, den Arbeitsmarkt und die Umwelt, wie in den Artikeln über KI-Entwicklungen und ihre Anwendungen in verschiedenen Bereichen zu sehen ist. Die Bedeutung von KI für die Zukunft der Arbeit und die Notwendigkeit, ihre Entwicklung und Anwendung zu regulieren, wird in vielen Artikeln thematisiert, wie z.B. in 'EU wirft Meta unzureichenden Kinderschutz vor' und 'KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft'.",
-  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Auswirkungen von KI auf die Gesellschaft, wie z.B. in den Artikeln 'Journalismus im Wandel: Führt die KI zum K.o. der Pressefreiheit?' und 'ForecastME: Ersetzt KI Anwälte?', die Bedenken hinsichtlich der möglichen negativen Auswirkungen von KI auf die Pressefreiheit und die Arbeitswelt äußern, während andere Artikel wie 'Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab' die positiven Aspekte von KI und ihre Möglichkeiten für Wirtschaftswachstum betonen.",
-  "cached_at": "2026-05-01T06:48:27.433915"
+  "shared_perspectives": "Alle Gruppen teilen die Sorge um die Auswirkungen von KI auf den Arbeitsmarkt und die Gesellschaft, wie in Artikeln wie 'Übernimmt KI deinen Job?' und 'Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?' deutlich wird. Sie diskutieren auch die Möglichkeiten und Risiken von KI-Anwendungen, wie in 'KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft' und 'KI: Spotify will von Menschen produzierte Musik kennzeichnen' zu sehen ist.",
+  "controversial_points": "Die Berichterstattung divergiert vor allem in der Bewertung der Auswirkungen von KI auf die Gesellschaft und Wirtschaft, wobei linke Medien wie in 'Fake News und Manipulation: Mit KI-Pornografie gegen journalistische Integrität' Bedenken hinsichtlich der Integrität und Sicherheit äußern, während wirtschaftsliberale Medien wie in 'Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab' den Fokus auf Investitionen und Innovation legen.",
+  "cached_at": "2026-05-02T06:18:59.136112"
 }
