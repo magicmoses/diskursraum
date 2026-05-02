@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── RSS Feed Registry ─────────────────────────────
+# ── RSS Feed Registry ─────────────────────────────
 NEWS_SOURCES = {
     "tagesschau": {
         "label": "Tagesschau (ARD)",
@@ -45,6 +46,12 @@ NEWS_SOURCES = {
         "url": "https://rss.sueddeutsche.de/rss/Alles",
         "bias": "left-liberal"
     },
+    "stern": {
+        "label": "Stern",
+        "type": "rss",
+        "url": "https://www.stern.de/feed/standard/all/",
+        "bias": "left-liberal"
+    },
     "taz": {
         "label": "taz",
         "type": "rss",
@@ -57,11 +64,17 @@ NEWS_SOURCES = {
         "url": "https://www.faz.net/rss/aktuell",
         "bias": "conservative-liberal"
     },
-    "welt": {
-        "label": "Die Welt",
+    "cicero": {
+        "label": "Cicero",
         "type": "rss",
-        "url": "https://www.welt.de/feeds/latest.rss",
-        "bias": "right-conservative"
+        "url": "https://www.cicero.de/rss.xml",
+        "bias": "conservative-liberal"
+    },
+    "nzz": {
+        "label": "Neue Zürcher Zeitung",
+        "type": "rss",
+        "url": "https://www.nzz.ch/recent.rss",
+        "bias": "conservative-liberal"
     },
     "handelsblatt": {
         "label": "Handelsblatt",
@@ -69,23 +82,11 @@ NEWS_SOURCES = {
         "url": "https://www.handelsblatt.com/contentexport/feed/top-themen",
         "bias": "economic-liberal"
     },
-    "stern": {
-        "label": "Stern",
+    "welt": {
+        "label": "Die Welt",
         "type": "rss",
-        "url": "https://www.stern.de/feed/standard/all/",
-        "bias": "left-liberal"
-    },
-    "bild": {
-    "label": "BILD",
-    "type": "rss",
-    "url": "https://www.bild.de/feed/alles.xml",
-    "bias": "populist-mixed"
-    },
-    "junge_freiheit": {
-        "label": "Junge Freiheit",
-        "type": "rss",
-        "url": "https://jungefreiheit.de/feed",
-        "bias": "far-right"
+        "url": "https://www.welt.de/feeds/latest.rss",
+        "bias": "right-conservative"
     },
     "focus": {
         "label": "Focus Online",
@@ -93,36 +94,38 @@ NEWS_SOURCES = {
         "url": "https://www.focus.de/schlagzeilen/rss",
         "bias": "right-conservative"
     },
-    "cicero": {
-        "label": "Cicero",
+    "ntv": {
+        "label": "n-tv",
         "type": "rss",
-        "url": "https://www.cicero.de/rss.xml",
-        "bias": "conservative-liberal"
-    },"bild": {
+        "url": "https://www.n-tv.de/rss",
+        "bias": "right-conservative"
+    },
+    "bild": {
         "label": "BILD",
         "type": "rss",
         "url": "https://www.bild.de/feed/alles.xml",
         "bias": "populist-mixed"
     },
+    "tichys": {
+        "label": "Tichys Einblick",
+        "type": "rss",
+        "url": "https://www.tichyseinblick.de/feed/",
+        "bias": "far-right"
+    },
+    "achgut": {
+        "label": "Achse des Guten",
+        "type": "rss",
+        "url": "https://www.achgut.com/rss",
+        "bias": "far-right"
+    },
     "junge_freiheit": {
         "label": "Junge Freiheit",
         "type": "rss",
         "url": "https://jungefreiheit.de/feed",
         "bias": "far-right"
     },
-    "focus": {
-        "label": "Focus Online",
-        "type": "rss",
-        "url": "https://www.focus.de/schlagzeilen/rss",
-        "bias": "right-conservative"
-    },
-    "cicero": {
-        "label": "Cicero",
-        "type": "rss",
-        "url": "https://www.cicero.de/rss.xml",
-        "bias": "conservative-liberal"
-    },
 }
+
 
 
 # ── Helpers ───────────────────────────────────────
@@ -130,28 +133,24 @@ def strip_html(text: str) -> str:
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
-def fetch_rss(url: str) -> list[dict]:
+def fetch_rss(url: str, timeout: int = 15) -> list[dict]:
     """Fetches and parses an RSS feed."""
-    headers = {"User-Agent": "ConsensusAgent/1.0 (research project)"}
-    response = requests.get(url, headers=headers, timeout=10)
+    headers = {"User-Agent": "Diskursraum/1.0 (research project)"}
+    response = requests.get(url, headers=headers, timeout=timeout)
     response.raise_for_status()
-
     root = ET.fromstring(response.content)
     items = []
-
     for item in root.iter("item"):
         title = strip_html(item.findtext("title", ""))
         description = strip_html(item.findtext("description", ""))
         link = item.findtext("link", "").strip()
         pub_date = item.findtext("pubDate", "").strip()
-
         items.append({
             "title": title,
             "description": description,
             "url": link,
             "published_at": pub_date
         })
-
     return items
 
 
