@@ -25,18 +25,15 @@ def call_llm(prompt: str, max_tokens: int = 400) -> str:
     """Unified LLM call — Groq or Ollama based on LLM_PROVIDER."""
     provider = os.getenv("LLM_PROVIDER", "groq").lower()
 
-    if provider == "ollama":
-        import requests as req
-        response = req.post(
-            f"{os.getenv('OLLAMA_BASE_URL', 'http://localhost:11434')}/api/generate",
-            json={
-                "model": os.getenv("OLLAMA_MODEL", "llama3.1"),
-                "prompt": prompt,
-                "stream": False,
-            },
-            timeout=120,
+    if provider == "anthropic":
+        import anthropic
+        client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",  # günstigste Option
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}],
         )
-        return response.json().get("response", "")
+        return response.content[0].text.strip()
     else:
         from groq import Groq
         client = Groq(api_key=os.getenv("GROQ_API_KEY"))

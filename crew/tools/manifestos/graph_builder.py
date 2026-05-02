@@ -2,7 +2,7 @@
 graph_builder.py — Semantic Search, Bridging Score, NetworkX Graph
 
 RAG pipeline:
-  - Query Expansion via Groq (better recall in political texts)
+  - Query Expansion via LLM (better recall in political texts)
   - Contextual Compression (removes off-topic noise before re-embedding)
 
 Graph structure:
@@ -16,15 +16,22 @@ Graph structure:
 import os
 import json
 import re
+import sys
 import numpy as np
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+
+
+def call_llm(prompt: str, max_tokens: int = 400) -> str:
+    """Unified LLM call — reads LLM_PROVIDER from env (groq or anthropic)."""
+    from manifesto_analyzer import call_llm as _call_llm
+    return _call_llm(prompt, max_tokens)
 
 
 def expand_query(topic_keywords: list[str], topic_label: str) -> list[str]:
     """LLM-based keyword expansion — political manifestos use formal language
     that often doesn't match our keyword list directly."""
-    from groq import Groq
-    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     prompt = f"""Du bist ein Experte für deutsche Politiksprache.
 
 Thema: {topic_label}
@@ -36,13 +43,8 @@ Typische Formulierungen in Wahlprogrammen, Synonyme, Fachbegriffe.
 Antworte NUR mit einem JSON-Array: ["begriff1", "begriff2", ...]"""
 
     try:
-        response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-            max_tokens=200,
-        )
-        raw = re.sub(r'```json|```', '', response.choices[0].message.content.strip()).strip()
+        raw = call_llm(prompt, max_tokens=200)
+        raw = re.sub(r'```json|```', '', raw).strip()
         match = re.search(r'\[.*?\]', raw, re.DOTALL)
         if match:
             extra = json.loads(match.group())
@@ -57,15 +59,12 @@ Antworte NUR mit einem JSON-Array: ["begriff1", "begriff2", ...]"""
 def compress_chunks(chunks: list[str], topic_label: str, party_name: str) -> list[str]:
     """All chunks for one party+topic in a single LLM call instead of one per chunk.
     Reduces token usage from ~96k to ~12k for the full pipeline run."""
-    from groq import Groq
-    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-
     numbered = "\n\n".join([f"[{i+1}] {chunk}" for i, chunk in enumerate(chunks)])
 
     prompt = f"""Du analysierst Abschnitte aus dem Wahlprogramm der Partei {party_name}.
 Thema: "{topic_label}"
 
-Für jeden nummerierten Abschnitt extrahiere ausschließlich Sätze die eine konkrete 
+Für jeden nummerierten Abschnitt extrahiere ausschließlich Sätze die eine konkrete
 politische Position, Forderung oder Maßnahme zu diesem Thema enthalten.
 Allgemeine Floskeln, Einleitungen oder themenfremde Inhalte weglassen.
 Falls ein Abschnitt nichts Relevantes enthält: [NICHT RELEVANT]
@@ -78,13 +77,7 @@ Antwortformat:
 ..."""
 
     try:
-        response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
-            max_tokens=1000,
-        )
-        raw = response.choices[0].message.content.strip()
+        raw = call_llm(prompt, max_tokens=1000)
 
         compressed = []
         for i, chunk in enumerate(chunks):
@@ -288,15 +281,14 @@ def build_party_graph(
                 "most_bridging_party_name": parties.get(topic_most_central, {}).get("name") if topic_most_central else None,
             }
 
-    # Complement graph — edges where the main graph has none, or inverted weights.
-    # Answers "who is farthest apart?" which is as interesting as "who is closest?"
+    # Complement graph — answers "who is farthest apart?"
     complement_edges = []
     if G.number_of_edges() > 0:
         for u, v in nx.complement(G).edges():
             orig_weight = G[u][v]["weight"] if G.has_edge(u, v) else 0.0
             complement_edges.append({"source": u, "target": v, "dissimilarity": round(1 - orig_weight, 4)})
 
-    # GML export — standard format readable by Gephi, yEd, D3.js loaders.
+    # GML export — readable by Gephi, yEd, D3.js loaders.
     # Lists need to be stringified since GML only supports primitives.
     if output_dir is not None:
         try:
@@ -312,7 +304,6 @@ def build_party_graph(
             print(f"  GML export failed: {e}")
 
     # DiGraph stub — directed graph for future time-series (2017→2021→2025).
-    # Edges will represent the direction a party moved between elections.
     DG = nx.DiGraph()
     for party_id, info in parties.items():
         DG.add_node(party_id, **info)
