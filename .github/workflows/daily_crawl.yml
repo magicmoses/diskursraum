@@ -23,7 +23,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/news.db
-          key: news-db-${{ github.run_id }}
+          key: news-db-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             news-db-
 
@@ -44,7 +44,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/news.db
-          key: news-db-${{ github.run_id }}
+          key: news-db-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Commit crawl summary
         run: |
