@@ -1,31 +1,31 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 30,
-  "candidate_count": 162,
+  "article_count": 47,
+  "candidate_count": 281,
   "outlets": {
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
+        "KI oder Lehrer - wer erklärt's besser?",
         "Übernimmt KI deinen Job?",
         "\"Kein Werkzeug. Es ist ein Ersatz\": Wie KI Jobs verändert",
-        "Digitale Kollegen im Einsatz",
-        "ForecastME: Ersetzt KI Anwälte?"
+        "Digitale Kollegen im Einsatz"
       ],
       "urls": [
+        "https://www.zdf.de/video/reportagen/purplus-100/ki-oder-lehrer-wer-erklaert-es-besser-in-der-schule-100",
         "https://www.zdfheute.de/video/zdfheute-live/ki-arbeit-gefahren-video-100.html",
         "https://www.zdfheute.de/wirtschaft/ki-jobs-arbeitsmarkt-ersetzen-zukunft-100.html",
-        "https://www.zdf.de/video/dokus/plan-b-104/plan-b-kuenstliche-intelligenz-roboter-job-100",
-        "https://www.zdf.de/video/dokus/wiso-die-doku-100/forecast-me-102"
+        "https://www.zdf.de/video/dokus/plan-b-104/plan-b-kuenstliche-intelligenz-roboter-job-100"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 4
+          "count": 5
         },
         {
           "emotion": "excitement",
@@ -41,27 +41,85 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 6,
+      "article_count": 9,
       "sample_titles": [
-        "Initiative „Played By Humans“: „KI lähmt das Gehirn, und wir verlieren unsere Fähigkeiten“",
-        "KI-Effekte: Techgiganten zwischen Entlassungen und Investitionen",
-        "KI-Künstler: Spotify will menschliche Inhalte kennzeichnen",
-        "Entscheidungshilfe: Wie Menschen ChatGPT wirklich nutzen"
+        "Neues Amt in Offenbach: Digitalisierung wird neu organisiert",
+        "Roze: Softbank plant Börsengang seiner KI-Roboter-Sparte",
+        "Künstliche Intelligenz: Wie KI-Profis die perfekten Texte schreiben",
+        "Initiative „Played By Humans“: „KI lähmt das Gehirn, und wir verlieren unsere Fähigkeiten“"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/interview-mit-adrian-younge-ueber-zertifikat-played-by-humans-accg-200781700.html",
-        "https://www.faz.net/aktuell/wirtschaft/techgiganten-zwischen-entlassungen-und-investitionen-accg-200787293.html",
-        "https://www.faz.net/aktuell/wirtschaft/ki-kunst-spotify-will-menschliche-inhalte-kennzeichnen-200787317.html",
-        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/ueberraschende-ergebnisse-wie-menschen-chatgpt-wirklich-nutzen-110687940.html"
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/stadt-offenbach-schafft-amt-fuer-digitalisierung-accg-200786043.html",
+        "https://www.faz.net/aktuell/finanzen/softbank-plant-boersengang-seiner-ki-roboter-sparte-roze-accg-200786670.html",
+        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/wie-ki-profis-die-perfekten-texte-schreiben-accg-200753845.html",
+        "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/interview-mit-adrian-younge-ueber-zertifikat-played-by-humans-accg-200781700.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "desire",
+          "emotion": "approval",
           "count": 1
         },
         {
-          "emotion": "amusement",
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 7,
+      "sample_titles": [
+        "Insight Innovation: Die Rückkehr der klassischen Prozessoren – Intels unerwartetes Comeback",
+        "Datenschutz: „Wir sind frustriert“ – Apple reagiert auf EU-Regulierung",
+        "Jobs: Wie Bewerber Unternehmen mit KI austricksen – und wie diese reagieren",
+        "KI: Erst McKinsey, dann BCG und Bain – Wie ein Hacker die Berater-Elite in 18 Minuten vorführt"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/technik/it-internet/insight-innovation-die-rueckkehr-der-klassischen-prozessoren-intels-unerwartetes-comeback/100220401.html",
+        "https://www.handelsblatt.com/technik/it-internet/datenschutz-wir-sind-frustriert-apple-reagiert-auf-eu-regulierung/100221088.html",
+        "https://www.handelsblatt.com/karriere/jobs-wie-bewerber-unternehmen-mit-ki-austricksen-und-wie-diese-reagieren/100209275.html",
+        "https://www.handelsblatt.com/unternehmen/management/ki-erst-mckinsey-dann-bcg-und-bain-wie-ein-hacker-die-berater-vorfuehrt/100220352.html"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 6,
+      "sample_titles": [
+        "Überwachung und digitale Sicherheit: Europäische Gesichts­erkennung für brasilianische Schulkinder",
+        "KI und die Oscars: Kein Preis für computergenerierte Schauspieler",
+        "Fake News und Manipulation: Mit KI-Pornografie gegen journalistische Integrität",
+        "Fake News und Manipulation: Effektive Meme-Warfare"
+      ],
+      "urls": [
+        "https://taz.de/Ueberwachung-und-digitale-Sicherheit/!6168054/",
+        "https://taz.de/KI-und-die-Oscars/!6175811/",
+        "https://taz.de/Fake-News-und-Manipulation/!6168053/",
+        "https://taz.de/Fake-News-und-Manipulation/!6168052/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -70,18 +128,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "Das deutsche KI-Paradox – starke Ideen, schwache Skalierung",
         "Immer mehr Jugendliche besprechen ihre persönlichen Probleme mit KI-Chatbots",
         "Die Mutter aller Highways wird 100",
-        "KI-Investitionen steigen auf 725 Milliarden Dollar",
-        "Warum KI Extremwetter schlechter vorhersagt"
+        "KI-Investitionen steigen auf 725 Milliarden Dollar"
       ],
       "urls": [
+        "https://www.rbb24.de/wirtschaft/beitrag/2026/05/berlin-deutsches-ki-paradox-parloa-skalierung-aleph-alpha.html",
         "https://www.sr.de/sr/home/nachrichten/panorama/immer_mehr_jugendliche_vertrauen_ki-chatbots_persoenliche_probleme_an_100.html",
         "https://www.tagesschau.de/ausland/amerika/100-jahre-route-66-100.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/investitionen-kuenstliche-intelligenz-tech-konzerne-100.html",
-        "https://www.tagesschau.de/wissen/forschung/ki-wettervorhersage-100.html"
+        "https://www.tagesschau.de/wirtschaft/unternehmen/investitionen-kuenstliche-intelligenz-tech-konzerne-100.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -95,45 +153,74 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 4,
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 2,
       "sample_titles": [
-        "Asia Techonomics: In Toyotas Smart City residiert der Ex-Chef als KI",
-        "Künstliche Intelligenz: Sicherheitsrat eingeschaltet – Mythos alarmiert Bundesregierung",
-        "Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab",
-        "Dario Amodei: Sechs Millionen Dollar Umsatz pro Mitarbeiter: Wie der Anthropic-Gründer seinen Erzrivalen abhängt"
+        "Anne Boleyn: Forscher wollen verschollenes Porträt per KI identifiziert haben",
+        "KI: Spotify will von Menschen produzierte Musik kennzeichnen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/meinung/kolumnen/in-toyotas-smart-city-residiert-der-ex-chef-als-ki-aus-gutem-grund/100218945.html",
-        "https://www.handelsblatt.com/politik/deutschland/kuenstliche-intelligenz-sicherheitsrat-eingeschaltet-mythos-alarmiert-bundesregierung/100221485.html",
-        "https://www.handelsblatt.com/technik/ki/silicon-valley-725-milliarden-dollar-fuer-ki-und-google-haengt-alle-ab/100220686.html",
-        "https://www.handelsblatt.com/technik/it-internet/anthropic-gruender-wie-dario-amodei-seinen-erzrivalen-openai-abhaengt/100219906.html"
+        "https://www.spiegel.de/geschichte/anne-boleyn-forscher-wollen-verschollenes-portraet-per-ki-identifiziert-haben-a-317d6f23-6f5d-4955-b93d-74d7a6874752#ref=rss",
+        "https://www.spiegel.de/netzwelt/ki-spotify-will-von-menschen-produzierte-musik-kennzeichnen-a-cb7e029d-7e9d-4a56-b40c-a6f0e7cab253#ref=rss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 3,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 2,
       "sample_titles": [
-        "Fake News und Manipulation: Mit KI-Pornografie gegen journalistische Integrität",
-        "KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft",
-        "Journalismus im Wandel: Führt die KI zum K.o. der Pressefreiheit?"
+        "«KI könnte unter dem Strich negativ für die Wirtschaft sein», sagt der Anlagechef des grössten ETF-Anbieters Europas",
+        "Macht uns die KI bald überflüssig?"
       ],
       "urls": [
-        "https://taz.de/Fake-News-und-Manipulation/!6168053/",
-        "https://taz.de/KI-und-CO2-Steuer/!6174980/",
-        "https://taz.de/Fuehrt-die-KI-zum-Ende-der-Pressefreiheit/!6167245/"
+        "https://www.nzz.ch/wirtschaft/ki-koennte-unter-dem-strich-negativ-fuer-die-wirtschaft-sein-sagt-der-anlagechef-des-groessten-etf-anbieters-europas-ld.10005083",
+        "https://www.nzz.ch/gesellschaft/macht-uns-die-ki-bald-ueberfluessig-ld.10004916"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 2,
+      "sample_titles": [
+        "Nach Streit mit Anthropic – Pentagon schließt Abkommen mit SpaceX, Google und anderen Konkurrenten",
+        "„Es geht nicht nur um Schönheit, sondern auch darum, lange gesund und fit zu bleiben“"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/ausland/article69f4e3d49315d6ea649576a9/aerger-um-ki-nach-streit-mit-anthropic-pentagon-schliesst-abkommen-mit-spacex-google-und-anderen-konkurrenten.html",
+        "https://www.welt.de/wirtschaft/plus69f066ebb61a65069a481b18/tina-mueller-von-weleda-es-geht-nicht-nur-um-schoenheit-sondern-auch-darum-lange-gesund-und-fit-zu-bleiben.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "KI-Kopfhörer: Ich kann jetzt in 43 Sprachen hören!"
+      ],
+      "urls": [
+        "https://www.zeit.de/zeit-magazin/2026/19/ki-kopfhoerer-uebersetzung-sprachen"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -157,6 +244,25 @@
         }
       ]
     },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 1,
+      "sample_titles": [
+        "Gladbach-Legende spricht Klartext - Köppel-Befehl: Polanski muss bleiben!"
+      ],
+      "urls": [
+        "https://www.bild.de/sport/fussball/fohlen-legende-spricht-klartext-koeppel-befehl-polanski-muss-bleiben-69f3c57cc4534c0571f7af6a"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
@@ -175,49 +281,18 @@
           "count": 1
         }
       ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "KI: Spotify will von Menschen produzierte Musik kennzeichnen"
-      ],
-      "urls": [
-        "https://www.spiegel.de/netzwelt/ki-spotify-will-von-menschen-produzierte-musik-kennzeichnen-a-cb7e029d-7e9d-4a56-b40c-a6f0e7cab253#ref=rss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "EU wirft Meta unzureichenden Kinderschutz vor"
-      ],
-      "urls": [
-        "https://www.dw.com/de/eu-wirft-meta-unzureichenden-kinderschutz-vor/a-76977377?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
     }
   },
   "bias_distribution": {
-    "neutral": 14,
-    "left": 3,
-    "economic-liberal": 4,
-    "conservative-liberal": 7,
-    "left-liberal": 2
+    "economic-liberal": 7,
+    "left-liberal": 4,
+    "neutral": 15,
+    "conservative-liberal": 12,
+    "left": 6,
+    "right-conservative": 2,
+    "populist-mixed": 1
   },
-  "shared_perspectives": "Alle Gruppen teilen die Sorge um die Auswirkungen von KI auf den Arbeitsmarkt und die Gesellschaft, wie in Artikeln wie 'Übernimmt KI deinen Job?' und 'Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?' deutlich wird. Sie diskutieren auch die Möglichkeiten und Risiken von KI-Anwendungen, wie in 'KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft' und 'KI: Spotify will von Menschen produzierte Musik kennzeichnen' zu sehen ist.",
-  "controversial_points": "Die Berichterstattung divergiert vor allem in der Bewertung der Auswirkungen von KI auf die Gesellschaft und Wirtschaft, wobei linke Medien wie in 'Fake News und Manipulation: Mit KI-Pornografie gegen journalistische Integrität' Bedenken hinsichtlich der Integrität und Sicherheit äußern, während wirtschaftsliberale Medien wie in 'Silicon Valley: „Big Tech“ investiert 725 Milliarden Dollar in KI – und Google hängt alle ab' den Fokus auf Investitionen und Innovation legen.",
-  "cached_at": "2026-05-02T06:18:59.136112"
+  "shared_perspectives": "Alle Gruppen teilen die Perspektive, dass Künstliche Intelligenz (KI) und Digitalisierung einen bedeutenden Einfluss auf verschiedene Aspekte des Lebens haben, wie z.B. die Wirtschaft, den Arbeitsmarkt und die Gesellschaft, wie in Artikeln wie 'KI oder Lehrer - wer erklärt's besser?' und 'Übernimmt KI deinen Job?' zu sehen ist. Sie alle erkennen auch die Bedeutung von KI-Entwicklungen und deren mögliche Auswirkungen auf die Zukunft.",
+  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Auswirkungen von KI und Digitalisierung, wie z.B. in 'KI könnte unter dem Strich negativ für die Wirtschaft sein' und 'Macht uns die KI bald überflüssig?', wo konservative und liberale Stimmen Bedenken äußern, während linke und linksliberale Stimmen eher die Möglichkeiten und Chancen von KI betonen, wie in 'KI-Kopfhörer: Ich kann jetzt in 43 Sprachen hören!' und 'Künstliche Intelligenz: Musks KI-Firma nutzte beim Training Modelle von OpenAI'.",
+  "cached_at": "2026-05-03T06:39:48.577702"
 }

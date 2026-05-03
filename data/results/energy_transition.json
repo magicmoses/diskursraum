@@ -1,28 +1,32 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 30,
-  "candidate_count": 37,
+  "article_count": 47,
+  "candidate_count": 47,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 7,
+      "article_count": 12,
       "sample_titles": [
-        "Kostenbremse für die Wärmewende: Das ändert sich für Mieter im neuen Heizungsgesetz",
-        "Wasserstoff: Die zweite grüne Energie",
-        "Belgien und die Atomkraft: Der Ausstieg aus dem Ausstieg",
-        "Energiepolitik: Also doch wieder Atomkraft?"
+        "Energiewende: Deutlich weniger neue Solaranlagen auf Dächern und Balkonen",
+        "Klimaschutz: Das Heizungsgesetz ist und bleibt Murks",
+        "RWE in den USA: „Sie legen viele Eier in einen Korb“",
+        "Kostenbremse für die Wärmewende: Das ändert sich für Mieter im neuen Heizungsgesetz"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/das-aendert-sich-fuer-mieter-im-neuen-heizungsgesetz-200787023.html",
-        "https://www.faz.net/aktuell/technik-motor/elektromobilitaet/daimler-truck-erprobt-wasserstoff-lkw-next-gen-h2-accg-200749832.html",
-        "https://www.faz.net/aktuell/politik/ausland/belgien-und-die-atomkraft-der-ausstieg-aus-dem-ausstieg-200786358.html",
-        "https://www.faz.net/aktuell/politik/inland/energiekrise-waere-atomkraft-die-loesung-accg-200786772.html"
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/deutlich-weniger-neue-solaranlagen-auf-daechern-und-balkonen-accg-200791342.html",
+        "https://www.faz.net/aktuell/wirtschaft/das-heizungsgesetz-ist-und-bleibt-murks-200787508.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/aktionaersvertreter-sehen-die-usa-lastige-strategie-von-rwe-mit-sorge-accg-200785402.html",
+        "https://www.faz.net/aktuell/wirtschaft/das-aendert-sich-fuer-mieter-im-neuen-heizungsgesetz-200787023.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "desire",
           "count": 1
@@ -62,13 +66,15 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
+        "Ökostrom: SPD gegen Abschaffung von Solar-Förderung",
         "Erneuerbare Energien: Der Bau neuer Solaranlagen stockt",
         "Energiekosten: Eon verspricht Bestandskunden stabile Strom- und Gaspreise",
         "Erneuerbare Energien: Erörterung zu Prestige-Windpark Altötting - Bühne für Bürger"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/oekostrom--spd-gegen-abschaffung-von-solar-foerderung-37363114.html",
         "https://www.stern.de/wirtschaft/news/erneuerbare-energien--der-bau-neuer-solaranlagen-stockt-37361424.html",
         "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/energiekosten--eon-verspricht-bestandskunden-stabile-strom--und-gaspreise-37361528.html",
         "https://www.stern.de/gesellschaft/regional/bayern/erneuerbare-energien--eroerterung-zu-prestige-windpark-altoetting---buehne-fuer-buerger-37361524.html"
@@ -80,6 +86,78 @@
           "count": 1
         }
       ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "So könnten Verbraucher beim Strom profitieren",
+        "Atomkraft: Was für und gegen eine Rückkehr spricht",
+        "EU-Strategie für anhaltende Krise in der Golfregion",
+        "Einigung beim \"Heizungsgesetz\": Was das für Mieter bedeutet"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/wirtschaft/strompreis-smart-meter-gratis-strom-stromboerse-100.html",
+        "https://www.zdfheute.de/wirtschaft/atomkraft-atomenergie-kernenergie-atomausstieg-deutschland-energiekrise-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5196354",
+        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-mieter-gesetz-vermieter-waermepumpe-100.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Baum und Gastank knapp verfehlt: Berauschte Autofahrerin hat Glück im Unglück",
+        "Höhere Pacht: Eifeler Landwirt verliert Weide wegen Solaranlage",
+        "Belgien stoppt Rückbau seiner Atomkraftwerke",
+        "Vermieter warnen vor Kosten - für die Grünen bleibt es \"absurd\""
+      ],
+      "urls": [
+        "https://www.hessenschau.de/panorama/baum-und-gastank-knapp-verfehlt-berauschte-autofahrerin-hat-glueck-im-unglueck-v1,unfall-schotten-112.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/bau-von-photovoltaik-anlagen-landwirte-in-der-region-trier-unter-druck-100.html",
+        "https://www.tagesschau.de/ausland/europa/belgien-atomkraft-entscheidung-100.html",
+        "https://www.tagesschau.de/wirtschaft/energie/gebauedemodernisierungsgesetz-kritik-100.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Demos für die eigene Verarmung: Bürger marschieren für Windbarone – TE-Wecker am 3. Mai 2026",
+        "Grüne Energiewende verschandelt Natur und vertreibt Vögel",
+        "Strommarkt am 1. Mai 2026 – viel Photovoltaik, Feiertagslast, extreme Preisausschläge"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/podcast/te-wecker-am-3-mai-2026/",
+        "https://www.tichyseinblick.de/meinungen/gruene-energiewende-natur-voegel-solar/",
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/strommarkt-photovoltaik-feiertag-energiewende/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
@@ -131,6 +209,27 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?",
+        "Welthandel: Wie China grüne Produktion in Deutschland bedroht"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374",
+        "https://www.sueddeutsche.de/wirtschaft/kornorientiertes-elektroband-thyssenkrupp-stahl-tkse-li.3474558"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
@@ -147,18 +246,30 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 2,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 1,
       "sample_titles": [
-        "Atomkraft: Was für und gegen eine Rückkehr spricht",
-        "Einigung beim \"Heizungsgesetz\": Was das für Mieter bedeutet"
+        "Maue Bilanz im ersten Quartal: Nachfrage nach Solar-Dachanlagen bricht ein"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/atomkraft-atomenergie-kernenergie-atomausstieg-deutschland-energiekrise-100.html",
-        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-mieter-gesetz-vermieter-waermepumpe-100.html"
+        "https://www.n-tv.de/wirtschaft/Nachfrage-nach-Solar-Dachanlagen-bricht-ein-id30779083.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Ölkrise 2026?"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/oelkrise_2026"
       ],
       "dominant_emotion": "realization",
       "top_emotions": [
@@ -168,26 +279,19 @@
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 2,
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 1,
       "sample_titles": [
-        "Höhere Pacht: Eifeler Landwirt verliert Weide wegen Solaranlage",
-        "Belgien stoppt Rückbau seiner Atomkraftwerke"
+        "Solarenergie: Bau von Solaranlagen geht im ersten Quartal um sechs Prozent zurück"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/bau-von-photovoltaik-anlagen-landwirte-in-der-region-trier-unter-druck-100.html",
-        "https://www.tagesschau.de/ausland/europa/belgien-atomkraft-entscheidung-100.html"
+        "https://www.zeit.de/wirtschaft/2026-05/solaranlage-zubau-rueckgang-reiche"
       ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "bild": {
       "source_id": "bild",
@@ -202,33 +306,19 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "left-liberal": 6,
-    "right-conservative": 2,
-    "conservative-liberal": 7,
+    "far-right": 7,
+    "left-liberal": 9,
+    "right-conservative": 3,
+    "conservative-liberal": 12,
+    "neutral": 8,
     "populist-mixed": 1,
     "economic-liberal": 2,
-    "left": 5,
-    "far-right": 3,
-    "neutral": 4
+    "left": 5
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die deutsche Energiewende und Klimapolitik zu diskutieren, insbesondere den Ausbau erneuerbarer Energien und den Kohleausstieg, wie in Titeln wie 'Erneuerbare Energien: Der Bau neuer Solaranlagen stockt' und 'Wasserstoff: Die zweite grüne Energie' zu sehen ist. Dies deutet darauf hin, dass die Bedeutung der Energiewende und des Klimaschutzes in der deutschen Gesellschaft weitgehend anerkannt ist.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Bewertung der Regierungspolitik und die Rolle von Atomkraft, wie in Titeln wie 'EU-Kommission zweifelt an der Wirksamkeit des deutschen Klimaziels' und 'Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs' zu sehen ist, was auf unterschiedliche Meinungen über den richtigen Energiemix und die Wirksamkeit der Klimapolitik hinweist.",
-  "cached_at": "2026-05-02T06:18:51.325229"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Energiewende und der Klimaschutz wichtige Themen sind, die in Deutschland diskutiert werden müssen, wie etwa die Förderung von Solarenergie und die Sicherstellung der Energieversorgung. Dies zeigt sich in Artikeln wie 'Ökostrom: SPD gegen Abschaffung von Solar-Förderung' und 'Energiewende: Deutlich weniger neue Solaranlagen auf Dächern und Balkonen', die von verschiedenen politischen Lagern berichtet werden.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Bewertung der deutschen Klimapolitik und der Energiewende, wie etwa in Artikeln wie 'Grüne Energiewende verschandelt Natur und vertreibt Vögel' von der Far-Right-Seite und 'Heizungsgesetz: Schwarz-Rot vereinbart Kostenbremse für Mieter' von der Linken, die unterschiedliche Meinungen über die Wirksamkeit und die Folgen der aktuellen Politik widerspiegeln.",
+  "cached_at": "2026-05-03T06:39:17.434987"
 }

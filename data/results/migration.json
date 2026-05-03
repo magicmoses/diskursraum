@@ -1,9 +1,93 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 4,
-  "candidate_count": 16,
+  "article_count": 11,
+  "candidate_count": 25,
   "outlets": {
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Von Einwanderung zu Rückführung: Skandinavien schließt die offenen Tore"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/von-einwanderung-zu-rueckfuehrung-skandinavien-schliesst-die-offenen-tore/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Massenlegalisierung: Spanien braucht Hunderttausende Migranten"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/ausland/massenlegalisierung-spaniens-wirtschaft-und-sozialsysteme-brauchen-migranten-accg-200776552.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/syrien-rueckkehrer-buergerkrieg-unhcr-li.3477280"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "1,6 Millionen geflüchtete Syrer zurückgekehrt"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/syrer-rueckkehr-102.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/nach-ende-des-buergerkriegs--1-63-millionen-syrer-zurueckgekehrt---wenige-aus-deutschland-37362460.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 1,
+      "sample_titles": [
+        "Ausreisewelle von Syrern aus anderen Ländern – aber nicht aus Deutschland"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/plus69f22f7f622ae392e46e332c/migration-ausreisewelle-von-syrern-aus-anderen-laendern-aber-nicht-aus-deutschland.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
@@ -46,6 +130,20 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 1,
+      "sample_titles": [
+        "Wissenschaftlerin über KI-Propaganda: „Abschiebungen, aber im lieblichen Stil von Studio Ghibli“"
+      ],
+      "urls": [
+        "https://taz.de/Wissenschaftlerin-ueber-KI-Propaganda/!6174983/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
@@ -62,12 +160,15 @@
     }
   },
   "bias_distribution": {
+    "far-right": 2,
+    "conservative-liberal": 1,
+    "left-liberal": 3,
+    "neutral": 2,
+    "right-conservative": 1,
     "populist-mixed": 1,
-    "left-liberal": 1,
-    "far-right": 1,
-    "neutral": 1
+    "left": 1
   },
-  "shared_perspectives": "Alle Gruppen teilen die Perspektive, dass es eine Entwicklung im Bereich der Asylpolitik gibt, wie die Titel über die Zahl der Asyl-Erstanträge und Abschiebungen zeigen. Insbesondere die niedrigen Werte bei Asyl-Erstanträgen und Abschiebungen werden in allen Gruppen thematisiert, wie in den Titeln 'Zahl der Asyl-Erstanträge auf 13-Jahres-Tief' und 'Deutschland: Erstmals seit fünf Jahren weniger Abschiebungen' zu sehen ist.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung und Interpretation dieser Entwicklungen, wie der Titel 'Illegale erhalten Bleiberecht Warum die Zahl der Abschiebungen um 28 Prozent einbricht' von der Far-Right-Gruppe zeigt, der eine kritische Haltung gegenüber der Migrationspolitik einnimmt, im Gegensatz zu den neutralen oder linken Titeln, die eher auf die Fakten und Zahlen fokussieren, wie 'Asyl: 6144 neue Anträge im April – niedrigster Wert seit 2020'.",
-  "cached_at": "2026-05-02T06:18:49.976210"
+  "shared_perspectives": "Alle Gruppen berichten über die Entwicklung der Asyl- und Migrationspolitik in Deutschland und anderen Ländern, wie z.B. die Rückkehr von Syrern in ihre Heimat oder die Anzahl der Asyl-Erstanträge. Die Berichterstattung zeigt, dass die Themen Abschiebungen, Rückführungen und Integration von Geflüchteten und Migranten in allen Mediengruppen von Interesse sind.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung der Migrationspolitik, wie z.B. die FAR-RIGHT-Medien, die über die 'illegale' Einwanderung und die Notwendigkeit von Abschiebungen berichten, im Gegensatz zu LEFT-LIBERAL-Medien, die über die erfolgreiche Integration von Geflüchteten und die Notwendigkeit humanitärer Lösungen berichten. Die RIGHT-CONSERVATIVE-Medien betonen die 'Ausreisewelle' von Syrern aus anderen Ländern, während LEFT-Medien Kritik an der 'KI-Propaganda' für Abschiebungen üben.",
+  "cached_at": "2026-05-03T06:39:15.793031"
 }
