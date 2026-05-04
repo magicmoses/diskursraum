@@ -34,14 +34,6 @@ PARTIES = {
     "linke":   {"name": "Die Linke",             "bias": "left",                 "color": "#BE3075"},
 }
 
-PARTIES_HISTORICAL = {
-    "cdu_csu": {"name": "CDU/CSU",              "bias": "conservative-liberal", "color": "#000000"},
-    "spd":     {"name": "SPD",                   "bias": "left-liberal",         "color": "#E3000F"},
-    "gruene":  {"name": "Bündnis 90/Die Grünen", "bias": "left-liberal",         "color": "#1AA037"},
-    "fdp":     {"name": "FDP",                   "bias": "economic-liberal",     "color": "#FFED00"},
-    "linke":   {"name": "Die Linke",             "bias": "left",                 "color": "#BE3075"},
-}
-
 TOPIC_KEYWORDS = {
     "migration":         ["migration", "asyl", "flüchtlinge", "einwanderung", "abschiebung", "integration", "zuwanderung", "grenzschutz"],
     "energy_transition": ["energiewende", "erneuerbare energien", "atomkraft", "kernenergie", "windenergie", "solarenergie", "kohleausstieg", "klimaschutz"],
@@ -78,7 +70,6 @@ def run_pipeline(
     test_mode: bool = False,
     only_analysis: bool = False,
     only_party: str = None,
-    historical: bool = False,
 ):
     from pdf_processor import process_party_pdf, load_embedding_model
     from graph_builder import get_party_topic_embeddings, compute_bridging_scores, build_party_graph
@@ -95,10 +86,6 @@ def run_pipeline(
             return
         parties = {only_party: PARTIES[only_party]}
         topic_keywords = TOPIC_KEYWORDS
-    elif historical:
-        # 5 stable parties for cross-year comparison
-        # AfD excluded - only present from 2013, distorts time-series
-        parties = PARTIES_HISTORICALtopic_keywords = TOPIC_KEYWORDS
     else:
         parties = PARTIES
         topic_keywords = TOPIC_KEYWORDS
@@ -291,8 +278,6 @@ if __name__ == "__main__":
             skip_pdf = True
         elif arg == "--test":
             test_mode = True
-        elif arg == "historical":
-            historical = True
         elif arg == "--only-analysis":
             only_analysis = True
         elif arg.startswith("--only-party="):

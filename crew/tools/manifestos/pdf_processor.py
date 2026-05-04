@@ -14,8 +14,6 @@ Pipeline:
 Embedding Model: intfloat/multilingual-e5-base
   - ~278MB, 768 dimensions
   - MTEB Top-Performer for German semantic search
-  - Instruction-aware: 'passage:' prefix for documents
-  - No trust_remote_code needed
 """
 
 import re

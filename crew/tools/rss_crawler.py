@@ -136,7 +136,7 @@ def crawl(db_path: str = DB_PATH):
     total_new = 0
     total_found = 0
 
-    print(f"\n🦞 ConsensusAgent RSS Crawler")
+    print(f"\n Diskursraum RSS Crawler")
     print(f"   Started: {crawled_at}")
     print(f"   DB: {db_path}\n")
 

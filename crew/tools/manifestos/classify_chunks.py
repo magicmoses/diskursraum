@@ -244,8 +244,8 @@ def compute_category_overlap(party_distributions: dict) -> dict:
     return overlap
 
 
-def run_classification(year: int):
-    """Full classification pipeline for one year."""
+def run_classification(year: int) -> bool:
+    """Full classification pipeline for one year. Returns True if successful."""
     print(f"\nManifestoBERTa Classification — {year}")
 
     model, tokenizer, device = load_manifestoberta()
@@ -265,32 +265,33 @@ def run_classification(year: int):
             "party_id": party_id,
             "party_name": PARTIES[party_id],
             "year": year,
-            "classified_chunks": classified,
             "distribution": distribution,
         }
         print(f"  Top categories: {distribution['top_5']}")
 
+        # Save after each party — don't lose progress
+        _save_results(year, party_results, {})
+        print(f"  Checkpoint saved")
+
     if not party_results:
         print("No results — aborting")
-        return
+        return False
 
-    # Category overlap between parties
     print("\nComputing category overlap...")
-    party_distributions = {
+    overlap = compute_category_overlap({
         pid: data["distribution"]
         for pid, data in party_results.items()
-    }
-    overlap = compute_category_overlap(party_distributions)
+    })
 
+    _save_results(year, party_results, overlap)
+    print(f"Saved: category_distribution_{year}.json")
+    return True
+
+
+def _save_results(year: int, party_results: dict, overlap: dict):
+    """Saves current results to JSON — called after each party."""
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     output = {
-        "year": year,
-        "model": MODEL_NAME,
-        "parties": party_results,
-        "category_overlap": overlap,
-    }
-
-    # Export — strip full chunk text to reduce file size
-    output_slim = {
         "year": year,
         "model": MODEL_NAME,
         "parties": {
@@ -304,15 +305,9 @@ def run_classification(year: int):
         },
         "category_overlap": overlap,
     }
-
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = RESULTS_DIR / f"category_distribution_{year}.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output_slim, f, ensure_ascii=False, indent=2)
-
-    size_kb = output_path.stat().st_size // 1024
-    print(f"\nSaved: category_distribution_{year}.json ({size_kb}KB)")
-    print("Classification complete")
+    path = RESULTS_DIR / f"category_distribution_{year}.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
@@ -320,7 +315,10 @@ if __name__ == "__main__":
 
     if "--all" in sys.argv:
         for year in years_available:
-            run_classification(year)
+            try:
+                run_classification(year)
+            except Exception as e:
+                print(f"Year {year} failed: {e} — continuing")
     elif len(sys.argv) > 1 and sys.argv[1].isdigit():
         run_classification(int(sys.argv[1]))
     else:

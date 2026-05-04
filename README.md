@@ -129,11 +129,22 @@ Diskursraum runs fully stateless in production:
 
 ## Roadmap
 
-- [ ] **Party Manifesto Integration** — German party programs as a second data source; compare media coverage vs. party positions (Vector DB, PDF parsing)
-- [ ] **Bridging Statements** — LLM-based extraction of specific statements that find approval across ideological groups
-- [ ] **Time Series** — How does coverage of a topic evolve over time?
-- [ ] **More Topics** — Military service, speed limit, assisted dying, AI regulation, basic income
+- [ ] **Wahlprogramm-Integration** — Party manifesto analysis pipeline
+  - [x] PDF processing + ChromaDB storage
+  - [x] Semantic search per topic + bridging scores
+  - [x] NetworkX graph of party similarities
+  - [ ] RAG Optimierung — pre/post retrieval, SOTA filter strategies
+  - [ ] Graph Visualisierung — interaktiv mit D3.js oder Sigma.js
+  - [ ] Frontend: neue Seite /parties mit Parteienvergleich
 
+- [ ] **Historische Daten** — Manifesto Project API (pymanifesto)
+  - [ ] Bundestagswahl 2017, 2021 via Manifesto Project
+  - [ ] Zeitreihenanalyse: Wie haben sich Parteipositionen verändert?
+  - [ ] Internationaler Vergleich (67 Länder verfügbar)
+
+- [ ] **Architekturdiagramm + README finalisieren**
+
+- [ ] **Portfolio-Beschreibung für Bewerbungen**
 ---
 
 ## Methodology

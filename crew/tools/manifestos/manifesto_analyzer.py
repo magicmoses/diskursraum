@@ -22,19 +22,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 
 def call_llm(prompt: str, max_tokens: int = 400) -> str:
-    """Unified LLM call — Groq or Ollama based on LLM_PROVIDER."""
-    provider = os.getenv("LLM_PROVIDER", "groq").lower()
+    """Groq first, Anthropic fallback on rate limit."""
 
-    if provider == "anthropic":
-        import anthropic
-        client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
-        response = client.messages.create(
-            model="claude-haiku-4-5-20251001",  # günstigste Option
-            max_tokens=max_tokens,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return response.content[0].text.strip()
-    else:
+    def _groq():
         from groq import Groq
         client = Groq(api_key=os.getenv("GROQ_API_KEY"))
         response = client.chat.completions.create(
@@ -45,6 +35,28 @@ def call_llm(prompt: str, max_tokens: int = 400) -> str:
         )
         return response.choices[0].message.content.strip()
 
+    def _anthropic():
+        import anthropic
+        client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return response.content[0].text.strip()
+
+    # Explizit Anthropic gewählt
+    if os.getenv("LLM_PROVIDER", "groq").lower() == "anthropic":
+        return _anthropic()
+
+    # Groq first, Anthropic fallback bei Rate Limit
+    try:
+        return _groq()
+    except Exception as e:
+        if "429" in str(e) or "rate_limit" in str(e).lower():
+            print(f"    Groq rate limit — falling back to Anthropic")
+            return _anthropic()
+        raise
 
 def summarize_party_position(
     party_name: str,

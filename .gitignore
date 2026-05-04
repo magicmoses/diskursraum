@@ -207,10 +207,11 @@ marimo/_lsp/
 __marimo__/
 
 # ── ConsensusAgent specific ───────────────────────
-# Explicitly track the news database (intentional)
-!data/news.db
-!data/last_crawl.json
-
-# Ignore generated cache files (rebuilt on demand)
-data/cache/
+# Local databases — too large for git, rebuilt via pipeline
 data/news.db
+data/manifestos/
+data/chroma_db/
+
+# Keep these committed
+!data/last_crawl.json
+!data/results/
