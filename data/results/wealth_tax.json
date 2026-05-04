@@ -1,21 +1,49 @@
 {
   "topic_id": "wealth_tax",
   "topic_label": "Vermögenssteuer & Umverteilung",
-  "article_count": 3,
-  "candidate_count": 3,
+  "article_count": 5,
+  "candidate_count": 8,
   "outlets": {
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
       "article_count": 2,
       "sample_titles": [
-        "1.-Mai-Demo in Essen: „Nazis hatten wir schon – war Scheiße“",
-        "Gewerkschaften in den USA: Klasse sucht Kampf"
+        "Eckpunkte für Steuerreform: Söder pocht auf Abschaffung der Stromsteuer und des Solidaritätszuschlags",
+        "Konzept für Steuerreform: Klingbeil: Spitzenverdiener müssen Beitrag leisten"
       ],
       "urls": [
-        "https://taz.de/1-Mai-Demo-in-Essen/!6175783/",
-        "https://taz.de/Junge-Arbeitnehmerinnen-in-den-USA-entdecken-Gewerkschaften-als-politische-Kraft/!6174926/"
+        "https://www.n-tv.de/politik/Soeder-pocht-auf-Abschaffung-der-Stromsteuer-und-des-Solidaritaetszuschlags-id30779764.html",
+        "https://www.n-tv.de/politik/Klingbeil-Spitzenverdiener-muessen-Beitrag-leisten-id30777474.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Steuerreform: Klingbeil fordert von Spitzenverdienern mit sechsstelligen Gehältern „ihren Beitrag“ zu leisten"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/steuerreform-klingbeil-fordert-von-spitzenverdienern-ihren-beitrag-zu-leisten/100221765.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "Klingbeil treibt Steuerreform voran"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/klingbeil-steuerreform-100.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -36,10 +64,12 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 1,
-    "left": 2
+    "right-conservative": 2,
+    "economic-liberal": 1,
+    "neutral": 1,
+    "conservative-liberal": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich in der Notwendigkeit einer Diskussion über Steuerreformen und Vermögensungleichheit zu einigen, wie etwa die Ankündigung von Klingbeil, ein Konzept für eine Steuerreform in den kommenden Wochen vorzustellen. Dies deutet darauf hin, dass es einen breiten Konsens über die Notwendigkeit einer Reform gibt.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Art und Weise, wie die Themen angegangen werden, wobei konservativ-liberale Medien sich auf konkrete Reformpläne wie die Ankündigung von Klingbeil konzentrieren, während linke Medien eher auf soziale Unruhen und Proteste wie die 1.-Mai-Demo in Essen eingehen und eine stärkere Betonung auf die Klassenkampf- und Ungleichheitsthematik legen.",
-  "cached_at": "2026-05-02T06:18:54.132646"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass eine Steuerreform notwendig ist, wie aus den Titeln mit Klingbeils Forderungen nach einer Steuerreform und Söders Eckpunkten für eine Steuerreform hervorgeht. Die Notwendigkeit, dass Spitzenverdiener einen Beitrag leisten müssen, wird ebenfalls von verschiedenen Gruppen, wie Klingbeil und dem Konzept für Steuerreform, betont.",
+  "controversial_points": "Die Berichterstattung divergiert am meisten in Bezug auf die konkreten Vorschläge für die Steuerreform, wie die Abschaffung der Stromsteuer und des Solidaritätszuschlags durch Söder oder die Forderung nach einer höheren Besteuerung von Spitzenverdienern durch Klingbeil, was auf unterschiedliche politische und wirtschaftliche Vorstellungen hinweist.",
+  "cached_at": "2026-05-04T06:54:09.621227"
 }

@@ -1,19 +1,91 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 6,
-  "candidate_count": 10,
+  "article_count": 12,
+  "candidate_count": 25,
   "outlets": {
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 1,
+      "article_count": 3,
       "sample_titles": [
+        "Rente ab 63: Diese Tabellen zeigen, wer wann in Rente kann – und mit welchen Einbußen",
+        "Ruhestand: Welche Jahrgänge in Deutschland die niedrigsten Renten bekommen",
         "Finanzen: Ost-Länder zahlen 2,3 Milliarden Euro für DDR-Sonderrenten"
       ],
       "urls": [
+        "https://www.stern.de/wirtschaft/versicherung/in-rente-mit-63--diese-tabellen-zeigen--wann-sie-in-rente-koennen-35505056.html",
+        "https://www.stern.de/wirtschaft/versicherung/rente-zu-gering--diese-jahrgaenge-bekommen-im-alter-am-wenigsten-35447318.html",
         "https://www.stern.de/gesellschaft/regional/sachsen/finanzen--ost-laender-zahlen-2-3-milliarden-euro-fuer-ddr-sonderrenten-37361442.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Fachleute Ermitteln: Die Frührente ist schlecht fürs Gehirn",
+        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/fruehrente-und-gehirn-warum-zu-frueher-ruhestand-schadet-accg-200787506.html",
+        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 1,
+      "sample_titles": [
+        "Die Republik der Frühverrentung"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/plus69a81001563ae9c42dea3f83/deutscher-arbeitsmarkt-warum-starre-regeln-die-anpassung-verhindern-und-innovationen-bremsen.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "Boomer gehen in Rente: Das bedeutet es für die Jüngeren"
+      ],
+      "urls": [
+        "https://www.ndr.de/nachrichten/schleswig-holstein/was-bedeutet-die-boomer-rentnerwelle-fuer-sh,boomerrente-100.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -65,25 +137,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
@@ -100,13 +153,15 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 2,
+    "conservative-liberal": 2,
+    "far-right": 1,
+    "right-conservative": 1,
+    "left-liberal": 4,
+    "neutral": 2,
     "economic-liberal": 1,
-    "left": 1,
-    "conservative-liberal": 1,
-    "neutral": 1
+    "left": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass das deutsche Rentensystem eine Herausforderung darstellt, die sowohl finanzielle als auch generationenübergreifende Aspekte umfasst, wie etwa die Frage nach der Finanzierbarkeit der gesetzlichen Rentenversicherung und die Debatten um das Renteneintrittsalter. Dies zeigt sich in Titeln wie 'Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?' und 'Hausverkauf für Leibrente: Chance oder Risiko?', die auf die Notwendigkeit einer nachhaltigen und generationengerechten Lösung hinweisen.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung von Reformvorschlägen und der Rolle der Politik, wie etwa in den Titeln 'Rente: Koalition plant Milliarden-Griff in die Rentenkasse - Experte spricht von 'Diebstahl'' und 'Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?', die unterschiedliche Meinungen über die Verteilung von Lasten und Chancen im Rentensystem widerspiegeln und auf die politische und ideologische Ausrichtung der Medien hinweisen.",
-  "cached_at": "2026-05-02T06:18:52.748479"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass das deutsche Rentensystem vor großen Herausforderungen steht, wie etwa der Altersarmut und den Rentenlücken, und dass eine Reform oder Anpassung des Systems notwendig ist, wie in den Artikeln über die Frührente, das Renteneintrittsalter und die Finanzierbarkeit der gesetzlichen Rentenversicherung diskutiert wird. Dies zeigt sich auch in der Betonung der Bedeutung der Altersvorsorge und der Notwendigkeit, das Rentenniveau auf Dauer leisten zu können, wie es in den Artikeln von Bert Rürup und anderen Experten thematisiert wird.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Frage, wie das Rentensystem reformiert werden sollte, insbesondere bei der Debatte um das Renteneintrittsalter, wie in den Artikeln über Rente ab 63, Frühverrentung und Höheres Rentenalter zu sehen ist, sowie in der Bewertung der Auswirkungen von Migration und demographischem Wandel auf das Rentensystem, wie in den Artikeln von Sozialstaat am Limit und Boomer gehen in Rente diskutiert wird.",
+  "cached_at": "2026-05-04T06:54:08.487910"
 }
