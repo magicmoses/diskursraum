@@ -1,19 +1,119 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 11,
-  "candidate_count": 25,
+  "article_count": 28,
+  "candidate_count": 43,
   "outlets": {
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 4,
+      "sample_titles": [
+        "Dobrindt will trotz gesunkener Migrationszahlen an Grenzkontrollen festhalten",
+        "Die fünf entscheidenden Schritte, damit Integration gelingt",
+        "Pizzaboten statt Flüchtlinge",
+        "Ausreisewelle von Syrern aus anderen Ländern – aber nicht aus Deutschland"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article69f7f7f16fe2dee7bfb11c65/grenzkontrollen-dobrindt-will-trotz-gesunkener-migrationszahlen-an-kurs-festhalten.html",
+        "https://www.welt.de/politik/deutschland/die-neuerfindung-deutschlands/plus69de2a680695c741e3c2ce7e/neuerfindung-deutschlands-die-fuenf-entscheidenden-schritte-damit-integration-gelingt.html",
+        "https://www.welt.de/kultur/article69f0f74f622ae392e46e2022/so-wird-das-tatort-saisonfinale-pizzaboten-statt-fluechtlinge.html",
+        "https://www.welt.de/politik/deutschland/plus69f22f7f622ae392e46e332c/migration-ausreisewelle-von-syrern-aus-anderen-laendern-aber-nicht-aus-deutschland.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Für Dobrindt eine echte Wende - für andere \"beeindruckende PR\"",
+        "Auswirkungen der A3-Grenzkontrollen bei Emmerich",
+        "Anke Rehlinger, SPD, Ministerpräsidentin Saarland, \"Dauerhafte Grenzkontrollen nicht das Mittel der Wahl\"",
+        "1,6 Millionen geflüchtete Syrer zurückgekehrt"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/dobrindt-grenzkontrollen-bab-100.html",
+        "https://www1.wdr.de/nrw/verkehr/a3-grenzkontrollen-folgen-stau-wirtschaft-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/syrer-rueckkehr-102.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Alexander Dobrindt will Grenzkontrollen trotz gesunkener Migrationszahlen fortsetzen",
+        "Donald Trump: Grenzmauer zu Mexiko beschädigt uraltes indigenes Bodenbild in Arizona",
+        "Asyl: 6144 neue Anträge im April – niedrigster Wert seit 2020"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/deutschland/alexander-dobrindt-will-grenzkontrollen-trotz-gesunkener-migrationszahlen-fortsetzen-a-f4a4b3c2-7368-4c53-809a-e0b491bcbe81#ref=rss",
+        "https://www.spiegel.de/ausland/donald-trump-grenzmauer-zu-mexiko-beschaedigt-uraltes-indigenes-bodenbild-in-arizona-a-f256433f-da60-4eda-91da-fb723737ee51#ref=rss",
+        "https://www.spiegel.de/panorama/asyl-6144-neue-antraege-im-april-niedrigster-wert-seit-2020-a-7800d50d-79f6-42fb-99f2-9cfc90caad38#ref=rss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall",
+        "Asyl und Migration Syrer kehren millionenfach in ihr Land zurück – aber fast alle bleiben in Deutschland",
+        "Illegale erhalten Bleiberecht Warum die Zahl der Abschiebungen um 28 Prozent einbricht"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/",
+        "https://jungefreiheit.de/politik/deutschland/2026/syrer-kehren-millionenfach-in-ihr-land-zurueck-aber-fast-alle-bleiben-in-deutschland/",
+        "https://jungefreiheit.de/politik/deutschland/2026/warum-die-zahl-der-abschiebungen-um-28-prozent-einbricht/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 1,
+      "article_count": 3,
       "sample_titles": [
-        "Von Einwanderung zu Rückführung: Skandinavien schließt die offenen Tore"
+        "Stippvisite in Rabat: Wadephul jetzt für mehr Zuwanderung aus Marokko",
+        "Von Einwanderung zu Rückführung: Skandinavien schließt die offenen Tore",
+        "Politischer Wortschatz: „Einwanderungsgeschichte“"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/von-einwanderung-zu-rueckfuehrung-skandinavien-schliesst-die-offenen-tore/"
+        "https://www.tichyseinblick.de/daili-es-sentials/wadephul-fuer-zuwanderung-marokko/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/von-einwanderung-zu-rueckfuehrung-skandinavien-schliesst-die-offenen-tore/",
+        "https://www.tichyseinblick.de/feuilleton/einwanderungsgeschichte/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 2,
+      "sample_titles": [
+        "8000 vollstreckte Haftbefehle: Innenminister Dobrindt hält an Grenzkontrollen fest",
+        "Illegal im Kofferraum eingereist: Papst ernennt einstigen Flüchtling in USA zum Bischof"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Innenminister-Dobrindt-haelt-an-Grenzkontrollen-fest-id30781559.html",
+        "https://www.n-tv.de/panorama/Papst-ernennt-einstigen-Fluechtling-in-USA-zum-Bischof-id30778833.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -22,12 +122,61 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
+        "Flüchtlinge: Ist eine Rückkehr nach Syrien unzumutbar?",
         "Massenlegalisierung: Spanien braucht Hunderttausende Migranten"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/politik/inland/ist-eine-rueckkehr-nach-syrien-unzumutbar-200793580.html",
         "https://www.faz.net/aktuell/politik/ausland/massenlegalisierung-spaniens-wirtschaft-und-sozialsysteme-brauchen-migranten-accg-200776552.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 1,
+      "sample_titles": [
+        "Abschiebungen nach Afghanistan: Schmutziger geht's nicht"
+      ],
+      "urls": [
+        "https://taz.de/Abschiebungen-nach-Afghanistan/!6175932/"
+      ],
+      "dominant_emotion": "remorse",
+      "top_emotions": [
+        {
+          "emotion": "remorse",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Migration: Innenminister Dobrindt will an Grenzkontrollen festhalten"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-05/migration-grenzkontrollen-alexander-dobrindt-afghanistan"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Migration: Viele Syrer kehren zurück – aber nur wenige aus Deutschland"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/international/migration-viele-syrer-kehren-zurueck-aber-nur-wenige-aus-deutschland/100221904.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -46,20 +195,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "1,6 Millionen geflüchtete Syrer zurückgekehrt"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/syrer-rueckkehr-102.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
@@ -74,20 +209,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 1,
-      "sample_titles": [
-        "Ausreisewelle von Syrern aus anderen Ländern – aber nicht aus Deutschland"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/plus69f22f7f622ae392e46e332c/migration-ausreisewelle-von-syrern-aus-anderen-laendern-aber-nicht-aus-deutschland.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
@@ -98,48 +219,6 @@
       ],
       "urls": [
         "https://www.bild.de/politik/inland/exklusiv-zahl-der-asyl-erstantraege-auf-13-jahres-tief-69f487726fe2dee7bfb0fa95"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Asyl: 6144 neue Anträge im April – niedrigster Wert seit 2020"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/asyl-6144-neue-antraege-im-april-niedrigster-wert-seit-2020-a-7800d50d-79f6-42fb-99f2-9cfc90caad38#ref=rss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Illegale erhalten Bleiberecht Warum die Zahl der Abschiebungen um 28 Prozent einbricht"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/warum-die-zahl-der-abschiebungen-um-28-prozent-einbricht/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 1,
-      "sample_titles": [
-        "Wissenschaftlerin über KI-Propaganda: „Abschiebungen, aber im lieblichen Stil von Studio Ghibli“"
-      ],
-      "urls": [
-        "https://taz.de/Wissenschaftlerin-ueber-KI-Propaganda/!6174983/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -160,15 +239,16 @@
     }
   },
   "bias_distribution": {
-    "far-right": 2,
-    "conservative-liberal": 1,
-    "left-liberal": 3,
-    "neutral": 2,
-    "right-conservative": 1,
-    "populist-mixed": 1,
-    "left": 1
+    "right-conservative": 6,
+    "left-liberal": 6,
+    "neutral": 5,
+    "far-right": 6,
+    "conservative-liberal": 2,
+    "left": 1,
+    "economic-liberal": 1,
+    "populist-mixed": 1
   },
-  "shared_perspectives": "Alle Gruppen berichten über die Entwicklung der Asyl- und Migrationspolitik in Deutschland und anderen Ländern, wie z.B. die Rückkehr von Syrern in ihre Heimat oder die Anzahl der Asyl-Erstanträge. Die Berichterstattung zeigt, dass die Themen Abschiebungen, Rückführungen und Integration von Geflüchteten und Migranten in allen Mediengruppen von Interesse sind.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Bewertung der Migrationspolitik, wie z.B. die FAR-RIGHT-Medien, die über die 'illegale' Einwanderung und die Notwendigkeit von Abschiebungen berichten, im Gegensatz zu LEFT-LIBERAL-Medien, die über die erfolgreiche Integration von Geflüchteten und die Notwendigkeit humanitärer Lösungen berichten. Die RIGHT-CONSERVATIVE-Medien betonen die 'Ausreisewelle' von Syrern aus anderen Ländern, während LEFT-Medien Kritik an der 'KI-Propaganda' für Abschiebungen üben.",
-  "cached_at": "2026-05-03T06:39:15.793031"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die Themen Migration und Asylpolitik in Deutschland zu diskutieren, insbesondere die Grenzkontrollen und die Rückkehr von Flüchtlingen in ihre Heimatländer, wie in den Artikeln über Syrer und Afghanen zu sehen ist. Die Berichterstattung konzentriert sich auch auf die Positionen von Politikern wie Innenminister Dobrindt und seine Pläne zur Migrationspolitik.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in der Bewertung der Migrationspolitik und der Grenzkontrollen, wie in den Artikeln von rechtskonservativen und linksliberalen Medien zu sehen ist, wobei die erstgenannten die Notwendigkeit von Grenzkontrollen betonen, während die letztgenannten diese als unzureichend oder sogar schädlich kritisieren, wie in den Artikeln über Dobrindts Pläne und die Abschiebungen nach Afghanistan deutlich wird.",
+  "cached_at": "2026-05-04T06:54:05.397998"
 }

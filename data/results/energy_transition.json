@@ -1,8 +1,8 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 47,
-  "candidate_count": 47,
+  "article_count": 56,
+  "candidate_count": 64,
   "outlets": {
     "faz": {
       "source_id": "faz",
@@ -10,16 +10,16 @@
       "bias": "conservative-liberal",
       "article_count": 12,
       "sample_titles": [
+        "Ölkrise: Der Irankrieg treibt Asien zur Energiewende",
         "Energiewende: Deutlich weniger neue Solaranlagen auf Dächern und Balkonen",
         "Klimaschutz: Das Heizungsgesetz ist und bleibt Murks",
-        "RWE in den USA: „Sie legen viele Eier in einen Korb“",
-        "Kostenbremse für die Wärmewende: Das ändert sich für Mieter im neuen Heizungsgesetz"
+        "RWE in den USA: „Sie legen viele Eier in einen Korb“"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/asien-und-der-irankrieg-energiewende-beschleunigt-accg-200790893.html",
         "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/deutlich-weniger-neue-solaranlagen-auf-daechern-und-balkonen-accg-200791342.html",
         "https://www.faz.net/aktuell/wirtschaft/das-heizungsgesetz-ist-und-bleibt-murks-200787508.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/aktionaersvertreter-sehen-die-usa-lastige-strategie-von-rwe-mit-sorge-accg-200785402.html",
-        "https://www.faz.net/aktuell/wirtschaft/das-aendert-sich-fuer-mieter-im-neuen-heizungsgesetz-200787023.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/aktionaersvertreter-sehen-die-usa-lastige-strategie-von-rwe-mit-sorge-accg-200785402.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -41,26 +41,81 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
-        "Grün-schwarzer Koalitionsvertrag steht: Handschlag wie bei Handwerkern",
-        "Heizungsgesetz: Schwarz-Rot vereinbart Kostenbremse für Mieter",
-        "Mehr Kontrolle über Eigenversorgung: Belgien stoppt Rückbau aller seiner Atomreaktoren",
-        "Kompromiss im Heizungsgesetz: Neue Gasrechnung für Ver­mie­te­r:in­nen"
+        "Demos gegen Castor-Transporte: Weitere Aktionen angekündigt",
+        "Sonniges Wochenende: Energiewende-Experten verzweifeln wegen Stromüberschüssen",
+        "Klimapolitik und Zukunft: Das Meckern über Moral",
+        "Grün-schwarzer Koalitionsvertrag steht: Handschlag wie bei Handwerkern"
       ],
       "urls": [
-        "https://taz.de/Gruen-schwarzer-Koalitionsvertrag-steht/!6175441/",
-        "https://taz.de/Heizungsgesetz/!6175267/",
-        "https://taz.de/Mehr-Kontrolle-ueber-Eigenversorgung/!6175284/",
-        "https://taz.de/Kompromiss-im-Heizungsgesetz/!6175287/"
+        "https://taz.de/Demos-gegen-Castor-Transporte/!6176007/",
+        "https://taz.de/Sonniges-Wochenende/!6175897/",
+        "https://taz.de/Klimapolitik-und-Zukunft/!6170831/",
+        "https://taz.de/Gruen-schwarzer-Koalitionsvertrag-steht/!6175441/"
       ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "Die Wärmepumpen-Republik: Jetzt wird‘s im Netz knapp",
+        "Demos für die eigene Verarmung: Bürger marschieren für Windbarone – TE-Wecker am 3. Mai 2026",
+        "Grüne Energiewende verschandelt Natur und vertreibt Vögel",
+        "Strommarkt am 1. Mai 2026 – viel Photovoltaik, Feiertagslast, extreme Preisausschläge"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/waermepumpen/",
+        "https://www.tichyseinblick.de/podcast/te-wecker-am-3-mai-2026/",
+        "https://www.tichyseinblick.de/meinungen/gruene-energiewende-natur-voegel-solar/",
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/strommarkt-photovoltaik-feiertag-energiewende/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "Stromerzeugung Katherina Reiche weiß wenigstens, wo der Strom herkommt",
+        "Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs",
+        "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen",
+        "Schwarz-Rot gegen die Bürger Die Heizungsgesetz-Lüge"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/wissen/2026/katherina-reiche-weiss-wenigstens-wo-der-strom-herkommt/",
+        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-verspricht-freiheit-im-keller-und-bleibt-doch-auf-gruenem-kurs/",
+        "https://jungefreiheit.de/politik/ausland/2026/belgien-stoppt-rueckbau-aller-atomkraftanlagen/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/die-heizungsgesetz-luege/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Energiepolitik: „Kosten senken, Wirtschaft am Laufen halten“: Wie Frankreich mit Elektrifizierung punkten will",
+        "Stefan Dräger: „Unser derzeit größtes Problem ist die EU“",
+        "Gasversorgung: Wie Nordsee-Gas die Versorgungslage entspannen kann",
+        "Öl- und Gasheizungen: Vermieter müssen künftig Bio-Brennstoffe verheizen und die Hälfte der Kosten tragen"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/international/energiepolitik-wie-frankreich-mit-elektrifizierung-punkten-will/100216871.html",
+        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/stefan-draeger-unser-derzeit-groesstes-problem-ist-die-eu/100220595.html",
+        "https://www.handelsblatt.com/politik/deutschland/versorgungssicherheit-wie-nordsee-gas-die-versorgungslage-entspannen-kann/100221132.html",
+        "https://www.handelsblatt.com/politik/deutschland/gasheizungen-vermieter-muessen-bald-bio-brennstoffe-verheizen-und-mitbezahlen/100221317.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "stern": {
       "source_id": "stern",
@@ -87,21 +142,105 @@
         }
       ]
     },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 3,
+      "sample_titles": [
+        "Kommentar - Rechnung für Strom-Irrsinn zahlen wir alle!",
+        "Zwischenruf - Photovoltaik ist geil! Nur nicht in Deutschland",
+        "Experten raten - „Schaltet eure Photovoltaik-Anlagen ab!“"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/rechnung-fuer-strom-irrsinn-zahlen-wir-alle-69f772b2ed1f2e03d501c22f",
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/zwischenruf-photovoltaik-ist-geil-nur-nicht-in-deutschland-69f5fbfb23e6b3dbf3c96b2f",
+        "https://www.bild.de/politik/inland/strom-flutet-netze-experten-raten-solar-anlagen-abzuschalten-69f47ccace673f8cd2abb2d5"
+      ],
+      "dominant_emotion": "relief",
+      "top_emotions": [
+        {
+          "emotion": "relief",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 3,
+      "sample_titles": [
+        "Ökonom hält Reaktivierung abgeschalteter Atommeiler für „betriebswirtschaftlichen Unsinn“",
+        "EU-Kommission zweifelt an der Wirksamkeit des deutschen Klimaziels",
+        "Habecks „Heizungsgesetz“ ist Geschichte – so sieht die Lösung der neuen Regierung aus"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article69f803a623e6b3dbf3c98031/atomkraft-oekonom-haelt-reaktivierung-abgeschalteter-meiler-fuer-betriebswirtschaftlichen-unsinn.html",
+        "https://www.welt.de/wirtschaft/article69f3664b6fe2dee7bfb0ee76/eu-kommission-zweifelt-an-der-wirksamkeit-des-deutschen-klimaziels.html",
+        "https://www.welt.de/finanzen/plus69f353fd6fe2dee7bfb0ec8d/habecks-heizungsgesetz-ist-geschichte-so-sieht-die-neue-loesung-aus.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 3,
+      "sample_titles": [
+        "Wegen \"nationaler Sicherheit\": Bericht: Trump-Regierung blockiert Dutzende Windpark-Projekte",
+        "Das grüne Kraftwerk von Enertrag:  \"Seit 1990 ist klar: Uns bleiben nur Solar- und Windenergie\"",
+        "Maue Bilanz im ersten Quartal: Nachfrage nach Solar-Dachanlagen bricht ein"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wirtschaft/Bericht-Trump-Regierung-blockiert-Dutzende-Windpark-Projekte-id30781276.html",
+        "https://www.n-tv.de/wirtschaft/Enertrag-Chef-Joerg-Mueller-Seit-1990-ist-klar-Uns-bleiben-nur-Solar-und-Windenergie-id30763250.html",
+        "https://www.n-tv.de/wirtschaft/Nachfrage-nach-Solar-Dachanlagen-bricht-ein-id30779083.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 3,
+      "sample_titles": [
+        "Widerstand gegen Windkraft zwecklos?",
+        "Höhere Pacht: Eifeler Landwirt verliert Weide wegen Solaranlage",
+        "Belgien stoppt Rückbau seiner Atomkraftwerke"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/wirtschaft/energie/windrad-wald-aerger-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/bau-von-photovoltaik-anlagen-landwirte-in-der-region-trier-unter-druck-100.html",
+        "https://www.tagesschau.de/ausland/europa/belgien-atomkraft-entscheidung-100.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "So könnten Verbraucher beim Strom profitieren",
         "Atomkraft: Was für und gegen eine Rückkehr spricht",
-        "EU-Strategie für anhaltende Krise in der Golfregion",
         "Einigung beim \"Heizungsgesetz\": Was das für Mieter bedeutet"
       ],
       "urls": [
         "https://www.zdfheute.de/wirtschaft/strompreis-smart-meter-gratis-strom-stromboerse-100.html",
         "https://www.zdfheute.de/wirtschaft/atomkraft-atomenergie-kernenergie-atomausstieg-deutschland-energiekrise-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5196354",
         "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-mieter-gesetz-vermieter-waermepumpe-100.html"
       ],
       "dominant_emotion": "realization",
@@ -111,103 +250,6 @@
           "count": 1
         }
       ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 4,
-      "sample_titles": [
-        "Baum und Gastank knapp verfehlt: Berauschte Autofahrerin hat Glück im Unglück",
-        "Höhere Pacht: Eifeler Landwirt verliert Weide wegen Solaranlage",
-        "Belgien stoppt Rückbau seiner Atomkraftwerke",
-        "Vermieter warnen vor Kosten - für die Grünen bleibt es \"absurd\""
-      ],
-      "urls": [
-        "https://www.hessenschau.de/panorama/baum-und-gastank-knapp-verfehlt-berauschte-autofahrerin-hat-glueck-im-unglueck-v1,unfall-schotten-112.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/bau-von-photovoltaik-anlagen-landwirte-in-der-region-trier-unter-druck-100.html",
-        "https://www.tagesschau.de/ausland/europa/belgien-atomkraft-entscheidung-100.html",
-        "https://www.tagesschau.de/wirtschaft/energie/gebauedemodernisierungsgesetz-kritik-100.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "Demos für die eigene Verarmung: Bürger marschieren für Windbarone – TE-Wecker am 3. Mai 2026",
-        "Grüne Energiewende verschandelt Natur und vertreibt Vögel",
-        "Strommarkt am 1. Mai 2026 – viel Photovoltaik, Feiertagslast, extreme Preisausschläge"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/podcast/te-wecker-am-3-mai-2026/",
-        "https://www.tichyseinblick.de/meinungen/gruene-energiewende-natur-voegel-solar/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/strommarkt-photovoltaik-feiertag-energiewende/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs",
-        "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen",
-        "Schwarz-Rot gegen die Bürger Die Heizungsgesetz-Lüge"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-verspricht-freiheit-im-keller-und-bleibt-doch-auf-gruenem-kurs/",
-        "https://jungefreiheit.de/politik/ausland/2026/belgien-stoppt-rueckbau-aller-atomkraftanlagen/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/die-heizungsgesetz-luege/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 2,
-      "sample_titles": [
-        "EU-Kommission zweifelt an der Wirksamkeit des deutschen Klimaziels",
-        "Habecks „Heizungsgesetz“ ist Geschichte – so sieht die Lösung der neuen Regierung aus"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/article69f3664b6fe2dee7bfb0ee76/eu-kommission-zweifelt-an-der-wirksamkeit-des-deutschen-klimaziels.html",
-        "https://www.welt.de/finanzen/plus69f353fd6fe2dee7bfb0ec8d/habecks-heizungsgesetz-ist-geschichte-so-sieht-die-neue-loesung-aus.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Gasversorgung: Wie Nordsee-Gas die Versorgungslage entspannen kann",
-        "Öl- und Gasheizungen: Vermieter müssen künftig Bio-Brennstoffe verheizen und die Hälfte der Kosten tragen"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/versorgungssicherheit-wie-nordsee-gas-die-versorgungslage-entspannen-kann/100221132.html",
-        "https://www.handelsblatt.com/politik/deutschland/gasheizungen-vermieter-muessen-bald-bio-brennstoffe-verheizen-und-mitbezahlen/100221317.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "sz": {
       "source_id": "sz",
@@ -246,19 +288,24 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Maue Bilanz im ersten Quartal: Nachfrage nach Solar-Dachanlagen bricht ein"
+        "INTERAKTIV - Benzin- und Dieselpreise deutlich gesunken – die aktuellen Zahlen zur Energieversorgung in Deutschland"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Nachfrage-nach-Solar-Dachanlagen-bricht-ein-id30779083.html"
+        "https://www.nzz.ch/visuals/warum-ist-strom-in-deutschland-so-teuer-alle-zahlen-ld.1683901"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     },
     "achgut": {
       "source_id": "achgut",
@@ -292,33 +339,19 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 1,
-      "sample_titles": [
-        "Experten raten - „Schaltet eure Photovoltaik-Anlagen ab!“"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/strom-flutet-netze-experten-raten-solar-anlagen-abzuschalten-69f47ccace673f8cd2abb2d5"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "far-right": 7,
-    "left-liberal": 9,
-    "right-conservative": 3,
-    "conservative-liberal": 12,
-    "neutral": 8,
-    "populist-mixed": 1,
-    "economic-liberal": 2,
-    "left": 5
+    "populist-mixed": 3,
+    "right-conservative": 6,
+    "far-right": 9,
+    "conservative-liberal": 13,
+    "left": 6,
+    "economic-liberal": 4,
+    "neutral": 6,
+    "left-liberal": 9
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Energiewende und der Klimaschutz wichtige Themen sind, die in Deutschland diskutiert werden müssen, wie etwa die Förderung von Solarenergie und die Sicherstellung der Energieversorgung. Dies zeigt sich in Artikeln wie 'Ökostrom: SPD gegen Abschaffung von Solar-Förderung' und 'Energiewende: Deutlich weniger neue Solaranlagen auf Dächern und Balkonen', die von verschiedenen politischen Lagern berichtet werden.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Bewertung der deutschen Klimapolitik und der Energiewende, wie etwa in Artikeln wie 'Grüne Energiewende verschandelt Natur und vertreibt Vögel' von der Far-Right-Seite und 'Heizungsgesetz: Schwarz-Rot vereinbart Kostenbremse für Mieter' von der Linken, die unterschiedliche Meinungen über die Wirksamkeit und die Folgen der aktuellen Politik widerspiegeln.",
-  "cached_at": "2026-05-03T06:39:17.434987"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Energiewende und die Klimapolitik wichtige Themen in Deutschland sind, wie die Titel wie 'Energiewende: Deutlich weniger neue Solaranlagen auf Dächern und Balkonen' und 'Ölkrise: Der Irankrieg treibt Asien zur Energiewende' zeigen. Die Notwendigkeit, die Energieversorgungssicherheit und die Klimaschutzziele zu berücksichtigen, wird in vielen Artikeln hervorgehoben.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Bewertung von Atomkraft und erneuerbaren Energien, wie die Titel 'Ökonom hält Reaktivierung abgeschalteter Atommeiler für „betriebswirtschaftlichen Unsinn“' und 'Expertens raten - „Schaltet eure Photovoltaik-Anlagen ab!“' zeigen. Die politische und gesellschaftliche Debatte über den richtigen Energiemix für Deutschland ist besonders kontrovers, wie die Artikel 'Demos für die eigene Verarmung: Bürger marschieren für Windbarone' und 'Demos gegen Castor-Transporte: Weitere Aktionen angekündigt' verdeutlichen.",
+  "cached_at": "2026-05-04T06:54:07.077562"
 }

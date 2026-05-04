@@ -1,16 +1,16 @@
 [
   {
     "topic": "Trump",
-    "article_count": 208,
+    "article_count": 299,
     "source_count": 17,
     "bias_distribution": {
-      "neutral": 43,
-      "left-liberal": 54,
-      "left": 12,
-      "conservative-liberal": 27,
-      "right-conservative": 37,
-      "economic-liberal": 16,
-      "populist-mixed": 13,
+      "neutral": 53,
+      "left-liberal": 86,
+      "left": 17,
+      "conservative-liberal": 39,
+      "right-conservative": 55,
+      "economic-liberal": 26,
+      "populist-mixed": 17,
       "far-right": 6
     },
     "sample_titles": [
@@ -23,17 +23,17 @@
   },
   {
     "topic": "Iran",
-    "article_count": 147,
+    "article_count": 199,
     "source_count": 17,
     "bias_distribution": {
-      "neutral": 23,
-      "left-liberal": 46,
-      "left": 9,
-      "conservative-liberal": 22,
-      "right-conservative": 30,
-      "economic-liberal": 8,
+      "neutral": 25,
+      "left-liberal": 65,
+      "left": 12,
+      "conservative-liberal": 28,
+      "right-conservative": 43,
+      "economic-liberal": 16,
       "populist-mixed": 5,
-      "far-right": 4
+      "far-right": 5
     },
     "sample_titles": [
       "Nach Merz' Kritik am Vorgehen der USA im Irankrieg: Präsidiale Verbal-Attacken von Trump",
@@ -45,17 +45,17 @@
   },
   {
     "topic": "Merz",
-    "article_count": 90,
+    "article_count": 146,
     "source_count": 18,
     "bias_distribution": {
-      "neutral": 16,
-      "left-liberal": 13,
-      "left": 4,
-      "conservative-liberal": 16,
-      "right-conservative": 16,
-      "economic-liberal": 2,
-      "populist-mixed": 12,
-      "far-right": 11
+      "neutral": 22,
+      "left-liberal": 27,
+      "left": 6,
+      "conservative-liberal": 19,
+      "right-conservative": 30,
+      "economic-liberal": 8,
+      "populist-mixed": 16,
+      "far-right": 18
     },
     "sample_titles": [
       "Trump greift Merz erneut scharf an",
@@ -67,16 +67,17 @@
   },
   {
     "topic": "Wirtschaft",
-    "article_count": 63,
-    "source_count": 15,
+    "article_count": 97,
+    "source_count": 17,
     "bias_distribution": {
-      "neutral": 13,
+      "neutral": 19,
       "left": 4,
-      "conservative-liberal": 11,
-      "economic-liberal": 6,
-      "left-liberal": 11,
-      "right-conservative": 14,
-      "far-right": 4
+      "conservative-liberal": 16,
+      "economic-liberal": 13,
+      "left-liberal": 16,
+      "right-conservative": 20,
+      "far-right": 7,
+      "populist-mixed": 2
     },
     "sample_titles": [
       "Deutsche Wirtschaft wächst zu Jahresbeginn leicht",
@@ -87,17 +88,39 @@
     "is_core": false
   },
   {
+    "topic": "Ukraine",
+    "article_count": 56,
+    "source_count": 16,
+    "bias_distribution": {
+      "neutral": 14,
+      "left-liberal": 14,
+      "left": 4,
+      "conservative-liberal": 8,
+      "right-conservative": 10,
+      "far-right": 2,
+      "economic-liberal": 3,
+      "populist-mixed": 1
+    },
+    "sample_titles": [
+      "Kreml schlägt bei Telefonat mit Trump Feuerpause im Krieg mit der Ukraine zum 9. Mai vor",
+      "Selenskyj will mehr Details zu Waffenruhe-Vorschlag",
+      "Pentagon gibt Hilfsgelder für Ukraine frei"
+    ],
+    "days_back": 7,
+    "is_core": false
+  },
+  {
     "topic": "Israel",
-    "article_count": 47,
+    "article_count": 56,
     "source_count": 15,
     "bias_distribution": {
-      "neutral": 9,
-      "left-liberal": 13,
-      "left": 4,
-      "conservative-liberal": 10,
-      "right-conservative": 5,
+      "neutral": 10,
+      "left-liberal": 15,
+      "left": 6,
+      "conservative-liberal": 12,
+      "right-conservative": 6,
       "populist-mixed": 2,
-      "economic-liberal": 2,
+      "economic-liberal": 3,
       "far-right": 2
     },
     "sample_titles": [
@@ -109,36 +132,17 @@
     "is_core": false
   },
   {
-    "topic": "Ukraine",
-    "article_count": 36,
+    "topic": "Russland",
+    "article_count": 43,
     "source_count": 12,
     "bias_distribution": {
       "neutral": 13,
       "left-liberal": 11,
-      "left": 2,
+      "left": 3,
       "conservative-liberal": 6,
-      "right-conservative": 3,
+      "right-conservative": 8,
+      "economic-liberal": 1,
       "far-right": 1
-    },
-    "sample_titles": [
-      "Kreml schlägt bei Telefonat mit Trump Feuerpause im Krieg mit der Ukraine zum 9. Mai vor",
-      "Selenskyj will mehr Details zu Waffenruhe-Vorschlag",
-      "Pentagon gibt Hilfsgelder für Ukraine frei"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
-    "topic": "Russland",
-    "article_count": 32,
-    "source_count": 10,
-    "bias_distribution": {
-      "neutral": 11,
-      "left-liberal": 9,
-      "left": 2,
-      "conservative-liberal": 6,
-      "right-conservative": 3,
-      "economic-liberal": 1
     },
     "sample_titles": [
       "Selenskyj will mehr Details zu Waffenruhe-Vorschlag",
@@ -150,14 +154,14 @@
   },
   {
     "topic": "NATO",
-    "article_count": 20,
+    "article_count": 29,
     "source_count": 10,
     "bias_distribution": {
-      "neutral": 4,
-      "left-liberal": 6,
+      "neutral": 5,
+      "left-liberal": 9,
       "left": 1,
-      "conservative-liberal": 3,
-      "right-conservative": 6
+      "conservative-liberal": 5,
+      "right-conservative": 9
     },
     "sample_titles": [
       "Berliner Finanzsenator Evers übernimmt zusätzlich Kulturressort",
@@ -168,16 +172,37 @@
     "is_core": false
   },
   {
-    "topic": "AfD",
-    "article_count": 20,
-    "source_count": 11,
+    "topic": "Rente",
+    "article_count": 25,
+    "source_count": 10,
     "bias_distribution": {
       "neutral": 4,
       "left": 2,
-      "right-conservative": 2,
-      "far-right": 5,
-      "conservative-liberal": 3,
-      "economic-liberal": 1,
+      "conservative-liberal": 6,
+      "left-liberal": 4,
+      "economic-liberal": 4,
+      "right-conservative": 4,
+      "far-right": 1
+    },
+    "sample_titles": [
+      "Hausverkauf für Leibrente: Chance oder Risiko?",
+      "KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft",
+      "TV-Kritik Maybrit Illner: Bei der Vermögensteuer reden plötzlich alle durcheinander"
+    ],
+    "days_back": 7,
+    "is_core": true
+  },
+  {
+    "topic": "AfD",
+    "article_count": 25,
+    "source_count": 11,
+    "bias_distribution": {
+      "neutral": 4,
+      "left": 3,
+      "right-conservative": 3,
+      "far-right": 6,
+      "conservative-liberal": 4,
+      "economic-liberal": 2,
       "left-liberal": 2,
       "populist-mixed": 1
     },
@@ -190,34 +215,14 @@
     "is_core": false
   },
   {
-    "topic": "Rente",
-    "article_count": 15,
-    "source_count": 9,
-    "bias_distribution": {
-      "neutral": 3,
-      "left": 2,
-      "conservative-liberal": 3,
-      "left-liberal": 2,
-      "economic-liberal": 2,
-      "right-conservative": 3
-    },
-    "sample_titles": [
-      "Hausverkauf für Leibrente: Chance oder Risiko?",
-      "KI und CO₂-Steuer: Mit künstlicher Intelligenz in eine nachhaltige Wirtschaft",
-      "TV-Kritik Maybrit Illner: Bei der Vermögensteuer reden plötzlich alle durcheinander"
-    ],
-    "days_back": 7,
-    "is_core": true
-  },
-  {
     "topic": "Künstliche Intelligenz",
-    "article_count": 15,
-    "source_count": 7,
+    "article_count": 19,
+    "source_count": 8,
     "bias_distribution": {
-      "neutral": 5,
+      "neutral": 6,
       "left": 1,
-      "conservative-liberal": 5,
-      "left-liberal": 1,
+      "conservative-liberal": 6,
+      "left-liberal": 3,
       "economic-liberal": 2,
       "right-conservative": 1
     },
@@ -230,13 +235,50 @@
     "is_core": true
   },
   {
+    "topic": "Migration",
+    "article_count": 15,
+    "source_count": 7,
+    "bias_distribution": {
+      "left-liberal": 5,
+      "far-right": 4,
+      "right-conservative": 4,
+      "economic-liberal": 2
+    },
+    "sample_titles": [
+      "Alexander Dobrindt im SPIEGEL-Talk: »Merz muss mit dem zurechtkommen, was er hat«",
+      "Alexander Dobrindt im SPIEGEL-Talk: »Merz muss mit dem zurechtkommen, was er hat«",
+      "Zerfall der inneren Sicherheit Urteil im Fall Liana K.: Mörderisches Politikversagen"
+    ],
+    "days_back": 7,
+    "is_core": true
+  },
+  {
+    "topic": "Inflation",
+    "article_count": 14,
+    "source_count": 7,
+    "bias_distribution": {
+      "neutral": 2,
+      "conservative-liberal": 4,
+      "left-liberal": 2,
+      "economic-liberal": 4,
+      "far-right": 2
+    },
+    "sample_titles": [
+      "EZB wartet weiter ab",
+      "Währungshüter in der Zwickmühle",
+      "Irankrieg: US-Inflation lässt Stimmung kippen"
+    ],
+    "days_back": 7,
+    "is_core": false
+  },
+  {
     "topic": "Gaza",
-    "article_count": 12,
+    "article_count": 13,
     "source_count": 8,
     "bias_distribution": {
       "neutral": 3,
       "left-liberal": 3,
-      "left": 2,
+      "left": 3,
       "economic-liberal": 1,
       "conservative-liberal": 3
     },
@@ -249,50 +291,53 @@
     "is_core": false
   },
   {
-    "topic": "Inflation",
-    "article_count": 10,
-    "source_count": 6,
+    "topic": "Bundeswehr",
+    "article_count": 9,
+    "source_count": 7,
     "bias_distribution": {
-      "neutral": 2,
-      "conservative-liberal": 3,
-      "left-liberal": 1,
-      "economic-liberal": 2,
-      "far-right": 2
+      "neutral": 3,
+      "populist-mixed": 1,
+      "left-liberal": 2,
+      "right-conservative": 1,
+      "economic-liberal": 1,
+      "left": 1
     },
     "sample_titles": [
-      "EZB wartet weiter ab",
-      "Währungshüter in der Zwickmühle",
-      "Irankrieg: US-Inflation lässt Stimmung kippen"
+      "Kampf im Weltall",
+      "Warum die Bundeswehr einen Imam sucht",
+      "BILD bei der Bundeswehr in Litauen - Sind wir bereit für den Kampf gegen Putin?"
     ],
     "days_back": 7,
     "is_core": false
   },
   {
-    "topic": "Migration",
-    "article_count": 6,
-    "source_count": 4,
+    "topic": "Atomkraft",
+    "article_count": 7,
+    "source_count": 6,
     "bias_distribution": {
-      "left-liberal": 3,
-      "far-right": 2,
+      "neutral": 2,
+      "far-right": 1,
+      "conservative-liberal": 2,
+      "left": 1,
       "right-conservative": 1
     },
     "sample_titles": [
-      "Alexander Dobrindt im SPIEGEL-Talk: »Merz muss mit dem zurechtkommen, was er hat«",
-      "Alexander Dobrindt im SPIEGEL-Talk: »Merz muss mit dem zurechtkommen, was er hat«",
-      "Zerfall der inneren Sicherheit Urteil im Fall Liana K.: Mörderisches Politikversagen"
+      "Belgien stoppt Rückbau seiner Atomkraftwerke",
+      "Atomkraft: Was für und gegen eine Rückkehr spricht",
+      "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen"
     ],
     "days_back": 7,
     "is_core": true
   },
   {
     "topic": "Energiepreise",
-    "article_count": 6,
-    "source_count": 6,
+    "article_count": 7,
+    "source_count": 7,
     "bias_distribution": {
       "neutral": 1,
       "far-right": 1,
       "left-liberal": 1,
-      "right-conservative": 1,
+      "right-conservative": 2,
       "conservative-liberal": 1,
       "left": 1
     },
@@ -305,51 +350,19 @@
     "is_core": false
   },
   {
-    "topic": "Atomkraft",
-    "article_count": 5,
+    "topic": "Klimaschutz",
+    "article_count": 6,
     "source_count": 4,
     "bias_distribution": {
-      "neutral": 2,
-      "far-right": 1,
-      "conservative-liberal": 2
-    },
-    "sample_titles": [
-      "Belgien stoppt Rückbau seiner Atomkraftwerke",
-      "Atomkraft: Was für und gegen eine Rückkehr spricht",
-      "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen"
-    ],
-    "days_back": 7,
-    "is_core": true
-  },
-  {
-    "topic": "Klimaschutz",
-    "article_count": 4,
-    "source_count": 3,
-    "bias_distribution": {
-      "left": 1,
+      "left": 2,
       "conservative-liberal": 2,
-      "far-right": 1
+      "far-right": 1,
+      "neutral": 1
     },
     "sample_titles": [
       "SPD und CDU koalieren in Rheinland-Pfalz: Kitapflicht kommt, Klimaschutzgesetz bleibt",
       "Özdemir und Palmer fordern: Schluss mit dem kleinteiligen Reinregieren!",
       "Klimaschutz: Das Heizungsgesetz ist und bleibt Murks"
-    ],
-    "days_back": 7,
-    "is_core": false
-  },
-  {
-    "topic": "Bundeswehr",
-    "article_count": 4,
-    "source_count": 2,
-    "bias_distribution": {
-      "neutral": 3,
-      "populist-mixed": 1
-    },
-    "sample_titles": [
-      "Kampf im Weltall",
-      "Warum die Bundeswehr einen Imam sucht",
-      "BILD bei der Bundeswehr in Litauen - Sind wir bereit für den Kampf gegen Putin?"
     ],
     "days_back": 7,
     "is_core": false
