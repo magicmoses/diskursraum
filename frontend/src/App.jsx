@@ -1,47 +1,93 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, NavLink, useLocation } from 'react-router-dom'
 import Analytics from './pages/Analytics'
 import Home from './pages/Home'
 import TopicView from './pages/TopicView'
+import PartyView from './pages/PartyView'
+import Landing from './pages/Landing'
 
-function App() {
+// Nav ausblenden auf Landing Page
+function AppShell() {
+  const location = useLocation()
+  const isLanding = location.pathname === '/'
+
   return (
-    <BrowserRouter>
-      <div className="min-h-screen bg-gray-950 text-gray-100">
+    <div style={{ minHeight: '100vh', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
 
-        {/* Navbar */}
-        <nav className="border-b border-gray-800 px-6 py-4 flex items-center gap-8">
-          <span className="text-xl font-bold text-white">
-            🦞 ConsensusAgent
-          </span>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive ? "text-white font-medium" : "text-gray-400 hover:text-white"
-            }
-          >
-            Topics
+      {!isLanding && (
+        <nav style={{
+          borderBottom: '1px solid var(--border)',
+          padding: '0 var(--space-12)',
+          height: '56px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          position: 'sticky',
+          top: 0,
+          zIndex: 100,
+          backgroundColor: 'var(--bg-primary)',
+          backdropFilter: 'blur(8px)',
+        }}>
+          <NavLink to="/" style={{ textDecoration: 'none' }}>
+            <span style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: '18px',
+              fontWeight: 600,
+              color: 'var(--text-primary)',
+              letterSpacing: '-0.02em',
+            }}>
+              Diskursraum
+            </span>
           </NavLink>
-          <NavLink
-            to="/analytics"
-            className={({ isActive }) =>
-              isActive ? "text-white font-medium" : "text-gray-400 hover:text-white"
-            }
-          >
-            Data Analytics
-          </NavLink>
+
+          <div style={{ display: 'flex', gap: 'var(--space-8)', alignItems: 'center' }}>
+            {[
+              { to: '/medienspiegel', label: 'Medienspiegel' },
+              { to: '/parteienspiegel', label: 'Parteienspiegel' },
+              { to: '/project', label: 'Project' },
+            ].map(({ to, label }) => (
+              <NavLink
+                key={to}
+                to={to}
+                style={({ isActive }) => ({
+                  textDecoration: 'none',
+                  fontSize: 'var(--text-sm)',
+                  fontWeight: isActive ? 500 : 400,
+                  color: isActive ? 'var(--text-primary)' : 'var(--text-secondary)',
+                  letterSpacing: '0.01em',
+                  transition: 'color 150ms ease',
+                  paddingBottom: '2px',
+                  borderBottom: isActive ? '1px solid var(--signal)' : '1px solid transparent',
+                })}
+              >
+                {label}
+              </NavLink>
+            ))}
+          </div>
         </nav>
+      )}
 
-        <main className="px-6 py-8">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/analytics" element={<Analytics />} />
-            <Route path="/topic/:topicId" element={<TopicView />} />
-          </Routes>
-        </main>
+      <main style={{
+        padding: isLanding ? 0 : 'var(--space-12)',
+        maxWidth: isLanding ? 'none' : '1200px',
+        margin: '0 auto',
+      }}>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/medienspiegel" element={<Home />} />
+          <Route path="/medienspiegel/:topicId" element={<TopicView />} />
+          <Route path="/parteienspiegel" element={<PartyView />} />
+          <Route path="/project" element={<Analytics />} />
+        </Routes>
+      </main>
 
-      </div>
-    </BrowserRouter>
+    </div>
   )
 }
 
-export default App
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
+    </BrowserRouter>
+  )
+}
