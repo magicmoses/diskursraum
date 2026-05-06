@@ -1,9 +1,25 @@
 {
   "topic_id": "wealth_tax",
   "topic_label": "Vermögenssteuer & Umverteilung",
-  "article_count": 5,
-  "candidate_count": 8,
+  "article_count": 7,
+  "candidate_count": 13,
   "outlets": {
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 2,
+      "sample_titles": [
+        "95 Prozent der Grünen-Wähler sprechen sich für Reichensteuer aus – AfD-Anhänger äußern Vorbehalte",
+        "Merz schließt Steuererhöhungen aus, höhere Steuersätze aber nicht – so wäre es möglich"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article69f97d8423e6b3dbf3c99390/forsa-umfrage-95-prozent-der-gruenen-waehler-sprechen-sich-fuer-reichensteuer-aus-afd-anhaenger-aeussern-vorbehalte.html",
+        "https://www.welt.de/wirtschaft/plus69f85f8e6fe2dee7bfb1207c/schwarz-rote-regierung-merz-schliesst-steuererhoehungen-aus-hoehere-steuersaetze-aber-nicht-so-waere-es-moeglich.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
@@ -16,6 +32,20 @@
       "urls": [
         "https://www.n-tv.de/politik/Soeder-pocht-auf-Abschaffung-der-Stromsteuer-und-des-Solidaritaetszuschlags-id30779764.html",
         "https://www.n-tv.de/politik/Klingbeil-Spitzenverdiener-muessen-Beitrag-leisten-id30777474.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "Bundeskanzler Merz lehnt Klingbeils Steuerpläne ab"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/steuer-plaene-merz-klingbeil-kompromisse-koalition-100.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -47,29 +77,14 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Deutschland-Liveblog: Klingbeil kündigt Konzept für Steuerreform „in den kommenden Wochen“ an"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-klingbeil-kuendigt-konzept-fuer-steuerreform-in-den-kommenden-wochen-an-faz-110093143.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 2,
-    "economic-liberal": 1,
-    "neutral": 1,
-    "conservative-liberal": 1
+    "right-conservative": 4,
+    "neutral": 2,
+    "economic-liberal": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass eine Steuerreform notwendig ist, wie aus den Titeln mit Klingbeils Forderungen nach einer Steuerreform und Söders Eckpunkten für eine Steuerreform hervorgeht. Die Notwendigkeit, dass Spitzenverdiener einen Beitrag leisten müssen, wird ebenfalls von verschiedenen Gruppen, wie Klingbeil und dem Konzept für Steuerreform, betont.",
-  "controversial_points": "Die Berichterstattung divergiert am meisten in Bezug auf die konkreten Vorschläge für die Steuerreform, wie die Abschaffung der Stromsteuer und des Solidaritätszuschlags durch Söder oder die Forderung nach einer höheren Besteuerung von Spitzenverdienern durch Klingbeil, was auf unterschiedliche politische und wirtschaftliche Vorstellungen hinweist.",
-  "cached_at": "2026-05-04T06:54:09.621227"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu einigen, dass die Steuerreform ein wichtiges Thema in Deutschland ist, wie die Berichterstattung über Steuerpläne und -reformen von verschiedenen Politikern wie Merz, Klingbeil und Söder zeigt. Die Notwendigkeit einer Steuerreform wird offenbar von allen Seiten anerkannt, unabhängig von der politischen Ausrichtung.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Frage, wie eine Steuerreform aussehen sollte, insbesondere bei der Einführung einer Reichensteuer oder der Anhebung von Steuersätzen, wie die Titel '95 Prozent der Grünen-Wähler sprechen sich für Reichensteuer aus' und 'Merz schließt Steuererhöhungen aus' zeigen, die unterschiedliche Meinungen innerhalb der politischen Landschaft widerspiegeln.",
+  "cached_at": "2026-05-06T06:54:38.621900"
 }
