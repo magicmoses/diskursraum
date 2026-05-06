@@ -1,17 +1,20 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { getTopicAnalysis } from '../api/client'
+import { Loader } from '../components/ui'
+import { BIAS_COLORS, BIAS_LABELS } from '../constants/colors'
 
-// ── Constants ─────────────────────────────────────
-const BIAS_COLORS = {
-  'left': { bg: '#1e3a8a', text: '#93c5fd', label: 'Links' },
-  'left-liberal': { bg: '#1d4ed8', text: '#bfdbfe', label: 'Links-Liberal' },
-  'neutral': { bg: '#374151', text: '#d1d5db', label: 'Neutral' },
-  'conservative-liberal': { bg: '#92400e', text: '#fcd34d', label: 'Konservativ-Liberal' },
-  'economic-liberal': { bg: '#713f12', text: '#fde68a', label: 'Wirtschaftsliberal' },
-  'right-conservative': { bg: '#991b1b', text: '#fca5a5', label: 'Rechts-Konservativ' },
-  'populist-mixed': { bg: '#581c87', text: '#d8b4fe', label: 'Populistisch' },
-  'far-right': { bg: '#450a0a', text: '#fecaca', label: 'Rechtsaußen' },
+// ── Bias config for TopicView ─────────────────────
+// Extended with bg/text for inline spectrum display
+const BIAS_DISPLAY = {
+  'left': { bg: '#1A2A3A', text: '#6B9AB8', label: 'Links' },
+  'left-liberal': { bg: '#1A2535', text: '#8B9BAF', label: 'Links-Liberal' },
+  'neutral': { bg: '#1E2023', text: '#8A8885', label: 'Neutral' },
+  'conservative-liberal': { bg: '#2A1F0E', text: '#C4781A', label: 'Konservativ-Liberal' },
+  'economic-liberal': { bg: '#2A1E0A', text: '#E8A84A', label: 'Wirtschaftsliberal' },
+  'right-conservative': { bg: '#2A1010', text: '#B85C38', label: 'Rechts-Konservativ' },
+  'populist-mixed': { bg: '#221A10', text: '#8B7355', label: 'Populistisch' },
+  'far-right': { bg: '#1F0A0A', text: '#7A3B2E', label: 'Rechtsaußen' },
 }
 
 const BIAS_SPECTRUM = [
@@ -20,52 +23,71 @@ const BIAS_SPECTRUM = [
   'right-conservative', 'populist-mixed', 'far-right',
 ]
 
-const EMOTION_EMOJI = {
-  neutral: '😐', curiosity: '🤔', optimism: '🌟',
-  annoyance: '😤', confusion: '😕', admiration: '✨',
-  excitement: '⚡', amusement: '😄', fear: '😨',
-  sadness: '😢', anger: '🔥', disapproval: '👎',
-  approval: '👍', disgust: '🤢', surprise: '😲',
-  disappointment: '😞', joy: '🎉', grief: '💔',
+const SOURCE_BIAS_MAP = {
+  taz: 'left',
+  spiegel: 'left-liberal', zeit: 'left-liberal',
+  sz: 'left-liberal', stern: 'left-liberal',
+  tagesschau: 'neutral', zdf: 'neutral', dw: 'neutral',
+  faz: 'conservative-liberal', cicero: 'conservative-liberal',
+  nzz: 'conservative-liberal',
+  welt: 'right-conservative', focus: 'right-conservative', ntv: 'right-conservative',
+  junge_freiheit: 'far-right', tichys: 'far-right', achgut: 'far-right',
+  handelsblatt: 'economic-liberal',
+  bild: 'populist-mixed',
 }
 
-// ── Helpers ───────────────────────────────────────
-function getBiasForSource(sourceId) {
-  const map = {
-    taz: 'left',
-    spiegel: 'left-liberal', zeit: 'left-liberal',
-    sz: 'left-liberal', stern: 'left-liberal',
-    tagesschau: 'neutral', zdf: 'neutral', dw: 'neutral',
-    faz: 'conservative-liberal', cicero: 'conservative-liberal',
-    welt: 'right-conservative', focus: 'right-conservative',
-    junge_freiheit: 'far-right',
-    handelsblatt: 'economic-liberal',
-    bild: 'populist-mixed',
-  }
-  return map[sourceId] || 'neutral'
+// ── Shared style ──────────────────────────────────
+const S = {
+  label: {
+    fontFamily: 'var(--font-mono)',
+    fontSize: 'var(--text-xs)',
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+    color: 'var(--text-muted)',
+  },
+  dot: (color) => ({
+    width: '8px',
+    height: '8px',
+    background: color,
+    flexShrink: 0,
+  }),
 }
 
 // ── Sub-components ────────────────────────────────
-function LoadingState() {
+function EmptyState({ onBack }) {
   return (
-    <div className="min-h-[60vh] flex flex-col items-center justify-center gap-4">
-      <div className="w-8 h-8 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
-      <p className="text-gray-500 text-sm">Lade Analyse...</p>
-    </div>
-  )
-}
-
-function EmptyState({ onBack, topicId }) {
-  return (
-    <div className="min-h-[60vh] flex flex-col items-center justify-center gap-6 text-center px-4">
-      <div className="text-5xl">🔄</div>
-      <div>
-        <p className="text-white font-semibold text-lg mb-2">Analyse noch nicht verfügbar</p>
-        <p className="text-gray-400 text-sm max-w-sm">
-          Dieses Thema wird beim nächsten täglichen ML-Run analysiert.
-        </p>
+    <div style={{
+      minHeight: '60vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: 'var(--space-6)',
+      textAlign: 'center',
+    }}>
+      <div style={{
+        fontFamily: 'var(--font-mono)',
+        fontSize: 'var(--text-xs)',
+        color: 'var(--amber)',
+        letterSpacing: '0.10em',
+        textTransform: 'uppercase',
+      }}>
+        Analyse ausstehend
       </div>
-      <button onClick={onBack} className="text-sm text-blue-400 hover:text-blue-300 transition-colors">
+      <p style={{ fontSize: 'var(--text-base)', color: 'var(--text-secondary)', maxWidth: '360px', lineHeight: 1.6 }}>
+        Dieses Thema wird beim nächsten täglichen ML-Run analysiert.
+      </p>
+      <button
+        onClick={onBack}
+        style={{
+          fontSize: 'var(--text-sm)',
+          color: 'var(--signal)',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          fontFamily: 'var(--font-body)',
+        }}
+      >
         ← Zurück zur Übersicht
       </button>
     </div>
@@ -75,43 +97,53 @@ function EmptyState({ onBack, topicId }) {
 function SpectrumBar({ biasDistribution }) {
   const total = Object.values(biasDistribution).reduce((s, c) => s + c, 0)
   if (total === 0) return null
-
   const ordered = BIAS_SPECTRUM.filter(b => biasDistribution[b])
 
   return (
-    <div className="bg-gray-900/60 border border-gray-800 rounded-2xl p-5">
-      <p className="text-xs text-gray-500 uppercase tracking-wider mb-3">
+    <div style={{
+      background: 'var(--bg-surface)',
+      border: '1px solid var(--border)',
+      padding: 'var(--space-4) var(--space-6)',
+    }}>
+      <div style={{ ...S.label, marginBottom: 'var(--space-3)' }}>
         Politisches Spektrum der Berichterstattung
-      </p>
-      <div className="flex rounded-full overflow-hidden h-3 gap-px">
+      </div>
+      <div style={{ display: 'flex', height: '4px', gap: '1px' }}>
         {ordered.map(b => {
           const pct = (biasDistribution[b] / total * 100).toFixed(1)
-          const bias = BIAS_COLORS[b]
+          const d = BIAS_DISPLAY[b]
           return (
             <div
               key={b}
-              title={`${bias.label}: ${pct}%`}
-              style={{ width: `${pct}%`, background: bias.text }}
-              className="transition-all duration-300 cursor-pointer hover:opacity-80"
+              title={`${d?.label}: ${pct}%`}
+              style={{
+                width: `${pct}%`,
+                background: d?.text || 'var(--text-muted)',
+                transition: 'opacity 150ms ease',
+                cursor: 'default',
+              }}
             />
           )
         })}
       </div>
-      <div className="flex justify-between mt-1.5">
-        <span className="text-xs text-blue-400">Links</span>
-        <span className="text-xs text-red-400">Rechts</span>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 'var(--space-2)' }}>
+        <span style={{ ...S.label, color: '#6B9AB8' }}>Links</span>
+        <span style={{ ...S.label, color: '#7A3B2E' }}>Rechts</span>
       </div>
-      <div className="flex flex-wrap gap-2 mt-3">
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)', marginTop: 'var(--space-3)' }}>
         {ordered.map(b => {
           const pct = (biasDistribution[b] / total * 100).toFixed(0)
-          const bias = BIAS_COLORS[b]
+          const d = BIAS_DISPLAY[b]
           return (
-            <span
-              key={b}
-              className="text-xs px-2 py-0.5 rounded-full"
-              style={{ background: bias.bg, color: bias.text }}
-            >
-              {bias.label} {pct}%
+            <span key={b} style={{
+              fontSize: 'var(--text-xs)',
+              fontFamily: 'var(--font-mono)',
+              padding: '2px 8px',
+              background: d?.bg,
+              color: d?.text,
+              border: `1px solid ${d?.text}30`,
+            }}>
+              {d?.label} {pct}%
             </span>
           )
         })}
@@ -122,74 +154,116 @@ function SpectrumBar({ biasDistribution }) {
 
 function SynthesisCard({ shared, controversial }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div className="bg-blue-950/40 border border-blue-800/40 rounded-2xl p-5">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="text-lg">🤝</span>
-          <span className="text-sm font-semibold text-blue-300">Gemeinsame Perspektiven</span>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
+      {[
+        { label: 'Gemeinsame Perspektiven', text: shared, accent: 'var(--patina)', bg: 'var(--patina-subtle)' },
+        { label: 'Kontroverse Punkte', text: controversial, accent: 'var(--amber)', bg: 'var(--amber-subtle)' },
+      ].map(({ label, text, accent, bg }) => (
+        <div key={label} style={{
+          background: bg,
+          border: `1px solid ${accent}30`,
+          padding: 'var(--space-6)',
+        }}>
+          <div style={{ ...S.label, color: accent, marginBottom: 'var(--space-3)' }}>
+            {label}
+          </div>
+          <p style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7 }}>
+            {text}
+          </p>
         </div>
-        <p className="text-gray-300 text-sm leading-relaxed">{shared}</p>
-      </div>
-      <div className="bg-red-950/30 border border-red-800/30 rounded-2xl p-5">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="text-lg">⚡</span>
-          <span className="text-sm font-semibold text-red-300">Kontroverse Punkte</span>
-        </div>
-        <p className="text-gray-300 text-sm leading-relaxed">{controversial}</p>
-      </div>
+      ))}
     </div>
   )
 }
 
 function OutletCard({ outlet }) {
-  const bias = BIAS_COLORS[outlet.bias] || BIAS_COLORS['neutral']
-  const emotion = outlet.dominant_emotion
+  const bias = BIAS_DISPLAY[outlet.bias || SOURCE_BIAS_MAP[outlet.source_id]] || BIAS_DISPLAY['neutral']
 
   return (
-    <div className="bg-gray-900/60 border border-gray-800 rounded-xl p-4 hover:border-gray-600 transition-colors">
-
-      {/* Header */}
-      <div className="flex items-center justify-between mb-3">
-        <div className="flex items-center gap-2">
-          <span
-            className="w-2 h-2 rounded-full shrink-0"
-            style={{ background: bias.text }}
-          />
-          <span className="font-semibold text-white text-sm">{outlet.source}</span>
-        </div>
-        <div className="flex items-center gap-2">
-          {emotion && emotion !== 'neutral' && (
-            <span className="text-xs text-gray-500">
-              {EMOTION_EMOJI[emotion] || ''} {emotion}
-            </span>
-          )}
-          <span
-            className="text-xs px-2 py-0.5 rounded-full"
-            style={{ background: bias.bg, color: bias.text }}
-          >
-            {outlet.article_count} Art.
+    <div style={{
+      background: 'var(--bg-surface)',
+      border: '1px solid var(--border)',
+      padding: 'var(--space-4)',
+      transition: 'border-color 150ms ease',
+    }}
+      onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--border-hover)'}
+      onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border)'}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-3)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
+          <div style={S.dot(bias.text)} />
+          <span style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-primary)' }}>
+            {outlet.source}
           </span>
         </div>
+        <span style={{
+          fontFamily: 'var(--font-mono)',
+          fontSize: 'var(--text-xs)',
+          color: bias.text,
+          background: bias.bg,
+          padding: '2px 6px',
+          border: `1px solid ${bias.text}30`,
+        }}>
+          {outlet.article_count} Art.
+        </span>
       </div>
 
-      {/* Sample titles */}
-      <div className="space-y-1.5">
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
         {outlet.sample_titles?.slice(0, 3).map((title, i) => (
-          <p
-            key={i}
-            className="text-xs text-gray-400 leading-relaxed line-clamp-2"
-            style={{ borderLeft: `2px solid ${bias.bg}`, paddingLeft: '8px' }}
-          >
+          <p key={i} style={{
+            fontSize: 'var(--text-xs)',
+            color: 'var(--text-secondary)',
+            lineHeight: 1.5,
+            paddingLeft: 'var(--space-3)',
+            borderLeft: `2px solid ${bias.text}40`,
+            overflow: 'hidden',
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+          }}>
             {title}
           </p>
         ))}
       </div>
-
     </div>
   )
 }
 
-// ── Main Component ────────────────────────────────
+// ── Tab Bar ───────────────────────────────────────
+function TabBar({ tabs, active, onChange }) {
+  return (
+    <div style={{
+      display: 'flex',
+      gap: '1px',
+      background: 'var(--border)',
+      borderBottom: '1px solid var(--border)',
+    }}>
+      {tabs.map(tab => (
+        <button
+          key={tab.id}
+          onClick={() => onChange(tab.id)}
+          style={{
+            padding: 'var(--space-3) var(--space-6)',
+            background: active === tab.id ? 'var(--bg-surface)' : 'var(--bg-primary)',
+            border: 'none',
+            borderBottom: active === tab.id ? '2px solid var(--signal)' : '2px solid transparent',
+            color: active === tab.id ? 'var(--text-primary)' : 'var(--text-muted)',
+            fontSize: 'var(--text-sm)',
+            fontFamily: 'var(--font-body)',
+            cursor: 'pointer',
+            transition: 'all 150ms ease',
+            fontWeight: active === tab.id ? 500 : 400,
+            letterSpacing: '0.01em',
+          }}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+// ── Main ──────────────────────────────────────────
 export default function TopicView() {
   const { topicId } = useParams()
   const navigate = useNavigate()
@@ -205,143 +279,153 @@ export default function TopicView() {
       .catch(() => setLoading(false))
   }, [topicId])
 
-  if (loading) return <LoadingState />
-  if (!data || data.error) return <EmptyState onBack={() => navigate('/')} topicId={topicId} />
+  if (loading) return <Loader text="Lade Analyse..." />
+  if (!data || data.error) return <EmptyState onBack={() => navigate('/')} />
 
   const outlets = data.outlets || {}
   const outletList = Object.values(outlets)
 
-  // Group outlets by bias spectrum order
   const outletsByBias = {}
   outletList.forEach(outlet => {
-    const bias = outlet.bias || getBiasForSource(outlet.source_id)
+    const bias = outlet.bias || SOURCE_BIAS_MAP[outlet.source_id] || 'neutral'
     if (!outletsByBias[bias]) outletsByBias[bias] = []
     outletsByBias[bias].push(outlet)
   })
 
   const tabs = [
-    { id: 'overview', label: '📊 Überblick' },
-    { id: 'outlets', label: '🗞 Medienhäuser' },
+    { id: 'overview', label: 'Überblick' },
+    { id: 'outlets', label: 'Medienhäuser' },
   ]
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6 pb-16">
+    <div style={{ maxWidth: '880px', paddingBottom: 'var(--space-16)' }}>
 
-      {/* Back */}
+      {/* ── Back ──────────────────────────────────── */}
       <button
-        onClick={() => navigate('/')}
-        className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-white transition-colors"
+        onClick={() => navigate('/medienspiegel')}
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 'var(--space-2)',
+          fontSize: 'var(--text-sm)',
+          color: 'var(--text-muted)',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          fontFamily: 'var(--font-body)',
+          padding: 'var(--space-8) 0 var(--space-6)',
+          transition: 'color 150ms ease',
+        }}
+        onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
+        onMouseLeave={e => e.currentTarget.style.color = 'var(--text-muted)'}
       >
         ← Themenübersicht
       </button>
 
-      {/* Header */}
-      <div>
-        <h1 className="text-3xl font-bold text-white mb-2">{data.topic_label}</h1>
-        <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap">
-          <span>{data.article_count} relevante Artikel</span>
+      {/* ── Header ────────────────────────────────── */}
+      <div style={{ marginBottom: 'var(--space-8)' }}>
+        <div style={{ ...S.label, color: 'var(--signal)', marginBottom: 'var(--space-3)' }}>
+          Dimension I — Medienspiegel
+        </div>
+        <h1 style={{
+          fontFamily: 'var(--font-display)',
+          fontSize: 'clamp(24px, 4vw, 40px)',
+          fontWeight: 700,
+          letterSpacing: '-0.02em',
+          marginBottom: 'var(--space-3)',
+        }}>
+          {data.topic_label}
+        </h1>
+        <div style={{ display: 'flex', gap: 'var(--space-4)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+          <span>{data.article_count} Artikel</span>
           <span>·</span>
           <span>{outletList.length} Medienhäuser</span>
           <span>·</span>
           <span>
-            Stand: {data.cached_at
-              ? new Date(data.cached_at).toLocaleDateString('de-DE', {
-                day: '2-digit', month: '2-digit', year: 'numeric'
-              })
+            {data.cached_at
+              ? new Date(data.cached_at).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })
               : '—'}
           </span>
         </div>
       </div>
 
-      {/* Spectrum Bar */}
+      {/* ── Spectrum ──────────────────────────────── */}
       {data.bias_distribution && (
-        <SpectrumBar biasDistribution={data.bias_distribution} />
-      )}
-
-      {/* Synthesis */}
-      {data.shared_perspectives && data.controversial_points && (
-        <SynthesisCard
-          shared={data.shared_perspectives}
-          controversial={data.controversial_points}
-        />
-      )}
-
-      {/* Tabs */}
-      <div className="flex gap-1 bg-gray-900/60 border border-gray-800 rounded-xl p-1">
-        {tabs.map(tab => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`flex-1 py-2 px-4 rounded-lg text-sm font-medium transition-all duration-150 ${activeTab === tab.id
-              ? 'bg-gray-700 text-white shadow-sm'
-              : 'text-gray-400 hover:text-white'
-              }`}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </div>
-
-      {/* Tab: Überblick */}
-      {activeTab === 'overview' && (
-        <div className="space-y-4">
-          <p className="text-gray-500 text-sm leading-relaxed">
-            Wie viel berichtet jede politische Gruppe über dieses Thema?
-          </p>
-          {BIAS_SPECTRUM.filter(b => outletsByBias[b]).map(b => {
-            const bias = BIAS_COLORS[b]
-            const groupOutlets = outletsByBias[b]
-            const groupTotal = groupOutlets.reduce((s, o) => s + o.article_count, 0)
-
-            return (
-              <div
-                key={b}
-                className="rounded-xl p-4 border"
-                style={{ borderColor: `${bias.bg}80`, background: `${bias.bg}18` }}
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-2">
-                    <span className="w-2.5 h-2.5 rounded-full" style={{ background: bias.text }} />
-                    <span className="font-semibold text-white text-sm">{bias.label}</span>
-                    <span className="text-xs text-gray-500">
-                      ({groupOutlets.map(o => o.source).join(', ')})
-                    </span>
-                  </div>
-                  <span className="text-xs font-mono" style={{ color: bias.text }}>
-                    {groupTotal} Artikel
-                  </span>
-                </div>
-
-                {/* Top titles from this group */}
-                <div className="space-y-1">
-                  {groupOutlets.flatMap(o => o.sample_titles || []).slice(0, 3).map((title, i) => (
-                    <p key={i} className="text-xs text-gray-400 truncate">
-                      <span className="text-gray-600 mr-1.5">·</span>{title}
-                    </p>
-                  ))}
-                </div>
-              </div>
-            )
-          })}
+        <div style={{ marginBottom: 'var(--space-6)' }}>
+          <SpectrumBar biasDistribution={data.bias_distribution} />
         </div>
       )}
 
-      {/* Tab: Medienhäuser */}
-      {activeTab === 'outlets' && (
-        <div className="space-y-3">
-          <p className="text-gray-500 text-sm leading-relaxed">
-            Detailansicht pro Medienhaus — Artikel-Anzahl, dominante Emotion und Beispiel-Titel.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      {/* ── Synthesis ─────────────────────────────── */}
+      {data.shared_perspectives && data.controversial_points && (
+        <div style={{ marginBottom: 'var(--space-6)' }}>
+          <SynthesisCard shared={data.shared_perspectives} controversial={data.controversial_points} />
+        </div>
+      )}
+
+      {/* ── Tabs ──────────────────────────────────── */}
+      <TabBar tabs={tabs} active={activeTab} onChange={setActiveTab} />
+
+      <div style={{ paddingTop: 'var(--space-6)' }}>
+
+        {/* Overview */}
+        {activeTab === 'overview' && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
+            {BIAS_SPECTRUM.filter(b => outletsByBias[b]).map(b => {
+              const d = BIAS_DISPLAY[b]
+              const groupOutlets = outletsByBias[b]
+              const groupTotal = groupOutlets.reduce((s, o) => s + o.article_count, 0)
+              return (
+                <div key={b} style={{
+                  background: d.bg,
+                  border: `1px solid ${d.text}20`,
+                  padding: 'var(--space-4) var(--space-6)',
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-3)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
+                      <div style={S.dot(d.text)} />
+                      <span style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-primary)' }}>
+                        {d.label}
+                      </span>
+                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+                        {groupOutlets.map(o => o.source).join(', ')}
+                      </span>
+                    </div>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: d.text }}>
+                      {groupTotal} Art.
+                    </span>
+                  </div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                    {groupOutlets.flatMap(o => o.sample_titles || []).slice(0, 3).map((title, i) => (
+                      <p key={i} style={{
+                        fontSize: 'var(--text-xs)',
+                        color: 'var(--text-secondary)',
+                        paddingLeft: 'var(--space-3)',
+                        borderLeft: `1px solid ${d.text}40`,
+                        lineHeight: 1.5,
+                      }}>
+                        {title}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        )}
+
+        {/* Outlets */}
+        {activeTab === 'outlets' && (
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-3)' }}>
             {BIAS_SPECTRUM.flatMap(b =>
               (outletsByBias[b] || []).map(outlet => (
                 <OutletCard key={outlet.source_id} outlet={outlet} />
               ))
             )}
           </div>
-        </div>
-      )}
+        )}
 
+      </div>
     </div>
   )
 }
