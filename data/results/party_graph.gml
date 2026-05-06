@@ -62,7 +62,7 @@ graph [
   edge [
     source 0
     target 1
-    weight 0.9759
+    weight 0.9731
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -72,6 +72,16 @@ graph [
   edge [
     source 0
     target 2
+    weight 0.9684
+    topics "migration"
+    topics "energy_transition"
+    topics "retirement"
+    topics "wealth_tax"
+    topics "digitalization"
+  ]
+  edge [
+    source 0
+    target 3
     weight 0.9716
     topics "migration"
     topics "energy_transition"
@@ -81,18 +91,8 @@ graph [
   ]
   edge [
     source 0
-    target 3
-    weight 0.9618
-    topics "migration"
-    topics "energy_transition"
-    topics "retirement"
-    topics "wealth_tax"
-    topics "digitalization"
-  ]
-  edge [
-    source 0
     target 5
-    weight 0.9579
+    weight 0.9687
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -102,7 +102,7 @@ graph [
   edge [
     source 1
     target 2
-    weight 0.9743
+    weight 0.975
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -112,7 +112,7 @@ graph [
   edge [
     source 1
     target 3
-    weight 0.9593
+    weight 0.9658
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -122,7 +122,7 @@ graph [
   edge [
     source 1
     target 5
-    weight 0.9581
+    weight 0.9722
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -132,7 +132,7 @@ graph [
   edge [
     source 2
     target 3
-    weight 0.9612
+    weight 0.9666
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -142,7 +142,7 @@ graph [
   edge [
     source 2
     target 5
-    weight 0.9628
+    weight 0.9733
     topics "migration"
     topics "energy_transition"
     topics "retirement"
@@ -152,7 +152,7 @@ graph [
   edge [
     source 3
     target 5
-    weight 0.9513
+    weight 0.9682
     topics "migration"
     topics "energy_transition"
     topics "retirement"
