@@ -73,3 +73,31 @@ def get_topic(topic_id: str):
     if not result:
         return {"error": f"No cached analysis for '{topic_id}'."}
     return result
+
+# ── Manifesto Analysis ────────────────────────────
+VALID_MANIFESTO_YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
+
+@app.get("/manifestos/historical")
+def get_historical():
+    result = database.get_historical_analysis()
+    if not result:
+        return {"error": "No historical analysis available"}
+    return result
+
+@app.get("/manifestos/categories/{year}")
+def get_manifesto_categories(year: int):
+    if year not in VALID_MANIFESTO_YEARS:
+        return {"error": f"Year {year} not available. Valid: {VALID_MANIFESTO_YEARS}"}
+    result = database.get_category_distribution(year)
+    if not result:
+        return {"error": f"No category data for {year}"}
+    return result
+
+@app.get("/manifestos/{year}")
+def get_manifesto(year: int):
+    if year not in VALID_MANIFESTO_YEARS:
+        return {"error": f"Year {year} not available. Valid: {VALID_MANIFESTO_YEARS}"}
+    result = database.get_manifesto_year(year)
+    if not result:
+        return {"error": f"No manifesto data for {year}"}
+    return result

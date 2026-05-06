@@ -287,3 +287,27 @@ def get_topic_analysis(topic_id: str):
         with open(json_path, "r", encoding="utf-8") as f:
             return json.load(f)
     return None
+
+# ── Manifesto Results ─────────────────────────────
+_RESULTS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "results")
+
+def get_manifesto_year(year: int):
+    path = os.path.join(_RESULTS_DIR, f"manifestos_{year}.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+def get_historical_analysis():
+    path = os.path.join(_RESULTS_DIR, "historical_analysis.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+def get_category_distribution(year: int):
+    path = os.path.join(_RESULTS_DIR, f"category_distribution_{year}.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
