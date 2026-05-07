@@ -1,9 +1,32 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 12,
-  "candidate_count": 25,
+  "article_count": 16,
+  "candidate_count": 36,
   "outlets": {
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell",
+        "Fachleute Ermitteln: Die Frührente ist schlecht fürs Gehirn",
+        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html",
+        "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/fruehrente-und-gehirn-warum-zu-frueher-ruhestand-schadet-accg-200787506.html",
+        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
@@ -22,26 +45,54 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Fachleute Ermitteln: Die Frührente ist schlecht fürs Gehirn",
-        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
+        "Altersvorsorge: Höhere Rentenbeiträge erwartet: Arbeitgeber und DGB kritisieren Klingbeils Kürzungen",
+        "Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/fruehrente-und-gehirn-warum-zu-frueher-ruhestand-schadet-accg-200787506.html",
-        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
+        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-heftige-kritik-an-klingbeils-griff-in-die-rentenkasse/100222208.html",
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/chefoekonom-welches-rentenniveau-kann-sich-deutschland-auf-dauer-leisten/100220363.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "disgust",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "disgust",
           "count": 1
         }
       ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 1,
+      "sample_titles": [
+        "Neues Altersvorsorgedepot - Trick im Gesetz! So hilft der Staat beim Hauskauf"
+      ],
+      "urls": [
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-hilft-das-neue-renten-depot-beim-hauskauf-69f9b24296fe1372395e9e30"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Aktien fürs Alter: Altersvorsorge am Kapitalmarkt – Was die Politik plant"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/2026-04/altersvorsorge-rente-aktienhandel-merz-trump-was-jetzt-videopodcast"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
@@ -90,25 +141,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/chefoekonom-welches-rentenniveau-kann-sich-deutschland-auf-dauer-leisten/100220363.html"
-      ],
-      "dominant_emotion": "disgust",
-      "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
@@ -153,15 +185,16 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 2,
+    "populist-mixed": 1,
+    "conservative-liberal": 3,
+    "economic-liberal": 2,
+    "left-liberal": 5,
     "far-right": 1,
     "right-conservative": 1,
-    "left-liberal": 4,
     "neutral": 2,
-    "economic-liberal": 1,
     "left": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass das deutsche Rentensystem vor großen Herausforderungen steht, wie etwa der Altersarmut und den Rentenlücken, und dass eine Reform oder Anpassung des Systems notwendig ist, wie in den Artikeln über die Frührente, das Renteneintrittsalter und die Finanzierbarkeit der gesetzlichen Rentenversicherung diskutiert wird. Dies zeigt sich auch in der Betonung der Bedeutung der Altersvorsorge und der Notwendigkeit, das Rentenniveau auf Dauer leisten zu können, wie es in den Artikeln von Bert Rürup und anderen Experten thematisiert wird.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch deutlich in der Frage, wie das Rentensystem reformiert werden sollte, insbesondere bei der Debatte um das Renteneintrittsalter, wie in den Artikeln über Rente ab 63, Frühverrentung und Höheres Rentenalter zu sehen ist, sowie in der Bewertung der Auswirkungen von Migration und demographischem Wandel auf das Rentensystem, wie in den Artikeln von Sozialstaat am Limit und Boomer gehen in Rente diskutiert wird.",
-  "cached_at": "2026-05-04T06:54:08.487910"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass das deutsche Rentensystem eine Herausforderung darstellt, die eine umfassende Diskussion über Reformen, Altersvorsorge und Generationengerechtigkeit erfordert, wie in Artikeln wie 'Boomer gehen in Rente: Das bedeutet es für die Jüngeren' und 'Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?' deutlich wird. Die Notwendigkeit einer nachhaltigen Finanzierung des Rentensystems wird ebenfalls von vielen Gruppen betont, wie in 'Altersvorsorge: Höhere Rentenbeiträge erwartet' und 'Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?'",
+  "controversial_points": "Die Berichterstattung divergiert am meisten bei der Frage, wie das Rentensystem reformiert werden sollte, insbesondere bei der Debatte um das Renteneintrittsalter, wie in 'Rente ab 63: Diese Tabellen zeigen, wer wann in Rente kann – und mit welchen Einbußen' und 'Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher' zu sehen ist, sowie bei der Rolle von Migration und demographischem Wandel, wie in 'Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall' thematisiert wird.",
+  "cached_at": "2026-05-06T06:54:36.205233"
 }

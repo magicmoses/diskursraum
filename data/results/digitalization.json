@@ -1,236 +1,39 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 224,
-  "candidate_count": 395,
+  "article_count": 118,
+  "candidate_count": 660,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 42,
+      "article_count": 25,
       "sample_titles": [
-        "Vom Boom profitieren: Die 20 KI-Aktien, die sogar Nvidia in den Schatten stellen",
-        "Neues Modell von Open AI: Zehn Tricks für ChatGPT-5.5",
-        "Einstieg in die KI: Das sind die 24 besten KI-Kurse für Einsteiger und Führungskräfte",
-        "Experiment in Notaufnahme: Hat ChatGPT wirklich bessere Diagnosen gestellt als Ärzte?"
+        "Exorbitantes Wachstum: Vom USB-Stick zum KI-Speicher: So verdient Sandisk am KI-Boom",
+        "Scherbaums Börse: Wie der KI-Rausch die Alphabet-Aktie beflügelt",
+        "„Mythos“ von Anthropic: Künstliche Intelligenz muss reguliert werden",
+        "Künstliche Intelligenz: Trumps Kehrtwende in der KI-Politik"
       ],
       "urls": [
-        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/ki-boom-20-aktien-die-sogar-nvidia-in-den-schatten-stellen-accg-200773605.html",
-        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/chatgpt-5-5-die-besten-tricks-fuer-das-neue-modell-accg-200777648.html",
-        "https://www.faz.net/premium/digitalwirtschaft/zukunft-der-arbeit/die-besten-ki-kurse-fuer-nicht-techies-einsteiger-und-profis-accg-200775829.html",
-        "https://www.faz.net/aktuell/wissen/medizin-ernaehrung/harvard-studie-nein-ki-stellt-keine-besseren-diagnosen-als-aerzte-200792018.html"
+        "https://www.faz.net/aktuell/finanzen/sandisk-aktie-3550-prozent-dank-ki-boom-und-speicher-nachfrage-accg-200798934.html",
+        "https://www.faz.net/premium/meine-finanzen/aktien/alphabet-wie-der-ki-boom-den-aktienkurs-befluegelt-accg-200795921.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/usa-kuenstliche-intelligenz-muss-reguliert-werden-200800512.html",
+        "https://www.faz.net/premium/digitalwirtschaft/trump-will-ki-moeglicherweise-staerker-regulieren-200800151.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "amusement",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 2
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 31,
-      "sample_titles": [
-        "Wie KI den Zugang zum Recht demokratisiert",
-        "Was wird aus meinem Job? Blick in die Zukunft mit KI",
-        "KI oder Lehrer - wer erklärt's besser?",
-        "Kiel - Braunschw.; Bielefeld - Bochum; Dresden - FCK"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/wirtschaft/ki-kuenstliche-intelligenz-erklaert-recht-wie-rechtsanwalt-100.html",
-        "https://www.zdfheute.de/wirtschaft/ki-wiso-chatgpt-forecast-me-jobs-100.html",
-        "https://www.zdf.de/video/reportagen/purplus-100/ki-oder-lehrer-wer-erklaert-es-besser-in-der-schule-100",
-        "https://www.zdfheute.de/sport/2-bundesliga-fussball-tabelle-spiele-statistiken-ergebnisse-liveticker-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 9
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 26,
-      "sample_titles": [
-        "Im Saarland sind doppelt so viele Menschen gestorben wie Kinder geboren wurden",
-        "Judo in Malchin - etwa 300 Kinder und Jugendliche beim Panda-Cup",
-        "Kirche in Montenach bei Feuer abgebrannt",
-        "\"Laut Pistorius war Abzug erwartbar\", Kilian Pfeffer, ARD Berlin, zu Reaktionen auf US-Truppenabzug"
-      ],
-      "urls": [
-        "https://www.sr.de/sr/home/nachrichten/panorama/hohes_geburtendefizit_im_saarland_100.html",
-        "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/haff-mueritz/judo-in-malchin-etwa-300-kinder-und-jugendliche-beim-panda-cup,mvregioneubrandenburg-3690.html",
-        "https://www.sr.de/sr/home/nachrichten/vis_a_vis/kirche_montenach_lothringen_abgebrannt_100.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
+          "emotion": "amusement",
           "count": 2
         },
         {
           "emotion": "curiosity",
           "count": 2
         },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 21,
-      "sample_titles": [
-        "Donald Plansch! - Neuer KI-Streich von Donald Trump",
-        "Gier-Prozess der KI-Giganten - Musk wirft ChatGPT-Chef Altman Milliarden-Betrug vor",
-        "Zwischen Werkstatt-Idyll und Wuff-Wahnsinn - Komm, Pumuckl, kill die Paw Patrol!",
-        "Dortmund als Spiel der Wahrheit - Zeigt Polanski jetzt endlich Polanski-Fußball?"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/naechste-ki-provokation-trump-postet-bade-bild-am-lincoln-memorial-69f74227805e0a5551a7842e",
-        "https://www.bild.de/politik/elon-musk-gegen-sam-altman-jetzt-treffen-sich-die-tech-giganten-vor-gericht-69eb59398cfdf39fd4bbc2ef",
-        "https://www.bild.de/leben-wissen/werkstatt-idyll-oder-wuff-wahnsinn-pumuckl-kill-die-paw-patrol-69b7dad09c373f2aabf30017",
-        "https://www.bild.de/sport/fussball/dortmund-spiel-der-wahrheit-zeigt-polanski-endlich-polanski-fussball-69f4b787a948f97a9e9418eb"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "gratitude",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 18,
-      "sample_titles": [
-        "Überteuerte Schulranzen: 300 Euro für einen Plastikkanister mit Tragegurten? Tsssss",
-        "Überwachung und digitale Sicherheit: Europäische Gesichts­erkennung für brasilianische Schulkinder",
-        "KI und die Oscars: Kein Preis für computergenerierte Schauspieler",
-        "Revolutionärer 1. Mai in Kreuzberg: Die Party ist nicht der Gegner"
-      ],
-      "urls": [
-        "https://taz.de/Ueberteuerte-Schulranzen/!6170777/",
-        "https://taz.de/Ueberwachung-und-digitale-Sicherheit/!6168054/",
-        "https://taz.de/KI-und-die-Oscars/!6175811/",
-        "https://taz.de/Revolutionaerer-1-Mai-in-Kreuzberg/!6175803/"
-      ],
-      "dominant_emotion": "surprise",
-      "top_emotions": [
-        {
-          "emotion": "surprise",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 17,
-      "sample_titles": [
-        "Künstliche Intelligenz: Chance oder Problem? KI an Hessens Schulen",
-        "Verderben aus der Tiefe: Wie der Ausbruch der Laki-Krater zum Weltdrama wurde",
-        "TV-Moderator: Markus Lanz über Unsicherheit, Wein mit Ricarda Lang und seine Kindheit in Armut",
-        "Feuer, Wasser, Erde, Luft – Retter in ihrem Element: Dramatische Einsätze zwischen Skipiste, See und Krankenhaus"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/hessen/kuenstliche-intelligenz--chance-oder-problem--ki-an-hessens-schulen-37364878.html",
-        "https://www.stern.de/geo/wie-der-ausbruch-der-laki-krater-zum-weltdrama-wurde-37296658.html",
-        "https://www.stern.de/kultur/tv/markus-lanz-ueber-seine-gaeste---es-geht-darum--gelaber-zu-entlarven--37303936.html",
-        "https://www.stern.de/kultur/tv/dramatische-einsaetze-zwischen-skipiste--see-und-krankenhaus-37361290.html"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 17,
-      "sample_titles": [
-        "FC Schalke 04 zurück in der Bundesliga: So feierte Gelsenkirchen den Aufstieg",
-        "Anne Boleyn: Forscher wollen verschollenes Porträt per KI identifiziert haben",
-        "Donald Trump nicht zufrieden mit neuem Vorschlag zu Kriegsende aus Iran",
-        "Oscar-Verleihung: Keine Preise für KI-Schauspieler"
-      ],
-      "urls": [
-        "https://www.spiegel.de/sport/fussball/fc-schalke-04-zurueck-in-der-bundesliga-so-feierte-gelsenkirchen-den-aufstieg-a-b3c1c9f4-0721-469f-b6d5-1eac0a1199bb#ref=rss",
-        "https://www.spiegel.de/geschichte/anne-boleyn-forscher-wollen-verschollenes-portraet-per-ki-identifiziert-haben-a-317d6f23-6f5d-4955-b93d-74d7a6874752#ref=rss",
-        "https://www.spiegel.de/ausland/donald-trump-nicht-zufrieden-mit-neuem-vorschlag-zu-kriegsende-aus-iran-a-8f87b3e1-7aa6-4d49-8106-f1f879a0928f#ref=rss",
-        "https://www.spiegel.de/kultur/kino/oscar-verleihung-keine-preise-fuer-ki-schauspieler-a-a872972f-2b3b-4e25-8f6b-3d65c08ba66d#ref=rss"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
         {
           "emotion": "desire",
           "count": 2
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
         }
       ]
     },
@@ -238,164 +41,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 12,
+      "article_count": 21,
       "sample_titles": [
-        "Patek Philippe: „Wir werden KI nicht nutzen. Wir haben unsere Gehirne.“",
-        "Kommentar: Schalke 04 zeigt, wie die KI-Transformation wirklich gelingt",
-        "Insight Innovation: Die Rückkehr der klassischen Prozessoren – Intels unerwartetes Comeback",
-        "Datenschutz: „Wir sind frustriert“ – Apple reagiert auf EU-Regulierung"
+        "Justiz: KI-Avatare als Ärzte ausgegeben? – Klage in den USA",
+        "Bilanzcheck: Allianz investiert Milliarden in Digitalisierung und IT",
+        "Künstliche Intelligenz: OpenAI – Kosten von 50 Milliarden Dollar für Rechenleistung",
+        "Nach Klage: Verzögerte KI-Siri – Apple will 250 Millionen Dollar zahlen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/patek-philippe-die-deutschen-lieben-qualitaet/100221700.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-schalke-04-zeigt-wie-die-ki-transformation-wirklich-gelingt/100221299.html",
-        "https://www.handelsblatt.com/technik/it-internet/insight-innovation-die-rueckkehr-der-klassischen-prozessoren-intels-unerwartetes-comeback/100220401.html",
-        "https://www.handelsblatt.com/technik/it-internet/datenschutz-wir-sind-frustriert-apple-reagiert-auf-eu-regulierung/100221088.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
-          "count": 1
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 10,
-      "sample_titles": [
-        "Beliebtheitswerte geben Kubicki Rückwind im Rennen um den Parteivorsitz",
-        "„Deutsche Ingenieure haben sehr gute Erfahrungswerte bei Programmierung der Roboter“",
-        "Der legale „Enkeltrick“ – wie Sie für Ihre Nachkommen steuergünstig ein Vermögen ansparen",
-        "Iran will USA neuen Vorschlag unterbreitet haben –Trump zeigt sich unzufrieden"
-      ],
-      "urls": [
-        "https://www.welt.de/videos/video69f6fe7e23e6b3dbf3c97475/fdp-vorsitz-beliebtheitswerte-geben-kubicki-rueckwind-im-rennen-um-den-parteivorsitz.html",
-        "https://www.welt.de/wirtschaft/video69f5d4cb0fb4cef56584ffb6/ki-im-bauwesen-deutsche-ingenieure-haben-sehr-gute-erfahrungswerte-bei-programmierung-der-roboter.html",
-        "https://www.welt.de/finanzen/plus69ecbf7be5056f185e234e26/wie-sie-ihren-enkelkindern-steuerguenstig-ein-vermoegen-vermachen.html",
-        "https://www.welt.de/politik/ausland/article69f4ce520ba9911cc6f78a2e/stockende-diplomatie-iran-will-usa-neuen-vorschlag-unterbreitet-haben-trump-zeigt-sich-unzufrieden.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Memmingen: Schweinekopf vor Moschee – Generalstaatsanwalt ermittelt",
-        "Krieg in Nahost: Iran signalisiert Gesprächsbereitschaft",
-        "Krieg in der Ukraine: Selenskij kündigt Reform der Armee an",
-        "Familien-Newsletter: Wer rastet öfter aus: Sie oder Ihr Kind?"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/bayern/memmingen-moschee-tierblut-polizei-schweinekopf-halbmond-li.3476882",
-        "https://www.sueddeutsche.de/politik/iran-liveblog-news-iran-gespraechsbereitschaft-li.3457961",
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-reform-armee-soldzahlungen-li.3473071",
-        "https://www.sueddeutsche.de/leben/spiele-familie-lernen-li.3472325"
-      ],
-      "dominant_emotion": "disgust",
-      "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "KI-Kopfhörer: Ich kann jetzt in 43 Sprachen hören!",
-        "Bundespräsidentenwahl: Jutta Allmendinger erklärt Bereitschaft zu Steinmeier-Nachfolge",
-        "»An Open Field«: Die Boeing-Dämonen",
-        "Irankrieg: Trump lehnt neuen iranischen Vorschlag für Verhandlungen ab"
-      ],
-      "urls": [
-        "https://www.zeit.de/zeit-magazin/2026/19/ki-kopfhoerer-uebersetzung-sprachen",
-        "https://www.zeit.de/politik/deutschland/2026-05/jutta-allmendinger-bundespraesidentin-kandidatur-steinmeier-nachfolge",
-        "https://www.zeit.de/feuilleton/film/2026-04/an-open-field-film-teboho-edkins-boeing-absturz",
-        "https://www.zeit.de/politik/ausland/2026-05/irankrieg-usa-donald-trump-vorschlag-verhandlungen"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 6,
-      "sample_titles": [
-        "Frankfurter Allgemeine Zeitung Neue Herausgeberin Bubrowski: Mehr „taz“ als „FAZ“",
-        "Landgericht Göttingen Lianas Mörder freigesprochen – Mutter zeigt sich „schockiert“",
-        "„Kein Verständnis“ Prien attackiert Queerbeauftragte nach Hetze gegen Alice Schwarzer",
-        "Irankrieg Die Welt wartet ungeduldig auf Trumps Deal"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/kultur/medien/2026/neue-faz-herausgeberin-helene-bubrowski-mehr-taz-als-faz/",
-        "https://jungefreiheit.de/politik/deutschland/2026/lianas-moerder-freigesprochen-iraker-muss-nicht-ins-gefaengnis/",
-        "https://jungefreiheit.de/politik/deutschland/2026/prien-attackiert-queerbeauftragte-nach-hetze-alice-schwarzer/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/die-welt-wartet-ungeduldig-auf-trumps-deal/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Der Kampf um die KI-Vorherrschaft wird ruppiger. Musk kämpft gegen Altman vor Gericht. Welche Firma hat die Nase vorn?",
-        "«KI könnte unter dem Strich negativ für die Wirtschaft sein», sagt der Anlagechef des grössten ETF-Anbieters Europas",
-        "Macht uns die KI bald überflüssig?"
-      ],
-      "urls": [
-        "https://www.nzz.ch/wirtschaft/der-kampf-um-die-ki-vorherrschaft-wird-ruppiger-musk-kaempft-gegen-altman-vor-gericht-welche-firma-hat-die-nase-vorn-ld.10005030",
-        "https://www.nzz.ch/wirtschaft/ki-koennte-unter-dem-strich-negativ-fuer-die-wirtschaft-sein-sagt-der-anlagechef-des-groessten-etf-anbieters-europas-ld.10005083",
-        "https://www.nzz.ch/gesellschaft/macht-uns-die-ki-bald-ueberfluessig-ld.10004916"
+        "https://www.handelsblatt.com/technik/medizin/justiz-ki-avatare-als-aerzte-ausgegeben-klage-in-den-usa/100222657.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/bilanzcheck-allianz-investiert-milliarden-in-digitalisierung-und-it/100220244.html",
+        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-openai-kosten-von-50-milliarden-dollar-fuer-rechenleistung/100222708.html",
+        "https://www.handelsblatt.com/technik/ki/nach-klage-verzoegerte-ki-siri-apple-will-250-millionen-dollar-zahlen/100222691.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -406,6 +63,269 @@
         {
           "emotion": "optimism",
           "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 13,
+      "sample_titles": [
+        "Wie KI den Zugang zum Recht demokratisiert",
+        "Was wird aus meinem Job? Blick in die Zukunft mit KI",
+        "KI oder Lehrer - wer erklärt's besser?",
+        "Übernimmt KI deinen Job?"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/wirtschaft/ki-kuenstliche-intelligenz-erklaert-recht-wie-rechtsanwalt-100.html",
+        "https://www.zdfheute.de/wirtschaft/ki-wiso-chatgpt-forecast-me-jobs-100.html",
+        "https://www.zdf.de/video/reportagen/purplus-100/ki-oder-lehrer-wer-erklaert-es-besser-in-der-schule-100",
+        "https://www.zdfheute.de/video/zdfheute-live/ki-arbeit-gefahren-video-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 8
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 12,
+      "sample_titles": [
+        "Trotz Zweifel wegen KI: SAP-Vorstand Klein wirbt für Strategie",
+        "Meta plant europaweite Alterskontrolle mit KI",
+        "\"Erst kaufen, dann killen\" - Reaktionen von OB Palmer und anderen auf CureVac-Schließung in Tübingen",
+        "KI-Chatbot „telli“ wird an Saar-Schulen kaum genutzt"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/sap-hauptversammlung-aktienkurs-ki-100.html",
+        "https://www.tagesschau.de/ausland/europa/meta-alterskontrolle-eu-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/biontech-schliesst-curevac-standorte-tuebingen-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/ki-chatbot_telli_schulen_saarland_kaum_genutzt_100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 8,
+      "sample_titles": [
+        "Angst vor einer landesweiten Cyber-Attacke: US-Regierung testet neue KI-Modelle künftig erst",
+        "Sarkastisch, traurig oder einfach nur müde? So lernt KI, die feinen Zwischentöne bei uns Menschen herauszuhören",
+        "Microsoft dominiert den Weltmarkt für die CO2-Entfernung – das ist Glücksfall und Gefahr zugleich",
+        "In Toyotas Smart City residiert der Ex-Chef als KI"
+      ],
+      "urls": [
+        "https://www.nzz.ch/technologie/angst-vor-einer-landesweiten-cyber-attacke-us-regierung-testet-neue-ki-modelle-kuenftig-erst-ld.10005896",
+        "https://www.nzz.ch/technologie/stimmtraining-fuer-ki-so-lernt-die-technik-emotionen-zu-deuten-ld.10003692",
+        "https://www.nzz.ch/wissenschaft/microsoft-dominiert-den-weltmarkt-fuer-die-co2-entfernung-das-ist-gluecksfall-und-gefahr-zugleich-ld.10004201",
+        "https://www.nzz.ch/mobilitaet/in-toyotas-smart-city-residiert-der-ex-chef-als-ki-ld.10005231"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 8,
+      "sample_titles": [
+        "Alternativen zu Big Tech: Freie und Open-Source-Initiativen statt Monopole",
+        "Schutz von Journalisten durch KI: Reale Infos von virtuellen Sprechern",
+        "Überwachung und digitale Sicherheit: Wie Peking alles unter Kontrolle hat",
+        "Überwachung und digitale Sicherheit: Europäische Gesichts­erkennung für brasilianische Schulkinder"
+      ],
+      "urls": [
+        "https://taz.de/Alternativen-zu-Tech-Monopolen-Die-umfassenden-Vorteile-von-Open-Source/!6168073/",
+        "https://taz.de/Schutz-von-Journalisten-durch-KI/!6168057/",
+        "https://taz.de/Ueberwachung-und-digitale-Sicherheit/!6168055/",
+        "https://taz.de/Ueberwachung-und-digitale-Sicherheit/!6168054/"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 6,
+      "sample_titles": [
+        "Unicef-Studie: Jugendliche wollen bei Social Media eher Schutz als Verbote",
+        "Nach Klage: Verzögerte KI-Siri: Apple will 250 Millionen Dollar zahlen",
+        "Mordprozess: Gina H. ließ Trauerrede für Fabian offenbar von ChatGPT schreiben",
+        "Kundendaten betroffen: Datenschutzbeauftragte rügt BVG nach Cyberangriff"
+      ],
+      "urls": [
+        "https://www.stern.de/digital/unicef-studie--jugendliche-wollen-bei-social-media-eher-schutz-als-verbote-37372126.html",
+        "https://www.stern.de/digital/nach-klage--verzoegerte-ki-siri--apple-will-250-millionen-dollar-zahlen-37372162.html",
+        "https://www.stern.de/panorama/verbrechen/mordfall-fabian--gina-h--liess-trauerrede-offenbar-von-chatgpt-schreiben-37340810.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/kundendaten-betroffen--datenschutzbeauftragte-ruegt-bvg-nach-cyberangriff-37366828.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 5,
+      "sample_titles": [
+        "Weg über Formulare: Meta-KI-Training mit Ihren Daten: So widersprechen Sie",
+        "Retransplantation von Spermien: Tiefgefrorenes Hodengewebe macht Mann wieder fruchtbar",
+        "Unter 13-Jährige werden gesperrt: Facebook durchleuchtet Fotos nach minderjährigen Nutzern mit KI",
+        "Lebensmittel und Energie teurer: Wirtschaftsweise Schnitzer: Die schlimmsten Folgen des Iran-Krieges kommen noch"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Meta-KI-Training-mit-Ihren-Daten-So-widersprechen-Sie-id30786506.html",
+        "https://www.n-tv.de/wissen/Tiefgefrorenes-Hodengewebe-macht-Mann-wieder-fruchtbar-id30786888.html",
+        "https://www.n-tv.de/wirtschaft/Facebook-durchleuchtet-Fotos-nach-minderjaehrigen-Nutzern-mit-KI-id30788690.html",
+        "https://www.n-tv.de/wirtschaft/Wirtschaftsweise-Schnitzer-Die-schlimmsten-Folgen-des-Iran-Krieges-kommen-noch-id30777658.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 4,
+      "sample_titles": [
+        "Apple will verärgerte Kunden für langsame Siri-KI entschädigen",
+        "„Die Brandmauer führt dazu, dass die Union erpressbar ist“ – Serrao bei „MEINUNGSFREIHEIT“",
+        "„Deutsche Ingenieure haben sehr gute Erfahrungswerte bei Programmierung der Roboter“",
+        "Nach Streit mit Anthropic – Pentagon schließt Abkommen mit SpaceX, Google und anderen Konkurrenten"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/article69fa9352c764528c1ad21501/apple-will-veraergerte-kunden-fuer-lahme-siri-ki-entschaedigen.html",
+        "https://www.welt.de/mediathek/talk/meinungsfreiheit/video69f8b8c46fe2dee7bfb12a11/ganze-sendung-die-brandmauer-fuehrt-dazu-dass-die-union-erpressbar-ist-serrao-bei-meinungsfreiheit.html",
+        "https://www.welt.de/wirtschaft/video69f5d4cb0fb4cef56584ffb6/ki-im-bauwesen-deutsche-ingenieure-haben-sehr-gute-erfahrungswerte-bei-programmierung-der-roboter.html",
+        "https://www.welt.de/politik/ausland/article69f4e3d49315d6ea649576a9/aerger-um-ki-nach-streit-mit-anthropic-pentagon-schliesst-abkommen-mit-spacex-google-und-anderen-konkurrenten.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Elon Musk wollte mit OpenAI offenbar Mars-Besiedlung finanzieren - Aussage von Greg Brockman",
+        "KI bei Siri mit Verzögerung: Apple will US-Kunden entschädigen",
+        "Anne Boleyn: Forscher wollen verschollenes Porträt per KI identifiziert haben",
+        "KI: Spotify will von Menschen produzierte Musik kennzeichnen"
+      ],
+      "urls": [
+        "https://www.spiegel.de/netzwelt/elon-musk-wollte-mit-openai-offenbar-mars-besiedlung-finanzieren-aussage-von-greg-brockman-a-142af569-0e7f-4992-8ee8-08b46ffce4ec#ref=rss",
+        "https://www.spiegel.de/netzwelt/ki-bei-siri-mit-verzoegerung-apple-will-us-kunden-entschaedigen-a-66d5b29e-fcfc-4a7b-80dd-5728c8ca8e38#ref=rss",
+        "https://www.spiegel.de/geschichte/anne-boleyn-forscher-wollen-verschollenes-portraet-per-ki-identifiziert-haben-a-317d6f23-6f5d-4955-b93d-74d7a6874752#ref=rss",
+        "https://www.spiegel.de/netzwelt/ki-spotify-will-von-menschen-produzierte-musik-kennzeichnen-a-cb7e029d-7e9d-4a56-b40c-a6f0e7cab253#ref=rss"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 3,
+      "sample_titles": [
+        "Fake-Bilder, echte Tränen! - So brutal ist KI-Mobbing an Schulen",
+        "Sonderlob vom Trainer - Polanski schwärmt von Weltklasse-Elvedi",
+        "Gier-Prozess der KI-Giganten - Musk wirft ChatGPT-Chef Altman Milliarden-Betrug vor"
+      ],
+      "urls": [
+        "https://www.bild.de/leben-wissen/kind-familie/schueler-ueber-digitale-gewalt-man-verliert-total-die-kontrolle-69eb2b3f64985fbd2f022a55",
+        "https://www.bild.de/sport/fussball/borussia-moenchengladbach-eugen-polanski-schwaermt-von-nico-elvedi-69f8276d6fe2dee7bfb11d45",
+        "https://www.bild.de/politik/elon-musk-gegen-sam-altman-jetzt-treffen-sich-die-tech-giganten-vor-gericht-69eb59398cfdf39fd4bbc2ef"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
         }
       ]
     },
@@ -415,23 +335,87 @@
       "bias": "conservative-liberal",
       "article_count": 3,
       "sample_titles": [
-        "Investigativjournalist Ulrich Thiele im Gespräch mit Clemens Traub - Cicero Podcast Politik: „Die Nord-Stream-Saboteure sind Kinder der CIA“",
-        "Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?",
-        "„Das Interview“ mit Rüdiger Safranski - „Liebe zum eigenen Land spüre ich bei unseren Politikern selten“"
+        "Künstliche Intelligenz - Warum KI die Substanz der Existenzgründung gefährdet",
+        "Drohnen, Schadsubstanzen und KI - Gefährlicher Fortschritt in der flüssigen Gesellschaft",
+        "Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?"
       ],
       "urls": [
-        "https://www.cicero.de/innenpolitik/ulrich-thiele-im-gesprach-mit-clemens-traub-nord-stream-saboteure-cia",
-        "https://www.cicero.de/wirtschaft/arbeitsmarkt-der-zukunft-werden-wir-durch-ki-alle-uberflussig",
-        "https://www.cicero.de/innenpolitik/deutscher-konservatismus-die-konservativen-bleiben-intellektuell-eingeschuchtert"
+        "https://www.cicero.de/kultur/kunstliche-intelligenz-warum-ki-die-substanz-der-existenzgrundung-gefahrdet",
+        "https://www.cicero.de/kultur/drohnen-schadsubstanzen-ki-fluessige-gesellschaft",
+        "https://www.cicero.de/wirtschaft/arbeitsmarkt-der-zukunft-werden-wir-durch-ki-alle-uberflussig"
       ],
-      "dominant_emotion": "amusement",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "amusement",
-          "count": 1
-        },
-        {
           "emotion": "fear",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Künstliche Intelligenz: Treffen sich Elon Musk und Sam Altman vor Gericht",
+        "Krieg in der Ukraine: Selenskij kündigt Reform der Armee an"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/musk-altman-prozess-kuenstliche-intelligenz-openai-li.3476702",
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-reform-armee-soldzahlungen-li.3473071"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Grüne, Linke und SPD verlassen X Faschismus ist, wenn die anderen auch mal was sagen dürfen"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/debatte/kommentar/2026/faschismus-ist-wenn-die-anderen-auch-mal-was-sagen-duerfen/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Anschluss verpasst? Apple setzt bei KI auf Technologie von Google"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/wirtschaft/digital/anschluss-verpasst-apple-setzt-bei-ki-auf-technologie-von-google/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "KI-Kopfhörer: Ich kann jetzt in 43 Sprachen hören!"
+      ],
+      "urls": [
+        "https://www.zeit.de/zeit-magazin/2026/19/ki-kopfhoerer-uebersetzung-sprachen"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -457,16 +441,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 51,
-    "populist-mixed": 21,
-    "conservative-liberal": 48,
-    "neutral": 58,
-    "economic-liberal": 12,
-    "right-conservative": 10,
-    "left": 18,
-    "far-right": 6
+    "populist-mixed": 3,
+    "right-conservative": 9,
+    "economic-liberal": 21,
+    "conservative-liberal": 36,
+    "left-liberal": 13,
+    "far-right": 2,
+    "neutral": 26,
+    "left": 8
   },
-  "shared_perspectives": "Alle Gruppen teilen die Perspektive, dass Künstliche Intelligenz (KI) und Digitalisierung wichtige Themen sind, die die Gesellschaft und Wirtschaft beeinflussen, wie in Artikeln wie 'Künstliche Intelligenz: Chance oder Problem? KI an Hessens Schulen' und 'Was wird aus meinem Job? Blick in die Zukunft mit KI' zu sehen ist. Sie erkennen auch die Bedeutung von KI für die Zukunft der Arbeit und Bildung an.",
-  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Auswirkungen von KI und Digitalisierung, wobei linke und rechtspopulistische Medien oft kritischer gegenüber den Risiken und Auswirkungen auf den Arbeitsmarkt sind, wie in Artikeln wie 'Überteuerte Schulranzen: 300 Euro für einen Plastikkanister mit Tragegurten? Tsssss' und 'Gier-Prozess der KI-Giganten - Musk wirft ChatGPT-Chef Altman Milliarden-Betrug vor' zu sehen ist, während konservative und wirtschaftsliberale Medien eher die Chancen und Vorteile von KI betonen, wie in Artikeln wie 'Vom Boom profitieren: Die 20 KI-Aktien, die sogar Nvidia in den Schatten stellen'.",
-  "cached_at": "2026-05-04T06:54:34.657614"
+  "shared_perspectives": "Alle Gruppen teilen die Perspektive, dass Künstliche Intelligenz (KI) und Digitalisierung einen bedeutenden Einfluss auf verschiedene Aspekte des Lebens haben, wie z.B. die Wirtschaft, die Bildung und die Gesellschaft, was in Artikeln wie 'Bilanzcheck: Allianz investiert Milliarden in Digitalisierung und IT' und 'Meta plant europaweite Alterskontrolle mit KI' deutlich wird. Darüber hinaus zeigen die Artikel, dass KI-Entwicklungen und ihre Anwendungen wie z.B. in 'Gier-Prozess der KI-Giganten - Musk wirft ChatGPT-Chef Altman Milliarden-Betrug vor' und 'Justiz: KI-Avatare als Ärzte ausgegeben? – Klage in den USA' eine breite Palette von Themen abdecken.",
+  "controversial_points": "Die Berichterstattung divergiert am meisten in Bezug auf die Bewertung von KI und Digitalisierung, wobei populistische und recht-konservative Gruppen eher auf die Risiken und negativen Auswirkungen hinweisen, wie z.B. in 'Fake-Bilder, echte Tränen! - So brutal ist KI-Mobbing an Schulen', während links-liberale und wirtschaftsliberale Gruppen die Chancen und Vorteile betonen, wie z.B. in 'Unicef-Studie: Jugendliche wollen bei Social Media eher Schutz als Verbote' und 'Exorbitantes Wachstum: Vom USB-Stick zum KI-Speicher: So verdient Sandisk am KI-Boom'.",
+  "cached_at": "2026-05-06T06:56:22.239126"
 }
