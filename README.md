@@ -44,8 +44,8 @@ Semantic analysis of all Bundestagswahlprogramme from 2005 to 2025:
 - **Force-Directed Graph** — party similarity network per year and topic
 - **Pairwise Heatmap** — 6×6 similarity matrix, switchable by topic
 - **PCA Trajectories** — party movement in shared 2D semantic space across elections
-- **Historical Timeline** — annotated with key events: Finanzkrise, Flüchtlingskrise, Corona, AfD-Einzug, Ampel-Bruch
-- **Election Results** — Zweitstimmen 1949–2025 with correlation analysis
+- **Historical Timeline** — annotated with key events: "Finanzkrise", "Flüchtlingskrise", "Corona", "AfD-Bundestagseinzug", "Ampel-Bruch"
+- **Election Results** — correlation analysis with bridging & party movement analysis
 - **ManifestoBERTa Classification** — 56 policy categories per party per year
 
 | Metric | Coverage |
@@ -83,7 +83,7 @@ Dimension II — Parteienspiegel
     ├── Bridging Scores        (Cosine Similarity + NetworkX graph)
     ├── LLM Analysis           (party summaries + cross-party synthesis)
     ├── ManifestoBERTa         (56 policy category classification)
-    └── Historical Analysis    (PCA, bridging timeseries, election correlation)
+    └── Historical Analysis    (PCA, bridging timeseries, election result correlation)
 
 Backend (FastAPI / Railway)
   └── Serves pre-computed JSON — stateless, no DB in production
@@ -117,14 +117,14 @@ Frontend (React + Vite / Vercel)
 ## Data Sources
 
 ### News (Dimension I)
-19 German news outlets with bias labels:
+Arcticles crawled from RSS-Feeds of 19 German news outlets over _____ & annoteted with bias labels:
 
 | Bias | Outlets |
 |------|---------|
 | Left | taz |
 | Left-Liberal | Spiegel, Zeit, SZ, Stern |
 | Neutral | Tagesschau, ZDF, DW |
-| Conservative-Liberal | FAZ, Cicero, NZZ |
+| Conservative-Liberal | FAZ, Cicero, NZZ-Deutschland |
 | Right-Conservative | WELT, Focus, n-tv |
 | Far-Right | Junge Freiheit, Tichys Einblick, Achse des Guten |
 | Economic-Liberal | Handelsblatt |
@@ -132,30 +132,19 @@ Frontend (React + Vite / Vercel)
 
 ### Party Manifestos (Dimension II)
 Bundestagswahlprogramme 2005–2025, locally stored as PDF.
-Election results: Bundestag (bundestag.de), Zweitstimmen 1949–2025.
+Election results: Bundestag (bundestag.de), Bundeswahlleiterin, wahlrecht.de
 
 ---
 
-## Design Philosophy
+## Colour Scheme
 
 Diskursraum's visual language draws from the tradition of postwar German art —
 not by citation, but by temperament.
 
 The metallic blue-grey (*Diskursgrau*) carries the epistemic humility of Gerhard Richter's
-early grey paintings: not nihilism, but the honest acknowledgment that truth is seen
-through frosted glass. It is the colour of a microphone — the instrument of discourse itself.
-
-The amber (*Bernstein*) owes something to Joseph Beuys: warm, organic, slightly dangerous.
-Not warning-sign orange but the last light before a long winter — urgency without alarm.
-Georg Baselitz's bronze surfaces live here too.
-
-The patina green (*Patina*) is aged copper, not party-political green.
-It belongs to Anselm Kiefer's landscapes — something that has survived time
-and carries the weight of it.
+early grey paintings. The amber (*Bernstein*) owes something to Joseph Beuys and Georg Baselitz: warm, organic, slightly dangerous. The patina green belongs to Anselm Kiefer's landscapes.
 
 The party colours are untouched. They are political reality, not design choices.
-
-*A colour system developed in Taipei, May 2026.*
 
 ---
 
@@ -182,26 +171,6 @@ cd api && uvicorn main:app --reload --port 8001
 cd frontend && npm install && npm run dev
 ```
 
-### Running the Manifesto Pipeline
-
-```bash
-cd crew/tools/manifestos
-
-# Full run for a year (PDFs must be in data/manifestos/{year}/)
-python run_pipeline.py 2025
-
-# Skip PDF processing (ChromaDB already populated)
-python run_pipeline.py 2025 --skip-pdf
-
-# ManifestoBERTa classification (all years)
-python classify_chunks.py --all
-
-# Historical analysis
-python analyze_historical.py
-```
-
----
-
 ## Deployment
 
 Diskursraum runs fully stateless in production:
@@ -213,7 +182,7 @@ Diskursraum runs fully stateless in production:
 
 ## Status
 
-🚧 Active development — May 2026
+🚧 Active development — spring 2026
 
 ---
 
