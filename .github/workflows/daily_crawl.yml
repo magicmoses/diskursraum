@@ -46,6 +46,13 @@ jobs:
           path: data/news.db
           key: news-db-${{ github.run_id }}-${{ github.run_attempt }}
 
+      - name: Upload DB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-db-latest
+          path: data/news.db
+          retention-days: 1
+
       - name: Commit crawl summary
         run: |
           git config --global user.name "consensus-agent-bot"
