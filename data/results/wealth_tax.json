@@ -1,7 +1,7 @@
 {
   "topic_id": "wealth_tax",
   "topic_label": "Vermögenssteuer & Umverteilung",
-  "article_count": 16,
+  "article_count": 13,
   "candidate_count": 25,
   "outlets": {
     "ntv": {
@@ -23,29 +23,6 @@
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Deutschland-Liveblog: Spahn will gemeinsamen Vorschlag für Einkommensteuerreform",
-        "Pendlerpauschale auf Streichliste: Wie das Sparen zur Steuererhöhung wird",
-        "Deutschland-Liveblog: Klingbeil kündigt Konzept für Steuerreform „in den kommenden Wochen“ an"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-spahn-will-gemeinsamen-vorschlag-fuer-einkommensteuerreform-faz-110093143.html",
-        "https://www.faz.net/aktuell/wirtschaft/pendlerpauschale-wie-das-sparen-zur-steuererhoehung-wird-200786094.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-klingbeil-kuendigt-konzept-fuer-steuerreform-in-den-kommenden-wochen-an-faz-110093143.html"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -101,33 +78,24 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 1,
-      "sample_titles": [
-        "Steuerschätzung: Die Steuersenkung wird nicht einfacher"
-      ],
-      "urls": [
-        "https://taz.de/Steuerschaetzung/!6177102/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
       "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "„Dissens mit der SPD“ Merz räumt ein: Auch Steuerreform könnte platzen"
+        "Teilzeit oder die Flucht aus der Steuerhölle"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/merz-raeumt-ein-auch-steuerreform-koennte-platzen/"
+        "https://www.tichyseinblick.de/wirtschaft/teilzeit-oder-die-flucht-aus-der-steuerhoelle/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
     },
     "spiegel": {
       "source_id": "spiegel",
@@ -170,18 +138,31 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Deutschland-Liveblog: Klingbeil kündigt Konzept für Steuerreform „in den kommenden Wochen“ an"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-klingbeil-kuendigt-konzept-fuer-steuerreform-in-den-kommenden-wochen-an-faz-110093143.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
     "right-conservative": 5,
     "left-liberal": 2,
-    "conservative-liberal": 3,
-    "left": 1,
-    "economic-liberal": 2,
     "far-right": 1,
-    "neutral": 2
+    "economic-liberal": 2,
+    "neutral": 2,
+    "conservative-liberal": 1
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Steuerpolitik in Deutschland reformiert werden muss, wie etwa die Diskussionen über die Einkommensteuerreform und die Frage der Besteuerung von Superreichen und Milliardären zeigen. Dies wird deutlich in Titeln wie 'Deutschland-Liveblog: Spahn will gemeinsamen Vorschlag für Einkommensteuerreform' und 'Steuern: Finanzministerium nimmt Steuersparvehikel der Superreichen ins Visier'",
-  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die Frage, ob eine Reichensteuer oder Steuererhöhungen notwendig sind, wie etwa in den Titeln '95 Prozent der Grünen-Wähler sprechen sich für Reichensteuer aus – AfD-Anhänger äußern Vorbehalte' und 'Merz schließt Steuererhöhungen aus, höhere Steuersätze aber nicht – so wäre es möglich' deutlich wird, wobei linke und rechtspolitische Gruppen unterschiedliche Meinungen vertreten.",
-  "cached_at": "2026-05-10T06:46:38.940704"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Verteilung von Vermögen und Einkommen in Deutschland eine wichtige Rolle spielt und dass eine Steuerreform notwendig ist, wie aus den Titeln wie 'Einkommen, Vermögen, Erbe: Wie sich der Wohlstand in Deutschland besser verteilen ließe' und 'Klingbeil treibt Steuerreform voran' hervorgeht. Die Notwendigkeit einer Umverteilung und Steuergerechtigkeit wird auch in Titeln wie 'Umverteilung: Mehr Geld für 'Unterhaltungsmusik'' und 'Steuern: Finanzministerium nimmt Steuersparvehikel der Superreichen ins Visier' thematisiert.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in Bezug auf die konkreten Vorschläge und Lösungen, wie aus den Titeln wie 'Merz schließt Steuererhöhungen aus, höhere Steuersätze aber nicht' und 'Neuer Koalitionsstreit: Die Zeit ist reif für eine Steuerwende' hervorgeht, wobei die einen eine Reichensteuer oder höhere Steuersätze fordern, während andere Steuererhöhungen ablehnen oder alternative Lösungen wie die Bekämpfung von Steuervermeidung und Steueroasen vorschlagen, wie in 'Teilzeit oder die Flucht aus der Steuerhölle' zu sehen ist.",
+  "cached_at": "2026-05-10T07:24:07.491940"
 }
