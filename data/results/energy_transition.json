@@ -1,34 +1,34 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 90,
-  "candidate_count": 98,
+  "article_count": 114,
+  "candidate_count": 144,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 20,
+      "article_count": 19,
       "sample_titles": [
-        "Gesetzentwurf: Diese Richtwerte sollen künftig für neue Gasheizungen gelten",
+        "Weg von Fossilen: Wenden sich Banken von der Nachhaltigkeit ab?",
         "Irankrieg und Hormus-Blockade: Für Asien ist grüner Strom nicht Klimaschutz, sondern Sicherheit",
-        "Energiewende: Schluss mit der Selbsttäuschung in der Energiepolitik",
-        "Energiekrise: Die fossile Krise braucht eine erneuerbare Antwort"
+        "Gebäudemodernisierungsgesetz: Statt Wärmepumpe: Jetzt kommt die Bioheizung",
+        "Gesetzentwurf: Diese Richtwerte sollen künftig für neue Gasheizungen gelten"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/heizungswende-soll-buerger-um-fuenf-milliarden-euro-entlasten-200801336.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/oelkrise-asiens-energiewende-200795977.html",
-        "https://www.faz.net/aktuell/wirtschaft/katherina-reiche-jetzt-ist-zeit-fuer-ernsthafte-energiepolitik-accg-200707552.html",
-        "https://www.faz.net/aktuell/wirtschaft/gastbeitrag-von-carsten-schneider-fossile-krise-braucht-eine-erneuerbare-antwort-accg-200780605.html"
+        "https://www.faz.net/aktuell/finanzen/deutsche-bank-mehr-zeit-fuer-kohleausstieg-bis-2027-accg-200808981.html",
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/warum-asien-nun-auf-gruenen-strom-setzt-200795977.html",
+        "https://www.faz.net/aktuell/wirtschaft/neuer-gesetzesentwurf-was-nun-statt-der-waermepumpe-kommen-soll-200804164.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/heizungswende-soll-buerger-um-fuenf-milliarden-euro-entlasten-200801336.html"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "realization",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "optimism",
+          "emotion": "realization",
           "count": 2
         },
         {
@@ -41,31 +41,64 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 11,
+      "article_count": 15,
       "sample_titles": [
-        "Angst vor Blackouts: EU verbannt Solaranlagen-Technik aus China",
-        "Reform des Heizungsgesetzes: Kein Schutz für Mie­te­r:in­nen",
-        "Diskussion um Kernenergie: „Reaktivierung von AKWs ist betriebswirtschaftlicher Unsinn“",
-        "Demos gegen Castor-Transporte: Weitere Aktionen angekündigt"
+        "Transformation und Wärmegewinnung: Reiches Heizungsgesetz ist fatal fürs Klima",
+        "LNG-Importe: Europas Kampf ums Flüssiggas",
+        "Kritik an Reiches Heizungsgesetz-Reform: Klimaschädlich – und teuer für Mieter",
+        "Reform des Heizungsgesetzes: Feuer frei für fossile Wärme"
       ],
       "urls": [
-        "https://taz.de/Angst-vor-Blackouts/!6176418/",
-        "https://taz.de/Reform-des-Heizungsgesetzes/!6176120/",
-        "https://taz.de/Diskussion-um-Kernenergie/!6176055/",
-        "https://taz.de/Demos-gegen-Castor-Transporte/!6176007/"
+        "https://taz.de/Transformation-und-Waermegewinnung/!6173769/",
+        "https://taz.de/LNG-Importe/!6177008/",
+        "https://taz.de/Kritik-an-Reiches-Heizungsgesetz-Reform/!6176717/",
+        "https://taz.de/Reform-des-Heizungsgesetzes/!6176810/"
       ],
-      "dominant_emotion": "surprise",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "surprise",
+          "emotion": "realization",
           "count": 1
         },
         {
-          "emotion": "annoyance",
+          "emotion": "desire",
           "count": 1
         },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 10,
+      "sample_titles": [
+        "Moderne Verwaltung, Klimaschutz und Mini-AKW: Was sich die jungen Abgeordneten im Landtag vorgenommen haben",
+        "Wie der Iran-Krieg den Erneuerbaren zum Boom verhilft",
+        "Negative Strompreise kosten uns Milliarden",
+        "Kann Schwarz-Rot die Klimaziele einhalten?"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/neuer-landtag-junge-abgeordnete-gruene-cdu-afd-ziele-100.html",
+        "https://www.tagesschau.de/wirtschaft/finanzen/iran-krieg-wind-solar-boerse-100.html",
+        "https://www1.wdr.de/wirtschaft/negative-strompreise-kosten-milliarden-100.html",
+        "https://www.tagesschau.de/wissen/klima/klimabilanz-regierung-merz-100.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
         {
           "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -74,18 +107,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
+        "Nawrocki drängt auf Referendum zur EU-Klimapolitik",
+        "Wenn die Windbarone zurückschlagen – über den Kampf um die EEG-Milliarden",
         "Gaskraftwerke oder Speicher noch und nöcher?",
-        "Klingbeil-Merz nach einem Jahr vor dem Aus – und nun weiter wie bisher",
-        "Die CDU ist am Ende: Es rettet sie nur noch die SPD, die genauso am Ende ist",
-        "IPCC streicht Klima-Katastrophenszenario: Die große Alarmmaschine verliert ihr Lieblingsinstrument"
+        "Klingbeil-Merz nach einem Jahr vor dem Aus – und nun weiter wie bisher"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/nawrocki-draengt-auf-referendum-zur-eu-klimapolitik/",
+        "https://www.tichyseinblick.de/meinungen/windbarone-kampf-um-milliarden/",
         "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/gaskraftwerke-oder-speicher-noch-und-noecher/",
-        "https://www.tichyseinblick.de/daili-es-sentials/merz-klingbeil-trumue-hormus-vae/",
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/cdu-am-ende-es-rettet-spd-die-genauso-am-ende-ist-2/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/ipcc-streicht-klima-katastrophenszenario/"
+        "https://www.tichyseinblick.de/daili-es-sentials/merz-klingbeil-trumue-hormus-vae/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -94,76 +127,23 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 8,
+      "article_count": 10,
       "sample_titles": [
+        "Energiewende: Kritik an Reiches Kraftwerksgesetz: Kartellamt sieht Wettbewerb in Gefahr",
+        "Luftfahrt: Israel will Deutschland mit Kerosin versorgen",
         "Ökostrom: Finanzminister und Fraktion auf Kollisionskurs: Bei der Energiewende zeigt sich die SPD tief gespalten",
-        "Energie: Vestas-Chef warnt: „Die eigentliche Krise kommt erst – die Politik überlegt nur noch, wie sie es erklären soll“",
-        "Energie: Strompreis stürzt auf minus 499 Euro pro Megawattstunde: Neue Argumente für Reiches Reformen",
-        "Energie: Strompreis stürzt auf minus 499 Euro pro Megawattstunde: Neue Argumente für Reiches Reformen"
+        "Energie: Vestas-Chef warnt: „Die eigentliche Krise kommt erst – die Politik überlegt nur noch, wie sie es erklären soll“"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/energiewende-bundeskartellamt-ruegt-reiches-kraftwerksgesetz/100223240.html",
+        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/luftfahrt-israel-will-deutschland-mit-kerosin-versorgen/100222882.html",
         "https://www.handelsblatt.com/politik/deutschland/eeg-energiegesetz-entzweit-spd-fraktion-und-spd-ministerium/100221065.html",
-        "https://www.handelsblatt.com/unternehmen/energie/vestas-chef-wir-stehen-vor-einer-energiekrise-einer-ganz-neuen-dimension/100218434.html",
-        "https://www.handelsblatt.com/politik/deutschland/energie-negativer-strompreis-von-499-euro-liefert-reiche-neue-argumente-01/100222064.html",
-        "https://www.handelsblatt.com/politik/deutschland/energie-negativer-strompreis-von-499-euro-liefert-reiche-neue-argumente/100222064.html"
+        "https://www.handelsblatt.com/unternehmen/energie/vestas-chef-wir-stehen-vor-einer-energiekrise-einer-ganz-neuen-dimension/100218434.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 8,
-      "sample_titles": [
-        "Kann Schwarz-Rot die Klimaziele einhalten?",
-        "Klimaneutralität auf wackligem Boden",
-        "Schmitten im Taunus: Defekt an Photovoltaikanlage soll Brand ausgelöst haben",
-        "Acht neue Windräder bei Krakow am See: Behörde gibt grünes Licht"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/wissen/klima/klimabilanz-regierung-merz-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/entwurf-gebaeudemodernisierungsgesetz-kritik-100.html",
-        "https://www.hessenschau.de/panorama/schmitten-im-taunus-defekt-an-photovoltaikanlage-soll-brand-ausgeloest-haben-v1,schmitten-hausbrand-100.html",
-        "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/acht-neue-windraeder-bei-krakow-am-see-behoerde-gibt-gruenes-licht,mvregiorostock-3346.html"
-      ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Koalition : Neues Heizungsgesetz: Umweltschützer und Grüne gehen auf Reiche los",
-        "Energie: Stromnetz Berlin investiert Millionen in mehr Sicherheit",
-        "Ökostrom: SPD gegen Abschaffung von Solar-Förderung",
-        "Erneuerbare Energien: Der Bau neuer Solaranlagen stockt"
-      ],
-      "urls": [
-        "https://www.stern.de/politik/deutschland/heizungsgesetz--umweltschuetzer-und-gruene-gehen-auf-reiche-los-37371952.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/energie--stromnetz-berlin-investiert-millionen-in-mehr-sicherheit-37366464.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/oekostrom--spd-gegen-abschaffung-von-solar-foerderung-37363114.html",
-        "https://www.stern.de/wirtschaft/news/erneuerbare-energien--der-bau-neuer-solaranlagen-stockt-37361424.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -172,58 +152,108 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 5,
+      "article_count": 7,
       "sample_titles": [
-        "Kein Betriebsverbot nach 2045: Reiches Gesetzentwurf begräbt Habecks Gasheizungs-Aus",
-        "Atomenergiebehörde beunruhigt: Drohne attackiert Labor von AKW Saporischschja",
-        "Wegen \"nationaler Sicherheit\": Bericht: Trump-Regierung blockiert Dutzende Windpark-Projekte",
-        "Das grüne Kraftwerk von Enertrag:  \"Seit 1990 ist klar: Uns bleiben nur Solar- und Windenergie\""
+        "Hände weg von meiner Freiheit!: \"Die Deutschen lehnen Klimaschutz-Vorgaben noch mehr ab als Corona-Maßnahmen\"",
+        "Banaszak über Heizungsgesetz: \"Das wird schweineteuer für die Leute\"",
+        "Fehler eingeräumt: Bundesregierung rudert beim Heizungsgesetz zurück",
+        "Kein Betriebsverbot nach 2045: Reiches Gesetzentwurf begräbt Habecks Gasheizungs-Aus"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Reiches-Gesetzentwurf-begraebt-Habecks-Gasheizungs-Aus-id30788779.html",
-        "https://www.n-tv.de/politik/Drohne-attackiert-Labor-von-AKW-Saporischschja-id30781047.html",
-        "https://www.n-tv.de/wirtschaft/Bericht-Trump-Regierung-blockiert-Dutzende-Windpark-Projekte-id30781276.html",
-        "https://www.n-tv.de/wirtschaft/Enertrag-Chef-Joerg-Mueller-Seit-1990-ist-klar-Uns-bleiben-nur-Solar-und-Windenergie-id30763250.html"
+        "https://www.n-tv.de/panorama/Die-Deutschen-lehnen-Klimaschutz-Vorgaben-noch-mehr-ab-als-Corona-Massnahmen-id30791224.html",
+        "https://www.n-tv.de/politik/Das-wird-schweineteuer-fuer-die-Leute-id30796039.html",
+        "https://www.n-tv.de/politik/Bundesregierung-rudert-beim-Heizungsgesetz-zurueck-id30792514.html",
+        "https://www.n-tv.de/politik/Reiches-Gesetzentwurf-begraebt-Habecks-Gasheizungs-Aus-id30788779.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 7,
+      "sample_titles": [
+        "Grüner Wasserstoff: Wie der Energieträger funktioniert",
+        "Aktuelle Stunde: Ein Jahr schwarz-rote Energiepolitik",
+        "AfD nutzt Windkraft-Kritik für nationalistische Kampagne",
+        "Deutschlands Atomausstieg: Fehler oder Erfolg?"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/wissen/gruener-wasserstoff-herstellung-deutschland-energiewende-klimaneutral-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/u-a-bundestag---live-a-5189416.html",
+        "https://www.zdfheute.de/politik/deutschland/windrad-hermannsdenkmal-afd-kampagne-faktencheck-100.html",
+        "https://www.zdfheute.de/politik/deutschland/atomkraft-ausstieg-erneuerbare-diskussion-fleischhauer-deutschland-100.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
     },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 4,
+      "article_count": 7,
       "sample_titles": [
-        "Reiche legt neuen Entwurf für Heizgesetz vor –  Kein Betriebsverbot mehr für Öl- und Gasheizungen",
-        "Ökonom hält Reaktivierung abgeschalteter Atommeiler für „betriebswirtschaftlichen Unsinn“",
-        "EU-Kommission zweifelt an der Wirksamkeit des deutschen Klimaziels",
-        "Habecks „Heizungsgesetz“ ist Geschichte – so sieht die Lösung der neuen Regierung aus"
+        "E.on-Chef fordert „System-Wende“ für erneuerbare Energien",
+        "Shell verdoppelt Quartalsgewinn – Ölkonzerne profitieren vom Iran‑Krieg",
+        "„Nicht Vorschlag der Bundesregierung“ – Schneider stellt sich gegen Reiches Energie-Reform",
+        "Reiche legt neuen Entwurf für Heizgesetz vor –  Kein Betriebsverbot mehr für Öl- und Gasheizungen"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article69f9ef1ac764528c1ad20920/milliarden-entlastung-reiche-legt-neuen-entwurf-fuer-heizgesetz-vor-kein-betriebsverbot-mehr-fuer-oel-und-gasheizungen.html",
-        "https://www.welt.de/politik/deutschland/article69f803a623e6b3dbf3c98031/atomkraft-oekonom-haelt-reaktivierung-abgeschalteter-meiler-fuer-betriebswirtschaftlichen-unsinn.html",
-        "https://www.welt.de/wirtschaft/article69f3664b6fe2dee7bfb0ee76/eu-kommission-zweifelt-an-der-wirksamkeit-des-deutschen-klimaziels.html",
-        "https://www.welt.de/finanzen/plus69f353fd6fe2dee7bfb0ec8d/habecks-heizungsgesetz-ist-geschichte-so-sieht-die-neue-loesung-aus.html"
+        "https://www.welt.de/wirtschaft/article69fdfd8ccd4a28c470021330/energiewende-e-on-chef-fordert-system-wende-fuer-erneuerbare-energien.html",
+        "https://www.welt.de/videos/video69fd8886591d4b3b0b719531/oel-und-gaspreise-shell-verdoppelt-quartalsgewinn-oelkonzerne-profitieren-vom-irankrieg.html",
+        "https://www.welt.de/wirtschaft/article69fc82160696bba25ef31cf6/umweltminister-nicht-vorschlag-der-bundesregierung-schneider-stellt-sich-gegen-reiches-energie-reform.html",
+        "https://www.welt.de/politik/deutschland/article69f9ef1ac764528c1ad20920/milliarden-entlastung-reiche-legt-neuen-entwurf-fuer-heizgesetz-vor-kein-betriebsverbot-mehr-fuer-oel-und-gasheizungen.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 7,
+      "sample_titles": [
+        "Heizungsgesetz: „Die Zahl derer, die jetzt noch eine Gasheizung kaufen, wird gering sein“",
+        "Koalition : Neues Heizungsgesetz: Umweltschützer und Grüne gehen auf Reiche los",
+        "Energie: Stromnetz Berlin investiert Millionen in mehr Sicherheit",
+        "Ökostrom: SPD gegen Abschaffung von Solar-Förderung"
+      ],
+      "urls": [
+        "https://www.stern.de/capital/heizungsgesetz--die-regierung-bringt-alle-gegen-sich-auf-37377356.html",
+        "https://www.stern.de/politik/deutschland/heizungsgesetz--umweltschuetzer-und-gruene-gehen-auf-reiche-los-37371952.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/energie--stromnetz-berlin-investiert-millionen-in-mehr-sicherheit-37366464.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/oekostrom--spd-gegen-abschaffung-von-solar-foerderung-37363114.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 6,
       "sample_titles": [
+        "Interview im Bundestags-Blatt AfD-Vizechef schwärmt von Wärmepumpen",
+        "Batteriespeicher Das ist der große Irrtum der „Energiewende“",
         "Stromerzeugung Katherina Reiche weiß wenigstens, wo der Strom herkommt",
-        "Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs",
-        "Stromversorgung Belgien stoppt Rückbau aller Atomkraftanlagen",
-        "Schwarz-Rot gegen die Bürger Die Heizungsgesetz-Lüge"
+        "Neues Heizungsgesetz Schwarz-Rot verspricht „Freiheit im Keller“ – und bleibt auf grünem Kurs"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/afd-finanzpolitiker-schwaermt-von-waermepumpen/",
+        "https://jungefreiheit.de/wirtschaft/2026/das-ist-der-grosse-irrtum-der-energiewende/",
         "https://jungefreiheit.de/wissen/2026/katherina-reiche-weiss-wenigstens-wo-der-strom-herkommt/",
-        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-verspricht-freiheit-im-keller-und-bleibt-doch-auf-gruenem-kurs/",
-        "https://jungefreiheit.de/politik/ausland/2026/belgien-stoppt-rueckbau-aller-atomkraftanlagen/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/die-heizungsgesetz-luege/"
+        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-verspricht-freiheit-im-keller-und-bleibt-doch-auf-gruenem-kurs/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -232,19 +262,25 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 6,
       "sample_titles": [
-        "Katherina Reiche will Lockerungen bei neuen Öl- und Gasheizungen",
-        "Strompreise und Energiewende: Warum Deutschland Strom ins Ausland verschenkt",
-        "Klimapolitik in Deutschland: Wasser predigen und Öl trinken"
+        "Wasserstoff-Förderung: Grüne werfen Hubert Aiwanger Steuerverschwendung vor",
+        "EU genehmigt deutsche Milliarden für Klimaschutz",
+        "Wärmepumpen: Wie Flusswärmepumpen Großstädte günstig mit Wärme versorgen",
+        "Katherina Reiche will Lockerungen bei neuen Öl- und Gasheizungen"
       ],
       "urls": [
-        "https://www.spiegel.de/wirtschaft/katherina-reiche-will-lockerungen-bei-neuen-oel-und-gasheizungen-a-65fb2f26-a515-4aa5-b5cc-dc5eb849a704#ref=rss",
-        "https://www.spiegel.de/wirtschaft/strompreise-und-energiewende-warum-deutschland-strom-ins-ausland-verschenkt-a-bb433fbf-bed1-4a9d-9000-8b9ba42de374#ref=rss",
-        "https://www.spiegel.de/wissenschaft/mensch/klimapolitik-in-deutschland-wasser-predigen-und-oel-trinken-a-167f989d-9fc2-4200-9b68-ea0c18d36c3c#ref=rss"
+        "https://www.spiegel.de/mobilitaet/wasserstoff-foerderung-gruene-werfen-hubert-aiwanger-steuerverschwendung-vor-a-841f5922-83c7-4450-8ad1-e0cb58049a5c#ref=rss",
+        "https://www.spiegel.de/wirtschaft/eu-genehmigt-deutsche-milliarden-fuer-klimaschutz-a-86592944-449a-48f6-b9ec-d5770128170c#ref=rss",
+        "https://www.spiegel.de/politik/waermepumpen-wie-flusswaermepumpen-grossstaedte-guenstig-mit-waerme-versorgen-a-b53332c1-61ff-4842-9585-7a106bd0cb8f#ref=rss",
+        "https://www.spiegel.de/wirtschaft/katherina-reiche-will-lockerungen-bei-neuen-oel-und-gasheizungen-a-65fb2f26-a515-4aa5-b5cc-dc5eb849a704#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "optimism",
           "count": 1
@@ -255,13 +291,15 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
+        "Erfolgsserie „Landman“  - Brauchen Windräder mehr Energie als sie erzeugen?",
         "Kommentar - Rechnung für Strom-Irrsinn zahlen wir alle!",
         "Zwischenruf - Photovoltaik ist geil! Nur nicht in Deutschland",
         "Experten raten - „Schaltet eure Photovoltaik-Anlagen ab!“"
       ],
       "urls": [
+        "https://www.bild.de/leben-wissen/kosten-windraeder-mehr-energie-als-sie-je-liefern-69ede287abfdaf26dabf8e0a",
         "https://www.bild.de/politik/meinung-kommentare-kolumnen/rechnung-fuer-strom-irrsinn-zahlen-wir-alle-69f772b2ed1f2e03d501c22f",
         "https://www.bild.de/politik/meinung-kommentare-kolumnen/zwischenruf-photovoltaik-ist-geil-nur-nicht-in-deutschland-69f5fbfb23e6b3dbf3c96b2f",
         "https://www.bild.de/politik/inland/strom-flutet-netze-experten-raten-solar-anlagen-abzuschalten-69f47ccace673f8cd2abb2d5"
@@ -278,50 +316,23 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "So könnten Verbraucher beim Strom profitieren",
-        "Atomkraft: Was für und gegen eine Rückkehr spricht",
-        "Einigung beim \"Heizungsgesetz\": Was das für Mieter bedeutet"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/wirtschaft/strompreis-smart-meter-gratis-strom-stromboerse-100.html",
-        "https://www.zdfheute.de/wirtschaft/atomkraft-atomenergie-kernenergie-atomausstieg-deutschland-energiekrise-100.html",
-        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-mieter-gesetz-vermieter-waermepumpe-100.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Woher kommt der Strom? 17. Analysewoche 2026 – Ich soll deinen Solarstrom abnehmen? Gerne, für 3,7 Millionen Entschädigung!",
-        "Ölkrise 2026?"
+        "Marktaufseher warnt vor Stromknappheit und fordert «in aller Deutlichkeit» das umstrittene Abkommen mit der EU",
+        "INTERAKTIV - Benzin- und Dieselpreise deutlich gesunken – die aktuellen Zahlen zur Energieversorgung in Deutschland"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/woher_kommt_der_Strom_17_Analysewoche_2026_ich_soll_deinen_solarstrom_abnehmen_gerne_fuer_3_7_millionen_entschaedigung",
-        "https://www.achgut.com/artikel/oelkrise_2026"
+        "https://www.nzz.ch/schweiz/marktaufseher-warnt-vor-stromknappheit-und-fordert-in-aller-deutlichkeit-das-umstrittene-abkommen-mit-der-eu-ld.10006206",
+        "https://www.nzz.ch/visuals/warum-ist-strom-in-deutschland-so-teuer-alle-zahlen-ld.1683901"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -332,36 +343,36 @@
       "bias": "left-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?",
-        "Welthandel: Wie China grüne Produktion in Deutschland bedroht"
+        "Alternative Brennstoffe: In Bayern will niemand Wasserstoff-Tankstellen bauen",
+        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374",
-        "https://www.sueddeutsche.de/wirtschaft/kornorientiertes-elektroband-thyssenkrupp-stahl-tkse-li.3474558"
+        "https://www.sueddeutsche.de/bayern/wasserstoff-tankstellen-aiwanger-bayern-foerderung-li.3479764",
+        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374"
       ],
-      "dominant_emotion": "anger",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "anger",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "INTERAKTIV - Benzin- und Dieselpreise deutlich gesunken – die aktuellen Zahlen zur Energieversorgung in Deutschland"
+        "Woher kommt der Strom? 17. Analysewoche 2026 – Ich soll deinen Solarstrom abnehmen? Gerne, für 3,7 Millionen Entschädigung!"
       ],
       "urls": [
-        "https://www.nzz.ch/visuals/warum-ist-strom-in-deutschland-so-teuer-alle-zahlen-ld.1683901"
+        "https://www.achgut.com/artikel/woher_kommt_der_Strom_17_Analysewoche_2026_ich_soll_deinen_solarstrom_abnehmen_gerne_fuer_3_7_millionen_entschaedigung"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -382,16 +393,16 @@
     }
   },
   "bias_distribution": {
-    "economic-liberal": 8,
-    "far-right": 15,
-    "right-conservative": 9,
+    "right-conservative": 14,
     "conservative-liberal": 21,
-    "left": 11,
-    "left-liberal": 12,
-    "neutral": 11,
-    "populist-mixed": 3
+    "neutral": 17,
+    "left": 15,
+    "far-right": 17,
+    "left-liberal": 16,
+    "economic-liberal": 10,
+    "populist-mixed": 4
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Energiewende und die Klimapolitik wichtige Themen sind, die eine umfassende Diskussion und Lösung erfordern, wie etwa die Debatten über den Ausbau erneuerbarer Energien und den Kohleausstieg zeigen. Die Notwendigkeit, die Strompreise und die Energieversorgungssicherheit zu gewährleisten, wird ebenfalls in vielen Artikeln thematisiert, unabhängig von der politischen Ausrichtung.",
-  "controversial_points": "Die Berichterstattung divergiert am meisten bei der Bewertung der Rolle von Atomkraft und fossilen Brennstoffen, wie etwa in den Artikeln über die Reaktivierung abgeschalteter Atommeiler oder die Lockerungen bei neuen Öl- und Gasheizungen, wobei rechtspolitische und wirtschaftsliberale Gruppen tendenziell skeptischer gegenüber einem schnellen Ausstieg aus diesen Energieträgern sind, während linke und linkliberale Gruppen eine stärkere Betonung erneuerbarer Energien und Klimaschutzes fordern.",
-  "cached_at": "2026-05-06T06:54:34.582026"
+  "shared_perspectives": "Alle Gruppen scheinen sich darin einig zu sein, dass die Energiewende und der Klimaschutz wichtige Themen sind, die in Deutschland diskutiert werden müssen, wie etwa die Notwendigkeit, den Ausbau erneuerbarer Energien wie Wind- und Solarenergie voranzutreiben, wie es in den Artikeln 'E.on-Chef fordert „System-Wende“ für erneuerbare Energien' und 'Grüner Wasserstoff: Wie der Energieträger funktioniert' deutlich wird. Dies zeigt sich auch in der breiten Berichterstattung über die politischen und gesellschaftlichen Debatten rund um den Energiemix für Deutschland.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in der Bewertung von Maßnahmen wie dem Heizungsgesetz, wie in den Artikeln 'Transformation und Wärmegewinnung: Reiches Heizungsgesetz ist fatal fürs Klima' und 'Heizungsgesetz: „Die Zahl derer, die jetzt noch eine Gasheizung kaufen, wird gering sein“' zu sehen ist, sowie in der Frage, ob die EU-Klimapolitik und die Energiewende in Deutschland zu weit gehen oder nicht weit genug gehen, wie in den Artikeln 'Nawrocki drängt auf Referendum zur EU-Klimapolitik' und 'EU genehmigt deutsche Milliarden für Klimaschutz' deutlich wird.",
+  "cached_at": "2026-05-10T06:46:11.889563"
 }
