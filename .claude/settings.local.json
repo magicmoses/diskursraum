@@ -31,7 +31,8 @@
       "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8001/health\" -TimeoutSec 5; $r.Content } catch { \"Err: $\\($_.Exception.Message\\)\" })",
       "PowerShell(& \"C:\\\\Users\\\\ayzen\\\\miniconda3\\\\envs\\\\consensus-agent\\\\python.exe\" -m pip install pytrends --quiet 2>&1 | Select-Object -Last 3)",
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\ayzen\\\\projects\\\\agentic\\\\consensus-agent\\\\crew\\\\tools\" -Recurse -Name | Where-Object { $_ -notmatch \"__pycache__\" })",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)"
     ]
   }
 }

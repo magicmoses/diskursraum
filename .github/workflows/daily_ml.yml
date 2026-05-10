@@ -80,6 +80,10 @@ jobs:
 
       - name: Export analytics to JSON
         continue-on-error: true
+        env:
+          LLM_PROVIDER: groq
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python crew/tools/media/export_analytics.py
 

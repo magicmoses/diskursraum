@@ -69,28 +69,37 @@ GERMAN_STOPWORDS = [
 def _call_llm(prompt: str, max_tokens: int = 900) -> str:
     from dotenv import load_dotenv
     load_dotenv()
-    provider = os.getenv("LLM_PROVIDER", "groq").lower()
 
-    if provider == "ollama":
-        import requests
-        base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-        model = os.getenv("OLLAMA_MODEL", "llama3.1")
-        response = requests.post(
-            f"{base_url}/api/generate",
-            json={"model": model, "prompt": prompt, "stream": False},
-            timeout=120,
-        )
-        return response.json().get("response", "")
-    else:
-        from groq import Groq
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-        response = client.chat.completions.create(
-            model=GROQ_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2,
-            max_tokens=max_tokens,
-        )
-        return response.choices[0].message.content.strip()
+    groq_key = os.getenv("GROQ_API_KEY")
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,
+                max_tokens=max_tokens,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"  Groq failed: {e} — trying Claude fallback")
+
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    if anthropic_key:
+        try:
+            import anthropic
+            client = anthropic.Anthropic(api_key=anthropic_key)
+            response = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return response.content[0].text
+        except Exception as e:
+            print(f"  Claude fallback failed: {e}")
+
+    raise RuntimeError("Kein LLM verfügbar — weder Groq noch Claude")
 
 
 # ── Step A: DB Frequency Analysis ─────────────────

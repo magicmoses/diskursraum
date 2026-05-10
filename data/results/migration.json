@@ -1,7 +1,7 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 74,
+  "article_count": 76,
   "candidate_count": 126,
   "outlets": {
     "welt": {
@@ -24,6 +24,35 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 9,
+      "sample_titles": [
+        "JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein",
+        "Urteil Gericht verhindert Abschiebung von israelfeindlicher Irin",
+        "Desinformation im Bundestag Bas: „Es wandert niemand in unsere Sozialsysteme ein“",
+        "„Niemand wandert in Sozialsysteme ein“ Die Lüge der Frau Bas ist das Prinzip der Herrschenden"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/so-viele-migranten-wandern-wirklich-in-die-sozialsysteme-ein/",
+        "https://jungefreiheit.de/politik/deutschland/2026/gericht-verhindert-abschiebung-von-israelfeindlicher-irin/",
+        "https://jungefreiheit.de/politik/deutschland/2026/bas-es-wandert-niemand-in-unsere-sozialsysteme-ein/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/die-luege-der-frau-bas-ist-das-prinzip-der-herrschenden/"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
@@ -45,35 +74,6 @@
       "top_emotions": [
         {
           "emotion": "remorse",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 8,
-      "sample_titles": [
-        "JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein",
-        "Urteil Gericht verhindert Abschiebung von israelfeindlicher Irin",
-        "Desinformation im Bundestag Bas: „Es wandert niemand in unsere Sozialsysteme ein“",
-        "„Niemand wandert in Sozialsysteme ein“ Die Lüge der Frau Bas ist das Prinzip der Herrschenden"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/so-viele-migranten-wandern-wirklich-in-die-sozialsysteme-ein/",
-        "https://jungefreiheit.de/politik/deutschland/2026/gericht-verhindert-abschiebung-von-israelfeindlicher-irin/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bas-es-wandert-niemand-in-unsere-sozialsysteme-ein/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/die-luege-der-frau-bas-ist-das-prinzip-der-herrschenden/"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
           "count": 1
         }
       ]
@@ -142,30 +142,50 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 4,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 5,
       "sample_titles": [
-        "Rückstau an Anträgen: EU kritisiert: Deutschland nicht bereit für neues Asylsystem",
-        "\"Einwanderung in Sozialsysteme\": Arbeitsministerin Bas verteidigt umstrittene Aussage zu Asylmissbrauch",
-        "Missbrauch des Sozialstaats: Kritik an Bas wegen \"weltfremder\" Aussage über Einwanderung",
-        "Belegschaft ist \"stinksauer\": VW schiebt Ost-Integration auf"
+        "14-jähriger Schüler ermordet – mutmaßlicher Täter war abgelehnter Asylbewerber",
+        "Schweden dreht am Einbürgerungs- und Aufenthaltsrecht: Anpassen oder gehen",
+        "Tatort Zürich rät Zuwanderern: Bleibt weg!",
+        "Stippvisite in Rabat: Wadephul jetzt für mehr Zuwanderung aus Marokko"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Asylreform-EU-Behoerde-kritisiert-Deutschland-fuer-mangelnde-Ressourcen-id30802209.html",
-        "https://www.n-tv.de/politik/Arbeitsministerin-Bas-verteidigt-umstrittene-Aussage-zu-Asylmissbrauch-id30799575.html",
-        "https://www.n-tv.de/politik/Kritik-an-Bas-wegen-weltfremder-Aussage-ueber-Einwanderung-id30795818.html",
-        "https://www.n-tv.de/wirtschaft/VW-schiebt-Ost-Integration-auf-id30784532.html"
+        "https://www.tichyseinblick.de/daili-es-sentials/schueler-ermordet-abgelehnter-migrant-memmingen/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/schweden-einbuergerung-aufenthaltsrecht/",
+        "https://www.tichyseinblick.de/feuilleton/medien/tatort-zuerich-raet-zuwanderern-bleibt-weg/",
+        "https://www.tichyseinblick.de/daili-es-sentials/wadephul-fuer-zuwanderung-marokko/"
       ],
-      "dominant_emotion": "anger",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "anger",
+          "emotion": "admiration",
           "count": 1
         }
       ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Zuwanderung: Deutlich weniger Asylanträge in Brandenburg",
+        "Verwarnung in Prozess um Volksverhetzung gegen Flüchtlinge in Baden-Baden",
+        "Finanzminister der Euro-Länder diskutieren über Auswirkungen des Iran-Kriegs",
+        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/zuwanderung--deutlich-weniger-asylantraege-in-brandenburg-37383060.html",
+        "https://www.stern.de/news/verwarnung-in-prozess-um-volksverhetzung-gegen-fluechtlinge-in-baden-baden-37376814.html",
+        "https://www.stern.de/news/finanzminister-der-euro-laender-diskutieren-ueber-auswirkungen-des-iran-kriegs-37364904.html",
+        "https://www.stern.de/politik/deutschland/nach-ende-des-buergerkriegs--1-63-millionen-syrer-zurueckgekehrt---wenige-aus-deutschland-37362460.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "spiegel": {
       "source_id": "spiegel",
@@ -192,40 +212,20 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 4,
-      "sample_titles": [
-        "14-jähriger Schüler ermordet – mutmaßlicher Täter war abgelehnter Asylbewerber",
-        "Schweden dreht am Einbürgerungs- und Aufenthaltsrecht: Anpassen oder gehen",
-        "Stippvisite in Rabat: Wadephul jetzt für mehr Zuwanderung aus Marokko",
-        "Von Einwanderung zu Rückführung: Skandinavien schließt die offenen Tore"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/schueler-ermordet-abgelehnter-migrant-memmingen/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/schweden-einbuergerung-aufenthaltsrecht/",
-        "https://www.tichyseinblick.de/daili-es-sentials/wadephul-fuer-zuwanderung-marokko/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/von-einwanderung-zu-rueckfuehrung-skandinavien-schliesst-die-offenen-tore/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
       "article_count": 3,
       "sample_titles": [
-        "Zuwanderung: Deutlich weniger Asylanträge in Brandenburg",
-        "Verwarnung in Prozess um Volksverhetzung gegen Flüchtlinge in Baden-Baden",
-        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
+        "Rückstau an Anträgen: EU kritisiert: Deutschland nicht bereit für neues Asylsystem",
+        "\"Einwanderung in Sozialsysteme\": Arbeitsministerin Bas verteidigt umstrittene Aussage zu Asylmissbrauch",
+        "Missbrauch des Sozialstaats: Kritik an Bas wegen \"weltfremder\" Aussage über Einwanderung"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/zuwanderung--deutlich-weniger-asylantraege-in-brandenburg-37383060.html",
-        "https://www.stern.de/news/verwarnung-in-prozess-um-volksverhetzung-gegen-fluechtlinge-in-baden-baden-37376814.html",
-        "https://www.stern.de/politik/deutschland/nach-ende-des-buergerkriegs--1-63-millionen-syrer-zurueckgekehrt---wenige-aus-deutschland-37362460.html"
+        "https://www.n-tv.de/politik/Asylreform-EU-Behoerde-kritisiert-Deutschland-fuer-mangelnde-Ressourcen-id30802209.html",
+        "https://www.n-tv.de/politik/Arbeitsministerin-Bas-verteidigt-umstrittene-Aussage-zu-Asylmissbrauch-id30799575.html",
+        "https://www.n-tv.de/politik/Kritik-an-Bas-wegen-weltfremder-Aussage-ueber-Einwanderung-id30795818.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -378,16 +378,16 @@
     }
   },
   "bias_distribution": {
-    "far-right": 13,
+    "far-right": 15,
     "left": 8,
     "populist-mixed": 6,
-    "left-liberal": 11,
-    "right-conservative": 16,
+    "left-liberal": 12,
+    "right-conservative": 15,
     "conservative-liberal": 8,
     "neutral": 9,
     "economic-liberal": 3
   },
-  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass die Migration und Asylpolitik in Deutschland ein komplexes und vielschichtiges Thema ist, das sowohl die Einwanderung als auch die Integration von Migranten und Flüchtlingen umfasst, wie es in Artikeln wie 'Das Migrations-Problem wächst weiter' und 'Zuwanderung: Deutlich weniger Asylanträge in Brandenburg' deutlich wird. Sie teilen auch die Besorgnis über die Auswirkungen der Migration auf die Sozialsysteme, wie in 'JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein' und 'Keine Einwanderung in Sozialsysteme' zu sehen ist.",
-  "controversial_points": "Die Berichterstattung divergiert jedoch stark in der Bewertung der Asylpolitik und der Migration, insbesondere bei der Frage, ob die Einwanderung in die Sozialsysteme ein Problem darstellt, wie es in 'JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein' und 'Was an der Bas-Aussage falsch ist' kontrovers diskutiert wird, sowie bei der Frage, ob Abschiebungen und Grenzkontrollen notwendig sind, wie es in 'Urteil Gericht verhindert Abschiebung von israelfeindlicher Irin' und '25 Schwerverbrecher weg - So teuer war der Abschiebeflug nach Afghanistan' unterschiedlich dargestellt wird.",
-  "cached_at": "2026-05-10T06:46:08.907142"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, die Themen Migration und Asylpolitik in Deutschland zu diskutieren, wobei sie auf verschiedene Aspekte wie Abschiebungen, Integration und politische Positionen eingehen. Insbesondere die Berichterstattung über konkrete Ereignisse wie Abschiebungen nach Syrien oder Afghanistan und Debatten über das Asylrecht finden sich in allen Gruppen wieder, wie beispielsweise in den Artikeln 'Urteil Gericht verhindert Abschiebung von israelfeindlicher Irin' und 'Palästina-Proteste vor Gericht: Verwaltungsgericht Berlin stoppt geplante Abschiebung'",
+  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Migrationspolitik und der Rolle von Migranten in der Gesellschaft, wie beispielsweise in den Artikeln 'Das Migrations-Problem wächst weiter' und 'Über migrantische Selbstbehauptung: „Und das geht nur gemeinsam“', die unterschiedliche Perspektiven auf die Integration und die Auswirkungen der Migration auf die Gesellschaft widerspiegeln, sowie in den Aussagen von Politikern wie Bas, die in den Artikeln '„Keine Einwanderung in Sozialsysteme“ - Bas antwortet BILD – und macht es noch schlimmer' und 'Was an der Bas-Aussage falsch ist' kontrovers diskutiert werden.",
+  "cached_at": "2026-05-10T07:23:36.414270"
 }

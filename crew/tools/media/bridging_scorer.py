@@ -223,33 +223,48 @@ OLLAMA_MODEL = "llama3.1"
 
 
 # ── Unified LLM Call ──────────────────────────────
-def call_llm(prompt: str, max_tokens: int = 300) -> str:
+def call_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
     """
-    Unified LLM call — uses Ollama or Groq based on LLM_PROVIDER env variable.
-    Defaults to Groq if not set.
+    Unified LLM call — Groq primary (llama-3.3-70b-versatile), Claude Haiku fallback.
+    Optional system message supported by both providers.
     """
-    provider = os.getenv("LLM_PROVIDER", "groq").lower()
+    groq_key = os.getenv("GROQ_API_KEY")
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+            messages = []
+            if system:
+                messages.append({"role": "system", "content": system})
+            messages.append({"role": "user", "content": prompt})
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=messages,
+                temperature=0.1,
+                max_tokens=max_tokens,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"  Groq failed: {e} — trying Claude fallback")
 
-    if provider == "ollama":
-        import requests as req
-        base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-        model = os.getenv("OLLAMA_MODEL", OLLAMA_MODEL)
-        response = req.post(
-            f"{base_url}/api/generate",
-            json={"model": model, "prompt": prompt, "stream": False},
-            timeout=120
-        )
-        return response.json().get("response", "")
-    else:
-        from groq import Groq
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-        response = client.chat.completions.create(
-            model=GROQ_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-            max_tokens=max_tokens,
-        )
-        return response.choices[0].message.content.strip()
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    if anthropic_key:
+        try:
+            import anthropic
+            client = anthropic.Anthropic(api_key=anthropic_key)
+            kwargs = {
+                "model": "claude-haiku-4-5-20251001",
+                "max_tokens": max_tokens,
+                "messages": [{"role": "user", "content": prompt}],
+            }
+            if system:
+                kwargs["system"] = system
+            response = client.messages.create(**kwargs)
+            return response.content[0].text
+        except Exception as e:
+            print(f"  Claude fallback failed: {e}")
+
+    raise RuntimeError("Kein LLM verfügbar — weder Groq noch Claude")
 
 
 # ── DB Setup ──────────────────────────────────────
@@ -308,8 +323,8 @@ def load_cached_result(topic_id: str, db_path: str = DB_PATH):
 
 
 # ── Step 1: Broad Retrieval ───────────────────────
-def load_topic_articles(topic_id: str, db_path: str = DB_PATH) -> list[dict]:
-    """Broad keyword retrieval — title AND text."""
+def load_topic_articles(topic_id: str, db_path: str = DB_PATH, days_back: int = 60) -> list[dict]:
+    """Broad keyword retrieval — title AND text, limited to recent articles."""
     keywords = TOPIC_KEYWORDS.get(topic_id, [])
     if not keywords:
         return []
@@ -328,9 +343,10 @@ def load_topic_articles(topic_id: str, db_path: str = DB_PATH) -> list[dict]:
         FROM articles
         WHERE ({conditions})
         AND word_count >= 10
+        AND crawled_at >= datetime('now', ?)
         ORDER BY crawled_at DESC
         LIMIT 800
-    """).fetchall()
+    """, (f'-{days_back} days',)).fetchall()
     conn.close()
 
     articles = []
@@ -368,18 +384,22 @@ def llm_relevance_filter(
             for i, a in enumerate(batch)
         ])
 
-        prompt = f"""You are filtering German news articles by topic relevance.
+        prompt = f"""Du filterst deutsche Nachrichtenartikel nach Themenrelevanz.
 
-Topic: {topic_desc}
+Thema: {topic_desc}
 
-Article titles (numbered):
+Artikeltitel (nummeriert):
 {titles_list}
 
-Which of these articles are relevant to the topic?
-Include articles that are DIRECTLY about the topic OR closely related to it.
-Return ONLY a JSON array of the relevant article numbers.
-Example: [1, 3, 5, 7]
-If none are relevant, return: []"""
+Welche dieser Artikel sind relevant?
+Ein Artikel ist relevant wenn er:
+1. DIREKT über das Thema berichtet ODER eng damit zusammenhängt, UND
+2. einen DIREKTEN Bezug zu Deutschland hat — deutsche Politik, deutsche Gesellschaft, deutsche Institutionen oder nachweisbare Auswirkungen auf Deutschland.
+
+Internationale Artikel ohne konkreten Deutschlandbezug ausschließen.
+Antworte NUR mit einem JSON-Array der relevanten Artikelnummern.
+Beispiel: [1, 3, 5, 7]
+Falls keine relevant sind: []"""
 
         try:
             raw = call_llm(prompt, max_tokens=200)
@@ -459,8 +479,9 @@ def aggregate_by_outlet(articles: list[dict]) -> dict:
 # ── Step 4: LLM Synthesis ─────────────────────────
 def llm_synthesize(articles: list[dict], topic_id: str) -> dict:
     """
-    Identifies shared perspectives and controversial points
-    across different media outlets using LLM.
+    Identifies shared perspectives and controversial points across
+    different media outlets using two separate LLM calls with
+    dedicated system prompts for analytical depth.
     """
     topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
 
@@ -469,7 +490,7 @@ def llm_synthesize(articles: list[dict], topic_id: str) -> dict:
         bias = article.get("bias", "unknown")
         if bias not in bias_samples:
             bias_samples[bias] = []
-        if len(bias_samples[bias]) < 3:
+        if len(bias_samples[bias]) < 6:
             bias_samples[bias].append(article["title"])
 
     if len(bias_samples) < 2:
@@ -483,40 +504,69 @@ def llm_synthesize(articles: list[dict], topic_id: str) -> dict:
         for bias, titles in bias_samples.items()
     ])
 
-    prompt = f"""You are analyzing German news coverage of: {topic_desc}
+    system_base = (
+        "Du analysierst ausschließlich den deutschen Mediendiskurs. "
+        "Beziehe dich nur auf Inhalte mit direktem Bezug zu Deutschland — "
+        "deutsche Politik, deutsche Gesellschaft, deutsche Institutionen, "
+        "Auswirkungen auf Deutschland. Internationale Ereignisse nur dann erwähnen "
+        "wenn sie einen direkten nachweisbaren Einfluss auf Deutschland haben und "
+        "deutsche Medien darüber im deutschen Kontext berichten. "
+        "Vermeide generische internationale Aussagen."
+    )
 
-Here are article titles grouped by media bias:
+    system_shared = (
+        system_base + " "
+        "Identifiziere konkrete Themen, Ideen, Konzepte oder politische Positionen "
+        "zu denen trotz unterschiedlicher politischer Ausrichtung eine erkennbare "
+        "Übereinstimmung im deutschen Mediendiskurs besteht. Formuliere 2-3 präzise "
+        "analytische Aussagen. Keine vagen Zusammenfassungen — konkrete inhaltliche "
+        "Gemeinsamkeiten benennen. Keine Quellennennung. Fokus auf das Gesamtbild des Diskurses."
+    )
+
+    system_controversial = (
+        system_base + " "
+        "Identifiziere konkrete Spannungsfelder, Widersprüche und Konfliktlinien im "
+        "deutschen Mediendiskurs zu diesem Thema. Wo prallen grundlegend unterschiedliche "
+        "Weltbilder, Werte oder politische Konzepte aufeinander? Formuliere 2-3 präzise "
+        "analytische Aussagen die die tatsächlichen Trennlinien benennen — nicht "
+        "oberflächliche Meinungsverschiedenheiten sondern strukturelle Konflikte im Diskurs. "
+        "Keine Quellennennung."
+    )
+
+    prompt_shared = f"""Thema: {topic_desc}
+
+Artikeltitel nach politischer Ausrichtung der Medien:
 {samples_text}
 
-In German, provide:
-1. SHARED: 1-2 sentences on what perspectives ALL groups seem to share
-2. CONTROVERSIAL: 1-2 sentences on where the coverage diverges most
+Welche inhaltlichen Gemeinsamkeiten zeigen sich im deutschen Mediendiskurs zu diesem Thema?
+Antworte auf Deutsch in 2-3 präzisen analytischen Sätzen. Nur Fließtext, kein JSON, keine Aufzählung."""
 
-Format your response as JSON:
-{{"shared": "...", "controversial": "..."}}
+    prompt_controversial = f"""Thema: {topic_desc}
 
-Be specific and insightful. Reference actual content from the titles."""
+Artikeltitel nach politischer Ausrichtung der Medien:
+{samples_text}
+
+Welche strukturellen Konfliktlinien und Spannungsfelder zeigen sich im deutschen Mediendiskurs zu diesem Thema?
+Antworte auf Deutsch in 2-3 präzisen analytischen Sätzen. Nur Fließtext, kein JSON, keine Aufzählung."""
+
+    shared = "Synthese nicht verfügbar."
+    controversial = "Synthese nicht verfügbar."
 
     try:
-        raw = call_llm(prompt, max_tokens=400)
-        raw = re.sub(r'```json|```', '', raw).strip()
-        match = re.search(r'\{.*?\}', raw, re.DOTALL)
-        if match:
-            result = json.loads(match.group())
-            return {
-                "shared_perspectives": result.get("shared", ""),
-                "controversial_points": result.get("controversial", ""),
-            }
-        else:
-            print(f"  ⚠ Synthesis: no valid JSON in response")
+        shared = call_llm(prompt_shared, max_tokens=500, system=system_shared).strip()
+        print(f"  ✓ Shared synthesis generated ({len(shared)} chars)")
     except Exception as e:
-        print(f"  ⚠ Synthesis failed: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"  ⚠ Shared synthesis failed: {e}")
+
+    try:
+        controversial = call_llm(prompt_controversial, max_tokens=500, system=system_controversial).strip()
+        print(f"  ✓ Controversial synthesis generated ({len(controversial)} chars)")
+    except Exception as e:
+        print(f"  ⚠ Controversial synthesis failed: {e}")
 
     return {
-        "shared_perspectives": "Synthese nicht verfügbar.",
-        "controversial_points": "Synthese nicht verfügbar.",
+        "shared_perspectives": shared,
+        "controversial_points": controversial,
     }
 
 
@@ -525,8 +575,15 @@ def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
     """Full Medienspiegel analysis pipeline."""
     print(f"\n🔍 Analyzing: {topic_id}")
     init_db(db_path)
-    candidates = load_topic_articles(topic_id, db_path)
-    print(f"  → {len(candidates)} candidates retrieved")
+    candidates = load_topic_articles(topic_id, db_path, days_back=60)
+    print(f"  → {len(candidates)} candidates retrieved (60 days)")
+
+    bias_groups = {a.get("bias") for a in candidates if a.get("bias") and a.get("bias") != "unknown"}
+    if len(bias_groups) < 3:
+        print(f"  ⚠ Only {len(bias_groups)} bias group(s) — expanding to 180 days")
+        candidates = load_topic_articles(topic_id, db_path, days_back=180)
+        print(f"  → {len(candidates)} candidates after expansion")
+
     if len(candidates) < 3:
         return {
             "error": f"Not enough articles for '{topic_id}' (found {len(candidates)})",
