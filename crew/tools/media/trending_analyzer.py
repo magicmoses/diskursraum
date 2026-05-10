@@ -14,12 +14,20 @@ Output: trending_topics.json mit zwei Listen:
 import os
 import re
 import json
-import sqlite3
 from datetime import datetime
+import psycopg2
+import psycopg2.extras
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
-DB_PATH = os.path.join(ROOT, "data", "news.db")
 OUTPUT_PATH = os.path.join(ROOT, "data", "results", "analytics", "trending_topics.json")
+
+DATABASE_URL = os.getenv("RAILWAY_DATABASE_URL") or os.getenv("DATABASE_URL")
+
+
+def _get_conn():
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL or RAILWAY_DATABASE_URL not set")
+    return psycopg2.connect(DATABASE_URL, cursor_factory=psycopg2.extras.RealDictCursor)
 
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
@@ -107,14 +115,16 @@ def _extract_db_keywords(days_back: int = 7) -> list[dict]:
     """Extract top-50 keyword candidates from recent articles using TF-IDF."""
     from sklearn.feature_extraction.text import TfidfVectorizer
 
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    rows = conn.execute("""
+    conn = _get_conn()
+    cur = conn.cursor()
+    cur.execute("""
         SELECT title, text FROM articles
-        WHERE crawled_at >= datetime('now', ?)
+        WHERE crawled_at >= NOW() - (%s * INTERVAL '1 day')
         AND word_count >= 10
         ORDER BY crawled_at DESC
-    """, (f"-{days_back} days",)).fetchall()
+    """, (days_back,))
+    rows = cur.fetchall()
+    cur.close()
     conn.close()
 
     if len(rows) < 20:

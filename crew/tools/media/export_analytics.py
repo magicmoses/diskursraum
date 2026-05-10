@@ -7,7 +7,6 @@ Called daily by GitHub Actions after ML processing.
 Results are overwritten on each run — always reflect latest data.
 """
 
-import sqlite3
 import json
 import os
 import sys
@@ -15,7 +14,6 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "..", "api"))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "news.db")
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "results", "analytics")
 
 

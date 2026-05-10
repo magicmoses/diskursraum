@@ -2,7 +2,7 @@ name: Daily ML Processing
 
 on:
   schedule:
-    - cron: "0 4 * * */3" 
+    - cron: "0 4 * * */3"
   workflow_dispatch:
 
 permissions:
@@ -16,14 +16,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Restore DB from cache
-        uses: actions/cache@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}
-          restore-keys: |
-            news-db-
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -31,67 +23,39 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sentence-transformers scikit-learn numpy germansentiment "transformers==4.40.0" torch requests python-dotenv groq fastapi pytrends
-
-      - name: Fix word counts
-        continue-on-error: true
-        run: |
-          python crew/tools/media/fix_word_count.py
-
-      - name: Save DB to cache (after fix)
-        uses: actions/cache/save@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}-fix
+          pip install sentence-transformers scikit-learn numpy germansentiment "transformers==4.40.0" torch requests python-dotenv groq fastapi pytrends psycopg2-binary pgvector anthropic
 
       - name: Compute embeddings
+        env:
+          RAILWAY_DATABASE_URL: ${{ secrets.RAILWAY_DATABASE_URL }}
         run: |
-          python crew/tools/media/embed_articles.py
-
-      - name: Save DB to cache (after embeddings)
-        uses: actions/cache/save@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}-embeddings
+          python crew/tools/media/clusterer.py
 
       - name: Compute sentiment + emotions
+        env:
+          RAILWAY_DATABASE_URL: ${{ secrets.RAILWAY_DATABASE_URL }}
         run: |
           python crew/tools/media/sentiment_analyzer.py
-
-      - name: Save DB to cache (after sentiment)
-        uses: actions/cache/save@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}-sentiment
 
       - name: Compute Medienspiegel analysis
         continue-on-error: true
         env:
+          RAILWAY_DATABASE_URL: ${{ secrets.RAILWAY_DATABASE_URL }}
           LLM_PROVIDER: groq
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python crew/tools/media/bridging_scorer.py --all
-
-      - name: Save DB to cache (after bridging)
-        uses: actions/cache/save@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}-bridging
 
       - name: Export analytics to JSON
         continue-on-error: true
         env:
+          RAILWAY_DATABASE_URL: ${{ secrets.RAILWAY_DATABASE_URL }}
           LLM_PROVIDER: groq
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python crew/tools/media/export_analytics.py
-
-      - name: Save DB to cache (final)
-        uses: actions/cache/save@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}
 
       - name: Commit results
         run: |

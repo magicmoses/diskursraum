@@ -6,7 +6,7 @@ Embedding Model: jinaai/jina-embeddings-v2-base-de
 - Supports up to 8192 tokens
 - Source: https://huggingface.co/jinaai/jina-embeddings-v2-base-de
 
-Architecture: Incremental embedding cache in SQLite
+Architecture: Incremental embedding cache in PostgreSQL (pgvector vector(768))
 - Embeddings computed once per article, stored in DB
 - Only new articles need embedding on each run
 """
@@ -14,62 +14,62 @@ Architecture: Incremental embedding cache in SQLite
 import os
 import sys
 import json
-import sqlite3
-import numpy as np
-import pickle
 import re
+import numpy as np
 from sklearn.preprocessing import normalize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sentence_transformers import SentenceTransformer
+import psycopg2
+import psycopg2.extras
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
-DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
-)
-
+DATABASE_URL = os.getenv("RAILWAY_DATABASE_URL") or os.getenv("DATABASE_URL")
 MODEL_NAME = "jinaai/jina-embeddings-v2-base-de"
 
 
-# ── DB Setup ──────────────────────────────────────
-def init_embedding_cache(db_path: str = DB_PATH):
-    """Adds embedding column to articles table if not exists."""
-    conn = sqlite3.connect(db_path)
-    cols = [row[1] for row in conn.execute("PRAGMA table_info(articles)")]
-    if "embedding" not in cols:
-        conn.execute("ALTER TABLE articles ADD COLUMN embedding BLOB")
-        conn.commit()
-        print("✓ Added embedding column to articles table")
-    conn.close()
+def get_conn():
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL or RAILWAY_DATABASE_URL not set")
+    return psycopg2.connect(DATABASE_URL, cursor_factory=psycopg2.extras.RealDictCursor)
+
+
+def _vec_to_str(arr: np.ndarray) -> str:
+    return "[" + ",".join(f"{x:.8f}" for x in arr) + "]"
 
 
 # ── Embedding Cache ───────────────────────────────
-def get_articles_needing_embeddings(conn: sqlite3.Connection) -> list[dict]:
-    rows = conn.execute("""
+def get_articles_needing_embeddings(conn) -> list[dict]:
+    cur = conn.cursor()
+    cur.execute("""
         SELECT id, text FROM articles
         WHERE embedding IS NULL
         AND word_count >= 10
-    """).fetchall()
-    return [{"id": row[0], "text": row[1]} for row in rows]
+    """)
+    rows = cur.fetchall()
+    cur.close()
+    return [{"id": r["id"], "text": r["text"]} for r in rows]
 
 
-def save_embeddings(conn: sqlite3.Connection, article_ids: list, embeddings: np.ndarray):
+def save_embeddings(conn, article_ids: list, embeddings: np.ndarray):
+    cur = conn.cursor()
     for article_id, embedding in zip(article_ids, embeddings):
-        blob = pickle.dumps(embedding)
-        conn.execute(
-            "UPDATE articles SET embedding = ? WHERE id = ?",
-            (blob, article_id)
+        vec_str = _vec_to_str(embedding.astype(np.float32))
+        cur.execute(
+            "UPDATE articles SET embedding = %s::vector WHERE id = %s",
+            (vec_str, article_id),
         )
     conn.commit()
+    cur.close()
 
 
 # ── Embedding Computation ─────────────────────────
-def compute_and_cache_embeddings(db_path: str = DB_PATH, batch_size: int = 64):
+def compute_and_cache_embeddings(batch_size: int = 64):
     """
     Computes embeddings for articles that don't have them yet.
     Incremental — only processes new articles each run.
     """
-    conn = sqlite3.connect(db_path)
+    conn = get_conn()
     articles = get_articles_needing_embeddings(conn)
 
     if not articles:
@@ -88,11 +88,7 @@ def compute_and_cache_embeddings(db_path: str = DB_PATH, batch_size: int = 64):
     all_embeddings = []
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
-        batch_embeddings = model.encode(
-            batch,
-            show_progress_bar=True,
-            batch_size=32
-        )
+        batch_embeddings = model.encode(batch, show_progress_bar=True, batch_size=32)
         all_embeddings.extend(batch_embeddings)
         print(f"  Processed {min(i + batch_size, len(texts))}/{len(texts)}", flush=True)
 
@@ -133,7 +129,7 @@ CURATED_TOPICS = [
 ]
 
 
-def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_PATH) -> list[dict]:
+def get_trending_topics(days_back: int = 7, top_n: int = 20) -> list[dict]:
     """
     Returns trending topics based on curated list + TF-IDF discovered topics.
     1. Curated topics always included as base
@@ -144,22 +140,23 @@ def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_P
     from dotenv import load_dotenv
     load_dotenv()
 
-    conn = sqlite3.connect(db_path)
-    conn.row_factory = sqlite3.Row
-
-    rows = conn.execute("""
+    conn = get_conn()
+    cur = conn.cursor()
+    cur.execute("""
         SELECT id, title, text, source, bias, url, crawled_at
         FROM articles
-        WHERE crawled_at >= datetime('now', ?)
+        WHERE crawled_at >= NOW() - (%s * INTERVAL '1 day')
         AND word_count >= 10
         ORDER BY crawled_at DESC
-    """, (f'-{days_back} days',)).fetchall()
+    """, (days_back,))
+    rows = cur.fetchall()
+    cur.close()
     conn.close()
 
     if len(rows) < 20:
         return []
 
-    articles = [dict(row) for row in rows]
+    articles = [dict(r) for r in rows]
     texts = [a["title"] + " " + a["text"] for a in articles]
 
     print(f"  Extracting keyword candidates from {len(articles)} articles...")
@@ -206,7 +203,7 @@ def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_P
         ngram_range=(1, 2),
         min_df=2,
         max_df=0.8,
-        stop_words=german_stopwords
+        stop_words=german_stopwords,
     )
 
     try:
@@ -228,7 +225,7 @@ def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_P
                     and kw.lower() not in curated_lower):
                 tfidf_candidates.append({
                     "keyword": kw,
-                    "score": round(score / mean_scores[top_indices[0]], 3)
+                    "score": round(score / mean_scores[top_indices[0]], 3),
                 })
 
         print(f"  → {len(tfidf_candidates)} new keyword candidates (excl. curated)")
@@ -236,8 +233,6 @@ def get_trending_topics(days_back: int = 7, top_n: int = 20, db_path: str = DB_P
     extra_topics = []
     if tfidf_candidates:
         print(f"  Sending to LLM for semantic filtering...")
-        llm_provider = os.getenv("LLM_PROVIDER", "groq").lower()
-
         candidate_text = "\n".join([
             f"{c['keyword']}: {c['score']}"
             for c in tfidf_candidates[:100]
@@ -258,29 +253,15 @@ Rules:
 - Return empty array if no valid new topics found: []"""
 
         try:
-            if llm_provider == "ollama":
-                import requests as req
-                response = req.post(
-                    f"{os.getenv('OLLAMA_BASE_URL', 'http://localhost:11434')}/api/generate",
-                    json={
-                        "model": os.getenv("OLLAMA_MODEL", "llama3.1"),
-                        "prompt": prompt,
-                        "stream": False
-                    },
-                    timeout=60
-                )
-                raw = response.json().get("response", "[]")
-            else:
-                from groq import Groq
-                client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-                response = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.1,
-                    max_tokens=100
-                )
-                raw = response.choices[0].message.content.strip()
-
+            from groq import Groq
+            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+            response = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                max_tokens=100,
+            )
+            raw = response.choices[0].message.content.strip()
             raw = re.sub(r'```json|```', '', raw).strip()
             json_match = re.search(r'\[.*?\]', raw, re.DOTALL)
             if json_match:
@@ -289,7 +270,6 @@ Rules:
                     if isinstance(t, str)
                 ]
             print(f"  → LLM found {len(extra_topics)} additional topics: {extra_topics}")
-
         except Exception as e:
             print(f"  ⚠ LLM step failed: {e}")
 
@@ -301,29 +281,31 @@ Rules:
             seen.add(t.lower())
             unique_topics.append(t)
 
-    conn = sqlite3.connect(db_path)
+    conn = get_conn()
+    cur = conn.cursor()
     results = []
 
     for topic_name in unique_topics:
         keyword = topic_name.lower()
-        rows = conn.execute("""
+        cur.execute("""
             SELECT id, title, source, bias
             FROM articles
-            WHERE crawled_at >= datetime('now', ?)
-            AND (LOWER(title) LIKE ? OR LOWER(text) LIKE ?)
+            WHERE crawled_at >= NOW() - (%s * INTERVAL '1 day')
+            AND (LOWER(title) LIKE %s OR LOWER(text) LIKE %s)
             AND word_count >= 10
-        """, (f'-{days_back} days', f'%{keyword}%', f'%{keyword}%')).fetchall()
+        """, (days_back, f'%{keyword}%', f'%{keyword}%'))
+        rows = cur.fetchall()
 
         bias_counts = {}
         sources = set()
         sample_titles = []
 
         for row in rows:
-            bias = row[3] or "unknown"
+            bias = row["bias"] or "unknown"
             bias_counts[bias] = bias_counts.get(bias, 0) + 1
-            sources.add(row[2])
+            sources.add(row["source"])
             if len(sample_titles) < 3:
-                sample_titles.append(row[1])
+                sample_titles.append(row["title"])
 
         results.append({
             "topic": topic_name,
@@ -332,9 +314,10 @@ Rules:
             "bias_distribution": bias_counts,
             "sample_titles": sample_titles,
             "days_back": days_back,
-            "is_core": topic_name in CURATED_TOPICS[:10]
+            "is_core": topic_name in CURATED_TOPICS[:10],
         })
 
+    cur.close()
     conn.close()
     results.sort(key=lambda x: x["article_count"], reverse=True)
     print(f"  ✅ {len(results)} topics scored")

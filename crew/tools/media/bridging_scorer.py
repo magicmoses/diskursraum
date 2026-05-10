@@ -16,11 +16,11 @@ import os
 import sys
 import json
 import re
-import sqlite3
-import pickle
 import numpy as np
 from datetime import datetime
 from dotenv import load_dotenv
+import psycopg2
+import psycopg2.extras
 
 load_dotenv()
 
@@ -28,9 +28,13 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 from config import BIAS_SOURCES, SOURCE_BIAS, BIAS_SPECTRUM
 from topics import TOPICS
 
-DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
-)
+DATABASE_URL = os.getenv("RAILWAY_DATABASE_URL") or os.getenv("DATABASE_URL")
+
+
+def get_conn():
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL or RAILWAY_DATABASE_URL not set")
+    return psycopg2.connect(DATABASE_URL, cursor_factory=psycopg2.extras.RealDictCursor)
 
 TOPIC_KEYWORDS = {
     "migration": [
@@ -267,99 +271,81 @@ def call_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
     raise RuntimeError("Kein LLM verfügbar — weder Groq noch Claude")
 
 
-# ── DB Setup ──────────────────────────────────────
-def init_db(db_path: str = DB_PATH):
-    conn = sqlite3.connect(db_path)
-    cols = [row[1] for row in conn.execute("PRAGMA table_info(articles)")]
-    for col in ["sentiment", "emotion", "emotion_scores"]:
-        if col not in cols:
-            conn.execute(f"ALTER TABLE articles ADD COLUMN {col} TEXT")
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS analysis_results (
-            topic_id      TEXT PRIMARY KEY,
-            computed_at   TEXT,
-            article_count INTEGER,
-            result_json   TEXT
-        )
-    """)
-    conn.commit()
-    conn.close()
-
-
-def save_result(topic_id: str, result: dict, db_path: str = DB_PATH):
-    conn = sqlite3.connect(db_path)
-    conn.execute("""
-        INSERT OR REPLACE INTO analysis_results
-        (topic_id, computed_at, article_count, result_json)
-        VALUES (?, ?, ?, ?)
+# ── DB Persistence ────────────────────────────────
+def save_result(topic_id: str, result: dict):
+    conn = get_conn()
+    cur = conn.cursor()
+    cur.execute("""
+        INSERT INTO analysis_results
+            (topic_id, computed_at, article_count, result_json)
+        VALUES (%s, %s, %s, %s)
+        ON CONFLICT (topic_id) DO UPDATE SET
+            computed_at   = EXCLUDED.computed_at,
+            article_count = EXCLUDED.article_count,
+            result_json   = EXCLUDED.result_json
     """, (
         topic_id,
         datetime.utcnow().isoformat(),
         result.get("article_count", 0),
-        json.dumps(result, ensure_ascii=False)
+        json.dumps(result, ensure_ascii=False),
     ))
-    # Zusätzlich als JSON-Datei für Deployment
+    conn.commit()
+    cur.close()
+    conn.close()
+
     results_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "results")
     os.makedirs(results_dir, exist_ok=True)
     with open(os.path.join(results_dir, f"{topic_id}.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
-        
-    conn.commit()
-    conn.close()
 
 
-def load_cached_result(topic_id: str, db_path: str = DB_PATH):
-    conn = sqlite3.connect(db_path)
-    row = conn.execute("""
-        SELECT result_json, computed_at FROM analysis_results
-        WHERE topic_id = ?
-    """, (topic_id,)).fetchone()
+def load_cached_result(topic_id: str):
+    conn = get_conn()
+    cur = conn.cursor()
+    cur.execute(
+        "SELECT result_json, computed_at FROM analysis_results WHERE topic_id = %s",
+        (topic_id,),
+    )
+    row = cur.fetchone()
+    cur.close()
     conn.close()
     if row:
-        result = json.loads(row[0])
-        result["cached_at"] = row[1]
+        result = json.loads(row["result_json"])
+        result["cached_at"] = str(row["computed_at"])
         return result
     return None
 
 
 # ── Step 1: Broad Retrieval ───────────────────────
-def load_topic_articles(topic_id: str, db_path: str = DB_PATH, days_back: int = 60) -> list[dict]:
+def load_topic_articles(topic_id: str, days_back: int = 60) -> list[dict]:
     """Broad keyword retrieval — title AND text, limited to recent articles."""
     keywords = TOPIC_KEYWORDS.get(topic_id, [])
     if not keywords:
         return []
 
-    conn = sqlite3.connect(db_path)
-    conn.row_factory = sqlite3.Row
-
+    # %% = literal % in psycopg2 SQL strings
     conditions = " OR ".join([
-        f"(LOWER(title) LIKE '%{kw}%' OR LOWER(text) LIKE '%{kw}%')"
+        f"(LOWER(title) LIKE '%%{kw}%%' OR LOWER(text) LIKE '%%{kw}%%')"
         for kw in keywords
     ])
 
-    rows = conn.execute(f"""
+    conn = get_conn()
+    cur = conn.cursor()
+    cur.execute(f"""
         SELECT id, title, text, source, source_id, bias,
-               url, sentiment, emotion, embedding
+               url, sentiment, emotion
         FROM articles
         WHERE ({conditions})
         AND word_count >= 10
-        AND crawled_at >= datetime('now', ?)
+        AND crawled_at >= NOW() - (%s * INTERVAL '1 day')
         ORDER BY crawled_at DESC
         LIMIT 800
-    """, (f'-{days_back} days',)).fetchall()
+    """, (days_back,))
+    rows = cur.fetchall()
+    cur.close()
     conn.close()
 
-    articles = []
-    for row in rows:
-        article = dict(row)
-        if article.get("embedding"):
-            try:
-                article["embedding"] = pickle.loads(article["embedding"])
-            except Exception:
-                article["embedding"] = None
-        articles.append(article)
-
-    return articles
+    return [dict(r) for r in rows]
 
 
 # ── Step 2: LLM Relevance Filter ─────────────────
@@ -571,17 +557,16 @@ Antworte auf Deutsch in 2-3 präzisen analytischen Sätzen. Nur Fließtext, kein
 
 
 # ── Main Analysis ─────────────────────────────────
-def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
+def analyze_topic(topic_id: str) -> dict:
     """Full Medienspiegel analysis pipeline."""
     print(f"\n🔍 Analyzing: {topic_id}")
-    init_db(db_path)
-    candidates = load_topic_articles(topic_id, db_path, days_back=60)
+    candidates = load_topic_articles(topic_id, days_back=60)
     print(f"  → {len(candidates)} candidates retrieved (60 days)")
 
     bias_groups = {a.get("bias") for a in candidates if a.get("bias") and a.get("bias") != "unknown"}
     if len(bias_groups) < 3:
         print(f"  ⚠ Only {len(bias_groups)} bias group(s) — expanding to 180 days")
-        candidates = load_topic_articles(topic_id, db_path, days_back=180)
+        candidates = load_topic_articles(topic_id, days_back=180)
         print(f"  → {len(candidates)} candidates after expansion")
 
     if len(candidates) < 3:
@@ -619,9 +604,8 @@ def analyze_topic(topic_id: str, db_path: str = DB_PATH) -> dict:
     return result
 
 
-def compute_all_topics(db_path: str = DB_PATH):
+def compute_all_topics():
     """Pre-computes and caches all topic analyses. Called by GitHub Actions."""
-    init_db(db_path)
     print("\n🦞 ConsensusAgent — Medienspiegel Analysis")
     print(f"   Topics: {list(TOPICS.keys())}\n")
     print(f"   LLM Provider: {os.getenv('LLM_PROVIDER', 'groq').upper()}\n")
@@ -631,9 +615,9 @@ def compute_all_topics(db_path: str = DB_PATH):
 
     for topic_id in TOPICS.keys():
         try:
-            result = analyze_topic(topic_id, db_path)
+            result = analyze_topic(topic_id)
             if "error" not in result:
-                save_result(topic_id, result, db_path)
+                save_result(topic_id, result)
                 print(f"  ✅ {topic_id} cached", flush=True)
                 success += 1
             else:
@@ -654,7 +638,6 @@ if __name__ == "__main__":
     if topic_id == "--all":
         compute_all_topics()
     else:
-        init_db()
         result = analyze_topic(topic_id)
         if "error" in result:
             print(f"\nError: {result['error']}")

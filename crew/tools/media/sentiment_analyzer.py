@@ -14,52 +14,43 @@ Emotion Model: AnasAlokla/multilingual_go_emotions_V1.2
           disappointment, approval, neutral and more
 - Stored in: articles.emotion (dominant), articles.emotion_scores (all scores as JSON)
 
-Architecture: Incremental cache in SQLite (same pattern as embeddings)
+Architecture: Incremental cache in PostgreSQL
 - Sentiment and emotions computed once per article, stored in DB
 - Only new articles processed on each run
 """
 
 import os
-import sys
-import sqlite3
-from datetime import datetime
 import json
+import psycopg2
+import psycopg2.extras
 
-DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
-)
-
-
-def init_sentiment_column(db_path: str = DB_PATH):
-    """Adds sentiment column to articles table if not exists."""
-    conn = sqlite3.connect(db_path)
-    cols = [row[1] for row in conn.execute("PRAGMA table_info(articles)")]
-    if "sentiment" not in cols:
-        conn.execute("ALTER TABLE articles ADD COLUMN sentiment TEXT")
-        conn.commit()
-        print("✓ Added sentiment column to articles table")
-    conn.close()
+DATABASE_URL = os.getenv("RAILWAY_DATABASE_URL") or os.getenv("DATABASE_URL")
 
 
-def compute_and_cache_sentiment(db_path: str = DB_PATH, batch_size: int = 128):
+def get_conn():
+    if not DATABASE_URL:
+        raise RuntimeError("DATABASE_URL or RAILWAY_DATABASE_URL not set")
+    return psycopg2.connect(DATABASE_URL, cursor_factory=psycopg2.extras.RealDictCursor)
+
+
+def compute_and_cache_sentiment(batch_size: int = 128):
     """
     Computes sentiment for articles that don't have it yet.
     Incremental — only processes new articles each run.
     """
-    init_sentiment_column(db_path)
-
-    conn = sqlite3.connect(db_path)
-
-    # Get articles without sentiment
-    rows = conn.execute("""
+    conn = get_conn()
+    cur = conn.cursor()
+    cur.execute("""
         SELECT id, text FROM articles
         WHERE sentiment IS NULL
         AND word_count >= 10
-    """).fetchall()
+    """)
+    rows = cur.fetchall()
+    cur.close()
+    conn.close()
 
     if not rows:
         print("✓ All articles already have sentiment")
-        conn.close()
         return
 
     print(f"Computing sentiment for {len(rows)} articles...")
@@ -68,63 +59,46 @@ def compute_and_cache_sentiment(db_path: str = DB_PATH, batch_size: int = 128):
     from germansentiment import SentimentModel
     model = SentimentModel()
 
-    ids = [row[0] for row in rows]
-    texts = [row[1][:512] for row in rows]  # BERT max 512 chars
+    ids = [r["id"] for r in rows]
+    texts = [r["text"][:512] for r in rows]
 
-    # Process in batches
     all_sentiments = []
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
-        batch_sentiments = model.predict_sentiment(batch)
-        all_sentiments.extend(batch_sentiments)
+        all_sentiments.extend(model.predict_sentiment(batch))
         print(f"  Processed {min(i + batch_size, len(texts))}/{len(texts)}")
 
-    # Save to DB
+    conn = get_conn()
+    cur = conn.cursor()
     for article_id, sentiment in zip(ids, all_sentiments):
-        conn.execute(
-            "UPDATE articles SET sentiment = ? WHERE id = ?",
-            (sentiment, article_id)
+        cur.execute(
+            "UPDATE articles SET sentiment = %s WHERE id = %s",
+            (sentiment, article_id),
         )
     conn.commit()
+    cur.close()
     conn.close()
     print(f"✓ Saved {len(rows)} sentiment scores to DB")
 
-def init_emotion_column(db_path: str = DB_PATH):
-    """Adds emotion columns to articles table if not exists."""
-    conn = sqlite3.connect(db_path)
-    cols = [row[1] for row in conn.execute("PRAGMA table_info(articles)")]
-    if "emotion" not in cols:
-        conn.execute("ALTER TABLE articles ADD COLUMN emotion TEXT")
-        conn.commit()
-        print("✓ Added emotion column")
-    if "emotion_scores" not in cols:
-        conn.execute("ALTER TABLE articles ADD COLUMN emotion_scores TEXT")
-        conn.commit()
-        print("✓ Added emotion_scores column")
-    conn.close()
 
-
-def compute_and_cache_emotions(db_path: str = DB_PATH, batch_size: int = 32):
+def compute_and_cache_emotions(batch_size: int = 32):
     """
     Computes emotions for articles that don't have them yet.
     Model: AnasAlokla/multilingual_go_emotions_V1.2
-    - Multilingual (works on German)
-    - Multi-label (returns scores for all emotions)
-    - Labels: joy, sadness, anger, fear, surprise, disgust,
-              disappointment, approval, neutral, etc.
     """
-    init_emotion_column(db_path)
-
-    conn = sqlite3.connect(db_path)
-    rows = conn.execute("""
+    conn = get_conn()
+    cur = conn.cursor()
+    cur.execute("""
         SELECT id, text FROM articles
         WHERE emotion IS NULL
         AND word_count >= 10
-    """).fetchall()
+    """)
+    rows = cur.fetchall()
+    cur.close()
+    conn.close()
 
     if not rows:
         print("✓ All articles already have emotion scores")
-        conn.close()
         return
 
     print(f"Computing emotions for {len(rows)} articles...")
@@ -136,11 +110,14 @@ def compute_and_cache_emotions(db_path: str = DB_PATH, batch_size: int = 32):
         model="AnasAlokla/multilingual_go_emotions_V1.2",
         top_k=None,
         truncation=True,
-        max_length=512
+        max_length=512,
     )
 
-    ids = [row[0] for row in rows]
-    texts = [row[1][:512] for row in rows]
+    ids = [r["id"] for r in rows]
+    texts = [r["text"][:512] for r in rows]
+
+    conn = get_conn()
+    cur = conn.cursor()
 
     for i in range(0, len(texts), batch_size):
         batch_ids = ids[i:i + batch_size]
@@ -153,18 +130,17 @@ def compute_and_cache_emotions(db_path: str = DB_PATH, batch_size: int = 32):
             continue
 
         for article_id, result in zip(batch_ids, results):
-            # result is list of {label, score}
             scores = {r["label"]: round(float(r["score"]), 4) for r in result}
             dominant = max(scores, key=scores.get)
-
-            conn.execute(
-                "UPDATE articles SET emotion = ?, emotion_scores = ? WHERE id = ?",
-                (dominant, json.dumps(scores), article_id)
+            cur.execute(
+                "UPDATE articles SET emotion = %s, emotion_scores = %s WHERE id = %s",
+                (dominant, json.dumps(scores), article_id),
             )
 
         conn.commit()
         print(f"  Processed {min(i + batch_size, len(texts))}/{len(texts)}")
 
+    cur.close()
     conn.close()
     print(f"✓ Saved emotion scores for {len(rows)} articles")
 
