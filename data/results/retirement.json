@@ -1,42 +1,9 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 37,
-  "candidate_count": 68,
+  "article_count": 35,
+  "candidate_count": 73,
   "outlets": {
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Altersvorsorge: Wie sich der Riester-Nachfolger für Gutverdiener lohnen kann",
-        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
-        "Steuererklärung 2025: Altersvorsorge, Renten, Spenden – Diese Sonderausgaben sparen kräftig Steuern",
-        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/vorsorge-wie-sich-der-riester-nachfolger-fuer-gutverdiener-lohnen-kann/100222434.html",
-        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-diese-betriebsrenten-bieten-deutschlands-dax-und-mdax-konzerne/100210939.html",
-        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-2025-diese-sonderausgaben-senken-die-steuerlast-deutlich/100105897.html",
-        "https://www.handelsblatt.com/finanzen/vorsorge/betriebliche-altersvorsorge-diese-zusatzrenten-bieten-deutsche-konzerne/100210939.html"
-      ],
-      "dominant_emotion": "gratitude",
-      "top_emotions": [
-        {
-          "emotion": "gratitude",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
@@ -58,6 +25,35 @@
       "top_emotions": [
         {
           "emotion": "disappointment",
+          "count": 1
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Alterssicherung: Die AfD und die Rente – unhaltbare Versprechen",
+        "Private Altersvorsorge: Was taugt die neue Riester-Rente?",
+        "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell",
+        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/alterssicherung-die-afd-und-die-rente-unhaltbare-versprechen-accg-200808686.html",
+        "https://www.faz.net/aktuell/finanzen/private-altersvorsorge-anstatt-riester-rente-fuer-wen-sich-die-reform-lohnt-accg-200654362.html",
+        "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html",
+        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -87,29 +83,52 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
       "article_count": 3,
       "sample_titles": [
-        "Private Altersvorsorge: Was taugt die neue Riester-Rente?",
-        "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell",
-        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
+        "Altersvorsorge: Wie sich der Riester-Nachfolger für Gutverdiener lohnen kann",
+        "Altersvorsorge: Höhere Rentenbeiträge erwartet: Arbeitgeber und DGB kritisieren Klingbeils Kürzungen",
+        "Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/finanzen/private-altersvorsorge-anstatt-riester-rente-fuer-wen-sich-die-reform-lohnt-accg-200654362.html",
-        "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html",
-        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
+        "https://www.handelsblatt.com/finanzen/anlagestrategie/vorsorge-wie-sich-der-riester-nachfolger-fuer-gutverdiener-lohnen-kann/100222434.html",
+        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-heftige-kritik-an-klingbeils-griff-in-die-rentenkasse/100222208.html",
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/chefoekonom-welches-rentenniveau-kann-sich-deutschland-auf-dauer-leisten/100220363.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "gratitude",
       "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "gratitude",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 3,
+      "sample_titles": [
+        "Riester-Nachfolger: Bundesrat stimmt zu - das ist geplant",
+        "Nur ein Dreikampf im Rennen ums rettende Bundesliga-Ufer?",
+        "Hausverkauf für Leibrente: Chance oder Risiko?"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/private-altersvorsorge-bundesrat-100.html",
+        "https://www.zdfheute.de/sport/fussball-bundesliga-abstiegskampf-vfl-wolfsburg-fc-st-pauli-1-fc-heidenheim-100.html",
+        "https://www.zdfheute.de/politik/ausland/frankreich-immobilien-hausverkauf-altersvorsorge-rente-immobilientrend-100.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -121,22 +140,18 @@
       "article_count": 3,
       "sample_titles": [
         "Nachfolger für Riester-Rente fix: Was Sie zum neuen Altersvorsorgedepot wissen müssen",
-        "Halbe-halbe machen: Rente fair teilen: Wie das Splitting für Paare funktioniert",
-        "Aus für den Widerrufsjoker: Warum Inhaber einer Lebensversicherung oder Basisrente jetzt handeln sollten"
+        "Wenig Rente, hohe Mieten: Warnung vor massiver \"Wohnarmut\" bei Baby-Boomern",
+        "Halbe-halbe machen: Rente fair teilen: Wie das Splitting für Paare funktioniert"
       ],
       "urls": [
         "https://www.n-tv.de/ratgeber/Was-Sie-zum-neuen-Altersvorsorgedepot-wissen-muessen-id30799785.html",
-        "https://www.n-tv.de/ratgeber/Rente-fair-teilen-Wie-das-Splitting-fuer-Paare-funktioniert-id30790778.html",
-        "https://www.n-tv.de/ratgeber/Warum-Inhaber-einer-Lebensversicherung-oder-Basisrente-jetzt-handeln-sollten-id30787143.html"
+        "https://www.n-tv.de/politik/Warnung-vor-massiver-Wohnarmut-bei-Baby-Boomern-id30795628.html",
+        "https://www.n-tv.de/ratgeber/Rente-fair-teilen-Wie-das-Splitting-fuer-Paare-funktioniert-id30790778.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -189,22 +204,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 2,
-      "sample_titles": [
-        "Riester-Nachfolger: Bundesrat stimmt zu - das ist geplant",
-        "Hausverkauf für Leibrente: Chance oder Risiko?"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/private-altersvorsorge-bundesrat-100.html",
-        "https://www.zdfheute.de/politik/ausland/frankreich-immobilien-hausverkauf-altersvorsorge-rente-immobilientrend-100.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
@@ -242,20 +241,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Haseloff und Ramelow wollen gemeinsam jungen AfD-Wählern Angst machen"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/olaf-opitz-klare-kante/haseloff-ramelow-anti-afd-klassenkampf/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "cicero": {
       "source_id": "cicero",
       "source": "Cicero",
@@ -286,16 +271,16 @@
     }
   },
   "bias_distribution": {
+    "conservative-liberal": 5,
     "populist-mixed": 2,
-    "economic-liberal": 6,
-    "conservative-liberal": 4,
+    "economic-liberal": 3,
     "left": 2,
     "left-liberal": 10,
-    "neutral": 4,
+    "neutral": 5,
     "right-conservative": 7,
-    "far-right": 2
+    "far-right": 1
   },
-  "shared_perspectives": "Alle Gruppen teilen die Sorge um die Zukunft der Altersvorsorge und die Notwendigkeit von Reformen, wie etwa die Einführung eines Riester-Nachfolgers oder die Anpassung des Renteneintrittsalters, um die Finanzierbarkeit des Rentensystems zu gewährleisten. Dies zeigt sich in Titeln wie 'Riester-Nachfolger: Bundesrat stimmt zu - das ist geplant' oder 'Reform privater Altersvorsorge nimmt letzte parlamentarische Hürde'",
-  "controversial_points": "Die Berichterstattung divergiert jedoch stark in der Bewertung von Reformvorschlägen und der Rolle von privater Altersvorsorge, wie etwa in Titeln wie 'Höhere Zuschüsse beschlossen - So holen Sie sich mehr Geld für Ihre Privat-Rente' oder 'Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall', die unterschiedliche politische und ideologische Standpunkte widerspiegeln.",
-  "cached_at": "2026-05-09T06:56:51.990569"
+  "shared_perspectives": "Alle Gruppen teilen die Sorge um die Zukunft des Rentensystems und die Notwendigkeit einer Reform, wie etwa die Diskussionen über das Renteneintrittsalter und die private Altersvorsorge zeigen. Die Artikel aller Gruppen thematisieren auch die Herausforderungen des demographischen Wandels und die Auswirkungen auf die Rentenversicherung, wie beispielsweise in den Artikeln 'Boomer gehen in Rente: Das bedeutet es für die Jüngeren' und '5,1 Millionen Babyboomern droht Rente unter 800 Euro' deutlich wird.",
+  "controversial_points": "Die Berichterstattung divergiert vor allem in der Bewertung von Reformvorschlägen und der Rolle der privaten Altersvorsorge, wie etwa in den Artikeln 'Alterssicherung: Die AfD und die Rente – unhaltbare Versprechen' und 'Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall' erkennbar ist. Während einige Gruppen, wie die Konservativen und Wirtschaftsliberalen, private Altersvorsorge-Modelle wie die Riester-Rente und ihre Nachfolger befürworten, kritisieren linke Gruppen diese Ansätze und betonen die Notwendigkeit einer soliden gesetzlichen Rentenversicherung, wie in den Artikeln 'Bundesrat stimmt zu: Neue private Altersvorsorge löst Riester-Rente ab' und 'Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher' zu sehen ist.",
+  "cached_at": "2026-05-10T06:46:29.239742"
 }

@@ -2,7 +2,7 @@
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
   "article_count": 74,
-  "candidate_count": 118,
+  "candidate_count": 126,
   "outlets": {
     "welt": {
       "source_id": "welt",
@@ -24,11 +24,36 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 8,
+      "sample_titles": [
+        "Über migrantische Selbstbehauptung: „Und das geht nur gemeinsam“",
+        "Abkommen für Abschiebungen: Österreich setzt auf unsicheren Drittstaat",
+        "Palästina-Proteste vor Gericht: Verwaltungsgericht Berlin stoppt geplante Abschiebung",
+        "Abweisungen von Asylsuchenden: Dobrindts Show soll weitergehen"
+      ],
+      "urls": [
+        "https://taz.de/Ueber-migrantische-Selbstbehauptung/!6173835/",
+        "https://taz.de/Abkommen-fuer-Abschiebungen/!6177099/",
+        "https://taz.de/Palaestina-Proteste-vor-Gericht/!6177016/",
+        "https://taz.de/Illegale-Abweisungen-von-Asylsuchenden/!6176856/"
+      ],
+      "dominant_emotion": "remorse",
+      "top_emotions": [
+        {
+          "emotion": "remorse",
+          "count": 1
+        }
+      ]
+    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 8,
       "sample_titles": [
         "JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein",
         "Urteil Gericht verhindert Abschiebung von israelfeindlicher Irin",
@@ -53,81 +78,46 @@
         }
       ]
     },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 7,
+      "sample_titles": [
+        "\"Reduktion illegaler Migration zu 70 Prozent gelungen\", Alexander Dobrindt, CSU, Innenminister, zur Migrationspolitik",
+        "Held aus Gießen für Zivilcourage geehrt - Familie droht Abschiebung",
+        "Aus für Aufnahmeeinrichtung für Asylbegehrende (AfA) in Kusel?",
+        "Für Dobrindt eine echte Wende - für andere \"beeindruckende PR\""
+      ],
+      "urls": [
+        "https://www.hessenschau.de/gesellschaft/held-aus-giessen-fuer-zivilcourage-geehrt---familie-droht-abschiebung-v1,zivilcourage-giessen-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/aufnahmeeinrichtung-fuer-asylbegehrende-afa-in-kusel-soll-ende-juli-schliessen-bima-kuendigt-mietvertrag-mit-rheinland-pfalz-100.html",
+        "https://www.tagesschau.de/inland/dobrindt-grenzkontrollen-bab-100.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 8,
+      "article_count": 6,
       "sample_titles": [
         "25 Schwerverbrecher weg - So teuer war der Abschiebeflug nach Afghanistan",
-        "Gunnar Schupelius – Offen gesagt - Nein, die Migrationswende ist nicht gelungen!",
         "Jermaine (14) in Memmingen getötet - Das Asyl-Versagen beim mutmaßlichen Kinderkiller",
-        "„Keine Einwanderung in Sozialsysteme“ - Bas antwortet BILD – und macht es noch schlimmer"
+        "„Keine Einwanderung in Sozialsysteme“ - Bas antwortet BILD – und macht es noch schlimmer",
+        "„Wunsch gegen Realität“ - Wut-Landräte widersprechen SPD-Ministerin"
       ],
       "urls": [
         "https://www.bild.de/politik/25-schwerverbrecher-weg-so-teuer-war-der-abschiebeflug-nach-afghanistan-69fdb576cd4a28c470020be7",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/schupelius-nein-die-migrationswende-ist-nicht-gelungen-69fdc2a2591d4b3b0b719b27",
         "https://www.bild.de/regional/bayern/so-versagte-die-asyl-politik-beim-mutmasslichen-kinderkiller-von-memmingen-69fb2eaf78a5e02b5e7a5fb3",
-        "https://www.bild.de/politik/inland/keine-einwanderung-in-sozialsysteme-wirklich-baerbel-bas-antwortet-bild-69fc7932cd4a28c47001f91c"
+        "https://www.bild.de/politik/inland/keine-einwanderung-in-sozialsysteme-wirklich-baerbel-bas-antwortet-bild-69fc7932cd4a28c47001f91c",
+        "https://www.bild.de/politik/inland/ideologischer-wunsch-gegen-realitaet-wut-landraete-widersprechen-bas-satz-69fb737768e679ae0ccd5180"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "confusion",
       "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
         {
           "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 7,
-      "sample_titles": [
-        "Abkommen für Abschiebungen: Österreich setzt auf unsicheren Drittstaat",
-        "Palästina-Proteste vor Gericht: Verwaltungsgericht Berlin stoppt geplante Abschiebung",
-        "Abweisungen von Asylsuchenden: Dobrindts Show soll weitergehen",
-        "Zurückweisungen an deutschen Grenzen: Keine Angst vor Gerichten"
-      ],
-      "urls": [
-        "https://taz.de/Abkommen-fuer-Abschiebungen/!6177099/",
-        "https://taz.de/Palaestina-Proteste-vor-Gericht/!6177016/",
-        "https://taz.de/Illegale-Abweisungen-von-Asylsuchenden/!6176856/",
-        "https://taz.de/Zurueckweisungen-an-deutschen-Grenzen/!6176840/"
-      ],
-      "dominant_emotion": "remorse",
-      "top_emotions": [
-        {
-          "emotion": "remorse",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 6,
-      "sample_titles": [
-        "Rückstau an Anträgen: EU kritisiert: Deutschland nicht bereit für neues Asylsystem",
-        "\"ICE wird nicht im Stadion sein\": Fußball-WM als Falle der Einwanderungsbehörde?",
-        "\"Einwanderung in Sozialsysteme\": Arbeitsministerin Bas verteidigt umstrittene Aussage zu Asylmissbrauch",
-        "Missbrauch des Sozialstaats: Kritik an Bas wegen \"weltfremder\" Aussage über Einwanderung"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Asylreform-EU-Behoerde-kritisiert-Deutschland-fuer-mangelnde-Ressourcen-id30802209.html",
-        "https://www.n-tv.de/sport/fussball-wm/Fussball-WM-als-Falle-der-Einwanderungsbehoerde-id30801010.html",
-        "https://www.n-tv.de/politik/Arbeitsministerin-Bas-verteidigt-umstrittene-Aussage-zu-Asylmissbrauch-id30799575.html",
-        "https://www.n-tv.de/politik/Kritik-an-Bas-wegen-weltfremder-Aussage-ueber-Einwanderung-id30795818.html"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
           "count": 1
         }
       ]
@@ -140,63 +130,39 @@
       "sample_titles": [
         "Deutschland-Liveblog: Bas: „Es ging mir um Fachkräfte“",
         "Bas zur Migration: Die SPD weiß nicht mehr, was im Land vor sich geht",
-        "Einspruch Exklusiv: Kann der Staat die Bildung von „Ghettos“ verhindern?",
+        "Tag des Deutschen Brotes: Ukrainer, Syrer und Afghanen übernehmen die Brot-Jobs",
         "Flüchtlinge: Ist eine Rückkehr nach Syrien unzumutbar?"
       ],
       "urls": [
         "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-bas-fuehlt-sich-nach-migrations-aussage-falsch-verstanden-faz-110093143.html",
         "https://www.faz.net/aktuell/politik/baerbel-bas-zur-einwanderung-die-spd-weiss-nicht-mehr-was-im-land-vor-sich-geht-200811921.html",
-        "https://www.faz.net/premium/einspruch/exklusiv/kann-der-staat-die-bildung-von-ghettos-verhindern-200797836.html",
+        "https://www.faz.net/aktuell/rhein-main/wirtschaft/tag-des-brotes-ohne-auslaender-muessten-traditionsbaeckereien-dichtmachen-accg-200706612.html",
         "https://www.faz.net/aktuell/politik/inland/ist-eine-rueckkehr-nach-syrien-unzumutbar-200793580.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 5,
-      "sample_titles": [
-        "Razzien gegen Neonazis, US-Hype um Sauerkraut",
-        "\"Reduktion illegaler Migration zu 70 Prozent gelungen\", Alexander Dobrindt, CSU, Innenminister, zur Migrationspolitik",
-        "Held aus Gießen für Zivilcourage geehrt - Familie droht Abschiebung",
-        "Aus für Aufnahmeeinrichtung für Asylbegehrende (AfA) in Kusel?"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/multimedia/podcast/15-minuten/podcast-15-min-neonazis-grenzkontrollen-sauerkraut-hymne-100.html",
-        "https://www.hessenschau.de/gesellschaft/held-aus-giessen-fuer-zivilcourage-geehrt---familie-droht-abschiebung-v1,zivilcourage-giessen-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/aufnahmeeinrichtung-fuer-asylbegehrende-afa-in-kusel-soll-ende-juli-schliessen-bima-kuendigt-mietvertrag-mit-rheinland-pfalz-100.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 5,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 4,
       "sample_titles": [
-        "14-jähriger Schüler ermordet – mutmaßlicher Täter war abgelehnter Asylbewerber",
-        "Schweden dreht am Einbürgerungs- und Aufenthaltsrecht: Anpassen oder gehen",
-        "Tatort Zürich rät Zuwanderern: Bleibt weg!",
-        "Stippvisite in Rabat: Wadephul jetzt für mehr Zuwanderung aus Marokko"
+        "Rückstau an Anträgen: EU kritisiert: Deutschland nicht bereit für neues Asylsystem",
+        "\"Einwanderung in Sozialsysteme\": Arbeitsministerin Bas verteidigt umstrittene Aussage zu Asylmissbrauch",
+        "Missbrauch des Sozialstaats: Kritik an Bas wegen \"weltfremder\" Aussage über Einwanderung",
+        "Belegschaft ist \"stinksauer\": VW schiebt Ost-Integration auf"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/schueler-ermordet-abgelehnter-migrant-memmingen/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/schweden-einbuergerung-aufenthaltsrecht/",
-        "https://www.tichyseinblick.de/feuilleton/medien/tatort-zuerich-raet-zuwanderern-bleibt-weg/",
-        "https://www.tichyseinblick.de/daili-es-sentials/wadephul-fuer-zuwanderung-marokko/"
+        "https://www.n-tv.de/politik/Asylreform-EU-Behoerde-kritisiert-Deutschland-fuer-mangelnde-Ressourcen-id30802209.html",
+        "https://www.n-tv.de/politik/Arbeitsministerin-Bas-verteidigt-umstrittene-Aussage-zu-Asylmissbrauch-id30799575.html",
+        "https://www.n-tv.de/politik/Kritik-an-Bas-wegen-weltfremder-Aussage-ueber-Einwanderung-id30795818.html",
+        "https://www.n-tv.de/wirtschaft/VW-schiebt-Ost-Integration-auf-id30784532.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -226,6 +192,26 @@
         }
       ]
     },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "14-jähriger Schüler ermordet – mutmaßlicher Täter war abgelehnter Asylbewerber",
+        "Schweden dreht am Einbürgerungs- und Aufenthaltsrecht: Anpassen oder gehen",
+        "Stippvisite in Rabat: Wadephul jetzt für mehr Zuwanderung aus Marokko",
+        "Von Einwanderung zu Rückführung: Skandinavien schließt die offenen Tore"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/schueler-ermordet-abgelehnter-migrant-memmingen/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/schweden-einbuergerung-aufenthaltsrecht/",
+        "https://www.tichyseinblick.de/daili-es-sentials/wadephul-fuer-zuwanderung-marokko/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/von-einwanderung-zu-rueckfuehrung-skandinavien-schliesst-die-offenen-tore/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
@@ -248,29 +234,38 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 2,
+      "article_count": 3,
       "sample_titles": [
         "Bundespolitik: Dobrindt: Wer nicht flüchtet, ist nicht auf der Flucht in Gefahr",
+        "Memmingen: Ermittler: 14-Jähriger im Allgäu getötet - Tatverdächtiger tot",
         "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
       ],
       "urls": [
         "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-innenminister-flucht-migration-asyl-li.3477387",
+        "https://www.sueddeutsche.de/bayern/memmingen-bahnhof-jugendlicher-leichenfund-verdaechtiger-schuesse-polizei-li.3478325",
         "https://www.sueddeutsche.de/politik/syrien-rueckkehrer-buergerkrieg-unhcr-li.3477280"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
     },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 2,
+      "article_count": 3,
       "sample_titles": [
         "Spanien: Tausende Migranten lassen ihren Aufenthalt in Spanien legalisieren – Nachbarländer äußern Sorge",
+        "Migration: Was eine Begrenzung der Einwohnerzahl für die Schweiz bedeuten würde",
         "Migration: Viele Syrer kehren zurück – aber nur wenige aus Deutschland"
       ],
       "urls": [
         "https://www.handelsblatt.com/politik/international/spanien-tausende-migranten-nutzen-chance-zur-legalisierung-ihres-aufenthalts/100221005.html",
+        "https://www.handelsblatt.com/politik/international/migration-was-eine-begrenzung-der-einwohnerzahl-fuer-die-schweiz-bedeuten-wuerde/100221940.html",
         "https://www.handelsblatt.com/politik/international/migration-viele-syrer-kehren-zurueck-aber-nur-wenige-aus-deutschland/100221904.html"
       ],
       "dominant_emotion": "approval",
@@ -280,6 +275,45 @@
           "count": 1
         }
       ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Soll die Schweiz die Zuwanderung mit einem Eintrittspreis steuern?",
+        "KOMMENTAR - Die verwöhnte Schweiz verwaltet ihren Wohlstand nur noch. Kein Wunder, braucht es so viele Zuwanderer, um ihn zu erhalten"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/soll-die-schweiz-die-zuwanderung-mit-einem-eintrittspreis-steuern-ld.10005941",
+        "https://www.nzz.ch/meinung/die-verwoehnte-schweiz-verwaltet-ihren-wohlstand-nur-noch-kein-wunder-braucht-es-so-viele-zuwanderer-um-ihn-zu-erhalten-ld.10005613"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Das Migrations-Problem wächst weiter"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/das_migrations_problem_waechst_weiter"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "zdf": {
       "source_id": "zdf",
@@ -296,25 +330,6 @@
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Soll die Schweiz die Zuwanderung mit einem Eintrittspreis steuern?"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/soll-die-schweiz-die-zuwanderung-mit-einem-eintrittspreis-steuern-ld.10005941"
-      ],
-      "dominant_emotion": "surprise",
-      "top_emotions": [
-        {
-          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -363,16 +378,16 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 8,
-    "left-liberal": 10,
-    "right-conservative": 18,
-    "conservative-liberal": 7,
-    "far-right": 15,
-    "left": 7,
-    "neutral": 7,
-    "economic-liberal": 2
+    "far-right": 13,
+    "left": 8,
+    "populist-mixed": 6,
+    "left-liberal": 11,
+    "right-conservative": 16,
+    "conservative-liberal": 8,
+    "neutral": 9,
+    "economic-liberal": 3
   },
-  "shared_perspectives": "Alle Gruppen teilen die Besorgnis über die Herausforderungen und Komplexität der Migrations- und Asylpolitik in Deutschland, wie etwa die Integration von Geflüchteten und Migranten, Abschiebungen und Rückführungen. Dies zeigt sich in Artikeln wie 'Zuwanderung: Deutlich weniger Asylanträge in Brandenburg' und 'Reduktion illegaler Migration zu 70 Prozent gelungen', die auf die quantitative Entwicklung der Migration hinweisen.",
-  "controversial_points": "Die Berichterstattung divergiert insbesondere bei der Bewertung der Migrationspolitik und der Rolle von Parteien, wie etwa in Artikeln wie 'Gunnar Schupelius – Offen gesagt - Nein, die Migrationswende ist nicht gelungen!' und 'Bas zur Migration: Die SPD weiß nicht mehr, was im Land vor sich geht', die unterschiedliche Meinungen über den Erfolg oder Misserfolg der Migrationspolitik widerspiegeln.",
-  "cached_at": "2026-05-09T06:56:36.073710"
+  "shared_perspectives": "Alle Gruppen scheinen sich darauf zu konzentrieren, dass die Migration und Asylpolitik in Deutschland ein komplexes und vielschichtiges Thema ist, das sowohl die Einwanderung als auch die Integration von Migranten und Flüchtlingen umfasst, wie es in Artikeln wie 'Das Migrations-Problem wächst weiter' und 'Zuwanderung: Deutlich weniger Asylanträge in Brandenburg' deutlich wird. Sie teilen auch die Besorgnis über die Auswirkungen der Migration auf die Sozialsysteme, wie in 'JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein' und 'Keine Einwanderung in Sozialsysteme' zu sehen ist.",
+  "controversial_points": "Die Berichterstattung divergiert jedoch stark in der Bewertung der Asylpolitik und der Migration, insbesondere bei der Frage, ob die Einwanderung in die Sozialsysteme ein Problem darstellt, wie es in 'JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein' und 'Was an der Bas-Aussage falsch ist' kontrovers diskutiert wird, sowie bei der Frage, ob Abschiebungen und Grenzkontrollen notwendig sind, wie es in 'Urteil Gericht verhindert Abschiebung von israelfeindlicher Irin' und '25 Schwerverbrecher weg - So teuer war der Abschiebeflug nach Afghanistan' unterschiedlich dargestellt wird.",
+  "cached_at": "2026-05-10T06:46:08.907142"
 }
