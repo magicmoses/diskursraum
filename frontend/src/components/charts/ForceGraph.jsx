@@ -15,8 +15,11 @@ const TOPIC_LABELS = {
   migration:        'Migration',
   energy_transition:'Energiewende',
   retirement:       'Rente',
-  wealth_tax:       'Vermögen',
   digitalization:   'Digitalisierung',
+  work_transition:  'Arbeit',
+  defense:          'Verteidigung',
+  family_children:  'Familie',
+  education:        'Bildung',
 }
 
 export default function ForceGraph({ data, year }) {
@@ -49,25 +52,40 @@ export default function ForceGraph({ data, year }) {
 
     if (!rawNodes?.length) return
 
-    const nodes = rawNodes.map(n => ({ ...n }))
+    // Guided initial X positions by political orientation
+    const INIT_X = {
+      linke: 0.08, gruene: 0.22, spd: 0.38,
+      cdu_csu: 0.62, fdp: 0.78, afd: 0.92,
+    }
+
+    const bs = data?.bridging_timeseries
+    const getBridging = id => id === 'afd'
+      ? (bs?.afd?.[yearKey] ?? 0)
+      : (bs?.stable_parties?.[id]?.[yearKey] ?? 0)
+
+    const nodes = rawNodes.map(n => ({
+      ...n,
+      x: (INIT_X[n.id] ?? 0.5) * width,
+      y: height / 2 + (Math.random() - 0.5) * 40,
+    }))
     const edges = rawEdges.map(e => ({ ...e }))
 
-    const weights    = edges.map(e => e.weight)
-    const wMin       = d3.min(weights) ?? 0.94
-    const wMax       = d3.max(weights) ?? 1.0
-    const strokeW    = d3.scaleLinear().domain([wMin, wMax]).range([1, 5])
+    const weights  = edges.map(e => e.weight)
+    const wMin     = d3.min(weights) ?? 0.12
+    const wMax     = d3.max(weights) ?? 0.74
+    const strokeW  = d3.scaleLinear().domain([wMin, wMax]).range([1, 5])
 
-    const maxBC      = d3.max(nodes, n => n.betweenness_centrality ?? 0) || 0.01
-    const nodeRadius = d3.scaleSqrt().domain([0, maxBC]).range([14, 26])
+    const allBS    = nodes.map(n => getBridging(n.id))
+    const maxBS    = Math.max(...allBS, 0.001)
+    const nodeRadius = id => 14 + (getBridging(id) / maxBS) * 12
 
     const sim = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(edges).id(n => n.id)
-        // higher similarity → shorter rest length
-        .distance(d => 200 - (d.weight - 0.94) * 3000)
-        .strength(0.7))
-      .force('charge', d3.forceManyBody().strength(-280))
+        .distance(d => 60 + (1 - d.weight) * 360)
+        .strength(d => 0.4 + d.weight * 0.5))
+      .force('charge', d3.forceManyBody().strength(-320))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collide', d3.forceCollide(34))
+      .force('collide', d3.forceCollide(38))
 
     const g = svg.append('g')
 
@@ -97,14 +115,13 @@ export default function ForceGraph({ data, year }) {
       )
 
     nodeG.append('circle')
-      .attr('r', d => nodeRadius(d.betweenness_centrality ?? 0))
+      .attr('r', d => nodeRadius(d.id))
       .attr('fill', d => PARTY_HEX[d.id] ?? '#8B9BAF')
       .attr('fill-opacity', 0.9)
       .attr('stroke', '#1E2023')
       .attr('stroke-width', 2)
       .on('mouseenter', (event, d) => {
-        const score = data?.bridging_timeseries?.stable_parties?.[d.id]?.[yearKey]
-          ?? data?.bridging_timeseries?.afd?.[yearKey]
+        const score = getBridging(d.id)
         setTooltip({
           x: event.clientX, y: event.clientY,
           text: `${PARTY_NAMES[d.id] ?? d.name}\nBridging: ${score != null ? score.toFixed(4) : '—'}`,
@@ -115,7 +132,7 @@ export default function ForceGraph({ data, year }) {
 
     nodeG.append('text')
       .attr('text-anchor', 'middle')
-      .attr('dy', d => nodeRadius(d.betweenness_centrality ?? 0) + 13)
+      .attr('dy', d => nodeRadius(d.id) + 13)
       .attr('style', 'fill: var(--text-secondary); font-family: var(--font-mono); font-size: 11px; pointer-events: none')
       .text(d => PARTY_NAMES[d.id] ?? d.name)
 

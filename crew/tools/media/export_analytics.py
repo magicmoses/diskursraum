@@ -12,11 +12,11 @@ import json
 import os
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "api"))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "..", "api"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", ".."))
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "news.db")
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "data", "results", "analytics")
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "news.db")
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "results", "analytics")
 
 
 def export(filename: str, data):
@@ -43,11 +43,10 @@ def run():
     export("emotions_per_bias.json", database.get_emotions_per_bias_filtered())
     export("editorial_profiles.json",database.get_source_editorial_profile())
 
-    # Trending Topics 
+    # Trending Topics
     try:
-        sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-        from clusterer import get_trending_topics
-        trending = get_trending_topics(days_back=7, top_n=20)
+        from trending_analyzer import generate_trending_topics
+        trending = generate_trending_topics(days_back=7)
         export("trending_topics.json", trending)
     except Exception as e:
         print(f"  ⚠ trending_topics skipped: {e}")

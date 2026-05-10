@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python recompute_bridging.py 2025)",
+      "Bash(python recompute_bridging.py 2025 --skip-history)",
+      "Bash(python recompute_bridging.py)",
+      "Bash(python *)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(node -e ' *)",
+      "Bash(start *)",
+      "Bash(curl -s \"http://localhost:8001/stats/overview\")",
+      "Bash(curl -s --max-time 3 \"http://localhost:8001/\")",
+      "Bash(conda run *)",
+      "Bash(conda env *)",
+      "Bash(curl -s --max-time 3 \"http://localhost:8001/stats/overview\")",
+      "Bash(curl -sv --max-time 3 \"http://localhost:8001/stats/overview\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":8001\")",
+      "Bash(cmd /c \"cd C:\\\\Users\\\\ayzen\\\\projects\\\\agentic\\\\consensus-agent\\\\api && conda activate consensus-agent && uvicorn main:app --port 8001\")",
+      "Bash(curl -s --max-time 4 \"http://localhost:8001/stats/overview\")",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(Get-Process *)",
+      "Bash(C:\\\\Users\\\\ayzen\\\\miniconda3\\\\envs\\\\consensus-agent\\\\python.exe *)",
+      "Bash(curl -s http://localhost:8001/health)",
+      "Bash(curl -s http://localhost:8001/)",
+      "PowerShell(Start-Process -FilePath \"C:\\\\Users\\\\ayzen\\\\miniconda3\\\\envs\\\\consensus-agent\\\\python.exe\" -ArgumentList \"-c\", \"import uvicorn; uvicorn.run\\('main:app', port=8001, host='127.0.0.1', loop='asyncio'\\)\" -WorkingDirectory \"C:\\\\Users\\\\ayzen\\\\projects\\\\agentic\\\\consensus-agent\\\\api\" -NoNewWindow -PassThru)",
+      "PowerShell(Start-Sleep -Seconds 5; try { $r = Invoke-WebRequest -Uri \"http://localhost:8001/\" -TimeoutSec 3; \"Status: $\\($r.StatusCode\\)\" } catch { \"Failed: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8001/\" -TimeoutSec 5; \"OK: $\\($r.StatusCode\\)\" } catch { \"Err: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8001/api/status\" -TimeoutSec 5; $r.Content.Substring\\(0,300\\) } catch { \"Err: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8001/health\" -TimeoutSec 5; $r.Content } catch { \"Err: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(& \"C:\\\\Users\\\\ayzen\\\\miniconda3\\\\envs\\\\consensus-agent\\\\python.exe\" -m pip install pytrends --quiet 2>&1 | Select-Object -Last 3)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\ayzen\\\\projects\\\\agentic\\\\consensus-agent\\\\crew\\\\tools\" -Recurse -Name | Where-Object { $_ -notmatch \"__pycache__\" })",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

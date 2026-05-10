@@ -5,9 +5,9 @@ const SECTIONS = [
     route: '/medienspiegel',
     dim: 'I',
     title: 'Medienspiegel',
-    subtitle: 'Wie berichten 15 deutsche Medien über gesellschaftliche Debatten?',
-    body: 'Täglich aktualisiert. Fünf politische Themen. Von links bis rechts — wo gibt es Konsens, wo beginnt der Diskurs?',
-    meta: '15 Quellen · 5 Themen · täglich',
+    subtitle: 'Wie berichten 19 deutsche Medien über gesellschaftliche Debatten?',
+    body: 'Täglich aktualisiert. Acht politische Themen. Von links bis rechts — wo gibt es Konsens, wo beginnt der Diskurs?',
+    meta: '19 Quellen · 8 Themen · täglich',
   },
   {
     route: '/parteienspiegel',
@@ -174,7 +174,7 @@ export default function Landing() {
               {/* Body */}
               <div style={{
                 fontSize: 'var(--text-xs)',
-                color: 'var(--text-muted)',
+                color: 'var(--text-secondary)',
                 lineHeight: 1.6,
                 marginTop: 'var(--space-1)',
               }}>
@@ -193,7 +193,7 @@ export default function Landing() {
                 <span style={{
                   fontFamily: 'var(--font-mono)',
                   fontSize: 'var(--text-xs)',
-                  color: 'var(--text-muted)',
+                  color: 'var(--text-secondary)',
                   letterSpacing: '0.04em',
                 }}>
                   {meta}

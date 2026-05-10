@@ -21,15 +21,30 @@ TOPICS = {
         "description": "Rentenpolitik, Rentenalter und Generationengerechtigkeit als gesellschaftliche Dauerdebatte",
         "emoji": "👴",
     },
-    "wealth_tax": {
-        "label": "Vermögenssteuer & Umverteilung",
-        "description": "Besteuerung großer Vermögen, Erbschaftssteuer und soziale Gerechtigkeit",
-        "emoji": "💸",
-    },
     "digitalization": {
         "label": "Digitale Transformation & KI",
         "description": "Digitalisierung, Künstliche Intelligenz und gesellschaftlicher Wandel durch Technologie",
         "emoji": "🤖",
+    },
+    "work_transition": {
+        "label": "Arbeit im Wandel",
+        "description": "Zukunft der Arbeit, Mindestlohn, Fachkräftemangel und Transformation durch Digitalisierung",
+        "emoji": "🏭",
+    },
+    "defense": {
+        "label": "Verteidigung & Militär",
+        "description": "Bundeswehr, NATO, Wehrpflicht und Sicherheitspolitik in einer veränderten Welt",
+        "emoji": "🛡",
+    },
+    "family_children": {
+        "label": "Für Familien & Kinder",
+        "description": "Kindergeld, Kita-Ausbau, Elterngeld und Vereinbarkeit von Familie und Beruf",
+        "emoji": "👨‍👩‍👧",
+    },
+    "education": {
+        "label": "Bildung & lebenslanges Lernen",
+        "description": "Schule, Hochschule, Ausbildung und Weiterbildung als Schlüssel zur gesellschaftlichen Teilhabe",
+        "emoji": "📚",
     },
 }
 

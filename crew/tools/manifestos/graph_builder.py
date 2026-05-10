@@ -160,40 +160,36 @@ def get_party_topic_embeddings(
 
 def compute_bridging_scores(
     topic_id: str,
-    party_embeddings: dict[str, np.ndarray],
+    party_embeddings: dict,
     parties: dict,
+    party_chunks: dict = None,
+    cat_distributions: dict = None,
 ) -> dict:
-    """Mean cosine similarity to all other parties = bridging score.
-    Uses mean of chunk embeddings per party as representative vector."""
-    from sklearn.metrics.pairwise import cosine_similarity
+    """
+    Two-signal bridging score: semantic similarity (40%) + thematic overlap (60%).
+    party_chunks: {party_id: list[str]} for weighted mean embedding.
+    cat_distributions: {party_id: {category: count}} for Jaccard signal.
+    Falls back to Signal 1 only when category data is absent.
+    """
+    from bridging_scorer import compute_pair_scores, compute_betweenness_bridging
 
-    scores = {}
-    pairwise_raw = {}
+    chunks = party_chunks or {p: [] for p in party_embeddings}
 
-    for party_id, emb in party_embeddings.items():
-        mean_emb = emb.mean(axis=0).reshape(1, -1)
-        sims = []
-        for other_id, other_emb in party_embeddings.items():
-            if other_id == party_id:
-                continue
-            sim = float(cosine_similarity(mean_emb, other_emb.mean(axis=0).reshape(1, -1))[0][0])
-            sims.append(sim)
-            key = "__".join(sorted([party_id, other_id]))
-            if key not in pairwise_raw:
-                pairwise_raw[key] = []
-            pairwise_raw[key].append(sim)
-        scores[party_id] = round(np.mean(sims), 4) if sims else 0.0
+    pair_scores = compute_pair_scores(chunks, party_embeddings, cat_distributions)
 
-    pairwise = {k: round(np.mean(v), 4) for k, v in pairwise_raw.items()}
-    most_bridging = max(scores, key=scores.get) if scores else None
+    if not pair_scores:
+        return {
+            "topic_id": topic_id,
+            "bridging_scores": {},
+            "most_bridging_party": None,
+            "most_bridging_party_name": None,
+            "pairwise_similarity": {},
+        }
 
-    return {
-        "topic_id": topic_id,
-        "bridging_scores": scores,
-        "most_bridging_party": most_bridging,
-        "most_bridging_party_name": parties.get(most_bridging, {}).get("name") if most_bridging else None,
-        "pairwise_similarity": pairwise,
-    }
+    bridging = compute_betweenness_bridging(pair_scores, parties)
+    bridging["topic_id"] = topic_id
+    bridging["pairwise_similarity"] = pair_scores
+    return bridging
 
 
 def build_party_graph(
@@ -226,13 +222,20 @@ def build_party_graph(
         if p1 in parties and p2 in parties:
             G.add_edge(p1, p2, weight=round(float(np.mean(data["sims"])), 4), topics=data["topics"])
 
-    # Betweenness centrality: parties on many shortest paths between others
-    # are structural "bridge builders" — independent of raw similarity scores.
-    degree_centrality = nx.degree_centrality(G)
-    betweenness_centrality = nx.betweenness_centrality(G, weight="weight")
+    # Closeness centrality on distance graph (distance = 1 - similarity).
+    # Betweenness is 0 for all nodes in a complete graph; closeness correctly
+    # identifies parties that are on average most similar to all others.
+    # A copy with inverted weights is used so ForceGraph edges keep similarity
+    # for thickness, while node sizes reflect true ideological centrality.
+    G_dist = G.copy()
+    for u, v, d in G_dist.edges(data=True):
+        G_dist[u][v]["weight"] = max(1.0 - d["weight"], 1e-6)
+
+    degree_centrality     = nx.degree_centrality(G)
+    betweenness_centrality = nx.closeness_centrality(G_dist, distance="weight")
 
     for node in G.nodes():
-        G.nodes[node]["degree_centrality"] = round(degree_centrality.get(node, 0), 4)
+        G.nodes[node]["degree_centrality"]     = round(degree_centrality.get(node, 0), 4)
         G.nodes[node]["betweenness_centrality"] = round(betweenness_centrality.get(node, 0), 4)
 
     most_central = max(betweenness_centrality, key=betweenness_centrality.get) if betweenness_centrality else None
@@ -272,7 +275,10 @@ def build_party_graph(
                 T.add_edge(p1, p2, weight=round(sim, 4))
 
         if T.number_of_edges() > 0:
-            t_between = nx.betweenness_centrality(T, weight="weight")
+            T_dist = T.copy()
+            for u, v, d in T_dist.edges(data=True):
+                T_dist[u][v]["weight"] = max(1.0 - d["weight"], 1e-6)
+            t_between = nx.closeness_centrality(T_dist, distance="weight")
             topic_most_central = max(t_between, key=t_between.get) if t_between else None
             topic_subgraphs[topic_id] = {
                 "nodes": [{"id": n, **T.nodes[n]} for n in T.nodes()],

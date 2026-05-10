@@ -22,10 +22,10 @@ from sklearn.preprocessing import normalize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sentence_transformers import SentenceTransformer
 
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "data", "news.db"
+    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
 )
 
 MODEL_NAME = "jinaai/jina-embeddings-v2-base-de"
@@ -112,7 +112,6 @@ CURATED_TOPICS = [
     "Rente",
     "Tempolimit",
     "Sterbehilfe",
-    "Vermögenssteuer",
     "Künstliche Intelligenz",
     "KI Regulierung",
     # ── Aktuelle News Topics ──────────────────────

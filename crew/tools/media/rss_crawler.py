@@ -9,13 +9,13 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 # ── Path setup — no crewai needed ─────────────────
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 from topics import TOPICS
 from news_collector import NEWS_SOURCES, fetch_rss, strip_html
 
 # ── DB Setup ──────────────────────────────────────
 DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "data", "news.db"
+    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
 )
 
 def init_db(db_path: str):
@@ -205,7 +205,7 @@ def crawl(db_path: str = DB_PATH):
     print(f"   Total new:    {total_new}")
 
     summary_path = os.path.join(
-        os.path.dirname(__file__), "..", "..", "data", "last_crawl.json"
+        os.path.dirname(__file__), "..", "..", "..", "data", "last_crawl.json"
     )
     with open(summary_path, "w") as f:
         json.dump({

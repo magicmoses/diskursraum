@@ -4,17 +4,31 @@ import { getTopicAnalysis } from '../api/client'
 import { Loader } from '../components/ui'
 import { BIAS_COLORS, BIAS_LABELS } from '../constants/colors'
 
+const DEUTSCHLAND_KW = [
+  'deutschland', 'deutsch', 'bundesregierung', 'bundestag', 'berlin',
+  'cdu', 'spd', 'grüne', 'fdp', 'afd', 'merz', 'scholz', 'bundesrat',
+  'baden-württemberg', 'bayern', 'brandenburg', 'bremen', 'hamburg',
+  'hessen', 'mecklenburg-vorpommern', 'niedersachsen', 'nordrhein-westfalen',
+  'rheinland-pfalz', 'saarland', 'sachsen', 'sachsen-anhalt',
+  'schleswig-holstein', 'thüringen',
+]
+
+function isGermanyTitle(title) {
+  const lower = title.toLowerCase()
+  return DEUTSCHLAND_KW.some(kw => lower.includes(kw))
+}
+
 // ── Bias config for TopicView ─────────────────────
 // Extended with bg/text for inline spectrum display
 const BIAS_DISPLAY = {
-  'left': { bg: '#1A2A3A', text: '#6B9AB8', label: 'Links' },
-  'left-liberal': { bg: '#1A2535', text: '#8B9BAF', label: 'Links-Liberal' },
-  'neutral': { bg: '#1E2023', text: '#8A8885', label: 'Neutral' },
-  'conservative-liberal': { bg: '#2A1F0E', text: '#C4781A', label: 'Konservativ-Liberal' },
-  'economic-liberal': { bg: '#2A1E0A', text: '#E8A84A', label: 'Wirtschaftsliberal' },
-  'right-conservative': { bg: '#2A1010', text: '#B85C38', label: 'Rechts-Konservativ' },
-  'populist-mixed': { bg: '#221A10', text: '#8B7355', label: 'Populistisch' },
-  'far-right': { bg: '#1F0A0A', text: '#7A3B2E', label: 'Rechtsaußen' },
+  'left':                 { bg: '#0F1F30', text: '#4A9EDB', label: 'Links' },
+  'left-liberal':         { bg: '#0D1A2B', text: '#7BA8C4', label: 'Links-Liberal' },
+  'neutral':              { bg: '#1A1C1F', text: '#9A9895', label: 'Neutral' },
+  'conservative-liberal': { bg: '#241808', text: '#E8891A', label: 'Konservativ-Liberal' },
+  'economic-liberal':     { bg: '#231700', text: '#F0B830', label: 'Wirtschaftsliberal' },
+  'right-conservative':   { bg: '#200808', text: '#D4623A', label: 'Rechts-Konservativ' },
+  'populist-mixed':       { bg: '#1C1208', text: '#A8855A', label: 'Populistisch' },
+  'far-right':            { bg: '#180606', text: '#9A3B2E', label: 'Rechtsaußen' },
 }
 
 const BIAS_SPECTRUM = [
@@ -43,7 +57,7 @@ const S = {
     fontSize: 'var(--text-xs)',
     letterSpacing: '0.08em',
     textTransform: 'uppercase',
-    color: 'var(--text-muted)',
+    color: 'var(--text-secondary)',
   },
   dot: (color) => ({
     width: '8px',
@@ -127,8 +141,8 @@ function SpectrumBar({ biasDistribution }) {
         })}
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 'var(--space-2)' }}>
-        <span style={{ ...S.label, color: '#6B9AB8' }}>Links</span>
-        <span style={{ ...S.label, color: '#7A3B2E' }}>Rechts</span>
+        <span style={{ ...S.label, color: '#4A9EDB' }}>Links</span>
+        <span style={{ ...S.label, color: '#9A3B2E' }}>Rechts</span>
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)', marginTop: 'var(--space-3)' }}>
         {ordered.map(b => {
@@ -247,7 +261,7 @@ function TabBar({ tabs, active, onChange }) {
             background: active === tab.id ? 'var(--bg-surface)' : 'var(--bg-primary)',
             border: 'none',
             borderBottom: active === tab.id ? '2px solid var(--signal)' : '2px solid transparent',
-            color: active === tab.id ? 'var(--text-primary)' : 'var(--text-muted)',
+            color: active === tab.id ? 'var(--text-primary)' : 'var(--text-secondary)',
             fontSize: 'var(--text-sm)',
             fontFamily: 'var(--font-body)',
             cursor: 'pointer',
@@ -308,7 +322,7 @@ export default function TopicView() {
           alignItems: 'center',
           gap: 'var(--space-2)',
           fontSize: 'var(--text-sm)',
-          color: 'var(--text-muted)',
+          color: 'var(--text-secondary)',
           background: 'none',
           border: 'none',
           cursor: 'pointer',
@@ -317,7 +331,7 @@ export default function TopicView() {
           transition: 'color 150ms ease',
         }}
         onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
-        onMouseLeave={e => e.currentTarget.style.color = 'var(--text-muted)'}
+        onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
       >
         ← Themenübersicht
       </button>
@@ -336,7 +350,7 @@ export default function TopicView() {
         }}>
           {data.topic_label}
         </h1>
-        <div style={{ display: 'flex', gap: 'var(--space-4)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+        <div style={{ display: 'flex', gap: 'var(--space-4)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
           <span>{data.article_count} Artikel</span>
           <span>·</span>
           <span>{outletList.length} Medienhäuser</span>
@@ -387,7 +401,7 @@ export default function TopicView() {
                       <span style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-primary)' }}>
                         {d.label}
                       </span>
-                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
+                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
                         {groupOutlets.map(o => o.source).join(', ')}
                       </span>
                     </div>
@@ -396,7 +410,7 @@ export default function TopicView() {
                     </span>
                   </div>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                    {groupOutlets.flatMap(o => o.sample_titles || []).slice(0, 3).map((title, i) => (
+                    {groupOutlets.flatMap(o => (o.sample_titles || []).filter(isGermanyTitle)).slice(0, 3).map((title, i) => (
                       <p key={i} style={{
                         fontSize: 'var(--text-xs)',
                         color: 'var(--text-secondary)',

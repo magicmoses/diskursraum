@@ -307,7 +307,7 @@ def _save_results(year: int, party_results: dict, overlap: dict):
     }
     path = RESULTS_DIR / f"category_distribution_{year}.json"
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=2) 
 
 
 if __name__ == "__main__":

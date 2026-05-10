@@ -10,7 +10,7 @@ Called by GitHub Actions daily.
 
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 from clusterer import init_embedding_cache, compute_and_cache_embeddings
 

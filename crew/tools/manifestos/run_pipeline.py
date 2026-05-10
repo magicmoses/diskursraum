@@ -38,16 +38,22 @@ TOPIC_KEYWORDS = {
     "migration":         ["migration", "asyl", "flüchtlinge", "einwanderung", "abschiebung", "integration", "zuwanderung", "grenzschutz"],
     "energy_transition": ["energiewende", "erneuerbare energien", "atomkraft", "kernenergie", "windenergie", "solarenergie", "kohleausstieg", "klimaschutz"],
     "retirement":        ["rente", "rentenpolitik", "rentenreform", "altersvorsorge", "rentenalter", "rentenniveau", "altersarmut"],
-    "wealth_tax":        ["vermögenssteuer", "erbschaftssteuer", "umverteilung", "steuergerechtigkeit", "reichensteuer", "spitzensteuersatz"],
     "digitalization":    ["digitalisierung", "künstliche intelligenz", "ki", "digitale transformation", "datenschutz", "cybersicherheit"],
+    "work_transition":   ["arbeitsmarkt", "mindestlohn", "tarifvertrag", "fachkräftemangel", "kurzarbeit", "homeoffice", "beschäftigung", "gewerkschaft", "vollbeschäftigung", "arbeitnehmer"],
+    "defense":           ["bundeswehr", "verteidigung", "nato", "militär", "rüstung", "wehrpflicht", "auslandseinsatz", "landesverteidigung", "sicherheitspolitik", "verteidigungshaushalt"],
+    "family_children":   ["familie", "kinder", "kindergeld", "elterngeld", "kita", "kindertagesstätte", "kinderarmut", "familienpolitik", "vereinbarkeit", "betreuung"],
+    "education":         ["bildung", "schule", "hochschule", "universität", "ausbildung", "weiterbildung", "lebenslanges lernen", "lehrermangel", "bildungsfinanzierung", "studium"],
 }
 
 TOPIC_LABELS = {
     "migration":         "Migration & Asylpolitik",
     "energy_transition": "Energiewende",
     "retirement":        "Rente & Altersvorsorge",
-    "wealth_tax":        "Vermögenssteuer & Umverteilung",
     "digitalization":    "Digitale Transformation & KI",
+    "work_transition":   "Arbeit im Wandel",
+    "defense":           "Verteidigung & Militär",
+    "family_children":   "Für Familien & Kinder",
+    "education":         "Bildung & lebenslanges Lernen",
 }
 
 PARTIES_TEST = {"cdu_csu": PARTIES["cdu_csu"]}

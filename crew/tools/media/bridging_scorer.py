@@ -24,12 +24,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 from config import BIAS_SOURCES, SOURCE_BIAS, BIAS_SPECTRUM
 from topics import TOPICS
 
 DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "data", "news.db"
+    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
 )
 
 TOPIC_KEYWORDS = {
@@ -84,21 +84,49 @@ TOPIC_KEYWORDS = {
         "grundrente", "mindestrente",
         "rentenkommission", "rentenberater",
     ],
-    "wealth_tax": [
-        "vermögenssteuer", "reichensteuer", "vermögensabgabe",
-        "millionärssteuer", "milliardärssteuer", "milliardäre steuer",
-        "superreiche", "ultrareiche", "hochvermögende",
-        "vermögensungleichheit", "vermögensverteilung",
-        "umverteilung", "umverteilungspolitik",
-        "erbschaftssteuer", "erbschaftsteuer", "erbschaftssteuerreform",
-        "schenkungssteuer",
-        "steuergerechtigkeit", "steuerreform", "steuererhöhung",
-        "spitzensteuersatz", "einkommensteuer erhöhung",
-        "kapitalertragsteuer", "abgeltungssteuer",
-        "finanztransaktionssteuer", "börsenumsatzsteuer",
-        "steuerparadies", "steueroasen", "steuervermeidung",
-        "vermögen ungleichheit", "reichtumsverteilung",
-        "soziale ungleichheit", "schere arm reich",
+    "work_transition": [
+        "mindestlohn", "tarifbindung", "leiharbeit", "gewerkschaft", "arbeitszeit",
+        "fachkräfte", "beschäftigung", "kurzarbeit", "werkverträge", "soziale sicherung",
+        "arbeitslosigkeit", "grundsicherung", "bürgergeld", "hartz", "arbeitsmarkt",
+        "vollbeschäftigung", "lohngleichheit", "equal pay", "betriebsrat",
+        "mitbestimmung", "scheinselbstständigkeit", "plattformarbeit", "homeoffice",
+        "automatisierung", "jobverlust", "qualifizierung", "umschulung", "fachkräftemangel",
+        "kurzarbeitergeld", "arbeitnehmer", "arbeitgeber", "tarifvertrag", "streik",
+    ],
+    "defense": [
+        "bundeswehr", "verteidigung", "nato", "rüstung", "wehrpflicht",
+        "sicherheitspolitik", "auslandseinsätze", "rüstungsexporte", "zeitenwende",
+        "bündnisverteidigung", "militär", "streitkräfte", "sicherheitsarchitektur",
+        "landesverteidigung", "zivilschutz", "abrüstung", "friedenspolitik",
+        "verteidigungshaushalt", "2-prozent-ziel", "waffenlieferungen",
+        "kriegswaffenkontrolle", "bundeswehrreform", "reservisten", "sanitätsdienst",
+        "cyberabwehr", "nato-beitritt", "bündnisfall", "artikel 5", "sicherheitsrat",
+        "ukraine-hilfe", "panzer", "munition", "drohnen", "rüstungsindustrie",
+    ],
+    "family_children": [
+        "familie", "kindergeld", "kita", "elterngeld", "kinderbetreuung",
+        "familienleistungen", "erziehung", "alleinerziehende", "betreuungsgeld",
+        "kinderfreibetrag", "familienpolitik", "vereinbarkeit", "kinderrechte",
+        "kinderarmut", "jugendschutz", "jugendhilfe", "kinderschutz", "pflegekinder",
+        "adoption", "elternzeit", "väter", "mütter", "geburtshilfe", "hebammen",
+        "kinderzuschlag", "grundsicherung kinder", "chancengleichheit", "kindeswohl",
+        "krippenplatz", "tagesmutter", "erzieher", "vorschule", "schulkind",
+        "jugendarbeit", "kindergarten", "hort", "ganztagsbetreuung", "kinderpolitik",
+        "frühkindliche förderung", "jugendamt",
+    ],
+    "education": [
+        "bildung", "schule", "lehrer", "hochschule", "universität", "bafög",
+        "berufsausbildung", "ausbildung", "studium", "bildungsgerechtigkeit",
+        "bildungsfinanzierung", "digitalisierung schule", "lernmittelfreiheit",
+        "inklusion", "sonderpädagogik", "ganztagsschule", "grundschule", "gymnasium",
+        "gesamtschule", "bildungsföderalismus", "weiterbildung", "umschulung",
+        "lebenslanges lernen", "volkshochschule", "meisterbrief", "duale ausbildung",
+        "fachschule", "studiengebühren", "hochschulzulassung", "forschung",
+        "wissenschaft", "ausbildungsplatz", "berufsschule", "bildungschancen",
+        "chancengerechtigkeit", "frühkindliche bildung", "kitaqualität",
+        "sprachförderung", "integration bildung", "lehramtsstudium", "quereinsteiger",
+        "schulfinanzierung", "bildungsarmut", "pisa", "abitur", "hauptschule",
+        "realschule", "schulpflicht", "schulabschluss", "nachhilfe", "förderunterricht",
     ],
     "digitalization": [
         "digitalisierung", "digitale transformation", "digitalstrategie",
@@ -145,14 +173,39 @@ TOPIC_DESCRIPTIONS = {
         "Rentensystem, die Riester-Rente sowie grundsätzliche Fragen zur "
         "Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung."
     ),
-    "wealth_tax": (
-        "Vermögenssteuer, Umverteilung und Steuergerechtigkeit in Deutschland. Dazu gehören "
-        "Forderungen nach einer Vermögenssteuer oder Reichensteuer, Debatten über die "
-        "Erbschaftssteuer und deren Reform, Diskussionen über den Spitzensteuersatz und "
-        "Einkommensteuerpolitik, die Frage der Besteuerung von Superreichen und "
-        "Milliardären, Steuervermeidung und Steueroasen, sowie grundsätzliche "
-        "gesellschaftliche Debatten über Vermögensungleichheit und die Schere zwischen "
-        "Arm und Reich in Deutschland."
+    "work_transition": (
+        "Die Zukunft der Arbeit in Deutschland — Mindestlohn, Tarifbindung, Fachkräftemangel "
+        "und soziale Sicherung. Dieser Themenbereich umfasst Debatten über Mindestlöhne und "
+        "Tarifverträge, Gewerkschaften und Arbeitgeber, Bürgergeld und Hartz-Reformen, "
+        "Kurzarbeit und Beschäftigungssicherung, die Auswirkungen von Automatisierung und "
+        "Digitalisierung auf den Arbeitsmarkt, Plattformarbeit und Scheinselbstständigkeit, "
+        "Homeoffice, Qualifizierung und Umschulung sowie Fragen zu Lohngleichheit, "
+        "Betriebsräten und Mitbestimmung."
+    ),
+    "defense": (
+        "Die deutsche Verteidigungspolitik, Bundeswehr und NATO-Engagement. Dieser "
+        "Themenbereich umfasst die Debatte um Wehrpflicht und Bundeswehrreform, "
+        "Rüstungsausgaben und das NATO-Zwei-Prozent-Ziel, Rüstungsexporte und "
+        "Waffenlieferungen, Auslandseinsätze der Bundeswehr, die Zeitenwende in der "
+        "deutschen Sicherheitspolitik nach dem russischen Angriff auf die Ukraine, "
+        "Cyberabwehr, Zivilschutz sowie Fragen zur Bündnisverteidigung und dem "
+        "Artikel-5-Beistandsfall innerhalb der NATO."
+    ),
+    "family_children": (
+        "Familienpolitik, Kinderbetreuung und Familienleistungen in Deutschland. Dieser "
+        "Themenbereich umfasst Debatten über Kindergeld und Kinderfreibetrag, den Kita-Ausbau "
+        "und Betreuungsplätze, Elterngeld und Elternzeit, die Vereinbarkeit von Familie und "
+        "Beruf, Kinderarmut und Grundsicherung für Kinder, Jugendschutz und Jugendhilfe, "
+        "Rechte und Wohlergehen von Kindern sowie frühkindliche Förderung. Auch Berichte "
+        "über Hebammen, Geburtshilfe, Tagesmütter und Erzieher gehören dazu."
+    ),
+    "education": (
+        "Das deutsche Bildungssystem von der Kita bis zur Hochschule und Weiterbildung. "
+        "Dieser Themenbereich umfasst Debatten über Schulfinanzierung und "
+        "Bildungsgerechtigkeit, BAföG und Studiengebühren, die duale Berufsausbildung, "
+        "Digitalisierung in Schulen, Lehrkräftemangel und Quereinsteiger, "
+        "Bildungsföderalismus, Inklusion und Sonderpädagogik, Ganztagsschulen, "
+        "PISA-Studien sowie lebenslanges Lernen und Weiterbildung im Wandel der Arbeitswelt."
     ),
     "digitalization": (
         "Digitalisierung, Künstliche Intelligenz und digitale Transformation in Deutschland "
@@ -231,7 +284,7 @@ def save_result(topic_id: str, result: dict, db_path: str = DB_PATH):
         json.dumps(result, ensure_ascii=False)
     ))
     # Zusätzlich als JSON-Datei für Deployment
-    results_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data", "results")
+    results_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "results")
     os.makedirs(results_dir, exist_ok=True)
     with open(os.path.join(results_dir, f"{topic_id}.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)

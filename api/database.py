@@ -251,8 +251,11 @@ def get_source_editorial_profile(days_back: int = 14):
 def get_trending_topics_from_db(days_back: int = 7, top_n: int = 20):
     cached = _load_cached("trending_topics.json")
     if cached:
-        return cached[:top_n]
-    return []
+        if isinstance(cached, dict) and ("deutschland" in cached or "international" in cached):
+            return cached
+        if isinstance(cached, list):
+            return {"deutschland": cached[:top_n], "international": cached[:top_n]}
+    return {"deutschland": [], "international": []}
 
 
 # ── Topic Analysis ────────────────────────────────

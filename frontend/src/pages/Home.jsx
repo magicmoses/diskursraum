@@ -1,4 +1,18 @@
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { getOverview } from '../api/client'
+import { BIAS_COLORS } from '../constants/colors'
+
+const SOURCE_BIAS = {
+  taz: 'left',
+  spiegel: 'left-liberal', zeit: 'left-liberal', sz: 'left-liberal', stern: 'left-liberal',
+  tagesschau: 'neutral', zdf: 'neutral', dw: 'neutral',
+  faz: 'conservative-liberal', cicero: 'conservative-liberal', nzz: 'conservative-liberal',
+  welt: 'right-conservative', focus: 'right-conservative', ntv: 'right-conservative',
+  junge_freiheit: 'far-right', tichys: 'far-right', achgut: 'far-right',
+  handelsblatt: 'economic-liberal',
+  bild: 'populist-mixed',
+}
 
 const TOPICS = [
   {
@@ -17,19 +31,39 @@ const TOPICS = [
     description: 'Rentenpolitik und Generationengerechtigkeit als gesellschaftliche Dauerdebatte.',
   },
   {
-    id: 'wealth_tax',
-    label: 'Vermögenssteuer & Umverteilung',
-    description: 'Besteuerung großer Vermögen, Erbschaftssteuer und soziale Gerechtigkeit.',
-  },
-  {
     id: 'digitalization',
     label: 'Digitale Transformation & KI',
     description: 'Digitalisierung, Künstliche Intelligenz und gesellschaftlicher Wandel durch Technologie.',
+  },
+  {
+    id: 'work_transition',
+    label: 'Arbeit im Wandel',
+    description: 'Zukunft der Arbeit, Mindestlohn, Fachkräftemangel und Transformation durch Digitalisierung.',
+  },
+  {
+    id: 'defense',
+    label: 'Verteidigung & Militär',
+    description: 'Bundeswehr, NATO, Wehrpflicht und Sicherheitspolitik in einer veränderten Welt.',
+  },
+  {
+    id: 'family_children',
+    label: 'Für Familien & Kinder',
+    description: 'Kindergeld, Kita-Ausbau, Elterngeld und Vereinbarkeit von Familie und Beruf.',
+  },
+  {
+    id: 'education',
+    label: 'Bildung & lebenslanges Lernen',
+    description: 'Schule, Hochschule, Ausbildung und Weiterbildung als Schlüssel zur gesellschaftlichen Teilhabe.',
   },
 ]
 
 export default function Home() {
   const navigate = useNavigate()
+  const [bySource, setBySource] = useState([])
+
+  useEffect(() => {
+    getOverview().then(d => { if (d?.by_source) setBySource(d.by_source) }).catch(() => {})
+  }, [])
 
   return (
     <div style={{ maxWidth: '960px' }}>
@@ -63,15 +97,79 @@ export default function Home() {
           color: 'var(--text-secondary)',
           lineHeight: 1.7,
           maxWidth: '560px',
-          marginBottom: 'var(--space-8)',
         }}>
-          15 deutsche Medien. 5 politische Themen. Täglich aktualisiert.
+          19 deutsche Medien. 8 politische Themen. Täglich aktualisiert.
           Wo gibt es Konsens — und wo beginnt der Diskurs?
         </p>
+      </div>
 
-        {/* Dimension II Teaser */}
+      {/* ── Divider ───────────────────────────────── */}
+      <div style={{
+        height: '1px',
+        background: `linear-gradient(to right, var(--border), transparent)`,
+        marginBottom: 'var(--space-8)',
+      }} />
+
+      {/* ── Media Overview ───────────────────────── */}
+      {bySource.length > 0 && (
+        <div style={{ marginBottom: 'var(--space-8)' }}>
+          <div style={{
+            fontFamily: 'var(--font-mono)',
+            fontSize: 'var(--text-xs)',
+            color: 'var(--text-secondary)',
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
+            marginBottom: 'var(--space-4)',
+          }}>
+            19 deutsche Medien — analysiert seit März 2026
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2px' }}>
+            {bySource.map(({ source, count }) => {
+              const bias = SOURCE_BIAS[source] || 'neutral'
+              const color = BIAS_COLORS[bias] || 'var(--text-muted)'
+              return (
+                <div
+                  key={source}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 'var(--space-2)',
+                    padding: '4px 10px',
+                    background: 'var(--bg-surface)',
+                    border: `1px solid ${color}30`,
+                  }}
+                >
+                  <div style={{ width: '6px', height: '6px', background: color, flexShrink: 0 }} />
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--text-secondary)' }}>
+                    {source}
+                  </span>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--text-muted)' }}>
+                    {count.toLocaleString()}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* ── Topic List ────────────────────────────── */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+        {TOPICS.map((topic, i) => (
+          <TopicRow
+            key={topic.id}
+            topic={topic}
+            index={i + 1}
+            onClick={() => navigate(`/medienspiegel/${topic.id}`)}
+            delay={i}
+          />
+        ))}
+      </div>
+
+      {/* ── Dimension II Teaser ───────────────────── */}
+      <div style={{ marginTop: 'var(--space-8)', marginBottom: 'var(--space-4)' }}>
         <div
-          onClick={() => navigate('/parties')}
+          onClick={() => navigate('/parteienspiegel')}
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -97,34 +195,14 @@ export default function Home() {
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--signal)' }}>
             II
           </span>
-          Parteiprogramme 2005–2025 analysieren
+          zu Dimension II Parteienspiegel
           <span style={{ color: 'var(--text-muted)' }}>→</span>
         </div>
       </div>
 
-      {/* ── Divider ───────────────────────────────── */}
-      <div style={{
-        height: '1px',
-        background: `linear-gradient(to right, var(--border), transparent)`,
-        marginBottom: 'var(--space-8)',
-      }} />
-
-      {/* ── Topic List ────────────────────────────── */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-        {TOPICS.map((topic, i) => (
-          <TopicRow
-            key={topic.id}
-            topic={topic}
-            index={i + 1}
-            onClick={() => navigate(`/medienspiegel/${topic.id}`)}
-            delay={i}
-          />
-        ))}
-      </div>
-
       {/* ── Footer ────────────────────────────────── */}
       <p style={{
-        marginTop: 'var(--space-16)',
+        marginTop: 'var(--space-8)',
         paddingTop: 'var(--space-8)',
         borderTop: '1px solid var(--border-subtle)',
         fontSize: 'var(--text-xs)',
@@ -173,17 +251,15 @@ function TopicRow({ topic, index, onClick, delay }) {
       onMouseEnter={e => e.currentTarget.style.background = 'var(--bg-elevated)'}
       onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
     >
-      {/* Index */}
       <span style={{
         fontFamily: 'var(--font-mono)',
         fontSize: 'var(--text-xs)',
-        color: 'var(--text-muted)',
+        color: 'var(--text-secondary)',
         textAlign: 'right',
       }}>
         {String(index).padStart(2, '0')}
       </span>
 
-      {/* Content */}
       <div>
         <div style={{
           fontSize: 'var(--text-base)',
@@ -203,7 +279,6 @@ function TopicRow({ topic, index, onClick, delay }) {
         </div>
       </div>
 
-      {/* Arrow */}
       <span style={{
         fontFamily: 'var(--font-mono)',
         fontSize: 'var(--text-sm)',

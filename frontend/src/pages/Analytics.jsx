@@ -1,101 +1,71 @@
 import { useEffect, useState } from 'react'
 import {
-  getOverview, getArticlesPerDay, getCrawlHistory,
+  getOverview, getArticlesPerDay,
   getTrendingTopics, getPublishingTimes, getWeekdayActivity,
-  getSourceDetails, getEmotionsPerBias, getEditorialProfiles,
+  getSourceDetails, getEmotionsPerBias,
 } from '../api/client'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
-  LineChart, Line, PieChart, Pie, Cell, Legend
+  LineChart, Line, PieChart, Pie, Cell,
 } from 'recharts'
-import { KpiCard, Section, Loader } from '../components/ui'
+import { KpiCard, Section, Loader, InfoIcon } from '../components/ui'
 import { EmotionBar } from '../components/charts'
 import {
   BIAS_COLORS, BIAS_LABELS, EMOTION_COLORS,
   TOOLTIP_STYLE, WEEKDAYS,
 } from '../constants/colors'
 
-// ── EditorialComparisonChart ──────────────────────
-// Analytics-spezifisch — bleibt hier
-function EditorialComparisonChart({ profiles }) {
-  if (!profiles || Object.keys(profiles).length === 0) return (
-    <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)', textAlign: 'center', padding: 'var(--space-8)' }}>
-      Keine Daten verfügbar
-    </div>
-  )
+const DEUTSCHLAND_KW = [
+  'deutschland', 'deutsch', 'bundesregierung', 'bundestag', 'berlin',
+  'cdu', 'spd', 'grüne', 'fdp', 'afd', 'merz', 'scholz', 'bundesrat',
+  'baden-württemberg', 'bayern', 'brandenburg', 'bremen', 'hamburg',
+  'hessen', 'mecklenburg-vorpommern', 'niedersachsen', 'nordrhein-westfalen',
+  'rheinland-pfalz', 'saarland', 'sachsen', 'sachsen-anhalt',
+  'schleswig-holstein', 'thüringen',
+]
 
-  const SOURCE_STYLE = {
-    taz: { color: '#4A7C9E', label: 'taz' },
-    welt: { color: '#B85C38', label: 'Die Welt' },
-    junge_freiheit: { color: '#7A3B2E', label: 'Junge Freiheit' },
-  }
-
-  const emotionSets = Object.entries(SOURCE_STYLE).map(([sourceId]) => {
-    const profile = profiles[sourceId]
-    if (!profile || profile.error) return new Set()
-    return new Set(profile.top_emotions?.map(e => e.emotion) || [])
-  })
-
-  const sharedEmotions = [...new Set([...emotionSets[0], ...emotionSets[1], ...emotionSets[2]])]
-    .filter(emotion => emotionSets.filter(s => s.has(emotion)).length >= 2)
-    .slice(0, 8)
-
-  const chartData = sharedEmotions.map(emotion => {
-    const point = { emotion }
-    Object.entries(SOURCE_STYLE).forEach(([sourceId]) => {
-      const profile = profiles[sourceId]
-      if (!profile || profile.error) { point[sourceId] = 0; return }
-      const found = profile.top_emotions?.find(e => e.emotion === emotion)
-      point[sourceId] = found ? found.pct : 0
-    })
-    return point
-  })
-
-  return (
-    <ResponsiveContainer width="100%" height={320}>
-      <BarChart data={chartData} margin={{ top: 8, right: 16, bottom: 16, left: 0 }}>
-        <XAxis dataKey="emotion" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)', fontFamily: 'var(--font-body)' }} />
-        <YAxis stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} unit="%" />
-        <Tooltip contentStyle={TOOLTIP_STYLE} formatter={(v, name) => [`${v}%`, SOURCE_STYLE[name]?.label || name]} />
-        <Legend iconType="square" wrapperStyle={{ fontSize: '12px', color: 'var(--text-secondary)' }} formatter={name => SOURCE_STYLE[name]?.label || name} />
-        {Object.entries(SOURCE_STYLE).map(([sourceId, style]) => (
-          <Bar key={sourceId} dataKey={sourceId} name={sourceId} fill={style.color} radius={[1, 1, 0, 0]} />
-        ))}
-      </BarChart>
-    </ResponsiveContainer>
-  )
+function isGermanyTopic(topic) {
+  const lower = (topic ?? '').toLowerCase()
+  return DEUTSCHLAND_KW.some(kw => lower.includes(kw))
 }
 
 // ── Main ──────────────────────────────────────────
 export default function Analytics() {
-  const [overview, setOverview] = useState(null)
-  const [articlesPerDay, setArticlesPerDay] = useState([])
-  const [crawlHistory, setCrawlHistory] = useState([])
-  const [trendingTopics, setTrendingTopics] = useState([])
+  const [overview, setOverview]               = useState(null)
+  const [articlesPerDay, setArticlesPerDay]   = useState([])
+  const [trendingTopics, setTrendingTopics]   = useState({ deutschland: [], international: [] })
   const [publishingTimes, setPublishingTimes] = useState([])
   const [weekdayActivity, setWeekdayActivity] = useState([])
-  const [sourceDetails, setSourceDetails] = useState([])
+  const [sourceDetails, setSourceDetails]     = useState([])
   const [emotionsPerBias, setEmotionsPerBias] = useState({})
-  const [editorialProfiles, setEditorialProfiles] = useState({})
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading]                 = useState(true)
+  const [trendTab, setTrendTab]               = useState('de')
 
   useEffect(() => {
     Promise.all([
-      getOverview(), getArticlesPerDay(), getCrawlHistory(),
+      getOverview(), getArticlesPerDay(),
       getPublishingTimes(), getWeekdayActivity(), getSourceDetails(),
-      getEmotionsPerBias(), getEditorialProfiles(14),
-    ]).then(([ov, apd, ch, pt, wa, sd, epb, ep]) => {
+      getEmotionsPerBias(),
+    ]).then(([ov, apd, pt, wa, sd, epb]) => {
       setOverview(ov)
       setArticlesPerDay(apd)
-      setCrawlHistory(ch.slice(0, 20).reverse())
       setPublishingTimes(pt)
       setWeekdayActivity(wa)
       setSourceDetails(sd)
       setEmotionsPerBias(epb)
-      setEditorialProfiles(ep)
       setLoading(false)
     })
-    getTrendingTopics(7, 5).then(tt => setTrendingTopics(tt))
+    getTrendingTopics(7, 20).then(tt => {
+      if (!tt) return
+      if (tt.deutschland || tt.international) {
+        setTrendingTopics(tt)
+      } else if (Array.isArray(tt)) {
+        setTrendingTopics({
+          deutschland: tt.filter(t => isGermanyTopic(t.topic)),
+          international: tt,
+        })
+      }
+    })
   }, [])
 
   if (loading) return <Loader text="Lade Analytics..." />
@@ -105,10 +75,17 @@ export default function Analytics() {
     count: weekdayActivity.filter(r => r.weekday === day).reduce((s, r) => s + r.count, 0)
   }))
 
-  const hourTotals = Array.from({ length: 24 }, (_, h) => ({
-    hour: `${h}h`,
-    count: publishingTimes.filter(r => r.hour === h).reduce((s, r) => s + r.count, 0)
+  const hourTotals = Array.from({ length: 24 }, (_, localH) => ({
+    hour: `${localH}h`,
+    count: publishingTimes.filter(r => r.hour === (localH - 2 + 24) % 24).reduce((s, r) => s + r.count, 0)
   }))
+
+  const weeksInDataset = Math.max(1, Math.round(articlesPerDay.length / 7))
+
+  const shownTopics = trendTab === 'de'
+    ? (trendingTopics.deutschland || [])
+    : (trendingTopics.international || [])
+  const maxVal = shownTopics[0]?.article_count || shownTopics[0]?.relevanz || 1
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)', paddingBottom: 'var(--space-16)' }}>
@@ -123,7 +100,7 @@ export default function Analytics() {
           textTransform: 'uppercase',
           marginBottom: 'var(--space-3)',
         }}>
-          Project Analytics
+          Diskursraum-Analytics
         </div>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -132,47 +109,74 @@ export default function Analytics() {
           letterSpacing: '-0.02em',
           marginBottom: 'var(--space-2)',
         }}>
-          Data Analytics
+          Diskursraum-Analytics
         </h1>
-        <p style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)' }}>
-          {overview.total_articles.toLocaleString()} Artikel · 15 Quellen · Live
-        </p>
       </div>
 
       {/* ── KPIs ────────────────────────────────── */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1px', background: 'var(--border)' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1px', background: 'var(--border)' }}>
         <KpiCard label="Artikel gesamt" value={overview.total_articles.toLocaleString()} />
-        <KpiCard label="Quellen" value="15" />
-        <KpiCard label="Letzter Crawl" mono value={
+        <KpiCard label="Quellen" value="19" />
+        <KpiCard label="Letzter inkludierter Crawl" mono value={
           overview.last_crawl.crawled_at
-            ? new Date(overview.last_crawl.crawled_at).toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' })
+            ? new Date(overview.last_crawl.crawled_at).toLocaleDateString('de-DE', {
+                day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'Europe/Berlin',
+              })
             : '—'
         } />
-        <KpiCard label="Neu (letzter Crawl)" mono value={overview.last_crawl.new_articles} />
       </div>
 
       {/* ── Trending Topics ──────────────────────── */}
-      <Section label="Live" title="Trending Topics" subtitle="Meistdiskutierte Themen der letzten 7 Tage">
-        {trendingTopics.length === 0 ? (
-          <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)' }}>Wird geladen...</div>
+      <Section title="Was bewegt Deutschland?" subtitle="Meistdiskutierte Themen in deutschen Medien der letzten 7 Tage">
+        <div style={{ display: 'flex', gap: '1px', background: 'var(--border)', marginBottom: 'var(--space-4)' }}>
+          {[
+            { id: 'de',   label: 'Innerhalb Deutschlands' },
+            { id: 'intl', label: 'International' },
+          ].map(t => (
+            <button
+              key={t.id}
+              onClick={() => setTrendTab(t.id)}
+              style={{
+                padding: 'var(--space-2) var(--space-4)',
+                background: trendTab === t.id ? 'var(--bg-elevated)' : 'var(--bg-surface)',
+                border: 'none',
+                borderBottom: trendTab === t.id ? '2px solid var(--signal)' : '2px solid transparent',
+                color: trendTab === t.id ? 'var(--text-primary)' : 'var(--text-secondary)',
+                fontSize: 'var(--text-sm)',
+                fontFamily: 'var(--font-body)',
+                cursor: 'pointer',
+                transition: 'all 150ms ease',
+              }}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+
+        {shownTopics.length === 0 ? (
+          <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)' }}>
+            {!trendingTopics.deutschland?.length && !trendingTopics.international?.length
+              ? 'Wird geladen...'
+              : 'Keine Treffer'}
+          </div>
         ) : (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-            {trendingTopics.slice(0, 5).map((topic, i) => {
-              const max = trendingTopics[0]?.article_count || 1
-              const pct = (topic.article_count / max * 100).toFixed(0)
+            {shownTopics.slice(0, 5).map((topic, i) => {
+              const val = topic.article_count ?? topic.relevanz ?? 0
+              const pct = (val / maxVal * 100).toFixed(0)
               return (
                 <div key={topic.topic} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-4)' }}>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', width: '16px' }}>
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', width: '16px' }}>
                     {String(i + 1).padStart(2, '0')}
                   </span>
-                  <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-primary)', width: '160px', flexShrink: 0 }}>
+                  <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-primary)', width: '220px', flexShrink: 0 }}>
                     {topic.topic}
                   </span>
                   <div style={{ flex: 1, height: '3px', background: 'var(--bg-elevated)' }}>
                     <div style={{ height: '3px', width: `${pct}%`, background: 'var(--signal)', transition: 'width 700ms ease' }} />
                   </div>
-                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', width: '60px', textAlign: 'right' }}>
-                    {topic.article_count} Art.
+                  <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', width: '60px', textAlign: 'right' }}>
+                    {topic.article_count != null ? `${topic.article_count} Art.` : `${(topic.relevanz * 100).toFixed(0)}%`}
                   </span>
                 </div>
               )
@@ -186,9 +190,16 @@ export default function Analytics() {
         <ResponsiveContainer width="100%" height={320}>
           <BarChart data={overview.by_source} layout="vertical" margin={{ left: 8 }}>
             <XAxis type="number" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
-            <YAxis type="category" dataKey="source" width={170} stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
+            <YAxis type="category" dataKey="source" width={190} stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <Tooltip contentStyle={TOOLTIP_STYLE} formatter={v => [`${v} Artikel`]} />
-            <Bar dataKey="count" fill="var(--signal)" radius={[0, 1, 1, 0]} />
+            <Bar dataKey="count" radius={[0, 1, 1, 0]}>
+              {(overview.by_source ?? []).map(entry => {
+                const sd = sourceDetails.find(s => s.source === entry.source)
+                return (
+                  <Cell key={entry.source} fill={BIAS_COLORS[sd?.bias] || 'var(--signal)'} />
+                )
+              })}
+            </Bar>
           </BarChart>
         </ResponsiveContainer>
       </Section>
@@ -221,7 +232,7 @@ export default function Analytics() {
               cy="50%"
               outerRadius={100}
               strokeWidth={0}
-              label={({ bias, percent }) => percent > 0.04 ? `${bias} ${(percent * 100).toFixed(0)}%` : ''}
+              label={({ bias, percent }) => percent > 0.04 ? `${BIAS_LABELS[bias] || bias} ${(percent * 100).toFixed(0)}%` : ''}
               labelLine={false}
             >
               {overview.by_bias.map(entry => (
@@ -233,8 +244,16 @@ export default function Analytics() {
         </ResponsiveContainer>
       </Section>
 
-      {/* ── Emotionaler Ton ──────────────────────── */}
-      <Section title="Emotionaler Ton" subtitle="Dominant-Emotionen ohne Neutral — emotionaler Subtext des Diskurses">
+      {/* ── Emotionsanalyse ──────────────────────── */}
+      <Section
+        title={
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 'var(--space-2)' }}>
+            Emotionsanalyse
+            <InfoIcon text="Das Modell klassifiziert Texte in 28 Emotionskategorien basierend auf dem GoEmotions-Datensatz. Neutral-Klasse wird ausgeblendet." />
+          </span>
+        }
+        subtitle="Ermittelt mit AnasAlokla/multilingual_go_emotions_V1.2"
+      >
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 'var(--space-8)' }}>
           {Object.entries(emotionsPerBias)
             .filter(([, emotions]) => Array.isArray(emotions) && emotions.length > 0)
@@ -247,28 +266,18 @@ export default function Analytics() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-4)' }}>
                   <div style={{ width: '8px', height: '8px', background: BIAS_COLORS[bias] || 'var(--text-muted)', flexShrink: 0 }} />
                   <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-primary)', fontWeight: 500 }}>
-                    {bias}
-                  </span>
-                  <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
-                    {BIAS_LABELS[bias] || ''}
+                    {BIAS_LABELS[bias] || bias}
                   </span>
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
-                  {emotions.map(e => <EmotionBar key={e.emotion} emotion={e.emotion} pct={e.pct} />)}
-                </div>
+                <EmotionBar emotions={emotions} />
               </div>
             ))
           }
         </div>
       </Section>
 
-      {/* ── Links vs. Rechts ─────────────────────── */}
-      <Section title="Links vs. Rechts" subtitle="taz · Die Welt · Junge Freiheit — Emotionen in den Top 5 von mindestens 2 Quellen">
-        <EditorialComparisonChart profiles={editorialProfiles} />
-      </Section>
-
       {/* ── Veröffentlichungszeiten ──────────────── */}
-      <Section title="Veröffentlichungszeiten (UTC)" subtitle="Wann werden Artikel publiziert?">
+      <Section title="Veröffentlichungszeiten" subtitle="Wann werden Artikel publiziert? (Deutsche Zeit)">
         <ResponsiveContainer width="100%" height={180}>
           <BarChart data={hourTotals} margin={{ left: 0 }}>
             <XAxis dataKey="hour" stroke="var(--border)" tick={{ fontSize: 10, fill: 'var(--text-secondary)' }} />
@@ -280,12 +289,26 @@ export default function Analytics() {
       </Section>
 
       {/* ── Wochentag ────────────────────────────── */}
-      <Section title="Aktivität nach Wochentag">
+      <Section title="Aktivität nach Wochentagen">
         <ResponsiveContainer width="100%" height={180}>
           <BarChart data={weekdayTotals}>
             <XAxis dataKey="day" stroke="var(--border)" tick={{ fontSize: 12, fill: 'var(--text-secondary)' }} />
             <YAxis stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
-            <Tooltip contentStyle={TOOLTIP_STYLE} formatter={v => [`${v} Artikel`]} />
+            <Tooltip
+              contentStyle={TOOLTIP_STYLE}
+              content={({ active, payload, label }) => {
+                if (!active || !payload?.length) return null
+                const count = payload[0]?.value ?? 0
+                const avg = (count / weeksInDataset).toFixed(1)
+                return (
+                  <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)', lineHeight: 1.7 }}>
+                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>{label}</div>
+                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)' }}>{count} Artikel gesamt</div>
+                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>∅ Artikel/Tag: {avg}</div>
+                  </div>
+                )
+              }}
+            />
             <Bar dataKey="count" fill="var(--amber)" radius={[1, 1, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
@@ -300,24 +323,6 @@ export default function Analytics() {
             <Tooltip contentStyle={TOOLTIP_STYLE} />
             <Line type="monotone" dataKey="count" stroke="var(--signal)" strokeWidth={1.5} dot={false} />
           </LineChart>
-        </ResponsiveContainer>
-      </Section>
-
-      {/* ── Crawl History ────────────────────────── */}
-      <Section title="Crawl-Aktivität" subtitle="Letzte 20 Runs">
-        <ResponsiveContainer width="100%" height={180}>
-          <BarChart data={crawlHistory}>
-            <XAxis
-              dataKey="crawled_at"
-              stroke="var(--border)"
-              tick={{ fontSize: 10, fill: 'var(--text-secondary)' }}
-              tickFormatter={v => new Date(v).toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' })}
-            />
-            <YAxis stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
-            <Tooltip contentStyle={TOOLTIP_STYLE} labelFormatter={v => new Date(v).toLocaleString('de-DE')} />
-            <Bar dataKey="articles_new" fill="var(--patina)" name="Neue Artikel" radius={[1, 1, 0, 0]} />
-            <Bar dataKey="articles_found" fill="var(--bg-elevated)" name="Gefunden" radius={[1, 1, 0, 0]} />
-          </BarChart>
         </ResponsiveContainer>
       </Section>
 

@@ -38,7 +38,7 @@ jobs:
 
       - name: Run RSS crawler
         run: |
-          python crew/tools/rss_crawler.py
+          python crew/tools/media/rss_crawler.py
 
       - name: Save DB to cache
         uses: actions/cache@v4

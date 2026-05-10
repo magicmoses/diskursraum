@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'react'
 import { getHistoricalAnalysis } from '../api/client'
-import { Loader } from '../components/ui'
+import { Loader, InfoIcon } from '../components/ui'
 import {
   ForceGraph, Heatmap, TimelineSlider,
-  PCAScatter, BridgingTimeline, WahlErgebnisse,
+  BridgingTimeline, WahlErgebnisse,
+  IdeologicalMatrix, PartyDistanceView, PartyTrajectory,
 } from '../components/charts'
 
 const YEARS        = [2005, 2009, 2013, 2017, 2021, 2025]
 const DEFAULT_YEAR = 2025
 
 const TABS = [
-  { id: 'positionen',  label: 'Positionen' },
-  { id: 'entwicklung', label: 'Entwicklung' },
-  { id: 'wahlen',      label: 'Wahlen & Programme' },
+  { id: 'positionen', label: 'Positionen & Entwicklung' },
+  { id: 'wahlen',     label: 'Wahlen & Programme' },
 ]
 
 const S = {
@@ -21,16 +21,8 @@ const S = {
     fontSize: 'var(--text-xs)',
     letterSpacing: '0.08em',
     textTransform: 'uppercase',
-    color: 'var(--text-muted)',
-    marginBottom: 'var(--space-3)',
-  },
-  subhead: {
-    fontFamily: 'var(--font-mono)',
-    fontSize: 'var(--text-sm)',
     color: 'var(--text-secondary)',
-    lineHeight: 1.7,
-    maxWidth: '640px',
-    marginBottom: 'var(--space-6)',
+    marginBottom: 'var(--space-3)',
   },
 }
 
@@ -55,8 +47,6 @@ export default function PartyView() {
     </div>
   )
 
-  const yearCount  = data.years_analyzed?.length ?? 0
-  const partyCount = Object.keys(data.pca_trajectories?.trajectories ?? {}).length
 
   return (
     <div style={{ maxWidth: '900px', paddingBottom: 'var(--space-24)' }}>
@@ -76,12 +66,13 @@ export default function PartyView() {
         }}>
           Wie haben sich Parteipositionen entwickelt?
         </h1>
-        <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', display: 'flex', gap: 'var(--space-4)' }}>
-          <span>{yearCount} Wahljahre analysiert</span>
-          <span>·</span>
-          <span>{partyCount} Parteien</span>
-          <span>·</span>
-          <span>ManifestoBERTa + E5-Embeddings</span>
+        <div style={{
+          fontFamily: 'var(--font-mono)',
+          fontSize: 'var(--text-sm)',
+          color: 'var(--text-secondary)',
+          marginBottom: 'var(--space-2)',
+        }}>
+          6 Bundestagswahlen · 6 Parteien · 8 Themen · Wer sind die Brückenbauer?
         </div>
       </div>
 
@@ -92,6 +83,7 @@ export default function PartyView() {
           selectedYear={selectedYear}
           onChange={setYear}
           events={data.historical_events ?? []}
+          electionResults={data.election_results}
         />
       </div>
 
@@ -111,7 +103,7 @@ export default function PartyView() {
               background: activeTab === tab.id ? 'var(--bg-surface)' : 'var(--bg-primary)',
               border: 'none',
               borderBottom: activeTab === tab.id ? '2px solid var(--signal)' : '2px solid transparent',
-              color: activeTab === tab.id ? 'var(--text-primary)' : 'var(--text-muted)',
+              color: activeTab === tab.id ? 'var(--text-primary)' : 'var(--text-secondary)',
               fontSize: 'var(--text-sm)',
               fontFamily: 'var(--font-body)',
               cursor: 'pointer',
@@ -125,46 +117,52 @@ export default function PartyView() {
         ))}
       </div>
 
-      {/* ── Tab: Positionen ──────────────────────────── */}
+      {/* ── Tab: Positionen & Entwicklung ────────────── */}
       {activeTab === 'positionen' && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-8)' }}>
-          <p style={S.subhead}>
-            Der Bridging-Score misst, wie zentral eine Partei im semantischen Netzwerk liegt —
-            wie viel sie inhaltlich mit anderen Parteien teilt. Dicke Kanten bedeuten hohe Ähnlichkeit
-            in den Wahlprogrammen. Die Knotenknoten-Größe spiegelt Betweenness-Zentralität wider.
-          </p>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-10)' }}>
+
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Ideologische Verortung
+              <InfoIcon text="Wirtschaftsachse (links–rechts) und Gesellschaftsachse (progressiv–konservativ) aus ManifestoBERTa-Kategoriencodes. Normiert über alle Wahljahre." />
+            </div>
+            <IdeologicalMatrix data={data} />
+          </div>
+
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Inhaltliche Distanz zur Partei
+              <InfoIcon text="Die Abstände zeigen wie ähnlich sich die Parteien in ihren Wahlprogrammen sind — berechnet aus semantischer Nähe und inhaltlichen Schwerpunkten." />
+            </div>
+            <PartyDistanceView data={data} />
+          </div>
+
+          <div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Distanzentwicklung im Zeitverlauf 2005–2025
+              <InfoIcon text="Wie hat sich die inhaltliche Distanz zwischen Parteien von Wahl zu Wahl verändert? Basis: ManifestoBERTa-Ähnlichkeiten aus Wahlprogrammen." />
+            </div>
+            <PartyTrajectory data={data} selectedYear={selectedYear} />
+          </div>
+
+          <div>
+            <div style={S.sectionLabel}>Bridging-Score im Zeitverlauf 2005–2025</div>
+            <BridgingTimeline data={data} />
+            <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginTop: 'var(--space-3)' }}>
+              AfD erst ab 2013 im Bundestag — Wahlprogramm 2013 umfasste nur wenige Seiten (Partei im selben Jahr gegründet).
+            </div>
+          </div>
+
+          <div>
+            <div style={S.sectionLabel}>Paarweise Ähnlichkeitsmatrix</div>
+            <Heatmap data={data} year={selectedYear} />
+          </div>
 
           <div>
             <div style={S.sectionLabel}>Ähnlichkeitsnetzwerk {selectedYear}</div>
             <ForceGraph data={data} year={selectedYear} />
           </div>
 
-          <div>
-            <div style={S.sectionLabel}>Paarweise Ähnlichkeitsmatrix {selectedYear}</div>
-            <Heatmap data={data} year={selectedYear} />
-          </div>
-        </div>
-      )}
-
-      {/* ── Tab: Entwicklung ─────────────────────────── */}
-      {activeTab === 'entwicklung' && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-8)' }}>
-          <div>
-            <div style={S.sectionLabel}>Semantische Trajektorien (PCA) — {selectedYear} hervorgehoben</div>
-            <PCAScatter data={data} selectedYear={selectedYear} />
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 'var(--space-3)' }}>
-              Einzelner PCA-Raum über alle Jahre — Positionen direkt vergleichbar.
-              PC1 + PC2 erklären {((data.pca_trajectories?.explained_variance ?? [0, 0]).reduce((a, b) => a + b, 0) * 100).toFixed(1)}% der Varianz.
-            </div>
-          </div>
-
-          <div>
-            <div style={S.sectionLabel}>Bridging-Score im Zeitverlauf 2005–2025</div>
-            <BridgingTimeline data={data} />
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 'var(--space-3)' }}>
-              AfD gestrichelt — nur ab 2013 im Datensatz. Stable set: 5 Parteien für Vergleichbarkeit.
-            </div>
-          </div>
         </div>
       )}
 

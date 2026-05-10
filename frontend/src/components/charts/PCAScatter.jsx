@@ -25,7 +25,7 @@ function toSVG(x, y) {
   return [sx, sy]
 }
 
-export default function PCAScatter({ data, selectedYear }) {
+export default function PCAScatter({ data, viewYear }) {
   const [tooltip, setTooltip] = useState(null)
 
   if (!data?.pca_trajectories?.trajectories) return (
@@ -37,9 +37,7 @@ export default function PCAScatter({ data, selectedYear }) {
   const { trajectories, explained_variance } = data.pca_trajectories
   const [ev1, ev2] = explained_variance ?? [0, 0]
 
-  // Axis tick values
   const ticks = [-1, -0.5, 0, 0.5, 1]
-
   const [ox, oy] = toSVG(0, 0)
 
   return (
@@ -87,7 +85,7 @@ export default function PCAScatter({ data, selectedYear }) {
           {`PC2 (${(ev2 * 100).toFixed(1)}%)`}
         </text>
 
-        {/* Trajectory lines — faded */}
+        {/* Trajectory lines */}
         {PARTIES.map(party => {
           const pts = trajectories[party]
           if (!pts || pts.length < 2) return null
@@ -97,24 +95,27 @@ export default function PCAScatter({ data, selectedYear }) {
           }).join(' ')
           return (
             <path key={`l-${party}`} d={d} fill="none"
-              stroke={PARTY_HEX[party]} strokeWidth="1" strokeOpacity="0.28" />
+              stroke={PARTY_HEX[party]} strokeWidth="1" strokeOpacity="0.22" />
           )
         })}
 
-        {/* Dots — older years faded, selected year full opacity */}
+        {/* Dots */}
         {PARTIES.map(party => {
           const pts = trajectories[party]
           if (!pts) return null
           return pts.map(p => {
             const [sx, sy] = toSVG(p.x, p.y)
-            const isSel = p.year === selectedYear
+            const isSel = viewYear !== null && p.year === viewYear
+            const isAll = viewYear === null
+            const opacity = isAll ? 0.55 : (isSel ? 1 : 0.22)
+            const radius  = isAll ? 5 : (isSel ? 8 : 4)
             return (
               <circle
                 key={`d-${party}-${p.year}`}
                 cx={sx} cy={sy}
-                r={isSel ? 8 : 4}
+                r={radius}
                 fill={PARTY_HEX[party]}
-                fillOpacity={isSel ? 1 : 0.32}
+                fillOpacity={opacity}
                 stroke={PARTY_HEX[party]}
                 strokeWidth={isSel ? 2 : 0.5}
                 style={{ cursor: 'default' }}
@@ -126,16 +127,18 @@ export default function PCAScatter({ data, selectedYear }) {
           })
         })}
 
-        {/* Party labels at selected year */}
+        {/* Labels at selected year or all years */}
         {PARTIES.map(party => {
           const pts = trajectories[party]
-          const p   = pts?.find(pp => pp.year === selectedYear)
+          const targetYear = viewYear ?? Math.max(...(pts?.map(p => p.year) ?? []))
+          const p = pts?.find(pp => pp.year === targetYear)
           if (!p) return null
           const [sx, sy] = toSVG(p.x, p.y)
           const short = party === 'cdu_csu' ? 'CDU/CSU' : party === 'gruene' ? 'Grüne' : party === 'linke' ? 'Linke' : party.toUpperCase()
           return (
             <text key={`lbl-${party}`} x={sx + 11} y={sy + 4}
-              fill={PARTY_HEX[party]} fontFamily="var(--font-mono)" fontSize="11" fillOpacity="0.9">
+              fill={PARTY_HEX[party]} fontFamily="var(--font-mono)" fontSize="11"
+              fillOpacity={viewYear === null ? 0.7 : 0.9}>
               {short}
             </text>
           )

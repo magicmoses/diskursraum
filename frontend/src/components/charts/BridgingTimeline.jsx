@@ -2,6 +2,7 @@ import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine,
 } from 'recharts'
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
+import InfoIcon from '../ui/InfoIcon'
 
 const PARTY_HEX = {
   cdu_csu: '#E8E8E8',
@@ -27,7 +28,7 @@ function CustomTooltip({ active, payload, label }) {
   if (!active || !payload?.length) return null
   return (
     <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)', lineHeight: 1.8 }}>
-      <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginBottom: '4px' }}>
+      <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginBottom: '4px' }}>
         Wahl {label}
       </div>
       {[...payload].sort((a, b) => (b.value ?? 0) - (a.value ?? 0)).map(p => (
@@ -62,7 +63,6 @@ export default function BridgingTimeline({ data }) {
   const yMin = (Math.min(...allVals) - 0.0015).toFixed(4)
   const yMax = (Math.max(...allVals) + 0.0015).toFixed(4)
 
-  // Election-year events for reference lines
   const electionEvents = (data.historical_events ?? []).filter(e => YEARS.includes(e.year))
 
   return (
@@ -71,13 +71,13 @@ export default function BridgingTimeline({ data }) {
         <LineChart data={chartData} margin={{ top: 8, right: 16, bottom: 24, left: 12 }}>
           <XAxis
             dataKey="year"
-            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#52504E' }}
+            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: 'var(--text-secondary)' }}
             axisLine={{ stroke: '#2C2E32' }} tickLine={false}
           />
           <YAxis
             domain={[Number(yMin), Number(yMax)]}
             tickFormatter={v => v.toFixed(3)}
-            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#52504E' }}
+            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: 'var(--text-secondary)' }}
             axisLine={{ stroke: '#2C2E32' }} tickLine={false} width={52}
           />
           <Tooltip content={<CustomTooltip />} />
@@ -95,7 +95,7 @@ export default function BridgingTimeline({ data }) {
               activeDot={{ r: 5 }} connectNulls={false} />
           ))}
           <Line type="monotone" dataKey="afd"
-            stroke={PARTY_HEX.afd} strokeWidth={1.5} strokeDasharray="6 3"
+            stroke={PARTY_HEX.afd} strokeWidth={1.5}
             dot={{ r: 3, fill: PARTY_HEX.afd, strokeWidth: 0 }}
             activeDot={{ r: 5 }} connectNulls={false} />
         </LineChart>
@@ -106,14 +106,14 @@ export default function BridgingTimeline({ data }) {
         {[...STABLE, 'afd'].map(p => (
           <div key={p} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-1)' }}>
             <svg width="20" height="10">
-              {p === 'afd'
-                ? <line x1="0" y1="5" x2="20" y2="5" stroke={PARTY_HEX[p]} strokeWidth="1.5" strokeDasharray="5 3" />
-                : <line x1="0" y1="5" x2="20" y2="5" stroke={PARTY_HEX[p]} strokeWidth="1.5" />
-              }
+              <line x1="0" y1="5" x2="20" y2="5" stroke={PARTY_HEX[p]} strokeWidth="1.5" />
             </svg>
             <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>
               {SHORT[p]}
             </span>
+            {p === 'afd' && (
+              <InfoIcon text="Die AfD weist in allen analysierten Jahren den niedrigsten Brückenwert auf — programmatisch am stärksten isoliert vom übrigen Parteienspektrum." />
+            )}
           </div>
         ))}
       </div>

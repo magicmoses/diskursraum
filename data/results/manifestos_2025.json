@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-02T09:26:48.089675",
+  "computed_at": "2026-05-09T09:34:15.287512",
   "year": 2025,
   "parties": {
     "cdu_csu": {
@@ -37,8 +37,11 @@
     "migration",
     "energy_transition",
     "retirement",
-    "wealth_tax",
-    "digitalization"
+    "digitalization",
+    "work_transition",
+    "defense",
+    "family_children",
+    "education"
   ],
   "results": {
     "migration": {
@@ -143,33 +146,33 @@
         }
       },
       "bridging": {
-        "topic_id": "migration",
         "bridging_scores": {
-          "cdu_csu": 0.9639,
-          "spd": 0.9689,
-          "gruene": 0.9699,
-          "fdp": 0.9727,
-          "afd": 0.9499,
-          "linke": 0.9564
+          "spd": 0.9367,
+          "afd": 0.2414,
+          "cdu_csu": 0.5002,
+          "fdp": 0.7993,
+          "gruene": 1.0,
+          "linke": 0.0
         },
-        "most_bridging_party": "fdp",
-        "most_bridging_party_name": "FDP",
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "migration",
         "pairwise_similarity": {
-          "cdu_csu__spd": 0.9656,
-          "cdu_csu__gruene": 0.9717,
-          "cdu_csu__fdp": 0.9724,
-          "afd__cdu_csu": 0.9436,
-          "cdu_csu__linke": 0.9665,
-          "gruene__spd": 0.9835,
-          "fdp__spd": 0.9792,
-          "afd__spd": 0.9598,
-          "linke__spd": 0.9565,
-          "fdp__gruene": 0.979,
-          "afd__gruene": 0.9541,
-          "gruene__linke": 0.9613,
-          "afd__fdp": 0.9634,
-          "fdp__linke": 0.9692,
-          "afd__linke": 0.9286
+          "cdu_csu__spd": 0.4525,
+          "cdu_csu__gruene": 0.3901,
+          "cdu_csu__fdp": 0.3077,
+          "afd__cdu_csu": 0.3408,
+          "cdu_csu__linke": 0.2458,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5691,
+          "afd__spd": 0.1974,
+          "linke__spd": 0.2188,
+          "fdp__gruene": 0.6186,
+          "afd__gruene": 0.2486,
+          "gruene__linke": 0.2349,
+          "afd__fdp": 0.4261,
+          "fdp__linke": 0.1324,
+          "afd__linke": 0.1889
         }
       },
       "synthesis": {
@@ -280,33 +283,33 @@
         }
       },
       "bridging": {
-        "topic_id": "energy_transition",
         "bridging_scores": {
-          "cdu_csu": 0.9669,
-          "spd": 0.964,
-          "gruene": 0.968,
-          "fdp": 0.9642,
-          "afd": 0.9448,
-          "linke": 0.959
+          "spd": 0.9338,
+          "afd": 0.226,
+          "cdu_csu": 0.7258,
+          "fdp": 0.5446,
+          "gruene": 1.0,
+          "linke": 0.0
         },
         "most_bridging_party": "gruene",
         "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "energy_transition",
         "pairwise_similarity": {
-          "cdu_csu__spd": 0.9712,
-          "cdu_csu__gruene": 0.9799,
-          "cdu_csu__fdp": 0.9703,
-          "afd__cdu_csu": 0.9446,
-          "cdu_csu__linke": 0.9683,
-          "gruene__spd": 0.9728,
-          "fdp__spd": 0.973,
-          "afd__spd": 0.9458,
-          "linke__spd": 0.9574,
-          "fdp__gruene": 0.969,
-          "afd__gruene": 0.946,
-          "gruene__linke": 0.9724,
-          "afd__fdp": 0.9498,
-          "fdp__linke": 0.9592,
-          "afd__linke": 0.9377
+          "cdu_csu__spd": 0.5319,
+          "cdu_csu__gruene": 0.4605,
+          "cdu_csu__fdp": 0.4247,
+          "afd__cdu_csu": 0.3282,
+          "cdu_csu__linke": 0.1986,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.344,
+          "afd__spd": 0.1869,
+          "linke__spd": 0.3058,
+          "fdp__gruene": 0.4373,
+          "afd__gruene": 0.3181,
+          "gruene__linke": 0.202,
+          "afd__fdp": 0.3639,
+          "fdp__linke": 0.2122,
+          "afd__linke": 0.2549
         }
       },
       "synthesis": {
@@ -417,176 +420,39 @@
         }
       },
       "bridging": {
-        "topic_id": "retirement",
         "bridging_scores": {
-          "cdu_csu": 0.9711,
-          "spd": 0.9735,
-          "gruene": 0.9724,
-          "fdp": 0.9712,
-          "afd": 0.9606,
-          "linke": 0.9626
+          "spd": 0.9956,
+          "afd": 0.1822,
+          "cdu_csu": 0.7354,
+          "fdp": 0.604,
+          "gruene": 1.0,
+          "linke": 0.0
         },
-        "most_bridging_party": "spd",
-        "most_bridging_party_name": "SPD",
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "retirement",
         "pairwise_similarity": {
-          "cdu_csu__spd": 0.9786,
-          "cdu_csu__gruene": 0.9745,
-          "cdu_csu__fdp": 0.9779,
-          "afd__cdu_csu": 0.9589,
-          "cdu_csu__linke": 0.9656,
-          "gruene__spd": 0.9825,
-          "fdp__spd": 0.9793,
-          "afd__spd": 0.9625,
-          "linke__spd": 0.9643,
-          "fdp__gruene": 0.9803,
-          "afd__gruene": 0.9588,
-          "gruene__linke": 0.9661,
-          "afd__fdp": 0.9621,
-          "fdp__linke": 0.9565,
-          "afd__linke": 0.9604
+          "cdu_csu__spd": 0.574,
+          "cdu_csu__gruene": 0.4514,
+          "cdu_csu__fdp": 0.4573,
+          "afd__cdu_csu": 0.4059,
+          "cdu_csu__linke": 0.3162,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5213,
+          "afd__spd": 0.1869,
+          "linke__spd": 0.3656,
+          "fdp__gruene": 0.4865,
+          "afd__gruene": 0.4088,
+          "gruene__linke": 0.304,
+          "afd__fdp": 0.4122,
+          "fdp__linke": 0.2237,
+          "afd__linke": 0.2951
         }
       },
       "synthesis": {
         "shared_perspectives": "Alle Parteien erkennen an, dass die gesetzliche Rente gestärkt werden muss und lehnen ein Totalmodell ab, das nur auf eine Säule setzt. Übergreifend wird betont, dass Altersarmut bekämpft und das Rentensystem zukunftsfähig gestaltet werden soll.",
         "controversial_points": "Die größten Unterschiede bestehen bei der Rolle privater Vorsorge: Während FDP und CDU/CSU auf kapitaldeckte Elemente und private Fonds setzen, lehnt Die Linke eine Aktienrente ab und setzt auf reine Umlagefinanzierung. Auch beim Renteneintrittsalter divergieren die Positionen stark – von Die Linkes Forderung nach Rente mit 60 bis zur FDP-Forderung nach flexibler Individualisierung.",
         "spectrum_description": "Von links nach rechts: Die Linke (maximale Umlagefinanzierung & niedrige Erwerbsbeteiligung) → Grüne & SPD (Umlagensystem mit moderaten Ergänzungen) → CDU/CSU & FDP (zunehmend kapitaldeckte Elemente & Privatvorsorge), während die AfD eine Sonderposition mit familienorientierter Reformlogik einnimmt."
-      }
-    },
-    "wealth_tax": {
-      "topic_id": "wealth_tax",
-      "topic_label": "Vermögenssteuer & Umverteilung",
-      "parties": {
-        "cdu_csu": {
-          "party_id": "cdu_csu",
-          "party_name": "CDU/CSU",
-          "bias": "conservative-liberal",
-          "top_chunks": [
-            "• Wir führen einen Quellenabzug ein, damit im Regelfall keine Steuererklärung mehr abgegeben werden muss.\n• Wir treiben die Selbstveranlagung und den digitalen Datenaustausch mit der Finanzverwaltung voran.\n• Mit mehr Pauschalierungen und Typisierungen vereinfachen wir insbesondere das Einkommensteuerrecht.\n• Wir führen das Verrechnungsmodell bei der Einfuhrumsatzsteuer ein.",
-            "• Eine Vermögensteuer lehnen wir ab.\n• Wir erhöhen die Freibeträge bei der Erbschaftsteuer deutlich.\n• Wir erhöhen den einkommensteuerrechtlichen Freibetrag für Mitarbeiterkapitalbeteiligungen deutlich und sorgen dafür, dass Beteiligungen grundsätzlich erst zum Zeitpunkt der Veräußerung besteuert werden.\n• Wir führen eine Vermögensbildungsprämie ein, in der wir die Arbeitnehmersparzulage und die Wohnungsbauprämie verschmelzen.\n• Wir erhöhen den Förderbetrag deutlich und vereinheitlichen die Einkommensgrenzen.",
-            "• Unser Ziel ist eine attraktive Unternehmensbesteuerung von maximal 25 Prozent auf einbehaltene Gewinne.\n• Wir senken insbesondere die Tarifbelastung und verbessern wesentlich das Optionsmodell und die Thesaurierungsbegünstigung."
-          ],
-          "relevance_scores": [
-            0.8808,
-            0.8796,
-            0.8615
-          ],
-          "position_summary": "# CDU/CSU-Position zu Vermögenssteuer & Umverteilung\n\nDie CDU/CSU lehnt eine Vermögenssteuer ab und setzt stattdessen auf **Vermögensbildung statt Umverteilung**: durch eine neue Vermögensbildungsprämie, deutlich erhöhte Freibeträge bei Erbschaft- und Einkommensteuer sowie bessere Bedingungen für Arbeitnehmerbeteiligungen. Gleichzeitig verfolgt die Union eine **unternehmensfreundliche Steuerpolitik** mit einer angestrebten maximalen Unternehmenssteuerquote von 25 Prozent."
-        },
-        "spd": {
-          "party_id": "spd",
-          "party_name": "SPD",
-          "bias": "left-liberal",
-          "top_chunks": [
-            "Darüber hinaus wollen wir die höchsten Vermögen in unserem Land bei der Finanzierung der Gemeinschaft stärker in die Verantwortung nehmen. Erbschafts- und Schenkungsteuer sowie Vermögensteuer stärken dann die Einnahmeseite der Länder, denen das Aufkommen aus diesen Steuern zusteht.",
-            "Wir wollen die Besteuerung von Familien unter Berücksichtigung bereits getroffener \nLebensentscheidungen reformieren, für Paarfamilien eine gerechtere Verteilung der Steuerlast \nerreichen und Partnerschaftlichkeit fördern. Die bereits eingeleitete Überführung der SteuerklassenKombination III/V in das Faktorverfahren der Steuerklasse IV wollen wir daher schnellstmöglich \numsetzen. Die Auswirkungen dieser Neuregelung und weitere Reformschritte werden wir zu \ngegebener Zeit prüfen. Für Alleinerziehende wollen wir den Entlastungsbetrag in einen Abzug von der \nSteuerschuld umwandeln. Wir wollen soziale Teilhabe für Kinder und Familien sichern.",
-            "Wir wollen, dass auch (Hoch-)Vermögende einen gerechten Beitrag zur Finanzierung der Investitionen in unsere Zukunft leisten. In Deutschland werden Einkommen aus Arbeit stärker als Vermögen besteuert. Dies wollen wir verändern und mehr Steuergerechtigkeit schaffen. Daher wollen wir die vermögensbezogene Besteuerung stärken und Spitzenvermögen stärker an der Finanzierung der Modernisierung unseres Landes und unserer Gemeinschaft beteiligen. Die Erbschaft- und Schenkungsteuer in ihrer heutigen Form ist nicht gerecht, denn die übermäßige Privilegierung großer Unternehmensvermögen führt dazu, dass bei der Übertragung solcher Multimillionen- oder Milliardenvermögen oftmals nur sehr wenig oder gar keine Steuern gezahlt werden. Diese Ungerechtigkeit wollen wir abschaffen. Innerhalb des bestehenden progressiven Steuertarifs führen wir eine effektive Mindestbesteuerung für große Betriebsvermögen ein, die auch für vermögenshaltende Familienstiftungen gilt. Die persönlichen Freibeträge wollen wir erhöhen, um den Vermögenspreissteigerungen seit der letzten Anpassung Rechnung zu tragen. Das selbst genutzte Familienheim bleibt auch in Zukunft unangetastet. Die ausgesetzte Vermögensteuer wollen wir für sehr hohe Vermögen revitalisieren. Darüber hinaus unterstützen wir auch die von Brasilien im Rahmen der G20 angestoßenen Pläne für eine international koordinierte Mindeststeuer für Superreiche. Außerdem wollen wir Einkommen aus Kapital über den Einkommensteuertarif besteuern. Daher wollen wir eine Finanztransaktionssteuer einführen."
-          ],
-          "relevance_scores": [
-            0.8599,
-            0.8581,
-            0.8565
-          ],
-          "position_summary": "# SPD-Position zu Vermögenssteuer & Umverteilung\n\nDie SPD will höhere Vermögen stärker zur Finanzierung der Gemeinschaft heranziehen, indem sie die Vermögensteuer für sehr hohe Vermögen reaktiviert, die Erbschaftsteuer reformiert (insbesondere durch effektive Mindestbesteuerung großer Betriebsvermögen) und Kapitaleinkommen über den regulären Einkommensteuertarif besteuert. Dabei sollen persönliche Freibeträge erhöht und das selbstgenutzte Familienheim geschont werden. Zusätzlich plant die SPD eine Finanztransaktionssteuer und unterstützt international koordinierte Mindeststeuerregelungen für Superreiche."
-        },
-        "gruene": {
-          "party_id": "gruene",
-          "party_name": "Bündnis 90/Die Grünen",
-          "bias": "left-liberal",
-          "top_chunks": [
-            "Eine globale Milliardärssteuer, eine fairere Erbschaftssteuer, eine gerechte Immobilienbesteuerung ohne Schlupflöcher und eine nationale Vermögenssteuer auf sehr hohe Vermögen gehören zu möglichen Ansätzen. Reform der Erbschaftssteuer hin zu einem Modell mit personenbezogenem Lebensfreibetrag, weitgehender Streichung bestehender Ausnahmen für außerordentlich große Erbschaften (selbst bewohntes Eigentum bleibt befreit) und großzügigen Stundungsregelungen. Aktiver Einsatz für die Einführung der globalen Milliardärssteuer sowie das Schließen weiterer offenkundiger Gerechtigkeitslücken im Steuersystem, vor allem bei der Immobilienbesteuerung wie Share Deals und beim Auseinanderklaffen der Besteuerung von Arbeits- und Kapitaleinkünften. Gewerbesteuerumping von Kommunen werden wir durch wirksame Maßnahmen entgegentreten.",
-            "Die erweiterte Kürzung für Grundstücksunternehmen im Gewerbesteuerrecht streichen wir. Arbeitnehmerpauschbeträge in der Einkommensteuererklärung auf mindestens 1.500 Euro anheben. Den Grundfreibetrag erhöhen wir.",
-            "Wir wollen den Zuschuss zum Fondssparen bei den vermögenswirksamen Leistungen und den Sparerpauschbetrag spürbar anheben."
-          ],
-          "relevance_scores": [
-            0.8589,
-            0.8546,
-            0.8519
-          ],
-          "position_summary": "# Zusammenfassung: Bündnis 90/Die Grünen zu Vermögenssteuer & Umverteilung\n\nBündnis 90/Die Grünen verfolgt eine Umverteilungspolitik durch höhere Besteuerung großer Vermögen und Erbschaften – konkret fordern sie eine nationale Vermögenssteuer, eine globale Milliardärssteuer und eine reformierte Erbschaftssteuer mit weitgehend gestrichenen Ausnahmen. Parallel dazu wollen sie Arbeitnehmende entlasten, indem sie den Grundfreibetrag, die Arbeitnehmerpauschbeträge und die vermögenswirksamen Leistungen erhöhen. Ihr Ziel ist eine gerechtere Steuerverteilung"
-        },
-        "fdp": {
-          "party_id": "fdp",
-          "party_name": "FDP",
-          "bias": "economic-liberal",
-          "top_chunks": [
-            "Wir lehnen jede Form einer Vermögensteuer oder Vermögensabgabe ab. Damit der Staat nicht zum Profiteur von Inflation und der Steuerzahler nicht Opfer der Kalten Progression wird, wollen wir die Freibeträge und Eckwerte der Einkommensteuer automatisch an die allgemeine Preisentwicklung anpassen (Tarif auf Rädern). Auch die Freibeträge der Erbschaft- und Schenkungsteuer müssen automatisch um die Inflationsrate erhöht werden.",
-            "Wir wollen einen linear-progressiven Chancentarif in der Einkommensteuer einführen, der den Mittelstandsbauch vollständig beseitigt. Den Grundfreibetrag wollen wir schrittweise um mindestens 1.000 Euro anheben. Der Spitzensteuersatz darf künftig nur noch von Menschen gezahlt werden, die auch wirklich spitzenmäßig verdienen und nicht schon von der Mitte der Gesellschaft; konkret ab einem Jahreseinkommen von 96.600 Euro statt ab 68.000 Euro. Darüber hinaus wollen wir den Solidaritätszuschlag vollständig abschaffen. Zuschläge für Überstunden bei Vollzeitarbeit sollen von der Lohnsteuer befreit werden.",
-            "Die Freibeträge der Erbschaft- und Schenkungsteuer müssen automatisch um die Inflationsrate erhöht werden. Die Existenz von Unternehmen darf nicht durch die Erbschaft- und Schenkungsteuer gefährdet sein. Kleinunternehmen erhalten ein Wahlrecht auf Abzug einer prozentualen Betriebsausgabenpauschale. Wir erhöhen die Sofortabschreibungsgrenze für geringwertige Wirtschaftsgüter und erweitern die Sammelabschreibung für Wirtschaftsgüter, deren Wert über der Sofortabschreibungsgrenze liegt."
-          ],
-          "relevance_scores": [
-            0.8677,
-            0.8598,
-            0.8506
-          ],
-          "position_summary": "# FDP-Position zu Vermögenssteuer & Umverteilung\n\nDie FDP lehnt jede Form einer Vermögenssteuer ab und setzt stattdessen auf Entlastung des Mittelstands durch einen reformierten Einkommensteuertarif: Der Spitzensteuersatz soll erst ab 96.600 Euro (statt 68.000 Euro) greifen, der Grundfreibetrag um mindestens 1.000 Euro steigen und der Solidaritätszuschlag entfallen. Parallel will die Partei durch automatische Inflationsausgleiche („Tarif auf Rädern\") verhindern, dass Steuerzahler durch Kalte Progression belastet werden, während Unternehmenserbschaften durch erhöhte Freibe"
-        },
-        "afd": {
-          "party_id": "afd",
-          "party_name": "AfD",
-          "bias": "far-right",
-          "top_chunks": [
-            "Die AfD tritt für eine Abschaffung der Vermögen- und Erbschaftsteuer ein. Die AfD will eine Überprüfung der Gewerbesteuer vornehmen, weil sie ertragsunabhängige Bestandteile in ihrer Bemessungsgrundlage enthält.",
-            "das CE-Zeichen nur nach neutralen Fremdprüfungen verwendet werden. K A P I T E L 1 1\nFinanzen und Steuern\nProgramm für Deutschland | Finanzen und Steuern\nFINANZEN UND STEUERN\nWir wollen Deutschland reformieren. Das geht nicht ohne \neine umfassende Reform des Steuerrechts. Wir treten für \nein einfacheres und gerechteres Steuersystem ein, das mit \nniedrigen Steuern vor allem Mittel- und Geringverdiener \nfinanziell entlastet. Programm für Deutschland | Finanzen und Steuern\n11.1 Gerechte Steuern durch AfD-Stufentarif\n11.2 Obergrenze für Steuern und Abgaben\nWir wollen einen geänderten Einkommensteuertarif mit \nwenigen Stufen und einen deutlich höheren Grundfreibetrag. Der Grundfreibetrag soll an das pfändungsfreie Einkommen \nangepasst werden. Der geltende Steuertarif bewirkt eine \nübermäßige Belastung vor allem der Mittelschicht und führt \nzu versteckten Steuererhöhungen durch die sogenannte kalte \nProgression. Die kalte Progression wollen wir durch eine \nIndexierung des Stufentarifs beseitigen. Die Indexierung erfasst den Grundfreibetrag, die Steuerstufen und die abzugsfähigen Pauschalen, um schleichende Steuererhöhungen zu \nvermeiden. Die AfD strebt eine rechtsformneutrale Besteuerung an. Damit entfallen rein steuerliche Motive für komplexe gesellschaftsrechtliche Strukturen mit zusätzlichem Arbeitsaufwand bei Unternehmen und Behörden.",
-            "Die AfD will die derzeit zur Erhebung ausgesetzte Vermögensteuer und die Erbschaftsteuer abschaffen."
-          ],
-          "relevance_scores": [
-            0.865,
-            0.8525,
-            0.8491
-          ],
-          "position_summary": "# Zusammenfassung: AfD-Position zu Vermögenssteuer & Umverteilung\n\nDie AfD lehnt Vermögens- und Erbschaftsteuer ab und will diese abschaffen. Stattdessen setzt sie auf ein vereinfachtes Steuersystem mit niedrigeren Sätzen, höherem Grundfreibetrag und Indexierung gegen \"kalte Progression\", um vor allem Mittel- und Geringverdiener zu entlasten. Dies ist ein **regressiver Ansatz**, der Umverteilung durch direkte Vermögensteuern ablehnt und stattdessen auf Steuererleichterungen für breite Einkommensschichten setzt."
-        },
-        "linke": {
-          "party_id": "linke",
-          "party_name": "Die Linke",
-          "bias": "left",
-          "top_chunks": [
-            "- Wir wollen das Tonnagesteuer-Privileg der großen Reeder abschaffen und deren Gewinne der ordentlichen Gewinnbesteuerung unterwerfen.\n- Wir fordern, dass die Körperschaftsteuer auf 25 Prozent erhöht wird.\n- Wir fordern eine Quellenbesteuerung der Gewinne am Ort der wirtschaftlichen Aktivität.\n- Bei Zahlungen wie Dividenden, Zinsen und Lizenzabgaben in kooperationsunwillige Staaten fordern wir eine Quellensteuer von 50 Prozent.\n- Transnationale Konzerne sollen dazu verpflichtet werden, ihre Kerndaten zur Wertschöpfung, zu Umsätzen, Gewinnen und Steuerzahlungen länderweise offenzulegen.\n- Steuervermeidung über Stiftungen muss eingeschränkt werden.\n- Die Linke tritt für die Reform der Gewerbesteuer ein, sie soll in eine Gemeindewirtschaftsteuer umgewandelt werden.\n- Wir streiten für eine Finanztransaktionssteuer, um Spekulation auf den Finanzmärkten einzudämmen. Bei jeder Finanztransaktion soll ein Steuersatz von 0,1 Prozent fällig werden.\n- Die Linke fordert die Einführung einer Übergewinnsteuer in Höhe von 90 Prozent auf alle Krisenprofite.",
-            "- Die Linke fordert, dass die Vermögensteuer wieder eingeführt wird.\n- Wir fordern einen Freibetrag für Privatvermögen von einer Million Euro pro Person. Der Freibetrag für Betriebsvermögen liegt bei 5 Millionen Euro.\n- Unser Steuersatz ist progressiv und steigt linear von 1 Prozent bei einem Vermögen von 1 Million Euro auf bis zu 5 Prozent bei einem Vermögen von 50 Millionen Euro.\n- Für Vermögen oberhalb der Grenze von einer Milliarde Euro legen wir einen Sondersteuersatz von 12 Prozent fest: die Milliardärsteuer.\n- Wir setzen uns dafür ein, dass Deutschland treibende Kraft für eine international koordinierte Milliardärsteuer wird.\n- Wir fordern eine Reform der Grundsteuer, die sich am Verkehrswert des Grundstücks orientiert und nicht auf die Mieter*innen umgelegt werden darf.\n- Wir fordern ein öffentlich einsehbares Finanzregister, das die wahren Eigentümer von Immobilien, Unternehmensanteilen und anderen großen Vermögen registriert.\n- Wir fordern, dass zur Bewältigung der Folgen von Kriegen, Krisen und Pandemien einmalige Vermögensabgaben für die Reichsten erhoben werden.\n- Um die enormen Kosten der sozialen und ökologischen Transformation zu stemmen, fordern wir eine einmalige Vermögensabgabe, die die Reichsten unserer Gesellschaft einmalig belastet. Mit unserem Konzept werden die reichsten 0,7 Prozent der Bundesbürger mit bis zu 30 Prozent zusätzlich belastet.\n- Hohe Einkommen wollen wir stärker besteuern. Ab 85.000 Euro Einkommen im Jahr beträgt der Steuersatz 53 Prozent. 60 Prozent für Einkommen oberhalb von einer Viertelmillion Euro und 75 Prozent für Einkommen oberhalb von 1 Million Euro.\n- Für diese",
-            "Alle wollen \nregieren. Wir wollen \nverändern. Reichtum teilen. Preise senken. Füreinander. Wahlprogramm\n\fAlle wollen regieren. Wir wollen verändern."
-          ],
-          "relevance_scores": [
-            0.8458,
-            0.8425,
-            0.8392
-          ],
-          "position_summary": "# Zusammenfassung: Die Linke zur Vermögenssteuer & Umverteilung\n\nDie Linke verfolgt eine ambitionierte Umverteilungspolitik durch mehrere Instrumente: Wiedereinführung einer progressiven Vermögensteuer (1-5% Steuersatz, 12% Milliardärsteuer), erhebliche Erhöhungen bei Unternehmens- und Einkommensteuern (bis 75% für Millionäre), sowie neue Steuern wie die Finanztransaktionssteuer und 90%-Übergewinnsteuer. Das Ziel ist explizit, Reichtum zu teilen und die soziale und ökologische Transformation durch stärkere Belastung der reichsten 0,7% der Bevölkerung"
-        }
-      },
-      "bridging": {
-        "topic_id": "wealth_tax",
-        "bridging_scores": {
-          "cdu_csu": 0.9653,
-          "spd": 0.9694,
-          "gruene": 0.9709,
-          "fdp": 0.969,
-          "afd": 0.9546,
-          "linke": 0.9556
-        },
-        "most_bridging_party": "gruene",
-        "most_bridging_party_name": "Bündnis 90/Die Grünen",
-        "pairwise_similarity": {
-          "cdu_csu__spd": 0.9693,
-          "cdu_csu__gruene": 0.9751,
-          "cdu_csu__fdp": 0.9748,
-          "afd__cdu_csu": 0.9524,
-          "cdu_csu__linke": 0.9547,
-          "gruene__spd": 0.9818,
-          "fdp__spd": 0.9759,
-          "afd__spd": 0.9564,
-          "linke__spd": 0.9636,
-          "fdp__gruene": 0.9759,
-          "afd__gruene": 0.9583,
-          "gruene__linke": 0.9636,
-          "afd__fdp": 0.9641,
-          "fdp__linke": 0.9544,
-          "afd__linke": 0.9416
-        }
-      },
-      "synthesis": {
-        "shared_perspectives": "Alle Parteien beanspruchen, die Mittelschicht und Arbeitnehmende zu entlasten – unterscheiden sich aber fundamental darin, ob dies durch höhere Vermögenssteuern (links) oder niedrigere Einkommensteuern (rechts) erreicht werden soll. Keine Partei befürwortet eine pauschale Steuererhöhung für alle Einkommensgruppen.",
-        "controversial_points": "Die Kernkontroverse liegt zwischen der Linken/Grünen (massive Vermögensbesteuerung) und FDP/AfD (strikte Ablehnung jeder Vermögenssteuer). CDU/CSU und SPD versuchen Kompromisse, indem sie selektive Reformen (Erbschaft-, Kapitalertragssteuer) mit Entlastungen verbinden.",
-        "spectrum_description": "Extreme Umverteilung (Die Linke) → progressive Umverteilung (Grüne/SPD) → Mittelposition (CDU/CSU) → Entlastungspolitik (FDP) → regressives Steuersystem (AfD)."
       }
     },
     "digitalization": {
@@ -691,33 +557,33 @@
         }
       },
       "bridging": {
-        "topic_id": "digitalization",
         "bridging_scores": {
-          "cdu_csu": 0.9706,
-          "spd": 0.9657,
-          "gruene": 0.9707,
-          "fdp": 0.9655,
-          "afd": 0.9586,
-          "linke": 0.9523
+          "spd": 0.9502,
+          "afd": 0.1966,
+          "cdu_csu": 0.5555,
+          "fdp": 0.7935,
+          "gruene": 1.0,
+          "linke": 0.0
         },
         "most_bridging_party": "gruene",
         "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "digitalization",
         "pairwise_similarity": {
-          "cdu_csu__spd": 0.9775,
-          "cdu_csu__gruene": 0.9831,
-          "cdu_csu__fdp": 0.9753,
-          "afd__cdu_csu": 0.9603,
-          "cdu_csu__linke": 0.9566,
-          "gruene__spd": 0.9795,
-          "fdp__spd": 0.9728,
-          "afd__spd": 0.9549,
-          "linke__spd": 0.944,
-          "fdp__gruene": 0.9783,
-          "afd__gruene": 0.9582,
-          "gruene__linke": 0.9546,
-          "afd__fdp": 0.9572,
-          "fdp__linke": 0.9438,
-          "afd__linke": 0.9622
+          "cdu_csu__spd": 0.479,
+          "cdu_csu__gruene": 0.4553,
+          "cdu_csu__fdp": 0.3077,
+          "afd__cdu_csu": 0.3173,
+          "cdu_csu__linke": 0.2257,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5875,
+          "afd__spd": 0.1947,
+          "linke__spd": 0.1839,
+          "fdp__gruene": 0.6152,
+          "afd__gruene": 0.224,
+          "gruene__linke": 0.1943,
+          "afd__fdp": 0.3635,
+          "fdp__linke": 0.1662,
+          "afd__linke": 0.2053
         }
       },
       "synthesis": {
@@ -725,6 +591,150 @@
         "controversial_points": "Die schärfsten Gegensätze liegen zwischen der Linken (Skepsis vor Überwachung, Datenschutz-Fokus) und der CDU/CSU sowie FDP (technologieoffensive, Datenverfügbarkeit) sowie zwischen der AfD (nationale Kontrolle über digitale Infrastruktur) und liberalen Positionen wie der FDP (Wettbewerb und privatwirtschaftlicher Ausbau).",
         "spectrum_description": "Das Spektrum reicht von der Linken (Kritik an staatlicher/privater Digitalkontrolle) über die Grünen (regulierter Mittelweg) und SPD (Arbeitnehmerschutz) bis zur CDU/CSU und FDP (technologieoffensive Agenda mit Souveränität), während die AfD eine nationalistische Variante verfolgt."
       }
+    },
+    "work_transition": {
+      "topic_id": "work_transition",
+      "topic_label": "Arbeit im Wandel",
+      "parties": {},
+      "bridging": {
+        "bridging_scores": {
+          "spd": 0.9387,
+          "afd": 0.1726,
+          "cdu_csu": 0.6566,
+          "fdp": 0.6834,
+          "gruene": 1.0,
+          "linke": 0.0
+        },
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "work_transition",
+        "pairwise_similarity": {
+          "cdu_csu__spd": 0.5383,
+          "cdu_csu__gruene": 0.5003,
+          "cdu_csu__fdp": 0.3207,
+          "afd__cdu_csu": 0.3637,
+          "cdu_csu__linke": 0.2628,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5032,
+          "afd__spd": 0.1869,
+          "linke__spd": 0.254,
+          "fdp__gruene": 0.5434,
+          "afd__gruene": 0.2198,
+          "gruene__linke": 0.2658,
+          "afd__fdp": 0.4438,
+          "fdp__linke": 0.1991,
+          "afd__linke": 0.2501
+        }
+      },
+      "synthesis": {}
+    },
+    "defense": {
+      "topic_id": "defense",
+      "topic_label": "Verteidigung & Militär",
+      "parties": {},
+      "bridging": {
+        "bridging_scores": {
+          "spd": 0.95,
+          "afd": 0.2521,
+          "cdu_csu": 0.5958,
+          "fdp": 0.8273,
+          "gruene": 1.0,
+          "linke": 0.0
+        },
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "defense",
+        "pairwise_similarity": {
+          "cdu_csu__spd": 0.523,
+          "cdu_csu__gruene": 0.4176,
+          "cdu_csu__fdp": 0.3947,
+          "afd__cdu_csu": 0.3512,
+          "cdu_csu__linke": 0.2542,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5988,
+          "afd__spd": 0.2156,
+          "linke__spd": 0.2186,
+          "fdp__gruene": 0.6514,
+          "afd__gruene": 0.283,
+          "gruene__linke": 0.2478,
+          "afd__fdp": 0.4174,
+          "fdp__linke": 0.1217,
+          "afd__linke": 0.2231
+        }
+      },
+      "synthesis": {}
+    },
+    "family_children": {
+      "topic_id": "family_children",
+      "topic_label": "Für Familien & Kinder",
+      "parties": {},
+      "bridging": {
+        "bridging_scores": {
+          "spd": 0.9281,
+          "afd": 0.2153,
+          "cdu_csu": 0.5685,
+          "fdp": 0.7614,
+          "gruene": 1.0,
+          "linke": 0.0
+        },
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "family_children",
+        "pairwise_similarity": {
+          "cdu_csu__spd": 0.5157,
+          "cdu_csu__gruene": 0.4669,
+          "cdu_csu__fdp": 0.3102,
+          "afd__cdu_csu": 0.3457,
+          "cdu_csu__linke": 0.2553,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5503,
+          "afd__spd": 0.1869,
+          "linke__spd": 0.25,
+          "fdp__gruene": 0.6172,
+          "afd__gruene": 0.2797,
+          "gruene__linke": 0.2,
+          "afd__fdp": 0.4236,
+          "fdp__linke": 0.1913,
+          "afd__linke": 0.2136
+        }
+      },
+      "synthesis": {}
+    },
+    "education": {
+      "topic_id": "education",
+      "topic_label": "Bildung & lebenslanges Lernen",
+      "parties": {},
+      "bridging": {
+        "bridging_scores": {
+          "spd": 0.9123,
+          "afd": 0.2504,
+          "cdu_csu": 0.5736,
+          "fdp": 0.772,
+          "gruene": 1.0,
+          "linke": 0.0
+        },
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen",
+        "topic_id": "education",
+        "pairwise_similarity": {
+          "cdu_csu__spd": 0.4625,
+          "cdu_csu__gruene": 0.4236,
+          "cdu_csu__fdp": 0.3886,
+          "afd__cdu_csu": 0.3716,
+          "cdu_csu__linke": 0.2504,
+          "gruene__spd": 0.742,
+          "fdp__spd": 0.5222,
+          "afd__spd": 0.1908,
+          "linke__spd": 0.293,
+          "fdp__gruene": 0.5992,
+          "afd__gruene": 0.2599,
+          "gruene__linke": 0.257,
+          "afd__fdp": 0.4569,
+          "fdp__linke": 0.1217,
+          "afd__linke": 0.2443
+        }
+      },
+      "synthesis": {}
     }
   },
   "graph": {
@@ -732,55 +742,49 @@
       {
         "id": "cdu_csu",
         "name": "CDU/CSU",
-        "bias": "conservative-liberal",
         "color": "#000000",
         "degree_centrality": 1.0,
-        "betweenness_centrality": 0.0,
+        "betweenness_centrality": 1.6252,
         "community": 0
       },
       {
         "id": "spd",
         "name": "SPD",
-        "bias": "left-liberal",
         "color": "#E3000F",
         "degree_centrality": 1.0,
-        "betweenness_centrality": 0.0,
+        "betweenness_centrality": 1.8055,
         "community": 0
       },
       {
         "id": "gruene",
         "name": "Bündnis 90/Die Grünen",
-        "bias": "left-liberal",
         "color": "#1AA037",
         "degree_centrality": 1.0,
-        "betweenness_centrality": 0.0,
+        "betweenness_centrality": 1.8363,
         "community": 0
       },
       {
         "id": "fdp",
         "name": "FDP",
-        "bias": "economic-liberal",
         "color": "#FFED00",
         "degree_centrality": 1.0,
-        "betweenness_centrality": 0.0,
+        "betweenness_centrality": 1.6915,
         "community": 0
       },
       {
         "id": "afd",
         "name": "AfD",
-        "bias": "far-right",
         "color": "#009EE0",
         "degree_centrality": 1.0,
-        "betweenness_centrality": 0.0,
+        "betweenness_centrality": 1.4182,
         "community": 0
       },
       {
         "id": "linke",
         "name": "Die Linke",
-        "bias": "left",
         "color": "#BE3075",
         "degree_centrality": 1.0,
-        "betweenness_centrality": 0.0,
+        "betweenness_centrality": 1.3007,
         "community": 0
       }
     ],
@@ -788,223 +792,262 @@
       {
         "source": "cdu_csu",
         "target": "spd",
-        "weight": 0.9724,
+        "weight": 0.5096,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "cdu_csu",
         "target": "gruene",
-        "weight": 0.9769,
+        "weight": 0.4457,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "cdu_csu",
         "target": "fdp",
-        "weight": 0.9741,
+        "weight": 0.3639,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "cdu_csu",
         "target": "afd",
-        "weight": 0.952,
+        "weight": 0.3531,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "cdu_csu",
         "target": "linke",
-        "weight": 0.9623,
+        "weight": 0.2511,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "spd",
         "target": "gruene",
-        "weight": 0.98,
+        "weight": 0.742,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "spd",
         "target": "fdp",
-        "weight": 0.976,
+        "weight": 0.5246,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "spd",
         "target": "afd",
-        "weight": 0.9559,
+        "weight": 0.1933,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "spd",
         "target": "linke",
-        "weight": 0.9572,
+        "weight": 0.2612,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "gruene",
         "target": "fdp",
-        "weight": 0.9765,
+        "weight": 0.5711,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "gruene",
         "target": "afd",
-        "weight": 0.9551,
+        "weight": 0.2802,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "gruene",
         "target": "linke",
-        "weight": 0.9636,
+        "weight": 0.2382,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "fdp",
         "target": "afd",
-        "weight": 0.9593,
+        "weight": 0.4134,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "fdp",
         "target": "linke",
-        "weight": 0.9566,
+        "weight": 0.171,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       },
       {
         "source": "afd",
         "target": "linke",
-        "weight": 0.9461,
+        "weight": 0.2344,
         "topics": [
           "migration",
           "energy_transition",
           "retirement",
-          "wealth_tax",
-          "digitalization"
+          "digitalization",
+          "work_transition",
+          "defense",
+          "family_children",
+          "education"
         ]
       }
     ],
-    "most_bridging_party": "cdu_csu",
-    "most_bridging_party_name": "CDU/CSU",
+    "most_bridging_party": "gruene",
+    "most_bridging_party_name": "Bündnis 90/Die Grünen",
     "topic_subgraphs": {
       "migration": {
         "nodes": [
           {
             "id": "cdu_csu",
             "name": "CDU/CSU",
-            "bias": "conservative-liberal",
             "color": "#000000"
           },
           {
             "id": "spd",
             "name": "SPD",
-            "bias": "left-liberal",
             "color": "#E3000F"
           },
           {
             "id": "gruene",
             "name": "Bündnis 90/Die Grünen",
-            "bias": "left-liberal",
             "color": "#1AA037"
           },
           {
             "id": "fdp",
             "name": "FDP",
-            "bias": "economic-liberal",
             "color": "#FFED00"
           },
           {
             "id": "afd",
             "name": "AfD",
-            "bias": "far-right",
             "color": "#009EE0"
           },
           {
             "id": "linke",
             "name": "Die Linke",
-            "bias": "left",
             "color": "#BE3075"
           }
         ],
@@ -1012,118 +1055,112 @@
           {
             "source": "cdu_csu",
             "target": "spd",
-            "weight": 0.9656
+            "weight": 0.4525
           },
           {
             "source": "cdu_csu",
             "target": "gruene",
-            "weight": 0.9717
+            "weight": 0.3901
           },
           {
             "source": "cdu_csu",
             "target": "fdp",
-            "weight": 0.9724
+            "weight": 0.3077
           },
           {
             "source": "cdu_csu",
             "target": "afd",
-            "weight": 0.9436
+            "weight": 0.3408
           },
           {
             "source": "cdu_csu",
             "target": "linke",
-            "weight": 0.9665
+            "weight": 0.2458
           },
           {
             "source": "spd",
             "target": "gruene",
-            "weight": 0.9835
+            "weight": 0.742
           },
           {
             "source": "spd",
             "target": "fdp",
-            "weight": 0.9792
+            "weight": 0.5691
           },
           {
             "source": "spd",
             "target": "afd",
-            "weight": 0.9598
+            "weight": 0.1974
           },
           {
             "source": "spd",
             "target": "linke",
-            "weight": 0.9565
+            "weight": 0.2188
           },
           {
             "source": "gruene",
             "target": "fdp",
-            "weight": 0.979
+            "weight": 0.6186
           },
           {
             "source": "gruene",
             "target": "afd",
-            "weight": 0.9541
+            "weight": 0.2486
           },
           {
             "source": "gruene",
             "target": "linke",
-            "weight": 0.9613
+            "weight": 0.2349
           },
           {
             "source": "fdp",
             "target": "afd",
-            "weight": 0.9634
+            "weight": 0.4261
           },
           {
             "source": "fdp",
             "target": "linke",
-            "weight": 0.9692
+            "weight": 0.1324
           },
           {
             "source": "afd",
             "target": "linke",
-            "weight": 0.9286
+            "weight": 0.1889
           }
         ],
-        "most_bridging_party": "cdu_csu",
-        "most_bridging_party_name": "CDU/CSU"
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
       },
       "energy_transition": {
         "nodes": [
           {
             "id": "cdu_csu",
             "name": "CDU/CSU",
-            "bias": "conservative-liberal",
             "color": "#000000"
           },
           {
             "id": "spd",
             "name": "SPD",
-            "bias": "left-liberal",
             "color": "#E3000F"
           },
           {
             "id": "gruene",
             "name": "Bündnis 90/Die Grünen",
-            "bias": "left-liberal",
             "color": "#1AA037"
           },
           {
             "id": "fdp",
             "name": "FDP",
-            "bias": "economic-liberal",
             "color": "#FFED00"
           },
           {
             "id": "afd",
             "name": "AfD",
-            "bias": "far-right",
             "color": "#009EE0"
           },
           {
             "id": "linke",
             "name": "Die Linke",
-            "bias": "left",
             "color": "#BE3075"
           }
         ],
@@ -1131,118 +1168,112 @@
           {
             "source": "cdu_csu",
             "target": "spd",
-            "weight": 0.9712
+            "weight": 0.5319
           },
           {
             "source": "cdu_csu",
             "target": "gruene",
-            "weight": 0.9799
+            "weight": 0.4605
           },
           {
             "source": "cdu_csu",
             "target": "fdp",
-            "weight": 0.9703
+            "weight": 0.4247
           },
           {
             "source": "cdu_csu",
             "target": "afd",
-            "weight": 0.9446
+            "weight": 0.3282
           },
           {
             "source": "cdu_csu",
             "target": "linke",
-            "weight": 0.9683
+            "weight": 0.1986
           },
           {
             "source": "spd",
             "target": "gruene",
-            "weight": 0.9728
+            "weight": 0.742
           },
           {
             "source": "spd",
             "target": "fdp",
-            "weight": 0.973
+            "weight": 0.344
           },
           {
             "source": "spd",
             "target": "afd",
-            "weight": 0.9458
+            "weight": 0.1869
           },
           {
             "source": "spd",
             "target": "linke",
-            "weight": 0.9574
+            "weight": 0.3058
           },
           {
             "source": "gruene",
             "target": "fdp",
-            "weight": 0.969
+            "weight": 0.4373
           },
           {
             "source": "gruene",
             "target": "afd",
-            "weight": 0.946
+            "weight": 0.3181
           },
           {
             "source": "gruene",
             "target": "linke",
-            "weight": 0.9724
+            "weight": 0.202
           },
           {
             "source": "fdp",
             "target": "afd",
-            "weight": 0.9498
+            "weight": 0.3639
           },
           {
             "source": "fdp",
             "target": "linke",
-            "weight": 0.9592
+            "weight": 0.2122
           },
           {
             "source": "afd",
             "target": "linke",
-            "weight": 0.9377
+            "weight": 0.2549
           }
         ],
-        "most_bridging_party": "cdu_csu",
-        "most_bridging_party_name": "CDU/CSU"
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
       },
       "retirement": {
         "nodes": [
           {
             "id": "cdu_csu",
             "name": "CDU/CSU",
-            "bias": "conservative-liberal",
             "color": "#000000"
           },
           {
             "id": "spd",
             "name": "SPD",
-            "bias": "left-liberal",
             "color": "#E3000F"
           },
           {
             "id": "gruene",
             "name": "Bündnis 90/Die Grünen",
-            "bias": "left-liberal",
             "color": "#1AA037"
           },
           {
             "id": "fdp",
             "name": "FDP",
-            "bias": "economic-liberal",
             "color": "#FFED00"
           },
           {
             "id": "afd",
             "name": "AfD",
-            "bias": "far-right",
             "color": "#009EE0"
           },
           {
             "id": "linke",
             "name": "Die Linke",
-            "bias": "left",
             "color": "#BE3075"
           }
         ],
@@ -1250,237 +1281,112 @@
           {
             "source": "cdu_csu",
             "target": "spd",
-            "weight": 0.9786
+            "weight": 0.574
           },
           {
             "source": "cdu_csu",
             "target": "gruene",
-            "weight": 0.9745
+            "weight": 0.4514
           },
           {
             "source": "cdu_csu",
             "target": "fdp",
-            "weight": 0.9779
+            "weight": 0.4573
           },
           {
             "source": "cdu_csu",
             "target": "afd",
-            "weight": 0.9589
+            "weight": 0.4059
           },
           {
             "source": "cdu_csu",
             "target": "linke",
-            "weight": 0.9656
+            "weight": 0.3162
           },
           {
             "source": "spd",
             "target": "gruene",
-            "weight": 0.9825
+            "weight": 0.742
           },
           {
             "source": "spd",
             "target": "fdp",
-            "weight": 0.9793
+            "weight": 0.5213
           },
           {
             "source": "spd",
             "target": "afd",
-            "weight": 0.9625
+            "weight": 0.1869
           },
           {
             "source": "spd",
             "target": "linke",
-            "weight": 0.9643
+            "weight": 0.3656
           },
           {
             "source": "gruene",
             "target": "fdp",
-            "weight": 0.9803
+            "weight": 0.4865
           },
           {
             "source": "gruene",
             "target": "afd",
-            "weight": 0.9588
+            "weight": 0.4088
           },
           {
             "source": "gruene",
             "target": "linke",
-            "weight": 0.9661
+            "weight": 0.304
           },
           {
             "source": "fdp",
             "target": "afd",
-            "weight": 0.9621
+            "weight": 0.4122
           },
           {
             "source": "fdp",
             "target": "linke",
-            "weight": 0.9565
+            "weight": 0.2237
           },
           {
             "source": "afd",
             "target": "linke",
-            "weight": 0.9604
+            "weight": 0.2951
           }
         ],
-        "most_bridging_party": "cdu_csu",
-        "most_bridging_party_name": "CDU/CSU"
-      },
-      "wealth_tax": {
-        "nodes": [
-          {
-            "id": "cdu_csu",
-            "name": "CDU/CSU",
-            "bias": "conservative-liberal",
-            "color": "#000000"
-          },
-          {
-            "id": "spd",
-            "name": "SPD",
-            "bias": "left-liberal",
-            "color": "#E3000F"
-          },
-          {
-            "id": "gruene",
-            "name": "Bündnis 90/Die Grünen",
-            "bias": "left-liberal",
-            "color": "#1AA037"
-          },
-          {
-            "id": "fdp",
-            "name": "FDP",
-            "bias": "economic-liberal",
-            "color": "#FFED00"
-          },
-          {
-            "id": "afd",
-            "name": "AfD",
-            "bias": "far-right",
-            "color": "#009EE0"
-          },
-          {
-            "id": "linke",
-            "name": "Die Linke",
-            "bias": "left",
-            "color": "#BE3075"
-          }
-        ],
-        "edges": [
-          {
-            "source": "cdu_csu",
-            "target": "spd",
-            "weight": 0.9693
-          },
-          {
-            "source": "cdu_csu",
-            "target": "gruene",
-            "weight": 0.9751
-          },
-          {
-            "source": "cdu_csu",
-            "target": "fdp",
-            "weight": 0.9748
-          },
-          {
-            "source": "cdu_csu",
-            "target": "afd",
-            "weight": 0.9524
-          },
-          {
-            "source": "cdu_csu",
-            "target": "linke",
-            "weight": 0.9547
-          },
-          {
-            "source": "spd",
-            "target": "gruene",
-            "weight": 0.9818
-          },
-          {
-            "source": "spd",
-            "target": "fdp",
-            "weight": 0.9759
-          },
-          {
-            "source": "spd",
-            "target": "afd",
-            "weight": 0.9564
-          },
-          {
-            "source": "spd",
-            "target": "linke",
-            "weight": 0.9636
-          },
-          {
-            "source": "gruene",
-            "target": "fdp",
-            "weight": 0.9759
-          },
-          {
-            "source": "gruene",
-            "target": "afd",
-            "weight": 0.9583
-          },
-          {
-            "source": "gruene",
-            "target": "linke",
-            "weight": 0.9636
-          },
-          {
-            "source": "fdp",
-            "target": "afd",
-            "weight": 0.9641
-          },
-          {
-            "source": "fdp",
-            "target": "linke",
-            "weight": 0.9544
-          },
-          {
-            "source": "afd",
-            "target": "linke",
-            "weight": 0.9416
-          }
-        ],
-        "most_bridging_party": "cdu_csu",
-        "most_bridging_party_name": "CDU/CSU"
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
       },
       "digitalization": {
         "nodes": [
           {
             "id": "cdu_csu",
             "name": "CDU/CSU",
-            "bias": "conservative-liberal",
             "color": "#000000"
           },
           {
             "id": "spd",
             "name": "SPD",
-            "bias": "left-liberal",
             "color": "#E3000F"
           },
           {
             "id": "gruene",
             "name": "Bündnis 90/Die Grünen",
-            "bias": "left-liberal",
             "color": "#1AA037"
           },
           {
             "id": "fdp",
             "name": "FDP",
-            "bias": "economic-liberal",
             "color": "#FFED00"
           },
           {
             "id": "afd",
             "name": "AfD",
-            "bias": "far-right",
             "color": "#009EE0"
           },
           {
             "id": "linke",
             "name": "Die Linke",
-            "bias": "left",
             "color": "#BE3075"
           }
         ],
@@ -1488,81 +1394,533 @@
           {
             "source": "cdu_csu",
             "target": "spd",
-            "weight": 0.9775
+            "weight": 0.479
           },
           {
             "source": "cdu_csu",
             "target": "gruene",
-            "weight": 0.9831
+            "weight": 0.4553
           },
           {
             "source": "cdu_csu",
             "target": "fdp",
-            "weight": 0.9753
+            "weight": 0.3077
           },
           {
             "source": "cdu_csu",
             "target": "afd",
-            "weight": 0.9603
+            "weight": 0.3173
           },
           {
             "source": "cdu_csu",
             "target": "linke",
-            "weight": 0.9566
+            "weight": 0.2257
           },
           {
             "source": "spd",
             "target": "gruene",
-            "weight": 0.9795
+            "weight": 0.742
           },
           {
             "source": "spd",
             "target": "fdp",
-            "weight": 0.9728
+            "weight": 0.5875
           },
           {
             "source": "spd",
             "target": "afd",
-            "weight": 0.9549
+            "weight": 0.1947
           },
           {
             "source": "spd",
             "target": "linke",
-            "weight": 0.944
+            "weight": 0.1839
           },
           {
             "source": "gruene",
             "target": "fdp",
-            "weight": 0.9783
+            "weight": 0.6152
           },
           {
             "source": "gruene",
             "target": "afd",
-            "weight": 0.9582
+            "weight": 0.224
           },
           {
             "source": "gruene",
             "target": "linke",
-            "weight": 0.9546
+            "weight": 0.1943
           },
           {
             "source": "fdp",
             "target": "afd",
-            "weight": 0.9572
+            "weight": 0.3635
           },
           {
             "source": "fdp",
             "target": "linke",
-            "weight": 0.9438
+            "weight": 0.1662
           },
           {
             "source": "afd",
             "target": "linke",
-            "weight": 0.9622
+            "weight": 0.2053
           }
         ],
-        "most_bridging_party": "cdu_csu",
-        "most_bridging_party_name": "CDU/CSU"
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
+      },
+      "work_transition": {
+        "nodes": [
+          {
+            "id": "cdu_csu",
+            "name": "CDU/CSU",
+            "color": "#000000"
+          },
+          {
+            "id": "spd",
+            "name": "SPD",
+            "color": "#E3000F"
+          },
+          {
+            "id": "gruene",
+            "name": "Bündnis 90/Die Grünen",
+            "color": "#1AA037"
+          },
+          {
+            "id": "fdp",
+            "name": "FDP",
+            "color": "#FFED00"
+          },
+          {
+            "id": "afd",
+            "name": "AfD",
+            "color": "#009EE0"
+          },
+          {
+            "id": "linke",
+            "name": "Die Linke",
+            "color": "#BE3075"
+          }
+        ],
+        "edges": [
+          {
+            "source": "cdu_csu",
+            "target": "spd",
+            "weight": 0.5383
+          },
+          {
+            "source": "cdu_csu",
+            "target": "gruene",
+            "weight": 0.5003
+          },
+          {
+            "source": "cdu_csu",
+            "target": "fdp",
+            "weight": 0.3207
+          },
+          {
+            "source": "cdu_csu",
+            "target": "afd",
+            "weight": 0.3637
+          },
+          {
+            "source": "cdu_csu",
+            "target": "linke",
+            "weight": 0.2628
+          },
+          {
+            "source": "spd",
+            "target": "gruene",
+            "weight": 0.742
+          },
+          {
+            "source": "spd",
+            "target": "fdp",
+            "weight": 0.5032
+          },
+          {
+            "source": "spd",
+            "target": "afd",
+            "weight": 0.1869
+          },
+          {
+            "source": "spd",
+            "target": "linke",
+            "weight": 0.254
+          },
+          {
+            "source": "gruene",
+            "target": "fdp",
+            "weight": 0.5434
+          },
+          {
+            "source": "gruene",
+            "target": "afd",
+            "weight": 0.2198
+          },
+          {
+            "source": "gruene",
+            "target": "linke",
+            "weight": 0.2658
+          },
+          {
+            "source": "fdp",
+            "target": "afd",
+            "weight": 0.4438
+          },
+          {
+            "source": "fdp",
+            "target": "linke",
+            "weight": 0.1991
+          },
+          {
+            "source": "afd",
+            "target": "linke",
+            "weight": 0.2501
+          }
+        ],
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
+      },
+      "defense": {
+        "nodes": [
+          {
+            "id": "cdu_csu",
+            "name": "CDU/CSU",
+            "color": "#000000"
+          },
+          {
+            "id": "spd",
+            "name": "SPD",
+            "color": "#E3000F"
+          },
+          {
+            "id": "gruene",
+            "name": "Bündnis 90/Die Grünen",
+            "color": "#1AA037"
+          },
+          {
+            "id": "fdp",
+            "name": "FDP",
+            "color": "#FFED00"
+          },
+          {
+            "id": "afd",
+            "name": "AfD",
+            "color": "#009EE0"
+          },
+          {
+            "id": "linke",
+            "name": "Die Linke",
+            "color": "#BE3075"
+          }
+        ],
+        "edges": [
+          {
+            "source": "cdu_csu",
+            "target": "spd",
+            "weight": 0.523
+          },
+          {
+            "source": "cdu_csu",
+            "target": "gruene",
+            "weight": 0.4176
+          },
+          {
+            "source": "cdu_csu",
+            "target": "fdp",
+            "weight": 0.3947
+          },
+          {
+            "source": "cdu_csu",
+            "target": "afd",
+            "weight": 0.3512
+          },
+          {
+            "source": "cdu_csu",
+            "target": "linke",
+            "weight": 0.2542
+          },
+          {
+            "source": "spd",
+            "target": "gruene",
+            "weight": 0.742
+          },
+          {
+            "source": "spd",
+            "target": "fdp",
+            "weight": 0.5988
+          },
+          {
+            "source": "spd",
+            "target": "afd",
+            "weight": 0.2156
+          },
+          {
+            "source": "spd",
+            "target": "linke",
+            "weight": 0.2186
+          },
+          {
+            "source": "gruene",
+            "target": "fdp",
+            "weight": 0.6514
+          },
+          {
+            "source": "gruene",
+            "target": "afd",
+            "weight": 0.283
+          },
+          {
+            "source": "gruene",
+            "target": "linke",
+            "weight": 0.2478
+          },
+          {
+            "source": "fdp",
+            "target": "afd",
+            "weight": 0.4174
+          },
+          {
+            "source": "fdp",
+            "target": "linke",
+            "weight": 0.1217
+          },
+          {
+            "source": "afd",
+            "target": "linke",
+            "weight": 0.2231
+          }
+        ],
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
+      },
+      "family_children": {
+        "nodes": [
+          {
+            "id": "cdu_csu",
+            "name": "CDU/CSU",
+            "color": "#000000"
+          },
+          {
+            "id": "spd",
+            "name": "SPD",
+            "color": "#E3000F"
+          },
+          {
+            "id": "gruene",
+            "name": "Bündnis 90/Die Grünen",
+            "color": "#1AA037"
+          },
+          {
+            "id": "fdp",
+            "name": "FDP",
+            "color": "#FFED00"
+          },
+          {
+            "id": "afd",
+            "name": "AfD",
+            "color": "#009EE0"
+          },
+          {
+            "id": "linke",
+            "name": "Die Linke",
+            "color": "#BE3075"
+          }
+        ],
+        "edges": [
+          {
+            "source": "cdu_csu",
+            "target": "spd",
+            "weight": 0.5157
+          },
+          {
+            "source": "cdu_csu",
+            "target": "gruene",
+            "weight": 0.4669
+          },
+          {
+            "source": "cdu_csu",
+            "target": "fdp",
+            "weight": 0.3102
+          },
+          {
+            "source": "cdu_csu",
+            "target": "afd",
+            "weight": 0.3457
+          },
+          {
+            "source": "cdu_csu",
+            "target": "linke",
+            "weight": 0.2553
+          },
+          {
+            "source": "spd",
+            "target": "gruene",
+            "weight": 0.742
+          },
+          {
+            "source": "spd",
+            "target": "fdp",
+            "weight": 0.5503
+          },
+          {
+            "source": "spd",
+            "target": "afd",
+            "weight": 0.1869
+          },
+          {
+            "source": "spd",
+            "target": "linke",
+            "weight": 0.25
+          },
+          {
+            "source": "gruene",
+            "target": "fdp",
+            "weight": 0.6172
+          },
+          {
+            "source": "gruene",
+            "target": "afd",
+            "weight": 0.2797
+          },
+          {
+            "source": "gruene",
+            "target": "linke",
+            "weight": 0.2
+          },
+          {
+            "source": "fdp",
+            "target": "afd",
+            "weight": 0.4236
+          },
+          {
+            "source": "fdp",
+            "target": "linke",
+            "weight": 0.1913
+          },
+          {
+            "source": "afd",
+            "target": "linke",
+            "weight": 0.2136
+          }
+        ],
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
+      },
+      "education": {
+        "nodes": [
+          {
+            "id": "cdu_csu",
+            "name": "CDU/CSU",
+            "color": "#000000"
+          },
+          {
+            "id": "spd",
+            "name": "SPD",
+            "color": "#E3000F"
+          },
+          {
+            "id": "gruene",
+            "name": "Bündnis 90/Die Grünen",
+            "color": "#1AA037"
+          },
+          {
+            "id": "fdp",
+            "name": "FDP",
+            "color": "#FFED00"
+          },
+          {
+            "id": "afd",
+            "name": "AfD",
+            "color": "#009EE0"
+          },
+          {
+            "id": "linke",
+            "name": "Die Linke",
+            "color": "#BE3075"
+          }
+        ],
+        "edges": [
+          {
+            "source": "cdu_csu",
+            "target": "spd",
+            "weight": 0.4625
+          },
+          {
+            "source": "cdu_csu",
+            "target": "gruene",
+            "weight": 0.4236
+          },
+          {
+            "source": "cdu_csu",
+            "target": "fdp",
+            "weight": 0.3886
+          },
+          {
+            "source": "cdu_csu",
+            "target": "afd",
+            "weight": 0.3716
+          },
+          {
+            "source": "cdu_csu",
+            "target": "linke",
+            "weight": 0.2504
+          },
+          {
+            "source": "spd",
+            "target": "gruene",
+            "weight": 0.742
+          },
+          {
+            "source": "spd",
+            "target": "fdp",
+            "weight": 0.5222
+          },
+          {
+            "source": "spd",
+            "target": "afd",
+            "weight": 0.1908
+          },
+          {
+            "source": "spd",
+            "target": "linke",
+            "weight": 0.293
+          },
+          {
+            "source": "gruene",
+            "target": "fdp",
+            "weight": 0.5992
+          },
+          {
+            "source": "gruene",
+            "target": "afd",
+            "weight": 0.2599
+          },
+          {
+            "source": "gruene",
+            "target": "linke",
+            "weight": 0.257
+          },
+          {
+            "source": "fdp",
+            "target": "afd",
+            "weight": 0.4569
+          },
+          {
+            "source": "fdp",
+            "target": "linke",
+            "weight": 0.1217
+          },
+          {
+            "source": "afd",
+            "target": "linke",
+            "weight": 0.2443
+          }
+        ],
+        "most_bridging_party": "gruene",
+        "most_bridging_party_name": "Bündnis 90/Die Grünen"
       }
     },
     "complement_edges": []

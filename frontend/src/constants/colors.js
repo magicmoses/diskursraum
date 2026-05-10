@@ -10,14 +10,14 @@ export const BIAS_COLORS = {
 }
 
 export const BIAS_LABELS = {
-  'left':                'taz',
-  'left-liberal':        'Spiegel, Zeit, SZ, Stern',
-  'neutral':             'Tagesschau, ZDF, DW',
-  'conservative-liberal':'FAZ, Cicero',
-  'economic-liberal':    'Handelsblatt',
-  'right-conservative':  'WELT, Focus',
-  'populist-mixed':      'BILD',
-  'far-right':           'Junge Freiheit',
+  'left':                'Links',
+  'left-liberal':        'Links-Liberal',
+  'neutral':             'Neutral',
+  'conservative-liberal':'Konservativ-Liberal',
+  'economic-liberal':    'Wirtschaftsliberal',
+  'right-conservative':  'Rechts-Konservativ',
+  'populist-mixed':      'Populistisch',
+  'far-right':           'Rechtsaußen',
 }
 
 export const EMOTION_COLORS = {
@@ -61,7 +61,7 @@ export const TOOLTIP_STYLE = {
   background:  'var(--bg-elevated)',
   border:      '1px solid var(--border)',
   borderRadius:'2px',
-  color:       'var(--text-primary)',
+  color:       '#EDECEA',
   fontSize:    '13px',
   fontFamily:  'var(--font-body)',
 }

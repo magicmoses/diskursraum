@@ -3,12 +3,17 @@ import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 
 const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
 
+const YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
+
 const TOPIC_LABELS = {
   migration:        'Migration',
   energy_transition:'Energiewende',
   retirement:       'Rente',
-  wealth_tax:       'Vermögen',
   digitalization:   'Digitalisierung',
+  work_transition:  'Arbeit',
+  defense:          'Verteidigung',
+  family_children:  'Familie',
+  education:        'Bildung',
 }
 
 const SHORT = {
@@ -39,10 +44,11 @@ function cellBg(val, min, max) {
   return `rgba(${r},${g},${b},${0.12 + t * 0.48})`
 }
 
-export default function Heatmap({ data, year }) {
-  const [hovered, setHovered]   = useState(null) // [ri, ci]
+export default function Heatmap({ data, year: initialYear = 2025 }) {
+  const [hovered, setHovered]   = useState(null)
   const [tooltip, setTooltip]   = useState(null)
   const [activeTopic, setTopic] = useState(null)
+  const [year, setYear]         = useState(initialYear)
 
   const yearKey = String(year)
 
@@ -68,8 +74,25 @@ export default function Heatmap({ data, year }) {
 
   return (
     <div style={{ position: 'relative' }}>
+      <div style={{ display: 'flex', gap: '4px', marginBottom: 'var(--space-3)', flexWrap: 'wrap' }}>
+        {YEARS.map(y => (
+          <button
+            key={y}
+            onClick={() => setYear(y)}
+            style={{
+              padding: '3px 10px', background: 'none', border: 'none',
+              borderBottom: year === y ? '2px solid var(--signal)' : '2px solid transparent',
+              color: year === y ? 'var(--text-primary)' : 'var(--text-muted)',
+              fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)',
+              cursor: 'pointer', transition: 'color 150ms, border-color 150ms',
+            }}
+          >
+            {y}
+          </button>
+        ))}
+      </div>
       {/* Topic switcher */}
-      <div style={{ display: 'flex', gap: '1px', marginBottom: 'var(--space-3)', background: 'var(--border)' }}>
+      <div style={{ display: 'flex', gap: '1px', marginBottom: 'var(--space-3)', background: 'var(--border)', flexWrap: 'wrap' }}>
         {[{ id: null, label: 'Gesamt' }, ...Object.entries(TOPIC_LABELS).map(([id, label]) => ({ id, label }))].map(({ id, label }) => (
           <button
             key={id ?? 'all'}

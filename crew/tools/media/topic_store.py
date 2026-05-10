@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime
 
 DB_PATH = os.path.join(
-    os.path.dirname(__file__), "..", "..", "data", "news.db"
+    os.path.dirname(__file__), "..", "..", "..", "data", "news.db"
 )
 
 

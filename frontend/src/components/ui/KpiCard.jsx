@@ -7,7 +7,7 @@ export default function KpiCard({ label, value, mono = false }) {
     }}>
       <div style={{
         fontSize: 'var(--text-xs)',
-        color: 'var(--text-muted)',
+        color: 'var(--text-secondary)',
         letterSpacing: '0.08em',
         textTransform: 'uppercase',
         marginBottom: 'var(--space-2)',

@@ -3,160 +3,249 @@ graph [
     id 0
     label "cdu_csu"
     name "CDU/CSU"
-    bias "conservative-liberal"
     color "#000000"
-    degree_centrality 0.8
-    betweenness_centrality 0.0
+    degree_centrality 1.0
+    betweenness_centrality 1.6252
     community 0
   ]
   node [
     id 1
     label "spd"
     name "SPD"
-    bias "left-liberal"
     color "#E3000F"
-    degree_centrality 0.8
-    betweenness_centrality 0.0
+    degree_centrality 1.0
+    betweenness_centrality 1.8055
     community 0
   ]
   node [
     id 2
     label "gruene"
     name "B&#252;ndnis 90/Die Gr&#252;nen"
-    bias "left-liberal"
     color "#1AA037"
-    degree_centrality 0.8
-    betweenness_centrality 0.0
+    degree_centrality 1.0
+    betweenness_centrality 1.8363
     community 0
   ]
   node [
     id 3
     label "fdp"
     name "FDP"
-    bias "economic-liberal"
     color "#FFED00"
-    degree_centrality 0.8
-    betweenness_centrality 0.0
+    degree_centrality 1.0
+    betweenness_centrality 1.6915
     community 0
   ]
   node [
     id 4
     label "afd"
     name "AfD"
-    bias "far-right"
     color "#009EE0"
-    degree_centrality 0.0
-    betweenness_centrality 0.0
-    community 1
+    degree_centrality 1.0
+    betweenness_centrality 1.4182
+    community 0
   ]
   node [
     id 5
     label "linke"
     name "Die Linke"
-    bias "left"
     color "#BE3075"
-    degree_centrality 0.8
-    betweenness_centrality 0.0
+    degree_centrality 1.0
+    betweenness_centrality 1.3007
     community 0
   ]
   edge [
     source 0
     target 1
-    weight 0.9731
+    weight 0.5096
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 0
     target 2
-    weight 0.9684
+    weight 0.4457
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 0
     target 3
-    weight 0.9716
+    weight 0.3639
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
+  ]
+  edge [
+    source 0
+    target 4
+    weight 0.3531
+    topics "migration"
+    topics "energy_transition"
+    topics "retirement"
+    topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 0
     target 5
-    weight 0.9687
+    weight 0.2511
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 1
     target 2
-    weight 0.975
+    weight 0.742
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 1
     target 3
-    weight 0.9658
+    weight 0.5246
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
+  ]
+  edge [
+    source 1
+    target 4
+    weight 0.1933
+    topics "migration"
+    topics "energy_transition"
+    topics "retirement"
+    topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 1
     target 5
-    weight 0.9722
+    weight 0.2612
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 2
     target 3
-    weight 0.9666
+    weight 0.5711
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
+  ]
+  edge [
+    source 2
+    target 4
+    weight 0.2802
+    topics "migration"
+    topics "energy_transition"
+    topics "retirement"
+    topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 2
     target 5
-    weight 0.9733
+    weight 0.2382
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
+  ]
+  edge [
+    source 3
+    target 4
+    weight 0.4134
+    topics "migration"
+    topics "energy_transition"
+    topics "retirement"
+    topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
   edge [
     source 3
     target 5
-    weight 0.9682
+    weight 0.171
     topics "migration"
     topics "energy_transition"
     topics "retirement"
-    topics "wealth_tax"
     topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
+  ]
+  edge [
+    source 4
+    target 5
+    weight 0.2344
+    topics "migration"
+    topics "energy_transition"
+    topics "retirement"
+    topics "digitalization"
+    topics "work_transition"
+    topics "defense"
+    topics "family_children"
+    topics "education"
   ]
 ]

@@ -43,7 +43,7 @@ function AppShell() {
             {[
               { to: '/medienspiegel', label: 'Medienspiegel' },
               { to: '/parteienspiegel', label: 'Parteienspiegel' },
-              { to: '/project', label: 'Project' },
+              { to: '/project', label: 'Diskursraum-Analytics' },
             ].map(({ to, label }) => (
               <NavLink
                 key={to}
