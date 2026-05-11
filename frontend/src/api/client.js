@@ -19,6 +19,15 @@ export const getTrendingTopics    = (daysBack = 7, topN = 20) =>
 export const getTopicAnalysis     = (topicId) =>
   api.get(`/topic/${topicId}`).then(r => r.data)
 
+// ── Frag nach ─────────────────────────────────────
+export const searchManifestos = (query, parties = [], years = []) =>
+  api.get('/frag-nach/search', { params: {
+    query,
+    parties: parties.join(',') || 'all',
+    years:   years.join(',')   || 'all',
+    limit:   10,
+  }}).then(r => r.data)
+
 // ── Parteiprogramme ───────────────────────────────
 export const getManifestoYear        = (year) =>
   api.get(`/manifestos/${year}`).then(r => r.data)
