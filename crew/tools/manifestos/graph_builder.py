@@ -1,3 +1,8 @@
+# TODO (phase 2): Still queries ChromaDB (data/chroma_db/ — gitignored, built locally,
+# not reproducible from a clean clone). The production API (api/frag_nach.py) has already
+# been migrated to pgvector (manifesto_chunks table). This script should query pgvector
+# instead. Low priority — runs manually, once per election cycle (~4 yrs).
+
 """
 graph_builder.py — Semantic Search, Bridging Score, NetworkX Graph
 

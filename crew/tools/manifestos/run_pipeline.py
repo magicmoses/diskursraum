@@ -1,3 +1,7 @@
+# TODO (phase 2): Pipeline still writes to / reads from ChromaDB (data/chroma_db/ —
+# gitignored, built locally, not reproducible from a clean clone). Once all sub-scripts
+# are migrated to pgvector, remove the CHROMA_DIR reference here too.
+
 """
 run_pipeline.py — Orchestrates the full manifesto analysis pipeline.
 
