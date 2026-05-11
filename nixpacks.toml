@@ -1,0 +1,17 @@
+# Railway deployment config — https://nixpacks.com
+#
+# The [phases.build] step pre-downloads the embedding model into the Docker
+# image so container restarts never trigger a model download.
+# HF_HOME points to /app/.cache/huggingface which is baked into the image layer.
+# After first deployment the layer is cached by Railway — rebuilds are fast.
+
+[variables]
+HF_HOME = "/app/.cache/huggingface"
+
+[phases.build]
+cmds = [
+  "HF_HOME=/app/.cache/huggingface python scripts/download_model.py",
+]
+
+[start]
+cmd = "cd /app/api && python run_server.py"
