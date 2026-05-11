@@ -329,3 +329,11 @@ def get_category_distribution(year: int):
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     return None
+
+
+def get_manifesto_analysis():
+    path = os.path.join(_RESULTS_DIR, "manifesto_analysis.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None

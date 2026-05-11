@@ -1,3 +1,8 @@
+# TODO (phase 2): Still reads chunks from ChromaDB (data/chroma_db/ — gitignored,
+# built locally, not reproducible from a clean clone). The production API (api/frag_nach.py)
+# has already been migrated to pgvector (manifesto_chunks table). This script should
+# query pgvector instead. Low priority — runs manually, once per election cycle (~4 yrs).
+
 """
 analyze_historical.py — Cross-Year Historical Analysis
 
@@ -404,6 +409,135 @@ def compute_bridging_vote_correlation(bridging_ts: dict, election_results: dict)
     return result
 
 
+# ── NLP Pipeline (Prompt 7b) ─────────────────────
+def analyze_nlp() -> dict:
+    """
+    Drei Analysen für historical_analysis.json['nlp_analysis']:
+    1. program_length  — Wortanzahl aus manifesto_hohenheim.json
+    2. readability     — HIX aus manifesto_hohenheim.json
+    3. central_promises — Groq LLM, top-15 ChromaDB-Chunks je Partei/Jahr
+    """
+    hohenheim_path = RESULTS_DIR / "manifesto_hohenheim.json"
+    if hohenheim_path.exists():
+        hohenheim = json.loads(hohenheim_path.read_text(encoding="utf-8"))
+    else:
+        print("  manifesto_hohenheim.json nicht gefunden — program_length/readability übersprungen")
+        hohenheim = {}
+
+    years_data = hohenheim.get("years", {})
+
+    # ── program_length ────────────────────────────
+    program_length: dict = {}
+    for year_str, parties in years_data.items():
+        year_entries: dict = {}
+        for pid, pdata in (parties or {}).items():
+            if pdata and pdata.get("word_count") is not None:
+                year_entries[pid] = {
+                    "word_count": pdata["word_count"],
+                    "source": "Universität Hohenheim",
+                }
+        if year_entries:
+            program_length[year_str] = year_entries
+    print(f"  program_length: {sum(len(v) for v in program_length.values())} Einträge")
+
+    # ── readability ───────────────────────────────
+    readability: dict = {}
+    for year_str, parties in years_data.items():
+        year_entries = {}
+        for pid, pdata in (parties or {}).items():
+            if pdata and pdata.get("hix") is not None:
+                year_entries[pid] = {
+                    "hix": pdata["hix"],
+                    "source": "Universität Hohenheim",
+                }
+        if year_entries:
+            readability[year_str] = year_entries
+    print(f"  readability: {sum(len(v) for v in readability.values())} Einträge")
+
+    # ── central_promises ──────────────────────────
+    from groq import Groq
+    groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    chroma_client = _chroma()
+    central_promises: dict = {}
+
+    for year in AVAILABLE_YEARS:
+        year_str = str(year)
+        central_promises[year_str] = {}
+        print(f"  {year}: central_promises...", end=" ", flush=True)
+
+        try:
+            col = chroma_client.get_collection(f"manifestos_{year}")
+        except Exception as e:
+            print(f"kein Collection ({e})")
+            continue
+
+        for pid in PARTIES:
+            if pid == "afd" and year < 2013:
+                continue
+            try:
+                res = col.get(
+                    where={"party_id": pid},
+                    include=["documents"],
+                    limit=15,
+                )
+                docs = res.get("documents") or []
+                if not docs:
+                    continue
+
+                context = "\n\n".join(docs)
+                resp = groq_client.chat.completions.create(
+                    model="llama-3.3-70b-versatile",
+                    messages=[{"role": "user", "content":
+                        f"Extrahiere 3-5 zentrale Versprechen aus diesem Auszug des Wahlprogramms "
+                        f"({PARTIES[pid]['name']}, Bundestagswahl {year}).\n"
+                        f"NUR JSON-Array mit kurzen deutschen Sätzen (max. 12 Wörter je Eintrag):\n"
+                        f'["Versprechen 1", "Versprechen 2", ...]\n\n{context[:3000]}'
+                    }],
+                    temperature=0.1,
+                    max_tokens=200,
+                )
+                raw = re.sub(r'```json|```', '', resp.choices[0].message.content).strip()
+                match = re.search(r'\[.*?\]', raw, re.DOTALL)
+                promises = json.loads(match.group())[:5] if match else []
+                central_promises[year_str][pid] = promises
+            except Exception as e:
+                print(f"\n    {pid} {year} Fehler: {e}")
+
+        print(f"{len(central_promises[year_str])} Parteien")
+
+    return {
+        "program_length": program_length,
+        "readability": readability,
+        "central_promises": central_promises,
+    }
+
+
+def run_nlp():
+    """--nlp mode: adds nlp_analysis to historical_analysis.json."""
+    print("Diskursraum — NLP Analysis (Prompt 7b)\n")
+
+    path = RESULTS_DIR / "historical_analysis.json"
+    if path.exists():
+        output = json.loads(path.read_text(encoding="utf-8"))
+        print(f"Geladen: historical_analysis.json ({path.stat().st_size // 1024}KB)\n")
+    else:
+        output = {}
+
+    print("Schritt 1: program_length + readability (Hohenheim)")
+    print("Schritt 2: central_promises (Groq LLM)")
+    nlp = analyze_nlp()
+
+    output["nlp_analysis"] = nlp
+
+    path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\nAktualisiert: historical_analysis.json ({path.stat().st_size // 1024}KB)")
+
+    analysis_path = RESULTS_DIR / "manifesto_analysis.json"
+    analysis_path.write_text(json.dumps(nlp, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Gespeichert: manifesto_analysis.json ({analysis_path.stat().st_size // 1024}KB)")
+    print("Fertig")
+
+
 # ── Main ──────────────────────────────────────────
 def run_analysis(skip_llm: bool = False):
     print("Diskursraum — Historical Analysis\n")
@@ -476,4 +610,7 @@ def run_analysis(skip_llm: bool = False):
 
 
 if __name__ == "__main__":
-    run_analysis(skip_llm="--skip-llm" in sys.argv)
+    if "--nlp" in sys.argv:
+        run_nlp()
+    else:
+        run_analysis(skip_llm="--skip-llm" in sys.argv)
