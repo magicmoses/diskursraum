@@ -146,6 +146,44 @@ early grey paintings. The amber (*Bernstein*) owes something to Joseph Beuys and
 
 The party colours are untouched. They are political reality, not design choices.
 
+  ---
+  Populism Score
+
+  Diskursraum measures populist rhetoric in party manifestos using a
+  sentence-level classifier, benchmarked against the
+  https://komm.uni-hohenheim.de/wahlprogramm-analyse — the University of
+  Hohenheim's long-running analysis of German election programs for
+  linguistic quality and rhetorical strategies.
+
+  Method
+
+  Every sentence across all manifesto chunks (2005–2025) is classified by
+  https://huggingface.co/przvl/PopEuroBERT-binary-610m, a fine-tuned
+  EuroBERT-610M model trained on the PopBERT dataset of sentence-level
+  annotated German Bundestag speeches (Erhard et al., 2025).
+
+  ▎ Populism score = share of sentences with a populist probability > 0.43
+
+  Why threshold 0.43? The decision boundary was calibrated on the PopBERT
+  test set for balanced performance: precision 76.6%, recall 85.8%, F1
+  80.9%. A threshold below 0.5 is appropriate because underdetecting
+  populist language in dense political texts carries a higher cost than
+  occasional false positives.
+
+  References
+
+  - Erhard, L., Hanke, S., Remer, U., Falenska, A., & Heiberger, R. H.
+  (2025). PopBERT. Detecting Populism and Its Host Ideologies in the German
+  Bundestag. Political Analysis, 33(1), 1–17.
+  https://doi.org/10.1017/pan.2024.12
+  - Boizard, N. et al. (2025). EuroBERT: Scaling Multilingual Encoders for
+  European Languages. arXiv:2503.05500. https://arxiv.org/abs/2503.05500
+  - przvl (2025). PopEuroBERT-binary-610m. Hugging Face.
+  https://huggingface.co/przvl/PopEuroBERT-binary-610m
+  - Brettschneider, F. et al. (2025). Hohenheimer Analyse der Wahlprogramme
+  zur Bundestagswahl 2025. Universität Hohenheim.
+  https://komm.uni-hohenheim.de/wahlprogramm-analyse
+
 ---
 
 ## Local Development
