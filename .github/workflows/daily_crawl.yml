@@ -19,14 +19,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Restore DB from cache
-        uses: actions/cache@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            news-db-
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -34,24 +26,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests python-dotenv
+          pip install requests python-dotenv psycopg2-binary
 
       - name: Run RSS crawler
+        env:
+          RAILWAY_DATABASE_URL: ${{ secrets.RAILWAY_DATABASE_URL }}
         run: |
           python crew/tools/media/rss_crawler.py
-
-      - name: Save DB to cache
-        uses: actions/cache@v4
-        with:
-          path: data/news.db
-          key: news-db-${{ github.run_id }}-${{ github.run_attempt }}
-
-      - name: Upload DB artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: news-db-latest
-          path: data/news.db
-          retention-days: 1
 
       - name: Commit crawl summary
         run: |
