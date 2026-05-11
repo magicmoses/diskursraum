@@ -20,7 +20,9 @@ from datetime import datetime
 from pathlib import Path
 
 import torch
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
+from safetensors.torch import load_file
+from huggingface_hub import hf_hub_download
 
 BASE_DIR   = Path(__file__).parent.parent.parent.parent
 CHROMA_DIR = str(BASE_DIR / "data" / "chroma_db")
@@ -91,9 +93,30 @@ def run():
     print(f"Loading {MODEL_ID}...")
     try:
         tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-        model = AutoModelForSequenceClassification.from_pretrained(
-            MODEL_ID, trust_remote_code=True
-        )
+
+        # Model was saved with a custom ModelWrapper (inner_model.* prefix).
+        # Native transformers EuroBERT expects model.* — remap manually.
+        config = AutoConfig.from_pretrained(MODEL_ID)
+        model = AutoModelForSequenceClassification.from_config(config)
+
+        weights_path = hf_hub_download(MODEL_ID, "model.safetensors")
+        raw = load_file(weights_path)
+
+        remapped = {}
+        for k, v in raw.items():
+            if k.startswith("inner_model.model."):
+                remapped[k[len("inner_model."):]] = v
+            elif k.startswith("inner_model.dense."):
+                remapped[k[len("inner_model."):]] = v
+            elif k.startswith("inner_model.out_proj."):
+                remapped["classifier." + k[len("inner_model.out_proj."):]] = v
+            else:
+                remapped[k] = v
+
+        missing, unexpected = model.load_state_dict(remapped, strict=False)
+        if missing:
+            print(f"  WARNING: {len(missing)} keys still missing after remap")
+
         model.eval()
         print("  Model ready.\n")
     except Exception as e:
