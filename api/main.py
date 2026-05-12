@@ -228,6 +228,40 @@ async def _stream_llm(query: str, chunks: list):
     yield "data: [DONE]\n\n"
 
 
+# ── Frag nach — Query Intent Extraction ──────────
+import re as _re
+
+_PARTY_ALIASES = {
+    "cdu/csu": "cdu_csu", "cdu": "cdu_csu", "csu": "cdu_csu", "union": "cdu_csu",
+    "spd": "spd", "sozialdemokraten": "spd", "sozialdemokrat": "spd",
+    "grünen": "gruene", "grüne": "gruene", "gruene": "gruene", "bündnis 90": "gruene", "bündnis": "gruene",
+    "fdp": "fdp", "liberale": "fdp", "liberalen": "fdp",
+    "afd": "afd", "alternative für deutschland": "afd",
+    "linke": "linke", "linken": "linke", "pds": "linke",
+}
+_YEAR_RE = _re.compile(r"\b(2005|2009|2013|2017|2021|2025)\b")
+
+
+def _extract_intent(query: str, parties: list, years: list):
+    """Detect party/year from free-text query when no explicit filters are set."""
+    lower = query.lower()
+    auto_parties, auto_years = [], []
+
+    if not parties:
+        for alias, pid in _PARTY_ALIASES.items():
+            if alias in lower and pid not in auto_parties:
+                auto_parties.append(pid)
+
+    if not years:
+        auto_years = [int(m) for m in _YEAR_RE.findall(query)]
+
+    # Strip years from query so embedding focuses on the topic
+    clean = _YEAR_RE.sub("", query).strip()
+    clean = clean if clean else query
+
+    return clean, auto_parties or parties, auto_years or years
+
+
 # ── Frag nach — Endpoints ─────────────────────────
 @app.get("/frag-nach/search")
 async def search_manifestos(
@@ -241,9 +275,11 @@ async def search_manifestos(
     years_list = frag_nach.AVAILABLE_YEARS if years == "all" else [int(y) for y in years.split(",")]
     limit = max(1, min(limit, 30))
 
+    clean_query, eff_parties, eff_years = _extract_intent(query, parties_list, years_list)
+
     try:
-        results = await frag_nach.search(query, years_list, parties_list, limit)
-        return {"results": results, "query": query, "total": len(results)}
+        results = await frag_nach.search(clean_query, eff_years, eff_parties, limit)
+        return {"results": results, "query": query, "detected_filters": {"parties": eff_parties, "years": eff_years}, "total": len(results)}
     except Exception as e:
         return {"error": str(e), "results": [], "query": query, "total": 0}
 
@@ -262,10 +298,14 @@ async def deep_dive_manifestos(request: DeepDiveRequest, req: Request):
     _session_counter[sid] = _session_counter.get(sid, 0) + 1
 
     parties_list = [str(p) for p in request.parties] if request.parties else []
-    years_list = [int(y) for y in request.years] if request.years else frag_nach.AVAILABLE_YEARS
+    years_list = [int(y) for y in request.years] if request.years else []
+
+    clean_query, eff_parties, eff_years = _extract_intent(request.query, parties_list, years_list)
+    if not eff_years:
+        eff_years = frag_nach.AVAILABLE_YEARS
 
     try:
-        chunks = await frag_nach.search(request.query, years_list, parties_list, limit=10)
+        chunks = await frag_nach.search(clean_query, eff_years, eff_parties, limit=10)
     except Exception as e:
         return {"error": str(e)}
 
