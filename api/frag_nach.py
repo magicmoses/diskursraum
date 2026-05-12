@@ -90,8 +90,12 @@ def warmup() -> None:
       - trigger ONNX runtime JIT compilation
       - warm BLAS thread pools (PyTorch path)
     so that real requests are served from warm state.
+    DB failure is non-fatal (allows local dev without Railway connection).
     """
-    _get_pool()
+    try:
+        _get_pool()
+    except Exception as e:
+        print(f"[frag_nach] DB pool unavailable at startup ({e}) — search endpoints will fail until DB is reachable")
     _get_model().encode(
         "query: Bundestagswahlprogramm Deutschland",
         normalize_embeddings=True,

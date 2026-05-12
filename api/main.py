@@ -4,6 +4,9 @@ from collections import defaultdict
 from contextlib import asynccontextmanager
 from datetime import date
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
