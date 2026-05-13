@@ -1,8 +1,8 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 33,
-  "candidate_count": 73,
+  "article_count": 41,
+  "candidate_count": 87,
   "outlets": {
     "stern": {
       "source_id": "stern",
@@ -29,27 +29,56 @@
         }
       ]
     },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 5,
+      "sample_titles": [
+        "Pflegekasse übernimmt Beiträge: Wie die häusliche Pflege die Rente erhöhen kann",
+        "Nachfolger für Riester-Rente fix: Was Sie zum neuen Altersvorsorgedepot wissen müssen",
+        "Wenig Rente, hohe Mieten: Warnung vor massiver \"Wohnarmut\" bei Baby-Boomern",
+        "Halbe-halbe machen: Rente fair teilen: Wie das Splitting für Paare funktioniert"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Wie-die-haeusliche-Pflege-die-Rente-erhoehen-kann-id30810629.html",
+        "https://www.n-tv.de/ratgeber/Was-Sie-zum-neuen-Altersvorsorgedepot-wissen-muessen-id30799785.html",
+        "https://www.n-tv.de/politik/Warnung-vor-massiver-Wohnarmut-bei-Baby-Boomern-id30795628.html",
+        "https://www.n-tv.de/ratgeber/Rente-fair-teilen-Wie-das-Splitting-fuer-Paare-funktioniert-id30790778.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
-        "Alterssicherung: Die AfD und die Rente – unhaltbare Versprechen",
-        "Private Altersvorsorge: Was taugt die neue Riester-Rente?",
+        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen",
+        "Müntefering über Reformen: „Wir brauchen die Menschen auch in einem Alter zwischen 67 und 95“",
         "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell",
-        "Ruhestandsrechner: Wann kann ich mit der Arbeit aufhören?"
+        "Fachleute Ermitteln: Die Frührente ist schlecht fürs Gehirn"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/alterssicherung-die-afd-und-die-rente-unhaltbare-versprechen-accg-200808686.html",
-        "https://www.faz.net/aktuell/finanzen/private-altersvorsorge-anstatt-riester-rente-fuer-wen-sich-die-reform-lohnt-accg-200654362.html",
+        "https://www.faz.net/aktuell/finanzen/finanzmarkt/private-altersvorsorge-was-kunden-zur-reform-wissen-muessen-accg-200818609.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/franz-muentefering-die-menschen-muessen-sehen-da-bewegt-sich-was-accg-200810206.html",
         "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html",
-        "https://www.faz.net/aktuell/finanzen/ruhestandsrechner-wann-kann-ich-mit-der-arbeit-aufhoeren-19986400.html"
+        "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/fruehrente-und-gehirn-warum-zu-frueher-ruhestand-schadet-accg-200787506.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "admiration",
           "count": 1
         },
         {
@@ -62,18 +91,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "Mit 96 Prozent wiedergewählt – Fahimi warnt vor „Rentenklau“ und unterstellt JU „Enkeltrick“",
         "5,1 Millionen Babyboomern droht Rente unter 800 Euro",
         "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders",
-        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders hart",
-        "Die Republik der Frühverrentung"
+        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders hart"
       ],
       "urls": [
+        "https://www.welt.de/politik/deutschland/article6a01b7e9453b15e119074d89/dgb-vorsitz-mit-96-prozent-wiedergewaehlt-fahimi-warnt-vor-rentenklau-und-unterstellt-ju-enkeltrick.html",
         "https://www.welt.de/politik/deutschland/video69fc337d87d0c99f1a8b3e79/wohnarmut-im-alter-5-1-millionen-babyboomern-droht-rente-unter-800-euro.html",
         "https://www.welt.de/videos/video69fc41d787d0c99f1a8b402f/studie-des-pestel-instituts-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders.html",
-        "https://www.welt.de/politik/deutschland/article69fbd4e1c6d2944c8df6ae53/bericht-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders-hart.html",
-        "https://www.welt.de/wirtschaft/plus69a81001563ae9c42dea3f83/deutscher-arbeitsmarkt-warum-starre-regeln-die-anpassung-verhindern-und-innovationen-bremsen.html"
+        "https://www.welt.de/politik/deutschland/article69fbd4e1c6d2944c8df6ae53/bericht-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders-hart.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -87,21 +116,23 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 3,
+      "article_count": 5,
       "sample_titles": [
-        "Altersvorsorge: Wie sich der Riester-Nachfolger für Gutverdiener lohnen kann",
-        "Altersvorsorge: Höhere Rentenbeiträge erwartet: Arbeitgeber und DGB kritisieren Klingbeils Kürzungen",
-        "Bert Rürup: Welches Rentenniveau kann sich Deutschland auf Dauer leisten?"
+        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
+        "Steuererklärung 2025: Altersvorsorge, Renten, Spenden – Diese Sonderausgaben sparen kräftig Steuern",
+        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
+        "Altersvorsorge: Höhere Rentenbeiträge erwartet: Arbeitgeber und DGB kritisieren Klingbeils Kürzungen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/vorsorge-wie-sich-der-riester-nachfolger-fuer-gutverdiener-lohnen-kann/100222434.html",
-        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-heftige-kritik-an-klingbeils-griff-in-die-rentenkasse/100222208.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/chefoekonom-welches-rentenniveau-kann-sich-deutschland-auf-dauer-leisten/100220363.html"
+        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-diese-betriebsrenten-bieten-deutschlands-dax-und-mdax-konzerne/100210939.html",
+        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-2025-diese-sonderausgaben-senken-die-steuerlast-deutlich/100105897.html",
+        "https://www.handelsblatt.com/finanzen/vorsorge/betriebliche-altersvorsorge-diese-zusatzrenten-bieten-deutsche-konzerne/100210939.html",
+        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-heftige-kritik-an-klingbeils-griff-in-die-rentenkasse/100222208.html"
       ],
-      "dominant_emotion": "gratitude",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "gratitude",
+          "emotion": "optimism",
           "count": 1
         },
         {
@@ -110,37 +141,32 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 2,
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 3,
       "sample_titles": [
-        "Höhere Zuschüsse beschlossen - So holen Sie sich mehr Geld für Ihre Privat-Rente",
-        "Bundesrat beschließt Gesetz - Die drei Haken bei der neuen Altersvorsorge"
+        "Altersvorsorgedepot-Rechner: So viel Geld schenkt Ihnen der Staat für Ihren ETF-Sparplan",
+        "Renten: Eintritt nach Beitragsjahren statt Lebensalter – verlieren würden Mütter und Arbeitslose",
+        "Rente: Koalition plant Milliarden-Griff in die Rentenkasse - Experte spricht von \"Diebstahl\""
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/riester-rente-vor-dem-aus-gosse-reform-verspricht-bessere-privat-rente-69fdc873cd4a28c470020d8f",
-        "https://www.bild.de/politik/bundesrat-beschliesst-gesetz-die-drei-haken-bei-der-neuen-altersvorsorge-69fda78530e98e4ac324e4f0"
+        "https://www.spiegel.de/wirtschaft/service/altersvorsorgedepot-rechner-so-viel-geld-schenkt-ihnen-der-staat-fuer-ihren-etf-sparplan-a-782bcc1f-cf9d-4468-ab04-421810785453#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/renten-eintritt-nach-beitragsjahren-statt-lebensalter-verlieren-wuerden-muetter-und-arbeitslose-a-33ff9656-4fad-4895-8f92-7c9bcb6be581#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/rente-koalition-plant-milliarden-griff-in-die-rentenkasse-experte-spricht-von-diebstahl-a-8b673f8f-6dad-49bd-94e7-db10eb20b197#ref=rss"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 2,
-      "sample_titles": [
-        "Bundesrat stimmt zu: Neue private Altersvorsorge löst Riester-Rente ab",
-        "Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher"
-      ],
-      "urls": [
-        "https://taz.de/Neue-private-Altersvorsorge-loest-Riester-Rente-ab/!6177434/",
-        "https://taz.de/Hoeheres-Rentenalter/!6175381/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
     },
     "zeit": {
       "source_id": "zeit",
@@ -148,73 +174,47 @@
       "bias": "left-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Neuregelung ab 2027: Bundesrat stimmt neuer privater Altersvorsorge zu",
+        "Rente: Bundesbankpräsident will Rentenalter an höhere Lebenserwartung koppeln",
         "Aktien fürs Alter: Altersvorsorge am Kapitalmarkt – Was die Politik plant"
       ],
       "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-05/bundesrat-private-altersvorsorge-zustimmung-rieser-rente",
+        "https://www.zeit.de/arbeit/2026-05/joachim-nagel-bundesbank-rente-lebensarbeitszeit",
         "https://www.zeit.de/politik/2026-04/altersvorsorge-rente-aktienhandel-merz-trump-was-jetzt-videopodcast"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Riester-Nachfolger: Bundesrat stimmt zu - das ist geplant",
-        "Hausverkauf für Leibrente: Chance oder Risiko?"
+        "Rentendebatte - „Rente mit 63 war ein Wahlgeschenk an die Besserverdienenden“",
+        "Rentenreform und Generationenvertrag - Das Kapital des Rentensystems sind die Kinder"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/private-altersvorsorge-bundesrat-100.html",
-        "https://www.zdfheute.de/politik/ausland/frankreich-immobilien-hausverkauf-altersvorsorge-rente-immobilientrend-100.html"
+        "https://www.cicero.de/wirtschaft/rentendebatte-rente-axel-borsch-supan",
+        "https://www.cicero.de/innenpolitik/rentenreform-und-generationenvertrag-das-kapital-des-rentensystems-sind-die-kinder"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
       "article_count": 2,
       "sample_titles": [
-        "Nachfolger für Riester-Rente fix: Was Sie zum neuen Altersvorsorgedepot wissen müssen",
-        "Halbe-halbe machen: Rente fair teilen: Wie das Splitting für Paare funktioniert"
+        "EU-Skandal Spanien stopft Rentenlöcher mit deutschen EU-Geldern",
+        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall"
       ],
       "urls": [
-        "https://www.n-tv.de/ratgeber/Was-Sie-zum-neuen-Altersvorsorgedepot-wissen-muessen-id30799785.html",
-        "https://www.n-tv.de/ratgeber/Rente-fair-teilen-Wie-das-Splitting-fuer-Paare-funktioniert-id30790778.html"
+        "https://jungefreiheit.de/politik/ausland/2026/spanien-stopft-rentenloecher-mit-deutschen-eu-geldern/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Renten: Eintritt nach Beitragsjahren statt Lebensalter – verlieren würden Mütter und Arbeitslose",
-        "Rente: Koalition plant Milliarden-Griff in die Rentenkasse - Experte spricht von \"Diebstahl\""
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/soziales/renten-eintritt-nach-beitragsjahren-statt-lebensalter-verlieren-wuerden-muetter-und-arbeitslose-a-33ff9656-4fad-4895-8f92-7c9bcb6be581#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rente-koalition-plant-milliarden-griff-in-die-rentenkasse-experte-spricht-von-diebstahl-a-8b673f8f-6dad-49bd-94e7-db10eb20b197#ref=rss"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "tagesschau": {
       "source_id": "tagesschau",
@@ -232,46 +232,79 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Rentenreform und Generationenvertrag - Das Kapital des Rentensystems sind die Kinder"
+        "Rentenreform: Die Deutschen brauchen für ihre Altersvorsorge den Kapitalmarkt"
       ],
       "urls": [
-        "https://www.cicero.de/innenpolitik/rentenreform-und-generationenvertrag-das-kapital-des-rentensystems-sind-die-kinder"
+        "https://www.sueddeutsche.de/meinung/rentenreform-private-altersvorsorge-aktien-riester-li.3481786"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
       "article_count": 1,
       "sample_titles": [
-        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall"
+        "Neues Altersvorsorgedepot - Trick im Gesetz! So hilft der Staat beim Hauskauf"
       ],
       "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-hilft-das-neue-renten-depot-beim-hauskauf-69f9b24296fe1372395e9e30"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "Nur ein Dreikampf im Rennen ums rettende Bundesliga-Ufer?"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/sport/fussball-bundesliga-abstiegskampf-vfl-wolfsburg-fc-st-pauli-1-fc-heidenheim-100.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 1,
+      "sample_titles": [
+        "Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher"
+      ],
+      "urls": [
+        "https://taz.de/Hoeheres-Rentenalter/!6175381/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 5,
-    "populist-mixed": 2,
-    "economic-liberal": 3,
-    "left": 2,
-    "left-liberal": 10,
-    "neutral": 4,
-    "right-conservative": 6,
-    "far-right": 1
+    "left-liberal": 12,
+    "right-conservative": 10,
+    "conservative-liberal": 7,
+    "far-right": 2,
+    "economic-liberal": 5,
+    "neutral": 3,
+    "populist-mixed": 1,
+    "left": 1
   },
-  "shared_perspectives": "Alle Gruppen teilen die Sorge um die Zukunft des Rentensystems und die Notwendigkeit einer Reform, wie etwa die Diskussionen um die Riester-Rente und den Riester-Nachfolger zeigen. Die Bedeutung der Altersvorsorge und die Herausforderungen des demographischen Wandels werden in den Artikeln aller Gruppen thematisiert, beispielsweise in Titeln wie 'Alterssicherung: Die AfD und die Rente – unhaltbare Versprechen' und 'Boomer gehen in Rente: Das bedeutet es für die Jüngeren'.",
-  "controversial_points": "Die Berichterstattung divergiert am meisten in der Bewertung der Reformvorschläge und der Rolle der Privatvorsorge, wie etwa in den Artikeln 'Höhere Zuschüsse beschlossen - So holen Sie sich mehr Geld für Ihre Privat-Rente' und 'Altersvorsorge: Wie sich der Riester-Nachfolger für Gutverdiener lohnen kann', die unterschiedliche Meinungen zu den Vorteilen und Nachteilen der neuen Altersvorsorge darstellen. Die linke und die konservative Gruppe haben unterschiedliche Schwerpunkte, wie die Artikel 'Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher' und 'Alterssicherung: Die AfD und die Rente – unhaltbare Versprechen' zeigen, die jeweils andere Aspekte der Rentenreform betonen.",
-  "cached_at": "2026-05-10T07:23:58.374638"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass die Deutschen aufgrund des demographischen Wandels und der steigenden Lebenserwartung länger arbeiten müssen, um eine ausreichende Rente zu erhalten. Eine weitere Gemeinsamkeit besteht in der Betonung der Notwendigkeit einer kapitalgedeckten Vorsorge, wie etwa durch die Riester-Rente oder betriebliche Altersvorsorge, um die Finanzierbarkeit des Rentensystems zu sichern und Altersarmut zu vermeiden. Darüber hinaus wird in vielen Medien die Generationengerechtigkeit thematisiert, indem die Frage diskutiert wird, wie die Lasten des Rentensystems fair zwischen den Generationen verteilt werden können, um eine nachhaltige und gerechte Altersvorsorge zu gewährleisten.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine grundlegende Konfliktlinie zwischen den Befürwortern einer kapitalgedeckten Vorsorge und denen, die eine stärkere Rolle der gesetzlichen Rentenversicherung fordern, wobei die erstere Gruppe oft von liberalen und konservativen Medien vertreten wird, während die letztere Gruppe von linken und sozialdemokratischen Medien unterstützt wird. Eine weitere Spannungslinie verläuft zwischen den Generationen, da die jüngeren Menschen oft befürchten, dass die aktuellen Rentenreformen und die steigende Lebenserwartung zu einer Belastung für sie führen werden, während die älteren Menschen um ihre Rentenansprüche und ihre Alterssicherung bangen, was in den Medien zu einer Debatte über Generationengerechtigkeit und Finanzierbarkeit der Rentenversicherung führt. Die Diskussion um das Renteneintrittsalter und die Frage, ob man mit 63, 67 oder 70 in Rente gehen soll, spiegelt diese Konflikte wider und zeigt, dass die deutsche Gesellschaft vor einer großen Herausforderung steht, nämlich einer nachhaltigen und gerechten Altersvorsorge für alle Generationen zu finden.",
+  "cached_at": "2026-05-13T07:20:25.210522"
 }
