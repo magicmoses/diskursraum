@@ -45,21 +45,25 @@ def get_overview():
         )
         by_bias = [{"bias": r["bias"], "count": r["count"]} for r in cur.fetchall()]
 
-        cur.execute(
-            "SELECT crawled_at, SUM(articles_new) as new FROM crawl_log ORDER BY crawled_at DESC LIMIT 1"
-        )
-        last_crawl = cur.fetchone()
+        try:
+            cur.execute(
+                "SELECT crawled_at, SUM(articles_new) as new FROM crawl_log GROUP BY crawled_at ORDER BY crawled_at DESC LIMIT 1"
+            )
+            last_crawl = cur.fetchone()
+        except Exception:
+            conn.rollback()
+            last_crawl = None
         cur.close()
     finally:
         conn.close()
 
     return {
-        "total_articles": total,
-        "by_source": by_source,
-        "by_bias": by_bias,
+        "total_articles": int(total) if total is not None else 0,
+        "by_source": [{"source": r["source"], "count": int(r["count"])} for r in by_source],
+        "by_bias": [{"bias": r["bias"], "count": int(r["count"])} for r in by_bias],
         "last_crawl": {
             "crawled_at": str(last_crawl["crawled_at"]) if last_crawl else None,
-            "new_articles": last_crawl["new"] if last_crawl else 0,
+            "new_articles": int(last_crawl["new"]) if last_crawl and last_crawl["new"] is not None else 0,
         },
     }
 
@@ -87,8 +91,8 @@ def get_crawl_history(limit: int = 50):
     return [
         {
             "crawled_at": str(r["crawled_at"]),
-            "articles_found": r["found"],
-            "articles_new": r["new"],
+            "articles_found": int(r["found"]) if r["found"] is not None else 0,
+            "articles_new": int(r["new"]) if r["new"] is not None else 0,
         }
         for r in rows
     ]
