@@ -131,6 +131,16 @@ def get_manifesto_analysis():
         return {"error": "No manifesto analysis available. Run: python analyze_historical.py --nlp"}
     return result
 
+@app.get("/hohenheim-analysis")
+def get_hohenheim_analysis():
+    path = os.path.join(os.path.dirname(__file__), "..", "data", "results", "manifesto_hohenheim.json")
+    try:
+        import json as _json
+        with open(path) as f:
+            return _json.load(f)
+    except Exception as e:
+        return {"error": str(e)}
+
 
 # ── Frag nach — Rate Limiting ─────────────────────
 _session_counter: dict = {}
