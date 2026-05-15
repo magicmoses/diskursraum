@@ -97,7 +97,7 @@ export default function PartyView() {
   )
 
   return (
-    <div style={{ maxWidth: '900px', paddingBottom: 'var(--space-24)' }}>
+    <div style={{ maxWidth: '900px', paddingTop: 'var(--space-12)', paddingBottom: 'var(--space-24)' }}>
 
       {/* ── Header ──────────────────────────────────── */}
       <div style={{ marginBottom: 'var(--space-8)' }}>
@@ -140,7 +140,7 @@ export default function PartyView() {
         display: 'flex', gap: '1px',
         background: 'var(--border)',
         borderBottom: '1px solid var(--border)',
-        marginBottom: 'var(--space-8)',
+        marginBottom: 'var(--space-10)',
       }}>
         {TABS.map(tab => (
           <button
@@ -167,7 +167,7 @@ export default function PartyView() {
 
       {/* ── Tab: Positionen & Entwicklung ────────────── */}
       {activeTab === 'positionen' && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-10)' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-16)' }}>
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
@@ -231,7 +231,10 @@ export default function PartyView() {
           </div>
 
           <div>
-            <div style={S.sectionLabel}>Bridging-Score im Zeitverlauf 2005–2025</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Brückenbauer-Score im Zeitverlauf 2005–2025
+              <InfoIcon text="Technisch: Mittelwert der Kosinus-Ähnlichkeiten einer Partei zu allen anderen, min-max-normiert auf 0–1 über alle Wahljahre. Wert 1 = programmatisch nächste Partei zum Feld, Wert 0 = am weitesten entfernt." />
+            </div>
             <BridgingTimeline data={data} />
             <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginTop: 'var(--space-3)' }}>
               AfD erst ab 2013 im Bundestag — Wahlprogramm 2013 umfasste nur wenige Seiten (Partei im selben Jahr gegründet).
@@ -239,12 +242,18 @@ export default function PartyView() {
           </div>
 
           <div>
-            <div style={S.sectionLabel}>Paarweise Ähnlichkeitsmatrix</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Paarweise Programmähnlichkeit
+              <InfoIcon text="Technisch: Kosinus-Ähnlichkeit zwischen ManifestoBERTa-Embeddings der Wahlprogramme. Skala 0–1, wobei 1 = inhaltlich identisch. Typische Werte im Datensatz: 0,23 (sehr verschieden) bis 0,55 (sehr ähnlich)." />
+            </div>
             <Heatmap data={data} year={selectedYear} />
           </div>
 
           <div>
-            <div style={S.sectionLabel}>Ähnlichkeitsnetzwerk {selectedYear}</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Ähnlichkeitsnetzwerk {selectedYear}
+              <InfoIcon text="Technisch: Knoten-Größe = Brückenbauer-Score (normiert). Kantendicke = Kosinus-Ähnlichkeit der Wahlprogramme. Themenfilter begrenzen auf Teilgraphen einzelner ManifestoBERTa-Kategorien." />
+            </div>
             <ForceGraph data={data} year={selectedYear} />
           </div>
 
