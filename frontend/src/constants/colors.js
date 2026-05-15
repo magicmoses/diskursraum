@@ -21,31 +21,31 @@ export const BIAS_LABELS = {
 }
 
 export const EMOTION_COLORS = {
-  curiosity:      'var(--signal-light)',
-  optimism:       'var(--patina-light)',
-  annoyance:      'var(--amber-light)',
-  admiration:     '#A78BFA',
-  excitement:     'var(--amber)',
-  fear:           '#F87171',
-  sadness:        'var(--text-muted)',
-  anger:          '#EF4444',
-  disapproval:    '#FB923C',
-  approval:       'var(--patina)',
-  confusion:      '#C084FC',
-  amusement:      '#FACC15',
-  disappointment: '#64748B',
-  surprise:       'var(--signal)',
-  joy:            'var(--patina-light)',
-  grief:          '#475569',
+  curiosity:      '#1A3A5C',
+  optimism:       '#2D6B4A',
+  annoyance:      '#D4A020',
+  admiration:     '#7C6FAF',
+  excitement:     '#B8860B',
+  fear:           '#C0504D',
+  sadness:        '#7A6E64',
+  anger:          '#C0392B',
+  disapproval:    '#D4703A',
+  approval:       '#2D6B4A',
+  confusion:      '#9B59B6',
+  amusement:      '#B8A000',
+  disappointment: '#4A6080',
+  surprise:       '#1A3A5C',
+  joy:            '#3A8A5C',
+  grief:          '#3D5060',
 }
 
 export const PARTY_COLORS = {
-  cdu_csu: 'var(--cdu)',
-  spd:     'var(--spd)',
-  gruene:  'var(--gruene)',
-  fdp:     'var(--fdp)',
-  afd:     'var(--afd)',
-  linke:   'var(--linke)',
+  cdu_csu: '#2C2C2C',
+  spd:     '#E3000F',
+  gruene:  '#64A12D',
+  fdp:     '#FFCC00',
+  afd:     '#009EE0',
+  linke:   '#BE3075',
 }
 
 export const PARTY_NAMES = {
@@ -58,12 +58,12 @@ export const PARTY_NAMES = {
 }
 
 export const TOOLTIP_STYLE = {
-  background:  'var(--bg-elevated)',
-  border:      '1px solid var(--border)',
-  borderRadius:'2px',
-  color:       '#EDECEA',
-  fontSize:    '13px',
-  fontFamily:  'var(--font-body)',
+  background:   '#FFFFFF',
+  border:       '1px solid #C8BFB0',
+  borderRadius: '2px',
+  color:        '#1A1410',
+  fontFamily:   'var(--font-mono)',
+  fontSize:     '12px',
 }
 
 export const WEEKDAYS = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa']

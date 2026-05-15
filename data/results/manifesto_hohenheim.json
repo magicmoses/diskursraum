@@ -745,7 +745,7 @@
         "populism": {
           "anti_elitism": 0.005,
           "left_populism": 0.005,
-          "right_populism": 0.000
+          "right_populism": 0.0
         },
         "top5_topics_hohenheim": null
       },
@@ -757,7 +757,7 @@
         "populism": {
           "anti_elitism": 0.006,
           "left_populism": 0.011,
-          "right_populism": 0.000
+          "right_populism": 0.0
         },
         "top5_topics_hohenheim": null
       },
@@ -806,5 +806,77 @@
     "2017": 9.1,
     "2021": 7.2,
     "2025": 7.3
+  },
+  "description": "Populismus-Scores nach PopEuroBERT (Erhard et al. 2025)",
+  "model": "przvl/PopEuroBERT-binary-610m",
+  "threshold": 0.43,
+  "computed_at": "2026-05-11T09:47:51.625989",
+  "scores": {
+    "2005": {
+      "cdu_csu": {
+        "populism_score": 0.087,
+        "sentence_count": 757,
+        "chunk_count": 124
+      },
+      "spd": {
+        "populism_score": 0.081,
+        "sentence_count": 881,
+        "chunk_count": 125
+      },
+      "gruene": {
+        "populism_score": 0.106,
+        "sentence_count": 1842,
+        "chunk_count": 257
+      },
+      "fdp": {
+        "populism_score": 0.063,
+        "sentence_count": 1430,
+        "chunk_count": 198
+      },
+      "afd": {
+        "populism_score": null,
+        "sentence_count": 0,
+        "chunk_count": 0,
+        "note": "not_in_bundestag"
+      },
+      "linke": {
+        "populism_score": 0.099,
+        "sentence_count": 537,
+        "chunk_count": 116
+      }
+    },
+    "2009": {
+      "cdu_csu": {
+        "populism_score": 0.059,
+        "sentence_count": 1790,
+        "chunk_count": 247
+      },
+      "spd": {
+        "populism_score": 0.049,
+        "sentence_count": 1994,
+        "chunk_count": 273
+      },
+      "gruene": {
+        "populism_score": 0.102,
+        "sentence_count": 3387,
+        "chunk_count": 469
+      },
+      "fdp": {
+        "populism_score": 0.063,
+        "sentence_count": 2161,
+        "chunk_count": 307
+      },
+      "afd": {
+        "populism_score": null,
+        "sentence_count": 0,
+        "chunk_count": 0,
+        "note": "not_in_bundestag"
+      },
+      "linke": {
+        "populism_score": 0.215,
+        "sentence_count": 759,
+        "chunk_count": 115
+      }
+    }
   }
 }

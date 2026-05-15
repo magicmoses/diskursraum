@@ -21,14 +21,14 @@ function isGermanyTitle(title) {
 // ── Bias config for TopicView ─────────────────────
 // Extended with bg/text for inline spectrum display
 const BIAS_DISPLAY = {
-  'left':                 { bg: '#0F1F30', text: '#4A9EDB', label: 'Links' },
-  'left-liberal':         { bg: '#0D1A2B', text: '#7BA8C4', label: 'Links-Liberal' },
-  'neutral':              { bg: '#1A1C1F', text: '#9A9895', label: 'Neutral' },
-  'conservative-liberal': { bg: '#241808', text: '#E8891A', label: 'Konservativ-Liberal' },
-  'economic-liberal':     { bg: '#231700', text: '#F0B830', label: 'Wirtschaftsliberal' },
-  'right-conservative':   { bg: '#200808', text: '#D4623A', label: 'Rechts-Konservativ' },
-  'populist-mixed':       { bg: '#1C1208', text: '#A8855A', label: 'Populistisch' },
-  'far-right':            { bg: '#180606', text: '#9A3B2E', label: 'Rechtsaußen' },
+  'left':                 { bg: '#E8F0F5', text: '#1A5276', label: 'Links' },
+  'left-liberal':         { bg: '#EBF0F5', text: '#2E6B8A', label: 'Links-Liberal' },
+  'neutral':              { bg: '#F0EFED', text: '#5A5550', label: 'Neutral' },
+  'conservative-liberal': { bg: '#FDF5E8', text: '#9A6010', label: 'Konservativ-Liberal' },
+  'economic-liberal':     { bg: '#FDF8E8', text: '#B8860B', label: 'Wirtschaftsliberal' },
+  'right-conservative':   { bg: '#FDF0EC', text: '#8B3520', label: 'Rechts-Konservativ' },
+  'populist-mixed':       { bg: '#F5F0E8', text: '#7A5A30', label: 'Populistisch' },
+  'far-right':            { bg: '#FAF0EC', text: '#6B2A1E', label: 'Rechtsaußen' },
 }
 
 const BIAS_SPECTRUM = [
@@ -141,8 +141,8 @@ function SpectrumBar({ biasDistribution }) {
         })}
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 'var(--space-2)' }}>
-        <span style={{ ...S.label, color: '#4A9EDB' }}>Links</span>
-        <span style={{ ...S.label, color: '#9A3B2E' }}>Rechts</span>
+        <span style={{ ...S.label, color: '#1A5276' }}>Links</span>
+        <span style={{ ...S.label, color: '#6B2A1E' }}>Rechts</span>
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)', marginTop: 'var(--space-3)' }}>
         {ordered.map(b => {

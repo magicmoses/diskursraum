@@ -207,11 +207,15 @@ marimo/_lsp/
 __marimo__/
 
 # ── ConsensusAgent specific ───────────────────────
-data/news.db
-data/news_alt.db
+data/*.db
 data/manifestos/
 data/chroma_db/
 data/cache/
+api/uvicorn_log.txt
+api/uvicorn_err.txt
+.env
+*.pyc
+.claude/
 
 # Keep these committed
 !data/last_crawl.json

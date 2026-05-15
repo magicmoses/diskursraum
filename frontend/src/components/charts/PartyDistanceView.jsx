@@ -6,8 +6,8 @@ const YEARS   = [2005, 2009, 2013, 2017, 2021, 2025]
 const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8', spd: '#E3000F', gruene: '#1AA037',
-  fdp: '#FFED00', afd: '#009EE0', linke: '#BE3075',
+  cdu_csu: '#2C2C2C', spd: '#E3000F', gruene: '#64A12D',
+  fdp: '#FFCC00', afd: '#009EE0', linke: '#BE3075',
 }
 const SHORT = {
   cdu_csu: 'CDU/CSU', spd: 'SPD', gruene: 'Grüne',
@@ -162,7 +162,7 @@ export default function PartyDistanceView({ data }) {
             {/* Distance rings */}
             {[0.33, 0.67, 1].map(t => (
               <circle key={t} cx={cx} cy={cy} r={t * MAX_R}
-                fill="none" stroke="#2C2E32" strokeWidth={1} opacity={0.4} />
+                fill="none" stroke="#D8D0C4" strokeWidth={1} opacity={0.6} />
             ))}
 
             {/* Connector lines */}
@@ -179,7 +179,7 @@ export default function PartyDistanceView({ data }) {
               <g key={pos.id}>
                 <circle cx={pos.x} cy={pos.y} r={12}
                   fill={PARTY_HEX[pos.id]} fillOpacity={0.9}
-                  stroke="#1E2023" strokeWidth={1.5}
+                  stroke="#C8BFB0" strokeWidth={1.5}
                   style={{ cursor: 'default' }}
                   onMouseEnter={e => setTooltip({ x: e.clientX, y: e.clientY, id: pos.id, score: pos.score })}
                   onMouseMove={e => setTooltip(t => t ? { ...t, x: e.clientX, y: e.clientY } : null)}
@@ -195,16 +195,16 @@ export default function PartyDistanceView({ data }) {
             {/* Center party */}
             <circle cx={cx} cy={cy} r={20}
               fill={PARTY_HEX[center]} fillOpacity={0.95}
-              stroke="#1E2023" strokeWidth={2}
+              stroke="#C8BFB0" strokeWidth={2}
             />
             <text x={cx} y={cy + 5} textAnchor="middle"
-              fill="#1E2023" fontFamily="var(--font-mono)" fontSize="11" fontWeight="bold">
+              fill="#F5F0E8" fontFamily="var(--font-mono)" fontSize="11" fontWeight="bold">
               {SHORT[center]}
             </text>
 
             {/* Legend */}
             <text x={8} y={H - 8}
-              fill="#52504E" fontFamily="var(--font-mono)" fontSize="9">
+              fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="9">
               Näher = inhaltlich ähnlicher
             </text>
           </svg>

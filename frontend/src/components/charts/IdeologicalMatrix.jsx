@@ -7,8 +7,8 @@ const YEARS   = [2005, 2009, 2013, 2017, 2021, 2025]
 const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8', spd: '#E3000F', gruene: '#1AA037',
-  fdp: '#FFED00', afd: '#009EE0', linke: '#BE3075',
+  cdu_csu: '#2C2C2C', spd: '#E3000F', gruene: '#64A12D',
+  fdp: '#FFCC00', afd: '#009EE0', linke: '#BE3075',
 }
 const SHORT = {
   cdu_csu: 'CDU/CSU', spd: 'SPD', gruene: 'Grüne',
@@ -153,19 +153,19 @@ export default function IdeologicalMatrix() {
           >
             {/* Grid lines */}
             <line x1={PAD.left} y1={PAD.top + plotH / 2} x2={W - PAD.right} y2={PAD.top + plotH / 2}
-              stroke="#2C2E32" strokeDasharray="4 4" />
+              stroke="#D8D0C4" strokeDasharray="4 4" />
             <line x1={PAD.left + plotW / 2} y1={PAD.top} x2={PAD.left + plotW / 2} y2={H - PAD.bottom}
-              stroke="#2C2E32" strokeDasharray="4 4" />
+              stroke="#D8D0C4" strokeDasharray="4 4" />
 
             {/* Axes */}
-            <line x1={PAD.left} y1={H - PAD.bottom} x2={W - PAD.right} y2={H - PAD.bottom} stroke="#2C2E32" />
-            <line x1={PAD.left} y1={PAD.top} x2={PAD.left} y2={H - PAD.bottom} stroke="#2C2E32" />
+            <line x1={PAD.left} y1={H - PAD.bottom} x2={W - PAD.right} y2={H - PAD.bottom} stroke="#C8BFB0" />
+            <line x1={PAD.left} y1={PAD.top} x2={PAD.left} y2={H - PAD.bottom} stroke="#C8BFB0" />
 
             {/* Axis labels */}
-            <text x={W / 2} y={H - 6} textAnchor="middle" fill="#52504E" fontFamily="var(--font-mono)" fontSize="10">
+            <text x={W / 2} y={H - 6} textAnchor="middle" fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="10">
               ← Staatlich/Sozial — Marktwirtschaftlich →
             </text>
-            <text x={10} y={H / 2} textAnchor="middle" fill="#52504E" fontFamily="var(--font-mono)" fontSize="10"
+            <text x={10} y={H / 2} textAnchor="middle" fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="10"
               transform={`rotate(-90, 10, ${H / 2})`}>
               ← Konservativ — Progressiv →
             </text>
@@ -181,7 +181,7 @@ export default function IdeologicalMatrix() {
               return (
                 <g key={p}>
                   <circle cx={sx} cy={sy} r={9} fill={PARTY_HEX[p]} fillOpacity={0.9}
-                    stroke="#1E2023" strokeWidth={1.5} style={{ cursor: 'default' }}
+                    stroke="#C8BFB0" strokeWidth={1.5} style={{ cursor: 'default' }}
                     onMouseEnter={e => setTooltip({ x: e.clientX, y: e.clientY, p, score })}
                     onMouseMove={e => setTooltip(t => t ? { ...t, x: e.clientX, y: e.clientY } : null)}
                     onMouseLeave={() => setTooltip(null)}

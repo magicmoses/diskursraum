@@ -8,18 +8,18 @@ const EVENT_COLORS = {
   politics: 'var(--signal)',
   economy:  'var(--amber)',
   energy:   'var(--patina)',
-  climate:  'var(--patina-light)',
+  climate:  'var(--patina)',
   foreign:  'var(--text-secondary)',
   migration:'var(--amber-light)',
   health:   'var(--text-muted)',
-  digital:  'var(--signal-light)',
+  digital:  'var(--signal)',
 }
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8',
+  cdu_csu: '#2C2C2C',
   spd:     '#E3000F',
-  gruene:  '#1AA037',
-  fdp:     '#FFED00',
+  gruene:  '#64A12D',
+  fdp:     '#FFCC00',
   afd:     '#009EE0',
   linke:   '#BE3075',
 }

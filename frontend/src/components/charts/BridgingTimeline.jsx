@@ -5,10 +5,10 @@ import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 import InfoIcon from '../ui/InfoIcon'
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8',
+  cdu_csu: '#2C2C2C',
   spd:     '#E3000F',
-  gruene:  '#1AA037',
-  fdp:     '#FFED00',
+  gruene:  '#64A12D',
+  fdp:     '#FFCC00',
   afd:     '#009EE0',
   linke:   '#BE3075',
 }
@@ -17,9 +17,9 @@ const STABLE = ['cdu_csu', 'spd', 'gruene', 'fdp', 'linke']
 const YEARS  = [2005, 2009, 2013, 2017, 2021, 2025]
 
 const EVENT_STROKE = {
-  politics: '#8B9BAF', economy: '#C4781A', energy: '#4A7C6F',
-  climate: '#6BA898', foreign: '#8A8885', migration: '#E8A84A',
-  health: '#52504E', digital: '#B8C4D0',
+  politics: '#1A3A5C', economy: '#B8860B', energy: '#2D6B4A',
+  climate: '#3A8A5C', foreign: '#7A6E64', migration: '#D4A020',
+  health: '#7A6E64', digital: '#4A6A8C',
 }
 
 const SHORT = { cdu_csu: 'CDU/CSU', spd: 'SPD', gruene: 'Grüne', fdp: 'FDP', linke: 'Linke', afd: 'AfD' }
@@ -71,20 +71,20 @@ export default function BridgingTimeline({ data }) {
         <LineChart data={chartData} margin={{ top: 8, right: 16, bottom: 24, left: 12 }}>
           <XAxis
             dataKey="year"
-            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: 'var(--text-secondary)' }}
-            axisLine={{ stroke: '#2C2E32' }} tickLine={false}
+            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }}
+            axisLine={{ stroke: '#C8BFB0' }} tickLine={false}
           />
           <YAxis
             domain={[Number(yMin), Number(yMax)]}
             tickFormatter={v => v.toFixed(3)}
-            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: 'var(--text-secondary)' }}
-            axisLine={{ stroke: '#2C2E32' }} tickLine={false} width={52}
+            tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }}
+            axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={52}
           />
           <Tooltip content={<CustomTooltip />} />
 
           {electionEvents.map((ev, i) => (
             <ReferenceLine key={i} x={ev.year}
-              stroke={EVENT_STROKE[ev.category] ?? '#2C2E32'}
+              stroke={EVENT_STROKE[ev.category] ?? '#C8BFB0'}
               strokeOpacity={0.3} strokeDasharray="3 3" />
           ))}
 

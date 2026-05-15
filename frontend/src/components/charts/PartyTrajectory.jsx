@@ -7,10 +7,10 @@ import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 import { InfoIcon } from '../ui'
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8',
+  cdu_csu: '#2C2C2C',
   spd:     '#E3000F',
-  gruene:  '#1AA037',
-  fdp:     '#FFED00',
+  gruene:  '#64A12D',
+  fdp:     '#FFCC00',
   afd:     '#009EE0',
   linke:   '#BE3075',
 }
@@ -137,24 +137,24 @@ export default function PartyTrajectory({ data, selectedYear }) {
 
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={chartData} margin={{ top: 8, right: 20, bottom: 8, left: 8 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#D8D0C4" />
           <XAxis
             dataKey="year"
             type="number"
             domain={[2003, 2027]}
             ticks={YEARS}
-            tick={{ fill: 'var(--text-secondary)', fontFamily: 'var(--font-mono)', fontSize: 11 }}
-            axisLine={{ stroke: 'var(--border)' }}
+            tick={{ fill: '#7A6E64', fontFamily: 'var(--font-mono)', fontSize: 11 }}
+            axisLine={{ stroke: '#C8BFB0' }}
             tickLine={false}
           />
           <YAxis
             domain={[0, 1]}
             tickCount={6}
             tickFormatter={v => v.toFixed(1)}
-            tick={{ fill: 'var(--text-secondary)', fontFamily: 'var(--font-mono)', fontSize: 11 }}
-            axisLine={{ stroke: 'var(--border)' }}
+            tick={{ fill: '#7A6E64', fontFamily: 'var(--font-mono)', fontSize: 11 }}
+            axisLine={{ stroke: '#C8BFB0' }}
             tickLine={false}
-            label={{ value: 'Distanz', angle: -90, position: 'insideLeft', offset: 14, style: { fill: 'var(--text-muted)', fontFamily: 'var(--font-mono)', fontSize: 10 } }}
+            label={{ value: 'Distanz', angle: -90, position: 'insideLeft', offset: 14, style: { fill: '#7A6E64', fontFamily: 'var(--font-mono)', fontSize: 10 } }}
           />
           <Tooltip
             contentStyle={TOOLTIP_STYLE}

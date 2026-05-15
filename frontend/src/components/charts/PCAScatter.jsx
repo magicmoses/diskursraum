@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8',
+  cdu_csu: '#2C2C2C',
   spd:     '#E3000F',
-  gruene:  '#1AA037',
-  fdp:     '#FFED00',
+  gruene:  '#64A12D',
+  fdp:     '#FFCC00',
   afd:     '#009EE0',
   linke:   '#BE3075',
 }
@@ -47,20 +47,20 @@ export default function PCAScatter({ data, viewYear }) {
         style={{ width: '100%', height: 'auto', display: 'block', background: 'var(--bg-surface)', border: '1px solid var(--border)' }}
       >
         {/* Grid */}
-        <line x1={PAD.left} y1={oy} x2={W - PAD.right} y2={oy} stroke="#2C2E32" strokeDasharray="4 4" />
-        <line x1={ox} y1={PAD.top} x2={ox} y2={H - PAD.bottom} stroke="#2C2E32" strokeDasharray="4 4" />
+        <line x1={PAD.left} y1={oy} x2={W - PAD.right} y2={oy} stroke="#D8D0C4" strokeDasharray="4 4" />
+        <line x1={ox} y1={PAD.top} x2={ox} y2={H - PAD.bottom} stroke="#D8D0C4" strokeDasharray="4 4" />
 
         {/* Axes */}
-        <line x1={PAD.left} y1={H - PAD.bottom} x2={W - PAD.right} y2={H - PAD.bottom} stroke="#2C2E32" />
-        <line x1={PAD.left} y1={PAD.top}         x2={PAD.left}      y2={H - PAD.bottom} stroke="#2C2E32" />
+        <line x1={PAD.left} y1={H - PAD.bottom} x2={W - PAD.right} y2={H - PAD.bottom} stroke="#C8BFB0" />
+        <line x1={PAD.left} y1={PAD.top}         x2={PAD.left}      y2={H - PAD.bottom} stroke="#C8BFB0" />
 
         {/* X ticks + labels */}
         {ticks.map(t => {
           const [sx] = toSVG(t, 0)
           return (
             <g key={`xt-${t}`}>
-              <line x1={sx} y1={H - PAD.bottom} x2={sx} y2={H - PAD.bottom + 4} stroke="#52504E" />
-              <text x={sx} y={H - PAD.bottom + 14} textAnchor="middle" fill="#52504E" fontFamily="var(--font-mono)" fontSize="10">{t}</text>
+              <line x1={sx} y1={H - PAD.bottom} x2={sx} y2={H - PAD.bottom + 4} stroke="#7A6E64" />
+              <text x={sx} y={H - PAD.bottom + 14} textAnchor="middle" fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="10">{t}</text>
             </g>
           )
         })}
@@ -70,17 +70,17 @@ export default function PCAScatter({ data, viewYear }) {
           const [, sy] = toSVG(0, t)
           return (
             <g key={`yt-${t}`}>
-              <line x1={PAD.left - 4} y1={sy} x2={PAD.left} y2={sy} stroke="#52504E" />
-              <text x={PAD.left - 6} y={sy + 4} textAnchor="end" fill="#52504E" fontFamily="var(--font-mono)" fontSize="10">{t}</text>
+              <line x1={PAD.left - 4} y1={sy} x2={PAD.left} y2={sy} stroke="#7A6E64" />
+              <text x={PAD.left - 6} y={sy + 4} textAnchor="end" fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="10">{t}</text>
             </g>
           )
         })}
 
         {/* Axis labels */}
-        <text x={W / 2} y={H - 4} textAnchor="middle" fill="#52504E" fontFamily="var(--font-mono)" fontSize="11">
+        <text x={W / 2} y={H - 4} textAnchor="middle" fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="11">
           {`PC1 (${(ev1 * 100).toFixed(1)}%)`}
         </text>
-        <text x={12} y={H / 2} textAnchor="middle" fill="#52504E" fontFamily="var(--font-mono)" fontSize="11"
+        <text x={12} y={H / 2} textAnchor="middle" fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="11"
           transform={`rotate(-90, 12, ${H / 2})`}>
           {`PC2 (${(ev2 * 100).toFixed(1)}%)`}
         </text>

@@ -2,68 +2,43 @@
 @import "tailwindcss";
 
 :root {
-  /* Backgrounds */
-  --bg-primary: #0E0F11;
-  --bg-surface: #161719;
-  --bg-elevated: #1E2023;
+  /* Backgrounds — cream hierarchy */
+  --bg-primary:   #F5F0E8;
+  --bg-surface:   #EDE8DF;
+  --bg-elevated:  #E4DED4;
 
   /* Borders */
-  --border: #2C2E32;
-  --border-subtle: #232529;
-  --border-hover: #3E4147;
+  --border:         #C8BFB0;
+  --border-subtle:  #D8D0C4;
+  --border-hover:   #A89880;
 
   /* Text */
-  --text-primary: #EDECEA;
-  --text-secondary: #8A8885;
-  --text-muted: #52504E;
+  --text-primary:   #1A1410;
+  --text-secondary: #3D3530;
+  --text-muted:     #7A6E64;
 
-  /* Signal (Diskursgrau) */
-  --signal: #8B9BAF;
-  --signal-light: #B8C4D0;
-  --signal-subtle: rgba(139, 155, 175, 0.10);
+  /* Accent */
+  --signal:         #1A3A5C;
+  --signal-subtle:  #E8EEF4;
+  --amber:          #B8860B;
+  --amber-light:    #D4A020;
+  --amber-subtle:   #F5F0DC;
+  --patina:         #2D6B4A;
+  --patina-subtle:  #E8F2EC;
 
-  /* Amber (Dringlichkeit) */
-  --amber: #C4781A;
-  --amber-light: #E8A84A;
-  --amber-subtle: rgba(196, 120, 26, 0.10);
-
-  /* Patina (Hoffnung) */
-  --patina: #4A7C6F;
-  --patina-light: #6BA898;
-  --patina-subtle: rgba(74, 124, 111, 0.10);
-
-  /* Parteien */
-  --cdu: #E8E8E8;
-  --spd: #E3000F;
-  --gruene: #1AA037;
-  --fdp: #FFED00;
-  --afd: #009EE0;
-  --linke: #BE3075;
-
-  /* Typography */
+  /* Fonts — unchanged */
   --font-display: 'Playfair Display', Georgia, serif;
-  --font-body: 'Inter', system-ui, sans-serif;
-  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', 'Fira Code', monospace;
 
-  /* Scale */
-  --text-xs: 11px;
-  --text-sm: 13px;
-  --text-base: 15px;
-  --text-lg: 18px;
-  --text-xl: 24px;
-  --text-2xl: 32px;
-  --text-3xl: 48px;
+  /* Spacing — unchanged */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px; --space-24: 96px;
 
-  /* Spacing */
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-6: 24px;
-  --space-8: 32px;
-  --space-12: 48px;
-  --space-16: 64px;
-  --space-24: 96px;
+  /* Typography — unchanged */
+  --text-xs: 11px; --text-sm: 13px; --text-base: 15px;
+  --text-lg: 18px; --text-xl: 22px; --text-2xl: 28px; --text-3xl: 36px;
 }
 
 *,
@@ -126,7 +101,7 @@ h3 {
 /* ── Selection ─────────────────────────────────── */
 ::selection {
   background: var(--signal-subtle);
-  color: var(--signal-light);
+  color: var(--signal);
 }
 
 /* ── Utility ───────────────────────────────────── */
@@ -139,7 +114,7 @@ h3 {
 }
 
 .text-patina {
-  color: var(--patina-light);
+  color: var(--patina);
 }
 
 .text-muted {

@@ -32,7 +32,13 @@
       "PowerShell(& \"C:\\\\Users\\\\ayzen\\\\miniconda3\\\\envs\\\\consensus-agent\\\\python.exe\" -m pip install pytrends --quiet 2>&1 | Select-Object -Last 3)",
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\ayzen\\\\projects\\\\agentic\\\\consensus-agent\\\\crew\\\\tools\" -Recurse -Name | Where-Object { $_ -notmatch \"__pycache__\" })",
       "Bash(python3 -c ' *)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "WebSearch",
+      "Bash(dir /s /b \"C:\\\\Users\\\\ayzen\\\\projects\\\\agentic\\\\consensus-agent\\\\data\")",
+      "PowerShell(Test-Path *)",
+      "Bash(git pull *)",
+      "Bash(git add *)",
+      "Bash(grep -n \"#[0-9A-Fa-f]\\\\{3,6\\\\}\" /c/Users/ayzen/projects/agentic/consensus-agent/frontend/src/App.jsx)"
     ]
   }
 }

@@ -172,7 +172,7 @@ export default function Analytics() {
                   <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-primary)', width: '220px', flexShrink: 0 }}>
                     {topic.topic}
                   </span>
-                  <div style={{ flex: 1, height: '3px', background: 'var(--bg-elevated)' }}>
+                  <div style={{ flex: 1, height: '3px', background: 'var(--border-subtle)' }}>
                     <div style={{ height: '3px', width: `${pct}%`, background: 'var(--signal)', transition: 'width 700ms ease' }} />
                   </div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', width: '60px', textAlign: 'right' }}>

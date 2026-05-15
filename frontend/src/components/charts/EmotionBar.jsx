@@ -46,7 +46,7 @@ function EmotionRow({ emotion, pct }) {
       }}>
         {label}
       </span>
-      <div style={{ flex: 1, height: '3px', background: 'var(--bg-elevated)' }}>
+      <div style={{ flex: 1, height: '3px', background: 'var(--border-subtle)' }}>
         <div style={{
           height: '3px',
           width: `${barWidth}%`,

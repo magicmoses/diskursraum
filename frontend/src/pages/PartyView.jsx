@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { getHistoricalAnalysis } from '../api/client'
+import { useEffect, useMemo, useState } from 'react'
+import { getHistoricalAnalysis, getHohenheimData } from '../api/client'
 import { Loader, InfoIcon } from '../components/ui'
 import {
   ForceGraph, Heatmap, TimelineSlider,
@@ -15,6 +15,23 @@ const TABS = [
   { id: 'wahlen',     label: 'Wahlen & Programme' },
 ]
 
+const SHORT = {
+  cdu_csu: 'CDU/CSU', spd: 'SPD', gruene: 'Grüne',
+  fdp: 'FDP', afd: 'AfD', linke: 'Linke',
+}
+
+const CAT_LABELS = {
+  welfare:            'Wohlfahrt',
+  economy:            'Wirtschaft',
+  external_relations: 'Außenpolitik',
+  political_system:   'Polit. System',
+  fabric_of_society:  'Gesellschaft',
+  social_groups:      'Soziale Gruppen',
+  freedom_democracy:  'Demokratie',
+}
+
+const PREV_YEAR = { 2009: 2005, 2013: 2009, 2017: 2013, 2021: 2017, 2025: 2021 }
+
 const S = {
   sectionLabel: {
     fontFamily: 'var(--font-mono)',
@@ -26,18 +43,50 @@ const S = {
   },
 }
 
+const PARTY_HEX = {
+  cdu_csu: '#2C2C2C', spd: '#E3000F', gruene: '#64A12D',
+  fdp: '#FFCC00', afd: '#009EE0', linke: '#BE3075',
+}
+
+const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
+
 export default function PartyView() {
-  const [data, setData]         = useState(null)
-  const [loading, setLoading]   = useState(true)
-  const [error, setError]       = useState(false)
-  const [activeTab, setTab]     = useState('positionen')
-  const [selectedYear, setYear] = useState(DEFAULT_YEAR)
+  const [data, setData]               = useState(null)
+  const [hohenheimData, setHohenheim] = useState(null)
+  const [loading, setLoading]         = useState(true)
+  const [error, setError]             = useState(false)
+  const [activeTab, setTab]           = useState('positionen')
+  const [selectedYear, setYear]       = useState(DEFAULT_YEAR)
+  const [driftParty, setDriftParty]   = useState('cdu_csu')
 
   useEffect(() => {
     getHistoricalAnalysis()
       .then(d => { setData(d); setLoading(false) })
       .catch(() => { setError(true); setLoading(false) })
+    getHohenheimData()
+      .then(d => setHohenheim(d))
+      .catch(() => {})
   }, [])
+
+  const driftStatement = useMemo(() => {
+    const prev = PREV_YEAR[selectedYear]
+    if (!prev || !data) return null
+    const pe = data?.category_analysis?.policy_emphasis
+    const curr = pe?.[String(selectedYear)]?.[driftParty]
+    const prevData = pe?.[String(prev)]?.[driftParty]
+    if (!curr || !prevData) return null
+
+    const diffs = Object.keys(curr)
+      .map(cat => ({ cat, delta: (curr[cat] ?? 0) - (prevData[cat] ?? 0) }))
+      .sort((a, b) => b.delta - a.delta)
+
+    const grew   = diffs.slice(0, 2)
+    const shrunk = diffs.slice(-2).reverse()
+    const grewStr   = grew.map(d => `${CAT_LABELS[d.cat] ?? d.cat} (+${d.delta.toFixed(1)}%)`).join(', ')
+    const shrunkStr = shrunk.map(d => `${CAT_LABELS[d.cat] ?? d.cat} (${d.delta.toFixed(1)}%)`).join(', ')
+
+    return `${SHORT[driftParty]} ${selectedYear} vs. ${prev}: Stärker betont → ${grewStr} · Weniger betont → ${shrunkStr}`
+  }, [data, selectedYear, driftParty])
 
   if (loading) return <Loader text="Lade Parteiprogramm-Analyse..." />
 
@@ -46,7 +95,6 @@ export default function PartyView() {
       Analyse nicht verfügbar — Backend erreichbar?
     </div>
   )
-
 
   return (
     <div style={{ maxWidth: '900px', paddingBottom: 'var(--space-24)' }}>
@@ -127,6 +175,43 @@ export default function PartyView() {
               <InfoIcon text="Wirtschaftsachse (links–rechts) und Gesellschaftsachse (progressiv–konservativ) aus ManifestoBERTa-Kategoriencodes. Normiert über alle Wahljahre." />
             </div>
             <IdeologicalMatrix data={data} />
+
+            {/* Programm-Drift Statement */}
+            {driftStatement && (
+              <div style={{ marginTop: 'var(--space-4)' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginBottom: 'var(--space-2)' }}>
+                  {PARTIES.map(p => (
+                    <button
+                      key={p}
+                      onClick={() => setDriftParty(p)}
+                      style={{
+                        padding: '2px 8px',
+                        background: driftParty === p ? `${PARTY_HEX[p]}22` : 'none',
+                        border: `1px solid ${driftParty === p ? PARTY_HEX[p] : 'var(--border)'}`,
+                        color: driftParty === p ? PARTY_HEX[p] : 'var(--text-muted)',
+                        fontFamily: 'var(--font-mono)',
+                        fontSize: '10px',
+                        cursor: 'pointer',
+                        transition: 'all 120ms',
+                      }}
+                    >
+                      {SHORT[p]}
+                    </button>
+                  ))}
+                </div>
+                <div style={{
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: 'var(--text-xs)',
+                  color: 'var(--text-muted)',
+                  padding: 'var(--space-3) var(--space-4)',
+                  background: 'var(--bg-elevated)',
+                  borderLeft: '2px solid var(--border)',
+                  lineHeight: 1.6,
+                }}>
+                  {driftStatement}
+                </div>
+              </div>
+            )}
           </div>
 
           <div>
@@ -168,7 +253,7 @@ export default function PartyView() {
 
       {/* ── Tab: Wahlen & Programme ───────────────────── */}
       {activeTab === 'wahlen' && (
-        <WahlErgebnisse data={data} selectedYear={selectedYear} />
+        <WahlErgebnisse data={data} selectedYear={selectedYear} hohenheimData={hohenheimData} />
       )}
 
     </div>

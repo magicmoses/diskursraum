@@ -3,10 +3,10 @@ import * as d3 from 'd3'
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 
 const PARTY_HEX = {
-  cdu_csu: '#E8E8E8',
+  cdu_csu: '#2C2C2C',
   spd:     '#E3000F',
-  gruene:  '#1AA037',
-  fdp:     '#FFED00',
+  gruene:  '#64A12D',
+  fdp:     '#FFCC00',
   afd:     '#009EE0',
   linke:   '#BE3075',
 }
@@ -93,7 +93,7 @@ export default function ForceGraph({ data, year }) {
       .selectAll('line')
       .data(edges)
       .join('line')
-      .attr('style', d => `stroke: var(--border-hover); stroke-width: ${strokeW(d.weight)}; stroke-opacity: 0.55; cursor: default`)
+      .attr('style', d => `stroke: #A89880; stroke-width: ${strokeW(d.weight)}; stroke-opacity: 0.55; cursor: default`)
       .on('mouseenter', (event, d) => {
         const src = PARTY_NAMES[d.source.id ?? d.source]
         const tgt = PARTY_NAMES[d.target.id ?? d.target]
@@ -116,9 +116,9 @@ export default function ForceGraph({ data, year }) {
 
     nodeG.append('circle')
       .attr('r', d => nodeRadius(d.id))
-      .attr('fill', d => PARTY_HEX[d.id] ?? '#8B9BAF')
+      .attr('fill', d => PARTY_HEX[d.id] ?? '#1A3A5C')
       .attr('fill-opacity', 0.9)
-      .attr('stroke', '#1E2023')
+      .attr('stroke', '#C8BFB0')
       .attr('stroke-width', 2)
       .on('mouseenter', (event, d) => {
         const score = getBridging(d.id)
@@ -133,7 +133,7 @@ export default function ForceGraph({ data, year }) {
     nodeG.append('text')
       .attr('text-anchor', 'middle')
       .attr('dy', d => nodeRadius(d.id) + 13)
-      .attr('style', 'fill: var(--text-secondary); font-family: var(--font-mono); font-size: 11px; pointer-events: none')
+      .attr('style', 'fill: #3D3530; font-family: var(--font-mono); font-size: 11px; pointer-events: none')
       .text(d => PARTY_NAMES[d.id] ?? d.name)
 
     sim.on('tick', () => {
