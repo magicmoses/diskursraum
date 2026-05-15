@@ -8,7 +8,7 @@ import {
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 import { InfoIcon } from '../../components/ui'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8001'
+const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:8001').replace(/\/$/, '')
 
 const PARTY_HEX = {
   cdu_csu: '#2C2C2C',

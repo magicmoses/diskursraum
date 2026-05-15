@@ -2,7 +2,7 @@ import { useState, useRef, useCallback } from 'react'
 import { PARTY_COLORS, PARTY_NAMES } from '../constants/colors'
 import { searchManifestos } from '../api/client'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8001'
+const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:8001').replace(/\/$/, '')
 
 const PARTY_ORDER = ['linke', 'gruene', 'spd', 'fdp', 'cdu_csu', 'afd']
 const PARTY_SHORT  = {
@@ -127,7 +127,7 @@ export default function FragNach() {
       const contentType = res.headers.get('content-type') ?? ''
       if (!contentType.includes('text/event-stream')) {
         const errData = await res.json().catch(() => ({}))
-        setError(errData.message || errData.error || 'Keine Streaming-Antwort vom Backend')
+        setError(errData.message || errData.error || 'Deep-Dive aktuell nicht verfügbar — Versuche es später nochmal')
         return
       }
 
