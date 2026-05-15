@@ -124,6 +124,13 @@ export default function FragNach() {
         }),
       })
 
+      const contentType = res.headers.get('content-type') ?? ''
+      if (!contentType.includes('text/event-stream')) {
+        const errData = await res.json().catch(() => ({}))
+        setError(errData.message || errData.error || 'Keine Streaming-Antwort vom Backend')
+        return
+      }
+
       const reader = res.body.getReader()
       const decoder = new TextDecoder()
 

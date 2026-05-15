@@ -4,7 +4,7 @@ import { Loader, InfoIcon } from '../components/ui'
 import {
   ForceGraph, Heatmap, TimelineSlider,
   BridgingTimeline, WahlErgebnisse,
-  IdeologicalMatrix, PartyDistanceView, PartyTrajectory,
+  IdeologicalMatrix, PartyDistanceView,
 } from '../components/charts'
 
 const YEARS        = [2005, 2009, 2013, 2017, 2021, 2025]
@@ -124,16 +124,27 @@ export default function PartyView() {
         ))}
       </div>
 
-      {/* ── Tab: Ideologische Verortung ─────────────── */}
+      {/* ── Tab 1: Ideologische Verortung ───────────── */}
       {activeTab === 'verortung' && (
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+            Ideologische Verortung
+            <InfoIcon text="Wirtschaftsachse (links–rechts) und Gesellschaftsachse (progressiv–konservativ) aus ManifestoBERTa-Kategoriencodes. Normiert über alle Wahljahre." />
+          </div>
+          <IdeologicalMatrix data={data} />
+        </div>
+      )}
+
+      {/* ── Tab 2: Nähe & Distanz ─────────────────── */}
+      {activeTab === 'distanz' && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-16)' }}>
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Ideologische Verortung
-              <InfoIcon text="Wirtschaftsachse (links–rechts) und Gesellschaftsachse (progressiv–konservativ) aus ManifestoBERTa-Kategoriencodes. Normiert über alle Wahljahre." />
+              Wer steht wem inhaltlich nahe?
+              <InfoIcon text="Die Abstände zeigen wie ähnlich sich die Parteien in ihren Wahlprogrammen sind — berechnet aus semantischer Nähe und inhaltlichen Schwerpunkten." />
             </div>
-            <IdeologicalMatrix data={data} />
+            <PartyDistanceView data={data} />
           </div>
 
           <div>
@@ -144,9 +155,61 @@ export default function PartyView() {
             <Heatmap data={data} year={selectedYear} />
           </div>
 
+        </div>
+      )}
+
+      {/* ── Tab 3: Brückenbauer ──────────────────── */}
+      {activeTab === 'brueckenbauer' && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-16)' }}>
+
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Ähnlichkeitsnetzwerk {selectedYear}
+              Brückenbauer-Score im Zeitverlauf
+              <InfoIcon text="Technisch: Mittelwert der Kosinus-Ähnlichkeiten einer Partei zu allen anderen, min-max-normiert auf 0–1 über alle Wahljahre. Wert 1 = programmatisch nächste Partei zum Feld, Wert 0 = am weitesten entfernt." />
+            </div>
+            <BridgingTimeline data={data} />
+
+            {/* Hintergrund */}
+            <div style={{
+              marginTop: 'var(--space-6)',
+              padding: 'var(--space-4) var(--space-5)',
+              background: 'var(--bg-surface)',
+              border: '1px solid var(--border-subtle)',
+              borderLeft: '3px solid var(--signal)',
+            }}>
+              <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--signal)', marginBottom: 'var(--space-2)' }}>
+                Hintergrund
+              </div>
+              <p style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7, margin: 0 }}>
+                Der Brückenbauer-Score misst, wie nah eine Partei programmatisch zum Zentrum des gesamten Parteienspektrums steht. Technisch ist er der normierte Mittelwert der Kosinus-Ähnlichkeiten einer Partei zu allen anderen — 0 bedeutet maximale Isolation, 1 bedeutet maximale Nähe zum Feld. Die Normierung erfolgt über alle Wahljahre, sodass die Werte vergleichbar bleiben.
+              </p>
+            </div>
+
+            {/* Erkenntnisse */}
+            <div style={{
+              marginTop: 'var(--space-3)',
+              padding: 'var(--space-4) var(--space-5)',
+              background: 'var(--bg-surface)',
+              border: '1px solid var(--border-subtle)',
+              borderLeft: '3px solid var(--amber)',
+            }}>
+              <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--amber)', marginBottom: 'var(--space-2)' }}>
+                Erkenntnisse
+              </div>
+              <p style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7, margin: 0 }}>
+                CDU/CSU und SPD belegen historisch die mittleren Positionen — als Volksparteien schreiben sie breite Themenpakete, die sich mit vielen anderen überschneiden. Die AfD weist konstant den niedrigsten Wert auf, was ihre programmatische Isolation widerspiegelt. Grüne und FDP schwanken stärker, abhängig vom jeweiligen thematischen Fokus des Wahlkampfes.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 'var(--space-4)', maxWidth: '680px' }}>
+              Das Netzwerk zeigt die inhaltliche Nähe zwischen den Parteiprogrammen zur Bundestagswahl {selectedYear}.
+              Dickere Verbindungslinien bedeuten höhere programmatische Übereinstimmung.
+              Die Größe eines Knotens spiegelt den Brückenwert der Partei wider.
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
+              Ähnlichkeitsnetzwerk
               <InfoIcon text="Technisch: Knoten-Größe = Brückenbauer-Score (normiert). Kantendicke = Kosinus-Ähnlichkeit der Wahlprogramme. Themenfilter begrenzen auf Teilgraphen einzelner ManifestoBERTa-Kategorien." />
             </div>
             <ForceGraph data={data} year={selectedYear} />
@@ -155,58 +218,7 @@ export default function PartyView() {
         </div>
       )}
 
-      {/* ── Tab: Nähe & Distanz ───────────────────── */}
-      {activeTab === 'distanz' && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-16)' }}>
-
-          <p style={{
-            fontSize: 'var(--text-sm)',
-            color: 'var(--text-secondary)',
-            lineHeight: 1.7,
-            maxWidth: '600px',
-            margin: 0,
-          }}>
-            Wie ähnlich sind sich Parteien in ihren Wahlprogrammen? Die Distanzen basieren auf semantischer Ähnlichkeit der ManifestoBERTa-Embeddings — je kürzer der Abstand, desto näher die inhaltlichen Positionen.
-          </p>
-
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Inhaltliche Distanz zur Partei
-              <InfoIcon text="Die Abstände zeigen wie ähnlich sich die Parteien in ihren Wahlprogrammen sind — berechnet aus semantischer Nähe und inhaltlichen Schwerpunkten." />
-            </div>
-            <PartyDistanceView data={data} />
-          </div>
-
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Distanzentwicklung im Zeitverlauf 2005–2025
-              <InfoIcon text="Wie hat sich die inhaltliche Distanz zwischen Parteien von Wahl zu Wahl verändert? Basis: ManifestoBERTa-Ähnlichkeiten aus Wahlprogrammen." />
-            </div>
-            <PartyTrajectory data={data} selectedYear={selectedYear} />
-          </div>
-
-        </div>
-      )}
-
-      {/* ── Tab: Brückenbauer ─────────────────────── */}
-      {activeTab === 'brueckenbauer' && (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-16)' }}>
-
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Brückenbauer-Score im Zeitverlauf 2005–2025
-              <InfoIcon text="Technisch: Mittelwert der Kosinus-Ähnlichkeiten einer Partei zu allen anderen, min-max-normiert auf 0–1 über alle Wahljahre. Wert 1 = programmatisch nächste Partei zum Feld, Wert 0 = am weitesten entfernt." />
-            </div>
-            <BridgingTimeline data={data} />
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginTop: 'var(--space-3)' }}>
-              AfD erst ab 2013 im Bundestag — Wahlprogramm 2013 umfasste nur wenige Seiten (Partei im selben Jahr gegründet).
-            </div>
-          </div>
-
-        </div>
-      )}
-
-      {/* ── Tab: Wahlen & Programme ───────────────── */}
+      {/* ── Tab 4: Wahlen & Programme ─────────────── */}
       {activeTab === 'wahlen' && (
         <WahlErgebnisse data={data} selectedYear={selectedYear} hohenheimData={hohenheimData} />
       )}

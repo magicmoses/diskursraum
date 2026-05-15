@@ -59,10 +59,6 @@ export default function BridgingTimeline({ data }) {
     return row
   })
 
-  const allVals = chartData.flatMap(r => [...STABLE, 'afd'].map(p => r[p]).filter(v => v != null))
-  const yMin = (Math.min(...allVals) - 0.0015).toFixed(4)
-  const yMax = (Math.max(...allVals) + 0.0015).toFixed(4)
-
   const electionEvents = (data.historical_events ?? []).filter(e => YEARS.includes(e.year))
 
   return (
@@ -75,10 +71,10 @@ export default function BridgingTimeline({ data }) {
             axisLine={{ stroke: '#C8BFB0' }} tickLine={false}
           />
           <YAxis
-            domain={[Number(yMin), Number(yMax)]}
-            tickFormatter={v => v.toFixed(3)}
+            domain={[0, 1]}
+            tickFormatter={v => v.toFixed(1)}
             tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }}
-            axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={52}
+            axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={36}
           />
           <Tooltip content={<CustomTooltip />} />
 
