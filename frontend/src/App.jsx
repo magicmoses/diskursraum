@@ -3,6 +3,7 @@ import Analytics from './pages/Analytics'
 import Home from './pages/Home'
 import TopicView from './pages/TopicView'
 import PartyView from './pages/PartyView'
+import FragNach from './pages/FragNach'
 import Landing from './pages/Landing'
 
 // Nav ausblenden auf Landing Page
@@ -43,6 +44,7 @@ function AppShell() {
             {[
               { to: '/medienspiegel', label: 'Medienspiegel' },
               { to: '/parteienspiegel', label: 'Parteienspiegel' },
+              { to: '/frag-nach', label: 'Frag nach.' },
               { to: '/project', label: 'Diskursraum-Analytics' },
             ].map(({ to, label }) => (
               <NavLink
@@ -76,6 +78,7 @@ function AppShell() {
           <Route path="/medienspiegel" element={<Home />} />
           <Route path="/medienspiegel/:topicId" element={<TopicView />} />
           <Route path="/parteienspiegel" element={<PartyView />} />
+          <Route path="/frag-nach" element={<FragNach />} />
           <Route path="/project" element={<Analytics />} />
         </Routes>
       </main>

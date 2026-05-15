@@ -96,10 +96,13 @@ def warmup() -> None:
         _get_pool()
     except Exception as e:
         print(f"[frag_nach] DB pool unavailable at startup ({e}) — search endpoints will fail until DB is reachable")
-    _get_model().encode(
-        "query: Bundestagswahlprogramm Deutschland",
-        normalize_embeddings=True,
-    )
+    try:
+        _get_model().encode(
+            "query: Bundestagswahlprogramm Deutschland",
+            normalize_embeddings=True,
+        )
+    except Exception as e:
+        print(f"[frag_nach] Model unavailable at startup ({e}) — embedding will load on first request")
 
 
 # ── Embedding ─────────────────────────────────────
@@ -191,7 +194,20 @@ async def search(query: str, years: list, parties: list, limit: int) -> list:
 
     hits = [h for batch in batches for h in batch]
     hits.sort(key=lambda x: x["relevance_score"], reverse=True)
-    result = hits[:limit]
+
+    # Deduplicate: keep best hit per party/year, then fill remaining slots
+    seen, result = set(), []
+    for h in hits:
+        key = (h["party_id"], h["year"])
+        if key not in seen:
+            seen.add(key)
+            result.append(h)
+    for h in hits:
+        if len(result) >= limit:
+            break
+        if h not in result:
+            result.append(h)
+    result = result[:limit]
 
     _lru_set(_result_cache, cache_key, result, _RESULT_CACHE_MAX)
     return result

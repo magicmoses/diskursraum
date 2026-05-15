@@ -168,11 +168,10 @@ _SYSTEM_PROMPT = (
 )
 _USER_TEMPLATE = (
     "Frage: {query}\n\n"
-    "Relevante Auszüge aus den Wahlprogrammen:\n{context}\n\n"
-    "Beantworte die Frage auf Basis dieser Auszüge. "
-    "Nenne wenn möglich welche Partei und welches Jahr "
-    "die relevantesten Aussagen enthält. "
-    "Antworte in 3-5 Sätzen, klar und verständlich."
+    "Auszüge:\n{context}\n\n"
+    "Antworte direkt in 2-3 Sätzen. Keine Einleitung. "
+    "Partei und Jahr in Klammern nennen, z.B. (CDU/CSU 2021). "
+    "Nur auf Basis der Auszüge — nichts erfinden."
 )
 
 
@@ -240,6 +239,26 @@ _PARTY_ALIASES = {
     "linke": "linke", "linken": "linke", "pds": "linke",
 }
 _YEAR_RE = _re.compile(r"\b(2005|2009|2013|2017|2021|2025)\b")
+_QUESTION_RE = _re.compile(
+    r"\b(was|wie|warum|wann|wo|wer|welche[rns]?|sagt|denkt|meint|steht|"
+    r"positioniert|plant|will|fordert|h[äa]lt|findet|ist die|sind die)\b",
+    _re.IGNORECASE,
+)
+_PARTY_NAME_RE = _re.compile(
+    r"\b(cdu[/\s]?csu|cdu|csu|union|spd|sozialdemokraten?|"
+    r"gr[üu]nen?|b[üu]ndnis\s*90|fdp|liberalen?|afd|alternative\s+f[üu]r\s+deutschland|"
+    r"linken?|pds)\b",
+    _re.IGNORECASE,
+)
+
+
+def _rewrite_query(query: str) -> str:
+    """Strip question structure and party/year noise for cleaner topic embedding."""
+    q = _YEAR_RE.sub("", query)
+    q = _PARTY_NAME_RE.sub("", q)
+    q = _QUESTION_RE.sub("", q)
+    q = _re.sub(r"\s+", " ", q).strip(" ?.,")
+    return q if len(q) > 3 else query
 
 
 def _extract_intent(query: str, parties: list, years: list):
@@ -255,10 +274,7 @@ def _extract_intent(query: str, parties: list, years: list):
     if not years:
         auto_years = [int(m) for m in _YEAR_RE.findall(query)]
 
-    # Strip years from query so embedding focuses on the topic
-    clean = _YEAR_RE.sub("", query).strip()
-    clean = clean if clean else query
-
+    clean = _rewrite_query(query)
     return clean, auto_parties or parties, auto_years or years
 
 

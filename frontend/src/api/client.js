@@ -25,7 +25,7 @@ export const searchManifestos = (query, parties = [], years = []) =>
     query,
     parties: parties.join(',') || 'all',
     years:   years.join(',')   || 'all',
-    limit:   10,
+    limit:   5,
   }}).then(r => r.data)
 
 // ── Parteiprogramme ───────────────────────────────
