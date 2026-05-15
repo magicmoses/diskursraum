@@ -88,10 +88,44 @@ export default function Analytics() {
   const maxVal = shownTopics[0]?.article_count || shownTopics[0]?.relevanz || 1
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)', paddingBottom: 'var(--space-16)' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)', paddingBottom: 'var(--space-16)', position: 'relative', overflow: 'hidden' }}>
+
+      {/* ── Deutschlandfahne — dekorativer Hintergrund */}
+      <div style={{
+        position: 'absolute',
+        right: '-24px',
+        top: '60px',
+        pointerEvents: 'none',
+        zIndex: 0,
+      }}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 300 180"
+          width="360"
+          height="216"
+          style={{ opacity: 0.09, display: 'block' }}
+        >
+          <defs>
+            <filter id="fw-a" x="-5%" y="-12%" width="115%" height="130%">
+              <feTurbulence type="turbulence" baseFrequency="0.025 0.09" numOctaves="3" result="wave">
+                <animate attributeName="baseFrequency"
+                  values="0.020 0.07;0.035 0.11;0.025 0.09;0.015 0.07;0.020 0.07"
+                  dur="5s" repeatCount="indefinite" />
+              </feTurbulence>
+              <feDisplacementMap in="SourceGraphic" in2="wave" scale="16"
+                xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+          </defs>
+          <g filter="url(#fw-a)">
+            <rect width="300" height="60"  fill="#1A1A1A" />
+            <rect y="60"  width="300" height="60"  fill="#CC0000" />
+            <rect y="120" width="300" height="60"  fill="#FFCC00" />
+          </g>
+        </svg>
+      </div>
 
       {/* ── Header ──────────────────────────────── */}
-      <div className="fade-up" style={{ paddingTop: 'var(--space-8)' }}>
+      <div className="fade-up" style={{ paddingTop: 'var(--space-8)', position: 'relative', zIndex: 1 }}>
         <div style={{
           fontFamily: 'var(--font-mono)',
           fontSize: 'var(--text-xs)',

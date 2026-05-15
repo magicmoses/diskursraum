@@ -72,7 +72,44 @@ export default function Landing() {
         maxWidth: '960px',
         margin: '0 auto',
         width: '100%',
+        position: 'relative',
+        overflow: 'hidden',
       }}>
+
+        {/* Deutschlandfahne — dekorativer Hintergrund */}
+        <div style={{
+          position: 'absolute',
+          right: '-24px',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          pointerEvents: 'none',
+          zIndex: 0,
+        }}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 300 180"
+            width="360"
+            height="216"
+            style={{ opacity: 0.10, display: 'block' }}
+          >
+            <defs>
+              <filter id="fw-l" x="-5%" y="-12%" width="115%" height="130%">
+                <feTurbulence type="turbulence" baseFrequency="0.025 0.09" numOctaves="3" result="wave">
+                  <animate attributeName="baseFrequency"
+                    values="0.020 0.07;0.035 0.11;0.025 0.09;0.015 0.07;0.020 0.07"
+                    dur="5s" repeatCount="indefinite" />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="wave" scale="16"
+                  xChannelSelector="R" yChannelSelector="G" />
+              </filter>
+            </defs>
+            <g filter="url(#fw-l)">
+              <rect width="300" height="60"  fill="#1A1A1A" />
+              <rect y="60"  width="300" height="60"  fill="#CC0000" />
+              <rect y="120" width="300" height="60"  fill="#FFCC00" />
+            </g>
+          </svg>
+        </div>
 
         {/* Eyebrow */}
         <div className="fade-up" style={{
