@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   RadarChart, PolarGrid, PolarAngleAxis, Radar,
@@ -7,6 +7,8 @@ import {
 } from 'recharts'
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 import { InfoIcon } from '../../components/ui'
+
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8001'
 
 const PARTY_HEX = {
   cdu_csu: '#2C2C2C',
@@ -27,6 +29,16 @@ const CAT_LABELS = {
   fabric_of_society:  'Gesellschaft',
   social_groups:      'Soziale Gruppen',
   freedom_democracy:  'Demokratie',
+}
+
+const CAT_DEFINITIONS = {
+  welfare:            'Sozialpolitik, Rente, Gesundheit, Pflege',
+  economy:            'Wirtschaft, Steuern, Arbeit, Finanzen',
+  external_relations: 'Außenpolitik, Verteidigung, EU, NATO',
+  political_system:   'Demokratie, Verwaltung, Föderalismus',
+  fabric_of_society:  'Gesellschaftlicher Zusammenhalt, Kultur, Migration',
+  social_groups:      'Frauen, Minderheiten, Senioren, Jugend',
+  freedom_democracy:  'Bürgerrechte, Rechtsstaat, Pressefreiheit',
 }
 
 const ELECTION_YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
@@ -101,13 +113,25 @@ function YearButtons({ years, active, onChange }) {
 }
 
 export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
-  const [chartType, setChartType]     = useState('bar')
-  const [focusParty, setFocusParty]   = useState(null)
-  const [themesYear, setThemesYear]   = useState(selectedYear)
-  const [comparePair, setComparePair] = useState(['cdu_csu', 'spd'])
-  const [hixYear, setHixYear]         = useState(2025)
-  const [topicsParty, setTopicsParty] = useState('cdu_csu')
-  const [topicsYear, setTopicsYear]   = useState(selectedYear)
+  const [chartType, setChartType]           = useState('bar')
+  const [focusParty, setFocusParty]         = useState(null)
+  const [themesYear, setThemesYear]         = useState(selectedYear)
+  const [hixYear, setHixYear]               = useState(2025)
+  const [topicsParty, setTopicsParty]       = useState('cdu_csu')
+  const [topicsYear, setTopicsYear]         = useState(selectedYear)
+  const [summaryParty, setSummaryParty]     = useState('cdu_csu')
+  const [summaryData, setSummaryData]       = useState(null)
+  const [summaryLoading, setSummaryLoading] = useState(false)
+  const [focusPartyLength, setFocusPartyLength] = useState(null)
+
+  useEffect(() => {
+    setSummaryData(null)
+    setSummaryLoading(true)
+    fetch(`${API_BASE}/manifesto-analysis/summary?party=${summaryParty}&year=${themesYear}`)
+      .then(r => r.json())
+      .then(d => { setSummaryData(d); setSummaryLoading(false) })
+      .catch(() => setSummaryLoading(false))
+  }, [summaryParty, themesYear])
 
   if (!data?.election_results) return (
     <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', fontSize: 'var(--text-sm)' }}>
@@ -149,12 +173,6 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
     value: hohenheimData?.years?.[String(hixYear)]?.[p]?.hix ?? null,
   })).filter(d => d.value !== null)
 
-  const toggleComparePair = (p) =>
-    setComparePair(prev =>
-      prev.includes(p) ? prev.filter(x => x !== p) :
-      prev.length < 2  ? [...prev, p] : [prev[1], p]
-    )
-
   const topicsEmphasis = data?.category_analysis?.policy_emphasis?.[String(topicsYear)]?.[topicsParty]
   const topicsData = topicsEmphasis
     ? Object.entries(topicsEmphasis)
@@ -166,7 +184,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-8)' }}>
 
-      {/* ── Vote share chart ──────────────────────── */}
+      {/* ── 1. Wahlergebnisse ─────────────────────── */}
       <div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-3)' }}>
           <div style={S_LABEL}>Wahlergebnisse Bundestagswahl 2005–2025 (%)</div>
@@ -214,7 +232,36 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
         )}
       </div>
 
-      {/* ── Radar: policy emphasis ─────────────────── */}
+      {/* ── 2. Top-3 Themenschwerpunkte ──────────────── */}
+      {Object.keys(emphasis).length > 0 && (
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-4)' }}>
+            <div style={S_LABEL}>Top-3 Themenschwerpunkte je Partei</div>
+            <YearButtons years={ELECTION_YEARS} active={themesYear} onChange={setThemesYear} />
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-3)' }}>
+            {PARTIES.map(p => {
+              const cats = Object.entries(emphasis[p] ?? {}).sort((a, b) => b[1] - a[1]).slice(0, 3)
+              return (
+                <div key={p} style={{ background: 'var(--bg-surface)', border: `1px solid ${PARTY_HEX[p]}30`, padding: 'var(--space-3)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-3)' }}>
+                    <div style={{ width: '8px', height: '8px', background: PARTY_HEX[p], flexShrink: 0 }} />
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: PARTY_HEX[p] }}>{SHORT[p]}</span>
+                  </div>
+                  {cats.map(([cat, pct]) => (
+                    <div key={cat} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '4px' }}>
+                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>{CAT_LABELS[cat] ?? cat}</span>
+                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>{(pct ?? 0).toFixed(1)}%</span>
+                    </div>
+                  ))}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* ── 3. ManifestoBERTa Spinnendiagramm + Definitionen + KI-Analyse ── */}
       {hasEmphasis && (
         <div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-3)' }}>
@@ -249,47 +296,142 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
               ))}
             </div>
           </div>
-        </div>
-      )}
 
-      {/* ── Top-3 Themenschwerpunkte ──────────────── */}
-      {Object.keys(emphasis).length > 0 && (
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-4)' }}>
-            <div style={S_LABEL}>Top-3 Themenschwerpunkte je Partei</div>
-            <YearButtons years={ELECTION_YEARS} active={themesYear} onChange={setThemesYear} />
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-3)' }}>
-            {PARTIES.map(p => {
-              const cats = Object.entries(emphasis[p] ?? {}).sort((a, b) => b[1] - a[1]).slice(0, 3)
-              return (
-                <div key={p} style={{ background: 'var(--bg-surface)', border: `1px solid ${PARTY_HEX[p]}30`, padding: 'var(--space-3)' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-3)' }}>
-                    <div style={{ width: '8px', height: '8px', background: PARTY_HEX[p], flexShrink: 0 }} />
-                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: PARTY_HEX[p] }}>{SHORT[p]}</span>
-                  </div>
-                  {cats.map(([cat, pct]) => (
-                    <div key={cat} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '4px' }}>
-                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>{CAT_LABELS[cat] ?? cat}</span>
-                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>{(pct ?? 0).toFixed(1)}%</span>
-                    </div>
-                  ))}
+          {/* Definitionen */}
+          <div style={{ marginTop: 'var(--space-4)', padding: 'var(--space-4)', background: 'var(--bg-surface)', border: '1px solid var(--border-subtle)' }}>
+            <div style={{ ...S_LABEL, marginBottom: 'var(--space-3)' }}>Kategoriendefinitionen — ManifestoBERTa</div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '6px var(--space-6)' }}>
+              {Object.entries(CAT_LABELS).map(([k, label]) => (
+                <div key={k} style={{ display: 'flex', gap: 'var(--space-2)', fontSize: 'var(--text-xs)' }}>
+                  <span style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)', whiteSpace: 'nowrap' }}>{label}</span>
+                  <span style={{ color: 'var(--text-muted)' }}>— {CAT_DEFINITIONS[k]}</span>
                 </div>
-              )
-            })}
+              ))}
+            </div>
+          </div>
+
+          {/* KI-Analyse */}
+          <div style={{ marginTop: 'var(--space-4)', border: '1px solid var(--signal)' }}>
+            <div style={{
+              background: 'var(--signal)',
+              color: 'white',
+              padding: 'var(--space-2) var(--space-4)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: 'var(--space-2)',
+            }}>
+              <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                KI-Analyse — {themesYear}
+              </span>
+              <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                {PARTIES.map(p => (
+                  <button key={p} onClick={() => setSummaryParty(p)} style={{
+                    padding: '2px 6px',
+                    background: summaryParty === p ? 'white' : 'transparent',
+                    border: `1px solid ${summaryParty === p ? 'white' : 'rgba(255,255,255,0.3)'}`,
+                    color: summaryParty === p ? 'var(--signal)' : 'rgba(255,255,255,0.75)',
+                    fontFamily: 'var(--font-mono)',
+                    fontSize: '10px',
+                    cursor: 'pointer',
+                    transition: 'all 120ms',
+                  }}>{SHORT[p]}</button>
+                ))}
+              </div>
+            </div>
+            <div style={{ padding: 'var(--space-4)', background: 'var(--bg-surface)', minHeight: '60px' }}>
+              {summaryLoading ? (
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
+                  Analysiere...
+                </div>
+              ) : summaryData?.error ? (
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--amber)' }}>
+                  {summaryData.error}
+                </div>
+              ) : summaryData?.punkte ? (
+                <ul style={{ margin: 0, paddingLeft: 'var(--space-4)', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
+                  {summaryData.punkte.map((pt, i) => (
+                    <li key={i} style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.6 }}>{pt}</li>
+                  ))}
+                </ul>
+              ) : null}
+            </div>
           </div>
         </div>
       )}
 
-      {/* ── Programmlänge im Zeitverlauf ─────────── */}
+      {/* ── 4. Verständlichkeit (HIX) ────────────────── */}
+      {hohenheimData && (
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S_LABEL }}>
+            Wie verständlich schreiben die Parteien?
+            <InfoIcon text="Der Hohenheimer Verständlichkeitsindex (HIX) misst die formale Verständlichkeit von Texten auf einer Skala von 0 bis 20. Zum Vergleich: Doktorarbeiten erreichen 1,2 Punkte, Bundestagsreden 15,0 Punkte, die Bild-Zeitung 16,8 Punkte." />
+          </div>
+          <YearButtons years={NLP_YEARS} active={hixYear} onChange={setHixYear} />
+          <ResponsiveContainer width="100%" height={240}>
+            <BarChart data={hixBarData} margin={{ top: 16, right: 130, bottom: 4, left: 0 }}>
+              <XAxis dataKey="party" tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} />
+              <YAxis domain={[0, 20]} tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={24} />
+              <Tooltip content={({ active, payload, label }) => {
+                if (!active || !payload?.length) return null
+                return (
+                  <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)' }}>
+                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>
+                      {label} {hixYear}: {payload[0]?.value?.toFixed(1)} Punkte
+                    </span>
+                  </div>
+                )
+              }} />
+              <ReferenceLine y={1.2} stroke="#C8BFB0" strokeDasharray="4 2"
+                label={{ value: 'Doktorarbeit (1.2)', position: 'insideTopRight', offset: 4, fontSize: 9, fontFamily: 'var(--font-mono)', fill: '#1A1410' }} />
+              <ReferenceLine y={15.0} stroke="#C8BFB0" strokeDasharray="4 2"
+                label={{ value: 'Bundestagsrede (15.0)', position: 'insideTopRight', offset: 4, fontSize: 9, fontFamily: 'var(--font-mono)', fill: '#1A1410' }} />
+              <ReferenceLine y={16.8} stroke="#C8BFB0" strokeDasharray="4 2"
+                label={{ value: 'Bild-Zeitung (16.8)', position: 'insideTopRight', offset: 4, fontSize: 9, fontFamily: 'var(--font-mono)', fill: '#1A1410' }} />
+              <Bar dataKey="value" maxBarSize={40}>
+                {hixBarData.map(d => <Cell key={d.id} fill={PARTY_HEX[d.id]} />)}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginTop: 'var(--space-3)', lineHeight: 1.6 }}>
+            HIX-Skala 0–20: Je höher, desto verständlicher. Wissenschaftliche Texte liegen bei 1–5, allgemein verständliche Texte ab 15.
+          </div>
+          <div style={SOURCE_NOTE}>Quelle: Universität Hohenheim, Wahlprogramm-Check · komm.uni-hohenheim.de</div>
+        </div>
+      )}
+
+      {/* ── 5. Populismus-Analyse (Placeholder) ──────── */}
+      <div style={{
+        border: '1px solid var(--border)',
+        padding: 'var(--space-6)',
+        background: 'var(--bg-surface)',
+        textAlign: 'center',
+      }}>
+        <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 'var(--space-2)' }}>
+          Populismus-Analyse
+        </div>
+        <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>
+          PopBERT-Scores werden demnächst ergänzt.
+        </div>
+      </div>
+
+      {/* ── 6. Programmlänge im Zeitverlauf ─────────── */}
       {hohenheimData && (
         <div>
           <div style={{ ...S_LABEL, marginBottom: 'var(--space-3)' }}>Wie viel haben die Parteien geschrieben?</div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginBottom: 'var(--space-3)' }}>
+            <button onClick={() => setFocusPartyLength(null)} style={{
+              padding: '3px 10px',
+              background: focusPartyLength === null ? 'var(--bg-elevated)' : 'none',
+              border: `1px solid ${focusPartyLength === null ? 'var(--border-hover)' : 'var(--border)'}`,
+              color: focusPartyLength === null ? 'var(--text-primary)' : 'var(--text-muted)',
+              fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', cursor: 'pointer', transition: 'all 120ms',
+            }}>Alle</button>
             {PARTIES.map(p => {
-              const active = comparePair.includes(p)
+              const active = focusPartyLength === p
               return (
-                <button key={p} onClick={() => toggleComparePair(p)} style={{
+                <button key={p} onClick={() => setFocusPartyLength(prev => prev === p ? null : p)} style={{
                   padding: '3px 10px',
                   background: active ? `${PARTY_HEX[p]}22` : 'none',
                   border: `1px solid ${active ? PARTY_HEX[p] : 'var(--border)'}`,
@@ -302,7 +444,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={wordCountData} margin={{ top: 8, right: 8, bottom: 4, left: 0 }}>
               <XAxis dataKey="year" tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} />
-              <YAxis tickFormatter={v => `${Math.round(v / 1000)}k`} tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={36} />
+              <YAxis tickFormatter={v => `${(v / 1000).toFixed(0)}k Wörter`} tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={60} />
               <Tooltip content={({ active, payload, label }) => {
                 if (!active || !payload?.length) return null
                 return (
@@ -320,11 +462,14 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
                 )
               }} />
               {PARTIES.map(p => {
-                const inPair = comparePair.includes(p)
+                const inFocus = focusPartyLength === null || focusPartyLength === p
                 return (
                   <Line key={p} type="monotone" dataKey={p} stroke={PARTY_HEX[p]}
-                    strokeWidth={inPair ? 2 : 1} strokeOpacity={inPair ? 1 : 0.3}
-                    strokeDasharray={inPair ? undefined : '4 3'} dot={inPair} connectNulls={false} />
+                    strokeWidth={inFocus ? 2 : 1}
+                    strokeOpacity={inFocus ? 1 : 0.2}
+                    strokeDasharray={inFocus ? undefined : '4 3'}
+                    dot={inFocus && focusPartyLength !== null}
+                    connectNulls={false} />
                 )
               })}
             </LineChart>
@@ -333,42 +478,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
         </div>
       )}
 
-      {/* ── Verständlichkeit (HIX) ────────────────── */}
-      {hohenheimData && (
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S_LABEL }}>
-            Wie verständlich schreiben die Parteien?
-            <InfoIcon text="Der Hohenheimer Verständlichkeitsindex (HIX) misst die formale Verständlichkeit von Texten auf einer Skala von 0 bis 20. Zum Vergleich: Doktorarbeiten erreichen 1,2 Punkte, Bundestagsreden 15,0 Punkte, die Bild-Zeitung 16,8 Punkte." />
-          </div>
-          <YearButtons years={NLP_YEARS} active={hixYear} onChange={setHixYear} />
-          <ResponsiveContainer width="100%" height={240}>
-            <BarChart data={hixBarData} margin={{ top: 16, right: 80, bottom: 4, left: 0 }}>
-              <XAxis dataKey="party" tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} />
-              <YAxis domain={[0, 20]} tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={24} />
-              <Tooltip content={({ active, payload, label }) => {
-                if (!active || !payload?.length) return null
-                return (
-                  <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)' }}>
-                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>
-                      {label} {hixYear}: {payload[0]?.value?.toFixed(1)} Punkte
-                    </span>
-                  </div>
-                )
-              }} />
-              <ReferenceLine y={1.2} stroke="#7A6E64" strokeDasharray="4 2"
-                label={{ value: 'Doktorarbeit', position: 'insideRight', offset: 8, fontSize: 9, fontFamily: 'var(--font-mono)', fill: '#7A6E64' }} />
-              <ReferenceLine y={15.0} stroke="#7A6E64" strokeDasharray="4 2"
-                label={{ value: 'Bundestag-Rede', position: 'insideRight', offset: 8, fontSize: 9, fontFamily: 'var(--font-mono)', fill: '#7A6E64' }} />
-              <Bar dataKey="value" maxBarSize={40}>
-                {hixBarData.map(d => <Cell key={d.id} fill={PARTY_HEX[d.id]} />)}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
-          <div style={SOURCE_NOTE}>Quelle: Universität Hohenheim, Wahlprogramm-Check · komm.uni-hohenheim.de</div>
-        </div>
-      )}
-
-      {/* ── Was haben die Parteien betont? ─────────── */}
+      {/* ── 7. Zentrale Versprechen ────────────────── */}
       <div>
         <div style={{ ...S_LABEL, marginBottom: 'var(--space-4)' }}>Was haben die Parteien betont?</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-3)', alignItems: 'center' }}>

@@ -131,6 +131,88 @@ def get_manifesto_analysis():
         return {"error": "No manifesto analysis available. Run: python analyze_historical.py --nlp"}
     return result
 
+# ── Manifesto AI Summary ──────────────────────────
+_summary_cache: dict = {}
+
+_SHORT_NAMES = {
+    "cdu_csu": "CDU/CSU", "spd": "SPD", "gruene": "Grüne",
+    "fdp": "FDP", "afd": "AfD", "linke": "Linke",
+}
+_CAT_LABELS_DE = {
+    "welfare": "Wohlfahrt", "economy": "Wirtschaft",
+    "external_relations": "Außenpolitik", "political_system": "Polit. System",
+    "fabric_of_society": "Gesellschaft", "social_groups": "Soziale Gruppen",
+    "freedom_democracy": "Demokratie",
+}
+
+
+@app.get("/manifesto-analysis/summary")
+async def get_manifesto_summary(party: str, year: int):
+    cache_key = f"{party}_{year}"
+    if cache_key in _summary_cache:
+        return _summary_cache[cache_key]
+
+    cat_data = database.get_category_distribution(year)
+    if not cat_data:
+        return {"error": f"Keine Daten für {year}"}
+    party_cats = cat_data.get(party)
+    if not party_cats:
+        return {"error": f"Keine Daten für {party} in {year}"}
+
+    party_name = _SHORT_NAMES.get(party, party)
+    cat_formatted = "\n".join(
+        f"- {_CAT_LABELS_DE.get(k, k)}: {v:.1f}%"
+        for k, v in sorted(party_cats.items(), key=lambda x: -x[1])
+    )
+    prompt = (
+        f"Analysiere das Wahlprogramm von {party_name} aus dem Jahr {year} "
+        f"anhand dieser Themenschwerpunkte (ManifestoBERTa-Kategorienverteilung):\n\n"
+        f"{cat_formatted}\n\n"
+        f"Formuliere 3–4 prägnante Punkte (jeweils 1–2 Sätze), die die wichtigsten "
+        f"inhaltlichen Schwerpunkte und politischen Prioritäten zusammenfassen. "
+        f"Antworte auf Deutsch. Keine Einleitung. Nur die Punkte als Stichpunkte."
+    )
+
+    result = None
+    groq_key = os.getenv("GROQ_API_KEY")
+    if groq_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=groq_key)
+            resp = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.4,
+                max_tokens=300,
+            )
+            result = resp.choices[0].message.content
+        except Exception:
+            pass
+
+    if not result:
+        anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+        if anthropic_key:
+            try:
+                import anthropic as _anthropic
+                client = _anthropic.Anthropic(api_key=anthropic_key)
+                msg = client.messages.create(
+                    model="claude-haiku-4-5-20251001",
+                    max_tokens=300,
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                result = msg.content[0].text
+            except Exception:
+                pass
+
+    if not result:
+        return {"error": "Kein LLM-Dienst verfügbar"}
+
+    punkte = [p.strip().lstrip("•–-·1234567890. ") for p in result.split("\n") if p.strip()]
+    response = {"punkte": punkte}
+    _summary_cache[cache_key] = response
+    return response
+
+
 @app.get("/hohenheim-analysis")
 def get_hohenheim_analysis():
     path = os.path.join(os.path.dirname(__file__), "..", "data", "results", "manifesto_hohenheim.json")

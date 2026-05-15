@@ -88,39 +88,14 @@ function ReferenceRow({ result }) {
 
 export default function FragNach() {
   const [query, setQuery]             = useState('')
-  const [selectedParties, setParties] = useState([])
-  const [selectedYears, setYears]     = useState([])
+  const [selectedParty, setParty]     = useState(null)
+  const [selectedYear, setYear]       = useState(null)
   const [searchResults, setResults]   = useState([])
   const [deepDiveAnswer, setAnswer]   = useState('')
   const [isStreaming, setIsStreaming] = useState(false)
-  const [isSearching, setIsSearching] = useState(false)
   const [deepDiveCount, setCount]     = useState(0)
   const [error, setError]             = useState(null)
-  const [hasSearched, setHasSearched] = useState(false)
   const sessionId = useRef(crypto.randomUUID())
-
-  const toggleParty = (id) =>
-    setParties(prev => prev.includes(id) ? prev.filter(p => p !== id) : [...prev, id])
-
-  const toggleYear = (y) =>
-    setYears(prev => prev.includes(y) ? prev.filter(yr => yr !== y) : [...prev, y])
-
-  const handleSearch = useCallback(async () => {
-    if (!query.trim()) return
-    setIsSearching(true)
-    setError(null)
-    setAnswer('')
-    setHasSearched(true)
-    try {
-      const data = await searchManifestos(query.trim(), selectedParties, selectedYears)
-      setResults(data.results || [])
-    } catch {
-      setError('Suche fehlgeschlagen — Backend erreichbar?')
-      setResults([])
-    } finally {
-      setIsSearching(false)
-    }
-  }, [query, selectedParties, selectedYears])
 
   const handleDeepDive = useCallback(async () => {
     if (!query.trim() || deepDiveCount >= MAX_DEEP_DIVES || isStreaming) return
@@ -129,10 +104,11 @@ export default function FragNach() {
     setResults([])
     setCount(c => c + 1)
     setError(null)
-    setHasSearched(true)
 
-    // fetch references in parallel — populate collapsible while answer streams
-    searchManifestos(query.trim(), selectedParties, selectedYears)
+    const parties = selectedParty ? [selectedParty] : []
+    const years   = selectedYear  ? [selectedYear]  : []
+
+    searchManifestos(query.trim(), parties, years)
       .then(data => setResults(data.results || []))
       .catch(() => {})
 
@@ -142,8 +118,8 @@ export default function FragNach() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           query: query.trim(),
-          parties: selectedParties,
-          years: selectedYears,
+          parties,
+          years,
           session_id: sessionId.current,
         }),
       })
@@ -169,9 +145,9 @@ export default function FragNach() {
     } finally {
       setIsStreaming(false)
     }
-  }, [query, selectedParties, selectedYears, deepDiveCount, isStreaming])
+  }, [query, selectedParty, selectedYear, deepDiveCount, isStreaming])
 
-  const handleKeyDown = (e) => { if (e.key === 'Enter') handleSearch() }
+  const handleKeyDown = (e) => { if (e.key === 'Enter') handleDeepDive() }
 
   const remaining = MAX_DEEP_DIVES - deepDiveCount
   const depleted  = deepDiveCount >= MAX_DEEP_DIVES
@@ -228,18 +204,18 @@ export default function FragNach() {
         />
       </div>
 
-      {/* ── Party Filter ────────────────────────────── */}
+      {/* ── Party Filter (radio) ─────────────────────── */}
       <div style={{ marginBottom: 'var(--space-4)' }}>
-        <div style={S.label}>Parteien</div>
+        <div style={S.label}>Partei</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)' }}>
-          <button onClick={() => setParties([])} style={filterBtn(selectedParties.length === 0, null)}>
+          <button onClick={() => setParty(null)} style={filterBtn(selectedParty === null, null)}>
             Alle
           </button>
           {PARTY_ORDER.map(id => (
             <button
               key={id}
-              onClick={() => toggleParty(id)}
-              style={filterBtn(selectedParties.includes(id), PARTY_COLORS[id])}
+              onClick={() => setParty(prev => prev === id ? null : id)}
+              style={filterBtn(selectedParty === id, PARTY_COLORS[id])}
             >
               {PARTY_SHORT[id]}
             </button>
@@ -247,18 +223,18 @@ export default function FragNach() {
         </div>
       </div>
 
-      {/* ── Year Filter ─────────────────────────────── */}
+      {/* ── Year Filter (radio) ──────────────────────── */}
       <div style={{ marginBottom: 'var(--space-8)' }}>
-        <div style={S.label}>Jahre</div>
+        <div style={S.label}>Jahr</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)' }}>
-          <button onClick={() => setYears([])} style={filterBtn(selectedYears.length === 0, null)}>
+          <button onClick={() => setYear(null)} style={filterBtn(selectedYear === null, null)}>
             Alle
           </button>
           {YEARS.map(y => (
             <button
               key={y}
-              onClick={() => toggleYear(y)}
-              style={filterBtn(selectedYears.includes(y), null)}
+              onClick={() => setYear(prev => prev === y ? null : y)}
+              style={filterBtn(selectedYear === y, null)}
             >
               {y}
             </button>
@@ -274,13 +250,6 @@ export default function FragNach() {
         marginBottom: 'var(--space-8)',
         flexWrap: 'wrap',
       }}>
-        <button
-          onClick={handleSearch}
-          disabled={!query.trim() || isSearching}
-          style={primaryBtn(!query.trim() || isSearching, false)}
-        >
-          {isSearching ? 'Suche läuft...' : 'Schnellsuche'}
-        </button>
         <button
           onClick={handleDeepDive}
           disabled={!query.trim() || depleted || isStreaming}
@@ -309,69 +278,70 @@ export default function FragNach() {
         </div>
       )}
 
-      {/* ── Deep-Dive Answer ────────────────────────── */}
+      {/* ── Deep-Dive Answer Box ────────────────────── */}
       {(deepDiveAnswer || isStreaming) && (
-        <p style={{
-          fontSize: 'var(--text-base)',
-          color: 'var(--text-primary)',
-          lineHeight: 1.8,
-          marginBottom: 'var(--space-6)',
-        }}>
-          {deepDiveAnswer}
-          {isStreaming && (
-            <span style={{
-              display: 'inline-block',
-              width: '2px',
-              height: '1em',
-              background: 'var(--signal)',
-              marginLeft: '2px',
-              verticalAlign: 'text-bottom',
-              animation: 'blink 1s step-end infinite',
-            }} />
-          )}
-        </p>
-      )}
+        <div style={{ border: '1px solid var(--signal)', marginBottom: 'var(--space-6)' }}>
 
-      {/* ── References / Results ────────────────────── */}
-      {searchResults.length > 0 && (
-        <details style={{ marginBottom: 'var(--space-6)' }}>
-          <summary style={{
+          {/* Header */}
+          <div style={{
+            background: 'var(--signal)',
+            color: 'white',
+            padding: 'var(--space-2) var(--space-4)',
             fontFamily: 'var(--font-mono)',
             fontSize: 'var(--text-xs)',
             letterSpacing: '0.08em',
             textTransform: 'uppercase',
-            color: 'var(--text-secondary)',
-            cursor: 'pointer',
-            userSelect: 'none',
-            paddingBottom: 'var(--space-3)',
-            listStyle: 'none',
           }}>
-            ▸ Quellen — {searchResults.length} Treffer
-          </summary>
-          <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 'var(--space-3)',
-            paddingTop: 'var(--space-2)',
-            borderTop: '1px solid var(--border)',
-          }}>
-            {searchResults.map((result, i) => (
-              <ReferenceRow key={i} result={result} />
-            ))}
+            Deep-Dive Analyse
           </div>
-        </details>
-      )}
 
-      {/* ── Empty State ─────────────────────────────── */}
-      {hasSearched && searchResults.length === 0 && !isSearching && !deepDiveAnswer && !isStreaming && (
-        <div style={{
-          fontFamily: 'var(--font-mono)',
-          fontSize: 'var(--text-sm)',
-          color: 'var(--text-muted)',
-          textAlign: 'center',
-          padding: 'var(--space-16) 0',
-        }}>
-          Keine Treffer — anderen Suchbegriff oder Filter versuchen.
+          {/* Body */}
+          <div style={{ padding: 'var(--space-6)', background: 'var(--bg-surface)' }}>
+            <p style={{
+              fontSize: 'var(--text-base)',
+              color: 'var(--text-primary)',
+              lineHeight: 1.8,
+              margin: 0,
+            }}>
+              {deepDiveAnswer}
+              {isStreaming && (
+                <span style={{
+                  display: 'inline-block',
+                  width: '2px',
+                  height: '1em',
+                  background: 'var(--signal)',
+                  marginLeft: '2px',
+                  verticalAlign: 'text-bottom',
+                  animation: 'blink 1s step-end infinite',
+                }} />
+              )}
+            </p>
+
+            {/* Sources */}
+            {searchResults.length > 0 && (
+              <details style={{ marginTop: 'var(--space-4)', borderTop: '1px solid var(--border-subtle)', paddingTop: 'var(--space-4)' }}>
+                <summary style={{
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: 'var(--text-xs)',
+                  letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                  color: 'var(--text-secondary)',
+                  cursor: 'pointer',
+                  userSelect: 'none',
+                  paddingBottom: 'var(--space-3)',
+                  listStyle: 'none',
+                }}>
+                  ▸ Quellen — {searchResults.length} Treffer
+                </summary>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)', paddingTop: 'var(--space-2)' }}>
+                  {searchResults.map((result, i) => (
+                    <ReferenceRow key={i} result={result} />
+                  ))}
+                </div>
+              </details>
+            )}
+          </div>
+
         </div>
       )}
 
