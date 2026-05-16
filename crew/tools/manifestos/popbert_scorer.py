@@ -12,14 +12,19 @@ Task:   Binäre Klassifikation: populistisch / neutral
 
 Output pro Partei/Jahr:
   populism_score — Anteil Sätze mit populist_prob > 0.43
-  sentence_count — Anzahl analysierter Sätze
+  sentence_count — Anzpythahl analysierter Sätze
   chunk_count    — Anzahl ChromaDB-Chunks
 
 Output: data/results/manifesto_hohenheim.json
+
+Usage:
+  python popbert_scorer.py              # alle Jahre
+  python popbert_scorer.py 2017 2021    # nur diese Jahre
+  python popbert_scorer.py --force 2017 # bereits berechnete überschreiben
 """
 
-import os
 import re
+import sys
 import json
 from datetime import datetime
 from pathlib import Path
@@ -33,14 +38,46 @@ BASE_DIR   = Path(__file__).parent.parent.parent.parent
 CHROMA_DIR = str(BASE_DIR / "data" / "chroma_db")
 OUTPUT     = BASE_DIR / "data" / "results" / "manifesto_hohenheim.json"
 
-MODEL_ID  = "przvl/PopEuroBERT-binary-610m"
-THRESHOLD = 0.43
-MAX_LEN   = 256
-BATCH     = 32
+MODEL_ID   = "przvl/PopEuroBERT-binary-610m"
+THRESHOLD  = 0.43
+MAX_LEN    = 256
+BATCH      = 32
 
-PARTIES   = ["cdu_csu", "spd", "gruene", "fdp", "afd", "linke"]
-YEARS     = [2005, 2009, 2013, 2017, 2021, 2025]
-AFD_SINCE = 2013
+ALL_YEARS  = [2005, 2009, 2013, 2017, 2021, 2025]
+PARTIES    = ["cdu_csu", "spd", "gruene", "fdp", "afd", "linke"]
+AFD_SINCE  = 2013
+
+
+# ── CLI args ──────────────────────────────────────
+def parse_args() -> tuple[list[int], bool]:
+    """
+    Returns (years_to_run, force).
+    Examples:
+      popbert_scorer.py              → alle Jahre, kein force
+      popbert_scorer.py 2017 2021    → nur 2017+2021, kein force
+      popbert_scorer.py --force      → alle Jahre, force
+      popbert_scorer.py --force 2017 → nur 2017, force
+    """
+    args = sys.argv[1:]
+    force = "--force" in args
+    args = [a for a in args if a != "--force"]
+
+    if args:
+        try:
+            years = [int(a) for a in args]
+            invalid = [y for y in years if y not in ALL_YEARS]
+            if invalid:
+                print(f"ERROR: Ungültige Jahre: {invalid}")
+                print(f"Verfügbar: {ALL_YEARS}")
+                sys.exit(1)
+        except ValueError:
+            print(f"ERROR: Ungültige Argumente: {args}")
+            print("Usage: python popbert_scorer.py [--force] [YEAR ...]")
+            sys.exit(1)
+    else:
+        years = ALL_YEARS
+
+    return years, force
 
 
 # ── Sentence splitting ────────────────────────────
@@ -67,9 +104,6 @@ def load_chunks(year: int, party_id: str) -> list[str]:
 
 # ── Batch inference ───────────────────────────────
 def score_sentences(tokenizer, model, sentences: list[str]) -> tuple[float, int]:
-    """Returns (populism_score, n_sentences).
-    populism_score = fraction of sentences with prob > THRESHOLD
-    """
     all_probs = []
 
     for i in range(0, len(sentences), BATCH):
@@ -93,14 +127,34 @@ def score_sentences(tokenizer, model, sentences: list[str]) -> tuple[float, int]
     return round(sum(p > THRESHOLD for p in all_probs) / n, 3), n
 
 
+# ── Merge score into years structure ─────────────
+def merge_score(output: dict, year_key: str, party_id: str, pop_score: float):
+    party_entry = output.get("years", {}).get(year_key, {}).get(party_id)
+    if isinstance(party_entry, dict):
+        party_entry["populism"] = {
+            "anti_elitism": pop_score,
+            "left_populism": None,
+            "right_populism": None,
+        }
+
+
+# ── Save ─────────────────────────────────────────
+def save(output: dict):
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+
 # ── Main ──────────────────────────────────────────
 def run():
+    years, force = parse_args()
+
+    print(f"Jahre: {years}  |  Force: {force}")
     print(f"Loading {MODEL_ID}...")
+
     try:
         tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
 
-        # Model was saved with a custom ModelWrapper (inner_model.* prefix).
-        # Native transformers EuroBERT expects model.* — remap manually.
         config = AutoConfig.from_pretrained(MODEL_ID)
         model = AutoModelForSequenceClassification.from_config(config)
 
@@ -118,7 +172,7 @@ def run():
             else:
                 remapped[k] = v
 
-        missing, unexpected = model.load_state_dict(remapped, strict=False)
+        missing, _ = model.load_state_dict(remapped, strict=False)
         if missing:
             print(f"  WARNING: {len(missing)} keys still missing after remap")
 
@@ -128,22 +182,18 @@ def run():
         print(f"\nERROR: Could not load model: {e}")
         return
 
-    # Load or create output JSON — only overwrite populism fields
     if OUTPUT.exists():
         with open(OUTPUT, "r", encoding="utf-8") as f:
             output = json.load(f)
     else:
         output = {}
 
-    output["description"] = "Populismus-Scores nach PopEuroBERT (Erhard et al. 2025)"
-    output["model"]       = MODEL_ID
-    output["threshold"]   = THRESHOLD
     output["computed_at"] = datetime.utcnow().isoformat()
     if "scores" not in output:
         output["scores"] = {}
 
     # ── Per year / per party ──────────────────────
-    for year in YEARS:
+    for year in years:
         key = str(year)
         if key not in output["scores"]:
             output["scores"][key] = {}
@@ -152,12 +202,18 @@ def run():
 
         for party_id in PARTIES:
             if party_id == "afd" and year < AFD_SINCE:
-                output["scores"][key][party_id] = {
-                    "populism_score": None,
-                    "sentence_count": 0,
-                    "chunk_count":    0,
-                    "note":           "not_in_bundestag",
-                }
+                continue
+
+            # Skip bereits berechnete Werte — außer bei --force
+            existing_score = (
+                output.get("years", {})
+                .get(key, {})
+                .get(party_id, {})
+                .get("populism", {})
+                .get("anti_elitism")
+            )
+            if existing_score is not None and not force:
+                print(f"  {party_id}... bereits berechnet ({existing_score}) — skip")
                 continue
 
             print(f"  {party_id}...", end=" ", flush=True)
@@ -165,12 +221,6 @@ def run():
             chunks = load_chunks(year, party_id)
             if not chunks:
                 print("no chunks — skipped")
-                output["scores"][key][party_id] = {
-                    "populism_score": None,
-                    "sentence_count": 0,
-                    "chunk_count":    0,
-                    "note":           "no_data",
-                }
                 continue
 
             sentences = []
@@ -179,16 +229,10 @@ def run():
 
             if not sentences:
                 print("no sentences — skipped")
-                output["scores"][key][party_id] = {
-                    "populism_score": None,
-                    "sentence_count": 0,
-                    "chunk_count":    len(chunks),
-                }
                 continue
 
             p_score, n = score_sentences(tokenizer, model, sentences)
 
-            # Preserve existing non-populism fields, overwrite populism fields
             entry = output["scores"][key].get(party_id, {})
             entry.update({
                 "populism_score": p_score,
@@ -197,13 +241,15 @@ def run():
             })
             output["scores"][key][party_id] = entry
 
+            merge_score(output, key, party_id, p_score)
+
             print(f"score={p_score}  ({n} sentences)")
 
-        # Save after each year — crash-safe
-        OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-        with open(OUTPUT, "w", encoding="utf-8") as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
-        print(f"  → Saved {year}\n")
+            # Nach jeder Partei speichern — crash-safe
+            save(output)
+            print(f"    → saved {party_id} {year}")
+
+        print(f"  → Year {year} complete\n")
 
     # ── Plausibility check ────────────────────────
     print("═" * 50)
@@ -229,15 +275,15 @@ def run():
     fdp_s = score("fdp")
 
     checks = [
-        ("AfD > CDU (anti-elitism proxy)",     afd_s and cdu_s and afd_s > cdu_s),
-        ("Linke > FDP (left-populism proxy)",  lin_s and fdp_s and lin_s > fdp_s),
-        ("CDU populism_score < 0.15",          cdu_s is not None and cdu_s < 0.15),
+        ("AfD > CDU (anti-elitism proxy)",    afd_s and cdu_s and afd_s > cdu_s),
+        ("Linke > FDP (left-populism proxy)", lin_s and fdp_s and lin_s > fdp_s),
+        ("CDU populism_score < 0.15",         cdu_s is not None and cdu_s < 0.15),
     ]
     print()
     for label, passed in checks:
         print(f"  {'✓' if passed else '✗'}  {label}")
 
-    print(f"\n✅ Done — {OUTPUT}")
+    print(f"\n Done — {OUTPUT}")
 
 
 if __name__ == "__main__":

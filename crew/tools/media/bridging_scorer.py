@@ -606,7 +606,7 @@ def analyze_topic(topic_id: str) -> dict:
 
 def compute_all_topics():
     """Pre-computes and caches all topic analyses. Called by GitHub Actions."""
-    print("\n🦞 ConsensusAgent — Medienspiegel Analysis")
+    print("\nDiskursraum — Medienspiegel Analysis")
     print(f"   Topics: {list(TOPICS.keys())}\n")
     print(f"   LLM Provider: {os.getenv('LLM_PROVIDER', 'groq').upper()}\n")
 

@@ -36,8 +36,8 @@ jobs:
 
       - name: Commit crawl summary
         run: |
-          git config --global user.name "consensus-agent-bot"
-          git config --global user.email "bot@consensus-agent"
+          git config --global user.name "diskursraum-bot"
+          git config --global user.email "bot@diskursraum"
           git add data/last_crawl.json
           git diff --staged --quiet || git commit -m "chore: RSS crawl $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push

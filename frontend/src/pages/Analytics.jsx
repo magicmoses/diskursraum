@@ -29,24 +29,6 @@ function isGermanyTopic(topic) {
   return DEUTSCHLAND_KW.some(kw => lower.includes(kw))
 }
 
-// ── Decorative media icons ─────────────────────────
-const ICON_PATHS = {
-  megaphone: 'M18 3v2c2.21 1.1 3.5 3.37 3.5 6s-1.29 4.9-3.5 6v2c3.32-1.26 5.5-4.37 5.5-8s-2.18-6.74-5.5-8zM5 9H1v6h4l6 6V3L5 9zm10 3c0-1.77-1.02-3.29-2.5-4.03v8.05C13.98 15.29 15 13.77 15 12z',
-  newspaper: 'M20 4H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H4V6h16v14zM8 8h10v2H8zm0 4h10v2H8zm0 4h7v2H8zM4 8h2v2H4zm0 4h2v2H4zm0 4h2v2H4z',
-  pen:       'M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z',
-}
-
-const DECO = [
-  { icon: 'megaphone', top: '6vh',  side: 'right', offset: '3vw',  rotate:  13, size: 68, opacity: 0.085 },
-  { icon: 'newspaper', top: '20vh', side: 'left',  offset: '1vw',  rotate:  -9, size: 76, opacity: 0.075 },
-  { icon: 'pen',       top: '36vh', side: 'right', offset: '6vw',  rotate: -25, size: 58, opacity: 0.090 },
-  { icon: 'megaphone', top: '52vh', side: 'left',  offset: '4vw',  rotate:  22, size: 52, opacity: 0.075 },
-  { icon: 'newspaper', top: '66vh', side: 'right', offset: '2vw',  rotate:   8, size: 72, opacity: 0.080 },
-  { icon: 'pen',       top: '78vh', side: 'left',  offset: '2vw',  rotate: -18, size: 62, opacity: 0.075 },
-  { icon: 'megaphone', top: '88vh', side: 'right', offset: '8vw',  rotate:  30, size: 48, opacity: 0.070 },
-  { icon: 'newspaper', top: '94vh', side: 'left',  offset: '8vw',  rotate: -12, size: 56, opacity: 0.065 },
-]
-
 // ── Main ──────────────────────────────────────────
 export default function Analytics() {
   const [overview, setOverview]               = useState(null)
@@ -60,17 +42,17 @@ export default function Analytics() {
   const [trendTab, setTrendTab]               = useState('de')
 
   useEffect(() => {
-    Promise.all([
+    Promise.allSettled([
       getOverview(), getArticlesPerDay(),
       getPublishingTimes(), getWeekdayActivity(), getSourceDetails(),
       getEmotionsPerBias(),
     ]).then(([ov, apd, pt, wa, sd, epb]) => {
-      setOverview(ov)
-      setArticlesPerDay(apd)
-      setPublishingTimes(pt)
-      setWeekdayActivity(wa)
-      setSourceDetails(sd)
-      setEmotionsPerBias(epb)
+      if (ov.status  === 'fulfilled') setOverview(ov.value)
+      if (apd.status === 'fulfilled') setArticlesPerDay(apd.value)
+      if (pt.status  === 'fulfilled') setPublishingTimes(pt.value)
+      if (wa.status  === 'fulfilled') setWeekdayActivity(wa.value)
+      if (sd.status  === 'fulfilled') setSourceDetails(sd.value)
+      if (epb.status === 'fulfilled') setEmotionsPerBias(epb.value)
       setLoading(false)
     })
     getTrendingTopics(7, 20).then(tt => {
@@ -87,6 +69,8 @@ export default function Analytics() {
   }, [])
 
   if (loading) return <Loader text="Lade Analytics..." />
+
+  const ov = overview ?? { total_articles: 0, by_source: [], by_bias: [], last_crawl: { crawled_at: null, new_articles: 0 } }
 
   const weekdayTotals = WEEKDAYS.map(day => ({
     day,
@@ -106,27 +90,7 @@ export default function Analytics() {
   const maxVal = shownTopics[0]?.article_count || shownTopics[0]?.relevanz || 1
 
   return (
-    <>
-      {/* ── Medien-Icons — fixed decorative background */}
-      <div aria-hidden style={{ position: 'fixed', inset: 0, zIndex: 1, pointerEvents: 'none' }}>
-        {DECO.map((d, i) => (
-          <div key={i} style={{
-            position: 'absolute',
-            top: d.top,
-            [d.side]: d.offset,
-            transform: `rotate(${d.rotate}deg)`,
-            color: '#1A1410',
-            opacity: d.opacity,
-          }}>
-            <svg viewBox="0 0 24 24" width={d.size} height={d.size} fill="currentColor">
-              <path d={ICON_PATHS[d.icon]} />
-            </svg>
-          </div>
-        ))}
-      </div>
-
-      {/* ── Page content ── */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)', paddingBottom: 'var(--space-16)', position: 'relative', zIndex: 2 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)', paddingBottom: 'var(--space-16)' }}>
 
       {/* ── Header ──────────────────────────────── */}
       <div className="fade-up" style={{ paddingTop: 'var(--space-8)' }}>
@@ -153,11 +117,11 @@ export default function Analytics() {
 
       {/* ── KPIs ────────────────────────────────── */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1px', background: 'var(--border)' }}>
-        <KpiCard label="Artikel gesamt" value={overview.total_articles.toLocaleString()} />
+        <KpiCard label="Artikel gesamt" value={ov.total_articles.toLocaleString()} />
         <KpiCard label="Quellen" value="19" />
         <KpiCard label="Letzter inkludierter Crawl" mono value={
-          overview.last_crawl.crawled_at
-            ? new Date(overview.last_crawl.crawled_at).toLocaleDateString('de-DE', {
+          ov.last_crawl.crawled_at
+            ? new Date(ov.last_crawl.crawled_at).toLocaleDateString('de-DE', {
                 day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'Europe/Berlin',
               })
             : '—'
@@ -226,12 +190,12 @@ export default function Analytics() {
       {/* ── Artikel pro Quelle ───────────────────── */}
       <Section title="Artikel pro Quelle">
         <ResponsiveContainer width="100%" height={320}>
-          <BarChart data={overview.by_source} layout="vertical" margin={{ left: 8 }}>
+          <BarChart data={ov.by_source} layout="vertical" margin={{ left: 8 }}>
             <XAxis type="number" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <YAxis type="category" dataKey="source" width={190} stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <Tooltip contentStyle={TOOLTIP_STYLE} formatter={v => [`${v} Artikel`]} />
             <Bar dataKey="count" radius={[0, 1, 1, 0]}>
-              {(overview.by_source ?? []).map(entry => {
+              {(ov.by_source ?? []).map(entry => {
                 const sd = sourceDetails.find(s => s.source === entry.source)
                 return (
                   <Cell key={entry.source} fill={BIAS_COLORS[sd?.bias] || 'var(--signal)'} />
@@ -263,7 +227,7 @@ export default function Analytics() {
         <ResponsiveContainer width="100%" height={260}>
           <PieChart>
             <Pie
-              data={overview.by_bias}
+              data={ov.by_bias}
               dataKey="count"
               nameKey="bias"
               cx="50%"
@@ -273,7 +237,7 @@ export default function Analytics() {
               label={({ bias, percent }) => percent > 0.04 ? `${BIAS_LABELS[bias] || bias} ${(percent * 100).toFixed(0)}%` : ''}
               labelLine={false}
             >
-              {overview.by_bias.map(entry => (
+              {ov.by_bias.map(entry => (
                 <Cell key={entry.bias} fill={BIAS_COLORS[entry.bias] || 'var(--text-muted)'} />
               ))}
             </Pie>
@@ -364,7 +328,6 @@ export default function Analytics() {
         </ResponsiveContainer>
       </Section>
 
-      </div>
-    </>
+    </div>
   )
 }

@@ -30,6 +30,15 @@ export default function ForceGraph({ data, year }) {
   const yearKey  = String(year)
   const graphData = data?.graphs_by_year?.[yearKey]
 
+  const avgSim = (partyId) => {
+    const dm = data?.distance_matrices?.[yearKey] ?? {}
+    const vals = Object.entries(dm)
+      .filter(([k]) => k.startsWith(partyId + '__') || k.endsWith('__' + partyId))
+      .map(([, v]) => v)
+    if (!vals.length) return null
+    return vals.reduce((s, v) => s + v, 0) / vals.length
+  }
+
   useEffect(() => {
     if (!graphData || !svgRef.current) return
 
@@ -97,7 +106,7 @@ export default function ForceGraph({ data, year }) {
       .on('mouseenter', (event, d) => {
         const src = PARTY_NAMES[d.source.id ?? d.source]
         const tgt = PARTY_NAMES[d.target.id ?? d.target]
-        setTooltip({ x: event.clientX, y: event.clientY, text: `${src} – ${tgt}\nÄhnlichkeit: ${d.weight.toFixed(4)}` })
+        setTooltip({ x: event.clientX, y: event.clientY, text: `${src} – ${tgt}\nProgrammähnlichkeit: ${Math.round(d.weight * 100)} %` })
       })
       .on('mousemove', event => setTooltip(t => t ? { ...t, x: event.clientX, y: event.clientY } : null))
       .on('mouseleave', () => setTooltip(null))
@@ -121,10 +130,10 @@ export default function ForceGraph({ data, year }) {
       .attr('stroke', '#C8BFB0')
       .attr('stroke-width', 2)
       .on('mouseenter', (event, d) => {
-        const score = getBridging(d.id)
+        const sim = avgSim(d.id)
         setTooltip({
           x: event.clientX, y: event.clientY,
-          text: `${PARTY_NAMES[d.id] ?? d.name}\nBridging: ${score != null ? score.toFixed(4) : '—'}`,
+          text: `${PARTY_NAMES[d.id] ?? d.name}\nØ Programmähnlichkeit: ${sim != null ? Math.round(sim * 100) + ' %' : '—'}`,
         })
       })
       .on('mousemove', event => setTooltip(t => t ? { ...t, x: event.clientX, y: event.clientY } : null))

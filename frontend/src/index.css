@@ -154,6 +154,13 @@ h3 {
 }
 
 /* ── Animations ────────────────────────────────── */
+@keyframes flagWave {
+  0%   { transform: perspective(280px) rotateY(0deg)   skewX(0deg);    }
+  20%  { transform: perspective(280px) rotateY(5deg)   skewX(2.5deg);  }
+  50%  { transform: perspective(280px) rotateY(-3deg)  skewX(-1.5deg); }
+  80%  { transform: perspective(280px) rotateY(4.5deg) skewX(2deg);    }
+  100% { transform: perspective(280px) rotateY(0deg)   skewX(0deg);    }
+}
 
 @keyframes blink {
   0%, 100% { opacity: 1; }

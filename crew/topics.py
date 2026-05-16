@@ -1,5 +1,5 @@
 """
-topics.py — Core discussion topics for ConsensusAgent
+topics.py — Core discussion topics for Diskursraum
 
 These topics represent polarizing societal debates in Germany
 where bridging statements across ideological groups are most valuable.

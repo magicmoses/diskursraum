@@ -90,7 +90,7 @@ export default function Landing() {
             viewBox="0 0 300 180"
             width="360"
             height="216"
-            style={{ opacity: 0.10, display: 'block' }}
+            style={{ opacity: 0.10, display: 'block', animation: 'flagWave 4s ease-in-out infinite' }}
           >
             <defs>
               <filter id="fw-l" x="-5%" y="-12%" width="115%" height="130%">

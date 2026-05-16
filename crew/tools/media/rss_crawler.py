@@ -68,7 +68,7 @@ def save_articles(conn, articles: list[dict]) -> int:
 
 
 def fetch_tagesschau_news() -> list[dict]:
-    headers = {"User-Agent": "ConsensusAgent/1.0 (research project)"}
+    headers = {"User-Agent": "Diskursraum/1.0 (research project)"}
     response = requests.get(
         "https://www.tagesschau.de/api2u/news",
         headers=headers,

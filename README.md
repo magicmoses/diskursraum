@@ -2,7 +2,7 @@
 
 > Mapping Public Discourse in Germany — inspired by Taiwan's vTaiwan and the Pol.is bridging algorithm.
 
-**[Live Demo](https://deine-vercel-url.vercel.app)** · [GitHub](https://github.com/AyzennaMosesArndt/consensus-agent)
+**[Live Demo](https://deine-vercel-url.vercel.app)** · [GitHub](https://github.com/AyzennaMosesArndt/diskursraum)
 
 ---
 
@@ -190,12 +190,12 @@ The party colours are untouched. They are political reality, not design choices.
 
 ```bash
 # Clone repository
-git clone https://github.com/AyzennaMosesArndt/consensus-agent.git
-cd consensus-agent
+git clone https://github.com/AyzennaMosesArndt/diskursraum.git
+cd diskursraum
 
 # Python environment
-conda create -n consensus-agent python=3.11
-conda activate consensus-agent
+conda create -n diskursraum python=3.11
+conda activate diskursraum
 pip install -r requirements.txt
 
 # Environment variables

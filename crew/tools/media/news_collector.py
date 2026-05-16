@@ -156,7 +156,7 @@ def fetch_rss(url: str, timeout: int = 15) -> list[dict]:
 
 def fetch_tagesschau(keyword: str) -> list[dict]:
     """Fetches from Tagesschau JSON API."""
-    headers = {"User-Agent": "ConsensusAgent/1.0 (research project)"}
+    headers = {"User-Agent": "Diskursraum/1.0 (research project)"}
     params = {"search": keyword, "pageSize": 20}
     response = requests.get(
         "https://www.tagesschau.de/api2u/search",
