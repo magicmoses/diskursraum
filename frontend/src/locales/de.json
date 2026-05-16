@@ -8,7 +8,7 @@
   "landing": {
     "eyebrow": "Mapping Public Discourse in Germany",
     "headline": "Der deutsche Diskurs —\nsichtbar gemacht.",
-    "description": "Zwei Dimensionen. Neunzehn Medien. Sechs Parteien. Zwanzig Jahre Wahlprogramme. Wo konvergiert Deutschland — und wo spaltet es sich?",
+    "description": "Drei Dimensionen. Neunzehn Medien. Sechs Parteien. Zwanzig Jahre Wahlprogramme. Wo konvergiert Deutschland — und wo spaltet es sich?",
     "dim1_title": "Medienspiegel",
     "dim1_subtitle": "Wie berichten 19 deutsche Medien über gesellschaftliche Debatten?",
     "dim1_body": "Täglich aktualisiert. Acht politische Themen. Von links bis rechts — wo gibt es Konsens, wo beginnt der Diskurs?",
@@ -17,6 +17,10 @@
     "dim2_subtitle": "Wie haben sich Parteipositionen von 2005 bis 2025 entwickelt?",
     "dim2_body": "Semantische Analyse aller Bundestagswahlprogramme. Wer nähert sich an, wer entfernt sich — und was sagen die Wahlergebnisse dazu?",
     "dim2_meta": "6 Parteien · 6 Wahlen · 2005–2025",
+    "dim3_title": "Frag nach.",
+    "dim3_subtitle": "Stell eine Frage — die Wahlprogramme antworten.",
+    "dim3_body": "Semantische Suche über alle Bundestagswahlprogramme 2005–2025. KI-gestützte Direktantworten mit Quellenangabe.",
+    "dim3_meta": "6 Parteien · 6 Wahljahre · Deep-Dive",
     "project_link": "Project ↗",
     "inspired_by": "Inspiriert von"
   },
@@ -25,7 +29,17 @@
     "headline": "Wie berichtet Deutschland\nüber sich selbst?",
     "description": "19 deutsche Medien. 8 politische Themen. Täglich aktualisiert. Wo gibt es Konsens — und wo beginnt der Diskurs?",
     "dim2_button": "zu Dimension II Parteienspiegel",
-    "media_intro": "19 deutsche Medien — analysiert seit März 2026"
+    "media_intro": "19 deutsche Medien — analysiert seit März 2026",
+    "topics": {
+      "energy_transition": { "label": "Energiewende", "description": "Atomkraft, erneuerbare Energien und Klimapolitik — zwischen Versorgungssicherheit und Wandel." },
+      "digitalization":    { "label": "Digitale Transformation & KI", "description": "Digitalisierung, Künstliche Intelligenz und gesellschaftlicher Wandel durch Technologie." },
+      "work_transition":   { "label": "Arbeit im Wandel", "description": "Zukunft der Arbeit, Mindestlohn, Fachkräftemangel und Transformation durch Digitalisierung." },
+      "migration":         { "label": "Migration & Asylpolitik", "description": "Einwanderung, Asylrecht und Integration — eines der polarisierendsten Themen Deutschlands." },
+      "retirement":        { "label": "Rente & Altersvorsorge", "description": "Rentenpolitik und Generationengerechtigkeit als gesellschaftliche Dauerdebatte." },
+      "defense":           { "label": "Verteidigung & Militär", "description": "Bundeswehr, NATO, Wehrpflicht und Sicherheitspolitik in einer veränderten Welt." },
+      "family_children":   { "label": "Für Familien & Kinder", "description": "Kindergeld, Kita-Ausbau, Elterngeld und Vereinbarkeit von Familie und Beruf." },
+      "education":         { "label": "Bildung & lebenslanges Lernen", "description": "Schule, Hochschule, Ausbildung und Weiterbildung als Schlüssel zur gesellschaftlichen Teilhabe." }
+    }
   },
   "topicview": {
     "back": "← Themenübersicht",
@@ -121,5 +135,68 @@
     "right-conservative": "Rechts-Konservativ",
     "populist-mixed": "Populistisch",
     "far-right": "Rechtsaußen"
+  },
+  "cat": {
+    "welfare":            "Wohlfahrt",
+    "economy":            "Wirtschaft",
+    "external_relations": "Außenpolitik",
+    "political_system":   "Polit. System",
+    "fabric_of_society":  "Gesellschaft",
+    "social_groups":      "Soziale Gruppen",
+    "freedom_democracy":  "Demokratie"
+  },
+  "cat_def": {
+    "welfare":            "Sozialpolitik, Rente, Gesundheit, Pflege",
+    "economy":            "Wirtschaft, Steuern, Arbeit, Finanzen",
+    "external_relations": "Außenpolitik, Verteidigung, EU, NATO",
+    "political_system":   "Demokratie, Verwaltung, Föderalismus",
+    "fabric_of_society":  "Gesellschaftlicher Zusammenhalt, Kultur, Migration",
+    "social_groups":      "Frauen, Minderheiten, Senioren, Jugend",
+    "freedom_democracy":  "Bürgerrechte, Rechtsstaat, Pressefreiheit"
+  },
+  "topic": {
+    "migration":        "Migration",
+    "energy_transition":"Energiewende",
+    "retirement":       "Rente",
+    "digitalization":   "Digitalisierung",
+    "work_transition":  "Arbeit",
+    "defense":          "Verteidigung",
+    "family_children":  "Familie",
+    "education":        "Bildung",
+    "all":              "Alle Themen"
+  },
+  "timeline": {
+    "label":       "Bundestagswahl",
+    "btwahl_year": "Bundestagswahl {{year}}",
+    "hover_hint":  "Über ein Ereignis hovern",
+    "election":    "Wahl {{year}}"
+  },
+  "distance": {
+    "play":      "▶ Zeitverlauf abspielen",
+    "stop":      "◼ Stop",
+    "closer":    "Näher = inhaltlich ähnlicher",
+    "similarity":"Ähnlichkeit",
+    "caption":   "Abstände proportional zur inhaltlichen Distanz in den Wahlprogrammen"
+  },
+  "heatmap": {
+    "overall":    "Gesamt",
+    "similarity": "Ähnlichkeit"
+  },
+  "wahlview": {
+    "no_data":           "Keine Wahldaten",
+    "results_label":     "Wahlergebnisse Bundestagswahl 2005–2025 (%)",
+    "themes_label":      "Themenschwerpunkte {{year}} — ManifestoBERTa (%)",
+    "cat_defs_label":    "Kategoriendefinitionen — ManifestoBERTa",
+    "emphasis_label":    "Was haben die Parteien betont?",
+    "all_parties":       "Alle",
+    "no_data_available": "Keine Daten verfügbar.",
+    "hix_title":         "Wie verständlich schreiben die Parteien?",
+    "hix_pts":           "Punkte",
+    "hix_scale":         "HIX-Skala 0–20: Je höher, desto verständlicher. Wissenschaftliche Texte liegen bei 1–5, allgemein verständliche Texte ab 15.",
+    "hix_source":        "Quelle: Universität Hohenheim, Wahlprogramm-Check · komm.uni-hohenheim.de",
+    "popbert_label":     "Populismus-Analyse",
+    "popbert_coming":    "PopBERT-Scores werden demnächst ergänzt.",
+    "wordcount_label":   "Wie viel haben die Parteien geschrieben?",
+    "words":             "Wörter"
   }
 }

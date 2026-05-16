@@ -60,6 +60,14 @@ export default function Landing() {
       body: t('landing.dim2_body'),
       meta: t('landing.dim2_meta'),
     },
+    {
+      route: '/frag-nach',
+      dim: 'III',
+      title: t('landing.dim3_title'),
+      subtitle: t('landing.dim3_subtitle'),
+      body: t('landing.dim3_body'),
+      meta: t('landing.dim3_meta'),
+    },
   ]
 
   return (
@@ -195,10 +203,10 @@ export default function Landing() {
         {/* ── Section Cards ────────────────────────── */}
         <div className="fade-up fade-up-delay-3" style={{
           display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
+          gridTemplateColumns: 'repeat(3, 1fr)',
           gap: '1px',
           background: 'var(--border)',
-          maxWidth: '720px',
+          maxWidth: '960px',
         }}>
           {SECTIONS.map(({ route, dim, title, subtitle, body, meta }) => (
             <button

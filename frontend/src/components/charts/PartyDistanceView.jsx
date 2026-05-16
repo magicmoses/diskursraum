@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 import InfoIcon from '../ui/InfoIcon'
 
@@ -14,12 +15,7 @@ const SHORT = {
   fdp: 'FDP', afd: 'AfD', linke: 'Linke',
 }
 
-const TOPIC_LABELS = {
-  migration: 'Migration', energy_transition: 'Energiewende',
-  retirement: 'Rente', digitalization: 'Digitalisierung',
-  work_transition: 'Arbeit', defense: 'Verteidigung',
-  family_children: 'Familie', education: 'Bildung',
-}
+const TOPIC_IDS = ['migration', 'energy_transition', 'retirement', 'digitalization', 'work_transition', 'defense', 'family_children', 'education']
 
 function pairKey(a, b) { return [a, b].sort().join('__') }
 
@@ -41,6 +37,7 @@ const cx = W / 2, cy = H / 2
 const MAX_R = 155
 
 export default function PartyDistanceView({ data }) {
+  const { t } = useTranslation()
   const [center, setCenter] = useState('cdu_csu')
   const [year, setYear]     = useState(2025)
   const [topic, setTopic]   = useState(null)
@@ -50,12 +47,12 @@ export default function PartyDistanceView({ data }) {
   useEffect(() => {
     if (!playing) return
     let idx = YEARS.indexOf(year)
-    const t = setInterval(() => {
+    const timer = setInterval(() => {
       idx = (idx + 1) % YEARS.length
       setYear(YEARS[idx])
       if (idx === YEARS.length - 1) setPlaying(false)
-    }, 1500)
-    return () => clearInterval(t)
+    }, 2500)
+    return () => clearInterval(timer)
   }, [playing, year])
 
   const others = PARTIES.filter(p => {
@@ -129,13 +126,13 @@ export default function PartyDistanceView({ data }) {
               cursor: 'pointer',
             }}
           >
-            {playing ? '◼ Stop' : '▶ Zeitverlauf abspielen'}
+            {playing ? t('distance.stop') : t('distance.play')}
           </button>
         </div>
 
         {/* Topic filter */}
         <div style={{ display: 'flex', gap: '1px', marginBottom: 'var(--space-3)', background: 'var(--border)', flexWrap: 'wrap' }}>
-          {[{ id: null, label: 'Alle Themen' }, ...Object.entries(TOPIC_LABELS).map(([id, label]) => ({ id, label }))].map(({ id, label }) => (
+          {[{ id: null, label: t('topic.all') }, ...TOPIC_IDS.map(id => ({ id, label: t(`topic.${id}`) }))].map(({ id, label }) => (
             <button
               key={id ?? 'all'}
               onClick={() => setTopic(id)}
@@ -205,7 +202,7 @@ export default function PartyDistanceView({ data }) {
             {/* Legend */}
             <text x={8} y={H - 8}
               fill="#7A6E64" fontFamily="var(--font-mono)" fontSize="9">
-              Näher = inhaltlich ähnlicher
+              {t('distance.closer')}
             </text>
           </svg>
 
@@ -218,9 +215,9 @@ export default function PartyDistanceView({ data }) {
               fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', lineHeight: 1.7,
             }}>
               {SHORT[center]} – {SHORT[tooltip.id]}<br />
-              Ähnlichkeit: {tooltip.score.toFixed(3)}<br />
+              {t('distance.similarity')}: {tooltip.score.toFixed(3)}<br />
               <span style={{ color: 'var(--text-muted)', fontSize: '10px' }}>
-                {topic ? TOPIC_LABELS[topic] : 'Alle Themen'} · {year}
+                {topic ? t(`topic.${topic}`) : t('topic.all')} · {year}
               </span>
             </div>
           )}
@@ -228,7 +225,7 @@ export default function PartyDistanceView({ data }) {
 
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginTop: 'var(--space-2)', display: 'flex', alignItems: 'center', gap: 'var(--space-1)' }}>
           <InfoIcon text="Die Abstände zeigen wie ähnlich sich die Parteien in ihren Wahlprogrammen zu diesem Thema sind — berechnet aus semantischer Nähe und inhaltlichen Schwerpunkten." />
-          <span>Abstände proportional zur inhaltlichen Distanz in den Wahlprogrammen</span>
+          <span>{t('distance.caption')}</span>
         </div>
       </div>
     </div>

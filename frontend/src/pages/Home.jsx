@@ -15,47 +15,9 @@ const SOURCE_BIAS = {
   bild: 'populist-mixed',
 }
 
-const TOPICS = [
-  {
-    id: 'migration',
-    label: 'Migration & Asylpolitik',
-    description: 'Einwanderung, Asylrecht und Integration — eines der polarisierendsten Themen Deutschlands.',
-  },
-  {
-    id: 'energy_transition',
-    label: 'Energiewende',
-    description: 'Atomkraft, erneuerbare Energien und Klimapolitik — zwischen Versorgungssicherheit und Wandel.',
-  },
-  {
-    id: 'retirement',
-    label: 'Rente & Altersvorsorge',
-    description: 'Rentenpolitik und Generationengerechtigkeit als gesellschaftliche Dauerdebatte.',
-  },
-  {
-    id: 'digitalization',
-    label: 'Digitale Transformation & KI',
-    description: 'Digitalisierung, Künstliche Intelligenz und gesellschaftlicher Wandel durch Technologie.',
-  },
-  {
-    id: 'work_transition',
-    label: 'Arbeit im Wandel',
-    description: 'Zukunft der Arbeit, Mindestlohn, Fachkräftemangel und Transformation durch Digitalisierung.',
-  },
-  {
-    id: 'defense',
-    label: 'Verteidigung & Militär',
-    description: 'Bundeswehr, NATO, Wehrpflicht und Sicherheitspolitik in einer veränderten Welt.',
-  },
-  {
-    id: 'family_children',
-    label: 'Für Familien & Kinder',
-    description: 'Kindergeld, Kita-Ausbau, Elterngeld und Vereinbarkeit von Familie und Beruf.',
-  },
-  {
-    id: 'education',
-    label: 'Bildung & lebenslanges Lernen',
-    description: 'Schule, Hochschule, Ausbildung und Weiterbildung als Schlüssel zur gesellschaftlichen Teilhabe.',
-  },
+const TOPIC_IDS = [
+  'energy_transition', 'digitalization', 'work_transition', 'migration',
+  'retirement', 'defense', 'family_children', 'education',
 ]
 
 const ICON_PATHS = {
@@ -77,6 +39,12 @@ export default function Home() {
   const navigate = useNavigate()
   const { t } = useTranslation()
   const [bySource, setBySource] = useState([])
+
+  const TOPICS = TOPIC_IDS.map(id => ({
+    id,
+    label: t(`home.topics.${id}.label`),
+    description: t(`home.topics.${id}.description`),
+  }))
 
   useEffect(() => {
     getOverview().then(d => { if (d?.by_source) setBySource(d.by_source) }).catch(() => {})

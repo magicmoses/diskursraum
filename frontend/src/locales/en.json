@@ -8,7 +8,7 @@
   "landing": {
     "eyebrow": "Mapping Public Discourse in Germany",
     "headline": "German public discourse —\nMade visible.",
-    "description": "Two dimensions. Nineteen media outlets. Six parties. Twenty years of manifestos. Where does Germany converge — and where does it divide?",
+    "description": "Three dimensions. Nineteen media outlets. Six parties. Twenty years of manifestos. Where does Germany converge — and where does it divide?",
     "dim1_title": "Media Monitor",
     "dim1_subtitle": "How do 19 German media outlets cover societal debates?",
     "dim1_body": "Updated daily. Eight political topics. From left to right — where is there consensus, where does discourse begin?",
@@ -17,6 +17,10 @@
     "dim2_subtitle": "How have party positions evolved from 2005 to 2025?",
     "dim2_body": "Semantic analysis of all Bundestag election manifestos. Who converges, who diverges — and what do election results say about it?",
     "dim2_meta": "6 parties · 6 elections · 2005–2025",
+    "dim3_title": "Ask.",
+    "dim3_subtitle": "Ask a question — the manifestos answer directly.",
+    "dim3_body": "Semantic search across all federal election manifestos 2005–2025. AI-assisted answers with source references.",
+    "dim3_meta": "6 parties · 6 election years · Deep-Dive",
     "project_link": "Project ↗",
     "inspired_by": "Inspired by"
   },
@@ -25,7 +29,17 @@
     "headline": "How does Germany report\non itself?",
     "description": "19 German media outlets. 8 political topics. Updated daily. Where is there consensus — and where does discourse begin?",
     "dim2_button": "to Dimension II Party Monitor",
-    "media_intro": "19 German media outlets — analysed since March 2026"
+    "media_intro": "19 German media outlets — analysed since March 2026",
+    "topics": {
+      "energy_transition": { "label": "Energy Transition", "description": "Nuclear power, renewables, and climate policy — balancing security of supply with transformation." },
+      "digitalization":    { "label": "Digital Transformation & AI", "description": "Digitalisation, artificial intelligence, and societal change driven by technology." },
+      "work_transition":   { "label": "The Future of Work", "description": "Future of employment, minimum wage, skills shortages, and transformation through digitalisation." },
+      "migration":         { "label": "Migration & Asylum Policy", "description": "Immigration, asylum law, and integration — one of Germany's most polarising issues." },
+      "retirement":        { "label": "Pensions & Retirement", "description": "Pension policy and intergenerational fairness as an enduring social debate." },
+      "defense":           { "label": "Defence & Military", "description": "Bundeswehr, NATO, conscription, and security policy in a changing world." },
+      "family_children":   { "label": "Families & Children", "description": "Child benefits, childcare expansion, parental leave, and work-life balance." },
+      "education":         { "label": "Education & Lifelong Learning", "description": "Schools, universities, vocational training, and continuing education as pathways to social participation." }
+    }
   },
   "topicview": {
     "back": "← Topic Overview",
@@ -121,5 +135,68 @@
     "right-conservative": "Right-Conservative",
     "populist-mixed": "Populist",
     "far-right": "Far-Right"
+  },
+  "cat": {
+    "welfare":            "Welfare",
+    "economy":            "Economy",
+    "external_relations": "Foreign Affairs",
+    "political_system":   "Political System",
+    "fabric_of_society":  "Society",
+    "social_groups":      "Social Groups",
+    "freedom_democracy":  "Democracy"
+  },
+  "cat_def": {
+    "welfare":            "Social policy, pensions, healthcare, long-term care",
+    "economy":            "Economy, taxation, labour, finance",
+    "external_relations": "Foreign policy, defence, EU, NATO",
+    "political_system":   "Democracy, public administration, federalism",
+    "fabric_of_society":  "Social cohesion, culture, migration",
+    "social_groups":      "Women, minorities, seniors, youth",
+    "freedom_democracy":  "Civil rights, rule of law, press freedom"
+  },
+  "topic": {
+    "migration":        "Migration",
+    "energy_transition":"Energy Transition",
+    "retirement":       "Pensions",
+    "digitalization":   "Digitalisation",
+    "work_transition":  "Work",
+    "defense":          "Defence",
+    "family_children":  "Family",
+    "education":        "Education",
+    "all":              "All Topics"
+  },
+  "timeline": {
+    "label":       "Federal Election",
+    "btwahl_year": "Federal Election {{year}}",
+    "hover_hint":  "Hover over an event",
+    "election":    "Election {{year}}"
+  },
+  "distance": {
+    "play":      "▶ Play timeline",
+    "stop":      "◼ Stop",
+    "closer":    "Closer = more similar in content",
+    "similarity":"Similarity",
+    "caption":   "Distances proportional to content distance in party manifestos"
+  },
+  "heatmap": {
+    "overall":    "Overall",
+    "similarity": "Similarity"
+  },
+  "wahlview": {
+    "no_data":           "No election data available",
+    "results_label":     "Federal election results 2005–2025 (%)",
+    "themes_label":      "Policy emphasis {{year}} — ManifestoBERTa (%)",
+    "cat_defs_label":    "Category definitions — ManifestoBERTa",
+    "emphasis_label":    "What did the parties emphasise?",
+    "all_parties":       "All",
+    "no_data_available": "No data available.",
+    "hix_title":         "How clearly do parties write?",
+    "hix_pts":           "pts",
+    "hix_scale":         "HIX scale 0–20: higher = more readable. Academic texts score 1–5; broadly accessible texts score 15+.",
+    "hix_source":        "Source: University of Hohenheim, Manifesto Readability Check · komm.uni-hohenheim.de",
+    "popbert_label":     "Populism Analysis",
+    "popbert_coming":    "PopBERT scores coming soon.",
+    "wordcount_label":   "How much did the parties write?",
+    "words":             "words"
   }
 }

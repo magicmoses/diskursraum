@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer,
 } from 'recharts'
@@ -39,11 +40,12 @@ const ALL_PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
 const ELECTION_YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
 
 function ElectionTooltip({ active, payload, label }) {
+  const { t } = useTranslation()
   if (!active || !payload?.length) return null
   return (
     <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)', lineHeight: 1.8 }}>
       <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginBottom: '4px' }}>
-        Wahl {label}
+        {t('timeline.election', { year: label })}
       </div>
       {[...payload].sort((a, b) => (b.value ?? 0) - (a.value ?? 0)).map(p => (
         p.value != null && (
@@ -60,6 +62,7 @@ function ElectionTooltip({ active, payload, label }) {
 }
 
 export default function TimelineSlider({ years, selectedYear, onChange, events, electionResults }) {
+  const { t } = useTranslation()
   const [activeEvent, setActiveEvent] = useState(null)
 
   const min = years[0]
@@ -88,7 +91,7 @@ export default function TimelineSlider({ years, selectedYear, onChange, events, 
       <div style={{ flex: 1, padding: 'var(--space-4) var(--space-6)', background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>
 
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 'var(--space-4)', fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
-          <span style={{ textTransform: 'uppercase', letterSpacing: '0.08em' }}>Bundestagswahl</span>
+          <span style={{ textTransform: 'uppercase', letterSpacing: '0.08em' }}>{t('timeline.label')}</span>
           <span style={{ color: 'var(--signal)' }}>{selectedYear}</span>
         </div>
 
@@ -252,7 +255,7 @@ export default function TimelineSlider({ years, selectedYear, onChange, events, 
           </>
         ) : (
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--text-muted)' }}>
-            Über ein Ereignis hovern
+            {t('timeline.hover_hint')}
           </span>
         )}
       </div>

@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   RadarChart, PolarGrid, PolarAngleAxis, Radar,
@@ -19,27 +20,17 @@ const PARTY_HEX = {
   linke:   '#BE3075',
 }
 
+const CAT_COLORS = {
+  welfare:            '#4A90D9',
+  economy:            '#E8A84A',
+  external_relations: '#7B6FAF',
+  political_system:   '#2D6B4A',
+  fabric_of_society:  '#C0504D',
+  social_groups:      '#BE3075',
+  freedom_democracy:  '#009EE0',
+}
+
 const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
-
-const CAT_LABELS = {
-  welfare:            'Wohlfahrt',
-  economy:            'Wirtschaft',
-  external_relations: 'Außenpolitik',
-  political_system:   'Polit. System',
-  fabric_of_society:  'Gesellschaft',
-  social_groups:      'Soziale Gruppen',
-  freedom_democracy:  'Demokratie',
-}
-
-const CAT_DEFINITIONS = {
-  welfare:            'Sozialpolitik, Rente, Gesundheit, Pflege',
-  economy:            'Wirtschaft, Steuern, Arbeit, Finanzen',
-  external_relations: 'Außenpolitik, Verteidigung, EU, NATO',
-  political_system:   'Demokratie, Verwaltung, Föderalismus',
-  fabric_of_society:  'Gesellschaftlicher Zusammenhalt, Kultur, Migration',
-  social_groups:      'Frauen, Minderheiten, Senioren, Jugend',
-  freedom_democracy:  'Bürgerrechte, Rechtsstaat, Pressefreiheit',
-}
 
 const ELECTION_YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
 const NLP_YEARS      = [2009, 2013, 2017, 2021, 2025]
@@ -66,11 +57,12 @@ const SOURCE_NOTE = {
 }
 
 function BarTooltip({ active, payload, label }) {
+  const { t } = useTranslation()
   if (!active || !payload?.length) return null
   return (
     <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)', lineHeight: 1.8 }}>
       <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginBottom: '4px' }}>
-        Bundestagswahl {label}
+        {t('timeline.btwahl_year', { year: label })}
       </div>
       {[...payload].sort((a, b) => (b.value ?? 0) - (a.value ?? 0)).map(p => (
         p.value != null && (
@@ -113,29 +105,18 @@ function YearButtons({ years, active, onChange }) {
 }
 
 export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
+  const { t } = useTranslation()
   const [chartType, setChartType]           = useState('bar')
   const [focusParty, setFocusParty]         = useState(null)
   const [themesYear, setThemesYear]         = useState(selectedYear)
   const [hixYear, setHixYear]               = useState(2025)
   const [topicsParty, setTopicsParty]       = useState('cdu_csu')
   const [topicsYear, setTopicsYear]         = useState(selectedYear)
-  const [summaryParty, setSummaryParty]     = useState('cdu_csu')
-  const [summaryData, setSummaryData]       = useState(null)
-  const [summaryLoading, setSummaryLoading] = useState(false)
   const [focusPartyLength, setFocusPartyLength] = useState(null)
-
-  useEffect(() => {
-    setSummaryData(null)
-    setSummaryLoading(true)
-    fetch(`${API_BASE}/manifesto-analysis/summary?party=${summaryParty}&year=${themesYear}`)
-      .then(r => r.json())
-      .then(d => { setSummaryData(d); setSummaryLoading(false) })
-      .catch(() => setSummaryLoading(false))
-  }, [summaryParty, themesYear])
 
   if (!data?.election_results) return (
     <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', fontSize: 'var(--text-sm)' }}>
-      Keine Wahldaten
+      {t('wahlview.no_data')}
     </div>
   )
 
@@ -154,8 +135,8 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
   const emphasis = data.category_analysis?.policy_emphasis?.[String(themesYear)] ?? {}
   const hasEmphasis = Object.keys(emphasis).length > 0
 
-  const radarData = Object.entries(CAT_LABELS).map(([key, label]) => {
-    const entry = { category: label }
+  const radarData = Object.keys(CAT_COLORS).map(key => {
+    const entry = { category: t(`cat.${key}`, key) }
     PARTIES.forEach(p => { entry[p] = emphasis[p]?.[key] ?? 0 })
     return entry
   })
@@ -178,7 +159,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
     ? Object.entries(topicsEmphasis)
         .sort((a, b) => b[1] - a[1])
         .slice(0, 5)
-        .map(([cat, pct]) => ({ topic: CAT_LABELS[cat] ?? cat, pct }))
+        .map(([cat, pct]) => ({ cat, topic: t(`cat.${cat}`, cat), pct }))
     : null
 
   return (
@@ -187,7 +168,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
       {/* ── 1. Wahlergebnisse ─────────────────────── */}
       <div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-3)' }}>
-          <div style={S_LABEL}>Wahlergebnisse Bundestagswahl 2005–2025 (%)</div>
+          <div style={S_LABEL}>{t('wahlview.results_label')}</div>
           <div style={{ display: 'flex', gap: '1px', background: 'var(--border)' }}>
             {[['bar', '▬'], ['pie', '◔']].map(([type, icon]) => (
               <button
@@ -232,40 +213,11 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
         )}
       </div>
 
-      {/* ── 2. Top-3 Themenschwerpunkte ──────────────── */}
-      {Object.keys(emphasis).length > 0 && (
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-4)' }}>
-            <div style={S_LABEL}>Top-3 Themenschwerpunkte je Partei</div>
-            <YearButtons years={ELECTION_YEARS} active={themesYear} onChange={setThemesYear} />
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-3)' }}>
-            {PARTIES.map(p => {
-              const cats = Object.entries(emphasis[p] ?? {}).sort((a, b) => b[1] - a[1]).slice(0, 3)
-              return (
-                <div key={p} style={{ background: 'var(--bg-surface)', border: `1px solid ${PARTY_HEX[p]}30`, padding: 'var(--space-3)' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-3)' }}>
-                    <div style={{ width: '8px', height: '8px', background: PARTY_HEX[p], flexShrink: 0 }} />
-                    <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: PARTY_HEX[p] }}>{SHORT[p]}</span>
-                  </div>
-                  {cats.map(([cat, pct]) => (
-                    <div key={cat} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '4px' }}>
-                      <span style={{ fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>{CAT_LABELS[cat] ?? cat}</span>
-                      <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>{(pct ?? 0).toFixed(1)}%</span>
-                    </div>
-                  ))}
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      )}
-
-      {/* ── 3. ManifestoBERTa Spinnendiagramm + Definitionen + KI-Analyse ── */}
+      {/* ── 2. ManifestoBERTa Spinnendiagramm ────── */}
       {hasEmphasis && (
         <div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-3)' }}>
-            <div style={S_LABEL}>Themenschwerpunkte {themesYear} — ManifestoBERTa (%)</div>
+            <div style={S_LABEL}>{t('wahlview.themes_label', { year: themesYear })}</div>
             <YearButtons years={ELECTION_YEARS} active={themesYear} onChange={setThemesYear} />
           </div>
           <div style={{ display: 'flex', gap: 'var(--space-6)', alignItems: 'flex-start' }}>
@@ -285,7 +237,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
                 padding: '4px 10px', background: focusParty === null ? 'var(--bg-elevated)' : 'none',
                 border: '1px solid var(--border)', color: focusParty === null ? 'var(--text-primary)' : 'var(--text-muted)',
                 fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', cursor: 'pointer', transition: 'all 150ms',
-              }}>Alle</button>
+              }}>{t('wahlview.all_parties')}</button>
               {PARTIES.map(p => (
                 <button key={p} onClick={() => setFocusParty(prev => prev === p ? null : p)} style={{
                   padding: '4px 10px', background: focusParty === p ? `${PARTY_HEX[p]}22` : 'none',
@@ -296,76 +248,14 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
               ))}
             </div>
           </div>
-
-          {/* Definitionen */}
-          <div style={{ marginTop: 'var(--space-4)', padding: 'var(--space-4)', background: 'var(--bg-surface)', border: '1px solid var(--border-subtle)' }}>
-            <div style={{ ...S_LABEL, marginBottom: 'var(--space-3)' }}>Kategoriendefinitionen — ManifestoBERTa</div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '6px var(--space-6)' }}>
-              {Object.entries(CAT_LABELS).map(([k, label]) => (
-                <div key={k} style={{ display: 'flex', gap: 'var(--space-2)', fontSize: 'var(--text-xs)' }}>
-                  <span style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)', whiteSpace: 'nowrap' }}>{label}</span>
-                  <span style={{ color: 'var(--text-muted)' }}>— {CAT_DEFINITIONS[k]}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* KI-Analyse */}
-          <div style={{ marginTop: 'var(--space-4)', border: '1px solid var(--signal)' }}>
-            <div style={{
-              background: 'var(--signal)',
-              color: 'white',
-              padding: 'var(--space-2) var(--space-4)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: 'var(--space-2)',
-            }}>
-              <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
-                KI-Analyse — {themesYear}
-              </span>
-              <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
-                {PARTIES.map(p => (
-                  <button key={p} onClick={() => setSummaryParty(p)} style={{
-                    padding: '2px 6px',
-                    background: summaryParty === p ? 'white' : 'transparent',
-                    border: `1px solid ${summaryParty === p ? 'white' : 'rgba(255,255,255,0.3)'}`,
-                    color: summaryParty === p ? 'var(--signal)' : 'rgba(255,255,255,0.75)',
-                    fontFamily: 'var(--font-mono)',
-                    fontSize: '10px',
-                    cursor: 'pointer',
-                    transition: 'all 120ms',
-                  }}>{SHORT[p]}</button>
-                ))}
-              </div>
-            </div>
-            <div style={{ padding: 'var(--space-4)', background: 'var(--bg-surface)', minHeight: '60px' }}>
-              {summaryLoading ? (
-                <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
-                  Analysiere...
-                </div>
-              ) : summaryData?.error ? (
-                <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--amber)' }}>
-                  {summaryData.error}
-                </div>
-              ) : summaryData?.punkte ? (
-                <ul style={{ margin: 0, paddingLeft: 'var(--space-4)', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
-                  {summaryData.punkte.map((pt, i) => (
-                    <li key={i} style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.6 }}>{pt}</li>
-                  ))}
-                </ul>
-              ) : null}
-            </div>
-          </div>
         </div>
       )}
 
-      {/* ── 4. Verständlichkeit (HIX) ────────────────── */}
+      {/* ── 3. Verständlichkeit (HIX) ────────────────── */}
       {hohenheimData && (
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S_LABEL }}>
-            Wie verständlich schreiben die Parteien?
+            {t('wahlview.hix_title')}
             <InfoIcon text="Der Hohenheimer Verständlichkeitsindex (HIX) misst die formale Verständlichkeit von Texten auf einer Skala von 0 bis 20. Zum Vergleich: Doktorarbeiten erreichen 1,2 Punkte, Bundestagsreden 15,0 Punkte, die Bild-Zeitung 16,8 Punkte." />
           </div>
           <YearButtons years={NLP_YEARS} active={hixYear} onChange={setHixYear} />
@@ -378,7 +268,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
                 return (
                   <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)' }}>
                     <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>
-                      {label} {hixYear}: {payload[0]?.value?.toFixed(1)} Punkte
+                      {label} {hixYear}: {payload[0]?.value?.toFixed(1)} {t('wahlview.hix_pts')}
                     </span>
                   </div>
                 )
@@ -395,13 +285,13 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
             </BarChart>
           </ResponsiveContainer>
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginTop: 'var(--space-3)', lineHeight: 1.6 }}>
-            HIX-Skala 0–20: Je höher, desto verständlicher. Wissenschaftliche Texte liegen bei 1–5, allgemein verständliche Texte ab 15.
+            {t('wahlview.hix_scale')}
           </div>
-          <div style={SOURCE_NOTE}>Quelle: Universität Hohenheim, Wahlprogramm-Check · komm.uni-hohenheim.de</div>
+          <div style={SOURCE_NOTE}>{t('wahlview.hix_source')}</div>
         </div>
       )}
 
-      {/* ── 5. Populismus-Analyse (Placeholder) ──────── */}
+      {/* ── 4. Populismus-Analyse (Placeholder) ──────── */}
       <div style={{
         border: '1px solid var(--border)',
         padding: 'var(--space-6)',
@@ -409,17 +299,17 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
         textAlign: 'center',
       }}>
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 'var(--space-2)' }}>
-          Populismus-Analyse
+          {t('wahlview.popbert_label')}
         </div>
         <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>
-          PopBERT-Scores werden demnächst ergänzt.
+          {t('wahlview.popbert_coming')}
         </div>
       </div>
 
-      {/* ── 6. Programmlänge im Zeitverlauf ─────────── */}
+      {/* ── 5. Programmlänge im Zeitverlauf ─────────── */}
       {hohenheimData && (
         <div>
-          <div style={{ ...S_LABEL, marginBottom: 'var(--space-3)' }}>Wie viel haben die Parteien geschrieben?</div>
+          <div style={{ ...S_LABEL, marginBottom: 'var(--space-3)' }}>{t('wahlview.wordcount_label')}</div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginBottom: 'var(--space-3)' }}>
             <button onClick={() => setFocusPartyLength(null)} style={{
               padding: '3px 10px',
@@ -427,7 +317,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
               border: `1px solid ${focusPartyLength === null ? 'var(--border-hover)' : 'var(--border)'}`,
               color: focusPartyLength === null ? 'var(--text-primary)' : 'var(--text-muted)',
               fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', cursor: 'pointer', transition: 'all 120ms',
-            }}>Alle</button>
+            }}>{t('wahlview.all_parties')}</button>
             {PARTIES.map(p => {
               const active = focusPartyLength === p
               return (
@@ -444,17 +334,17 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={wordCountData} margin={{ top: 8, right: 8, bottom: 4, left: 0 }}>
               <XAxis dataKey="year" tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} />
-              <YAxis tickFormatter={v => `${(v / 1000).toFixed(0)}k Wörter`} tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={60} />
+              <YAxis tickFormatter={v => `${(v / 1000).toFixed(0)}k`} tick={{ fontFamily: 'var(--font-mono)', fontSize: 10, fill: '#7A6E64' }} axisLine={{ stroke: '#C8BFB0' }} tickLine={false} width={36} />
               <Tooltip content={({ active, payload, label }) => {
                 if (!active || !payload?.length) return null
                 return (
                   <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)', lineHeight: 1.8 }}>
-                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginBottom: '4px' }}>Bundestagswahl {label}</div>
+                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginBottom: '4px' }}>{t('timeline.btwahl_year', { year: label })}</div>
                     {[...payload].filter(p => p.value != null).sort((a, b) => (b.value ?? 0) - (a.value ?? 0)).map(p => (
                       <div key={p.dataKey} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
                         <div style={{ width: '8px', height: '8px', background: p.stroke, flexShrink: 0 }} />
                         <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>
-                          {SHORT[p.dataKey]}: {p.value?.toLocaleString('de-DE')} Wörter
+                          {SHORT[p.dataKey]}: {p.value?.toLocaleString()} {t('wahlview.words')}
                         </span>
                       </div>
                     ))}
@@ -474,13 +364,28 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
               })}
             </LineChart>
           </ResponsiveContainer>
-          <div style={SOURCE_NOTE}>Quelle: Universität Hohenheim, Wahlprogramm-Check · komm.uni-hohenheim.de</div>
+          <div style={SOURCE_NOTE}>{t('wahlview.hix_source')}</div>
         </div>
       )}
 
-      {/* ── 7. Zentrale Versprechen ────────────────── */}
+      {/* ── 6. Kategoriendefinitionen ─────────────── */}
+      {hasEmphasis && (
+        <div style={{ padding: 'var(--space-4)', background: 'var(--bg-surface)', border: '1px solid var(--border-subtle)' }}>
+          <div style={{ ...S_LABEL, marginBottom: 'var(--space-3)' }}>{t('wahlview.cat_defs_label')}</div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '6px var(--space-6)' }}>
+            {Object.keys(CAT_COLORS).map(k => (
+              <div key={k} style={{ display: 'flex', gap: 'var(--space-2)', fontSize: 'var(--text-xs)' }}>
+                <span style={{ color: 'var(--text-primary)', fontFamily: 'var(--font-mono)', whiteSpace: 'nowrap' }}>{t(`cat.${k}`, k)}</span>
+                <span style={{ color: 'var(--text-muted)' }}>— {t(`cat_def.${k}`, k)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* ── 7. Was haben die Parteien betont? ──────── */}
       <div>
-        <div style={{ ...S_LABEL, marginBottom: 'var(--space-4)' }}>Was haben die Parteien betont?</div>
+        <div style={{ ...S_LABEL, marginBottom: 'var(--space-4)' }}>{t('wahlview.emphasis_label')}</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-3)', marginBottom: 'var(--space-3)', alignItems: 'center' }}>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
             {PARTIES.map(p => (
@@ -500,7 +405,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
           <div key={i} style={{
             background: 'var(--bg-surface)',
             border: '1px solid var(--border)',
-            borderLeft: `3px solid ${PARTY_HEX[topicsParty]}`,
+            borderLeft: `3px solid ${CAT_COLORS[item.cat] ?? PARTY_HEX[topicsParty]}`,
             padding: 'var(--space-4) var(--space-5)',
             marginBottom: 'var(--space-2)',
             display: 'flex',
@@ -517,7 +422,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
           </div>
         )) : (
           <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-sm)', color: 'var(--text-muted)', padding: 'var(--space-6) 0', textAlign: 'center' }}>
-            Keine Daten verfügbar.
+            {t('wahlview.no_data_available')}
           </div>
         )}
       </div>

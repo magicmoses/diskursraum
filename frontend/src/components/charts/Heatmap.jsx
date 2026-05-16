@@ -1,20 +1,12 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { PARTY_NAMES, TOOLTIP_STYLE } from '../../constants/colors'
 
 const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
 
 const YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
 
-const TOPIC_LABELS = {
-  migration:        'Migration',
-  energy_transition:'Energiewende',
-  retirement:       'Rente',
-  digitalization:   'Digitalisierung',
-  work_transition:  'Arbeit',
-  defense:          'Verteidigung',
-  family_children:  'Familie',
-  education:        'Bildung',
-}
+const TOPIC_IDS = ['migration', 'energy_transition', 'retirement', 'digitalization', 'work_transition', 'defense', 'family_children', 'education']
 
 const SHORT = {
   cdu_csu: 'CDU',
@@ -45,6 +37,7 @@ function cellBg(val, min, max) {
 }
 
 export default function Heatmap({ data, year: initialYear = 2025 }) {
+  const { t } = useTranslation()
   const [hovered, setHovered]   = useState(null)
   const [tooltip, setTooltip]   = useState(null)
   const [activeTopic, setTopic] = useState(null)
@@ -93,7 +86,7 @@ export default function Heatmap({ data, year: initialYear = 2025 }) {
       </div>
       {/* Topic switcher */}
       <div style={{ display: 'flex', gap: '1px', marginBottom: 'var(--space-3)', background: 'var(--border)', flexWrap: 'wrap' }}>
-        {[{ id: null, label: 'Gesamt' }, ...Object.entries(TOPIC_LABELS).map(([id, label]) => ({ id, label }))].map(({ id, label }) => (
+        {[{ id: null, label: t('heatmap.overall') }, ...TOPIC_IDS.map(id => ({ id, label: t(`topic.${id}`) }))].map(({ id, label }) => (
           <button
             key={id ?? 'all'}
             onClick={() => setTopic(id)}
@@ -182,7 +175,7 @@ export default function Heatmap({ data, year: initialYear = 2025 }) {
         }}>
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)' }}>
             {PARTY_NAMES[tooltip.row]} – {PARTY_NAMES[tooltip.col]}<br />
-            Ähnlichkeit: {tooltip.val.toFixed(4)}
+            {t('heatmap.similarity')}: {tooltip.val.toFixed(4)}
           </span>
         </div>
       )}
