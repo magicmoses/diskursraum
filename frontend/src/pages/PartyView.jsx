@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { getHistoricalAnalysis, getHohenheimData } from '../api/client'
 import { Loader, InfoIcon } from '../components/ui'
 import {
@@ -9,13 +10,6 @@ import {
 
 const YEARS        = [2005, 2009, 2013, 2017, 2021, 2025]
 const DEFAULT_YEAR = 2025
-
-const TABS = [
-  { id: 'verortung',     label: 'Ideologische Verortung' },
-  { id: 'distanz',       label: 'Nähe & Distanz' },
-  { id: 'brueckenbauer', label: 'Brückenbauer' },
-  { id: 'wahlen',        label: 'Wahlen & Programme' },
-]
 
 const S = {
   sectionLabel: {
@@ -35,6 +29,14 @@ export default function PartyView() {
   const [error, setError]             = useState(false)
   const [activeTab, setTab]           = useState('verortung')
   const [selectedYear, setYear]       = useState(DEFAULT_YEAR)
+  const { t } = useTranslation()
+
+  const TABS = [
+    { id: 'verortung',     label: t('partyview.tab_verortung') },
+    { id: 'distanz',       label: t('partyview.tab_distanz') },
+    { id: 'brueckenbauer', label: t('partyview.tab_brueckenbauer') },
+    { id: 'wahlen',        label: t('partyview.tab_wahlen') },
+  ]
 
   useEffect(() => {
     getHistoricalAnalysis()
@@ -45,11 +47,11 @@ export default function PartyView() {
       .catch(() => {})
   }, [])
 
-  if (loading) return <Loader text="Lade Parteiprogramm-Analyse..." />
+  if (loading) return <Loader text={t('partyview.loading')} />
 
   if (error || !data) return (
     <div style={{ padding: 'var(--space-16)', textAlign: 'center', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', fontSize: 'var(--text-sm)' }}>
-      Analyse nicht verfügbar — Backend erreichbar?
+      {t('partyview.error')}
     </div>
   )
 
@@ -59,7 +61,7 @@ export default function PartyView() {
       {/* ── Header ──────────────────────────────────── */}
       <div style={{ marginBottom: 'var(--space-8)' }}>
         <div style={{ ...S.sectionLabel, color: 'var(--signal)', marginBottom: 'var(--space-3)' }}>
-          Dimension II — Parteiprogramme
+          {t('partyview.eyebrow')}
         </div>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -69,7 +71,7 @@ export default function PartyView() {
           lineHeight: 1.2,
           marginBottom: 'var(--space-3)',
         }}>
-          Wie haben sich Parteipositionen entwickelt?
+          {t('partyview.headline')}
         </h1>
         <div style={{
           fontFamily: 'var(--font-mono)',
@@ -77,7 +79,7 @@ export default function PartyView() {
           color: 'var(--text-secondary)',
           marginBottom: 'var(--space-2)',
         }}>
-          6 Bundestagswahlen · 6 Parteien · 8 Themen · Wer sind die Brückenbauer?
+          {t('partyview.subtitle')}
         </div>
       </div>
 
@@ -128,7 +130,7 @@ export default function PartyView() {
       {activeTab === 'verortung' && (
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-            Ideologische Verortung
+            {t('partyview.verortung_label')}
             <InfoIcon text="Wirtschaftsachse (links–rechts) und Gesellschaftsachse (progressiv–konservativ) aus ManifestoBERTa-Kategoriencodes. Normiert über alle Wahljahre." />
           </div>
           <IdeologicalMatrix data={data} />
@@ -141,7 +143,7 @@ export default function PartyView() {
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Wer steht wem inhaltlich nahe?
+              {t('partyview.distanz_label')}
               <InfoIcon text="Die Abstände zeigen wie ähnlich sich die Parteien in ihren Wahlprogrammen sind — berechnet aus semantischer Nähe und inhaltlichen Schwerpunkten." />
             </div>
             <PartyDistanceView data={data} />
@@ -149,7 +151,7 @@ export default function PartyView() {
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Paarweise Programmähnlichkeit
+              {t('partyview.heatmap_label')}
               <InfoIcon text="Technisch: Kosinus-Ähnlichkeit zwischen ManifestoBERTa-Embeddings der Wahlprogramme. Skala 0–1, wobei 1 = inhaltlich identisch. Typische Werte im Datensatz: 0,23 (sehr verschieden) bis 0,55 (sehr ähnlich)." />
             </div>
             <Heatmap data={data} year={selectedYear} />
@@ -164,12 +166,11 @@ export default function PartyView() {
 
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Brückenbauer-Score im Zeitverlauf
+              {t('partyview.bridging_label')}
               <InfoIcon text="Technisch: Mittelwert der Kosinus-Ähnlichkeiten einer Partei zu allen anderen, min-max-normiert auf 0–1 über alle Wahljahre. Wert 1 = programmatisch nächste Partei zum Feld, Wert 0 = am weitesten entfernt." />
             </div>
             <BridgingTimeline data={data} />
 
-            {/* Hintergrund */}
             <div style={{
               marginTop: 'var(--space-6)',
               padding: 'var(--space-4) var(--space-5)',
@@ -178,14 +179,13 @@ export default function PartyView() {
               borderLeft: '3px solid var(--signal)',
             }}>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--signal)', marginBottom: 'var(--space-2)' }}>
-                Hintergrund
+                {t('partyview.bridging_hintergrund')}
               </div>
               <p style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7, margin: 0 }}>
-                Der Brückenbauer-Score misst, wie nah eine Partei programmatisch zum Zentrum des gesamten Parteienspektrums steht. Technisch ist er der normierte Mittelwert der Kosinus-Ähnlichkeiten einer Partei zu allen anderen — 0 bedeutet maximale Isolation, 1 bedeutet maximale Nähe zum Feld. Die Normierung erfolgt über alle Wahljahre, sodass die Werte vergleichbar bleiben.
+                {t('partyview.bridging_text')}
               </p>
             </div>
 
-            {/* Erkenntnisse */}
             <div style={{
               marginTop: 'var(--space-3)',
               padding: 'var(--space-4) var(--space-5)',
@@ -194,22 +194,20 @@ export default function PartyView() {
               borderLeft: '3px solid var(--amber)',
             }}>
               <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--amber)', marginBottom: 'var(--space-2)' }}>
-                Erkenntnisse
+                {t('partyview.bridging_erkenntnisse')}
               </div>
               <p style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7, margin: 0 }}>
-                CDU/CSU und SPD belegen historisch die mittleren Positionen — als Volksparteien schreiben sie breite Themenpakete, die sich mit vielen anderen überschneiden. Die AfD weist konstant den niedrigsten Wert auf, was ihre programmatische Isolation widerspiegelt. Grüne und FDP schwanken stärker, abhängig vom jeweiligen thematischen Fokus des Wahlkampfes.
+                {t('partyview.bridging_findings')}
               </p>
             </div>
           </div>
 
           <div>
             <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 'var(--space-4)', maxWidth: '680px' }}>
-              Das Netzwerk zeigt die inhaltliche Nähe zwischen den Parteiprogrammen zur Bundestagswahl {selectedYear}.
-              Dickere Verbindungslinien bedeuten höhere programmatische Übereinstimmung.
-              Die Größe eines Knotens spiegelt den Brückenwert der Partei wider.
+              {t('partyview.network_desc', { year: selectedYear })}
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S.sectionLabel }}>
-              Ähnlichkeitsnetzwerk
+              {t('partyview.network_label')}
               <InfoIcon text="Technisch: Knoten-Größe = Brückenbauer-Score (normiert). Kantendicke = Kosinus-Ähnlichkeit der Wahlprogramme. Themenfilter begrenzen auf Teilgraphen einzelner ManifestoBERTa-Kategorien." />
             </div>
             <ForceGraph data={data} year={selectedYear} />

@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { getTopicAnalysis } from '../api/client'
 import { Loader } from '../components/ui'
-import { BIAS_COLORS, BIAS_LABELS } from '../constants/colors'
+import { BIAS_COLORS } from '../constants/colors'
 
 const DEUTSCHLAND_KW = [
   'deutschland', 'deutsch', 'bundesregierung', 'bundestag', 'berlin',
@@ -18,17 +19,15 @@ function isGermanyTitle(title) {
   return DEUTSCHLAND_KW.some(kw => lower.includes(kw))
 }
 
-// ── Bias config for TopicView ─────────────────────
-// Extended with bg/text for inline spectrum display
-const BIAS_DISPLAY = {
-  'left':                 { bg: '#E8F0F5', text: '#1A5276', label: 'Links' },
-  'left-liberal':         { bg: '#EBF0F5', text: '#2E6B8A', label: 'Links-Liberal' },
-  'neutral':              { bg: '#F0EFED', text: '#5A5550', label: 'Neutral' },
-  'conservative-liberal': { bg: '#FDF5E8', text: '#9A6010', label: 'Konservativ-Liberal' },
-  'economic-liberal':     { bg: '#FDF8E8', text: '#B8860B', label: 'Wirtschaftsliberal' },
-  'right-conservative':   { bg: '#FDF0EC', text: '#8B3520', label: 'Rechts-Konservativ' },
-  'populist-mixed':       { bg: '#F5F0E8', text: '#7A5A30', label: 'Populistisch' },
-  'far-right':            { bg: '#FAF0EC', text: '#6B2A1E', label: 'Rechtsaußen' },
+const BIAS_DISPLAY_COLORS = {
+  'left':                 { bg: '#E8F0F5', text: '#1A5276' },
+  'left-liberal':         { bg: '#EBF0F5', text: '#2E6B8A' },
+  'neutral':              { bg: '#F0EFED', text: '#5A5550' },
+  'conservative-liberal': { bg: '#FDF5E8', text: '#9A6010' },
+  'economic-liberal':     { bg: '#FDF8E8', text: '#B8860B' },
+  'right-conservative':   { bg: '#FDF0EC', text: '#8B3520' },
+  'populist-mixed':       { bg: '#F5F0E8', text: '#7A5A30' },
+  'far-right':            { bg: '#FAF0EC', text: '#6B2A1E' },
 }
 
 const BIAS_SPECTRUM = [
@@ -50,7 +49,6 @@ const SOURCE_BIAS_MAP = {
   bild: 'populist-mixed',
 }
 
-// ── Shared style ──────────────────────────────────
 const S = {
   label: {
     fontFamily: 'var(--font-mono)',
@@ -67,8 +65,8 @@ const S = {
   }),
 }
 
-// ── Sub-components ────────────────────────────────
 function EmptyState({ onBack }) {
+  const { t } = useTranslation()
   return (
     <div style={{
       minHeight: '60vh',
@@ -86,10 +84,10 @@ function EmptyState({ onBack }) {
         letterSpacing: '0.10em',
         textTransform: 'uppercase',
       }}>
-        Analyse ausstehend
+        {t('topicview.pending')}
       </div>
       <p style={{ fontSize: 'var(--text-base)', color: 'var(--text-secondary)', maxWidth: '360px', lineHeight: 1.6 }}>
-        Dieses Thema wird beim nächsten täglichen ML-Run analysiert.
+        {t('topicview.pending_desc')}
       </p>
       <button
         onClick={onBack}
@@ -102,13 +100,14 @@ function EmptyState({ onBack }) {
           fontFamily: 'var(--font-body)',
         }}
       >
-        ← Zurück zur Übersicht
+        {t('topicview.back')}
       </button>
     </div>
   )
 }
 
-function SpectrumBar({ biasDistribution }) {
+function SpectrumBar({ biasDistribution, biasDisplay }) {
+  const { t } = useTranslation()
   const total = Object.values(biasDistribution).reduce((s, c) => s + c, 0)
   if (total === 0) return null
   const ordered = BIAS_SPECTRUM.filter(b => biasDistribution[b])
@@ -120,12 +119,12 @@ function SpectrumBar({ biasDistribution }) {
       padding: 'var(--space-4) var(--space-6)',
     }}>
       <div style={{ ...S.label, marginBottom: 'var(--space-3)' }}>
-        Politisches Spektrum der Berichterstattung
+        {t('topicview.spectrum_label')}
       </div>
       <div style={{ display: 'flex', height: '4px', gap: '1px' }}>
         {ordered.map(b => {
           const pct = (biasDistribution[b] / total * 100).toFixed(1)
-          const d = BIAS_DISPLAY[b]
+          const d = biasDisplay[b]
           return (
             <div
               key={b}
@@ -141,13 +140,13 @@ function SpectrumBar({ biasDistribution }) {
         })}
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 'var(--space-2)' }}>
-        <span style={{ ...S.label, color: '#1A5276' }}>Links</span>
-        <span style={{ ...S.label, color: '#6B2A1E' }}>Rechts</span>
+        <span style={{ ...S.label, color: '#1A5276' }}>{t('topicview.spectrum_left')}</span>
+        <span style={{ ...S.label, color: '#6B2A1E' }}>{t('topicview.spectrum_right')}</span>
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)', marginTop: 'var(--space-3)' }}>
         {ordered.map(b => {
           const pct = (biasDistribution[b] / total * 100).toFixed(0)
-          const d = BIAS_DISPLAY[b]
+          const d = biasDisplay[b]
           return (
             <span key={b} style={{
               fontSize: 'var(--text-xs)',
@@ -167,11 +166,12 @@ function SpectrumBar({ biasDistribution }) {
 }
 
 function SynthesisCard({ shared, controversial }) {
+  const { t } = useTranslation()
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
       {[
-        { label: 'Gemeinsame Perspektiven', text: shared, accent: 'var(--patina)', bg: 'var(--patina-subtle)' },
-        { label: 'Kontroverse Punkte', text: controversial, accent: 'var(--amber)', bg: 'var(--amber-subtle)' },
+        { label: t('topicview.shared'),      text: shared,      accent: 'var(--patina)', bg: 'var(--patina-subtle)' },
+        { label: t('topicview.controversial'), text: controversial, accent: 'var(--amber)',  bg: 'var(--amber-subtle)' },
       ].map(({ label, text, accent, bg }) => (
         <div key={label} style={{
           background: bg,
@@ -190,8 +190,9 @@ function SynthesisCard({ shared, controversial }) {
   )
 }
 
-function OutletCard({ outlet }) {
-  const bias = BIAS_DISPLAY[outlet.bias || SOURCE_BIAS_MAP[outlet.source_id]] || BIAS_DISPLAY['neutral']
+function OutletCard({ outlet, biasDisplay }) {
+  const colors = BIAS_DISPLAY_COLORS[outlet.bias || SOURCE_BIAS_MAP[outlet.source_id]] || BIAS_DISPLAY_COLORS['neutral']
+  const label = biasDisplay[outlet.bias || SOURCE_BIAS_MAP[outlet.source_id]]?.label || outlet.bias || ''
 
   return (
     <div style={{
@@ -205,7 +206,7 @@ function OutletCard({ outlet }) {
     >
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-3)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
-          <div style={S.dot(bias.text)} />
+          <div style={S.dot(colors.text)} />
           <span style={{ fontSize: 'var(--text-sm)', fontWeight: 500, color: 'var(--text-primary)' }}>
             {outlet.source}
           </span>
@@ -213,10 +214,10 @@ function OutletCard({ outlet }) {
         <span style={{
           fontFamily: 'var(--font-mono)',
           fontSize: 'var(--text-xs)',
-          color: bias.text,
-          background: bias.bg,
+          color: colors.text,
+          background: colors.bg,
           padding: '2px 6px',
-          border: `1px solid ${bias.text}30`,
+          border: `1px solid ${colors.text}30`,
         }}>
           {outlet.article_count} Art.
         </span>
@@ -229,7 +230,7 @@ function OutletCard({ outlet }) {
             color: 'var(--text-secondary)',
             lineHeight: 1.5,
             paddingLeft: 'var(--space-3)',
-            borderLeft: `2px solid ${bias.text}40`,
+            borderLeft: `2px solid ${colors.text}40`,
             overflow: 'hidden',
             display: '-webkit-box',
             WebkitLineClamp: 2,
@@ -239,11 +240,15 @@ function OutletCard({ outlet }) {
           </p>
         ))}
       </div>
+      {label && (
+        <div style={{ marginTop: 'var(--space-2)', fontSize: 'var(--text-xs)', color: colors.text, fontFamily: 'var(--font-mono)' }}>
+          {label}
+        </div>
+      )}
     </div>
   )
 }
 
-// ── Tab Bar ───────────────────────────────────────
 function TabBar({ tabs, active, onChange }) {
   return (
     <div style={{
@@ -277,13 +282,22 @@ function TabBar({ tabs, active, onChange }) {
   )
 }
 
-// ── Main ──────────────────────────────────────────
 export default function TopicView() {
   const { topicId } = useParams()
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState('overview')
+
+  const biasDisplay = Object.fromEntries(
+    BIAS_SPECTRUM.map(b => [b, { ...BIAS_DISPLAY_COLORS[b], label: t(`bias.${b}`) }])
+  )
+
+  const tabs = [
+    { id: 'overview', label: t('topicview.tab_overview') },
+    { id: 'outlets',  label: t('topicview.tab_outlets') },
+  ]
 
   useEffect(() => {
     setLoading(true)
@@ -293,7 +307,7 @@ export default function TopicView() {
       .catch(() => setLoading(false))
   }, [topicId])
 
-  if (loading) return <Loader text="Lade Analyse..." />
+  if (loading) return <Loader text={t('common.loading')} />
   if (!data || data.error) return <EmptyState onBack={() => navigate('/')} />
 
   const outlets = data.outlets || {}
@@ -305,11 +319,6 @@ export default function TopicView() {
     if (!outletsByBias[bias]) outletsByBias[bias] = []
     outletsByBias[bias].push(outlet)
   })
-
-  const tabs = [
-    { id: 'overview', label: 'Überblick' },
-    { id: 'outlets', label: 'Medienhäuser' },
-  ]
 
   return (
     <div style={{ maxWidth: '880px', paddingBottom: 'var(--space-16)' }}>
@@ -333,13 +342,13 @@ export default function TopicView() {
         onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
         onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
       >
-        ← Themenübersicht
+        {t('topicview.back')}
       </button>
 
       {/* ── Header ────────────────────────────────── */}
       <div style={{ marginBottom: 'var(--space-8)' }}>
         <div style={{ ...S.label, color: 'var(--signal)', marginBottom: 'var(--space-3)' }}>
-          Dimension I — Medienspiegel
+          {t('home.eyebrow')}
         </div>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -351,9 +360,9 @@ export default function TopicView() {
           {data.topic_label}
         </h1>
         <div style={{ display: 'flex', gap: 'var(--space-4)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
-          <span>{data.article_count} Artikel</span>
+          <span>{t('topicview.article_count', { count: data.article_count })}</span>
           <span>·</span>
-          <span>{outletList.length} Medienhäuser</span>
+          <span>{t('topicview.outlet_count', { count: outletList.length })}</span>
           <span>·</span>
           <span>
             {data.cached_at
@@ -366,7 +375,7 @@ export default function TopicView() {
       {/* ── Spectrum ──────────────────────────────── */}
       {data.bias_distribution && (
         <div style={{ marginBottom: 'var(--space-6)' }}>
-          <SpectrumBar biasDistribution={data.bias_distribution} />
+          <SpectrumBar biasDistribution={data.bias_distribution} biasDisplay={biasDisplay} />
         </div>
       )}
 
@@ -382,11 +391,10 @@ export default function TopicView() {
 
       <div style={{ paddingTop: 'var(--space-6)' }}>
 
-        {/* Overview */}
         {activeTab === 'overview' && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
             {BIAS_SPECTRUM.filter(b => outletsByBias[b]).map(b => {
-              const d = BIAS_DISPLAY[b]
+              const d = biasDisplay[b]
               const groupOutlets = outletsByBias[b]
               const groupTotal = groupOutlets.reduce((s, o) => s + o.article_count, 0)
               return (
@@ -428,12 +436,11 @@ export default function TopicView() {
           </div>
         )}
 
-        {/* Outlets */}
         {activeTab === 'outlets' && (
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-3)' }}>
             {BIAS_SPECTRUM.flatMap(b =>
               (outletsByBias[b] || []).map(outlet => (
-                <OutletCard key={outlet.source_id} outlet={outlet} />
+                <OutletCard key={outlet.source_id} outlet={outlet} biasDisplay={biasDisplay} />
               ))
             )}
           </div>

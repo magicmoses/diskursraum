@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import Analytics from './pages/Analytics'
 import Home from './pages/Home'
 import TopicView from './pages/TopicView'
@@ -6,10 +7,55 @@ import PartyView from './pages/PartyView'
 import FragNach from './pages/FragNach'
 import Landing from './pages/Landing'
 
-// Nav ausblenden auf Landing Page
+function LanguageToggle() {
+  const { i18n } = useTranslation()
+  const isDE = i18n.language === 'de'
+
+  const toggle = () => {
+    const next = isDE ? 'en' : 'de'
+    i18n.changeLanguage(next)
+    localStorage.setItem('diskursraum_lang', next)
+  }
+
+  return (
+    <button
+      onClick={toggle}
+      style={{
+        background: 'none',
+        border: '1px solid var(--border)',
+        fontFamily: 'var(--font-mono)',
+        fontSize: 'var(--text-xs)',
+        color: 'var(--text-secondary)',
+        letterSpacing: '0.08em',
+        cursor: 'pointer',
+        padding: '3px 10px',
+        transition: 'all 150ms ease',
+      }}
+      onMouseEnter={e => {
+        e.currentTarget.style.borderColor = 'var(--signal)'
+        e.currentTarget.style.color = 'var(--text-primary)'
+      }}
+      onMouseLeave={e => {
+        e.currentTarget.style.borderColor = 'var(--border)'
+        e.currentTarget.style.color = 'var(--text-secondary)'
+      }}
+    >
+      {isDE ? 'EN' : 'DE'}
+    </button>
+  )
+}
+
 function AppShell() {
   const location = useLocation()
+  const { t } = useTranslation()
   const isLanding = location.pathname === '/'
+
+  const NAV_LINKS = [
+    { to: '/medienspiegel',   label: t('nav.medienspiegel') },
+    { to: '/parteienspiegel', label: t('nav.parteienspiegel') },
+    { to: '/frag-nach',       label: t('nav.frag_nach') },
+    { to: '/project',         label: t('nav.analytics') },
+  ]
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
@@ -41,12 +87,7 @@ function AppShell() {
           </NavLink>
 
           <div style={{ display: 'flex', gap: 'var(--space-8)', alignItems: 'center' }}>
-            {[
-              { to: '/medienspiegel', label: 'Medienspiegel' },
-              { to: '/parteienspiegel', label: 'Parteienspiegel' },
-              { to: '/frag-nach', label: 'Frag nach.' },
-              { to: '/project', label: 'Diskursraum-Analytics' },
-            ].map(({ to, label }) => (
+            {NAV_LINKS.map(({ to, label }) => (
               <NavLink
                 key={to}
                 to={to}
@@ -64,6 +105,7 @@ function AppShell() {
                 {label}
               </NavLink>
             ))}
+            <LanguageToggle />
           </div>
         </nav>
       )}

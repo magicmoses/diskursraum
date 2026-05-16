@@ -9,16 +9,6 @@ export const BIAS_COLORS = {
   'far-right':           '#7A3B2E',
 }
 
-export const BIAS_LABELS = {
-  'left':                'Links',
-  'left-liberal':        'Links-Liberal',
-  'neutral':             'Neutral',
-  'conservative-liberal':'Konservativ-Liberal',
-  'economic-liberal':    'Wirtschaftsliberal',
-  'right-conservative':  'Rechts-Konservativ',
-  'populist-mixed':      'Populistisch',
-  'far-right':           'Rechtsaußen',
-}
 
 export const EMOTION_COLORS = {
   curiosity:      '#1A3A5C',

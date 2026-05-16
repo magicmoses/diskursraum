@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback } from 'react'
+import { useTranslation } from 'react-i18next'
 import { PARTY_COLORS, PARTY_NAMES } from '../constants/colors'
 import { searchManifestos } from '../api/client'
 
@@ -87,6 +88,7 @@ function ReferenceRow({ result }) {
 }
 
 export default function FragNach() {
+  const { t } = useTranslation()
   const [query, setQuery]             = useState('')
   const [selectedParty, setParty]     = useState(null)
   const [selectedYear, setYear]       = useState(null)
@@ -165,7 +167,7 @@ export default function FragNach() {
       {/* ── Header ─────────────────────────────────── */}
       <div style={{ marginBottom: 'var(--space-8)' }}>
         <div style={{ ...S.label, color: 'var(--signal)', marginBottom: 'var(--space-3)' }}>
-          Dimension III — Frag nach.
+          {t('frag_nach.eyebrow')}
         </div>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -175,14 +177,14 @@ export default function FragNach() {
           lineHeight: 1.2,
           marginBottom: 'var(--space-3)',
         }}>
-          Stell deine Frage. Die Wahlprogramme antworten.
+          {t('frag_nach.subheadline')}
         </h1>
         <div style={{
           fontFamily: 'var(--font-mono)',
           fontSize: 'var(--text-sm)',
           color: 'var(--text-secondary)',
         }}>
-          6 Bundestagswahlen · 6 Parteien · semantische Suche in Wahlprogrammen
+          {t('frag_nach.meta')}
         </div>
       </div>
 
@@ -193,7 +195,7 @@ export default function FragNach() {
           value={query}
           onChange={e => setQuery(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Wonach suchst du? z.B. Klimaschutz, Rente, Migration ..."
+          placeholder={t('frag_nach.placeholder')}
           style={{
             width: '100%',
             background: 'var(--bg-surface)',
@@ -211,12 +213,12 @@ export default function FragNach() {
         />
       </div>
 
-      {/* ── Party Filter (radio) ─────────────────────── */}
+      {/* ── Party Filter ─────────────────────────────── */}
       <div style={{ marginBottom: 'var(--space-4)' }}>
-        <div style={S.label}>Partei</div>
+        <div style={S.label}>{t('frag_nach.party_label')}</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)' }}>
           <button onClick={() => setParty(null)} style={filterBtn(selectedParty === null, null)}>
-            Alle
+            {t('frag_nach.all')}
           </button>
           {PARTY_ORDER.map(id => (
             <button
@@ -230,12 +232,12 @@ export default function FragNach() {
         </div>
       </div>
 
-      {/* ── Year Filter (radio) ──────────────────────── */}
+      {/* ── Year Filter ──────────────────────────────── */}
       <div style={{ marginBottom: 'var(--space-8)' }}>
-        <div style={S.label}>Jahr</div>
+        <div style={S.label}>{t('frag_nach.year_label')}</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)' }}>
           <button onClick={() => setYear(null)} style={filterBtn(selectedYear === null, null)}>
-            Alle
+            {t('frag_nach.all')}
           </button>
           {YEARS.map(y => (
             <button
@@ -262,14 +264,16 @@ export default function FragNach() {
           disabled={!query.trim() || depleted || isStreaming}
           style={primaryBtn(!query.trim() || depleted || isStreaming, true)}
         >
-          {isStreaming ? 'Analysiere...' : '▶ Deep-Dive'}
+          {isStreaming ? t('frag_nach.button_loading') : t('frag_nach.button_idle')}
         </button>
         <span style={{
           fontFamily: 'var(--font-mono)',
           fontSize: 'var(--text-xs)',
           color: depleted ? 'var(--amber)' : 'var(--text-muted)',
         }}>
-          {depleted ? 'Session-Limit erreicht' : `${remaining} von ${MAX_DEEP_DIVES} Deep-Dives verfügbar`}
+          {depleted
+            ? t('frag_nach.limit_reached')
+            : t('frag_nach.counter', { remaining, max: MAX_DEEP_DIVES })}
         </span>
       </div>
 
@@ -289,7 +293,6 @@ export default function FragNach() {
       {(deepDiveAnswer || isStreaming) && (
         <div style={{ border: '1px solid var(--signal)', marginBottom: 'var(--space-6)' }}>
 
-          {/* Header */}
           <div style={{
             background: 'var(--signal)',
             color: 'white',
@@ -299,10 +302,9 @@ export default function FragNach() {
             letterSpacing: '0.08em',
             textTransform: 'uppercase',
           }}>
-            Deep-Dive Analyse
+            {t('frag_nach.answer_label')}
           </div>
 
-          {/* Body */}
           <div style={{ padding: 'var(--space-6)', background: 'var(--bg-surface)' }}>
             <p style={{
               fontSize: 'var(--text-base)',
@@ -324,7 +326,6 @@ export default function FragNach() {
               )}
             </p>
 
-            {/* Sources */}
             {searchResults.length > 0 && (
               <details style={{ marginTop: 'var(--space-4)', borderTop: '1px solid var(--border-subtle)', paddingTop: 'var(--space-4)' }}>
                 <summary style={{
@@ -338,7 +339,7 @@ export default function FragNach() {
                   paddingBottom: 'var(--space-3)',
                   listStyle: 'none',
                 }}>
-                  ▸ Quellen — {searchResults.length} Treffer
+                  ▸ {t('frag_nach.sources_label', { count: searchResults.length })}
                 </summary>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)', paddingTop: 'var(--space-2)' }}>
                   {searchResults.map((result, i) => (

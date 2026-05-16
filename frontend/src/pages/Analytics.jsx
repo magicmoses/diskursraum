@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import {
   getOverview, getArticlesPerDay,
   getTrendingTopics, getPublishingTimes, getWeekdayActivity,
@@ -11,9 +12,11 @@ import {
 import { KpiCard, Section, Loader, InfoIcon } from '../components/ui'
 import { EmotionBar } from '../components/charts'
 import {
-  BIAS_COLORS, BIAS_LABELS, EMOTION_COLORS,
+  BIAS_COLORS, EMOTION_COLORS,
   TOOLTIP_STYLE, WEEKDAYS,
 } from '../constants/colors'
+
+const BIAS_ORDER = ['left', 'left-liberal', 'neutral', 'conservative-liberal', 'economic-liberal', 'right-conservative', 'populist-mixed', 'far-right']
 
 const DEUTSCHLAND_KW = [
   'deutschland', 'deutsch', 'bundesregierung', 'bundestag', 'berlin',
@@ -29,8 +32,8 @@ function isGermanyTopic(topic) {
   return DEUTSCHLAND_KW.some(kw => lower.includes(kw))
 }
 
-// ── Main ──────────────────────────────────────────
 export default function Analytics() {
+  const { t } = useTranslation()
   const [overview, setOverview]               = useState(null)
   const [articlesPerDay, setArticlesPerDay]   = useState([])
   const [trendingTopics, setTrendingTopics]   = useState({ deutschland: [], international: [] })
@@ -40,6 +43,8 @@ export default function Analytics() {
   const [emotionsPerBias, setEmotionsPerBias] = useState({})
   const [loading, setLoading]                 = useState(true)
   const [trendTab, setTrendTab]               = useState('de')
+
+  const biasLabels = Object.fromEntries(BIAS_ORDER.map(k => [k, t(`bias.${k}`)]))
 
   useEffect(() => {
     Promise.allSettled([
@@ -68,7 +73,7 @@ export default function Analytics() {
     })
   }, [])
 
-  if (loading) return <Loader text="Lade Analytics..." />
+  if (loading) return <Loader text={t('analytics.loading')} />
 
   const ov = overview ?? { total_articles: 0, by_source: [], by_bias: [], last_crawl: { crawled_at: null, new_articles: 0 } }
 
@@ -102,7 +107,7 @@ export default function Analytics() {
           textTransform: 'uppercase',
           marginBottom: 'var(--space-3)',
         }}>
-          Diskursraum-Analytics
+          {t('analytics.eyebrow')}
         </div>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -111,15 +116,15 @@ export default function Analytics() {
           letterSpacing: '-0.02em',
           marginBottom: 'var(--space-2)',
         }}>
-          Diskursraum-Analytics
+          {t('analytics.headline')}
         </h1>
       </div>
 
       {/* ── KPIs ────────────────────────────────── */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1px', background: 'var(--border)' }}>
-        <KpiCard label="Artikel gesamt" value={ov.total_articles.toLocaleString()} />
-        <KpiCard label="Quellen" value="19" />
-        <KpiCard label="Letzter inkludierter Crawl" mono value={
+        <KpiCard label={t('analytics.kpi_total')} value={ov.total_articles.toLocaleString()} />
+        <KpiCard label={t('analytics.kpi_sources')} value="19" />
+        <KpiCard label={t('analytics.kpi_crawl')} mono value={
           ov.last_crawl.crawled_at
             ? new Date(ov.last_crawl.crawled_at).toLocaleDateString('de-DE', {
                 day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'Europe/Berlin',
@@ -129,28 +134,28 @@ export default function Analytics() {
       </div>
 
       {/* ── Trending Topics ──────────────────────── */}
-      <Section title="Was bewegt Deutschland?" subtitle="Meistdiskutierte Themen in deutschen Medien der letzten 7 Tage">
+      <Section title={t('analytics.trending_title')} subtitle={t('analytics.trending_sub')}>
         <div style={{ display: 'flex', gap: '1px', background: 'var(--border)', marginBottom: 'var(--space-4)' }}>
           {[
-            { id: 'de',   label: 'Innerhalb Deutschlands' },
-            { id: 'intl', label: 'International' },
-          ].map(t => (
+            { id: 'de',   label: t('analytics.tab_inland') },
+            { id: 'intl', label: t('analytics.tab_international') },
+          ].map(tab => (
             <button
-              key={t.id}
-              onClick={() => setTrendTab(t.id)}
+              key={tab.id}
+              onClick={() => setTrendTab(tab.id)}
               style={{
                 padding: 'var(--space-2) var(--space-4)',
-                background: trendTab === t.id ? 'var(--bg-elevated)' : 'var(--bg-surface)',
+                background: trendTab === tab.id ? 'var(--bg-elevated)' : 'var(--bg-surface)',
                 border: 'none',
-                borderBottom: trendTab === t.id ? '2px solid var(--signal)' : '2px solid transparent',
-                color: trendTab === t.id ? 'var(--text-primary)' : 'var(--text-secondary)',
+                borderBottom: trendTab === tab.id ? '2px solid var(--signal)' : '2px solid transparent',
+                color: trendTab === tab.id ? 'var(--text-primary)' : 'var(--text-secondary)',
                 fontSize: 'var(--text-sm)',
                 fontFamily: 'var(--font-body)',
                 cursor: 'pointer',
                 transition: 'all 150ms ease',
               }}
             >
-              {t.label}
+              {tab.label}
             </button>
           ))}
         </div>
@@ -158,8 +163,8 @@ export default function Analytics() {
         {shownTopics.length === 0 ? (
           <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)' }}>
             {!trendingTopics.deutschland?.length && !trendingTopics.international?.length
-              ? 'Wird geladen...'
-              : 'Keine Treffer'}
+              ? t('common.loading')
+              : t('analytics.no_data')}
           </div>
         ) : (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
@@ -188,7 +193,7 @@ export default function Analytics() {
       </Section>
 
       {/* ── Artikel pro Quelle ───────────────────── */}
-      <Section title="Artikel pro Quelle">
+      <Section title={t('analytics.sources_title')}>
         <ResponsiveContainer width="100%" height={320}>
           <BarChart data={ov.by_source} layout="vertical" margin={{ left: 8 }}>
             <XAxis type="number" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
@@ -207,7 +212,7 @@ export default function Analytics() {
       </Section>
 
       {/* ── Durchschnitt pro Tag ─────────────────── */}
-      <Section title="Durchschnittliche Artikel pro Tag" subtitle="Farbe zeigt politische Ausrichtung">
+      <Section title={t('analytics.avg_title')} subtitle={t('analytics.avg_sub')}>
         <ResponsiveContainer width="100%" height={420}>
           <BarChart data={sourceDetails} layout="vertical" margin={{ left: 8 }}>
             <XAxis type="number" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
@@ -223,7 +228,7 @@ export default function Analytics() {
       </Section>
 
       {/* ── Bias Verteilung ──────────────────────── */}
-      <Section title="Bias-Verteilung" subtitle="Politische Ausrichtung aller Artikel">
+      <Section title={t('analytics.bias_title')} subtitle={t('analytics.bias_sub')}>
         <ResponsiveContainer width="100%" height={260}>
           <PieChart>
             <Pie
@@ -234,7 +239,7 @@ export default function Analytics() {
               cy="50%"
               outerRadius={100}
               strokeWidth={0}
-              label={({ bias, percent }) => percent > 0.04 ? `${BIAS_LABELS[bias] || bias} ${(percent * 100).toFixed(0)}%` : ''}
+              label={({ bias, percent }) => percent > 0.04 ? `${biasLabels[bias] || bias} ${(percent * 100).toFixed(0)}%` : ''}
               labelLine={false}
             >
               {ov.by_bias.map(entry => (
@@ -250,25 +255,22 @@ export default function Analytics() {
       <Section
         title={
           <span style={{ display: 'inline-flex', alignItems: 'center', gap: 'var(--space-2)' }}>
-            Emotionsanalyse
-            <InfoIcon text="Das Modell klassifiziert Texte in 28 Emotionskategorien basierend auf dem GoEmotions-Datensatz. Neutral-Klasse wird ausgeblendet." />
+            {t('analytics.emotion_title')}
+            <InfoIcon text={t('analytics.emotion_info')} />
           </span>
         }
-        subtitle="Ermittelt mit AnasAlokla/multilingual_go_emotions_V1.2"
+        subtitle={t('analytics.emotion_sub')}
       >
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 'var(--space-8)' }}>
           {Object.entries(emotionsPerBias)
             .filter(([, emotions]) => Array.isArray(emotions) && emotions.length > 0)
-            .sort((a, b) => {
-              const order = ['left', 'left-liberal', 'neutral', 'conservative-liberal', 'economic-liberal', 'right-conservative', 'populist-mixed', 'far-right']
-              return order.indexOf(a[0]) - order.indexOf(b[0])
-            })
+            .sort((a, b) => BIAS_ORDER.indexOf(a[0]) - BIAS_ORDER.indexOf(b[0]))
             .map(([bias, emotions]) => (
               <div key={bias}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: 'var(--space-4)' }}>
                   <div style={{ width: '8px', height: '8px', background: BIAS_COLORS[bias] || 'var(--text-muted)', flexShrink: 0 }} />
                   <span style={{ fontSize: 'var(--text-sm)', color: 'var(--text-primary)', fontWeight: 500 }}>
-                    {BIAS_LABELS[bias] || bias}
+                    {biasLabels[bias] || bias}
                   </span>
                 </div>
                 <EmotionBar emotions={emotions} />
@@ -279,7 +281,7 @@ export default function Analytics() {
       </Section>
 
       {/* ── Veröffentlichungszeiten ──────────────── */}
-      <Section title="Veröffentlichungszeiten" subtitle="Wann werden Artikel publiziert? (Deutsche Zeit)">
+      <Section title={t('analytics.publish_title')} subtitle={t('analytics.publish_sub')}>
         <ResponsiveContainer width="100%" height={180}>
           <BarChart data={hourTotals} margin={{ left: 0 }}>
             <XAxis dataKey="hour" stroke="var(--border)" tick={{ fontSize: 10, fill: 'var(--text-secondary)' }} />
@@ -291,7 +293,7 @@ export default function Analytics() {
       </Section>
 
       {/* ── Wochentag ────────────────────────────── */}
-      <Section title="Aktivität nach Wochentagen">
+      <Section title={t('analytics.weekday_title')}>
         <ResponsiveContainer width="100%" height={180}>
           <BarChart data={weekdayTotals}>
             <XAxis dataKey="day" stroke="var(--border)" tick={{ fontSize: 12, fill: 'var(--text-secondary)' }} />
@@ -305,8 +307,8 @@ export default function Analytics() {
                 return (
                   <div style={{ ...TOOLTIP_STYLE, padding: 'var(--space-2) var(--space-3)', lineHeight: 1.7 }}>
                     <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>{label}</div>
-                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)' }}>{count} Artikel gesamt</div>
-                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>∅ Artikel/Tag: {avg}</div>
+                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)' }}>{t('analytics.articles_total', { count })}</div>
+                    <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)' }}>{t('analytics.avg_per_day', { avg })}</div>
                   </div>
                 )
               }}
@@ -317,7 +319,7 @@ export default function Analytics() {
       </Section>
 
       {/* ── Datenbasis-Wachstum ───────────────────── */}
-      <Section title="Datenbasis-Wachstum" subtitle="Kumulierte Artikel pro Tag">
+      <Section title={t('analytics.growth_title')} subtitle={t('analytics.growth_sub')}>
         <ResponsiveContainer width="100%" height={200}>
           <LineChart data={articlesPerDay}>
             <XAxis dataKey="date" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />

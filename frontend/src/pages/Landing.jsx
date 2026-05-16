@@ -1,26 +1,66 @@
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
-const SECTIONS = [
-  {
-    route: '/medienspiegel',
-    dim: 'I',
-    title: 'Medienspiegel',
-    subtitle: 'Wie berichten 19 deutsche Medien über gesellschaftliche Debatten?',
-    body: 'Täglich aktualisiert. Acht politische Themen. Von links bis rechts — wo gibt es Konsens, wo beginnt der Diskurs?',
-    meta: '19 Quellen · 8 Themen · täglich',
-  },
-  {
-    route: '/parteienspiegel',
-    dim: 'II',
-    title: 'Parteienspiegel',
-    subtitle: 'Wie haben sich Parteipositionen von 2005 bis 2025 entwickelt?',
-    body: 'Semantische Analyse aller Bundestagswahlprogramme. Wer nähert sich an, wer entfernt sich — und was sagen die Wahlergebnisse dazu?',
-    meta: '6 Parteien · 6 Wahlen · 2005–2025',
-  },
-]
+function LanguageToggle() {
+  const { i18n } = useTranslation()
+  const isDE = i18n.language === 'de'
+
+  const toggle = () => {
+    const next = isDE ? 'en' : 'de'
+    i18n.changeLanguage(next)
+    localStorage.setItem('diskursraum_lang', next)
+  }
+
+  return (
+    <button
+      onClick={toggle}
+      style={{
+        background: 'none',
+        border: '1px solid var(--border)',
+        fontFamily: 'var(--font-mono)',
+        fontSize: 'var(--text-xs)',
+        color: 'var(--text-muted)',
+        letterSpacing: '0.08em',
+        cursor: 'pointer',
+        padding: '3px 10px',
+        transition: 'all 150ms ease',
+      }}
+      onMouseEnter={e => {
+        e.currentTarget.style.borderColor = 'var(--signal)'
+        e.currentTarget.style.color = 'var(--text-secondary)'
+      }}
+      onMouseLeave={e => {
+        e.currentTarget.style.borderColor = 'var(--border)'
+        e.currentTarget.style.color = 'var(--text-muted)'
+      }}
+    >
+      {isDE ? 'EN' : 'DE'}
+    </button>
+  )
+}
 
 export default function Landing() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
+
+  const SECTIONS = [
+    {
+      route: '/medienspiegel',
+      dim: 'I',
+      title: t('landing.dim1_title'),
+      subtitle: t('landing.dim1_subtitle'),
+      body: t('landing.dim1_body'),
+      meta: t('landing.dim1_meta'),
+    },
+    {
+      route: '/parteienspiegel',
+      dim: 'II',
+      title: t('landing.dim2_title'),
+      subtitle: t('landing.dim2_subtitle'),
+      body: t('landing.dim2_body'),
+      meta: t('landing.dim2_meta'),
+    },
+  ]
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -42,24 +82,27 @@ export default function Landing() {
         }}>
           Diskursraum
         </span>
-        <button
-          onClick={() => navigate('/project')}
-          style={{
-            background: 'none',
-            border: 'none',
-            fontFamily: 'var(--font-mono)',
-            fontSize: 'var(--text-xs)',
-            color: 'var(--text-muted)',
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            cursor: 'pointer',
-            transition: 'color 150ms ease',
-          }}
-          onMouseEnter={e => e.currentTarget.style.color = 'var(--text-secondary)'}
-          onMouseLeave={e => e.currentTarget.style.color = 'var(--text-muted)'}
-        >
-          Project ↗
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-4)' }}>
+          <LanguageToggle />
+          <button
+            onClick={() => navigate('/project')}
+            style={{
+              background: 'none',
+              border: 'none',
+              fontFamily: 'var(--font-mono)',
+              fontSize: 'var(--text-xs)',
+              color: 'var(--text-muted)',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              cursor: 'pointer',
+              transition: 'color 150ms ease',
+            }}
+            onMouseEnter={e => e.currentTarget.style.color = 'var(--text-secondary)'}
+            onMouseLeave={e => e.currentTarget.style.color = 'var(--text-muted)'}
+          >
+            {t('landing.project_link')}
+          </button>
+        </div>
       </nav>
 
       {/* ── Hero ──────────────────────────────────── */}
@@ -120,7 +163,7 @@ export default function Landing() {
           textTransform: 'uppercase',
           marginBottom: 'var(--space-6)',
         }}>
-          Mapping Public Discourse in Germany
+          {t('landing.eyebrow')}
         </div>
 
         {/* Headline */}
@@ -133,8 +176,9 @@ export default function Landing() {
           color: 'var(--text-primary)',
           marginBottom: 'var(--space-8)',
           maxWidth: '760px',
+          whiteSpace: 'pre-line',
         }}>
-          Der deutsche<br />Diskurs —<br />sichtbar gemacht.
+          {t('landing.headline')}
         </h1>
 
         {/* Description */}
@@ -145,9 +189,7 @@ export default function Landing() {
           maxWidth: '560px',
           marginBottom: 'var(--space-16)',
         }}>
-          Zwei Dimensionen. Fünfzehn Medien. Sechs Parteien.
-          Zwanzig Jahre Wahlprogramme. Wo konvergiert Deutschland —
-          und wo spaltet es sich?
+          {t('landing.description')}
         </p>
 
         {/* ── Section Cards ────────────────────────── */}
@@ -176,7 +218,6 @@ export default function Landing() {
               onMouseEnter={e => e.currentTarget.style.background = 'var(--bg-elevated)'}
               onMouseLeave={e => e.currentTarget.style.background = 'var(--bg-surface)'}
             >
-              {/* Dim label */}
               <div style={{
                 fontFamily: 'var(--font-mono)',
                 fontSize: 'var(--text-xs)',
@@ -187,7 +228,6 @@ export default function Landing() {
                 Dimension {dim}
               </div>
 
-              {/* Title */}
               <div style={{
                 fontFamily: 'var(--font-display)',
                 fontSize: 'var(--text-xl)',
@@ -199,7 +239,6 @@ export default function Landing() {
                 {title}
               </div>
 
-              {/* Subtitle */}
               <div style={{
                 fontSize: 'var(--text-sm)',
                 color: 'var(--text-secondary)',
@@ -208,7 +247,6 @@ export default function Landing() {
                 {subtitle}
               </div>
 
-              {/* Body */}
               <div style={{
                 fontSize: 'var(--text-xs)',
                 color: 'var(--text-secondary)',
@@ -218,7 +256,6 @@ export default function Landing() {
                 {body}
               </div>
 
-              {/* Meta + arrow */}
               <div style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -256,7 +293,7 @@ export default function Landing() {
           fontFamily: 'var(--font-mono)',
           letterSpacing: '0.04em',
         }}>
-          Inspired by{' '}
+          {t('landing.inspired_by')}{' '}
           <a href="https://info.vtaiwan.tw/" target="_blank" rel="noopener noreferrer"
             style={{ color: 'var(--text-secondary)', textDecoration: 'underline', textUnderlineOffset: '3px' }}
           >vTaiwan</a>

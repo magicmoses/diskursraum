@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { getOverview } from '../api/client'
 import { BIAS_COLORS } from '../constants/colors'
 
@@ -74,6 +75,7 @@ const DECO = [
 
 export default function Home() {
   const navigate = useNavigate()
+  const { t } = useTranslation()
   const [bySource, setBySource] = useState([])
 
   useEffect(() => {
@@ -114,7 +116,7 @@ export default function Home() {
           textTransform: 'uppercase',
           marginBottom: 'var(--space-4)',
         }}>
-          Dimension I — Medienspiegel
+          {t('home.eyebrow')}
         </div>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -125,8 +127,9 @@ export default function Home() {
           letterSpacing: '-0.02em',
           marginBottom: 'var(--space-6)',
           maxWidth: '680px',
+          whiteSpace: 'pre-line',
         }}>
-          Wie berichtet Deutschland<br />über sich selbst?
+          {t('home.headline')}
         </h1>
         <p style={{
           fontSize: 'var(--text-lg)',
@@ -134,8 +137,7 @@ export default function Home() {
           lineHeight: 1.7,
           maxWidth: '560px',
         }}>
-          19 deutsche Medien. 8 politische Themen. Täglich aktualisiert.
-          Wo gibt es Konsens — und wo beginnt der Diskurs?
+          {t('home.description')}
         </p>
       </div>
 
@@ -157,7 +159,7 @@ export default function Home() {
             textTransform: 'uppercase',
             marginBottom: 'var(--space-4)',
           }}>
-            19 deutsche Medien — analysiert seit März 2026
+            {t('home.media_intro')}
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2px' }}>
             {bySource.map(({ source, count }) => {
@@ -231,7 +233,7 @@ export default function Home() {
           <span style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--signal)' }}>
             II
           </span>
-          zu Dimension II Parteienspiegel
+          {t('home.dim2_button')}
           <span style={{ color: 'var(--text-muted)' }}>→</span>
         </div>
       </div>
@@ -265,7 +267,7 @@ export default function Home() {
         >Plurality</a>{' '}
         by Audrey Tang & E. Glen Weyl.
       </p>
-      </div>{/* closes content wrapper */}
+      </div>
     </div>
   )
 }
