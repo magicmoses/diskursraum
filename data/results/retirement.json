@@ -1,30 +1,88 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 41,
-  "candidate_count": 87,
+  "article_count": 47,
+  "candidate_count": 99,
   "outlets": {
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 8,
       "sample_titles": [
+        "Fehlende Altersvorsorge: Wie viel Rente bekommt man, wenn man nie gearbeitet hat?",
+        "Rentenerhöhung: Diese Tabelle zeigt, wie viel Rente Sie dieses Jahr mehr bekommen",
         "Reform privater Altersvorsorge nimmt letzte parlamentarische Hürde",
-        "Länger arbeiten? Beamte rein?: Die Politik bastelt an einer Rentenreform – worauf wir uns einstellen müssen",
-        "Bundesrat entscheidet über private Altersvorsorge und Entlastungsprämie",
-        "Rente ab 63: Diese Tabellen zeigen, wer wann in Rente kann – und mit welchen Einbußen"
+        "Länger arbeiten? Beamte rein?: Die Politik bastelt an einer Rentenreform – worauf wir uns einstellen müssen"
       ],
       "urls": [
+        "https://www.stern.de/wirtschaft/versicherung/kann-man-rente-bekommen--ohne-je-gearbeitet-zu-haben---35484798.html",
+        "https://www.stern.de/wirtschaft/versicherung/rentenerhoehung--so-viel-geld-gibt-es-im-jahr-2026-mehr-35532388.html",
         "https://www.stern.de/news/reform-privater-altersvorsorge-nimmt-letzte-parlamentarische-huerde-37380958.html",
-        "https://www.stern.de/wirtschaft/politik-plant-rentenreform--worauf-wir-uns-einstellen-muessen-37369070.html",
-        "https://www.stern.de/news/bundesrat-entscheidet-ueber-private-altersvorsorge-und-entlastungspraemie-37379338.html",
-        "https://www.stern.de/wirtschaft/versicherung/in-rente-mit-63--diese-tabellen-zeigen--wann-sie-in-rente-koennen-35505056.html"
+        "https://www.stern.de/wirtschaft/politik-plant-rentenreform--worauf-wir-uns-einstellen-muessen-37369070.html"
       ],
-      "dominant_emotion": "disappointment",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
           "emotion": "disappointment",
+          "count": 1
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 6,
+      "sample_titles": [
+        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen",
+        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen",
+        "Müntefering über Reformen: „Wir brauchen die Menschen auch in einem Alter zwischen 67 und 95“",
+        "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/finanzen/finanzmarkt/was-sie-ueber-die-neue-gefoerderte-altersvorsorge-wissen-muessen-accg-200818609.html",
+        "https://www.faz.net/aktuell/finanzen/finanzmarkt/private-altersvorsorge-was-kunden-zur-reform-wissen-muessen-accg-200818609.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/franz-muentefering-die-menschen-muessen-sehen-da-bewegt-sich-was-accg-200810206.html",
+        "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 6,
+      "sample_titles": [
+        "Bundesbank-Präsident fordert Koppelung des Rentenalters an Lebenserwartung",
+        "Mit 96 Prozent wiedergewählt – Fahimi warnt vor „Rentenklau“ und unterstellt JU „Enkeltrick“",
+        "5,1 Millionen Babyboomern droht Rente unter 800 Euro",
+        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/article6a040870761b8b46253f0365/rente-bundesbank-praesident-fordert-koppelung-des-rentenalters-an-lebenserwartung.html",
+        "https://www.welt.de/politik/deutschland/article6a01b7e9453b15e119074d89/dgb-vorsitz-mit-96-prozent-wiedergewaehlt-fahimi-warnt-vor-rentenklau-und-unterstellt-ju-enkeltrick.html",
+        "https://www.welt.de/politik/deutschland/video69fc337d87d0c99f1a8b3e79/wohnarmut-im-alter-5-1-millionen-babyboomern-droht-rente-unter-800-euro.html",
+        "https://www.welt.de/videos/video69fc41d787d0c99f1a8b402f/studie-des-pestel-instituts-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -54,60 +112,6 @@
         },
         {
           "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen",
-        "Müntefering über Reformen: „Wir brauchen die Menschen auch in einem Alter zwischen 67 und 95“",
-        "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell",
-        "Fachleute Ermitteln: Die Frührente ist schlecht fürs Gehirn"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/finanzen/finanzmarkt/private-altersvorsorge-was-kunden-zur-reform-wissen-muessen-accg-200818609.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/franz-muentefering-die-menschen-muessen-sehen-da-bewegt-sich-was-accg-200810206.html",
-        "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html",
-        "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/fruehrente-und-gehirn-warum-zu-frueher-ruhestand-schadet-accg-200787506.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 5,
-      "sample_titles": [
-        "Mit 96 Prozent wiedergewählt – Fahimi warnt vor „Rentenklau“ und unterstellt JU „Enkeltrick“",
-        "5,1 Millionen Babyboomern droht Rente unter 800 Euro",
-        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders",
-        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders hart"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article6a01b7e9453b15e119074d89/dgb-vorsitz-mit-96-prozent-wiedergewaehlt-fahimi-warnt-vor-rentenklau-und-unterstellt-ju-enkeltrick.html",
-        "https://www.welt.de/politik/deutschland/video69fc337d87d0c99f1a8b3e79/wohnarmut-im-alter-5-1-millionen-babyboomern-droht-rente-unter-800-euro.html",
-        "https://www.welt.de/videos/video69fc41d787d0c99f1a8b402f/studie-des-pestel-instituts-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders.html",
-        "https://www.welt.de/politik/deutschland/article69fbd4e1c6d2944c8df6ae53/bericht-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders-hart.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -145,13 +149,15 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
+        "Rente: Ökonom Jens Südekum fordert späteren Ruhestand für Akademiker",
         "Altersvorsorgedepot-Rechner: So viel Geld schenkt Ihnen der Staat für Ihren ETF-Sparplan",
         "Renten: Eintritt nach Beitragsjahren statt Lebensalter – verlieren würden Mütter und Arbeitslose",
         "Rente: Koalition plant Milliarden-Griff in die Rentenkasse - Experte spricht von \"Diebstahl\""
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/soziales/rente-oekonom-jens-suedekum-fordert-spaeteren-ruhestand-fuer-akademiker-a-4135ecc6-13f9-46d8-91f1-10b01098f630#ref=rss",
         "https://www.spiegel.de/wirtschaft/service/altersvorsorgedepot-rechner-so-viel-geld-schenkt-ihnen-der-staat-fuer-ihren-etf-sparplan-a-782bcc1f-cf9d-4468-ab04-421810785453#ref=rss",
         "https://www.spiegel.de/wirtschaft/soziales/renten-eintritt-nach-beitragsjahren-statt-lebensalter-verlieren-wuerden-muetter-und-arbeitslose-a-33ff9656-4fad-4895-8f92-7c9bcb6be581#ref=rss",
         "https://www.spiegel.de/wirtschaft/soziales/rente-koalition-plant-milliarden-griff-in-die-rentenkasse-experte-spricht-von-diebstahl-a-8b673f8f-6dad-49bd-94e7-db10eb20b197#ref=rss"
@@ -164,6 +170,33 @@
         },
         {
           "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 3,
+      "sample_titles": [
+        "Neue Option für Millionen - So kommen Sie als Mini-Jobber wieder in die Renteversicherung",
+        "Steuern rauf! Gesundheits-Soli! Renten-Streiks! - DGB-Chefin macht Brutalo-Ansage an Merz",
+        "Neues Altersvorsorgedepot - Trick im Gesetz! So hilft der Staat beim Hauskauf"
+      ],
+      "urls": [
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/minijob-neue-renten-chance-fuer-millionen-beschaeftigte-69fc7910122b28e67b1dedaa",
+        "https://www.bild.de/politik/inland/dgb-chefin-yasmin-fahimi-macht-brutalo-ansage-an-merz-6a01a25ed347a2d6b4a7e5d3",
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-hilft-das-neue-renten-depot-beim-hauskauf-69f9b24296fe1372395e9e30"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -246,39 +279,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 1,
-      "sample_titles": [
-        "Neues Altersvorsorgedepot - Trick im Gesetz! So hilft der Staat beim Hauskauf"
-      ],
-      "urls": [
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-hilft-das-neue-renten-depot-beim-hauskauf-69f9b24296fe1372395e9e30"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "Nur ein Dreikampf im Rennen ums rettende Bundesliga-Ufer?"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/sport/fussball-bundesliga-abstiegskampf-vfl-wolfsburg-fc-st-pauli-1-fc-heidenheim-100.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
@@ -295,16 +295,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 12,
-    "right-conservative": 10,
-    "conservative-liberal": 7,
+    "populist-mixed": 3,
+    "left-liberal": 15,
+    "conservative-liberal": 8,
+    "right-conservative": 11,
     "far-right": 2,
     "economic-liberal": 5,
-    "neutral": 3,
-    "populist-mixed": 1,
+    "neutral": 2,
     "left": 1
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass die Deutschen aufgrund des demographischen Wandels und der steigenden Lebenserwartung länger arbeiten müssen, um eine ausreichende Rente zu erhalten. Eine weitere Gemeinsamkeit besteht in der Betonung der Notwendigkeit einer kapitalgedeckten Vorsorge, wie etwa durch die Riester-Rente oder betriebliche Altersvorsorge, um die Finanzierbarkeit des Rentensystems zu sichern und Altersarmut zu vermeiden. Darüber hinaus wird in vielen Medien die Generationengerechtigkeit thematisiert, indem die Frage diskutiert wird, wie die Lasten des Rentensystems fair zwischen den Generationen verteilt werden können, um eine nachhaltige und gerechte Altersvorsorge zu gewährleisten.",
-  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine grundlegende Konfliktlinie zwischen den Befürwortern einer kapitalgedeckten Vorsorge und denen, die eine stärkere Rolle der gesetzlichen Rentenversicherung fordern, wobei die erstere Gruppe oft von liberalen und konservativen Medien vertreten wird, während die letztere Gruppe von linken und sozialdemokratischen Medien unterstützt wird. Eine weitere Spannungslinie verläuft zwischen den Generationen, da die jüngeren Menschen oft befürchten, dass die aktuellen Rentenreformen und die steigende Lebenserwartung zu einer Belastung für sie führen werden, während die älteren Menschen um ihre Rentenansprüche und ihre Alterssicherung bangen, was in den Medien zu einer Debatte über Generationengerechtigkeit und Finanzierbarkeit der Rentenversicherung führt. Die Diskussion um das Renteneintrittsalter und die Frage, ob man mit 63, 67 oder 70 in Rente gehen soll, spiegelt diese Konflikte wider und zeigt, dass die deutsche Gesellschaft vor einer großen Herausforderung steht, nämlich einer nachhaltigen und gerechten Altersvorsorge für alle Generationen zu finden.",
-  "cached_at": "2026-05-13T07:20:25.210522"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass die Debatte um das Renteneintrittsalter und die Finanzierbarkeit der gesetzlichen Rentenversicherung von zentraler Bedeutung ist. Unabhängig von der politischen Ausrichtung der Medien wird betont, dass die demografische Entwicklung und die damit verbundene Alterung der Gesellschaft eine große Herausforderung für das Rentensystem darstellt und dass eine Anpassung des Rentenalters an die höhere Lebenserwartung erforderlich ist. Darüber hinaus wird von vielen Medien die Notwendigkeit einer kapitalgedeckten Vorsorge und einer stärkeren Einbindung des Kapitalmarktes in die Altersvorsorge betont, um die Finanzierbarkeit des Rentensystems langfristig zu sichern.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den politischen Lagern, insbesondere zwischen linken und konservativen Kräften, die unterschiedliche Vorstellungen von Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung vertreten. Die Debatte um das Renteneintrittsalter und die Frage, ob das Rentenalter an die höhere Lebenserwartung gekoppelt werden sollte, spaltet die Meinungen und offenbart tiefe Spannungsfelder zwischen denjenigen, die eine Anpassung an die demografische Realität fordern, und denen, die eine Erhöhung des Rentenalters ablehnen, da sie befürchten, dass dies zu Altersarmut und sozialer Ungerechtigkeit führen könnte. Die Diskussion um die Riester-Rente und andere Formen der kapitalgedeckten Vorsorge verdeutlicht zudem die Konflikte zwischen Befürwortern einer stärkeren Privatisierung der Altersvorsorge und denen, die eine solidarische, staatlich finanzierte Rentenversicherung bevorzugen.",
+  "cached_at": "2026-05-16T06:58:26.915228"
 }

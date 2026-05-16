@@ -1,38 +1,100 @@
 {
   "topic_id": "work_transition",
   "topic_label": "Arbeit im Wandel",
-  "article_count": 147,
-  "candidate_count": 216,
+  "article_count": 191,
+  "candidate_count": 285,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 30,
+      "article_count": 39,
       "sample_titles": [
-        "Ministerium prüft Dörrs Nebenbeschäftigung im Krankenstand",
-        "Jung, Akademiker, kein Job: Warum es für junge Absolventen schwieriger auf dem Arbeitsmarkt wird",
-        "Verdi fordert 14 Prozent mehr durch Warnstreik am Klinikum Templin",
-        "Lufthansa-Hauptversammlung in turbulenten Zeiten"
+        "Südhessen: Warnstreik bremst am Montag Busse und Bahnen aus",
+        "Verdi-Streik im Einzelhandel: Rewe, Penny, Ikea und Co. betroffen",
+        "Heute Streiks im Einzelhandel in NRW",
+        "Verdi-Streik im Einzelhandel: Rewe, Penny, Ikea und Co. betroffen"
       ],
       "urls": [
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/sohn_josef_doerr_nebentaetigkeit_100.html",
-        "https://www.swr.de/swraktuell/jung-akademiker-kein-job-100.html",
-        "https://www.rbb24.de/wirtschaft/beitrag/2026/05/warnstreik-verdi-klinikum-templin.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/lufthansa-1078.html"
+        "https://www.hessenschau.de/wirtschaft/suedhessen-warnstreik-bremst-am-montag-busse-und-bahnen-aus-v1,streik-heag-100.html",
+        "https://www.hessenschau.de/wirtschaft/verdi-streik-im-einzelhandel-rewe-penny-ikea-und-co-betroffen-v4,verdi_warnstreik-102.html",
+        "https://www1.wdr.de/wirtschaft/kaufland-rewe-ikea-streik-verdi-freitag-nrw-100.html",
+        "https://www.hessenschau.de/wirtschaft/verdi-streik-im-einzelhandel-rewe-penny-ikea-und-co-betroffen-v2,verdi_warnstreik-102.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
+          "count": 4
+        },
+        {
+          "emotion": "disappointment",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 19,
+      "sample_titles": [
+        "Am Brückentag: Warnstreiks bei Kaufland, Rewe und Co.",
+        "Warum Bürgergeldbetrug nur schwer auffliegt",
+        "Schwarzarbeit trotz staatlicher Hilfe",
+        "Union: 1.000-Euro-Prämie für Arbeitnehmer ist vom Tisch"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/verdi-streik-kaufland-rewe-edeka-brueckentag-100.html",
+        "https://www.zdfheute.de/politik/deutschland/am-puls-buergergeld-schwarzarbeit-betrug-100.html",
+        "https://www.zdfheute.de/video/politik-system-buergeld-die-spur-video-100.html",
+        "https://www.zdfheute.de/politik/deutschland/entlastungspraemie-koalition-union-spahn-100.html"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
           "count": 3
         },
         {
-          "emotion": "anger",
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 18,
+      "sample_titles": [
+        "Tarifstreit im Einzelhandel: Verdi ruft heute bei Ikea zum Warnstreik auf",
+        "Sachsen-Anhalt: Schulze setzt auf Zuwanderung in den Arbeitsmarkt",
+        "Tarife: Warnstreik im Handel - Kundgebung mit 600 Beschäftigten",
+        "Tarifverhandlungen: Warnstreiks im Handel: Keine Folgen für Kunden erwartet"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/tarifstreit-im-einzelhandel--verdi-ruft-heute-bei-ikea-zum-warnstreik-auf-37401960.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--schulze-setzt-auf-zuwanderung-in-den-arbeitsmarkt-37401978.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarife--warnstreik-im-handel---kundgebung-mit-600-beschaeftigten-37400686.html",
+        "https://www.stern.de/wirtschaft/news/tarifverhandlungen--warnstreiks-im-handel--keine-folgen-fuer-kunden-erwartet-37399496.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -43,87 +105,29 @@
       "bias": "conservative-liberal",
       "article_count": 17,
       "sample_titles": [
+        "Kriselnder Arbeitsmarkt: Hier gibt es noch Arbeitsplätze",
+        "Umbruch auf dem Arbeitsmarkt: Die KI trifft die Frauen härter",
         "KanzlerRede beim DGB: Gelungene Generalprobe für eine Merz-Agenda",
-        "Pfiffe für den Kanzler: Merz wird beim DGB-Bundeskongress ausgebuht",
-        "Deutschland-Liveblog: Bas: Mehr Frauenpower kann nur gut sein für die Arbeitswelt",
-        "Kanzler beim DGB: Pfiffe für Merz wie einst für Merkel"
+        "KanzlerRede beim DGB: Gelungene Generalprobe für eine Merz-Agenda"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/gelungene-generalprobe-fuer-eine-merz-agenda-200825612.html",
-        "https://www.faz.net/video/merz-wird-beim-dgb-bundeskongress-ausgebuht-200825404.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-bas-mehr-frauenpower-kann-nur-gut-sein-fuer-die-arbeitswelt-faz-110093143.html",
-        "https://www.faz.net/aktuell/politik/inland/kanzler-beim-dgb-pfiffe-fuer-merz-wie-einst-fuer-merkel-200822622.html"
+        "https://www.faz.net/aktuell/finanzen/hier-gibt-es-noch-arbeitsplaetze-200813564.html",
+        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/arbeitsmarkt-ki-trifft-jobs-von-frauen-haerter-accg-200826571.html",
+        "https://www.faz.net/aktuell/wirtschaft/friedrich-merz-liefert-bei-dgb-kongress-beachtenswerte-rede-ab-200825612.html",
+        "https://www.faz.net/aktuell/wirtschaft/gelungene-generalprobe-fuer-eine-merz-agenda-200825612.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 15,
-      "sample_titles": [
-        "Juso-Chef Türmer nennt geplante Reform des Acht-Stunden-Tags „eine Frechheit“",
-        "Diese Frau stürzt das ganze Land in die Krise",
-        "Ich habe mir ausgerechnet, was ich mit Bürgergeld bekäme, und bin schockiert",
-        "„Zuwanderer bringen das System an den Rand des Kollaps“ – Heftige Kritik an Bas"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article6a03bbf4cd4a28c47002567a/juso-chef-tuermer-nennt-geplante-reform-des-acht-stunden-tags-eine-frechheit.html",
-        "https://www.welt.de/debatte/plus6a02c057453b15e1190759c0/dgb-chefin-fahimi-diese-frau-stuerzt-das-ganze-land-in-die-krise.html",
-        "https://www.welt.de/debatte/plus6a018f96453b15e1190748b8/sozialstaat-ich-habe-mir-ausgerechnet-was-ich-mit-buergergeld-bekaeme-und-bin-schockiert.html",
-        "https://www.welt.de/politik/deutschland/article6a02b49a4f254c54fa77cd06/vor-koalitionsausschuss-zuwanderer-bringen-das-system-an-den-rand-des-kollaps-heftige-kritik-an-bas.html"
-      ],
-      "dominant_emotion": "disappointment",
-      "top_emotions": [
-        {
-          "emotion": "disappointment",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 15,
-      "sample_titles": [
-        "Im Video: Buhrufe und Gelächter bei Merz-Rede",
-        "DGB-Kongress: Rede von Finanzminister Klingbeil",
-        "DGB-Bundeskongress: Rede von Bundeskanzler Merz",
-        "DGB-Bundeskongress: Kampf gegen Sozialabbau"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/video/zdfheute-xpress/buhrufe-gelaechter-bei-merz-rede-dbg-bundeskongress-video-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-der-tag/ua-verteidigungsminister-a-5189717.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-rede-von-bundeskanzler-a-5189637.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-dgb-bundeskongress-mit-a-5189649.html"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
           "count": 3
         },
         {
-          "emotion": "disgust",
-          "count": 2
+          "emotion": "approval",
+          "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "joy",
           "count": 1
         }
       ]
@@ -132,85 +136,27 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 13,
+      "article_count": 16,
       "sample_titles": [
         "DGB-Kongress: Streit um Wochenarbeitszeit – Bas will Gewerkschaften und Arbeitgeber an einen Tisch bringen",
-        "DGB-Kongress: „Mathematik“ als Reizwort: Gewerkschafter stören Kanzlerrede mit Zwischenrufen",
         "Luftfahrt: Lufthansa-Aktionäre: „Nichts ist so sicher wie der nächste Streik“",
+        "DGB-Kongress: „Mathematik“ als Reizwort: Gewerkschafter stören Kanzlerrede mit Zwischenrufen",
         "DGB: Klingbeil bittet Gewerkschafter um Verständnis für Reformen"
       ],
       "urls": [
         "https://www.handelsblatt.com/politik/deutschland/wochenarbeitszeit-bas-will-gewerkschaften-und-arbeitgeber-an-einen-tisch-bringen/100224464.html",
-        "https://www.handelsblatt.com/politik/deutschland/dgb-bundeskongress-gewerkschafter-stoeren-kanzlerrede-mit-zwischenrufen/100224402.html",
         "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/lufthansa-aktionaere-nichts-ist-so-sicher-wie-der-naechste-streik/100222427.html",
+        "https://www.handelsblatt.com/politik/deutschland/dgb-bundeskongress-gewerkschafter-stoeren-kanzlerrede-mit-zwischenrufen/100224402.html",
         "https://www.handelsblatt.com/politik/deutschland/dgb-klingbeil-bittet-gewerkschafter-um-verstaendnis-fuer-reformen/100224021.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "optimism",
       "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
         {
           "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 11,
-      "sample_titles": [
-        "Gewerkschaften: Pfiffe und Buhrufe für Merz beim DGB-Kongress",
-        "Tarifverhandlungen: Verdi ruft erneut zu Warnstreik bei der Telekom auf",
-        "DGB-Chefin Fahimi wehrt sich gegen Angriffe auf Sozialstaat und Arbeitnehmerrechte",
-        "Tarife: Verdi ruft zum Warnstreik im Hamburger Handel auf"
-      ],
-      "urls": [
-        "https://www.stern.de/politik/deutschland/gewerkschaften--pfiffe-und-buhrufe-fuer-merz-beim-dgb-kongress-37390176.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/tarifverhandlungen--verdi-ruft-erneut-zu-warnstreik-bei-der-telekom-auf-37389812.html",
-        "https://www.stern.de/news/dgb-chefin-fahimi-wehrt-sich-gegen-angriffe-auf-sozialstaat-und-arbeitnehmerrechte-37388104.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarife--verdi-ruft-zum-warnstreik-im-hamburger-handel-auf-37379364.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "DGB-Kongress: Friedrich Merz hat es schwer bei den Gewerkschaftern - aber Bas und Klingbeil haben es nicht viel leichter",
-        "Friedrich Merz auf DGB-Kongress ausgebuht: »Deutschland muss sich aufraffen«",
-        "Bärbel Bas wirbt auf DGB-Kongress für Reformen und Mehrarbeit bei Frauen",
-        "News: Koalitionsausschuss im Kanzleramt, Bärbel Bas, Keir Starmer, Arbeitszeit"
-      ],
-      "urls": [
-        "https://www.spiegel.de/politik/deutschland/dgb-kongress-friedrich-merz-hat-es-schwer-bei-den-gewerkschaftern-aber-bas-und-klingbeil-haben-es-nicht-viel-leichter-a-b20d5549-3537-4f3f-a23e-c238ac411b69#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/friedrich-merz-auf-dgb-kongress-ausgebuht-deutschland-muss-sich-aufraffen-a-b33615d2-a8f2-421e-b2a8-956a4e7335d5#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/baerbel-bas-wirbt-auf-dgb-kongress-fuer-reformen-und-mehrarbeit-bei-frauen-a-a6733354-7c2d-46e1-b18d-e8391620c486#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/news-koalitionsausschuss-im-kanzleramt-baerbel-bas-keir-starmer-arbeitszeit-a-a315b741-510d-47ee-b0da-d72ecfcf149d#ref=rss"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "admiration",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -219,52 +165,89 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 8,
+      "article_count": 15,
       "sample_titles": [
-        "\"Ist keine Bösartigkeit von mir\": Merz wirbt für Reformen - und wird beim DGB hart ausgepfiffen",
-        "Bis Ende des Jahres: Bund sichert Beschäftigung für Raffinerie Schwedt",
-        "Will Gewerkschaft mobilisieren: DGB-Chefin Fahimi mit über 96 Prozent wiedergewählt",
-        "Sparte vor Verkauf: Conti streicht bei Kautschuk-Tochter Tausende Jobs"
+        "\"Unsere größte Stärke\": Biontech kehrt zu seinen \"Wurzeln\" zurück - Betriebsrat verärgert",
+        "Verdi fordert Lohnerhöhungen: Tausende streiken im Handel - Verzögerungen im Supermarkt?",
+        "\"Alle Standorte bleiben\": IG Metall und Betriebsrat machen VW-Spitze eine Basta-Ansage",
+        "Kündigungsschutz im Visier: Handwerkspräsident vergleicht Arbeit der Bundesregierung mit \"Pfusch\" am Bau"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Merz-wirbt-fuer-Reformen-und-wird-beim-DGB-hart-ausgepfiffen-id30812642.html",
-        "https://www.n-tv.de/politik/Raffinerie-PCK-Schwedt-Bund-sichert-Beschaeftigung-bis-Ende-2026-id30809214.html",
-        "https://www.n-tv.de/politik/DGB-Chefin-Fahimi-mit-ueber-96-Prozent-wiedergewaehlt-id30809292.html",
-        "https://www.n-tv.de/wirtschaft/Conti-streicht-bei-Kautschuk-Tochter-Tausende-Jobs-id30798214.html"
+        "https://www.n-tv.de/wirtschaft/Biontech-kehrt-zu-seinen-Wurzeln-zurueck-Betriebsrat-veraergert-id30826057.html",
+        "https://www.n-tv.de/wirtschaft/Tausende-streiken-im-Handel-Verzoegerungen-im-Supermarkt-id30825728.html",
+        "https://www.n-tv.de/wirtschaft/IG-Metall-und-Betriebsrat-machen-VW-Spitze-eine-Basta-Ansage-id30823071.html",
+        "https://www.n-tv.de/politik/Handwerkspraesident-vergleicht-Arbeit-der-Bundesregierung-mit-Pfusch-am-Bau-id30822563.html"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
         {
           "emotion": "sadness",
           "count": 1
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 6,
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 14,
       "sample_titles": [
-        "Steuern rauf! Gesundheits-Soli! Renten-Streiks! - DGB-Chefin macht Brutalo-Ansage an Merz",
-        "13-Stunden-Tag möglich - Regierung rüttelt am Arbeitszeit-Gesetz",
-        "Wenn „das Fass zum Überlaufen kommt“ - IG‑Metall-Chefin droht mit Massenprotesten",
-        "Gewerkschaft droht Regierung mit Protesten - Riesenzoff um 8-Stunden-Tag"
+        "„Weil wir eine Haltung haben“ – Rostocks Sozialsenator verweigert Totalsanktionen beim Bürgergeld",
+        "Die Weltfremdheit des DGB erfordert einen Aufstand der Arbeiter",
+        "Immer weniger Netto vom Brutto – Singles bleiben im Schnitt 65 Cent pro Euro",
+        "Juso-Chef Türmer nennt geplante Reform des Acht-Stunden-Tags „eine Frechheit“"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/dgb-chefin-yasmin-fahimi-macht-brutalo-ansage-an-merz-6a01a25ed347a2d6b4a7e5d3",
-        "https://www.bild.de/politik/13-stunden-tag-moeglich-regierung-ruettelt-am-arbeitszeit-gesetz-69fb4ada68e679ae0ccd4c58",
-        "https://www.bild.de/politik/inland/ig-metall-chefin-droht-mit-massenprotesten-wenn-das-fass-ueberlaeuft-6a0185467b6d0cd4a33ac7ca",
-        "https://www.bild.de/politik/inland/regierung-will-arbeitszeitgesetz-aendern-gewerkschaften-sind-sauer-riesenzoff-um-8-stunden-tag-69f4931d887f1287a1649c98"
+        "https://www.welt.de/politik/deutschland/article6a06ff0fd1570d73067a0e24/rostock-weil-wir-eine-haltung-haben-sozialsenator-verweigert-totalsanktionen-beim-buergergeld.html",
+        "https://www.welt.de/debatte/plus6a06c5bbd1570d73067a0925/gewerkschaften-strukturkonservative-institutionen-des-oekonomischen-niedergangs.html",
+        "https://www.welt.de/videos/video6a06ab5bd1570d73067a0811/abgabenlast-steigt-immer-weniger-netto-vom-brutto-singles-bleiben-im-schnitt-65-cent-pro-euro.html",
+        "https://www.welt.de/politik/deutschland/article6a03bbf4cd4a28c47002567a/juso-chef-tuermer-nennt-geplante-reform-des-acht-stunden-tags-eine-frechheit.html"
       ],
-      "dominant_emotion": "excitement",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "excitement",
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "disappointment",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 13,
+      "sample_titles": [
+        "Achtstundentag: Warum längere Arbeitstage auch den Beschäftigten helfen",
+        "Bundesregierung: CDU-Arbeitnehmerflügel und SPD-Konservative mahnen Frieden an",
+        "Achtstundentag: CDU und CSU machen Druck auf Bärbel Bas bei Arbeitszeitgesetz",
+        "DGB-Kongress in Berlin: Die Sozialpartnerschaft ist am Ende"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/soziales/achtstundentag-warum-laengere-arbeitstage-auch-den-beschaeftigten-helfen-a-34b1ccf1-d76b-43d5-b173-4a0911f5d490#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/bundesregierung-cdu-arbeitnehmerfluegel-und-spd-konservative-mahnen-frieden-an-a-29db8d75-6b4a-40be-9980-3c1127fe50aa#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/achtstundentag-cdu-und-csu-machen-druck-auf-baerbel-bas-bei-arbeitszeitgesetz-a-a159f9f7-f9a2-4db9-a5d0-bd40203c59ac#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/dgb-kongress-in-berlin-die-sozialpartnerschaft-ist-am-ende-a-ea87d78b-2fef-4f45-b491-b61421549da5#ref=rss"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -273,21 +256,55 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 5,
+      "article_count": 9,
       "sample_titles": [
-        "Arbeitszeit: Juso-Chef Türmer lehnt geplante Lockerung von Achtstundentag ab",
-        "Tarifverhandlungen: Verdi ruft erneut zu Warnstreik bei der Telekom auf",
-        "Lieferstopp für Öl aus Kasachstan: Beschäftigungsgarantie für Raffinerie in Schwedt wird verlängert",
-        "Tarifkonflikt: Ver.di weitet Warnstreiks bei Deutscher Telekom aus"
+        "Tarifstreit im Einzelhandel: Verdi ruft heute bei Ikea zum Warnstreik auf",
+        "Lob von der GdP: Gewerkschaft: Einsatz bei Castor-Transporten gut organisiert",
+        "Statistisches Bundesamt: Produktion in energieintensiver Industrie geht seit 2022 zurück",
+        "Debatte um Reformen: Arbeitgeberpräsident fordert mehr Reformbereitschaft von der SPD"
       ],
       "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-05/philipp-tuermer-friedrich-merz-wochenarbeitszeit-achtstundentag-jusos",
-        "https://www.zeit.de/news/2026-05/11/verdi-ruft-erneut-zu-warnstreik-bei-der-telekom-auf",
-        "https://www.zeit.de/wirtschaft/2026-05/pck-raffinerie-schwedt-beschaeftigungsgarantie-lieferstopp-oel-kasachstan-russland-gxe",
-        "https://www.zeit.de/politik/ausland/2026-05/streik-ausweitung-telekom-verdi-bundeslaender"
+        "https://www.zeit.de/news/2026-05/16/verdi-ruft-heute-bei-ikea-zum-warnstreik-auf",
+        "https://www.zeit.de/news/2026-05/16/gewerkschaft-einsatz-bei-castor-transporten-gut-organisiert",
+        "https://www.zeit.de/wirtschaft/2026-05/statistisches-bundesamt-produktion-energieintensive-industrie-rueckgang",
+        "https://www.zeit.de/politik/deutschland/2026-05/rainer-dulger-arbeitgeberpraesident-reform-spd-gewerkschaften"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "pride",
+      "top_emotions": [
+        {
+          "emotion": "pride",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 8,
+      "sample_titles": [
+        "Kommentar zum Reformstau - Ein Ruck für Arbeitnehmer und Unternehmer!",
+        "Bürgergeldempfänger packt aus - So zocke ich euch Stuerzahler ab!",
+        "Gerüchte über deutsche Werke - Betriebsrat macht Klartext-Ansage an VW-Bosse",
+        "Aufgepasst! - Streik im Einzelhandel! Diese Läden sind betroffen"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-zum-reformstau-ein-ruck-fuer-arbeitnehmer-und-unternehmer-6a0774bcd1570d73067a1507",
+        "https://www.bild.de/politik/inland/buergergeld-wahrheit-im-zdf-so-schlimm-zocken-uns-stuetze-empfaenger-ab-6a06e16d847da7a92c144de0",
+        "https://www.bild.de/politik/inland/deutsche-standorte-von-volkswagen-betriebsrat-macht-klartext-ansage-an-vw-bosse-6a07096e639442857fa20478",
+        "https://www.bild.de/politik/streik-im-einzelhandel-diese-laeden-sind-betroffen-6a05cdc900369f8bee8547e2"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
@@ -297,14 +314,39 @@
       "sample_titles": [
         "Trotz heftiger Kritik Bas beharrt auf Sozialsystem-Aussage",
         "Merz beim DGB ausgepfiffen Schreier aus einem Land vor unserer Zeit",
-        "JF-Faktencheck So viele Migranten wandern wirklich in die Sozialsysteme ein",
+        "Landwirtschaft Wenn der Weinbau verdorrt",
         "Neuer Rekord Bürgergeld-Empfänger erhalten so viel wie noch nie"
       ],
       "urls": [
         "https://jungefreiheit.de/politik/deutschland/2026/bas-beharrt-auf-sozialsystem-aussage/",
         "https://jungefreiheit.de/debatte/kommentar/2026/merz-beim-dgb-schreier-aus-einem-land-vor-unserer-zeit/",
-        "https://jungefreiheit.de/politik/deutschland/2026/so-viele-migranten-wandern-wirklich-in-die-sozialsysteme-ein/",
+        "https://jungefreiheit.de/wissen/2026/wenn-der-weinbau-verdorrt/",
         "https://jungefreiheit.de/politik/deutschland/2026/buergergeld-empfaenger-erhalten-so-viel-wie-noch-nie/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "225.000 Arbeitsplätze fallen in der Auto-Industrie weg",
+        "Friedrich Merz erntet Buhrufe und Gelächter beim DGB-Kongress",
+        "Bärbel Bas erklärt Bürgergeld-Wunder: Niemand kommt wegen Geld, aber fast jeder Zweite ohne deutschen Pass",
+        "Jobverlust-Report April"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/wirtschaft/mobilitaet/225000-arbeitsplaetze-fallen-in-der-autoindustrie-weg/",
+        "https://www.tichyseinblick.de/meinungen/merz-dgb-kongress-buhrufe-gelaechter/",
+        "https://www.tichyseinblick.de/feuilleton/glosse/baerbel-bas-erklaert-buergergeld-wunder/",
+        "https://www.tichyseinblick.de/wirtschaft/jobverlust-report-april/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -342,6 +384,56 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Merz beim DGB: Wer Angst sät, erntet Pfiffe",
+        "Bürgergeld-Debatte: Warum in Thüringen Vollzugsmitarbeiter bei Arbeitslosen klingeln",
+        "Bundesrat: Länder stoppen Entlastungsprämie"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/deutschland-sozialreformen-merz-gewerkschaften-arbeitgeber-dgb-inflation-rente-gesundheit-li.3482968",
+        "https://www.sueddeutsche.de/wirtschaft/thueringen-buergergeld-empfaenger-sanktionen-jendricke-vollzugsmitarbeiter-bilanz-li.3479090",
+        "https://www.sueddeutsche.de/politik/1000-euro-entlastungspraemie-bundesrat-stopp-kritik-merz-li.3480412"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Reformdebatte - Während die Gewerkschaften noch mauern, entwickeln andere längst seriöse Reformideen",
+        "Bürgergeld im Ausland? - Der „Portugal-Schmarotzer“ – und wie eine Medienerzählung in sich zusammenfällt",
+        "Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?"
+      ],
+      "urls": [
+        "https://www.cicero.de/wirtschaft/stiftung-familienunternehmen-dgb-reformdebatte",
+        "https://www.cicero.de/wirtschaft/burgergeld-portugal-schmarotzer-wie-eine-medienerzahlung-in-sich-zusammenfallt",
+        "https://www.cicero.de/wirtschaft/arbeitsmarkt-der-zukunft-werden-wir-durch-ki-alle-uberflussig"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 1
+        }
+      ]
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
@@ -369,64 +461,6 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "Friedrich Merz erntet Buhrufe und Gelächter beim DGB-Kongress",
-        "Jobverlust-Report April"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/meinungen/merz-dgb-kongress-buhrufe-gelaechter/",
-        "https://www.tichyseinblick.de/wirtschaft/jobverlust-report-april/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Bürgergeld-Debatte: Warum in Thüringen Vollzugsmitarbeiter bei Arbeitslosen klingeln",
-        "Bundesrat: Länder stoppen Entlastungsprämie"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/thueringen-buergergeld-empfaenger-sanktionen-jendricke-vollzugsmitarbeiter-bilanz-li.3479090",
-        "https://www.sueddeutsche.de/politik/1000-euro-entlastungspraemie-bundesrat-stopp-kritik-merz-li.3480412"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Bürgergeld im Ausland? - Der „Portugal-Schmarotzer“ – und wie eine Medienerzählung in sich zusammenfällt",
-        "Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?"
-      ],
-      "urls": [
-        "https://www.cicero.de/wirtschaft/burgergeld-portugal-schmarotzer-wie-eine-medienerzahlung-in-sich-zusammenfallt",
-        "https://www.cicero.de/wirtschaft/arbeitsmarkt-der-zukunft-werden-wir-durch-ki-alle-uberflussig"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
@@ -448,16 +482,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 23,
-    "left-liberal": 26,
-    "far-right": 8,
-    "economic-liberal": 13,
-    "conservative-liberal": 22,
-    "left": 4,
-    "neutral": 45,
-    "populist-mixed": 6
+    "populist-mixed": 8,
+    "right-conservative": 29,
+    "left-liberal": 43,
+    "conservative-liberal": 23,
+    "neutral": 58,
+    "far-right": 10,
+    "economic-liberal": 16,
+    "left": 4
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine breite Übereinstimmung darin, dass die Themen Mindestlohn, Tarifbindung und soziale Sicherung von zentraler Bedeutung sind, wobei jedoch die politischen Ausrichtungen der Medien unterschiedliche Schwerpunkte setzen und Bewertungen vornehmen. Eine weitere inhaltliche Gemeinsamkeit besteht in der Betonung der Herausforderungen durch den Fachkräftemangel und die Auswirkungen von Automatisierung und Digitalisierung auf den Arbeitsmarkt, wobei viele Medien die Notwendigkeit von Qualifizierung und Umschulung betonen. Darüber hinaus wird in vielen Medien die Bedeutung von Gewerkschaften und Arbeitgeberverbänden bei der Gestaltung der Arbeitswelt hervorgehoben, wobei die Rolle von Politikern wie Friedrich Merz und Bärbel Bas bei der Debatte um Reformen und Mehrarbeit kontrovers diskutiert wird.",
-  "controversial_points": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine grundlegende Konfliktlinie zwischen den Befürwortern einer flexiblen Arbeitszeitregelung und den Vertretern traditioneller Tarifverträge und sozialer Sicherung, wobei die erstgenannten eine Lockerung des Acht-Stunden-Tags und mehr Flexibilität für Arbeitgeber fordern, während die letzteren auf die Wahrung der bestehenden Arbeitszeitregelungen und die Stärkung der Gewerkschaften pochen. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer liberalen Wirtschaftspolitik, die eine Stärkung des Arbeitsmarktes durch Deregulierung und Flexibilisierung anstreben, und den Befürwortern einer sozialen Marktwirtschaft, die auf die Notwendigkeit einer starken sozialen Sicherung und einer fairen Verteilung von Arbeit und Einkommen hinweisen. Darüber hinaus zeigt sich im Mediendiskurs auch eine Trennlinie zwischen denjenigen, die die Auswirkungen von Automatisierung und Digitalisierung auf den Arbeitsmarkt als Chance für Innovation und Wachstum sehen, und denjenigen, die diese Entwicklungen als Bedrohung für die Arbeitsplätze und die soziale Sicherung der Bevölkerung betrachten.",
-  "cached_at": "2026-05-13T07:23:43.690195"
+  "shared_perspectives": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine breite Übereinstimmung darin, dass die Tarifbindung und die soziale Sicherung wichtige Eckpfeiler für eine faire und sichere Arbeitswelt sind, wobei jedoch die konkreten Lösungsansätze und Reformvorschläge je nach politischer Ausrichtung variieren. Ein weiterer gemeinsamer Nenner ist die Erkenntnis, dass der Fachkräftemangel und die Auswirkungen von Automatisierung und Digitalisierung auf den Arbeitsmarkt zentrale Herausforderungen darstellen, die durch gezielte Qualifizierungs- und Umschulungsmaßnahmen sowie eine Anpassung der Arbeitsmarktstrukturen angegangen werden müssen. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Lohngleichheit und die Mitbestimmung von Arbeitnehmern in den Betrieben zu stärken, um eine gerechtere Verteilung von Chancen und Lasten im Arbeitsmarkt zu erreichen.",
+  "controversial_points": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine grundlegende Konfliktlinie zwischen den Interessen von Arbeitgebern und Arbeitnehmern, wobei die Gewerkschaften und linke Medien für bessere Arbeitsbedingungen und höhere Löhne eintreten, während konservative und wirtschaftsliberale Stimmen auf Flexibilität und Wettbewerbsfähigkeit setzen. Eine weitere Spannungslinie verläuft zwischen den Befürwortern einer stärkeren sozialen Sicherung und denen, die eine liberale Arbeitsmarktpolitik bevorzugen, wobei die Debatte um das Bürgergeld und die Hartz-Reformen besonders kontrovers ist. Die Diskussion um die Auswirkungen von Automatisierung und Digitalisierung auf den Arbeitsmarkt sowie die Frage, wie die Gesellschaft mit den Herausforderungen des Fachkräftemangels und der Plattformarbeit umgehen soll, treibt diese Konflikte zusätzlich an und spiegelt die tiefgreifenden Unterschiede in den Weltbildern und politischen Konzepten der verschiedenen Akteure wider.",
+  "cached_at": "2026-05-16T07:01:52.885170"
 }
