@@ -1,25 +1,25 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 159,
-  "candidate_count": 221,
+  "article_count": 162,
+  "candidate_count": 234,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 24,
+      "article_count": 22,
       "sample_titles": [
-        "Zieljahr 2045: Will die CDU die Klimawende?",
+        "Immobilien: Was das neue Heizungsgesetz für die Hauspreise bedeutet",
+        "Energiewende: Das Klimaziel ist nicht das Problem",
         "Betriebsverbot ab 2045 gestrichen: Kabinett beschließt neues Heizungsgesetz",
-        "Landschaftsschutz: Europa würde fast die Hälfte seines Windpotentials verlieren",
-        "Bundestag am Zug: Kabinett beschließt neues Heizungsgesetz"
+        "Landschaftsschutz: Europa würde fast die Hälfte seines Windpotentials verlieren"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/in-der-cdu-wachsen-die-zweifel-am-klimaziel-2045-200824024.html",
+        "https://www.faz.net/aktuell/finanzen/was-das-neue-heizungsgesetz-fuer-die-hauspreise-bedeutet-accg-200834937.html",
+        "https://www.faz.net/aktuell/politik/inland/energiewende-klimaziele-sind-nicht-das-problem-200832209.html",
         "https://www.faz.net/video/kabinett-beschliesst-neues-heizungsgesetz-200829486.html",
-        "https://www.faz.net/aktuell/wissen/erde-klima/europas-schoenste-regionen-welche-probleme-der-landschaftsschutz-birgt-200810152.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/bundesregierung-beschliesst-neues-heizungsgesetz-das-sind-die-details-accg-200828723.html"
+        "https://www.faz.net/aktuell/wissen/erde-klima/europas-schoenste-regionen-welche-probleme-der-landschaftsschutz-birgt-200810152.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -28,11 +28,11 @@
           "count": 2
         },
         {
-          "emotion": "realization",
+          "emotion": "surprise",
           "count": 1
         },
         {
-          "emotion": "surprise",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -41,18 +41,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 17,
+      "article_count": 19,
       "sample_titles": [
+        "Studie zur regionalen Energiewende: Mehr Jobs und Geld durch Wind und Solar",
+        "Kupferabbau in Peru: Giftgrün ist die Energiewende",
         "Kabinett beschließt neue Heizungsregeln: Reform ohne Freunde",
-        "Energiegesetze beschlossen: Verantwortungsloses Rollback",
-        "Lokale Klimapolitik in Deutschland: Rollback mit finanziellen Folgen",
-        "Zukunft des Heizens: Großstädte setzen auf Wärmepumpen und Fernwärme"
+        "Hohe VW-Abschreibung: Porsche SE schreibt hohe Verluste"
       ],
       "urls": [
+        "https://taz.de/Studie-zur-regionalen-Energiewende/!6177792/",
+        "https://taz.de/Kupferabbau-in-Peru/!6175316/",
         "https://taz.de/Kabinett-beschliesst-neue-Heizungsregeln/!6178931/",
-        "https://taz.de/Energiegesetze-beschlossen/!6178849/",
-        "https://taz.de/Lokale-Klimapolitik-in-Deutschland/!6177353/",
-        "https://taz.de/Die-Zukunft-des-Heizens/!6177805/"
+        "https://taz.de/Hohe-VW-Abschreibung/!6178782/"
       ],
       "dominant_emotion": "surprise",
       "top_emotions": [
@@ -70,44 +70,19 @@
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 15,
-      "sample_titles": [
-        "Energiewende-Misere – die Vorwürfe des Stadtwerke-Chefs an Enpal, Octopus und 1Komma5",
-        "„Neues Heizgesetz schlechter als Habecks Heizhammer“",
-        "Aufruf zu Anschlägen auf Berliner Stromnetz aufgetaucht",
-        "„Neues Heizungsgesetz ist so kompliziert. Trägt diese Linie überhaupt noch?“"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/plus6a031ec4c7b823fd84be070a/thuega-chef-alsheimer-energiewende-misere-die-vorwuerfe-des-stadtwerke-chefs-an-enpal-octopus-und-1komma5.html",
-        "https://www.welt.de/videos/video6a06b644d1570d73067a0885/meinung-am-morgen-neues-heizgesetz-schlechter-als-habecks-heizhammer.html",
-        "https://www.welt.de/politik/video6a05bd7bd1570d73067a0161/staatsschutz-ermittelt-aufruf-zu-anschlaegen-auf-berliner-stromnetz-aufgetaucht.html",
-        "https://www.welt.de/politik/video6a0577c3d1570d730679fd56/christoph-lemmer-neues-heizungsgesetz-ist-so-kompliziert-traegt-diese-linie-ueberhaupt-noch.html"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 18,
       "sample_titles": [
-        "Berlin: Linksterroristen kündigen Anschläge auf Energieversorgung an",
+        "Klimapanikmodell geplatzt: Wer stoppt die CO2-Politik? – TE-Wecker am 17. Mai 2026",
         "Energiewende: „Übergewinne“ bei RWE nur durch Subventionen",
         "Vom Wärmepumpenzwang zum Biozwang: Der nächste Heizungs-Irrsinn – TE-Wecker am 15. Mai 2026",
         "Klimakatastrophe abgesagt: Jetzt müssen Heizungsgesetz, CO2-Abgabe, Verbrenner-Aus weg – TE-Wecker am 13. Mai 2026"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/berlin-linksterroristen-anschlaege/",
+        "https://www.tichyseinblick.de/podcast/te-wecker-am-17-mai-2026-2/",
         "https://www.tichyseinblick.de/daili-es-sentials/energiewende-rwe-uebergewinne-nur-durch-subventionen/",
         "https://www.tichyseinblick.de/podcast/te-wecker-am-15-mai-2026/",
         "https://www.tichyseinblick.de/podcast/te-wecker-am-13-mai-2026/"
@@ -119,24 +94,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 15,
+      "article_count": 16,
       "sample_titles": [
-        "Heizungen: Kabinett beschließt neues Heizungsgesetz – darum geht es",
-        "Energie: EU plant Erleichterungen – Neustart für grünen Wasserstoff lässt Industrie hoffen",
-        "Wärmewende: Fort- oder Rückschritt? Das bringt das neue Heizungsgesetz",
-        "Energie: Füllstand bei nur 28 Prozent: Regierung hält Gasversorgung für gesichert – aber Experten zweifeln"
+        "Greentech-Serie: Energiewende auf See: Fahren Handelsschiffe künftig mit Atomantrieb?",
+        "Energieversorgung: So ließen sich Strompreise um Milliardenbeträge senken",
+        "Logistik: Edeka stellt Lkw auf Bio-LNG um – und zahlt volle Maut",
+        "Heizungen: Kabinett beschließt neues Heizungsgesetz – darum geht es"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/heizungen-kabinett-beschliesst-neues-heizungsgesetz-darum-geht-es/100224875.html",
-        "https://www.handelsblatt.com/politik/deutschland/energie-eu-plant-erleichterungen-neustart-fuer-gruenen-wasserstoff/100222862.html",
-        "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-das-bringen-die-neuen-regeln-fuer-oel-und-gasheizungen/100223139.html",
-        "https://www.handelsblatt.com/politik/deutschland/energie-regierung-haelt-gasversorgung-fuer-gesichert-experten-zweifeln/100224001.html"
+        "https://www.handelsblatt.com/unternehmen/energie/greentech-serie-fahren-handelsschiffe-kuenftig-mit-atomantrieb/100209294.html",
+        "https://www.handelsblatt.com/politik/deutschland/energieversorgung-so-liessen-sich-strompreise-um-milliardenbetraege-senken/100225247.html",
+        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/logistik-edeka-stellt-lkw-auf-bio-lng-um-und-zahlt-volle-maut/100216816.html",
+        "https://www.handelsblatt.com/politik/deutschland/heizungen-kabinett-beschliesst-neues-heizungsgesetz-darum-geht-es/100224875.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 2
+          "count": 5
         },
         {
           "emotion": "approval",
@@ -148,18 +123,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 13,
+      "article_count": 15,
       "sample_titles": [
+        "Palmer gewinnt Windrad-Wette: \"Lebendiges Windrad\" entsteht auf dem Festplatz",
+        "Wie Windenergie den Pleite-Städten in NRW helfen kann",
         "Ältester Windpark im Land liefert seit 30 Jahren Strom - doch die Zukunft ist ungewiss",
-        "Proteste wegen massiver Stromausfälle in Havanna",
-        "Kritik an Wasserstoffstrategie der Regierung",
-        "Wie die AfD von der Energiewende rechts überholt wird"
+        "Kritik an Wasserstoffstrategie der Regierung"
       ],
       "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/palmers-windrad-wette-zieht-tausende-radfahrer-an-100.html",
+        "https://www1.wdr.de/wirtschaft/windkraft-steuern-einnahmen-nrw-100.html",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/burladingen-melchingen-aeltester-windpark-im-land-liefert-seit-30-jahren-strom-100.html",
-        "https://www.tagesschau.de/ausland/amerika/kuba-proteste-stromausfaelle-102.html",
-        "https://www.tagesschau.de/wissen/technologie/wasserstoff-ready-gaskraftwerke-100.html",
-        "https://www.rbb24.de/politik/beitrag/2026/05/brandenburg-uckermark-windkraft-erneuerbare-energie-wende-afd-teichner.html"
+        "https://www.tagesschau.de/wissen/technologie/wasserstoff-ready-gaskraftwerke-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -170,6 +145,10 @@
         {
           "emotion": "optimism",
           "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
         }
       ]
     },
@@ -177,16 +156,16 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 12,
+      "article_count": 13,
       "sample_titles": [
         "Wärmeplanung in den Kommunen: Städtebund fürchtet Widersprüche und Ineffizienz durch neues Heizungsgesetz",
-        "Schwache Planung von Schwarz-Rot : Normenkontrollrat zerpflückt Heizungsgesetz: unverständlich, praxisfern, teuer",
+        "Bau riesiger Stromanlagen: \"Mit dem Auto fährt man eine halbe Stunde durch unser Solarkraftwerk\"",
         "Wirtschaft und Verbände kritisch: Neues Heizungsgesetz liefert mehr Fragen als Antworten",
         "Milliardenkosten für Stromkunden: Bund bringt Bau neuer Gaskraftwerke auf den Weg"
       ],
       "urls": [
         "https://www.n-tv.de/politik/Staedtebund-fuerchtet-Widersprueche-und-Ineffizienz-durch-neues-Heizungsgesetz-id30824776.html",
-        "https://www.n-tv.de/politik/Normenkontrollrat-zerpflueckt-Heizungsgesetz-unverstaendlich-praxisfern-teuer-id30821087.html",
+        "https://www.n-tv.de/wirtschaft/Mit-dem-Auto-faehrt-man-eine-halbe-Stunde-durch-unser-Solarkraftwerk-id30800661.html",
         "https://www.n-tv.de/politik/Neues-Heizungsgesetz-liefert-mehr-Fragen-als-Antworten-id30819703.html",
         "https://www.n-tv.de/politik/Bund-bringt-Bau-neuer-Gaskraftwerke-auf-den-Weg-id30819057.html"
       ],
@@ -201,6 +180,26 @@
           "count": 1
         }
       ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 12,
+      "sample_titles": [
+        "Energiewende-Misere – die Vorwürfe des Stadtwerke-Chefs an Enpal, Octopus und 1Komma5",
+        "„Neues Heizgesetz schlechter als Habecks Heizhammer“",
+        "Aufruf zu Anschlägen auf Berliner Stromnetz aufgetaucht",
+        "„In weiten Teilen kaum verständlich“ – Normenkontrollrat kritisiert Heizungsgesetz"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/plus6a031ec4c7b823fd84be070a/thuega-chef-alsheimer-energiewende-misere-die-vorwuerfe-des-stadtwerke-chefs-an-enpal-octopus-und-1komma5.html",
+        "https://www.welt.de/videos/video6a06b644d1570d73067a0885/meinung-am-morgen-neues-heizgesetz-schlechter-als-habecks-heizhammer.html",
+        "https://www.welt.de/politik/video6a05bd7bd1570d73067a0161/staatsschutz-ermittelt-aufruf-zu-anschlaegen-auf-berliner-stromnetz-aufgetaucht.html",
+        "https://www.welt.de/politik/deutschland/article6a02d078c7b823fd84bdff34/bundesregierung-kaum-verstaendlich-normenkontrollrat-kritisiert-heizungsgesetz-liveticker.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "spiegel": {
       "source_id": "spiegel",
@@ -231,35 +230,6 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 8,
-      "sample_titles": [
-        "Praxisfern, schwach: Normenkontrollrat rügt Heizungsgesetz",
-        "Neues \"Heizungsgesetz\" vom Kabinett beschlossen",
-        "Das steht im neuen \"Heizungsgesetz\"",
-        "Aktuelle Stunde: Ein Jahr schwarz-rote Energiepolitik"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-gebaeudemodernisierungsgesetz-normenkontrollrat-kritik-100.html",
-        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-kabinett-reiche-100.html",
-        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-reform-kabinett-gebaeudemodernisierungsgesetz-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/u-a-bundestag---live-a-5189416.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
@@ -279,6 +249,35 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 7,
+      "sample_titles": [
+        "Neues \"Heizungsgesetz\" vom Kabinett beschlossen",
+        "Das steht im neuen \"Heizungsgesetz\"",
+        "Aktuelle Stunde: Ein Jahr schwarz-rote Energiepolitik",
+        "Deutschlands Atomausstieg: Fehler oder Erfolg?"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-kabinett-reiche-100.html",
+        "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-reform-kabinett-gebaeudemodernisierungsgesetz-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/u-a-bundestag---live-a-5189416.html",
+        "https://www.zdfheute.de/politik/deutschland/atomkraft-ausstieg-erneuerbare-diskussion-fleischhauer-deutschland-100.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
     },
     "stern": {
       "source_id": "stern",
@@ -309,21 +308,25 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
+        "Blackout im Eigenheim - Läuft die PV-Anlage bei Stromausfall weiter?",
         "Grüner Spagat bei Lanz - Kretschmann lobt Merz und gesteht Atom-Fehler",
         "Erfolgsserie „Landman“  - Brauchen Windräder mehr Energie als sie erzeugen?",
-        "Kommentar - Rechnung für Strom-Irrsinn zahlen wir alle!",
-        "Zwischenruf - Photovoltaik ist geil! Nur nicht in Deutschland"
+        "Kommentar - Rechnung für Strom-Irrsinn zahlen wir alle!"
       ],
       "urls": [
+        "https://www.bild.de/leben-wissen/wohnen-living/laeuft-die-pv-anlage-bei-stromausfall-weiter-6a07281a847da7a92c145497",
         "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/markus-lanz-kretschmann-teilt-aus-lobt-merz-und-raeumt-atom-fehler-der-gruenen-ein-6a03c7819e875c402d54f02d",
         "https://www.bild.de/leben-wissen/kosten-windraeder-mehr-energie-als-sie-je-liefern-69ede287abfdaf26dabf8e0a",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/rechnung-fuer-strom-irrsinn-zahlen-wir-alle-69f772b2ed1f2e03d501c22f",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/zwischenruf-photovoltaik-ist-geil-nur-nicht-in-deutschland-69f5fbfb23e6b3dbf3c96b2f"
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/rechnung-fuer-strom-irrsinn-zahlen-wir-alle-69f772b2ed1f2e03d501c22f"
       ],
-      "dominant_emotion": "relief",
+      "dominant_emotion": "surprise",
       "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
         {
           "emotion": "relief",
           "count": 1
@@ -338,14 +341,16 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
         "DER ANDERE BLICK DATEN - Fehlschlag Energiewende: Warum Deutschland trotz Rekordausbau von Wind- und Sonnenkraft weniger Strom erzeugt",
+        "80 Jahre lang Atomstrom: Die Kraftwerke Leibstadt und Gösgen könnten deutlich länger laufen als angenommen",
         "Marktaufseher warnt vor Stromknappheit und fordert «in aller Deutlichkeit» das umstrittene Abkommen mit der EU",
         "INTERAKTIV - Benzin- und Dieselpreise deutlich gesunken – die aktuellen Zahlen zur Energieversorgung in Deutschland"
       ],
       "urls": [
         "https://www.nzz.ch/der-andere-blick/fehlschlag-energiewende-warum-deutschland-trotz-rekordausbau-von-wind-und-sonnenkraft-weniger-strom-erzeugt-ld.10006607",
+        "https://www.nzz.ch/schweiz/80-jahre-lang-atomstrom-die-kraftwerke-leibstadt-und-goesgen-koennten-deutlich-laenger-laufen-als-angenommen-ld.10007006",
         "https://www.nzz.ch/schweiz/marktaufseher-warnt-vor-stromknappheit-und-fordert-in-aller-deutlichkeit-das-umstrittene-abkommen-mit-der-eu-ld.10006206",
         "https://www.nzz.ch/visuals/warum-ist-strom-in-deutschland-so-teuer-alle-zahlen-ld.1683901"
       ],
@@ -356,28 +361,14 @@
           "count": 1
         },
         {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
           "emotion": "curiosity",
           "count": 1
         }
       ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Gebäudemodernisierungsgesetz: Normenkontrollrat kritisiert Entwurf zur Reform des Heizungsgesetzes",
-        "Energiepreise: Bundesnetzagentur rät Gasverbrauchern zur Sparsamkeit",
-        "Solarenergie: Bau von Solaranlagen geht im ersten Quartal um sechs Prozent zurück"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-05/kaum-verstaendlich-normenkontrollrat-kritisiert-gebaeudemodernisierungsgesetz-gxe",
-        "https://www.zeit.de/wirtschaft/2026-05/energiepreise-gas-preis-anstieg-bundesnetzagentur-gxe",
-        "https://www.zeit.de/wirtschaft/2026-05/solaranlage-zubau-rueckgang-reiche"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "achgut": {
       "source_id": "achgut",
@@ -410,45 +401,55 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Energiepreise: Bundesnetzagentur rät Gasverbrauchern zur Sparsamkeit",
+        "Solarenergie: Bau von Solaranlagen geht im ersten Quartal um sechs Prozent zurück"
+      ],
+      "urls": [
+        "https://www.zeit.de/wirtschaft/2026-05/energiepreise-gas-preis-anstieg-bundesnetzagentur-gxe",
+        "https://www.zeit.de/wirtschaft/2026-05/solaranlage-zubau-rueckgang-reiche"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 2,
       "sample_titles": [
         "Alternative Brennstoffe: In Bayern will niemand Wasserstoff-Tankstellen bauen",
-        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?",
-        "Welthandel: Wie China grüne Produktion in Deutschland bedroht"
+        "Bundesregierung: Ist Reiche Todesengel oder Retterin der Energiewende?"
       ],
       "urls": [
         "https://www.sueddeutsche.de/bayern/wasserstoff-tankstellen-aiwanger-bayern-foerderung-li.3479764",
-        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374",
-        "https://www.sueddeutsche.de/wirtschaft/kornorientiertes-elektroband-thyssenkrupp-stahl-tkse-li.3474558"
+        "https://www.sueddeutsche.de/wirtschaft/reiche-energiewende-netzpaket-gaskraftwerke-li.3476374"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
           "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
         }
       ]
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 27,
-    "right-conservative": 27,
-    "far-right": 25,
-    "left-liberal": 22,
-    "neutral": 21,
-    "left": 17,
-    "economic-liberal": 15,
-    "populist-mixed": 5
+    "far-right": 28,
+    "conservative-liberal": 26,
+    "economic-liberal": 16,
+    "left": 19,
+    "neutral": 22,
+    "populist-mixed": 6,
+    "right-conservative": 25,
+    "left-liberal": 20
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine breite Kritik am neuen Heizungsgesetz, das von vielen Medien als \"schwach\" und \"praxisfern\" bezeichnet wird, unabhängig von ihrer politischen Ausrichtung. Ein weiterer Konsens besteht darin, dass die Energiewende und der Klimaschutz eine große Herausforderung für Deutschland darstellen, die eine umfassende und nachhaltige Lösung erfordert, wobei jedoch die Meinungen über den richtigen Weg und die geeigneten Maßnahmen stark auseinandergehen. Die Diskussion um die Zukunft der Energieversorgung in Deutschland ist geprägt von einer intensiven Debatte über die Rolle von erneuerbaren Energien, die Notwendigkeit eines Kohleausstiegs und die Bedeutung von Energieeffizienz und -sicherheit.",
-  "controversial_points": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und umfassenden Umstellung auf erneuerbare Energien und den Kritikern, die Bedenken hinsichtlich der Energieversorgungssicherheit und der wirtschaftlichen Tragfähigkeit der Energiewende äußern. Eine weitere Spannungslinie verläuft zwischen den politischen Lagern, wobei die linken und linken-liberalen Medien tendenziell eine stärkere Betonung des Klimaschutzes und der Notwendigkeit einer raschen Energiewende fordern, während konservative und rechtspopulistische Medien oft Bedenken hinsichtlich der wirtschaftlichen und sozialen Auswirkungen der Energiewende äußern. Die Diskussion um das Heizungsgesetz und die Wasserstoffstrategie der Regierung verdeutlicht zudem die Spannung zwischen den Zielen der Klimaneutralität und der Energieversorgungssicherheit, wobei die verschiedenen politischen und gesellschaftlichen Akteure unterschiedliche Prioritäten setzen und Lösungsansätze favorisieren.",
-  "cached_at": "2026-05-16T06:57:53.953527"
+  "shared_perspectives": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine breite Kritik am neuen Heizungsgesetz, das von vielen Medien als unzureichend oder sogar kontraproduktiv für die Erreichung der Klimaziele angesehen wird. Darüber hinaus gibt es eine weitgehende Übereinstimmung darüber, dass die Energiewende in Deutschland noch nicht erfolgreich umgesetzt ist und dass es weiterhin große Herausforderungen bei der Umsetzung der Klimaziele und der Sicherstellung der Energieversorgungssicherheit gibt. Die Diskussion um den richtigen Energiemix für Deutschland, einschließlich der Rolle von Atomkraft, Wind- und Solarenergie sowie Wasserstofftechnologie, ist ein weiteres zentrales Thema, das in vielen Medien behandelt wird und zu einer kontroversen Debatte führt.",
+  "controversial_points": "Der deutsche Mediendiskurs zur Energiewende und Klimapolitik ist geprägt von einer tiefen Spaltung zwischen Befürwortern und Kritikern der aktuellen Energie- und Klimapolitik, wobei die einen den Ausbau erneuerbarer Energien und den Kohleausstieg als zentrale Elemente der Energiewende sehen, während die anderen diese Maßnahmen als wirtschaftlich untragbar und ineffizient ablehnen. Eine weitere Konfliktlinie verläuft zwischen denjenigen, die den Staat als zentrale Instanz für die Steuerung der Energiewende sehen, und denen, die eine stärkere Rolle für den Markt und die Privatwirtschaft fordern, was sich insbesondere in den Debatten um das Heizungsgesetz und die Wasserstoffstrategie widerspiegelt. Die Diskussionen um die Energiewende und Klimapolitik sind auch von einer grundlegenden Wertediskussion geprägt, in der es um die Frage geht, ob die Umwelt- und Klimaschutzziele Vorrang vor wirtschaftlichen Interessen haben sollten oder umgekehrt.",
+  "cached_at": "2026-05-17T06:59:21.452733"
 }

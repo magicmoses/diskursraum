@@ -1,8 +1,8 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 64,
-  "candidate_count": 297,
+  "article_count": 72,
+  "candidate_count": 313,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
@@ -12,14 +12,14 @@
       "sample_titles": [
         "AfD im Saarland fordert Betreuungsgeld für Eltern mit Kindern bis drei Jahren",
         "Viele Saar-Erstklässler haben kommendes Schuljahr keine Ganztagsbetreuung",
-        "Gute-Nacht-Geschichte aus dem Gefängnis: Väter lesen in Heimsheim ihren Kindern vor",
-        "Benachteiligte Väter: Warum sie nicht in die Verantwortung kommen"
+        "Bauernhofkita: \"Landkinder\" in Neustadt lernen Leben auf dem Hof kennen",
+        "Gute-Nacht-Geschichte aus dem Gefängnis: Väter lesen in Heimsheim ihren Kindern vor"
       ],
       "urls": [
         "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/afd_erziehungsgeld_saarland_100.html",
         "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rechtsanspruch_ganztagsbetreuung_grundschulen_saarland_100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/papa-liest-gefaengnis-heimsheim-100.html",
-        "https://www.rbb24.de/panorama/beitrag/2026/05/interview-maenner-vaeter-benachteiligung-muetter-dag-schoelper.html"
+        "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/bauernhofkita-landkinder-in-neustadt-lernen-leben-auf-dem-hof-kennen,bauernhofkita-102.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/papa-liest-gefaengnis-heimsheim-100.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -28,7 +28,44 @@
           "count": 1
         },
         {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
           "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 10,
+      "sample_titles": [
+        "Aufgabenverteilung zwischen Paaren: Keine Zeit fürs kranke Kind",
+        "Familienangebot bei der Deutschen Bahn: Die Bahn macht, was der Bund nicht schafft",
+        "Deutsche Bahn: Sommersonderangebot für Familien",
+        "Kanzler Friedrich Merz beim DGB: Pfiffe gegen erzieherische Ratschläge"
+      ],
+      "urls": [
+        "https://taz.de/Aufgabenverteilung-zwischen-Paaren/!6179105/",
+        "https://taz.de/Familienangebot-bei-der-Deutschen-Bahn/!6178563/",
+        "https://taz.de/Deutsche-Bahn/!6178565/",
+        "https://taz.de/Kanzler-Friedrich-Merz-beim-DGB/!6178358/"
+      ],
+      "dominant_emotion": "caring",
+      "top_emotions": [
+        {
+          "emotion": "caring",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -39,29 +76,29 @@
       "bias": "conservative-liberal",
       "article_count": 9,
       "sample_titles": [
+        "Erziehung: Soll man das erlauben?",
         "Pauschalpreis von 99,99 Euro: Deutsche Bahn wirbt mit Familien-Sommerferien-Ticket",
         "Gesetzentwurf: Wer die Partnerin schlägt, kann das Umgangsrecht verlieren",
-        "Ganztagsbetreuung: Rechtsanspruch führt zu „Durcheinander“ an den Grundschulen",
-        "Ärger einer jungen Mutter: Warum Väter Applaus bekommen und Mütter Vorwürfe"
+        "Ganztagsbetreuung: Rechtsanspruch führt zu „Durcheinander“ an den Grundschulen"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/wissen/leben-gene/riskantes-spiel-fuer-kinder-welches-unfallrisiko-bergen-spielplaetze-200808268.html",
         "https://www.faz.net/aktuell/wirtschaft/unternehmen/deutsche-bahn-wirbt-mit-familienticket-fuer-99-euro-in-den-sommerferien-200826824.html",
         "https://www.faz.net/aktuell/politik/inland/wer-die-partnerin-schlaegt-kann-das-umgangsrecht-verlieren-200821218.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/ganztagsbetreuung-in-frankfurt-was-eltern-wissen-muessen-accg-200816747.html",
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/vollzeit-im-beruf-warum-vaeter-applaus-bekommen-und-muetter-vorwuerfe-accg-200796583.html"
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/ganztagsbetreuung-in-frankfurt-was-eltern-wissen-muessen-accg-200816747.html"
       ],
-      "dominant_emotion": "embarrassment",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
         {
           "emotion": "embarrassment",
           "count": 1
         },
         {
           "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -73,15 +110,15 @@
       "article_count": 8,
       "sample_titles": [
         "Pläne der neuen München-Regierung: Die Kita-Sparmaßnahmen dürften erst der Anfang sein",
-        "Sagen Sie jetzt nichts: Würden Sie Deutschland verteidigen, Philipp Amthor?",
         "Rat vom Familientrio: Wie tröstet man sein Kind, wenn es nicht zum Geburtstag eingeladen ist?",
-        "Elternkolumne „Die Erziehungsberechtigten“: Müde Väter"
+        "Elternkolumne „Die Erziehungsberechtigten“: Müde Väter",
+        "Landgericht Landshut: Elf Jahre Haft für Pflegevater"
       ],
       "urls": [
         "https://www.sueddeutsche.de/muenchen/muenchen-sparmassnahmen-kita-gebuehren-neue-regierung-kommentar-li.3484081",
-        "https://www.sueddeutsche.de/projekte/artikel/magazin/interview-ohne-worte-sagen-sie-jetzt-nichts-philipp-amthor-cdu-e960075/",
         "https://www.sueddeutsche.de/leben/kindergarten-kinder-geburtstag-einladung-frustration-nora-imlau-herbert-renz-polster-jacinta-nandi-li.3481608",
-        "https://www.sueddeutsche.de/leben/muede-vaeter-die-erziehungsberechtigten-kolumne-li.3481989"
+        "https://www.sueddeutsche.de/leben/muede-vaeter-die-erziehungsberechtigten-kolumne-li.3481989",
+        "https://www.sueddeutsche.de/bayern/niederbayern-landgericht-landshut-missbrauch-pflegevater-haftstrafe-li.3482587"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -89,6 +126,64 @@
           "emotion": "excitement",
           "count": 1
         },
+        {
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "caring",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 8,
+      "sample_titles": [
+        "Eltern: Väter selten alleinerziehend und oft in Vollzeit",
+        "Erziehung: Warum so viele Eltern an der Erziehung ihrer Kinder zerbrechen",
+        "Berlin: Kita-Kind findet Schatz auf Spielplatz – und  löst Polizei-Einsatz aus",
+        "Kindeswohl im Fokus: Kein Umgangsrecht für gewalttätige Väter"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/eltern--vaeter-selten-alleinerziehend-und-oft-in-vollzeit-37393080.html",
+        "https://www.stern.de/lifestyle/leben/immer-mehr-eltern-zerbrechen-an-der-erziehung-ihrer-kinder-37369290.html",
+        "https://www.stern.de/panorama/berlin--kind-findet-schatz-auf-spielplatz---polizei-ermittelt-37390462.html",
+        "https://www.stern.de/politik/deutschland/kindeswohl-im-fokus--kein-umgangsrecht-fuer-gewalttaetige-vaeter-37387520.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "SOS-Kinderdorf: Hinter der Fassade einer Kinderschutzorganisation in der Krise",
+        "Berlin: Kitakinder finden Schatz aus Schmuck, Uhren und Bargeld",
+        "Renten: Eintritt nach Beitragsjahren statt Lebensalter – verlieren würden Mütter und Arbeitslose",
+        "Misshandlungsfall Attendorn: Familie sperrte Kind jahrelang ein – Mutter zu Freiheitsstrafe verurteilt"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/gesellschaft/sos-kinderdorf-hinter-der-fassade-einer-kinderschutzorganisation-in-der-krise-a-f0e4a85c-66ab-46cc-a042-fa6115e5cce3#ref=rss",
+        "https://www.spiegel.de/panorama/berlin-kitakinder-finden-schatz-aus-schmuck-uhren-und-bargeld-a-7974bd47-7765-4c07-ad20-544b9f2e16a4#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/renten-eintritt-nach-beitragsjahren-statt-lebensalter-verlieren-wuerden-muetter-und-arbeitslose-a-33ff9656-4fad-4895-8f92-7c9bcb6be581#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/misshandlungsfall-attendorn-familie-sperrte-kind-jahrelang-ein-mutter-zu-freiheitsstrafe-verurteilt-a-846820ad-3de1-4a79-924c-81ce668fbe3b#ref=rss"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
         {
           "emotion": "admiration",
           "count": 1
@@ -99,89 +194,31 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 7,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 4,
       "sample_titles": [
-        "Familienleben: Das Problem mit den Grenzen",
-        "Ausstellungen: Augsburg schickt Römer-Denkmal für Ausstellung nach Rom",
-        "Erziehung: Warum so viele Eltern an der Erziehung ihrer Kinder zerbrechen",
-        "Eltern: Väter selten alleinerziehend und oft in Vollzeit"
+        "Verschleppte ukrainische Kinder: \"Ihnen wird das Recht auf Identität und Familienleben genommen\"",
+        "Zwischen Anspruch und Angst: Junge Eltern brechen alte Erziehungsmuster auf",
+        "Deportation und Umerziehung: EU beschließt Sanktionen wegen Entführung ukrainischer Kinder nach Russland",
+        "\"Sozialer Sprengstoff\": Umfrage: Viele Familien verlieren durch Pflege ihr Vermögen"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/erziehung-von-kindern--warum-es-eltern-schwer-faellt--grenzen-zu-setzen-35070156.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/ausstellungen--augsburg-schickt-roemer-denkmal-fuer-ausstellung-nach-rom-37397266.html",
-        "https://www.stern.de/lifestyle/leben/immer-mehr-eltern-zerbrechen-an-der-erziehung-ihrer-kinder-37369290.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/eltern--vaeter-selten-alleinerziehend-und-oft-in-vollzeit-37393080.html"
+        "https://www.n-tv.de/politik/Ihnen-wird-das-Recht-auf-Identitaet-und-Familienleben-genommen-id30819573.html",
+        "https://www.n-tv.de/panorama/Junge-Eltern-brechen-alte-Erziehungsmuster-auf-id30812751.html",
+        "https://www.n-tv.de/politik/EU-beschliesst-Sanktionen-wegen-Entfuehrung-ukrainischer-Kinder-nach-Russland-id30810147.html",
+        "https://www.n-tv.de/politik/Umfrage-Viele-Familien-verlieren-durch-Pflege-ihr-Vermoegen-id30796053.html"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "realization",
       "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
         {
           "emotion": "realization",
           "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 6,
-      "sample_titles": [
-        "Familienangebot bei der Deutschen Bahn: Die Bahn macht, was der Bund nicht schafft",
-        "Deutsche Bahn: Sommersonderangebot für Familien",
-        "Kanzler Friedrich Merz beim DGB: Pfiffe gegen erzieherische Ratschläge",
-        "Gesetz gegen häusliche Gewalt: Kein Sorgerecht für gewalttätige Väter"
-      ],
-      "urls": [
-        "https://taz.de/Familienangebot-bei-der-Deutschen-Bahn/!6178563/",
-        "https://taz.de/Deutsche-Bahn/!6178565/",
-        "https://taz.de/Kanzler-Friedrich-Merz-beim-DGB/!6178358/",
-        "https://taz.de/Gesetz-gegen-haeusliche-Gewalt/!6177839/"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
         },
         {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "Deutsche Bahn bringt für Sommerferien Familienticket zum Pauschalpreis",
-        "Renten: Eintritt nach Beitragsjahren statt Lebensalter – verlieren würden Mütter und Arbeitslose",
-        "Misshandlungsfall Attendorn: Familie sperrte Kind jahrelang ein – Mutter zu Freiheitsstrafe verurteilt",
-        "Steuerlast für Familien: »Das eigene Kind im Studium ist ein unkalkulierbares Risiko«"
-      ],
-      "urls": [
-        "https://www.spiegel.de/mobilitaet/bus-bahn/deutsche-bahn-bringt-fuer-sommerferien-familienticket-zum-pauschalpreis-a-74dd4dce-bad8-40a4-8081-375a332b12fa#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/renten-eintritt-nach-beitragsjahren-statt-lebensalter-verlieren-wuerden-muetter-und-arbeitslose-a-33ff9656-4fad-4895-8f92-7c9bcb6be581#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/misshandlungsfall-attendorn-familie-sperrte-kind-jahrelang-ein-mutter-zu-freiheitsstrafe-verurteilt-a-846820ad-3de1-4a79-924c-81ce668fbe3b#ref=rss",
-        "https://www.spiegel.de/wirtschaft/steuerlast-fuer-familien-das-eigene-kind-im-studium-ist-ein-unkalkulierbares-risiko-a-a6f4ff39-3fc5-43b1-a3d0-f4d4e3cddcff#ref=rss"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -192,16 +229,34 @@
       "bias": "far-right",
       "article_count": 4,
       "sample_titles": [
+        "Fall Büttner Inszenierter Anschlag? Familienministerium überprüft geförderte NGO",
         "Nach JF-Recherche Masturbation und sexuelle Spiele: Behörde verteidigt Kita-Erziehungskonzept",
-        "Bremen Staatsschutz ermittelt wegen Schweinefleisch in Kita",
         "Gleitgel, Holzpenis, Vibrator Sex-Spiele für Kinder: Familienministerium bittet „Falken“ um Stellungnahme",
         "Sozialistische Jugendorganisation Masturbation und sexuelle Spiele: Was in Kitas der „Falken“ vor sich geht"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/inszenierter-anschlag-familienministerium-ueberprueft-gefoerderte-ngo/",
         "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-behoerde-verteidigt-kita-erziehungskonzept/",
-        "https://jungefreiheit.de/politik/deutschland/2026/staatsschutz-ermittelt-wegen-schweinefleisch-in-kita/",
         "https://jungefreiheit.de/politik/deutschland/2026/sex-spiele-fuer-kinder-familienministerium-bittet-falken-um-stellungnahme/",
         "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-was-in-kitas-der-falken-vor-sich-geht/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Von der Leyens Trojaner „Altersprüfung“ auch Einstieg von EU-Eingriff ins Elternrecht",
+        "Ein Jahr Merz: Arbeit und Familie tragen die Lasten",
+        "Keine Gedichte zum Muttertag: Nicht mehr zeitgemäß"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eu-alterspruefung-der-einstieg-in-den-eingriff-ins-elternrecht/",
+        "https://www.tichyseinblick.de/gastbeitrag/ein-jahr-merz-bilanz/",
+        "https://www.tichyseinblick.de/daili-es-sentials/keine-gedichte-zum-muttertag/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -235,77 +290,38 @@
       "bias": "populist-mixed",
       "article_count": 3,
       "sample_titles": [
-        "Seit 100 Jahren im Familienbetrieb - Ich ändere nur alle 2 Wochen meine Sprit-Preise",
-        "3-Jährige hat Demenz - Louisa kann vielleicht bald nicht mehr Mama sagen",
-        "Familie Braun erzieht Kinder ohne Smartphone - Unser Sohn wusste nicht mehr, was er am Handy gemacht hatte"
+        "Eigentümer gesucht - Kinder finden echten Schatz auf Spielplatz",
+        "Familie Braun erzieht Kinder ohne Smartphone - Unser Sohn wusste nicht mehr, was er am Handy gemacht hatte",
+        "Was sich sonst noch ändert - Staat darf ab Mai an die Steuer-ID Ihrer Familie"
       ],
       "urls": [
-        "https://www.bild.de/regional/bayern/tankwart-aendert-nur-alle-zwei-wochen-die-preise-6a034d50c7b823fd84be0b49",
-        "https://www.bild.de/leben-wissen/3-jaehrige-hat-demenz-louisa-kann-vielleicht-bald-nicht-mehr-mama-sagen-69ca523cb33459bf5277443b",
-        "https://www.bild.de/leben-wissen/meine-familie-familienportal/miniaturwunderland-chef-meine-kinder-leben-gesuender-ohne-smartphone-69690d9f29d7700ee8583449"
+        "https://www.bild.de/regional/berlin/berlin-wilmersdorf-kinder-finden-schatz-auf-spielplatz-6a01ebe27b6d0cd4a33ad10b",
+        "https://www.bild.de/leben-wissen/meine-familie-familienportal/miniaturwunderland-chef-meine-kinder-leben-gesuender-ohne-smartphone-69690d9f29d7700ee8583449",
+        "https://www.bild.de/leben-wissen/mein-recht-verbraucherportal/spritpreise-fallen-bundesregierung-senkt-steuer-wer-jetzt-kraeftig-spart-69f0b11048f8152efecc9d43"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
     },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 3,
+      "article_count": 2,
       "sample_titles": [
         "Lohnfortzahlung bei Erkrankung der Kinder",
-        "Mental Load: Was Familien erleben",
-        "Wenn der Schutzraum zum Tatort wird"
+        "Mental Load: Was Familien erleben"
       ],
       "urls": [
         "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5198150",
-        "https://www.zdfheute.de/politik/deutschland/familie-mental-load-stress-psychische-belastung-100.html",
-        "https://www.zdfheute.de/panorama/kriminalitaet/berlin-neukoelln-jugendzentrum-vergewaltigung-vorwuerfe-jugendamt-wutzkyallee-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 2,
-      "sample_titles": [
-        "\"Nach langer Krankheit\": Sharon Stone trauert um ihren Bruder Michael",
-        "Deportation und Umerziehung: EU beschließt Sanktionen wegen Entführung ukrainischer Kinder nach Russland"
-      ],
-      "urls": [
-        "https://www.n-tv.de/leute/Sharon-Stone-trauert-um-ihren-Bruder-Michael-id30821247.html",
-        "https://www.n-tv.de/politik/EU-beschliesst-Sanktionen-wegen-Entfuehrung-ukrainischer-Kinder-nach-Russland-id30810147.html"
+        "https://www.zdfheute.de/politik/deutschland/familie-mental-load-stress-psychische-belastung-100.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Eltern im Beruf: Mütter von Kleinkindern sind deutlich seltener erwerbstätig als Väter",
-        "Internationaler Hebammentag: Mehr als jedes dritte Kind per Kaiserschnitt geboren"
-      ],
-      "urls": [
-        "https://www.zeit.de/arbeit/2026-05/erwerbstaetigkeit-muetter-vaeter-deutschland-arbeit-kinder",
-        "https://www.zeit.de/news/2026-05/04/mehr-als-jedes-dritte-kind-per-kaiserschnitt-geboren"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
     },
     "welt": {
       "source_id": "welt",
@@ -321,19 +337,24 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Ein Jahr Merz: Arbeit und Familie tragen die Lasten"
+        "Eltern im Beruf: Mütter von Kleinkindern sind deutlich seltener erwerbstätig als Väter"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/gastbeitrag/ein-jahr-merz-bilanz/"
+        "https://www.zeit.de/arbeit/2026-05/erwerbstaetigkeit-muetter-vaeter-deutschland-arbeit-kinder"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
     },
     "dw": {
       "source_id": "dw",
@@ -356,16 +377,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 21,
-    "neutral": 14,
+    "right-conservative": 5,
+    "left-liberal": 22,
+    "neutral": 13,
+    "left": 10,
+    "far-right": 7,
     "economic-liberal": 3,
-    "populist-mixed": 3,
-    "right-conservative": 3,
-    "left": 6,
     "conservative-liberal": 9,
-    "far-right": 5
+    "populist-mixed": 3
   },
-  "shared_perspectives": "Über alle politischen Lager hinweg besteht Konsens über die Notwendigkeit von Betreuungsinfrastruktur — ob Kita-Ausbau oder Ganztagsschulen werden als grundlegende Anforderungen für moderne Familienpolitik anerkannt, wobei der Dissens sich eher auf Umfang und Finanzierungsmodelle bezieht als auf die Zieldimension selbst. Ein zweiter breiter Konsens erstreckt sich auf den Gedanken, dass Väter stärker in Verantwortung und Erziehung eingebunden werden sollen — von liberal bis konservativ werden fehlende Vaterbeteiligung als Problem diagnostiziert und stärkere Anreize oder gesetzliche Regelungen zur Co-Parenting als wünschenswert dargestellt. Drittens zeigt sich ein medienübergreifend geteiltes Verständnis, dass Kindeswohlschutz und Prävention von Missbrauch legitime staatliche Aufgaben sind, wobei sich die Debatte weniger um das Ob als um die konkrete Ausgestaltung dreht — etwa bei Regulierung von Medienkonsum oder bei Eingriffskompetenzen von Jugendämtern.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Familienpolitik-Diskurs\n\nDer fundamentalste Konflikt verläuft zwischen einer **staatlich organisierten Erwerbstätigenlogik versus familialer Autonomie**: Während linke und liberal-progressive Medien Kitaausbau und Ganztagsbetreuung als Ermöglichung weiblicher Berufstätigkeit und Kindeswohl-Investition rahmen, konstruieren konservativ-rechte Medien dieselbe Infrastruktur als ideologische Zumutung und Entzug elterlicher Erziehungshoheit — hier treffen nicht bloß Finanzierungsfragen aufeinander, sondern gegensätzliche Menschenbilder darüber, ob Familie primär Privatsphäre oder gesellschaftliche Gestaltungsaufgabe ist. Ein zweiter, damit verwobener Konflikt betrifft die **Neubestimmung von Väterlichkeit und Geschlechterverantwortung**: Der progressive Diskurs fordert aktive Väterbeteiligung und gleichberechtigte Elternzeitnutzung als Normalfall (mit Kritik an gesellschaftlichen Applaus-Ungleichgewichten), während konservativ-rechte Stimmen die traditionelle Versorgerrolle des Vaters gegen vermeintliche feministische Umerziehung verteidigen — beide Positionen reklamieren für sich, das echte Kindeswohl zu vertreten, treiben aber konkurrenz­los ausschließlich ihre jeweilige Familiengestal­tungsform voran. Schließlich zeigt sich ein **epistemi­scher Kampf um Expertise und Deutungshoheit**: Linke Medien vertrauen Fachleuten, Psychologen und wissenschaftlichen Erkenntnissen zur Kindesentwicklung, während der far-right-Diskurs dieselbe Expertise als ideologische Infiltrierung durch „sozialistische\" Institutionen delegitimiert und stattdessen mor",
-  "cached_at": "2026-05-16T07:04:31.846128"
+  "shared_perspectives": "Der deutsche Mediendiskurs zur Familienpolitik teilt unabhängig von politischer Ausrichtung die Überzeugung, dass staatliche Betreuungsinfrastruktur (Kitas, Ganztagsschulen) ein zentrales Versprechen ist, dessen Umsetzung jedoch scheitert — sowohl konservative als auch progressive Medien dokumentieren flächendeckend Platzengpässe und Schließungen, nicht als ideologische Kritik sondern als faktisches Defizit. Eine zweite Gemeinsamkeit liegt in der Artikulation von Vätern als strukturell benachteiligte oder unsichtbar gemachte Gruppe innerhalb des Familiensystems, was sowohl in rechts-konservativen Debatten über Sorgerecht als auch in progressive Elternkolumnen über fehlende Mitverantwortung auftaucht. Drittens wird die psychische und physische Überlastung von Eltern — besonders Müttern — als Dauerkrise dargestellt, die weder Erziehungsratschläge noch Privatinitiative (wie Deutschenbahn-Angebote) strukturell lösen können, was impliziert, dass alle politischen Lager das gegenwärtige Modell der Vereinbarkeit von Familie und Erwerbstätigkeit als gescheitert betrachten.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Familienpolitik-Diskurs\n\nDer deutsche Mediendiskurs offenbart einen fundamentalen Konflikt zwischen zwei rivalisierenden Gesellschaftsmodellen: Während liberal-linke Medien Kinderbetreuung als staatliche Gestaltungsaufgabe rahmen, um Geschlechterrollen aufzubrechen und Chancengleichheit herzustellen (erkennbar an der Kritik an Kita-Sparmaßnahmen, der Fokussierung auf Väterverantwortung und struktureller Geschlechterungerechtigkeit), positioniert sich das konservativ-rechte Lager dagegen als Verteidiger familiärer Autonomie und elterlicher Erziehungssouveränität — wobei die Grenze zur far-right-Sphäre zusätzlich durch Sexualisierungsängste und die Pathologisierung von staatlichen Betreuungsinstitutionen verläuft. Der zweite strukturelle Bruch betrifft die wirtschaftliche versus soziale Logik der Familienpolitik: Während ökonomisch-liberale und teils konservativ-liberale Medien Elterngeld und Betreuungsausbau als Optimierungsinstrument für Arbeitsmarktbeteiligung diskutieren, artikulieren linke und progressive Debatten hingegen Bedenken gegen die Ökonomisierung von Kindheit und Familie und kritisieren stattdessen die ungleiche Verteilung von Sorgearbeit als symptomatisch für strukturelle Machtasymmetrien. Diese Trennlinien verlaufen also nicht primär zwischen \"Für\" und \"Gegen\" konkrete Maßnahmen, sondern zwischen inkompatibler Weise, wie Familie und Staat relationiert werden sollen: als Sphären gegenseitiger Kontrolle oder als Raum der Bedürfniserfüllung.",
+  "cached_at": "2026-05-17T07:06:05.789335"
 }

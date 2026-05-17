@@ -1,31 +1,31 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 116,
-  "candidate_count": 340,
+  "article_count": 113,
+  "candidate_count": 361,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 26,
+      "article_count": 23,
       "sample_titles": [
+        "Kürzungen: Wie sich der Sparzwang an Berlins Unis auswirkt",
         "Viele Saar-Erstklässler haben kommendes Schuljahr keine Ganztagsbetreuung",
-        "Empfehlung von Historikerin: Ernst-Sigle-Gymnasium in Kornwestheim sollte umbenannt werden",
         "1,3 Milliarden Euro vom Land für benachteiligte Kinder: Wie wird das Geld an den Schulen eingesetzt?",
-        "Mutmaßliches Sexualdelikt an Koblenzer Schule: Ermittlungen gegen möglichen Mittäter"
+        "Quote von Schülern ohne Abschluss steigt"
       ],
       "urls": [
+        "https://www.rbb24.de/politik/beitrag/2026/05/kuerzungen-hochschulen-sparzwang-berlin-unis-protest.html",
         "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rechtsanspruch_ganztagsbetreuung_grundschulen_saarland_100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/ns-vergangenheit-ernst-sigle-kornwestheim-ehrenbuerger-umbenennung-gymnasium-100.html",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/startchancenprogramm-zeigt-erste-erfolge-backnang-baden-wuerttemberg-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/ermittlungen-gegen-zwei-mutmassliche-taeter-nach-moeglichem-sexualdelikt-in-koblenz-100.html"
+        "https://www1.wdr.de/politik/politik-in-nrw/schule-abschluss-abgaenger-100.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "fear",
@@ -41,31 +41,64 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 17,
+      "article_count": 16,
       "sample_titles": [
-        "Integration in Deutschland: Meine Deutschlehrerin, Frau Demke, ist bis heute eine Heldin für mich",
+        "Erweitertes Promotionsrecht: Vom „Dr. light“ reden nur noch wenige",
         "Technische Universität berlin: „Ich verdanke dieser Universität fast alles. Ihr Zustand erfüllt mich deshalb mit tiefer Sorge“",
         "Für 50 Millionen Euro: Frankfurter Musikschule zieht in alten „Sinkkasten“",
-        "Topmanager: Deutsch lernte der neue BMW-Chef erst in der Grundschule"
+        "Hochschule Darmstadt: Studenten bauen Rennwagen, der sich selbst steuert"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/gesellschaft/menschen/integration-aufwachsen-als-gefluechteter-syrer-in-deutschland-accg-200808452.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/doktor-im-fach-soziale-arbeit-wie-viel-ist-das-erweiterte-promotionsrecht-in-hessen-wert-accg-200828124.html",
         "https://www.faz.net/aktuell/feuilleton/debatten/baulicher-verfall-deutscher-universitaeten-gefahr-fuer-bildung-accg-200831957.html",
         "https://www.faz.net/aktuell/rhein-main/frankfurt/musikschule-frankfurt-umzug-in-sinkkasten-accg-200829719.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/vom-gastarbeiter-kind-zum-bmw-chef-die-aufstiegsgeschichte-von-milan-nedeljkovi-accg-200806260.html"
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/darmstaedter-studenten-bauen-autonom-fahrenden-rennwagen-200825015.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
           "emotion": "admiration",
-          "count": 3
+          "count": 1
         },
         {
           "emotion": "embarrassment",
           "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 13,
+      "sample_titles": [
+        "„Man spricht mittlerweile nur noch Inklusion und nicht mehr von Integration“",
+        "Mädchen in Stadtpark missbraucht – Mutmaßliche Täter und Zeugin besuchen wieder dieselbe Schule",
+        "Zahl der Schulabgänger ohne Abschluss steigt in NRW auf Zehn-Jahres-Rekord",
+        "NS-Anspielungen bei Abi-Mottos – Schule schließt Schüler von Zeugnisvergabe aus"
+      ],
+      "urls": [
+        "https://www.welt.de/videos/video6a07558b4166b8e84c362e3c/migration-man-spricht-mittlerweile-nur-noch-inklusion-und-nicht-mehr-von-integration.html",
+        "https://www.welt.de/politik/deutschland/article6a070211639442857fa203f6/brandenburg-maedchen-in-stadtpark-missbraucht-mutmassliche-taeter-und-zeugin-besuchen-wieder-dieselbe-schule.html",
+        "https://www.welt.de/politik/deutschland/article6a034e3d9e875c402d54ebb6/zahl-der-schulabgaenger-ohne-abschluss-steigt-in-nrw-auf-zehn-jahres-rekord-wegen-migration.html",
+        "https://www.welt.de/vermischtes/article6a02d7299e875c402d54dec9/liebigschule-in-giessen-ns-anspielungen-bei-abi-mottos-schule-schliesst-schueler-von-zeugnisvergabe-aus.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -74,7 +107,7 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 12,
+      "article_count": 11,
       "sample_titles": [
         "Hochschulstandort: Für den Aufschwung - Lausitz erhält Milliarden für Forschung",
         "\"Schafft Zukunftssicherheit\": Handwerkskammer zählt mehr Ausbildungsverträge - Trend?",
@@ -87,52 +120,39 @@
         "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/ende-der-pendelfahrt-in-sicht--nach-schulbrand-steht-containerbau-fuer-schueler-in-erkrath-37393136.html",
         "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/cdu-in-der-regierung--bildungspolitikerin-aus-bayern-wird-ministerin-37390810.html"
       ],
-      "dominant_emotion": "gratitude",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "gratitude",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "approval",
           "count": 1
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 11,
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 10,
       "sample_titles": [
-        "„Man spricht mittlerweile nur noch Inklusion und nicht mehr von Integration“",
-        "In Österreich beginnt die Landesverteidigung ab sofort in der Schule",
-        "Zahl der Schulabgänger ohne Abschluss steigt in NRW auf Zehn-Jahres-Rekord",
-        "NS-Anspielungen bei Abi-Mottos – Schule schließt Schüler von Zeugnisvergabe aus"
+        "Startklar-Newsletter: Was sind Onlinetests noch wert?",
+        "Berlin: Wissenschaftssenatorin räumt Vernachlässigung von TU-Gebäuden ein",
+        "Hybrider Krieg: Moskau bildet in einem geheimen Uni-Programm Spione und Hacker aus",
+        "Berufseinstieg als Baumpflegerin: Ohne Ausbildung bis zu 5000 Euro im Monat verdienen"
       ],
       "urls": [
-        "https://www.welt.de/videos/video6a07558b4166b8e84c362e3c/migration-man-spricht-mittlerweile-nur-noch-inklusion-und-nicht-mehr-von-integration.html",
-        "https://www.welt.de/politik/ausland/plus6a0577f32024a1440cb9a24f/bedrohungslage-in-oesterreich-beginnt-die-landesverteidigung-ab-sofort-in-der-schule.html",
-        "https://www.welt.de/politik/deutschland/article6a034e3d9e875c402d54ebb6/zahl-der-schulabgaenger-ohne-abschluss-steigt-in-nrw-auf-zehn-jahres-rekord-wegen-migration.html",
-        "https://www.welt.de/vermischtes/article6a02d7299e875c402d54dec9/liebigschule-in-giessen-ns-anspielungen-bei-abi-mottos-schule-schliesst-schueler-von-zeugnisvergabe-aus.html"
+        "https://www.spiegel.de/start/startklar-newsletter-was-sind-onlinetests-noch-wert-a-c3ae6169-ba16-4565-8663-abef8f9b1ceb#ref=rss",
+        "https://www.spiegel.de/panorama/bildung/berlin-wissenschaftssenatorin-raeumt-vernachlaessigung-von-tu-gebaeuden-ein-a-3543ca2a-8699-415a-8592-6f53ec729967#ref=rss",
+        "https://www.spiegel.de/ausland/hybrider-krieg-moskau-bildet-in-einem-geheimen-uni-programm-spione-und-hacker-aus-a-2de79023-aa56-4ed6-b5de-d7c222402e63#ref=rss",
+        "https://www.spiegel.de/start/berufseinstieg-als-baumpflegerin-ohne-ausbildung-bis-zu-5000-euro-im-monat-verdienen-a-f8e8c048-9952-48ce-afc9-285152574395#ref=rss"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 9,
+      "article_count": 7,
       "sample_titles": [
         "„Kompetenzzentrum Rechtsextremismus“ Hessen: Verfassungsschutz nimmt vermehrt Schulen ins Visier",
         "JF-Reportage Wenn die Schule zum Angstraum wird",
@@ -153,76 +173,22 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Berlin: Wissenschaftssenatorin räumt Vernachlässigung von TU-Gebäuden ein",
-        "Berufseinstieg als Baumpflegerin: Ohne Ausbildung bis zu 5000 Euro im Monat verdienen",
-        "Hymnenpflicht an Schulen? Wir hätten da einen Vorschlag",
-        "Berufsbildungsbericht: Fast 2,8 Millionen junge Erwachsene bleiben ohne Abschluss"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/bildung/berlin-wissenschaftssenatorin-raeumt-vernachlaessigung-von-tu-gebaeuden-ein-a-3543ca2a-8699-415a-8592-6f53ec729967#ref=rss",
-        "https://www.spiegel.de/start/berufseinstieg-als-baumpflegerin-ohne-ausbildung-bis-zu-5000-euro-im-monat-verdienen-a-f8e8c048-9952-48ce-afc9-285152574395#ref=rss",
-        "https://www.spiegel.de/politik/hymnenpflicht-an-schulen-wir-haetten-da-einen-vorschlag-a-efea70f4-ce57-4c93-9739-f6a600e61ae7#ref=rss",
-        "https://www.spiegel.de/start/berufsbildungsbericht-fast-2-8-millionen-junge-erwachsene-bleiben-ohne-abschluss-a-270b7a7c-6a52-4856-acf6-850e8aa5bd31#ref=rss"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Hochschulstandort: Für den Aufschwung - Lausitz erhält Milliarden für Forschung",
-        "In eigener Sache: DIE ZEIT gründet ein Bildungsressort",
-        "Tipps für Lernen: So lernst du wie eine Cambridge-Absolventin",
-        "Studie zur Smartphonenutzung: »Die meisten haben spätestens in der fünften Klasse das erste Handy«"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-05/13/fuer-den-aufschwung-lausitz-erhaelt-milliarden-fuer-forschung",
-        "https://www.zeit.de/fragen-der-zeit/2026/05/bildung-neues-ressort",
-        "https://www.zeit.de/campus/ratgeber/2026/01/tipps-lernen-schule-studium",
-        "https://www.zeit.de/digital/internet/2026-05/smartkids-studie-amy-orben-garvin-brod-smartphone-kinder"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 5,
+      "article_count": 7,
       "sample_titles": [
         "Studierende über Bafög-Reform: „Bei uns überwiegt die Frustration“",
         "Männlichkeitsbilder in Schulen: Mein Sohn wird ein Mann – und ich bin besorgt",
-        "GEW über Polizei auf dem Schulhof: „Keine dauerhafte Lösung“",
-        "Demonstrierende fordern mehr Inklusion: „Wir sind laut, weil man uns Barrieren baut“"
+        "Queerfeindliche Ministerin Karin Prien: Zur fanatischen Kulturkämpferin mutiert",
+        "GEW über Polizei auf dem Schulhof: „Keine dauerhafte Lösung“"
       ],
       "urls": [
         "https://taz.de/Studierende-ueber-Bafoeg-Reform/!6178250/",
         "https://taz.de/Maennlichkeitsbilder-in-Schulen/!6175397/",
-        "https://taz.de/GEW-ueber-Polizei-auf-dem-Schulhof/!6176218/",
-        "https://taz.de/Demonstrierende-fordern-mehr-Inklusion-fuer-Menschen-mit-Behinderungen/!6176688/"
+        "https://taz.de/Queerfeindliche-Ministerin-Karin-Prien/!6177089/",
+        "https://taz.de/GEW-ueber-Polizei-auf-dem-Schulhof/!6176218/"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -236,6 +202,35 @@
         },
         {
           "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Tipps für Lernen: So lernst du wie eine Cambridge-Absolventin",
+        "Studie zur Smartphonenutzung: »Die meisten haben spätestens in der fünften Klasse das erste Handy«",
+        "Landtagswahl in Sachsen-Anhalt: Sachsen-Anhalt droht laut Schulze »Schulsterben« unter AfD-Regierung",
+        "Rassismus an Berliner Schule: Rechtsextreme Aufkleber und Tackernadeln an Spielplatz"
+      ],
+      "urls": [
+        "https://www.zeit.de/campus/ratgeber/2026/01/tipps-lernen-schule-studium",
+        "https://www.zeit.de/digital/internet/2026-05/smartkids-studie-amy-orben-garvin-brod-smartphone-kinder",
+        "https://www.zeit.de/politik/deutschland/2026-05/sven-schulze-sachsen-anhalt-afd-schulsterben-landtagswahl",
+        "https://www.zeit.de/politik/deutschland/2026-05/rassismus-berlin-schule-spandau-klettergeruest-tackernadeln"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -269,6 +264,31 @@
         }
       ]
     },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 4,
+      "sample_titles": [
+        "Dachdecker oder Schornsteinfeger: Handwerkspräsident berichtet von Zulauf bei Azubis",
+        "Neue Vorschrift für Abschlussfeiern: Bayern führt ab kommendem Schuljahr Hymnenpflicht ein",
+        "Debatte über unfähige Studenten: Wer \"klotzen, nicht kleckern\" fordert, wird als \"unsozialer Leistungsanbeter\" abgestempelt",
+        "Debatte über unfähige Studenten: Wer \"Klotzen nicht Kleckern\" fordert, wird als \"unsozialer Leistungsanbeter\" abgestempelt"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wirtschaft/Handwerkspraesident-berichtet-von-Zulauf-bei-Azubis-id30828169.html",
+        "https://www.n-tv.de/politik/Bayern-fuehrt-Hymnenpflicht-ab-kommendem-Schuljahr-ein-id30791258.html",
+        "https://www.n-tv.de/panorama/Wer-klotzen-nicht-kleckern-fordert-wird-als-unsozialer-Leistungsanbeter-abgestempelt-id30773320.html",
+        "https://www.n-tv.de/panorama/Wer-Klotzen-nicht-Kleckern-fordert-wird-als-unsozialer-Leistungsanbeter-abgestempelt-id30773320.html"
+      ],
+      "dominant_emotion": "disgust",
+      "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 2
+        }
+      ]
+    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
@@ -289,73 +309,41 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
       "article_count": 3,
       "sample_titles": [
-        "Die alten Ägypter wären heute an deutschen Schulen weit unterfordert",
-        "Hessischer Verfassungsschutz gibt zu: Antisemiten vor allem Islamisten und Linksextremisten",
-        "Freiwillig, aber für alle!"
+        "Kommentar: Unternehmen sparen bei Weiterbildung an der falschen Stelle",
+        "Technologie: „Internationale Leuchttürme schaffen“ – Bund will Regionen mit Spitzenforschung gezielt fördern",
+        "Ausbildungsförderung: Verhandlungsmarathon: Wie Union und SPD im Stillen um die Reform des Bafögs rangen"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/die_alten_aegypter_waeren_heute_an_deutschen_schulen_weit_unterfordert",
-        "https://www.achgut.com/artikel/hessischer_verfassungsschutz_gibt_zu_antisemiten_vor_allem_islamisten_und_linksextremisten",
-        "https://www.achgut.com/artikel/freiwillig_aber_fuer_alle"
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-unternehmen-sparen-an-der-falschen-stelle/100224381.html",
+        "https://www.handelsblatt.com/politik/deutschland/technologie-bund-will-regionen-mit-spitzenforschung-gezielt-foerdern/100222600.html",
+        "https://www.handelsblatt.com/politik/deutschland/koalition-wie-union-und-spd-im-stillen-um-die-reform-des-bafoegs-rangen/100221376.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 3,
-      "sample_titles": [
-        "Neue Vorschrift für Abschlussfeiern: Bayern führt ab kommendem Schuljahr Hymnenpflicht ein",
-        "Debatte über unfähige Studenten: Wer \"klotzen, nicht kleckern\" fordert, wird als \"unsozialer Leistungsanbeter\" abgestempelt",
-        "Debatte über unfähige Studenten: Wer \"Klotzen nicht Kleckern\" fordert, wird als \"unsozialer Leistungsanbeter\" abgestempelt"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Bayern-fuehrt-Hymnenpflicht-ab-kommendem-Schuljahr-ein-id30791258.html",
-        "https://www.n-tv.de/panorama/Wer-klotzen-nicht-kleckern-fordert-wird-als-unsozialer-Leistungsanbeter-abgestempelt-id30773320.html",
-        "https://www.n-tv.de/panorama/Wer-Klotzen-nicht-Kleckern-fordert-wird-als-unsozialer-Leistungsanbeter-abgestempelt-id30773320.html"
-      ],
-      "dominant_emotion": "disgust",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "disgust",
+          "emotion": "optimism",
           "count": 2
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
       "bias": "far-right",
       "article_count": 2,
       "sample_titles": [
-        "„Zentrum für politische Schönheit“ schickt Alice-Weidel-Gefängnisbus an Schulen",
-        "Neue Schulstudie: Ideologie statt Fakten"
+        "Die alten Ägypter wären heute an deutschen Schulen weit unterfordert",
+        "Freiwillig, aber für alle!"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/zps-bus-schulen-afd/",
-        "https://www.tichyseinblick.de/meinungen/bildungswesen-studie-ideologie/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Schläge für neunjährige Mobber: Lehrer in Singapur dürfen Schüler mit dem Rohrstock betrafen"
-      ],
-      "urls": [
-        "https://www.nzz.ch/panorama/schlaege-fuer-mobber-singapur-bestraft-schueler-mit-dem-rohrstock-ld.10006172"
+        "https://www.achgut.com/artikel/die_alten_aegypter_waeren_heute_an_deutschen_schulen_weit_unterfordert",
+        "https://www.achgut.com/artikel/freiwillig_aber_fuer_alle"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -393,32 +381,32 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "Ausbildungsförderung: Verhandlungsmarathon: Wie Union und SPD im Stillen um die Reform des Bafögs rangen"
+        "Neue Schulstudie: Ideologie statt Fakten"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/koalition-wie-union-und-spd-im-stillen-um-die-reform-des-bafoegs-rangen/100221376.html"
+        "https://www.tichyseinblick.de/meinungen/bildungswesen-studie-ideologie/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 14,
-    "far-right": 14,
-    "neutral": 31,
-    "conservative-liberal": 19,
-    "left-liberal": 31,
-    "left": 5,
-    "populist-mixed": 1,
-    "economic-liberal": 1
+    "right-conservative": 17,
+    "economic-liberal": 3,
+    "neutral": 28,
+    "far-right": 10,
+    "left-liberal": 30,
+    "conservative-liberal": 17,
+    "left": 7,
+    "populist-mixed": 1
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Bildungssystem besteht über alle politischen Lager hinweg ein Konsens über strukturelle Mangelerscheinungen: Sowohl konservative als auch linke Medien thematisieren die steigenden Quoten von Schulabgängern ohne Abschluss, unzureichende materielle Ausstattung von Schulen und Hochschulen sowie Engpässe bei der Betreuung und Lehrkräfteversorgung als konkrete, messbarer Probleme. Über ideologische Grenzen hinweg wird zudem die Bedeutung von Bildung als Aufstiegsmotor und Voraussetzung für Integration anerkannt — ob im Kontext von Einwanderern, die durch Spracherwerb teilhaben oder von Fachkräftemangel, der durch bessere Ausbildung gelöst werden soll. Eine dritte übergreifende Gemeinsamkeit liegt in der Kritik am Föderalismus als Hindernis für Chancengleichheit, insofern rechts-konservative Medien vor „Schulsterben\" und links-liberale vor mangelnder Finanzierung warnen — beide deuten damit auf die zersplitterte Verantwortung zwischen Bund und Ländern hin.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer zentrale Konflikt liegt in der **grundsätzlich divergierenden Diagnose des Systemzustands**: Während konservative und rechte Medien Bildung primär als Ort ideologischer Kontamination (Inklusion, „queere Bildung\", Pluralismus) und Leistungserosion thematisieren, konzentrieren sich linke und liberal-progressive Medien auf strukturelle Unterfinanzierung und mangelnde Chancengleichheit — beide Seiten sprechen also von einer Krise, diagnostizieren aber völlig unterschiedliche Ursachen und damit auch Lösungen. Ein zweiter tiefgreifender Konflikt betrifft die **Frage, ob Bildung ein Recht oder ein Leistungssystem ist**: Die rechte Kritik an Inklusion und der Ablehnung von Differenzierung steht einer linken Forderung nach universalem Zugang und Barriereabbau diametral gegenüber — es geht nicht um Ressourcenverteilung, sondern um fundamentale Konzeptionen von Gerechtigkeit und Meritokratie. Drittens offenbart sich ein Riss zwischen **technologisch-pragmatischer und ideologisch-wertebasierter Bildungsvorstellung**: Während wirtschaftsnahe und liberal-konservative Positionen Bildung als Qualifikationsinstrument für Arbeitsmarktfähigkeit verstehen (Handwerk, innovative Technologie, Management-Skills), dekonstruiert der linke Diskurs systematisch solche instrumentellen Zwecke zugunsten von Emanzipation, kritischer Reflexion und Gesellschaftstransformation — was bei den Konservativen gerade als ideologische Indoktrination wahrgenommen wird.",
-  "cached_at": "2026-05-16T07:04:51.496402"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Bildungssystem besteht medienübergreifend Konsens, dass strukturelle Unterfinanzierung ein zentrales Problem darstellt — sowohl progressive als auch konservative Medien berichten über Geldmangel an Schulen und Universitäten, fehlende Ganztagsbetreuung und unzureichende Infrastruktur, ohne grundsätzlich unterschiedliche Lösungsansätze zu propagieren. Gleichzeitig wird von links bis rechts die duale Ausbildung als funktionierendes und ausbauwürdiges System dargestellt, was sich in der positiven Berichterstattung über Azubi-Zulauf widerspiegelt — hier scheint Handwerkskammer und Wirtschaft gemeinsamer Gesprächspartner. Die dritte Gemeinsamkeit liegt in der Anerkennung, dass der Fachkräfte- und Lehrermangel die Leistungsfähigkeit des Systems gefährdet, wobei jedoch konservative und progressive Medien unterschiedliche Ursachenzuschreibungen haben — Konservative kritisieren zu viel ideologische Debatten (Inklusion, Queerthematik), während Linke strukturelle Unterinvestition verantwortlich machen.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer zentrale Konflikt spaltet sich entlang der Frage, ob Bildung primär als **Ausbildungsmarkt zur Fachkräftesicherung** (wirtschaftsliberal, konservativ) oder als **Recht auf gesellschaftliche Teilhabe und emanzipatorisches Gut** (linksliberal, links) zu konzipieren ist — wobei die rechte und konservative Seite Bildungsinhalte zusätzlich als kulturpolitisches Kampffeld deutet, während linke Positionen diese Kämpfe als Ablenkung von materialen Fragen der Finanzierung und Ressourcengerechtigkeit kritisieren. Ein zweiter Konflikt liegt in der **grundlegenden Definition von Inklusion und Diversität**: Während progressive Positionen Inklusion als Infrastrukturaufgabe und Normdekonstruktion fordern, kritisiert die rechte und konservative Seite diese als ideologische Überforderung des Systems, die reale Leistungsstandards gefährdet und als \"Inklusion statt Integration\" eine gefährliche Veränderung bewusster Abgrenzung darstellt. Der dritte strukturelle Bruch betrifft die **Verortung von Systemverantwortung**: Linke und linksliberale Medien thematisieren Unterfinanzierung und föderale Zersplitterung als strukturelle Blockadeprobleme, während wirtschaftsliberale Positionen eher auf Effizienzsteigerung und Wettbewerb zwischen Bundesländern und Hochschulen setzen, und rechte Positionen Bildungskrise zugleich als Folge \"ideologischer\" Inhalte und politischen Versagens deuten — drei Systembeschreibungen, die zueinander unversöhnlich sind.",
+  "cached_at": "2026-05-17T07:06:27.229457"
 }

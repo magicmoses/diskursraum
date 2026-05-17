@@ -1,109 +1,67 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 68,
+  "article_count": 73,
   "candidate_count": 800,
   "outlets": {
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 17,
-      "sample_titles": [
-        "Immobilien: Wie KI, Automatisierung und Robotik Gebäude optimieren",
-        "Software: „Wir verlangen allen viel ab“ – Wie Christian Klein SAP neu erfinden will",
-        "Netzwerkausrüster: Cisco streicht für KI-Fokus knapp 4000 Stellen – Aktie steigt kräftig",
-        "Datensicherheit: Google und Telekom rücken bei souveräner Cloud auseinander"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wieki-automatisierung-und-robotik-gebaeude-optimieren/100210239.html",
-        "https://www.handelsblatt.com/technik/it-internet/software-wie-christian-klein-sap-neu-erfinden-will/100224291.html",
-        "https://www.handelsblatt.com/technik/it-internet/netzwerkausruester-cisco-streicht-fuer-ki-fokus-knapp-4000-stellen-aktie-steigt-kraeftig/100225003.html",
-        "https://www.handelsblatt.com/technik/it-internet/datensicherheit-google-und-telekom-ruecken-bei-souveraener-cloud-auseinander/100208936.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 12,
+      "article_count": 17,
       "sample_titles": [
-        "Umbruch auf dem Arbeitsmarkt: Die KI trifft die Frauen härter",
-        "Technische Analyse: KI-Boom treibt Aktienkurse von Nvidia und Intel an",
-        "F.A.Z. Exklusiv: Verlag „Tredition“ streicht KI-Schrott",
-        "Künstliche Intelligenz: Die Eroberung der Welt durch Chatbots"
+        "Künstliche Intelligenz: Popmusik aus der Retorte",
+        "KI für den Hauskredit: „Dank Künstlicher Intelligenz erreichen wir einfacher die junge Generation“",
+        "Erinnerung mit KI: Perline, die Retterin des Senckenbergmuseums",
+        "Digitalwirtschaft-Podcast: Unsere digitale Souveränität hängt von vier Dingen ab"
       ],
       "urls": [
-        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/arbeitsmarkt-ki-trifft-jobs-von-frauen-haerter-accg-200826571.html",
-        "https://www.faz.net/aktuell/finanzen/boersen-maerkte/aktien-indizes/nvidia-und-intel-ki-boom-treibt-aktienkurse-an-accg-200826126.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/kuenstliche-intelligenz-tredition-verlag-streicht-ki-schrott-und-erstattet-preise-accg-200831835.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/unternehmergespraech/novomind-software-made-in-germany-200786250.html"
+        "https://www.faz.net/aktuell/rhein-main/kultur/vorbild-lisa-von-blackpink-ki-uebernimmt-die-popmusik-200829079.html",
+        "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/baufinanzierung-wie-ki-fuer-den-hauskredit-sorgt-accg-200821769.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/frauen-in-der-forschung-ki-projekt-bei-senckenberg-in-frankfurt-accg-200759845.html",
+        "https://www.faz.net/podcasts/f-a-z-digitalwirtschaft/dfki-chef-krueger-unsere-digitale-souveraenitaet-haengt-von-vier-dingen-ab-200838001.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "amusement",
       "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "annoyance",
           "count": 1
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 6,
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 14,
       "sample_titles": [
-        "Urteil in Hamm: Wer einen Chatbot betreibt, ist für dessen Lügen verantwortlich",
-        "»Der MSCI World ist eine große Wette auf den KI-Boom« - Fondsmanager Bert Flossbach im Interview",
-        "Real Madrid: Präsident Florentino Pérez attackiert spanische Presse und kündigt Neuwahlen an",
-        "Google-Forscher vereiteln offenbar KI-Hackerangriff"
+        "Immobilien: Wie KI, Automatisierung und Robotik Gebäude optimieren",
+        "Wall Street: Gewinne dank KI-Boom – Nasdaq und S&P 500 mit Rekord",
+        "Datensicherheit: Google und Telekom rücken bei souveräner Cloud auseinander",
+        "KI: Japanische Banken erhalten offenbar Testzugang für Anthropic-KI Mythos"
       ],
       "urls": [
-        "https://www.spiegel.de/netzwelt/urteil-in-hamm-wer-einen-chatbot-betreibt-ist-fuer-dessen-luegen-verantwortlich-a-96c73b7d-25ab-4c09-a510-f0582bc601ee#ref=rss",
-        "https://www.spiegel.de/wirtschaft/der-msci-world-ist-eine-grosse-wette-auf-den-ki-boom-fondsmanager-bert-flossbach-im-interview-a-87c0769d-b0f3-4458-a9fb-44a4e882b78e#ref=rss",
-        "https://www.spiegel.de/sport/fussball/real-madrid-praesident-florentino-perez-attackiert-spanische-presse-und-kuendigt-neuwahlen-an-a-7b5ad8f9-450a-409c-a908-488379100b08#ref=rss",
-        "https://www.spiegel.de/netzwelt/web/google-forscher-vereiteln-offenbar-ki-hackerangriff-a-4d494ea4-dbd9-48d7-85a8-2bac27b55e7d#ref=rss"
+        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wieki-automatisierung-und-robotik-gebaeude-optimieren/100210239.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-gewinne-dank-ki-boom-nasdaq-und-sp-500-mit-rekord/100225139.html",
+        "https://www.handelsblatt.com/technik/it-internet/datensicherheit-google-und-telekom-ruecken-bei-souveraener-cloud-auseinander/100208936.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/ki-japanische-banken-erhalten-offenbar-testzugang-fuer-mythos/100224807.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 6,
-      "sample_titles": [
-        "KI-Aktien im Fokus: Cisco streicht Stellen, Chip-Neuling Cerebras trumpft auf",
-        "Teurer Weg aus US-Abhängigkeit: Europa droht mit \"KI-Gigafactories\" Milliarden in den Sand zu setzen",
-        "Chat mit einem Jesus-Avatar: Wie KI die Kirche herausfordert",
-        "Weltweiter Vergleich: Deutsche Unternehmen hinken bei Forschungsausgaben hinterher"
-      ],
-      "urls": [
-        "https://www.n-tv.de/wirtschaft/US-Boersen-Tech-Aktien-und-KI-Fantasie-treiben-Dow-und-Nasdaq-id30822401.html",
-        "https://www.n-tv.de/wirtschaft/Europa-droht-mit-KI-Gigafactories-Milliarden-in-den-Sand-zu-setzen-id30819335.html",
-        "https://www.n-tv.de/panorama/Wie-KI-die-Kirche-herausfordert-id30808010.html",
-        "https://www.n-tv.de/wirtschaft/Forschungsausgaben-Deutsche-Unternehmen-hinken-deutlich-hinterher-id30813085.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
+          "emotion": "optimism",
+          "count": 3
+        },
         {
-          "emotion": "confusion",
+          "emotion": "gratitude",
           "count": 1
         }
       ]
@@ -112,18 +70,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 5,
+      "article_count": 9,
       "sample_titles": [
-        "Neues Festival: Staatstheater Darmstadt experimentiert mit KI",
-        "Gefahr von Cyberangriffen in Deutschland bleibt hoch",
-        "Verfahren eingestellt: Warum Cyberangriffe selten aufgeklärt werden",
-        "Rick und Nick: Schönheitsärzte sind für Antworten von KI-Chatbots verantwortlich"
+        "„Saarex“ – Bundeswehr und Hilfsorganisationen üben in Kirkel",
+        "Höne macht Weg frei für Kubicki",
+        "Kubicki und Höne einigen sich auf Teamlösung",
+        "Neues Festival: Staatstheater Darmstadt experimentiert mit KI"
       ],
       "urls": [
-        "https://www.hessenschau.de/kultur/neues-festival-staatstheater-darmstadt-experimentiert-mit-ki-v1,ki_festival_darmstadt-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/cyberkriminalitaet-126.html",
-        "https://www1.wdr.de/nrw/cyberangriff-aufklaerung-verfahren-eingestellt-suedwestfalen-it-100.html",
-        "https://www1.wdr.de/nrw/dortmund/OLG-Hamm-urteil-rick-nick-chatbot-ki-100.html"
+        "https://www.sr.de/sr/home/nachrichten/panorama/saarex-bundeswehr-uebung_in_kirkel_100.html",
+        "https://www.tagesschau.de/inland/hoene-fdp-kandidatur-100.html",
+        "https://www1.wdr.de/politik/politik-in-nrw/fdp-kubicki-hoene-teamloesung-100.html",
+        "https://www.hessenschau.de/kultur/neues-festival-staatstheater-darmstadt-experimentiert-mit-ki-v1,ki_festival_darmstadt-100.html"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -141,47 +99,31 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 4,
+      "article_count": 8,
       "sample_titles": [
-        "Künstliche Intelligenz: Commerzbank setzt beim Stellenabbau stark auf KI",
-        "Social Media: EU-Kommission kündigt Vorgehen gegen Tiktok und Meta an",
-        "Studie zur Smartphonenutzung: »Die meisten haben spätestens in der fünften Klasse das erste Handy«",
-        "Künstliche Intelligenz: 29 Prozent der Beschäftigen halten Vorgesetzte für durch KI ersetztbar"
+        "Filmfestspiele in Cannes: Sandra Hüller in »Vaterland« über Thomas und Erika Mann",
+        "Sexueller Belästigung: Berichte von Übergriffen auf deutschem Ärztetag",
+        "Urteil in Hamm: Wer einen Chatbot betreibt, ist für dessen Lügen verantwortlich",
+        "Wolfgang Kubicki soll neuer FDP-Chef werden"
       ],
       "urls": [
-        "https://www.zeit.de/wirtschaft/2026-05/commerzbank-stellenabbau-ki-unicredit-uebernahme-gxe",
-        "https://www.zeit.de/digital/2026-05/eu-kommission-social-media-tiktok-meta-kinder-schutz",
-        "https://www.zeit.de/digital/internet/2026-05/smartkids-studie-amy-orben-garvin-brod-smartphone-kinder",
-        "https://www.zeit.de/arbeit/2026-05/kuenstliche-intelligenz-bitkom-umfrage-positionen-ersetzen-gxe"
+        "https://www.spiegel.de/kultur/kino/filmfestspiele-in-cannes-sandra-hueller-in-vaterland-ueber-thomas-und-erika-mann-a-103c60b1-aa48-4b14-8f50-f174395ff85a#ref=rss",
+        "https://www.spiegel.de/panorama/sexueller-belaestigung-berichte-von-uebergriffen-auf-deutschem-aerztetag-a-bd35a76f-8659-4fd4-adb4-f9cae9593c7c#ref=rss",
+        "https://www.spiegel.de/netzwelt/urteil-in-hamm-wer-einen-chatbot-betreibt-ist-fuer-dessen-luegen-verantwortlich-a-96c73b7d-25ab-4c09-a510-f0582bc601ee#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/wolfgang-kubicki-soll-neuer-fdp-chef-werden-a-73abbb20-ebbc-4d84-b6dd-c994204e07e9#ref=rss"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "Ringen mit der Unicredit: Commerzbank-Chefin: Großteil des Jobabbaus entfällt auf KI",
-        "Finanzen: Bafin warnt vor riskanten Immobilienkrediten und Cybergefahr",
-        "Zukunft der Arbeit: Wo die KI in Thüringen Arbeit übernehmen könnte",
-        "Finanzministerium: KI-Cyberattacken könnten sich auf Finanzstabilität auswirken"
-      ],
-      "urls": [
-        "https://www.stern.de/wirtschaft/news/ringen-mit-der-unicredit--commerzbank-chefin--grossteil-des-jobabbaus-entfaellt-auf-ki-37398864.html",
-        "https://www.stern.de/digital/finanzen--bafin-warnt-vor-riskanten-immobilienkrediten-und-cybergefahr-37390770.html",
-        "https://www.stern.de/gesellschaft/regional/thueringen/zukunft-der-arbeit--wo-die-ki-in-thueringen-arbeit-uebernehmen-koennte-37389048.html",
-        "https://www.stern.de/news/finanzministerium--ki-cyberattacken-koennten-sich-auf-finanzstabilitaet-auswirken-37389054.html"
-      ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -192,16 +134,16 @@
       "bias": "populist-mixed",
       "article_count": 4,
       "sample_titles": [
+        "Vulkan auf Hawaii wütet wieder - 200 Meter Lavafontäne",
         "„So wird dein Trip noch besser“ - Überdosis! Student vertraute KI als Drogenberater",
-        "VW Passat Variant (B8) im Gebraucht-Check - Was kann der Hilti-Passat?",
-        "Datenschutzskandal - Millionen Babyphones unsicher – Hacker schauen mit!",
-        "Fitnessdienst startet - Bei Google Health macht Sie ein KI-Coach fit"
+        "Gemini Intelligence überall - Neue Google-KI shoppt und reserviert von selbst",
+        "Er ist eine Kindheitslegende - Sie glauben nie, wer hier die US-Hymne singt!"
       ],
       "urls": [
+        "https://www.bild.de/news/ausland/vulkan-auf-hawaii-wuetet-und-schiesst-eine-200-meter-lavafontaene-heraus-6a08562e1bde982bd10fdc98",
         "https://www.bild.de/news/ausland/student-starb-an-ueberdosis-er-vertraute-ki-als-drogenberater-6a054cf42024a1440cb9a099",
-        "https://www.bild.de/leben-wissen/auto/vw-passat-variant-b8-gebraucht-check-was-kann-der-hilti-passat-69ddcd4a0695c741e3c2c788",
-        "https://www.bild.de/leben-wissen/digital/millionen-babyfone-unsicher-hacker-schauen-mit-6a031f3857bb66ab32e6c9f0",
-        "https://www.bild.de/leben-wissen/digital/google-startet-health-app-und-fitnessdienst-health-premium-69fdafdb591d4b3b0b7198b3"
+        "https://www.bild.de/leben-wissen/digital/ki-hammer-googles-neue-ki-shoppt-und-reserviert-jetzt-von-selbst-6a032277c7b823fd84be077d",
+        "https://www.bild.de/sport/mehr-sport/er-ist-eine-kindheitslegende-sie-glauben-nie-wer-hier-die-us-hymne-singt-6a031761c7b823fd84be0602"
       ],
       "dominant_emotion": "amusement",
       "top_emotions": [
@@ -210,11 +152,93 @@
           "count": 1
         },
         {
-          "emotion": "annoyance",
+          "emotion": "realization",
           "count": 1
-        },
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Trump-Besuch in China: Treffen sich zwei Fürsten in Peking",
+        "Künstliche Intelligenz: Commerzbank setzt beim Stellenabbau stark auf KI",
+        "Social Media: EU-Kommission kündigt Vorgehen gegen Tiktok und Meta an",
+        "Studie zur Smartphonenutzung: »Die meisten haben spätestens in der fünften Klasse das erste Handy«"
+      ],
+      "urls": [
+        "https://www.zeit.de/feuilleton/2026-05/donald-trump-besuch-xi-jinping-usa-china",
+        "https://www.zeit.de/wirtschaft/2026-05/commerzbank-stellenabbau-ki-unicredit-uebernahme-gxe",
+        "https://www.zeit.de/digital/2026-05/eu-kommission-social-media-tiktok-meta-kinder-schutz",
+        "https://www.zeit.de/digital/internet/2026-05/smartkids-studie-amy-orben-garvin-brod-smartphone-kinder"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 4,
+      "sample_titles": [
+        "KI-Aktien im Fokus: Cisco streicht Stellen, Chip-Neuling Cerebras trumpft auf",
+        "Teurer Weg aus US-Abhängigkeit: Europa droht mit \"KI-Gigafactories\" Milliarden in den Sand zu setzen",
+        "Gemini übernimmt: Google will Android voll unter KI-Kontrolle bringen",
+        "Viele aus dem Ausland: BKA meldet über 300.000 Cyberangriffe auf Ziele in Deutschland"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wirtschaft/US-Boersen-Tech-Aktien-und-KI-Fantasie-treiben-Dow-und-Nasdaq-id30822401.html",
+        "https://www.n-tv.de/wirtschaft/Europa-droht-mit-KI-Gigafactories-Milliarden-in-den-Sand-zu-setzen-id30819335.html",
+        "https://www.n-tv.de/technik/Google-will-Android-voll-unter-KI-Kontrolle-bringen-id30816728.html",
+        "https://www.n-tv.de/politik/BKA-meldet-ueber-300-000-Cyberangriffe-auf-Ziele-in-Deutschland-id30813873.html"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Kriminalität: Hackerangriff auf Rezeptprüfer - Gesundheitsdaten in Gefahr?",
+        "Ringen mit der Unicredit: Commerzbank-Chefin: Großteil des Jobabbaus entfällt auf KI",
+        "Debatte um Social-Media-Verbot: Von der Leyen stellt EU-Gesetz in Aussicht"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/kriminalitaet--hackerangriff-auf-rezeptpruefer---gesundheitsdaten-in-gefahr--37401686.html",
+        "https://www.stern.de/wirtschaft/news/ringen-mit-der-unicredit--commerzbank-chefin--grossteil-des-jobabbaus-entfaellt-auf-ki-37398864.html",
+        "https://www.stern.de/news/debatte-um-social-media-verbot--von-der-leyen-stellt-eu-gesetz-in-aussicht-37390800.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 3,
+      "sample_titles": [
+        "FDP-Parteivorsitz: Höne macht Weg für Kubicki frei",
+        "Warum Deutschland im Visier von Cyberkriminellen steht",
+        "\"Claude Mythos\" setzt die Cybersicherheit unter Druck"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/fdp-vorsitz-kandidatur-hoene-rueckzug-kubicki-100.html",
+        "https://www.zdfheute.de/panorama/kriminalitaet/cyberkriminalitaet-deutschland-experte-kipker-100.html",
+        "https://www.zdfheute.de/wirtschaft/ki-claude-mythos-anthropic-cybersicherheit-100.html"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -223,17 +247,15 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "Förderprämie für E-Autos kann ab Dienstag beantragt werden",
         "Weimer will TikTok nach US-Vorbild „in europäische Hände legen“",
-        "Googles Betriebssystem soll arbeiten, während man selbst etwas anderes tut",
         "Das deutsche Glasfaser-Paradoxon"
       ],
       "urls": [
         "https://www.welt.de/wirtschaft/video6a05691cd1570d730679fce2/bis-zu-6000-euro-foerderpraemie-fuer-e-autos-kann-ab-dienstag-beantragt-werden.html",
         "https://www.welt.de/wirtschaft/article6a032e589e875c402d54e8ad/tiktok-vorbild-usa-kulturstaatsminister-weimer-will-app-in-europaeische-haende-legen.html",
-        "https://www.welt.de/wirtschaft/article69fdf207591d4b3b0b719fa2/google-i-o-diese-show-ist-googles-angriff-auf-apples-grosse-schwaeche.html",
         "https://www.welt.de/wirtschaft/plus6a01adb07b6d0cd4a33acb74/breitbandausbau-das-deutsche-glasfaser-paradoxon.html"
       ],
       "dominant_emotion": "neutral",
@@ -243,16 +265,14 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 2,
       "sample_titles": [
         "2000 Stellen betroffen: Der SBB-Chef Vincent Ducrot spricht darüber, wie KI den Betrieb verändert",
-        "PODCAST «NZZ QUANTENSPRUNG» - Mythos: Die neue KI soll das perfekte Werkzeug für Hacker sein. Doch KI ist auch der beste Schutz gegen Cyberangriffe",
-        "DER ANDERE BLICK - Die deutschen Gewerkschaften sollten ihre Reformverweigerung überdenken. Sie gefährdet den Wohlstand."
+        "PODCAST «NZZ QUANTENSPRUNG» - Mythos: Die neue KI soll das perfekte Werkzeug für Hacker sein. Doch KI ist auch der beste Schutz gegen Cyberangriffe"
       ],
       "urls": [
         "https://www.nzz.ch/wirtschaft/2000-stellen-betroffen-der-sbb-chef-vincent-ducrot-spricht-darueber-wie-ki-den-betrieb-veraendert-ld.10007171",
-        "https://www.nzz.ch/podcast/mythos-die-neue-ki-soll-das-perfekte-werkzeug-fuer-hacker-sein-doch-ki-ist-auch-der-beste-schutz-gegen-cyberangriffe-ld.10006431",
-        "https://www.nzz.ch/der-andere-blick/die-deutschen-gewerkschaften-sollten-ihre-reformverweigerung-ueberdenken-sie-gefaehrdet-den-wohlstand-ld.10006613"
+        "https://www.nzz.ch/podcast/mythos-die-neue-ki-soll-das-perfekte-werkzeug-fuer-hacker-sein-doch-ki-ist-auch-der-beste-schutz-gegen-cyberangriffe-ld.10006431"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -271,51 +291,37 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "Warum Deutschland im Visier von Cyberkriminellen steht"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/panorama/kriminalitaet/cyberkriminalitaet-deutschland-experte-kipker-100.html"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
       "article_count": 1,
       "sample_titles": [
-        "Medizinische Forschung: KI könnte viele Labortiere ersetzen"
+        "Neue Online-Arbeitsteilung: Echtheitsfilter Mensch"
       ],
       "urls": [
-        "https://taz.de/Medizinische-Forschung-KI-koennte-die-Anzahl-von-Tierversuchen-deutlich-verringern/!6178253/"
+        "https://taz.de/Neue-Online-Arbeitsteilung/!6178350/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "left-liberal": 14,
-    "economic-liberal": 17,
-    "conservative-liberal": 15,
-    "far-right": 1,
-    "right-conservative": 10,
+    "conservative-liberal": 19,
+    "left-liberal": 15,
+    "neutral": 12,
     "populist-mixed": 4,
-    "neutral": 6,
+    "economic-liberal": 14,
+    "far-right": 1,
+    "right-conservative": 7,
     "left": 1
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass KI-Entwicklungen und Large Language Models einen tiefgreifenden Einfluss auf die Wirtschaft, den Arbeitsmarkt und die Gesellschaft in Deutschland haben werden. Die Medien aller politischen Ausrichtungen thematisieren die Chancen und Risiken von KI und Digitalisierung, insbesondere im Hinblick auf den Datenschutz, die Cybersicherheit und die Auswirkungen auf den Arbeitsmarkt, wobei die Notwendigkeit einer regulierten und verantwortungsvollen Entwicklung und Anwendung von KI betont wird. Darüber hinaus wird die Bedeutung von Investitionen in die digitale Infrastruktur, wie den Breitbandausbau, und die Förderung von digitaler Bildung und Ausbildung als wichtige Voraussetzungen für die erfolgreiche digitale Transformation in Deutschland hervorgehoben.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Digitalisierung, Künstlicher Intelligenz und digitaler Transformation zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und umfassenden Digitalisierung, die diese als Chance für Wirtschaftswachstum und Innovationsführerschaft sehen, und den Kritikern, die auf die Risiken für den Arbeitsmarkt, die Privatsphäre und die Cybersicherheit hinweisen. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer regulierten und kontrollierten Digitalisierung, die einen starken Staat und strenge Gesetze fordern, und den Befürwortern einer liberalen und marktwirtschaftlichen Digitalisierung, die auf Selbstregulierung und Innovationsfreedom setzen. Die Debatte um die Künstliche Intelligenz und ihre Anwendungen in Deutschland wird auch von einer grundlegenden Diskussion über die Zukunft der Arbeit und die Rolle der Technologie in der Gesellschaft geprägt, in der unterschiedliche Weltbilder und Werte aufeinanderprallen.",
-  "cached_at": "2026-05-16T07:00:46.047489"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass die KI-Entwicklung und ihre Anwendungen in verschiedenen Bereichen wie Wirtschaft, Verwaltung und Gesundheit einen bedeutenden Einfluss auf die Zukunft Deutschlands haben werden. Die Medien stimmen auch darin überein, dass die digitale Souveränität und die Cybersicherheit wichtige Herausforderungen sind, die Deutschland bei der Umsetzung seiner digitalen Strategie bewältigen muss, um die Chancen der Digitalisierung zu nutzen und die Risiken zu minimieren. Darüber hinaus wird die Notwendigkeit einer umfassenden digitalen Bildung und einer regulatorischen Rahmenbedingung für die KI-Entwicklung in Deutschland als wichtiger Aspekt für die erfolgreiche Integration von KI in die Gesellschaft und Wirtschaft betont.",
+  "controversial_points": "Im deutschen Mediendiskurs zu Digitalisierung, Künstlicher Intelligenz und digitaler Transformation zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und weitreichenden Digitalisierung, die diese als Chance für Wirtschaftswachstum und Innovation sehen, und den Kritikern, die auf die Risiken für den Arbeitsmarkt, die Privatsphäre und die gesellschaftliche Kohäsion hinweisen. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer liberalen Wirtschaftspolitik, die die Digitalisierung als Motor für Wirtschaftswachstum betrachten, und denjenigen, die eine stärkere Regulierung und staatliche Kontrolle der digitalen Wirtschaft fordern, um soziale und ökologische Ziele zu erreichen. Die Debatte um die KI-Regulierung und den EU AI Act spiegelt diese Konfliktlinien wider, indem sie die Frage aufwirft, wie eine ausgewogene Balance zwischen Innovationsförderung und Risikominimierung erreicht werden kann.",
+  "cached_at": "2026-05-17T07:02:19.375145"
 }
