@@ -31,6 +31,7 @@ const CAT_COLORS = {
 }
 
 const PARTIES = ['cdu_csu', 'spd', 'gruene', 'fdp', 'afd', 'linke']
+const PARTY_ORDER = ['linke', 'gruene', 'spd', 'fdp', 'cdu_csu', 'afd']
 
 const ELECTION_YEARS = [2005, 2009, 2013, 2017, 2021, 2025]
 const NLP_YEARS      = [2009, 2013, 2017, 2021, 2025]
@@ -113,6 +114,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
   const [topicsParty, setTopicsParty]       = useState('cdu_csu')
   const [topicsYear, setTopicsYear]         = useState(selectedYear)
   const [focusPartyLength, setFocusPartyLength] = useState(null)
+  const [populismYear, setPopulismYear]         = useState(2021)
 
   if (!data?.election_results) return (
     <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', fontSize: 'var(--text-sm)' }}>
@@ -153,6 +155,18 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
     party: SHORT[p], id: p,
     value: hohenheimData?.years?.[String(hixYear)]?.[p]?.hix ?? null,
   })).filter(d => d.value !== null)
+
+  const populismChartData = PARTY_ORDER
+    .map(partyId => {
+      const score = hohenheimData?.years?.[String(populismYear)]?.[partyId]?.populism?.anti_elitism
+      return {
+        party: SHORT[partyId],
+        party_id: partyId,
+        score: score ?? null,
+        no_data: score === null || score === undefined,
+      }
+    })
+    .filter(d => !d.no_data)
 
   const topicsEmphasis = data?.category_analysis?.policy_emphasis?.[String(topicsYear)]?.[topicsParty]
   const topicsData = topicsEmphasis
@@ -291,20 +305,83 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
         </div>
       )}
 
-      {/* ── 4. Populismus-Analyse (Placeholder) ──────── */}
-      <div style={{
-        border: '1px solid var(--border)',
-        padding: 'var(--space-6)',
-        background: 'var(--bg-surface)',
-        textAlign: 'center',
-      }}>
-        <div style={{ fontFamily: 'var(--font-mono)', fontSize: 'var(--text-xs)', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 'var(--space-2)' }}>
-          {t('wahlview.popbert_label')}
+      {/* ── 4. Populismus-Analyse ──────────────────── */}
+      {hohenheimData && (
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', ...S_LABEL }}>
+            {t('partyview.populism_label')}
+            <InfoIcon text="Gemessen als Anteil populistischer Sätze im Wahlprogramm. Methode: PopEuroBERT-binary-610m (Erhard et al. 2025), ein auf dem PopBERT-Datensatz finegetuntes EuroBERT-Modell. Die Methode orientiert sich an der Hohenheimer Wahlprogramm-Analyse — da kein Zugriff auf das exakte Hohenheimer Modell vorlag, wurde PopEuroBERT als methodisch verwandtes Modell gewählt um konsistente Scores für alle Wahljahre 2005–2025 zu berechnen." />
+          </div>
+          <YearButtons years={ELECTION_YEARS} active={populismYear} onChange={setPopulismYear} />
+          {populismChartData.length === 0 ? (
+            <div style={{
+              padding: 'var(--space-8)',
+              textAlign: 'center',
+              color: 'var(--text-muted)',
+              fontFamily: 'var(--font-mono)',
+              fontSize: 'var(--text-xs)',
+            }}>
+              {t('partyview.populism_pending', { year: populismYear })}
+            </div>
+          ) : (
+            <>
+              <ResponsiveContainer width="100%" height={280}>
+                <BarChart
+                  data={populismChartData}
+                  margin={{ top: 8, right: 16, bottom: 8, left: 0 }}
+                >
+                  <XAxis
+                    dataKey="party"
+                    stroke="var(--border)"
+                    tick={{ fontSize: 12, fill: 'var(--text-secondary)' }}
+                  />
+                  <YAxis
+                    stroke="var(--border)"
+                    tick={{ fontSize: 11, fill: 'var(--text-secondary)' }}
+                    tickFormatter={v => `${(v * 100).toFixed(0)}%`}
+                    domain={[0, 'auto']}
+                    label={{
+                      value: 'Anteil populist. Sätze',
+                      angle: -90,
+                      position: 'insideLeft',
+                      style: { fill: 'var(--text-muted)', fontSize: 10 },
+                    }}
+                  />
+                  <Tooltip
+                    contentStyle={TOOLTIP_STYLE}
+                    formatter={v => [`${(v * 100).toFixed(1)}%`, 'Populismus-Score']}
+                  />
+                  <Bar dataKey="score" radius={[2, 2, 0, 0]}>
+                    {populismChartData.map(entry => (
+                      <Cell
+                        key={entry.party_id}
+                        fill={PARTY_HEX[entry.party_id] || 'var(--signal)'}
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+              <p style={{
+                fontSize: 'var(--text-xs)',
+                color: 'var(--text-muted)',
+                fontFamily: 'var(--font-mono)',
+                marginTop: 'var(--space-2)',
+              }}>
+                Modell:{' '}
+                <a
+                  href="https://huggingface.co/przvl/PopEuroBERT-binary-610m"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--text-muted)', textDecoration: 'underline' }}
+                >
+                  przvl/PopEuroBERT-binary-610m
+                </a>
+                {' '}· Schwellenwert: 0.43 · Eigene Berechnung
+              </p>
+            </>
+          )}
         </div>
-        <div style={{ fontSize: 'var(--text-sm)', color: 'var(--text-muted)' }}>
-          {t('wahlview.popbert_coming')}
-        </div>
-      </div>
+      )}
 
       {/* ── 5. Programmlänge im Zeitverlauf ─────────── */}
       {hohenheimData && (

@@ -383,7 +383,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.13,
           "left_populism": null,
           "right_populism": null
         },
@@ -426,7 +426,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.125,
           "left_populism": null,
           "right_populism": null
         },
@@ -471,7 +471,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.044,
           "left_populism": null,
           "right_populism": null
         },
@@ -514,7 +514,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.045,
           "left_populism": null,
           "right_populism": null
         },
@@ -557,7 +557,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.046,
           "left_populism": null,
           "right_populism": null
         },
@@ -600,7 +600,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.051,
           "left_populism": null,
           "right_populism": null
         },
@@ -643,7 +643,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.141,
           "left_populism": null,
           "right_populism": null
         },
@@ -686,7 +686,7 @@
         "avg_sentence_length": null,
         "pct_complex_sentences": null,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.117,
           "left_populism": null,
           "right_populism": null
         },
@@ -731,9 +731,9 @@
         "avg_sentence_length": 10.4,
         "pct_complex_sentences": 7.7,
         "populism": {
-          "anti_elitism": 0.005,
-          "left_populism": 0.004,
-          "right_populism": 0.002
+          "anti_elitism": null,
+          "left_populism": null,
+          "right_populism": null
         },
         "top5_topics_hohenheim": null
       },
@@ -743,9 +743,9 @@
         "avg_sentence_length": 14.7,
         "pct_complex_sentences": 16.7,
         "populism": {
-          "anti_elitism": 0.005,
-          "left_populism": 0.005,
-          "right_populism": 0.0
+          "anti_elitism": null,
+          "left_populism": null,
+          "right_populism": null
         },
         "top5_topics_hohenheim": null
       },
@@ -755,9 +755,9 @@
         "avg_sentence_length": 15.5,
         "pct_complex_sentences": 20.5,
         "populism": {
-          "anti_elitism": 0.006,
-          "left_populism": 0.011,
-          "right_populism": 0.0
+          "anti_elitism": null,
+          "left_populism": null,
+          "right_populism": null
         },
         "top5_topics_hohenheim": null
       },
@@ -767,9 +767,9 @@
         "avg_sentence_length": 13.7,
         "pct_complex_sentences": 11.8,
         "populism": {
-          "anti_elitism": 0.008,
-          "left_populism": 0.004,
-          "right_populism": 0.001
+          "anti_elitism": null,
+          "left_populism": null,
+          "right_populism": null
         },
         "top5_topics_hohenheim": null
       },
@@ -779,9 +779,9 @@
         "avg_sentence_length": 14.4,
         "pct_complex_sentences": 12.6,
         "populism": {
-          "anti_elitism": 0.071,
-          "left_populism": 0.015,
-          "right_populism": 0.018
+          "anti_elitism": null,
+          "left_populism": null,
+          "right_populism": null
         },
         "top5_topics_hohenheim": null
       },
@@ -791,9 +791,9 @@
         "avg_sentence_length": 13.1,
         "pct_complex_sentences": 15.2,
         "populism": {
-          "anti_elitism": 0.055,
-          "left_populism": 0.054,
-          "right_populism": 0.001
+          "anti_elitism": null,
+          "left_populism": null,
+          "right_populism": null
         },
         "top5_topics_hohenheim": null
       }
@@ -810,7 +810,7 @@
   "description": "Populismus-Scores nach PopEuroBERT (Erhard et al. 2025)",
   "model": "przvl/PopEuroBERT-binary-610m",
   "threshold": 0.43,
-  "computed_at": "2026-05-16T06:42:09.195111",
+  "computed_at": "2026-05-16T08:57:39.115769",
   "scores": {
     "2005": {
       "cdu_csu": {
@@ -930,6 +930,48 @@
         "populism_score": 0.048,
         "sentence_count": 2250,
         "chunk_count": 314
+      },
+      "afd": {
+        "populism_score": 0.13,
+        "sentence_count": 916,
+        "chunk_count": 129
+      },
+      "linke": {
+        "populism_score": 0.125,
+        "sentence_count": 3856,
+        "chunk_count": 609
+      }
+    },
+    "2021": {
+      "cdu_csu": {
+        "populism_score": 0.044,
+        "sentence_count": 2641,
+        "chunk_count": 390
+      },
+      "spd": {
+        "populism_score": 0.045,
+        "sentence_count": 1469,
+        "chunk_count": 215
+      },
+      "gruene": {
+        "populism_score": 0.046,
+        "sentence_count": 3824,
+        "chunk_count": 537
+      },
+      "fdp": {
+        "populism_score": 0.051,
+        "sentence_count": 2138,
+        "chunk_count": 567
+      },
+      "afd": {
+        "populism_score": 0.141,
+        "sentence_count": 1563,
+        "chunk_count": 212
+      },
+      "linke": {
+        "populism_score": 0.117,
+        "sentence_count": 4563,
+        "chunk_count": 814
       }
     }
   }
