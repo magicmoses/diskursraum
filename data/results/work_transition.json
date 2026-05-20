@@ -1,72 +1,39 @@
 {
   "topic_id": "work_transition",
   "topic_label": "Arbeit im Wandel",
-  "article_count": 209,
-  "candidate_count": 292,
+  "article_count": 256,
+  "candidate_count": 351,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 42,
+      "article_count": 55,
       "sample_titles": [
-        "Telekom-Beschäftigte in Saarbrücken streiken heute wieder",
-        "Verdi-Streik im Einzelhandel: Rewe, Penny, Ikea und Co. betroffen",
-        "Südhessen: Warnstreik bremst am Montag Busse und Bahnen aus",
-        "Heute Streiks im Einzelhandel in NRW"
+        "Warnstreiks in Messe-Hotels in Frankfurt",
+        "Unterrichtsstunde mehr: Gewerkschaften klagen gegen Brandenburg",
+        "Bas fordert Regulierung von KI im Arbeitsmarkt",
+        "Telekom-Streik trifft Hessen – Kunden brauchen Geduld"
       ],
       "urls": [
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/erneut_telekom_streik_saarland_verdi_100.html",
-        "https://www.hessenschau.de/wirtschaft/verdi-streik-im-einzelhandel-rewe-penny-ikea-und-co-betroffen-v4,verdi_warnstreik-102.html",
-        "https://www.hessenschau.de/wirtschaft/suedhessen-warnstreik-bremst-am-montag-busse-und-bahnen-aus-v1,streik-heag-100.html",
-        "https://www1.wdr.de/wirtschaft/kaufland-rewe-ikea-streik-verdi-freitag-nrw-100.html"
+        "https://www.hessenschau.de/wirtschaft/warnstreiks-in-messe-hotels-in-frankfurt-v1,warnstreiks-hotels-frankfurt-100.html",
+        "https://www.rbb24.de/politik/beitrag/2026/05/brandenburg-lehrer-unterricht-stunde-mehr-klage-bildung-gewerkschaften.html",
+        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ki-jobabbau-jobumbau-bas-100.html",
+        "https://www.hessenschau.de/wirtschaft/telekom-streik-trifft-hessen--kunden-brauchen-geduld-v2,telekom-verdi-streik-102.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 4
-        },
-        {
-          "emotion": "disappointment",
-          "count": 2
+          "count": 5
         },
         {
           "emotion": "approval",
-          "count": 2
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 22,
-      "sample_titles": [
-        "„Man spricht mittlerweile nur noch Inklusion und nicht mehr von Integration“",
-        "„Weil wir eine Haltung haben“ – Rostocks Sozialsenator verweigert Totalsanktionen beim Bürgergeld",
-        "Die Weltfremdheit des DGB erfordert einen Aufstand der Arbeiter",
-        "Immer weniger Netto vom Brutto – Singles bleiben im Schnitt 65 Cent pro Euro"
-      ],
-      "urls": [
-        "https://www.welt.de/videos/video6a07558b4166b8e84c362e3c/migration-man-spricht-mittlerweile-nur-noch-inklusion-und-nicht-mehr-von-integration.html",
-        "https://www.welt.de/politik/deutschland/article6a06ff0fd1570d73067a0e24/rostock-weil-wir-eine-haltung-haben-sozialsenator-verweigert-totalsanktionen-beim-buergergeld.html",
-        "https://www.welt.de/debatte/plus6a06c5bbd1570d73067a0925/gewerkschaften-strukturkonservative-institutionen-des-oekonomischen-niedergangs.html",
-        "https://www.welt.de/videos/video6a06ab5bd1570d73067a0811/abgabenlast-steigt-immer-weniger-netto-vom-brutto-singles-bleiben-im-schnitt-65-cent-pro-euro.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
+          "count": 3
         },
         {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "disappointment",
-          "count": 1
+          "emotion": "optimism",
+          "count": 3
         }
       ]
     },
@@ -74,31 +41,97 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 21,
+      "article_count": 30,
       "sample_titles": [
-        "Kriselnder Arbeitsmarkt: Hier gibt es noch Arbeitsplätze",
-        "Umbruch auf dem Arbeitsmarkt: Die KI trifft die Frauen härter",
-        "Schiedsrichter streiken: „Seit Jahren spüren wir eine Verrohung der Sitten auf unseren Sportplätzen“",
-        "Deutschland-Liveblog: Juso-Chef über Abkehr vom Acht-Stunden-Tag: „Das ist eine Frechheit“"
+        "Tarifstreit: Streik bei Samsung rückt näher",
+        "Krise am Arbeitsmarkt: Der Staat wächst, die Wirtschaft schrumpft",
+        "Umgang mit Verlust: Am Tag nach der Fehlgeburt sollte sie wieder arbeiten",
+        "Künstliche Intelligenz: Das Büro erlebt seine industrielle Revolution"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/finanzen/hier-gibt-es-noch-arbeitsplaetze-200813564.html",
-        "https://www.faz.net/premium/digitalwirtschaft/kuenstliche-intelligenz/arbeitsmarkt-ki-trifft-jobs-von-frauen-haerter-accg-200826571.html",
-        "https://www.faz.net/aktuell/sport/fussball/thueringen-schiedsrichter-streiken-nach-gewaltvorfall-200833438.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-koalitionsausschuss-beendet-beratungen-faz-110093143.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/samsung-im-tarifstreit-streik-droht-accg-200849485.html",
+        "https://www.faz.net/aktuell/wirtschaft/krise-am-arbeitsmarkt-der-staat-waechst-die-wirtschaft-schrumpft-200847257.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/wie-kommuniziert-man-eine-fehlgeburt-im-unternehmen-fachleute-geben-tipps-accg-200820227.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/peter-buxmann-ki-das-buero-erlebt-seine-industrielle-revolution-accg-200829759.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 4
         },
         {
-          "emotion": "approval",
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 25,
+      "sample_titles": [
+        "Der Arbeitsmarkt spiegelt die düstere Wahrheit",
+        "„Die Gewerkschaften fordern den Acht-Stunden-Tag“",
+        "Beschäftigung sinkt insgesamt – Zahl der Stellen bei öffentlichen Dienstleistern wächst deutlich",
+        "„Verstehe sehr gut, dass die Bürger erwarten, dass auch wir verzichten und uns beteiligen“"
+      ],
+      "urls": [
+        "https://www.welt.de/debatte/plus6a0c0fed8e860638feccdee0/wirtschaftskrise-der-arbeitsmarkt-spiegelt-die-duestere-wahrheit.html",
+        "https://www.welt.de/videos/video6a0c54629abebff50a970335/soeren-pellmann-die-gewerkschaften-fordern-den-acht-stunden-tag.html",
+        "https://www.welt.de/wirtschaft/article6a0c0f2959f82e5979394c94/arbeitsmarkt-beschaeftigung-sinkt-insgesamt-zahl-der-stellen-bei-oeffentlichen-dienstleistern-waechst-deutlich.html",
+        "https://www.welt.de/politik/video6a0aba80d1570d73067a3606/verzicht-auf-diaetenerhoehung-verstehe-sehr-gut-dass-die-buerger-erwarten-dass-auch-wir-verzichten-und-uns-beteiligen.html"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
           "count": 1
         },
         {
-          "emotion": "joy",
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "disappointment",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 22,
+      "sample_titles": [
+        "Smartphone-Hersteller: Tarifstreit bei Samsung festgefahren – möglicher Streik rückt näher",
+        "Arbeitsmarkt: Beschäftigung sinkt – 486.000 Jobs weniger im ersten Quartal",
+        "Varta: Verlust von Apple-Auftrag kostet 350 Mitarbeiter den Job",
+        "Arbeitsmarkt: Karrierefaktor KI: Diese neuen Hybridrollen bringen sechsstellige Gehälter"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/technik/it-internet/smartphone-hersteller-tarifstreit-bei-samsung-festgefahren-moeglicher-streik-rueckt-naeher/100226461.html",
+        "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-beschaeftigung-sinkt-486.000-jobs-weniger-im-ersten-quartal/100226133.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/varta-verlust-von-apple-auftrag-kostet-350-mitarbeiter-den-job/100226210.html",
+        "https://www.handelsblatt.com/karriere/karrierecoach/karrierefaktor-ki-diese-neuen-hybridrollen-bringen-sechsstellige-gehaelter/100222883.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -107,27 +140,27 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 22,
       "sample_titles": [
-        "Sachsen-Anhalt: Schulze setzt auf Zuwanderung in den Arbeitsmarkt",
-        "Tarifstreit im Einzelhandel: Verdi ruft heute bei Ikea zum Warnstreik auf",
-        "Tarife: Warnstreik im Handel - Kundgebung mit 600 Beschäftigten",
-        "Tarifverhandlungen: Warnstreiks im Handel: Keine Folgen für Kunden erwartet"
+        "Tarifkonflikt: Wieder Telekom-Warnstreik in Rheinland-Pfalz und Saarland",
+        "Tarifkonflikt: Telekom-Warnstreik trifft Rheinland-Pfalz und Saarland",
+        "Tarifkonflikt: Telekom-Warnstreik trifft Hessen - Demo in Frankfurt",
+        "Lob von der GdP: Gewerkschaft: Einsatz bei Castor-Transporten gut organisiert"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--schulze-setzt-auf-zuwanderung-in-den-arbeitsmarkt-37401978.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/tarifstreit-im-einzelhandel--verdi-ruft-heute-bei-ikea-zum-warnstreik-auf-37401960.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarife--warnstreik-im-handel---kundgebung-mit-600-beschaeftigten-37400686.html",
-        "https://www.stern.de/wirtschaft/news/tarifverhandlungen--warnstreiks-im-handel--keine-folgen-fuer-kunden-erwartet-37399496.html"
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/tarifkonflikt--wieder-telekom-warnstreik-in-rheinland-pfalz-und-saarland-37415200.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/tarifkonflikt--telekom-warnstreik-trifft-rheinland-pfalz-und-saarland-37408808.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/tarifkonflikt--telekom-warnstreik-trifft-hessen---demo-in-frankfurt-37408838.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/lob-von-der-gdp--gewerkschaft--einsatz-bei-castor-transporten-gut-organisiert-37402026.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "approval",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "admiration",
           "count": 1
         },
         {
@@ -136,91 +169,29 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 18,
-      "sample_titles": [
-        "Am Brückentag: Warnstreiks bei Kaufland, Rewe und Co.",
-        "Warum Bürgergeldbetrug nur schwer auffliegt",
-        "Union: 1.000-Euro-Prämie für Arbeitnehmer ist vom Tisch",
-        "DGB-Kongress: Rede von Finanzminister Klingbeil"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/verdi-streik-kaufland-rewe-edeka-brueckentag-100.html",
-        "https://www.zdfheute.de/politik/deutschland/am-puls-buergergeld-schwarzarbeit-betrug-100.html",
-        "https://www.zdfheute.de/politik/deutschland/entlastungspraemie-koalition-union-spahn-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-der-tag/ua-verteidigungsminister-a-5189717.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 2
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 17,
-      "sample_titles": [
-        "Kommentar: Unternehmen sparen bei Weiterbildung an der falschen Stelle",
-        "Bundesregierung: Koalition will vier Reformen im Paket verabschieden – In Regierungskreisen kursiert grober Termin",
-        "DGB-Kongress: Streit um Wochenarbeitszeit – Bas will Gewerkschaften und Arbeitgeber an einen Tisch bringen",
-        "DGB-Kongress: „Mathematik“ als Reizwort: Gewerkschafter stören Kanzlerrede mit Zwischenrufen"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-unternehmen-sparen-an-der-falschen-stelle/100224381.html",
-        "https://www.handelsblatt.com/politik/deutschland/bundesregierung-koalition-will-vier-reformen-im-paket-verabschieden/100224805.html",
-        "https://www.handelsblatt.com/politik/deutschland/wochenarbeitszeit-bas-will-gewerkschaften-und-arbeitgeber-an-einen-tisch-bringen/100224464.html",
-        "https://www.handelsblatt.com/politik/deutschland/dgb-bundeskongress-gewerkschafter-stoeren-kanzlerrede-mit-zwischenrufen/100224402.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 14,
+      "article_count": 18,
       "sample_titles": [
-        "\"Unsere größte Stärke\": Biontech kehrt zu seinen \"Wurzeln\" zurück - Betriebsrat verärgert",
-        "Verdi fordert Lohnerhöhungen: Tausende streiken im Handel - Verzögerungen im Supermarkt?",
-        "\"Alle Standorte bleiben\": IG Metall und Betriebsrat machen VW-Spitze eine Basta-Ansage",
-        "Kündigungsschutz im Visier: Handwerkspräsident vergleicht Arbeit der Bundesregierung mit \"Pfusch\" am Bau"
+        "\"Frühjahrsbelebung bleibt aus\": Beschäftigung schrumpft im ersten Quartal",
+        "Linke erwartet Sozialabbau: Reichinnek nennt Massenproteste \"dringend notwendig\"",
+        "Frage aus dem Arbeitsrecht: Nichts mehr zu tun: Kann der Chef mich nach Hause schicken?",
+        "Gespräche mit Regierung vermisst: Verdi-Chef trauert Merkel und Scholz hinterher"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Biontech-kehrt-zu-seinen-Wurzeln-zurueck-Betriebsrat-veraergert-id30826057.html",
-        "https://www.n-tv.de/wirtschaft/Tausende-streiken-im-Handel-Verzoegerungen-im-Supermarkt-id30825728.html",
-        "https://www.n-tv.de/wirtschaft/IG-Metall-und-Betriebsrat-machen-VW-Spitze-eine-Basta-Ansage-id30823071.html",
-        "https://www.n-tv.de/politik/Handwerkspraesident-vergleicht-Arbeit-der-Bundesregierung-mit-Pfusch-am-Bau-id30822563.html"
+        "https://www.n-tv.de/wirtschaft/Beschaeftigung-schrumpft-im-ersten-Quartal-id30835598.html",
+        "https://www.n-tv.de/politik/Reichinnek-nennt-Massenproteste-dringend-notwendig-id30835239.html",
+        "https://www.n-tv.de/ratgeber/Nichts-mehr-zu-tun-Kann-der-Chef-mich-nach-Hause-schicken-id30830854.html",
+        "https://www.n-tv.de/politik/Verdi-Chef-trauert-Merkel-und-Scholz-hinterher-id30830007.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "disappointment",
       "top_emotions": [
+        {
+          "emotion": "disappointment",
+          "count": 1
+        },
         {
           "emotion": "annoyance",
           "count": 1
@@ -235,21 +206,25 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 13,
+      "article_count": 18,
       "sample_titles": [
-        "Gewalt im Amateur-Fußball: Schlag gegen Linienrichter – Spiele in Thüringen abgesagt",
-        "Bundesregierung: CDU-Arbeitnehmerflügel und SPD-Konservative mahnen Frieden an",
-        "Achtstundentag: CDU und CSU machen Druck auf Bärbel Bas bei Arbeitszeitgesetz",
-        "Philipp Türmer: »Das ist eine Frechheit« - Juso-Chef wettert gegen Abkehr vom Achtstundentag"
+        "»Mercedes-Benz hat gegen jede Regel verstoßen«: Anti-Gewerkschafts-Kampagne in den USA",
+        "Berlin: TU-Hauptgebäude wegen erheblicher Baumängel gesperrt",
+        "Ver.di-Chef: Merz suchte bislang keinen Konsens mit Gewerkschaften",
+        "News: Friedrich Merz beim DGB, Bärbel Bas beim Arbeitgebertag, Nazi-Kartei"
       ],
       "urls": [
-        "https://www.spiegel.de/sport/fussball/fussball-schlag-gegen-linienrichter-spiele-in-thueringen-abgesagt-a-d09fe915-e5ae-4c23-92ad-23c810845efe#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/bundesregierung-cdu-arbeitnehmerfluegel-und-spd-konservative-mahnen-frieden-an-a-29db8d75-6b4a-40be-9980-3c1127fe50aa#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/achtstundentag-cdu-und-csu-machen-druck-auf-baerbel-bas-bei-arbeitszeitgesetz-a-a159f9f7-f9a2-4db9-a5d0-bd40203c59ac#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/juso-chef-philipp-tuermer-zur-arbeitszeit-empoerung-ueber-abkehr-vom-acht-stunden-tag-a-9252c6b3-8fdb-4f15-8db4-ef167f7e434a#ref=rss"
+        "https://www.spiegel.de/wirtschaft/unternehmen/mercedes-gewerkschaftsorganisation-kuendigt-abkommen-a-a215bfab-77c6-4ef5-b91d-06314770c054#ref=rss",
+        "https://www.spiegel.de/start/berlin-tu-hauptgebaeude-wegen-erheblicher-baumaengel-gesperrt-a-3247749d-698d-41da-82d4-072e18f154c9#ref=rss",
+        "https://www.spiegel.de/politik/ver-di-chef-merz-suchte-bislang-keinen-konsens-mit-gewerkschaften-a-c1bcb8f6-3bbc-4a82-918e-73cb4471ecba#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/news-friedrich-merz-beim-dgb-baerbel-bas-beim-arbeitgebertag-nazi-kartei-a-d995f1bd-7f2b-4a6c-b579-ca1021630d1d#ref=rss"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
+        },
         {
           "emotion": "desire",
           "count": 1
@@ -260,22 +235,55 @@
         }
       ]
     },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 17,
+      "sample_titles": [
+        "Am Brückentag: Warnstreiks bei Kaufland, Rewe und Co.",
+        "Warum Bürgergeldbetrug nur schwer auffliegt",
+        "DGB-Bundeskongress: Rede von Bundeskanzler Merz",
+        "DGB-Kongress: Rede von Finanzminister Klingbeil"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/verdi-streik-kaufland-rewe-edeka-brueckentag-100.html",
+        "https://www.zdfheute.de/politik/deutschland/am-puls-buergergeld-schwarzarbeit-betrug-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-rede-von-bundeskanzler-a-5189637.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-der-tag/ua-verteidigungsminister-a-5189717.html"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
+          "count": 2
+        }
+      ]
+    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 10,
+      "article_count": 11,
       "sample_titles": [
+        "Brisante Vorgabe für Jobcenter - So schwer bleibt es, Faulenzern die Stütze zu kürzen",
+        "Kommentar zum Reformstau - Ein Ruck für Arbeitnehmer und Unternehmer!",
         "Bürgergeldempfänger packt aus - So zocke ich euch Stuerzahler ab!",
-        "Gerüchte über deutsche Werke - Betriebsrat macht Klartext-Ansage an VW-Bosse",
-        "Aufgepasst! - Streik im Einzelhandel! Diese Läden sind betroffen",
-        "Alle Arbeitnehmer betroffen - Klingbeil-Zahlen zeigen, wie die Löhne schrumpfen"
+        "Gerüchte über deutsche Werke - Betriebsrat macht Klartext-Ansage an VW-Bosse"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/brisante-vorgabe-fuer-jobcenter-stuetze-weg-fuer-faulenzer-so-kompliziert-ist-es-wirklich-6a098d99d61ccb85e64b243f",
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-zum-reformstau-ein-ruck-fuer-arbeitnehmer-und-unternehmer-6a0774bcd1570d73067a1507",
         "https://www.bild.de/politik/inland/buergergeld-wahrheit-im-zdf-so-schlimm-zocken-uns-stuetze-empfaenger-ab-6a06e16d847da7a92c144de0",
-        "https://www.bild.de/politik/inland/deutsche-standorte-von-volkswagen-betriebsrat-macht-klartext-ansage-an-vw-bosse-6a07096e639442857fa20478",
-        "https://www.bild.de/politik/streik-im-einzelhandel-diese-laeden-sind-betroffen-6a05cdc900369f8bee8547e2",
-        "https://www.bild.de/politik/inland/neue-klingbeil-zahlen-zeigen-wie-sehr-die-loehne-schrumpfen-6a049d0ae214ec4927aef4c0"
+        "https://www.bild.de/politik/inland/deutsche-standorte-von-volkswagen-betriebsrat-macht-klartext-ansage-an-vw-bosse-6a07096e639442857fa20478"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -284,11 +292,11 @@
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "excitement",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -297,23 +305,76 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 9,
       "sample_titles": [
-        "Lob von der GdP: Gewerkschaft: Einsatz bei Castor-Transporten gut organisiert",
+        "Landtagswahl 2026: Polizeigewerkschaften warnen vor AfD-Regierung in Sachsen-Anhalt",
         "Tarifstreit im Einzelhandel: Verdi ruft heute bei Ikea zum Warnstreik auf",
-        "Statistisches Bundesamt: Produktion in energieintensiver Industrie geht seit 2022 zurück",
-        "Debatte um Reformen: Arbeitgeberpräsident fordert mehr Reformbereitschaft von der SPD"
+        "Lob von der GdP: Gewerkschaft: Einsatz bei Castor-Transporten gut organisiert",
+        "Statistisches Bundesamt: Produktion in energieintensiver Industrie geht seit 2022 zurück"
       ],
       "urls": [
-        "https://www.zeit.de/news/2026-05/16/gewerkschaft-einsatz-bei-castor-transporten-gut-organisiert",
+        "https://www.zeit.de/politik/deutschland/2026-05/polizeigewerkschaften-warnung-afd-sachsen-anhalt",
         "https://www.zeit.de/news/2026-05/16/verdi-ruft-heute-bei-ikea-zum-warnstreik-auf",
-        "https://www.zeit.de/wirtschaft/2026-05/statistisches-bundesamt-produktion-energieintensive-industrie-rueckgang",
-        "https://www.zeit.de/politik/deutschland/2026-05/rainer-dulger-arbeitgeberpraesident-reform-spd-gewerkschaften"
+        "https://www.zeit.de/news/2026-05/16/gewerkschaft-einsatz-bei-castor-transporten-gut-organisiert",
+        "https://www.zeit.de/wirtschaft/2026-05/statistisches-bundesamt-produktion-energieintensive-industrie-rueckgang"
       ],
       "dominant_emotion": "pride",
       "top_emotions": [
         {
           "emotion": "pride",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 7,
+      "sample_titles": [
+        "Arbeitsmarkt kippt: Industrie verliert 486.000 Arbeitsplätze im ersten Quartal",
+        "Bürgergeld-Milliarden versenkt, „Klima“-Ziele verfehlt, Strom verschenkt – TE-Wecker am 19. Mai 2026",
+        "Neuer Rekord: Fast 60 Milliarden kostet das Bürgergeld im Jahr 2025",
+        "225.000 Arbeitsplätze fallen in der Auto-Industrie weg"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/wirtschaft/deutschlands-arbeitsmarkt-kippt/",
+        "https://www.tichyseinblick.de/podcast/te-wecker-am-19-mai-2026/",
+        "https://www.tichyseinblick.de/kolumnen/olaf-opitz-klare-kante/rekord-buergergeld-2025/",
+        "https://www.tichyseinblick.de/wirtschaft/mobilitaet/225000-arbeitsplaetze-fallen-in-der-autoindustrie-weg/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 6,
+      "sample_titles": [
+        "Klimapolitik in der Chemieindustrie: Der Gewerkschafter, der gegen die CO2-Bepreisung kämpft",
+        "Kanzler beim Deutschen Gewerkschaftsbund: Spalter Merz",
+        "Kanzler Friedrich Merz beim DGB: Pfiffe gegen erzieherische Ratschläge",
+        "Ausweitung der Arbeitszeiten: Vom Generalstreik träumen"
+      ],
+      "urls": [
+        "https://taz.de/Klimapolitik-in-der-Chemieindustrie/!6175568/",
+        "https://taz.de/Kanzler-beim-Deutschen-Gewerkschaftsbund/!6173941/",
+        "https://taz.de/Kanzler-Friedrich-Merz-beim-DGB/!6178358/",
+        "https://taz.de/Ausweitung-der-Arbeitszeiten/!6173889/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -338,95 +399,19 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 4,
-      "sample_titles": [
-        "Kanzler beim Deutschen Gewerkschaftsbund: Spalter Merz",
-        "Entlastungsprämie der Arbeitgeber: Bundesrat lehnt 1000-Euro-Krisenbonus ab",
-        "Fragebogen der Bundeswehr: Jeder vierte 18-jährige Mann ignoriert die Bundeswehr",
-        "Gewerkschaften in den USA: Klasse sucht Kampf"
-      ],
-      "urls": [
-        "https://taz.de/Kanzler-beim-Deutschen-Gewerkschaftsbund/!6173941/",
-        "https://taz.de/Entlastungspraemie-der-Arbeitgeber/!6177363/",
-        "https://taz.de/Fragebogen-der-Bundeswehr/!6176980/",
-        "https://taz.de/Junge-Arbeitnehmerinnen-in-den-USA-entdecken-Gewerkschaften-als-politische-Kraft/!6174926/"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Merz beim DGB: Wer Angst sät, erntet Pfiffe",
-        "Bürgergeld-Debatte: Warum in Thüringen Vollzugsmitarbeiter bei Arbeitslosen klingeln",
-        "Bundesrat: Länder stoppen Entlastungsprämie"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/deutschland-sozialreformen-merz-gewerkschaften-arbeitgeber-dgb-inflation-rente-gesundheit-li.3482968",
-        "https://www.sueddeutsche.de/wirtschaft/thueringen-buergergeld-empfaenger-sanktionen-jendricke-vollzugsmitarbeiter-bilanz-li.3479090",
-        "https://www.sueddeutsche.de/politik/1000-euro-entlastungspraemie-bundesrat-stopp-kritik-merz-li.3480412"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "225.000 Arbeitsplätze fallen in der Auto-Industrie weg",
-        "Friedrich Merz erntet Buhrufe und Gelächter beim DGB-Kongress",
-        "Bärbel Bas erklärt Bürgergeld-Wunder: Niemand kommt wegen Geld, aber fast jeder Zweite ohne deutschen Pass"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/mobilitaet/225000-arbeitsplaetze-fallen-in-der-autoindustrie-weg/",
-        "https://www.tichyseinblick.de/meinungen/merz-dgb-kongress-buhrufe-gelaechter/",
-        "https://www.tichyseinblick.de/feuilleton/glosse/baerbel-bas-erklaert-buergergeld-wunder/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "cicero": {
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
+        "Markus Söder bei Caren Miosga - „Auch die Gewerkschaften können nicht nur ,Nein‘ sagen“",
         "Reformdebatte - Während die Gewerkschaften noch mauern, entwickeln andere längst seriöse Reformideen",
         "Bürgergeld im Ausland? - Der „Portugal-Schmarotzer“ – und wie eine Medienerzählung in sich zusammenfällt",
         "Arbeitsmarkt der Zukunft - Werden wir durch KI alle überflüssig?"
       ],
       "urls": [
+        "https://www.cicero.de/kultur/markus-soder-bei-caren-miosga-reformpaket",
         "https://www.cicero.de/wirtschaft/stiftung-familienunternehmen-dgb-reformdebatte",
         "https://www.cicero.de/wirtschaft/burgergeld-portugal-schmarotzer-wie-eine-medienerzahlung-in-sich-zusammenfallt",
         "https://www.cicero.de/wirtschaft/arbeitsmarkt-der-zukunft-werden-wir-durch-ki-alle-uberflussig"
@@ -443,25 +428,52 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
+        "KOMMENTAR - Die «Robomobber» kommen – oder warum die Politik die Angst vor KI ernster nehmen muss",
         "DER ANDERE BLICK - Von den Buhrufen kann sich Friedrich Merz bestätigt fühlen: Der Auftritt beim Deutschen Gewerkschaftsbund ist ein Moment der Wahrheit",
         "Unternehmen meiden Deutschland – weil es sie hier teuer zu stehen kommt, Leute zu entlassen",
         "DER ANDERE BLICK - Die deutschen Gewerkschaften sollten ihre Reformverweigerung überdenken. Sie gefährdet den Wohlstand."
       ],
       "urls": [
+        "https://www.nzz.ch/meinung/die-robomobber-kommen-oder-warum-die-politik-die-angst-vor-ki-ernster-nehmen-muss-ld.10006991",
         "https://www.nzz.ch/der-andere-blick/von-den-buhrufen-kann-sich-friedrich-merz-bestaetigt-fuehlen-der-auftritt-beim-deutschen-gewerkschaftsbund-ist-ein-moment-der-wahrheit-ld.10006848",
         "https://www.nzz.ch/wirtschaft/unternehmen-meiden-deutschland-weil-es-sie-hier-teuer-zu-stehen-kommt-leute-zu-entlassen-ld.10006308",
         "https://www.nzz.ch/der-andere-blick/die-deutschen-gewerkschaften-sollten-ihre-reformverweigerung-ueberdenken-sie-gefaehrdet-den-wohlstand-ld.10006613"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
         {
           "emotion": "admiration",
           "count": 1
         },
         {
           "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Bürgergeld-Debatte: Warum in Thüringen Vollzugsmitarbeiter bei Arbeitslosen klingeln",
+        "Bundesrat: Länder stoppen Entlastungsprämie"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/thueringen-buergergeld-empfaenger-sanktionen-jendricke-vollzugsmitarbeiter-bilanz-li.3479090",
+        "https://www.sueddeutsche.de/politik/1000-euro-entlastungspraemie-bundesrat-stopp-kritik-merz-li.3480412"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -487,16 +499,16 @@
     }
   },
   "bias_distribution": {
-    "economic-liberal": 17,
-    "neutral": 60,
-    "populist-mixed": 10,
-    "right-conservative": 36,
-    "left-liberal": 46,
-    "conservative-liberal": 27,
-    "far-right": 9,
-    "left": 4
+    "economic-liberal": 22,
+    "conservative-liberal": 38,
+    "right-conservative": 43,
+    "left-liberal": 51,
+    "far-right": 13,
+    "neutral": 72,
+    "left": 6,
+    "populist-mixed": 11
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine breite Übereinstimmung darüber, dass der Fachkräftemangel und die Notwendigkeit von Qualifizierung und Umschulung zentrale Herausforderungen für den deutschen Arbeitsmarkt darstellen. Darüber hinaus wird von verschiedenen politischen Lagern die Bedeutung von Tarifverträgen und Gewerkschaften für die Sicherung von Arbeitsplätzen und die Verbesserung von Arbeitsbedingungen betont, wobei jedoch die konkreten Lösungsansätze und Forderungen je nach politischer Ausrichtung variieren. Die Diskussion um die Zukunft der Arbeit in Deutschland wird auch von Fragen nach sozialer Sicherung, Lohngleichheit und Mitbestimmung geprägt, wobei die Medien unterschiedliche Schwerpunkte setzen und Lösungsvorschläge unterbreiten.",
-  "controversial_points": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine grundlegende Konfliktlinie zwischen den Interessen von Arbeitgebern und Arbeitnehmern, wobei die einen auf Flexibilität und Kosteneinsparungen setzen, während die anderen auf Tarifbindung, soziale Sicherung und Lohngleichheit bestehen. Eine weitere Spannungslinie verläuft zwischen den Befürwortern einer liberalen Arbeitsmarktpolitik, die auf Deregulierung und Selbstregulierung setzen, und denjenigen, die eine stärkere Rolle des Staates und der Gewerkschaften bei der Regulierung des Arbeitsmarktes fordern. Darüber hinaus gibt es eine tiefe Kluft zwischen den politischen Lagern, wobei die Linken und Gewerkschaften auf eine Stärkung der sozialen Sicherung und der Rechte der Arbeitnehmer drängen, während die Rechten und konservativen Kräfte auf eine Entlastung der Unternehmen und eine Flexibilisierung des Arbeitsmarktes setzen.",
-  "cached_at": "2026-05-17T07:03:27.214828"
+  "shared_perspectives": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine breite Übereinstimmung darin, dass der Arbeitsmarkt vor großen Herausforderungen steht, insbesondere durch den Fachkräftemangel, die Auswirkungen von Automatisierung und Digitalisierung sowie die Notwendigkeit von Qualifizierung und Umschulung. Ein weiterer gemeinsamer Aspekt ist die Diskussion um die soziale Sicherung, einschließlich des Mindestlohns, der Tarifbindung und der Rolle von Gewerkschaften und Arbeitgebern, wobei die Medien unterschiedlicher politischer Ausrichtung oft ähnliche Probleme identifizieren, aber unterschiedliche Lösungsansätze vorschlagen. Darüber hinaus wird die Bedeutung von Beschäftigungssicherung und der Notwendigkeit von Anpassungen an die veränderten Arbeitsbedingungen durch die Digitalisierung und den technologischen Wandel betont, um die Zukunft der Arbeit in Deutschland zu sichern.",
+  "controversial_points": "Im deutschen Mediendiskurs zur Zukunft der Arbeit zeigt sich eine grundlegende Konfliktlinie zwischen den Interessen von Arbeitgebern und Arbeitnehmern, wobei die einen auf Flexibilität und Kosteneinsparungen setzen, während die anderen auf Tarifbindung, soziale Sicherung und Lohngleichheit bestehen. Eine weitere Spannungslinie verläuft zwischen den Befürwortern einer liberalen Wirtschaftspolitik, die auf Deregulierung und Selbstregulierung des Marktes setzen, und denjenigen, die eine stärkere Rolle des Staates bei der Regulierung des Arbeitsmarktes und der sozialen Sicherung fordern. Diese Konflikte werden auch durch die Debatten um die Auswirkungen von Automatisierung und Digitalisierung auf den Arbeitsmarkt und die Notwendigkeit von Qualifizierung und Umschulung verschärft, wobei unterschiedliche Weltbilder und Werte über die Rolle von Arbeit und sozialer Sicherung in der Gesellschaft aufeinandertreffen.",
+  "cached_at": "2026-05-20T08:30:51.391694"
 }
