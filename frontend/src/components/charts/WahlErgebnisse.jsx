@@ -114,7 +114,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
   const [topicsParty, setTopicsParty]       = useState('cdu_csu')
   const [topicsYear, setTopicsYear]         = useState(selectedYear)
   const [focusPartyLength, setFocusPartyLength] = useState(null)
-  const [populismYear, setPopulismYear]         = useState(2021)
+  const [populismYear, setPopulismYear]         = useState(2025)
 
   if (!data?.election_results) return (
     <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', fontSize: 'var(--text-sm)' }}>

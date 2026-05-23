@@ -731,7 +731,7 @@
         "avg_sentence_length": 10.4,
         "pct_complex_sentences": 7.7,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.301,
           "left_populism": null,
           "right_populism": null
         },
@@ -743,7 +743,7 @@
         "avg_sentence_length": 14.7,
         "pct_complex_sentences": 16.7,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.048,
           "left_populism": null,
           "right_populism": null
         },
@@ -755,7 +755,7 @@
         "avg_sentence_length": 15.5,
         "pct_complex_sentences": 20.5,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.045,
           "left_populism": null,
           "right_populism": null
         },
@@ -767,7 +767,7 @@
         "avg_sentence_length": 13.7,
         "pct_complex_sentences": 11.8,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.058,
           "left_populism": null,
           "right_populism": null
         },
@@ -779,7 +779,7 @@
         "avg_sentence_length": 14.4,
         "pct_complex_sentences": 12.6,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.138,
           "left_populism": null,
           "right_populism": null
         },
@@ -791,7 +791,7 @@
         "avg_sentence_length": 13.1,
         "pct_complex_sentences": 15.2,
         "populism": {
-          "anti_elitism": null,
+          "anti_elitism": 0.281,
           "left_populism": null,
           "right_populism": null
         },
@@ -810,7 +810,7 @@
   "description": "Populismus-Scores nach PopEuroBERT (Erhard et al. 2025)",
   "model": "przvl/PopEuroBERT-binary-610m",
   "threshold": 0.43,
-  "computed_at": "2026-05-16T08:57:39.115769",
+  "computed_at": "2026-05-18T10:10:29.994408",
   "scores": {
     "2005": {
       "cdu_csu": {
@@ -972,6 +972,38 @@
         "populism_score": 0.117,
         "sentence_count": 4563,
         "chunk_count": 814
+      }
+    },
+    "2025": {
+      "cdu_csu": {
+        "populism_score": 0.301,
+        "sentence_count": 2322,
+        "chunk_count": 326
+      },
+      "spd": {
+        "populism_score": 0.048,
+        "sentence_count": 1907,
+        "chunk_count": 265
+      },
+      "gruene": {
+        "populism_score": 0.045,
+        "sentence_count": 2810,
+        "chunk_count": 397
+      },
+      "fdp": {
+        "populism_score": 0.058,
+        "sentence_count": 1304,
+        "chunk_count": 184
+      },
+      "afd": {
+        "populism_score": 0.138,
+        "sentence_count": 1442,
+        "chunk_count": 207
+      },
+      "linke": {
+        "populism_score": 0.281,
+        "sentence_count": 281,
+        "chunk_count": 38
       }
     }
   }
