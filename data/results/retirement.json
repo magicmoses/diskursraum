@@ -1,28 +1,65 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 49,
-  "candidate_count": 105,
+  "article_count": 56,
+  "candidate_count": 124,
   "outlets": {
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 9,
+      "sample_titles": [
+        "Depot für Rente: Warum Garantien bei der Altersvorsorge ein teurer Irrtum sind",
+        "Reform der Alterssicherung: Weniger als 1000 Euro Rente, aber alles andere als arm",
+        "Renten-Reform: Im neuen Riester ist für jeden was dabei",
+        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen"
+      ],
+      "urls": [
+        "https://www.faz.net/premium/meine-finanzen/vermoegensaufbau/altersvorsorge-garantien-schmaelern-ihre-rendite-accg-200842726.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/alterssicherung-weniger-als-1000-euro-rente-aber-alles-andere-als-arm-200836192.html",
+        "https://www.faz.net/aktuell/finanzen/im-neuen-riester-ist-fuer-jeden-was-dabei-accg-200836079.html",
+        "https://www.faz.net/aktuell/finanzen/finanzmarkt/was-sie-ueber-die-neue-gefoerderte-altersvorsorge-wissen-muessen-accg-200818609.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 8,
+      "article_count": 9,
       "sample_titles": [
+        "Rückblick zum Jubiläum: Pop-Bibel oder manipulativ? – Dokus zu 70 Jahren \"Bravo\"",
         "Rentenerhöhung: Diese Tabelle zeigt, wie viel Rente Sie dieses Jahr mehr bekommen",
         "Fehlende Altersvorsorge: Wie viel Rente bekommt man, wenn man nie gearbeitet hat?",
-        "Reform privater Altersvorsorge nimmt letzte parlamentarische Hürde",
-        "Länger arbeiten? Beamte rein?: Die Politik bastelt an einer Rentenreform – worauf wir uns einstellen müssen"
+        "Reform privater Altersvorsorge nimmt letzte parlamentarische Hürde"
       ],
       "urls": [
+        "https://www.stern.de/kultur/tv/rueckblick-zum-jubilaeum--pop-bibel-oder-manipulativ----dokus-zu-70-jahren--bravo--37403754.html",
         "https://www.stern.de/wirtschaft/versicherung/rentenerhoehung--so-viel-geld-gibt-es-im-jahr-2026-mehr-35532388.html",
         "https://www.stern.de/wirtschaft/versicherung/kann-man-rente-bekommen--ohne-je-gearbeitet-zu-haben---35484798.html",
-        "https://www.stern.de/news/reform-privater-altersvorsorge-nimmt-letzte-parlamentarische-huerde-37380958.html",
-        "https://www.stern.de/wirtschaft/politik-plant-rentenreform--worauf-wir-uns-einstellen-muessen-37369070.html"
+        "https://www.stern.de/news/reform-privater-altersvorsorge-nimmt-letzte-parlamentarische-huerde-37380958.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "surprise",
       "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
         {
           "emotion": "curiosity",
           "count": 1
@@ -33,32 +70,28 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 6,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 7,
       "sample_titles": [
-        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen",
-        "Mehr Geld als Senior: Was Sie über die neue geförderte Altersvorsorge wissen müssen",
-        "Müntefering über Reformen: „Wir brauchen die Menschen auch in einem Alter zwischen 67 und 95“",
-        "Vorbild für Alterssicherung?: Schwedens Rentensystem ist mehr als ein Modell"
+        "Ende mit der Freiwilligkeit?: Rentenerhöhung: Für viele wird die Steuererklärung Pflicht",
+        "Altersvorsorgedepot ab 2027: Wechseln oder behalten? Das ändert sich für Riester-Sparer",
+        "Rente für Schnieder Knackpunkt: Ministerpräsident in spe stört sich am \"Gezanke\" in Berlin",
+        "Eindeutiges Ergebnis: Wären Söder oder Wüst die besseren Kanzler?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/finanzen/finanzmarkt/was-sie-ueber-die-neue-gefoerderte-altersvorsorge-wissen-muessen-accg-200818609.html",
-        "https://www.faz.net/aktuell/finanzen/finanzmarkt/private-altersvorsorge-was-kunden-zur-reform-wissen-muessen-accg-200818609.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/franz-muentefering-die-menschen-muessen-sehen-da-bewegt-sich-was-accg-200810206.html",
-        "https://www.faz.net/aktuell/wirtschaft/christian-thomann-schwedens-rentensystem-ist-mehr-als-ein-modell-accg-200797378.html"
+        "https://www.n-tv.de/ratgeber/Rentenerhoehung-Fuer-viele-wird-die-Steuererklaerung-Pflicht-id30832671.html",
+        "https://www.n-tv.de/ratgeber/Wechseln-oder-behalten-Das-aendert-sich-fuer-Riester-Sparer-id30824594.html",
+        "https://www.n-tv.de/politik/Ministerpraesident-in-spe-stoert-sich-am-Gezanke-in-Berlin-id30822282.html",
+        "https://www.n-tv.de/politik/Waeren-Soeder-oder-Wuest-die-besseren-Kanzler-id30813075.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
           "emotion": "optimism",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -66,18 +99,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 6,
+      "article_count": 5,
       "sample_titles": [
         "Bundesbank-Präsident fordert Koppelung des Rentenalters an Lebenserwartung",
-        "Mit 96 Prozent wiedergewählt – Fahimi warnt vor „Rentenklau“ und unterstellt JU „Enkeltrick“",
         "5,1 Millionen Babyboomern droht Rente unter 800 Euro",
-        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders"
+        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders",
+        "5,1 Millionen Babyboomern droht Rente unter 800 Euro – ein Bundesland trifft es besonders hart"
       ],
       "urls": [
         "https://www.welt.de/wirtschaft/article6a040870761b8b46253f0365/rente-bundesbank-praesident-fordert-koppelung-des-rentenalters-an-lebenserwartung.html",
-        "https://www.welt.de/politik/deutschland/article6a01b7e9453b15e119074d89/dgb-vorsitz-mit-96-prozent-wiedergewaehlt-fahimi-warnt-vor-rentenklau-und-unterstellt-ju-enkeltrick.html",
         "https://www.welt.de/politik/deutschland/video69fc337d87d0c99f1a8b3e79/wohnarmut-im-alter-5-1-millionen-babyboomern-droht-rente-unter-800-euro.html",
-        "https://www.welt.de/videos/video69fc41d787d0c99f1a8b402f/studie-des-pestel-instituts-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders.html"
+        "https://www.welt.de/videos/video69fc41d787d0c99f1a8b402f/studie-des-pestel-instituts-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders.html",
+        "https://www.welt.de/politik/deutschland/article69fbd4e1c6d2944c8df6ae53/bericht-5-1-millionen-babyboomern-droht-rente-unter-800-euro-ein-bundesland-trifft-es-besonders-hart.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -87,27 +120,31 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
       "article_count": 5,
       "sample_titles": [
-        "Rente für Schnieder Knackpunkt: Ministerpräsident in spe stört sich am \"Gezanke\" in Berlin",
-        "Pflegekasse übernimmt Beiträge: Wie die häusliche Pflege die Rente erhöhen kann",
-        "Nachfolger für Riester-Rente fix: Was Sie zum neuen Altersvorsorgedepot wissen müssen",
-        "Wenig Rente, hohe Mieten: Warnung vor massiver \"Wohnarmut\" bei Baby-Boomern"
+        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
+        "Steuererklärung 2025: Altersvorsorge, Renten, Spenden – Diese Sonderausgaben sparen kräftig Steuern",
+        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
+        "Altersvorsorge: Höhere Rentenbeiträge erwartet: Arbeitgeber und DGB kritisieren Klingbeils Kürzungen"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Ministerpraesident-in-spe-stoert-sich-am-Gezanke-in-Berlin-id30822282.html",
-        "https://www.n-tv.de/ratgeber/Wie-die-haeusliche-Pflege-die-Rente-erhoehen-kann-id30810629.html",
-        "https://www.n-tv.de/ratgeber/Was-Sie-zum-neuen-Altersvorsorgedepot-wissen-muessen-id30799785.html",
-        "https://www.n-tv.de/politik/Warnung-vor-massiver-Wohnarmut-bei-Baby-Boomern-id30795628.html"
+        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-diese-betriebsrenten-bieten-deutschlands-dax-und-mdax-konzerne/100210939.html",
+        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-2025-diese-sonderausgaben-senken-die-steuerlast-deutlich/100105897.html",
+        "https://www.handelsblatt.com/finanzen/vorsorge/betriebliche-altersvorsorge-diese-zusatzrenten-bieten-deutsche-konzerne/100210939.html",
+        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-heftige-kritik-an-klingbeils-griff-in-die-rentenkasse/100222208.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -118,23 +155,19 @@
       "bias": "populist-mixed",
       "article_count": 4,
       "sample_titles": [
+        "Rechnungshof enthüllt - Rentenkasse verprasst Millionen für Berater",
         "Brandbrief an von-der-Leyen-Behörde - Wie kamen EU-Milliarden in Spaniens Rentenkasse?",
-        "Zeitz geht in Fußball-Rente - In Saarbrücken endet eine Ära!",
         "Neue Option für Millionen - So kommen Sie als Mini-Jobber wieder in die Renteversicherung",
-        "Neues Altersvorsorgedepot - Trick im Gesetz! So hilft der Staat beim Hauskauf"
+        "Das kommt überraschend  - Diese Löw-Sätze klingen nach Fußball-Rente"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/bundesrechnungshof-enthuellt-so-verprasst-die-rentenkasse-das-geld-der-beitragszahler-6a0aecbe71d1a924f943cf10",
         "https://www.bild.de/politik/ausland-und-internationales/eu-milliarden-in-spaniens-rentenkasse-bruessel-prueft-sanchez-finanztrick-6a06f1d0639442857fa202b2",
-        "https://www.bild.de/sport/fussball/zeitz-geht-in-fussball-rente-beim-1-fc-saarbruecken-endet-eine-aera-6a07014f847da7a92c145143",
         "https://www.bild.de/leben-wissen/mein-geld-finanzportal/minijob-neue-renten-chance-fuer-millionen-beschaeftigte-69fc7910122b28e67b1dedaa",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-hilft-das-neue-renten-depot-beim-hauskauf-69f9b24296fe1372395e9e30"
+        "https://www.bild.de/sport/fussball/joachim-loew-trainer-comeback-diese-saetze-klingen-nach-fussball-rente-6a01ddd9cd4a28c470023cb3"
       ],
-      "dominant_emotion": "excitement",
+      "dominant_emotion": "optimism",
       "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 1
-        },
         {
           "emotion": "optimism",
           "count": 1
@@ -170,45 +203,34 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 4,
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 2,
       "sample_titles": [
-        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
-        "Steuererklärung 2025: Altersvorsorge, Renten, Spenden – Diese Sonderausgaben sparen kräftig Steuern",
-        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen",
-        "Altersvorsorge: Höhere Rentenbeiträge erwartet: Arbeitgeber und DGB kritisieren Klingbeils Kürzungen"
+        "Rentendebatte: IW: Armutsrisiko für Rentner wird überschätzt",
+        "Rentenreform: Die Deutschen brauchen für ihre Altersvorsorge den Kapitalmarkt"
       ],
       "urls": [
-        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-diese-betriebsrenten-bieten-deutschlands-dax-und-mdax-konzerne/100210939.html",
-        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-2025-diese-sonderausgaben-senken-die-steuerlast-deutlich/100105897.html",
-        "https://www.handelsblatt.com/finanzen/vorsorge/betriebliche-altersvorsorge-diese-zusatzrenten-bieten-deutsche-konzerne/100210939.html",
-        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-heftige-kritik-an-klingbeils-griff-in-die-rentenkasse/100222208.html"
+        "https://www.sueddeutsche.de/wirtschaft/rentner-deutschland-vermoegen-armutsrisiko-iw-li.3485751",
+        "https://www.sueddeutsche.de/meinung/rentenreform-private-altersvorsorge-aktien-riester-li.3481786"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 2,
       "sample_titles": [
         "Debatte um Reformen: Arbeitgeberpräsident fordert mehr Reformbereitschaft von der SPD",
-        "Rente: Bundesbankpräsident will Rentenalter an höhere Lebenserwartung koppeln",
-        "Aktien fürs Alter: Altersvorsorge am Kapitalmarkt – Was die Politik plant"
+        "Rente: Bundesbankpräsident will Rentenalter an höhere Lebenserwartung koppeln"
       ],
       "urls": [
         "https://www.zeit.de/politik/deutschland/2026-05/rainer-dulger-arbeitgeberpraesident-reform-spd-gewerkschaften",
-        "https://www.zeit.de/arbeit/2026-05/joachim-nagel-bundesbank-rente-lebensarbeitszeit",
-        "https://www.zeit.de/politik/2026-04/altersvorsorge-rente-aktienhandel-merz-trump-was-jetzt-videopodcast"
+        "https://www.zeit.de/arbeit/2026-05/joachim-nagel-bundesbank-rente-lebensarbeitszeit"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -261,16 +283,16 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "Rentenreform: Die Deutschen brauchen für ihre Altersvorsorge den Kapitalmarkt"
+        "BioNTech will Standorte in Deutschland schließen: Bis zu 1.860 Jobs betroffen"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/meinung/rentenreform-private-altersvorsorge-aktien-riester-li.3481786"
+        "https://www.tichyseinblick.de/wirtschaft/biontech-standorte-deutschland/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -305,16 +327,16 @@
     }
   },
   "bias_distribution": {
+    "left-liberal": 17,
+    "right-conservative": 12,
+    "conservative-liberal": 11,
     "populist-mixed": 4,
-    "right-conservative": 11,
-    "left-liberal": 16,
-    "conservative-liberal": 8,
-    "far-right": 2,
-    "economic-liberal": 4,
+    "far-right": 3,
+    "economic-liberal": 5,
     "neutral": 3,
     "left": 1
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass die Debatte um das Renteneintrittsalter und die Finanzierbarkeit der gesetzlichen Rentenversicherung von zentraler Bedeutung ist. Darüber hinaus wird von vielen Medien die Notwendigkeit betont, die Altersvorsorge zu stärken und die Generationengerechtigkeit zu gewährleisten, wobei die kapitalgedeckte Vorsorge und die betriebliche Altersvorsorge als wichtige Bausteine genannt werden. Die Diskussion um die Riester-Rente und die Einführung neuer Altersvorsorgemodelle wie dem Altersvorsorgedepot zeigt auch, dass es einen Konsens darüber gibt, dass die staatliche Förderung der Altersvorsorge notwendig ist, um die Rentenlücken zu schließen und die Altersarmut zu vermeiden.",
-  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer kapitalgedeckten Vorsorge und denen, die eine stärkere Rolle der gesetzlichen Rentenversicherung fordern, wobei die erstere Gruppe oft von wirtschaftsliberalen Medien unterstützt wird, während die letztere Gruppe von linken und sozialdemokratischen Medien vertreten wird. Eine weitere Spannungslinie verläuft zwischen den Generationen, da die jüngeren Generationen oft befürchten, dass die aktuellen Rentenreformen und die Finanzierung des Rentensystems ihre eigenen Altersvorsorgemöglichkeiten beeinträchtigen werden, während die älteren Generationen um die Sicherung ihrer Rentenansprüche kämpfen. Die Debatte um das Renteneintrittsalter und die Frage, ob das Rentenalter an die steigende Lebenserwartung gekoppelt werden sollte, bildet eine weitere Konfliktlinie, bei der sich die Meinungen zwischen den Befürwortern einer flexiblen und individuellen Altersvorsorge und denen, die eine solidarische und generationengerechte Lösung fordern, unterscheiden.",
-  "cached_at": "2026-05-17T07:00:00.054961"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass die Debatte um das Renteneintrittsalter und die Finanzierbarkeit der gesetzlichen Rentenversicherung von zentraler Bedeutung ist, wobei viele Stimmen eine Anpassung des Rentenalters an die steigende Lebenserwartung und die Notwendigkeit einer umfassenden Reform der Alterssicherung betonen. Darüber hinaus wird die Notwendigkeit einer ergänzenden Altersvorsorge, wie etwa durch die Riester-Rente oder die betriebliche Altersvorsorge, häufig hervorgehoben, um die Rentenlücken zu schließen und die Altersarmut zu vermeiden. Die Diskussion um die Generationengerechtigkeit und die Frage, wie die Lasten der Rentenfinanzierung zwischen den Generationen verteilt werden sollen, ist ein weiteres zentrales Thema, das quer durch alle politischen Ausrichtungen im deutschen Mediendiskurs behandelt wird.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine grundlegende Konfliktlinie zwischen den Befürwortern einer solidarischen, staatlich finanzierten Rentenversicherung und den Anhängern einer kapitalgedeckten Vorsorge, die auf individuelle Verantwortung und private Altersvorsorge setzt. Diese Spannungsfelder spiegeln sich in den Debatten um das Renteneintrittsalter, die Finanzierbarkeit der gesetzlichen Rentenversicherung und die Notwendigkeit von Reformen wider, wobei linke und linke-liberale Medien oft die Interessen der Rentner und der sozialen Gerechtigkeit betonen, während konservative und wirtschaftsliberale Medien die Notwendigkeit von Strukturreformen und einer Anpassung an den demographischen Wandel hervorheben. Die Debatte um die Generationengerechtigkeit und die Verteilung der Lasten zwischen den Generationen bildet einen weiteren zentralen Konfliktbereich, in dem sich unterschiedliche Weltbilder und Werte aufeinanderprallen.",
+  "cached_at": "2026-05-20T08:27:09.596148"
 }

@@ -1,71 +1,38 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 224,
-  "candidate_count": 773,
+  "article_count": 202,
+  "candidate_count": 800,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 36,
+      "article_count": 31,
       "sample_titles": [
-        "Brantner erntet Widerspruch – „Eher der Ruf nach einem stärkeren Engagement Deutschlands“",
-        "Großbritannien plant größte Erhöhung der Verteidigungsausgaben seit dem Kalten Krieg",
-        "Nach Dementi aus Warschau – Washington stoppt Entsendung von 4000 US-Soldaten Richtung Polen",
-        "„Europa steht sicherheitspolitisch mehr und mehr alleine da“"
+        "Militär schlägt Drohnen-Alarm",
+        "„Suchen Sie Schutz in Innenräumen“ – Lettland verlegt Soldaten an Grenze, Nato-Kampfjets steigen auf",
+        "Bundeswehr verhängt Beförderungsstopp für Unteroffiziere – „Das führt zu Unruhe in der Truppe“",
+        "Lkw für eine Milliarde Euro – Bundeswehr will Großbestellung bei Rheinmetall aufgeben"
       ],
       "urls": [
-        "https://www.welt.de/videos/video6a081b3f9c68f73e5afcbe8b/nach-gruenen-vorstoss-brantner-erntet-widerspruch-eher-der-ruf-nach-einem-staerkeren-engagement-deutschlands.html",
-        "https://www.welt.de/politik/ausland/article6a080a76639442857fa20e5b/laut-bericht-grossbritannien-plant-groesste-erhoehung-der-verteidigungsausgaben-seit-dem-kalten-krieg.html",
-        "https://www.welt.de/politik/ausland/article6a075abbd1570d73067a1429/amerikanischer-rueckzug-nach-dementi-aus-warschau-washington-stoppt-entsendung-von-4000-us-soldaten-richtung-polen.html",
-        "https://www.welt.de/videos/video6a072525639442857fa206ec/angst-vor-afd-machtuebernahme-europa-steht-sicherheitspolitisch-mehr-und-mehr-alleine-da.html"
+        "https://www.welt.de/videos/video6a0c61c0f0f7eb608db77081/lettland-militaer-schlaegt-drohnen-alarm.html",
+        "https://www.welt.de/politik/ausland/article6a0c341e9abebff50a970051/lettland-verlegt-soldaten-an-grenze-nato-kampfjets-steigen-auf-suchen-sie-schutz-in-innenraeumen.html",
+        "https://www.welt.de/politik/deutschland/article6a0c04568e860638feccde64/befoerderungsstopp-bei-der-bundeswehr-union-warnt-vor-misstrauen-des-gesamten-unteroffizierskorps.html",
+        "https://www.welt.de/politik/deutschland/article6a0b3bdd0774d40045f0bcfc/ruestungsdeal-lkw-fuer-eine-milliarde-euro-bundeswehr-will-grossbestellung-bei-rheinmetall-aufgeben.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "fear",
       "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 2
+        },
         {
           "emotion": "admiration",
           "count": 1
         },
         {
           "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 28,
-      "sample_titles": [
-        "Mercedes-Chef Källenius hält Einstieg in Rüstungsproduktion für denkbar",
-        "Panzerhersteller KNDS will mit Börsengang nicht auf Bundesregierung warten",
-        "Aufrüstung: KNDS verhandelt mit Mercedes über Werk in Ludwigsfelde",
-        "Drohnenabwehr: Deutsche Firma testet geheime Laserwaffe in Niedersachsen"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/mercedes-chef-kaellenius-haelt-einstieg-in-ruestungsproduktion-fuer-denkbar-a-f81ec297-cf32-41aa-bf0b-f34b2ba11a94#ref=rss",
-        "https://www.spiegel.de/wirtschaft/panzerhersteller-knds-will-mit-boersengang-nicht-auf-bundesregierung-warten-a-839b7550-b301-4d8d-afee-302cbdfcbfc2#ref=rss",
-        "https://www.spiegel.de/wirtschaft/aufruestung-knds-verhandelt-mit-mercedes-ueber-werk-in-ludwigsfelde-a-28935048-b008-48a3-9edd-79004afb4339#ref=rss",
-        "https://www.spiegel.de/wissenschaft/technik/laserwaffe-gegen-drohnen-von-inleap-photonics-an-einem-geheimen-ort-erprobt-eine-deutsche-firma-den-abschuss-a-015556a6-8e28-4972-8c51-59e1f73e0128#ref=rss"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -74,109 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 27,
+      "article_count": 30,
       "sample_titles": [
-        "israelischer Angriff: Katz: Hamas-Führer al-Haddad soll tot sein",
-        "Krise in Autoindustrie: Mercedes-Chef Källenius denkt über Einstieg in Rüstungsproduktion nach",
-        "Machtkampf um KNDS: Der größte Rüstungsbörsengang aller Zeiten – ohne deutsche Beteiligung?",
-        "Straße von Hormus: Pistorius will Spezialkräfte der Marine entsenden"
+        "Liveblog Ukrainekrieg: Selenskyj genehmigt neue Angriffspläne",
+        "F.A.Z. PODCAST FÜR DEUTSCHLAND: Militärexperte Lange: „Putin hat eine Schwächephase“",
+        "Nuklearwaffen-Manöver: Putins Muskelspiele",
+        "Wegen Bedrohung aus Iran: Deutschland entsendet Patriot-Einheit in die Türkei"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/israelischer-verteidigungsminister-katz-hamas-fuehrer-al-haddad-soll-tot-sein-200837531.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/ola-kaellenius-mercedes-benz-prueft-ruestungsproduktion-accg-200837728.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/berlin-laesst-panzerhersteller-zappeln-200835641.html",
-        "https://www.faz.net/aktuell/politik/inland/pistorius-will-spezialkraefte-fuer-die-strasse-von-hormus-entsenden-accg-200834888.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 24,
-      "sample_titles": [
-        "\"Wären dazu bereit\": Mercedes-Boss erwägt Einstieg in Rüstungsindustrie",
-        "Bezug zu Abzug aus Deutschland?: Trump-Regierung stoppt Entsendung von 4000 US-Soldaten nach Polen",
-        "Iran, Ukraine und Nato-Gipfel: Nach wochenlangen Spannungen: Merz telefoniert mit Trump",
-        "Debakel bei Übung: Ukrainische Drohnenpiloten \"zerstören\" Nato-Truppen bei Manöver"
-      ],
-      "urls": [
-        "https://www.n-tv.de/wirtschaft/Mercedes-und-Ruestungsindustrie-Kaellenius-erwaegt-Einstieg-id30826685.html",
-        "https://www.n-tv.de/politik/Trump-Regierung-stoppt-Entsendung-von-4000-US-Soldaten-nach-Polen-id30825969.html",
-        "https://www.n-tv.de/politik/Nach-wochenlangen-Spannungen-Merz-telefoniert-mit-Trump-id30825058.html",
-        "https://www.n-tv.de/politik/Ukrainische-Drohnenpiloten-zerstoeren-Nato-Truppen-bei-Manoever-id30817835.html"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Rüstungsindustrie: Mercedes-Chef Källenius – Einstieg in Rüstungsproduktion denkbar",
-        "Rüstung: USA stoppen Verlegung von 4000 Soldaten nach Polen",
-        "Rüstung: KNDS will mit Börsengang nicht auf Bundesregierung warten",
-        "Rüstung: Großbritannien bestellt mobile Geschütze bei Rheinmetall und KNDS"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestungsindustrie-mercedes-chef-kaellenius-einstieg-in-ruestungsproduktion-denkbar/100225486.html",
-        "https://www.handelsblatt.com/politik/international/ruestung-usa-stoppen-verlegung-von-4000-soldaten-nach-polen/100225433.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-knds-will-mit-boersengang-nicht-auf-bundesregierung-warten/100225327.html",
-        "https://www.handelsblatt.com/unternehmen/ruestung-grossbritannien-bestellt-mobile-geschuetze-bei-rheinmetall-und-knds/100225025.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 18,
-      "sample_titles": [
-        "„Saarex“ – Bundeswehr und Hilfsorganisationen üben in Kirkel",
-        "Frustration über \"große Lücken\" bei EU-Verteidigung",
-        "Übung für den Ernstfall - Bundeswehr trainiert Drohnenabwehr in Bitburg",
-        "Telekom und Rheinmetall planen Drohnenabwehr"
-      ],
-      "urls": [
-        "https://www.sr.de/sr/home/nachrichten/panorama/saarex-bundeswehr-uebung_in_kirkel_100.html",
-        "https://www.tagesschau.de/ausland/europa/eu-verteidigungsminister-treffen-102.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/bundeswehr-drohnenabwehr-uebung-gelber-merkur-100.html",
-        "https://www1.wdr.de/wirtschaft/unternehmen/drohnenabwehr-telekom-rheinmetall-bonn-100.html"
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-genehmigt-neue-angriffsplaene-faz-110683325.html",
+        "https://www.faz.net/podcasts/f-a-z-podcast-fuer-deutschland/militaerexperte-lange-putin-hat-eine-schwaechephase-200846333.html",
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-krieg-putin-laesst-mit-nuklearwaffen-manoever-die-muskeln-spielen-200847236.html",
+        "https://www.faz.net/aktuell/politik/inland/deutschland-entsendet-patriots-in-die-tuerkei-200846547.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -185,11 +61,139 @@
           "count": 4
         },
         {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 26,
+      "sample_titles": [
+        "Nach Vorfall im Baltikum: Lettland schäumt wegen Russlands Drohnen-Erzählung",
+        "\"Kompetenz, Kraft und Stärke\": Söder will Ukraine dauerhaft militärisch an Europa binden",
+        "Botschafter zeigt sich zufrieden: Ukraine: \"Mehr Militärhilfe als je zuvor\" aus Deutschland",
+        "Aus China auf die Krim?: Peking soll russische Soldaten für Ukraine-Krieg ausbilden"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Lettland-schaeumt-wegen-Russlands-Drohnen-Erzaehlung-id30838613.html",
+        "https://www.n-tv.de/politik/Soeder-will-Ukraine-dauerhaft-militaerisch-an-Europa-binden-id30837510.html",
+        "https://www.n-tv.de/politik/Ukraine-Mehr-Militaerhilfe-als-je-zuvor-aus-Deutschland-id30835953.html",
+        "https://www.n-tv.de/politik/Peking-soll-russische-Soldaten-fuer-Ukraine-Krieg-ausbilden-id30836832.html"
+      ],
+      "dominant_emotion": "remorse",
+      "top_emotions": [
+        {
+          "emotion": "remorse",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 23,
+      "sample_titles": [
+        "Nato: USA ziehen in kommenden Jahren weitere Truppen aus Europa ab",
+        "Kommentar: Warum Panzer nicht wie SUVs vom Band laufen",
+        "Rüstung: Werk von Mercedes bei Berlin steht zur Disposition – KNDS ist möglicher Investor",
+        "Raumfahrt: OHB und Helsing gründen Joint Venture für Bundeswehr-Satelliten"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/international/nato-usa-ziehen-in-kommenden-jahren-weitere-truppen-aus-europa-ab/100226407.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-warum-panzer-nicht-wie-suvs-vom-band-laufen/100225824.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-mercedes-werk-steht-zur-disposition-moeglicher-investor-ist-knds/100220617.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/raumfahrt-ohb-und-helsing-gruenden-joint-venture-fuer-bundeswehr-satelliten/100225825.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 16,
+      "sample_titles": [
+        "Pläne für Zivilschutz, Klage gegen Amazon, Handgepäck-Regeln",
+        "Zehn Milliarden für den Zivilschutz: Zustimmung und Kritik aus dem Saarland",
+        "Großer Nachholbedarf bei Zivilschutz in NRW",
+        "Berliner Polizei rüstet für 4,6 Millionen Euro gegen Drohnen auf"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/multimedia/podcast/15-minuten/podcast-15minuten-zivilschutz-amazon-reisen-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/dobrindt_will_mit_zehn_milliarden_euro_zivilschutz_staerken_100.html",
+        "https://www1.wdr.de/nrw/zivilschutz-nrw-hilfsorganisationen-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/05/berlin-polizei-drohnen-abwehr-technik-millionenbetrag.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "gratitude",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 15,
+      "sample_titles": [
+        "Mercedes-Chef Källenius hält Einstieg in Rüstungsproduktion für denkbar",
+        "Aufrüstung: KNDS verhandelt mit Mercedes über Werk in Ludwigsfelde",
+        "Drohnenabwehr: Deutsche Firma testet geheime Laserwaffe in Niedersachsen",
+        "Deutsche Nato-Soldaten in den Niederlanden attackiert"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/mercedes-chef-kaellenius-haelt-einstieg-in-ruestungsproduktion-fuer-denkbar-a-f81ec297-cf32-41aa-bf0b-f34b2ba11a94#ref=rss",
+        "https://www.spiegel.de/wirtschaft/aufruestung-knds-verhandelt-mit-mercedes-ueber-werk-in-ludwigsfelde-a-28935048-b008-48a3-9edd-79004afb4339#ref=rss",
+        "https://www.spiegel.de/wissenschaft/technik/laserwaffe-gegen-drohnen-von-inleap-photonics-an-einem-geheimen-ort-erprobt-eine-deutsche-firma-den-abschuss-a-015556a6-8e28-4972-8c51-59e1f73e0128#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/deutsche-nato-soldaten-in-den-niederlanden-attackiert-a-b81fe411-1dcb-4d5a-90dc-5b037ad1926e#ref=rss"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
           "emotion": "approval",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -198,24 +202,24 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 15,
+      "article_count": 13,
       "sample_titles": [
-        "Mercedes-Chef erwägt Einstieg in Rüstungsproduktion",
-        "Experte: \"Fliegerabwehrschutz der Russen wird dünner\"",
-        "Rüstung: Schuldenfalle oder Chance für die Wirtschaft?",
-        "Pistorius: Ukraine ist westlichen Ländern weit voraus"
+        "Nato rechnet langfristig mit weiteren US-Truppenabzügen",
+        "Nach Kritik an Luftangriff: Iran wirft Merz \"Heuchelei\" vor",
+        "Dobrindt plant offenbar Milliardenpaket für Zivilschutz",
+        "Militärexperte: Ukraine \"eröffnen sich neue Möglichkeiten\""
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/unternehmen/mercedes-chef-kaellenius-waffenproduktion-einstieg-ruestungsindustrie-100.html",
-        "https://www.zdfheute.de/video/heute-journal/sgs-gressel-slomka-100.html",
-        "https://www.zdfheute.de/wirtschaft/militaer-verteidigungsausgaben-deutschland-schulden-100.html",
-        "https://www.zdfheute.de/politik/boris-pistorius-ukraine-krieg-waffen-unterstuetzung-100.html"
+        "https://www.zdfheute.de/politik/ausland/nato-verteidigung-us-generel-militaer-europa-usa-truppenabzug-raketenplaene-100.html",
+        "https://www.zdfheute.de/politik/ausland/iran-kritik-merz-heuchelei-100.html",
+        "https://www.zdfheute.de/politik/deutschland/zivilschutz-alexander-dobrindt-kabinettsentwurf-bundesregierung-bevoelkerungsschutz-100.html",
+        "https://www.zdfheute.de/politik/ausland/ukraine-russland-drohnen-luftabwehr-gressel-100.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
         {
           "emotion": "desire",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -223,81 +227,27 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 10,
+      "article_count": 11,
       "sample_titles": [
-        "Chef im Interview - Mercedes als Rüstungsfirma? „Wir wären dazu bereit“",
-        "1560 Drohnen in 24 Stunden    - Putin zertrümmert die Hoffnung auf Frieden",
-        "Zweifel an Rüstungsstrategie - Palantir-Chef wundert sich über Deutschland",
-        "Gemeinsam mit Rheinmetall - Telekom plant Drohnen-Abwehrschirm für Deutschland"
+        "Atomwaffen-Übung in Belarus - „Einsatz zu jeder Zeit möglich“",
+        "Mar-a-Lago im Visier? - Drohnen-Angst um Trumps Privat-Paradies!",
+        "Größter Angriff seit Kriegsbeginn - Brände in Moskau! Ukraine-Drohnen schocken Putin",
+        "Großaufträge im Visier - Soldaten sollen mehr Mercedes fahren"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/mercedes-als-ruestungsfirma-wir-waeren-dazu-bereit-sagt-chef-kaellenius-6a0805bcd1570d73067a17f3",
-        "https://www.bild.de/politik/ausland-und-internationales/wohnhaus-in-ukraine-stuerzt-nach-angriff-aus-russland-ein-menschen-verschuettet-6a0560b72024a1440cb9a107",
-        "https://www.bild.de/politik/ausland-und-internationales/zweifel-an-ruestungsstrategie-palantir-chef-wundert-sich-ueber-deutschland-6a033f8ccd4a28c4700251a0",
-        "https://www.bild.de/politik/inland/telekom-und-rheinmetall-planen-schutzschirm-drohnenabwehr-auf-neues-level-6a01955b453b15e11907497c"
+        "https://www.bild.de/politik/atomwaffen-uebung-in-belarus-einsatz-zu-jeder-zeit-moeglich-6a0c31b49abebff50a970003",
+        "https://www.bild.de/politik/ausland-und-internationales/usa-fuerchten-laut-geheimbericht-attacken-mit-drohnen-auf-florida-6a0b3bb537d84a6d6ae9c2bd",
+        "https://www.bild.de/politik/ausland-und-internationales/ukraine-krieg-braende-in-moskau-drohnen-schocken-putin-6a0ab796512d507bb620f827",
+        "https://www.bild.de/politik/inland/mercedes-so-viel-ruestung-steckt-schon-im-autokonzern-6a08372e9c68f73e5afcc027"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 9,
-      "sample_titles": [
-        "Rüstung: Bundeswehr will vier Milliarden Euro in Osten investieren",
-        "Urteil: Atommüll in Philippsburg - Gericht sieht ausreichend Schutz",
-        "Möglicher Hormus-Einsatz: Deutsches Minenjagdboot \"Fulda\" startet in Richtung Mittelmeer",
-        "Militär: Trump will \"weit mehr\" als 5.000 Soldaten abziehen"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/sachsen/ruestung--bundeswehr-will-vier-milliarden-euro-in-osten-investieren-37379354.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/urteil--atommuell-in-philippsburg---gericht-sieht-ausreichend-schutz-37365744.html",
-        "https://www.stern.de/news/moeglicher-hormus-einsatz--deutsches-minenjagdboot--fulda--startet-in-richtung-mittelmeer-37364896.html",
-        "https://www.stern.de/politik/ausland/militaer--trump-will--weit-mehr--als-5-000-soldaten-abziehen-37363200.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 2
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 8,
-      "sample_titles": [
-        "Aufrüstung in Europa: Wer begrenzt die deutsche Macht?",
-        "Wehrpflicht, Steuern und Jens Spahn: Die Epoche der „Spahnotage“",
-        "18-Jährige beantworten Briefe nicht: Die Bundeswehr ghosten",
-        "Fragebogen der Bundeswehr: Jeder vierte 18-jährige Mann ignoriert die Bundeswehr"
-      ],
-      "urls": [
-        "https://taz.de/Aufruestung-in-Europa/!6179196/",
-        "https://taz.de/Wehrpflicht-Steuern-und-Jens-Spahn/!6177583/",
-        "https://taz.de/18-Jaehrige-beantworten-Briefe-nicht/!6177053/",
-        "https://taz.de/Fragebogen-der-Bundeswehr/!6176980/"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
+          "emotion": "optimism",
           "count": 1
         },
         {
-          "emotion": "disappointment",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -306,23 +256,105 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 7,
+      "article_count": 8,
       "sample_titles": [
-        "Autoindustrie: Mercedes-Benz offen für Einstieg in Rüstungsproduktion",
-        "Bürokratie in der Bundeswehr: Jetzt mal was anderes",
-        "Attacke auf Rüstungsfirma: Erneuter Eklat in Stammheim: Richterin lässt Saal räumen",
-        "Tomahawk-Marschflugkörper: Boris Pistorius warnt vor Abschreckungslücke ohne Tomahawks"
+        "US-Verteidigungsministerium: USA reduzieren Zahl der Kampfbrigaden in Europa",
+        "Außenpolitik: Deutschland unterstützt Annäherung von Türkei an die EU",
+        "Global Sumud Flotilla: Israel stoppt erneut Schiffe von Gaza-Hilfsflotte",
+        "Autoindustrie: Mercedes-Benz offen für Einstieg in Rüstungsproduktion"
       ],
       "urls": [
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-05/mercedes-benz-ruestung",
-        "https://www.zeit.de/2026/22/buerokratie-bundeswehr-boris-pistorius-massnahmen-disziplin",
-        "https://www.zeit.de/news/2026-05/11/erneuter-eklat-in-stammheim-richterin-laesst-saal-raeumen",
-        "https://www.zeit.de/politik/deutschland/2026-05/usa-tomahawk-stationierung-deutschland-boris-pistorius"
+        "https://www.zeit.de/politik/ausland/2026-05/usa-abzug-kampfbrigade-europa",
+        "https://www.zeit.de/politik/deutschland/2026-05/bundesregierung-unterstuetzung-eu-beitritt-tuerkei-patriot-verlegung",
+        "https://www.zeit.de/politik/ausland/2026-05/global-sumud-flotilla-israel-hilfsflotte-gaza",
+        "https://www.zeit.de/wirtschaft/unternehmen/2026-05/mercedes-benz-ruestung"
       ],
-      "dominant_emotion": "disappointment",
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 6,
+      "sample_titles": [
+        "Katastrophenschutz in Schweden: Gesammelte Aufrüstung",
+        "Zivilschutzpläne der Bundesregierung: Dobrindt versucht es ohne Bratwurst",
+        "10 Milliarden Euro für den Zivilschutz: Stimmung im Keller",
+        "Bundeswehr stoppt Beförderungen: Lang genug strammstehen soll nicht mehr reichen"
+      ],
+      "urls": [
+        "https://taz.de/Katastrophenschutz-in-Schweden/!6179630/",
+        "https://taz.de/Zivilschutzplaene-der-Bundesregierung/!6175683/",
+        "https://taz.de/10-Milliarden-Euro-fuer-den-Zivilschutz/!6179592/",
+        "https://taz.de/Bundeswehr-stoppt-Befoerderungen/!6179632/"
+      ],
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "disappointment",
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Beratung im Kabinett: Wie Deutschland künftig besser auf Krisen reagieren will",
+        "Bundeswehr: Warum Hessen immer öfter Grün sehen",
+        "Militär: Kann der Rüstungsboom den Strukturwandel im Land stützen?",
+        "Rüstung: Bundeswehr will vier Milliarden Euro in Osten investieren"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/beratung-im-kabinett--wie-deutschland-kuenftig-besser-auf-krisen-reagieren-will-37416100.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/bundeswehr--warum-hessen-immer-oefter-gruen-sehen-37416140.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/militaer--kann-der-ruestungsboom-den-strukturwandel-im-land-stuetzen--37390114.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen/ruestung--bundeswehr-will-vier-milliarden-euro-in-osten-investieren-37379354.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Der Kampfpanzer – Totgesagte leben länger",
+        "INTERVIEW - «Liberale Antworten fehlen gerade jetzt», sagt Marie-Agnes Strack-Zimmermann",
+        "KOMMENTAR - Bundesrat und Parlament missachten in der Sicherheitspolitik die Verfassung",
+        "Chinesische Drohnen in Libyen: Satellitenbilder zeigen den Ausbau von al-Khadim"
+      ],
+      "urls": [
+        "https://www.nzz.ch/pro/ukraine-trotz-drohnenkrieg-bleibt-der-panzer-fuer-europa-wichtig-ld.10006763",
+        "https://www.nzz.ch/pro/interview-strack-zimmermann-zur-fdp-und-dem-liberalismus-in-europa-ld.10006745",
+        "https://www.nzz.ch/meinung/bundesrat-und-parlament-missachten-in-der-sicherheitspolitik-die-verfassung-ld.10003587",
+        "https://www.nzz.ch/visuals/chinesische-drohnen-in-libyen-satellitenbilder-zeigen-den-ausbau-von-al-khadim-ld.10005801"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -331,46 +363,30 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 7,
+      "article_count": 5,
       "sample_titles": [
+        "Bundespolitik: Bericht: Dobrindt plant Milliardenprogramm für Zivilschutz",
+        "Krieg in der Ukraine: Selenskij: Russland erwägt Angriff auf Nato-Staat von Belarus aus",
         "Deutsch-britische Verteidigung: „Unser Problem ist in Moskau und nirgendwo anders“",
-        "Rüstung: Bund plant Milliardeneinstieg bei Panzerhersteller",
-        "Krieg in der Ukraine: EU plant neues Sanktionspaket gegen russische Rüstungsindustrie",
-        "US-Truppenabzug aus Deutschland: Merz sollte jetzt lieber nicht auf Trump antworten - das gibt nur neuen Zoff"
+        "Rüstung: Bund plant Milliardeneinstieg bei Panzerhersteller"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-zivilschutz-milliarden-li.3484192",
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-news-selenskij-belarus-russland-nato-angriff-li.3483341",
         "https://www.sueddeutsche.de/politik/verteidigung-nato-europa-interview-breuer-knighton-li.3480296",
-        "https://www.sueddeutsche.de/wirtschaft/knds-panzerbauer-muenchen-staat-beteiligung-li.3482860",
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-sanktionen-eu-schroeder-vermittler-li.3473071",
-        "https://www.sueddeutsche.de/meinung/donald-trump-friedrich-merz-nato-iran-abzug-li.3477187"
+        "https://www.sueddeutsche.de/wirtschaft/knds-panzerbauer-muenchen-staat-beteiligung-li.3482860"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
           "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
         }
       ]
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 5,
-      "sample_titles": [
-        "Deutschland und Ukraine bauen Rüstungskooperation aus",
-        "Trump stoppt US-Militäreinsatz in der Straße von Hormus",
-        "Trump will noch mehr Soldaten aus Deutschland abziehen",
-        "USA kündigen Abzug von 5000 Soldaten aus Deutschland an"
-      ],
-      "urls": [
-        "https://www.dw.com/de/deutschland-und-ukraine-bauen-rüstungskooperation-aus/a-77122220?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/trump-stoppt-us-militäreinsatz-in-der-straße-von-hormus/a-77061411?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/trump-will-noch-mehr-soldaten-aus-deutschland-abziehen/a-77023548?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/usa-kündigen-abzug-von-5000-soldaten-aus-deutschland-an/a-77016862?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
@@ -397,18 +413,18 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
       "article_count": 2,
       "sample_titles": [
-        "GASTKOMMENTAR - Für einen europäischen Gaullismus – wenn Europa bei der Gestaltung der neuen Weltordnung mitreden will, muss es eine Idee von sich selbst haben",
-        "PODCAST «NZZ QUANTENSPRUNG» - Mythos: Die neue KI soll das perfekte Werkzeug für Hacker sein. Doch KI ist auch der beste Schutz gegen Cyberangriffe"
+        "Deutschland legt Milliardenprogramm für den Zivilschutz auf",
+        "Deutschland und Ukraine bauen Rüstungskooperation aus"
       ],
       "urls": [
-        "https://www.nzz.ch/meinung/fuer-einen-europaeischen-gaullismus-wenn-europa-bei-der-gestaltung-der-neuen-weltordnung-mitreden-will-muss-es-eine-idee-von-sich-selbst-haben-ld.10005663",
-        "https://www.nzz.ch/podcast/mythos-die-neue-ki-soll-das-perfekte-werkzeug-fuer-hacker-sein-doch-ki-ist-auch-der-beste-schutz-gegen-cyberangriffe-ld.10006431"
+        "https://www.dw.com/de/deutschland-legt-milliardenprogramm-für-den-zivilschutz-auf/a-77195286?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/deutschland-und-ukraine-bauen-rüstungskooperation-aus/a-77122220?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -417,14 +433,12 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Baltische Staaten warnen vor Verteidigungspolitik mit dem Gelddrucker",
-        "Jordanien bombardiert Waffen- und Drogenhändler in Syrien"
+        "Baltische Staaten warnen vor Verteidigungspolitik mit dem Gelddrucker"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/baltische-staaten-warnen-verteidigungspolitik-gelddrucker/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/jordanien-syrien-gaza-israel/"
+        "https://www.tichyseinblick.de/wirtschaft/baltische-staaten-warnen-verteidigungspolitik-gelddrucker/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -433,35 +447,28 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "„Irgendwas mit Drohnen“ –&nbsp; Konversion geht jetzt andersherum",
         "Israelischer Rüstungskonzern übernimmt Volkswagen-Fabrik in Osnabrück"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/irgendwas_mit_drohnen_konversion_geht_jetzt_andersherum",
         "https://www.achgut.com/artikel/israelischer_ruestungskonzern_uebernimmt_volkswagen_fabrik_in_osnabrueck"
       ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "neutral": 38,
-    "right-conservative": 60,
-    "populist-mixed": 10,
-    "conservative-liberal": 29,
-    "economic-liberal": 20,
-    "left-liberal": 51,
-    "left": 8,
-    "far-right": 8
+    "right-conservative": 57,
+    "conservative-liberal": 35,
+    "left-liberal": 33,
+    "neutral": 31,
+    "populist-mixed": 11,
+    "economic-liberal": 23,
+    "left": 6,
+    "far-right": 6
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Verteidigungspolitik, Bundeswehr und NATO-Engagement zeigt sich eine breite Übereinstimmung darin, dass Deutschland seine Verteidigungsausgaben erhöhen und seine militärische Präsenz in Europa stärken muss, insbesondere im Kontext des russischen Angriffs auf die Ukraine. Die Diskussion um den Einstieg von Unternehmen wie Mercedes in die Rüstungsproduktion sowie die Pläne für einen Börsengang des Panzerherstellers KNDS unterstreichen die Notwendigkeit, die deutsche Rüstungsindustrie zu stärken und die Abhängigkeit von ausländischen Lieferanten zu reduzieren. Darüber hinaus wird die Bedeutung einer effektiven Cyberabwehr und eines starken Zivilschutzes betont, um die Sicherheit Deutschlands und seiner Bürger zu gewährleisten.",
-  "controversial_points": "Der deutsche Verteidigungsdiskurs spaltet sich entlang einer fundamentalen Frage: ob die \"Zeitenwende\" eine notwendige, aber temporäre Anpassung an externe Bedrohungen darstellt oder einen permanenten civilizatorischen Systemwechsel markiert, in dem Deutschland seine pazifistische Identität aufgibt — während konservativ-liberale Medien dies als strategische Emanzipation Europas von der US-Abhängigkeit rahmen, während linke Medien darin eine Remilitarisierung und Aufgabe europäischer Eigenständigkeit sehen. Ein zweiter struktureller Konflikt liegt in der Spannung zwischen industriekapitalistischer Normalisierung und kulturellem Unbehagen: Während liberal-ökonomische Medien den Einstieg großer Konzerne (Mercedes, Telekom) in die Rüstungsproduktion als rationale Antwort auf Marktlogik und notwendige Industriestärkung normalisieren, dokumentieren linke und kritische Medien implizit einen gesellschaftlichen Widerstand gegen die Transformation ziviler Leitbetriebe in Rüstungsunternehmen als Verstoß gegen eine deutsche Nachkriegsidentität. Der dritte Konflikt betrifft das Verhältnis zu NATO-Bindung und europäischer Handlungsfähigkeit: Während konservative Medien auf eine Stärkung des europäischen Pfeilers innerhalb der NATO hinarbeiten (Gaullismus-Artikel, Unabhängigkeit von US-Truppen), deuten rechte Medien gleichzeitig Trumps Truppenverlagerungen als Vertrauenskrise und fordern paradox mehr deutsches Engagement, womit sich die Frage verbirgt, ob Deutschland NATO-Subordination akzeptiert oder realpolitisch unabhängig handeln kann — eine Frage, die der deutsche Diskurs nicht explizit macht, sondern nur durch die Wahl des Framings löst.",
-  "cached_at": "2026-05-17T07:05:46.881822"
+  "shared_perspectives": "Über alle Medienspektren hinweg besteht Konsens darüber, dass Deutschland in einer geänderten sicherheitspolitischen Lage handlungsfähig werden muss — dies zeigt sich in der breiten Akzeptanz von erheblich höheren Rüstungsausgaben, der Debatte über Zivilschutzmaßnahmen und der grundsätzlichen Anerkennung, dass die Bundeswehr modernisiert und ausgestattet werden muss, selbst wenn progressive Medien diese Entwicklung kritisch reflektieren. Die Debatte um konkrete Maßnahmen wie Wehrpflicht, Großbeschaffungen und Rüstungsindustriebeteiligung zeigt ebenfalls einen gemeinsamen Bezugsrahmen: Es geht durchweg um die Frage, wie Deutschland praktisch und investiv Verteidigungsfähigkeit aufbaut, nicht ob dies notwendig ist. Einzig bei der geopolitischen Bewertung von Russlands Bedrohung, der Einordnung von NATO-Präsenz und der Frage nach deutschen Alleingängen versus Bündnisorientierung divergieren die Positionen, aber auch hier referieren alle Medien auf denselben Grundkonflikt zwischen europäischer Autonomie und transatlantischer Abhängigkeit.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zur Verteidigungspolitik\n\nDer deutsche Mediendiskurs spaltet sich fundamental entlang der Frage auf, ob die „Zeitenwende\" eine dauerhafte Neukalibrierung des deutschen Selbstverständnisses als Friedensmacht darstellt oder eine Überreaktion auf kurzfristige Sicherheitsbedrohungen, die rational hinterfragt und begrenzt werden muss — rechts-konservative und wirtschaftsliberale Medien rahmen kontinuierliche Hochrüstung, erweiterte NATO-Präsenz und Waffenlieferungen als notwendige Normalität, während linke und linkskonservative Medien ein strukturelles Unbehagen gegenüber der Militarisierung des deutschen Staates und Gesellschaft artikulieren, das sich in Skepsis gegenüber Wehrpflicht, Zivilschutzplänen und der Normalität von Rüstungsindustrie niederschlägt.\n\nEine zweite Bruchstelle verläuft zwischen einer sicherheitsrationalen Logik (die transatlantische Abhängigkeit und europäische Bündnisfähigkeit als alternativlos behandelt) und einer geostrategischen Autonomie-Perspektive, die implizit oder explizit hinterfragt, ob die bedingungslose Fortsetzung der NATO-Integration unter sich verändernden US-Bedingungen im deutschen Interesse liegt — während konservative Medien diese Frage nicht als legitim behandeln, lässt sich bei wirtschaftsliberalen Medien eine unterschwellige Sorge um eine europäische Strategiefähigkeit erkennen, die nicht primär von Washington abhängig ist.\n\nDie dritte Konfliktlinie trennt eine technokratisch-funktionale von einer politisch-normativen Deutung von Rüstungsescalation: Während rechte und wirtschaftsliberale Medien die Militarisierung durch Ef",
+  "cached_at": "2026-05-20T08:32:43.684538"
 }
