@@ -1,45 +1,25 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 116,
-  "candidate_count": 270,
+  "article_count": 148,
+  "candidate_count": 278,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 23,
+      "article_count": 27,
       "sample_titles": [
+        "„Ich glaube nicht, dass das was mit gelungener Integration zu tun hat“",
+        "„Brauchen Menschen, die zu uns kommen, auch für die Vielfalt“ – Diskussion um Bas-Satz",
         "Ministerpräsident Rhein fordert Sanktionen für Migranten im Sozialsystem",
-        "Republikaner blockieren Trumps Migrationspaket wegen umstrittenem Fonds",
-        "Nur wenige Angehörige von Flüchtlingen – Bundesregierung legt Zahlen zum Familiennachzug vor",
-        "Um diese AfD-Wähler will Özdemir sich „aktiv bemühen“"
+        "Das wahre Ausmaß der Migrationskosten"
       ],
       "urls": [
+        "https://www.welt.de/videos/video6a118c7f9c51a75bc47531b0/rekordzahl-an-einbuergerungen-ich-glaube-nicht-dass-das-was-mit-gelungener-integration-zu-tun-hat.html",
+        "https://www.welt.de/videos/video6a1145da3b7096456ac80438/zuwanderung-brauchen-menschen-die-zu-uns-kommen-auch-fuer-die-vielfalt-diskussion-um-bas-satz.html",
         "https://www.welt.de/politik/deutschland/article6a101107af9f246e56410ad6/zuwanderung-und-sozialleistungen-ministerpraesident-rhein-fordert-sanktionen-fuer-migranten-im-sozialsystem.html",
-        "https://www.welt.de/politik/ausland/article6a0f94163b7096456ac7f0a1/revolte-im-us-senat-republikaner-blockieren-trumps-migrationspaket-wegen-umstrittenem-fonds.html",
-        "https://www.welt.de/politik/deutschland/article6a0ea2fc69c19e49a1a59cee/migration-nur-wenige-angehoerige-von-fluechtlingen-bundesregierung-legt-zahlen-zum-familiennachzug-vor.html",
-        "https://www.welt.de/politik/deutschland/plus6a0d48023b7096456ac7cc1a/um-diese-afd-waehler-will-ministerpraesident-oezdemir-sich-aktiv-bemuehen.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 19,
-      "sample_titles": [
-        "Flüchtlingskostenbericht Bundesländer fordern mehr Geld für Migranten",
-        "„Bereicherung“ Bärbel Bas warnt vor „Einheitsbraun“ ohne Migration",
-        "Asylmissbrauch So dramatisch floppt die Bezahlkarte in Nordrhein-Westfalen",
-        "JF-Reportage Wie eine Leipziger Schule unter Migrantengewalt leidet"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/bundeslaender-fordern-mehr-geld-fuer-migranten/",
-        "https://jungefreiheit.de/politik/deutschland/2026/baerbel-bas-warnt-vor-einheitsbraun-ohne-migration/",
-        "https://jungefreiheit.de/politik/deutschland/2026/so-dramatisch-floppt-die-bezahlkarte-in-nordrhein-westfalen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wenn-eine-leipziger-schule-unter-migrantengewalt-leidet/"
+        "https://www.welt.de/politik/deutschland/plus6a0f347069c19e49a1a5ab19/folgen-der-zuwanderung-das-wahre-ausmass-der-migrationskosten.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -48,11 +28,40 @@
           "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 22,
+      "sample_titles": [
+        "„Bereicherung“ Bärbel Bas warnt vor „Einheitsbraun“ ohne Migration",
+        "Flüchtlingskostenbericht Bundesländer fordern mehr Geld für Migranten",
+        "Bundesamt für Migration Trotz Förderung verlässt kaum ein Afghane Deutschland",
+        "Asylmissbrauch So dramatisch floppt die Bezahlkarte in Nordrhein-Westfalen"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/baerbel-bas-warnt-vor-einheitsbraun-ohne-migration/",
+        "https://jungefreiheit.de/politik/deutschland/2026/bundeslaender-fordern-mehr-geld-fuer-migranten/",
+        "https://jungefreiheit.de/politik/deutschland/2026/trotz-foerderung-verlaesst-kaum-ein-afghane-deutschland/",
+        "https://jungefreiheit.de/politik/deutschland/2026/so-dramatisch-floppt-die-bezahlkarte-in-nordrhein-westfalen/"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "sadness",
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -61,81 +70,31 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 11,
+      "article_count": 15,
       "sample_titles": [
+        "Jobwunder dank Migration: Spanien feiert zweiundzwanzig Millionen!",
         "Zwei Jahre Bezahlkarte für Geflüchtete: Endlich wieder mehr Solidarität",
-        "Ukraine-Flüchtlinge in Deutschland: Willkommen auf Zeit",
-        "Einigung bei Integrationskursen: Dobrindt korrigiert seinen Kurs",
-        "Gutachten zu Migration und Wohnen: Wo Armut und Diskriminerung zusammenwirken"
+        "Zwei Jahre Bezahlkarte für Geflüchtete: Die Rechnung geht nicht auf",
+        "Arda Saatçis 600-km-Lauf: Eine Frage der Migrationsgeschichte"
       ],
       "urls": [
+        "https://taz.de/Jobwunder-dank-Migration/!6177925/",
         "https://taz.de/Zwei-Jahre-Bezahlkarte-fuer-Gefluechtete/!6180265/",
-        "https://taz.de/Ukraine-Fluechtlinge-in-Deutschland/!6177342/",
-        "https://taz.de/Einigung-bei-Integrationskursen/!6178578/",
-        "https://taz.de/Gutachten-zur-Migration-und-Wohnen/!6178200/"
+        "https://taz.de/Zwei-Jahre-Bezahlkarte-fuer-Gefluechtete/!6178797/",
+        "https://taz.de/Arda-Saatcis-600-km-Lauf/!6178852/"
       ],
-      "dominant_emotion": "pride",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
         {
           "emotion": "pride",
           "count": 1
         },
         {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 8,
-      "sample_titles": [
-        "\"Enge\" EVP-Kooperation mit AfD: Europa-SPD wirft Manfred Weber \"nächsten Tabubruch\" vor",
-        "Zeitpunkt ist noch offen: EU-Vertreter einigen sich bei Abschiebezentren",
-        "Neue Zahlen zeigen Verhältnisse: Deutsche holen mehr Verwandte aus dem Ausland als Geflüchtete",
-        "Einwanderung ins Sozialsystem: Bas bleibt bei umstrittener Äußerung - und erklärt ihr Motiv"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/AfD-Kooperation-mit-EVP-eng-Europa-SPD-wirft-Manfred-Weber-naechsten-Tabubruch-vor-id30845159.html",
-        "https://www.n-tv.de/politik/EU-Vertreter-einigen-sich-bei-Abschiebezentren-id30844838.html",
-        "https://www.n-tv.de/politik/Deutsche-holen-mehr-Verwandte-aus-dem-Ausland-als-Gefluechtete-id30843467.html",
-        "https://www.n-tv.de/politik/Bas-bleibt-bei-umstrittener-Aeusserung-und-erklaert-ihr-Motiv-id30814470.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Deutschland-Liveblog: NRW-Ministerin: Sozialbetrug gehört auf die Agenda der Bundesregierung",
-        "Deutschland-Liveblog: Bundesverfassungsgericht billigt gekürzte Asylleistungen",
-        "Hörbuch „Zugwind“: Das Syndrom des aufgeschobenen Lebens",
-        "Debatte um Migration: „Profitieren die Sozialsysteme von der Einwanderung oder nicht?“"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-nrw-ministerin-sozialbetrug-gehoert-auf-die-agenda-der-bundesregierung-faz-110093143.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-bundesverfassungsgericht-billigt-gekuerzte-asylleistungen-faz-110093143.html",
-        "https://www.faz.net/aktuell/feuilleton/buecher/hoerbuch/lebensfreude-im-krieg-das-hoerbuch-zugwind-von-iryna-fingerova-accg-200812614.html",
-        "https://www.faz.net/aktuell/wirtschaft/profitieren-die-sozialsysteme-von-der-einwanderung-200825475.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
+          "emotion": "disappointment",
           "count": 1
         }
       ]
@@ -144,56 +103,89 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 8,
+      "article_count": 14,
       "sample_titles": [
+        "Wie Migration die Wohnzimmer veränderte",
         "Kein Geld für Kultur und Bildung für neue Geflüchtete",
         "Migrantische Community hofft auf mehr Teilhabe in Özdemirs Amtszeit",
-        "Koalition plant Korrektur bei Integrationskursen",
-        "Koalition plant Korrektur bei Integrationskursen"
+        "\"Hoffnungshäuser\" in Schwäbisch Gmünd: Wo Integration plötzlich Heimat wird"
       ],
       "urls": [
+        "https://www.tagesschau.de/kultur/tapetenwechsel-ausstellung-berlin-100.html",
         "https://www.tagesschau.de/inland/innenpolitik/asylbewerber-leistungen-bverfg-100.html",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/cem-oezdemir-migranten-zuversichtlich-100.html",
-        "https://www.tagesschau.de/investigativ/ndr-wdr/integrationskurse-koalition-100.html",
-        "https://www.tagesschau.de/investigativ/ndr-wdr/integartionskurse-koalition-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/hoffnungshaeuser-als-gemeinsame-heimat-von-gefluechteten-und-einheimischen-100.html"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
         {
           "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 8,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 13,
       "sample_titles": [
-        "Weiterreise nach Deutschland - Droht eine neue Asyl-Welle aus Spanien?",
-        "Unionspolitiker kontern Bas - „Zuwanderer bringen System an den Rand des Kollaps“",
-        "Stütze-Quote unter Ausländern - Diese Zahlen zeigen den großen Bas-Irrtum",
-        "Jermaine (14) in Memmingen getötet - Das Asyl-Versagen beim mutmaßlichen Kinderkiller"
+        "Liveblog Ukrainekrieg: Nawrocki dankt Trump",
+        "Deutschland-Liveblog: NRW-Ministerin: Sozialbetrug gehört auf die Agenda der Bundesregierung",
+        "Deutschland-Liveblog: Bundesverfassungsgericht billigt gekürzte Asylleistungen",
+        "Integration in Deutschland: Meine Deutschlehrerin, Frau Demke, ist bis heute eine Heldin für mich"
       ],
       "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/neue-asyl-welle-aus-spanien-zehntausende-koennten-nach-deutschland-komme-6a0197f9cd4a28c4700236a9",
-        "https://www.bild.de/politik/unionspolitiker-kontern-bas-system-durch-zuwanderung-am-rand-des-kollaps-6a017eb6cd4a28c47002348a",
-        "https://www.bild.de/politik/inland/arbeitslosenquote-unter-auslaendern-diese-zahlen-zeigen-den-irrtum-von-baerbel-bas-6a004859cd4a28c470022763",
-        "https://www.bild.de/regional/bayern/so-versagte-die-asyl-politik-beim-mutmasslichen-kinderkiller-von-memmingen-69fb2eaf78a5e02b5e7a5fb3"
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-nawrocki-dankt-trump-fuer-truppenentsendung-faz-110683325.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-nrw-ministerin-sozialbetrug-gehoert-auf-die-agenda-der-bundesregierung-faz-110093143.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-bundesverfassungsgericht-billigt-gekuerzte-asylleistungen-faz-110093143.html",
+        "https://www.faz.net/aktuell/gesellschaft/menschen/integration-aufwachsen-als-gefluechteter-syrer-in-deutschland-accg-200808452.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "excitement",
       "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 9,
+      "sample_titles": [
+        "Zeitpunkt ist noch offen: EU-Vertreter einigen sich bei Abschiebezentren",
+        "Neue Zahlen zeigen Verhältnisse: Deutsche holen mehr Verwandte aus dem Ausland als Geflüchtete",
+        "Abschiebedebatte in Südamerika: Chiles ultrarechter Präsident empört eigene Regierung",
+        "Einwanderung ins Sozialsystem: Bas bleibt bei umstrittener Äußerung - und erklärt ihr Motiv"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/EU-Vertreter-einigen-sich-bei-Abschiebezentren-id30844838.html",
+        "https://www.n-tv.de/politik/Deutsche-holen-mehr-Verwandte-aus-dem-Ausland-als-Gefluechtete-id30843467.html",
+        "https://www.n-tv.de/politik/Chiles-ultrarechter-Praesident-empoert-eigene-Regierung-id30827245.html",
+        "https://www.n-tv.de/politik/Bas-bleibt-bei-umstrittener-Aeusserung-und-erklaert-ihr-Motiv-id30814470.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "remorse",
           "count": 1
         }
       ]
@@ -202,7 +194,7 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 7,
+      "article_count": 9,
       "sample_titles": [
         "Asylrecht: Geflüchtete machen beim Familiennachzug nur geringen Anteil aus",
         "AfD in Mecklenburg-Vorpommern: Das plant die Partei im Falle eines Wahlsiegs",
@@ -220,45 +212,29 @@
         {
           "emotion": "admiration",
           "count": 2
+        },
+        {
+          "emotion": "gratitude",
+          "count": 1
         }
       ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "Bundesverfassungsgericht: Verfassungsgericht mahnt Politik bei Asyl-Grundleistungen",
-        "Sachsen-Anhalt: Schulze setzt auf Zuwanderung in den Arbeitsmarkt",
-        "Verwarnung in Prozess um Volksverhetzung gegen Flüchtlinge in Baden-Baden",
-        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
-      ],
-      "urls": [
-        "https://www.stern.de/politik/deutschland/bundesverfassungsgericht--verfassungsgericht-mahnt-politik-bei-asyl-grundleistungen-37424324.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--schulze-setzt-auf-zuwanderung-in-den-arbeitsmarkt-37401978.html",
-        "https://www.stern.de/news/verwarnung-in-prozess-um-volksverhetzung-gegen-fluechtlinge-in-baden-baden-37376814.html",
-        "https://www.stern.de/politik/deutschland/nach-ende-des-buergerkriegs--1-63-millionen-syrer-zurueckgekehrt---wenige-aus-deutschland-37362460.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 8,
       "sample_titles": [
+        "Einbürgerungs-Rekord: 310.000 neue Deutsche allein 2025",
         "Deutschland wird demographisch umgedreht – und der Staat finanziert es",
         "Bahlsen-Chef warnt vor AfD und Remigration",
-        "Terrorpläne: 17-jähriger Syrer in Hamburg verhaftet",
-        "14-jähriger Schüler ermordet – mutmaßlicher Täter war abgelehnter Asylbewerber"
+        "Ungarns neue Regierung will Migranten ins Land lassen"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/rekord-310-000-neue-deutsche/",
         "https://www.tichyseinblick.de/daili-es-sentials/deutschland-transformation/",
         "https://www.tichyseinblick.de/wirtschaft/bahlsen-chef-warnt-vor-afd/",
-        "https://www.tichyseinblick.de/daili-es-sentials/terrorplaene-17-jaehriger-syrer-in-hamburg-verhaftet/",
-        "https://www.tichyseinblick.de/daili-es-sentials/schueler-ermordet-abgelehnter-migrant-memmingen/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/ungarn-neue-regierung-will-migranten-ins-land-lassen/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -268,34 +244,122 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 3,
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 8,
       "sample_titles": [
-        "So wohnen Menschen mit und ohne Migrationshintergrund",
-        "Wie KI-Seiten mit Wut-Inhalten auf Facebook Geld verdienen",
-        "Was an der Bas-Aussage falsch ist"
+        "Weiterreise nach Deutschland - Droht eine neue Asyl-Welle aus Spanien?",
+        "Stütze-Quote unter Ausländern - Diese Zahlen zeigen den großen Bas-Irrtum",
+        "Jermaine (14) in Memmingen getötet - Das Asyl-Versagen beim mutmaßlichen Kinderkiller",
+        "„Keine Einwanderung in Sozialsysteme“ - Bas antwortet BILD – und macht es noch schlimmer"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/wohnung-migration-gutachten-miete-einkommen-platz-100.html",
-        "https://www.zdfheute.de/digitales/facebook-ki-news-seiten-faktencheck-100.html",
-        "https://www.zdfheute.de/politik/deutschland/bas-sozialleistungen-migration-fluechtlinge-kritik-100.html"
+        "https://www.bild.de/politik/ausland-und-internationales/neue-asyl-welle-aus-spanien-zehntausende-koennten-nach-deutschland-komme-6a0197f9cd4a28c4700236a9",
+        "https://www.bild.de/politik/inland/arbeitslosenquote-unter-auslaendern-diese-zahlen-zeigen-den-irrtum-von-baerbel-bas-6a004859cd4a28c470022763",
+        "https://www.bild.de/regional/bayern/so-versagte-die-asyl-politik-beim-mutmasslichen-kinderkiller-von-memmingen-69fb2eaf78a5e02b5e7a5fb3",
+        "https://www.bild.de/politik/inland/keine-einwanderung-in-sozialsysteme-wirklich-baerbel-bas-antwortet-bild-69fc7932cd4a28c47001f91c"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 6,
+      "sample_titles": [
+        "Bundesverfassungsgericht: Verfassungsgericht mahnt Politik bei Asyl-Grundleistungen",
+        "Illegale Migration: Elf Jahre unentdeckt: Albaner mit falschem Pass gefasst",
+        "Sachsen-Anhalt: Schulze setzt auf Zuwanderung in den Arbeitsmarkt",
+        "Verwarnung in Prozess um Volksverhetzung gegen Flüchtlinge in Baden-Baden"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/bundesverfassungsgericht--verfassungsgericht-mahnt-politik-bei-asyl-grundleistungen-37424324.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/illegale-migration--elf-jahre-unentdeckt--albaner-mit-falschem-pass-gefasst-37420958.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--schulze-setzt-auf-zuwanderung-in-den-arbeitsmarkt-37401978.html",
+        "https://www.stern.de/news/verwarnung-in-prozess-um-volksverhetzung-gegen-fluechtlinge-in-baden-baden-37376814.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Immobilien: Steigender Bedarf durch Migration – fünf Grafiken zeigen Ursachen und Folgen der Wohnungsnot",
+        "Spanien: Tausende Migranten lassen ihren Aufenthalt in Spanien legalisieren – Nachbarländer äußern Sorge",
+        "Migration: Was eine Begrenzung der Einwohnerzahl für die Schweiz bedeuten würde",
+        "Migration: Viele Syrer kehren zurück – aber nur wenige aus Deutschland"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/immobilien-verteilungskonflikte-um-wohnraum-nehmen-zu/100222513.html",
+        "https://www.handelsblatt.com/politik/international/spanien-tausende-migranten-nutzen-chance-zur-legalisierung-ihres-aufenthalts/100221005.html",
+        "https://www.handelsblatt.com/politik/international/migration-was-eine-begrenzung-der-einwohnerzahl-fuer-die-schweiz-bedeuten-wuerde/100221940.html",
+        "https://www.handelsblatt.com/politik/international/migration-viele-syrer-kehren-zurueck-aber-nur-wenige-aus-deutschland/100221904.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
         {
           "emotion": "approval",
           "count": 1
-        },
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Bundespolitik: Dobrindt: Wer nicht flüchtet, ist nicht auf der Flucht in Gefahr",
+        "Memmingen: Ermittler: 14-Jähriger im Allgäu getötet - Tatverdächtiger tot",
+        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-innenminister-flucht-migration-asyl-li.3477387",
+        "https://www.sueddeutsche.de/bayern/memmingen-bahnhof-jugendlicher-leichenfund-verdaechtiger-schuesse-polizei-li.3478325",
+        "https://www.sueddeutsche.de/politik/syrien-rueckkehrer-buergerkrieg-unhcr-li.3477280"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "sadness",
           "count": 1
-        },
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 2,
+      "sample_titles": [
+        "Deutsche Grenzkontrollen nerven Niederländer",
+        "Was an der Bas-Aussage falsch ist"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/video/heute-in-europa/deutsche-grenzkontrollen-nerven-niederlaender-100.html",
+        "https://www.zdfheute.de/politik/deutschland/bas-sozialleistungen-migration-fluechtlinge-kritik-100.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -314,6 +378,27 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "«Europa muss sich auf einen neuen Flüchtlingsstrom vorbereiten»",
+        "KOMMENTAR - Die verwöhnte Schweiz verwaltet ihren Wohlstand nur noch. Kein Wunder, braucht es so viele Zuwanderer, um ihn zu erhalten"
+      ],
+      "urls": [
+        "https://www.nzz.ch/international/migration-aus-nordafrika-hager-ali-ueber-neue-herausforderungen-fuer-europa-ld.10007340",
+        "https://www.nzz.ch/meinung/die-verwoehnte-schweiz-verwaltet-ihren-wohlstand-nur-noch-kein-wunder-braucht-es-so-viele-zuwanderer-um-ihn-zu-erhalten-ld.10005613"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
     },
     "zeit": {
       "source_id": "zeit",
@@ -336,71 +421,16 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "In der Schweiz werden immer mehr Leute verurteilt – doch mit der Zuwanderung lässt sich dies nicht erklären",
-        "Soll die Schweiz die Zuwanderung mit einem Eintrittspreis steuern?"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/in-der-schweiz-werden-immer-mehr-leute-verurteilt-doch-mit-der-zuwanderung-laesst-sich-dies-nicht-erklaeren-ld.10006669",
-        "https://www.nzz.ch/schweiz/soll-die-schweiz-die-zuwanderung-mit-einem-eintrittspreis-steuern-ld.10005941"
-      ],
-      "dominant_emotion": "surprise",
-      "top_emotions": [
-        {
-          "emotion": "surprise",
-          "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Immobilien: Steigender Bedarf durch Migration – fünf Grafiken zeigen Ursachen und Folgen der Wohnungsnot",
-        "Migration: Viele Syrer kehren zurück – aber nur wenige aus Deutschland"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/immobilien-verteilungskonflikte-um-wohnraum-nehmen-zu/100222513.html",
-        "https://www.handelsblatt.com/politik/international/migration-viele-syrer-kehren-zurueck-aber-nur-wenige-aus-deutschland/100221904.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Das Migrations-Problem wächst weiter",
-        "Panorama der Entmachtung: Das Migrationsparadies"
+        "Das Migrations-Problem wächst weiter"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/das_migrations_problem_waechst_weiter",
-        "https://www.achgut.com/artikel/panorama_der_entmachtung_das_migrationsparadies"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Bundespolitik: Dobrindt: Wer nicht flüchtet, ist nicht auf der Flucht in Gefahr",
-        "Nach Ende des Bürgerkriegs: 1,63 Millionen Syrer zurückgekehrt – wenige aus Deutschland"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-innenminister-flucht-migration-asyl-li.3477387",
-        "https://www.sueddeutsche.de/politik/syrien-rueckkehrer-buergerkrieg-unhcr-li.3477280"
+        "https://www.achgut.com/artikel/das_migrations_problem_waechst_weiter"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -421,16 +451,16 @@
     }
   },
   "bias_distribution": {
-    "far-right": 25,
-    "right-conservative": 31,
-    "conservative-liberal": 12,
-    "neutral": 12,
-    "left-liberal": 15,
-    "left": 11,
+    "far-right": 31,
+    "right-conservative": 36,
+    "left": 15,
+    "neutral": 17,
+    "conservative-liberal": 17,
+    "left-liberal": 20,
     "populist-mixed": 8,
-    "economic-liberal": 2
+    "economic-liberal": 4
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zu Migration und Asylpolitik zeigt sich eine breite Übereinstimmung darin, dass die Integration von Geflüchteten und Migranten eine zentrale Herausforderung darstellt, die durch gezielte Maßnahmen wie Integrationskurse und Sprachunterricht unterstützt werden muss. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Sozialsysteme vor Missbrauch zu schützen und die Abschiebung von abgelehnten Asylbewerbern zu erleichtern, um die öffentliche Akzeptanz für die Aufnahme von Flüchtlingen zu erhalten. Zudem wird in verschiedenen Medien die Bedeutung der wirtschaftlichen Integration von Migranten hervorgehoben, um die demografischen und wirtschaftlichen Herausforderungen in Deutschland zu meistern.",
-  "controversial_points": "Der deutsche Mediendiskurs zu Migration und Asylpolitik ist geprägt von einer tiefen Spaltung zwischen einer eher restriktiven und einer offenen Haltung, wobei die erstere oft von rechten und konservativen Medien vertreten wird, die die Einwanderung als Bedrohung für die soziale Ordnung und die wirtschaftliche Stabilität sehen, während die letztere von linken und liberalen Medien vertreten wird, die die Integration von Migranten als Chance für die Gesellschaft und die Wirtschaft betrachten. Eine weitere Konfliktlinie verläuft zwischen der Betonung der Notwendigkeit von Grenzkontrollen und Abschiebungen auf der einen Seite und der Forderung nach einer humanitären und solidarischen Asylpolitik auf der anderen Seite, wobei die erstere oft von populistischen und rechten Medien vertreten wird, während die letztere von linken und liberalen Medien unterstützt wird. Die Debatte um die Migration und Asylpolitik in Deutschland ist auch von einem Konflikt zwischen wirtschaftlichen und sozialen Interessen geprägt, wobei die einen die Einwanderung als notwendig für die Deckung des Arbeitskräftebedarfs und die Stabilisierung der Sozialsysteme sehen, während die anderen die sozialen und kulturellen Auswirkungen der Einwanderung auf die Gesellschaft betonen.",
-  "cached_at": "2026-05-23T07:12:37.143032"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Migration und Asylpolitik zeigt sich eine breite Übereinstimmung darin, dass die Integration von Geflüchteten und Migranten eine zentrale Herausforderung darstellt, die durch verschiedene Maßnahmen wie Integrationskurse und Bezahlkarten unterstützt werden sollte. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Migrationskosten und die Auswirkungen auf die Sozialsysteme zu überprüfen und gegebenenfalls zu korrigieren, um eine faire Verteilung der Lasten zu gewährleisten. Die Diskussion um die Asylpolitik und die Grenzkontrollen wird oft im Kontext der europäischen Zusammenarbeit und der Notwendigkeit einer gemeinsamen Lösung für die Flüchtlingskrise geführt.",
+  "controversial_points": "Der deutsche Mediendiskurs zu Migration und Asylpolitik ist geprägt von einer tiefen Spaltung zwischen einer integrationsfreundlichen und einer restriktiven Haltung, wobei die erstere von linken und liberalen Medien vertreten wird, die die wirtschaftlichen und sozialen Vorteile der Migration betonen, während die letztere von konservativen und rechten Medien vertreten wird, die die Sicherheits- und Identitätsbedenken hervorheben. Eine weitere Konfliktlinie verläuft zwischen den Medien, die die Notwendigkeit einer effizienten und humanen Asylpolitik betonen, und denen, die die Priorität auf die Bekämpfung von Asylmissbrauch und die Sicherung der Grenzen legen, wobei die erstere von linken und liberalen Medien und die letztere von konservativen und rechten Medien vertreten wird. Die Diskussion um die Migration und Asylpolitik in Deutschland ist auch von einer Spannung zwischen wirtschaftlichen und sozialen Interessen geprägt, wobei die wirtschaftlichen Vorteile der Migration, wie der Bedarf an Arbeitskräften und die Steigerung der Bevölkerung, gegen die sozialen Herausforderungen, wie die Integration von Migranten und die Bewältigung von Asylverfahren, abgewogen werden.",
+  "cached_at": "2026-05-24T07:31:02.381573"
 }

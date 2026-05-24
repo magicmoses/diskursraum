@@ -1,25 +1,25 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 177,
-  "candidate_count": 566,
+  "article_count": 187,
+  "candidate_count": 592,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 47,
+      "article_count": 50,
       "sample_titles": [
-        "\"Puff für alle\": Ministerium reagiert auf Bordell-Unterricht in Kevelaer",
+        "Neues Pflegestudium in Eberswalde mit Ausbildung, Bachelor und Heilkunde",
         "Mehr Vorfälle: Antisemitismus an Hochschulen in NRW nimmt zu",
-        "Vorwürfe gegen Lehrkraft: Schülerinnen berichten von sexualisierten Übergriffen",
-        "Mit Schreckschusspistole: Schüler an Bielefelder Schule verletzt"
+        "\"Puff für alle\": Ministerium reagiert auf Bordell-Unterricht in Kevelaer",
+        "Vorwürfe gegen Lehrkraft: Schülerinnen berichten von sexualisierten Übergriffen"
       ],
       "urls": [
-        "https://www1.wdr.de/politik/politik-in-nrw/kevelaer-schule-bordell-schulministerium-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/05/eberswalde-pflege-studium-heilpraktik-ausbildung.html",
         "https://www1.wdr.de/politik/politik-in-nrw/vorfaelle-antisemitismus-hochschulen-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/vorwuerfe-wegen-sexualisierter-uebergriffe-an-progymnasium-rosenfeld-100.html",
-        "https://www1.wdr.de/nrw/bielefeld/schueler-mit-schreckschusspistole-verletzt-100.html"
+        "https://www1.wdr.de/politik/politik-in-nrw/kevelaer-schule-bordell-schulministerium-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/vorwuerfe-wegen-sexualisierter-uebergriffe-an-progymnasium-rosenfeld-100.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -37,22 +37,55 @@
         }
       ]
     },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 20,
+      "sample_titles": [
+        "Spahn stellt geplante Bafög‑Erhöhung infrage",
+        "„Da ist die Rede von Taschenmuschi und Peitsche“ – Schüler müssen „Puff für alle“ gestalten",
+        "Aufregung an Gymnasium – Achtklässler sollen im Unterricht „Puff für alle“ gestalten",
+        "Die 3400-Euro-Frage bei der großen Führerschein-Reform"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a119fc9f0f7eb608db7b85f/sparmassnahmen-spahn-stellt-geplante-bafoegerhoehung-infrage.html",
+        "https://www.welt.de/videos/video6a1098d43b7096456ac8010f/gymnasium-in-kevelaer-da-ist-die-rede-von-taschenmuschi-und-peitsche-schueler-muessen-puff-fuer-alle-gestalten.html",
+        "https://www.welt.de/videos/video6a1066a5af9f246e56411582/nordrhein-westfalen-aufregung-an-gymnasium-achtklaessler-sollen-im-unterricht-puff-fuer-alle-gestalten.html",
+        "https://www.welt.de/wirtschaft/article6a0d9e6c46b3b052cd75c152/kabinettsbeschluss-die-3400-euro-frage-bei-der-grossen-fuehrerschein-reform.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 22,
+      "article_count": 20,
       "sample_titles": [
+        "Deutschland-Liveblog: Jens Spahn sieht keinen Spielraum für Bafög-Erhöhung",
         "Erste Hybridschule: Wie eine gute Nachbarschaft entsteht",
         "Lernen mit KI: Wie KI uns schlauer macht – und wann sie das Gegenteil bewirkt",
-        "Antisemitismus an Kunsthochschule: Ein Flugblatt gegen die Jüdische Gemeinde",
-        "Erweitertes Promotionsrecht: Vom „Dr. light“ reden nur noch wenige"
+        "Zukunft der Schulen: Die schrillen Töne der Bildungszerstörer"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-jens-spahn-sieht-keinen-spielraum-fuer-bafoeg-erhoehung-faz-110093143.html",
         "https://www.faz.net/aktuell/rhein-main/frankfurt/hybridschule-in-frankfurt-grundschule-und-wohnungen-im-selben-gebaeude-streits-vorbeugen-200854643.html",
         "https://www.faz.net/premium/digitalwirtschaft/ki-akademie/lernen-mit-ki-wie-sie-uns-schlauer-macht-und-wann-sie-das-gegenteil-bewirkt-accg-200848908.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/antisemitismus-an-kunsthochschule-halle-accg-200835587.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/doktor-im-fach-soziale-arbeit-wie-viel-ist-das-erweiterte-promotionsrecht-in-hessen-wert-accg-200828124.html"
+        "https://www.faz.net/aktuell/politik/inland/die-schrillen-toene-der-bildungszerstoerer-200827987.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -65,40 +98,7 @@
           "count": 2
         },
         {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 19,
-      "sample_titles": [
-        "„Da ist die Rede von Taschenmuschi und Peitsche“ – Schüler müssen „Puff für alle“ gestalten",
-        "Aufregung an Gymnasium – Achtklässler sollen im Unterricht „Puff für alle“ gestalten",
-        "„Klientelpolitik für Reichsbürger“ – CSU-Politiker wirft AfD Widersprüche bei Schulpflicht vor",
-        "„Fatale Tradition der sozialen Selektion“"
-      ],
-      "urls": [
-        "https://www.welt.de/videos/video6a1098d43b7096456ac8010f/gymnasium-in-kevelaer-da-ist-die-rede-von-taschenmuschi-und-peitsche-schueler-muessen-puff-fuer-alle-gestalten.html",
-        "https://www.welt.de/videos/video6a1066a5af9f246e56411582/nordrhein-westfalen-aufregung-an-gymnasium-achtklaessler-sollen-im-unterricht-puff-fuer-alle-gestalten.html",
-        "https://www.welt.de/politik/deutschland/article6a0c50bbdc590e4588162c00/sachsen-anhalt-klientelpolitik-fuer-reichsbuerger-csu-politiker-wirft-afd-widersprueche-bei-schulpflicht-vor.html",
-        "https://www.welt.de/politik/deutschland/article6a096d39704f85a5c7af23da/deutsches-bildungssystem-fatale-tradition-der-sozialen-selektion.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
           "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -107,18 +107,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 16,
+      "article_count": 17,
       "sample_titles": [
+        "Jens Spahn spricht sich gegen Erhöhung des Bafög aus",
+        "Jura-Staatsexamen: Zwei der besten Studierenden geben Lerntipps - und fordern Reformen",
         "Fachkräftemangel: Ausländische Auszubildende und Studierende in Deutschland geraten oft in Schuldenfalle",
-        "Social-Media-Debatte: Elterntraining statt blindem Aktionismus empfohlen",
-        "Ausbildung: Azubis halten KI oft für bessere Wissensvermittler als ihre Berufsschullehrer",
-        "Billie Jean King: Tennis-Star macht mit 82 Jahren Uni-Abschluss »Yeah baby, only 61 years!«"
+        "Social-Media-Debatte: Elterntraining statt blindem Aktionismus empfohlen"
       ],
       "urls": [
+        "https://www.spiegel.de/politik/deutschland/jens-spahn-spricht-sich-gegen-erhoehung-des-bafoegs-aus-a-bcce3e46-0969-4933-aae8-33605b5ea8ed#ref=rss",
+        "https://www.spiegel.de/start/jura-staatsexamen-zwei-der-besten-studierenden-geben-lerntipps-und-fordern-reformen-a-9c1bf02c-c453-4d95-80b1-3f8ec713f19f#ref=rss",
         "https://www.spiegel.de/start/fachkraeftemangel-auslaendische-auszubildende-und-studierende-in-deutschland-geraten-oft-in-schuldenfalle-a-c1898cff-98df-4ce1-ac40-5cecbc0fc9ea#ref=rss",
-        "https://www.spiegel.de/panorama/bildung/social-media-debatte-elterntraining-statt-blindem-aktionismus-empfohlen-a-04bbd723-91cd-4f72-9184-291535bf68a3#ref=rss",
-        "https://www.spiegel.de/start/ausbildung-azubis-halten-ki-oft-fuer-bessere-wissensvermittler-als-ihre-berufsschullehrer-a-0e5c75a0-ff70-458f-b4be-3c36a82b53fa#ref=rss",
-        "https://www.spiegel.de/panorama/leute/billie-jean-king-tennis-star-macht-mit-82-jahren-uni-abschluss-yeah-baby-only-61-years-a-8c67fc2c-fd77-4eb2-ab5c-0ed02bb97dc0#ref=rss"
+        "https://www.spiegel.de/panorama/bildung/social-media-debatte-elterntraining-statt-blindem-aktionismus-empfohlen-a-04bbd723-91cd-4f72-9184-291535bf68a3#ref=rss"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -129,6 +129,39 @@
         {
           "emotion": "approval",
           "count": 2
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 14,
+      "sample_titles": [
+        "JF-Reportage „Unter uns Schülern herrscht Angst“ – Wenn ein Bonner Gymnasium kippt",
+        "Nordrhein-Westfalen Wenn Schüler ein „Freudenhaus der sexuellen Lebenslust“ entwerfen sollen",
+        "„Buntstift-Stipendium“ Hessen fördert queere Kinderbücher mit neuem Stipendium",
+        "Angebliche „sexuelle Bildung“ Die Schamlos-Pädagogik in Kitas ist ein Angriff auf die Würde des Kindes"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/unter-uns-schuelern-herrscht-angst-wenn-ein-bonner-gymnasium-kippt/",
+        "https://jungefreiheit.de/politik/deutschland/2026/wenn-schueler-ein-freudenhaus-der-sexuellen-lebenslust-entwerfen-sollen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/hessen-foerdert-queere-kinderbuecher-mit-neuem-stipendium/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/die-schamlos-paedagogik-in-kitas-ist-ein-angriff-auf-die-wuerde-des-kindes/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
         }
       ]
     },
@@ -161,31 +194,35 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 11,
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 10,
       "sample_titles": [
-        "Nordrhein-Westfalen Wenn Schüler ein „Freudenhaus der sexuellen Lebenslust“ entwerfen sollen",
-        "Kriminalstatistik Ausländische Gewalt ist längst im Klassenzimmer angekommen",
-        "„Kompetenzzentrum Rechtsextremismus“ Hessen: Verfassungsschutz nimmt vermehrt Schulen ins Visier",
-        "JF-Reportage Wenn die Schule zum Angstraum wird"
+        "Mehr Inklusion gefordert: Bündnis für eine gerechtere Schule gründet sich in Berlin",
+        "Inklusion am Kinder- und Jugendtheater: „Viele können sich nicht mal vorstellen, dass ich Taub bin“",
+        "Social-Media-Propaganda bei Jugendlichen: „Sogar über Sex wird offen geredet“",
+        "UNICEF-Studie zum Kindeswohl: Deutschland wieder weit abgeschlagen"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/wenn-schueler-ein-freudenhaus-der-sexuellen-lebenslust-entwerfen-sollen/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/auslaendische-gewalt-ist-laengst-im-klassenzimmer-angekommen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/hessen-verfassungsschutz-nimmt-vermehrt-schulen-ins-visier/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wenn-die-schule-zum-angstraum-wird/"
+        "https://taz.de/Mehr-Inklusion-gefordert/!6180522/",
+        "https://taz.de/Inklusion-am-Kinder--und-Jugendtheater/!6180054/",
+        "https://taz.de/Social-Media-Propaganda-bei-Jugendlichen/!6172158/",
+        "https://taz.de/UNICEF-Studie-zum-Kindeswohl/!6175665/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
           "count": 1
         },
         {
-          "emotion": "confusion",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -194,18 +231,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 8,
+      "article_count": 10,
       "sample_titles": [
+        "Harvard: Die beste Uni der Welt will die Bestnoten deckeln",
         "Sozialreformen: Spahn schließt höheres Elterngeld und Bafög aus",
         "Mobbing in Schulen: Eine Schule wehrt sich gegen Mobbing",
-        "In eigener Sache: DIE ZEIT gründet ein Bildungsressort",
-        "Tipps für Lernen: So lernst du wie eine Cambridge-Absolventin"
+        "In eigener Sache: DIE ZEIT gründet ein Bildungsressort"
       ],
       "urls": [
+        "https://www.zeit.de/bildung/2026-05/harvard-university-studium-noten-quote-usa",
         "https://www.zeit.de/politik/deutschland/2026-05/jens-spahn-elterngeld-reformen-bafoeg-koalition-sparen",
         "https://www.zeit.de/wissenschaft/2026-05/mobbing-schule-kinder-lektuere-wissen-podcast",
-        "https://www.zeit.de/fragen-der-zeit/2026/05/bildung-neues-ressort",
-        "https://www.zeit.de/campus/ratgeber/2026/01/tipps-lernen-schule-studium"
+        "https://www.zeit.de/fragen-der-zeit/2026/05/bildung-neues-ressort"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -216,30 +253,9 @@
         {
           "emotion": "optimism",
           "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Gelände abgeriegelt: Polizeieinsatz nach Drohung gegen Dachauer Schule",
-        "Pflicht bei Abschlussfeiern: An Münchner Schulen hat kaum einer Lust auf die Bayernhymne",
-        "Demokratieprojekt an Schulen: „Die Politik könnte Kinder mehr berücksichtigen“",
-        "Bildung: Kinder und Jugendliche haben ein Recht auf eine gute Schule"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/muenchen/dachau/dachau-sued-grund-und-mittelschule-gewalttat-polizei-sperrung-polizei-li.3486532",
-        "https://www.sueddeutsche.de/muenchen/muenchen-hymnenpflicht-schulen-kritik-folgen-bayernhymne-strafen-li.3479352",
-        "https://www.sueddeutsche.de/bayern/politische-bildung-demokratie-detektive-christian-ernst-gymnasium-erlangen-landtag-bayern-li.3482698",
-        "https://www.sueddeutsche.de/meinung/afd-schulpflicht-bildung-li.3481854"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
+        },
         {
-          "emotion": "excitement",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -273,35 +289,27 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
       "article_count": 6,
       "sample_titles": [
-        "Inklusion am Kinder- und Jugendtheater: „Viele können sich nicht mal vorstellen, dass ich Taub bin“",
-        "UNICEF-Studie zum Kindeswohl: Deutschland wieder weit abgeschlagen",
-        "Studierende über Bafög-Reform: „Bei uns überwiegt die Frustration“",
-        "GEW über Polizei auf dem Schulhof: „Keine dauerhafte Lösung“"
+        "Pflicht bei Abschlussfeiern: An Münchner Schulen hat kaum einer Lust auf die Bayernhymne",
+        "Demokratieprojekt an Schulen: „Die Politik könnte Kinder mehr berücksichtigen“",
+        "Bildung: Kinder und Jugendliche haben ein Recht auf eine gute Schule",
+        "Inklusion: „Das bedeutet halt, dass unsere Menschenrechte unzumutbar sind“"
       ],
       "urls": [
-        "https://taz.de/Inklusion-am-Kinder--und-Jugendtheater/!6180054/",
-        "https://taz.de/UNICEF-Studie-zum-Kindeswohl/!6175665/",
-        "https://taz.de/Studierende-ueber-Bafoeg-Reform/!6178250/",
-        "https://taz.de/GEW-ueber-Polizei-auf-dem-Schulhof/!6176218/"
+        "https://www.sueddeutsche.de/muenchen/muenchen-hymnenpflicht-schulen-kritik-folgen-bayernhymne-strafen-li.3479352",
+        "https://www.sueddeutsche.de/bayern/politische-bildung-demokratie-detektive-christian-ernst-gymnasium-erlangen-landtag-bayern-li.3482698",
+        "https://www.sueddeutsche.de/meinung/afd-schulpflicht-bildung-li.3481854",
+        "https://www.sueddeutsche.de/politik/inklusion-barrierefreiheit-gesetz-kritik-deutschland-bundesregierung-li.3479823"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "excitement",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -310,16 +318,16 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 5,
+      "article_count": 4,
       "sample_titles": [
-        "Hendrik Duryn ist \"Der Lehrer\": \"Die Schulpflicht gilt für Schüler, aber auch den Staat\"",
         "Dachdecker oder Schornsteinfeger: Handwerkspräsident berichtet von Zulauf bei Azubis",
+        "Erfolgreiche Abschlussprüfung: Lisa Müller freut sich über bestandene Pilotenausbildung",
         "Neue Vorschrift für Abschlussfeiern: Bayern führt ab kommendem Schuljahr Hymnenpflicht ein",
         "Debatte über unfähige Studenten: Wer \"klotzen, nicht kleckern\" fordert, wird als \"unsozialer Leistungsanbeter\" abgestempelt"
       ],
       "urls": [
-        "https://www.n-tv.de/leute/film/Die-Schulpflicht-gilt-fuer-Schueler-aber-auch-den-Staat-id30813783.html",
         "https://www.n-tv.de/wirtschaft/Handwerkspraesident-berichtet-von-Zulauf-bei-Azubis-id30828169.html",
+        "https://www.n-tv.de/leute/Lisa-Mueller-freut-sich-ueber-bestandene-Pilotenausbildung-id30799301.html",
         "https://www.n-tv.de/politik/Bayern-fuehrt-Hymnenpflicht-ab-kommendem-Schuljahr-ein-id30791258.html",
         "https://www.n-tv.de/panorama/Wer-klotzen-nicht-kleckern-fordert-wird-als-unsozialer-Leistungsanbeter-abgestempelt-id30773320.html"
       ],
@@ -327,32 +335,7 @@
       "top_emotions": [
         {
           "emotion": "disgust",
-          "count": 2
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "Kommentar: Unternehmen sparen bei Weiterbildung an der falschen Stelle",
-        "Forschung und Entwicklung: KI-Boom treibt Forschungsausgaben nach oben – Deutschland bleibt zurück",
-        "Technologie: „Internationale Leuchttürme schaffen“ – Bund will Regionen mit Spitzenforschung gezielt fördern",
-        "Ausbildungsförderung: Verhandlungsmarathon: Wie Union und SPD im Stillen um die Reform des Bafögs rangen"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-unternehmen-sparen-an-der-falschen-stelle/100224381.html",
-        "https://www.handelsblatt.com/unternehmen/forschung-ki-boom-treibt-forschungsausgaben-deutschland-faellt-zurueck/100221098.html",
-        "https://www.handelsblatt.com/politik/deutschland/technologie-bund-will-regionen-mit-spitzenforschung-gezielt-foerdern/100222600.html",
-        "https://www.handelsblatt.com/politik/deutschland/koalition-wie-union-und-spd-im-stillen-um-die-reform-des-bafoegs-rangen/100221376.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
+          "count": 1
         }
       ]
     },
@@ -379,28 +362,23 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
-        "DER ANDERE BLICK - Deutsche Hochschulen brauchen mehr Geld - und vor allem Freiheit",
-        "GASTKOMMENTAR - Übernimmt die KI den Fremdsprachenunterricht? Ja, aber es eröffnet auch Möglichkeiten",
-        "Schläge für neunjährige Mobber: Lehrer in Singapur dürfen Schüler mit dem Rohrstock betrafen"
+        "Schüler der achten Klasse müssen „Puff für alle“ planen",
+        "Noch mehr Plagiate: „Wissenschaftssimulant“ Mario Voigt?",
+        "Neue Schulstudie: Ideologie statt Fakten"
       ],
       "urls": [
-        "https://www.nzz.ch/der-andere-blick/deutsche-hochschulen-brauchen-mehr-geld-und-vor-allem-freiheit-ld.10007949",
-        "https://www.nzz.ch/meinung/uebernimmt-die-ki-den-fremdsprachenunterricht-ja-aber-das-eroeffnet-moeglichkeiten-und-fuehrt-zurueck-zu-humboldt-ld.10006378",
-        "https://www.nzz.ch/panorama/schlaege-fuer-mobber-singapur-bestraft-schueler-mit-dem-rohrstock-ld.10006172"
+        "https://www.tichyseinblick.de/meinungen/gymnasium-kevelaer/",
+        "https://www.tichyseinblick.de/daili-es-sentials/noch-mehr-plagiate-mario-voigt/",
+        "https://www.tichyseinblick.de/meinungen/bildungswesen-studie-ideologie/"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "achgut": {
       "source_id": "achgut",
@@ -408,14 +386,53 @@
       "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
-        "Wie eine bildungsfremde Generation Deutschland prägen wird",
-        "Die alten Ägypter wären heute an deutschen Schulen weit unterfordert",
+        "Geschlechtsumwandlungs-Werbung für Zwölfjährige in der Schule?",
+        "Anleitung zum Analverkehr für zwölfjährige Schüler",
         "Freiwillig, aber für alle!"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/wie_eine_bildungsfremde_generation_deutschland_praegen_wird",
-        "https://www.achgut.com/artikel/die_alten_aegypter_waeren_heute_an_deutschen_schulen_weit_unterfordert",
+        "https://www.achgut.com/artikel/geschlechtsumwandlungs_werbung_fuer_zwoelfjaehrige_in_der_schule",
+        "https://www.achgut.com/artikel/anleitung_zum_analverkehr_fuer_zwoelfjaehrige_schueler",
         "https://www.achgut.com/artikel/freiwillig_aber_fuer_alle"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Kommentar: Unternehmen sparen bei Weiterbildung an der falschen Stelle",
+        "Ausbildungsförderung: Verhandlungsmarathon: Wie Union und SPD im Stillen um die Reform des Bafögs rangen",
+        "Regierungsbildung: Grün-Schwarz im Südwesten einigt sich auf Koalitionsvertrag"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-unternehmen-sparen-an-der-falschen-stelle/100224381.html",
+        "https://www.handelsblatt.com/politik/deutschland/koalition-wie-union-und-spd-im-stillen-um-die-reform-des-bafoegs-rangen/100221376.html",
+        "https://www.handelsblatt.com/politik/deutschland/regierungsbildung-gruen-schwarz-im-suedwesten-einigt-sich-auf-koalitionsvertrag/100221620.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "DER ANDERE BLICK - Deutsche Hochschulen brauchen mehr Geld - und vor allem Freiheit",
+        "GASTKOMMENTAR - Übernimmt die KI den Fremdsprachenunterricht? Ja, aber es eröffnet auch Möglichkeiten"
+      ],
+      "urls": [
+        "https://www.nzz.ch/der-andere-blick/deutsche-hochschulen-brauchen-mehr-geld-und-vor-allem-freiheit-ld.10007949",
+        "https://www.nzz.ch/meinung/uebernimmt-die-ki-den-fremdsprachenunterricht-ja-aber-das-eroeffnet-moeglichkeiten-und-fuehrt-zurueck-zu-humboldt-ld.10006378"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -457,33 +474,19 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Neue Schulstudie: Ideologie statt Fakten"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/meinungen/bildungswesen-studie-ideologie/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "left-liberal": 45,
-    "populist-mixed": 3,
+    "far-right": 20,
     "right-conservative": 24,
-    "neutral": 54,
-    "far-right": 15,
-    "conservative-liberal": 26,
-    "left": 6,
-    "economic-liberal": 4
+    "conservative-liberal": 23,
+    "left-liberal": 47,
+    "left": 10,
+    "neutral": 57,
+    "populist-mixed": 3,
+    "economic-liberal": 3
   },
-  "shared_perspectives": "Across dem gesamten Mediendiskurs besteht eine breite Übereinstimmung darin, dass das deutsche Bildungssystem strukturelle Krisen aufweist — ob Lehrkräftemangel, mangelnde Digitalisierung, unzureichende Finanzierung oder sinkende internationale Wettbewerbsfähigkeit werden von links bis rechts als faktische Probleme anerkannt, auch wenn die zugeschriebenen Ursachen und geforderten Lösungen fundamental divergieren. Ein zweiter konsensua­ler Punkt ist die Wahrnehmung, dass Bildung zunehmend Schauplatz gesellschaftlicher Konflikte wird — ob Antisemitismus an Hochschulen, Sexualisierung von Unterrichtsinhalten, Gewalt im Klassenzimmer oder ideologische Vermittlung werden medienübergreifend als Beleg herangezogen, dass Schulen ihre Kernfunktion gefährdet sehen. Drittens zeigt sich eine implizite Einigung darauf, dass Chancenungleichheit und soziale Selektion im System persistieren — vom linken Fokus auf Inklusions­barrieren bis zu konservativen Warnung­en vor „alarmierendem Bildungsniveau\" wird diagnostiziert, dass das System bestimmte Bevölkerungsgruppen systematisch benachteiligt oder überfordert.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer zentrale Konflikt liegt zwischen zwei konkurrierenden Gerechtigkeitskonzepten: Während linke und liberal-progressive Medien Bildungsgerechtigkeit als Umverteilungs- und Inklusionsaufgabe des Staates verstehen — also materielle Absicherung von BAföG über Ganztagsschulen bis zur Barrierefreiheit — sehen konservativ-liberale und wirtschaftsliberale Medien die Kernprobleme in mangelnder Leistung, fehlender Autonomie von Schulen und zu wenig Wettbewerb um Qualität. Diese Sichtweisen führen zu inkommensurablen Lösungsvorschlägen: Ressourcenumverteilung versus Effizienzsteigerung.\n\nEin zweiter struktureller Konflikt trennt Universalisten von Kulturkonservativen — nicht oberflächlich in der Frage, was gelehrt wird, sondern in der Frage, welche Normalität Schulen verhandeln dürfen: Die linken und populistisch-gemischten Debatten zu Sexualkunde, Inklusion und Migration unterstellen, dass Schulen plurale Lebensentwürfe sichtbar machen und normalisieren sollen, während rechtskonservative und far-right-Medien darin einen ideologischen Übergriff auf Kindheit und Familiennormen sehen, der die deutsche Bildungssubstanz erodiert.\n\nEin dritter, oft übersehener Konflikt durchzieht das System vertikal: Der Föderalismus wird von wirtschaftsliberalen Medien als Qualitätshemmnis angegriffen (mangelnde Vergleichbarkeit, ineffiziente Ressourcennutzung), während progressive und linke Positionen darin ein Prinzip kultureller Pluralität verteidigen — was sich zeigt, wenn rechtskonservative Bundesländer andere Schulpolit",
-  "cached_at": "2026-05-23T07:20:58.309026"
+  "shared_perspectives": "# Konsens im deutschen Bildungsdiskurs\n\nAcross dem gesamten politischen Spektrum besteht erkennbare Übereinstimmung darin, dass das deutsche Bildungssystem unter erheblichen **Ressourcenmangel und strukturellen Defiziten leidet** — sowohl konservative als auch linke Medien monieren unzureichende Finanzierung, Lehrkräftemangel und mangelnde Modernisierung, wobei die fehlende BAföG-Erhöhung von rechts bis links kritisiert wird. Ein zweiter breiter Konsens zeigt sich in der Wahrneommung, dass **Bildungsgerechtigkeit und soziale Chancengleichheit zentrale ungelöste Probleme darstellen**, etwa bei der Inklusion von Schülern mit Behinderungen oder beim Zugang zu Hochschulen für wirtschaftlich benachteiligte Gruppen — hier argumentieren unterschiedliche Akteure zwar mit verschiedenen Schwerpunkten, aber auf derselben diagnostischen Grundlage. Drittens wird über alle Lager hinweg die **Notwendigkeit der Digitalisierung und technologischen Modernisierung** als unvermeidlich akzeptiert, wobei selbst kritische Stimmen nicht gegen KI-Integration argumentieren, sondern nur deren sinnvolle Integration ohne Verdrängung menschlicher Lernbeziehungen fordern.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer deutsche Mediendiskurs offenbart einen fundamentalen Konflikt zwischen zwei konkurrierenden Legitimationsansprüchen für Bildung: Auf der einen Seite ein emanzipatorisches Verständnis, das Bildung als Werkzeug zur Überwindung sozialer Ungleichheit und zur Ermöglichung gesellschaftlicher Teilhabe begreift (sichtbar in Debatten zu Bafög-Erhöhung, Inklusion, ausländischen Studierenden und Bildungsgerechtigkeit), auf der anderen Seite ein Verständnis, das Bildung primär als Tradierungsmechanismus existierender Werte, Normen und Geschlechterrollen sowie als Ort der Qualitätskontrolle fasst (erkennbar in Kritik an sexualpädagogischen Inhalten und Sorgen um „Bildungsstandards\"). Parallel dazu zeigt sich ein struktureller Konflikt zwischen dezentralisierten föderalen Verantwortlichkeiten und dem Anspruch auf vergleichbare Chancengerechtigkeit, wobei progressive Medien Bundesfinanzierung einfordern, während konservative Medien dies als staatliche Übergriff problematisieren. Der dritte Konflikt verlagert sich zunehmend auf die Frage, ob Schulen Orte der Wissensvermittlung sein sollen oder müssen – ein Streit, der sich am Widerstand gegen „identitätspolitische\" Inhalte entzündet, aber tiefere Fragen zu Autorität, Wertevermittlung und dem Verhältnis zwischen Staat und Familie in Erziehungsfragen berührt.",
+  "cached_at": "2026-05-24T07:39:08.999183"
 }

@@ -1,8 +1,8 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 100,
-  "candidate_count": 185,
+  "article_count": 101,
+  "candidate_count": 195,
   "outlets": {
     "faz": {
       "source_id": "faz",
@@ -10,13 +10,13 @@
       "bias": "conservative-liberal",
       "article_count": 15,
       "sample_titles": [
-        "Deutschland-Liveblog: Reiche fordert Stopp von Frühverrentungsprogrammen",
+        "Vorsorge für den Ruhestand: Die Reform der Riester-Rente ist gut, greift aber zu kurz",
         "Rentenkommission: Verhärtete Rentenfronten",
         "Reform der Alterssicherung: Weniger als 1000 Euro Rente, aber alles andere als arm",
         "Protest der Gewerkschaften: Jetzt entbrennt der Machtkampf um die Rente"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-reiche-fordert-stopp-von-fruehverrentungsprogrammen-faz-110093143.html",
+        "https://www.faz.net/aktuell/wirtschaft/die-reform-der-riesterrente-ist-gut-greift-aber-zu-kurz-200857270.html",
         "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kurswechsel-die-vorschlaege-der-rentenkommission-werden-die-koalition-auf-die-probe-stellen-200855283.html",
         "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/weniger-als-1000-euro-rente-aber-alles-andere-als-arm-200836192.html",
         "https://www.faz.net/aktuell/wirtschaft/rente-mit-70-der-machtkampf-um-die-reform-entbrennt-200854756.html"
@@ -37,52 +37,19 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 14,
-      "sample_titles": [
-        "Kraftfahrer zur Rente mit 70 - „Wir arbeiten doch schon lange genug!“",
-        "Riester-Nachfolger - Hälfte der Deutschen will neues Vorsorge-Depot",
-        "Wie lange müssen wir arbeiten? - Reiche: Frühverrentung muss aufhören",
-        "Erwartete Empfehlung der Renten-Kommission - So lange müssten Sie künftig arbeiten"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/rente-mit-70-wir-arbeiten-doch-schon-lange-genug-6a104f9c3b7096456ac7fc4e",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/riester-nachfolger-deutsche-sind-heiss-auf-neues-vorsorge-depot-6a0c52b33b7096456ac7c144",
-        "https://www.bild.de/politik/inland/reiche-schaltet-sich-in-debatte-um-rente-ein-china-als-vorbild-6a1003e6f0f7eb608db7a210",
-        "https://www.bild.de/politik/inland/erwartete-empfehlung-der-renten-kommission-so-lange-muessten-sie-kuenftig-arbeiten-6a0f2480a896ebf1b49e906e"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 11,
+      "article_count": 14,
       "sample_titles": [
-        "Klingbeil signalisiert Kompromissbereitschaft der SPD bei umstrittenen Reformen",
+        "„Nicht beliebt – aber notwendig“ – Arbeitgeberpräsident fordert späteren Renteneintritt",
         "Reiche fordert „Stopp von Frühverrentungsprogrammen“ – und höheres Arbeitsvolumen",
         "„Wie brauchen eine automatische Kopplung an die Lebenserwartung“",
         "Rente mit 70 vom Tisch – Deutsche dank KI früher arbeitslos"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a10dfeff0f7eb608db7b1be/koalitionsstreit-klingbeil-signalisiert-kompromissbereitschaft-der-spd-bei-umstrittenen-reformen.html",
+        "https://www.welt.de/politik/deutschland/article6a1174f7be29d4b4607a46d4/rentendebatte-nicht-beliebt-aber-notwendig-arbeitgeberpraesident-fordert-spaeteren-renteneintritt.html",
         "https://www.welt.de/wirtschaft/article6a0fe9faf0f7eb608db7a0b5/wirtschaftsministerin-reiche-fordert-stopp-von-fruehverrentungsprogrammen-und-hoeheres-arbeitsvolumen.html",
         "https://www.welt.de/videos/video6a0f2264a896ebf1b49e9039/rentendebatte-wie-brauchen-eine-automatische-kopplung-an-die-lebenserwartung.html",
         "https://www.welt.de/satire/article6a0eeb79f0f7eb608db793b2/rente-mit-70-vom-tisch-ki-will-deutsche-schon-frueher-arbeitslos-machen.html"
@@ -92,39 +59,43 @@
         {
           "emotion": "relief",
           "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 11,
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 13,
       "sample_titles": [
-        "Rente mit 70?: Für einen Moment sieht es nach Beschlüssen aus - dann wird klar: Es ist eine Ente",
-        "Richtig lesen und verstehen: Renteninformation kommt per Post – das muss man dazu wissen",
-        "Ende mit der Freiwilligkeit?: Rentenerhöhung: Für viele wird die Steuererklärung Pflicht",
-        "Altersvorsorgedepot ab 2027: Wechseln oder behalten? Das ändert sich für Riester-Sparer"
+        "Rentenstreit um „Zweiklassensystem“ - So ungerecht ist das mit den Pensionen!",
+        "Kraftfahrer zur Rente mit 70 - „Wir arbeiten doch schon lange genug!“",
+        "Wie lange müssen wir arbeiten? - Reiche: Frühverrentung muss aufhören",
+        "BILD-Politikchef Jan Schäfer reagiert - Protest-Sturm nach Renten-Kommentar"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Rentenkommission-wirbt-wohl-fuer-hoeheres-Eintrittsalter-id30843363.html",
-        "https://www.n-tv.de/ratgeber/Renteninformation-kommt-per-Post-das-muss-man-dazu-wissen-id30840948.html",
-        "https://www.n-tv.de/ratgeber/Rentenerhoehung-Fuer-viele-wird-die-Steuererklaerung-Pflicht-id30832671.html",
-        "https://www.n-tv.de/ratgeber/Wechseln-oder-behalten-Das-aendert-sich-fuer-Riester-Sparer-id30824594.html"
+        "https://www.bild.de/politik/inland/rentenstreit-so-ungerecht-ist-das-mit-den-pensionen-6a1079d8ab04a3614e220475",
+        "https://www.bild.de/politik/inland/rente-mit-70-wir-arbeiten-doch-schon-lange-genug-6a104f9c3b7096456ac7fc4e",
+        "https://www.bild.de/politik/inland/reiche-schaltet-sich-in-debatte-um-rente-ein-china-als-vorbild-6a1003e6f0f7eb608db7a210",
+        "https://www.bild.de/politik/bild-politikchef-jan-schaefer-reagiert-protest-sturm-nach-renten-kommentar-6a0f04aca896ebf1b49e8cff"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
         {
           "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
+          "emotion": "excitement",
+          "count": 2
         }
       ]
     },
@@ -132,18 +103,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
-        "Reformpläne: Kommt die Rente mit 70? Der Aufschrei ist groß",
-        "Fehlende Altersvorsorge: Wie viel Rente bekommt man, wenn man nie gearbeitet hat?",
         "Rentenerhöhung: Diese Tabelle zeigt, wie viel Rente Sie dieses Jahr mehr bekommen",
-        "Reform privater Altersvorsorge nimmt letzte parlamentarische Hürde"
+        "Reformpläne: Kommt die Rente mit 70? Der Aufschrei ist groß",
+        "Rentenerhöhung: Diese Tabelle zeigt, wie viel Rente Sie dieses Jahr mehr bekommen",
+        "Fehlende Altersvorsorge: Wie viel Rente bekommt man, wenn man nie gearbeitet hat?"
       ],
       "urls": [
+        "https://www.stern.de/wirtschaft/versicherung/-rentenerhoehung-2026--so-viel-geld-gibt-es-seit-diesem-jahr-mehr-35532388.html",
         "https://www.stern.de/wirtschaft/versicherung/die-rente-mit-70-hatten-wir-schon-mal--kommt-sie-nun-zurueck--35436102.html",
-        "https://www.stern.de/wirtschaft/versicherung/kann-man-rente-bekommen--ohne-je-gearbeitet-zu-haben---35484798.html",
         "https://www.stern.de/wirtschaft/versicherung/rentenerhoehung--so-viel-geld-gibt-es-im-jahr-2026-mehr-35532388.html",
-        "https://www.stern.de/news/reform-privater-altersvorsorge-nimmt-letzte-parlamentarische-huerde-37380958.html"
+        "https://www.stern.de/wirtschaft/versicherung/kann-man-rente-bekommen--ohne-je-gearbeitet-zu-haben---35484798.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -165,18 +136,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 8,
+      "article_count": 9,
       "sample_titles": [
         "Altersvorsorge: Bis zu 1140 Euro jährliche Förderung pro Person: So profitieren Sie von der Riester-Reform",
         "Altersvorsorge: Bis zu 1140 Euro jährliche Förderung pro Person: So profitieren Sie von der Riester-Reform",
         "Alterssicherung: Kommissionsmitglieder dementieren Bericht zu Rente mit 70",
-        "Betriebliche Altersvorsorge: Diese Zusatzrenten bieten Deutschlands wertvollste Unternehmen"
+        "Bundesregierung: Koalition will vier Reformen im Paket verabschieden – In Regierungskreisen kursiert grober Termin"
       ],
       "urls": [
         "https://www.handelsblatt.com/finanzen/anlagestrategie/altersvorsorge-bis-zu-1140-euro-foerderung-so-rentiert-sich-die-riester-reform/100224151.html",
         "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-bis-zu-1140-euro-foerderung-so-rentiert-sich-die-riester-reform/100224151.html",
         "https://www.handelsblatt.com/politik/deutschland/alterssicherung-kommissionsmitglieder-dementieren-bericht-zu-rente-mit-70/100226819.html",
-        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-diese-betriebsrenten-bieten-deutschlands-dax-und-mdax-konzerne/100210939.html"
+        "https://www.handelsblatt.com/politik/deutschland/bundesregierung-koalition-will-vier-reformen-im-paket-verabschieden/100224805.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -194,6 +165,35 @@
         }
       ]
     },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 9,
+      "sample_titles": [
+        "Richtig lesen und verstehen: Renteninformation kommt per Post – das muss man dazu wissen",
+        "Rente mit 70?: Für einen Moment sieht es nach Beschlüssen aus - dann wird klar: Es ist eine Ente",
+        "Ende mit der Freiwilligkeit?: Rentenerhöhung: Für viele wird die Steuererklärung Pflicht",
+        "Altersvorsorgedepot ab 2027: Wechseln oder behalten? Das ändert sich für Riester-Sparer"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Renteninformation-kommt-per-Post-das-muss-man-dazu-wissen-id30840948.html",
+        "https://www.n-tv.de/politik/Rentenkommission-wirbt-wohl-fuer-hoeheres-Eintrittsalter-id30843363.html",
+        "https://www.n-tv.de/ratgeber/Rentenerhoehung-Fuer-viele-wird-die-Steuererklaerung-Pflicht-id30832671.html",
+        "https://www.n-tv.de/ratgeber/Wechseln-oder-behalten-Das-aendert-sich-fuer-Riester-Sparer-id30824594.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
@@ -201,14 +201,14 @@
       "article_count": 6,
       "sample_titles": [
         "Rente mit 70? Worum es in der Debatte geht",
-        "Mögliche Rente mit 70 sorgt für Diskussionen",
         "Spekulationen: Kommt die Rente mit 70?",
+        "Mögliche Rente mit 70 sorgt für Diskussionen",
         "Rentner in NRW: Weniger Altersarmut als gedacht?"
       ],
       "urls": [
         "https://www.tagesschau.de/inland/innenpolitik/renteneinstieg-alter-ueberblick-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/debatte-rente-renteneintrittsalter-100.html",
         "https://www1.wdr.de/politik/rente-mit-70-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/debatte-rente-renteneintrittsalter-100.html",
         "https://www1.wdr.de/wirtschaft/altersarmut-rente-100.html"
       ],
       "dominant_emotion": "excitement",
@@ -277,26 +277,6 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 4,
-      "sample_titles": [
-        "Rentenkommission Wird das Renteneintrittsalter auf 70 Jahre erhöht?",
-        "Schlechte Umfragewerte Schwarz-Rot will Reformen wegen Landtagswahlen verschieben",
-        "EU-Skandal Spanien stopft Rentenlöcher mit deutschen EU-Geldern",
-        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/wird-das-renteneintrittsalter-auf-70-jahre-erhoeht/",
-        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-will-reformen-wegen-landtagswahlen-verschieben/",
-        "https://jungefreiheit.de/politik/ausland/2026/spanien-stopft-rentenloecher-mit-deutschen-eu-geldern/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
@@ -313,6 +293,24 @@
         "https://www.zdfheute.de/politik/deutschland/rente-kommission-eintrittsalter-70-rentenniveau-regierung-100.html",
         "https://www.zdfheute.de/video/heute-in-deutschland/abzocke-bei-rentenauskunft-100.html",
         "https://www.zdfheute.de/politik/ausland/frankreich-immobilien-hausverkauf-altersvorsorge-rente-immobilientrend-100.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Rentenkommission Wird das Renteneintrittsalter auf 70 Jahre erhöht?",
+        "EU-Skandal Spanien stopft Rentenlöcher mit deutschen EU-Geldern",
+        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/wird-das-renteneintrittsalter-auf-70-jahre-erhoeht/",
+        "https://jungefreiheit.de/politik/ausland/2026/spanien-stopft-rentenloecher-mit-deutschen-eu-geldern/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -339,13 +337,15 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 2,
+      "article_count": 3,
       "sample_titles": [
         "Rentendebatte: IW: Armutsrisiko für Rentner wird überschätzt",
+        "Frankreichs Präsident: Mit 49 in Rente? Macron denkt offenbar schon an ein Comeback",
         "Rentenreform: Die Deutschen brauchen für ihre Altersvorsorge den Kapitalmarkt"
       ],
       "urls": [
         "https://www.sueddeutsche.de/wirtschaft/rentner-deutschland-vermoegen-armutsrisiko-iw-li.3485751",
+        "https://www.sueddeutsche.de/politik/frankreich-macron-praesidentschaft-zukunft-li.3484123",
         "https://www.sueddeutsche.de/meinung/rentenreform-private-altersvorsorge-aktien-riester-li.3481786"
       ],
       "dominant_emotion": "neutral",
@@ -366,33 +366,19 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Die neue Renten-Show: Ausrede für höhere Steuern"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/tichys-einblick/rente-show-ausrede-hoehere-steuern/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 22,
-    "populist-mixed": 14,
-    "economic-liberal": 8,
-    "far-right": 5,
+    "right-conservative": 23,
     "conservative-liberal": 17,
-    "left-liberal": 21,
+    "populist-mixed": 13,
+    "left-liberal": 23,
+    "economic-liberal": 9,
+    "far-right": 3,
     "neutral": 10,
     "left": 3
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass eine Anpassung an den demographischen Wandel notwendig ist, um die Finanzierbarkeit und Generationengerechtigkeit zu gewährleisten. Die Debatte um das Renteneintrittsalter, insbesondere die Frage, ob das Renteneintrittsalter auf 70 Jahre erhöht werden sollte, ist ein zentrales Thema, das in allen politischen Lagern diskutiert wird, wobei jedoch die Meinungen über die Notwendigkeit und die Ausgestaltung einer solchen Reform stark auseinandergehen. Die Notwendigkeit einer umfassenden Altersvorsorge, einschließlich der Förderung von kapitalgedeckten Vorsorgeformen wie der Riester-Rente, wird von vielen Medien als wichtiger Bestandteil einer nachhaltigen Rentenpolitik hervorgehoben.",
-  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer Anhebung des Renteneintrittsalters und denjenigen, die eine solche Maßnahme ablehnen, wobei die erstgenannte Gruppe oft von wirtschaftsliberalen und konservativen Medien unterstützt wird, während die zweite Gruppe vor allem von linken und gewerkschaftsnahen Medien vertreten wird. Eine weitere Spannungslinie verläuft zwischen den Befürwortern einer stärkeren Betonung der privaten Altersvorsorge und denjenigen, die eine solidarische und staatlich finanzierte Rentenversicherung bevorzugen, wobei die erstgenannte Gruppe oft von wirtschaftsliberalen Medien und die zweite Gruppe von linken und sozialdemokratischen Medien vertreten wird. Die Debatte um die Rente mit 70 und die Frage, ob dies eine notwendige Maßnahme zur Sicherung der Finanzierbarkeit des Rentensystems ist oder eine unsoziale und ungerechte Forderung, bildet einen weiteren zentralen Konfliktbereich im deutschen Mediendiskurs.",
-  "cached_at": "2026-05-23T07:14:42.592366"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass eine Anpassung an den demographischen Wandel und die veränderten Lebensumstände notwendig ist. Ein weiterer Konsens besteht darin, dass die Frühverrentung reduziert und das Arbeitsvolumen erhöht werden sollte, um die Finanzierbarkeit der gesetzlichen Rentenversicherung zu sichern, wobei jedoch die Meinungen über das geeignete Renteneintrittsalter und die konkreten Reformmaßnahmen auseinandergehen. Darüber hinaus wird die Notwendigkeit einer umfassenden Altersvorsorge und einer Stärkung der kapitalgedeckten Vorsorge betont, um Altersarmut und Rentenlücken zu vermeiden.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer Anhebung des Renteneintrittsalters und denjenigen, die eine solche Maßnahme ablehnen, wobei die erstgenannte Gruppe oft von wirtschaftsliberalen und konservativen Medien unterstützt wird, während die zweite Gruppe vor allem von linken und gewerkschaftsnahen Medien vertreten wird. Eine weitere Spannungslinie verläuft zwischen den Befürwortern einer stärkeren Betonung der privaten Altersvorsorge und denjenigen, die eine solidarische und staatlich finanzierte Rentenversicherung bevorzugen, wobei die erstgenannte Gruppe oft von wirtschaftsliberalen Medien unterstützt wird, während die zweite Gruppe von linken und sozialdemokratischen Medien vertreten wird. Die Debatte um die Rente mit 70 und die Frage, ob dies eine notwendige Maßnahme zur Sicherung der Finanzierbarkeit des Rentensystems ist oder eine unsoziale und ungerechte Forderung, die die Interessen der Arbeitnehmer und Rentner ignoriert, bildet einen weiteren zentralen Konfliktbereich im deutschen Mediendiskurs.",
+  "cached_at": "2026-05-24T07:33:06.681464"
 }
