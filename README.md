@@ -95,6 +95,7 @@ Frontend (React + Vite / Vercel)
   └── Project         — Crawl stats + technical metrics
 ```
 
+Diskursraum follows a static-first architecture: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application.
 ---
 
 ## Tech Stack
@@ -135,16 +136,6 @@ Bundestagswahlprogramme 2005–2025, locally stored as PDF.
 Election results: Bundestag (bundestag.de), Bundeswahlleiterin, wahlrecht.de
 
 ---
-
-## Colour Scheme
-
-Diskursraum's visual language draws from the tradition of postwar German art —
-not by citation, but by temperament.
-
-The metallic blue-grey (*Diskursgrau*) carries the epistemic humility of Gerhard Richter's
-early grey paintings. The amber (*Bernstein*) owes something to Joseph Beuys and Georg Baselitz: warm, organic, slightly dangerous. The patina green belongs to Anselm Kiefer's landscapes.
-
-The party colours are untouched. They are political reality, not design choices.
 
   ---
   Populism Score
