@@ -1,8 +1,8 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 127,
-  "candidate_count": 542,
+  "article_count": 154,
+  "candidate_count": 617,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
@@ -37,88 +37,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 14,
-      "sample_titles": [
-        "Haushaltsnöte: Wo die Regierung beim Elterngeld sparen will",
-        "Familienministerkonferenz: „Kinderrechte gelten auch im Netz“",
-        "bericht Jugendschutz.NET: Tausende Missbrauchsdarstellungen im Netz entdeckt",
-        "Erziehung: Soll man das erlauben?"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/weniger-elterngeld-wo-die-regierung-sparen-will-200859396.html",
-        "https://www.faz.net/aktuell/politik/inland/familienministerkonferenz-kinderrechte-gelten-auch-im-netz-200858596.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/mehr-als-15-000-verstoesse-gegen-jugendschutz-im-netz-200847686.html",
-        "https://www.faz.net/aktuell/wissen/leben-gene/riskantes-spiel-fuer-kinder-welches-unfallrisiko-bergen-spielplaetze-200808268.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 13,
-      "sample_titles": [
-        "Kinder und  Familie: Schwere Geburtshilfe: Warum der Beruf der Hebamme in der Krise ist",
-        "Familie: Warum stillen Frauen in Deutschland nicht länger?",
-        "Familie: Wie sich typische Konflikte in Patchworkfamilien lösen lassen",
-        "Kita-Gebühren in München: Schon nach einer Woche kommt es zum Streit zwischen Krause und der CSU"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/projekte/artikel/bayern/hebammen-geburtshilfe-krankenkasse-finanzierung-josefinum-augsburg-e208477/",
-        "https://www.sueddeutsche.de/gesundheit/stilldauer-deutschland-li.3452249",
-        "https://www.sueddeutsche.de/projekte/artikel/gesellschaft/familie-patchwork-streit-bonuskinder-experten-e762182/",
-        "https://www.sueddeutsche.de/muenchen/muenchen-kita-gebuehren-erhoehung-kritik-krause-csu-li.3485141"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 12,
+      "article_count": 17,
       "sample_titles": [
+        "Kinder ausgesetzt: Medien: Mutter verlassener Kinder in Portugal in U-Haft",
+        "Familiengerichtliche Verfahren: Nach Gewalt: Neue Adresse von Elternteil soll geheim bleiben",
         "Koalitionspläne: Kindergeld ohne Antrag – Reform soll 2027 kommen",
-        "Erziehung: „Es gibt viele Ich-Kinder, die es gewohnt sind, dass sich alles um sie dreht“",
-        "Geburten im Norden 2026: Neues Konzept stärkt Schwangere und junge Müttern in Hamburg",
-        "Angesichts von Mittelkürzungen: Terre des Hommes sieht Alarmstufe Rot bei Kinderrechten"
+        "Bundestag beschließt: Führungszeugnis künftig auch in digitaler Form"
       ],
       "urls": [
+        "https://www.stern.de/panorama/kinder-ausgesetzt--medien--mutter-verlassener-kinder-in-portugal-in-u-haft-37435122.html",
+        "https://www.stern.de/panorama/familiengerichtliche-verfahren--nach-gewalt--neue-adresse-von-elternteil-soll-geheim-bleiben-37430014.html",
         "https://www.stern.de/politik/deutschland/koalitionsplaene--kindergeld-ohne-antrag---reform-soll-2027-kommen-37430080.html",
-        "https://www.stern.de/gesellschaft/erziehung---es-gibt-viele-ich-kinder--die-es-gewohnt-sind--dass-sich-alles-um-sie-dreht--37411848.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/geburten-im-norden-2026--neues-konzept-staerkt-schwangere-und-junge-muettern-in-hamburg-37422798.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/angesichts-von-mittelkuerzungen--terre-des-hommes-sieht-alarmstufe-rot-bei-kinderrechten-37405644.html"
+        "https://www.stern.de/news/bundestag-beschliesst--fuehrungszeugnis-kuenftig-auch-in-digitaler-form-37427202.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -127,11 +61,44 @@
           "count": 4
         },
         {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
           "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 15,
+      "sample_titles": [
+        "Elterngeld und Pflege: Familienpolitik aus einem Guss",
+        "Prien unter Druck: Sie will das Elterngeld nicht kürzen",
+        "Familienministerium: Das Elterngeld grundsätzlich überdenken",
+        "Haushaltsnöte: Wo die Regierung beim Elterngeld sparen will"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/inland/elterngeld-und-pflegekosten-karin-prien-und-nina-warken-ziehen-an-einem-strang-200868785.html",
+        "https://www.faz.net/aktuell/politik/inland/karin-prien-will-das-elterngeld-nicht-kuerzen-accg-200868100.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/elterngeld-reformieren-karin-prien-und-sparziele-200866088.html",
+        "https://www.faz.net/aktuell/wirtschaft/weniger-elterngeld-wo-die-regierung-sparen-will-200859396.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "optimism",
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "embarrassment",
           "count": 1
         }
       ]
@@ -140,18 +107,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 11,
+      "article_count": 15,
       "sample_titles": [
-        "Baden-Württemberg: Ex-Betreuer gesteht Missbrauch von Kita-Kindern",
-        "Elterngeld: Junge Union warnt CDU vor Verlust des Profils als Familienpartei",
-        "Elterngeld: Weniger Geburten, erschöpfte Eltern – Zeit für ein neues Konzept",
-        "Elterngeld: Was jungen Familien jetzt drohen könnte"
+        "EU-Abgeordnete in Babypause dürfen ihre Stimme übertragen",
+        "Elterngeld: Familienministerin Karin Prien wirbt für Anhebung von Elterngeldsätzen",
+        "Elterngeld: SPD-Fraktion will pauschale Kürzungen verhindern",
+        "Baden-Württemberg: Ex-Betreuer gesteht Missbrauch von Kita-Kindern"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/justiz/baden-wuerttemberg-ex-betreuer-gesteht-missbrauch-von-kita-kindern-a-29c4efca-da77-48b2-b3c2-b0d4d62ad0cf#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/elterngeld-junge-union-warnt-cdu-vor-verlust-des-profils-als-familienpartei-a-ef00c673-0a92-440b-9f76-63f782156582#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/elterngeld-weniger-geburten-erschoepfte-eltern-zeit-fuer-ein-neues-konzept-a-fab28078-2972-4ddb-aa98-22297bf0921d#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/elterngeld-was-jungen-familien-jetzt-drohen-koennte-a-27feb7da-8123-455f-98a9-3eded5e6f605#ref=rss"
+        "https://www.spiegel.de/politik/eu-abgeordnete-in-babypause-duerfen-ihre-stimme-uebertragen-a-98957ebd-552e-468c-a06e-18239ecc8c64#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/elterngeld-familienministerin-karin-prien-wirbt-fuer-anhebung-von-elterngeldsaetzen-a-77494935-50f4-42f4-ac45-ad556bb36327#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/elterngeld-spd-fraktion-will-pauschale-kuerzungen-verhindern-a-6f0bbf0b-c211-4c16-b16c-b664ffac332e#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/baden-wuerttemberg-ex-betreuer-gesteht-missbrauch-von-kita-kindern-a-29c4efca-da77-48b2-b3c2-b0d4d62ad0cf#ref=rss"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -169,25 +136,95 @@
         }
       ]
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 14,
+      "sample_titles": [
+        "Elterngeldpläne der Bundesregierung: Herdprämie für Männer",
+        "Debatten um Bundeshaushalt: Koalition ringt um Kürzung des Elterngeldes",
+        "Geplante Kürzungen beim Elterngeld: Die E-Auto-Prämie für Familien",
+        "Sparpläne beim Elterngeld: Nicht jede Kürzung ist ein Skandal"
+      ],
+      "urls": [
+        "https://taz.de/Elterngeldplaene-der-Bundesregierung/!6178018/",
+        "https://taz.de/Debatten-um-Bundeshaushalt/!6181914/",
+        "https://taz.de/Regierung-will-Elterngeld-kuerzen-Besser-waere-es-ganz-abzuschaffen-und-Familien-anders-zu-foerdern/!6180515/",
+        "https://taz.de/Sparplaene-beim-Elterngeld/!6175637/"
+      ],
+      "dominant_emotion": "disgust",
+      "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 13,
+      "sample_titles": [
+        "Bundespolitik: Dobrindt ist skeptisch bei Social-Media-Verbot für Kinder",
+        "Kinder und  Familie: Schwere Geburtshilfe: Warum der Beruf der Hebamme in der Krise ist",
+        "Familie: Warum stillen Frauen in Deutschland nicht länger?",
+        "Kita-Gebühren in München: Schon nach einer Woche kommt es zum Streit zwischen Krause und der CSU"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-social-media-kinder-verbot-li.3484192",
+        "https://www.sueddeutsche.de/projekte/artikel/bayern/hebammen-geburtshilfe-krankenkasse-finanzierung-josefinum-augsburg-e208477/",
+        "https://www.sueddeutsche.de/gesundheit/stilldauer-deutschland-li.3452249",
+        "https://www.sueddeutsche.de/muenchen/muenchen-kita-gebuehren-erhoehung-kritik-krause-csu-li.3485141"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 9,
+      "article_count": 11,
       "sample_titles": [
+        "\"Auf jeden Fall vermeiden\": SPD stemmt sich gegen Kürzungen beim Elterngeld",
         "Debatte ums Elterngeld: Die Reichen kriegen wohl nie genug",
-        "\"Geht um Ruf als Familienpartei\": JU-Chef Winkel attackiert CDU-Ministerin für Elterngeld-Pläne",
         "Bundestag berät Reform: Klingbeil: Antragsloses Kindergeld ist Verbesserung für Hunderttausende Familien",
-        "Haushaltskürzung im Sozialetat: Grüne alarmiert über Kinderarmut in Deutschland"
+        "\"Geht um Ruf als Familienpartei\": JU-Chef Winkel attackiert CDU-Ministerin für Elterngeld-Pläne"
       ],
       "urls": [
+        "https://www.n-tv.de/politik/SPD-stemmt-sich-gegen-Kuerzungen-beim-Elterngeld-id30854872.html",
         "https://www.n-tv.de/politik/politik_kommentare/Die-Reichen-kriegen-wohl-nie-genug-id30850280.html",
-        "https://www.n-tv.de/politik/Elterngeld-JU-Chef-Winkel-attestiert-Ministerin-einen-Denkfehler-id30848339.html",
         "https://www.n-tv.de/politik/Kindergeldreform-Klingbeil-verspricht-Verbesserung-fuer-hunderttausende-Familien-id30849492.html",
-        "https://www.n-tv.de/politik/Gruene-alarmiert-ueber-Kinderarmut-in-Deutschland-id30830192.html"
+        "https://www.n-tv.de/politik/Elterngeld-JU-Chef-Winkel-attestiert-Ministerin-einen-Denkfehler-id30848339.html"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
         {
           "emotion": "realization",
           "count": 1
@@ -198,35 +235,81 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
       "article_count": 9,
       "sample_titles": [
-        "Geplante Kürzungen beim Elterngeld: Die E-Auto-Prämie für Familien",
-        "UNICEF-Studie zum Kindeswohl: Deutschland wieder weit abgeschlagen",
-        "Sparpläne beim Elterngeld: Nicht jede Kürzung ist ein Skandal",
-        "Familienangebot bei der Deutschen Bahn: Die Bahn macht, was der Bund nicht schafft"
+        "„Wir haben schlicht weniger Kinder“ – Jetzt wirbt Prien sogar für Anhebung der Elterngeld‑Grenze",
+        "Wenn der Staat nicht für Bildung von Kita-Kindern zahlen kann – und Unternehmen einspringen",
+        "SPD will pauschale Kürzungen beim Elterngeld vermeiden",
+        "Kinder in Portugal ausgesetzt – Gericht ordnet U-Haft für Mutter und Stiefvater an"
       ],
       "urls": [
-        "https://taz.de/Regierung-will-Elterngeld-kuerzen-Besser-waere-es-ganz-abzuschaffen-und-Familien-anders-zu-foerdern/!6180515/",
-        "https://taz.de/UNICEF-Studie-zum-Kindeswohl/!6175665/",
-        "https://taz.de/Sparplaene-beim-Elterngeld/!6175637/",
-        "https://taz.de/Familienangebot-bei-der-Deutschen-Bahn/!6178563/"
+        "https://www.welt.de/politik/deutschland/article6a155dfc3d0f13e93a0fe68c/elterngeld-mehr-lust-auf-kinder-jetzt-wirbt-prien-sogar-fuer-anhebung-der-einkommensgrenze.html",
+        "https://www.welt.de/politik/deutschland/plus6a0c772b3b7096456ac7c52b/fruehkindliche-foerderung-wenn-der-staat-nicht-fuer-bildung-von-kita-kindern-zahlen-kann-und-unternehmen-einspringen.html",
+        "https://www.welt.de/politik/deutschland/article6a133cde9878ff0a3edd4e83/reformplaene-spd-will-pauschale-kuerzungen-beim-elterngeld-vermeiden.html",
+        "https://www.welt.de/vermischtes/article6a11a413f0f7eb608db7b889/paar-aus-frankreich-kinder-in-portugal-ausgesetzt-gericht-ordnet-u-haft-fuer-mutter-und-stiefvater-an.html"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
         {
           "emotion": "anger",
           "count": 1
-        },
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 8,
+      "sample_titles": [
+        "„Unlogisch“ SPD und JU kritisieren Elterngeld-Rotstiftpläne",
+        "Angebliche „sexuelle Bildung“ Die Schamlos-Pädagogik in Kitas ist ein Angriff auf die Würde des Kindes",
+        "Jugendorganisation „Die Falken“ Masturbation und sexuelle Spiele: Auch Ministerium sieht in Kita-Konzept kein Problem",
+        "Fall Büttner Inszenierter Anschlag? Familienministerium überprüft geförderte NGO"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/spd-und-ju-kritisieren-elterngeld-rotstiftplaene/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/die-schamlos-paedagogik-in-kitas-ist-ein-angriff-auf-die-wuerde-des-kindes/",
+        "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-auch-ministerium-sieht-in-kita-konzept-kein-problem/",
+        "https://jungefreiheit.de/politik/deutschland/2026/inszenierter-anschlag-familienministerium-ueberprueft-gefoerderte-ngo/"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
         {
-          "emotion": "approval",
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 7,
+      "sample_titles": [
+        "Europäischen Parlament: EU-Abgeordnete in Babypause dürfen künftig ihr Stimmrecht übertragen",
+        "Elterngeld: SPD-Fraktionsvizechefin lehnt pauschale Kürzungen beim Elterngeld ab",
+        "Sozialreformen: Spahn schließt höheres Elterngeld und Bafög aus",
+        "Geburten im Norden 2026: Neues Konzept stärkt Schwangere und junge Müttern in Hamburg"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/ausland/2026-05/eu-parlament-babypause-wahlvorschriften-aenderung",
+        "https://www.zeit.de/politik/deutschland/2026-05/elterngeld-kuerzung-spd-kritik-haushaltseinsparung",
+        "https://www.zeit.de/politik/deutschland/2026-05/jens-spahn-elterngeld-reformen-bafoeg-koalition-sparen",
+        "https://www.zeit.de/news/2026-05/21/neues-konzept-staerkt-schwangere-und-junge-muettern-in-hamburg"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -237,16 +320,16 @@
       "bias": "neutral",
       "article_count": 7,
       "sample_titles": [
+        "Wie lernen Kinder am besten das Schreiben?",
         "Debatte zum antragsfreien Kindergeld",
         "Automatisches Kindergeld: Klingbeil ewartet Entlastungen",
-        "Prien: Jugendschutz wichtiger als \"Einvernehmen mit Trump\"",
-        "Studie: Deutschland bei Kindeswohl unter dem Durchschnitt"
+        "Prien: Jugendschutz wichtiger als \"Einvernehmen mit Trump\""
       ],
       "urls": [
+        "https://www.zdfheute.de/video/heute-nachrichten/kinder-handschrift-modellversuch-bayern-video-100.html",
         "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5203044",
         "https://www.zdfheute.de/politik/deutschland/bundestag-finanzen-soziales-antragsloses-kindergeld-klingbeil-100.html",
-        "https://www.zdfheute.de/video/heute-journal/sgs-prien-hayali-100.html",
-        "https://www.zdfheute.de/panorama/kindeswohl-studie-unicef-kinder-un-hilfswerk-vergleich-100.html"
+        "https://www.zdfheute.de/video/heute-journal/sgs-prien-hayali-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -256,97 +339,22 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Erfolgreiche Familien: Drei Kinder, alle erfolgreich – was haben die Eltern richtig gemacht?",
-        "Sozialreformen: Spahn schließt höheres Elterngeld und Bafög aus",
-        "Geburten im Norden 2026: Neues Konzept stärkt Schwangere und junge Müttern in Hamburg",
-        "Kindeswohl in Deutschland: Deutschland kümmert sich nicht um seine Kinder – das wird sich rächen"
-      ],
-      "urls": [
-        "https://www.zeit.de/zeit-magazin/leben/2025-08/erfolgreiche-familien-eltern-kinder-einfluss-susan-dominus",
-        "https://www.zeit.de/politik/deutschland/2026-05/jens-spahn-elterngeld-reformen-bafoeg-koalition-sparen",
-        "https://www.zeit.de/news/2026-05/21/neues-konzept-staerkt-schwangere-und-junge-muettern-in-hamburg",
-        "https://www.zeit.de/familie/2026-05/kindeswohl-deutschland-unicef-studie-kinderfreundlichkeit"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 6,
-      "sample_titles": [
-        "Nach JF-Anfrage Ministerium: „Falken“ sollen staatlich geförderte Sex-Broschüre anpassen",
-        "Angebliche „sexuelle Bildung“ Die Schamlos-Pädagogik in Kitas ist ein Angriff auf die Würde des Kindes",
-        "Jugendorganisation „Die Falken“ Masturbation und sexuelle Spiele: Auch Ministerium sieht in Kita-Konzept kein Problem",
-        "Nach JF-Recherche Masturbation und sexuelle Spiele: Behörde verteidigt Kita-Erziehungskonzept"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/ministerium-falken-sollen-staatlich-gefoerderte-sex-broschuere-anpassen/",
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/die-schamlos-paedagogik-in-kitas-ist-ein-angriff-auf-die-wuerde-des-kindes/",
-        "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-auch-ministerium-sieht-in-kita-konzept-kein-problem/",
-        "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-behoerde-verteidigt-kita-erziehungskonzept/"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 5,
-      "sample_titles": [
-        "Geplante Kürzungen beim Elterngeld sorgen für Ärger in der Union",
-        "„Mehr Zeit fürs Baby statt für Bürokratie“ – Klingbeil kündigt antragsloses Kindergeld an",
-        "„Die Bundesregierung vergisst, wie es mit dem Kindeswohl aussieht“",
-        "Der neue Druck zum Stillen"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/video6a0fe65ece003418cea10532/einsparungen-geplante-kuerzungen-beim-elterngeld-sorgen-fuer-aerger-in-der-union.html",
-        "https://www.welt.de/politik/deutschland/article6a0fa431f0f7eb608db79f0f/automatische-auszahlungen-mehr-zeit-fuers-baby-statt-fuer-buerokratie-klingbeil-kuendigt-antragsloses-kindergeld-an.html",
-        "https://www.welt.de/videos/video6a0dc775f0f7eb608db78511/hellemann-bei-meinungsfreiheit-die-bundesregierung-vergisst-wie-es-mit-dem-kindeswohl-aussieht.html",
-        "https://www.welt.de/politik/deutschland/plus6a0321b2c7b823fd84be0762/medizinische-leitlinie-der-neue-druck-zum-stillen.html"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
         "Ansage von CDU-General Linnemann - „Finger weg vom Elterngeld!“",
-        "3-Jährige hat Demenz - Louisa kann vielleicht bald nicht mehr Mama sagen",
-        "Familie Braun erzieht Kinder ohne Smartphone - Unser Sohn wusste nicht mehr, was er am Handy gemacht hatte",
-        "Was sich sonst noch ändert - Staat darf ab Mai an die Steuer-ID Ihrer Familie"
+        "An Pariser Kitas und Grundschulen - 16 Festnahmen nach Missbrauchsskandal",
+        "Eigentümer gesucht - Kinder finden echten Schatz auf Spielplatz",
+        "Familie Braun erzieht Kinder ohne Smartphone - Unser Sohn wusste nicht mehr, was er am Handy gemacht hatte"
       ],
       "urls": [
         "https://www.bild.de/politik/inland/cdu-general-carsten-linnemann-finger-weg-vom-elterngeld-6a0dd423f0f7eb608db78647",
-        "https://www.bild.de/leben-wissen/3-jaehrige-hat-demenz-louisa-kann-vielleicht-bald-nicht-mehr-mama-sagen-69ca523cb33459bf5277443b",
-        "https://www.bild.de/leben-wissen/meine-familie-familienportal/miniaturwunderland-chef-meine-kinder-leben-gesuender-ohne-smartphone-69690d9f29d7700ee8583449",
-        "https://www.bild.de/leben-wissen/mein-recht-verbraucherportal/spritpreise-fallen-bundesregierung-senkt-steuer-wer-jetzt-kraeftig-spart-69f0b11048f8152efecc9d43"
+        "https://www.bild.de/news/ausland/paris-16-festnahmen-nach-missbrauchsskandal-an-kitas-und-grundschulen-6a0e0b0df0f7eb608db78897",
+        "https://www.bild.de/regional/berlin/berlin-wilmersdorf-kinder-finden-schatz-auf-spielplatz-6a01ebe27b6d0cd4a33ad10b",
+        "https://www.bild.de/leben-wissen/meine-familie-familienportal/miniaturwunderland-chef-meine-kinder-leben-gesuender-ohne-smartphone-69690d9f29d7700ee8583449"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -360,24 +368,37 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
-        "Asia Techonomics: Jugendschutz im Blick: Indonesien drängt auf ein Online-Shopping-Verbot für Teenager",
+        "Leistungen: Prien will Einkommensgrenze beim Elterngeld nicht senken",
+        "Familienpolitik: Weniger Geld, mehr Betreuung – das ist Frankreichs Plan für die „demografische Wiederaufrüstung“",
         "Ökonomin Fuchs-Schündeln: „Wir sollten beim Elterngeld nicht übers Sparen nachdenken“",
         "Haushalt 2027: Neue Kürzungsrunde – so stark muss Prien beim Elterngeld sparen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/meinung/kolumnen/jugendschutz-indonesien-draengt-auf-ein-online-shopping-verbot-fuer-teenager/100224731.html",
+        "https://www.handelsblatt.com/politik/deutschland/leistungen-prien-will-einkommensgrenze-beim-elterngeld-nicht-senken/100227908.html",
+        "https://www.handelsblatt.com/politik/international/familien-weniger-geld-mehr-betreuung-frankreichs-plan-fuer-mehr-babys/100225285.html",
         "https://www.handelsblatt.com/politik/deutschland/familienpolitik-wir-sollten-beim-elterngeld-nicht-uebers-sparen-nachdenken/100224371.html",
         "https://www.handelsblatt.com/politik/deutschland/haushalt-2027-neue-kuerzungsrunde-so-stark-muss-prien-beim-elterngeld-sparen/100222520.html"
       ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "Eine Aussteigerfamilie gegen den Staat: Die Hoheit über den Kinderbetten",
+        "Ein Jahr Merz: Arbeit und Familie tragen die Lasten"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/hoheit-ueber-den-kinderbetten-italien/",
+        "https://www.tichyseinblick.de/gastbeitrag/ein-jahr-merz-bilanz/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "dw": {
       "source_id": "dw",
@@ -400,22 +421,6 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "Von der Leyens Trojaner „Altersprüfung“ auch Einstieg von EU-Eingriff ins Elternrecht",
-        "Ein Jahr Merz: Arbeit und Familie tragen die Lasten"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eu-alterspruefung-der-einstieg-in-den-eingriff-ins-elternrecht/",
-        "https://www.tichyseinblick.de/gastbeitrag/ein-jahr-merz-bilanz/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
@@ -429,19 +434,38 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Werden Kinder im Kindergarten übersensibel erzogen? - Muttertag, Karneval und St. Patrick’s Day im Zeichen der Vulnerabilität"
+      ],
+      "urls": [
+        "https://www.cicero.de/kultur/werden-kinder-im-kindergarten-ubersensibel-erzogen-muttertag-karneval-und-st-patricks-day-im-zeichen-der-vulnerabilitat"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "left-liberal": 42,
-    "right-conservative": 14,
-    "conservative-liberal": 15,
+    "conservative-liberal": 17,
+    "left": 14,
+    "left-liberal": 52,
+    "far-right": 10,
+    "right-conservative": 20,
+    "economic-liberal": 4,
     "neutral": 32,
-    "populist-mixed": 4,
-    "left": 9,
-    "far-right": 8,
-    "economic-liberal": 3
+    "populist-mixed": 5
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt eine breite Übereinstimmung darin, dass Kindergeld und Elterngeld als zentrale staatliche Förderinstrumente zur Entlastung von Familien gelten — sowohl progressive als auch konservative Medien behandeln Kürzungen in diesen Bereichen als politisch problematisch und betten sie in größere Diskurse über staatliche Verantwortung für Familienwohlfahrt ein. Parallel dazu besteht ein medienübergreifender Konsens, dass Kindesschutz — sei es beim Missbrauchspräventionsschutz in Institutionen oder beim digitalen Jugendschutz — ein legitimes und notwendiges staatliches Handlungsfeld darstellt, unabhängig von politischen Differenzen in der Umsetzung. Ein dritter Konsensbereich zeigt sich in der impliziten Anerkennung, dass die Vereinbarkeit von Familie und Beruf ein strukturelles Problem darstellt, das durch institutionelle Lösungen wie automatisiertes Kindergeld oder bessere Betreuungsinfrastruktur adressiert werden muss, auch wenn links und rechts über die richtige Dosierung und Ausgestaltung solcher Maßnahmen streiten.",
-  "controversial_points": "# Strukturelle Konfliktlinien in der deutschen Familienpolitik-Berichterstattung\n\nDer deutsche Mediendiskurs offenbart einen fundamentalen Konflikt zwischen zwei konkurrierenden Staatsverständnissen: Während links-liberale und linke Medien Familienförderung als staatliche Umverteilungsfunktion begreifen, die Chancengerechtigkeit herstellt und strukturelle Benachteiligung korrigiert, positionieren konservativ-liberale und ökonomisch-liberale Medien Elterngeld und Kindergeld als Sparposten, deren Effizienz und Zielgenauigkeit grundsätzlich zu hinterfragen ist – hier prallen unterschiedliche Sichtweisen auf die Legitimität staatlicher Leistungsausgaben aufeinander. Der zweite Konflikt besteht zwischen einer kindwohl- und entwicklungsorientierten Perspektive (die in Berichten zu Hebammen, Missbrauchsprävention und Kita-Qualität dominiert) und einer elternrechte-fokussierten Gegenperspektive, die insbesondere am rechten Ende des Spektrums erkennbar wird und pädagogische Inhalte als Übergriff staatlicher \"Erziehungsideologie\" gegen Elternautonomie deutet. Der dritte strukturelle Spannungsfall liegt in der Behandlung von Elterngeldkürzungen: Während rechts-konservative Medien diese als identitätspolitischen Angriff auf die CDU als \"Familienpartei\" skandalisieren, rahmen wirtschaftsliberale Medien dieselbe Maßnahme als unvermeidbare Haushaltsdisziplin – hier kollidiert wertekonservative Gesellschaftspolitik mit fiskalisch-technokratischer Governance.",
-  "cached_at": "2026-05-24T07:38:46.774776"
+  "shared_perspectives": "Über alle politischen Lager hinweg dominiert die Debatte um Elterngeldkürzungen als zentrale Konfliktlinie, wobei selbst konservative und linke Medien die fiskalischen Sparzwänge des Staates als Realität anerkennen — der Dissens liegt nicht bei der Notwendigkeit von Sparmaßnahmen, sondern bei deren Ausgestaltung und sozialen Folgen. Eine zweite erkennbare Gemeinsamkeit betrifft den Konsens, dass Kinderbetreuung (Kitas, Tagesmütter) und automatisierte Familienleistungen (Kindergeld ohne Antrag) infrastrukturelle Probleme darstellen, die gelöst werden müssen, unabhängig davon, ob man dies als emanzipatorisches oder demografisches Anliegen rahmt. Ein dritter gemeinsamer Bezugspunkt ist die wachsende Aufmerksamkeit für Kinderschutz im digitalen Raum und in Betreuungseinrichtungen, wo selbst ideologisch entgegengesetzte Medien auf dokumentierte Fälle von Missbrauch und Prävention reagieren, allerdings mit völlig divergierenden Deutungen derselben Sachverhalte.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Familienpolitik-Diskurs\n\nDer zentrale Konflikt verläuft zwischen zwei inkompatiblen Konzepten von Familienpolitik: Während progressive und linksliberale Medien Elterngeld als universelle Sozialleistung zur Existenzsicherung verstehen, die paritätische Partnerschaftsmodelle ermöglicht und als unverrückbare Grundlage von Geschlechtergerechtigkeit gilt, interpretieren ökonomisch-liberale und konservative Positionen Elterngeld primär als Anreizinstrument für Erwerbsbeteiligung und demografische Ziele, bei dem selektive Kürzungen nach Einkommen und Bedarfssenkungen sachgerecht sind. Dieser Konflikt ist nicht primär über Ausgabenhöhe lösbar, sondern betrifft das grundlegende Verständnis, ob Familienpolitik redistributiv und inklusiv oder produktivistisch und selektiv ausgestaltet sein soll.\n\nSekundär offenbart sich ein tieferer kultureller Dissens um die Deutungshoheit über Kindheit: Die rechtskonservative und teilweise rechtsextreme Medienöffentlichkeit vertritt ein Schutzparadigma, das professionalisierte institutionelle Betreuung und moderne Sexualpädagogik als Übergriff auf natürliche Familienstrukturen und elterliche Erziehungsrechte deutet, während progressive Medien und Funktionäre in denselben Maßnahmen (Kita-Ausbau, altersgerechte Sexualaufklärung) notwendige Infrastruktur zur Befähigung von Kindern und Geschlechtergleichstellung sehen – eine Trennlinie, die sich nicht durch Kompromisse im Leistungsumfang überbrücken lässt.",
+  "cached_at": "2026-05-27T08:43:02.044684"
 }

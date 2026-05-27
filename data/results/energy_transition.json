@@ -1,25 +1,25 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 230,
-  "candidate_count": 351,
+  "article_count": 271,
+  "candidate_count": 393,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 34,
+      "article_count": 36,
       "sample_titles": [
-        "Milliarden für Offshore: Wie sich BP mit der Windenergie verzockt hat",
         "hellbrisen: Deutschlands Stromsystem am Limit",
         "Widrige Bedingungen: EnBW und RWE halten an Offshore-Plänen fest",
-        "hellbrisen: Deutschlands Stromsystem am Limit"
+        "hellbrisen: Deutschlands Stromsystem am Limit",
+        "Elektro-Traktoren: „Wie sollen wir bis 2045 klimaneutral werden, wenn wir uns nicht bemühen?“"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/milliarden-in-offshore-windparks-wie-bp-sich-verzockt-hat-accg-200859281.html",
         "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/zu-viel-sonne-an-pfingsten-geraet-das-stromsystem-in-deutschland-wieder-ans-limit-200820887.html",
         "https://www.faz.net/aktuell/wirtschaft/unternehmen/enbw-und-rwe-halten-an-offshoreplaenen-fest-200855692.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/an-den-grenzen-des-stromsystems-200820887.html"
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/an-den-grenzen-des-stromsystems-200820887.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/elektro-traktoren-koennen-wir-so-klimaneutral-werden-200844220.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -28,12 +28,12 @@
           "count": 3
         },
         {
-          "emotion": "surprise",
+          "emotion": "approval",
           "count": 2
         },
         {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "realization",
+          "count": 1
         }
       ]
     },
@@ -41,18 +41,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 22,
+      "article_count": 31,
       "sample_titles": [
+        "Investor über Windenergie in Bayern: „Bayern hat die kürzesten Genehmigungszeiten“",
+        "Transformation und Stromnetze: Eine Frage der Energie-Souveränität",
         "Lichtblicke bei der Klimapolitik: Erneuerbare machen Worst Case unrealistisch",
-        "Ausbau von Windenergie: Offshore-Branche legt Wunschliste vor",
-        "Feinde der Energiewende: Rechte rumpeln gegen Windkraft",
-        "Ausbau Windenergie: Windräder zurückdrehen"
+        "Ausbau von Windenergie: Offshore-Branche legt Wunschliste vor"
       ],
       "urls": [
+        "https://taz.de/Investor-ueber-Windenergie-in-Bayern/!6180672/",
+        "https://taz.de/Transformation-und-Stromnetze/!6177933/",
         "https://taz.de/Lichtblicke-bei-der-Klimapolitik/!6180846/",
-        "https://taz.de/Ausbau-von-Windenergie/!6180581/",
-        "https://taz.de/Feinde-der-Energiewende/!6180236/",
-        "https://taz.de/Offshore-Windflaechen-Total-Energies-und-BP-verlieren-Interesse-an-ersteigerten-Seegebieten/!6180189/"
+        "https://taz.de/Ausbau-von-Windenergie/!6180581/"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -62,43 +62,10 @@
         },
         {
           "emotion": "surprise",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 22,
-      "sample_titles": [
-        "Waldzustandsbericht, Viehdiebstahl, Schwertransporte",
-        "Hubschrauber im Einsatz: Windrad bei Desloch fängt Feuer",
-        "Die Regierung muss beim Klima umsteuern",
-        "Riesigen Offshore-Projekten droht das Aus"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/multimedia/podcast/15-minuten/15min-podcast-waldzustandsbericht-viehdiebstahl-schwertransporte-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/desloch-feuer-in-windrad-hubschrauber-im-einsatz-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/expertenrat-klimaziele-bundesregierung-100.html",
-        "https://www.tagesschau.de/investigativ/ndr/total-offshore-100.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -107,18 +74,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 21,
+      "article_count": 27,
       "sample_titles": [
+        "Erdgas: Kanada und deutsche Sefe stehen wohl vor großem LNG-Abkommen",
         "Immobilien: Wärmewende im Bestand – auf diese Konzepte setzen Vonovia und Co.",
         "Kommentar: Es braucht schnell einen Rettungsplan für Offshore-Wind",
-        "Energiewende: So könnte die Rettung von Offshore-Windkraft-Projekten gelingen",
-        "Energiewende: Flaute beim Ausbau der Windkraft im Süden ruft Politik auf den Plan"
+        "Energiewende: So könnte die Rettung von Offshore-Windkraft-Projekten gelingen"
       ],
       "urls": [
+        "https://www.handelsblatt.com/unternehmen/energie/erdgas-kanada-und-deutsche-sefe-stehen-wohl-vor-grossem-lng-abkommen/100228120.html",
         "https://www.handelsblatt.com/finanzen/immobilien/immobilien-waermewende-im-bestand-auf-diese-konzepte-setzen-vonovia-und-co./100220320.html",
         "https://www.handelsblatt.com/meinung/kommentare/kommentar-es-braucht-schnell-einen-rettungsplan-fuer-offshore-wind/100226517.html",
-        "https://www.handelsblatt.com/politik/deutschland/energiewende-so-koennte-die-rettung-von-offshore-windkraft-projekten-gelingen/100225941.html",
-        "https://www.handelsblatt.com/politik/deutschland/energie-ausbauflaute-der-windkraft-im-sueden-ruft-politik-auf-den-plan/100224172.html"
+        "https://www.handelsblatt.com/politik/deutschland/energiewende-so-koennte-die-rettung-von-offshore-windkraft-projekten-gelingen/100225941.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -128,25 +95,91 @@
         }
       ]
     },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 25,
+      "sample_titles": [
+        "Energieminister fanden sich zum sektiererhaften Treffen ein – Länderfront für weiteren Windkraft-Ausbau",
+        "Özdemirs Plan für Schwarzwald und Alb: Windrad-Quoten für den Süden – TE-Wecker am 26. Mai 2026",
+        "Historischer Treppenwitz: Was uns alte Windmühlen über die Energiewende verraten",
+        "Sind Herzprobleme Folge von Windparks? Mainzer Studie stellt Zusammenhang her"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/meinungen/energieminister-konferenz-norderney/",
+        "https://www.tichyseinblick.de/podcast/te-wecker-am-26-mai-2026/",
+        "https://www.tichyseinblick.de/kolumnen/klima-durchblick/alte-windmuehlen-moderne-energiewende/",
+        "https://www.tichyseinblick.de/meinungen/infraschall-studie-mainz-windkraft/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 25,
+      "sample_titles": [
+        "Wie die Fernwärme in Berlin klimaneutral werden soll",
+        "Geldbeutel, Energiewende, Klima - wer profitiert von Balkonkraftwerken?",
+        "Kamener Kreuz: Riesiger Solarpark geplant - trotz Hindernissen",
+        "Gefährdet der Schutz von Fledermäusen den Windkraftausbau in RLP?"
+      ],
+      "urls": [
+        "https://www.rbb24.de/wirtschaft/beitrag/2026/05/berlin-fernwaerme-klimaneutral-bew-dekarbonisierung.html",
+        "https://www.swr.de/swraktuell/geldbeutel-energiewende-klima-wer-profitiert-von-balkonkraftwerken-100.html",
+        "https://www1.wdr.de/wirtschaft/solarpark-kamener-kreuz-trianel-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/windenergie-energieverbaende-sehen-ausbau-gefaehrdet-erneuerbare-nabu-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 20,
+      "article_count": 21,
       "sample_titles": [
-        "Atomausstieg? Da muss der Grünen-Politiker aus Finnland einmal kurz lachen",
+        "Finnischer Wasserstoff soll deutsche Energiewende retten – ein Grüner ist dagegen",
+        "Die Lüge vom Sieg der Klimapolitik",
         "In der Nordsee wird die Energiewende zum Fiasko",
-        "AfD fordert „180-Grad-Wende“ in der Klimapolitik – und erntet viel Hohn",
-        "Rot-Grün in Hamburg will neues Heizungsgesetz der Bundesregierung umgehen"
+        "AfD fordert „180-Grad-Wende“ in der Klimapolitik – und erntet viel Hohn"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/plus6a103b15ab04a3614e21ff5a/kernd-tagung-atomausstieg-da-muss-der-gruenen-politiker-aus-finnland-einmal-kurz-lachen.html",
+        "https://www.welt.de/politik/deutschland/article69f9baba96fe1372395e9ef1/kooperationen-finnischer-wasserstoff-soll-deutsche-energiewende-retten-ein-gruener-ist-dagegen.html",
+        "https://www.welt.de/wissenschaft/klimabilanz/plus6a0d61c2f540d04af2889802/kolumne-klimabilanz-die-luege-vom-sieg-der-klimapolitik.html",
         "https://www.welt.de/wirtschaft/plus6a0d8df83b7096456ac7d266/offshore-vertraege-in-der-nordsee-wird-die-energiewende-zum-fiasko.html",
-        "https://www.welt.de/regionales/hamburg/article6a0dd381f0f7eb608db78640/hamburger-buergerschaft-afd-fordert-180-grad-wende-in-der-klimapolitik-und-erntet-viel-hohn.html",
-        "https://www.welt.de/politik/deutschland/article6a0d7159f540d04af2889980/oel-und-gasheizungen-rot-gruen-in-hamburg-will-neues-heizungsgesetz-der-bundesregierung-umgehen.html"
+        "https://www.welt.de/regionales/hamburg/article6a0dd381f0f7eb608db78640/hamburger-buergerschaft-afd-fordert-180-grad-wende-in-der-klimapolitik-und-erntet-viel-hohn.html"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "remorse",
+          "count": 1
+        },
         {
           "emotion": "disapproval",
           "count": 1
@@ -157,31 +190,31 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 19,
+      "article_count": 21,
       "sample_titles": [
+        "Feuerwehr kann nicht löschen: Windrad steht nahe der A7 in Flammen",
         "Problem an sonnigen Feiertagen: Das passiert, wenn Sonnenstrom das Netz flutet",
         "Ausbremsen der Erneuerbaren: Länder planen den Aufstand gegen Reiches Energie-Pläne",
-        "Jens Spahns ganzer Stolz: Sieben Gründe für ein Scheitern beim schwarz-roten Heizungsgesetz",
-        "Dank erneuerbarer Energien: Wissenschaftler können düsterstes Klima-Szenario kassieren"
+        "Jens Spahns ganzer Stolz: Sieben Gründe für ein Scheitern beim schwarz-roten Heizungsgesetz"
       ],
       "urls": [
+        "https://www.n-tv.de/panorama/Windrad-steht-nahe-der-A7-in-Flammen-id30854469.html",
         "https://www.n-tv.de/wirtschaft/Energieproblem-an-sonnigen-Feiertagen-Das-passiert-wenn-Sonnenstrom-das-Netz-flutet-id30845197.html",
         "https://www.n-tv.de/politik/Laender-planen-den-Aufstand-gegen-Reiches-Energie-Plaene-id30850847.html",
-        "https://www.n-tv.de/politik/politik_kommentare/Sieben-Gruende-fuer-ein-Scheitern-beim-schwarz-roten-Heizungsgesetz-id30841119.html",
-        "https://www.n-tv.de/wissen/Wissenschaftler-koennen-duesterstes-Klima-Szenario-kassieren-id30839513.html"
+        "https://www.n-tv.de/politik/politik_kommentare/Sieben-Gruende-fuer-ein-Scheitern-beim-schwarz-roten-Heizungsgesetz-id30841119.html"
       ],
-      "dominant_emotion": "pride",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
         {
           "emotion": "pride",
           "count": 1
         },
         {
           "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -192,54 +225,29 @@
       "bias": "left-liberal",
       "article_count": 17,
       "sample_titles": [
+        "Stromnetz: Wie LEW-Ingenieurin Barbara Plura die Netze nachverdichtet",
+        "Kitzingen: Windrad brennt, Polizei warnt vor abstürzendem Rotor",
         "Warum der Expertenrat für Klimafragen jetzt vor gerissenen Zielen warnt",
-        "Wilhelmshaven: Gericht stoppt vorerst geplantes LNG-Terminal",
-        "Heizungsgesetz: Kabinett beschließt umstrittenen Entwurf ohne Rechtsprüfung",
-        "Energiewende: Wie sich die schmutzige Seite der Erneuerbaren vermeiden lässt"
+        "Wilhelmshaven: Gericht stoppt vorerst geplantes LNG-Terminal"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/unternehmen/stromnetz-wie-lew-ingenieurin-barbara-plura-die-netze-nachverdichtet-a-e4fe14b4-e0e6-43eb-905d-794142dab9f2#ref=rss",
+        "https://www.spiegel.de/panorama/kitzingen-windrad-brennt-polizei-warnt-vor-abstuerzendem-rotor-a-b8ec5d5b-0c9f-4b8b-bc6b-505c08c86643#ref=rss",
         "https://www.spiegel.de/wissenschaft/warum-der-expertenrat-fuer-klimafragen-jetzt-vor-gerissenen-zielen-warnt-a-727eca0c-0726-417d-963f-bdcdd64fba82#ref=rss",
-        "https://www.spiegel.de/wirtschaft/wilhelmshaven-gericht-stoppt-vorerst-geplantes-lng-terminal-a-1cf3348b-f2d2-4726-807a-810ee2d91063#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/heizungsgesetz-kabinett-beschliesst-umstrittenen-entwurf-ohne-rechtspruefung-a-2cad02df-f645-4fb7-9804-5f4c719c3d10#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/energiewende-wie-sich-die-schmutzige-seite-der-erneuerbaren-vermeiden-laesst-a-4babf301-f9ad-469c-9bd3-e79b62f423a0#ref=rss"
+        "https://www.spiegel.de/wirtschaft/wilhelmshaven-gericht-stoppt-vorerst-geplantes-lng-terminal-a-1cf3348b-f2d2-4726-807a-810ee2d91063#ref=rss"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
         {
           "emotion": "confusion",
           "count": 1
         },
         {
           "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 16,
-      "sample_titles": [
-        "Keine Windräder in Nord- und Ostsee mehr?",
-        "Özdemir erklärt Klimaschutz in Baden-Württemberg zur Wirtschaftspolitik",
-        "Energieminister tagen auf Norderney – Katherina Reiche fehlt",
-        "Bürgergeld-Milliarden versenkt, „Klima“-Ziele verfehlt, Strom verschenkt – TE-Wecker am 19. Mai 2026"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/keine-windraeder-nordsee-ostsee/",
-        "https://www.tichyseinblick.de/daili-es-sentials/oezdemir-regierungserklaerung-klimaschutz/",
-        "https://www.tichyseinblick.de/daili-es-sentials/energieminister-tagen-auf-norderney-katherina-reiche-fehlt/",
-        "https://www.tichyseinblick.de/podcast/te-wecker-am-19-mai-2026/"
-      ],
-      "dominant_emotion": "love",
-      "top_emotions": [
-        {
-          "emotion": "love",
           "count": 1
         }
       ]
@@ -248,21 +256,25 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 12,
+      "article_count": 15,
       "sample_titles": [
-        "Debatte zur Energiepolitik",
-        "Aktuelle Stunde zur Klimapolitik",
-        "Experten: Emissionen sinken nicht schnell genug",
-        "Prüfbericht: Treibhausgasemissionen sinken zu langsam"
+        "EU: Bund darf bei Stromnetzbetreiber Tennet einsteigen",
+        "Windrad an der A7 brennt: Löscharbeiten in 100 Metern Höhe",
+        "Klimaaktivisten färben Brunnenwasser grün",
+        "Debatte zur Energiepolitik"
       ],
       "urls": [
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5202688",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5202377",
-        "https://www.zdfheute.de/politik/deutschland/klimaschutz-expertenrat-bundesregierung-pruefbericht-co2-emissionen-budget-ueberschreitung-100.html",
-        "https://www.phoenix.de/treibhausgasemissionen-a-5201345.html"
+        "https://www.zdfheute.de/wirtschaft/unternehmen/tennet-eu-stromnetzbetreiber-bundesregierung-wettbewerb-100.html",
+        "https://www.zdfheute.de/video/windrad-a7-brand-reel-9x16-video-100.html",
+        "https://www.zdfheute.de/video/zdfheute-xpress/aktivisten-faerben-brunnenwasser-gruen-video-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5202688"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
         {
           "emotion": "confusion",
           "count": 1
@@ -277,27 +289,27 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 11,
+      "article_count": 13,
       "sample_titles": [
+        "Energieerzeugung: Solarstrom vom Acker - Wie es um Agri-PV in Thüringen steht",
+        "Finanzen Kommunen Energie: Wie Kommunen mit erneuerbaren Energien Geld sparen können",
         "Energieministerkonferenz: Minister warnt: Rückzug bei Offshore-Windparks wäre \"fatal\"",
-        "Kernkraft: Vierter Castor-Behälter mit Atommüll auf dem Weg nach Ahaus",
-        "Energieministerkonferenz: Streit um Energiewende-Pläne – Länder beraten auf Norderney",
-        "Klimapolitik: Initiative kritisiert Verzögerungen beim Berliner Baumgesetz"
+        "Kernkraft: Vierter Castor-Behälter mit Atommüll auf dem Weg nach Ahaus"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/thueringen/energieerzeugung--solarstrom-vom-acker---wie-es-um-agri-pv-in-thueringen-steht-37442790.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/finanzen-kommunen-energie--wie-kommunen-mit-erneuerbaren-energien-geld-sparen-koennen-37439560.html",
         "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/energieministerkonferenz--minister-warnt--rueckzug-bei-offshore-windparks-waere--fatal--37427948.html",
-        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/kernkraft--vierter-castor-behaelter-mit-atommuell-auf-dem-weg-nach-ahaus-37421982.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/energieministerkonferenz--streit-um-energiewende-plaene---laender-beraten-auf-norderney-37416136.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/klimapolitik--initiative-kritisiert-verzoegerungen-beim-berliner-baumgesetz-37410992.html"
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/kernkraft--vierter-castor-behaelter-mit-atommuell-auf-dem-weg-nach-ahaus-37421982.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "confusion",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -331,31 +343,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 7,
       "sample_titles": [
+        "Astronomie: Aus heiterem Himmel",
         "Energie: Zum Glück bleibt der Staat an Uniper beteiligt",
         "Privatisierung: Bund startet milliardenschweren Verkauf des Energieriesen Uniper",
-        "Nord- und Ostsee: Ölkonzerne verlieren Interesse an Offshore-Windpark",
-        "Bundespolitik: Expertenrat: Bundesregierung wird Klimaziele verfehlen"
+        "Nord- und Ostsee: Ölkonzerne verlieren Interesse an Offshore-Windpark"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/wissen/sonnenstuerme-erdmagnetfeld-esa-satellit-smile-weltraumwetter-li.3438744",
         "https://www.sueddeutsche.de/wirtschaft/uniper-privatisierung-boersengang-schweden-li.3485398",
         "https://www.sueddeutsche.de/wirtschaft/uniper-privatisierung-li.3485185",
-        "https://www.sueddeutsche.de/wirtschaft/offshore-windpark-projekte-deutschland-oelkonzerne-li.3484875",
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-klimaziele-li.3484192"
+        "https://www.sueddeutsche.de/wirtschaft/offshore-windpark-projekte-deutschland-oelkonzerne-li.3484875"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
         {
           "emotion": "annoyance",
           "count": 1
         },
         {
           "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -364,21 +376,25 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 5,
+      "article_count": 7,
       "sample_titles": [
-        "Netzausbau - Marktanalyse zeigt Zukunft von DSL in Deutschland",
-        "Erfolgsserie „Landman“  - Brauchen Windräder mehr Energie als sie erzeugen?",
-        "Kommentar - Rechnung für Strom-Irrsinn zahlen wir alle!",
-        "Zwischenruf - Photovoltaik ist geil! Nur nicht in Deutschland"
+        "Unternehmerin spricht bei Miosga Klartext - „Stelle fest, dass sich tatsächlich nichts ändert“",
+        "Blackout im Eigenheim - Läuft die PV-Anlage bei Stromausfall weiter?",
+        "Grüner Spagat bei Lanz - Kretschmann lobt Merz und gesteht Atom-Fehler",
+        "Erfolgsserie „Landman“  - Brauchen Windräder mehr Energie als sie erzeugen?"
       ],
       "urls": [
-        "https://www.bild.de/leben-wissen/digital/netzausbau-marktanalyse-zeigt-zukunft-von-dsl-in-deutschland-6a100feff0f7eb608db7a377",
-        "https://www.bild.de/leben-wissen/kosten-windraeder-mehr-energie-als-sie-je-liefern-69ede287abfdaf26dabf8e0a",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/rechnung-fuer-strom-irrsinn-zahlen-wir-alle-69f772b2ed1f2e03d501c22f",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/zwischenruf-photovoltaik-ist-geil-nur-nicht-in-deutschland-69f5fbfb23e6b3dbf3c96b2f"
+        "https://www.bild.de/politik/inland/bei-caren-miosga-unternehmerin-melanie-baum-spricht-klartext-6a0acdd059f82e5979393a0c",
+        "https://www.bild.de/leben-wissen/wohnen-living/laeuft-die-pv-anlage-bei-stromausfall-weiter-6a07281a847da7a92c145497",
+        "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/markus-lanz-kretschmann-teilt-aus-lobt-merz-und-raeumt-atom-fehler-der-gruenen-ein-6a03c7819e875c402d54f02d",
+        "https://www.bild.de/leben-wissen/kosten-windraeder-mehr-energie-als-sie-je-liefern-69ede287abfdaf26dabf8e0a"
       ],
-      "dominant_emotion": "relief",
+      "dominant_emotion": "surprise",
       "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
         {
           "emotion": "relief",
           "count": 1
@@ -389,22 +405,42 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 6,
+      "sample_titles": [
+        "Katharina Fegebank: »Die Dänen sehen vieles pragmatischer«",
+        "Klimawandel: Expertenrat bewertet Klimaschutzprogramm der Regierung als ungenügend",
+        "Klimapolitik: Wer kämpft hier noch fürs Klima?",
+        "Gebäudemodernisierungsgesetz: Normenkontrollrat kritisiert Entwurf zur Reform des Heizungsgesetzes"
+      ],
+      "urls": [
+        "https://www.zeit.de/hamburg/2026-05/katharina-fegebank-hamburg-umweltsenatorin-klimaschutz-daenemark",
+        "https://www.zeit.de/politik/deutschland/2026-05/klimawandel-umweltbundesamt-expertenrat-fuer-klimafragen-pruefbericht-gxe",
+        "https://www.zeit.de/politik/deutschland/2026-05/klimapolitik-energiekrise-bundesregierung-koalition-union-spd",
+        "https://www.zeit.de/politik/deutschland/2026-05/kaum-verstaendlich-normenkontrollrat-kritisiert-gebaeudemodernisierungsgesetz-gxe"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
         "Neuer Stausee am zweitgrössten Gletscher der Schweiz: Das Vorzeigeprojekt der Energiewende schrumpft und wird teurer",
         "ERKLÄRT - Mini-Atomkraftwerke sind die neuen Hoffnungsträger der Kernenergie. In der EU könnten die ersten bereits in wenigen Jahren den Betrieb aufnehmen",
         "DER ANDERE BLICK DATEN - Fehlschlag Energiewende: Warum Deutschland trotz Rekordausbau von Wind- und Sonnenkraft weniger Strom erzeugt",
-        "Marktaufseher warnt vor Stromknappheit und fordert «in aller Deutlichkeit» das umstrittene Abkommen mit der EU"
+        "80 Jahre lang Atomstrom: Die Kraftwerke Leibstadt und Gösgen könnten deutlich länger laufen als angenommen"
       ],
       "urls": [
         "https://www.nzz.ch/schweiz/umstrittener-stausee-am-zweitgroessten-gletscher-der-schweiz-das-vorzeigeprojekt-der-energiewende-schrumpft-und-wird-teurer-ld.10007885",
         "https://www.nzz.ch/wirtschaft/mini-atomkraftwerke-sind-die-neuen-hoffnungstraeger-der-kernenergie-in-der-eu-koennten-die-ersten-bereits-in-wenigen-jahren-den-betrieb-aufnehmen-ld.10003670",
         "https://www.nzz.ch/der-andere-blick/fehlschlag-energiewende-warum-deutschland-trotz-rekordausbau-von-wind-und-sonnenkraft-weniger-strom-erzeugt-ld.10006607",
-        "https://www.nzz.ch/schweiz/marktaufseher-warnt-vor-stromknappheit-und-fordert-in-aller-deutlichkeit-das-umstrittene-abkommen-mit-der-eu-ld.10006206"
+        "https://www.nzz.ch/schweiz/80-jahre-lang-atomstrom-die-kraftwerke-leibstadt-und-goesgen-koennten-deutlich-laenger-laufen-als-angenommen-ld.10007006"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -417,7 +453,7 @@
           "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -428,14 +464,14 @@
       "bias": "far-right",
       "article_count": 5,
       "sample_titles": [
-        "Woher kommt der Strom? 19. Analysewoche 2026",
         "Lauterbachs Elferrat verlangt von WHO den Klimanotstand",
+        "Woher kommt der Strom? 18. Analysewoche 2026 – Geben oder nehmen? Egal, gezahlt wird immer.",
         "Anpfiff mit Grimm: Die Angst der Grünen vorm Energie-Vampir",
         "Woher kommt der Strom? 17. Analysewoche 2026 – Ich soll deinen Solarstrom abnehmen? Gerne, für 3,7 Millionen Entschädigung!"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/copy_woher_kommt_der_Strom_18_Analysewoche_2026_geben_",
         "https://www.achgut.com/artikel/lauterbachs_elferrat_verlangt_von_who_den_klimanotstand",
+        "https://www.achgut.com/artikel/woher_kommt_der_Strom_18_Analysewoche_2026_geben_oder_nehmen_egal_gezahlt_wird_immer",
         "https://www.achgut.com/artikel/anpfiff_mit_grimm_die_angst_der_gruenen_vorm_energie_vampir",
         "https://www.achgut.com/artikel/woher_kommt_der_Strom_17_Analysewoche_2026_ich_soll_deinen_solarstrom_abnehmen_gerne_fuer_3_7_millionen_entschaedigung"
       ],
@@ -454,53 +490,19 @@
           "count": 1
         }
       ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Klimawandel: Expertenrat bewertet Klimaschutzprogramm der Regierung als ungenügend",
-        "Klimapolitik: Wer kämpft hier noch fürs Klima?",
-        "Gebäudemodernisierungsgesetz: Normenkontrollrat kritisiert Entwurf zur Reform des Heizungsgesetzes",
-        "Energiepreise: Bundesnetzagentur rät Gasverbrauchern zur Sparsamkeit"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-05/klimawandel-umweltbundesamt-expertenrat-fuer-klimafragen-pruefbericht-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-05/klimapolitik-energiekrise-bundesregierung-koalition-union-spd",
-        "https://www.zeit.de/politik/deutschland/2026-05/kaum-verstaendlich-normenkontrollrat-kritisiert-gebaeudemodernisierungsgesetz-gxe",
-        "https://www.zeit.de/wirtschaft/2026-05/energiepreise-gas-preis-anstieg-bundesnetzagentur-gxe"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "AKW Barakah: Drohnenangriff löst Brand in den VAE aus"
-      ],
-      "urls": [
-        "https://www.dw.com/de/akw-barakah-drohnenangriff-löst-brand-in-den-vae-aus/a-77189018?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 39,
-    "economic-liberal": 21,
-    "right-conservative": 39,
-    "populist-mixed": 5,
-    "left-liberal": 39,
-    "far-right": 30,
-    "left": 22,
-    "neutral": 35
+    "economic-liberal": 27,
+    "far-right": 39,
+    "neutral": 40,
+    "right-conservative": 42,
+    "left-liberal": 43,
+    "left": 31,
+    "conservative-liberal": 42,
+    "populist-mixed": 7
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine breite Übereinstimmung darin, dass die Erreichung der Klimaschutzziele und die Sicherstellung der Energieversorgungssicherheit eine zentrale Herausforderung darstellt, wobei viele Stimmen den Ausbau erneuerbarer Energien wie Wind- und Solarenergie als wichtigen Schritt in diese Richtung betrachten. Darüber hinaus wird oft kritisiert, dass die politischen Maßnahmen und Pläne zur Umsetzung der Energiewende nicht ausreichend sind oder zu langsam umgesetzt werden, was zu einer Verzögerung bei der Erreichung der Klimaziele führen könnte. Die Notwendigkeit einer umfassenden und nachhaltigen Energiepolitik, die sowohl die Umwelt als auch die Wirtschaft berücksichtigt, wird von vielen Medienstimmen unabhängig von ihrer politischen Ausrichtung betont.",
-  "controversial_points": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und umfassenden Umstellung auf erneuerbare Energien und den Kritikern, die Bedenken hinsichtlich der Energieversorgungssicherheit und der wirtschaftlichen Tragfähigkeit der Energiewende äußern. Eine weitere Spannungslinie verläuft zwischen den politischen Lagern, die die Energiewende als Chance für eine nachhaltige und ökologische Wirtschaft sehen, und denjenigen, die die wirtschaftlichen und sozialen Auswirkungen der Energiewende befürchten und eine langsamere oder selektivere Umstellung fordern. Die Debatte wird auch von einer grundlegenden Diskrepanz zwischen denjenigen geprägt, die den Klimaschutz als vorrangiges Ziel betrachten, und denjenigen, die die wirtschaftlichen und industriellen Interessen Deutschlands in den Vordergrund stellen.",
-  "cached_at": "2026-05-24T07:32:17.143705"
+  "shared_perspectives": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine breite Übereinstimmung darüber, dass der Ausbau erneuerbarer Energien wie Wind- und Solarenergie von zentraler Bedeutung für die Erreichung der Klimaschutzziele ist, jedoch werden auch Herausforderungen und Probleme wie die Gewährleistung der Energieversorgungssicherheit und die Notwendigkeit einer ausgewogenen Energiepolitik thematisiert. Die Notwendigkeit einer beschleunigten Umsetzung der Energiewende und die Förderung von Investitionen in erneuerbare Energien werden von vielen Medien unabhängig von ihrer politischen Ausrichtung betont, wobei jedoch auch Kritik an der bisherigen Umsetzung und der Notwendigkeit einer realistischeren Planung und Umsetzung der Energiewende geäußert wird. Die Diskussion um die richtige Mischung aus erneuerbaren Energien, die Rolle von Wasserstoff und die Notwendigkeit einer effizienten Energieinfrastruktur zeigt, dass es trotz unterschiedlicher politischer Ausrichtungen eine erkennbare Übereinstimmung über die Notwendigkeit einer umfassenden und nachhaltigen Energiepolitik gibt.",
+  "controversial_points": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine grundlegende Konfliktlinie zwischen Befürwortern einer beschleunigten Umsetzung der Energiewende und Kritikern, die Bedenken hinsichtlich der Energieversorgungssicherheit und der wirtschaftlichen Tragfähigkeit der Maßnahmen äußern. Eine weitere Spannungslinie verläuft zwischen den politischen Lagern, wobei linke und grüne Stimmen tendenziell eine stärkere Betonung des Klimaschutzes und der Erneuerbaren Energien fordern, während konservative und wirtschaftsliberale Stimmen oft eine pragmatischere Herangehensweise und eine stärkere Berücksichtigung der wirtschaftlichen Interessen einfordern. Die Debatte wird auch von einer Konfliktlinie zwischen der Notwendigkeit des Ausbaus der Erneuerbaren Energien und den Bedenken hinsichtlich der Umweltauswirkungen und der Akzeptanz der Bevölkerung geprägt.",
+  "cached_at": "2026-05-27T08:36:36.246218"
 }
