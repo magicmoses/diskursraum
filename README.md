@@ -22,7 +22,7 @@ Inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl)
 
 ## Architecture
 
-<img width="3562" height="1754" alt="01_overview" src="https://github.com/user-attachments/assets/9d9d41e2-7512-4b9d-83d7-90b0868cd967" />
+<img width="3562" height="1754" alt="01_overview" src="https://github.com/user-attachments/assets/e90af083-aa3a-4c2b-82dc-0b8046e95276" />
 
 Diskursraum follows a **static-first architecture**: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application. The only live path is Dimension III (Frag nach.), which queries pgvector in real time via RAG.
 
