@@ -98,6 +98,8 @@ Frontend (React + Vite / Vercel)
 Diskursraum follows a static-first architecture: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application.
 ---
 
+<img width="3537" height="1766" alt="Diskursraum - Overview" src="https://github.com/user-attachments/assets/d07511e1-074d-46c5-b3e3-5cfc561f4fa3" />
+
 ## Tech Stack
 
 | Layer | Technology |
