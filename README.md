@@ -2,28 +2,55 @@
 
 > Mapping Public Discourse in Germany — inspired by Taiwan's vTaiwan and the Pol.is bridging algorithm.
 
-**[Live Demo](https://deine-vercel-url.vercel.app)** · [GitHub](https://github.com/AyzennaMosesArndt/diskursraum)
+**[Live Demo](https://diskursraum.vercel.app)** · [GitHub](https://github.com/magic-moses/diskursraum)
 
 ---
 
 ## What is Diskursraum?
 
-Diskursraum makes German public discourse visible across two dimensions:
+Diskursraum makes German public discourse visible across three dimensions:
 
-**Dimension I — Medienspiegel:** How do 15 German news outlets cover polarizing societal topics? Where is there consensus — and where does discourse begin?
+**Dimension I — Medienspiegel:** How do 19 German news outlets cover polarizing societal topics? Where is there consensus — and where does discourse begin?
 
-**Dimension II — Parteienspiegel:** How have party positions evolved across six federal elections from 2005 to 2025? Who converges, who diverges — and what do election results say about it?
+**Dimension II — Parteienspiegel:** How have party positions evolved across six federal elections from 2005 to 2025? Who converges, who diverges — and what do the election results say about it?
+
+**Dimension III — Frag nach.:** Ask the party manifestos directly. Semantic search across all Bundestagswahlprogramme 2005–2025 with LLM-generated answers.
 
 Inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl) and the [Pol.is](https://pol.is) bridging algorithm from Taiwan's vTaiwan platform — applied to the German media and political landscape.
 
 ---
 
+## Architecture
+
+<img width="3562" height="1754" alt="01_overview" src="https://github.com/user-attachments/assets/9d9d41e2-7512-4b9d-83d7-90b0868cd967" />
+
+Diskursraum follows a **static-first architecture**: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application. The only live path is Dimension III (Frag nach.), which queries pgvector in real time via RAG.
+
+### Storage
+
+Diskursraum uses three distinct storage layers:
+
+<img width="3654" height="1710" alt="03_storage_view" src="https://github.com/user-attachments/assets/fa84563c-dcfa-4144-9c5f-40bb5b8705ee" />
+
+**PostgreSQL on Railway (pgvector)** is the live single source of truth. It stores all crawled articles with embeddings, sentiment and emotion scores, plus the `manifesto_chunks` table used for semantic search in Dimension III. Party manifesto chunks were initially stored in ChromaDB (local) and later migrated to pgvector for production search.
+
+**ChromaDB (local, gitignored)** is used during the manifesto analysis pipeline (BridgingScore, ManifestoBERTa, PopEuroBERT). It runs once per election cycle (~every 4 years) and is not present in production.
+
+**Pre-computed JSON (GitHub repo, `data/results/`)** contains all analysis results committed as static files and served directly by the API.
+
+---
+## Dimensional view
+
+<img width="4045" height="1544" alt="02_dimensional_view" src="https://github.com/user-attachments/assets/d8f4a077-a9f2-487a-b3dd-5cbcb226f5da" />
+
+
 ## Dimension I — Medienspiegel
 
-For each of five topics, the app shows:
+For each of eight topics, the app shows:
+
 - **Political Spectrum** — which bias groups cover the topic and how extensively
 - **Shared Perspectives** — what all outlets agree on despite different political leanings
-- **Controversial Points** — where coverage diverges most strongly
+- **Controversial Points** — where coverage diverges most strongly, contextualized against shared perspectives
 - **Emotional Tone** — which emotions dominate the reporting of each outlet
 
 | Topic | Description |
@@ -31,8 +58,11 @@ For each of five topics, the app shows:
 | Migration & Asylum Policy | Immigration, asylum law, integration |
 | Energy Transition | Nuclear power, renewables, climate policy |
 | Pension & Retirement | Pension reform, retirement age, generational justice |
-| Wealth Tax | Redistribution, inheritance tax, fiscal justice |
 | Digital Transformation | AI, digitalization, societal change |
+| Work in Transition | Labour market, remote work, automation |
+| Defense & Military | Rearmament, NATO, Zeitenwende |
+| Family & Children | Family policy, childcare, parental leave |
+| Education | Schools, universities, lifelong learning |
 
 ---
 
@@ -40,87 +70,82 @@ For each of five topics, the app shows:
 
 Semantic analysis of all Bundestagswahlprogramme from 2005 to 2025:
 
-- **Bridging Score** — semantic centrality per party per topic: who bridges across ideological lines?
-- **Force-Directed Graph** — party similarity network per year and topic
-- **Pairwise Heatmap** — 6×6 similarity matrix, switchable by topic
-- **PCA Trajectories** — party movement in shared 2D semantic space across elections
-- **Historical Timeline** — annotated with key events: "Finanzkrise", "Flüchtlingskrise", "Corona", "AfD-Bundestagseinzug", "Ampel-Bruch"
-- **Election Results** — correlation analysis with bridging & party movement analysis
+- **Ideological Matrix** — party positions on two axes: economy (left/right) and society (conservative/progressive), derived from ManifestoBERTa category weights
+- **Proximity & Distance** — pairwise programmatic similarity, 6x6 heatmap, switchable by year
+- **Bridge Builder Score** — semantic centrality per party: who bridges across ideological lines? Combines PCA on multilingual-e5-base embeddings (40%) and Weighted Jaccard similarity on ManifestoBERTa category distributions (60%), aggregated as betweenness centrality via NetworkX. A high score indicates a party whose manifesto content sits close to multiple ideologically distinct parties simultaneously — bridging rather than polarising.
+- **Similarity Network** — force-directed graph of party similarity per election year
+- **Historical Timeline** — annotated with key events: Finanzkrise, Flüchtlingskrise, Corona, AfD-Bundestagseinzug, Ampel-Bruch
+- **Election Results** — Bundestagswahl Zweitstimmen 2005–2025
 - **ManifestoBERTa Classification** — 56 policy categories per party per year
+- **HIX Readability Score** — Hohenheim Readability Index per party per year
+- **Populism Score** — sentence-level populist rhetoric detection via PopEuroBERT
+- **Program Length** — word count per party per election year
+
+Beyond classification and scoring, the manifesto pipeline derives an ideological position for each party per election year — mapping programmatic emphasis onto a two-dimensional space (economy and society) directly from ManifestoBERTa category weights. Party trajectories, pairwise similarity heatmaps, and a force-directed similarity network visualise how the six parties have moved toward or away from each other across twenty years of German federal elections.
 
 | Metric | Coverage |
 |--------|----------|
 | Parties | CDU/CSU, SPD, Grüne, FDP, AfD, Die Linke |
 | Elections | 2005, 2009, 2013, 2017, 2021, 2025 |
-| Embedding Model | intfloat/multilingual-e5-base |
+| Embedding model | intfloat/multilingual-e5-base |
 | Classification | manifesto-project/manifestoberta-xlm-roberta-56policy-topics-context-2024-1-1 |
+| Populism model | przvl/PopEuroBERT-binary-610m |
+| Readability | Hohenheim Readability Index (HIX), Brettschneider/Thoms |
 
 ---
 
-## Architecture
+## Dimension III — Frag nach.
 
-```
-Dimension I — Medienspiegel
-  RSS Crawler (4× daily, GitHub Actions)
-    └── 19 German news sources → SQLite DB
+Ask the party manifestos directly. Enter a free-text question — Diskursraum detects party and year from your query, searches the manifesto chunks via pgvector cosine similarity, and generates a streamed LLM answer with source citations.
 
-  ML Pipeline (every 3 days, GitHub Actions, 04:00 UTC)
-    ├── Sentence Embeddings    (intfloat/multilingual-e5-base)
-    ├── Sentiment Analysis     (oliverguhr/german-sentiment-bert)
-    ├── Emotion Detection      (AnasAlokla/multilingual_go_emotions_V1.2)
-    ├── Medienspiegel Analysis
-    │   ├── Broad Retrieval    (keyword matching)
-    │   ├── LLM Relevance Filter (Groq llama-3.3-70b)
-    │   ├── Per-Outlet Aggregation
-    │   └── LLM Synthesis      (shared perspectives + controversial points)
-    └── JSON Export → committed to repo
+- Semantic search across all Bundestagswahlprogramme 2005–2025
+- Automatic party and year detection from free-text input
+- Streamed answers via Groq llama-3.3-70b with Claude Haiku-4.5 fallback
+- Rate limiting: 10 deep-dives per session, 50 per IP per day
 
-Dimension II — Parteienspiegel
-  Manifesto Pipeline (local, run per election year)
-    ├── PDF Processing         (LangChain SemanticChunker)
-    ├── ChromaDB Storage       (intfloat/multilingual-e5-base embeddings)
-    ├── RAG per Topic          (Query Expansion + Contextual Compression via Groq)
-    ├── Bridging Scores        (Cosine Similarity + NetworkX graph)
-    ├── LLM Analysis           (party summaries + cross-party synthesis)
-    ├── ManifestoBERTa         (56 policy category classification)
-    └── Historical Analysis    (PCA, bridging timeseries, election result correlation)
-
-Backend (FastAPI / Railway)
-  └── Serves pre-computed JSON — stateless, no DB in production
-
-Frontend (React + Vite / Vercel)
-  ├── Landing         — Project overview
-  ├── Medienspiegel   — Topic analysis + media statistics
-  ├── Parteienspiegel — Party position analysis (4 tabs)
-  └── Project         — Crawl stats + technical metrics
-```
-
-Diskursraum follows a static-first architecture: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application.
 ---
 
-<img width="3537" height="1766" alt="Diskursraum - Overview" src="https://github.com/user-attachments/assets/d07511e1-074d-46c5-b3e3-5cfc561f4fa3" />
+## Populism Score
+
+Diskursraum measures populist rhetoric in party manifestos using a sentence-level classifier, benchmarked against the [Hohenheimer Wahlprogramm-Analyse](https://komm.uni-hohenheim.de/wahlprogramm-analyse) — the University of Hohenheim's long-running analysis of German election programs for linguistic quality and rhetorical strategies.
+
+**Method:** Every sentence across all manifesto chunks (2005–2025) is classified by [przvl/PopEuroBERT-binary-610m](https://huggingface.co/przvl/PopEuroBERT-binary-610m), a fine-tuned EuroBERT-610M model trained on the PopBERT dataset of sentence-level annotated German Bundestag speeches (Erhard et al., 2025). As the exact Hohenheim model is not publicly available, PopEuroBERT was selected as the methodologically closest available model, enabling consistent scores across all election years 2005–2025.
+
+> Populism score = share of sentences with a populist probability > 0.43
+
+**Why threshold 0.43?** The decision boundary was calibrated on the PopBERT test set for balanced performance: precision 76.6%, recall 85.8%, F1 80.9%. A threshold below 0.5 is appropriate because underdetecting populist language in dense political texts carries a higher cost than occasional false positives.
+
+**References:**
+- Erhard, L., Hanke, S., Remer, U., Falenska, A., & Heiberger, R. H. (2025). PopBERT. Detecting Populism and Its Host Ideologies in the German Bundestag. *Political Analysis*, 33(1), 1–17. https://doi.org/10.1017/pan.2024.12
+- Boizard, N. et al. (2025). EuroBERT: Scaling Multilingual Encoders for European Languages. arXiv:2503.05500. https://arxiv.org/abs/2503.05500
+- przvl (2025). PopEuroBERT-binary-610m. Hugging Face. https://huggingface.co/przvl/PopEuroBERT-binary-610m
+- Brettschneider, F. et al. (2025). Hohenheimer Analyse der Wahlprogramme zur Bundestagswahl 2025. Universität Hohenheim. https://komm.uni-hohenheim.de/wahlprogramm-analyse
+
+---
 
 ## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | React, Vite, D3.js, Recharts |
+| Frontend | React, Vite, D3.js, Recharts, react-i18next |
 | Backend | FastAPI, Python 3.11 |
-| ML/NLP | sentence-transformers, germansentiment, transformers |
-| LLM | Groq (llama-3.3-70b-versatile), Anthropic Claude Haiku (fallback) |
-| Vector DB | ChromaDB |
-| Graph Analysis | NetworkX |
+| Database | PostgreSQL + pgvector (Railway) |
+| ML/NLP | sentence-transformers, german-sentiment-bert, go_emotions_V1.2 |
+| LLM | Groq llama-3.3-70b-versatile, Anthropic Claude Haiku-4.5 (fallback) |
+| Vector search | pgvector (production), ChromaDB (local pipeline) |
+| Graph analysis | NetworkX |
 | Classification | ManifestoBERTa (Manifesto Project) |
-| Database | SQLite |
+| Populism scoring | PopEuroBERT-binary-610m |
 | Pipeline | GitHub Actions |
-| Deployment | Vercel (Frontend) + Railway (Backend) |
+| Deployment | Vercel (frontend), Railway (backend + PostgreSQL) |
 
 ---
 
 ## Data Sources
 
 ### News (Dimension I)
-Arcticles crawled from RSS-Feeds of 19 German news outlets over _____ & annoteted with bias labels:
+
+Articles crawled from RSS feeds of 19 German news outlets since March 2026, annotated with bias labels:
 
 | Bias | Outlets |
 |------|---------|
@@ -134,99 +159,50 @@ Arcticles crawled from RSS-Feeds of 19 German news outlets over _____ & annotete
 | Populist-Mixed | BILD |
 
 ### Party Manifestos (Dimension II)
-Bundestagswahlprogramme 2005–2025, locally stored as PDF.
-Election results: Bundestag (bundestag.de), Bundeswahlleiterin, wahlrecht.de
 
----
-
-  ---
-  Populism Score
-
-  Diskursraum measures populist rhetoric in party manifestos using a
-  sentence-level classifier, benchmarked against the
-  https://komm.uni-hohenheim.de/wahlprogramm-analyse — the University of
-  Hohenheim's long-running analysis of German election programs for
-  linguistic quality and rhetorical strategies.
-
-  Method
-
-  Every sentence across all manifesto chunks (2005–2025) is classified by
-  https://huggingface.co/przvl/PopEuroBERT-binary-610m, a fine-tuned
-  EuroBERT-610M model trained on the PopBERT dataset of sentence-level
-  annotated German Bundestag speeches (Erhard et al., 2025).
-
-  ▎ Populism score = share of sentences with a populist probability > 0.43
-
-  Why threshold 0.43? The decision boundary was calibrated on the PopBERT
-  test set for balanced performance: precision 76.6%, recall 85.8%, F1
-  80.9%. A threshold below 0.5 is appropriate because underdetecting
-  populist language in dense political texts carries a higher cost than
-  occasional false positives.
-
-  References
-
-  - Erhard, L., Hanke, S., Remer, U., Falenska, A., & Heiberger, R. H.
-  (2025). PopBERT. Detecting Populism and Its Host Ideologies in the German
-  Bundestag. Political Analysis, 33(1), 1–17.
-  https://doi.org/10.1017/pan.2024.12
-  - Boizard, N. et al. (2025). EuroBERT: Scaling Multilingual Encoders for
-  European Languages. arXiv:2503.05500. https://arxiv.org/abs/2503.05500
-  - przvl (2025). PopEuroBERT-binary-610m. Hugging Face.
-  https://huggingface.co/przvl/PopEuroBERT-binary-610m
-  - Brettschneider, F. et al. (2025). Hohenheimer Analyse der Wahlprogramme
-  zur Bundestagswahl 2025. Universität Hohenheim.
-  https://komm.uni-hohenheim.de/wahlprogramm-analyse
+Bundestagswahlprogramme 2005–2025, sourced as PDF from official party websites. Election results from Bundeswahlleiterin and wahlrecht.de. HIX readability scores from Universität Hohenheim, Wahlprogramm-Check (Brettschneider/Thoms).
 
 ---
 
 ## Local Development
 
 ```bash
-# Clone repository
-git clone https://github.com/AyzennaMosesArndt/diskursraum.git
+git clone https://github.com/magic-moses/diskursraum.git
 cd diskursraum
 
-# Python environment
 conda create -n diskursraum python=3.11
 conda activate diskursraum
 pip install -r requirements.txt
 
-# Environment variables
 cp .env.example .env
-# Set GROQ_API_KEY, ANTHROPIC_API_KEY, LLM_PROVIDER
+# Set GROQ_API_KEY, ANTHROPIC_API_KEY, RAILWAY_DATABASE_URL
 
-# Start backend
 cd api && uvicorn main:app --reload --port 8001
-
-# Start frontend
 cd frontend && npm install && npm run dev
 ```
 
-## Deployment
-
-Diskursraum runs fully stateless in production:
-- **Railway** hosts the FastAPI backend
-- **Vercel** hosts the React frontend
-- All analysis results are pre-computed, committed as JSON, and served directly — no database connection required in production
-
 ---
 
-## Status
+## Deployment
 
-🚧 Active development — spring 2026
+- **Railway** — FastAPI backend + PostgreSQL with pgvector
+- **Vercel** — React frontend
+- **GitHub Actions** — `daily_crawl.yml` (4x daily) + `daily_ml.yml` (every 3 days)
+
+All core analysis results are pre-computed and committed as JSON. The only live database path in production is the pgvector semantic search for Dimension III.
 
 ---
 
 ## Author
 
-**Ayzenna Moses Arndt** — M.Sc. Business Informatics, HKA Karlsruhe  
-[GitHub](https://github.com/AyzennaMosesArndt) · [LinkedIn](https://linkedin.com/in/dein-profil)
+**Ayzenna Moses Arndt** — M.Sc. Business Informatics, HKA Karlsruhe
+[GitHub](https://github.com/magic-moses) · [LinkedIn](https://linkedin.com/in/dein-profil)
 
 ---
 
 ## Methodology
 
-> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural."*  
+> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural."*
 > — Audrey Tang & E. Glen Weyl, Plurality
 
 Diskursraum makes this principle visible — not for social media posts as in Pol.is, but for professional media discourse in Germany. Many voices, one discourse.
