@@ -1,7 +1,7 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 177,
+  "article_count": 208,
   "candidate_count": 800,
   "outlets": {
     "welt": {
@@ -10,21 +10,87 @@
       "bias": "right-conservative",
       "article_count": 32,
       "sample_titles": [
-        "„Politischer Kanal vorerst blockiert“ – Pistorius sagt Außenminister-Besuch in den USA ab",
-        "Selenskyjs Top-Verhandler für neue Ukraine-Gespräche im Kanzleramt",
-        "„AfD-Innenminister könnte Sicherheitsarchitektur binnen weniger Tage tiefgreifend umbauen“",
-        "„Lass es sauber aussehen. Kein russischer Bezug“ – Ein Schmugglerring, mitten in Deutschland"
+        "„Warum wird zum wiederholten Male eine Drohne im Nato-Luftraum nicht abgeschossen?“",
+        "Polen reagiert empört auf Selenskyjs „Helden“-Militäreinheit",
+        "„Zusammenarbeit mit der Ukraine ist absolutes Gebot der Stunde“",
+        "„Nato ist bereit, jeden Zentimeter zu verteidigen“ – Rutte reagiert empört auf Drohnen-Einschlag"
       ],
       "urls": [
-        "https://www.welt.de/politik/ausland/article6a15d7a418d7a94b5bce6f91/kein-treffen-mit-hegseth-politischer-kanal-vorerst-blockiert-pistorius-sagt-aussenminister-besuch-in-den-usa-ab.html",
-        "https://www.welt.de/politik/ausland/article6a1591373d0f13e93a0fec0f/ukraine-selenskyjs-top-verhandler-fuer-neue-ukraine-gespraeche-im-kanzleramt.html",
-        "https://www.welt.de/politik/deutschland/plus6a0ace3c37d84a6d6ae9b9e1/sachsen-anhalt-afd-innenminister-koennte-sicherheitsarchitektur-binnen-weniger-tage-tiefgreifend-umbauen.html",
-        "https://www.welt.de/politik/ausland/plus6a0c030471d1a924f943da34/schmugglernetzwerk-lass-es-sauber-aussehen-kein-russischer-bezug-ein-schmugglerring-mitten-in-deutschland.html"
+        "https://www.welt.de/videos/video6a19c23cb724341c5ccc0650/drohne-in-rumaenien-eingeschlagen-warum-wird-zum-wiederholten-male-eine-drohne-im-nato-luftraum-nicht-abgeschossen.html",
+        "https://www.welt.de/videos/video6a1980cd672896fe8f165c67/ukraine-krieg-polen-reagiert-empoert-auf-selenskyjs-helden-militaereinheit.html",
+        "https://www.welt.de/videos/video6a19819f672896fe8f165c96/drohne-in-rumaenien-eingeschlagen-zusammenarbeit-mit-der-ukraine-ist-absolutes-gebot-der-stunde.html",
+        "https://www.welt.de/politik/ausland/article6a18fa9e672896fe8f16511a/ukraine-krieg-rutte-empoert-auf-drohnen-einschlag-nato-bereit-jeden-zentimeter-zu-verteidigen.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "nervousness",
+          "count": 1
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 30,
+      "sample_titles": [
+        "Liveblog Ukrainekrieg: Merz: Brauchen starke NATO-Ostflanke",
+        "Liveblog Ukrainekrieg: Russische Drohne trifft Hochhaus in NATO-Staat Rumänien",
+        "Liveblog Irankrieg: Unterhändler angeblich einig über Verlängerung der Iran-Waffenruhe",
+        "KNDS-Chef im Gespräch: „Bei einem sehr starken Vorstoß braucht man Soldaten und Panzer vor Ort“"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-merz-brauchen-starke-nato-ostflanke-faz-110683325.html",
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-russische-drohne-trifft-hochhaus-in-rumaenischer-stadt-faz-110683325.html",
+        "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-unterhaendler-angeblich-einig-ueber-verlaengerung-der-iran-waffenruhe-faz-200583539.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/jean-paul-alary-knds-will-ruestung-standardisieren-200872661.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 24,
+      "sample_titles": [
+        "Rumänien: Friedrich Merz und Johann Wadephul verurteilen Einschlag der Drohne aus Russland",
+        "Rumänien: Der Drohneneinschlag zeigt, dass die Nato bei der Abwehr hinterhinkt",
+        "Hamas: Weiterer mutmaßlicher Waffenbeschaffer für Hamas festgenommen",
+        "Ukraine-Krieg: Wehrpflichtige Russen in Deutschland dürfen abgeschoben werden"
+      ],
+      "urls": [
+        "https://www.spiegel.de/ausland/rumaenien-friedrich-merz-und-johann-wadephul-verurteilen-einschlag-russischer-drohne-a-8465cd3d-f457-4cb9-a8f7-52b64f128fa8#ref=rss",
+        "https://www.spiegel.de/ausland/rumaenien-der-drohneneinschlag-zeigt-dass-die-nato-bei-der-abwehr-hinterhinkt-a-03179bc2-7500-43f8-ae44-39284211faa3#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/hamas-weiterer-mutmasslicher-waffenbeschaffer-fuer-hamas-festgenommen-a-7be0607d-7f2d-4a7d-b1e8-7ed81fceb95e#ref=rss",
+        "https://www.spiegel.de/ausland/ukraine-krieg-wehrpflichtige-russen-in-deutschland-duerfen-abgeschoben-werden-a-88d790ee-59b5-40e6-9800-5707ae77aba4#ref=rss"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -33,18 +99,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 21,
+      "article_count": 23,
       "sample_titles": [
-        "Rüstungsindustrie: Börsengang im Blick: Panzerbauer KNDS meldet Rekordzahlen",
-        "Gastkommentar: Was die Bundeswehr im Umgang mit Palantir richtig macht",
-        "Sicherheit: Einsatz von Huawei-Technik bei deutscher Drohnenabwehr alarmiert Politik",
-        "Verteidigung: OLG hält Regel zur Bundeswehrbeschaffung für verfassungswidrig"
+        "Ukraine-Krieg: Merz nach Drohneneinschlag: „Wir sind bereit, das Bündnisgebiet zu verteidigen“",
+        "Ukraine-Krieg: Nato und EU verurteilen Einschlag russischer Drohne in Rumänien",
+        "Gastkommentar: Deutschland braucht die globale Bank für Verteidigungsprojekte",
+        "Ukraine-Krieg: Berliner Richter kippen Schutz für russische Wehrpflichtige"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-boersengang-im-blick-panzerbauer-knds-meldet-rekordzahlen/100227298.html",
-        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-was-die-bundeswehr-im-umgang-mit-palantir-richtig-macht/100222431.html",
-        "https://www.handelsblatt.com/politik/deutschland/sicherheit-politiker-warnen-vor-huawei-technik-bei-deutscher-drohnenabwehr/100226967.html",
-        "https://www.handelsblatt.com/politik/deutschland/verteidigung-olg-haelt-regel-zur-bundeswehrbeschaffung-fuer-verfassungswidrig/100227337.html"
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-merz-wir-sind-bereit-das-buendnisgebiet-zu-verteidigen/100228883.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-nato-und-eu-verurteilen-einschlag-russischer-drohne-in-rumaenien/100228883.html",
+        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-deutschland-braucht-die-globale-bank-fuer-verteidigungsprojekte/100227999.html",
+        "https://www.handelsblatt.com/politik/deutschland/ukraine-krieg-berliner-richter-kippen-schutz-fuer-russische-wehrpflichtige/100228728.html"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -62,22 +128,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 19,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 20,
       "sample_titles": [
-        "Unglück in Eckernförde: Junger Soldat stirbt nach Notfall bei Minentaucherausbildung",
-        "Liveblog Ukrainekrieg: Schwere russische Angriffe auf Kiew",
-        "Rhein-Main-Feierabendbriefing: Hessen plant Drohnenkompetenzzentrum",
-        "Staatseinstieg bei KNDS: Weg frei für den Panzerchampion"
+        "Manöver \"Freedom Shield\": Bundeswehr verlegt Panzer und Soldaten für Übung nach Litauen",
+        "Bafin prüft dutzendfach: Verdacht auf Insiderhandel in Rüstungsindustrie bei \"Zeitenwende\"",
+        "Werbung für deutsche U-Boote: Pistorius ist in Kanada guter Dinge",
+        "Lukrative Aufträge: Waffenhersteller Heckler & Koch verdient deutlich mehr"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/gesellschaft/ungluecke/deutsche-marine-trauert-soldat-nach-minentaucher-training-verstorben-accg-200866668.html",
-        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-schwere-russische-angriffe-auf-kiew-faz-110683325.html",
-        "https://www.faz.net/podcasts/rhein-main-feierabendbriefing/kassel-calden-hessen-plant-forschungszentrum-fuer-drohnen-200860832.html",
-        "https://www.faz.net/aktuell/wirtschaft/bund-steigt-bei-ruestungskonzern-knds-ein-weg-frei-fuer-den-panzerchampion-200855347.html"
+        "https://www.n-tv.de/politik/Bundeswehr-verlegt-Panzer-und-Soldaten-fuer-Uebung-nach-Litauen-id30873231.html",
+        "https://www.n-tv.de/wirtschaft/Verdacht-auf-Insiderhandel-in-Ruestungsindustrie-bei-Zeitenwende-id30870432.html",
+        "https://www.n-tv.de/wirtschaft/U-Boot-Deal-fuer-TKMS-Pistorius-ist-in-Kanada-guter-Dinge-id30869012.html",
+        "https://www.n-tv.de/wirtschaft/Waffenhersteller-Heckler-Koch-verdient-deutlich-mehr-id30867577.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -88,39 +154,6 @@
         {
           "emotion": "approval",
           "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "Bunker in Deutschland: »Die Schutzräume reichen für 0,5 Prozent der Bevölkerung«",
-        "Bunker in Deutschland für Zivilschutz: »Die Schutzräume reichen für 0,5 Prozent der Bevölkerung«",
-        "Bundeswehr-Umfrage: Nur wenige trauen Streitkräften die Verteidigung Deutschlands zu",
-        "Iran: Atomwaffenexperte über die Zerstörung des Atomprogramms"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/bunker-in-deutschland-die-schutzraeume-reichen-fuer-0-5-prozent-der-bevoelkerung-a-5757a33c-3eb2-45ba-a5c2-1f7f377948ae#ref=rss",
-        "https://www.spiegel.de/panorama/bunker-in-deutschland-fuer-zivilschutz-die-schutzraeume-reichen-fuer-0-5-prozent-der-bevoelkerung-a-5757a33c-3eb2-45ba-a5c2-1f7f377948ae#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/bundeswehr-umfrage-nur-wenige-trauen-streitkraeften-die-verteidigung-deutschlands-zu-a-da684f2b-579d-4475-a65d-77a4dd5aca57#ref=rss",
-        "https://www.spiegel.de/ausland/iran-atomwaffenexperte-ueber-die-zerstoerung-des-atomprogramms-a-8213c15e-6953-48ae-87c7-fe659308ea3a#ref=rss"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 1
         }
       ]
     },
@@ -128,18 +161,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 16,
+      "article_count": 15,
       "sample_titles": [
-        "Bundeswehr im Umbau: Wie sich der Heimatschutz vorbereitet",
-        "Prozess um Attacke auf Elbit Ulm: Angeklagter sagt aus",
-        "Feuer in Schützenverein in Messel ausgebrochen - Explosionen durch Munition",
-        "Wie gut ist das Land Bremen auf Katastrophen und Angriffe vorbereitet?"
+        "NATO und EU werfen Russland Eskalation vor",
+        "Dienstpflicht für Reservisten auch im Frieden?",
+        "Pistorius wirbt in Kanada für deutsche U-Boote",
+        "Rüstungsboom sorgt für Rekorde"
       ],
       "urls": [
-        "https://www.br.de/nachrichten/bayern/bundeswehr-im-umbau-wie-sich-der-heimatschutz-vorbereitet,VKd8KtA",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/prozesstag-22-mai-wegen-angriff-auf-ein-ruestungsunternehmen-in-ulm-100.html",
-        "https://www.hessenschau.de/panorama/feuer-in-schuetzenverein-in-messel-ausgebrochen---explosionen-durch-munition-v1,feuer-in-schuetzenverein-100.html",
-        "https://www.butenunbinnen.de/nachrichten/zivilschutz-bevoelkerungsschutz-bremerhaven-bremen-102.html"
+        "https://www.tagesschau.de/ausland/europa/rumaenien-drohneneinschlag-reaktionen-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/reservisten-bundeswehr-102.html",
+        "https://www.tagesschau.de/ausland/amerika/kanada-pistorius-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/luftfahrt-raumfahrt-industrie-ruestung-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -157,31 +190,27 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 15,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 11,
       "sample_titles": [
-        "Kampfjets und Kriegsschiffe: Bericht: USA wollen Militärbeiträge für Nato deutlich herunterfahren",
-        "Erst mal 40 Prozent: Bund steigt bei Panzer-Schmiede KNDS ein",
-        "Milliarden für Zivilschutz: Dobrindt: \"Wir bereiten uns vor auf Katastrophen und Konflikte\"",
-        "\"USA sind nicht die Weltpolizei\": JD Vance sieht US-Truppenabzug als Fingerzeig für Europa"
+        "Pistorius will Bundeswehr-Reserve zu Übungen verpflichten",
+        "Cyberabwehr: Mehr Rechte für Sicherheitsbehörden",
+        "Kabinett beschließt \"aktive Cyberabwehr\"",
+        "Europas Nato-Länder stehen unter Druck"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Bericht-USA-wollen-Militaerbeitraege-fuer-Nato-deutlich-herunterfahren-id30858603.html",
-        "https://www.n-tv.de/wirtschaft/Bund-steigt-bei-Panzer-Schmiede-KNDS-ein-id30842836.html",
-        "https://www.n-tv.de/politik/Dobrindt-Wir-bereiten-uns-vor-auf-Katastrophen-und-Konflikte-id30841710.html",
-        "https://www.n-tv.de/politik/JD-Vance-sieht-US-Truppenabzug-als-Fingerzeig-fuer-Europa-id30838958.html"
+        "https://www.zdfheute.de/politik/deutschland/pistorius-bundeswehr-reserve-wehrdienst-freiwilligkeit-100.html",
+        "https://www.zdfheute.de/politik/deutschland/cyberabwehr-hackerangriff-bundeskabinett-polizei-bsi-100.html",
+        "https://www.phoenix.de/cybersicherheit-a-5204405.html",
+        "https://www.zdfheute.de/politik/ausland/nato-rubio-usa-druck-europa-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -190,175 +219,126 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
-        "Deutsche Kriegstüchtigkeit: Nicht für unsere Sicherheit wird aufgerüstet",
-        "Greenpeace-Studie: Verteidigung in Europa besser als angenommen",
-        "Drohnenalarm in den baltischen Staaten: Einschüchterungsversuche an der Nato-Ostflanke",
-        "Katastrophenschutz an der Ostflanke: Blaue Dreiecke und Verteidigungsunterricht"
+        "Pistorius auf Werbetour: Deutsche U-Boote für Kanada",
+        "Verteidigungspolitik im Baltikum: Wie sich Estland auf den Krieg vorbereitet",
+        "Greenpeace-Studie zu Wettrüsten: Die EU als wirres Ungleichgewicht des Schreckens",
+        "Deutsche Kriegstüchtigkeit: Nicht für unsere Sicherheit wird aufgerüstet"
       ],
       "urls": [
-        "https://taz.de/Deutsche-Kriegstuechtigkeit/!6181964/",
-        "https://taz.de/Greenpeace-Studie/!6181841/",
-        "https://taz.de/Drohnenalarm-in-den-baltischen-Staaten/!6180554/",
-        "https://taz.de/Katastrophenschutz-an-der-Ostflanke/!6179612/"
+        "https://taz.de/Pistorius-auf-Werbetour/!6182458/",
+        "https://taz.de/Verteidigungspolitik-in-Estland/!6181997/",
+        "https://taz.de/Greenpeace-Studie-zu-Wettruesten/!6181907/",
+        "https://taz.de/Deutsche-Kriegstuechtigkeit/!6181964/"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "optimism",
       "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
         {
           "emotion": "optimism",
           "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
         }
       ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 8,
+      "sample_titles": [
+        "Drohneneinschlag in Rumänien: Nato sichert Rumänien uneingeschränkte Solidarität zu",
+        "Bundeswehr: Verteidigungsministerium plant erweiterte Einsätze von Reservisten",
+        "Nato-Beiträge der USA: Unionspolitiker fordern Plan gegen mögliche US-Kürzungen bei der Nato",
+        "Nato-Bündnisfall: Nato steht laut Mark Rutte »felsenfest« hinter Artikel 5"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/2026-05/krieg-ukraine-russische-drohne-rumaenien-reaktionen-nato-eu-gxe",
+        "https://www.zeit.de/politik/deutschland/2026-05/bundeswehr-verteidigungsministerium-gesetzesentwurf-einsaetze-reservisten",
+        "https://www.zeit.de/politik/ausland/2026-05/nato-usa-militaer-beitraege-kuerzung-cdu-bundeswehr",
+        "https://www.zeit.de/politik/ausland/2026-05/nato-artikel-5-buendnisfall-mark-rutte"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 8,
+      "article_count": 7,
       "sample_titles": [
-        "Bundeswehr: Soldat stirbt bei Minentaucherausbildung",
-        "Bundeswehr: Ärger für Pistorius: Gericht rügt neues Beschaffungsgesetz",
-        "Rechtsstreit mit der MVG: Pazifistischer Straßenbahnfahrer muss Bundeswehrtram fahren",
-        "Rüstungsindustrie: Bundesregierung steigt bei deutsch-französischem Panzerbauer ein"
+        "Krieg in der Ukraine: EU und Nato empört über russischen Drohneneinschlag in Rumänien",
+        "Bundeswehr in Fürstenfeldbruck: Grundausbildung im Fliegerhorst",
+        "Krieg in der Ukraine: Russische Drohne trifft Hochhaus in Rumänien – zwei Verletzte",
+        "Bundeswehr: Ärger für Pistorius: Gericht rügt neues Beschaffungsgesetz"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/panorama/bundeswehr-soldat-minentaucherausbildung-gestorben-li.3489029",
-        "https://www.sueddeutsche.de/politik/boris-pistorius-bundeswehr-gesetz-oberlandesgericht-beschaffung-li.3488335",
-        "https://www.sueddeutsche.de/muenchen/muenchen-mvg-arbeitsgericht-klage-trambahn-bundeswehr-li.3487124",
-        "https://www.sueddeutsche.de/wirtschaft/knds-wirtschaft-panzerbauer-ruestungsindustrie-li.3486744"
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-drohne-russland-angriff-rumaenien-reaktionen-li.3490156",
+        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/fuerstenfeldbruck-luftwaffe-grundausbildung-fliegerhorst-li.3490458",
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-drohne-russland-angriff-rumaenien-li.3490156",
+        "https://www.sueddeutsche.de/politik/boris-pistorius-bundeswehr-gesetz-oberlandesgericht-beschaffung-li.3488335"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
           "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 8,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 6,
       "sample_titles": [
-        "Bundeswehreinsatz vor libanesischer Küste",
-        "Kriegstüchtig? 70 Jahre Bundeswehr",
-        "Bundesregierung will bei Panzerbauer KNDS einsteigen",
-        "Zehn Milliarden Euro für Bevölkerungsschutz"
+        "Alles für EU und Rüstungsindustrie: Greenpeace zieht in den Krieg",
+        "Hegseth hat keine Zeit für Pistorius",
+        "Wieder ein GPS-Angriff? Britischer Verteidigungsminister alarmiert",
+        "Im Ernstfall wenig Vertrauen in die Bundeswehr"
       ],
       "urls": [
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5203111",
-        "https://www.zdf.de/video/dokus/kriegstuechtig-70-jahre-bundeswehr-movie-100/terra-x-history-kriegstuechtig-70-jahre-bundeswehr-100",
-        "https://www.zdfheute.de/politik/deutschland/bundesregierung-knds-panzerbauer-einstieg-ruestung-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5202493"
+        "https://www.tichyseinblick.de/kolumnen/alexander-wallasch-heute/ruestungsindustrie-greenpeace/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/hegseth-hat-keine-zeit-fuer-pistorius/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/wieder-ein-gps-angriff-britischer-verteidigungsminister-alarmiert/",
+        "https://www.tichyseinblick.de/daili-es-sentials/wenig-vertrauen-in-bundeswehr/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
     },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Rheinmetall prägt die deutsche Zeitenwende. Gerät die Bundeswehr nun in die nächste Abhängigkeit?",
-        "KNDS profitiert wie kein anderer Konzern vom Rüstungsboom. Jetzt will der deutsche Staat mitbestimmen",
-        "Trumps Drohungen und der Ukraine-Krieg zeigen Wirkung: Die Europäisierung der Nato ist in vollem Gang",
-        "GASTKOMMENTAR - Sicherheitspolitik: Entscheidungsstrukturen prüfen statt Technikdebatten führen"
-      ],
-      "urls": [
-        "https://www.nzz.ch/pro/bundeswehr-setzt-auf-rheinmetall-wie-riskant-ist-die-abhaengigkeit-ld.10007807",
-        "https://www.nzz.ch/wirtschaft/knds-profitiert-wie-kein-anderer-konzern-vom-ruestungsboom-jetzt-will-der-deutsche-staat-mitbestimmen-ld.10007990",
-        "https://www.nzz.ch/international/trumps-drohungen-und-der-ukraine-krieg-zeigen-wirkung-die-europaeisierung-der-nato-ist-in-vollem-gang-ld.10007781",
-        "https://www.nzz.ch/meinung/sicherheitspolitik-entscheidungsstrukturen-pruefen-statt-technikdebatten-fuehren-ld.10004317"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Rüstungsindustrie: Bundesregierung will bei Rüstungskonzern KNDS einsteigen",
-        "US-Truppenabzug: Boris Pistorius hat keine Informationen über Abzug von US-Brigaden",
-        "Bundesinnenministerium: Bundesregierung will Zivilschutz mit Milliardeninvestitionen ausbauen",
-        "US-Verteidigungsministerium: USA reduzieren Zahl der Kampfbrigaden in Europa"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-05/bundesregierung-einstieg-knds-mgcs-panzer",
-        "https://www.zeit.de/politik/deutschland/2026-05/us-truppen-abzug-deutschland-amerikanische-soldaten-boris-pistorius",
-        "https://www.zeit.de/politik/deutschland/2026-05/bundesinnenministerium-zivilschutz-pakt-alexander-dobrindt",
-        "https://www.zeit.de/politik/ausland/2026-05/usa-abzug-kampfbrigade-europa"
-      ],
-      "dominant_emotion": "disappointment",
-      "top_emotions": [
-        {
-          "emotion": "disappointment",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
       "article_count": 6,
       "sample_titles": [
-        "Militärausbildung: Notfall bei Minentaucherausbildung: Junger Soldat gestorben",
-        "Regierungskreise: Bund steigt mit 40 Prozent bei Rüstungskonzern KNDS ein",
-        "Rüstungsindustrie: Bundesregierung will bei Panzerbauer KNDS einsteigen",
-        "Sachverhalt geprüft: Bewaffnet auf dem Weihnachtsmarkt: Keine Folgen für Soldaten"
+        "Der Bund will bei der Öffentlichkeitsarbeit sparen – das Militärdepartement ist am stärksten betroffen",
+        "Rheinmetall prägt die deutsche Zeitenwende. Gerät die Bundeswehr nun in die nächste Abhängigkeit?",
+        "Verwirrung um amerikanische Präsenz: Trump schickt nun doch neue Truppen nach Polen",
+        "KNDS profitiert wie kein anderer Konzern vom Rüstungsboom. Jetzt will der deutsche Staat mitbestimmen"
       ],
       "urls": [
-        "https://www.stern.de/politik/deutschland/militaerausbildung--notfall-bei-minentaucherausbildung--junger-soldat-gestorben-37441674.html",
-        "https://www.stern.de/news/regierungskreise--bund-steigt-mit-40-prozent-bei-ruestungskonzern-knds-ein-37421956.html",
-        "https://www.stern.de/politik/deutschland/ruestungsindustrie--bundesregierung-will-bei-panzerbauer-knds-einsteigen-37421838.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/sachverhalt-geprueft--bewaffnet-auf-dem-weihnachtsmarkt--keine-folgen-fuer-soldaten-37420822.html"
+        "https://www.nzz.ch/schweiz/der-bund-will-bei-der-oeffentlichkeitsarbeit-sparen-das-militaerdepartement-ist-am-staerksten-betroffen-ld.10008723",
+        "https://www.nzz.ch/pro/bundeswehr-setzt-auf-rheinmetall-wie-riskant-ist-die-abhaengigkeit-ld.10007807",
+        "https://www.nzz.ch/international/verwirrung-um-amerikanische-praesenz-trump-schickt-nun-doch-neue-truppen-nach-polen-ld.10008277",
+        "https://www.nzz.ch/wirtschaft/knds-profitiert-wie-kein-anderer-konzern-vom-ruestungsboom-jetzt-will-der-deutsche-staat-mitbestimmen-ld.10007990"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 4,
-      "sample_titles": [
-        "Sicherheitspolitik AfD-Innenminister? Ehemaliger Verfassungsschutz-Chef befürchtet das Schlimmste",
-        "Rückzug aus Europa USA stellen weniger Waffen für Nato-Ernstfall bereit",
-        "Europäische Verteidigungspolitik Nukleare Abschreckung ohne die USA neu denken",
-        "Verteidigungspolitik Die Bundeswehr zeigt eine neue Härte"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/afd-innenminister-ehemaliger-verfassungsschutz-chef-befuerchtet-das-schlimmste/",
-        "https://jungefreiheit.de/politik/ausland/2026/usa-stellen-weniger-waffen-fuer-nato-ernstfall-bereit/",
-        "https://jungefreiheit.de/politik/ausland/2026/nukleare-abschreckung-ohne-die-usa-neu-denken/",
-        "https://jungefreiheit.de/politik/deutschland/2026/die-bundeswehr-zeigt-eine-neue-haerte/"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -367,16 +347,38 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 3,
+      "article_count": 5,
       "sample_titles": [
+        "Nach Drohneneinschlag: Rumänien weist russischen Konsul aus",
+        "Australien: Rekordklage des Staates gegen Chemiekonzern 3M",
         "Bundesregierung steigt bei Leopard 2-Panzerbauer KNDS ein",
-        "NATO-Jets schießen ukrainische Drohne über Estland ab",
-        "Deutschland legt Milliardenprogramm für den Zivilschutz auf"
+        "NATO-Jets schießen ukrainische Drohne über Estland ab"
       ],
       "urls": [
+        "https://www.dw.com/de/nach-drohneneinschlag-rumänien-weist-russischen-konsul-aus/a-77340613?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/australien-rekordklage-des-staates-gegen-chemiekonzern-3m/a-77333176?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/bundesregierung-steigt-bei-leopard-2-panzerbauer-knds-ein/a-77236971?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/nato-jets-schießen-ukrainische-drohne-über-estland-ab/a-77217277?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/deutschland-legt-milliardenprogramm-für-den-zivilschutz-auf/a-77195286?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/nato-jets-schießen-ukrainische-drohne-über-estland-ab/a-77217277?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Militärausbildung: Notfall bei Minentaucherausbildung: Junger Soldat gestorben",
+        "Regierungskreise: Bund steigt mit 40 Prozent bei Rüstungskonzern KNDS ein",
+        "Rüstungsindustrie: Bundesregierung will bei Panzerbauer KNDS einsteigen",
+        "Bundeswehr: Warum Hessen immer öfter Grün sehen"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/militaerausbildung--notfall-bei-minentaucherausbildung--junger-soldat-gestorben-37441674.html",
+        "https://www.stern.de/news/regierungskreise--bund-steigt-mit-40-prozent-bei-ruestungskonzern-knds-ein-37421956.html",
+        "https://www.stern.de/politik/deutschland/ruestungsindustrie--bundesregierung-will-bei-panzerbauer-knds-einsteigen-37421838.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/bundeswehr--warum-hessen-immer-oefter-gruen-sehen-37416140.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -387,58 +389,70 @@
       "bias": "populist-mixed",
       "article_count": 3,
       "sample_titles": [
-        "Berlin und Paris einig - Mega-Deal steht! Leopard-Panzer bleiben deutsch",
-        "Mail von Martenstein - Lieber Boris Pistorius, ich weiß nicht, was sie tun",
-        "Chef im Interview - Mercedes als Rüstungsfirma? „Wir wären dazu bereit“"
+        "Umfrage-Überraschung - Deutsche haben immer weniger Angst vor Putin",
+        "Außenministertreffen in Schweden - Nato streitet über US-Soldaten, Geld und Ukraine",
+        "Berlin und Paris einig - Mega-Deal steht! Leopard-Panzer bleiben deutsch"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/berlin-und-paris-einig-mega-deal-steht-leopard-panzer-bleiben-deutsch-6a0defe1f0f7eb608db787a9",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/mail-von-martenstein-lieber-boris-pistorius-ich-weiss-nicht-was-sie-tun-6a0c71493b7096456ac7c4a1",
-        "https://www.bild.de/politik/inland/mercedes-als-ruestungsfirma-wir-waeren-dazu-bereit-sagt-chef-kaellenius-6a0805bcd1570d73067a17f3"
+        "https://www.bild.de/politik/inland/putin-droht-europa-umfrage-zeigt-sinkende-angst-in-deutschland-6a105e37f0f7eb608db7ac52",
+        "https://www.bild.de/politik/ausland-und-internationales/nato-streitet-ueber-us-soldaten-geld-und-ukraine-ministertreffen-in-schweden-6a0ff055af9f246e564108a5",
+        "https://www.bild.de/politik/inland/berlin-und-paris-einig-mega-deal-steht-leopard-panzer-bleiben-deutsch-6a0defe1f0f7eb608db787a9"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
         {
           "emotion": "excitement",
           "count": 1
-        },
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "Sicherheitspolitik AfD-Innenminister? Ehemaliger Verfassungsschutz-Chef befürchtet das Schlimmste",
+        "Rückzug aus Europa USA stellen weniger Waffen für Nato-Ernstfall bereit"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/afd-innenminister-ehemaliger-verfassungsschutz-chef-befuerchtet-das-schlimmste/",
+        "https://jungefreiheit.de/politik/ausland/2026/usa-stellen-weniger-waffen-fuer-nato-ernstfall-bereit/"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "fear",
           "count": 1
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Grüne Forderung nach Deutschland als bewachter Nation"
+        "Treffen der Nato-Außenminister - Die Drohung mit dem Austritt der USA ist vom Tisch"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/meinungen/rede-brantner-oxford-entmuendigung-buerger/"
+        "https://www.cicero.de/aussenpolitik/treffen-nato-aussenminister-trump-usa"
       ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "far-right": 5,
-    "right-conservative": 47,
-    "economic-liberal": 21,
-    "left": 9,
-    "neutral": 27,
-    "conservative-liberal": 26,
-    "left-liberal": 39,
+    "right-conservative": 52,
+    "economic-liberal": 23,
+    "conservative-liberal": 37,
+    "left-liberal": 44,
+    "neutral": 31,
+    "left": 10,
+    "far-right": 8,
     "populist-mixed": 3
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt über alle politischen Ausrichtungen hinweg eine breite Akzeptanz der sicherheitspolitischen Zeitenwende seit 2022, wobei sowohl konservative als auch linke Medien die gestiegenen Rüstungsausgaben und die NATO-Orientierung als notwendige Reaktion auf die veränderte Sicherheitslage anerkennen — selbst kritische Positionen bestreiten nicht die grundsätzliche Erforderlichkeit gestärkter Verteidigungsfähigkeiten, sondern problematisieren eher deren konkrete Umsetzung und Nebenfolgen. Eine zweite Gemeinsamkeit liegt in der intensiven Fokussierung auf die materielle und strukturelle Modernisierung der Bundeswehr sowie die Rolle einzelner Rüstungskonzerne wie Rheinmetall und KNDS, wobei unabhängig von der politischen Perspektive die Chancen und Risiken dieser industriellen Konzentration als zentrale Frage wahrgenommen werden. Drittens besteht Konsens darüber, dass die Abhängigkeit Deutschlands von amerikanischen Sicherheitsgarantien und die unzureichende europäische Eigenständigkeit ein strukturelles Problem darstellen — unterschiedlich ist nur, ob dies als zu korrigierendes Defizit oder als problematische Umdefinition deutscher Außenpolitik bewertet wird.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Verteidigungsdiskurs\n\nDer deutsche Mediendiskurs spaltet sich grundlegend entlang der Frage, ob die \"Zeitenwende\" eine notwendige Anpassung an geänderte Sicherheitslagen oder eine Kapitulation vor militaristischen Logiken darstellt: Während konservative und liberale Medien Rüstungsinvestitionen und NATO-Bindung als rationale Reaktion auf russische Aggression normalisieren, thematisieren linke Medien systematisch die politischen und sozialen Kosten dieser Neuausrichtung (Zivilschutzdefizite, mangelndes Vertrauen in Verteidigungsfähigkeit, Abhängigkeiten von Rüstungskonzernen), wodurch sie die Kriegstüchtigkeit selbst als ideologisches Projekt kritisieren statt deren technische Umsetzung zu diskutieren. Daneben konstituiert sich ein eigenes Spannungsfeld rechts der Mitte zwischen AfD-naher und konservativ-liberaler Sicherheitspolitik: Erstere instrumentalisiert Verteidigungsfragen zur Delegitimierung der etablierten Ordnung und zur Destabilisierung der NATO-Bindung, während Konservative gerade in dieser Bindung und in europäischer Rüstungsautonomie die Antwort sehen, wodurch beide Positionen inkompatibel sind. Das wirtschaftlich-liberale Segment schließlich entzieht sich dieser politischen Polarisierung durch Fokussierung auf Technologie und kommerzielle Chancen, normalisiert damit aber eine Rüstungsindustrialisierung Deutschlands, die in linken Medien als struktureller Konflikt zu demokratischen Kontrollmöglichkeiten wahrgenommen wird.",
-  "cached_at": "2026-05-27T08:42:35.676230"
+  "shared_perspectives": "Über alle politischen Ausrichtungen hinweg wird die NATO-Ostflanke als zentrale Verantwortung Deutschlands verstanden, wobei konkrete Sicherheitsmaßnahmen wie Truppenverlegungen, Rüstungsausgaben und Bündnisverpflichtungen als notwendig akzeptiert werden — selbst in Medien, die ansonsten kritisch zur Rüstungspolitik stehen. Die „Zeitenwende\" nach dem russischen Überfall auf die Ukraine wird im Diskurs als zäsurales Ereignis anerkannt, das Deutschland zu verstärkter Verantwortung in Verteidigungsfragen zwingt, wobei der Fokus auf materielle Aufrüstung und europäische Sicherheitsautonomie liegt. Unabhängig von ideologischen Unterschieden wird die Glaubwürdigkeit deutscher und NATO-Sicherheitsgarantien gegenüber östlichen Mitgliedstaaten als essentiell für die Stabilität Europas verhandelt, besonders sichtbar in der einheitlichen Reaktion auf den rumänischen Drohneneinschlag.",
+  "controversial_points": "Der fundamentale Konflikt verläuft zwischen einer **Sicherheitslogik der militärischen Abschreckung und Kriegsvorbereitung** (die von konservativ über liberal bis zu Teilen der Linken reicht) und einer **Kritik an der Militarisierung und Rüstungsindustrialisierung als strukturelles Problem**, die nur am linken und populistischen Rand artikuliert wird – wobei sich hier zeigt, dass die deutsche Gesellschaft die \"Zeitenwende\" als sicherheitspolitische Notwendigkeit mehrheitlich akzeptiert hat, während Kritik zunehmend marginalisiert wirkt. Das zweite Spannungsfeld besteht zwischen einer **defensive-präventiven Narrative** (NATO-Bündnisschutz, Ostflanke-Sicherung) und einer **ökonomischen Rationalität der Rüstungsindustrie**, wo Verteidigungspolitik subtil in Geschäftsentwicklung umschlägt – sichtbar in den Werbereisen des Verteidigungsministers für U-Boot-Deals und der Normalisierung von Rüstungsexporten als außenpolitisches Handelsgeschäft. Drittens offenbart sich eine **Legitimationskrise der militärischen Handlungsfähigkeit**: Während rechts-konservativ und wirtschaftsliberal von deutscher Stärke und Bündnisfähigkeit gesprochen wird, zeigt sich in den tatsächlichen Berichterstattungen (Drohnenabwehrfähigkeit, Reservisten-Mobilisierung, Zweifel an Bundeswehr-Kompetenz) eine **Diskrepanz zwischen Anspruch und materialer Realität**, die durch Debatte über Wehrpflicht und Dienstpflicht zu überbrücken versucht wird, ohne die grundsätzliche Frage zu stellen, ob Deutschland kriegsfähig sein will oder sein kann.",
+  "cached_at": "2026-05-30T07:21:16.694646"
 }
