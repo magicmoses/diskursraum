@@ -1,39 +1,39 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 230,
+  "article_count": 247,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 60,
+      "article_count": 64,
       "sample_titles": [
+        "Kommt die BAföG-Erhöhung doch nicht?",
+        "Sex, Pornos, Geschlechtskrankheiten: In Berliner Schulen kaum Thema?",
         "Erst Studium, jetzt Lehre: Bilal Anater reist dafür 4.000 Kilometer",
-        "215 Millionen Euro für Hamburg: Bundesministerin Prien besucht Schule in Hamm",
-        "Siegener Schüler haben Angst im Linienbus",
-        "Fehlalarm an Schule: Zwei Schüler müssen je 10.000 Euro zahlen"
+        "Cyberangriff auf Landeszentrale für politische Bildung in Mainz"
       ],
       "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/baer-bafoeg-reform-100.html",
+        "https://www.rbb24.de/politik/beitrag/2026/05/sexualkunde-unterricht-berlin-kritik.html",
         "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/erst-studium-nun-lehre-bilal-anater-reist-dafuer-4000-kilometer,handwerk-226.html",
-        "https://www.ndr.de/nachrichten/hamburg/215-millionen-euro-fuer-hamburg-bundesministerin-prien-besucht-schule-in-hamm,prien-124.html",
-        "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-siegen-wittgenstein/angst-im-linienbus-zur-schule-100.html",
-        "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/fehlalarm-an-schule-zwei-schueler-muessen-je-10000-euro-zahlen,amokalarm-104.html"
+        "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/cyberangriff-auf-landeszentrale-fuer-politische-bildung-102.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
+          "count": 5
         },
         {
           "emotion": "disapproval",
-          "count": 2
+          "count": 3
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
         }
       ]
     },
@@ -41,18 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 26,
+      "article_count": 31,
       "sample_titles": [
-        "KI und Hochschulprüfungen: Sherlock Holmes, ChatGPT, das Staatsexamen und ich",
-        "Hessen: Eltern fordern Systemwechsel bei Schulplatzvergabe",
-        "Gewalt im Unterricht: Wenn Schüler ihre Lehrer angreifen",
-        "Eltern-Kolumne „Schlaflos“: „Schwimmen lernen? Da sind die Schulen zuständig!“"
+        "Dorothee Bär: Forschungsministerin rechnet nicht mehr mit Bafög-Reform",
+        "Bilanz in Hessen: Jedes fünfte Kind kann nach der Grundschule nicht schwimmen",
+        "AfD-Bildungsprogramm: Deutsch denken – was soll das eigentlich heißen?",
+        "KI und Hochschulprüfungen: Sherlock Holmes, ChatGPT, das Staatsexamen und ich"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/debatten/pruefen-im-ki-zeitalter-ein-erfahrungsbericht-accg-200850223.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hessen-eltern-fordern-systemwechsel-bei-schulplatzvergabe-accg-200874217.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/gewalt-an-hessens-schulen-wenn-schueler-ihre-lehrer-angreifen-200868677.html",
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/schwimmen-lernen-da-sind-die-schulen-zustaendig-accg-200867668.html"
+        "https://www.faz.net/aktuell/politik/inland/dorothee-baer-bafoeg-reform-kommt-vielleicht-nicht-accg-200883612.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/jedes-fuenfte-kind-kann-nach-der-grundschule-nicht-schwimmen-accg-200879506.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/das-afd-bildungsprogramm-koennte-in-sachsen-anhalt-bald-realitaet-200879325.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/pruefen-im-ki-zeitalter-ein-erfahrungsbericht-accg-200850223.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -65,8 +65,8 @@
           "count": 3
         },
         {
-          "emotion": "desire",
-          "count": 1
+          "emotion": "confusion",
+          "count": 2
         }
       ]
     },
@@ -74,23 +74,23 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 24,
+      "article_count": 27,
       "sample_titles": [
+        "BAföG-Reform vor dem Aus – Bär verweist auf notwendige Sparprioritäten",
         "„Nur gemeinsam stark“ – Prien fordert mehr Kooperation in der Bildung",
         "„Das sind 20 Milliarden Euro, die an 4000 Schulen in herausfordernder Lage gehen“",
-        "„Ich habe in der Vorbereitungsphase mehr als 100 Übungsklausuren geschrieben“",
-        "„30 Prozent der Kinder sprechen kein Wort Deutsch“"
+        "Smartphone entzündet sich plötzlich in Grundschule – acht Verletzte"
       ],
       "urls": [
+        "https://www.welt.de/politik/deutschland/article6a1ba0cc411d40cd4c74cfdf/bundesforschungsministerin-bafoeg-reform-vor-dem-aus-baer-verweist-auf-notwendige-sparprioritaeten.html",
         "https://www.welt.de/regionales/hamburg/article6a197f30411d40cd4c74bae4/bildungspolitik-nur-gemeinsam-stark-prien-fordert-mehr-kooperation-in-der-bildung.html",
         "https://www.welt.de/videos/video6a19526e411d40cd4c74b6b7/neues-foerderpaket-fuer-schulen-das-sind-20-milliarden-euro-die-an-4000-schulen-in-herausfordernder-lage-gehen.html",
-        "https://www.welt.de/vermischtes/article6a02fb13453b15e119075fdc/15-punkte-im-jura-examen-warum-dieser-spitzenstudent-seine-note-anfocht.html",
-        "https://www.welt.de/videos/video6a1559903b7096456ac82b0f/brennpunkt-schulen-30-prozent-der-kinder-sprechen-kein-wort-deutsch.html"
+        "https://www.welt.de/vermischtes/article6a183b30d1e7d2dae635f9a0/smartphone-entzuendet-sich-ploetzlich-in-grundschule-acht-verletzte.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "realization",
           "count": 1
         },
         {
@@ -99,6 +99,39 @@
         },
         {
           "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 22,
+      "sample_titles": [
+        "Ministerin Dorothee Bär zweifelt an baldiger Bafög-Reform",
+        "Newel-Butzweiler: Smartphone entzündet sich in Grundschule selbst – acht Verletzte",
+        "Bafög-Reform wackelt: Für Studierende nicht einmal das Allernötigste",
+        "Menschen mit hoher Bildung haben längste Lebensarbeitszeit"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/ministerin-dorothee-baer-zweifelt-an-baldiger-bafoeg-reform-a-c055a7c4-8f86-4a3d-93f2-5d944656159f#ref=rss",
+        "https://www.spiegel.de/panorama/newel-butzweiler-smartphone-entzuendet-sich-in-grundschule-selbst-acht-verletzte-a-5c3ea84f-7ff4-4b96-b99d-7bb087790d1f#ref=rss",
+        "https://www.spiegel.de/start/bafoeg-reform-wackelt-fuer-studierende-nicht-einmal-das-allernoetigste-a-c52d9d07-1071-4585-ac5d-f1a7c7d1177d#ref=rss",
+        "https://www.spiegel.de/wirtschaft/menschen-mit-hoher-bildung-haben-laengste-lebensarbeitszeit-a-f16d2a64-9d51-4cc2-a898-4e002d784711#ref=rss"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -107,17 +140,17 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 21,
+      "article_count": 20,
       "sample_titles": [
+        "Risiken überwiegen: Bildungsexperten für Social Media-Verbot an Grundschulen",
         "Mängel an Gebäuden: Wie sieht der Sanierungsbedarf an Berliner Hochschulen aus?",
         "20 Minuten täglich: An allen Thüringer Grundschulen soll mehr gelesen werden",
-        "Schule und Behinderungen:  Während Eltern verzweifeln, schaut die Politik weg",
         "Ex-Schulleiterin im Interview: \"Die klassischen Schulnoten sind nicht mehr zeitgemäß\""
       ],
       "urls": [
+        "https://www.stern.de/panorama/risiken-ueberwiegen--bildungsexperten-fuer-social-media-verbot-an-grundschulen-37468686.html",
         "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/maengel-an-gebaeuden--wie-sieht-der-sanierungsbedarf-an-berliner-hochschulen-aus--37458452.html",
         "https://www.stern.de/gesellschaft/regional/thueringen/20-minuten-taeglich--an-allen-thueringer-grundschulen-soll-mehr-gelesen-werden-37454596.html",
-        "https://www.stern.de/gesellschaft/schule--als-theo-im-mathe-unterricht-aus-dem-fenster-sprang-37057780.html",
         "https://www.stern.de/gesellschaft/schule-muss-voellig-neu-gedacht-werden---ex-schulleiterin-im-interview-37058200.html"
       ],
       "dominant_emotion": "desire",
@@ -136,55 +169,22 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Bafög-Reform wackelt: Für Studierende nicht einmal das Allernötigste",
-        "Bafög: Studierende kritisieren Spahns Absage an höhere Sätze",
-        "Jens Spahn spricht sich gegen Erhöhung des Bafög aus",
-        "Jura-Staatsexamen: Zwei der besten Studierenden geben Lerntipps - und fordern Reformen"
-      ],
-      "urls": [
-        "https://www.spiegel.de/start/bafoeg-reform-wackelt-fuer-studierende-nicht-einmal-das-allernoetigste-a-c52d9d07-1071-4585-ac5d-f1a7c7d1177d#ref=rss",
-        "https://www.spiegel.de/start/bafoeg-studierende-kritisieren-spahns-absage-an-hoehere-saetze-a-b4a41f00-4952-4830-97fe-ec155e462a79#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/jens-spahn-spricht-sich-gegen-erhoehung-des-bafoegs-aus-a-bcce3e46-0969-4933-aae8-33605b5ea8ed#ref=rss",
-        "https://www.spiegel.de/start/jura-staatsexamen-zwei-der-besten-studierenden-geben-lerntipps-und-fordern-reformen-a-9c1bf02c-c453-4d95-80b1-3f8ec713f19f#ref=rss"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 13,
+      "article_count": 15,
       "sample_titles": [
+        "Sparprogramm in Österreich: Bildung wird zu Grabe getragen",
         "Jugendbildungsprojekt in Weimar: Hier läuft nichts nach Lehrplan",
         "Montessorischule in München: Sie wollen Schule machen",
-        "Report des Deutschen Kinderhilfswerks: Kinder für mehr Mitbestimmung in der Schule",
-        "Bessere Schulkos: Orte ohne Angst"
+        "Report des Deutschen Kinderhilfswerks: Kinder für mehr Mitbestimmung in der Schule"
       ],
       "urls": [
+        "https://taz.de/Sparprogramm-in-Oesterreich/!6182440/",
         "https://taz.de/Jugendbildungsprojekt-in-Weimar/!6176402/",
         "https://taz.de/Montessorischule-in-Muenchen/!6167665/",
-        "https://taz.de/Report-des-Deutschen-Kinderhilfswerks/!6181896/",
-        "https://taz.de/Bessere-Schulkos/!6177908/"
+        "https://taz.de/Report-des-Deutschen-Kinderhilfswerks/!6181896/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -206,18 +206,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 11,
+      "article_count": 12,
       "sample_titles": [
+        "Studium: Dorothee Bär rechnet mit Aus für Bafög-Reform",
         "Gesetzliche Krankenversicherung: Wirtschaftsweiser stellt Beamtenstatus für Lehrkräfte infrage",
         "Schulaufsichtsbeamtin: »Mir geht es mit meinem jetzigen Gehalt unverschämt gut«",
-        "Harvard: Die beste Uni der Welt will die Bestnoten deckeln",
-        "Sozialreformen: Spahn schließt höheres Elterngeld und Bafög aus"
+        "Harvard: Die beste Uni der Welt will die Bestnoten deckeln"
       ],
       "urls": [
+        "https://www.zeit.de/campus/2026-05/bafoeg-reform-dorothee-baer-sparmassnahmen",
         "https://www.zeit.de/gesellschaft/2026-05/lehrer-beamtenstatus-wirtschaftsweiser-achim-truger-krankenkassen",
         "https://www.zeit.de/arbeit/2026-05/schulaufsichtsbeamtin-schule-behoerde-elternzeit-kontoauszug",
-        "https://www.zeit.de/bildung/2026-05/harvard-university-studium-noten-quote-usa",
-        "https://www.zeit.de/politik/deutschland/2026-05/jens-spahn-elterngeld-reformen-bafoeg-koalition-sparen"
+        "https://www.zeit.de/bildung/2026-05/harvard-university-studium-noten-quote-usa"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -241,16 +241,16 @@
       "bias": "far-right",
       "article_count": 11,
       "sample_titles": [
+        "Der Esoterik-Guru Waldorfschulen – Falsche Propheten unterm Regenbogen",
         "JF-Reportage „Unter uns Schülern herrscht Angst“ – Wenn ein Bonner Gymnasium kippt",
         "Nordrhein-Westfalen Wenn Schüler ein „Freudenhaus der sexuellen Lebenslust“ entwerfen sollen",
-        "„Buntstift-Stipendium“ Hessen fördert queere Kinderbücher mit neuem Stipendium",
-        "Kriminalstatistik Ausländische Gewalt ist längst im Klassenzimmer angekommen"
+        "„Buntstift-Stipendium“ Hessen fördert queere Kinderbücher mit neuem Stipendium"
       ],
       "urls": [
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/waldorfschulen-falsche-propheten-unterm-regenbogen/",
         "https://jungefreiheit.de/politik/deutschland/2026/unter-uns-schuelern-herrscht-angst-wenn-ein-bonner-gymnasium-kippt/",
         "https://jungefreiheit.de/politik/deutschland/2026/wenn-schueler-ein-freudenhaus-der-sexuellen-lebenslust-entwerfen-sollen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/hessen-foerdert-queere-kinderbuecher-mit-neuem-stipendium/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/auslaendische-gewalt-ist-laengst-im-klassenzimmer-angekommen/"
+        "https://jungefreiheit.de/politik/deutschland/2026/hessen-foerdert-queere-kinderbuecher-mit-neuem-stipendium/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -264,19 +264,44 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 10,
+      "sample_titles": [
+        "Bundespolitik: Ministerin Bär rechnet nicht mehr mit schneller BAföG-Reform",
+        "Trotz Ausbildungsvertrag in der Pflege: 18-Jähriger nach Gambia abgeschoben",
+        "Schulen in Lettland: Kein Platz für die Sprache des Gegners",
+        "Pflicht bei Abschlussfeiern: An Münchner Schulen hat kaum einer Lust auf die Bayernhymne"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-bafoeg-baer-studierende-deutschland-universitaet-li.3491578",
+        "https://www.sueddeutsche.de/muenchen/erding/flughafen-muenchen-abschiebung-18-jaehriger-li.3491045",
+        "https://www.sueddeutsche.de/politik/lettland-schulen-unterricht-russisch-regierung-lettisch-fremdsprache-li.3482890",
+        "https://www.sueddeutsche.de/muenchen/muenchen-hymnenpflicht-schulen-kritik-folgen-bayernhymne-strafen-li.3479352"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
-        "Leichter zur eigenen Handschrift",
+        "KI bis Medizin: Finale von \"Jugend forscht\"",
         "Bildungssystem-Umfrage: Mehrheit fordert Reformen",
         "Kinderreport: \"Chancengerechte Bildung\"",
         "Abi - und jetzt? Wo sich der Berufseinstieg lohnt"
       ],
       "urls": [
-        "https://www.zdfheute.de/video/heute-in-deutschland/leichter-zur-eigenen-handschrift-100.html",
+        "https://www.zdfheute.de/video/zdfheute-xpress/finale-von-jugend-forscht-wettbewerb-video-100.html",
         "https://www.zdfheute.de/politik/deutschland/bildung-reform-kinder-schule-report-kinderhilfswerk-100.html",
         "https://www.phoenix.de/chancengerechte-bildung-a-5203724.html",
         "https://www.zdfheute.de/panorama/xplained-mirko-drotschmann-berufseinstieg-arbeitsmarkt-100.html"
@@ -285,59 +310,10 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Schulen in Lettland: Kein Platz für die Sprache des Gegners",
-        "Gelände abgeriegelt: Polizeieinsatz nach Drohung gegen Dachauer Schule",
-        "Umweltbildung: Jugend ohne Natur",
-        "Demokratieprojekt an Schulen: „Die Politik könnte Kinder mehr berücksichtigen“"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/lettland-schulen-unterricht-russisch-regierung-lettisch-fremdsprache-li.3482890",
-        "https://www.sueddeutsche.de/muenchen/dachau/dachau-sued-grund-und-mittelschule-gewalttat-polizei-sperrung-polizei-li.3486532",
-        "https://www.sueddeutsche.de/muenchen/wolfratshausen/naturerfahrung-jugend-digitale-medien-benediktbeuern-influencer-li.3478297",
-        "https://www.sueddeutsche.de/bayern/politische-bildung-demokratie-detektive-christian-ernst-gymnasium-erlangen-landtag-bayern-li.3482698"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Koalition: Die Zögerlichkeit der Karin Prien – Ministerin lässt eine weitere Frist verstreichen",
-        "Daniel Stelter: Warum das deutsche Bildungsdesaster gestoppt werden muss",
-        "Kommentar: Unternehmen sparen bei Weiterbildung an der falschen Stelle",
-        "Technologie: „Internationale Leuchttürme schaffen“ – Bund will Regionen mit Spitzenforschung gezielt fördern"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/koalition-ministerin-prien-laesst-eine-weitere-frist-verstreichen/100228583.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-warum-das-deutsche-bildungsdesaster-gestoppt-werden-muss/100227609.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-unternehmen-sparen-an-der-falschen-stelle/100224381.html",
-        "https://www.handelsblatt.com/politik/deutschland/technologie-bund-will-regionen-mit-spitzenforschung-gezielt-foerdern/100222600.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -348,13 +324,13 @@
       "bias": "populist-mixed",
       "article_count": 5,
       "sample_titles": [
-        "Bildungszentren in München und Leipzig - Yad Vashem kommt nach Deutschland",
+        "Französische Grundschule - Ohnmacht und Erbrechen bei 54 Grad im Klassenzimmer",
         "Wirtschaftsweiser fordert - Lehrer nicht mehr automatisch verbeamten!",
         "Im Sexualkunde-Unterricht - Achtklässler sollen „Puff für alle“ entwerfen",
         "Skandal an Bielefelder Gymnasium - Seelsorger vergleicht Abtreibung mit dem Holocaust"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/yad-vashem-kommt-nach-deutschland-bildungszentren-in-muenchen-und-leipzig-6a16d7a479c1a3c47cfa5ea9",
+        "https://www.bild.de/news/ausland/hitzewelle-54-grad-schueler-erbrechen-und-fallen-in-ohnmacht-6a193469bf5b78f90d007908",
         "https://www.bild.de/politik/inland/wirtschaftsweiser-lehrer-sollen-nicht-mehr-automatisch-beamte-werden-6a14051ef1c0dd3f2e7d44a1",
         "https://www.bild.de/regional/nordrhein-westfalen/sexualkunde-in-kevelaer-achtklaessler-sollen-puff-fuer-alle-entwerfen-69fafaccc6d2944c8df697ae",
         "https://www.bild.de/regional/nordrhein-westfalen/bielefeld-seelsorger-vergleicht-abtreibung-mit-dem-holocaust-6a0f204aa896ebf1b49e8ff6"
@@ -367,30 +343,58 @@
         }
       ]
     },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Die übersehenen Mädchen? Weshalb vor allem Knaben die Diagnose Autismus erhalten",
+        "DER ANDERE BLICK - Deutsche Hochschulen brauchen mehr Geld - und vor allem Freiheit",
+        "GASTKOMMENTAR - Übernimmt die KI den Fremdsprachenunterricht? Ja, aber es eröffnet auch Möglichkeiten",
+        "Die Prinzessin und die hundert Sprachen der Kinder: wie Kate Middleton eine italienische Bildungsidee zur königlichen Sache macht"
+      ],
+      "urls": [
+        "https://www.nzz.ch/wissenschaft/spaeter-erkannt-autismus-bei-maedchen-im-fokus-der-wissenschaft-ld.10005641",
+        "https://www.nzz.ch/der-andere-blick/deutsche-hochschulen-brauchen-mehr-geld-und-vor-allem-freiheit-ld.10007949",
+        "https://www.nzz.ch/meinung/uebernimmt-die-ki-den-fremdsprachenunterricht-ja-aber-das-eroeffnet-moeglichkeiten-und-fuehrt-zurueck-zu-humboldt-ld.10006378",
+        "https://www.nzz.ch/panorama/die-prinzessin-und-die-hundert-sprachen-der-kinder-wie-kate-middleton-eine-italienische-bildungsidee-zur-koeniglichen-sache-macht-ld.10007185"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 5,
+      "article_count": 4,
       "sample_titles": [
         "Hendrik Duryn ist \"Der Lehrer\": \"Die Schulpflicht gilt für Schüler, aber auch den Staat\"",
-        "Uni, Museen, Schloss, Brücke: Liste der Sanierungsfälle in Berlin wird immer länger",
         "Dachdecker oder Schornsteinfeger: Handwerkspräsident berichtet von Zulauf bei Azubis",
+        "Erfolgreiche Abschlussprüfung: Lisa Müller freut sich über bestandene Pilotenausbildung",
         "Neue Vorschrift für Abschlussfeiern: Bayern führt ab kommendem Schuljahr Hymnenpflicht ein"
       ],
       "urls": [
         "https://www.n-tv.de/leute/film/Die-Schulpflicht-gilt-fuer-Schueler-aber-auch-den-Staat-id30813783.html",
-        "https://www.n-tv.de/panorama/Liste-der-Sanierungsfaelle-in-Berlin-wird-immer-laenger-id30812249.html",
         "https://www.n-tv.de/wirtschaft/Handwerkspraesident-berichtet-von-Zulauf-bei-Azubis-id30828169.html",
+        "https://www.n-tv.de/leute/Lisa-Mueller-freut-sich-ueber-bestandene-Pilotenausbildung-id30799301.html",
         "https://www.n-tv.de/politik/Bayern-fuehrt-Hymnenpflicht-ab-kommendem-Schuljahr-ein-id30791258.html"
       ],
-      "dominant_emotion": "disgust",
-      "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "tichys": {
       "source_id": "tichys",
@@ -398,41 +402,37 @@
       "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
+        "Berlin: Ukrainische Schülerin wird gemobbt – die Täter stammen aus Syrien und Afghanistan",
         "Schüler der achten Klasse müssen „Puff für alle“ planen",
-        "„Zentrum für politische Schönheit“ schickt Alice-Weidel-Gefängnisbus an Schulen",
-        "Neue Schulstudie: Ideologie statt Fakten"
+        "Noch mehr Plagiate: „Wissenschaftssimulant“ Mario Voigt?"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/syrer-afghane-mobben-ukrainerin/",
         "https://www.tichyseinblick.de/meinungen/gymnasium-kevelaer/",
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/zps-bus-schulen-afd/",
-        "https://www.tichyseinblick.de/meinungen/bildungswesen-studie-ideologie/"
+        "https://www.tichyseinblick.de/daili-es-sentials/noch-mehr-plagiate-mario-voigt/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
       "article_count": 3,
       "sample_titles": [
-        "DER ANDERE BLICK - Deutsche Hochschulen brauchen mehr Geld - und vor allem Freiheit",
-        "GASTKOMMENTAR - Übernimmt die KI den Fremdsprachenunterricht? Ja, aber es eröffnet auch Möglichkeiten",
-        "Die Prinzessin und die hundert Sprachen der Kinder: wie Kate Middleton eine italienische Bildungsidee zur königlichen Sache macht"
+        "Daniel Stelter: Warum das deutsche Bildungsdesaster gestoppt werden muss",
+        "Kommentar: Unternehmen sparen bei Weiterbildung an der falschen Stelle",
+        "Ausbildungsförderung: Verhandlungsmarathon: Wie Union und SPD im Stillen um die Reform des Bafögs rangen"
       ],
       "urls": [
-        "https://www.nzz.ch/der-andere-blick/deutsche-hochschulen-brauchen-mehr-geld-und-vor-allem-freiheit-ld.10007949",
-        "https://www.nzz.ch/meinung/uebernimmt-die-ki-den-fremdsprachenunterricht-ja-aber-das-eroeffnet-moeglichkeiten-und-fuehrt-zurueck-zu-humboldt-ld.10006378",
-        "https://www.nzz.ch/panorama/die-prinzessin-und-die-hundert-sprachen-der-kinder-wie-kate-middleton-eine-italienische-bildungsidee-zur-koeniglichen-sache-macht-ld.10007185"
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-warum-das-deutsche-bildungsdesaster-gestoppt-werden-muss/100227609.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-unternehmen-sparen-an-der-falschen-stelle/100224381.html",
+        "https://www.handelsblatt.com/politik/deutschland/koalition-wie-union-und-spd-im-stillen-um-die-reform-des-bafoegs-rangen/100221376.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -444,12 +444,12 @@
       "article_count": 3,
       "sample_titles": [
         "Wie eine bildungsfremde Generation Deutschland prägen wird",
-        "Die alten Ägypter wären heute an deutschen Schulen weit unterfordert",
+        "Anleitung zum Analverkehr für zwölfjährige Schüler",
         "Freiwillig, aber für alle!"
       ],
       "urls": [
         "https://www.achgut.com/artikel/wie_eine_bildungsfremde_generation_deutschland_praegen_wird",
-        "https://www.achgut.com/artikel/die_alten_aegypter_waeren_heute_an_deutschen_schulen_weit_unterfordert",
+        "https://www.achgut.com/artikel/anleitung_zum_analverkehr_fuer_zwoelfjaehrige_schueler",
         "https://www.achgut.com/artikel/freiwillig_aber_fuer_alle"
       ],
       "dominant_emotion": "optimism",
@@ -497,16 +497,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 29,
-    "neutral": 70,
-    "conservative-liberal": 31,
-    "economic-liberal": 5,
-    "left-liberal": 60,
+    "right-conservative": 31,
+    "conservative-liberal": 37,
+    "left-liberal": 64,
+    "neutral": 75,
     "populist-mixed": 5,
-    "left": 13,
-    "far-right": 17
+    "left": 15,
+    "far-right": 17,
+    "economic-liberal": 3
   },
-  "shared_perspectives": "Across the German media spectrum, from conservative to left-liberal outlets, there is a striking consensus that the German education system faces a fundamental resource and capacity crisis—whether framed as insufficient school infrastructure investment, teacher shortages, inadequate BAföG support, or systemic underfunding. Even where political outlets differ sharply in their explanations (blaming state inefficiency versus austerity policies versus misaligned priorities), they uniformly document a system under acute strain across all levels from kindergarten to higher education. A second major area of agreement concerns the tension between competing social demands on schools: whether discussed as integration challenges, inclusion obligations, security concerns, or pedagogical modernization, the media consensus reflects that German schools are expected to solve multiple societal problems simultaneously—language education, disability integration, behavioral management, and digital transformation—without the corresponding resources or systemic clarity to achieve these goals effectively.",
-  "controversial_points": "Der Mediendiskurs spaltet sich fundamental in zwei konkurrierende Gerechtigkeitskonzepte: Während progressive und linke Medien Bildung als universales Recht verstehen, das durch massive öffentliche Investitionen und strukturelle Inklusion (Ganztagsschulen, Digitalisierung, Inklusion von Behinderten) gewährleistet werden muss, definieren konservative und wirtschaftsliberale Medien Bildungsgerechtigkeit primär durch Leistungsmeritokratie und warnen vor einer „Absenkung von Standards\" — hier manifestiert sich ein grundlegender Streit über die Frage, ob Bildungsprobleme durch Ressourcenmangel oder durch zu wenig Fokus auf Leistungsanforderungen entstehen. Der zweite Konflikt betrifft die Verursachung von Schulproblemen: Die rechte und populistische Publizistik attributiert Schulgewalt, Unterrichtsausfälle und Disziplinarprobleme primär Migrationshintergrund und „Kulturkonflikt\" zu, während linke und liberale Medien dieselben Symptome auf Unterfinanzierung, fehlende Sozialarbeit und Inklusionsmängel zurückführen — dies sind nicht verschiedene Interpretationen desselben Faktors, sondern gegensätzliche Kausalnarrative, die völlig unterschiedliche Lösungserwartungen produzieren. Ein dritter struktureller Konflikt trennt die Medienlandschaft entlang der Frage von staatlicher versus privatwirtschaftlicher Verantwortung: Während wirtschaftsliberale Medien Unternehmen als Lückenfüller und Effizienzbringer darstellen und öffentliche Unterfinanzierung als unvermeidbar legitimieren, betrachten progressive Medien jede private Beteiligung als Symptom staatlichen Versagens und als Gefährdung von Chancengleichheit — hier zeigt sich ein tieferer Dissens über die N",
-  "cached_at": "2026-05-30T07:22:16.217906"
+  "shared_perspectives": "# Medienübergreifende Konsens im deutschen Bildungsdiskurs\n\nUnabhängig von politischer Ausrichtung wird das deutsche Bildungssystem als in einer strukturellen Krise befindlich dargestellt, die sich in maroden Schulgebäuden, Lehrkräftemangel und unzureichender Finanzierung manifestiert — dabei dienen konkrete Schadensfälle wie Hitzekollapse oder Sanierungsmängel als Evidenz für Systemversagen, das über parteipolitische Grenzen hinweg kritisiert wird. Eine zweite erkennbare Übereinstimmung besteht in der Prämisse, dass staatliche Sparzwänge bildungspolitische Reformvorhaben blockieren, weshalb sowohl konservative als auch linke und wirtschaftsliberale Medien die gescheiterte BAföG-Reform als Symptom unzureichender öffentlicher Mittelbereitstellung interpretieren. Drittens herrscht across the political spectrum Einigkeit darüber, dass neue Technologien (KI, Social Media, Digitalisierung) in Schulen und Hochschulen als Regulierungsproblem wahrgenommen werden, das entweder durch Verbote, pädagogische Kontrolle oder innovative Anpassung gelöst werden muss — nicht jedoch durch deren grundsätzliche Ignoranz.",
+  "controversial_points": "Der zentrale Konflikt liegt zwischen zwei konkurrierenden Legitimationssystemen: Während die konservativ-liberale und wirtschaftsliberale Perspektive Bildung primär als individuelle Aufstiegschance und Beitrag zur Wirtschaftsleistung rahmt (woraus Sparmaßnahmen und reduzierte staatliche Förderung folgen), insistiert die linke und linksorbital positionierte Debatte auf Bildung als Verteilungsgerechtigkeit und öffentliches Gestaltungsrecht, das unabhängig von ökonomischem Verwertungsinteresse zu finanzieren ist — diese Konfliktlinie offenbart sich konkret bei jedem BAföG-Debakel und den Schulfinanzierungsdiskussionen wieder. Ein zweiter struktureller Bruch trennt eine \"Leistungslogik\" von einer \"Inklusionslogik\": Die rechts der Mitte positionierte Berichterstattung fokussiert auf Defizite, Unterrichtsausfälle, Deutschdefizite von Schülern und die problematische Modernisierung (KI-Cheating, TikTok-Gefahren), während linke und progressive Perspektiven diese Probleme aus strukturell benachteiligten Rahmenbedingungen erklären und nach Ressourcenumverteilung und erweiterter Teilhabe fragen. Die dritte Trennlinie betrifft das Verständnis von \"Bildung an sich\": Während die gesellschaftspolitische Linke Bildung als Emanzipationsprozess und Befähigung zu selbstbestimmtem Leben konzeptualisiert (Glück als Schulfach, Mitbestimmung, demokratische Partizipation), fasst die ökonomisch-konservative Perspektive sie primär als Humankapitalproduktion und effizienzoptimierbare Systemleistung — ein Gegensatz, der die disparaten Reaktionen auf dieselben politischen Reformvorhaben erklärt.",
+  "cached_at": "2026-05-31T08:04:36.501750"
 }

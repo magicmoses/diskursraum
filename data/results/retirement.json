@@ -1,47 +1,14 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 136,
-  "candidate_count": 255,
+  "article_count": 131,
+  "candidate_count": 259,
   "outlets": {
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 21,
-      "sample_titles": [
-        "Heute Parteitag in Berlin - FDP will festes Rentenalter abschaffen",
-        "Arbeiten bis 70, Erhöhungen, Beamte - Das denken die Deutschen über die Rente",
-        "Rente im EU-Vergleich - Darum können unsere Nachbarn früher in die Rente",
-        "Rentenstreit um „Zweiklassensystem“ - So ungerecht ist das mit den Pensionen!"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/heute-parteitag-in-berlin-fdp-will-festes-rentenalter-abschaffen-6a17032e074b8cc92f728797",
-        "https://www.bild.de/politik/rente-alarmiert-mehrheit-lehnt-laengeres-arbeiten-ab-rentenkommission-unter-druck-6a1584423b7096456ac82f7a",
-        "https://www.bild.de/politik/inland/rente-im-vergleich-warum-koennen-unsere-nachbarn-frueher-in-ruhestand-6a0edcf8f0f7eb608db79254",
-        "https://www.bild.de/politik/inland/rentenstreit-so-ungerecht-ist-das-mit-den-pensionen-6a1079d8ab04a3614e220475"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 20,
+      "article_count": 19,
       "sample_titles": [
         "„Das Sozialsystem reißt eine Lücke in die öffentlichen Finanzen“",
         "„Wir haben ein Potpourri an Erhöhungen und wir machen nicht die Reformen, die nötig wären“",
@@ -70,35 +37,97 @@
         }
       ]
     },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 17,
+      "sample_titles": [
+        "Tipps sind sofort umsetzbar - 50 geniale Tricks für eine bessere Rente!",
+        "Heute Parteitag in Berlin - FDP will festes Rentenalter abschaffen",
+        "Arbeiten bis 70, Erhöhungen, Beamte - Das denken die Deutschen über die Rente",
+        "Rente im EU-Vergleich - Darum können unsere Nachbarn früher in die Rente"
+      ],
+      "urls": [
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/rente-erhoehen-50-legale-tipps-fuer-mehr-geld-im-alter-6a0eb5143b7096456ac7e024",
+        "https://www.bild.de/politik/inland/heute-parteitag-in-berlin-fdp-will-festes-rentenalter-abschaffen-6a17032e074b8cc92f728797",
+        "https://www.bild.de/politik/rente-alarmiert-mehrheit-lehnt-laengeres-arbeiten-ab-rentenkommission-unter-druck-6a1584423b7096456ac82f7a",
+        "https://www.bild.de/politik/inland/rente-im-vergleich-warum-koennen-unsere-nachbarn-frueher-in-ruhestand-6a0edcf8f0f7eb608db79254"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 18,
+      "article_count": 16,
       "sample_titles": [
-        "Rentenreform: Nehmt den Männern ihr Rollenverständnis weg!",
-        "Rentenreform: Nehmt den Männern ihr Rollenverständnis weg!",
         "debatte um Reformen: Wer keine Kinder hat, sollte weniger Rente bekommen",
-        "Vorsorge für den Ruhestand: Die Reform der Riester-Rente ist gut, greift aber zu kurz"
+        "Vorsorge für den Ruhestand: Die Reform der Riester-Rente ist gut, greift aber zu kurz",
+        "Deutschland-Liveblog: Reiche fordert Stopp von Frühverrentungsprogrammen",
+        "Reform der Alterssicherung: Weniger als 1000 Euro Rente, aber alles andere als arm"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/debatten/rentenreform-nehmt-den-maennern-ihr-rollenverstaendnis-weg-accg-200876559.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/rentenreform-darf-nicht-zu-lasten-der-frauen-gehen-accg-200876559.html",
         "https://www.faz.net/aktuell/feuilleton/debatten/reformdebatte-wer-keine-kinder-hat-sollte-weniger-rente-bekommen-200870074.html",
-        "https://www.faz.net/aktuell/wirtschaft/die-reform-der-riesterrente-ist-gut-greift-aber-zu-kurz-200857270.html"
+        "https://www.faz.net/aktuell/wirtschaft/die-reform-der-riesterrente-ist-gut-greift-aber-zu-kurz-200857270.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-reiche-fordert-stopp-von-fruehverrentungsprogrammen-faz-110093143.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/weniger-als-1000-euro-rente-aber-alles-andere-als-arm-200836192.html"
       ],
-      "dominant_emotion": "anger",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "anger",
-          "count": 2
-        },
-        {
           "emotion": "admiration",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 14,
+      "sample_titles": [
+        "Nur bis 31. Dezember möglich: Altersvorsorgereform: Jetzt noch schnell Riester sichern?",
+        "Verschenkte Alternativen: Wenn wir so weitermachen, ist die Rente mit 70 unausweichlich",
+        "RTL/ntv-Trendbarometer zur Rente : Beamte sollen in Rentenkasse, jeder Fünfte offen für Arbeit bis 70",
+        "Reform der Altersversorgung : JU-Vorsitzender will auch bei Beamtenpensionen sparen"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Altersvorsorgereform-Jetzt-noch-schnell-Riester-sichern-id30845441.html",
+        "https://www.n-tv.de/wirtschaft/Wenn-wir-so-weitermachen-ist-die-Rente-mit-70-unausweichlich-id30858703.html",
+        "https://www.n-tv.de/politik/Beamte-sollen-in-Rentenkasse-jeder-Fuenfte-offen-fuer-Arbeit-bis-70-id30858163.html",
+        "https://www.n-tv.de/politik/JU-Vorsitzender-will-auch-bei-Beamtenpensionen-sparen-id30856102.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -107,7 +136,7 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 14,
+      "article_count": 13,
       "sample_titles": [
         "Senioren: Zählt das Pflegegeld als Einkommen zur Rente?",
         "Steuern und Sozialabgaben: 1900 Euro Rente: Wie viel zieht die Rentenkasse ab?",
@@ -129,35 +158,6 @@
         {
           "emotion": "optimism",
           "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 13,
-      "sample_titles": [
-        "Nur bis 31. Dezember möglich: Altersvorsorgereform: Jetzt noch schnell Riester sichern?",
-        "RTL/ntv-Trendbarometer zur Rente : Beamte sollen in Rentenkasse, jeder Fünfte offen für Arbeit bis 70",
-        "Reform der Altersversorgung : JU-Vorsitzender will auch bei Beamtenpensionen sparen",
-        "Iran in \"Stars and Stripes\": Trump schielt weiter auf Grönland"
-      ],
-      "urls": [
-        "https://www.n-tv.de/ratgeber/Altersvorsorgereform-Jetzt-noch-schnell-Riester-sichern-id30845441.html",
-        "https://www.n-tv.de/politik/Beamte-sollen-in-Rentenkasse-jeder-Fuenfte-offen-fuer-Arbeit-bis-70-id30858163.html",
-        "https://www.n-tv.de/politik/JU-Vorsitzender-will-auch-bei-Beamtenpensionen-sparen-id30856102.html",
-        "https://www.n-tv.de/politik/Trump-schielt-weiter-auf-Groenland-id30852954.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
         },
         {
           "emotion": "curiosity",
@@ -191,6 +191,10 @@
         {
           "emotion": "admiration",
           "count": 1
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
         }
       ]
     },
@@ -198,18 +202,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 9,
+      "article_count": 8,
       "sample_titles": [
-        "Weniger Geld und länger arbeiten?",
         "Gen Z, Millenials und die Rente: Wie groß ist die Gefahr der Altersarmut?",
         "Rente mit 70?, SpaceX-Börsengang, WM-Kader",
-        "Rente mit 70? Worum es in der Debatte geht"
+        "Rente mit 70? Worum es in der Debatte geht",
+        "Spekulationen: Kommt die Rente mit 70?"
       ],
       "urls": [
-        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/rente-mit-70-100.html",
         "https://www.swr.de/swraktuell/rheinland-pfalz/gen-z-millenials-und-die-rente-sorgen-und-tipps-100.html",
         "https://www.tagesschau.de/multimedia/podcast/15-minuten/podcast-15minuten-rente-space-x-wm-kader-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/renteneinstieg-alter-ueberblick-100.html"
+        "https://www.tagesschau.de/inland/innenpolitik/renteneinstieg-alter-ueberblick-100.html",
+        "https://www1.wdr.de/politik/rente-mit-70-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -218,11 +222,40 @@
           "count": 2
         },
         {
-          "emotion": "optimism",
+          "emotion": "excitement",
           "count": 1
         },
         {
-          "emotion": "excitement",
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 7,
+      "sample_titles": [
+        "Achim Truger: »Es gibt keinen Grund, ausgerechnet bei Pflege und Rente zu kürzen«",
+        "Frührente: Da will man schon aus Trotz früher in Rente",
+        "Katherina Reiche: Bundeswirtschaftsministerin will Stopp von Frühverrentungsprogrammen",
+        "Absenkung des Rentenniveaus: Was bedeutet ein niedrigeres Rentenniveau für mich?"
+      ],
+      "urls": [
+        "https://www.zeit.de/wirtschaft/2026-05/achim-truger-sozialstaat-rentenreform-pflegereform-altersarmut",
+        "https://www.zeit.de/arbeit/2026-05/fruehrente-abschaffung-ruhestand-katherina-reiche",
+        "https://www.zeit.de/wirtschaft/2026-05/katherina-reiche-wirtschaftsministerin-fruehverrentung-rente",
+        "https://www.zeit.de/wirtschaft/2026-05/absenkung-rentenniveau-steuer-sparen-rentenhoehe-beitraege"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -252,50 +285,29 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Achim Truger: »Es gibt keinen Grund, ausgerechnet bei Pflege und Rente zu kürzen«",
-        "Katherina Reiche: Bundeswirtschaftsministerin will Stopp von Frühverrentungsprogrammen",
-        "Absenkung des Rentenniveaus: Was bedeutet ein niedrigeres Rentenniveau für mich?",
-        "Debatte um Reformen: Arbeitgeberpräsident fordert mehr Reformbereitschaft von der SPD"
-      ],
-      "urls": [
-        "https://www.zeit.de/wirtschaft/2026-05/achim-truger-sozialstaat-rentenreform-pflegereform-altersarmut",
-        "https://www.zeit.de/wirtschaft/2026-05/katherina-reiche-wirtschaftsministerin-fruehverrentung-rente",
-        "https://www.zeit.de/wirtschaft/2026-05/absenkung-rentenniveau-steuer-sparen-rentenhoehe-beitraege",
-        "https://www.zeit.de/politik/deutschland/2026-05/rainer-dulger-arbeitgeberpraesident-reform-spd-gewerkschaften"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 7,
       "sample_titles": [
         "Rente, Pflege, Gesundheit: So wollen die Wirtschaftsweisen den Sozialstaat stutzen",
+        "Altersvorsorge für Kinder: So machen Sie Ihren Nachwuchs zum Millionär",
         "Katherina Reiche: Wirtschaftsministerin fordert Stopp der Frühverrentung",
-        "Rente: Ökonom Jens Südekum fordert späteren Ruhestand für Akademiker",
-        "Altersvorsorgedepot-Rechner: So viel Geld schenkt Ihnen der Staat für Ihren ETF-Sparplan"
+        "Rente: Ökonom Jens Südekum fordert späteren Ruhestand für Akademiker"
       ],
       "urls": [
         "https://www.spiegel.de/wirtschaft/rente-pflege-gesundheit-so-wollen-die-wirtschaftsweisen-den-sozialstaat-stutzen-a-e07fd756-f67b-4352-a15c-a95ab06e8059#ref=rss",
+        "https://www.spiegel.de/wirtschaft/service/altersvorsorge-fuer-kinder-so-machen-sie-ihren-nachwuchs-zum-millionaer-a-86942242-af84-4806-a740-5712df261d13#ref=rss",
         "https://www.spiegel.de/wirtschaft/katherina-reiche-wirtschaftsministerin-fordert-stopp-der-fruehverrentung-a-1431dcba-6f19-4bbd-ac28-3814c1a9fafc#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rente-oekonom-jens-suedekum-fordert-spaeteren-ruhestand-fuer-akademiker-a-4135ecc6-13f9-46d8-91f1-10b01098f630#ref=rss",
-        "https://www.spiegel.de/wirtschaft/service/altersvorsorgedepot-rechner-so-viel-geld-schenkt-ihnen-der-staat-fuer-ihren-etf-sparplan-a-782bcc1f-cf9d-4468-ab04-421810785453#ref=rss"
+        "https://www.spiegel.de/wirtschaft/soziales/rente-oekonom-jens-suedekum-fordert-spaeteren-ruhestand-fuer-akademiker-a-4135ecc6-13f9-46d8-91f1-10b01098f630#ref=rss"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
         {
           "emotion": "curiosity",
           "count": 1
@@ -310,18 +322,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 5,
+      "article_count": 4,
       "sample_titles": [
         "Individualismus vs. Solidarität: Wie viel Sozialstaat können wir uns noch leisten?",
-        "Geschichte der Ketzer: Die Brüder von Jesus Christus",
         "Angeblicher Rentenplan: Massive Kritik an ungeplanter Rente mit 70",
-        "Film „Der Mandalorian und Grogu“: Baby Yoda für die Rentenversicherung"
+        "Film „Der Mandalorian und Grogu“: Baby Yoda für die Rentenversicherung",
+        "Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher"
       ],
       "urls": [
         "https://taz.de/Individualismus-vs-Solidaritaet/!6182404/",
-        "https://taz.de/Geschichte-der-Ketzer/!6174309/",
         "https://taz.de/Angeblicher-Rentenplan/!6180999/",
-        "https://taz.de/Der-Mandalorian-und-Grogu-Zusammengeklaute-Szenen-und-viel-ungenutztes-Potenzial/!6179438/"
+        "https://taz.de/Der-Mandalorian-und-Grogu-Zusammengeklaute-Szenen-und-viel-ungenutztes-Potenzial/!6179438/",
+        "https://taz.de/Hoeheres-Rentenalter/!6175381/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -342,6 +354,22 @@
         "https://jungefreiheit.de/politik/deutschland/2026/wird-das-renteneintrittsalter-auf-70-jahre-erhoeht/",
         "https://jungefreiheit.de/politik/ausland/2026/spanien-stopft-rentenloecher-mit-deutschen-eu-geldern/",
         "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "Die neue Renten-Show: Ausrede für höhere Steuern",
+        "BioNTech will Standorte in Deutschland schließen: Bis zu 1.860 Jobs betroffen"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/tichys-einblick/rente-show-ausrede-hoehere-steuern/",
+        "https://www.tichyseinblick.de/wirtschaft/biontech-standorte-deutschland/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -380,16 +408,16 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 21,
-    "conservative-liberal": 20,
-    "left": 5,
+    "populist-mixed": 17,
+    "left": 4,
     "economic-liberal": 9,
-    "left-liberal": 28,
-    "neutral": 16,
+    "left-liberal": 29,
+    "neutral": 15,
     "right-conservative": 33,
-    "far-right": 4
+    "far-right": 6,
+    "conservative-liberal": 18
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle System reformbedürftig ist und dass der demographische Wandel eine große Herausforderung für die Finanzierbarkeit der gesetzlichen Rentenversicherung darstellt. Darüber hinaus wird vielfach betont, dass die Riester-Rente und andere Formen der kapitalgedeckten Vorsorge wichtige Bausteine für eine nachhaltige Altersvorsorge sein können, jedoch auch Kritik an der Umsetzung und der Reichweite dieser Reformen geäußert wird. Die Debatte um das Renteneintrittsalter, insbesondere die Frage, ob das Rentenalter auf 70 Jahre erhöht werden sollte, ist ein weiterer zentraler Punkt, bei dem sich eine Übereinstimmung in der Notwendigkeit einer Diskussion und einer möglichen Anpassung zeigt, jedoch mit unterschiedlichen Meinungen zu den Details und den Auswirkungen einer solchen Reform.",
-  "controversial_points": "Der deutsche Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt eine tiefe Konfliktlinie zwischen den Befürwortern einer solidarischen, staatlich finanzierten Rentenversicherung und den Anhängern einer kapitalgedeckten Vorsorge, die auf individuelle Verantwortung und private Altersvorsorge setzt. Eine weitere Spannungslinie verläuft zwischen denjenigen, die eine Anhebung des Renteneintrittsalters als notwendige Reform sehen, um die Finanzierbarkeit des Systems zu gewährleisten, und denjenigen, die eine solche Maßnahme als ungerecht und als Angriff auf die soziale Sicherheit der älteren Generationen betrachten. Die Debatte um die Generationengerechtigkeit und die Verteilung der Lasten zwischen den Generationen bildet einen weiteren zentralen Konfliktbereich, in dem sich unterschiedliche Weltbilder und Wertepräferenzen widerspiegeln.",
-  "cached_at": "2026-05-30T07:16:25.677149"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass der demographische Wandel eine große Herausforderung für die Finanzierbarkeit der gesetzlichen Rentenversicherung darstellt. Darüber hinaus wird von vielen Medien die Notwendigkeit betont, individuelle Vorsorge und kapitalgedeckte Altersvorsorge zu fördern, um die Altersarmut zu vermeiden und die Generationengerechtigkeit zu gewährleisten. Die Debatte um das Renteneintrittsalter, insbesondere die Frage, ob das Rentenalter auf 70 Jahre erhöht werden sollte, ist ein weiteres zentrales Thema, das im Mediendiskurs kontrovers diskutiert wird.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer solidarischen, staatlich finanzierten Rentenversicherung und den Anhängern einer individualisierten, kapitalgedeckten Vorsorge, wobei die erstere Gruppe vor allem von linken und linken-liberalen Medien vertreten wird, während die letztere Gruppe von wirtschaftsliberalen und konservativen Medien unterstützt wird. Eine weitere Spannungslinie verläuft zwischen den Generationen, da jüngere Menschen oft befürchten, dass sie für die Renten der älteren Generationen aufkommen müssen, während ältere Menschen um die Sicherung ihrer Rentenansprüche bangen, was zu einer Debatte um Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung führt. Die Debatte um das Renteneintrittsalter und die Frage, ob Menschen länger arbeiten sollten, um die Finanzierbarkeit des Rentensystems zu sichern, bildet eine weitere Konfliktlinie, die von verschiedenen politischen Lagern unterschiedlich bewertet wird.",
+  "cached_at": "2026-05-31T07:58:54.984593"
 }
