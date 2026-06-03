@@ -1,28 +1,32 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 142,
-  "candidate_count": 353,
+  "article_count": 203,
+  "candidate_count": 430,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 34,
+      "article_count": 37,
       "sample_titles": [
-        "AfD in Mecklenburg-Vorpommern will „eigene Grenz- und Rückführungspolizei“",
-        "AfD will Aufnahmestopp für Asylbewerber in Berlin",
-        "„AfD hätte gerne Bett-Brot-Seife-Prinzip, wenn es um Asylbewerber geht“",
-        "„Humanitäre Kontingentlösung“ – Unions-Migrationsbeauftragter fordert Obergrenze"
+        "Brüssel sieht deutsche Grenzkontrollen nicht genug begründet",
+        "Wer „Asyl“ sagt, darf bleiben? Damit ist es nun vorbei",
+        "„Wir brauchen ein Mittel, dass sich Menschen überhaupt nicht mehr auf den Weg machen“",
+        "Asylerstanträge im Mai auf Tiefstand – viele Folgeanträge von Afghaninnen"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a1b4838411d40cd4c74ced9/parteitag-afd-in-mecklenburg-vorpommern-will-eigene-grenz-und-rueckfuehrungspolizei.html",
-        "https://www.welt.de/politik/deutschland/article6a1aecf2411d40cd4c74cb76/afd-will-aufnahmestopp-fuer-asylbewerber-in-berlin.html",
-        "https://www.welt.de/videos/video6a1ab9cf411d40cd4c74c8a5/parteitag-in-grimmen-afd-haette-gerne-bett-brot-seife-prinzip-wenn-es-um-asylbewerber-geht.html",
-        "https://www.welt.de/politik/ausland/article6a19b14493307d29345919c7/geas-humanitaere-kontingentloesung-unions-migrationsbeauftragter-fordert-obergrenze.html"
+        "https://www.welt.de/politik/deutschland/article6a1efdf205ded2d2570e8c17/eu-kommission-bruessel-sieht-deutsche-grenzkontrollen-nicht-genug-begruendet.html",
+        "https://www.welt.de/debatte/plus6a1e85534270395c56b7f3ef/drittstaatenloesung-wer-asyl-sagt-darf-bleiben-damit-ist-es-nun-vorbei.html",
+        "https://www.welt.de/videos/video6a1ed9ec4270395c56b7fd76/eu-return-hubs-wir-brauchen-ein-mittel-dass-sich-menschen-ueberhaupt-nicht-mehr-auf-den-weg-machen.html",
+        "https://www.welt.de/politik/deutschland/article6a1d38e0fbaeffae77069311/laut-bundesinnenministerium-asylerstantraege-im-mai-auf-tiefstand-viele-folgeantraege-von-afghaninnen.html"
       ],
-      "dominant_emotion": "surprise",
+      "dominant_emotion": "anger",
       "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        },
         {
           "emotion": "surprise",
           "count": 1
@@ -37,18 +41,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 21,
+      "article_count": 25,
       "sample_titles": [
+        "Migrationspolitik AfD-Erfolg im EU-Parlament wirkt in Brüssel weiter",
+        "Statistisches Bundesamt Über eine Million Migranten sind 2025 nach Deutschland gekommen",
         "Neue Migrationswelle Nach Leistungskürzung: Polens Ukrainer ziehen weiter nach Deutschland",
-        "Antrag im Bundestag Linkspartei fordert Wahlrecht für Ausländer",
-        "Rückführungszentren Deutschland will Migranten noch dieses Jahr außerhalb der EU abschieben",
-        "Scharfe Kritik an Schwarz-Rot Özdemir: Bundesregierung betreibt „AfD-Förderprogramm“"
+        "Antrag im Bundestag Linkspartei fordert Wahlrecht für Ausländer"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/ausland/2026/afd-erfolg-im-eu-parlament-wirkt-in-bruessel-weiter/",
+        "https://jungefreiheit.de/politik/deutschland/2026/ueber-eine-million-migranten-sind-nach-deutschland-gekommen/",
         "https://jungefreiheit.de/politik/deutschland/2026/nach-leistungskuerzung-polens-ukrainer-ziehen-weiter-nach-deutschland/",
-        "https://jungefreiheit.de/politik/deutschland/2026/linkspartei-fordert-wahlrecht-fuer-auslaender/",
-        "https://jungefreiheit.de/politik/ausland/2026/deutschland-will-migranten-noch-dieses-jahr-ausserhalb-der-eu-abschieben/",
-        "https://jungefreiheit.de/politik/deutschland/2026/oezdemir-bundesregierung-betreibt-afd-foerderprogramm/"
+        "https://jungefreiheit.de/politik/deutschland/2026/linkspartei-fordert-wahlrecht-fuer-auslaender/"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -66,22 +70,55 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 14,
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 19,
       "sample_titles": [
-        "Migrationspolitik der Bundesregierung: Von Spanien lernen",
-        "Zwei Jahre Bezahlkarte für Geflüchtete: Endlich wieder mehr Solidarität",
-        "Ukraine-Flüchtlinge in Deutschland: Willkommen auf Zeit",
-        "Angriff auf Sea-Watch 5: Wie Libyen Europas Drecksarbeit im Mittelmeer macht"
+        "Lob und Kritik für den verschärften EU-Migrationskurs",
+        "EU empfiehlt Abbau interner Grenzkontrollen",
+        "Landgericht Aachen: Mutmaßlicher Sexualstraftäter klagt gegen Abschiebung",
+        "Weniger Zuwanderung nach Deutschland"
       ],
       "urls": [
-        "https://taz.de/Migrationspolitik-der-Bundesregierung/!6182536/",
-        "https://taz.de/Zwei-Jahre-Bezahlkarte-fuer-Gefluechtete/!6180265/",
-        "https://taz.de/Ukraine-Fluechtlinge-in-Deutschland/!6177342/",
-        "https://taz.de/Angriff-auf-Sea-Watch-5/!6178997/"
+        "https://www.tagesschau.de/ausland/europa/eu-asylpolitik-reaktionen-100.html",
+        "https://www.tagesschau.de/ausland/europa/eu-schengenraum-grenzkontrollen-100.html",
+        "https://www1.wdr.de/nrw/aachen-eifel/kreis-heinsberg/prozess-syrer-klagt-abschiebung-vergewaltigung-100.html",
+        "https://www.tagesschau.de/inland/zuwanderung-deutschland-120.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 17,
+      "sample_titles": [
+        "EU-Einigung zu Abschiebezentren - Klares Signal an Asylbetrüger",
+        "EU-Ja zu Rückführungszentren - Der neue Abschiebeplan",
+        "EU einig - Weg frei für Abschiebezentren in Drittstaaten",
+        "Neue Statistik überrascht - Asyl-Knall! Zahl der Zuwanderer fast halbiert"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/eu-einigung-zu-abschiebezentren-klares-signal-an-asylbetrueger-6a1ef2e1aa3fa782d146f68e",
+        "https://www.bild.de/politik/ausland-und-internationales/eu-einigung-zu-rueckfuehrungszentren-der-neue-abschiebeplan-6a1e89cf4270395c56b7f447",
+        "https://www.bild.de/news/eu-einig-weg-frei-fuer-abschiebezentren-in-drittstaaten-6a1ddb779094951850fa38c5",
+        "https://www.bild.de/politik/inland/fluechtlinge-zuwanderung-nach-deutschland-sinkt-drastisch-6a1d323bfbaeffae7706924e"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -90,44 +127,44 @@
           "count": 1
         },
         {
-          "emotion": "pride",
+          "emotion": "excitement",
           "count": 1
         },
         {
-          "emotion": "remorse",
+          "emotion": "relief",
           "count": 1
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 11,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 16,
       "sample_titles": [
-        "Kein Geld für Kultur und Bildung für neue Geflüchtete",
-        "Migrantische Community hofft auf mehr Teilhabe in Özdemirs Amtszeit",
-        "\"Hoffnungshäuser\" in Schwäbisch Gmünd: Wo Integration plötzlich Heimat wird",
-        "Gemischte Bilanz der Bezahlkarte für Asylbewerber"
+        "Schuld insbesondere bei Dobrindt: Dröge kritisiert \"menschlich kalte Politik\" bei EU-Asylregelung",
+        "Härtere EU-Migrationspolitik: Grüne attackieren Pläne für Abschiebezentren",
+        "Haftdauer steigt auf 30 Monate: EU verschärft Asyl weiter und macht Weg für Abschiebezentren frei",
+        "Strafen und Abschiebezentren: Was abgelehnte Asylbewerber erwartet"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/asylbewerber-leistungen-bverfg-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/cem-oezdemir-migranten-zuversichtlich-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/hoffnungshaeuser-als-gemeinsame-heimat-von-gefluechteten-und-einheimischen-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/bezahlkarte-zwei-jahre-100.html"
+        "https://www.n-tv.de/politik/Droege-kritisiert-menschlich-kalte-Politik-bei-EU-Asylregelung-id30885533.html",
+        "https://www.n-tv.de/politik/Gruene-attackieren-Plaene-fuer-Abschiebezentren-id30884264.html",
+        "https://www.n-tv.de/politik/EU-verschaerft-Asyl-weiter-und-macht-Weg-fuer-Abschiebezentren-frei-id30881168.html",
+        "https://www.n-tv.de/politik/Was-abgelehnte-Asylbewerber-erwartet-id30882080.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
+          "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -136,21 +173,25 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 10,
+      "article_count": 14,
       "sample_titles": [
+        "Nur als „letztes Mittel“: Brüssel dringt auf Aufhebung der deutschen Grenzkontrollen",
+        "EU-Rückführungsverordnung: Brüssel ermöglicht die Abschiebung in Drittstaaten",
         "AfD: Radikalprogramm für Berlin",
-        "„Flucht nach vorne“: Integration endet nicht an der Judomatte",
-        "Rückkehrzentren: Ein Ende des Asyl-Schlupflochs",
-        "Deutschland-Liveblog: Bundesverfassungsgericht billigt gekürzte Asylleistungen"
+        "„Flucht nach vorne“: Integration endet nicht an der Judomatte"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/politik/ausland/bruessel-dringt-auf-aufhebung-deutscher-grenzkontrollen-200892153.html",
+        "https://www.faz.net/aktuell/politik/ausland/eu-ermoeglicht-die-abschiebung-in-drittstaaten-200886442.html",
         "https://www.faz.net/aktuell/politik/inland/afd-in-berlin-will-bezirkspolizei-und-abschiebeoffensive-accg-200879552.html",
-        "https://www.faz.net/aktuell/sport/rhein-main-sport/flucht-nach-vorne-judo-club-wiesbaden-wehrt-sich-gegen-anfeindungen-accg-200868538.html",
-        "https://www.faz.net/aktuell/politik/inland/rueckkehrzentren-loesung-fuer-asyl-schlupfloecher-200868619.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-bundesverfassungsgericht-billigt-gekuerzte-asylleistungen-faz-110093143.html"
+        "https://www.faz.net/aktuell/sport/rhein-main-sport/flucht-nach-vorne-judo-club-wiesbaden-wehrt-sich-gegen-anfeindungen-accg-200868538.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
         {
           "emotion": "optimism",
           "count": 1
@@ -161,21 +202,87 @@
         }
       ]
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 14,
+      "sample_titles": [
+        "Abschiebezentren und härtere Strafen: EU verschärft ihre Migrationspolitik",
+        "Trotz Ukraine-Krieg: Wehrdienst in Russland für Bundesregierung kein Schutzgrund",
+        "Migrationspolitik der Bundesregierung: Von Spanien lernen",
+        "Rechtsradikale Bewegung: Hollands Hassbürgertum"
+      ],
+      "urls": [
+        "https://taz.de/Abschiebezentren-und-haertere-Strafen/!6183569/",
+        "https://taz.de/Trotz-Ukraine-Krieg/!6182924/",
+        "https://taz.de/Migrationspolitik-der-Bundesregierung/!6182536/",
+        "https://taz.de/Rechtsradikale-Bewegung/!6181437/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 13,
+      "sample_titles": [
+        "Migration: EU-Kommission empfiehlt Rücknahme von Binnengrenzkontrollen",
+        "Migration und Asyl: Europäische Union macht Weg für Abschiebezentren in Drittstaaten frei",
+        "Migration: Nettozuwanderung nach Deutschland halbiert sich auf 235.000",
+        "Migrationspolitik: Alexander Dobrindts Grenzkontrollen lassen sich nicht mehr rechtfertigen"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/migration-eu-kommission-empfiehlt-ruecknahme-von-binnengrenzkontrollen-a-531ffce9-ced7-4b68-9e6f-33386bac8986#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/eu-macht-weg-fuer-abschiebezentren-in-drittstaaten-frei-a-4970fc7b-c6d1-466f-88f6-15e21345e132#ref=rss",
+        "https://www.spiegel.de/politik/migration-nettozuwanderung-nach-deutschland-halbiert-sich-auf-235-000-a-8861e97e-23ce-4c2e-8787-2bed0fe0752e#ref=rss",
+        "https://www.spiegel.de/politik/migrationspolitik-alexander-dobrindts-grenzkontrollen-lassen-sich-nicht-mehr-rechtfertigen-a-8baf04aa-5093-4f32-938b-239f4aaf1f0f#ref=rss"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 9,
+      "article_count": 8,
       "sample_titles": [
+        "Péter Magyar wird den Migrationspakt implementieren",
         "Steuer-, Abgaben- und Beitragserhöhungen strangulieren die „Nicht-Migranten“",
         "Einbürgerungs-Rekord: 310.000 neue Deutsche allein 2025",
-        "Das „Einheitsbraun“ von Bärbel Bas",
         "Deutschland wird demographisch umgedreht – und der Staat finanziert es"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/peter-magyar-migrationspakt-eu-gelder/",
         "https://www.tichyseinblick.de/meinungen/steuer-abgaben-und-beitragserhoehungen/",
         "https://www.tichyseinblick.de/daili-es-sentials/rekord-310-000-neue-deutsche/",
-        "https://www.tichyseinblick.de/meinungen/das-einheitsbraun-von-baerbel-bas/",
         "https://www.tichyseinblick.de/daili-es-sentials/deutschland-transformation/"
       ],
       "dominant_emotion": "curiosity",
@@ -187,6 +294,31 @@
         {
           "emotion": "admiration",
           "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 6,
+      "sample_titles": [
+        "Bundespolitik: Brüssel sieht deutsche Grenzkontrollen nicht genug begründet",
+        "Podcast: „Auf den Punkt“: Neue EU-Asylregeln: Europa schottet sich weiter ab",
+        "Abschiebungen: EU setzt abgelehnte Asylbewerber massiv unter Druck",
+        "Sachbuch: Radikale Hoffnung"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-grenzkontrollen-eu-kommission-kritik-li.3491578",
+        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-eu-asyl-asylzentren-li.3492662",
+        "https://www.sueddeutsche.de/politik/eu-asylpolitik-abschiebungen-europa-lager-li.3490587",
+        "https://www.sueddeutsche.de/kultur/volker-m-heins-sichere-haefen-rezension-li.3468404"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
         },
         {
           "emotion": "sadness",
@@ -194,77 +326,56 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 9,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 6,
       "sample_titles": [
-        "Sigmar Gabriel bei Markus Lanz - Gibt es Einwanderung ins Sozialsystem? „Na klar“",
-        "Weiterreise nach Deutschland - Droht eine neue Asyl-Welle aus Spanien?",
-        "Unionspolitiker kontern Bas - „Zuwanderer bringen System an den Rand des Kollaps“",
-        "Stütze-Quote unter Ausländern - Diese Zahlen zeigen den großen Bas-Irrtum"
+        "EU-Rückkehrverordnung: \"Wichtiger Schritt zur Neuordnung der Migrationspolitik\"",
+        "EU macht Weg für Abschiebezentren in Drittstaaten frei",
+        "Wie die EU mehr Abschiebungen erreichen will",
+        "Deutsche Grenzkontrollen nerven Niederländer"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/gabriel-bei-lanz-gibt-es-einwanderung-ins-sozialsystem-na-klar-6a163d1a3b7096456ac83877",
-        "https://www.bild.de/politik/ausland-und-internationales/neue-asyl-welle-aus-spanien-zehntausende-koennten-nach-deutschland-komme-6a0197f9cd4a28c4700236a9",
-        "https://www.bild.de/politik/unionspolitiker-kontern-bas-system-durch-zuwanderung-am-rand-des-kollaps-6a017eb6cd4a28c47002348a",
-        "https://www.bild.de/politik/inland/arbeitslosenquote-unter-auslaendern-diese-zahlen-zeigen-den-irrtum-von-baerbel-bas-6a004859cd4a28c470022763"
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-pressekonferenz-mitfri-a-5206523.html",
+        "https://www.zdfheute.de/politik/ausland/eu-abschiebezentren-drittstaaten-100.html",
+        "https://www.zdfheute.de/politik/ausland/eu-migrationspolitik-wende-100.html",
+        "https://www.zdfheute.de/video/heute-in-europa/deutsche-grenzkontrollen-nerven-niederlaender-100.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "confusion",
-          "count": 1
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 8,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 5,
       "sample_titles": [
-        "Wohnungen \"nicht für Asylanten\": Remigration, Disziplin, Ausgangssperren - AfD malt ihr Bild von Berlin",
-        "Kilmar Abrego Garcia: US-Regierung unterliegt in berühmtem Abschiebefall vor Gericht",
-        "Neue Zahlen zeigen Verhältnisse: Deutsche holen mehr Verwandte aus dem Ausland als Geflüchtete",
-        "Einwanderung ins Sozialsystem: Bas bleibt bei umstrittener Äußerung - und erklärt ihr Motiv"
+        "Ist die Zuwanderung schuld an der Wohnungsnot? Eine Beweisaufnahme",
+        "Verschärfung der Asylpolitik: Brüssel ermöglicht Abschiebezentren in Drittstaaten",
+        "KOMMENTAR - Der Sozialstaat wird zu teuer, doch der Bundesrat macht es sich einfach: Er setzt auf mehr Geld und Zuwanderung",
+        "QUIZ - Arbeitsmigranten, Lasertag und heimlich mitgebrachter Alkohol: Die Metro von Riad führt durch eine Stadt voller Gegensätze"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Remigration-Disziplin-Ausgangssperren-AfD-malt-ihr-Bild-von-Berlin-id30874985.html",
-        "https://www.n-tv.de/politik/Abschiebungen-in-den-USA-Trump-Regierung-verliert-vor-Gericht-id30852086.html",
-        "https://www.n-tv.de/politik/Deutsche-holen-mehr-Verwandte-aus-dem-Ausland-als-Gefluechtete-id30843467.html",
-        "https://www.n-tv.de/politik/Bas-bleibt-bei-umstrittener-Aeusserung-und-erklaert-ihr-Motiv-id30814470.html"
+        "https://www.nzz.ch/wirtschaft/ist-die-zuwanderung-schuld-an-der-wohnungsnot-eine-beweisaufnahme-ld.10007428",
+        "https://www.nzz.ch/international/verschaerfung-der-asylpolitik-bruessel-ermoeglicht-abschiebezentren-in-drittstaaten-ld.10009421",
+        "https://www.nzz.ch/meinung/der-sozialstaat-wird-zu-teuer-doch-der-bundesrat-macht-es-sich-einfach-er-setzt-auf-mehr-geld-und-zuwanderung-ld.10008694",
+        "https://www.nzz.ch/international/saudiarabien-im-wandel-eine-fahrt-mit-riads-metro-ld.1922467"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Migrationspolitik: Alexander Dobrindts Grenzkontrollen lassen sich nicht mehr rechtfertigen",
-        "CSU: Markus Söder warnt Union vor Zusammenarbeit mit der AfD",
-        "Integrationskurse: Nach dem Zulassungstopp einigen sich Union und SPD auf Kürzungen",
-        "Migration: Union kritisiert Bärbel Bas wegen Aussage zu Sozialsystem"
-      ],
-      "urls": [
-        "https://www.spiegel.de/politik/migrationspolitik-alexander-dobrindts-grenzkontrollen-lassen-sich-nicht-mehr-rechtfertigen-a-8baf04aa-5093-4f32-938b-239f4aaf1f0f#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/csu-markus-soeder-warnt-union-vor-zusammenarbeit-mit-der-afd-a-40d129ea-ce6b-46f4-9bfb-211d850d40f8#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/integrationskurse-nach-dem-zulassungstopp-einigen-sich-union-und-spd-auf-kuerzungen-a-9fa4c1f5-4b07-4eac-a2d6-675cc7083d80#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/migration-union-kritisiert-baerbel-bas-wegen-aussage-zu-sozialsystem-a-35a102ea-44a9-4439-a442-e705ee015375#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -273,16 +384,91 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 3,
+      "article_count": 5,
       "sample_titles": [
-        "Landtagswahl: Nord-AfD stößt mit radikalem Regierungsprogramm an Grenzen",
+        "Migration: EU einigt sich auf Abschiebezentren in Drittstaaten",
+        "Landtagswahl: Regierungspläne der Nord-AfD stoßen an rechtliche Grenzen",
         "Immobilien: Steigender Bedarf durch Migration – fünf Grafiken zeigen Ursachen und Folgen der Wohnungsnot",
-        "Migration: Viele Syrer kehren zurück – aber nur wenige aus Deutschland"
+        "Spanien: Tausende Migranten lassen ihren Aufenthalt in Spanien legalisieren – Nachbarländer äußern Sorge"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/landtagswahl-nord-afd-stoesst-mit-radikalem-regierungsprogramm-an-grenzen/100228665.html",
+        "https://www.handelsblatt.com/politik/deutschland/migration-eu-einigt-sich-auf-abschiebezentren-in-drittstaaten/100229592.html",
+        "https://www.handelsblatt.com/politik/deutschland/landtagswahl-regierungsplaene-der-nord-afd-stossen-an-rechtliche-grenzen/100228665.html",
         "https://www.handelsblatt.com/politik/deutschland/immobilien-verteilungskonflikte-um-wohnraum-nehmen-zu/100222513.html",
-        "https://www.handelsblatt.com/politik/international/migration-viele-syrer-kehren-zurueck-aber-nur-wenige-aus-deutschland/100221904.html"
+        "https://www.handelsblatt.com/politik/international/spanien-tausende-migranten-nutzen-chance-zur-legalisierung-ihres-aufenthalts/100221005.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Migration: EU macht Weg für Abschiebezentren in Drittstaaten frei",
+        "Migration und Asyl: EU einig: Weg für Abschiebezentren in Drittstaaten frei",
+        "Migration: Zahl der Asylanträge deutlich gesunken",
+        "Baden-Württemberg: Cem Özdemir ermutigt Migranten vor Wahl zum Ministerpräsidenten"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/2026-06/eu-abschiebezentren-drittstaaten-asylregeln",
+        "https://www.zeit.de/news/2026-06/01/eu-einig-weg-fuer-abschiebezentren-in-drittstaaten-frei",
+        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-06/migration-asylsuchende-erstantraege-rueckgang-einwanderung",
+        "https://www.zeit.de/politik/deutschland/2026-05/cem-oezdemir-gruene-neuer-ministerpraesident-baden-wuerttemberg"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Bundesverfassungsgericht: Verfassungsgericht mahnt Politik bei Asyl-Grundleistungen",
+        "Illegale Migration: Elf Jahre unentdeckt: Albaner mit falschem Pass gefasst",
+        "Sachsen-Anhalt: Schulze setzt auf Zuwanderung in den Arbeitsmarkt",
+        "Verwarnung in Prozess um Volksverhetzung gegen Flüchtlinge in Baden-Baden"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/bundesverfassungsgericht--verfassungsgericht-mahnt-politik-bei-asyl-grundleistungen-37424324.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/illegale-migration--elf-jahre-unentdeckt--albaner-mit-falschem-pass-gefasst-37420958.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--schulze-setzt-auf-zuwanderung-in-den-arbeitsmarkt-37401978.html",
+        "https://www.stern.de/news/verwarnung-in-prozess-um-volksverhetzung-gegen-fluechtlinge-in-baden-baden-37376814.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "8.000 Euro für Syrer? Dobrindts Rückkehrprämie existiert längst",
+        "Das Migrations-Problem wächst weiter",
+        "Panorama der Entmachtung: Das Migrationsparadies"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/8.000_euro_fuer_syrer_dobrindts_rueckkehrpraemie_existiert_laengst",
+        "https://www.achgut.com/artikel/das_migrations_problem_waechst_weiter",
+        "https://www.achgut.com/artikel/panorama_der_entmachtung_das_migrationsparadies"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -305,119 +491,17 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "Wie Witwen verschollener Migranten ihr Leben neu aufbauen",
-        "Deutsche Grenzkontrollen nerven Niederländer",
-        "Was an der Bas-Aussage falsch ist"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/ausland/senegal-migration-kanarische-inseln-witwen-100.html",
-        "https://www.zdfheute.de/video/heute-in-europa/deutsche-grenzkontrollen-nerven-niederlaender-100.html",
-        "https://www.zdfheute.de/politik/deutschland/bas-sozialleistungen-migration-fluechtlinge-kritik-100.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Bundesverfassungsgericht: Verfassungsgericht mahnt Politik bei Asyl-Grundleistungen",
-        "Sachsen-Anhalt: Schulze setzt auf Zuwanderung in den Arbeitsmarkt",
-        "Verwarnung in Prozess um Volksverhetzung gegen Flüchtlinge in Baden-Baden"
-      ],
-      "urls": [
-        "https://www.stern.de/politik/deutschland/bundesverfassungsgericht--verfassungsgericht-mahnt-politik-bei-asyl-grundleistungen-37424324.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--schulze-setzt-auf-zuwanderung-in-den-arbeitsmarkt-37401978.html",
-        "https://www.stern.de/news/verwarnung-in-prozess-um-volksverhetzung-gegen-fluechtlinge-in-baden-baden-37376814.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "KOMMENTAR - Der Sozialstaat wird zu teuer, doch der Bundesrat macht es sich einfach: Er setzt auf mehr Geld und Zuwanderung",
-        "«Europa muss sich auf einen neuen Flüchtlingsstrom vorbereiten»"
-      ],
-      "urls": [
-        "https://www.nzz.ch/meinung/der-sozialstaat-wird-zu-teuer-doch-der-bundesrat-macht-es-sich-einfach-er-setzt-auf-mehr-geld-und-zuwanderung-ld.10008694",
-        "https://www.nzz.ch/international/migration-aus-nordafrika-hager-ali-ueber-neue-herausforderungen-fuer-europa-ld.10007340"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Baden-Württemberg: Cem Özdemir ermutigt Migranten vor Wahl zum Ministerpräsidenten",
-        "Migration: Innenminister Dobrindt will an Grenzkontrollen festhalten"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-05/cem-oezdemir-gruene-neuer-ministerpraesident-baden-wuerttemberg",
-        "https://www.zeit.de/politik/deutschland/2026-05/migration-grenzkontrollen-alexander-dobrindt-afghanistan"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Bundespolitik: Dobrindt: Wer nicht flüchtet, ist nicht auf der Flucht in Gefahr",
-        "Memmingen: Ermittler: 14-Jähriger im Allgäu getötet - Tatverdächtiger tot"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-innenminister-flucht-migration-asyl-li.3477387",
-        "https://www.sueddeutsche.de/bayern/memmingen-bahnhof-jugendlicher-leichenfund-verdaechtiger-schuesse-polizei-li.3478325"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
+        "EU macht Weg frei für Abschiebezentren in Drittstaaten",
         "Deutschland: Erstmals seit fünf Jahren weniger Abschiebungen"
       ],
       "urls": [
+        "https://www.dw.com/de/eu-macht-weg-frei-für-abschiebezentren-in-drittstaaten/a-77386464?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/deutschland-erstmals-seit-fünf-jahren-weniger-abschiebungen/a-76994454?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
@@ -425,16 +509,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 42,
-    "conservative-liberal": 15,
-    "economic-liberal": 3,
+    "populist-mixed": 17,
+    "right-conservative": 53,
+    "conservative-liberal": 22,
+    "left-liberal": 29,
+    "neutral": 27,
+    "far-right": 36,
     "left": 14,
-    "far-right": 30,
-    "left-liberal": 14,
-    "populist-mixed": 9,
-    "neutral": 15
+    "economic-liberal": 5
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Migration und Asylpolitik zeigt sich eine breite Übereinstimmung darin, dass die Integration von Geflüchteten und Migranten eine zentrale Herausforderung darstellt, die durch gezielte Maßnahmen wie Integrationskurse und Sprachunterricht unterstützt werden muss. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Asylverfahren zu beschleunigen und die Rückführung von abgelehnten Asylbewerbern zu verbessern, um die Effizienz des Systems zu erhöhen und die Belastung auf die Gesellschaft zu reduzieren. Zudem wird in verschiedenen Medien die Forderung nach einer nachhaltigen und gerechten Verteilung der Lasten und Kosten im Zusammenhang mit der Migration und Asylpolitik diskutiert, um eine faire Balance zwischen humanitären und wirtschaftlichen Interessen zu finden.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Migration und Asylpolitik zeigt sich eine tiefgreifende Konfliktlinie zwischen einer restriktiven und einer offenen Einwanderungspolitik, wobei die erste von konservativen und rechten Medien vertreten wird, die eine Begrenzung der Einwanderung und eine Verschärfung der Asylgesetze fordern, während die zweite von linken und liberalen Medien unterstützt wird, die eine humane und integrative Politik befürworten. Eine weitere Spannungslinie verläuft zwischen der wirtschaftlichen und der humanitären Perspektive, wobei einige Medien die wirtschaftlichen Vorteile der Einwanderung betonen, während andere die humanitären Aspekte und die Notwendigkeit einer solidarischen Aufnahme von Flüchtlingen hervorheben. Die Debatte wird auch von einer grundlegenden Werteentscheidung geprägt, nämlich ob die nationale Identität und Sicherheit oder die Menschenrechte und die internationale Verantwortung im Vordergrund stehen sollten.",
-  "cached_at": "2026-05-31T07:56:13.716524"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Migration und Asylpolitik zeigt sich eine breite Übereinstimmung darin, dass die EU-Rückführungsverordnung und die Einrichtung von Abschiebezentren in Drittstaaten als wichtige Schritte zur Neuordnung der Migrationspolitik angesehen werden. Darüber hinaus wird die Notwendigkeit einer effektiven Integration von Geflüchteten und Migranten in die deutsche Gesellschaft betont, wobei jedoch auch Bedenken hinsichtlich der Auswirkungen auf die Wohnungsnot und die soziale Infrastruktur geäußert werden. Die Diskussion um die Abschiebungen und Rückführungen von Asylbewerbern in ihre Heimatländer oder Drittstaaten ist ein weiterer zentraler Aspekt, der in den Medien kontrovers diskutiert wird.",
+  "controversial_points": "Der deutsche Mediendiskurs zu Migration und Asylpolitik ist geprägt von einer tiefen Spaltung zwischen einer restriktiven und einer offenen Haltung, wobei die erstere von konservativen und rechtspopulistischen Medien vertreten wird, die eine Verschärfung der Asylpolitik und die Einrichtung von Abschiebezentren fordern, während die letztere von linken und liberalen Medien vertreten wird, die eine humanere und integrativere Politik einfordern. Diese Spaltung zeigt sich auch in der Darstellung von Migranten und Flüchtlingen, wobei die einen als Bedrohung und die anderen als schutzbedürftige Menschen dargestellt werden, was zu einer Polarisierung des Diskurses führt. Die Konfliktlinien verlaufen auch entlang der Frage, ob die Migration als wirtschaftliche Chance oder als soziale und kulturelle Bedrohung gesehen wird, was zu unterschiedlichen Positionen zu Fragen wie der Einrichtung von Abschiebezentren, der Dauer von Asylverfahren und der Integration von Migranten in die deutsche Gesellschaft führt.",
+  "cached_at": "2026-06-03T09:23:00.525731"
 }

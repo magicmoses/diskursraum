@@ -1,14 +1,14 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 301,
-  "candidate_count": 459,
+  "article_count": 321,
+  "candidate_count": 492,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 46,
+      "article_count": 48,
       "sample_titles": [
         "Bidirektionales Laden: Wie E-Autos die Stromnetze entlasten sollen",
         "Erneuerbare Energien: „Der geplante Industriestrompreis verfehlt sein Ziel“",
@@ -28,12 +28,12 @@
           "count": 5
         },
         {
-          "emotion": "surprise",
+          "emotion": "approval",
           "count": 2
         },
         {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "disapproval",
+          "count": 1
         }
       ]
     },
@@ -41,31 +41,31 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 33,
+      "article_count": 34,
       "sample_titles": [
-        "Neue Klimaproteste: Gegenwind für Katherina Reiche",
+        "Fehlende Kapazitäten im Stromnetz: Kritik an Reiches Plänen zum Netzausbau",
+        "Entkernung des Heizungsgesetzes: Bundesregierung kann Frage zu Klimaschutz nicht beantworten",
         "Bayern und BaWü gemeinsam für Windkraft: Vereint gegen das Schreddern der Energiewende",
-        "Folgen der Klimakrise: Ab 30 Grad kippt die Wirtschaft",
         "Reform der Netzentgelte: Haushalte mit Solaranlage zahlen mehr"
       ],
       "urls": [
-        "https://taz.de/Neue-Klimaproteste/!6182929/",
+        "https://taz.de/Fehlende-Kapazitaeten-im-Stromnetz/!6183630/",
+        "https://taz.de/Heizungsgesetz-Bundesregierung-kann-Frage-zu-Klimaschutz-nicht-beantworten/!6183267/",
         "https://taz.de/Bayern-und-BaWue-gemeinsam-fuer-Windkraft/!6182437/",
-        "https://taz.de/Folgen-der-Klimakrise/!6182455/",
         "https://taz.de/Reform-der-Netzentgelte/!6182435/"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
           "emotion": "anger",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "surprise",
+          "emotion": "disapproval",
           "count": 2
         }
       ]
@@ -74,17 +74,17 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 29,
+      "article_count": 34,
       "sample_titles": [
+        "Solarstrom kann jetzt geteilt werden",
         "Windkraftausbau im Süden – lohnt sich das überhaupt?",
         "Solaranlagen der Zukunft: Wie Strom auf neue Weise gewonnen werden kann",
-        "Hitze kostet Deutschlands Wirtschaft Milliarden",
         "Solaranlage auf Cottbuser Ostsee soll ab Spätsommer am Netz sein"
       ],
       "urls": [
+        "https://www.tagesschau.de/wissen/klima/energy-sharing-104.html",
         "https://www.br.de/nachrichten/bayern/windkraft-in-bayern-lohnt-sich-der-ausbau-im-sueden-ueberhaupt,VKFn764",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/solaranlagen-der-zukunft-integriert-in-autos-und-gebaeude-100.html",
-        "https://www.tagesschau.de/wirtschaft/weltwirtschaft/hitze-wirtschaft-kosten-klimawandel-100.html",
         "https://www.rbb24.de/panorama/beitrag/2026/05/schwimmende-solar-anlage-leag-ostsee-cottbus-spaetsommer-start.html"
       ],
       "dominant_emotion": "optimism",
@@ -107,49 +107,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 27,
+      "article_count": 31,
       "sample_titles": [
+        "Energie: Schleppender Netzausbau blockiert Investitionen von 100 Milliarden Euro",
         "Immobilien: Wie sich die Solaranlage auch ohne Einspeisevergütung rechnet",
         "Energie: RWE plant Milliardendeal im deutschen Stromnetz",
-        "Stromnetzentgelt: Besitzer von Photovoltaik-Anlagen zahlen mehr, Industrierabatte bleiben",
-        "Energiewende: EU will die Wirtschaft auf Betrieb mit Strom umstellen"
+        "Stromnetzentgelt: Besitzer von Photovoltaik-Anlagen zahlen mehr, Industrierabatte bleiben"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/energie-schleppender-netzausbau-blockiert-milliarden-investitionen/100229248.html",
         "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-sich-die-solaranlage-auch-ohne-einspeiseverguetung-rechnet/100227225.html",
         "https://www.handelsblatt.com/unternehmen/energie/milliardendeal-rwe-erwaegt-kauf-weiterer-anteile-an-amprion/100228298.html",
-        "https://www.handelsblatt.com/politik/deutschland/stromnetzentgelt-besitzer-von-photovoltaik-anlagen-zahlen-mehr/100228194.html",
-        "https://www.handelsblatt.com/politik/international/energiewende-eu-will-die-wirtschaft-auf-betrieb-mit-strom-umstellen/100226529.html"
+        "https://www.handelsblatt.com/politik/deutschland/stromnetzentgelt-besitzer-von-photovoltaik-anlagen-zahlen-mehr/100228194.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 8
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 24,
-      "sample_titles": [
-        "Von Hannibal bis Energiewende: Die verdrängte Klimageschichte – TE-Wecker am 31. Mai 2026",
-        "Klimabeschluss des Bundesverfassungsgerichts: Freiheit unter CO₂-Vorbehalt",
-        "Beschleunigter Niedergang: Klimapolitik trotzt der Realität",
-        "Der vermeintliche Klimakampf-Erfolg"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/podcast/te-wecker-am-31-mai-2026/",
-        "https://www.tichyseinblick.de/meinungen/klima-beschluss-brandbeschleuniger-freiheit/",
-        "https://www.tichyseinblick.de/wirtschaft/beschleunigter-niedergang-klimapolitik-trotzt-der-realitaet/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/der-vermeintliche-klimakampf-erfolg/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
+          "count": 9
         }
       ]
     },
@@ -157,18 +132,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 24,
+      "article_count": 28,
       "sample_titles": [
+        "„Bin der Meinung, dass wir Klimaziele auch ohne Kernenergie erreichen können“, sagt Merkel",
         "Verbände warnen vor drastischem Rückgang von Mietwohnungen wegen Heizungsgesetz",
         "Die neue Zukunft der deutschen AKWs – hier soll die nächste Energie-Ära beginnen",
-        "Finnischer Wasserstoff soll deutsche Energiewende retten – ein Grüner ist dagegen",
-        "Die Lüge vom Sieg der Klimapolitik"
+        "Finnischer Wasserstoff soll deutsche Energiewende retten – ein Grüner ist dagegen"
       ],
       "urls": [
+        "https://www.welt.de/politik/deutschland/article6a1f0dfe1e9720acf333a80b/altkanzlerin-bin-der-meinung-dass-wir-klimaziele-auch-ohne-kernenergie-erreichen-koennen-sagt-merkel.html",
         "https://www.welt.de/politik/deutschland/article6a17f34861be973b7ac9f8a4/neues-heizungsgesetz-kostenrisiken-unkalkulierbar-verbaende-warnen-vor-drastischem-rueckgang-von-mietwohnungen.html",
         "https://www.welt.de/wirtschaft/plus6a16cef6bd0d0e58e09d9644/die-neue-zukunft-der-deutschen-akws-hier-soll-die-naechste-energie-aera-beginnen.html",
-        "https://www.welt.de/politik/deutschland/article69f9baba96fe1372395e9ef1/kooperationen-finnischer-wasserstoff-soll-deutsche-energiewende-retten-ein-gruener-ist-dagegen.html",
-        "https://www.welt.de/wissenschaft/klimabilanz/plus6a0d61c2f540d04af2889802/kolumne-klimabilanz-die-luege-vom-sieg-der-klimapolitik.html"
+        "https://www.welt.de/politik/deutschland/article69f9baba96fe1372395e9ef1/kooperationen-finnischer-wasserstoff-soll-deutsche-energiewende-retten-ein-gruener-ist-dagegen.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -181,7 +156,7 @@
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "remorse",
           "count": 1
         }
       ]
@@ -190,18 +165,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 22,
+      "article_count": 27,
       "sample_titles": [
-        "Bundesnetzagentur plant Reform: Solarstromerzeuger sollen fürs Stromnetz mitzahlen",
-        "Schnelle Rechnung: Lohnt sich der Batteriespeicher für die Photovoltaikanlage?",
-        "Feuerwehr kann nicht löschen: Windrad steht nahe der A7 in Flammen",
-        "Problem an sonnigen Feiertagen: Das passiert, wenn Sonnenstrom das Netz flutet"
+        "\"Die Krise wäre größer als 2017\": Deutschland zündet den Windturbo - Reiche würgt ihn ab?",
+        "\"Probleme im Winter\": Uniper-Chef warnt vor zu niedrigen Füllständen der Gasspeicher",
+        "Eine Million Tonnen pro Jahr: Sefe sichert sich LNG aus Kanada - Vereinbarung über 20 Jahre",
+        "Bundesnetzagentur plant Reform: Solarstromerzeuger sollen fürs Stromnetz mitzahlen"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Solarstromerzeuger-sollen-fuers-Stromnetz-mitzahlen-id30863347.html",
-        "https://www.n-tv.de/ratgeber/Lohnt-sich-der-Batteriespeicher-fuer-die-Photovoltaikanlage-id30859567.html",
-        "https://www.n-tv.de/panorama/Windrad-steht-nahe-der-A7-in-Flammen-id30854469.html",
-        "https://www.n-tv.de/wirtschaft/Energieproblem-an-sonnigen-Feiertagen-Das-passiert-wenn-Sonnenstrom-das-Netz-flutet-id30845197.html"
+        "https://www.n-tv.de/wirtschaft/Deutschland-zuendet-den-Windturbo-Reiche-wuergt-ihn-ab-id30841214.html",
+        "https://www.n-tv.de/wirtschaft/Uniper-Chef-warnt-vor-zu-niedrigen-Fuellstaenden-der-Gasspeicher-id30867944.html",
+        "https://www.n-tv.de/wirtschaft/Sefe-sichert-sich-LNG-aus-Kanada-Vereinbarung-ueber-20-Jahre-id30864089.html",
+        "https://www.n-tv.de/politik/Solarstromerzeuger-sollen-fuers-Stromnetz-mitzahlen-id30863347.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -223,18 +198,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 23,
       "sample_titles": [
+        "Bundesnetzagentur: Solaranlagenbesitzer sollen bald höheren Strompreis zahlen",
         "Hamm: Klimaschützer protestieren mit einem Windrad aus Menschen gegen geplante Gaskraftwerke",
         "Heizungsgesetz: Verbände fürchten drastische Folgen für Mieter durch Wärmepumpen",
-        "Stromnetz: Wie LEW-Ingenieurin Barbara Plura die Netze nachverdichtet",
-        "Kitzingen: Windrad brennt, Polizei warnt vor abstürzendem Rotor"
+        "Stromnetz: Wie LEW-Ingenieurin Barbara Plura die Netze nachverdichtet"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/service/bundesnetzagentur-solaranlagenbesitzer-sollen-bald-hoeheren-strompreis-zahlen-a-a20f2368-9dcb-488d-9513-d240c8cf3476#ref=rss",
         "https://www.spiegel.de/panorama/gesellschaft/hamm-klimaschuetzer-protestieren-mit-einem-windrad-aus-menschen-gegen-geplante-gaskraftwerke-a-fa9317ec-d903-4e23-ae1d-e7c366363de4#ref=rss",
         "https://www.spiegel.de/wirtschaft/service/heizungsgesetz-verbaende-fuerchten-drastische-folgen-fuer-mieter-durch-waermepumpen-a-d0d2ab97-124b-4632-ab2c-4289e3ec19e3#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/stromnetz-wie-lew-ingenieurin-barbara-plura-die-netze-nachverdichtet-a-e4fe14b4-e0e6-43eb-905d-794142dab9f2#ref=rss",
-        "https://www.spiegel.de/panorama/kitzingen-windrad-brennt-polizei-warnt-vor-abstuerzendem-rotor-a-b8ec5d5b-0c9f-4b8b-bc6b-505c08c86643#ref=rss"
+        "https://www.spiegel.de/wirtschaft/unternehmen/stromnetz-wie-lew-ingenieurin-barbara-plura-die-netze-nachverdichtet-a-e4fe14b4-e0e6-43eb-905d-794142dab9f2#ref=rss"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -252,35 +227,27 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 17,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 21,
       "sample_titles": [
-        "Umfrage: Mehrheit privater Vermieter scheut energetische Sanierungen",
-        "Klimaprotest: Demobündnis klagt gegen Verlegung von Auftaktkundgebung",
-        "Energieerzeugung: Solarstrom vom Acker - Wie es um Agri-PV in Thüringen steht",
-        "Finanzen Kommunen Energie: Wie Kommunen mit erneuerbaren Energien Geld sparen können"
+        "Neue Studie: Der Infraschall moderner Windkraftanlagen",
+        "Energieminister fanden sich zum sektiererhaften Treffen ein – Länderfront für weiteren Windkraft-Ausbau",
+        "Özdemirs Plan für Schwarzwald und Alb: Windrad-Quoten für den Süden – TE-Wecker am 26. Mai 2026",
+        "Sind Herzprobleme Folge von Windparks? Mainzer Studie stellt Zusammenhang her"
       ],
       "urls": [
-        "https://www.stern.de/wirtschaft/news/umfrage--mehrheit-privater-vermieter-scheut-energetische-sanierungen-37468690.html",
-        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/klimaprotest--demobuendnis-klagt-gegen-verlegung-von-auftaktkundgebung-37454002.html",
-        "https://www.stern.de/gesellschaft/regional/thueringen/energieerzeugung--solarstrom-vom-acker---wie-es-um-agri-pv-in-thueringen-steht-37442790.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/finanzen-kommunen-energie--wie-kommunen-mit-erneuerbaren-energien-geld-sparen-koennen-37439560.html"
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/studie-infraschall-moderner-windkraftanlagen/",
+        "https://www.tichyseinblick.de/meinungen/energieminister-konferenz-norderney/",
+        "https://www.tichyseinblick.de/podcast/te-wecker-am-26-mai-2026/",
+        "https://www.tichyseinblick.de/meinungen/infraschall-studie-mainz-windkraft/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -289,18 +256,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 16,
+      "article_count": 15,
       "sample_titles": [
-        "Studie: Hitze zunehmendes Problem für Wirtschaft",
         "EU: Bund darf bei Stromnetzbetreiber Tennet einsteigen",
         "Windrad an der A7 brennt: Löscharbeiten in 100 Metern Höhe",
-        "Klimaaktivisten färben Brunnenwasser grün"
+        "Klimaaktivisten färben Brunnenwasser grün",
+        "Debatte zur Energiepolitik"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/hitze-wirtschaft-produktivitaet-energie-studie-100.html",
         "https://www.zdfheute.de/wirtschaft/unternehmen/tennet-eu-stromnetzbetreiber-bundesregierung-wettbewerb-100.html",
         "https://www.zdfheute.de/video/windrad-a7-brand-reel-9x16-video-100.html",
-        "https://www.zdfheute.de/video/zdfheute-xpress/aktivisten-faerben-brunnenwasser-gruen-video-100.html"
+        "https://www.zdfheute.de/video/zdfheute-xpress/aktivisten-faerben-brunnenwasser-gruen-video-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5202688"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -318,68 +285,31 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 9,
+      "article_count": 15,
       "sample_titles": [
-        "Energiewirtschaft: Kanada soll Flüssiggas nach Deutschland liefern",
-        "Astronomie: Aus heiterem Himmel",
-        "Energie: Zum Glück bleibt der Staat an Uniper beteiligt",
-        "Privatisierung: Bund startet milliardenschweren Verkauf des Energieriesen Uniper"
+        "Energieerzeugung: Solarstrom vom Acker - Wie es um Agri-PV in Thüringen steht",
+        "Finanzen Kommunen Energie: Wie Kommunen mit erneuerbaren Energien Geld sparen können",
+        "Energieministerkonferenz: Minister warnt: Rückzug bei Offshore-Windparks wäre \"fatal\"",
+        "Kernkraft: Vierter Castor-Behälter mit Atommüll auf dem Weg nach Ahaus"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/lng-kanada-deutschland-fluessiggas-abkommen-li.3489594",
-        "https://www.sueddeutsche.de/wissen/sonnenstuerme-erdmagnetfeld-esa-satellit-smile-weltraumwetter-li.3438744",
-        "https://www.sueddeutsche.de/wirtschaft/uniper-privatisierung-boersengang-schweden-li.3485398",
-        "https://www.sueddeutsche.de/wirtschaft/uniper-privatisierung-li.3485185"
+        "https://www.stern.de/gesellschaft/regional/thueringen/energieerzeugung--solarstrom-vom-acker---wie-es-um-agri-pv-in-thueringen-steht-37442790.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/finanzen-kommunen-energie--wie-kommunen-mit-erneuerbaren-energien-geld-sparen-koennen-37439560.html",
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/energieministerkonferenz--minister-warnt--rueckzug-bei-offshore-windparks-waere--fatal--37427948.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/kernkraft--vierter-castor-behaelter-mit-atommuell-auf-dem-weg-nach-ahaus-37421982.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
         {
           "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 8,
-      "sample_titles": [
-        "Gunnar Schupelius – Mein Ärger - Die „Wärmewende“ ist ein teures Luftschloss",
-        "Es geht um 1 Million Tonnen LNG - Deutschland vor Mega-Gasdeal mit Kanada",
-        "Windrad in Bayern in Flammen - Gefahr durch abstürzende Trümmer",
-        "Netzausbau - Marktanalyse zeigt Zukunft von DSL in Deutschland"
-      ],
-      "urls": [
-        "https://www.bild.de/regional/berlin/gunnar-schupelius-die-waermewende-ist-ein-teures-luftschloss-6a16c5a7bd0d0e58e09d951f",
-        "https://www.bild.de/politik/inland/1-million-tonnen-lng-deutschland-und-kanada-vor-wichtigem-gasdeal-6a167bb4f1c0dd3f2e7d5fb6",
-        "https://www.bild.de/regional/nuernberg/nach-windrad-brand-rotorblatt-stuerzt-in-die-tiefe-6a142dea0c38ecf8d88c0d0b",
-        "https://www.bild.de/leben-wissen/digital/netzausbau-marktanalyse-zeigt-zukunft-von-dsl-in-deutschland-6a100feff0f7eb608db7a377"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "relief",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -388,7 +318,7 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 8,
+      "article_count": 10,
       "sample_titles": [
         "Teures Gas, leere Werke Darum kollabiert die energieintensive Industrie",
         "Woher kommt der Strom? Warum die Energiewende-Rechnung nicht aufgeht",
@@ -409,22 +339,88 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 9,
+      "sample_titles": [
+        "Krieg in der Ukraine: Russland meldet ukrainischen Angriff auf AKW Saporischschja – Ukraine weist Behauptungen zurück",
+        "Energiewirtschaft: Kanada soll Flüssiggas nach Deutschland liefern",
+        "Astronomie: Aus heiterem Himmel",
+        "Energie: Zum Glück bleibt der Staat an Uniper beteiligt"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-akw-saporischschja-russland-li.3490156",
+        "https://www.sueddeutsche.de/wirtschaft/lng-kanada-deutschland-fluessiggas-abkommen-li.3489594",
+        "https://www.sueddeutsche.de/wissen/sonnenstuerme-erdmagnetfeld-esa-satellit-smile-weltraumwetter-li.3438744",
+        "https://www.sueddeutsche.de/wirtschaft/uniper-privatisierung-boersengang-schweden-li.3485398"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 9,
+      "sample_titles": [
+        "Gunnar Schupelius – Mein Ärger - Die „Wärmewende“ ist ein teures Luftschloss",
+        "Es geht um 1 Million Tonnen LNG - Deutschland vor Mega-Gasdeal mit Kanada",
+        "Windrad in Bayern in Flammen - Gefahr durch abstürzende Trümmer",
+        "Blackout im Eigenheim - Läuft die PV-Anlage bei Stromausfall weiter?"
+      ],
+      "urls": [
+        "https://www.bild.de/regional/berlin/gunnar-schupelius-die-waermewende-ist-ein-teures-luftschloss-6a16c5a7bd0d0e58e09d951f",
+        "https://www.bild.de/politik/inland/1-million-tonnen-lng-deutschland-und-kanada-vor-wichtigem-gasdeal-6a167bb4f1c0dd3f2e7d5fb6",
+        "https://www.bild.de/regional/nuernberg/nach-windrad-brand-rotorblatt-stuerzt-in-die-tiefe-6a142dea0c38ecf8d88c0d0b",
+        "https://www.bild.de/leben-wissen/wohnen-living/laeuft-die-pv-anlage-bei-stromausfall-weiter-6a07281a847da7a92c145497"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
+        {
+          "emotion": "relief",
+          "count": 1
+        }
+      ]
+    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 7,
+      "article_count": 8,
       "sample_titles": [
         "LNG: Deutschland einigt sich mit Kanada auf Import von Flüssigerdgas",
+        "Katharina Fegebank: »Die Dänen sehen vieles pragmatischer«",
         "Kernkraft: Vierter Castor-Behälter mit Atommüll auf dem Weg nach Ahaus",
-        "Klimawandel: Expertenrat bewertet Klimaschutzprogramm der Regierung als ungenügend",
-        "Klimapolitik: Wer kämpft hier noch fürs Klima?"
+        "Klimawandel: Expertenrat bewertet Klimaschutzprogramm der Regierung als ungenügend"
       ],
       "urls": [
         "https://www.zeit.de/wirtschaft/2026-05/lng-import-deutschland-kanada-fluessigerdgas",
+        "https://www.zeit.de/hamburg/2026-05/katharina-fegebank-hamburg-umweltsenatorin-klimaschutz-daenemark",
         "https://www.zeit.de/news/2026-05/20/vierter-castor-behaelter-mit-atommuell-auf-dem-weg-nach-ahaus",
-        "https://www.zeit.de/politik/deutschland/2026-05/klimawandel-umweltbundesamt-expertenrat-fuer-klimafragen-pruefbericht-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-05/klimapolitik-energiekrise-bundesregierung-koalition-union-spd"
+        "https://www.zeit.de/politik/deutschland/2026-05/klimawandel-umweltbundesamt-expertenrat-fuer-klimafragen-pruefbericht-gxe"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -433,27 +429,27 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
+        "PODCAST «NZZ AKZENT» - Dank Trump: Kuba stemmt die Energiewende von unten",
         "Neuer Stausee am zweitgrössten Gletscher der Schweiz: Das Vorzeigeprojekt der Energiewende schrumpft und wird teurer",
-        "DER ANDERE BLICK DATEN - Fehlschlag Energiewende: Warum Deutschland trotz Rekordausbau von Wind- und Sonnenkraft weniger Strom erzeugt",
-        "80 Jahre lang Atomstrom: Die Kraftwerke Leibstadt und Gösgen könnten deutlich länger laufen als angenommen",
-        "Marktaufseher warnt vor Stromknappheit und fordert «in aller Deutlichkeit» das umstrittene Abkommen mit der EU"
+        "ERKLÄRT - Mini-Atomkraftwerke sind die neuen Hoffnungsträger der Kernenergie. In der EU könnten die ersten bereits in wenigen Jahren den Betrieb aufnehmen",
+        "DER ANDERE BLICK DATEN - Fehlschlag Energiewende: Warum Deutschland trotz Rekordausbau von Wind- und Sonnenkraft weniger Strom erzeugt"
       ],
       "urls": [
+        "https://www.nzz.ch/podcast/dank-trump-kuba-stemmt-die-energiewende-von-unten-ld.10008025",
         "https://www.nzz.ch/schweiz/umstrittener-stausee-am-zweitgroessten-gletscher-der-schweiz-das-vorzeigeprojekt-der-energiewende-schrumpft-und-wird-teurer-ld.10007885",
-        "https://www.nzz.ch/der-andere-blick/fehlschlag-energiewende-warum-deutschland-trotz-rekordausbau-von-wind-und-sonnenkraft-weniger-strom-erzeugt-ld.10006607",
-        "https://www.nzz.ch/schweiz/80-jahre-lang-atomstrom-die-kraftwerke-leibstadt-und-goesgen-koennten-deutlich-laenger-laufen-als-angenommen-ld.10007006",
-        "https://www.nzz.ch/schweiz/marktaufseher-warnt-vor-stromknappheit-und-fordert-in-aller-deutlichkeit-das-umstrittene-abkommen-mit-der-eu-ld.10006206"
+        "https://www.nzz.ch/wirtschaft/mini-atomkraftwerke-sind-die-neuen-hoffnungstraeger-der-kernenergie-in-der-eu-koennten-die-ersten-bereits-in-wenigen-jahren-den-betrieb-aufnehmen-ld.10003670",
+        "https://www.nzz.ch/der-andere-blick/fehlschlag-energiewende-warum-deutschland-trotz-rekordausbau-von-wind-und-sonnenkraft-weniger-strom-erzeugt-ld.10006607"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "optimism",
           "count": 1
         },
         {
@@ -466,18 +462,16 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
-        "Woher kommt der Strom? 18. Analysewoche 2026 – Geben oder nehmen? Egal, gezahlt wird immer.",
-        "Anpfiff mit Grimm: Die Angst der Grünen vorm Energie-Vampir",
-        "Woher kommt der Strom? 17. Analysewoche 2026 – Ich soll deinen Solarstrom abnehmen? Gerne, für 3,7 Millionen Entschädigung!",
-        "Ölkrise 2026?"
+        "Woher kommt der Strom? 19. Analysewoche 2026",
+        "Lauterbachs Elferrat verlangt von WHO den Klimanotstand",
+        "Woher kommt der Strom? 17. Analysewoche 2026 – Ich soll deinen Solarstrom abnehmen? Gerne, für 3,7 Millionen Entschädigung!"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/woher_kommt_der_Strom_18_Analysewoche_2026_geben_oder_nehmen_egal_gezahlt_wird_immer",
-        "https://www.achgut.com/artikel/anpfiff_mit_grimm_die_angst_der_gruenen_vorm_energie_vampir",
-        "https://www.achgut.com/artikel/woher_kommt_der_Strom_17_Analysewoche_2026_ich_soll_deinen_solarstrom_abnehmen_gerne_fuer_3_7_millionen_entschaedigung",
-        "https://www.achgut.com/artikel/oelkrise_2026"
+        "https://www.achgut.com/artikel/copy_woher_kommt_der_Strom_18_Analysewoche_2026_geben_",
+        "https://www.achgut.com/artikel/lauterbachs_elferrat_verlangt_von_who_den_klimanotstand",
+        "https://www.achgut.com/artikel/woher_kommt_der_Strom_17_Analysewoche_2026_ich_soll_deinen_solarstrom_abnehmen_gerne_fuer_3_7_millionen_entschaedigung"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -486,48 +480,23 @@
           "count": 2
         },
         {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 2,
-      "sample_titles": [
-        "Warten auf den Wärmepumpen-Boom",
-        "AKW Barakah: Drohnenangriff löst Brand in den VAE aus"
-      ],
-      "urls": [
-        "https://www.dw.com/de/warten-auf-den-wärmepumpen-boom/a-77247293?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/akw-barakah-drohnenangriff-löst-brand-in-den-vae-aus/a-77189018?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
     }
   },
   "bias_distribution": {
-    "far-right": 36,
-    "left-liberal": 53,
-    "conservative-liberal": 51,
-    "left": 33,
-    "economic-liberal": 27,
-    "neutral": 47,
-    "right-conservative": 46,
-    "populist-mixed": 8
+    "right-conservative": 55,
+    "left": 34,
+    "economic-liberal": 31,
+    "far-right": 34,
+    "neutral": 49,
+    "left-liberal": 55,
+    "conservative-liberal": 54,
+    "populist-mixed": 9
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine breite Übereinstimmung darin, dass die Energiewende eine zentrale Herausforderung für Deutschland darstellt und dass der Ausbau erneuerbarer Energien wie Wind- und Solarenergie sowie die Reduzierung von CO2-Emissionen unverzichtbar sind. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Energieversorgungssicherheit und die Wirtschaftlichkeit der Energiewende zu gewährleisten, wobei jedoch unterschiedliche Meinungen über den richtigen Energiemix und die Umsetzung der Energiewende bestehen. Die Diskussion um die Kosten und die soziale Verträglichkeit der Energiewende, insbesondere im Hinblick auf die Heizungsgesetzgebung und die Strompreise, ist ein weiterer zentraler Aspekt, der in vielen Medien thematisiert wird.",
-  "controversial_points": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer beschleunigten Energiewende und den Kritikern, die eine realistischere und wirtschaftlich tragfähige Umsetzung fordern. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer dezentralen, erneuerbaren Energieerzeugung und den Befürwortern einer zentralisierten, fossilen oder nuklearen Energieversorgung, wobei die politische Ausrichtung der Medien eine wichtige Rolle bei der Darstellung dieser Konflikte spielt. Die Diskussion um die Kosten und die soziale Verträglichkeit der Energiewende, insbesondere im Hinblick auf die Strompreise und die Wärmewende, bildet einen weiteren zentralen Konfliktbereich, der die gesellschaftliche und politische Debatte in Deutschland prägt.",
-  "cached_at": "2026-05-31T07:57:49.782743"
+  "shared_perspectives": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine breite Übereinstimmung darin, dass die Umsetzung der Klimaziele und die Sicherstellung der Energieversorgungssicherheit eine zentrale Herausforderung darstellt, wobei die Frage nach dem richtigen Energiemix und der Ausgestaltung des Heizungsgesetzes kontrovers diskutiert wird. Eine weitere Gemeinsamkeit besteht in der Betonung der Notwendigkeit, den Ausbau erneuerbarer Energien wie Wind- und Solarenergie voranzutreiben, wobei jedoch auch Bedenken hinsichtlich der Kosten und der technischen Machbarkeit geäußert werden. Darüber hinaus wird die Bedeutung der Wärmewende und der Rolle von Wasserstofftechnologie und Elektromobilität bei der Erreichung der Klimaziele hervorgehoben, wobei die politische und gesellschaftliche Debatte über die richtigen Instrumente und Strategien zur Umsetzung der Energiewende weiterhin kontrovers geführt wird.",
+  "controversial_points": "Im deutschen Mediendiskurs zur Energiewende und Klimapolitik zeigt sich eine grundlegende Konfliktlinie zwischen den Befürwortern einer beschleunigten Umstellung auf erneuerbare Energien und denjenigen, die eine langsamere und marktwirtschaftlich orientierte Transformation favorisieren, wobei die erste Gruppe oft von linken und linken-liberalen Medien unterstützt wird, während die zweite Gruppe von konservativen und wirtschaftsliberalen Medien vertreten wird. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer technologieoffenen Energiepolitik, die auch die Nutzung von Kernenergie und fossilen Brennstoffen nicht ausschließen, und den Befürwortern einer strikten Ausrichtung auf erneuerbare Energien, wobei die erstere Position oft von konservativen und populistischen Medien eingenommen wird, während die letztere von linken und linken-liberalen Medien verteidigt wird. Darüber hinaus gibt es eine Konfliktlinie zwischen den Interessen von Verbrauchern und Haushalten, die sich gegen hohe Energiepreise und eine zu schnelle Umstellung auf erneuerbare Energien wehren, und den Zielen der Klimapolitik, die eine rasche Reduzierung der Treibhausgasemissionen erfordert, wobei diese Konfliktlinie oft von neutralen und populistischen Medien thematisiert wird.",
+  "cached_at": "2026-06-03T09:24:40.673836"
 }
