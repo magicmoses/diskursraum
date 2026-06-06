@@ -1,38 +1,38 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 253,
+  "article_count": 249,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 65,
+      "article_count": 68,
       "sample_titles": [
-        "Lehrer als \"Beruf, der glücklich machen kann\": Wie kann das gelingen?",
-        "Was wird aus der BAföG-Reform?",
-        "Anders als im Bund: Saar-CDU hält an BAföG-Erhöhung fest",
-        "Was die BAföG-Diskussion für Studierende bedeutet"
+        "TU Berlin schließt Bibliotheksgebäude eine Woche lang für Reparaturen",
+        "Russisch verliert an Sachsens Schulen an Bedeutung",
+        "Lehrerproteste eskalieren eine Woche vor WM-Start",
+        "Hauptgebäude der TU Berlin bleibt im Sommersemester geschlossen"
       ],
       "urls": [
-        "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/lehrer-als-beruf-der-gluecklich-machen-kann-wie-kann-gelingen,talkvorort-366.html",
-        "https://www.tagesschau.de/inland/gesellschaft/bafoeg-erhoehung-reform-bundesregierung-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/saar-cdu_haelt_an_bafoeg-erhoehung_fest_100.html",
-        "https://www1.wdr.de/politik/bafoeg-reform-studium-nebenjob-100.html"
+        "https://www.rbb24.de/panorama/beitrag/2026/06/tu-berlin-bibliothek-gebaeude-geschlossen-reparatur.html",
+        "https://www.mdr.de/nachrichten/sachsen/lehrkraefte-ruhestand,fremdsprachen-russisch-rueckgang-100.html",
+        "https://www.tagesschau.de/ausland/amerika/mexiko-proteste-lehrer-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/06/tu-berlin-hauptgebaeude-baumaengel-geschlossen-asta.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "disapproval",
           "count": 3
         },
         {
-          "emotion": "confusion",
+          "emotion": "fear",
           "count": 2
         }
       ]
@@ -41,32 +41,131 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 36,
+      "article_count": 37,
       "sample_titles": [
-        "Bafög-Reform: Benzin statt Bildung",
-        "Schwieriger Jobmarkt: Warum sich eine Ausbildung im Handwerk lohnen kann",
-        "Bafög-Debatte: Ein Studentenjob ist keine Zumutung",
-        "Fehlt der Rückhalt?: Bär hält an Bafög-Reform fest"
+        "Künstliche Intelligenz: Die Jugend glaubt den Tech-Versprechen nicht mehr",
+        "Bildungsmisere: Die Jugend wird zur vernachlässigten Minderheit",
+        "Kolumne „Uni live“: Die Mensa ist kein Luxus!",
+        "Bildungsmisere: Die Jugend wird zur vernachlässigten Minderheit"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/bafoeg-reform-benzin-statt-bildung-200887926.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/schwieriger-jobmarkt-warum-sich-eine-ausbildung-im-handwerk-lohnen-kann-200888782.html",
-        "https://www.faz.net/aktuell/politik/inland/bafoeg-debatte-ein-studentenjob-ist-keine-zumutung-200888119.html",
-        "https://www.faz.net/aktuell/politik/inland/dorothee-baer-haelt-an-bafoeg-reform-fest-200887189.html"
+        "https://www.faz.net/aktuell/feuilleton/debatten/hochschulabsolventen-gegen-ki-200901143.html",
+        "https://www.faz.net/aktuell/politik/inland/bafoeg-diskussion-zeigt-wie-jugend-zur-vernachlaessigten-minderheit-wird-200893872.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/uni-live/zu-hohe-preise-fuers-essen-die-unimensa-ist-kein-luxus-accg-200894293.html",
+        "https://www.faz.net/aktuell/politik/inland/bafoeg-die-jugend-wird-zur-vernachlaessigten-minderheit-200893872.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "admiration",
           "count": 3
+        },
+        {
+          "emotion": "amusement",
+          "count": 2
         },
         {
           "emotion": "annoyance",
           "count": 2
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 23,
+      "sample_titles": [
+        "Bafög-Reform: Die Regierung riskiert sozialen Unfrieden",
+        "Regierung streitet über das Bafög: Studierende zählen nicht viel",
+        "Kürzungen bei Forschungsgesellschaft: Rotstift bei Fraunhofer",
+        "Beginn des Frauenstudiums: Als Frauen Doktorinnen wurden"
+      ],
+      "urls": [
+        "https://taz.de/Bafoeg-Reform/!6178489/",
+        "https://taz.de/Koalitionsstreit-beim-Bafoeg/!6180000/",
+        "https://taz.de/Kuerzungen-bei-Forschungsgesellschaft/!6184354/",
+        "https://taz.de/Beginn-des-Frauenstudiums/!6178436/"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
         },
         {
-          "emotion": "optimism",
+          "emotion": "disgust",
           "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 21,
+      "sample_titles": [
+        "„Wir sind bei der Schulpflicht eine Ausnahme“",
+        "„Es gibt einen neuen Standard, der Abkehr nimmt vom gesamtdeutschen Konsens“",
+        "Große Mehrheit der Schulleiter beklagt fehlende Unterstützung durch Politik",
+        "BAföG-Reform vor dem Aus – Bär verweist auf notwendige Sparprioritäten"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/plus6a0d7ce646b3b052cd75bdb7/bildung-wir-sind-bei-der-schulpflicht-eine-ausnahme.html",
+        "https://www.welt.de/videos/video6a216c1eb20db0d89b655239/afd-wahlprogramm-sachsen-anhalt-es-gibt-einen-neuen-standard-der-abkehr-nimmt-vom-gesamtdeutschen-konsens.html",
+        "https://www.welt.de/politik/deutschland/article6a1bdb9cbf5b78f90d009b3a/bildung-grosse-mehrheit-der-schulleiter-beklagt-fehlende-unterstuetzung-durch-politik.html",
+        "https://www.welt.de/videos/video6a1bc1e6bf5b78f90d009a15/bundesforschungsministerin-bafoeg-reform-vor-dem-aus-baer-verweist-auf-notwendige-sparprioritaeten.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "Niedersachsen: Schule in Ostfriesland bietet Plattdeutsch als zweite Fremdsprache an",
+        "Polen plant Handyverbot an Grundschulen",
+        "Bafög: Warum Studierende jetzt doch um die Erhöhung bangen müssen",
+        "Bafög-Äußerungen von Dorothee Bär: Wer ist hier privilegiert, Frau Ministerin?"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/bildung/niedersachsen-schule-in-ostfriesland-bietet-plattdeutsch-als-zweite-fremdsprache-an-a-4866181d-6fa6-48db-bfb5-4153cec95242#ref=rss",
+        "https://www.spiegel.de/ausland/polen-plant-handyverbot-an-grundschulen-a-82828a0c-d109-49d8-8e4c-8b79e9ae6601#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/bafoeg-warum-studierende-jetzt-doch-um-die-erhoehung-bangen-muessen-a-2bf4cbc3-a763-4eb3-ab62-d7e7aa95f07d#ref=rss",
+        "https://www.spiegel.de/start/bafoeg-dorothee-baer-nennt-studierende-privilegiert-und-stoppt-reform-kommentar-a-98fc9501-523d-42f2-a315-59d932d1800b#ref=rss"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
         }
       ]
     },
@@ -74,18 +173,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 22,
+      "article_count": 16,
       "sample_titles": [
+        "Landtagswahl 2026: Wissenschaftler warnen vor Folgen eines AfD-Wahlsiegs",
         "Wissensvermittlung: Technische Universität verschenkt Rucola- und Erbsenpflanzen",
         "Bafög: Studenten kritisieren Ministerin Bär: „Sollte mal ihren Job machen“",
-        "Ausbildung: Mehr als 1.000 neue Lehrverträge im Handwerk abgeschlossen",
-        "Studienfinanzierung: Kommt die Bafög-Reform doch nicht? - Ärger in der Koalition"
+        "Ausbildung: Mehr als 1.000 neue Lehrverträge im Handwerk abgeschlossen"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/landtagswahl-2026--wissenschaftler-warnen-vor-folgen-eines-afd-wahlsiegs-37494370.html",
         "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/wissensvermittlung--technische-universitaet-verschenkt-rucola--und-erbsenpflanzen-37478174.html",
         "https://www.stern.de/politik/deutschland/keine-bafoeg-reform--ministerin-dorothee-baer--sollte-ihren-job-machen--37473736.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/ausbildung--mehr-als-1-000-neue-lehrvertraege-im-handwerk-abgeschlossen-37475878.html",
-        "https://www.stern.de/politik/deutschland/studienfinanzierung--kommt-die-bafoeg-reform-doch-nicht----aerger-in-der-koalition-37468438.html"
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/ausbildung--mehr-als-1-000-neue-lehrvertraege-im-handwerk-abgeschlossen-37475878.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -103,124 +202,29 @@
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 22,
-      "sample_titles": [
-        "BAföG-Reform vor dem Aus – Bär verweist auf notwendige Sparprioritäten",
-        "„Nur gemeinsam stark“ – Prien fordert mehr Kooperation in der Bildung",
-        "„Das sind 20 Milliarden Euro, die an 4000 Schulen in herausfordernder Lage gehen“",
-        "„Ich habe in der Vorbereitungsphase mehr als 100 Übungsklausuren geschrieben“"
-      ],
-      "urls": [
-        "https://www.welt.de/videos/video6a1bc1e6bf5b78f90d009a15/bundesforschungsministerin-bafoeg-reform-vor-dem-aus-baer-verweist-auf-notwendige-sparprioritaeten.html",
-        "https://www.welt.de/regionales/hamburg/article6a197f30411d40cd4c74bae4/bildungspolitik-nur-gemeinsam-stark-prien-fordert-mehr-kooperation-in-der-bildung.html",
-        "https://www.welt.de/videos/video6a19526e411d40cd4c74b6b7/neues-foerderpaket-fuer-schulen-das-sind-20-milliarden-euro-die-an-4000-schulen-in-herausfordernder-lage-gehen.html",
-        "https://www.welt.de/vermischtes/article6a02fb13453b15e119075fdc/15-punkte-im-jura-examen-warum-dieser-spitzenstudent-seine-note-anfocht.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 21,
-      "sample_titles": [
-        "Polen plant Handyverbot an Grundschulen",
-        "Bafög: Warum Studierende jetzt doch um die Erhöhung bangen müssen",
-        "Bafög-Äußerungen von Dorothee Bär: Wer ist hier privilegiert, Frau Ministerin?",
-        "Schulunterricht: Mit fröhlichen Lehrern zu besseren Leistungen"
-      ],
-      "urls": [
-        "https://www.spiegel.de/ausland/polen-plant-handyverbot-an-grundschulen-a-82828a0c-d109-49d8-8e4c-8b79e9ae6601#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/bafoeg-warum-studierende-jetzt-doch-um-die-erhoehung-bangen-muessen-a-2bf4cbc3-a763-4eb3-ab62-d7e7aa95f07d#ref=rss",
-        "https://www.spiegel.de/start/bafoeg-dorothee-baer-nennt-studierende-privilegiert-und-stoppt-reform-kommentar-a-98fc9501-523d-42f2-a315-59d932d1800b#ref=rss",
-        "https://www.spiegel.de/wissenschaft/mensch/schulunterricht-mit-froehlichen-lehrern-zu-besseren-leistungen-a-0a2aa99d-e65b-4f79-aaca-5b4b48971b7b#ref=rss"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 18,
-      "sample_titles": [
-        "Genozid als Unterrichtsthema: Geschichte vielfältiger lehren",
-        "Geschacher um Bafög-Reform: Auf den Mond geschossen?",
-        "Ein Bafög-Brief an Dorothee Bär: Von wegen schönste Zeit des Lebens",
-        "Bildungsungerechtigkeit in Deutschland: „Das Bafög ist eine Chancenleistung“"
-      ],
-      "urls": [
-        "https://taz.de/Genozid-als-Unterrichtsthema/!6183302/",
-        "https://taz.de/Geschacher-um-Bafoeg-Reform/!6183208/",
-        "https://taz.de/Ein-Bafoeg-Brief-an-Dorothee-Baer/!6183385/",
-        "https://taz.de/Bildungsungerechtigkeit-in-Deutschland/!6183209/"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 12,
+      "article_count": 14,
       "sample_titles": [
+        "SZ-Podcast „Auf den Punkt“: Wie viel Geld brauchen Studierende?",
         "Dachauer Forum: „Erwachsenenbildung ist immer zukunftsorientiert“",
         "Kreisjugendring Dachau: Rechtsextreme Vorfälle in der Schule",
-        "Hochschulen: Bafög ist kein Nice-to have, sondern für viele dringend nötig",
         "Hochschulbildung: Bär sieht keine politische Mehrheit für Bafög-Reform – SPD kritisiert das"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/bafoeg-erhoehung-lebenshaltungskosten-studierende-deutschland-li.3493430",
         "https://www.sueddeutsche.de/muenchen/dachau/dachauer-forum-interview-geschaeftsfuehrerin-uebergabe-wechsel-herausforderungen-katholische-erwachsenenbildung-li.3481393",
         "https://www.sueddeutsche.de/muenchen/dachau/dachau-rechtsextremismus-schule-meldestelle-li.3486610",
-        "https://www.sueddeutsche.de/meinung/kommentar-dorothee-baer-union-bafoeg-hochschulen-li.3491638",
         "https://www.sueddeutsche.de/politik/bafoeg-reform-berlin-union-spd-li.3490259"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
         {
           "emotion": "desire",
           "count": 1
@@ -231,40 +235,11 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 11,
-      "sample_titles": [
-        "Wegen Bafög-Streit SPD-Bundestagsabgeordnete droht mit Koalitionsbruch",
-        "JF-Exklusiv Und dann lässt der Translehrer die Schüler „Ich f*ck ’ne H*re“ analysieren",
-        "Der Esoterik-Guru Waldorfschulen – Falsche Propheten unterm Regenbogen",
-        "JF-Reportage „Unter uns Schülern herrscht Angst“ – Wenn ein Bonner Gymnasium kippt"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/spd-bundestagsabgeordnete-droht-wegen-ausbleibender-bafoeg-erhoehung-mit-koalitionsbruch/",
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/und-dann-laesst-der-translehrer-die-schueler-ich-fck-ne-hre-analysieren/",
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/waldorfschulen-falsche-propheten-unterm-regenbogen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/unter-uns-schuelern-herrscht-angst-wenn-ein-bonner-gymnasium-kippt/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 9,
+      "article_count": 8,
       "sample_titles": [
         "Koalition droht neuer Streit: Bafög-Diskussion spitzt sich zu",
         "Bafög, Sondervermögen und keine Libanon-Reise",
@@ -281,7 +256,7 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -291,25 +266,50 @@
       "bias": "left-liberal",
       "article_count": 8,
       "sample_titles": [
+        "Bildschirmzeit von Kindern: Sind Bildschirme wirklich so schlimm für Kleinkinder?",
         "Studium: Dorothee Bär rechnet mit Aus für Bafög-Reform",
         "Gesetzliche Krankenversicherung: Wirtschaftsweiser stellt Beamtenstatus für Lehrkräfte infrage",
-        "Schulaufsichtsbeamtin: »Mir geht es mit meinem jetzigen Gehalt unverschämt gut«",
-        "Sozialreformen: Spahn schließt höheres Elterngeld und Bafög aus"
+        "Schulaufsichtsbeamtin: »Mir geht es mit meinem jetzigen Gehalt unverschämt gut«"
       ],
       "urls": [
+        "https://www.zeit.de/wissenschaft/2026-05/bildschirmzeit-kinder-medienkonsum-verbot-karin-prien",
         "https://www.zeit.de/campus/2026-05/bafoeg-reform-dorothee-baer-sparmassnahmen",
         "https://www.zeit.de/gesellschaft/2026-05/lehrer-beamtenstatus-wirtschaftsweiser-achim-truger-krankenkassen",
-        "https://www.zeit.de/arbeit/2026-05/schulaufsichtsbeamtin-schule-behoerde-elternzeit-kontoauszug",
-        "https://www.zeit.de/politik/deutschland/2026-05/jens-spahn-elterngeld-reformen-bafoeg-koalition-sparen"
+        "https://www.zeit.de/arbeit/2026-05/schulaufsichtsbeamtin-schule-behoerde-elternzeit-kontoauszug"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "amusement",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 2
+          "emotion": "amusement",
+          "count": 1
         },
         {
-          "emotion": "amusement",
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 6,
+      "sample_titles": [
+        "Pistorius sucht Quereinsteiger - Wechsel zur Bundeswehr? So viel Lohn würden SIE kriegen",
+        "„Kein Vollkaskostudium“ - Bär sieht keine Chance mehr für Bafög-Erhöhung",
+        "Wirtschaftsweiser fordert - Lehrer nicht mehr automatisch verbeamten!",
+        "„Diese Debatte macht mich wütend“ - „Der Lehrer“ verteidigt Generation Z"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/ausland-und-internationales/bundeswehr-so-viel-geld-bekommen-sie-beim-einstieg-in-die-truppe-6a1d443e23e28d1fd3a5e5b6",
+        "https://www.bild.de/politik/inland/bafoeg-und-studium-dorothee-baer-sieht-keine-chance-mehr-fuer-eine-erhoehung-6a1bc479411d40cd4c74d07f",
+        "https://www.bild.de/politik/inland/wirtschaftsweiser-lehrer-sollen-nicht-mehr-automatisch-beamte-werden-6a14051ef1c0dd3f2e7d44a1",
+        "https://www.bild.de/unterhaltung/stars-und-leute/diese-debatte-macht-mich-wuetend-der-lehrer-verteidigt-generation-z-6a1140923b7096456ac803dc"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -318,7 +318,7 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 7,
+      "article_count": 6,
       "sample_titles": [
         "CDU-Äußerungen säen Unsicherheit: SPD pocht auf Bafög-Erhöhung: \"Finanzierung steht\"",
         "Ärger führt zu miesem Unterricht: Sind Lehrer gut gelaunt, gibts bessere Zensuren",
@@ -343,7 +343,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 7,
+      "article_count": 6,
       "sample_titles": [
         "Bildung: „Mehr Bismarck, weniger Hitler“: Wie die AfD Schulen und Unis in Sachsen-Anhalt verändern will",
         "Bildung: „Schlicht falsch“: SPD kritisiert CSU-Ministerin Bär, die Bafög-Reform für gescheitert erklärt",
@@ -372,42 +372,68 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 5,
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 6,
       "sample_titles": [
-        "„Kein Vollkaskostudium“ - Bär sieht keine Chance mehr für Bafög-Erhöhung",
-        "Wirtschaftsweiser fordert - Lehrer nicht mehr automatisch verbeamten!",
-        "„Diese Debatte macht mich wütend“ - „Der Lehrer“ verteidigt Generation Z",
-        "Im Sexualkunde-Unterricht - Achtklässler sollen „Puff für alle“ entwerfen"
+        "Wegen Bafög-Streit SPD-Bundestagsabgeordnete droht mit Koalitionsbruch",
+        "Der Esoterik-Guru Waldorfschulen – Falsche Propheten unterm Regenbogen",
+        "JF-Reportage „Unter uns Schülern herrscht Angst“ – Wenn ein Bonner Gymnasium kippt",
+        "Nordrhein-Westfalen Wenn Schüler ein „Freudenhaus der sexuellen Lebenslust“ entwerfen sollen"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/bafoeg-und-studium-dorothee-baer-sieht-keine-chance-mehr-fuer-eine-erhoehung-6a1bc479411d40cd4c74d07f",
-        "https://www.bild.de/politik/inland/wirtschaftsweiser-lehrer-sollen-nicht-mehr-automatisch-beamte-werden-6a14051ef1c0dd3f2e7d44a1",
-        "https://www.bild.de/unterhaltung/stars-und-leute/diese-debatte-macht-mich-wuetend-der-lehrer-verteidigt-generation-z-6a1140923b7096456ac803dc",
-        "https://www.bild.de/regional/nordrhein-westfalen/sexualkunde-in-kevelaer-achtklaessler-sollen-puff-fuer-alle-entwerfen-69fafaccc6d2944c8df697ae"
+        "https://jungefreiheit.de/politik/deutschland/2026/spd-bundestagsabgeordnete-droht-wegen-ausbleibender-bafoeg-erhoehung-mit-koalitionsbruch/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/waldorfschulen-falsche-propheten-unterm-regenbogen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/unter-uns-schuelern-herrscht-angst-wenn-ein-bonner-gymnasium-kippt/",
+        "https://jungefreiheit.de/politik/deutschland/2026/wenn-schueler-ein-freudenhaus-der-sexuellen-lebenslust-entwerfen-sollen/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Die CDU will nicht nur sparen, sondern Deutschland die Zukunft ersparen",
+        "Schüler der achten Klasse müssen „Puff für alle“ planen",
+        "„Zentrum für politische Schönheit“ schickt Alice-Weidel-Gefängnisbus an Schulen"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/meinungen/cdu-will-deutschland-zukunft-ersparen/",
+        "https://www.tichyseinblick.de/meinungen/gymnasium-kevelaer/",
+        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/zps-bus-schulen-afd/"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
     },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "DER ANDERE BLICK - Deutsche Hochschulen brauchen mehr Geld - und vor allem Freiheit",
         "GASTKOMMENTAR - Übernimmt die KI den Fremdsprachenunterricht? Ja, aber es eröffnet auch Möglichkeiten",
-        "Die Prinzessin und die hundert Sprachen der Kinder: wie Kate Middleton eine italienische Bildungsidee zur königlichen Sache macht",
-        "Schläge für neunjährige Mobber: Lehrer in Singapur dürfen Schüler mit dem Rohrstock betrafen"
+        "Die Prinzessin und die hundert Sprachen der Kinder: wie Kate Middleton eine italienische Bildungsidee zur königlichen Sache macht"
       ],
       "urls": [
         "https://www.nzz.ch/der-andere-blick/deutsche-hochschulen-brauchen-mehr-geld-und-vor-allem-freiheit-ld.10007949",
         "https://www.nzz.ch/meinung/uebernimmt-die-ki-den-fremdsprachenunterricht-ja-aber-das-eroeffnet-moeglichkeiten-und-fuehrt-zurueck-zu-humboldt-ld.10006378",
-        "https://www.nzz.ch/panorama/die-prinzessin-und-die-hundert-sprachen-der-kinder-wie-kate-middleton-eine-italienische-bildungsidee-zur-koeniglichen-sache-macht-ld.10007185",
-        "https://www.nzz.ch/panorama/schlaege-fuer-mobber-singapur-bestraft-schueler-mit-dem-rohrstock-ld.10006172"
+        "https://www.nzz.ch/panorama/die-prinzessin-und-die-hundert-sprachen-der-kinder-wie-kate-middleton-eine-italienische-bildungsidee-zur-koeniglichen-sache-macht-ld.10007185"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -441,14 +467,12 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Wie eine bildungsfremde Generation Deutschland prägen wird",
-        "Die alten Ägypter wären heute an deutschen Schulen weit unterfordert"
+        "Wie eine bildungsfremde Generation Deutschland prägen wird"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/wie_eine_bildungsfremde_generation_deutschland_praegen_wird",
-        "https://www.achgut.com/artikel/die_alten_aegypter_waeren_heute_an_deutschen_schulen_weit_unterfordert"
+        "https://www.achgut.com/artikel/wie_eine_bildungsfremde_generation_deutschland_praegen_wird"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -476,33 +500,19 @@
           "count": 1
         }
       ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "„Zentrum für politische Schönheit“ schickt Alice-Weidel-Gefängnisbus an Schulen"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/zps-bus-schulen-afd/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "neutral": 75,
-    "left-liberal": 63,
-    "left": 18,
-    "right-conservative": 29,
-    "economic-liberal": 7,
+    "right-conservative": 27,
     "conservative-liberal": 42,
-    "far-right": 14,
-    "populist-mixed": 5
+    "neutral": 77,
+    "left": 23,
+    "left-liberal": 58,
+    "populist-mixed": 6,
+    "economic-liberal": 6,
+    "far-right": 10
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt unabhängig von politischer Ausrichtung eine breite Übereinstimmung darin, dass die BAföG-Reform ein zentrales Gerechtigkeitsproblem darstellt und deren Finanzierung sowie Umsetzung als Indikator für die Prioritätensetzung einer Regierung fungiert — allerdings mit unterschiedlichen Schuldzuweisungen an die Koalitionspartner. Jenseits der BAföG-Debatte besteht ein impliziter Konsens, dass Lehrkräftemotivation und -zufriedenheit unmittelbar mit Unterrichtsqualität korrelieren und damit ein systemisches Problem der deutschen Schullandschaft darstellen, das über ideologische Grenzen hinweg als lösungsbedürftig wahrgenommen wird. Während linke und progressive Medien Bildungszugang und Chancengleichheit als Kernthema hervorheben, zeigt sich auch in konservativ-liberalen und wirtschaftsliberalen Medien die Anerkennung, dass das deutsche Bildungssystem in seiner gegenwärtigen Form nicht wettbewerbsfähig ist und grundlegender Reform bedarf.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer zentrale Konflikt verläuft zwischen zwei gegensätzlichen Konzeptionen von Bildung als gesellschaftliche Ressource: Während linke und linksliberale Medien Bildung als Grundrecht und Instrument zur Bekämpfung sozialer Ungleichheit rahmen (manifesto in der BAföG-Debatte als Forderung nach unabhängiger Studierendenfinanzierung), verstehen konservativ-liberale und ökonomisch-liberale Medien sie primär als Investitionsgut mit Rückwirkungen auf Wirtschaftswettbewerbsfähigkeit, weshalb sie Sparprämissen gegen Reformambitionen ausspielen und berufliche Bildung als gleichwertige Alternative zu akademischer legitimieren. Ein zweiter struktureller Konflikt manifestiert sich in der Frage des Säkularisierungsgrades von Bildung: Die rechten und far-right-Medien führen eine Kulturbattaille gegen vermeintliche ideologische Überfrachtung (Genderthemen, progressive Geschichtsinterpretation, sexuelle Aufklärung), die sie als Verlust einer neutralen Wissensvermittlung deuten, während progressive Medien diesen Gegensatz gar nicht anerkennen und universale Inhalte wie Inklusion oder diverse Geschichtsdarstellung schlicht als sachlich korrekt und gerecht rahmen – hier prallen fundamentale Differenzen in der Definition von Objektivität und Legitimität pädagogischen Handelns aufeinander.",
-  "cached_at": "2026-06-03T09:31:25.175431"
+  "shared_perspectives": "Der deutsche Mediendiskurs zum Bildungssystem teilt übergreifend die Diagnose einer materiellen und strukturellen Krise: Unabhängig von politischer Ausrichtung wird ein akuter Mangel an Ressourcen, Personal und Infrastruktur konstatiert, der sich in schlechteren Leistungen, überlasteten Lehrkräften und vernachlässigter Studentenförderung manifestiert. Diese gemeinsame Problemwahrnehmung wird jedoch durch unvereinbare Lösungsansätze überlagert — während konservative Medien auf Effizienzsteigerung und Sparmaßnahmen setzen, fordern linke Medien massive Investitionen und kritisieren den Sparwillen als gesellschaftlich destruktiv. Eine dritte geteilte Überzeugung betrifft die Notwendigkeit einer Transformation des Bildungssystems angesichts technologischen und arbeitsmarktlichen Wandels, wobei aber stark umstritten ist, ob diese Transformation eher durch digitale Modernisierung, wirtschaftliche Anpassung oder emanzipatorische Erwachsenenbildung gelingen soll.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer zentrale Konflikt verläuft zwischen einem **Gerechtigkeitsparadigma der linken und linkssozialliberalen Medien** — das Bildung als staatliche Daseinsverpflichtung und Armutsbekämpfungsinstrument begreift (BAföG-Erhöhungen, Hochschulfinanzierung) — und einem **Effizienz- und Sparparadigma konservativer und wirtschaftsliberaler Medien**, das Bildung primär als Humankapitalinvestition mit klaren Kostengrenzen rahmt und Quereinsteiger, Leistungsdifferenzierung und individuelle Finanzverantwortung bevorzugt. Ein zweiter, damit verwobener Konflikt offenbart sich in der **Deutungshoheit über den Krisenzustand des Systems**: Während progressive Medien die Misere als Unterfinanzierungsproblem und politisches Versagen darstellen, nutzen rechtskonservative Medien identitäre Kulturkritik (Sexualkunde, Geschlechtersensibilität), um strukturelle Systemkritik zu delegitimieren und das Problem als ideologische Verfehlung zu rahmen — womit sie bildungspolitische Fragen in Wertekonflikte transformieren und von Ressourcendebatten ablenken.",
+  "cached_at": "2026-06-06T07:29:02.627293"
 }

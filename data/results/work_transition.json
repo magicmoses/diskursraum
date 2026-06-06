@@ -1,35 +1,35 @@
 {
   "topic_id": "work_transition",
   "topic_label": "Arbeit im Wandel",
-  "article_count": 392,
-  "candidate_count": 587,
+  "article_count": 376,
+  "candidate_count": 641,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 66,
+      "article_count": 74,
       "sample_titles": [
-        "Deutlich mehr Menschen in Transfergesellschaften",
-        "Leichte Entlastung für den saarländischen Arbeitsmarkt",
-        "Historisch: Erster Warnstreik-Aufruf in Casinos in BW",
-        "So macht die KI Informatikern Konkurrenz"
+        "Kann viel Homeoffice die Psyche belasten?",
+        "Streik bei Rewe, Primark, Ikea und H&M läuft auch am Samstag noch",
+        "\"Wir sind nicht die Billigheimer der Nation\"",
+        "\"Wir sind nicht die Billigheimer der Nation\""
       ],
       "urls": [
-        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/arbeitslosigkeit-transfergesellschaften-102.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/arbeitsmarkt_mai_2026_saarland_100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/historisch-erster-warnstreik-in-landeseigenen-spielbanken-100.html",
-        "https://www1.wdr.de/wirtschaft/informatik-jobsuche-ki-100.html"
+        "https://www.tagesschau.de/wissen/gesundheit/homeoffice-psyche-100.html",
+        "https://www.hessenschau.de/wirtschaft/streik-bei-rewe-primark-ikea-und-hm-laeuft-auch-am-samstag-noch-v3,streik-einzelhandel-102.html",
+        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/handel-verdi-warnstreiks-100.html",
+        "https://www.tagesschau.de/wirtschaft/handel-verdi-warnstreiks-100.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "desire",
-          "count": 4
+          "emotion": "annoyance",
+          "count": 5
         },
         {
-          "emotion": "annoyance",
-          "count": 4
+          "emotion": "desire",
+          "count": 3
         },
         {
           "emotion": "approval",
@@ -37,65 +37,32 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 48,
-      "sample_titles": [
-        "23 Milliarden Euro fehlen: Arbeitslosenkasse kämpft mit riesiger Finanzlücke",
-        "EU-Entgeltrichtlinie: Machtkampf um die Lohngleichheit",
-        "Schwieriger Jobmarkt: Warum sich eine Ausbildung im Handwerk lohnen kann",
-        "Debatte um Zuwanderung: „Die Schweiz ist auf ausländische Fachkräfte angewiesen“"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/arbeitslosenkasse-kaempft-mit-riesiger-finanzluecke-200892363.html",
-        "https://www.faz.net/aktuell/wirtschaft/eu-entgeltrichtlinie-machtkampf-um-die-lohngleichheit-200890495.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/schwieriger-jobmarkt-warum-sich-eine-ausbildung-im-handwerk-lohnen-kann-200888782.html",
-        "https://www.faz.net/aktuell/wirtschaft/bevoelkerungsdeckel-in-der-schweiz-warum-abb-praesident-peter-voser-das-ablehnt-accg-200883046.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "realization",
-          "count": 2
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 45,
+      "article_count": 43,
       "sample_titles": [
+        "„Wir alle müssen länger arbeiten“",
         "„Nutznießer ungleicher Verteilung in die Pflicht nehmen“ – DGB will Superreiche stärker besteuern",
-        "Das vernichtende Urteil für die Rente mit 63",
-        "„Teil des Problems oder Teil des Widerstands“ – Linke ruft SPD zu Protest gegen Sozialreformen auf",
-        "„Es geht um 200.000 bei 80 Millionen Einwohnern – ein leistbarer Beitrag“"
+        "Mehr als jeder zweite Beschäftigte wünscht sich kürzere Arbeitszeiten",
+        "Linke warnt vor Abschaffung des Acht-Stunden-Tags – Gewerkschaften warnen vor Gesundheitsschäden"
       ],
       "urls": [
+        "https://www.welt.de/videos/video6a1fda3eaa3fa782d146fefd/reform-der-rente-wir-alle-muessen-laenger-arbeiten.html",
         "https://www.welt.de/politik/deutschland/article6a1f57de1f46a650bff5d559/vermoegensteuer-nutzniesser-ungleicher-verteilung-in-die-pflicht-nehmen-dgb-will-superreiche-staerker-besteuern.html",
-        "https://www.welt.de/wirtschaft/article6a1ed3478777b4bfe1a26241/bertelsmann-studie-das-vernichtende-urteil-fuer-die-rente-mit-63.html",
-        "https://www.welt.de/politik/deutschland/article6a16f788bd0d0e58e09d9a47/gegen-den-kanzler-teil-des-problems-oder-teil-des-widerstands-linke-ruft-spd-zu-protest-gegen-sozialreformen-auf.html",
-        "https://www.welt.de/videos/video6a1dbc6b411d40cd4c74e9d2/widerstand-gegen-reservistenpflicht-es-geht-um-200-000-bei-80-millionen-einwohnern-ein-leistbarer-beitrag.html"
+        "https://www.welt.de/politik/deutschland/article6a193982672896fe8f1653e1/umfrage-mehr-als-jeder-zweite-beschaeftigte-wuenscht-sich-kuerzere-arbeitszeiten.html",
+        "https://www.welt.de/politik/deutschland/article6a18ab0097729b72f6d735f5/reform-des-arbeitszeitgesetzes-linke-warnt-vor-abschaffung-des-acht-stunden-tags-gewerkschaften-warnen-vor-gesundheitsschaeden.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "desire",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
         {
           "emotion": "desire",
           "count": 2
+        },
+        {
+          "emotion": "surprise",
+          "count": 1
         },
         {
           "emotion": "curiosity",
@@ -103,11 +70,44 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 40,
+      "sample_titles": [
+        "Nach ZDF-Doku: Jobcenter kündigt Mitarbeiter nach Bürgergeld-Kritik",
+        "23 Milliarden Euro fehlen: Arbeitslosenkasse kämpft mit riesiger Finanzlücke",
+        "EU-Entgeltrichtlinie: Machtkampf um die Lohngleichheit",
+        "Schwieriger Jobmarkt: Warum sich eine Ausbildung im Handwerk lohnen kann"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/zdf-doku-jobcenter-kuendigt-mitarbeiter-nach-buergergeld-kritik-200901680.html",
+        "https://www.faz.net/aktuell/wirtschaft/arbeitslosenkasse-kaempft-mit-riesiger-finanzluecke-200892363.html",
+        "https://www.faz.net/aktuell/wirtschaft/eu-entgeltrichtlinie-machtkampf-um-die-lohngleichheit-200890495.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/schwieriger-jobmarkt-warum-sich-eine-ausbildung-im-handwerk-lohnen-kann-200888782.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "realization",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 40,
+      "article_count": 35,
       "sample_titles": [
         "Teure Frührente: „Rente mit 63“ abschaffen würde fast zehn Milliarden sparen – pro Jahrgang",
         "Hessischer Arbeitsmarkt: Fast jeder zweite Betrieb setzt auf ausländische Mitarbeiter",
@@ -127,12 +127,12 @@
           "count": 2
         },
         {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "joy",
+          "count": 1
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "approval",
+          "count": 1
         }
       ]
     },
@@ -140,60 +140,27 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 34,
+      "article_count": 31,
       "sample_titles": [
-        "Pistorius plant neues Gesetz: Arbeitgeber wehren sich gegen Pflicht-Reservedienst",
-        "Suche nach dem Aufschwung: Vor-Reformgipfel: Arbeitgeber und Gewerkschaften tagen im Kanzleramt",
-        "Schwarz-Rot lockert Arbeitszeit: \"Ende des Acht-Stunden-Tags wäre volkswirtschaftlicher Unsinn\"",
-        "70-Stunden-Woche voraus?: Streit um Acht-Stunden-Tag - das gilt bisher"
+        "Besonders bei einer Gruppe: Homeoffice kann laut Studie die Psyche belasten",
+        "Sieben Prozent mehr Lohn: Verdi ruft zu bundesweiten Warnstreiks im Handel auf",
+        "Ehepaare aufgepasst!: Steuerklasse gewechselt: Wird Steuererklärung nun Pflicht?",
+        "Pistorius plant neues Gesetz: Arbeitgeber wehren sich gegen Pflicht-Reservedienst"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Arbeitgeber-wehren-sich-gegen-Pflicht-Reservedienst-id30877336.html",
-        "https://www.n-tv.de/politik/Vor-Reformgipfel-Arbeitgeber-und-Gewerkschaften-tagen-im-Kanzleramt-id30871502.html",
-        "https://www.n-tv.de/wirtschaft/Ende-des-Acht-Stunden-Tags-waere-volkswirtschaftlicher-Unsinn-id30872251.html",
-        "https://www.n-tv.de/ratgeber/Streit-um-Acht-Stunden-Tag-das-gilt-bisher-id30870246.html"
+        "https://www.n-tv.de/wissen/Homeoffice-kann-laut-Studie-die-Psyche-belasten-id30890959.html",
+        "https://www.n-tv.de/wirtschaft/Verdi-ruft-zu-bundesweiten-Warnstreiks-im-Handel-auf-id30888661.html",
+        "https://www.n-tv.de/ratgeber/Steuerklasse-gewechselt-Wird-Steuererklaerung-nun-Pflicht-id30886226.html",
+        "https://www.n-tv.de/politik/Arbeitgeber-wehren-sich-gegen-Pflicht-Reservedienst-id30877336.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 2
+          "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 27,
-      "sample_titles": [
-        "CDU/CSU und SPD: Konsenskränzchen mit Arbeitgebern und Gewerkschaften? Das wird nicht gutgehen",
-        "Rentenversicherung rechnet mit leicht stärkerem Anstieg der Beiträge",
-        "Ver.di-Chef zieht rote Linien für die Reformpläne der Regierung",
-        "Frauen im Arbeitsmarkt: Koalition ringt um Elterngeld und gleiche Löhne"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/reformpolitik-von-cdu-csu-und-spd-konzertierter-unsinn-a-f80664ca-a893-4677-89d0-0377baea6c45#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rentenversicherung-rechnet-offenbar-mit-staerkerem-anstieg-der-beitraege-a-0d92124a-3946-4484-8099-a6cdf30bf444#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/ver-di-chef-zieht-rote-linien-fuer-die-reformplaene-der-regierung-a-acdd4b10-1aa4-4906-a033-f94365a242bd#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/frauen-im-arbeitsmarkt-koalition-ringt-um-elterngeld-und-gleiche-loehne-a-b49b4fa8-3b31-4ed4-8855-54e382311451#ref=rss"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 4
-        },
-        {
-          "emotion": "confusion",
+          "emotion": "caring",
           "count": 1
         },
         {
@@ -206,24 +173,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 27,
+      "article_count": 30,
       "sample_titles": [
+        "Pflegereform: Warken will Pflegebeitrag anheben: Diese Kosten könnten auf Gutverdiener zukommen",
         "Arbeitsmarkt: Arbeitslosenzahl fällt erstmals seit Dezember unter drei Millionen",
         "Streiks: Tarifkonflikt zwischen Verdi und Telekom beigelegt",
-        "Arbeitsmarkt: 38.600 offene Stellen: Diese Branche stellt trotz Krise ein – und sucht verstärkt Führungskräfte",
-        "Arbeitsmarkt: Karriere in der Immobilienbranche: Nach der großen Krise sind jetzt diese Jobs gefragt"
+        "Arbeitsmarkt: 38.600 offene Stellen: Diese Branche stellt trotz Krise ein – und sucht verstärkt Führungskräfte"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/pflegereform-warken-will-pflegebeitrag-fuer-gutverdiener-anheben/100230374.html",
         "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-arbeitslosenzahl-faellt-erstmals-seit-dezember-unter-drei-millionen/100224596.html",
         "https://www.handelsblatt.com/unternehmen/dienstleister/streiks-tarifkonflikt-zwischen-verdi-und-telekom-beigelegt/100228782.html",
-        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-branche-stellt-trotz-krise-ein-und-sucht-fuehrungskraefte/100225391.html",
-        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-trotz-marktflaute-diese-jobs-sind-jetzt-gefragt/100225391.html"
+        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-branche-stellt-trotz-krise-ein-und-sucht-fuehrungskraefte/100225391.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "disapproval",
@@ -239,32 +206,65 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 24,
+      "article_count": 25,
       "sample_titles": [
+        "So belastend sind Jobs wegen der Arbeitszeit",
         "DGB schlägt Steuer für Millionäre vor",
         "Jeder zweite Beschäftigte wünscht sich kürzere Arbeitszeiten",
-        "Teilzeit-Beschäftigung auf Rekordhoch",
-        "Weg mit dem Acht-Stunden-Tag: Wer profitiert?"
+        "Teilzeit-Beschäftigung auf Rekordhoch"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/wirtschaft-arbeitszeiten-nacht-wochenende-100.html",
         "https://www.zdfheute.de/wirtschaft/dgb-superreiche-vermoegensteuer-100.html",
         "https://www.zdfheute.de/wirtschaft/dgb-umfrage-arbeitszeiten-beschaeftigte-100.html",
-        "https://www.zdfheute.de/wirtschaft/teilzeit-quote-arbeit-rekord-100.html",
-        "https://www.zdfheute.de/wirtschaft/arbeitszeit-reform-arbeitszeitregelung-acht-stunden-tag-kritik-100.html"
+        "https://www.zdfheute.de/wirtschaft/teilzeit-quote-arbeit-rekord-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
         {
           "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 25,
+      "sample_titles": [
+        "Ver.di-Chef zieht rote Linien für die Reformpläne der Regierung",
+        "Rentenversicherung rechnet mit leicht stärkerem Anstieg der Beiträge",
+        "Frauen im Arbeitsmarkt: Koalition ringt um Elterngeld und gleiche Löhne",
+        "Arbeitsmarkt: Zahl der Arbeitslosen sinkt wieder unter drei Millionen"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/soziales/ver-di-chef-zieht-rote-linien-fuer-die-reformplaene-der-regierung-a-acdd4b10-1aa4-4906-a033-f94365a242bd#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/rentenversicherung-rechnet-offenbar-mit-staerkerem-anstieg-der-beitraege-a-0d92124a-3946-4484-8099-a6cdf30bf444#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/frauen-im-arbeitsmarkt-koalition-ringt-um-elterngeld-und-gleiche-loehne-a-b49b4fa8-3b31-4ed4-8855-54e382311451#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/arbeitsmarkt-zahl-der-arbeitslosen-sinkt-wieder-unter-drei-millionen-a-dee6ec4d-ca5f-454a-a7db-94fb7487a6ca#ref=rss"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 4
+        },
+        {
+          "emotion": "desire",
           "count": 2
         },
         {
-          "emotion": "disgust",
-          "count": 2
+          "emotion": "annoyance",
+          "count": 1
         }
       ]
     },
@@ -272,31 +272,64 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 16,
+      "article_count": 17,
       "sample_titles": [
+        "Sie will viel höhere Steuern - Metaller-Boss entsetzt über Gewerkschaftschefin",
+        "SPD-Attacke gegen Parteichefin - Landrat zeigt Bas, wie man Faulenzer in Jobs kriegt",
         "Wenn der Laptop zum Spion wird - Kann mein Chef mich im Homeoffice überwachen?",
-        "Trotzdem kein Aufatmen - Endlich wieder unter 3 Millionen Arbeitslose",
-        "Tropfende Decken, überalterte Gebäude - Jede 3. Dienststelle der Bundespolizei marode",
-        "BILD exklusiv - Geheimplan aus der CDU gegen Bürgergeld-Trickser"
+        "Trotzdem kein Aufatmen - Endlich wieder unter 3 Millionen Arbeitslose"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/ungerecht-und-leistungsfeindlich-metaller-boss-entsetzt-ueber-gewerkschaftschefin-6a22d8538d84dbd8a4ed60c2",
+        "https://www.bild.de/politik/inland/knallhart-plan-gegen-arbeitsverweigerer-spd-landrat-zeigt-bas-wie-man-faulenzer-in-jobs-kriegt-6a228731a85ce647df471fb7",
         "https://www.bild.de/leben-wissen/digital/homeoffice-koennen-arbeitgeber-sehen-was-mitarbeitende-tun-6a1544a53b7096456ac82933",
-        "https://www.bild.de/politik/inland/arbeitslosenzahlen-endlich-wieder-unter-3-millionen-arbeitsloseaber-6a184e2af7254a7f19429b3d",
-        "https://www.bild.de/politik/inland/bundespolizei-jede-dritte-dienststelle-ist-marode-6a145cf93b7096456ac8230b",
-        "https://www.bild.de/politik/inland/deutschlandticket-statt-buergergeld-geheimplan-soll-schwarzfahrer-stoppen-6a0ef202f0f7eb608db79496"
+        "https://www.bild.de/politik/inland/arbeitslosenzahlen-endlich-wieder-unter-3-millionen-arbeitsloseaber-6a184e2af7254a7f19429b3d"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "fear",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
         {
           "emotion": "fear",
           "count": 1
         },
         {
           "emotion": "pride",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 13,
+      "sample_titles": [
+        "Einsamkeit im Homeoffice: Ist das Homeoffice eine Gefahr für die Psyche?",
+        "Arbeitsmarkt: Zahl der Arbeitslosen sinkt wieder unter drei Millionen",
+        "Reform des Arbeitszeitgesetzes: Gewerkschaften warnen vor Gesundheitsschäden bei längeren Arbeitstagen",
+        "Pflegereform: Gewerkschaftsbund kritisiert mögliche Beitragserhöhung für Kinderlose"
+      ],
+      "urls": [
+        "https://www.zeit.de/gesundheit/2026-06/homeoffice-einsamkeit-psychische-mentale-gesundheit-studie",
+        "https://www.zeit.de/arbeit/2026-05/zahl-arbeitslose-arbeitsmarkt-mai-deutschland-gxe",
+        "https://www.zeit.de/arbeit/2026-05/arbeitszeit-achtstundentag-gewerkschaften-warnung-gesundheitsschaeden",
+        "https://www.zeit.de/wirtschaft/2026-05/pflegeversicherung-kritik-hoehere-beitraege-kinderlose"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -305,18 +338,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 15,
+      "article_count": 12,
       "sample_titles": [
         "Global Rights Index des IGB: Beschäftigtenrechte erodieren",
         "Entgelttransparenz: Bundesregierung verzögert bei Equal Pay",
-        "Regierungsantwort auf Linken-Anfrage: Nudeln mit Ketchup statt Obst und Gemüse",
-        "Bürokratie und Bürgergeld: Kein mangelnder Wille"
+        "Union Busting bei Thoughtworks: Frontalangriff auf den Betriebsrat",
+        "Krise der Industrie in Deutschland: 341.500 Jobs seit 2019 weg"
       ],
       "urls": [
         "https://taz.de/Global-Rights-Index-des-IGB/!6183422/",
         "https://taz.de/Entgelttransparenz/!6183219/",
-        "https://taz.de/Regierungsantwort-auf-Linken-Anfrage/!6182877/",
-        "https://taz.de/Buerokratie-und-Buergergeld/!6183039/"
+        "https://taz.de/Union-Busting-bei-Thoughtworks/!6182289/",
+        "https://taz.de/Krise-der-Industrie-in-Deutschland/!6181687/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -334,69 +367,31 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 14,
-      "sample_titles": [
-        "Arbeitsmarkt: Zahl der Arbeitslosen sinkt wieder unter drei Millionen",
-        "Reform des Arbeitszeitgesetzes: Gewerkschaften warnen vor Gesundheitsschäden bei längeren Arbeitstagen",
-        "Pflegereform: Gewerkschaftsbund kritisiert mögliche Beitragserhöhung für Kinderlose",
-        "Pflegeversicherung: Arbeitgeber wollen Pflegeleistung an Lebenserwartung koppeln"
-      ],
-      "urls": [
-        "https://www.zeit.de/arbeit/2026-05/zahl-arbeitslose-arbeitsmarkt-mai-deutschland-gxe",
-        "https://www.zeit.de/arbeit/2026-05/arbeitszeit-achtstundentag-gewerkschaften-warnung-gesundheitsschaeden",
-        "https://www.zeit.de/wirtschaft/2026-05/pflegeversicherung-kritik-hoehere-beitraege-kinderlose",
-        "https://www.zeit.de/politik/deutschland/2026-05/pflegeversicherung-arbeitgeber-dulger-leistung-lebenserwartung"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
       "article_count": 9,
       "sample_titles": [
-        "Jobverlust-Report Mai – Kein Ende der Talfahrt in Sicht",
-        "EY-Studie: Investoren machen Bogen um Deutschland",
+        "Steuerkonzept des DGB: Der Kuh die Weide mähen und dafür mehr melken",
+        "Die Verzweiflung wächst: Selbst die Beamtenprivilegien sind nicht mehr tabu",
         "Arbeitsmarkt kippt: Industrie verliert 486.000 Arbeitsplätze im ersten Quartal",
         "Bürgergeld-Milliarden versenkt, „Klima“-Ziele verfehlt, Strom verschenkt – TE-Wecker am 19. Mai 2026"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/jobverlust-report-mai-kein-ende-der-talfahrt/",
-        "https://www.tichyseinblick.de/wirtschaft/studie-investoren-deutschland-merz/",
+        "https://www.tichyseinblick.de/wirtschaft/steuern-dgb/",
+        "https://www.tichyseinblick.de/daili-es-sentials/verzweiflung-waechst-beamtenprivilegien-nicht-mehr-tabu/",
         "https://www.tichyseinblick.de/wirtschaft/deutschlands-arbeitsmarkt-kippt/",
         "https://www.tichyseinblick.de/podcast/te-wecker-am-19-mai-2026/"
       ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 9,
+      "article_count": 6,
       "sample_titles": [
         "„Vermehrte Streitfälle ums Bürgergeld“ Klagen vor Sozialgerichten steigen rasant an",
         "Höhere Pflegebeiträge Deutscher Gewerkschaftsbund wirft Warken Bestrafung von Kinderlosen vor",
@@ -421,35 +416,68 @@
         }
       ]
     },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Was gilt denn nun, GAV oder Mindestlohn? Das Parlament ist für den GAV. Doch nun will der Gewerkschaftsbund das Referendum ergreifen",
+        "KOMMENTAR - Die «Robomobber» kommen – oder warum die Politik die Angst vor KI ernster nehmen muss",
+        "DER ANDERE BLICK - Von den Buhrufen kann sich Friedrich Merz bestätigt fühlen: Der Auftritt beim Deutschen Gewerkschaftsbund ist ein Moment der Wahrheit",
+        "Unternehmen meiden Deutschland – weil es sie hier teuer zu stehen kommt, Leute zu entlassen"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/was-gilt-denn-nun-gav-oder-mindestlohn-das-parlament-ist-fuer-den-gav-doch-nun-will-der-gewerkschaftsbund-das-referendum-ergreifen-ld.10010040",
+        "https://www.nzz.ch/meinung/die-robomobber-kommen-oder-warum-die-politik-die-angst-vor-ki-ernster-nehmen-muss-ld.10006991",
+        "https://www.nzz.ch/der-andere-blick/von-den-buhrufen-kann-sich-friedrich-merz-bestaetigt-fuehlen-der-auftritt-beim-deutschen-gewerkschaftsbund-ist-ein-moment-der-wahrheit-ld.10006848",
+        "https://www.nzz.ch/wirtschaft/unternehmen-meiden-deutschland-weil-es-sie-hier-teuer-zu-stehen-kommt-leute-zu-entlassen-ld.10006308"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 7,
+      "article_count": 5,
       "sample_titles": [
-        "Bayerns Metall- und Elektroindustrie in der Krise: „Die Lage ist dramatisch“",
         "Arbeitsmarkt: Führungskraft, 53, arbeitslos, sucht",
-        "Studie: Ostdeutsche Wirtschaft droht Anschluss zu verlieren",
-        "Politik in München: Stadt warnt vor Folgen der neuen Grundsicherung"
+        "Politik in München: Stadt warnt vor Folgen der neuen Grundsicherung",
+        "Anklage zugelassen: Steueroase mitten im Wald: Geschäftsleute müssen vor Gericht",
+        "Merz beim DGB: Wer Angst sät, erntet Pfiffe"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/bayern/bayern-konjunktur-metallindustrie-krise-li.3492033",
         "https://www.sueddeutsche.de/wirtschaft/arbeitsmarkt-deutschland-arbeitslos-manager-li.3484942",
-        "https://www.sueddeutsche.de/wirtschaft/wirtschaft-investitionen-deutschland-ostdeutschland-li.3490304",
-        "https://www.sueddeutsche.de/muenchen/muenchen-grundsicherung-mieten-warnung-li.3485987"
+        "https://www.sueddeutsche.de/muenchen/muenchen-grundsicherung-mieten-warnung-li.3485987",
+        "https://www.sueddeutsche.de/muenchen/steueroase-ebersberger-forst-strafprozess-landgericht-muenchen-li.3484109",
+        "https://www.sueddeutsche.de/wirtschaft/deutschland-sozialreformen-merz-gewerkschaften-arbeitgeber-dgb-inflation-rente-gesundheit-li.3482968"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "desire",
           "count": 1
         },
         {
-          "emotion": "realization",
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -460,50 +488,21 @@
       "bias": "conservative-liberal",
       "article_count": 5,
       "sample_titles": [
-        "„Sozialleistungen trotz Portugal-Aufenthalt“ - Der Bürgergeldempfänger, den der Staat selbst schuf",
         "Sind Totalsanktionen im Bürgergeld gerecht? - Von Haltung, Menschenwürde und Selbstverantwortung",
         "Markus Söder bei Caren Miosga - „Auch die Gewerkschaften können nicht nur ,Nein‘ sagen“",
-        "Reformdebatte - Während die Gewerkschaften noch mauern, entwickeln andere längst seriöse Reformideen"
+        "Reformdebatte - Während die Gewerkschaften noch mauern, entwickeln andere längst seriöse Reformideen",
+        "Bürgergeld im Ausland? - Der „Portugal-Schmarotzer“ – und wie eine Medienerzählung in sich zusammenfällt"
       ],
       "urls": [
-        "https://www.cicero.de/wirtschaft/sozialstaat-missbrauch-portugal-burgergeld",
         "https://www.cicero.de/kultur/sanktionen-soziales-rostock",
         "https://www.cicero.de/kultur/markus-soder-bei-caren-miosga-reformpaket",
-        "https://www.cicero.de/wirtschaft/stiftung-familienunternehmen-dgb-reformdebatte"
+        "https://www.cicero.de/wirtschaft/stiftung-familienunternehmen-dgb-reformdebatte",
+        "https://www.cicero.de/wirtschaft/burgergeld-portugal-schmarotzer-wie-eine-medienerzahlung-in-sich-zusammenfallt"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
         {
           "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "INTERVIEW - Weniger Lifestyle-Teilzeit, aber trotzdem Frühpensionierungen? «Das ist kein Widerspruch», sagt der oberste Arbeitgeber. «Wir als Gesellschaft müssen länger arbeiten»",
-        "40-Stunden-Woche, flexible Arbeitszeiten, Fairtrade-Schoggi: wenn der Zivildienst zum Hochschulpraktikum wird",
-        "DER ANDERE BLICK - Von den Buhrufen kann sich Friedrich Merz bestätigt fühlen: Der Auftritt beim Deutschen Gewerkschaftsbund ist ein Moment der Wahrheit",
-        "Unternehmen meiden Deutschland – weil es sie hier teuer zu stehen kommt, Leute zu entlassen"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/weniger-lifestyle-teilzeit-aber-trotzdem-fruehpensionierungen-das-ist-kein-widerspruch-sagt-der-oberste-arbeitgeber-wir-als-gesellschaft-muessen-laenger-arbeiten-ld.10008059",
-        "https://www.nzz.ch/schweiz/40-stunden-woche-flexible-arbeitszeiten-fairtrade-schoggi-wenn-der-zivildienst-zum-hochschulpraktikum-wird-ld.10005989",
-        "https://www.nzz.ch/der-andere-blick/von-den-buhrufen-kann-sich-friedrich-merz-bestaetigt-fuehlen-der-auftritt-beim-deutschen-gewerkschaftsbund-ist-ein-moment-der-wahrheit-ld.10006848",
-        "https://www.nzz.ch/wirtschaft/unternehmen-meiden-deutschland-weil-es-sie-hier-teuer-zu-stehen-kommt-leute-zu-entlassen-ld.10006308"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
           "count": 1
         }
       ]
@@ -529,16 +528,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 79,
-    "left-liberal": 88,
-    "neutral": 90,
-    "conservative-liberal": 58,
-    "far-right": 19,
-    "left": 15,
-    "populist-mixed": 16,
-    "economic-liberal": 27
+    "populist-mixed": 17,
+    "conservative-liberal": 50,
+    "neutral": 99,
+    "far-right": 16,
+    "right-conservative": 74,
+    "left-liberal": 78,
+    "economic-liberal": 30,
+    "left": 12
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zur Zukunft der Arbeit zeigt über alle politischen Lager hinweg eine geteilte Diagnose: Es gibt einen strukturellen Fachkräftemangel, der Deutschland wirtschaftlich unter Druck setzt und dessen Lösung sowohl durch Zuwanderung als auch durch bessere Ausbildungsbedingungen angegangen werden muss. Zweitens besteht breite Übereinstimmung, dass das Sozialversicherungssystem unter finanziellem Druck steht — ob durch steigende Arbeitslosenkassenbeiträge, Pflegebeiträge oder Rentenniveaudebatten — und dass dieser Druck mittelfristig zu Reformen zwingt, auch wenn die politischen Lager über die Richtung dieser Reformen kontrovers debattieren. Drittens wird durchgehend anerkannt, dass Digitalisierung, Automatisierung und neue Arbeitsformen (Homeoffice, Plattformarbeit) die traditionalen Arbeitsbeziehungen fundamental verändern und dass Arbeitnehmerrechte, Mitbestimmung und Entgelttransparenz in diesem Kontext neu zu kalibrieren sind, auch wenn Gewerkschaften und Arbeitgeber dabei unterschiedliche Prioritäten setzen.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Arbeitsmarktdiskurs\n\nDer zentrale Konflikt liegt in der gegensätzlichen Diagnose der Arbeitsmarktprobleme: Während konservativ-wirtschaftsliberale Medien den Fachkräftemangel als Knappheitsproblem rahmen, das durch Zuwanderung, flexible Arbeitsmodelle und reduzierte Sozialleistungen gelöst werden soll, kritisieren linke und gewerkschaftliche Positionen eine strukturelle Umverteilungskrise, bei der Lohnstagnation, Prekarität und mangelnde Tarifbindung das eigentliche Problem darstellen — zwei unvereinbare Problemdefinitionen, die zu völlig gegensätzlichen Lösungsvorschlägen führen. Zweitens offenbart sich ein grundlegender Konflikt über den Charakter von Arbeitsschutzstandards: Die wirtschaftsliberale und rechtskonservative Seite delegitimiert Arbeitsschutzvorschriften (Arbeitszeitgesetze, Reservedienste, Mindeststandards) als Wettbewerbshemmnisse und Kostentreiber, während linke und gewerkschaftliche Medien diese als nicht-verhandelbare Rechte gegen Ausbeutung verteidigen — hier prallen fundamentale Ordnungsvorstellungen aufeinander, nicht nur Maßnahmendisagreements. Drittens manifestiert sich ein Konflikt über die Legitimität von Umverteilung durch Sozialleistungen: Rechtskonservative und populistische Medien rahmen Bürgergeld und Rentenprivilegien zunehmend als illegitime Anspruchshaltung und Betrug, der Kontrollmechanismen und Sanktionen rechtfertigt, während linke Positionen diese als unverzichtbare Sozialrechte gegen Marktlogik verteidigen — dieser Konflikt berührt grundsätzlich unterschiedliche Vor",
-  "cached_at": "2026-06-03T09:29:53.234933"
+  "shared_perspectives": "Der deutsche Mediendiskurs zeigt übergreifend eine Konvergenz in der Problemdiagnose des Fachkräftemangels und der Notwendigkeit von Arbeitsmarktflexibilität, unabhängig davon ob dieser Mangel durch unzureichende Ausbildung, mangelnde Zuwanderung oder Absicherung von Beschäftigung erklärt wird. Zugleich besteht medienübergreifend Einigkeit darüber, dass die Sozialabsicherung — ob Bürgergeld, Pflegefinanzierung oder Rentensystem — unter Finanzierungsdruck gerät und Reform erfordert, wobei sich der Dissens nur auf die Richtung dieser Reformen bezieht. Ein dritter Punkt geteilter Problemwahrnehmung ist die Anerkennung von Tarifverhandlungen und Arbeitskonflikten als legitime und strukturell notwendige Mechanismen des deutschen Arbeitsmarktes, selbst wenn einzelne Medien deren Ergebnisse oder Taktiken kritisieren — die grundsätzliche Berechtigung von Streiks und Tarifautonomie wird auch von wirtschaftsliberalen und konservativen Medien nicht in Frage gestellt.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Arbeitsmarktdiskurs\n\nDer zentrale Konflikt spaltet sich in zwei unvereinbare Deutungsrahmen der sozialen Realität: Während konservativ-liberal und wirtschaftsliberal ausgerichtete Medien Arbeitsmarktprobleme primär als Ergebnis von Überregulierung, mangelnder Leistungsanreize (besonders beim Bürgergeld) und Gewerkschaftsegoismus darstellen — was zu einer Lösungsorientierung auf Deregulierung und Sanktionsverschärfung führt —, deuten linke und gewerkschaftsnahe Medien die gleichen Phänomene als strukturelle Unterversorgung, Ressourcenmangel und ungleiche Machtverteilung, die nach Umverteilung und stärkerer Regulierung verlangen. Dieser Konflikt ist nicht durch empirische Fakten zu überbrücken, weil beide Seiten unterschiedliche Kausalitäten unterstellen: Ob Arbeitslosigkeit durch mangelnde Motivation oder durch zu wenig qualifizierte Jobs entsteht, ob Tarifbindung Arbeitsplätze sichert oder vernichtet, ob höhere Löhne Fachkräftemangel lösen oder Betriebe abwandern lässt, sind Fragen, die im Diskurs ideologisch vorbesetzt sind.\n\nEine zweite, weniger offensichtliche Bruchlinie verläuft zwischen einer output-orientierten und einer dignity-orientierten Perspektive auf Arbeit: Populist-gemischte und wirtschaftsliberale Medien messen Arbeitsmarkt-Erfolg an Arbeitslosenzahlen, Beschäftigungsquoten und wirtschaftlicher Effizienz, während linke und teilweise gewerkschaftliche Medien die subjektive Arbeitserfahrung (Psychische Belastung, Vereinzelung im Homeoffice, Entgeltgere",
+  "cached_at": "2026-06-06T07:27:17.951198"
 }
