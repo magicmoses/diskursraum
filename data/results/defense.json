@@ -1,31 +1,64 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 184,
+  "article_count": 161,
   "candidate_count": 800,
   "outlets": {
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 23,
+      "sample_titles": [
+        "„Es könnte bereits ab 2030 einen russischen Angriff auf die Nato geben“",
+        "Dieses Marine-Dokument zeigt, wie sehr Deutschland von den Hormus-Attacken betroffen ist",
+        "„Man könnte meinen, Frau Strack-Zimmermann sei zur Kanzlerin gewählt worden“",
+        "„Deutschland glaubt, es könnte irgendwie mitreden, indem es sich anbiedert“"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/ausland/article6a22e80b9e32e33bafd53b18/starmer-warnt-vor-russischem-angriff-ab-2030-und-spricht-von-gefaehrlichster-zeit-seines-lebens.html",
+        "https://www.welt.de/politik/deutschland/plus6a22a382b20db0d89b656399/strasse-von-hormus-nicht-unser-krieg-im-iran-dieses-marine-dokument-widerspricht-der-bundesregierung.html",
+        "https://www.welt.de/videos/video6a21b2b03807a686af77df40/henryk-m-broder-man-koennte-meinen-frau-strack-zimmermann-sei-zur-kanzlerin-gewaehlt-worden.html",
+        "https://www.welt.de/videos/video6a2190b9a54320792aaa6906/niederlage-beim-un-sicherheitsrat-deutschland-glaubt-es-koennte-irgendwie-mitreden-indem-es-sich-anbiedert.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 28,
+      "article_count": 21,
       "sample_titles": [
+        "\"Respekt und Dank\": Pistorius wünscht sich mehr Rückhalt für Bundeswehr im Land",
         "Merz sieht \"schwieriges Umfeld\": Deutschland will sich 2035/36 erneut für UN-Sicherheitsrat bewerben",
         "\"Der falsche Weg für unser Land\": Söder kritisiert Bundeswehr-Pläne von Pistorius",
-        "Brandbrief von Insidern: Reparaturstau bei der Bundeswehr soll bedrohliche Ausmaße haben",
-        "Tod bei Training der GSG 9: Polizist vertauschte offenbar Munition"
+        "Brandbrief von Insidern: Reparaturstau bei der Bundeswehr soll bedrohliche Ausmaße haben"
       ],
       "urls": [
+        "https://www.n-tv.de/politik/Pistorius-wuenscht-sich-mehr-Rueckhalt-fuer-Bundeswehr-im-Land-id30899597.html",
         "https://www.n-tv.de/politik/Deutschland-will-sich-2035-36-erneut-fuer-UN-Sicherheitsrat-bewerben-id30897866.html",
         "https://www.n-tv.de/politik/Soeder-kritisiert-Bundeswehr-Plaene-von-Pistorius-id30895036.html",
-        "https://www.n-tv.de/politik/Bundeswehr-Bedrohlicher-Reparaturstau-id30893284.html",
-        "https://www.n-tv.de/panorama/Polizist-vertauschte-offenbar-Munition-id30891338.html"
+        "https://www.n-tv.de/politik/Bundeswehr-Bedrohlicher-Reparaturstau-id30893284.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 2
+        },
+        {
+          "emotion": "gratitude",
+          "count": 1
         },
         {
           "emotion": "approval",
@@ -33,31 +66,97 @@
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 27,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 17,
       "sample_titles": [
-        "Rheinmetall oder TKMS? Wer übernimmt die Kieler Großwerft",
-        "„Die europäischen Staaten sind ja an und für sich eine Kriegspartei“",
-        "„Putin hat derzeit gar nicht die Fähigkeiten, europäische Nato-Staaten anzugreifen“",
-        "„Es könnte bereits ab 2030 einen russischen Angriff auf die Nato geben“"
+        "Deutschland-Liveblog: Winkel: „Gebt euch einen Ruck für die junge Generation, liebe Regierung“",
+        "Stand der Zeitenwende: Die Bundeswehr kauft, was sie kennt, nicht, was sie braucht",
+        "Tag der Bundeswehr: Mögen wir unsere Soldaten wieder?",
+        "Panzer, Munition und Schiffe: Milliardenauftrag für Rheinmetall aus Rumänien"
       ],
       "urls": [
-        "https://www.welt.de/regionales/hamburg/article6a212dbd1f46a650bff5ed1f/marineruestung-rheinmetall-oder-tkms-wer-uebernimmt-die-kieler-grosswerft.html",
-        "https://www.welt.de/videos/video6a2276c59e32e33bafd52f47/krieg-in-der-ukraine-die-europaeischen-staaten-sind-ja-an-und-fuer-sich-eine-kriegspartei.html",
-        "https://www.welt.de/videos/video6a22e82ab20db0d89b656a60/usa-stoppen-tomahawk-verkauf-putin-hat-derzeit-gar-nicht-die-faehigkeiten-europaeische-nato-staaten-anzugreifen.html",
-        "https://www.welt.de/politik/ausland/article6a22e80b9e32e33bafd53b18/starmer-warnt-vor-russischem-angriff-ab-2030-und-spricht-von-gefaehrlichster-zeit-seines-lebens.html"
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-ju-chef-winkel-fuer-geringere-rentenerhoehung-zugunsten-von-bafoeg-verbesserung-faz-110093143.html",
+        "https://www.faz.net/aktuell/politik/inland/zeitenwende-strukturelle-schwaechen-der-republik-an-der-wiederaufruestung-ablesbar-accg-200877261.html",
+        "https://www.faz.net/aktuell/politik/inland/moegen-wir-unsere-soldaten-wieder-accg-200902466.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/milliardenauftrag-fuer-rheinmetall-aus-rumaenien-200892379.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "gratitude",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 17,
+      "sample_titles": [
+        "Friedrich Merz: Deutschland will weiter in den Uno-Sicherheitsrat",
+        "Friedich Merz kündigt erneute Kandidatur für Uno-Sicherheitsrat für 2035/36",
+        "KNDS: Prüfer sehen Anhaltspunkte für Unregelmäßigkeiten bei Panzerhersteller",
+        "Brandenburg: Etwa 3000 Menschen müssen ihre Häuser wegen einer Bombensprengungen verlassen"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/deutschland/friedrich-merz-deutschland-will-weiter-in-den-uno-sicherheitsrat-a-ec53ec7c-4e5a-4edc-b9e8-3b8f1ed27c77#ref=rss",
+        "https://www.spiegel.de/ausland/friedich-merz-kuendigt-erneute-kandidatur-fuer-uno-sicherheitsrat-fuer-2035-36-a-c9d91b44-47af-44a9-bfbb-baf80716a327#ref=rss",
+        "https://www.spiegel.de/wirtschaft/unternehmen/knds-pruefer-sehen-anhaltspunkte-fuer-unregelmaessigkeiten-bei-panzerhersteller-a-b20a30f7-6b03-4dcd-a703-bcb1d245ffb7#ref=rss",
+        "https://www.spiegel.de/panorama/brandenburg-etwa-3000-menschen-muessen-ihre-haeuser-wegen-einer-bombensprengungen-verlassen-a-42b3da7b-9283-4a17-8dfb-31c8b1b776ea#ref=rss"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
           "count": 1
         },
         {
           "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 16,
+      "sample_titles": [
+        "\"Soldaten stehen fest in der Mitte der Gesellschaft\"",
+        "Tag der Bundeswehr: Soldaten stellen Luftwaffe, Heer und Marine vor",
+        "Tag der Bundeswehr lockt 60.000 Besucher zur Luftwaffe nach Laage",
+        "Warum die Bundeswehr jetzt Imame sucht"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/gesellschaft/tag-der-bundeswehr-108.html",
+        "https://www.ndr.de/nachrichten/niedersachsen/tag-der-bundeswehr-soldaten-stellen-luftwaffe-heer-und-marine-vor,bundeswehr-1058.html",
+        "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/tag-der-bundeswehr-lockt-60000-besucher-zur-luftwaffe-nach-laage,tagderbundeswehr-104.html",
+        "https://www1.wdr.de/nrw/koeln/bundeswehr-imame-militaerseelsorge-koeln-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -66,18 +165,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 21,
+      "article_count": 16,
       "sample_titles": [
         "Verteidigung: Hegseth-Berater – „Die USA stehen fest hinter dem Nato-Bündnis“",
         "UN: Deutschland bewirbt sich um Sicherheitsrat-Sitz für 2035/36 und 2043/44",
-        "UN: Ex-UN-Botschafter Heusgen kritisiert Merz nach Sicherheitsrat-Niederlage – „Wir haben uns zurückgelehnt“",
-        "Rüstungsindustrie: Rheinmetall verkauft Autosparte – der Preis fällt niedriger aus als erhofft"
+        "Sicherheit: „Kniefall vor einem Kriegsverbrecher“ – Politiker sehen Spionagerisiken wegen AfD-Russlandreise",
+        "Sicherheitspolitik: Was die USA in Sachen Verteidigung planen, erfährt Deutschland oft zuletzt"
       ],
       "urls": [
         "https://www.handelsblatt.com/politik/international/hegseth-berater-die-usa-stehen-fest-hinter-dem-nato-buendnis/100230568.html",
         "https://www.handelsblatt.com/politik/international/un-sicherheitsrat-deutschland-bewirbt-sich-um-sitz-fuer-2035-36-und-2043-44/100230595.html",
-        "https://www.handelsblatt.com/politik/international/sicherheitsrat-ex-un-botschafter-heusgen-sieht-rolle-von-merz-kritisch/100230362.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-rheinmetall-verkauft-autosparte-an-investor-aequita/100230190.html"
+        "https://www.handelsblatt.com/politik/deutschland/afd-politiker-warnen-vor-spionagerisiken-wegen-afd-russlandreise/100229494.html",
+        "https://www.handelsblatt.com/politik/international/sicherheitspolitik-was-die-usa-planen-erfaehrt-deutschland-oft-zuletzt/100229384.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -91,147 +190,93 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 21,
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 10,
       "sample_titles": [
-        "Friedrich Merz: Deutschland will weiter in den Uno-Sicherheitsrat",
-        "Friedich Merz kündigt erneute Kandidatur für Uno-Sicherheitsrat für 2035/36",
-        "Sicherheitsrat: Die Uno ist das Problem, nicht Deutschland - Kommentar",
-        "KNDS: Prüfer sehen Anhaltspunkte für Unregelmäßigkeiten bei Panzerhersteller"
+        "UN-Sicherheitsrat ohne Deutschland: Mehr Demut wagen",
+        "Wehrpflicht und Auslandsreisen: Der Verteidigungsminister hat sich verschätzt",
+        "Rüstungsforschung an Hochschulen: Zeitenwende an der TU Dresden",
+        "Geheimdienste und Artensterben: „Streitkräfte tragen noch mehr zum Klimawandel bei“"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/deutschland/friedrich-merz-deutschland-will-weiter-in-den-uno-sicherheitsrat-a-ec53ec7c-4e5a-4edc-b9e8-3b8f1ed27c77#ref=rss",
-        "https://www.spiegel.de/ausland/friedich-merz-kuendigt-erneute-kandidatur-fuer-uno-sicherheitsrat-fuer-2035-36-a-c9d91b44-47af-44a9-bfbb-baf80716a327#ref=rss",
-        "https://www.spiegel.de/politik/sicherheitsrat-die-uno-ist-das-problem-nicht-deutschland-kommentar-a-31b81b17-0cfc-42e2-953f-315882014951#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/knds-pruefer-sehen-anhaltspunkte-fuer-unregelmaessigkeiten-bei-panzerhersteller-a-b20a30f7-6b03-4dcd-a703-bcb1d245ffb7#ref=rss"
+        "https://taz.de/UN-Sicherheitsrat-ohne-Deutschland/!6184453/",
+        "https://taz.de/Wehrpflicht-und-Auslandsreisen/!6184063/",
+        "https://taz.de/Ruestungsforschung-an-Hochschulen/!6181832/",
+        "https://taz.de/Geheimdienste-und-Artensterben/!6178884/"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "sadness",
           "count": 1
         },
         {
-          "emotion": "approval",
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "admiration",
+          "emotion": "optimism",
           "count": 1
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 21,
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 8,
       "sample_titles": [
-        "Schutz für wehrpflichtige: Das muss die Ukraine selbst entscheiden",
-        "Ein Toter bei Übung: Tödlicher Schuss bei GSG 9: Polizist vertauschte Munition",
-        "VEREINTE NATIONEN: Außenminister Wadephul: \"Wir glauben an die Stärke des Völkerrechts\"",
-        "Panzer, Munition und Schiffe: Milliardenauftrag für Rheinmetall aus Rumänien"
+        "Kriege und Krisen: Die Bundeswehrkrankenhäuser",
+        "Pistorius begrüßt große Resonanz zu „Tag der Bundeswehr“",
+        "Blick hinter die Kasernentore: Bundeswehr öffnet Marinefliegerstützpunkt für Besucher",
+        "D-Day-Gedenken: Hegseth verlangt von Europäern Ausbau ihrer Verteidigungsfähigkeiten"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/ausland/kein-eu-schutz-fuer-ukrainer-im-wehrpflichtigen-alter-200898558.html",
-        "https://www.faz.net/aktuell/gesellschaft/ungluecke/toedlicher-schuss-bei-gsg-9-polizist-vertauschte-munition-accg-200897984.html",
-        "https://www.faz.net/video/aussenminister-wadephul-wir-glauben-an-die-staerke-des-voelkerrechts-200894037.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/milliardenauftrag-fuer-rheinmetall-aus-rumaenien-200892379.html"
+        "https://www.stern.de/gesellschaft/regional/hessen/kriege-und-krisen--die-bundeswehrkrankenhaeuser-37504674.html",
+        "https://www.stern.de/news/pistorius-begruesst-grosse-resonanz-zu--tag-der-bundeswehr--37503438.html",
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/blick-hinter-die-kasernentore--bundeswehr-oeffnet-marinefliegerstuetzpunkt-fuer-besucher-37503468.html",
+        "https://www.stern.de/news/d-day-gedenken--hegseth-verlangt-von-europaeern-ausbau-ihrer-verteidigungsfaehigkeiten-37503442.html"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 7,
+      "sample_titles": [
+        "Pistorius: Zusammenhalt von Truppe und Gesellschaft stärken",
+        "So steht die Bundeswehr im Europa-Vergleich da",
+        "Was folgt aus dem Wehrdienst-Gutachten?",
+        "Nato-Drohnenabwehr: \"Mit viel zu großen Kanonen auf Spatzen\""
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/pistorius-bundeswehr-tag-armee-zusammenhalt-100.html",
+        "https://www.zdfheute.de/politik/deutschland/bundeswehr-staerkste-armee-vergleich-nato-europa-100.html",
+        "https://www.zdfheute.de/politik/deutschland/gutachten-wehrdienst-meldepflicht-auslandsreisen-100.html",
+        "https://www.zdfheute.de/politik/ausland/nato-russland-drohnen-abwehr-verhandlungen-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "surprise",
           "count": 1
         },
         {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 15,
-      "sample_titles": [
-        "Wadephul gegen Kürzungen deutscher UN-Beiträge",
-        "Warum die Bundeswehr jetzt Imame sucht",
-        "Transparenz beim Lohn, Reparaturstau bei Bundeswehr, Wein-Absatz",
-        "Reparaturstau gefährdet offenbar Einsatzfähigkeit"
-      ],
-      "urls": [
-        "https://www.hr.de/app/news/tagesschau/wadephul-gegen-kuerzungen-deutscher-un-beitraege-v1,tagesschau-story-175206.html",
-        "https://www1.wdr.de/nrw/koeln/bundeswehr-imame-militaerseelsorge-koeln-100.html",
-        "https://www.tagesschau.de/multimedia/podcast/15-minuten/15minuten-loehne-bundeswehr-alkohol-100.html",
-        "https://www.tagesschau.de/investigativ/ndr-wdr/bundeswehr-verteidigung-reparaturen-ruestung-100.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
+          "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 8,
-      "sample_titles": [
-        "Abwehr von Russland im Baltikum: „Niemand will einen Krieg“",
-        "Wehrpflicht und Auslandsreisen: Der Verteidigungsminister hat sich verschätzt",
-        "Rüstungsforschung an Hochschulen: Zeitenwende an der TU Dresden",
-        "Berlin will in den UN-Sicherheitsrat: Bewerbung vor der Welt"
-      ],
-      "urls": [
-        "https://taz.de/Abwehr-von-Russland-im-Baltikum/!6183710/",
-        "https://taz.de/Wehrpflicht-und-Auslandsreisen/!6184063/",
-        "https://taz.de/Ruestungsforschung-an-Hochschulen/!6181832/",
-        "https://taz.de/Berlin-will-in-den-UN-Sicherheitsrat/!6183647/"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Mark Rutte in Kiew: Generalsekretär Mark Rutte besucht mit Nato-Nordatlantikrat Kyjiw",
-        "UN-Sicherheitsrat: Warum Deutschland wieder einen Sitz im UN-Sicherheitsrat will",
-        "Rheinmetall: Rheinmetall bekommt Aufträge aus Rumänien über 5,7 Milliarden Euro",
-        "Nato und USA: Die Amerikaner machen Ernst"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/ausland/2026-06/mark-rutte-kiew-nato-ukraine-nordatlantikrat",
-        "https://www.zeit.de/politik/2026-06/un-sicherheitsrat-deutschland-kandidatur-nachrichtenpodcast",
-        "https://www.zeit.de/wirtschaft/2026-06/rheinmetall-ruestungsauftrag-rumaenien-milliarden",
-        "https://www.zeit.de/politik/2026-05/nato-usa-europa-sicherheit-politikpodcast"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -242,13 +287,13 @@
       "bias": "populist-mixed",
       "article_count": 6,
       "sample_titles": [
-        "Briten-Premier Starmer warnt - Putins Angriff auf die Nato in vier Jahren möglich",
+        "++ BILD exklusiv ++ - Söder: Pistorius-Plan gefährdet unsere Sicherheit!",
         "Enthüllt! - Trumps geheime Streichliste für die Nato",
         "EVP-Chef Weber bei Maischberger - „Europa muss jetzt militärisch Weltmacht werden“",
         "US-Medienbericht - USA prüfen neue Standorte für Atomwaffen in Europa"
       ],
       "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/briten-premier-starmer-warnt-putins-angriff-auf-die-nato-in-vier-jahren-moeglich-6a2386b2b20db0d89b656fcc",
+        "https://www.bild.de/politik/inland/markus-soeder-kritisiert-pistorius-plan-fuer-bundeswehr-als-gefahr-fuer-unsere-sicherheit-6a205053639e3d502fd4a64a",
         "https://www.bild.de/politik/ausland-und-internationales/ein-problem-fuer-europa-enthuellt-trumps-geheime-streichliste-fuer-die-nato-6a2047011f46a650bff5e584",
         "https://www.bild.de/politik/inland/evp-chef-weber-bei-maischberger-europa-muss-jetzt-militaerisch-weltmacht-werden-6a20b6f81f46a650bff5e983",
         "https://www.bild.de/politik/ausland-und-internationales/usa-pruefen-nukleare-praesenz-in-europa-mehr-atomwaffen-fuer-europa-6a1ed44a4270395c56b7fcc2"
@@ -261,11 +306,36 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Tag der Bundeswehr in Neubiberg: „Verteidigungsfähigkeit eines Landes ist niemals nur Aufgabe der Streitkräfte“",
+        "Interview mit Hegseth-Berater: „Unsere Verbündeten müssen mehr Verantwortung übernehmen“",
+        "Bundeswehr: Reparaturstau gefährdet Deutschlands Verteidigungsfähigkeit",
+        "Neubiberg: Straßensperre am Tag der Bundeswehr"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/tag-der-bundeswehr-neubiberg-universitaet-der-bundeswehr-boris-pistorius-li.3492110",
+        "https://www.sueddeutsche.de/politik/us-truppen-deutschland-zukunft-nato-sicherheit-li.3494161",
+        "https://www.sueddeutsche.de/politik/bundeswehr-reparaturstau-probleme-panzer-ausruestung-li.3492885",
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/neubiberg-tag-der-bundeswehr-strassensperre-6-juni-li.3492792"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 6,
+      "article_count": 5,
       "sample_titles": [
         "Militärexperten diskutieren in Potsdam Warum die Bundeswehr bis heute unter Merkels Politik leidet",
         "Bundeswehr-Gutachten Pistorius-Ministerium handelte bei Abmeldepflicht rechtswidrig",
@@ -286,104 +356,39 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 4,
       "sample_titles": [
-        "Interview mit Hegseth-Berater: „Unsere Verbündeten müssen mehr Verantwortung übernehmen“",
-        "Bundeswehr: Reparaturstau gefährdet Deutschlands Verteidigungsfähigkeit",
-        "Neubiberg: Straßensperre am Tag der Bundeswehr",
-        "Großer Polizeieinsatz: Drohnen-Alarm legt Münchner Flughafen für eine Stunde lahm"
+        "Mark Rutte in Kiew: Generalsekretär Mark Rutte besucht mit Nato-Nordatlantikrat Kyjiw",
+        "Rheinmetall: Rheinmetall bekommt Aufträge aus Rumänien über 5,7 Milliarden Euro",
+        "Bundeswehr: Verteidigungsministerium plant erweiterte Einsätze von Reservisten",
+        "Nato-Beiträge der USA: Unionspolitiker fordern Plan gegen mögliche US-Kürzungen bei der Nato"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/us-truppen-deutschland-zukunft-nato-sicherheit-li.3494161",
-        "https://www.sueddeutsche.de/politik/bundeswehr-reparaturstau-probleme-panzer-ausruestung-li.3492885",
-        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/neubiberg-tag-der-bundeswehr-strassensperre-6-juni-li.3492792",
-        "https://www.sueddeutsche.de/muenchen/muenchen-flughafen-flugstopp-drohnensichtung-li.3491370"
+        "https://www.zeit.de/politik/ausland/2026-06/mark-rutte-kiew-nato-ukraine-nordatlantikrat",
+        "https://www.zeit.de/wirtschaft/2026-06/rheinmetall-ruestungsauftrag-rumaenien-milliarden",
+        "https://www.zeit.de/politik/deutschland/2026-05/bundeswehr-verteidigungsministerium-gesetzesentwurf-einsaetze-reservisten",
+        "https://www.zeit.de/politik/ausland/2026-05/nato-usa-militaer-beitraege-kuerzung-cdu-bundeswehr"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 6,
-      "sample_titles": [
-        "Was folgt aus dem Wehrdienst-Gutachten?",
-        "\"Wir können nicht mehr in Schubladen denken\"",
-        "Nato-Drohnenabwehr: \"Mit viel zu großen Kanonen auf Spatzen\"",
-        "Pistorius will Bundeswehr-Reserve zu Übungen verpflichten"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/gutachten-wehrdienst-meldepflicht-auslandsreisen-100.html",
-        "https://www.zdfheute.de/video/heute-nachrichten/videos/breuer-bundeswehr-indopazifik-video-100.html",
-        "https://www.zdfheute.de/politik/ausland/nato-russland-drohnen-abwehr-verhandlungen-100.html",
-        "https://www.zdfheute.de/politik/deutschland/pistorius-bundeswehr-reserve-wehrdienst-freiwilligkeit-100.html"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Vereinte Nationen: Merz: Deutschland bewirbt sich 2035/36 für UN-Sicherheitsrat",
-        "Einfach erklärt: Was ist der UN-Sicherheitsrat – und wieso wollte Deutschland da rein?",
-        "Bericht: Deutsch-französische Gespräche zu atomarer Abschreckung gestartet",
-        "Ziviler Ungehorsam: Aktivisten blockieren Panzerbauer- und Pipeline-Werk"
-      ],
-      "urls": [
-        "https://www.stern.de/politik/ausland/vereinte-nationen--merz--deutschland-bewirbt-sich-2035-36-fuer-un-sicherheitsrat-37500296.html",
-        "https://www.stern.de/politik/ausland/un-sicherheitsrat-einfach-erklaert--warum-wollte-deutschland-da-rein--37485378.html",
-        "https://www.stern.de/news/bericht--deutsch-franzoesische-gespraeche-zu-atomarer-abschreckung-gestartet-37466794.html",
-        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/ziviler-ungehorsam--aktivisten-blockieren-panzerbauer--und-pipeline-werk-37458924.html"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "KOMMENTAR - Der Zivildienst muss an Reiz verlieren – dafür ist auch die Armee verantwortlich. Sie muss den Jungen mehr Sinnhaftigkeit vermitteln",
-        "Ukrainische Drohnen verwandeln die russische Hauptroute zur Krim in eine Todeszone – dadurch spitzt sich die Benzinkrise auf der besetzten Halbinsel zu",
-        "Wladimir Putin bedroht die Balten und testet damit seinen eigentlichen Gegner. Ein Besuch in Lettland, wo immer wieder Drohnen abstürzen",
+        "GASTKOMMENTAR - Wer die Schweiz schützen will, muss jetzt zusammenstehen",
         "Rheinmetall prägt die deutsche Zeitenwende. Gerät die Bundeswehr nun in die nächste Abhängigkeit?"
       ],
       "urls": [
         "https://www.nzz.ch/meinung/der-zivildienst-muss-an-reiz-verlieren-dafuer-ist-auch-die-armee-verantwortlich-sie-muss-den-jungen-mehr-sinnhaftigkeit-vermitteln-ld.10008956",
-        "https://www.nzz.ch/international/ukraine-drohnen-verwandeln-hauptroute-zur-krim-in-eine-todeszone-ld.10009688",
-        "https://www.nzz.ch/international/wladimir-putin-bedroht-die-balten-und-testet-damit-seinen-eigentlichen-gegner-ein-besuch-in-lettland-wo-immer-wieder-drohnen-abstuerzen-ld.10008675",
+        "https://www.nzz.ch/meinung/wer-die-schweiz-schuetzen-will-muss-jetzt-zusammenstehen-ld.10009071",
         "https://www.nzz.ch/pro/bundeswehr-setzt-auf-rheinmetall-wie-riskant-ist-die-abhaengigkeit-ld.10007807"
       ],
       "dominant_emotion": "approval",
@@ -398,48 +403,53 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "Weniger US-Soldaten, dafür mehr Atomwaffen",
-        "Im Ernstfall wenig Vertrauen in die Bundeswehr"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/usa-atomwaffen-europa/",
-        "https://www.tichyseinblick.de/daili-es-sentials/wenig-vertrauen-in-bundeswehr/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
-        "Norwegen schlüpft unter Frankreichs atomaren Schutzschirm"
+        "Norwegen schlüpft unter Frankreichs atomaren Schutzschirm",
+        "EU lässt sich von russischen Drohungen nicht einschüchtern"
       ],
       "urls": [
-        "https://www.dw.com/de/norwegen-schlüpft-unter-frankreichs-atomaren-schutzschirm/a-77328358?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/norwegen-schlüpft-unter-frankreichs-atomaren-schutzschirm/a-77328358?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/eu-lässt-sich-von-russischen-drohungen-nicht-einschüchtern/a-77293400?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Hegseth hat keine Zeit für Pistorius"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/hegseth-hat-keine-zeit-fuer-pistorius/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
+    "left-liberal": 34,
+    "right-conservative": 44,
+    "conservative-liberal": 20,
+    "neutral": 25,
+    "far-right": 6,
+    "economic-liberal": 16,
     "populist-mixed": 6,
-    "right-conservative": 55,
-    "far-right": 8,
-    "economic-liberal": 21,
-    "left": 8,
-    "left-liberal": 39,
-    "neutral": 22,
-    "conservative-liberal": 25
+    "left": 10
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt über alle politischen Lager hinweg einen Konsens darüber, dass Deutschland seine Verteidigungsfähigkeit erheblich verbessern muss und dabei konkrete strukturelle Probleme wie der Reparaturstau bei der Bundeswehr zu beheben sind — diese technisch-organisatorischen Defizite werden als Bedrohung der Einsatzfähigkeit unabhängig von der jeweiligen sicherheitspolitischen Grundhaltung problematisiert. Zugleich besteht medienübergreifend Einigkeit, dass Deutschland eine stärkere internationale Rolle anstreben soll, was sich besonders in der breiten Berichterstattung über die UN-Sicherheitsratskandidatur zeigt, wo selbst kritische und linke Medien die Bewerbung nicht grundsätzlich ablehnen, sondern eher die Umsetzung und politische Kommunikation kritisieren. Ein dritter Konsens liegt in der Anerkennung, dass die sicherheitspolitische Neuausrichtung nach der russischen Invasion der Ukraine für Deutschland eine neue Normalität darstellt und dass europäische Eigenständigkeit in der Verteidigung an Bedeutung gewinnt — auch hier variiert nur der Grad der Zustimmung, nicht die Anerkenntnis dieser Realität.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zur Verteidigungspolitik\n\nDer tiefste Konflikt verläuft zwischen zwei gegensätzlichen Ontologien der Sicherheit: Während konservative und liberal-wirtschaftliche Medien Deutschlands Sicherheit als strukturell abhängig vom NATO-Bündnis und gesteigerter Rüstungsfähigkeit rahmen (mit entsprechenden Forderungen nach UN-Sicherheitsratssitz, Rüstungsinvestitionen und US-Präsenz), diagnostiziert die Linke genau diese „Zeitenwende\"-Politik als Illusion, die Deutschlands tatsächliche Sicherheit durch Militarisierung gefährdet und damit die Kriegstüchtigkeit als Problem statt Lösung thematisiert. Die zweite strukturelle Spannungslinie betrifft die Frage der deutschen Handlungsfähigkeit und Souveränität: Während rechts-konservative Medien zwischen Szenarien einer handelnden deutschen Großmacht (Merz, UN-Sicherheitsrat) und der Diagnose deutscher Unfähigkeit (Baerbock-Kritik, Merkels Erbe) oszillieren, wird in populistischen und far-right-Medien die Abhängigkeit von US-Entscheidungen (Trump-Rückzug, Atomwaffenstationierung, Washingtoner Planspiele) dramatisiert, was implizit die gesamte deutsche Sicherheitsstrategie als Fremdbestimmung delegitimiert. Eine dritte, weniger sichtbare aber strukturell tiefe Bruchstelle zeigt sich in der Frage nach dem Legitimitätsursprung von Aufrüstung: Während wirtschaftlich-liberal orientierte Medien Rüstung als technisch-ökonomisches und industriepolitisches Problem behandeln, geht es linken und linkslib­eralen Akteuren grundlegend um die Frage, ob eine",
-  "cached_at": "2026-06-06T07:27:50.550586"
+  "shared_perspectives": "Über alle politischen Spektren hinweg wird die Notwendigkeit einer gestärkten Verteidigungsfähigkeit Deutschlands anerkannt, wobei der Fokus auf der Modernisierung der Bundeswehr, der Erfüllung der NATO-Verpflichtungen und der Bewältigung konkreter Defizite in Ausrüstung und Personalausstattung liegt. Unabhängig von der politischen Ausrichtung wird die Gesellschaftliche Legitimation und Akzeptanz der Rüstungspolitik als zentrale Herausforderung behandelt – sei es durch öffentliche Vermittlung von Sinnhaftigkeit militärischer Dienste, Transparenz gegenüber der Bevölkerung oder das Schaffen von gesellschaftlichem Zusammenhalt zwischen Streitkräften und Zivilgesellschaft. Ein dritter Konsens besteht darin, dass die deutsche Sicherheitspolitik zunehmend als geopolitisches Gestaltungsfeld verstanden wird, in dem Deutschland eigenständiger agieren muss und nicht vollständig von US-amerikanischen Entscheidungen abhängig sein kann – ob in Fragen der Rüstungsfinanzierung, bei Waffenlieferungen oder bei der sicherheitspolitischen Positionierung in internationalen Gremien.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Verteidigungsdiskurs\n\nDer tiefste Konflikt verläuft zwischen einem **Sicherheitsparadigma der Aufrüstung und Integration in westliche Machtstrukturen** versus einem **Paradigma der Demilitarisierung und strategischen Autonomie**: Während rechts-konservative und wirtschaftsliberale Medien die „Zeitenwende\" als notwendigen Umbau zu einer Militärmacht rahmen und Rüstungsausgaben als unvermeidbar darstellen, argumentiert die Linke, dass diese Politik Deutschland in strukturelle Abhängigkeiten von den USA treibt und militärische Lösungen von zivilen Konfliktkomplexen ablenken. Es geht nicht um Quantität der Rüstung, sondern um die Frage, ob Deutschland seine Sicherheit primär durch militärische Stärke oder durch politische Gestaltungsfähigkeit definieren soll.\n\nEin zweiter Konflikt betrifft die **Legitimation und Gesellschaftsfähigkeit der Militarisierung**: Conservative-liberale und neutral-informative Medien problematisieren die Entfremdung zwischen Gesellschaft und Bundeswehr sowie die Schwierigkeit, militärische Karrieren für junge Menschen attraktiv zu machen, was sie als infrastrukturelles und kulturelles Problem deuten. Demgegenüber pathologisiert die rechte Publizistik (Far-Right, Populist-Mixed) die „Merkel-Jahre\" als Ursache der Bundeswehrkrise und fordert eine Rückkehr zu unbedingtem Respekt vor dem Militär, wobei sie implizit ein autoritäres Verhältnis zwischen Staat und Bürgern in Sicherheitsfragen als normal setzt.\n\nEin dritter, impliziter Konflikt liegt in der **Rolle europäischer versus transatlantischer Sicherheitsstrukturen**: Während liberal-progressive Medien den UN-Sicherheits",
+  "cached_at": "2026-06-07T08:15:08.757635"
 }

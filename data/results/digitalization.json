@@ -1,38 +1,38 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 140,
+  "article_count": 115,
   "candidate_count": 800,
   "outlets": {
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 30,
+      "article_count": 23,
       "sample_titles": [
-        "Künstliche Intelligenz: Meta erwägt offenbar Milliardenaufnahme über Aktienverkauf",
-        "Wall Street: Rekordjagd vorerst beendet – Arbeitsmarkt und KI-Angst belasten US-Börsen",
-        "KI: Anthropic schlägt Pause im KI-Wettlauf vor",
-        "Kanada: Mark Carney will mit KI 250.000 Jobs schaffen"
+        "Immobilien: Rechenzentrum, nein danke? – Wieso Bürger gegen die Zukunftstechnologie rebellieren",
+        "ZEW-Studie: Studie: Nutzung von KI-Anwendungen in wenigen Firmen verboten",
+        "Künstliche Intelligenz: Studie: Nutzung von KI-Anwendungen in wenigen Firmen verboten",
+        "Wall Street: Rekordjagd vorerst beendet – Arbeitsmarkt und KI-Angst belasten US-Börsen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-meta-erwaegt-offenbar-milliardenaufnahme-ueber-aktienverkauf/100230733.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/wall-street-rekordjagd-vorerst-beendet-ki-angst-belastet-us-boersen-weiter/100230633.html",
-        "https://www.handelsblatt.com/technik/ki/ki-anthropic-schlaegt-pause-im-ki-wettlauf-vor/100230557.html",
-        "https://www.handelsblatt.com/politik/international/kanada-mark-carney-will-mit-ki-250.000-jobs-schaffen/100230462.html"
+        "https://www.handelsblatt.com/finanzen/immobilien/rechenzentren-ki-boom-nein-danke-wieso-buerger-haeufiger-vor-ort-rebellieren/100228195.html",
+        "https://www.handelsblatt.com/unternehmen/zew-studie-nutzung-von-ki-anwendungen-in-wenigen-firmen-verboten/100230767.html",
+        "https://www.handelsblatt.com/unternehmen/kuenstliche-intelligenz-studie-nutzung-von-ki-anwendungen-in-wenigen-firmen-verboten/100230767.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/wall-street-rekordjagd-vorerst-beendet-ki-angst-belastet-us-boersen-weiter/100230633.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
         {
           "emotion": "optimism",
           "count": 1
         },
         {
           "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -41,64 +41,31 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 23,
+      "article_count": 20,
       "sample_titles": [
+        "KI-Musik im Streaming: „Wir haben nichts gegen KI-Songs“",
+        "KI an Hochschulen: Woran man noch erkennt, ob Studenten selbst denken",
         "Künstliche Intelligenz: Die Jugend glaubt den Tech-Versprechen nicht mehr",
-        "F.A.Z. Podcast Wissen: Land, Wasser, Klima: Wie sehr belastet der KI-Hype die Umwelt?",
-        "Digitalwirtschaft-Podcast: Milliarden für den Wandel",
-        "Codex for legal: Warum sich Open AI auf Anwälte konzentriert"
+        "F.A.Z. Podcast Wissen: Land, Wasser, Klima: Wie sehr belastet der KI-Hype die Umwelt?"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/deezer-chef-wir-haben-nichts-gegen-ki-songs-accg-200883255.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/wie-sollen-hochschulpruefungen-unter-ki-bedingungen-aussehen-accg-200886530.html",
         "https://www.faz.net/aktuell/feuilleton/debatten/hochschulabsolventen-gegen-ki-200901143.html",
-        "https://www.faz.net/podcasts/f-a-z-wissen-der-podcast/umstrittener-un-bericht-wie-belastet-ki-die-umwelt-200902754.html",
-        "https://www.faz.net/podcasts/f-a-z-digitalwirtschaft/marcus-schenck-milliarden-fuer-die-digitalwirtschaft-200897771.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/openai-und-jason-boehmig-neue-ki-fuer-die-rechtsbranche-accg-200896300.html"
+        "https://www.faz.net/podcasts/f-a-z-wissen-der-podcast/umstrittener-un-bericht-wie-belastet-ki-die-umwelt-200902754.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
           "count": 2
         },
         {
           "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 14,
-      "sample_titles": [
-        "Anthropic warnt vor nächster KI-Generation und plädiert für Entwicklungspause",
-        "Buckelwal »Timmy«: »Bild« macht eine Wal-Obduktion zum KI-Tatort",
-        "Smart Glasses: Potsdam will heimliche Aufnahmen in Schwimmbädern verhindern",
-        "Digitale Unabhängigkeit: So will die EU-Kommission die Marktmacht von Big Tech brechen"
-      ],
-      "urls": [
-        "https://www.spiegel.de/netzwelt/anthropic-warnt-vor-naechster-ki-generation-und-plaediert-fuer-entwicklungspause-a-1a54b030-7a3e-461b-ae07-9781904d3332#ref=rss",
-        "https://www.spiegel.de/kultur/buckelwal-timmy-bild-macht-eine-wal-obduktion-zum-ki-tatort-a-467838bd-f0f3-4905-8106-15defbc99b47#ref=rss",
-        "https://www.spiegel.de/netzwelt/web/smart-glasses-potsdam-will-heimliche-aufnahmen-in-schwimmbaedern-verhindern-a-41316353-ec2e-4758-aa48-5895efcb1cfe#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/digitale-unabhaengigkeit-so-will-die-eu-kommission-die-marktmacht-von-big-tech-brechen-a-7c8b7557-311f-4cd3-8927-197d984297b2#ref=rss"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
           "count": 1
         }
       ]
@@ -107,60 +74,101 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 13,
+      "article_count": 14,
       "sample_titles": [
-        "Anthropic fordert Pause bei KI-Entwicklung",
-        "Werden die USA jetzt zum Risiko im Depot?",
-        "Die KI-Rally stockt",
-        "Braucht KI zu viel Wasser und Strom?"
+        "Fallzahlen am Sozialgericht steigen — auch wegen KI-generierter Texte",
+        "Ärger und Stillstand bei Glasfaserausbau in Kommunen der Pfalz",
+        "Verfassungsschutz warnt vor rechten KI-Fakes in Sozialen Medien",
+        "Anthropic fordert Pause bei KI-Entwicklung"
       ],
       "urls": [
-        "https://www.tagesschau.de/wirtschaft/finanzen/anthropic-warnung-ki-stopp-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/usa-depot-dollar-ki-risiko-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-boerse-dax-dow-jones-116.html",
-        "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/kuenstliche-intelligenz-strom-wasser-microsoft-100.html"
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/mehr_faelle_sozialgericht_auch_wegen_ki_generierten_schriftsaetzen_100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/glasfaserausbau-in-kommunen-der-pfalz-stillstand-aerger-verwirrung-102.html",
+        "https://www.rbb24.de/politik/beitrag/2026/06/verfassungsschutz-brandenburg-bericht-2025-brandenburger-maedel.html",
+        "https://www.tagesschau.de/wirtschaft/finanzen/anthropic-warnung-ki-stopp-100.html"
       ],
-      "dominant_emotion": "surprise",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "surprise",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
+          "emotion": "annoyance",
           "count": 1
         },
         {
           "emotion": "optimism",
           "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
         }
       ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 12,
+      "sample_titles": [
+        "Künstliche Intelligenz: »Wir sollten unbedingt aufhören, der KI alles zuzutrauen«",
+        "Anthropic warnt vor nächster KI-Generation und plädiert für Entwicklungspause",
+        "Jess Asato: Per KI erzeugte Bikinibilder – Politikerin klagt gegen Elon Musk",
+        "Smart Glasses: Potsdam will heimliche Aufnahmen in Schwimmbädern verhindern"
+      ],
+      "urls": [
+        "https://www.spiegel.de/netzwelt/kuenstliche-intelligenz-wir-sollten-unbedingt-aufhoeren-der-ki-alles-zuzutrauen-a-01e60dcd-a6ac-4532-b036-0078d7c1125a#ref=rss",
+        "https://www.spiegel.de/netzwelt/anthropic-warnt-vor-naechster-ki-generation-und-plaediert-fuer-entwicklungspause-a-1a54b030-7a3e-461b-ae07-9781904d3332#ref=rss",
+        "https://www.spiegel.de/netzwelt/jess-asato-per-ki-erzeugte-bikinibilder-politikerin-klagt-gegen-elon-musk-a-d559edf9-8d56-49ff-b749-8216803abcad#ref=rss",
+        "https://www.spiegel.de/netzwelt/web/smart-glasses-potsdam-will-heimliche-aufnahmen-in-schwimmbaedern-verhindern-a-41316353-ec2e-4758-aa48-5895efcb1cfe#ref=rss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 12,
+      "article_count": 8,
       "sample_titles": [
         "Wäre \"wahrscheinlich sinnvoll\": US-Konzern Anthropic plädiert für weltweite Pause bei KI-Entwicklung",
-        "Comic-Salon in Erlangen startet: Mit dem \"Kleinen Arschloch\" gegen den Irrsinn der Welt",
+        "\"Wären Rechenzentren ein Land ...\": UN-Bericht enthüllt die schmutzige Seite des KI-Booms",
         "Angst vorm \"kill-switch\": EU will Abhängigkeit von US-Techgiganten reduzieren",
-        "KI-Welle \"in vollem Gange\": US-Börsenrally geht Puste aus - Tech-Aktien steigen weiter"
+        "Mann randalierte zuvor: Schüsse auf Polizisten in Dortmund – Kinder als Geiseln"
       ],
       "urls": [
         "https://www.n-tv.de/wirtschaft/US-Konzern-Anthropic-plaediert-fuer-weltweite-Pause-bei-KI-Entwicklung-id30894025.html",
-        "https://www.n-tv.de/leute/In-Erlangen-startet-der-Comic-Salon-mit-Ausstellungen-ueber-Walter-Moers-Simpsons-und-Politik-id30889680.html",
+        "https://www.n-tv.de/wissen/UN-Bericht-enthuellt-die-schmutzige-Seite-des-KI-Booms-id30886602.html",
         "https://www.n-tv.de/politik/EU-will-Abhaengigkeit-von-US-Techgiganten-reduzieren-id30888671.html",
-        "https://www.n-tv.de/wirtschaft/US-Boersenrally-geht-Puste-aus-Tech-Aktien-steigen-weiter-id30885520.html"
+        "https://www.n-tv.de/panorama/Schuesse-auf-Polizisten-in-Dortmund-Kinder-als-Geiseln-id30885448.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
           "count": 2
-        },
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 7,
+      "sample_titles": [
+        "Plötzlich brauchen alle Kapital: Der KI-Boom saugt den Finanzmärkten die Liquidität ab",
+        "PODCAST «NZZ WEEKEND» - KI-Forscher Marcel Salathé: «Wir verblöden nicht, aber wir sind blöd genug, immer wieder denselben Fehler zu machen»",
+        "«Dr. Chatbot, was habe ich?» Wie man die KI dazu bringt, gute Antworten auf Gesundheitsfragen zu liefern",
+        "Europa fürchtet Trumps «kill switch» und will sich von den amerikanischen Tech-Giganten befreien"
+      ],
+      "urls": [
+        "https://www.nzz.ch/wirtschaft/ploetzlich-brauchen-alle-kapital-der-ki-boom-saugt-den-finanzmaerkten-die-liquiditaet-ab-ld.10009862",
+        "https://www.nzz.ch/podcast/ki-forscher-marcel-salathe-wir-verbloeden-nicht-aber-wir-sind-bloed-genug-immer-wieder-denselben-fehler-zu-machen-ld.10009889",
+        "https://www.nzz.ch/wissenschaft/ki-fuer-gesundheitsfragen-nutzen-so-erhalten-sie-gute-antworten-ld.10004460",
+        "https://www.nzz.ch/wirtschaft/europa-fuerchtet-trumps-kill-switch-und-will-sich-von-den-amerikanischen-tech-giganten-befreien-ld.10009611"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -169,27 +177,118 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 9,
+      "article_count": 6,
       "sample_titles": [
         "Künstliche Intelligenz: Was tun gegen Angst vor KI?",
-        "Künstliche Intelligenz: Die postmoderne Version von Frankensteins Monster",
         "Digitalisierung: „Muenchen App“ wird zum 1. Juli eingestellt",
-        "Reden wir über Geld: „Heute kann dich wahrscheinlich dein Kühlschrank im Schach besiegen“"
+        "Reden wir über Geld: „Heute kann dich wahrscheinlich dein Kühlschrank im Schach besiegen“",
+        "Künstliche Intelligenz: Warum streite ich mit einer KI?"
       ],
       "urls": [
         "https://www.sueddeutsche.de/leben/intelligenz-angst-generation-z-ki-li.3489743",
-        "https://www.sueddeutsche.de/kultur/tilly-norwood-eline-van-der-velden-kuenstliche-intelligenz-schauspieler-li.3493949",
         "https://www.sueddeutsche.de/muenchen/muenchen-app-eingestellt-freizeit-aktivitaeten-li.3492892",
-        "https://www.sueddeutsche.de/wirtschaft/levy-rozman-gothamchess-schach-youtube-reichweite-geld-li.3472288"
+        "https://www.sueddeutsche.de/wirtschaft/levy-rozman-gothamchess-schach-youtube-reichweite-geld-li.3472288",
+        "https://www.sueddeutsche.de/projekte/artikel/magazin/kuenstliche-intelligenz-aerger-streit-kommunikation-e746605/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 5,
+      "sample_titles": [
+        "Erster KI-entworfener Corona-Impfstoff an Menschen getestet",
+        "EU will bei digitaler Infrastruktur unabhängig werden",
+        "Landwirtschaft: Wie KI die Milchproduktion steigern kann",
+        "Pflegeheim testet KI: \"Man fühlt sich wie in Italien\""
+      ],
+      "urls": [
+        "https://www.zdfheute.de/panorama/impfstoff-ki-coronaviren-forschung-100.html",
+        "https://www.zdfheute.de/politik/ausland/eu-kommission-gesetzespaket-europa-ki-chips-100.html",
+        "https://www.zdfheute.de/wissen/kuenstliche-intelligenz-landwirtschaft-smartcut-maehzeitpunkt-milchproduktion-100.html",
+        "https://www.zdfheute.de/politik/deutschland/pflege-berufe-ki-roboter-technologie-100.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 4,
+      "sample_titles": [
+        "Jetzt offenbart die KI ihren wahren Preis",
+        "Das Ende der Einstiegsjobs? Für wen KI jetzt zur Gefahr wird",
+        "„Die Chance liegt in diesem strukturellen KI-Bedarf, der dahinter liegt“",
+        "KI-Hype ohne Nvidia-Risiko – auf diesen Megatrend-Favoriten setzen jetzt die Profis"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/plus6a1af10c411d40cd4c74cbb8/strategiewechsel-der-anbieter-jetzt-offenbart-die-ki-ihren-wahren-preis.html",
+        "https://www.welt.de/wirtschaft/plus6a22bc8e8d84dbd8a4ed5dd8/das-ende-der-einstiegsjobs-fuer-wen-ki-jetzt-zur-gefahr-wird.html",
+        "https://www.welt.de/videos/video6a2029fb639e3d502fd4a244/nebius-als-investmentidee-die-chance-liegt-in-diesem-strukturellen-ki-bedarf-der-dahinter-liegt.html",
+        "https://www.welt.de/finanzen/plus6a1e8c718777b4bfe1a259c5/jenseits-von-nvidia-micron-und-hynix-das-geheime-investment-fuer-den-jahrhundert-hype.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 4,
+      "sample_titles": [
+        "EU-Strategie zu digitaler Souveränität: Nicht mutig genug",
+        "Digitale Souveränität: Europa will intelligenter werden",
+        "Nacktszene mit minderjähriger Kinski: Regisseur Wim Wenders zieht Film „Falsche Bewegung“ zurück",
+        "Entwickler von Chatbot Claude: KI-Unternehmen Anthropic will an die Börse"
+      ],
+      "urls": [
+        "https://taz.de/EU-Strategie-zur-digitalen-Souveraenitaet/!6178486/",
+        "https://taz.de/Digitale-Souveraenitaet/!6184045/",
+        "https://taz.de/Nacktszene-mit-minderjaehriger-Kinski/!6184282/",
+        "https://taz.de/Entwickler-von-Chatbot-Claude/!6183646/"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
           "count": 1
         },
         {
@@ -202,206 +301,54 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 4,
       "sample_titles": [
-        "Künstliche Intelligenz: SpaceX erhält milliardenschweren KI-Auftrag von Google",
         "Künstliche Intelligenz: Ifo: Über die Hälfte der deutschen Unternehmen nutzt KI",
         "Künstliche Intelligenz: Anthropic fordert Pause bei Entwicklung von künstlicher Intelligenz",
-        "Künstliche Intelligenz: Donald Trump unterzeichnet Dekret zur Prüfung von KI-Sicherheit"
+        "Künstliche Intelligenz: Donald Trump unterzeichnet Dekret zur Prüfung von KI-Sicherheit",
+        "OpenAI: Florida verklagt OpenAI wegen mangelnden Kinderschutzes"
       ],
       "urls": [
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-06/kuenstliche-intelligenz-spacex-boersengang-grossauftrag-google",
         "https://www.zeit.de/news/2026-06/05/ifo-ueber-die-haelfte-der-deutschen-unternehmen-nutzt-ki",
         "https://www.zeit.de/politik/ausland/2026-06/anthropic-kuenstliche-intelligenz-pause-wettbewerb",
-        "https://www.zeit.de/digital/2026-06/trump-dekret-ki-regulierung-sicherheit-kuenstliche-intelligenz"
+        "https://www.zeit.de/digital/2026-06/trump-dekret-ki-regulierung-sicherheit-kuenstliche-intelligenz",
+        "https://www.zeit.de/politik/ausland/2026-06/openai-klage-florida-sam-altman-chatgpt"
       ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 6,
+      "article_count": 3,
       "sample_titles": [
         "Außerdem Kontrolle? - KI-Macher fordern Entwicklungs-Stopp",
         "Nach Kritik - Webseiten können jetzt KI-Suche beeinflussen",
-        "„Das ist nicht gut für eine Demokratie“ - CDU-General wettert gegen Politiker-Schutz",
-        "Vor Linkin-Park-Konzert in Hamburg - Auto durchbricht Absperrung in Stadionnähe! Polizist verletzt"
+        "Künstliche Intelligenz - Gesichtserkennung im Einsatz gegen Hertha-Chaoten"
       ],
       "urls": [
         "https://www.bild.de/leben-wissen/digital/us-unternehmen-anthropic-fordert-stopp-bei-der-ki-entwicklung-6a226d738d84dbd8a4ed55e5",
         "https://www.bild.de/leben-wissen/digital/nach-kritik-webseiten-betreiber-koennen-jetzt-ki-suche-beeinflussen-6a2175f83807a686af77da51",
-        "https://www.bild.de/politik/inland/cdu-general-wettert-gegen-politiker-schutzparagrafen-6a21426b287133c3b6122e8b",
-        "https://www.bild.de/regional/hamburg/linkin-park-konzert-in-hamburg-auto-durchbricht-absperrung-in-stadionnaehe-polizist-verletzt-6a206dca0edea87c21e252ab"
+        "https://www.bild.de/regional/berlin/polizei-gesichtserkennung-im-ki-einsatz-gegen-hertha-chaoten-6a201f26639e3d502fd4a106"
       ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 5,
-      "sample_titles": [
-        "Wie klimaschädlich ist KI?: Die drei wichtigsten Klima-News der Woche",
-        "EU-Strategie zu digitaler Souveränität: Nicht mutig genug",
-        "Digitale Souveränität: Europa will intelligenter werden",
-        "Umweltfolgen von künstlicher Intelligenz: 250 Eiffeltürme Elektronikschrott"
-      ],
-      "urls": [
-        "https://taz.de/Wie-klimaschaedlich-ist-KI/!6184815/",
-        "https://taz.de/EU-Strategie-zur-digitalen-Souveraenitaet/!6178486/",
-        "https://taz.de/Digitale-Souveraenitaet/!6184045/",
-        "https://taz.de/Umweltfolgen-von-kuenstlicher-Intelligenz/!6183982/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "PODCAST «NZZ WEEKEND» - KI-Forscher Marcel Salathé: «Wir verblöden nicht, aber wir sind blöd genug, immer wieder denselben Fehler zu machen»",
-        "«Dr. Chatbot, was habe ich?» Wie man die KI dazu bringt, gute Antworten auf Gesundheitsfragen zu liefern",
-        "KOMMENTAR - Elon Musk bekommt bald Milliarden aus unseren Vorsorgewerken: Wenn die KI-Blase platzt, kann sich niemand vor den Verlusten schützen",
-        "KOMMENTAR - Der KI-Wandel steht und fällt mit dem Menschen. Firmen müssen nun nicht nur in die Technologie, sondern vor allem auch in ihre Mitarbeitenden investieren"
-      ],
-      "urls": [
-        "https://www.nzz.ch/podcast/ki-forscher-marcel-salathe-wir-verbloeden-nicht-aber-wir-sind-bloed-genug-immer-wieder-denselben-fehler-zu-machen-ld.10009889",
-        "https://www.nzz.ch/wissenschaft/ki-fuer-gesundheitsfragen-nutzen-so-erhalten-sie-gute-antworten-ld.10004460",
-        "https://www.nzz.ch/meinung/elon-musk-bekommt-bald-milliarden-aus-unseren-vorsorgewerken-wenn-die-ki-blase-platzt-kann-sich-niemand-vor-den-verlusten-schuetzen-ld.10009114",
-        "https://www.nzz.ch/meinung/der-ki-wandel-steht-und-faellt-mit-dem-menschen-firmen-muessen-nun-nicht-nur-in-die-technologie-sondern-vor-allem-auch-in-ihre-mitarbeitenden-investieren-ld.10004692"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 5,
+      "article_count": 3,
       "sample_titles": [
         "KI-Boom und Börsenmacht Wachablösung im Nikkei: SoftBank verdrängt Toyota",
-        "E-Mobilität Die Zukunft des Autos liegt in China",
         "Sven Schulze und Mario Voigt CDU-Ministerpräsidenten blamieren sich mit KI-Gastbeitrag in der „Welt“",
         "KI-Boom Was Deutschland von Taiwans Halbleiterboom lernen kann"
       ],
       "urls": [
         "https://jungefreiheit.de/wirtschaft/2026/wachabloesung-im-nikkei-softbank-verdraengt-toyota/",
-        "https://jungefreiheit.de/wirtschaft/2026/die-zukunft-des-autos-liegt-in-china/",
         "https://jungefreiheit.de/politik/deutschland/2026/cdu-ministerpraesidenten-blamieren-sich-mit-ki-gastbeitrag-in-der-welt/",
         "https://jungefreiheit.de/wirtschaft/2026/was-deutschland-von-taiwans-halbleiterboom-lernen-kann/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 4,
-      "sample_titles": [
-        "Erster KI-entworfener Corona-Impfstoff an Menschen getestet",
-        "EU will bei digitaler Infrastruktur unabhängig werden",
-        "Landwirtschaft: Wie KI die Milchproduktion steigern kann",
-        "\"Gefährden unsere Kinder\" - Florida verklagt ChatGPT-Firma"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/panorama/impfstoff-ki-coronaviren-forschung-100.html",
-        "https://www.zdfheute.de/politik/ausland/eu-kommission-gesetzespaket-europa-ki-chips-100.html",
-        "https://www.zdfheute.de/wissen/kuenstliche-intelligenz-landwirtschaft-smartcut-maehzeitpunkt-milchproduktion-100.html",
-        "https://www.zdfheute.de/wirtschaft/unternehmen/open-ai-florida-klage-chatgpt-risiken-kinder-100.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 3,
-      "sample_titles": [
-        "„Die Chance liegt in diesem strukturellen KI-Bedarf, der dahinter liegt“",
-        "„Mit unserer Schnellladetechnik sind wir dem Wettbewerb sechs Jahre voraus“",
-        "KI-Hype ohne Nvidia-Risiko – auf diesen Megatrend-Favoriten setzen jetzt die Profis"
-      ],
-      "urls": [
-        "https://www.welt.de/videos/video6a2029fb639e3d502fd4a244/nebius-als-investmentidee-die-chance-liegt-in-diesem-strukturellen-ki-bedarf-der-dahinter-liegt.html",
-        "https://www.welt.de/wirtschaft/plus6a1ff475aa3fa782d147021a/byd-tochter-denza-hat-oberklasse-aus-china-in-deutschland-eine-chance.html",
-        "https://www.welt.de/finanzen/plus6a1e8c718777b4bfe1a259c5/jenseits-von-nvidia-micron-und-hynix-das-geheime-investment-fuer-den-jahrhundert-hype.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "Sicherheitsrisiko Staat: Brücken kaputt, Behörden überfordert, Bürger wütend – TE-Wecker am 5. Juni 2026",
-        "Warnzeichen für ein Ende des KI-Hypes | Tichys Börsenwecker am 1. Juni 2026"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/podcast/te-wecker-am-5-juni-2026/",
-        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-1-juni-2026-2/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Bürger verunsichert: „Unsichtbare Keile“: Verfassungsschutz warnt vor KI-Chatbots",
-        "Auszeichnung: Dirk Schrödter erhält dänischen digitalen Freiheitspreis"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/buerger-verunsichert---unsichtbare-keile---verfassungsschutz-warnt-vor-ki-chatbots-37476510.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/auszeichnung--dirk-schroedter-erhaelt-daenischen-digitalen-freiheitspreis-37476370.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -424,19 +371,33 @@
           "count": 1
         }
       ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Anthropic plädiert für weltweite Pause bei KI-Entwicklung"
+      ],
+      "urls": [
+        "https://www.stern.de/news/anthropic-plaediert-fuer-weltweite-pause-bei-ki-entwicklung-37496064.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "left-liberal": 31,
-    "economic-liberal": 30,
-    "conservative-liberal": 28,
-    "left": 5,
-    "neutral": 18,
-    "populist-mixed": 6,
-    "right-conservative": 15,
-    "far-right": 7
+    "right-conservative": 12,
+    "conservative-liberal": 27,
+    "economic-liberal": 23,
+    "neutral": 20,
+    "left-liberal": 23,
+    "left": 4,
+    "populist-mixed": 3,
+    "far-right": 3
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass die Entwicklung und Anwendung von KI-Technologien einen bedeutenden Einfluss auf die deutsche Wirtschaft und Gesellschaft haben wird. Unabhängig von der politischen Ausrichtung der Medien wird die Notwendigkeit einer regulierten und verantwortungsvollen Entwicklung von KI betont, insbesondere im Hinblick auf Datenschutz, Cybersicherheit und die möglichen Auswirkungen auf den Arbeitsmarkt. Darüber hinaus wird die Bedeutung von Investitionen in digitale Infrastruktur und Bildung hervorgehoben, um Deutschland wettbewerbsfähig zu halten und die Chancen der digitalen Transformation zu nutzen.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Digitalisierung und Künstlicher Intelligenz zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und umfassenden Einführung von KI-Technologien, die diese als Chance für Wirtschaftswachstum und Innovationsführerschaft sehen, und den Kritikern, die auf die Risiken und Nebenwirkungen wie Datenschutzverletzungen, Arbeitsplatzverluste und Umweltbelastung hinweisen. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer regulierten und kontrollierten Entwicklung von KI, die eine stärkere Rolle des Staates und der EU bei der Gestaltung der digitalen Transformation fordern, und den Befürwortern eines laissez-faire-Ansatzes, die der Wirtschaft und der Technologieindustrie freie Hand lassen wollen. Die Debatte wird auch von einer grundlegenden Diskussion über die Zukunft der Arbeit und die Auswirkungen von Automatisierung und KI auf den Arbeitsmarkt geprägt, bei der sich die Frage stellt, ob die Vorteile der Digitalisierung gerecht verteilt werden oder ob sie zu einer weiteren Vergrößerung der sozialen Ungleichheit führen.",
-  "cached_at": "2026-06-06T07:26:02.659749"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass die KI-Entwicklung und ihre Anwendungen sowohl Chancen als auch Risiken für die Gesellschaft und Wirtschaft in Deutschland birgt. Die Medien verschiedener politischer Ausrichtungen thematisieren ähnliche Aspekte wie die Notwendigkeit einer Regulierung von KI, die Bedenken hinsichtlich Datenschutz und Cybersicherheit sowie die Auswirkungen auf den Arbeitsmarkt und die Umwelt. Darüber hinaus wird die Frage nach einer digitalen Souveränität und der Abhängigkeit von US-Techgiganten in vielen Medien thematisiert, was auf eine gemeinsame Sorge um die Zukunftsfähigkeit und Unabhängigkeit Deutschlands in der digitalen Welt hinweist.",
+  "controversial_points": "Der deutsche Mediendiskurs zu Digitalisierung, Künstlicher Intelligenz und digitaler Transformation zeigt eine tiefe Konfliktlinie zwischen den Befürwortern einer schnellen und umfassenden Einführung von KI-Technologien und denjenigen, die Bedenken hinsichtlich Datenschutz, Cybersicherheit und den sozialen Auswirkungen auf den Arbeitsmarkt äußern. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer liberalen Wirtschaftspolitik, die den KI-Boom als Chance für Wirtschaftswachstum sehen, und den Kritikern, die auf die Umwelt- und Gesellschaftsrisiken hinweisen und eine regulierende Rolle des Staates fordern. Die politische Ausrichtung der Medien spielt dabei eine wichtige Rolle, da konservative und wirtschaftsliberale Medien tendenziell positiver über die Chancen von KI berichten, während linke und linksliberale Medien skeptischer gegenüber den Risiken und ungleichen Verteilungseffekten sind.",
+  "cached_at": "2026-06-07T08:13:04.802477"
 }
