@@ -1,58 +1,25 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 194,
-  "candidate_count": 348,
+  "article_count": 241,
+  "candidate_count": 402,
   "outlets": {
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 24,
-      "sample_titles": [
-        "Arbeitgeber sollen einzahlen: DGB fordert verpflichtende Betriebsrente",
-        "\"Dafür Rente weniger erhöhen\": JU-Chef Winkel kämpft für Bafög und Elterngeld",
-        "\"Gutes Einkommen\" aus der Rente: Merz beschwört die Koalition und warnt vor Spielchen",
-        "Reformen haben Vorrang: Unternehmerverband: Abgeordnete sollen auf Sommerpause verzichten"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/DGB-fordert-verpflichtende-Betriebsrente-id30900120.html",
-        "https://www.n-tv.de/politik/JU-Chef-Winkel-kaempft-fuer-Bafoeg-und-Elterngeld-id30900229.html",
-        "https://www.n-tv.de/politik/Merz-beschwoert-die-Koalition-und-warnt-vor-Spielchen-id30899493.html",
-        "https://www.n-tv.de/politik/Unternehmerverband-Abgeordnete-sollen-auf-Sommerpause-verzichten-id30899965.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
-          "count": 1
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 24,
+      "article_count": 36,
       "sample_titles": [
-        "„Da wird der Aufschrei groß sein“ – DGB fordert verpflichtende Betriebsrente für alle",
-        "Ein Schüler stellt die Frage, die wie ein roter Faden durch den Abend der Bärbel Bas führt",
-        "„20 Millionen Euro hat man dafür dem Steuerzahler in Rechnung gestellt“",
-        "„Wir alle müssen länger arbeiten“"
+        "Zahl der Rentner in Deutschland erreicht neuen Rekordwert – Ausgaben steigen auf 301 Milliarden Euro",
+        "CDU-Wirtschaftsrat lehnt verpflichtende Betriebsrente ab – Zustimmung von Grünen und Linke",
+        "„Gerade ist das reale Renteneintrittsalter aus meiner Sicht zu niedrig“, sagt Ricarda Lang",
+        "„Nicht zu vermitteln“, urteilt der Arbeitgeberpräsident über die Erhöhung der Rente"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a2493468d84dbd8a4ed754a/rente-aufschrei-wird-gross-sein-dgb-fordert-verpflichtende-betriebsrente-fuer-alle.html",
-        "https://www.welt.de/politik/deutschland/plus6a1bd832411d40cd4c74d11b/buergerdialog-in-dortmund-baerbel-bas-zwischen-zukunftsangst-und-regierungskritik.html",
-        "https://www.welt.de/videos/video6a2058169d434f719fddfb9b/strategieberatung-fuer-rentenversicherung-20-millionen-euro-hat-man-dafuer-dem-steuerzahler-in-rechnung-gestellt.html",
-        "https://www.welt.de/videos/video6a1fda3eaa3fa782d146fefd/reform-der-rente-wir-alle-muessen-laenger-arbeiten.html"
+        "https://www.welt.de/politik/deutschland/article6a28abea2f1d3992450585f9/bericht-zahl-der-rentner-in-deutschland-erreicht-neuen-rekordwert-ausgaben-steigen-auf-301-milliarden-euro.html",
+        "https://www.welt.de/politik/deutschland/article6a27f2902f1d399245057a7f/altersvorsorge-cdu-wirtschaftsrat-lehnt-verpflichtende-betriebsrente-ab-zustimmung-von-gruene-und-linke.html",
+        "https://www.welt.de/politik/deutschland/article6a27b7dd9ee21b0393c8eca2/ricarda-lang-gerade-ist-das-reale-renteneintrittsalter-aus-meiner-sicht-zu-niedrig.html",
+        "https://www.welt.de/politik/deutschland/article6a277c94b20db0d89b659d5e/rente-nicht-zu-vermitteln-urteilt-der-arbeitgeberpraesident-ueber-starke-erhoehung.html"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -63,38 +30,42 @@
         {
           "emotion": "admiration",
           "count": 1
+        },
+        {
+          "emotion": "relief",
+          "count": 1
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 22,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 31,
       "sample_titles": [
-        "Deutschland-Liveblog: Winkel: „Gebt euch einen Ruck für die junge Generation, liebe Regierung“",
-        "Private Altersvorsorge: „Die Garantie ist ein Renditekiller“",
-        "TSMC hat keine Angst vor Konkurrenz: „Ich würde nur ‚Viel Glück‘ zu Elon Musk sagen“",
-        "Kosten der Alterssicherung: Beamte in die Rente? Was Bas mit ihrem Vorstoß nicht erklärt"
+        "Eine Beispielrechnung: Witwenrenten-Aus? Wie sich das finanziell auswirken könnte",
+        "DGB-Vorschlag aufgegriffen: Klingbeil unterstützt verpflichtende Betriebsrente",
+        "Dulger: Nicht vermittelbar: Arbeitgeberpräsident will Rentenanstieg ausbremsen",
+        "Was ist Rentensplitting?: Regierungsexperten wollen die Witwenrente abschaffen"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-ju-chef-winkel-fuer-geringere-rentenerhoehung-zugunsten-von-bafoeg-verbesserung-faz-110093143.html",
-        "https://www.faz.net/aktuell/finanzen/private-altersvorsorge-was-die-wahlfreiheit-mit-sich-bringt-accg-200880968.html",
-        "https://www.faz.net/aktuell/wirtschaft/tsmc-ich-wuerde-nur-viel-glueck-zu-elon-musk-sagen-accg-200900378.html",
-        "https://www.faz.net/aktuell/wirtschaft/beamte-in-die-rente-was-bas-mit-ihrem-vorstoss-nicht-erklaert-accg-200895412.html"
+        "https://www.n-tv.de/ratgeber/Witwenrenten-Aus-Wie-sich-das-finanziell-auswirken-koennte-id30947456.html",
+        "https://www.n-tv.de/politik/Klingbeil-unterstuetzt-verpflichtende-Betriebsrente-id30945151.html",
+        "https://www.n-tv.de/politik/Arbeitgeberpraesident-will-Rentenanstieg-ausbremsen-id30944736.html",
+        "https://www.n-tv.de/wirtschaft/Regierungsexperten-wollen-die-Witwenrente-abschaffen-id30943694.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "optimism",
           "count": 4
         },
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "surprise",
           "count": 2
         }
       ]
@@ -103,31 +74,64 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 22,
+      "article_count": 29,
       "sample_titles": [
-        "Finanztip-Chef Tenhagen - „So holen Sie sich Geld vom Finanzamt zurück“",
-        "„Ist nicht nachvollziehbar“ - Jetzt stellt JU-Chef Winkel das Rentenplus infrage",
-        "Nach Dreamliner-Panne in Frankfurt - So viel Boeing steckt in Ihrer Fluglinie!",
-        "Sparplan von Warken - Wer pflegt, soll weniger Rente kriegen!"
+        "Rentenkommission prüft Abschaffung - Droht jetzt das Ende der klassischen Witwenrente?",
+        "Vor Reform-Gipfel - Arbeitgeber fordern Renten-Bremse",
+        "Auf Vorschlag Rentenkommission - Schafft die Regierung die Witwenrente ab?",
+        "Rente, Mehrwertsteuer, 8-Stunden-Tag - Nerven-Gipfel im Kanzleramt"
       ],
       "urls": [
-        "https://www.bild.de/politik/gelegenheit-fuer-mieter-so-holen-sie-sich-geld-vom-finanzamt-zurueck-6a229268b20db0d89b6560db",
-        "https://www.bild.de/politik/inland/rente-ju-chef-johannes-winkel-stellt-rentenplus-infrage-brisanter-gegenvorschlag-6a230bcabe3c07528fabddb7",
-        "https://www.bild.de/politik/nach-dreamliner-panne-in-frankfurt-so-viel-boeing-steckt-in-ihrer-fluglinie-6a228f90a85ce647df472093",
-        "https://www.bild.de/politik/inland/sparplan-von-warken-wer-pflegt-soll-weniger-rente-kriegen-6a219f073807a686af77de16"
+        "https://www.bild.de/politik/inland/rentenkommission-prueft-droht-das-ende-der-klassischen-witwenrente-6a27f05837d75abfaf7365b4",
+        "https://www.bild.de/politik/inland/rente-zu-teuer-arbeitgeber-fordern-rentenbremse-6a27b35f29fcf2207deb17e3",
+        "https://www.bild.de/politik/inland/auf-vorschlag-der-rentenkommission-schafft-die-regierung-die-witwenrente-ab-6a269303b20db0d89b65912f",
+        "https://www.bild.de/politik/inland/reformgipfel-im-kanzleramt-findet-schwarz-rot-den-ausweg-6a24258db6319c631be126a4"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 5
+        },
+        {
+          "emotion": "amusement",
+          "count": 2
         },
         {
           "emotion": "annoyance",
           "count": 2
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 26,
+      "sample_titles": [
+        "Rentenreform: Werden Betriebsrenten zur Pflicht?",
+        "Podcast Finanzen & Immobilien: Was das neue Altersvorsorgedepot bringt",
+        "Deutschland-Liveblog: Klingbeil: Betriebsrente verpflichtend machen",
+        "Sparen für die Rente: Warum Frauen doppelt für das Alter vorsorgen müssen"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/dgb-fordert-pflicht-zu-betriebsrenten-lars-klingbeil-stimmt-zu-200912671.html",
+        "https://www.faz.net/podcasts/f-a-z-finanzen-immobilien/f-a-z-finanzen-podcast-was-das-neue-altersvorsorgedepot-bringt-200913800.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-klingbeil-betriebsrente-verpflichtend-machen-faz-110093143.html",
+        "https://www.faz.net/premium/meine-finanzen/vorsorge/rente-warum-frauen-doppelt-finanziell-vorsorgen-muessen-accg-200895264.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "anger",
           "count": 2
         }
       ]
@@ -136,28 +140,28 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 17,
+      "article_count": 21,
       "sample_titles": [
-        "DGB für verpflichtende Betriebsrente",
-        "Weniger Rente für pflegende Angehörige?",
-        "Wie weit sind die Reformen von Schwarz-Rot?",
-        "Reform oder Kollaps? Die Zukunft des deutschen Sozialstaats"
+        "Was hinter einer verpflichtenden Betriebsrente steckt",
+        "Auch Klingbeil für verpflichtende Betriebsrente",
+        "Beamte in die Rente? Miersch wägt ab",
+        "DGB für verpflichtende Betriebsrente"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/rente-dgb-vorschlag-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/pflege-reform-102.html",
-        "https://www.tagesschau.de/inland/reformbaustellen-schwarz-rot-100.html",
-        "https://www.tagesschau.de/podcast-11km-reform-sozialstaat-renten-pflege-krankenkassen-100.html"
+        "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorge-betriebsrente-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/klingbeil-betriebsrente-100.html",
+        "https://www.tagesschau.de/inland/bericht-aus-berlin-rentenreform-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/rente-dgb-vorschlag-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 3
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "optimism",
+          "count": 2
         },
         {
           "emotion": "confusion",
@@ -171,13 +175,13 @@
       "bias": "left-liberal",
       "article_count": 17,
       "sample_titles": [
-        "Anthropic plädiert für weltweite Pause bei KI-Entwicklung",
+        "Vor Spitzentreffen im Kanzleramt: Verdi warnt vor Renten-Einschnitten",
         "Studie: Ende der „Rente mit 63“ entlastet Staat und erhält 125.000 Arbeitskräfte",
         "Teure Frührente: „Rente mit 63“ abschaffen würde fast zehn Milliarden sparen – pro Jahrgang",
         "Rente: Viele in MV gehen vorzeitig in Rente – oft mit Abschlägen"
       ],
       "urls": [
-        "https://www.stern.de/news/anthropic-plaediert-fuer-weltweite-pause-bei-ki-entwicklung-37496064.html",
+        "https://www.stern.de/news/vor-spitzentreffen-im-kanzleramt--verdi-warnt-vor-renten-einschnitten-37520518.html",
         "https://www.stern.de/news/studie--ende-der--rente-mit-63--entlastet-staat-und-erhaelt-125-000-arbeitskraefte-37484344.html",
         "https://www.stern.de/wirtschaft/news/-rente-mit-63--abschaffen-wuerde-zehn-milliarden-sparen---pro-jahrgang-37482098.html",
         "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/rente--viele-in-mv-gehen-vorzeitig-in-rente---oft-mit-abschlaegen-37481238.html"
@@ -202,18 +206,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 14,
+      "article_count": 15,
       "sample_titles": [
+        "Rente: Arbeitgeberpräsident Dulger verlangt Begrenzung der Rentensteigerung",
         "Rente: Vier Jahre Bundestag entsprechen 28 Jahren von Durchschnittsverdienern",
         "Rente und Elterngeld: JU-Chef Johannes Winkel kritisiert Unionskurs",
-        "Rente: Alice Schwarzer warnt vor Benachteiligung von Frauen im Alter",
-        "Pflegereform: Nina Warken spart bei den Falschen - Kommentar"
+        "Rente: Alice Schwarzer warnt vor Benachteiligung von Frauen im Alter"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/soziales/rente-arbeitgeberpraesident-dulger-verlangt-begrenzung-der-rentensteigerung-a-32627770-284f-4393-8e7b-e2b8abfee2be#ref=rss",
         "https://www.spiegel.de/politik/deutschland/altersbezuege-vier-jahre-bundestag-entsprechen-28-jahren-von-durchschnittsverdienern-a-b4282680-735a-4e07-a7f5-81e3100f1e96#ref=rss",
         "https://www.spiegel.de/politik/johannes-winkel-chef-der-jungen-union-fordert-weniger-erhoehung-der-rente-a-34e2abdb-205b-42b2-bc9f-da09f5293af0#ref=rss",
-        "https://www.spiegel.de/panorama/rente-alice-schwarzer-warnt-vor-benachteiligung-von-frauen-im-alter-a-b29936e9-09e7-494a-b86d-29ab3eea3452#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/pflegereform-nina-warken-spart-bei-den-falschen-kommentar-a-9d3f8561-7c24-4228-853a-ec9932734ec4#ref=rss"
+        "https://www.spiegel.de/panorama/rente-alice-schwarzer-warnt-vor-benachteiligung-von-frauen-im-alter-a-b29936e9-09e7-494a-b86d-29ab3eea3452#ref=rss"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -235,31 +239,64 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 14,
+      "article_count": 15,
       "sample_titles": [
+        "Reform: Rentenkommission erwägt Pflicht zum Rentensplitting",
+        "Altersvorsorge: „Gefahr für Arbeitsplätze und Wachstum“ – DGB-Vorstoß entfacht Streit über Betriebsrente",
         "Sozialstaat: „Ich kämpfe für einen guten Sozialstaat“: Bas zeigt sich vor Bericht der Rentenkommission zuversichtlich",
-        "Rentenreform: Abschaffung der „Rente mit 63“ würde Milliarden von Euro sparen",
-        "Reformen: Kostenfalle Beamte in der Rentenkasse: Das würde Bas’ Plan kosten",
-        "Alterssicherung: Rentenversicherung rechnet 2028 mit stärkerem Anstieg der Beiträge"
+        "Rentenreform: Abschaffung der „Rente mit 63“ würde Milliarden von Euro sparen"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/reform-rentenkommission-erwaegt-pflicht-zum-rentensplitting/100229359.html",
+        "https://www.handelsblatt.com/politik/deutschland/altersvorsorge-dgb-vorstoss-entfacht-streit-ueber-betriebsrente/100230922.html",
         "https://www.handelsblatt.com/politik/deutschland/sozialstaat-bas-zeigt-sich-vor-bericht-der-rentenkommission-zuversichtlich/100229418.html",
-        "https://www.handelsblatt.com/politik/deutschland/rentenreform-abschaffung-der-rente-mit-63-wuerde-milliarden-von-euro-sparen/100229357.html",
-        "https://www.handelsblatt.com/politik/deutschland/reformen-beamte-in-der-rentenkasse-das-wuerde-bas-plan-kosten/100229682.html",
-        "https://www.handelsblatt.com/politik/deutschland/alterssicherung-rentenversicherung-rechnet-2028-mit-staerkerem-anstieg-der-beitraege/100229331.html"
+        "https://www.handelsblatt.com/politik/deutschland/rentenreform-abschaffung-der-rente-mit-63-wuerde-milliarden-von-euro-sparen/100229357.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "approval",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
         {
           "emotion": "approval",
           "count": 2
         },
         {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
           "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 13,
+      "sample_titles": [
+        "Beamte in die Rentenkasse",
+        "DGB-Vorsitzende Fahimi will Betriebsrenten-Pflicht für alle",
+        "Winkel kritisiert Rentenplus und fordert mehr für Studierende",
+        "Studie: Staat spart Milliarden bei Aus für die Frührente"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/video/frontal/beamte-in-die-rentenkasse-100.html",
+        "https://www.zdfheute.de/politik/deutschland/rente-reform-altersvorsorge-dgb-100.html",
+        "https://www.zdfheute.de/politik/deutschland/lanz-winkel-schwarz-rot-reformpaket-rentenerhoehung-100.html",
+        "https://www.zdfheute.de/politik/deutschland/rente-mit-63-fruehrente-abschaffung-studie-diw-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -293,31 +330,27 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 10,
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 9,
       "sample_titles": [
-        "Winkel kritisiert Rentenplus und fordert mehr für Studierende",
-        "Studie: Staat spart Milliarden bei Aus für die Frührente",
-        "Gesetzliche Rente für Beamte? Was dafür und dagegen spricht",
-        "Warum die Rentenreform für euch wichtig ist"
+        "Finanzminister unterstützt DGB-Vorstoß: Klingbeil plädiert für Betriebsrente für alle",
+        "Diskussion über Rente in Deutschland: Klingbeil für verpflichtende Betriebsrenten",
+        "Zukunft der Altersvorsorge: Bas will Beamte zur Rentenkasse bitten",
+        "Bas-Vorschlag zur Rente: Lieber weniger Beamte"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/lanz-winkel-schwarz-rot-reformpaket-rentenerhoehung-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rente-mit-63-fruehrente-abschaffung-studie-diw-100.html",
-        "https://www.zdfheute.de/politik/deutschland/beamte-rente-gesetzlich-pension-schwarz-rote-koalition-100.html",
-        "https://www.zdfheute.de/video/zdfheute-xpress/xplained-folge-20-rentenreform-video-100.html"
+        "https://taz.de/Finanzminister-unterstuetzt-DGB-Vorstoss/!6185856/",
+        "https://taz.de/Diskussion-ueber-Rente-in-Deutschland/!6185798/",
+        "https://taz.de/Zukunft-der-Altersvorsorge/!6185295/",
+        "https://taz.de/Bas-Vorschlag-zur-Rente/!6185597/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -328,13 +361,13 @@
       "bias": "left-liberal",
       "article_count": 6,
       "sample_titles": [
-        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Bundespolitik: Klingbeil für verpflichtende Betriebsrente",
         "Sozialstaat: Die Rente mit 63 war ein Riesenfehler",
         "Private Markets: Das heikle Versprechen vom „Investieren wie Millionäre“",
         "Studie der Bertelsmann Stiftung: Abschaffung der Rente mit 63 würde Milliarden bringen"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3493565",
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-klingbeil-rente-deutschland-spd-li.3495864",
         "https://www.sueddeutsche.de/wirtschaft/rente-sozialstaat-li.3493190",
         "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/eltif-privatanleger-altersvorsorgedepot-e071502/",
         "https://www.sueddeutsche.de/wirtschaft/rente-abschaffung-milliardenersparnis-deutschland-li.3492646"
@@ -347,42 +380,22 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 4,
-      "sample_titles": [
-        "Rente mit 63 auf der Sparliste: Nicht alle können länger ackern",
-        "Individualismus vs. Solidarität: Wie viel Sozialstaat können wir uns noch leisten?",
-        "Angeblicher Rentenplan: Massive Kritik an ungeplanter Rente mit 70",
-        "Höheres Rentenalter: Deutsche arbeiten schon heute länger und sterben früher"
-      ],
-      "urls": [
-        "https://taz.de/Rente-mit-63-auf-der-Sparliste/!6184061/",
-        "https://taz.de/Individualismus-vs-Solidaritaet/!6182404/",
-        "https://taz.de/Angeblicher-Rentenplan/!6180999/",
-        "https://taz.de/Hoeheres-Rentenalter/!6175381/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 6,
       "sample_titles": [
+        "Millionen Betroffene Rentenkommission fordert Abschaffung der Witwenrente",
         "Sozialpolitik Ostdeutsche Rentner bekommen erheblich weniger Geld als westdeutsche",
         "Rentenkommission Wird das Renteneintrittsalter auf 70 Jahre erhöht?",
-        "EU-Skandal Spanien stopft Rentenlöcher mit deutschen EU-Geldern",
-        "Sozialstaat am Limit Migration ins Rentensystem macht Altersarmut zum Regelfall"
+        "Schlechte Umfragewerte Schwarz-Rot will Reformen wegen Landtagswahlen verschieben"
       ],
       "urls": [
+        "https://jungefreiheit.de/wirtschaft/2026/rentenkommission-fordert-abschaffung-der-witwenrente/",
         "https://jungefreiheit.de/politik/deutschland/2026/ostdeutsche-rentner-bekommen-erheblich-weniger-geld-als-westdeutsche/",
         "https://jungefreiheit.de/politik/deutschland/2026/wird-das-renteneintrittsalter-auf-70-jahre-erhoeht/",
-        "https://jungefreiheit.de/politik/ausland/2026/spanien-stopft-rentenloecher-mit-deutschen-eu-geldern/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/migration-ins-rentensystem-macht-altersarmut-zum-regelfall/"
+        "https://jungefreiheit.de/politik/deutschland/2026/schwarz-rot-will-reformen-wegen-landtagswahlen-verschieben/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -391,16 +404,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
-        "Kaputte Brücken, marode Straßen und Bahnlinien – und der Sozialstaat wackelt",
         "Rente zum Selbermachen | Tichys Börsenwecker am 5. Juni 2026",
-        "Es knackt im Gebälk der Sozialversicherung – höhere Beiträge und Schulden drohen"
+        "Es knackt im Gebälk der Sozialversicherung – höhere Beiträge und Schulden drohen",
+        "Die neue Renten-Show: Ausrede für höhere Steuern",
+        "BioNTech will Standorte in Deutschland schließen: Bis zu 1.860 Jobs betroffen"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/bruecken-strassen-bahn-sozialstaat/",
         "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-2-juni-2026-2/",
-        "https://www.tichyseinblick.de/wirtschaft/parteienstaat-machterhalt-renten-arbeit/"
+        "https://www.tichyseinblick.de/wirtschaft/parteienstaat-machterhalt-renten-arbeit/",
+        "https://www.tichyseinblick.de/tichys-einblick/rente-show-ausrede-hoehere-steuern/",
+        "https://www.tichyseinblick.de/wirtschaft/biontech-standorte-deutschland/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -442,16 +457,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 48,
-    "neutral": 27,
-    "far-right": 8,
-    "conservative-liberal": 24,
-    "left-liberal": 47,
-    "populist-mixed": 22,
-    "economic-liberal": 14,
-    "left": 4
+    "populist-mixed": 29,
+    "right-conservative": 67,
+    "left-liberal": 48,
+    "conservative-liberal": 28,
+    "neutral": 34,
+    "left": 9,
+    "far-right": 11,
+    "economic-liberal": 15
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle System reformbedürftig ist und dass der demographische Wandel eine große Herausforderung für die Finanzierbarkeit der gesetzlichen Rentenversicherung darstellt. Eine weitere Gemeinsamkeit besteht in der Diskussion um die Notwendigkeit einer verpflichtenden Betriebsrente und einer stärkeren privaten Altersvorsorge, um die Altersarmut zu bekämpfen und die Rentenlücken zu schließen. Darüber hinaus wird in vielen Medien die Frage der Generationengerechtigkeit thematisiert, wobei einige Stimmen fordern, dass die jüngere Generation nicht durch zu hohe Rentenbeiträge belastet werden sollte, während andere argumentieren, dass die Älteren durch eine zu niedrige Rente benachteiligt werden könnten.",
-  "controversial_points": "Der deutsche Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt eine tiefgreifende Konfliktlinie zwischen den Befürwortern einer solidarischen, staatlich finanzierten Rentenversicherung und den Anhängern einer kapitalgedeckten, individuellen Altersvorsorge, wobei die erstere Gruppe vor allem von linken und gewerkschaftsnahen Medien vertreten wird, während die letztere Gruppe von konservativen und wirtschaftsliberalen Medien unterstützt wird. Eine weitere Spannungslinie verläuft zwischen den Generationen, da jüngere Menschen oft als Benachteiligte im aktuellen Rentensystem gesehen werden, während ältere Menschen um die Erhaltung ihrer Rentenansprüche kämpfen, was zu Debatten über die Generationengerechtigkeit und die Finanzierbarkeit der gesetzlichen Rentenversicherung führt. Die Debatte um das Renteneintrittsalter und die Frage, ob das Renteneintrittsalter erhöht werden sollte, um die Finanzierbarkeit des Systems zu gewährleisten, bildet einen weiteren zentralen Konfliktbereich, der die politischen und wirtschaftlichen Interessen verschiedener Gruppen und Medien auf den Plan ruft.",
-  "cached_at": "2026-06-07T08:10:41.622174"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass die Finanzierbarkeit und Generationengerechtigkeit der gesetzlichen Rentenversicherung eine zentrale Herausforderung darstellt, die durch den demographischen Wandel und die steigenden Ausgaben für Renten noch verstärkt wird. Eine weitere Gemeinsamkeit besteht in der Diskussion um die Einführung einer verpflichtenden Betriebsrente, die von verschiedenen politischen Lagern und Medien als mögliche Lösung zur Stabilisierung des Rentensystems und zur Förderung der Altersvorsorge angesehen wird. Darüber hinaus wird die Notwendigkeit einer Rentenreform und die Überlegung, das Renteneintrittsalter anzupassen oder die Witwenrente abzuschaffen, als ein wichtiger Punkt im Diskurs thematisiert, um die langfristige Tragfähigkeit des Rentensystems zu gewährleisten.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer verpflichtenden Betriebsrente und denjenigen, die eine solche Maßnahme ablehnen, da sie befürchten, dass dies zu höheren Kosten für Arbeitgeber und möglicherweise zu Arbeitsplatzverlusten führen könnte. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer generationengerechten Rentenpolitik, die eine Anpassung des Renteneintrittsalters und der Rentenformen an die demographische Entwicklung fordern, und denjenigen, die eine solche Anpassung ablehnen, da sie befürchten, dass dies zu einer Verschlechterung der Lebensverhältnisse von Rentnern und einer Verstärkung der Altersarmut führen könnte. Darüber hinaus gibt es auch Konflikte zwischen den Befürwortern einer stärkeren kapitalgedeckten Vorsorge und denjenigen, die eine solche Vorsorge ablehnen, da sie befürchten, dass dies zu einer Verlagerung von Risiken auf die Individuen und einer Schwächung des gesetzlichen Rentensystems führen könnte.",
+  "cached_at": "2026-06-10T08:38:33.056774"
 }

@@ -1,25 +1,25 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 186,
+  "article_count": 192,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 35,
+      "article_count": 36,
       "sample_titles": [
-        "Prien will Vorgaben zur Gehaltstranzparenz nachverhandeln",
+        "Nach Tod eines 17-Jährigen aus Grünheide äußert sich Landrat zur Kritik an Jugendamt",
+        "Wiederaufbau der Schulen und Kitas im Ahrtal: Wie ist der Stand?",
         "Kinderschutzbund ermöglicht kostenlosen Badespaß",
-        "Ökonomen fordern mehr Entlastung für Familien",
-        "Kinderkrankentage nehmen weiterhin meistens Frauen"
+        "Ökonomen fordern mehr Entlastung für Familien"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/europa/eu-gender-pay-gap-prien-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/06/oder-spree-brandenburg-jugendamt--tot-drogen-urteil-jugendlicher.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/bildungsministerin-eiling-huetig-besucht-von-flut-zerstoerte-schulen-und-kitas-im-ahrtal-100.html",
         "https://www1.wdr.de/nrw/rheinland/bonn/freier-eintritt-freibad-bonn-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/ehegattensplitting-reform-oekonomen-100.html",
-        "https://www.tagesschau.de/wirtschaft/krankentage-kinder-frauen-100.html"
+        "https://www.tagesschau.de/wirtschaft/finanzen/ehegattensplitting-reform-oekonomen-100.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -41,28 +41,28 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 25,
+      "article_count": 24,
       "sample_titles": [
-        "Neues Gesetz in Italien: Eltern müssen Sexualkunde künftig zustimmen",
-        "Einspruch Exklusiv: Das Ehegattensplitting abschaffen? Ein Angriff auf die Falschen",
-        "Forscher-Appell an Kanzler: „Reformiert das Ehegattensplitting“",
-        "Karriere mit Kind: Wie familienfreundlich ist die Wissenschaft?"
+        "Sanierungsstau in Hessen: Für den Schulbau fehlen sechs Milliarden Euro",
+        "Geld für Kitas: Windrad-Pflichterträge für Kommunen",
+        "Jüdisches Familienzentrum: Babymassage, Ballett und Capoeira",
+        "Forscher-Appell an Kanzler: „Reformiert das Ehegattensplitting“"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/ausland/italien-eltern-muessen-sexualkunde-kuenftig-zustimmen-200902805.html",
-        "https://www.faz.net/premium/einspruch/exklusiv/das-ehegattensplitting-abschaffen-ein-angriff-auf-die-falschen-accg-200899522.html",
-        "https://www.faz.net/aktuell/wirtschaft/von-fuest-bis-schularick-oekonomen-fordern-reform-von-ehegattensplitting-accg-200891363.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/uni-karriere-mit-kind-warum-es-muetter-in-der-wissenschaft-schwerer-haben-accg-200848916.html"
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hessen-schulsanierung-stagniert-trotz-milliardenbedarf-200912863.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/mehr-geld-fuer-kitas-windrad-ertraege-fuer-kommunen-in-hessen-200912227.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/frankfurt-vor-fuenf-jahren-wurde-das-familienzentrum-der-juedischen-gemeinde-eroeffnet-accg-200908146.html",
+        "https://www.faz.net/aktuell/wirtschaft/von-fuest-bis-schularick-oekonomen-fordern-reform-von-ehegattensplitting-accg-200891363.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "confusion",
-          "count": 4
+          "count": 2
         },
         {
           "emotion": "approval",
@@ -70,22 +70,55 @@
         }
       ]
     },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 21,
+      "sample_titles": [
+        "Sachsen-Anhalt: Land will Jugendarbeitslosigkeit bis 2030 drastisch senken",
+        "Steuer-Trick: Mehr als 175.000 Euro Einkommen? So erhalten Sie trotzdem Elterngeld",
+        "Kürzungen geplant: Was das Elterngeld wirklich gebracht hat",
+        "Häusliche Gewalt: Pflegekinder jahrelang misshandelt – mehrjährige Haftstrafe"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--land-will-jugendarbeitslosigkeit-bis-2030-drastisch-senken-37519042.html",
+        "https://www.stern.de/wirtschaft/geld/elterngeld-bekommen-trotz-175-000-euro-einkommen--so-geht-s-35579208.html",
+        "https://www.stern.de/politik/elterngeld-kuerzen--was-die-leistung-wirklich-gebracht-hat-37473222.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/haeusliche-gewalt--pflegekinder-jahrelang-misshandelt---mehrjaehrige-haftstrafe-37495334.html"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 18,
+      "article_count": 21,
       "sample_titles": [
-        "Mehr „Partnerschaftlichkeit“ – Prien bringt Ausweitung der Väter-Monate ins Spiel",
+        "„Kindern und Jugendlichen wird Selbstdisziplin zugeschrieben, die vielen Erwachsenen fehlt“",
+        "JU-Vorsitzender forderte geringere Rentenerhöhung zugunsten von Bafög und Elterngeld",
         "„Den größten Karrieresprung machen die Männer, wenn das erste und das zweite Kind kommen“",
-        "„Familien finden gar keinen Wohnraum mehr in Berlin, weil sie die Mieten nicht bezahlen können“",
-        "Kinderkrankentage bleiben Frauensache – 73 Prozent der Ausfalltage übernehmen Mütter"
+        "Mehr „Partnerschaftlichkeit“ – Prien bringt Ausweitung der Väter-Monate ins Spiel"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a226ff6b20db0d89b655db9/elterngeld-reform-mehr-partnerschaftlichkeit-prien-bringt-ausweitung-der-vaeter-monate-ins-spiel.html",
+        "https://www.welt.de/politik/deutschland/article6a266778b20db0d89b658d11/schaeden-durch-handynutzung-kindern-und-jugendlichen-wird-selbstdisziplin-zugeschrieben-die-vielen-erwachsenen-fehlt.html",
+        "https://www.welt.de/politik/deutschland/article6a250ddf8d84dbd8a4ed777e/altersvorsorge-ju-vorsitzender-forderte-geringere-rentenerhoehung-zugunsten-von-bafoeg-und-elterngeld.html",
         "https://www.welt.de/vermischtes/article6a227f378d84dbd8a4ed571f/alice-schwarzer-den-groessten-karrieresprung-machen-die-maenner-wenn-das-erste-und-das-zweite-kind-kommen.html",
-        "https://www.welt.de/videos/video6a1eeb861e9720acf333a57d/krach-bei-meinungsfreiheit-familien-finden-gar-keinen-wohnraum-mehr-in-berlin-weil-sie-die-mieten-nicht-bezahlen-koennen.html",
-        "https://www.welt.de/politik/deutschland/article6a1cdb20bf5b78f90d00a6ba/laut-aok-kinderkrankentage-bleiben-frauensache-73-prozent-der-ausfalltage-uebernehmen-muetter.html"
+        "https://www.welt.de/politik/deutschland/article6a226ff6b20db0d89b655db9/elterngeld-reform-mehr-partnerschaftlichkeit-prien-bringt-ausweitung-der-vaeter-monate-ins-spiel.html"
       ],
       "dominant_emotion": "disgust",
       "top_emotions": [
@@ -99,88 +132,22 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 16,
-      "sample_titles": [
-        "Häusliche Gewalt: Pflegekinder jahrelang misshandelt – mehrjährige Haftstrafe",
-        "Häusliche Gewalt: Pflegekinder jahrelang misshandelt – mehrjährige Haftstrafe",
-        "Internationaler Kindertag: AOK-Institut: Kranke Kinder sind nach wie vor Frauensache",
-        "Kinderschutz im Internet: G7-Konferenz in Paris einigt sich auf Abschlusserklärung"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/haeusliche-gewalt--pflegekinder-jahrelang-misshandelt---mehrjaehrige-haftstrafe-37495334.html",
-        "https://www.stern.de/panorama/haeusliche-gewalt--pflegekinder-jahrelang-misshandelt---mehrjaehrige-haftstrafe-37495382.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/internationaler-kindertag--aok-institut--kranke-kinder-sind-nach-wie-vor-frauensache-37475114.html",
-        "https://www.stern.de/news/kinderschutz-im-internet--g7-konferenz-in-paris-einigt-sich-auf-abschlusserklaerung-37460628.html"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 15,
+      "article_count": 17,
       "sample_titles": [
         "Rente und Elterngeld: JU-Chef Johannes Winkel kritisiert Unionskurs",
         "Fußball-WM 2026: Almuth Schult über US-Aufenthalt und Fragen nach der Kinderbetreuung",
         "Frauen im Arbeitsmarkt: Koalition ringt um Elterngeld und gleiche Löhne",
-        "Elterngeld: Familienministerin Karin Prien wirbt für Anhebung von Elterngeldsätzen"
+        "PDA und Spinalanästhesie: Warum haben so viele Frauen Schmerzen beim Kaiserschnitt?"
       ],
       "urls": [
         "https://www.spiegel.de/politik/johannes-winkel-chef-der-jungen-union-fordert-weniger-erhoehung-der-rente-a-34e2abdb-205b-42b2-bc9f-da09f5293af0#ref=rss",
         "https://www.spiegel.de/sport/fussball/fussball-wm-2026-almuth-schult-ueber-us-aufenthalt-und-fragen-nach-der-kinderbetreuung-a-da6c4da1-8711-49f1-9977-211e0716255e#ref=rss",
         "https://www.spiegel.de/politik/deutschland/frauen-im-arbeitsmarkt-koalition-ringt-um-elterngeld-und-gleiche-loehne-a-b49b4fa8-3b31-4ed4-8855-54e382311451#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/elterngeld-familienministerin-karin-prien-wirbt-fuer-anhebung-von-elterngeldsaetzen-a-77494935-50f4-42f4-ac45-ad556bb36327#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 15,
-      "sample_titles": [
-        "Familien: Bayerns Väter nehmen am seltensten Kinderkrankentage",
-        "Familie: Nein, arbeitende Mütter schaden ihren Kindern nicht",
-        "Bundespolitik: Dobrindt ist skeptisch bei Social-Media-Verbot für Kinder",
-        "Kinder und  Familie: Schwere Geburtshilfe: Warum der Beruf der Hebamme in der Krise ist"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/bayern/bayern-kinder-krankheit-vaeter-li.3492082",
-        "https://www.sueddeutsche.de/wissen/frauen-kinder-schaden-arbeit-li.3490297",
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-social-media-kinder-verbot-li.3484192",
-        "https://www.sueddeutsche.de/projekte/artikel/bayern/hebammen-geburtshilfe-krankenkasse-finanzierung-josefinum-augsburg-e208477/"
+        "https://www.spiegel.de/gesundheit/schwangerschaft/pda-und-spinalanaesthesie-warum-haben-so-viele-frauen-schmerzen-beim-kaiserschnitt-a-e986676e-fedc-41f3-b357-d2bce6f25842#ref=rss"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -189,11 +156,77 @@
           "count": 2
         },
         {
-          "emotion": "approval",
+          "emotion": "admiration",
           "count": 2
         },
         {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 14,
+      "sample_titles": [
+        "Kampf gegen Genitalverstümmelung: „Ich war ja schon immer die Rebellin der Familie“",
+        "Debatte zum Elterngeld: Leistung für die Mittelschicht?",
+        "Bericht des Paritätischen Verbands: Alarm: Armut!",
+        "Christlicher Fundamentalismus: Glaube an Jesus reicht nicht, um ein Kinderheim zu betreiben"
+      ],
+      "urls": [
+        "https://taz.de/Kampf-gegen-Genitalverstuemmelung/!6179890/",
+        "https://taz.de/Debatte-zum-Elterngeld/!6183711/",
+        "https://taz.de/Bericht-des-Paritaetischen-Wohlfahrtsverbands-161-Prozent-einkommensarm/!6183220/",
+        "https://taz.de/Christlicher-Fundamentalismus/!6179804/"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 14,
+      "sample_titles": [
+        "Kürzungsdebatte: Das Elterngeld: Wie es wirkt und was sich ändern soll",
+        "Familien: Bayerns Väter nehmen am seltensten Kinderkrankentage",
+        "Familie: Nein, arbeitende Mütter schaden ihren Kindern nicht",
+        "Bundespolitik: Dobrindt ist skeptisch bei Social-Media-Verbot für Kinder"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/elterngeld-familienpolitik-elternzeit-kinder-li.3490939",
+        "https://www.sueddeutsche.de/bayern/bayern-kinder-krankheit-vaeter-li.3492082",
+        "https://www.sueddeutsche.de/wissen/frauen-kinder-schaden-arbeit-li.3490297",
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-dobrindt-social-media-kinder-verbot-li.3484192"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
           "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "sadness",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
           "count": 2
         }
       ]
@@ -202,7 +235,7 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 13,
+      "article_count": 12,
       "sample_titles": [
         "\"Dafür Rente weniger erhöhen\": JU-Chef Winkel kämpft für Bafög und Elterngeld",
         "Im Gegenzug für höhere Zahlungen: Prien kann sich Kürzung der Elterngeld-Bezugsdauer vorstellen",
@@ -231,55 +264,22 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 11,
-      "sample_titles": [
-        "Debatte zum Elterngeld: Leistung für die Mittelschicht?",
-        "Bericht des Paritätischen Verbands: Alarm: Armut!",
-        "Elterngeldpläne der Bundesregierung: Herdprämie für Männer",
-        "Debatten um Bundeshaushalt: Koalition ringt um Kürzung des Elterngeldes"
-      ],
-      "urls": [
-        "https://taz.de/Debatte-zum-Elterngeld/!6183711/",
-        "https://taz.de/Bericht-des-Paritaetischen-Wohlfahrtsverbands-161-Prozent-einkommensarm/!6183220/",
-        "https://taz.de/Elterngeldplaene-der-Bundesregierung/!6178018/",
-        "https://taz.de/Debatten-um-Bundeshaushalt/!6181914/"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 8,
+      "article_count": 7,
       "sample_titles": [
         "Vereinbarkeit von Familie und Beruf: Kind und Karriere? In Deutschland muss man sich das leisten können",
+        "OpenAI: Florida verklagt OpenAI wegen mangelnden Kinderschutzes",
         "Bildschirmzeit von Kindern: Sind Bildschirme wirklich so schlimm für Kleinkinder?",
-        "Elterngeld: SPD-Fraktionsvizechefin lehnt pauschale Kürzungen beim Elterngeld ab",
-        "Sozialreformen: Spahn schließt höheres Elterngeld und Bafög aus"
+        "Elterngeld: SPD-Fraktionsvizechefin lehnt pauschale Kürzungen beim Elterngeld ab"
       ],
       "urls": [
         "https://www.zeit.de/arbeit/2026-05/vereinbarkeit-familie-beruf-ungleichheit-gutverdiener-job",
+        "https://www.zeit.de/politik/ausland/2026-06/openai-klage-florida-sam-altman-chatgpt",
         "https://www.zeit.de/wissenschaft/2026-05/bildschirmzeit-kinder-medienkonsum-verbot-karin-prien",
-        "https://www.zeit.de/politik/deutschland/2026-05/elterngeld-kuerzung-spd-kritik-haushaltseinsparung",
-        "https://www.zeit.de/politik/deutschland/2026-05/jens-spahn-elterngeld-reformen-bafoeg-koalition-sparen"
+        "https://www.zeit.de/politik/deutschland/2026-05/elterngeld-kuerzung-spd-kritik-haushaltseinsparung"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -290,59 +290,38 @@
         {
           "emotion": "confusion",
           "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 7,
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 6,
       "sample_titles": [
-        "„Unlogisch“ SPD und JU kritisieren Elterngeld-Rotstiftpläne",
-        "Angebliche „sexuelle Bildung“ Die Schamlos-Pädagogik in Kitas ist ein Angriff auf die Würde des Kindes",
-        "Jugendorganisation „Die Falken“ Masturbation und sexuelle Spiele: Auch Ministerium sieht in Kita-Konzept kein Problem",
-        "Fall Büttner Inszenierter Anschlag? Familienministerium überprüft geförderte NGO"
+        "Mental Load immer größer - Wie viel Stress passt in eine Familie?",
+        "Zu wenig Eigenkapital - So schaffen junge Familien heute noch den Hauskauf",
+        "1000 Kinder betroffen - Schule und Kindergarten für Formel 1 abgerissen",
+        "Einfach zu teuer - Viele Deutsche haben Angst vor dem Kinderkriegen"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/spd-und-ju-kritisieren-elterngeld-rotstiftplaene/",
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/die-schamlos-paedagogik-in-kitas-ist-ein-angriff-auf-die-wuerde-des-kindes/",
-        "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-auch-ministerium-sieht-in-kita-konzept-kein-problem/",
-        "https://jungefreiheit.de/politik/deutschland/2026/inszenierter-anschlag-familienministerium-ueberprueft-gefoerderte-ngo/"
+        "https://www.bild.de/leben-wissen/psychologie-liebe/belastungsprobe-mental-load-wir-sind-eine-familie-am-limit-6864f6520f54d74619adc3e8",
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/kein-eigenkapital-so-schaffen-junge-familien-heute-noch-den-hauskauf-6a1da2d423e28d1fd3a5ef8d",
+        "https://www.bild.de/sport/mehr-sport/monaco-schule-und-kindergarten-fuer-formel-1-abgerissen-6a211ef21f46a650bff5ec29",
+        "https://www.bild.de/leben-wissen/meine-familie-familienportal/immer-mehr-deutsche-haben-angst-vor-dem-kinderkriegen-6a15817d3985a21ca1651b36"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
         {
           "emotion": "disapproval",
           "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Steuerreform: Ökonomen wollen Ehegattensplitting begrenzen und Steuervorteile zu Familien umlenken",
-        "Leistungen: Prien will Einkommensgrenze beim Elterngeld nicht senken",
-        "Familienpolitik: Weniger Geld, mehr Betreuung – das ist Frankreichs Plan für die „demografische Wiederaufrüstung“",
-        "Asia Techonomics: Jugendschutz im Blick: Indonesien drängt auf ein Online-Shopping-Verbot für Teenager"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/steuerreform-oekonomen-wollen-ehe-steuervorteil-zu-familien-umlenken/100229795.html",
-        "https://www.handelsblatt.com/politik/deutschland/leistungen-prien-will-einkommensgrenze-beim-elterngeld-nicht-senken/100227908.html",
-        "https://www.handelsblatt.com/politik/international/familien-weniger-geld-mehr-betreuung-frankreichs-plan-fuer-mehr-babys/100225285.html",
-        "https://www.handelsblatt.com/meinung/kolumnen/jugendschutz-indonesien-draengt-auf-ein-online-shopping-verbot-fuer-teenager/100224731.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
+        },
         {
-          "emotion": "annoyance",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -372,27 +351,47 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
       "article_count": 4,
       "sample_titles": [
-        "1000 Kinder betroffen - Schule und Kindergarten für Formel 1 abgerissen",
-        "Einfach zu teuer - Viele Deutsche haben Angst vor dem Kinderkriegen",
-        "Ansage von CDU-General Linnemann - „Finger weg vom Elterngeld!“",
-        "Eigentümer gesucht - Kinder finden echten Schatz auf Spielplatz"
+        "Steuerreform: Ökonomen wollen Ehegattensplitting begrenzen und Steuervorteile zu Familien umlenken",
+        "Leistungen: Prien will Einkommensgrenze beim Elterngeld nicht senken",
+        "Familienpolitik: Weniger Geld, mehr Betreuung – das ist Frankreichs Plan für die „demografische Wiederaufrüstung“",
+        "Ökonomin Fuchs-Schündeln: „Wir sollten beim Elterngeld nicht übers Sparen nachdenken“"
       ],
       "urls": [
-        "https://www.bild.de/sport/mehr-sport/monaco-schule-und-kindergarten-fuer-formel-1-abgerissen-6a211ef21f46a650bff5ec29",
-        "https://www.bild.de/leben-wissen/meine-familie-familienportal/immer-mehr-deutsche-haben-angst-vor-dem-kinderkriegen-6a15817d3985a21ca1651b36",
-        "https://www.bild.de/politik/inland/cdu-general-carsten-linnemann-finger-weg-vom-elterngeld-6a0dd423f0f7eb608db78647",
-        "https://www.bild.de/regional/berlin/berlin-wilmersdorf-kinder-finden-schatz-auf-spielplatz-6a01ebe27b6d0cd4a33ad10b"
+        "https://www.handelsblatt.com/politik/deutschland/steuerreform-oekonomen-wollen-ehe-steuervorteil-zu-familien-umlenken/100229795.html",
+        "https://www.handelsblatt.com/politik/deutschland/leistungen-prien-will-einkommensgrenze-beim-elterngeld-nicht-senken/100227908.html",
+        "https://www.handelsblatt.com/politik/international/familien-weniger-geld-mehr-betreuung-frankreichs-plan-fuer-mehr-babys/100225285.html",
+        "https://www.handelsblatt.com/politik/deutschland/familienpolitik-wir-sollten-beim-elterngeld-nicht-uebers-sparen-nachdenken/100224371.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "„Unlogisch“ SPD und JU kritisieren Elterngeld-Rotstiftpläne",
+        "Angebliche „sexuelle Bildung“ Die Schamlos-Pädagogik in Kitas ist ein Angriff auf die Würde des Kindes",
+        "Jugendorganisation „Die Falken“ Masturbation und sexuelle Spiele: Auch Ministerium sieht in Kita-Konzept kein Problem",
+        "Nach JF-Recherche Masturbation und sexuelle Spiele: Behörde verteidigt Kita-Erziehungskonzept"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/spd-und-ju-kritisieren-elterngeld-rotstiftplaene/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/die-schamlos-paedagogik-in-kitas-ist-ein-angriff-auf-die-wuerde-des-kindes/",
+        "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-auch-ministerium-sieht-in-kita-konzept-kein-problem/",
+        "https://jungefreiheit.de/politik/deutschland/2026/masturbation-und-sexuelle-spiele-behoerde-verteidigt-kita-erziehungskonzept/"
+      ],
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -401,31 +400,34 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 2,
       "sample_titles": [
-        "Eine Aussteigerfamilie gegen den Staat: Die Hoheit über den Kinderbetten",
-        "Von der Leyens Trojaner „Altersprüfung“ auch Einstieg von EU-Eingriff ins Elternrecht",
-        "Ein Jahr Merz: Arbeit und Familie tragen die Lasten",
-        "Keine Gedichte zum Muttertag: Nicht mehr zeitgemäß"
+        "Wer pflegt, verliert: Die Koalition greift Familien an – TE-Wecker am 9. Juni 2026",
+        "Eine Aussteigerfamilie gegen den Staat: Die Hoheit über den Kinderbetten"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/hoheit-ueber-den-kinderbetten-italien/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eu-alterspruefung-der-einstieg-in-den-eingriff-ins-elternrecht/",
-        "https://www.tichyseinblick.de/gastbeitrag/ein-jahr-merz-bilanz/",
-        "https://www.tichyseinblick.de/daili-es-sentials/keine-gedichte-zum-muttertag/"
+        "https://www.tichyseinblick.de/podcast/wer-pflegt-verliert-die-koalition-greift-familien-an-te-wecker-am-9-juni-2026/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/hoheit-ueber-den-kinderbetten-italien/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
     },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
+        "Mehr Noahs und Astrids, bitte! Nun betreiben auch die Rechten in Schweden eine grosszügige Familienpolitik",
         "DER ANDERE BLICK - Das Elterngeld hat seine Ziele verfehlt. Der Staat kann Familien sinnvoller fördern."
       ],
       "urls": [
+        "https://www.nzz.ch/international/mehr-noahs-und-astrids-bitte-nun-betreiben-auch-die-rechten-in-schweden-eine-grosszuegige-familienpolitik-ld.10008710",
         "https://www.nzz.ch/der-andere-blick/das-elterngeld-hat-seine-ziele-verfehlt-der-staat-kann-familien-sinnvoller-foerdern-ld.10007426"
       ],
       "dominant_emotion": "neutral",
@@ -471,16 +473,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 31,
-    "left": 11,
-    "left-liberal": 54,
-    "neutral": 42,
     "conservative-liberal": 27,
-    "populist-mixed": 4,
-    "economic-liberal": 6,
-    "far-right": 11
+    "left-liberal": 59,
+    "neutral": 43,
+    "far-right": 6,
+    "populist-mixed": 6,
+    "right-conservative": 33,
+    "left": 14,
+    "economic-liberal": 4
   },
-  "shared_perspectives": "Über alle politischen Lager hinweg wird die finanzielle Belastung von Familien und die unzureichende Vereinbarkeit von Familie und Beruf als zentrale Probleme anerkannt — auch wenn die Lösungsvorschläge divergieren, einigen sich selbst konservative und linke Medien darauf, dass der Status quo für Familien wirtschaftlich unhaltbar ist. Die Debatte um Elterngeldkürzungen wird medienübergreifend als Kernkonflikt wahrgenommen, wobei sowohl linke als auch rechts-konservative Medien das Instrument des Elterngeldes selbst als wichtiges Politikfeld behandeln, statt es grundsätzlich in Frage zu stellen. Eine weitere implizite Gemeinsamkeit liegt in der Anerkennung, dass Kinderbetreuung und Elternzeiten strukturell immer noch überwiegend auf Frauen lasten — dieses Geschlechter-Ungleichgewicht wird vom neutralen über den linken bis zum wirtschaftsliberal orientierten Diskurs als faktisches Problem benannt, unabhängig davon, welche politischen Schlussfolgerungen daraus gezogen werden.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Familienpolitik-Diskurs\n\nDer zentrale Konflikt verläuft zwischen zwei inkompatiblen **Verständigungsmodellen von Familienleistungen**: Die konservativ-liberale und ökonomisch orientierte Seite betrachtet Elterngeld und Familientransfers als **Investition in Erwerbstätigenquoten und Marktbeteiligung** (mit Zielrichtung auf verstärkte väterliche Beteiligung und weibliche Erwerbsbeteiligung), während die linke Kritik diese als **Mittelschichtsubvention zur Legitimation ungelöster Strukturprobleme** skandalisiert und deren Kürzungen als ebenso problematisch einordnet wie deren Ausweitung. Darunter liegt ein **tiefergehendes Spannungsfeld zwischen Universalismus und Selektivität**: Der ökonomisch-liberale und teilweise konservative Diskurs akzeptiert oder fordert Einkommensgrenzen und begrenzte Transferleistungen als notwendig, um Zielgenauigkeit zu erreichen, während progressive Positionen dies als Stigmatisierung und Mangel an universeller Familienförderung kritisieren. Die **extremen Ränder** (weit rechts) destabilisieren die Debatte zusätzlich durch grundsätzliche Delegitimierung institutioneller Kinderbetreuung und Elternrecht-Konstruktionen, was die moderaten Debatten um Gestaltung und Finanzierung überlagert, ohne dass dieser Konflikt selbst thematisiert wird.",
-  "cached_at": "2026-06-07T08:15:42.810679"
+  "shared_perspectives": "# Gemeinsamkeiten im deutschen Mediendiskurs zur Familienpolitik\n\nÜber alle politischen Lager hinweg dominiert eine **Debatte über die finanzielle Tragfähigkeit und Umverteilung innerhalb von Familienleistungen**: Sowohl progressive als auch konservative Medien berichten intensiv über Kürzungspläne beim Elterngeld, Diskussionen zur Erhöhung von Bafög und Rentenfragen, die implizit anerkennen, dass Familienförderung in einem Spannungsverhältnis zu anderen sozialpolitischen Ausgaben steht.\n\nEin zweiter Konsens zeigt sich in der **Problematisierung der Vereinbarkeit von Familie und Beruf als strukturelles Geschlechterproblem**: Unabhängig von politischer Ausrichtung berichten Medien über die ungleiche Verteilung von Care-Arbeit zwischen Männern und Frauen und die Karrierenachteile für Mütter, wobei sogar konservative Quellen eine Ausweitung der Väter-Monate diskutieren.\n\nDrittens besteht medienübergreifend eine **materielle Besorgnis über die wirtschaftliche Realität von Familien**: Von populistisch bis liberal finden sich Berichte über steigende Lebenshaltungskosten, Hauskauf-Schwierigkeiten und existenzielle Angst vor Kindern, die den Kernkonflikt zwischen wachsenden Familienbudgets und stagnierender Unterstützung abbildet.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Familienpolitik-Diskurs\n\nDer deutsche Mediendiskurs zu Familienleistungen spaltet sich grundlegend danach, ob Familie als **privates Projekt individueller Lebensgestaltung** oder als **gesellschaftliche Reproduktionsaufgabe mit kollektiver Verantwortung** verstanden wird: Während liberal-progressive Medien Elterngeld und Kitaausbau primär als Infrastruktur für Geschlechterparität und Erwerbstätigenquoten rahmen, kritisieren konservativ-rechte Medien diese Sicht als Angriff auf familiäre Autonomie und traditionelle Geschlechterrollen. Ein zweiter struktureller Konflikt verläuft zwischen **kompensatorischem versus präventivem Verständnis von Kinderarmut**: Die Linke und linke-liberale Medien framen Kindergeld und Grundsicherung als notwendige Umverteilung gegen strukturelle Benachteiligung, während wirtschaftsliberal-konservative Positionen Elterngeld-Kürzungen mit Effizienzargumenten rechtfertigen und den Fokus stärker auf Erwerbsbeteiligung verschieben—eine Debatte, die unter dem Stichwort „Herdprämie versus Gleichberechtigung\" die ungelöste Frage nach dem Verhältnis zwischen Familienunterstützung und Geschlechtergerechtigkeit maskiert. Schließlich zeigt sich ein Konflikt zwischen **staatlicher Gestaltungshoheit und elterlicher Erziehungssouveränität**, bei dem die Debatte um sexuelle Bildung, Kita-Konzepte und Jugendschutz nicht primär um Pädagogik geht, sondern um die Frage, wer die Deutungshoheit über Kindheit und Familienwertvermittlung besitzt.",
+  "cached_at": "2026-06-10T08:43:04.175867"
 }
