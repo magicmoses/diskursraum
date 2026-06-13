@@ -1,72 +1,39 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 124,
+  "article_count": 165,
   "candidate_count": 800,
   "outlets": {
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 22,
-      "sample_titles": [
-        "Künstliche Intelligenz: Anthropic veröffentlicht neues Hochleistungsmodell „Fable“",
-        "Kolumne „Out of the box“: Die Innovationskraft wandert aus",
-        "Konferenz WWDC: „Von Grund auf mit KI neu gebaut”: Apple stellt lang erwartete neue Siri vor",
-        "Konferenz WWDC: „Von Grund auf mit KI neu gebaut”: Apple stellt lang erwartete neue Siri vor"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-anthropic-veroeffentlicht-neues-hochleistungsmodell-fable/100231404.html",
-        "https://www.handelsblatt.com/meinung/kolumnen/kolumne-out-of-the-box-die-innovationskraft-wandert-aus/100231405.html",
-        "https://www.handelsblatt.com/technik/it-internet/technologie-apple-stellt-lang-erwartete-neue-ki-siri-vor/100230539.html",
-        "https://www.handelsblatt.com/technik/it-internet/wwdc-apple-stellt-lang-erwartete-neue-siri-vor/100230539.html"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 14,
+      "article_count": 31,
       "sample_titles": [
-        "umstrittenes KI-Modell: Anthropic veröffentlicht eingeschränkte Version von Mythos",
-        "EU-Zwangsmaßnahme: WhatsApp muss andere KI-Anbieter zulassen",
-        "Lernen mit Sprachmodellen: Macht Künstliche Intelligenz das BWL-Studium überflüssig?",
-        "Konferenz WWDC 2026: Ist Apples neue Siri jetzt intelligent?"
+        "Social Media: Wie die Bildungsminister Schüler schützen wollen",
+        "Künstliche Intelligenz: KI so teuer wie nie",
+        "Wegen KI-Einsatz: „Tagesspiegel“ suspendiert einstigen Chefredakteur",
+        "Transformation: Wenn KI dem Sozialstaat die Grundlage entzieht"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/anthropic-veroeffentlicht-eingeschraenkte-version-von-mythos-200914511.html",
-        "https://www.faz.net/aktuell/wirtschaft/whatsapp-muss-andere-ki-anbieter-zulassen-200914253.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/hoersaal/macht-ki-das-bwl-studium-ueberfluessig-accg-200886409.html",
-        "https://www.faz.net/aktuell/technik-motor/digital/das-kann-die-neue-apple-siri-ki-200909860.html"
+        "https://www.faz.net/aktuell/politik/inland/social-media-bei-jugendlichen-bildungsminister-wollen-staerkeren-schutz-200923954.html",
+        "https://www.faz.net/aktuell/technik-motor/koennen-wir-uns-in-zukunft-ki-noch-leisten-200876955.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/ex-tagesspiegel-chef-casdorff-muss-wegen-ki-einsatz-gehen-200925156.html",
+        "https://www.faz.net/aktuell/wirtschaft/wenn-ki-dem-sozialstaat-die-grundlage-entzieht-accg-200871927.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "optimism",
+          "count": 6
+        },
+        {
+          "emotion": "realization",
           "count": 3
         },
         {
-          "emotion": "admiration",
+          "emotion": "curiosity",
           "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
         }
       ]
     },
@@ -74,27 +41,126 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 13,
+      "article_count": 17,
       "sample_titles": [
-        "Mord-Prozess gegen Gina H.  - Die Trauerrede für Fabian ließ sie ChatGPT schreiben",
-        "EU-Kommission greift durch - WhatsApp muss andere KI-Anbieter zulassen",
-        "Was an dem WhatsApp-Kettenbrief dran ist - Liest die Meta-KI wirklich meine Chats?",
-        "Chef sieht, ob Sie im Büro sind! - Teams startet neue Tracking-Funktion"
+        "Leona Messi? Kylie Mbappe? - WM-Stars machen außergewöhnliche KI-Verwandlung",
+        "BILD erklärt Wunderkind Eichhorn - Das ist der teuerste 16-Jährige aller Zeiten",
+        "Wichtiges Gerichtsurteil - Google haftet für KI-Falschinformationen",
+        "Kettenbrief-Chaos - Kann die WhatsApp-KI meine Chats lesen?"
       ],
       "urls": [
-        "https://www.bild.de/news/inland/mordprozess-gina-h-liess-chatgpt-trauerrede-fuer-fabian-schreiben-6a280813405f5b69b799b9e5",
-        "https://www.bild.de/politik/eu-kommission-whatsapp-muss-andere-ki-anbieter-zulassen-6a28305f87d7db02baee07e0",
-        "https://www.bild.de/leben-wissen/was-an-dem-whatsapp-kettenbrief-dran-ist-liest-die-meta-ki-wirklich-meine-chats-6a280dbe2f1d399245057cff",
-        "https://www.bild.de/leben-wissen/digital/microsoft-teams-erkennt-kuenftig-automatisch-den-arbeitsort-6a27d11fb20db0d89b65a21b"
+        "https://www.bild.de/sport/fussball/leona-messi-kylie-mbappe-wm-stars-machen-aussergewoehnliche-ki-verwandlung-6a2a82215f783159b22b08be",
+        "https://www.bild.de/sport/fussball/bundesliga-wunderkind-eichhorn-der-teuerste-16-jaehrige-aller-zeiten-6a2bb8380573682fee38abaf",
+        "https://www.bild.de/leben-wissen/digital/gerichtsurteil-google-ki-haftet-wegen-falschinformationen-6a2ab8cfd5e382c003a7b8ec",
+        "https://www.bild.de/leben-wissen/digital/kettenbrief-bei-whatsapp-ist-fake-nutzer-muessen-keine-angst-haben-6a2926ae5b5345aa051d62fe"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "confusion",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "disappointment",
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 16,
+      "sample_titles": [
+        "Technologie: Chiphersteller Infineon macht sich fit für den KI-Boom",
+        "Technologie: Reden und Gastbeiträge per KI? Thüringens Ministerpräsident Mario Voigt steht in der Kritik",
+        "+++ Fußball-WM 2026 +++: US-Investor will Ansprüche gegen Madrid bei Spaniens Team geltend machen",
+        "Führungskräfte: Ein Netzwerk für die Underdogs"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/technik/it-internet/technologie-chiphersteller-infineon-macht-sich-fit-fuer-den-ki-boom/100230191.html",
+        "https://www.handelsblatt.com/politik/deutschland/thueringen-reden-und-gastbeitraege-per-ki-mario-voigt-steht-in-der-kritik/100232228.html",
+        "https://www.handelsblatt.com/arts_und_style/wm-2026-us-investor-will-ansprueche-bei-spaniens-team-geltend-machen/100231388.html",
+        "https://www.handelsblatt.com/karriere/fuehrungskraefte-ein-netzwerk-fuer-die-underdogs/100230067.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
+          "count": 2
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 15,
+      "sample_titles": [
+        "»Tagesspiegel«: Stephan-Andreas Casdorff muss Tätigkeiten ruhen lassen",
+        "Entlassungen: Wie Unternehmen jetzt unter Hochdruck Stellen abbauen",
+        "Künstliche Intelligenz: Jede fünfte Firma sieht KI als Ersatz für Hochschulabschluss",
+        "Künstliche Intelligenz: Google haftet für KI-Lügen in der Suche"
+      ],
+      "urls": [
+        "https://www.spiegel.de/kultur/tagesspiegel-stephan-andreas-casdorff-muss-taetigkeiten-ruhen-lassen-a-d2e70e6b-f504-42de-876d-471e76627de2#ref=rss",
+        "https://www.spiegel.de/karriere/entlassungen-wie-unternehmen-jetzt-unter-hochdruck-stellen-abbauen-a-15d0dd9b-c22a-4f71-9a00-943a3f5eeb58#ref=rss",
+        "https://www.spiegel.de/netzwelt/kuenstliche-intelligenz-jede-fuenfte-firma-sieht-ki-als-ersatz-fuer-hochschulabschluss-a-67dd38cb-58b1-4340-acb9-34b3da3f4382#ref=rss",
+        "https://www.spiegel.de/netzwelt/kuenstliche-intelligenz-google-muss-fuer-ki-zusammenfassungen-haften-a-511f1fb6-0f07-4de1-abc3-b7c9e3b8268f#ref=rss"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 13,
+      "sample_titles": [
+        "„Tagesspiegel“ entbindet Ex-Chefredakteur von Aufgaben, weil er Artikel von KI verfassen ließ",
+        "Jede fünfte Firma sieht KI als Ersatz für Mitarbeiter mit Hochschulabschluss",
+        "„Es ist so mächtig, dass die Vollversion gar nicht erst für die Öffentlichkeit freigegeben wird“",
+        "Mit dem KI-Satelliten befeuert Musk den Hype – müsste aber die Gesetze der Physik bezwingen"
+      ],
+      "urls": [
+        "https://www.welt.de/kultur/medien/article6a2c0ff20573682fee38b72c/riesenfehler-gemacht-tagesspiegel-entbindet-ex-chefredakteur-von-aufgaben-weil-er-artikel-von-ki-verfassen-liess.html",
+        "https://www.welt.de/wirtschaft/article6a2be2ac0573682fee38b2dc/kuenstliche-intelligenz-jede-fuenfte-firma-sieht-ki-als-ersatz-fuer-mitarbeiter-mit-hochschulabschluss.html",
+        "https://www.welt.de/videos/video6a2a7240c4464ea1ff69150d/neues-mythos-5-modell-von-anthropic-es-ist-so-maechtig-dass-die-vollversion-gar-nicht-erst-fuer-die-oeffentlichkeit-freigegeben-wird.html",
+        "https://www.welt.de/wirtschaft/plus6a298896ea999df7b414a610/spacex-boersengang-mit-dem-ki-satelliten-befeuert-musk-den-hype-muesste-aber-die-gesetze-der-physik-bezwingen.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -103,18 +169,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 11,
+      "article_count": 12,
       "sample_titles": [
-        "Neues vom Pannen-Bahnhof: Stuttgart 21: Mehr als 1000 Kilometer Kabel wohl falsch verlegt",
-        "Leistungsstark, aber begrenzt: Anthropic veröffentlicht entschärfte Version von KI-Modell Mythos",
-        "Gebühren sollen entfallen: EU zwingt Meta zum Kurswechsel bei KI-Chatbots",
-        "Im Bett mit Sophie Turner: Kit Harington erinnert sich an \"ekelhafte\" Sexszenen"
+        "Bericht aus der Ukraine: KI soll erstmals eigenständig Soldaten getötet haben",
+        "Mehrheit der Betriebe zögert: Erste deutsche Firmen meinen: KI macht Akademiker ersetzbar",
+        "KI-gestützte Plattform: Deutsche Flugsicherung plant bundesweite Drohnenabwehr",
+        "\"Verstoß gegen Dienstanweisung\": Ministerpräsident Voigt für KI-generierte Reden kritisiert"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Stuttgart-21-Mehr-als-1000-Kilometer-Kabel-wohl-falsch-verlegt-id30948001.html",
-        "https://www.n-tv.de/wirtschaft/Anthropic-veroeffentlicht-entschaerfte-Version-von-KI-Modell-Mythos-id30948334.html",
-        "https://www.n-tv.de/wirtschaft/EU-zwingt-Meta-zum-Kurswechsel-bei-KI-Chatbots-id30947926.html",
-        "https://www.n-tv.de/leute/Kit-Harington-erinnert-sich-an-ekelhafte-Sexszenen-id30946964.html"
+        "https://www.n-tv.de/wissen/KI-soll-erstmals-eigenstaendig-Soldaten-getoetet-haben-id30959085.html",
+        "https://www.n-tv.de/wirtschaft/Erste-deutsche-Firmen-meinen-KI-macht-Akademiker-ersetzbar-id30958286.html",
+        "https://www.n-tv.de/politik/Deutsche-Flugsicherung-plant-bundesweite-Drohnenabwehr-id30957783.html",
+        "https://www.n-tv.de/politik/Ministerpraesident-Voigt-fuer-KI-generierte-Reden-kritisiert-id30949655.html"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -125,113 +191,26 @@
       "bias": "neutral",
       "article_count": 10,
       "sample_titles": [
-        "Liest eine KI Chatnachrichten mit?",
-        "WhatsApp muss andere KI-Anbieter zulassen",
-        "35-Milliarden-Kredit für Anthropic weckt Fantasie",
-        "Frankfurter Student gewinnt Entwickler-Wettbewerb bei Apple mit KI-App"
+        "Minister wollen Social-Media-Leitlinien für Kinder",
+        "Viele Firmen sehen KI als Ersatz für Akademiker",
+        "Neue EU-Asylregeln, Bundesjugendspiele, KI für Freibäder",
+        "Sicherheitszentrum in Neunkircher Innenstadt geplant"
       ],
       "urls": [
-        "https://www1.wdr.de/nrw/whatsapp-kettenbrief-fake-100.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/whatsapp-ki-europaeische-union-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-megakredit-fuer-anthropic-100.html",
-        "https://www.hessenschau.de/wirtschaft/frankfurter-student-gewinnt-entwickler-wettbewerb-bei-apple-mit-ki-app-v1,frankfurter-gewinnt-apple-wettbewerb-100.html"
+        "https://www.tagesschau.de/inland/gesellschaft/kmk-beschluss-social-media-100.html",
+        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/mensch-ki-beruf-100.html",
+        "https://www.tagesschau.de/multimedia/podcast/15-minuten/15min-podcast-geas-bundesjugendspiele-ki-100.html",
+        "https://www.sr.de/sr/home/nachrichten/panorama/sicherheitszentrum_in_neunkirchen_geplant_100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Apple kritisiert EU für Verzögerung bei Siri AI: »Wir sind sehr frustriert«",
-        "Christian Eriksen: Fußballstar erholt sich zu Hause bei seiner Familie",
-        "WWDC 2026: Apple stellt Siri AI vor",
-        "Apple stellt auf Entwicklerkonferenz WWDC neue KI-Version von Siri vor"
-      ],
-      "urls": [
-        "https://www.spiegel.de/netzwelt/apple-kritisiert-eu-fuer-verzoegerung-bei-siri-ai-wir-sind-sehr-frustriert-a-462fb85e-d03e-42e1-84a7-6cf3086ffad3#ref=rss",
-        "https://www.spiegel.de/sport/fussball/christian-eriksen-fussballstar-erholt-sich-zu-hause-bei-seiner-familie-a-e5e6eed1-ef50-41f5-805c-426ff8fff602#ref=rss",
-        "https://www.spiegel.de/netzwelt/gadgets/wwdc-2026-apple-stellt-siri-ai-vor-a-e6d2ac38-c86a-4819-9ae7-07b82faef3e7#ref=rss",
-        "https://www.spiegel.de/netzwelt/gadgets/apple-stellt-auf-entwicklerkonferenz-wwdc-neue-ki-version-von-siri-vor-a-3a62e926-c979-40df-a760-110612f3e1c5#ref=rss"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
         {
           "emotion": "optimism",
           "count": 1
         },
         {
-          "emotion": "admiration",
+          "emotion": "anger",
           "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 9,
-      "sample_titles": [
-        "Apples neue Siri AI lässt Europas iPhones außen vor",
-        "Apples neue Siri AI lässt Europas iPhones außen vor",
-        "„Bestes Netz für Deutschland“ – jetzt zeigt sich das wahre Ausmaß des Glasfaser-Irrtums",
-        "KI-Forscher warnt – „Alle Tests schlagen Alarm, die Sirenen heulen. Und wir ignorieren das einfach“"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/article6a2710860a7678c39c90b428/apple-neue-siri-ai-vorgestell-europas-iphones-aussen-vor.html",
-        "https://www.welt.de/wirtschaft/article6a2710860a7678c39c90b428/neuheiten-fuer-apple-geraete-apples-neue-siri-ai-laesst-europas-iphones-aussen-vor.html",
-        "https://www.welt.de/wirtschaft/plus6a258c3954cb5c359ee00003/glasfaserausbau-jetzt-zeigt-sich-das-wahre-ausmass-des-breitband-irrtums.html",
-        "https://www.welt.de/wirtschaft/article6a25800c27d9ac9142ccde0c/ki-forscher-warnt-alle-tests-schlagen-alarm-die-sirenen-heulen-und-wir-ignorieren-das-einfach.html"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Wettbewerb: EU verlangt: Whatsapp muss andere KI-Anbieter kostenlos zulassen",
-        "Apple und KI: Siri ist jetzt quasi allwissend",
-        "Künstliche Intelligenz: Was tun gegen Angst vor KI?",
-        "Digitalisierung: „Muenchen App“ wird zum 1. Juli eingestellt"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/eu-whatsapp-deutschland-ki-zugang-li.3496354",
-        "https://www.sueddeutsche.de/wirtschaft/apple-siri-iphone-ki-datenschutz-li.3493005",
-        "https://www.sueddeutsche.de/leben/intelligenz-angst-generation-z-ki-li.3489743",
-        "https://www.sueddeutsche.de/muenchen/muenchen-app-eingestellt-freizeit-aktivitaeten-li.3492892"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 3
         }
       ]
     },
@@ -239,18 +218,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 9,
       "sample_titles": [
-        "Mythos-KI von Anthropic: Anthropic veröffentlicht Variante von KI-Modell Mythos",
-        "Apple Entwicklerkonferenz: Jetzt muss Siri Gas geben",
-        "Arbeitsvermittlung: Bärbel Bas plant Digitalisierung der Arbeitsvermittlung",
-        "Künstliche Intelligenz: SpaceX erhält milliardenschweren KI-Auftrag von Google"
+        "Mindestalter für soziale Medien: Hat Social Media nichts mit der Schule zu tun?",
+        "Debatte um Social Media: Ministerin: Kinder haben Recht auf digitale Teilhabe",
+        "Gesundheit an Schulen: Jede Schule braucht eine Krankenschwester!",
+        "Mythos-KI von Anthropic: Anthropic veröffentlicht Variante von KI-Modell Mythos"
       ],
       "urls": [
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-06/anthropic-mythos-ki-modell-cyberangriffe-sicherheit",
-        "https://www.zeit.de/digital/mobil/2026-06/apple-wwdc-siri-kuenstliche-intelligenz-john-ternus-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-06/arbeitsvermittlung-reform-buergerfreundlichkeit-digitalisierung-baerbel-bas",
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-06/kuenstliche-intelligenz-spacex-boersengang-grossauftrag-google"
+        "https://www.zeit.de/bildung/2026-06/mindestalter-soziale-medien-schule-eltern",
+        "https://www.zeit.de/news/2026-06/12/ministerin-kinder-haben-recht-auf-digitale-teilhabe",
+        "https://www.zeit.de/gesundheit/2026-06/gesundheit-schulen-school-nurse-schulgesundheitspflege",
+        "https://www.zeit.de/wirtschaft/unternehmen/2026-06/anthropic-mythos-ki-modell-cyberangriffe-sicherheit"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -264,47 +243,72 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 6,
+      "article_count": 8,
       "sample_titles": [
-        "Apple stellt seine neue KI vor. Diesmal soll sie wirklich funktionieren",
-        "«Je mehr KI ich anzapfe, desto mehr Tokens verbrauche ich. Deshalb kann das exponentiell teuer werden»",
-        "Plötzlich brauchen alle Kapital: Der KI-Boom saugt den Finanzmärkten die Liquidität ab",
-        "PODCAST «NZZ WEEKEND» - KI-Forscher Marcel Salathé: «Wir verblöden nicht, aber wir sind blöd genug, immer wieder denselben Fehler zu machen»"
+        "Anthropic-Börsengang: Eine Basler Gruppe gehört zu den frühesten Investoren des wertvollsten KI-Startups der Welt",
+        "KOMMENTAR - Google-Suche im KI-Delirium: Halluzination macht aus ehrbarer Firma einen Betrüger. Das darf nicht sein",
+        "INTERVIEW - «In hundert Jahren werden Historiker die KI interviewen, um Epochen zu erforschen»",
+        "Ist KI das Ende der Sprachkurse? Die Tools und Apps bieten einiges, aber nicht alles"
       ],
       "urls": [
-        "https://www.nzz.ch/technologie/apple-stellt-seine-neue-ki-vor-diesmal-soll-sie-wirklich-funktionieren-ld.10010461",
-        "https://www.nzz.ch/wirtschaft/je-mehr-ki-ich-anzapfe-desto-mehr-tokens-verbrauche-ich-deshalb-kann-das-sehr-schnell-exponentiell-teuer-werden-ld.10010028",
-        "https://www.nzz.ch/wirtschaft/ploetzlich-brauchen-alle-kapital-der-ki-boom-saugt-den-finanzmaerkten-die-liquiditaet-ab-ld.10009862",
-        "https://www.nzz.ch/podcast/ki-forscher-marcel-salathe-wir-verbloeden-nicht-aber-wir-sind-bloed-genug-immer-wieder-denselben-fehler-zu-machen-ld.10009889"
+        "https://www.nzz.ch/wirtschaft/anthropic-boersengang-eine-basler-gruppe-gehoert-zu-den-fruehesten-investoren-des-wertvollsten-ki-startups-der-welt-ld.10010965",
+        "https://www.nzz.ch/meinung/google-suche-im-ki-delirium-halluzination-macht-aus-ehrbarer-firma-einen-betrueger-das-darf-nicht-sein-ld.10011045",
+        "https://www.nzz.ch/technologie/in-hundert-jahren-werden-historiker-die-ki-interviewen-um-epochen-zu-erforschen-ld.10006527",
+        "https://www.nzz.ch/panorama/ist-ki-das-ende-der-sprachkurse-die-tools-und-apps-bieten-einiges-aber-nicht-alles-ld.10008191"
       ],
-      "dominant_emotion": "surprise",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "surprise",
+          "emotion": "admiration",
           "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "joy",
           "count": 1
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 5,
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 8,
       "sample_titles": [
-        "KI-Riesen vor Börsengang: Erst Boom, dann Crash?",
-        "Apple will mit Siri AI im KI-Wettlauf aufholen",
-        "Digitalminister Karsten Wildberger zum Netzausbau",
-        "Mit Daten und Algorithmen gegen die Elfenbein-Mafia"
+        "Krieg in der Ukraine: Putin kündigt Drohnen mit KI-Unterstützung an",
+        "Krieg in Nahost: USA und Iran nähern sich offenbar Friedensabkommen",
+        "Hörspiel: Was man sich in Familien erzählt",
+        "Chatbots: Wie viel Strom frisst die KI?"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/unternehmen/ki-openai-anthropic-chatgpt-boerse-usa-ki-dotcom-blase-100.html",
-        "https://www.zdfheute.de/wirtschaft/unternehmen/apple-ki-siri-wwdc-eu-einfuehrung-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-der-tag/ua-ausbau-von-glasfaser-u-a-5192470.html",
-        "https://www.zdfheute.de/panorama/elefanten-elfenbeinmafia-ki-mosambik-afrika-100.html"
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-putin-drohnen-li.3490156",
+        "https://www.sueddeutsche.de/politik/news-iran-nahost-liveblog-usa-trump-iran-deal-li.3494580",
+        "https://www.sueddeutsche.de/medien/hoerspiel-deutschlandmaerchen-dlf-dincer-guecyeter-podcast-li.3495472",
+        "https://www.sueddeutsche.de/projekte/artikel/wissen/ki-umwelt-stromverbrauch-wasserbedarf-co2-emissionen-e125362/"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 7,
+      "sample_titles": [
+        "Technik außer Kontrolle? Chatbot-Entwickler fordert weltweite KI-Entwicklungspause",
+        "KI-Erinnerungskultur in Deutschland Ein paar Sekunden für die Holocaustopfer",
+        "JF-Interview „Textkultur ohne Hirn“: Stefan Weber rechnet nach KI-Affäre mit Mario Voigt ab",
+        "Der Betrüger aus Erfurt Ersetzen wir Mario Voigt doch gleich durch KI"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/wirtschaft/2026/chatbot-entwickler-fordert-weltweite-ki-entwicklungspause/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/ein-paar-sekunden-fuer-die-holocaustopfer/",
+        "https://jungefreiheit.de/debatte/interview/2026/textkultur-ohne-hirn-stefan-weber-rechnet-nach-ki-affaere-mit-mario-voigt-ab/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/ersetzen-wir-mario-voigt-doch-gleich-durch-ki/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -314,25 +318,30 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 4,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 7,
       "sample_titles": [
-        "Nach Gastbeitrag Voigt soll auch Holocaust-Rede mit KI geschrieben haben",
-        "Digital Markets Act EU sperrt iPhone-Nutzer von neuer Apple-KI aus",
-        "KI-Datenzentren fordern mehr Energie Brüssel will Bürger zum Stromsparen bringen",
-        "KI-Boom und Börsenmacht Wachablösung im Nikkei: SoftBank verdrängt Toyota"
+        "Mario Voigt und die KI",
+        "Ethikrat mit Julia Klöckner: „Schutz von Kindern und Jugendlichen in der digitalen Welt“",
+        "Merz: Deutschland kann ein Gewinner der KI-Revolution sein",
+        "Nein, die Meta-KI liest WhatsApp-Chats nicht mit"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/voigt-soll-sogar-holocaust-rede-mit-ki-geschrieben-haben/",
-        "https://jungefreiheit.de/wirtschaft/2026/eu-sperrt-iphone-nutzer-von-neuer-apple-ki-aus/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bruessel-will-buerger-zum-stromsparen-bringen/",
-        "https://jungefreiheit.de/wirtschaft/2026/wachabloesung-im-nikkei-softbank-verdraengt-toyota/"
+        "https://www.zdfheute.de/politik/deutschland/mario-voigt-ki-verdacht-faz-gastbeitrag-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-live-bundestag-a-5192681.html",
+        "https://www.phoenix.de/regierungserklaerung-a-5209217.html",
+        "https://www.zdfheute.de/panorama/whatsapp-kettenbrief-meta-ki-datenschutz-100.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        }
+      ]
     },
     "taz": {
       "source_id": "taz",
@@ -340,25 +349,21 @@
       "bias": "left",
       "article_count": 4,
       "sample_titles": [
-        "Digitalisierung in Deutschland: Die Staatsmodernisierung zieht sich",
-        "Fußball-WM 2026: Gianni Infantinos beinahe grenzenlose Allmacht",
-        "Wie klimaschädlich ist KI?: Die drei wichtigsten Klima-News der Woche",
-        "Digitale Souveränität: Europa will intelligenter werden"
+        "Cybersicherheit: Europol zerschlägt Geldwäsche-Dienst für Kryptowährungen",
+        "KI remythologisiert Geschichte: Weil die Bilder im Gewand des Dokuments auftreten",
+        "Naive KI-Hoffnungen in der Verwaltung: „Kann man da was mit KI machen?“",
+        "Digitalisierung in Deutschland: Die Staatsmodernisierung zieht sich"
       ],
       "urls": [
-        "https://taz.de/Digitalisierung-in-Deutschland/!6185712/",
-        "https://taz.de/Fussball-WM-2026/!6178485/",
-        "https://taz.de/Wie-klimaschaedlich-ist-KI/!6184815/",
-        "https://taz.de/Digitale-Souveraenitaet/!6184045/"
+        "https://taz.de/Cybersicherheit/!6186751/",
+        "https://taz.de/KI-remythologisiert-Geschichte/!6185884/",
+        "https://taz.de/Riskante-Hoffnungen-in-der-Verwaltung-Kann-man-da-was-mit-KI-machen/!6184820/",
+        "https://taz.de/Digitalisierung-in-Deutschland/!6185712/"
       ],
-      "dominant_emotion": "amusement",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -367,22 +372,51 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
-        "Künstliche Intelligenz: Bundesregierung gründet KI-Sicherheitsinstitut",
-        "Künstliche Intelligenz: Verliebt in einen Bot – Sind KIs die besseren Partner?",
-        "Anthropic plädiert für weltweite Pause bei KI-Entwicklung"
+        "Ministerpräsident: Fragwürdiger Umgang mit KI-Texten: Ist Mario Voigt ein Blender?",
+        "Künstliche Intelligenz: Anthropic-Chef: Regierung sollte riskante KI stoppen können",
+        "Fußball-Bundesliga: Vertrag bis 2030: Schalke holt Tanaka aus Düsseldorf",
+        "Künstliche Intelligenz: Bundesregierung gründet KI-Sicherheitsinstitut"
       ],
       "urls": [
-        "https://www.stern.de/digital/kuenstliche-intelligenz--bundesregierung-gruendet-ki-sicherheitsinstitut-37513998.html",
-        "https://www.stern.de/panorama/wissen/kuenstliche-intelligenz--verliebt-in-einen-bot---sind-kis-die-besseren-partner--37508424.html",
-        "https://www.stern.de/news/anthropic-plaediert-fuer-weltweite-pause-bei-ki-entwicklung-37496064.html"
+        "https://www.stern.de/politik/deutschland/mario-voigts-fragwuerdiger-umgang-mit-ki-texten--ist-er-ein-blender--37527232.html",
+        "https://www.stern.de/digital/kuenstliche-intelligenz--anthropic-chef--regierung-sollte-riskante-ki-stoppen-koennen-37525710.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/fussball-bundesliga--vertrag-bis-2030--schalke-holt-tanaka-aus-duesseldorf-37522228.html",
+        "https://www.stern.de/digital/kuenstliche-intelligenz--bundesregierung-gruendet-ki-sicherheitsinstitut-37513998.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "amusement",
       "top_emotions": [
         {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
           "emotion": "optimism",
-          "count": 2
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Mario Voigts KI-Desaster: FAZ löscht Gastbeitrag des Thüringer Ministerpräsidenten",
+        "Der KI-Bubble-Indikator | Tichys Börsenwecker am 11. Juni 2026",
+        "Geheime Google-Gespräche: Berlin sprach mit Konzern über Sortierung des Netzes"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/meinungen/mario-voigts-ki-desaster/",
+        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-11-juni-2026/",
+        "https://www.tichyseinblick.de/meinungen/berlin-google-treffen/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
         }
       ]
     },
@@ -392,31 +426,26 @@
       "bias": "neutral",
       "article_count": 1,
       "sample_titles": [
-        "Umfrage: Mehr als Hälfte der deutschen Unternehmen nutzt KI"
+        "Ethikrat empfiehlt kein Alterslimit bei Social Media"
       ],
       "urls": [
-        "https://www.dw.com/de/umfrage-mehr-als-hälfte-der-deutschen-unternehmen-nutzt-ki/a-77436206?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/ethikrat-empfiehlt-kein-alterslimit-bei-social-media/a-77503724?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "populist-mixed": 13,
-    "far-right": 4,
-    "right-conservative": 20,
-    "economic-liberal": 22,
-    "conservative-liberal": 20,
-    "left-liberal": 25,
-    "neutral": 16,
-    "left": 4
+    "conservative-liberal": 39,
+    "right-conservative": 25,
+    "left-liberal": 36,
+    "neutral": 18,
+    "populist-mixed": 17,
+    "left": 4,
+    "far-right": 10,
+    "economic-liberal": 16
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass die Entwicklung und Regulierung von KI-Technologien eine zentrale Herausforderung für Deutschland und Europa darstellt, wobei insbesondere die Themen Datenschutz, Cybersicherheit und die Notwendigkeit einer europäischen Regulierung von KI-Anbietern wie WhatsApp und Apple im Fokus stehen. Darüber hinaus wird die Bedeutung von Investitionen in die digitale Infrastruktur, wie den Breitbandausbau, und die Förderung von digitaler Bildung und Forschung betont, um Deutschland und Europa wettbewerbsfähig im globalen KI-Markt zu halten. Die Diskussion um die Auswirkungen von KI auf den Arbeitsmarkt und die Gesellschaft zeigt auch eine Übereinstimmung darin, dass eine umfassende Debatte über die Chancen und Risiken von KI und Digitalisierung notwendig ist, um eine verantwortungsvolle und nachhaltige Entwicklung dieser Technologien zu gewährleisten.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Digitalisierung, Künstlicher Intelligenz und digitaler Transformation zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und unregulierten Einführung von KI-Technologien und denjenigen, die eine stärkere Regulierung und Kontrolle der Auswirkungen auf den Arbeitsmarkt, den Datenschutz und die Umwelt fordern. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer marktwirtschaftlichen Orientierung, die die Innovationskraft der Wirtschaft durch KI-Entwicklungen sehen, und denjenigen, die eine stärkere Rolle des Staates bei der Gestaltung der digitalen Transformation und der Sicherung der digitalen Souveränität Deutschlands und Europas einfordern. Die Debatte um die Regulierung von KI-Technologien, insbesondere durch den EU AI Act, und die Auswirkungen auf die Wirtschaft und die Gesellschaft spiegelt diese Konfliktlinien wider und zeigt, dass die Diskussion um die digitale Zukunft Deutschlands und Europas von grundlegend unterschiedlichen Weltbildern und politischen Konzepten geprägt ist.",
-  "cached_at": "2026-06-10T08:40:56.345480"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass die KI-Entwicklung und ihre Anwendungen in Deutschland und Europa eine zentrale Rolle spielen werden, insbesondere in Bezug auf die Digitalisierung von Verwaltung und Wirtschaft sowie die Notwendigkeit von Regulierung und Sicherheitsmaßnahmen. Darüber hinaus wird die Diskussion um die Auswirkungen von KI auf den Arbeitsmarkt und die Gesellschaft als ein wichtiger Aspekt des Themas betrachtet, wobei viele Medien die Notwendigkeit von Investitionen in digitale Bildung und die Schaffung von Rahmenbedingungen für eine verantwortungsvolle KI-Nutzung betonen. Die Diskussion um die Regulierung von KI, insbesondere im Hinblick auf den EU AI Act, zeigt sich als ein weiterer zentraler Punkt des Mediendiskurses, bei dem eine Übereinstimmung in der Notwendigkeit von klaren Regeln und Standards für die Entwicklung und den Einsatz von KI besteht.",
+  "controversial_points": "Im deutschen Mediendiskurs zu Digitalisierung, Künstlicher Intelligenz und digitaler Transformation zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und umfassenden Einführung von KI-Technologien, die diese als Chance für Wirtschaftswachstum und Innovation sehen, und den Kritikern, die auf die Risiken und Herausforderungen wie Datenschutz, Cybersicherheit und Arbeitsplatzverluste hinweisen. Eine weitere Spannungslinie verläuft zwischen den politischen Lagern, wobei konservative und wirtschaftsliberale Stimmen tendenziell eine stärkere Betonung der wirtschaftlichen Vorteile von KI und Digitalisierung betonen, während linke und populistische Stimmen Bedenken hinsichtlich der sozialen und gesellschaftlichen Auswirkungen äußern. Die Debatte um die Regulierung von KI und die Notwendigkeit einer ethischen und verantwortungsvollen Entwicklung und Anwendung von KI-Technologien bildet einen weiteren zentralen Konfliktbereich im deutschen Mediendiskurs.",
+  "cached_at": "2026-06-13T08:35:45.265644"
 }
