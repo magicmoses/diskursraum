@@ -1,14 +1,14 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 187,
+  "article_count": 177,
   "candidate_count": 800,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 23,
+      "article_count": 25,
       "sample_titles": [
         "Innenminister Dobrindt warnt vor Drohnenangriffen auf den Bundestag",
         "Rheinmetall-Chef warnt vor Ausstieg Frankreichs beim Zukunftspanzer",
@@ -21,47 +21,10 @@
         "https://www.welt.de/politik/deutschland/plus6a2bd6be7e682fc37fbf7166/hybride-bedrohungen-wie-deutschland-auf-den-unsichtbaren-schattenkrieg-reagiert.html",
         "https://www.welt.de/politik/ausland/article6a2bd76c0573682fee38b05b/frankreich-deutschland-befindet-sich-in-einer-besseren-position-die-neue-ruestungs-rivalitaet.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 23,
-      "sample_titles": [
-        "Kooperation mit Paris: Vom gemeinsamen Kampfpanzer ist auch noch nichts zu sehen",
-        "SCHÖNEFELD: Schutz vor Drohnenangriffen im Fokus der ILA",
-        "Liveblog Ukrainekrieg: Ukraine will Militärdienst attraktiver machen",
-        "Liveblog Ukrainekrieg: Deutsches Heer will schnell mehr Drohnen einsetzen"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/inland/mgcs-droht-das-deutsch-franzoesische-kampfpanzeraus-200916542.html",
-        "https://www.faz.net/video/ila-in-schoenefeld-bundeswehr-reagiert-auf-wachsende-drohnengefahr-200925841.html",
-        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-ukraine-will-militaerdienst-attraktiver-machen-faz-110683325.html",
-        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-deutsches-heer-will-schnell-mehr-drohnen-einsetzen-faz-110683325.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "gratitude",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -70,18 +33,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 20,
+      "article_count": 21,
       "sample_titles": [
-        "KI-gestützte Plattform: Deutsche Flugsicherung plant bundesweite Drohnenabwehr",
-        "Schwarz-Rot auf Reformkurs: Merz verlangt Bereitschaft zu Veränderungen - von allen",
-        "Mehr Geld für Verteidigung: Brüssel legt 200-Milliarden-Euro-Etat vor - Agrarbereich größter Posten",
-        "Auftrag für Mercedes und Daimler: Litauen steckt eine Milliarde Euro in neue Militärfahrzeuge aus Deutschland"
+        "Klein gebaut, stark bewaffnet: Deutschlands Mini-Panzer \"Hetzer\" lauerte, statt vorzupreschen",
+        "Fund bei Bauarbeiten in Nordholz: Ausgegrabenes Sturmgeschütz der Wehrmacht kommt ins Museum",
+        "Bundespolizei nicht zuständig: Dobrindt warnt vor Drohnenangriffen auf Bundestag",
+        "Partner aus Europa betroffen: Bericht: USA wollen Nato weniger Jets und Schiffe bereitstellen"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Deutsche-Flugsicherung-plant-bundesweite-Drohnenabwehr-id30957783.html",
-        "https://www.n-tv.de/politik/Merz-verteidigt-Reformkurs-und-verlangt-Bereitschaft-zu-Veraenderungen-id30954065.html",
-        "https://www.n-tv.de/politik/Bruessel-legt-200-Milliarden-Euro-Etat-vor-Agrarbereich-groesster-Posten-id30952262.html",
-        "https://www.n-tv.de/politik/Litauen-steckt-eine-Milliarde-Euro-in-neue-Militaerfahrzeuge-aus-Deutschland-id30950695.html"
+        "https://www.n-tv.de/wissen/Deutschlands-Mini-Panzer-Hetzer-lauerte-statt-vorzupreschen-id30859995.html",
+        "https://www.n-tv.de/wissen/Ausgegrabenes-Sturmgeschuetz-der-Wehrmacht-kommt-ins-Museum-id30962979.html",
+        "https://www.n-tv.de/politik/Dobrindt-warnt-vor-Drohnenangriffen-auf-Bundestag-id30962125.html",
+        "https://www.n-tv.de/politik/Bericht-USA-wollen-Nato-weniger-Jets-und-Schiffe-bereitstellen-id30960501.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -90,32 +53,44 @@
           "count": 2
         },
         {
+          "emotion": "realization",
+          "count": 1
+        },
+        {
           "emotion": "gratitude",
           "count": 1
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 19,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 18,
       "sample_titles": [
-        "Neuer Verteidigungsminister, doch der Druck bleibt",
-        "Rüstungsfirmen schließen neue Kampfjet-Allianz",
-        "\"Ohne Europa geht es nicht\"",
-        "Mercedes, Daimler Truck, Heidelberger Druck: Baden-Württemberg wird Zentrum der Rüstungsindustrie"
+        "Aus dem Zweiten Weltkrieg: Bauarbeiter finden Wehrmachtspanzer im Sand",
+        "Rüstungsgeschäft: Mercedes baut G-Klasse zur Drohnen-Abschussrampe um",
+        "Kooperation mit Paris: Vom gemeinsamen Kampfpanzer ist auch noch nichts zu sehen",
+        "Liveblog Ukrainekrieg: Ukraine will Militärdienst attraktiver machen"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/europa/grossbritannien-jarvis-verteidigungsminister-100.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/ruestung-kampfjet-allianz-europa-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/regierungserklaerung-merz-ukraine-eu-handel-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/unternehmen-aus-bw-steigen-setzen-auf-ruestung-verteidigung-mercedes-heidelberger-druck-100.html"
+        "https://www.faz.net/aktuell/gesellschaft/trends-nischen/bauarbeiter-finden-sturmgeschuetz-im-sand-accg-200927342.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-baut-g-klasse-zur-drohnen-abschussrampe-um-accg-200924879.html",
+        "https://www.faz.net/aktuell/politik/inland/mgcs-droht-das-deutsch-franzoesische-kampfpanzeraus-200916542.html",
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-ukraine-will-militaerdienst-attraktiver-machen-faz-110683325.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "gratitude",
       "top_emotions": [
         {
+          "emotion": "gratitude",
+          "count": 2
+        },
+        {
           "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -124,18 +99,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 18,
+      "article_count": 17,
       "sample_titles": [
+        "Abgeordnete fordern mehr Macht des Bundes beim Panzerbauer KNDS",
         "Rheinmetall-Chef warnt vor Scheitern des deutsch-französischen Panzerprojekts MGCS",
-        "FCAS-Aus: Wie muss der deutsche Kampfjet der Zukunft aussehen, Herr Hinz?",
         "Bundeswehr: Bundestag verlängert Einsätze in Bosnien und im Kosovo",
-        "News des Tages: Russische Aufrüstung an Nato-Grenzen, Fußball-WM 2026, Marius Borg Høiby"
+        "FCAS-Aus: Wie muss der deutsche Kampfjet der Zukunft aussehen, Herr Hinz?"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/unternehmen/abgeordnete-fordern-mehr-macht-des-bundes-beim-panzerbauer-knds-a-0dfed0f2-a6c7-440f-ad62-fe5da70ee6b3#ref=rss",
         "https://www.spiegel.de/wirtschaft/rheinmetall-chef-warnt-vor-scheitern-des-deutsch-franzoesischen-panzerprojekts-mgcs-a-a4eca942-f744-49fe-8f4d-656a963f19d7#ref=rss",
-        "https://www.spiegel.de/ausland/fcas-aus-wie-muss-der-deutsche-kampfjet-der-zukunft-aussehen-herr-hinz-a-c35823d1-ba50-4de7-8253-0778e29182c7#ref=rss",
         "https://www.spiegel.de/politik/bundeswehr-bundestag-verlaengert-einsaetze-in-bosnien-und-im-kosovo-a-e2272c75-e158-4a13-bb97-4a2ea16afa09#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/news-des-tages-russische-aufruestung-an-nato-grenzen-fussball-wm-2026-marius-borg-hoiby-a-176cd934-fb11-41b0-b877-ab0427a56d51#ref=rss"
+        "https://www.spiegel.de/ausland/fcas-aus-wie-muss-der-deutsche-kampfjet-der-zukunft-aussehen-herr-hinz-a-c35823d1-ba50-4de7-8253-0778e29182c7#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -148,7 +123,7 @@
           "count": 1
         },
         {
-          "emotion": "desire",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -159,14 +134,14 @@
       "bias": "economic-liberal",
       "article_count": 17,
       "sample_titles": [
-        "Verteidigung: Regierung strebt bei Kampfflugzeug wohl europäische Lösung an",
         "USA: Ein Militärberater des Pentagons kämpft für die Zukunft der US-Truppen in Deutschland",
+        "Verteidigung: Regierung strebt bei Kampfflugzeug wohl europäische Lösung an",
         "Verteidigung: Dassault und Airbus streiten offenbar auch über Drohnenprojekt",
         "Bundeswehr: Drei Konsortien bewerben sich um Satellitenaufklärungs-Projekt"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/verteidigung-regierung-strebt-bei-kampfflugzeug-wohl-europaeische-loesung-an/100232553.html",
         "https://www.handelsblatt.com/politik/international/usa-militaerberater-kaempft-fuer-die-zukunft-der-us-truppen-in-deutschland/100228102.html",
+        "https://www.handelsblatt.com/politik/international/verteidigung-regierung-strebt-bei-kampfflugzeug-wohl-europaeische-loesung-an/100232553.html",
         "https://www.handelsblatt.com/politik/international/verteidigung-dassault-und-airbus-streiten-offenbar-auch-ueber-drohnenprojekt/100232563.html",
         "https://www.handelsblatt.com/technik/forschung-innovation/bundeswehr-drei-konsortien-bewerben-sich-um-satellitenaufklaerungs-projekt/100230651.html"
       ],
@@ -182,49 +157,79 @@
         }
       ]
     },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 16,
+      "sample_titles": [
+        "\"Man ist Soldat, egal welches Geschlecht\"",
+        "Neuer Verteidigungsminister, doch der Druck bleibt",
+        "Rüstungsfirmen schließen neue Kampfjet-Allianz",
+        "Mercedes, Daimler Truck, Heidelberger Druck: Baden-Württemberg wird Zentrum der Rüstungsindustrie"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/gesellschaft/frauen-bundeswehr-104.html",
+        "https://www.tagesschau.de/ausland/europa/grossbritannien-jarvis-verteidigungsminister-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/ruestung-kampfjet-allianz-europa-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/unternehmen-aus-bw-steigen-setzen-auf-ruestung-verteidigung-mercedes-heidelberger-druck-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "surprise",
+          "count": 1
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 14,
+      "article_count": 15,
       "sample_titles": [
         "Dobrindt warnt vor Drohnenangriffen auf Bundestag und weitere Verfassungsorgane",
-        "Fluglärm: Tornado-Triebwerks-Test: nochmal laut am Hamburger Flughafen",
         "Bundestag verlängert Bundeswehr-Einsätze in Bosnien und im Kosovo",
-        "Sonderkonferenz: Ost-Länder wollen bei Verteidigung durchstarten"
+        "Sonderkonferenz: Ost-Länder wollen bei Verteidigung durchstarten",
+        "Nach Scheitern von FCAS: Bundesregierung sucht Kampfjet-Alternative"
       ],
       "urls": [
         "https://www.stern.de/news/dobrindt-warnt-vor-drohnenangriffen-auf-bundestag-und-weitere-verfassungsorgane-37537138.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/fluglaerm--tornado-triebwerks-test--nochmal-laut-am-hamburger-flughafen-37536836.html",
         "https://www.stern.de/news/bundestag-verlaengert-bundeswehr-einsaetze-in-bosnien-und-im-kosovo-37531198.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/sonderkonferenz--ost-laender-wollen-bei-verteidigung-durchstarten-37529390.html"
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/sonderkonferenz--ost-laender-wollen-bei-verteidigung-durchstarten-37529390.html",
+        "https://www.stern.de/news/nach-scheitern-von-fcas--bundesregierung-sucht-kampfjet-alternative-37519030.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
     },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 12,
+      "article_count": 10,
       "sample_titles": [
         "Rüstungsunternehmen auf der ILA: „Man kann die Dollarzeichen in den Augen sehen“",
         "Deutsche Flugsicherung: Bundesweites Drohnen-Abwehrnetz in Planung",
-        "+++ Nachrichten im Ukraine-Krieg +++: Gegenseitige Drohnenangriffe auf zivile Ziele",
-        "Verteidigungsexpertin über Ende von FCAS: „Ich bin pessimistisch, dass sich die Zusammenarbeit verbessert“"
+        "Verteidigungsexpertin über Ende von FCAS: „Ich bin pessimistisch, dass sich die Zusammenarbeit verbessert“",
+        "Sicherheit in baltischen Staaten: Nato-Kampfjets schießen Drohne über Lettland ab"
       ],
       "urls": [
         "https://taz.de/Ruestungsunternehmen-auf-der-ILA/!6186806/",
         "https://taz.de/Deutsche-Flugsicherung/!6186733/",
-        "https://taz.de/-Nachrichten-im-Ukraine-Krieg-/!6186391/",
-        "https://taz.de/Verteidigungsexpertin-ueber-Ende-von-FCAS/!6185772/"
+        "https://taz.de/Verteidigungsexpertin-ueber-Ende-von-FCAS/!6185772/",
+        "https://taz.de/Sicherheit-in-baltischen-Staaten/!6185709/"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
         {
           "emotion": "disapproval",
           "count": 1
@@ -235,51 +240,22 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 9,
-      "sample_titles": [
-        "Krieg in der Ukraine: Putin kündigt Drohnen mit KI-Unterstützung an",
-        "Luftfahrtmesse ILA: Vivaldi trifft auf Kampfhubschrauber",
-        "Rüstungsindustrie: Mercedes-Benz und der Drohnenhersteller Tytan wollen zusammenarbeiten",
-        "Kampfjet-Projekt FCAS: Europäische Luftnummer"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-putin-drohnen-li.3490156",
-        "https://www.sueddeutsche.de/wirtschaft/ila-2026-berlin-hubschrauber-ruestung-bundesregierung-merz-fcas-drohnen-li.3497515",
-        "https://www.sueddeutsche.de/wirtschaft/mercedes-tytan-kooperation-drohnenabwehr-g-klasse-li.3495746",
-        "https://www.sueddeutsche.de/wirtschaft/fcas-scheitern-bundesregierung-merz-macron-frankreich-kampfjet-li.3495992"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
       "article_count": 9,
       "sample_titles": [
+        "Sensationeller Fund - Bauarbeiter finden erhaltenen Wehrmachtspanzer",
+        "Bereit für den Ernstfall - Vor diesen Rüstungskrachern soll Putin bibbern",
         "Zehntausende neue Jobs - Schafft der Rüstungsboom ein Wirtschaftswunder?",
-        "Milliarden-Zoff nicht gelöst - Merz und Macron stoppen Kampfjet-Projekt",
-        "Skandal um Bundeswehr-Admiral - Sie nannten ihn „das Phantom“",
-        "Spionageverdacht - Deutscher (56) an Flughafen auf Kreta festgenommen"
+        "Milliarden-Zoff nicht gelöst - Merz und Macron stoppen Kampfjet-Projekt"
       ],
       "urls": [
+        "https://www.bild.de/regional/niedersachsen/stug-aus-dem-2-weltkrieg-entdeckt-bauarbeiter-finden-panzer-im-sand-6a2d01ef7e682fc37fbf82db",
+        "https://www.bild.de/politik/inland/merz-auf-der-ila-vor-diesen-deutschen-ruestungskrachern-soll-putin-bibbern-6a2a7a575f783159b22b07ad",
         "https://www.bild.de/politik/inland/neue-jobs-und-investitionen-schafft-der-ruestungsboom-ein-wirtschaftswunder-6a27dfea7ae6ee108d9eb9be",
-        "https://www.bild.de/politik/milliarden-zoff-nicht-geloest-merz-und-macron-stoppen-kampfjet-projekt-6a26d4ac8d84dbd8a4ed9308",
-        "https://www.bild.de/politik/inland/kaeptn-homeoffice-bundeswehr-admiral-glaenzte-durch-abwesenheit-6a251d738d84dbd8a4ed7836",
-        "https://www.bild.de/news/ausland/spionageverdacht-deutscher-56-an-militaerflughafen-auf-kreta-festgenommen-6a255d5227d9ac9142ccdb4e"
+        "https://www.bild.de/politik/milliarden-zoff-nicht-geloest-merz-und-macron-stoppen-kampfjet-projekt-6a26d4ac8d84dbd8a4ed9308"
       ],
       "dominant_emotion": "surprise",
       "top_emotions": [
@@ -297,31 +273,27 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 6,
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 7,
       "sample_titles": [
-        "Die Zeitenwende belastet die deutsch-französische Freundschaft",
-        "DER ANDERE BLICK - Das Scheitern des deutsch-französischen Kampfjets ist militärisch keine Katastrophe, politisch jedoch umso mehr",
-        "Aus für Kampfjet-Projekt FCAS: Nur Emmanuel Macron glaubte noch an den europäischen Superjet",
-        "Der bundeseigene Rüstungskonzern Ruag bezahlt nach einem Hackerangriff Lösegeld – ohne das VBS darüber zu informieren"
+        "Rüstungsindustrie: Mercedes-Benz und der Drohnenhersteller Tytan wollen zusammenarbeiten",
+        "Kampfjetprojekt FCAS: Ein Scheitern mit Ansage",
+        "Rüstung: Deutsch-französisches Kampfjet-Projekt gescheitert",
+        "Tag der Bundeswehr in Neubiberg: „Verteidigungsfähigkeit eines Landes ist niemals nur Aufgabe der Streitkräfte“"
       ],
       "urls": [
-        "https://www.nzz.ch/pro/fcas-aus-die-zeitenwende-belastet-die-deutsch-franzoesische-freundschaft-ld.10010940",
-        "https://www.nzz.ch/der-andere-blick/das-scheitern-von-fcas-ist-militaerisch-keine-katastrophe-politisch-jedoch-umso-mehr-ld.10010504",
-        "https://www.nzz.ch/international/nur-emmanuel-macron-glaubte-noch-an-den-europaeischen-superjet-fcas-ld.10010516",
-        "https://www.nzz.ch/schweiz/ruestungskonzern-ruag-bezahlt-nach-hackerangriff-loesegeld-vbs-wusste-von-nichts-ld.10010175"
+        "https://www.sueddeutsche.de/wirtschaft/mercedes-tytan-kooperation-drohnenabwehr-g-klasse-li.3495746",
+        "https://www.sueddeutsche.de/wirtschaft/fcas-merz-macron-ruestungsprojekt-li.3471737",
+        "https://www.sueddeutsche.de/politik/kampfjet-projekt-fcas-deutschland-li.3495756",
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/tag-der-bundeswehr-neubiberg-universitaet-der-bundeswehr-boris-pistorius-li.3492110"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -330,18 +302,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
         "Nach FCAS-Aus: Alternatives Kampfjet-Projekt geplant",
+        "Aus für Kampfjet-Deal: \"Einigung nicht mehr erreichbar\"",
         "Tag der Bundeswehr zeigt Perspektiven auf",
-        "Pistorius: Zusammenhalt von Truppe und Gesellschaft stärken",
-        "So steht die Bundeswehr im Europa-Vergleich da"
+        "Pistorius: Zusammenhalt von Truppe und Gesellschaft stärken"
       ],
       "urls": [
         "https://www.zdfheute.de/politik/kampfjet-projekt-fcas-aus-buendnis-alternativ-plaene-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5208822",
         "https://www.zdfheute.de/video/laenderspiegel/tag-der-bundeswehr-zeigt-perspektiven-auf-100.html",
-        "https://www.zdfheute.de/politik/deutschland/pistorius-bundeswehr-tag-armee-zusammenhalt-100.html",
-        "https://www.zdfheute.de/politik/deutschland/bundeswehr-staerkste-armee-vergleich-nato-europa-100.html"
+        "https://www.zdfheute.de/politik/deutschland/pistorius-bundeswehr-tag-armee-zusammenhalt-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -363,44 +335,59 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "Bundeswehr in Litauen: Sie wollen kriegstüchtig werden",
         "FCAS: Boris Pistorius bedauert FCAS-Aus",
         "Mark Rutte in Kiew: Generalsekretär Mark Rutte besucht mit Nato-Nordatlantikrat Kyjiw",
-        "UN-Sicherheitsrat: Warum Deutschland wieder einen Sitz im UN-Sicherheitsrat will",
-        "Rheinmetall: Rheinmetall bekommt Aufträge aus Rumänien über 5,7 Milliarden Euro"
+        "UN-Sicherheitsrat: Warum Deutschland wieder einen Sitz im UN-Sicherheitsrat will"
       ],
       "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-06/bundeswehr-litauen-brigade-christiand-freuding-nato",
         "https://www.zeit.de/politik/deutschland/2026-06/boris-pistorius-bedauert-kampfjet-aus-fcas",
         "https://www.zeit.de/politik/ausland/2026-06/mark-rutte-kiew-nato-ukraine-nordatlantikrat",
-        "https://www.zeit.de/politik/2026-06/un-sicherheitsrat-deutschland-kandidatur-nachrichtenpodcast",
-        "https://www.zeit.de/wirtschaft/2026-06/rheinmetall-ruestungsauftrag-rumaenien-milliarden"
+        "https://www.zeit.de/politik/2026-06/un-sicherheitsrat-deutschland-kandidatur-nachrichtenpodcast"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "annoyance",
           "count": 1
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 3,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 4,
       "sample_titles": [
-        "Europäisches Rüstungsprojekt Was Deutschland aus dem FCAS-Desaster lernen muss",
-        "Militärexperten diskutieren in Potsdam Warum die Bundeswehr bis heute unter Merkels Politik leidet",
-        "Bundeswehr-Gutachten Pistorius-Ministerium handelte bei Abmeldepflicht rechtswidrig"
+        "Die Zeitenwende belastet die deutsch-französische Freundschaft",
+        "DER ANDERE BLICK - Das Scheitern des deutsch-französischen Kampfjets ist militärisch keine Katastrophe, politisch jedoch umso mehr",
+        "Aus für Kampfjet-Projekt FCAS: Nur Emmanuel Macron glaubte noch an den europäischen Superjet",
+        "KOMMENTAR - Der Zivildienst muss an Reiz verlieren – dafür ist auch die Armee verantwortlich. Sie muss den Jungen mehr Sinnhaftigkeit vermitteln"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/was-deutschland-aus-dem-fcas-desaster-lernen-muss/",
-        "https://jungefreiheit.de/politik/ausland/2026/warum-die-bundeswehr-bis-heute-unter-merkels-politik-leidet/",
-        "https://jungefreiheit.de/politik/deutschland/2026/pistorius-ministerium-handelte-bei-abmeldepflicht-rechtswidrig/"
+        "https://www.nzz.ch/pro/fcas-aus-die-zeitenwende-belastet-die-deutsch-franzoesische-freundschaft-ld.10010940",
+        "https://www.nzz.ch/der-andere-blick/das-scheitern-von-fcas-ist-militaerisch-keine-katastrophe-politisch-jedoch-umso-mehr-ld.10010504",
+        "https://www.nzz.ch/international/nur-emmanuel-macron-glaubte-noch-an-den-europaeischen-superjet-fcas-ld.10010516",
+        "https://www.nzz.ch/meinung/der-zivildienst-muss-an-reiz-verlieren-dafuer-ist-auch-die-armee-verantwortlich-sie-muss-den-jungen-mehr-sinnhaftigkeit-vermitteln-ld.10008956"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
     },
     "cicero": {
       "source_id": "cicero",
@@ -416,6 +403,22 @@
         "https://www.cicero.de/aussenpolitik/ralph-thiele-uber-das-ende-des-fcas-projekts",
         "https://www.cicero.de/innenpolitik/bundeswehr-als-starkste-konventionelle-armee-europas",
         "https://www.cicero.de/aussenpolitik/deutschland-vereinte-nationen-un-sicherheitsrat"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "Europäisches Rüstungsprojekt Was Deutschland aus dem FCAS-Desaster lernen muss",
+        "Militärexperten diskutieren in Potsdam Warum die Bundeswehr bis heute unter Merkels Politik leidet"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/was-deutschland-aus-dem-fcas-desaster-lernen-muss/",
+        "https://jungefreiheit.de/politik/ausland/2026/warum-die-bundeswehr-bis-heute-unter-merkels-politik-leidet/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -450,16 +453,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 43,
-    "conservative-liberal": 32,
-    "left-liberal": 45,
-    "left": 12,
-    "economic-liberal": 17,
-    "neutral": 25,
+    "right-conservative": 46,
     "populist-mixed": 9,
-    "far-right": 4
+    "conservative-liberal": 25,
+    "left-liberal": 44,
+    "neutral": 23,
+    "left": 10,
+    "economic-liberal": 17,
+    "far-right": 3
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zur Verteidigungspolitik zeigt unabhängig von politischer Ausrichtung eine breite Übereinstimmung darin, dass die sicherheitspolitische Zeitenwende nach 2022 faktisch akzeptiert und notwendig ist — nicht ob Deutschlands Rüstung und Verteidigungsfähigkeit gestärkt werden soll, sondern wie und mit welchen Partnern dies effizient geschieht. Ein zweiter Konsens betrifft die technologische Modernisierung der Bundeswehr, insbesondere bei Drohnen und Luftverteidigung, die über alle Spektren hinweg als dringende Notwendigkeit gegen aktuelle Bedrohungen dargestellt wird. Die anhaltenden Konflikte um europäische Rüstungsprojekte (FCAS, MGCS) werden zwar kritisch analysiert, aber durchgehend in einem Rahmen gedeutet, der europäische Zusammenarbeit grundsätzlich für notwendig hält — divergierende Kritik entzündet sich an Umsetzung und französischer Verlässlichkeit, nicht an der Prämisse selbst.",
-  "controversial_points": "Der deutsche Mediendiskurs zur Verteidigungspolitik spaltet sich entlang einer fundamentalen Konfliktlinie zwischen einer **prozessualistischen und einer ergebnisorientierten Sicherheitslogik**: Während konservative und rechte Medien die militärische Einsatzfähigkeit, technologische Überlegenheit und schnelle Rüstungskapazitätsaufbau als zentrale Imperative der \"Zeitenwende\" rahmen, kritisieren linke und kritische Medien die sozialen, demokratischen und internationalen Kosten dieser Militarisierung, ohne allerdings eine kohärente alternative Sicherheitsstrategie zu entwickeln. Ein zweiter struktureller Konflikt offenbart sich in der **Spannung zwischen europäischer Autonomie und atlantischer Integration**: Die konservativ-liberale Mitte ringt mit dem Widerspruch zwischen dem Anspruch auf eigenständige europäische Rüstungsprojekte (FCAS, MGCS) und der faktischen Abhängigkeit von US-amerikanischer militärischer Garantie, während dieser Widerspruch in wirtschaftsliberalen Medien zugunsten pragmatischer Konsortienlösungen aufgelöst wird. Ein dritter Bruchpunkt liegt in der **Delegitimationskrise des Staates als Gewaltakteur**: Während rechte und konservative Medien Sicherheit als technisch-administratives Problem präsentieren (Drohnenabwehr, KI-Systeme, Rüstungsinnovation), artikulieren linke Medien versteckt eine Grundskepsis gegenüber der Bundeswehr als Institution, ohne diese explizit zu mobilisieren.",
-  "cached_at": "2026-06-13T08:36:54.675435"
+  "shared_perspectives": "Der deutsche Mediendiskurs verbindet über alle politischen Ausrichtungen hinweg die Überzeugung, dass eine militärische Leistungssteigerung der Bundeswehr und eine stärkere europäische Rüstungsfähigkeit notwendig sind — dies zeigt sich in der breiten Berichterstattung über Waffensysteme, Rüstungsausgaben und Rüstungsprojekte ohne grundsätzliche Infragestellung dieser Prämisse. Gleichzeitig wird in konservativen, liberalen und neutralen Quellen ein konsistentes Narrativ der \"Zeitenwende\" und des sicherheitspolitischen Umbruchs nach dem Ukrainekrieg transportiert, das die Aufrüstung als historisch notwendig legitimiert, während linke und wirtschaftsliberale Medien diese Logik zwar nicht fundamental ablehnen, aber durch Kritik an Abstimmungsprozessen, Industrieinteressen oder europäischer Koordination nuancieren. Die größte medienübergreifende Übereinstimmung liegt schließlich in der Anerkennung, dass Deutschland durch die Ukraine-Krise seine außenpolitische Zurückhaltung aufgegeben hat und nun als europäische Militärmacht agieren muss — eine Verschiebung, die selbst kritische Berichterstattung als faktisch unhintergehbar darstellt.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Verteidigungsdiskurs\n\nDer tiefste Konflikt verläuft zwischen einem **Normalität-Paradigma** (konservativ bis liberal dominiert) und einem **Kritik-am-Militärisch-Industriellen** (links dominiert): Während rechts bis Mitte-Links die Rüstungsindustrialisierung als notwendige pragmatische Antwort auf die „Zeitenwende\" rahmen – mit Betonung auf technische Lösungen, Wirtschaftliche Chancen und NATO-Bündnisfähigkeit – thematisieren linke Medien systematisch die politischen und ethischen Kosten dieser Entwicklung (Profitlogik, Rüstungslobby-Einfluss, Kontinuität militarischer Denkmuster). Diese Medien reden über dasselbe Phänomen in völlig verschiedenen Bedeutungsrahmen: nicht als nationale Sicherheitsnotwendigkeit, sondern als gesellschaftliche Militarisierung.\n\nDer zweite strukturelle Konflikt ist eine **Souveränität-versus-Interdependenz-Spannung** innerhalb der pro-Rüstungs-Medienlandschaft: Konservative und rechtslastige Medien heben nationale Rüstungskapazität und Unabhängigkeit hervor und warnen implizit vor französischen oder amerikanischen Dominanzstrukturen; wirtschaftsliberal und konservativ-liberal ausgerichtete Medien hingegen betonen europäische Kooperation, transatlantische Integration und Industrie-Synergien als Lösung – was zu Irritation führt, wenn deutsch-französische Projekte scheitern oder US-amerikanische Prioritäten deutsches Handeln begrenzen.\n\nEin dritter **Legitimitäts-Konflikt** durchzieht den Diskurs zwischen sicherheitstechnokratischer Rechtfertigung (sachliche Notwendigkeit von Fähigkeiten und Kapazitäten) und demokratisch-kritischer",
+  "cached_at": "2026-06-14T08:35:13.090573"
 }
