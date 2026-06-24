@@ -1,25 +1,58 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 214,
+  "article_count": 237,
   "candidate_count": 800,
   "outlets": {
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 37,
+      "sample_titles": [
+        "USA unter Trump: Trump droht abermals NATO-Verbündeten",
+        "Kriegsdienstverweigerung: Wie einflussreich sind die Anti-Wehrpflicht-Kampagnen?",
+        "Einigung Zu KNDS: „Ein wichtiger Schritt für die Souveränität der Verteidigung“",
+        "Bund steigt bei KNDS ein: Panzer sind keine Prestigeobjekte"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-droht-abermals-nato-verbuendeten-faz-19444916.html",
+        "https://www.faz.net/aktuell/politik/inland/wehrpflicht-wie-parteien-auf-steigende-verweigererzahlen-reagieren-accg-200943277.html",
+        "https://www.faz.net/aktuell/politik/ausland/einstieg-des-bunds-bei-knds-berlin-und-paris-einig-200953924.html",
+        "https://www.faz.net/aktuell/politik/inland/bund-steigt-bei-knds-ein-panzer-sind-keine-prestigeobjekte-200954975.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "excitement",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 32,
+      "article_count": 34,
       "sample_titles": [
-        "Verteidigung: Top Gun aus Hallbergmoos – Wie der Eurofighter zum Youtube-Erfolg wurde",
-        "Kommentar: Deutschland braucht eine KI-Zeitenwende",
-        "Insight Innovation: Die „Gefechtswolken“ der Bundeswehr: Wie IT im Krieg funktioniert",
-        "+++ Ukraine-Krieg +++: EU verlängert Russland-Sanktionen erstmals um zwölf Monate"
+        "Rüstung: Pistorius will umstrittenes Fregatten-Projekt F-126 beenden",
+        "+++ Iran-Krieg +++: Trump kritisiert vor Rutte-Besuch europäische Nato-Partner",
+        "Rüstung: Zwischen Taurus und Flamingo – deutsche und ukrainische Firmen kooperieren bei Marschflugkörpern",
+        "Rüstung: Sicherer an die Front: Airbus plant unbemannte Hubschrauber"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-wie-der-eurofighter-zum-youtube-erfolg-wurde/100231310.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-deutschland-braucht-eine-ki-zeitenwende/100234160.html",
-        "https://www.handelsblatt.com/technik/forschung-innovation/verteidigung-gefechtswolken-der-bundeswehr-wie-it-im-krieg-funktioniert/100228034.html",
-        "https://www.handelsblatt.com/politik/international/ukraine-eu-verlaengert-russland-sanktionen-erstmals-um-zwoelf-monate/27982126.html"
+        "https://www.handelsblatt.com/politik/deutschland/ruestung-pistorius-will-umstrittenes-fregatten-projekt-f-126-beenden/100235328.html",
+        "https://www.handelsblatt.com/politik/international/iran-krieg-trump-kritisiert-vor-rutte-besuch-europaeische-nato-partner/100136895.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-deutsche-und-ukrainische-firmen-kooperieren-bei-marschflugkoerpern/100234158.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-sicherer-an-die-front-airbus-plant-unbemannte-hubschrauber/100232490.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -28,77 +61,11 @@
           "count": 3
         },
         {
-          "emotion": "approval",
+          "emotion": "optimism",
           "count": 2
         },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 30,
-      "sample_titles": [
-        "Hybride Bedrohungen: Der Auftritt von Pistorius brachte „Drive“ in die Innenministerkonferenz",
-        "Alarm-Schreiben von Söder: Sollen die Landeskommandos beschnitten werden?",
-        "Resilienz im Innern: Der Staat und wir alle sind gefragt",
-        "KI Für Nachrichtendienste: Wo überall hilft Künstliche Intelligenz dem Militär, Frau Probasco?"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/inland/pistorius-bei-innenministerkonferenz-in-hamburg-200946488.html",
-        "https://www.faz.net/aktuell/politik/inland/kritik-an-pistorius-laender-gegen-einschnitte-bei-landeskommandos-200946202.html",
-        "https://www.faz.net/aktuell/politik/inland/deutschland-muss-mehr-zivilschutz-wagen-200943811.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/militaer-und-ki-emelia-probasco-ueber-chancen-und-risiken-200884443.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 25,
-      "sample_titles": [
-        "Länder wollen Zivilschutz bis 2029 deutlich stärken",
-        "Schleifen und Muster am Himmel: Bundeswehr-Jets hinterlassen Kondensstreifen",
-        "Wäre ein Bundeswehreinsatz rechtlich möglich?",
-        "Bomben im Ahrtal bremsen den Wiederaufbau"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/innenministerkonferenz-hamburg-schutz-der-zivilbevoelkerung-krisenvorsorge-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/kondensstreifen-uebungsfluege-bundeswehr-100.html",
-        "https://www.tagesschau.de/ausland/asien/strasse-hormus-bundeswehreinsatz-faq-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/kampfmittelsondierung-in-mayschoss-im-einsatz-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
           "count": 1
         }
       ]
@@ -107,18 +74,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 21,
+      "article_count": 26,
       "sample_titles": [
-        "Kritik an Führungsrolle: Bundesregierung weicht polnischer Ukraine-Forderung aus",
-        "200 Millionen aus Deutschland: Nato-Gruppe sagt Ukraine Militärhilfe in Milliardenhöhe zu",
-        "Leopard und Panzerhaubitze 2000: Bundesregierung darf beim Rüstungskonzern KNDS einsteigen",
-        "Nato nicht als \"Einbahnstraße\": Hegseth will US-Truppenpräsenz in Europa umfassend prüfen"
+        "Nicht genug Freiwillige: Pistorius will Soldaten Marschbefehl nach Litauen erteilen",
+        "Bundesregierung will 40 Prozent: Berlin und Paris einigen sich auf Beteiligung an Panzerbauer KNDS",
+        "\"Nie wieder Wehrpflicht\": Demonstranten stören Pistorius bei Veteranen-Ehrung",
+        "\"Korken reingedrückt\": Pistorius weist Trump Schuld für die Hormus-Krise zu"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Bundesregierung-weicht-polnischer-Ukraine-Forderung-aus-id30991783.html",
-        "https://www.n-tv.de/politik/Nato-Gruppe-sagt-Ukraine-Militaerhilfe-in-Milliardenhoehe-zu-id30984823.html",
-        "https://www.n-tv.de/wirtschaft/Bundesregierung-darf-beim-Ruestungskonzern-KNDS-einsteigen-id30983548.html",
-        "https://www.n-tv.de/politik/Hegseth-will-US-Truppenpraesenz-in-Europa-umfassend-pruefen-id30982010.html"
+        "https://www.n-tv.de/politik/Pistorius-will-Soldaten-Marschbefehl-nach-Litauen-erteilen-id30997143.html",
+        "https://www.n-tv.de/wirtschaft/Berlin-und-Paris-einigen-sich-auf-Beteiligung-an-Panzerbauer-KNDS-id30996098.html",
+        "https://www.n-tv.de/politik/Demonstranten-stoeren-Pistorius-bei-Veteranen-Ehrung-id30994126.html",
+        "https://www.n-tv.de/politik/Pistorius-weist-Trump-Schuld-fuer-die-Hormus-Krise-zu-id30994083.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -127,11 +94,44 @@
           "count": 2
         },
         {
-          "emotion": "realization",
+          "emotion": "amusement",
           "count": 1
         },
         {
-          "emotion": "gratitude",
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 23,
+      "sample_titles": [
+        "Warnung vor Preistreiberei in der Rüstungsindustrie",
+        "Bundeswehr trainiert - Pistorius auf Truppenbesuch",
+        "Bund steigt mit 40 Prozent bei KNDS ein",
+        "Wohl kein schnelles Bundeswehr-Mandat für Hormus-Mission"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/haushalt-bundeswehr-ruestungsindustrie-100.html",
+        "https://www.tagesschau.de/ausland/europa/nato-uebung-litauen-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/knds-einstieg-bund-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/bab-pistorius-bundeswehreinsatz-hormus-100.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -140,18 +140,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 22,
       "sample_titles": [
-        "Bundeswehr erwägt offenbar Verpflichtung für Dienst in der Litauen-Brigade",
-        "Pete Hegseth: Wie Donald Trumps Verteidigungsminister die Hoffnung auf einen harmonischen Nato-Gipfel zertrümmert",
-        "Nato: US-Kürzungen gelten laut Mark Rutte ab sofort",
-        "Nato in der Krise: So wollen die Europäer die Lücken füllen, die Trump in der Nato reißt"
+        "Boris Pistorius: Der Verteidigungsminister will das Fregatten-Projekt F126 beenden",
+        "Bundeswehr: Rechnungshof warnt vor überhöhten Rüstungspreisen",
+        "Bundeswehr in Litauen: Streit um Schutz jüdischen Partisanenlagers bei Vilnius",
+        "Bundestag: Parlament entscheidet am Mittwoch über Staatseinstieg bei KNDS"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/deutschland/bundeswehr-erwaegt-offenbar-verpflichtung-fuer-dienst-in-der-litauen-brigade-a-1ff27a6b-6b2c-4dde-9782-b09ab84d212f#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/pete-hegseth-wie-donald-trumps-kriegsminister-die-hoffnung-auf-einen-harmonischen-nato-gipfel-zertruemmert-a-faf3322d-1240-4a95-8de5-7eab0d8375db#ref=rss",
-        "https://www.spiegel.de/ausland/nato-us-kuerzungen-gelten-laut-mark-rutte-ab-sofort-a-37acf397-ce78-4614-bfa2-bc8a308052eb#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/nato-in-der-krise-so-wollen-die-europaeer-die-luecken-fuellen-die-trump-in-der-nato-reisst-a-315f34bb-ccd3-4fa8-b347-5fb99a3a120c#ref=rss"
+        "https://www.spiegel.de/politik/deutschland/boris-pistorius-der-verteidigungsminister-will-das-fregatten-projekt-f126-beenden-a-95a9afcb-34d0-4646-b172-b13ff5b2cc8f#ref=rss",
+        "https://www.spiegel.de/wirtschaft/bundeswehr-rechnungshof-warnt-vor-ueberhoehten-ruestungspreisen-a-51ab5e3e-61cd-4d17-ae5d-5c3f77db153a#ref=rss",
+        "https://www.spiegel.de/geschichte/bundeswehr-in-litauen-streit-um-schutz-juedischen-partisanenlagers-bei-vilnius-a-d6a79041-b582-41fc-bbba-628c6a5db776#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/parlament-entscheidet-am-mittwoch-ueber-staatseinstieg-bei-knds-a-0c312c69-85c9-4681-a627-f2b853b45ffc#ref=rss"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -161,35 +161,6 @@
         },
         {
           "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "Wadephul fordert klare Voraussetzungen für Bundeswehr-Einsatz in Straße von Hormus",
-        "Neue Kooperationsvereinbarung: Jugendoffiziere der Bundeswehr können an Schulen kommen",
-        "Panzer & Flugabwehr: Nach FCAS-Flop: 100 deutsche Firmen auf Pariser Waffenmesse",
-        "Bündnisverteidigung: Gefechtsübung in Litauen: „Im Krieg wäre ich jetzt tot“"
-      ],
-      "urls": [
-        "https://www.stern.de/news/wadephul-fordert-klare-voraussetzungen-fuer-bundeswehr-einsatz-in-strasse-von-hormus-37549822.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/neue-kooperationsvereinbarung--jugendoffiziere-der-bundeswehr-koennen-an-schulen-kommen-37547788.html",
-        "https://www.stern.de/wirtschaft/news/panzer---flugabwehr--nach-fcas-flop--100-deutsche-firmen-auf-pariser-waffenmesse-37543686.html",
-        "https://www.stern.de/politik/ausland/buendnisverteidigung--gefechtsuebung-in-litauen---im-krieg-waere-ich-jetzt-tot--37541064.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -198,43 +169,38 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 16,
+      "article_count": 21,
       "sample_titles": [
-        "Jetzt hat Pistorius ein ernstes Litauen-Problem",
-        "Bundeswehr investiert 721 Millionen Euro in Hamburg – die Linke spricht von „Kriegslogik“",
-        "„Sehe nicht ein, dass Bundeswehrsoldaten hierfür einen Preis zahlen“",
-        "Ein Albtraum für den Ernstfall – wie Europa seinen Zukunftspanzer aufs Spiel setzt"
+        "Größtes Projekt in der Geschichte der Marine – Pistorius stoppt Bau von neuem Kampfschiff",
+        "Der militärische Testfall für die Zeitenwende",
+        "„Nie wieder Wehrpflicht“ – Pistorius kontert Störer und erntet Applaus",
+        "Deutschlands blinder Fleck am Himmel"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/plus6a33fba9759a1e18f32ec8be/bundeswehr-jetzt-hat-pistorius-ein-ernstes-litauen-problem.html",
-        "https://www.welt.de/regionales/hamburg/article6a34febf7e682fc37fc004ad/rekord-investition-bundeswehr-investiert-721-millionen-euro-in-hamburg-die-linke-spricht-von-kriegslogik.html",
-        "https://www.welt.de/videos/video6a33ea96af14c0b52895e868/usa-iran-deal-sehe-nicht-ein-dass-bundeswehrsoldaten-hierfuer-einen-preis-zahlen.html",
-        "https://www.welt.de/wirtschaft/plus6a325e84e495aff7b5846452/capint-leopard-3-panther-europas-panzer-plaene-werden-zum-risiko-fuer-den-ernstfall.html"
+        "https://www.welt.de/politik/deutschland/article6a3b1060e880869d9f53493b/bericht-groesstes-projekt-in-der-geschichte-der-marine-pistorius-stoppt-bau-von-neuem-kampfschiff.html",
+        "https://www.welt.de/politik/deutschland/plus6a379f6e7e682fc37fc0239c/litauen-brigade-der-militaerische-testfall-fuer-die-zeitenwende.html",
+        "https://www.welt.de/politik/deutschland/article6a382cceaf14c0b528961ea3/nie-wieder-wehrpflicht-pistorius-kontert-stoerer-und-erntet-applaus.html",
+        "https://www.welt.de/wirtschaft/plus6a2d4adb42314e7df5e1d2a0/beginn-einer-hybriden-kriegsfuehrung-deutschlands-neue-angst-vor-drohnen.html"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 12,
+      "article_count": 13,
       "sample_titles": [
-        "Zivilschutz und Landesverteidigung: Wie passt das zusammen?",
-        "Innenministerkonferenz zu Zivilschutz und -verteidigung",
-        "Mark Rutte zu den Ergebnissen des NATO-Treffens",
-        "Statements vor NATO-Treffen"
+        "Boris Pistorius zum Tag der Industrie",
+        "Trump kritisiert erneut Nato-Partner",
+        "Panzerbauer KNDS: Berlin und Paris einigen sich zu Einstieg",
+        "Einsatz der Bundeswehr bei Hormus laut Pistorius \"offen\""
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/zivilschutz-krise-notfall-verteidigung-innenministerkonferenz-pistorius-100.html",
-        "https://www.phoenix.de/innenministerkonferenz-a-5210939.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5210974",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5210912"
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-phoenix-tagesgespraech-a-5203409.html",
+        "https://www.zdfheute.de/politik/ausland/trump-drohung-nato-usa-besuch-rutte-100.html",
+        "https://www.zdfheute.de/wirtschaft/frankreich-deutschland-panzer-knds-100.html",
+        "https://www.zdfheute.de/politik/deutschland/pistorius-hormus-einsatz-bundeswehr-offen-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -245,9 +211,113 @@
         {
           "emotion": "annoyance",
           "count": 1
-        },
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 10,
+      "sample_titles": [
+        "„Spiegel“: Pistorius plant Ausstieg aus Rüstungsprojekt Fregatte F126",
+        "Wadephul fordert klare Voraussetzungen für Bundeswehr-Einsatz in Straße von Hormus",
+        "Neue Kooperationsvereinbarung: Jugendoffiziere der Bundeswehr können an Schulen kommen",
+        "Panzer & Flugabwehr: Nach FCAS-Flop: 100 deutsche Firmen auf Pariser Waffenmesse"
+      ],
+      "urls": [
+        "https://www.stern.de/news/-spiegel---pistorius-plant-ausstieg-aus-ruestungsprojekt-fregatte-f126-37592418.html",
+        "https://www.stern.de/news/wadephul-fordert-klare-voraussetzungen-fuer-bundeswehr-einsatz-in-strasse-von-hormus-37549822.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/neue-kooperationsvereinbarung--jugendoffiziere-der-bundeswehr-koennen-an-schulen-kommen-37547788.html",
+        "https://www.stern.de/wirtschaft/news/panzer---flugabwehr--nach-fcas-flop--100-deutsche-firmen-auf-pariser-waffenmesse-37543686.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 9,
+      "sample_titles": [
+        "Bundeswehr in Litauen: Der Sand als momentan größter Gegner",
+        "Sicherheit in den Bundesländern: Innenminister suchen die Nähe zur Bundeswehr",
+        "Bundeswehr in der Straße von Hormus: Ohne Bundestag geht es nicht",
+        "Anti-Wehrpflicht-Festival der Linken: „Unfollow Bundeswehr“"
+      ],
+      "urls": [
+        "https://taz.de/Bundeswehr-in-Litauen/!6189562/",
+        "https://taz.de/Sicherheit-in-den-Bundeslaendern/!6189316/",
+        "https://taz.de/Bundeswehr-in-der-Strasse-von-Hormus/!6188294/",
+        "https://taz.de/Anti-Wehrpflicht-Festival-der-Linken/!6185977/"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 9,
+      "sample_titles": [
+        "Verteidigungspolitik: Pistorius zweifelt an Deutschlands Verteidigungswillen",
+        "Rüstungsindustrie: Deutschland steigt für viel Geld beim Panzerbauer KNDS ein",
+        "Digitale Souveränität: Europa ist den USA ausgeliefert, das darf nicht sein",
+        "Deutsch-polnisches Verhältnis: Wadephul für Entschädigungszahlungen an polnische NS-Opfer"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/verteidigung-ruestung-pistorius-gesamtverteidigung-zivilschutz-li.3503400",
+        "https://www.sueddeutsche.de/wirtschaft/deutschland-panzerhersteller-knds-beteiligung-boersengang-li.3503140",
+        "https://www.sueddeutsche.de/meinung/fcas-digitale-souveraenitaet-europa-usa-kommentar-li.3501648",
+        "https://www.sueddeutsche.de/politik/deutschland-und-polen-aussenminister-wadephul-spricht-sich-fuer-entschaedigungszahlungen-aus-pistorius-unterzeichnet-verteidigungsabkommen-li.3499922"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
         {
           "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 8,
+      "sample_titles": [
+        "Urteil des Bundesverwaltungsgerichts - Soldatin siegt im Corona-Streit gegen Bundeswehr",
+        "Trump attackiert Deutschland - „Sie waren nicht für uns da“",
+        "Bericht: Milliarden versenkt - Aus für größtes Kampfschiff der Bundeswehr",
+        "In 300 Metern Höhe - Kampfjets donnern am Dienstag über Berlin"
+      ],
+      "urls": [
+        "https://www.bild.de/regional/thueringen/urteil-gefallen-soldatin-siegt-im-corona-streit-gegen-die-bundeswehr-69ef83347573b6e50794b132",
+        "https://www.bild.de/politik/ausland-und-internationales/trump-attackiert-deutschland-sie-waren-nicht-fuer-uns-da-6a39b445bee7c015a23d77ef",
+        "https://www.bild.de/politik/inland/pistorius-stoppt-ruestungsprojekt-aus-fuer-groesstes-kampfschiff-der-bundeswehr-6a3ad873e880869d9f534662",
+        "https://www.bild.de/regional/berlin/berlin-kampfjets-donnern-dienstag-ueber-den-funkturm-hinweg-6a3a638ce880869d9f533ac7"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -256,7 +326,7 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 7,
+      "article_count": 8,
       "sample_titles": [
         "Bundesrat prüft Einschränkung des Schutzstatus S für ukrainische Männer",
         "«Es war beschämend»: Hegseth liest Europa die Leviten und kündigt Überprüfung der US-Truppenpräsenz an",
@@ -276,80 +346,36 @@
           "count": 1
         },
         {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
           "emotion": "annoyance",
           "count": 1
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 6,
-      "sample_titles": [
-        "Sicherheit in den Bundesländern: Innenminister suchen die Nähe zur Bundeswehr",
-        "Bundeswehr in der Straße von Hormus: Ohne Bundestag geht es nicht",
-        "Rüstungsunternehmen auf der ILA: „Man kann die Dollarzeichen in den Augen sehen“",
-        "Deutsche Flugsicherung: Bundesweites Drohnen-Abwehrnetz in Planung"
-      ],
-      "urls": [
-        "https://taz.de/Sicherheit-in-den-Bundeslaendern/!6189316/",
-        "https://taz.de/Bundeswehr-in-der-Strasse-von-Hormus/!6188294/",
-        "https://taz.de/Ruestungsunternehmen-auf-der-ILA/!6186806/",
-        "https://taz.de/Deutsche-Flugsicherung/!6186733/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 7,
       "sample_titles": [
-        "Verteidigung: Ein Influencer im Dienste der Bundeswehr",
-        "Luftfahrtmesse ILA: Vivaldi trifft auf Kampfhubschrauber",
-        "Rüstungsindustrie: Mercedes-Benz und der Drohnenhersteller Tytan wollen zusammenarbeiten",
-        "Kampfjetprojekt FCAS: Ein Scheitern mit Ansage"
+        "Aufrüstung: Pistorius plant laut Berichten Aus für Fregattenprojekt F126",
+        "Luftverteidigung in Estland: Estland erhält Mittelstrecken-Flugabwehrsystem aus Deutschland",
+        "Vereinte Nationen: Wadephul erwägt Kürzungen bei UN-Engagement",
+        "Straße von Hormus: Wadephul fordert klare Voraussetzungen für Hilfe bei Minenräumung"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/bundeswehr-influencer-wehrdienst-kaempfen-fuer-deutschland-li.3496587",
-        "https://www.sueddeutsche.de/wirtschaft/ila-2026-berlin-hubschrauber-ruestung-bundesregierung-merz-fcas-drohnen-li.3497515",
-        "https://www.sueddeutsche.de/wirtschaft/mercedes-tytan-kooperation-drohnenabwehr-g-klasse-li.3495746",
-        "https://www.sueddeutsche.de/wirtschaft/fcas-merz-macron-ruestungsprojekt-li.3471737"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 5,
-      "sample_titles": [
-        "Stationierung von US-Truppen - Hegseth wettert gegen Europäer in der Nato",
-        "Bereit für den Ernstfall - Vor diesen Rüstungskrachern soll Putin bibbern",
-        "Zehntausende neue Jobs - Schafft der Rüstungsboom ein Wirtschaftswunder?",
-        "Milliarden-Zoff nicht gelöst - Merz und Macron stoppen Kampfjet-Projekt"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/truppen-der-usa-in-europa-auf-dem-pruefstand-kriegsminister-hegseth-fordert-nato-3-0-6a33a965af14c0b52895e10a",
-        "https://www.bild.de/politik/inland/merz-auf-der-ila-vor-diesen-deutschen-ruestungskrachern-soll-putin-bibbern-6a2a7a575f783159b22b07ad",
-        "https://www.bild.de/politik/inland/neue-jobs-und-investitionen-schafft-der-ruestungsboom-ein-wirtschaftswunder-6a27dfea7ae6ee108d9eb9be",
-        "https://www.bild.de/politik/milliarden-zoff-nicht-geloest-merz-und-macron-stoppen-kampfjet-projekt-6a26d4ac8d84dbd8a4ed9308"
+        "https://www.zeit.de/politik/deutschland/2026-06/boris-pistorius-fregatte-f126-marine-ende",
+        "https://www.zeit.de/politik/2026-06/luftverteidigung-estland-iris-t-raketenabwehr-diehl-defence",
+        "https://www.zeit.de/politik/deutschland/2026-06/uno-johann-wadephul-kuerzungen-vereinte-nationen",
+        "https://www.zeit.de/politik/ausland/2026-06/strasse-von-hormus-johann-wadephul-minenraeumung-bedingungen"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
         {
           "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
           "count": 1
         }
       ]
@@ -358,69 +384,35 @@
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 5,
+      "article_count": 3,
       "sample_titles": [
         "Ukraine-Krieg - Die Gegner von Waffenlieferungen haben die Debatte verloren",
         "Pflicht statt Prinzip Hoffnung - Die Bundeswehr braucht verlässliche Reservisten",
-        "Ralph Thiele über das Ende des FCAS-Projekts - „Deutschland ist kein zuverlässiger Rüstungsexporteur“",
-        "Bundeswehr als „stärkste konventionelle Armee Europas“ - Großspurige Worte vom einstigen Drückeberger"
+        "Ralph Thiele über das Ende des FCAS-Projekts - „Deutschland ist kein zuverlässiger Rüstungsexporteur“"
       ],
       "urls": [
         "https://www.cicero.de/aussenpolitik/ukraine-krieg-die-gegner-von-waffenlieferungen-haben-die-debatte-verloren",
         "https://www.cicero.de/innenpolitik/pflicht-statt-prinzip-hoffnung-die-bundeswehr-braucht-verlassliche-reservisten",
-        "https://www.cicero.de/aussenpolitik/ralph-thiele-uber-das-ende-des-fcas-projekts",
-        "https://www.cicero.de/innenpolitik/bundeswehr-als-starkste-konventionelle-armee-europas"
+        "https://www.cicero.de/aussenpolitik/ralph-thiele-uber-das-ende-des-fcas-projekts"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 4,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 2,
       "sample_titles": [
-        "Straße von Hormus: Wadephul fordert klare Voraussetzungen für Hilfe bei Minenräumung",
-        "Bündnisverteidigung: Gefechtsübung in Litauen: «Im Krieg wäre ich jetzt tot»",
-        "Bundeswehr in Litauen: Sie wollen kriegstüchtig werden",
-        "FCAS: Boris Pistorius bedauert FCAS-Aus"
+        "Bundeswehr per Marschbefehl nach Litauen",
+        "Mehr Rüstung, mehr Klimaabzocke – die EU dreht das ganz große Umverteilungsrad"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-06/strasse-von-hormus-johann-wadephul-minenraeumung-bedingungen",
-        "https://www.zeit.de/news/2026-06/14/gefechtsuebung-in-litauen-im-krieg-waere-ich-jetzt-tot",
-        "https://www.zeit.de/politik/deutschland/2026-06/bundeswehr-litauen-brigade-christiand-freuding-nato",
-        "https://www.zeit.de/politik/deutschland/2026-06/boris-pistorius-bedauert-kampfjet-aus-fcas"
+        "https://www.tichyseinblick.de/daili-es-sentials/bundeswehr-brigade-litauen-marschbefehl/",
+        "https://www.tichyseinblick.de/wirtschaft/eu-dreht-grosses-umverteilungsrad/"
       ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "Deutsche Schiffe laut Pistorius bereit für Hormus-Einsatz",
-        "NATO-Truppe im Kosovo wird kleiner",
-        "Deutschland und Frankreich beenden Kampfjet-Projekt FCAS"
-      ],
-      "urls": [
-        "https://www.dw.com/de/deutsche-schiffe-laut-pistorius-bereit-für-hormus-einsatz/a-77606669?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/nato-truppe-im-kosovo-wird-kleiner/a-77522072?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/deutschland-und-frankreich-beenden-kampfjet-projekt-fcas/a-77468216?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
@@ -443,6 +435,22 @@
         }
       ]
     },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 2,
+      "sample_titles": [
+        "Deutsche Schiffe laut Pistorius bereit für Hormus-Einsatz",
+        "Deutschland und Frankreich beenden Kampfjet-Projekt FCAS"
+      ],
+      "urls": [
+        "https://www.dw.com/de/deutsche-schiffe-laut-pistorius-bereit-für-hormus-einsatz/a-77606669?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/deutschland-und-frankreich-beenden-kampfjet-projekt-fcas/a-77468216?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
@@ -456,33 +464,19 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Fregatten-Kapitän steuert vom Homeoffice"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/fregatten-kapitaen-steuert-vom-homeoffice/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "economic-liberal": 32,
-    "far-right": 4,
-    "right-conservative": 37,
-    "left": 6,
-    "conservative-liberal": 42,
+    "right-conservative": 47,
+    "economic-liberal": 34,
     "left-liberal": 48,
-    "neutral": 40,
-    "populist-mixed": 5
+    "populist-mixed": 8,
+    "left": 9,
+    "neutral": 38,
+    "conservative-liberal": 48,
+    "far-right": 5
   },
-  "shared_perspectives": "Über alle politischen Ausrichtungen hinweg besteht im deutschen Mediendiskurs Konsens darüber, dass Deutschland seine Verteidigungsfähigkeit und militärische Eigenständigkeit erheblich stärken muss – dies zeigt sich in der breiten Akzeptanz erhöhter Rüstungsausgaben, der Modernisierung der Bundeswehr und europäischer Rüstungsprojekte, auch wenn die ideologischen Gründe unterschiedlich begründet werden (wirtschaftliche Notwendigkeit, geopolitische Verantwortung oder Sicherheitsbedrohung). Gleichzeitig wird in linken bis konservativen Medien das Spannungsfeld zwischen militärischer Aufrüstung und parlamentarischer Kontrolle sowie völkerrechtlicher Legitimität thematisiert, insbesondere bei Auslandseinsätzen und hybriden Bedrohungen – hier zeigt sich eine geteilte Sorge um institutionelle Checks and Balances. Drittens artikuliert sich über das gesamte politische Spektrum hinweg eine wachsende Verunsicherung durch die veränderte US-Sicherheitspolitik unter Trump, die von links bis konservativ als Notwendigkeit für europäische Handlungsfähigkeit und strategische Unabhängigkeit innerhalb der NATO diskutiert wird, während gleichzeitig an der Bündnisverteidigung grundsätzlich festgehalten wird.",
-  "controversial_points": "# Strukturelle Konfliktlinien in der deutschen Verteidigungspolitik-Debatte\n\nDer grundlegendste Konflikt verläuft zwischen einem **Sicherheitsparadigma der europäischen Eigenständigkeit versus der atlantischen Abhängigkeit**: Während liberal-konservative Medien die US-Kritik an deutscher Unterfinanzierung und mangelndem NATO-Engagement als berechtigte Geopolitik akzeptieren und zu erhöhten Rüstungsausgaben drängen, artikulieren linke und linksliberale Medien Angst vor einer Militarisierung der deutschen Außenpolitik und Kritik an der wachsenden Rüstungsindustrie-Verflechtung, ohne dabei eine Alternative zur NATO-Abhängigkeit anzubieten. Diese Asymmetrie zeigt sich darin, dass konservative Medien Trump-kritische US-Außenpolitik als externe Zwangslage rahmen (Hegseth als Herausforderung, die neue deutsche Verantwortung legitimiert), während linke Medien dieselbe Entwicklung zur Kritik an deutscher Anpassung nutzen – beide sprechen also von Zeitenwende, meinen aber gegensätzliche Richtungen.\n\nEin zweiter **Konflikt zwischen Sicherheit als technologisch-militärische Effizienz versus demokratisch-parlamentarische Kontrolle** durchzieht den Diskurs: Technisch-wirtschaftlich orientierte und conservative Medien glorifizieren Rüstungsinnovation (KI-Einsatz, Cyber-Abwehr, Eurofighter-Effektivität) als nationale Stärke, während linke Medien systematisch die Legitimation einzelner Einsätze (Hormus, Litauen-Brigade) durch Parlamentsvorbehalt und Verfahrensfragen stellvertretend infrage stellen – nicht als grundsätzliche Pazifisten-Position, sondern als Governance-Problem. Das zeigt einen Konflikt über",
-  "cached_at": "2026-06-21T08:55:13.671358"
+  "shared_perspectives": "Über alle politischen Ausrichtungen hinweg besteht Konsens darüber, dass Deutschland seine Verteidigungsfähigkeit durch technologische Modernisierung und europäische Rüstungskooperationen (insbesondere das KNDS-Projekt mit Frankreich) stärken muss, wobei die Kritik sich weniger gegen diese strategische Ausrichtung richtet als gegen konkrete Umsetzungsprobleme wie Kostenpflichtigkeitssteigerungen und Projektmanagement-Defizite. Die Debatte um das F-126-Fregatten-Projekt zeigt zudem breite Übereinstimmung, dass Rüstungsprojekte regelmäßigen Effizienzprüfungen unterliegen sollten, ohne dass dies als grundsätzliche Infragestellung der Aufrüstungspolitik interpretiert wird. Selbst bei divergierenden Positionen zur Wehrpflicht oder zu Auslandseinsätzen teilt der deutsche Mediendiskurs die Prämisse, dass NATO-Bündnisverpflichtungen und die erhöhte Verteidigungsausgabe im Kontext der \"Zeitenwende\" nicht verhandelbar sind, sondern nur ihre organisatorische und finanzielle Umsetzung diskutiert wird.",
+  "controversial_points": "Der zentrale Konflikt verläuft zwischen einer **sicherheitspolitischen Notwendigkeitslogik** (konservativ bis liberal) und einer **demokratischen Legitimationskrise** (linker bis populistischer Diskurs): Während rechts-konservative und wirtschaftsliberale Medien die Aufrüstung, NATO-Integration und militärische Operationalisierung als unvermeidbare Reaktion auf externe Bedrohungen rahmen, kritisiert die Linke und Populistische Rechte sowohl die fehlende parlamentarische Kontrolle (Hormus-Einsatz ohne Bundestag) als auch die strukturelle Fusion von Sicherheitsstaat und Rüstungsindustrie als demokratisches Legitimitätsdefizit. Die zweite Konfliktlinie liegt zwischen **europäischer Autonomie und atlantischer Abhängigkeit**: Hier entstehen paradoxe Allianzen, wo Konservative und Liberale die deutsche KNDS-Beteiligung als souveräne europäische Aufrüstung feiern, während die Linke die wirtschaftliche Verflechtung kritisiert und die FAR-RIGHT die französisch-deutsche Rüstungsintegration als „Erbfeind\"-Problem ideologisiert und gleichzeitig Trump-bedingte NATO-Unsicherheit instrumentalisiert.",
+  "cached_at": "2026-06-24T08:12:20.700379"
 }

@@ -1,38 +1,38 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 117,
+  "article_count": 87,
   "candidate_count": 800,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 28,
+      "article_count": 23,
       "sample_titles": [
-        "Podcast Löhr & Pennekamp: KI als Waffe – jetzt wird es ungemütlich",
-        "Lernen in Zeiten von KI: „Chatty“ krempelt die Schule um",
-        "F.A.Z.-Serie Schneller Schlau: Wer am Arbeitsplatz von KI profitiert",
-        "Digitalwirtschaft-Podcast: Warum fällt Unternehmen die Digitalisierung schwer, Herr Buhrmann?"
+        "Plus 1000 Prozent: Diese KI-Aktien aus China sind auf Höhenflug",
+        "Vergleichsstudie: Wie vertragen sich KI und Compliance?",
+        "Lernen in Zeiten von KI: Auch Schüler haben Angst zu verblöden",
+        "Digitalisierung: So trifft KI den Arbeitsmarkt"
       ],
       "urls": [
-        "https://www.faz.net/podcasts/loehr-pennekamp/ki-wird-von-donald-trump-als-waffe-eingesetzt-200946533.html",
-        "https://www.faz.net/aktuell/ki-hat-die-schule-veraendert-wie-sieht-das-lernen-nun-aus-200943301.html",
-        "https://www.faz.net/aktuell/wer-am-arbeitsplatz-von-ki-profitiert-200932265.html",
-        "https://www.faz.net/podcasts/f-a-z-digitalwirtschaft/gft-deutschlandchef-buhrmann-im-podcast-warum-faellt-unternehmen-die-digitalisierung-schwer-200948738.html"
+        "https://www.faz.net/premium/meine-finanzen/aktien/zhipu-ai-und-minimax-der-ki-boom-an-der-boerse-hongkong-200935671.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/ki-und-compliance-wie-gut-sind-openai-und-google-200955951.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/wie-ki-den-unterricht-umkrempelt-chatty-macht-jetzt-die-hausaufgaben-200943301.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/so-trifft-ki-den-arbeitsmarkt-accg-200939201.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 4
+          "count": 6
         },
         {
-          "emotion": "admiration",
-          "count": 2
+          "emotion": "realization",
+          "count": 1
         },
         {
-          "emotion": "excitement",
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -41,18 +41,47 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 20,
+      "article_count": 16,
       "sample_titles": [
-        "Technologie: Warum ausgerechnet der Papst zur Orientierungshilfe bei KI wird",
-        "Kommentar: Deutschland braucht eine KI-Zeitenwende",
-        "Meckel & Matthes: Europas Sputnik-Moment, Deglobalisierung der Unterhaltung und die Frage: Wie viel KI sollte ein Minister nutzen?",
-        "Künstliche Intelligenz: Nachfrage nach Cohere steigt sprunghaft an"
+        "Künstliche Intelligenz: Wie auch Schwellenländer vom KI-Boom  profitieren",
+        "Künstliche Intelligenz: Ex-AWS-Chef Selipsky: „Heute ist Energie der große Engpass“",
+        "Softwarekonzern: Oracle hat im Zuge seines KI-Umbaus rund 21.000 Stellen gestrichen",
+        "DB: VW-Manager Obrowski soll offenbar neuer Finanzchef der Deutschen Bahn werden"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/technologie-warum-ausgerechnet-der-papst-zur-orientierungshilfe-bei-ki-wird/100233650.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-deutschland-braucht-eine-ki-zeitenwende/100234160.html",
-        "https://www.handelsblatt.com/audio/meckel-und-matthes/meckel-matthes-europas-sputnik-moment-deglobalisierung-der-unterhaltung-und-die-frage-wie-viel-ki-sollte-ein-minister-nutzen/100234237.html",
-        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-ki-firma-cohere-profitiert-von-anthropic-verbot/100234138.html"
+        "https://www.handelsblatt.com/finanzen/kuenstliche-intelligenz-wie-auch-schwellenlaender-vom-ki-boom-profitieren/100234140.html",
+        "https://www.handelsblatt.com/technik/it-internet/adam-selipsky-heute-ist-energie-der-grosse-engpass/100233144.html",
+        "https://www.handelsblatt.com/technik/it-internet/softwarekonzern-oracle-hat-im-zuge-seines-ki-umbaus-rund-21.000-stellen-gestrichen/100235031.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/db-vw-manager-wird-neuer-finanzchef-der-deutschen-bahn/100234974.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 9,
+      "sample_titles": [
+        "KI in der Schule: Was Lehrer und Schüler jetzt lernen müssen",
+        "Berliner Datenschutzbeauftragte: Deutlich mehr Beschwerden",
+        "KI-Anträge belasten Gerichte in NRW",
+        "Abiturient entwickelt KI-System gegen Telefon-Trickbetrug"
+      ],
+      "urls": [
+        "https://www1.wdr.de/nrw/ki-schule-nrw-hausaufgaben-lehrer-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/06/berlin-datenschutz-beschwerden-anfragen-datenschutzbeauftragte-jahresbericht.html",
+        "https://www1.wdr.de/nrw/ruhrgebiet/ki-klagen-gericht-chatgpt-100.html",
+        "https://www.br.de/nachrichten/bayern/abiturient-erfindet-ki-system-gegen-telefon-trickbetrug,VMnVWBZ"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -63,38 +92,9 @@
         {
           "emotion": "confusion",
           "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 10,
-      "sample_titles": [
-        "Wie treffsicher sind KI-Prognosen zur WM?",
-        "Wenn Schule nur noch Druck macht",
-        "Müssen Berufsanfänger Künstliche Intelligenz fürchten?",
-        "KI-Boom macht iPhones teurer"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/wissen/forschung/fussball-ki-vorhersage-tippspiel-100.html",
-        "https://www1.wdr.de/nrw/niederrhein/kreis-wesel/schule-druck-selbsthilfe-wesel-100.html",
-        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/kuenstliche-intelligenz-junge-menschen-berufseinsteiger-100.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/apple-iphone-preise-ki-chips-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 4
         },
         {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -103,24 +103,24 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 9,
+      "article_count": 8,
       "sample_titles": [
-        "KI und Journalismus: Ist da wer?",
-        "KI im Journalismus: Text ohne Autor",
-        "KI-Erkennungssoftware: Die Grenzen der Detektoren",
-        "Ressourcenverbrauch von KI: Nimmersatt"
+        "Beraterin über Rassismus unter Migranten: „Das ist ein blinder Fleck“",
+        "Neuer Datenschutzbeauftragter: Mr Moderat hat das Amt sicher",
+        "Kinder fragen, die taz antwortet: Waren Menschen schon auf allen Bergen der Welt?",
+        "KI und Journalismus: Ist da wer?"
       ],
       "urls": [
-        "https://taz.de/KI-und-Journalismus/!6185391/",
-        "https://taz.de/KI-im-Journalismus/!6185296/",
-        "https://taz.de/KI-Erkennungssoftware/!6185273/",
-        "https://taz.de/Ressourcenverbrauch-von-KI/!6185410/"
+        "https://taz.de/Beraterin-ueber-Rassismus-unter-Migranten/!6184209/",
+        "https://taz.de/Neuer-Datenschutzbeauftragter/!6190015/",
+        "https://taz.de/Kinder-fragen-die-taz-antwortet/!6185326/",
+        "https://taz.de/KI-und-Journalismus/!6185391/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "fear",
@@ -132,21 +132,68 @@
         }
       ]
     },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 6,
+      "sample_titles": [
+        "Künstliche Intelligenz: Wie KI-Butler den Onlineeinkauf übernehmen sollen",
+        "Meta: Konzern stoppt internes Programm zur Mitarbeiterüberwachung",
+        "Künstliche Intelligenz in der Medizin: »Die KI, allein eingesetzt, kann lebensgefährlich sein«",
+        "Innenministerkonferenz: Wie der Online-Kult um Rechtsterroristen eingedämmt werden soll"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-wie-ki-butler-den-onlineeinkauf-uebernehmen-sollen-a-1c918ae0-b3d8-47d6-8bfd-341e98c3fbe4#ref=rss",
+        "https://www.spiegel.de/netzwelt/web/meta-konzern-stoppt-internes-programm-zur-mitarbeiterueberwachung-a-eda1dbf5-8ae1-49d8-97d9-a30e3ad98a4b#ref=rss",
+        "https://www.spiegel.de/wissenschaft/kuenstliche-intelligenz-in-der-medizin-die-ki-allein-eingesetzt-kann-lebensgefaehrlich-sein-a-89886e23-df9f-4fa2-b96e-677a9fda927e#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/innenministerkonferenz-wie-der-online-kult-um-rechtsterroristen-eingedaemmt-werden-soll-a-bb3386e3-4f03-4fff-9606-51939e30f8c9#ref=rss"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "Wahrheit und Täuschung Wenn Mario Voigt die Künstliche Intelligenz für sich fühlen lässt",
+        "Gefährliche Tech-Elite Aya Jaff: Wunderkind und Warnerin",
+        "EUDI-Wallet Ausweisen, überwachen, kontrollieren: Die EU plant die digitale Identität",
+        "Digitale Welt Worum geht es beim Social Media-Verbot für Kinder?"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/kultur/2026/wenn-mario-voigt-die-maschine-fuer-sich-fuehlen-laesst/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/aya-jaff-wunderkind-und-warnerin/",
+        "https://jungefreiheit.de/kultur/medien/2026/warum-die-eudi-wallet-kein-grund-zum-jubeln-ist/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/worum-geht-es-beim-social-media-verbot-fuer-kinder/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 8,
+      "article_count": 3,
       "sample_titles": [
+        "INTERVIEW - «Die Möglichkeiten von KI im Krieg auszuschöpfen, kann das Ende der Menschheit bedeuten», sagt der oberste Uno-Abrüstungsforscher",
         "Im Wallis soll ein Betreuer KI-Nacktbilder einer Schülerin erstellt haben – nun fordert der Nationalrat ein Verbot von Deepfakes",
-        "Lasse Lund soll als Kind mehrere Jahre allein in den Gassen Mumbais gelebt haben – jetzt fordert er Gerechtigkeit und bringt die finnischen und norwegischen Behörden in Erklärungsnot",
-        "Ein KI-Maradona setzt vulgäre Sprüche ab und propagiert Glücksspiele – Argentinien reagiert entsetzt",
         "Sebastian Kurz: Der frühere Bundeskanzler ist jetzt ein ambitionierter KI-Unternehmer"
       ],
       "urls": [
+        "https://www.nzz.ch/technologie/die-moeglichkeiten-von-ki-im-krieg-auszuschoepfen-kann-das-ende-der-menschheit-bedeuten-sagt-der-oberste-uno-abruestungsforscher-ld.10011903",
         "https://www.nzz.ch/schweiz/im-wallis-soll-ein-betreuer-ki-nacktbilder-einer-schuelerin-erstellt-haben-nun-fordert-der-nationalrat-ein-verbot-von-deepfakes-ld.10012005",
-        "https://www.nzz.ch/international/wie-der-norweger-lasse-lund-als-kind-allein-in-mumbai-indien-lebte-ld.10011683",
-        "https://www.nzz.ch/international/ein-ki-maradona-setzt-vulgaere-sprueche-ab-und-propagiert-gluecksspiele-argentinien-reagiert-entsetzt-ld.10011946",
         "https://www.nzz.ch/wirtschaft/sebastian-kurz-der-fruehere-bundeskanzler-ist-jetzt-ein-ambitionierter-ki-unternehmer-ld.10011886"
       ],
       "dominant_emotion": "curiosity",
@@ -157,122 +204,61 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Künstliche Intelligenz in der Medizin: »Die KI, allein eingesetzt, kann lebensgefährlich sein«",
-        "Innenministerkonferenz: Wie der Online-Kult um Rechtsterroristen eingedämmt werden soll",
-        "Klein Lobke bei Hannover: Warum hat der Gänsegeier das Storchennest geplündert?",
-        "Olivia Wilde prangert Doppelstandards für ihr Liebesleben an"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wissenschaft/kuenstliche-intelligenz-in-der-medizin-die-ki-allein-eingesetzt-kann-lebensgefaehrlich-sein-a-89886e23-df9f-4fa2-b96e-677a9fda927e#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/innenministerkonferenz-wie-der-online-kult-um-rechtsterroristen-eingedaemmt-werden-soll-a-bb3386e3-4f03-4fff-9606-51939e30f8c9#ref=rss",
-        "https://www.spiegel.de/wissenschaft/natur/klein-lobke-bei-hannover-warum-hat-der-gaensegeier-das-storchennest-gepluendert-a-0620a5d8-df0f-4589-8766-3737cd7b5399#ref=rss",
-        "https://www.spiegel.de/panorama/leute/olivia-wilde-prangert-doppelstandards-fuer-ihr-liebesleben-an-a-94cc1760-df1c-4762-b0dc-4b2d21d647d0#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 8,
+      "article_count": 3,
       "sample_titles": [
+        "Steinmeier mahnt Politiker bei Verwendung von KI zur Vorsicht",
         "KI-Staat Argentinien – warum Mileis radikaler Bürokratieabbau der Weg in die Zukunft ist",
-        "„Bei KI und Digitalisierung laufen wir ziemlich hinterher“",
-        "Nvidia und Hyundai kooperieren – Labor ohne Personal – Stromfresser KI-Systeme",
-        "Sebastian Kurz’ Startup erreicht Bewertung von drei Milliarden US-Dollar"
+        "„Bei KI und Digitalisierung laufen wir ziemlich hinterher“"
       ],
       "urls": [
+        "https://www.welt.de/politik/deutschland/article6a3a83a9bee7c015a23d866d/kuenstliche-intelligenz-in-der-politik-steinmeier-warnt-vor-dem-verlust-menschlicher-urteilsfaehigkeit.html",
         "https://www.welt.de/kultur/article6a3532377e682fc37fc0096e/technologische-utopie-ki-staat-argentinien-warum-mileis-radikaler-buerokratieabbau-der-weg-in-die-zukunft-ist.html",
-        "https://www.welt.de/videos/video6a33e13646cd409e901a5c69/deutsche-wirtschaft-unter-druck-bei-ki-und-digitalisierung-laufen-wir-ziemlich-hinterher.html",
-        "https://www.welt.de/videos/video6a33b31f759a1e18f32ec0b4/ki-welt-nvidia-und-hyundai-kooperieren-labor-ohne-personal-stromfresser-ki-systeme.html",
-        "https://www.welt.de/wirtschaft/article6a339d73a7834e0047eedca6/ex-kanzler-sebastian-kurz-startup-dream-erreicht-bewertung-von-drei-milliarden-us-dollar.html"
+        "https://www.welt.de/videos/video6a33e13646cd409e901a5c69/deutsche-wirtschaft-unter-druck-bei-ki-und-digitalisierung-laufen-wir-ziemlich-hinterher.html"
       ],
-      "dominant_emotion": "disgust",
-      "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 7,
+      "article_count": 3,
       "sample_titles": [
+        "Datenleck!  - Meta stoppt internes KI-Programm",
         "Der große Report - Ersetzt Künstliche Intelligenz bald die Ärzte?",
-        "Katja Krasavice - Die Schatten meiner Kindheit",
-        "KI-Infrastruktur - Europas neue Aufrüstung! Das sind die 12 Gewinner-Aktien",
-        "Sohn ertrank im Pool, Vater schaute Sport - Darum vergibt Influencerin Emilie Kiser ihrem Mann"
+        "KI-Infrastruktur - Europas neue Aufrüstung! Das sind die 12 Gewinner-Aktien"
       ],
       "urls": [
+        "https://www.bild.de/leben-wissen/digital/datenleck-meta-stoppt-internes-ki-programm-6a39b4b1e880869d9f532cbb",
         "https://www.bild.de/leben-wissen/medizin/der-grosse-report-ersetzt-kuenstliche-intelligenz-bald-die-aerzte-6a3284a47e682fc37fbfdea1",
-        "https://www.bild.de/unterhaltung/stars-und-leute/katja-krasavice-rapperin-war-lange-gefangen-in-der-liebes-hoelle-6a30c8436bb5c7fe2e1c8973",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/ki-infrastruktur-europas-neue-aufruestung-das-sind-die-12-gewinner-aktien-6a3507a55e7a993acdae3667",
-        "https://www.bild.de/unterhaltung/bildgg/emilie-kiser-influencerin-gibt-erstes-interview-nach-tragoedie-sohn-ertrank-im-pool-6a326de87e682fc37fbfdc63"
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/ki-infrastruktur-europas-neue-aufruestung-das-sind-die-12-gewinner-aktien-6a3507a55e7a993acdae3667"
       ],
-      "dominant_emotion": "love",
-      "top_emotions": [
-        {
-          "emotion": "love",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 7,
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 3,
       "sample_titles": [
-        "Gefühle für Algorithmen: Die neue Intimität mit KI-Bots",
-        "Konferenz in Hamburg: Sabotage, Blackout, Krieg - Innenminister wollen Deutschland krisenfest machen",
-        "Aussichten fürs dritte Quartal : Führt der KI-Boom zur großen Korrektur?",
-        "In überhitztem Auto entdeckt: Staatsanwaltschaft ermittelt gegen Mutter des toten Kindes"
+        "Dank Digitalisierung: Laden und liefern leicht gemacht",
+        "Digitale Souveränität: Europa ist den USA ausgeliefert, das darf nicht sein",
+        "Digitale Infrastruktur: Das Märchen vom Glasfasernetz für alle"
       ],
       "urls": [
-        "https://www.n-tv.de/panorama/Die-neue-Intimitaet-mit-KI-Bots-id30902716.html",
-        "https://www.n-tv.de/politik/Sabotage-Blackout-Krieg-Innenminister-wollen-Deutschland-krisenfest-machen-id30988386.html",
-        "https://www.n-tv.de/ratgeber/Fuehrt-der-KI-Boom-zur-grossen-Korrektur-id30979124.html",
-        "https://www.n-tv.de/panorama/Staatsanwaltschaft-ermittelt-gegen-Mutter-des-toten-Kindes-id30981658.html"
+        "https://www.sueddeutsche.de/muenchen/altstadt-verkehr-muenchen-ob-krause-lieferzonen-wirtschaftsverkehr-li.3500490",
+        "https://www.sueddeutsche.de/meinung/fcas-digitale-souveraenitaet-europa-usa-kommentar-li.3501648",
+        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/glasfasernetz-ausbau-stockt-germerig-puchheim-olching-li.3497463"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -295,25 +281,25 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
       "article_count": 3,
       "sample_titles": [
-        "Technologie Wenn die Hackerangriffe und Cyberattacken kommen",
-        "EUDI-Wallet Ausweisen, überwachen, kontrollieren: Die EU plant die digitale Identität",
-        "Auf X vorgeführt Neos-Abgeordneter Brandstätter attackiert Musk – und blamiert sich bis auf die Knochen"
+        "Gefühle für Algorithmen: Die neue Intimität mit KI-Bots",
+        "Aussichten fürs dritte Quartal : Führt der KI-Boom zur großen Korrektur?",
+        "Beim DFB-Spiel gegen Curacao: Deutscher Fan wird für Hitler-KI-Bild missbraucht"
       ],
       "urls": [
-        "https://jungefreiheit.de/wissen/2026/wenn-die-hackerangriffe-und-cyberattacken-kommen/",
-        "https://jungefreiheit.de/kultur/medien/2026/warum-die-eudi-wallet-kein-grund-zum-jubeln-ist/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/neos-abgeordneter-brandstaetter-haelt-rufschaedigung-fuer-meinungsfreiheit/"
+        "https://www.n-tv.de/panorama/Die-neue-Intimitaet-mit-KI-Bots-id30902716.html",
+        "https://www.n-tv.de/ratgeber/Fuehrt-der-KI-Boom-zur-grossen-Korrektur-id30979124.html",
+        "https://www.n-tv.de/sport/fussball-wm/Deutscher-Fan-wird-fuer-Hitler-KI-Bild-missbraucht-id30982787.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -324,82 +310,47 @@
       "bias": "left-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Newsblog zur Fußball-WM: 2:0 gegen Australien: USA vorzeitig in K.o.-Phase",
-        "Streaming-Plan: Westeros in Brand: Das sind die Streaming-Tipps der Woche"
+        "Gelsenkirchen: Decke in Wohnhaus bricht durch",
+        "Strenge Regeln: Leitfaden für Ministerien: KI mit wenig Daten füttern"
       ],
       "urls": [
-        "https://www.stern.de/sport/fussball/wm2026/fussball-wm-liveticker--2-0-gegen-australien---usa-vorzeitig-in-k-o--phase-37392836.html",
-        "https://www.stern.de/kultur/tv/westeros-in-brand--das-sind-die-streaming-tipps-der-woche-37573800.html"
+        "https://www.stern.de/panorama/decke-in-gelsenkirchener-wohnhaus-bricht-durch---eine-verletzte-person-37592094.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/strenge-regeln--leitfaden-fuer-ministerien--ki-mit-wenig-daten-fuettern-37586788.html"
       ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 2,
-      "sample_titles": [
-        "Politik-Experte: Mit KI droht \"Verdummung\"",
-        "Digitaler Euro soll Bargeld ergänzen und Europa stärken"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/video/heute-journal/ki-verdummung-authenzitaet-100.html",
-        "https://www.zdfheute.de/wirtschaft/digitaler-euro-europaeischer-zahlungsverkehr-virtuelle-waehrung-bezahldienst-100.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
       "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "Deutschlands Unternehmen am Abgrund | Tichys Börsenwecker am 19. Juni 2026"
+        "Sind die Unangepassten otrovertiert?"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-19-juni-2026/"
+        "https://www.achgut.com/artikel/sind_die_unangepassten_otrovertiert"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Künstliche Intelligenz: Macron will „Plattform“, um KI international zu regulieren"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/ki-evian-macron-g7-regulierung-li.3500648"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "populist-mixed": 7,
-    "conservative-liberal": 36,
+    "economic-liberal": 16,
+    "conservative-liberal": 26,
+    "left": 8,
     "left-liberal": 14,
-    "far-right": 4,
-    "right-conservative": 15,
-    "economic-liberal": 20,
-    "left": 9,
-    "neutral": 12
+    "right-conservative": 6,
+    "neutral": 9,
+    "populist-mixed": 3,
+    "far-right": 5
   },
-  "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im deutschen Mediendiskurs zu KI und Digitalisierung\n\nÜber alle politischen Spektren hinweg dominiert eine Debatte über Deutschlands und Europas technologische Abhängigkeit und Rückständigkeit gegenüber den USA, die sowohl als wirtschaftliche Bedrohung als auch als geopolitisches Risiko dargestellt wird — vom progressiven Warnen vor US-Konzernabhängigkeit bis zur konservativen Forderung nach europäischer Souveränität. Eine zweite erkennbare Übereinstimmung besteht darin, dass KI primär als transformative Kraft für etablierte Institutionen und Arbeitsmärkte wahrgenommen wird, wobei die Frage nach Verdrängung von Fachleuten (Ärzte, Lehrer, Arbeiter) sowie erforderliche Umqualifizierung zentral sind. Drittens zeigt sich eine breite, wenn auch unterschiedlich gewichtete Besorgnis um regulatorische und ethische Grenzen — von Datenschutz über manipulative Deepfakes bis zu unkontrollierter Überwachungstechnologie — die unabhängig von der Medienpolarisierung als notwendiger Gegenpol zur technologischen Euphorie diskutiert wird.",
-  "controversial_points": "# Strukturelle Konflikte im deutschen KI-Mediendiskurs\n\nDer fundamentale Konflikt verläuft zwischen einer **technologie-deterministischen Narrativ der Notwendigkeit** (Economic-Liberal und Conservative-Liberal rahmen KI als unvermeidbare Transformation, der sich Deutschland anpassen muss) und einer **Narrativ der gestaltbaren Alternativen** (Left und Left-Liberal hinterfragen die technologische Zwangsläufigkeit und fordern gesellschaftliche Kontrolle über Ressourcenverbrauch, Bias und Machtkonzentration). Dieser Konflikt ist nicht primär eine Frage von Pro und Contra KI, sondern ob KI-Entwicklung als exogenes Phänomen zu akzeptieren ist oder als politisch formbar gilt.\n\nDie zweite Bruchlinie spaltet die Debatte in **souveränitätsorientierte versus integrationsorientierte Frames**: Während Far-Right und teils Right-Conservative KI-Technologien als Instrument von US-amerikanischer Kontrolle und europäischer Überwachung darstellen (EUDI-Wallet, US-Konzernabhängigkeit), argumentiert die Economic-Liberal und Conservative-Liberal Position, dass Deutschland durch regulatorische Führerschaft und Industrieförderung globale Abhängigkeit überwinden kann – was den immanenten Widerspruch offenbart, dass beide Positionen KI-Entwicklung als strategisches Mittel zur Machtentfaltung (nicht zur Begrenzung) verstehen.\n\nDie dritte Spannungslinie betrifft den **Normalisierungs- versus Alarmierungsrahmen**: Der Neutral- und Mainstream-Diskurs normalisiert KI-Auswirkungen auf Arbeitsmarkt, Bildung und Privatbeziehungen als manageable Transformationen, während Left und Left-Liberal die existenziellen Bruchstellen (Ressourcenvernichtung, Arbeitsverlust, Techno-Paternalismus) thematisieren –",
-  "cached_at": "2026-06-21T08:54:00.592926"
+  "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im deutschen Mediendiskurs zu KI und Digitalisierung\n\nÜber alle politischen Lager hinweg wird in der deutschen Medienlandschaft ein grundlegender Besorgnis-Konsens sichtbar: dass Deutschland und Europa technologisch und infrastrukturell im internationalen KI-Wettbewerb — insbesondere gegenüber den USA und China — deutlich zurückfallen und dieses Rückstand eine nationale Herausforderung darstellt, die sofortige Investitionen und politisches Handeln erfordert. Parallel dazu besteht eine breite diskursive Übereinkunft, dass KI erhebliche und unmittelbare Auswirkungen auf den Arbeitsmarkt haben wird und dass diese Transformation mit Risiken für verschiedene Berufsgruppen verbunden ist — wobei diese Risiken sowohl ökonomisch als auch sozial-psychologisch (etwa Angst vor Veralterung von Fähigkeiten) thematisiert werden. Drittens findet sich über ideologische Grenzen hinweg die Anerkennung, dass KI-Regulierung, Datenschutz und Fragen der Kontrolle über technologische Systeme zentrale politische Gestaltungsfelder sind, auch wenn die Medien das Ausmaß von Kontrollbedarf oder Gefährdungsszenarien unterschiedlich gewichten.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen KI-Diskurs\n\nDer zentrale Konflikt verläuft zwischen einer **wettbewerbsorientierten Fortschrittserzählung und einer Souveränitätslogik**: Während liberal-wirtschaftliche Medien KI primär als globales Effizienzproblem rahmen (Energiemangel, Standortwettbewerb, Arbeitsmarktanpassung), konstruieren linke und linksgerichtete Medien KI als Infrastruktur von Kontrolle und Abhängigkeit, die europäische bzw. deutsche Autonomie erodiert. Dabei liegt das eigentliche Spannungsfeld nicht bei der Frage \"Risiken ja oder nein\", sondern bei der konkurrenziellen Definition von Schaden: Für wirtschaftsliberal geprägte Publikationen ist technologisches Zurückfallen das zentrale Risiko, für linke und progressive Medien hingegen die Erosion von Datenschutz, Mitbestimmung und digitaler Unabhängigkeit.\n\nEin zweiter struktureller Bruch zeigt sich zwischen **fragmentierter Expertokratie und populärer Kontrollangst**: Der rechte und rechtskonservative Diskurs politisiert KI explizit als Überwachungs- und Manipulationsinstrument von Eliten (EUDI-Wallet, Digital ID, Algorithmen-Kontrolle), während etablierte Medien quer durch ihre Spektren KI technologisch entweder neutralisieren (als Schulfach, Werkzeug) oder depolitisieren (als Naturgewalt wie \"Energie\"). Dies offenbart einen Konsens der etablierten Medien, KI als manageable Governance-Frage zu behandeln, während außerparlamentarische und rechtspopulistische Medien die fundamentale Machtverschiebung durch digitale Systeme als eigentlichen Konflikt benennen.",
+  "cached_at": "2026-06-24T08:11:07.317161"
 }

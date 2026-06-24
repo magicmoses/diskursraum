@@ -1,104 +1,71 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 332,
-  "candidate_count": 541,
+  "article_count": 528,
+  "candidate_count": 737,
   "outlets": {
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 51,
-      "sample_titles": [
-        "Spätere Rente, private Vorsorge: Bericht: Kommission einigt sich auf heikle Rentenreform",
-        "Mit ETFs Rentenlücke schließen: Die ntv ETF Masterclass: Schritt für Schritt zur eigenen ETF Strategie",
-        "IW-Studie kommt auf 25 Prozent: Zahl arbeitender Frührentner steigt sprunghaft",
-        "Reform könnte sich verzögern: Bericht: Rentenkommission einigt sich, aber nicht einstimmig"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Bericht-Kommission-einigt-sich-auf-heikle-Rentenreform-id30991759.html",
-        "https://www.n-tv.de/ratgeber/ntv-ETF-Masterclass-Der-verstaendliche-Einstieg-in-ETFs-id30816512.html",
-        "https://www.n-tv.de/wirtschaft/Zahl-arbeitender-Fruehrentner-steigt-sprunghaft-id30985070.html",
-        "https://www.n-tv.de/politik/Bericht-Rentenkommission-einigt-sich-aber-nicht-einstimmig-id30982226.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 42,
+      "article_count": 74,
       "sample_titles": [
-        "„Absolutes Unding und völlig realitätsfern“ – Linke übt scharfe Kritik an Renten-Vorschlägen",
-        "Finanzierung, Regeleintritt, Höhe – Das sind die wichtigsten Vorschläge der Rentenkommission",
-        "Teilzeitquote von Frauen – „Die Gesellschaft verzichtet auf eine Menge Wohlstand“, sagt Fratzscher",
-        "„Die Rentenreform wird mit über das Schicksal dieser Koalition entscheiden“"
+        "Gesamtkonstrukt „nicht zerreden“ – Bas will SPD von Rentenplan überzeugen",
+        "Beamte werden verschont, Selbstständige nicht – so entstand der neue Renten-Plan",
+        "„Es ist aus unserer Sicht sehr ausgewogen und wird laufend überprüft“",
+        "„Die Einbeziehung der Beamten oder Nicht-Beamten ins System spielt keine entscheidende Rolle“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a371750af14c0b528961264/absolutes-unding-und-voellig-realitaetsfern-linke-uebt-scharfe-kritik-an-renten-vorschlaegen.html",
-        "https://www.welt.de/politik/plus6a33a2daa7834e0047eedd49/finanzierung-regeleintritt-hoehe-das-sind-die-vorschlaege-der-rentenkommission.html",
-        "https://www.welt.de/wirtschaft/article6a2f36a16bb5c7fe2e1c6c06/marcel-fratzscher-teilzeitquote-von-frauen-die-gesellschaft-verzichtet-auf-wohlstand.html",
-        "https://www.welt.de/politik/deutschland/article6a2f30806bb5c7fe2e1c6bd0/rente-senioren-union-die-rentenreform-wird-mit-ueber-schicksal-dieser-koalition-entscheiden.html"
+        "https://www.welt.de/politik/deutschland/article6a3b1b06bee7c015a23d8dd4/reform-gesamtkonstrukt-nicht-zerreden-bas-will-spd-von-rentenplan-ueberzeugen.html",
+        "https://www.welt.de/wirtschaft/plus6a3a93d5e880869d9f534117/beamte-werden-verschont-selbststaendige-nicht-so-entstand-der-neue-rentenplan.html",
+        "https://www.welt.de/wirtschaft/video6a3aacbb7b0e6c975b092724/neu-geschnuertes-rentenpaket-es-ist-aus-unserer-sicht-sehr-ausgewogen-und-wird-laufend-ueberprueft.html",
+        "https://www.welt.de/videos/video6a3acade7b0e6c975b0928a2/neues-rentenpaket-die-einbeziehung-der-beamten-oder-nicht-beamten-ins-system-spielt-keine-entscheidende-rolle.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "realization",
           "count": 1
         },
         {
-          "emotion": "relief",
+          "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "confusion",
           "count": 1
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 36,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 73,
       "sample_titles": [
-        "Schock-Umfrage zur Rente! - Fast jeder Zweite legt kein Geld zurück",
-        "Große Reform - Länger arbeiten, Kapitalrente, Mini-Jobs weg",
-        "ENTHÜLLT - RENTEN-REFORM! Das kommt auf Sie zu",
-        "Mit 62 statt 67 raus? - 1, 3 oder 5 Jahre früher in Rente! So viel kostet es"
+        "Rentenreform soll kommen - echt!: Junge legen den Alten den Ball auf den Elfmeterpunkt",
+        "Hohe Rente zu hohem Preis: Rettet ein Atommüll-Fonds unsere Rente nach schwedischem Vorbild?",
+        "Steigendes Renteneintrittsalter: In diesen Kompromiss sollte die SPD dringend einschlagen",
+        "RTL/ntv-Trendbarometer: FDP ist den einen Punkt wieder los"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/schock-umfrage-zur-rente-fast-jeder-zweite-legt-kein-geld-zurueck-6a36440baf14c0b52896081c",
-        "https://www.bild.de/politik/inland/rentenreform-bringt-kapitalrente-und-ende-der-mini-jobs-merz-und-bas-setzen-um-6a36cbe141dac4068d1c2062",
-        "https://www.bild.de/politik/inland/grosse-rentenreform-kommission-plant-kapitalrente-und-rente-mit-70-6a36a9fa07aa664384c9d3dc",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/mit-62-statt-67-wie-teuer-wird-die-fruehrente-6a1557363b7096456ac82ac5"
+        "https://www.n-tv.de/politik/Junge-legen-den-Alten-den-Ball-auf-den-Elfmeterpunkt-id31002964.html",
+        "https://www.n-tv.de/wirtschaft/Rettet-ein-Atommuell-Fonds-unsere-Rente-nach-schwedischem-Vorbild-id31003087.html",
+        "https://www.n-tv.de/politik/politik_kommentare/In-diesen-Kompromiss-sollte-die-SPD-dringend-einschlagen-id31001172.html",
+        "https://www.n-tv.de/politik/FDP-ist-den-einen-Punkt-wieder-los-id31001653.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 6
+          "count": 9
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
         },
         {
           "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -107,18 +74,117 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 35,
+      "article_count": 58,
       "sample_titles": [
-        "Alterssicherung: Rentenkommission empfiehlt neue Kapitalrente und höhere Altersgrenzen",
-        "Altersvorsorgedepot: So lohnen sich Dachfonds",
-        "Demographischer Wandel: Der Knackpunkt einer tragfähigen Rentenreform",
-        "Neue Altersvorsorge: „Der ständige Blick aufs Depot ist nicht gut fürs Gemüt“"
+        "Bessere Alterssicherung: Vor dem Renten-Ruck?",
+        "Große Rentenreform: Merz findet die Schweden-Rente „genial“",
+        "Reformen der Koalition: Scheitern ist keine Option",
+        "Bericht der RentenKommission: Merz: „Alle Elemente müssen jetzt umgesetzt werden“"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/rentenkommission-empfiehlt-neue-kapitalrente-und-hoehere-altersgrenzen-200950466.html",
-        "https://www.faz.net/aktuell/finanzen/finanzmarkt/auswertung-wo-sich-das-investment-in-dachfonds-lohnt-accg-200942619.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/der-knackpunkt-einer-tragfaehigen-rentenreform-accg-200923649.html",
-        "https://www.faz.net/aktuell/finanzen/der-kostentrieb-ist-staerker-als-der-geschlechtstrieb-200918153.html"
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/reformplaene-vor-dem-renten-ruck-200959534.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rentenreform-merz-findet-die-schweden-rente-genial-200958475.html",
+        "https://www.faz.net/aktuell/politik/inland/rentenreform-die-koalition-in-seltener-einmuetigkeit-200955508.html",
+        "https://www.faz.net/video/merz-alle-elemente-muessen-jetzt-umgesetzt-werden-200959158.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 8
+        },
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 52,
+      "sample_titles": [
+        "Früher in Rente? - Das wird für viele nichts!",
+        "Pension statt Rente - Das kosten Beamte den Staat jedes Jahr",
+        "CDU-Politiker Reddig - Rettet dieser Renten-Rebell plötzlich Merz?",
+        "Er wurde schon freigestellt! - Millionen-Flop vor 96-Abschied"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/frueher-in-rente-das-wird-fuer-viele-nichts-6a3a837de880869d9f533f22",
+        "https://www.bild.de/politik/inland/spardiktat-bei-renten-aber-so-viel-kosten-beamte-den-staat-jedes-jahr-6a3a5943bee7c015a23d827a",
+        "https://www.bild.de/politik/inland/cdu-politiker-reddig-rettet-dieser-renten-rebell-ploetzlich-merz-6a3a8b45bee7c015a23d872b",
+        "https://www.bild.de/sport/fussball/2-liga-er-wurde-schon-freigestellt-millionen-flop-vor-dem-abschied-6a3a868884d1ec4a45f9a055"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "excitement",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
+          "count": 4
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 49,
+      "sample_titles": [
+        "Die Rentenkommission hat geliefert",
+        "Gemischte Reaktionen bei Verbänden zu Renten-Plänen",
+        "Reaktionen zur Rentenreform: Brandenburgs Wirtschaft skeptisch, Politik noch unentschieden",
+        "Wie weit trägt der \"Geist der Kommission\"?"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/rente-empfehlungen-kommission-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/reaktionen_saarland_verbaende_rentenvorschlaege_100.html",
+        "https://www.rbb24.de/politik/beitrag/2026/06/wirtschaft-politik-brandenburg-reaktionen-rente-reform-vorschlae.html",
+        "https://www.tagesschau.de/inland/innenpolitik/rentenkommission-analyse-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 7
+        },
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
+          "count": 4
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 48,
+      "sample_titles": [
+        "Altersversorgung: Loblieder mit Zwischentönen – Woran die Rentenreform jetzt noch scheitern könnte",
+        "Rentenreform: „Schwere Krise“: Der Industriechef klagt dem Kanzler sein Leid – und dann klatscht er ihm laut Beifall",
+        "Dokumentation: Das sind die 33 Empfehlungen der Rentenkommission im Wortlaut",
+        "Kommentar: Die Mütterrente muss auf den Verhandlungstisch"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/altersversorgung-woran-die-rentenreform-trotz-aller-lobeshymnen-scheitern-koennte/100235247.html",
+        "https://www.handelsblatt.com/politik/deutschland/rentenreform-ploetzlich-applaudiert-die-industrie-dem-kanzler/100233731.html",
+        "https://www.handelsblatt.com/politik/deutschland/reform-der-rente-die-33-empfehlungen-der-rentenkommission-im-wortlaut-01/100234743.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-die-muetterrente-muss-auf-den-verhandlungstisch/100234809.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -127,73 +193,7 @@
           "count": 3
         },
         {
-          "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 31,
-      "sample_titles": [
-        "Das sind die Empfehlungen der Rentenkommission",
-        "Rentenkommission schlägt höheres Renteneintrittsalter vor",
-        "Altersarmut: Wenn ein eigenes Grab in Münster zu teuer ist",
-        "Kritik an Pflegereform: Eltern von Kindern mit Behinderung fürchten um Rente"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/rentenkommission-renteneintrittsalter-fonds-100.html",
-        "https://www.br.de/nachrichten/bayern/rentenkommission-schlaegt-hoeheres-renteneintrittsalter-vor,VN6cc23",
-        "https://www1.wdr.de/nrw/muenster/armut-alter-grab-teuer-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/kritik-an-pflegereform-eltern-erwachsener-kinder-mit-behinderung-schlagen-alarm-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
           "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 26,
-      "sample_titles": [
-        "Kommentar: Rentenkommission – jetzt ist Merz am Zug",
-        "Alterssicherungskommission: Keine Rente für Beamte – aber für Selbstständige und Abgeordnete",
-        "Rente: Kommission will Eintritt in den Ruhestand an Lebenserwartung koppeln",
-        "Renten: Rentenkommission einigt sich auf rund 30 Empfehlungen – aber nicht einstimmig"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-rentenkommission-jetzt-ist-merz-am-zug/100234320.html",
-        "https://www.handelsblatt.com/politik/deutschland/alterssicherungskommission-keine-rente-fuer-beamte-aber-fuer-selbststaendige-und-abgeordnete/100234608.html",
-        "https://www.handelsblatt.com/politik/deutschland/rente-kommission-will-eintritt-in-den-ruhestand-an-lebenserwartung-koppeln/100234595.html",
-        "https://www.handelsblatt.com/politik/deutschland/renten-rentenkommission-ist-sich-einig-aber-keine-einstimmigkeit/100234007.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
           "count": 2
         },
         {
@@ -202,68 +202,68 @@
         }
       ]
     },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 34,
+      "sample_titles": [
+        "News des Tages: Rentenreform, Lehrkräfte und Politik, Trumps Probleme mit dem Reflecting Pool in Washington",
+        "Friedrich Merz und die Rente: Endlich mal ein guter Tag für den CDU-Kanzler",
+        "Rente – Frührente: Gartenbauer? Altenpflegerin? Wer die »Rente mit 63« wirklich nutzt",
+        "Altersarmut in Ostdeutschland: Diese Rentner leben schon jetzt unterhalb der Armutsgrenze"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/deutschland/news-des-tages-rentenreform-lehrkraefte-und-politik-trumps-probleme-mit-dem-reflecting-pool-in-washington-a-33208b76-9284-4de6-876e-356c6c71f5e9#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/friedrich-merz-und-die-rente-endlich-mal-ein-guter-tag-fuer-den-cdu-kanzler-a-e8cca97f-618c-4d69-ab9b-6c9b26b5d613#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/rente-fruehrente-gartenbauer-altenpflegerin-wer-die-rente-mit-63-wirklich-nutzt-a-01497434-ce5a-4123-8913-cf8d26cdcc1d#ref=rss",
+        "https://www.spiegel.de/panorama/altersarmut-in-ostdeutschland-diese-rentner-leben-schon-jetzt-unterhalb-der-armutsgrenze-a-c666880d-119e-44d9-a3d6-d8f9ff678484#ref=rss"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 26,
+      "article_count": 34,
       "sample_titles": [
-        "Reform der Alterssicherung: Vorschlag der Rentenkommission: Höhere Rente - mehr Beiträge",
-        "„Massive“ Kürzungen: Linke kritisiert Vorschläge der Rentenkommission",
-        "Elektroauto: So profitieren Rentner von der E-Auto-Förderung",
-        "Union streitet über Mütterrente"
+        "Renten: Linke befürchten wachsende Altersarmut durch Rentenpläne",
+        "Meinung: Jetzt kommt es auf Bärbel Bas an",
+        "Rentenreform: Kaiser warnt: Rentenniveau-Absenkung trifft Osten hart",
+        "Altersvorsorge: Bei Rentenreform sind nun Merz und Bas am Zug"
       ],
       "urls": [
-        "https://www.stern.de/politik/deutschland/reform-der-alterssicherung--vorschlag-der-rentenkommission--hoehere-rente---mehr-beitraege-37576956.html",
-        "https://www.stern.de/news/-massive--kuerzungen--linke-kritisiert-vorschlaege-der-rentenkommission-37576942.html",
-        "https://www.stern.de/capital/e-auto-foerderung-fuer-rentner--so-profitieren-auch-sie-davon-37515406.html",
-        "https://www.stern.de/news/union-streitet-ueber-muetterrente-37541024.html"
+        "https://www.stern.de/gesellschaft/regional/sachsen/renten--linke-befuerchten-wachsende-altersarmut-durch-rentenplaene-37588860.html",
+        "https://www.stern.de/politik/deutschland/baerbel-bas--warum-es-bei-der-rentenreform-auf-sie-ankommt--meinung--37584646.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/rentenreform--kaiser-warnt--rentenniveau-absenkung-trifft-osten-hart-37586796.html",
+        "https://www.stern.de/politik/deutschland/altersvorsorge--bei-rentenreform-sind-nun-merz-und-bas-am-zug-37586834.html"
       ],
-      "dominant_emotion": "surprise",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
         {
           "emotion": "surprise",
           "count": 2
         },
         {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "pride",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "Kommission will »Rente mit 63« abschaffen und kapitalgedeckte Zusatzrente einführen",
-        "Rnte: Frührentner nutzen Möglichkeiten für Hinzuverdienst sehr häufig",
-        "Rente: So stark sind Rentenansprüche und Standardrente gewachsen",
-        "Rente: Arbeitgeberpräsident Dulger verlangt Begrenzung der Rentensteigerung"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/soziales/kommission-will-rente-mit-63-abschaffen-und-kapitalgedeckte-zusatzrente-einfuehren-a-7dfe5ea7-4dd7-4ae7-af5d-ec60858e33bc#ref=rss",
-        "https://www.spiegel.de/wirtschaft/rnte-fruehrentner-nutzen-moeglichkeiten-fuer-hinzuverdienst-sehr-haeufig-a-b0cd0ff7-9165-499a-9544-ab7df9145533#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rente-so-stark-sind-rentenansprueche-und-standardrente-gewachsen-a-81d7e187-b978-4a30-9e45-31913b5c60d0#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rente-arbeitgeberpraesident-dulger-verlangt-begrenzung-der-rentensteigerung-a-32627770-284f-4393-8e7b-e2b8abfee2be#ref=rss"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -272,32 +272,32 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 18,
+      "article_count": 30,
       "sample_titles": [
-        "Rentenalter soll steigen, Rente mit 63 wegfallen",
-        "Mehrheit: Reformpaket kommt nicht bis zum Sommer",
-        "Vorsicht vor unnötigen Kosten bei der Rentenauskunft",
-        "Fünf Fragen zum Kauf von Rentenpunkten"
+        "Bas: Rentenvorschläge geben junger Generation \"Perspektive\"",
+        "Hintergründe zur Reform: Die Lage der Rente in Grafiken",
+        "Rentenreform: Was junge Menschen von den Vorschlägen halten",
+        "Wie die Rentenreform fast alle Generationen betrifft"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/rente-reform-kommission-vorschlaege-100.html",
-        "https://www.zdfheute.de/politik/deutschland/politbarometer-reformpaket-bundesregierung-iran-ukraine-fussball-wm-100.html",
-        "https://www.zdfheute.de/ratgeber/rente-rentenversicherung-abzocke-100.html",
-        "https://www.zdfheute.de/wirtschaft/rentenpunkte-kaufen-altersvorsorge-rente-deutsche-rentenversicherung-100.html"
+        "https://www.zdfheute.de/politik/deutschland/rente-reformvorschlaege-arbeitsministerin-bas-100.html",
+        "https://www.zdfheute.de/politik/deutschland/grafik-rente-rentenreform-100.html",
+        "https://www.zdfheute.de/politik/deutschland/rentenreform-rente-zukunft-junge-menschen-100.html",
+        "https://www.zdfheute.de/politik/deutschland/rente-generationen-auswirkungen-beschaeftigte-arbeitgeber-100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "annoyance",
           "count": 2
         },
         {
           "emotion": "confusion",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -305,24 +305,24 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 13,
+      "article_count": 22,
       "sample_titles": [
-        "KI-Vorfälle bei „Welt“ und „FAZ“: Nehmt den Boomern das Internet weg",
-        "Finanzierung der Rente: Ist die Rente in der Krise? Von wegen, deutet diese Studie an",
-        "Betriebliche Altersvorsorge: Sozialpolitische Good Vibes",
-        "Finanzminister unterstützt DGB-Vorstoß: Klingbeil plädiert für Betriebsrente für alle"
+        "Linke zu Rentenplänen: „Die Leute arbeiten jetzt schon zu lange“",
+        "Rentenpläne der Regierung: Ein Kunstwerk mit leeren Stellen",
+        "Diskusssion um Rentenreform: Merz und Bas wollen Reform komplett umsetzen",
+        "Vorschläge der Rentenkommission: Minijobs gehören abgeschafft"
       ],
       "urls": [
-        "https://taz.de/KI-Artikel-von-Mathias-Doepfner-Nehmt-den-Boomern-das-Internet-weg/!6187613/",
-        "https://taz.de/Finanzierung-der-Rente/!6187637/",
-        "https://taz.de/Betriebsrente-Klingt-wie-ein-beruhigendes-Signal-aber-es-kommt-auf-die-Details-an/!6181145/",
-        "https://taz.de/Finanzminister-unterstuetzt-DGB-Vorstoss/!6185856/"
+        "https://taz.de/Rentenpolitische-Sprecherin-der-Linkspartei-Die-Leute-arbeiten-jetzt-schon-zu-lange/!6190022/",
+        "https://taz.de/Rentenplaene-der-Regierung/!6190021/",
+        "https://taz.de/Diskusssion-um-Rentenreform/!6189916/",
+        "https://taz.de/Wieso-Minijobs-abgeschafft-werden-muessen/!6189618/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "disgust",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 1
+          "emotion": "disgust",
+          "count": 2
         },
         {
           "emotion": "disapproval",
@@ -334,21 +334,29 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 12,
+      "article_count": 18,
       "sample_titles": [
-        "Rentenkommission: Linkspartei kritisiert Vorschläge für Rentenreform",
-        "Rente in Deutschland: Finanzierung der Rente entwickelt sich laut Studie positiv",
-        "Johannes Winkel: JU-Chef fordert Bafögaufstockung zulasten von Rentenerhöhungen",
-        "Rente: Viele in MV gehen vorzeitig in Rente – oft mit Abschlägen"
+        "Rentenreform: Die Angst vor der Rentenwut",
+        "Arbeitsmarkt: Fast ein Drittel aller Erwerbsfähigen kommt bis 2040 ins Rentenalter",
+        "Rentenreform: Ostbeauftragte warnt vor Altersarmut durch Rentenreform",
+        "Altersvorsorge: Bei Rentenreform sind nun Merz und Bas am Zug"
       ],
       "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-06/sozialreform-pflegereform-rentenreform-kritik-linke",
-        "https://www.zeit.de/politik/deutschland/2026-06/rente-deutschland-finanzierung-gesetzliche-rentenversicherung-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-06/rentenerhoehung-bafoeg-johannes-winkel-junge-union",
-        "https://www.zeit.de/news/2026-06/02/viele-in-mv-gehen-vorzeitig-in-rente-oft-mit-abschlaegen"
+        "https://www.zeit.de/politik/deutschland/2026-06/rentenreform-schwarz-rot-bundesregierung-rentenkommission-rentenalter",
+        "https://www.zeit.de/arbeit/2026-06/babyboomer-arbeitsmarkt-rente-deutschland-gxe",
+        "https://www.zeit.de/politik/deutschland/2026-06/rentenkommission-ostdeutschland-altersarmut-rentenniveau-2031-carsten-schneider-gxe",
+        "https://www.zeit.de/news/2026-06/23/bei-rentenreform-sind-nun-merz-und-bas-am-zug"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        },
         {
           "emotion": "confusion",
           "count": 1
@@ -359,24 +367,24 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 9,
+      "article_count": 14,
       "sample_titles": [
-        "Bundespolitik: Rentenkommission schlägt höhere Beiträge und späteren Rentenbeginn vor",
-        "Alterssicherung: Schwarz-grüner Rentenvorstoß im Bundestag",
-        "Bundespolitik: Klingbeil für verpflichtende Betriebsrente",
-        "Sozialstaat: Die Rente mit 63 war ein Riesenfehler"
+        "Podcast: „Auf den Punkt“: Bye Bye, Keir Starmer / Hallo, Rentenreform",
+        "Rentenreform: Bas stimmt die Älteren auf Einschnitte ein",
+        "Rentenpaket: Dieser Reformkatalog ist voller Zumutungen – doch diese könnten sich lohnen",
+        "Bundespolitik: Rentenkommission schlägt höhere Beiträge und späteren Rentenbeginn vor"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-deutschland-rente-bas-maerz-kommission-reform-li.3495864",
-        "https://www.sueddeutsche.de/politik/rente-reform-schwarz-gruen-cdu-bundestag-li.3500449",
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-klingbeil-rente-deutschland-spd-li.3495864",
-        "https://www.sueddeutsche.de/wirtschaft/rente-sozialstaat-li.3493190"
+        "https://www.sueddeutsche.de/politik/rentenreform-deutschland-vorschlaege-folgen-kommission-starmer-uk-li.3503286",
+        "https://www.sueddeutsche.de/politik/rentenreform-baerbel-bas-rentenkommission-li.3502429",
+        "https://www.sueddeutsche.de/meinung/rentenreform-deutschland-kapitalrente-beitragssteigerung-li.3502371",
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-deutschland-rente-bas-maerz-kommission-reform-li.3495864"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -384,50 +392,23 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 7,
+      "article_count": 9,
       "sample_titles": [
+        "Sozialpolitik Merz will Vorschläge der Rentenkommission „zügig“ umsetzen",
+        "Vor der Präsentation Merz trommelt für seine „mutlose“ Rentenreform",
         "Sozialpolitik Die Rente mit 70 – und wie es so weit kommen konnte",
-        "Millionen Betroffene Rentenkommission fordert Abschaffung der Witwenrente",
-        "Sozialpolitik Ostdeutsche Rentner bekommen erheblich weniger Geld als westdeutsche",
-        "Rentenkommission Wird das Renteneintrittsalter auf 70 Jahre erhöht?"
+        "Millionen Betroffene Rentenkommission fordert Abschaffung der Witwenrente"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/merz-will-vorschlaege-der-rentenkommission-zuegig-umsetzen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/merz-trommelt-fuer-seine-mutlose-rentenreform/",
         "https://jungefreiheit.de/politik/deutschland/2026/die-rente-mit-70-und-wie-es-so-weit-kommen-konnte/",
-        "https://jungefreiheit.de/wirtschaft/2026/rentenkommission-fordert-abschaffung-der-witwenrente/",
-        "https://jungefreiheit.de/politik/deutschland/2026/ostdeutsche-rentner-bekommen-erheblich-weniger-geld-als-westdeutsche/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wird-das-renteneintrittsalter-auf-70-jahre-erhoeht/"
+        "https://jungefreiheit.de/wirtschaft/2026/rentenkommission-fordert-abschaffung-der-witwenrente/"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Christine Egerszegi über die Reform der Altersvorsorge: «Herrgott noch mal, irgendwann sollte man daraus seine Lehren ziehen»",
-        "Mehrwertsteuer rauf, Lohnbeiträge rauf – das ist der Antrag der Einigungskonferenz für die 13. AHV-Rente",
-        "Die Zahl der Neurenten steigt stark – nach der AHV und der Armee braucht auch die IV mehr Geld"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/christine-egerszegi-ueber-die-reform-der-altersvorsorge-herrgott-noch-mal-irgendwann-sollte-man-daraus-seine-lehren-ziehen-ld.10010693",
-        "https://www.nzz.ch/schweiz/mehrwertsteuer-rauf-lohnbeitraege-rauf-das-ist-der-antrag-der-einigungskonferenz-fuer-die-13-ahv-ld.10010643",
-        "https://www.nzz.ch/schweiz/die-zahl-der-neurenten-steigt-stark-nach-ahv-und-armee-braucht-auch-die-iv-mehr-geld-ld.10008477"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
           "count": 1
         }
       ]
@@ -436,21 +417,48 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 3,
+      "article_count": 9,
       "sample_titles": [
-        "Kaputte Brücken, marode Straßen und Bahnlinien – und der Sozialstaat wackelt",
-        "Es knackt im Gebälk der Sozialversicherung – höhere Beiträge und Schulden drohen",
-        "Die neue Renten-Show: Ausrede für höhere Steuern"
+        "Die Umlage-Rente durch Kapital-Rente flicken – Reform ist das keine",
+        "Der Rentenschlag oder Rentendadaismus",
+        "Renten-Knall im Kanzleramt: Kommission fordert Aus für Rente mit 63 – TE-Wecker am 23. Juni 2026",
+        "Reformpaket der Rentenkommission: Länger arbeiten und mehr zahlen"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/bruecken-strassen-bahn-sozialstaat/",
-        "https://www.tichyseinblick.de/wirtschaft/parteienstaat-machterhalt-renten-arbeit/",
-        "https://www.tichyseinblick.de/tichys-einblick/rente-show-ausrede-hoehere-steuern/"
+        "https://www.tichyseinblick.de/daili-es-sentials/die-umlage-rente-durch-kapital-rente-flicken-reform-ist-das-keine/",
+        "https://www.tichyseinblick.de/meinungen/rente-kommission-vorstellung-merz-bas/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-23-juni-2026/",
+        "https://www.tichyseinblick.de/daili-es-sentials/rentenkommission-laenger-arbeiten-mehr-zahlen/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "DER ANDERE BLICK - Nicht reden, sondern umsetzen: Die Rentenreform liefert die Chance, die Stimmung im Land zu drehen",
+        "Christine Egerszegi über die Reform der Altersvorsorge: «Herrgott noch mal, irgendwann sollte man daraus seine Lehren ziehen»"
+      ],
+      "urls": [
+        "https://www.nzz.ch/der-andere-blick/rentenreform-wenn-merz-jetzt-nicht-liefert-verliert-er-seine-glaubwuerdigkeit-ld.10012516",
+        "https://www.nzz.ch/schweiz/christine-egerszegi-ueber-die-reform-der-altersvorsorge-herrgott-noch-mal-irgendwann-sollte-man-daraus-seine-lehren-ziehen-ld.10010693"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -473,16 +481,16 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 36,
-    "right-conservative": 93,
-    "economic-liberal": 26,
-    "left-liberal": 65,
-    "conservative-liberal": 40,
-    "neutral": 49,
-    "left": 13,
-    "far-right": 10
+    "populist-mixed": 52,
+    "right-conservative": 147,
+    "economic-liberal": 48,
+    "conservative-liberal": 62,
+    "left": 22,
+    "left-liberal": 100,
+    "neutral": 79,
+    "far-right": 18
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass das aktuelle Rentensystem reformbedürftig ist und dass eine Anpassung an den demographischen Wandel und die veränderten Lebensumstände erforderlich ist. Die Notwendigkeit einer Erhöhung des Renteneintrittsalters und die Einführung einer kapitalgedeckten Zusatzrente werden von vielen Medien als mögliche Lösungen diskutiert, um die Finanzierbarkeit und Generationengerechtigkeit des Rentensystems zu gewährleisten. Darüber hinaus wird die Bedeutung einer betrieblichen Altersvorsorge und die Notwendigkeit einer umfassenden Reform des Rentensystems, die auch die Interessen von Selbstständigen und Abgeordneten berücksichtigt, von verschiedenen Medien unabhängig von ihrer politischen Ausrichtung betont.",
-  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den politischen Lagern, insbesondere zwischen linken und rechten Medien, die unterschiedliche Vorstellungen von Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung vertreten. Die Debatte um das Renteneintrittsalter, die Höhe der Rente und die Finanzierung des Systems spaltet die Meinungen, wobei linke Medien oft eine stärkere Rolle des Staates und höhere Beiträge fordern, während rechte Medien eine stärkere Betonung der privaten Vorsorge und einer Anpassung des Renteneintrittsalters an die Lebenserwartung befürworten. Die Diskussion um die Reform des Rentensystems und die Einführung neuer Instrumente wie der kapitalgedeckten Zusatzrente oder der Pflicht-Betriebsrente verdeutlicht die tiefliegenden Spannungsfelder zwischen verschiedenen politischen und wirtschaftlichen Interessen.",
-  "cached_at": "2026-06-21T08:52:13.302944"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigt sich eine breite Übereinstimmung darin, dass eine Reform des Rentensystems notwendig ist, um die Finanzierbarkeit und Generationengerechtigkeit zu gewährleisten. Die Diskussion um das Renteneintrittsalter, die Riester-Rente und die kapitalgedeckte Vorsorge verdeutlicht, dass viele Medien und politische Akteure eine nachhaltige und zukunftsfähige Alterssicherung anstreben, auch wenn sie unterschiedliche Vorstellungen davon haben, wie dies erreicht werden kann. Die Betonung der Notwendigkeit, die Altersarmut zu bekämpfen und eine ausgewogene Verteilung der Lasten zwischen den Generationen zu erreichen, ist ein weiterer Aspekt, in dem sich eine erkennbare Übereinstimmung im deutschen Mediendiskurs zeigt.",
+  "controversial_points": "Im deutschen Mediendiskurs zum Thema Rentensystem und Altersvorsorge zeigen sich strukturelle Konfliktlinien zwischen den politischen Lagern, insbesondere zwischen linken und konservativen Kräften, die unterschiedliche Vorstellungen von Generationengerechtigkeit, Finanzierbarkeit und der Rolle des Staates in der Alterssicherung vertreten. Eine weitere Spannungslinie verläuft zwischen den Befürwortern einer kapitalgedeckten Vorsorge und denen, die an der umlagefinanzierten gesetzlichen Rentenversicherung festhalten, wobei die erstgenannten eine stärkere Betonung individueller Vorsorge und die letzteren eine solidarische, staatlich organisierte Alterssicherung bevorzugen. Die Debatte um das Renteneintrittsalter und die Frage, ob eine Rente mit 63, 67 oder 70 das Ziel sein sollte, spiegelt diese grundlegenden Unterschiede in den Weltbildern und politischen Konzepten wider.",
+  "cached_at": "2026-06-24T08:09:42.872887"
 }
