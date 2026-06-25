@@ -1,6 +1,11 @@
 # Diskursraum 🎙️
 
-> Mapping Public Discourse in Germany — inspired by Taiwan's vTaiwan and the Pol.is bridging algorithm.
+> Mapping Public Discourse in Germany — inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl) and the [Pol.is](https://pol.is) bridging algorithm from Taiwan's vTaiwan platform
+
+> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural."*
+> — Audrey Tang & E. Glen Weyl, Plurality
+
+Diskursraum makes this principle visible. Not for social media posts as in Pol.is, but for professional media discourse in Germany. Many voices, one discourse.
 
 **[Live Demo](https://diskursraum.vercel.app)** · [GitHub](https://github.com/magic-moses/diskursraum)
 
@@ -10,9 +15,9 @@
 
 Diskursraum makes German public discourse visible across three dimensions:
 
-**Dimension I — Medienspiegel:** How do 19 German news outlets cover polarizing societal topics? Where is there consensus — and where does discourse begin?
+**Dimension I — Medienspiegel:** How do 19 German news outlets cover polarizing societal topics (tracked since March 2026)? Where is there consensus & where does discourse begin? 
 
-**Dimension II — Parteienspiegel:** How have party positions evolved across six federal elections from 2005 to 2025? Who converges, who diverges — and what do the election results say about it?
+**Dimension II — Parteienspiegel:** How have party positions evolved across six federal elections from 2005 to 2025? Who converges, who diverges & what do the election results say about it?
 
 **Dimension III — Frag nach.:** Ask the party manifestos directly. Semantic search across all Bundestagswahlprogramme 2005–2025 with LLM-generated answers.
 
@@ -24,7 +29,7 @@ Inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl)
 
 <img width="3562" height="1754" alt="01_overview" src="https://github.com/user-attachments/assets/e90af083-aa3a-4c2b-82dc-0b8046e95276" />
 
-Diskursraum follows a **static-first architecture**: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application. The only live path is Dimension III (Frag nach.), which queries pgvector in real time via RAG.
+Diskursraum follows a **static-first architecture**: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API, eliminating runtime database load for the core application. The only live path is Dimension III (Frag nach./(engl.: Ask.), which queries pgvector in real time via RAG.
 
 ### Storage
 
@@ -45,6 +50,8 @@ Diskursraum uses three distinct storage layers:
 
 
 ## Dimension I — Medienspiegel
+
+> Coverage data spans from March 2026 to present, crawled 4× daily from RSS feeds.
 
 For each of eight topics, the app shows:
 
@@ -81,7 +88,7 @@ Semantic analysis of all Bundestagswahlprogramme from 2005 to 2025:
 - **Populism Score** — sentence-level populist rhetoric detection via PopEuroBERT
 - **Program Length** — word count per party per election year
 
-Beyond classification and scoring, the manifesto pipeline derives an ideological position for each party per election year — mapping programmatic emphasis onto a two-dimensional space (economy and society) directly from ManifestoBERTa category weights. Party trajectories, pairwise similarity heatmaps, and a force-directed similarity network visualise how the six parties have moved toward or away from each other across twenty years of German federal elections.
+Beyond classification and scoring, the manifesto pipeline derives an ideological position for each party per election year mapping programmatic emphasis onto a two-dimensional space (economy and society) directly from ManifestoBERTa category weights. Party trajectories, pairwise similarity heatmaps, and a force-directed similarity network visualise how the six parties have moved toward or away from each other across twenty years of German federal elections.
 
 | Metric | Coverage |
 |--------|----------|
@@ -189,20 +196,9 @@ cd frontend && npm install && npm run dev
 - **Vercel** — React frontend
 - **GitHub Actions** — `daily_crawl.yml` (4x daily) + `daily_ml.yml` (every 3 days)
 
-All core analysis results are pre-computed and committed as JSON. The only live database path in production is the pgvector semantic search for Dimension III.
-
 ---
 
 ## Author
 
-**Ayzenna Moses Arndt** — M.Sc. Business Informatics, HKA Karlsruhe
-[GitHub](https://github.com/magic-moses) · [LinkedIn](https://linkedin.com/in/dein-profil)
-
+[GitHub](https://github.com/magic-moses)
 ---
-
-## Methodology
-
-> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural."*
-> — Audrey Tang & E. Glen Weyl, Plurality
-
-Diskursraum makes this principle visible — not for social media posts as in Pol.is, but for professional media discourse in Germany. Many voices, one discourse.
