@@ -1,100 +1,67 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 114,
+  "article_count": 89,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 23,
-      "sample_titles": [
-        "König Charles III.: Der Monarch will nicht in den Palast zurück",
-        "Digitalisierung in Deutschland: Unser Anteil an den Bahnpannen",
-        "Urheberrechte: 400 US-Lokalzeitungen verklagen KI-Anbieter",
-        "Angriff auf Stadttheater: Auch Theater müssen sich vor Hackern schützen"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/gesellschaft/menschen/koenig-charles-iii-der-monarch-will-nicht-in-den-palast-zurueck-accg-200970699.html",
-        "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/deutsche-bahn-unser-anteil-an-den-bahnpannen-200968723.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/400-us-lokalzeitungen-verklagen-open-ai-und-microsoft-200971399.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hackerangriff-in-giessen-auch-theater-muessen-sich-schuetzen-200966248.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 19,
+      "article_count": 16,
       "sample_titles": [
-        "Künstliche Intelligenz: US-Regierung schränkt Zugang zu neuer KI von OpenAI ein",
-        "Geldanlage: KI-Aktien unter Druck – „Die Stimmung ist gerade dabei, sich zu drehen“",
-        "Autoindustrie: Bis zu 100.000 Stellen stehen bei VW auf der Kippe  – Arbeitnehmer reagieren scharf",
-        "Wall Street: „Die KI-Sorgen sind zurück“ – Wall Street startet mit Verlusten"
+        "Künstliche Intelligenz: US-Regierung hebt Blockade von Anthropics KI-Modellen auf",
+        "Monika Schnitzer: KI kann den Staat schneller machen – reformieren muss die Politik ihn selbst",
+        "Geldanlage: Blackrock setzt weiter auf KI und empfiehlt Staatsanleihen",
+        "Künstliche Intelligenz: Mega-Investitionen in Billionenhöhe: Südkorea stärkt die Chipindustrie"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-us-regierung-schraenkt-zugang-zu-neuer-ki-von-openai-ein/100236244.html",
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/sk-hynix-und-micron-die-stimmung-ist-gerade-dabei-sich-zu-drehen/100236091.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-bis-zu-100.000-stellen-stehen-im-vw-konzern-auf-der-kippe/100236047.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/wall-street-die-ki-sorgen-sind-zurueck-wall-street-startet-mit-verlusten/100236114.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 18,
-      "sample_titles": [
-        "Forschung an Uni Kassel: KI soll Fahrrad-Unfälle auf Schulwegen verhindern",
-        "Wie wahrscheinlich hat China Cispa-Wissen erlangt?",
-        "VW will 100.000 Jobs streichen - vier Werke auf der Kippe",
-        "DAX startet mit Verlusten - mal wieder KI-Sorgen"
-      ],
-      "urls": [
-        "https://www.hessenschau.de/panorama/forschung-an-uni-kassel-ki-soll-fahrrad-unfaelle-auf-schulwegen-verhindern-v1,ki-sicherheit-radfahren-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/cispa_vorwuerfe_backes_china_100.html",
-        "https://www.ndr.de/nachrichten/niedersachsen/vw-will-100000-jobs-streichen-vier-werke-auf-der-kippe,vw-1152.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-verluste-techwerte-fallen-oelpreise-niedriger-100.html"
+        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-us-regierung-hebt-blockade-von-anthropics-ki-modellen-auf/100237036.html",
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/wirtschaftsforum-ki-kann-den-staat-schneller-machen-reformieren-muss-die-politik-ihn-selbst/100236659.html",
+        "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-blackrock-setzt-weiter-auf-ki-und-empfiehlt-staatsanleihen/100235215.html",
+        "https://www.handelsblatt.com/politik/international/suedkorea-will-570-milliarden-euro-in-die-chipindustrie-investieren/100236452.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "confusion",
           "count": 2
         },
         {
-          "emotion": "desire",
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 13,
+      "sample_titles": [
+        "Chipfabrik in Dresden: Deutsche Zukunftsmaschine",
+        "Immer abhängiger: Warum lassen wir zu, dass die KI uns verblödet?",
+        "Dartmouth-Konferenz: Der Sommer, in dem die Maschinen denken lernen sollten",
+        "Zwischen KI und Finanzinvestoren: Der Berufsstand der Wirtschaftsprüfer ist gespalten"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/technik-motor/technik/hinter-den-kulissen-des-neuen-halbleiterwerks-von-infineon-in-dresden-200964113.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/moritz-rinke-warum-lassen-wir-zu-dass-die-ki-uns-verbloedet-200974840.html",
+        "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/ki-konferenz-in-dartmouth-der-sommer-in-dem-die-maschinen-denken-lernen-sollten-200953654.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/zwischen-ki-und-private-equity-der-berufsstand-der-wirtschaftspruefer-ist-gespalten-accg-200962379.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -103,31 +70,48 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 8,
       "sample_titles": [
-        "Sommerferien: Wie Eltern mit ihren Kindern spielerisch lernen können",
-        "Desinformation aus Russland: Neue Kampagne nimmt Landtagswahlen ins Visier",
-        "ZOiS: Renommiertes Osteuropa-Institut meldet Cyberangriff",
-        "Social Media: Warum ein Verbot für Kinder und Jugendliche der falsche Weg ist"
+        "Katherina Reiche: Zwei Gastbeiträge der Wirtschaftsministerin unter KI-Verdacht",
+        "Künstliche Intelligenz als Rezeptautomat: Lassen Sie diese KI Ihren nächsten Burger planen",
+        "Künstliche Intelligenz: Wie Kanzler Friedrich Merz und sein Kabinett mit KI umgehen",
+        "Donald Trump und die EU: Droht neuer Zollstreit wegen Digitalsteuer?"
       ],
       "urls": [
-        "https://www.spiegel.de/familie/sommerferien-wie-eltern-mit-ihren-kindern-spielerisch-lernen-koennen-a-3f09a9d8-e07e-4316-8f88-9e8020bb0ff5#ref=rss",
-        "https://www.spiegel.de/netzwelt/web/desinformation-aus-russland-neue-kampagne-nimmt-landtagswahlen-ins-visier-a-4d8052de-0795-4f83-b3bc-6c0567bce190#ref=rss",
-        "https://www.spiegel.de/ausland/zois-osteuropa-institut-meldet-cyberangriff-a-e8265220-d38c-4b25-9af2-87876c95d8ec#ref=rss",
-        "https://www.spiegel.de/panorama/gesellschaft/social-media-warum-ein-verbot-fuer-kinder-und-jugendliche-der-falsche-weg-ist-a-cd6d6278-c6d6-4672-9851-11877312e97a#ref=rss"
+        "https://www.spiegel.de/politik/deutschland/katherina-reiche-zwei-gastbeitraege-der-wirtschaftsministerin-unter-ki-verdacht-a-a936c07e-a300-43db-ba8f-3e444054be7e#ref=rss",
+        "https://www.spiegel.de/netzwelt/web/kuenstliche-intelligenz-als-rezeptautomat-lassen-sie-diese-ki-ihren-naechsten-burger-planen-a-dc257693-ca0f-4bfc-b8d8-ce3eeeb07120#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/kuenstliche-intelligenz-wie-kanzler-friedrich-merz-und-sein-kabinett-mit-ki-umgehen-a-c50e9bbe-ffab-469a-8555-d014dc973fd9#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/donald-trump-und-die-eu-droht-neuer-zollstreit-wegen-digitalsteuer-a-c73a5b3d-1eeb-4a5c-b35e-e98cda1e465c#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "admiration",
           "count": 1
-        },
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 7,
+      "sample_titles": [
+        "Börsenprofi sagt - So finden Sie geheime KI-Kracher an der Börse",
+        "Wohnzimmer im Wandel - KI bringt frischen Wind in die Einrichtung",
+        "„Graue Bärte“ retten Qualität - Ford holt Ingenieure zurück, weil die KI versagt",
+        "Tech-Geschwister warnen vor ChatGPT & Co. - Diese drei KI-Regeln sollten alle Kinder kennen"
+      ],
+      "urls": [
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-finden-sie-die-geheimen-ki-kracher-an-der-boerse-6a4363942904699a9c560763",
+        "https://www.bild.de/leben-wissen/wohnen-living/mit-ki-zur-traumwohnung-diese-tools-zeigen-neue-kreative-wohnideen-6a38f74a7e682fc37fc0334f",
+        "https://www.bild.de/politik/ausland-und-internationales/ford-holt-ingenieure-zurueck-weil-die-ki-versagt-graue-baerte-retten-qualitaet-6a4363469490396aa38abcce",
+        "https://www.bild.de/leben-wissen/kind-familie/geschwister-warnen-vor-ki-an-schulen-eure-kinder-verlernen-zu-denken-6a21a13b85a291ced3869485"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -136,43 +120,47 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 6,
+      "article_count": 7,
       "sample_titles": [
-        "Badeunfälle verhindern: Freibäder nutzen KI als \"zusätzliches Auge\"",
-        "Angst vor Cyberattacken: US-Regierung lässt Zugang zu ChatGPT-Version einschränken",
-        "Zugang erst ab 13 Jahren?: Priens Social-Media-Altersgrenze steht vor vielen Problemen",
-        "Kein fairer Handel: Kanzler Merz will China von 5G-Netzen fernhalten"
+        "Gefertigt in Deutschland: Europäisches Datenschutz-Smartphone Punkt MC03 startet",
+        "Unverifizierte Zitate benutzt: Mario Voigt will seinen Umgang mit KI ändern",
+        "Drohnen und KI-Kriegsführung: Russland hat die Masse, die Ukraine das Entwicklungstempo",
+        "Zentralbanken müssen bereit sein: Notenbankenorganisation warnt vor Staatsschulden und KI-Boom"
       ],
       "urls": [
-        "https://www.n-tv.de/panorama/Freibaeder-nutzen-KI-als-zusaetzliches-Auge-id30995242.html",
-        "https://www.n-tv.de/wirtschaft/ChatGPT-5-6-von-US-Regierung-eingeschraenkt-nur-US-Firmen-haben-Zugang-id31020402.html",
-        "https://www.n-tv.de/panorama/Priens-Social-Media-Altersgrenze-steht-vor-vielen-Problemen-id31009981.html",
-        "https://www.n-tv.de/wirtschaft/Kanzler-Merz-will-China-von-5G-Netzen-fernhalten-id31008882.html"
+        "https://www.n-tv.de/technik/Europaeisches-Datenschutz-Smartphone-Punkt-MC03-startet-id31013088.html",
+        "https://www.n-tv.de/politik/Mario-Voigt-will-seinen-Umgang-mit-KI-aendern-id31030312.html",
+        "https://www.n-tv.de/politik/Russland-hat-die-Masse-die-Ukraine-das-Entwicklungstempo-id31019242.html",
+        "https://www.n-tv.de/wirtschaft/Notenbankenorganisation-warnt-vor-Staatsschulden-und-KI-Boom-id31023566.html"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
         {
           "emotion": "disapproval",
           "count": 1
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 6,
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 7,
       "sample_titles": [
-        "Deutschland und China: Mit Peking reden, Brüssel stärken",
-        "Zweiter Tag beim Bachmannpreis 2026: Die Rücken schöner Männer",
-        "Digitaler Euro: Völlig überflüssig",
-        "Ex­per­tenkom­mis­si­on zu Social Media: Vielleicht eine Altersgrenze und 55 weitere Maßnahmen"
+        "Ermittlungen nach Gewalttat: Sechs Tote nach Schüssen in Stade – Wie geht es weiter?",
+        "Newsblog zum Block-Prozess: Zweiter Fahrer der Kindesentführung soll aussagen – per Liveschalte",
+        "KI-Waffensysteme: Der Kollateralschaden ist vorprogrammiert",
+        "Arbeitsmarkt und KI: Arbeitsagentur: Jobs in der IT-Branche haben Zukunft"
       ],
       "urls": [
-        "https://taz.de/Deutschland-und-China/!6187379/",
-        "https://taz.de/Zweiter-Tag-beim-Bachmannpreis-2026/!6191403/",
-        "https://taz.de/Digitaler-Euro/!6190278/",
-        "https://taz.de/Expertenkommission-zu-Social-Media/!6190138/"
+        "https://www.stern.de/panorama/ermittlungen-nach-gewalttat--sechs-tote-nach-schuessen-in-stade---wie-geht-es-weiter--37623900.html",
+        "https://www.stern.de/panorama/verbrechen/block-prozess-live--entfuehrungs-fahrer-soll-aussagen---aus-israel-35867508.html",
+        "https://www.stern.de/politik/ausland/drohnen-kriege--wie-gefaehrlich-sind-ki-waffen-fuer-die-menschheit--37587608.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/arbeitsmarkt-und-ki--arbeitsagentur--jobs-in-der-it-branche-haben-zukunft-37614224.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -181,7 +169,85 @@
           "count": 2
         },
         {
-          "emotion": "joy",
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 5,
+      "sample_titles": [
+        "KI und Sportjournalismus: Wir sollten uns ehrlich machen",
+        "Südkorea investiert in Chip-Industrie: Hunderte Milliarden für Chips und KI",
+        "Verbot von Social Media: Australien verdoppelt Geldstrafe für Konzern-Verstöße",
+        "Leben ohne Social Media: „Nach zwei Wochen verbessert sich die psychische Gesundheit“"
+      ],
+      "urls": [
+        "https://taz.de/KI-macht-den-Journalismus-nicht-besser-im-Sportjournalismus-zeigt-sich-diese-Entwicklung/!6192086/",
+        "https://taz.de/Suedkorea-investiert-in-Chip-Industrie/!6191702/",
+        "https://taz.de/Verbot-von-Social-Media/!6191478/",
+        "https://taz.de/Professorin-zu-Social-Media-Nach-zwei-Wochen-Abstinenz-verbessert-sich-die-psychische-Gesundheit/!6190512/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 5,
+      "sample_titles": [
+        "Deutschland erlebt seinen zweiten großen Technologieschock",
+        "KI wird zum Treiber bei Stromverbrauch und Emissionen",
+        "„Bleibt ein Prozess menschlicher Intelligenz“ – Ministerien und Kanzler setzen KI nur behutsam ein",
+        "Trump droht europäischen Ländern wegen Digitalsteuer mit Zöllen von 100 Prozent – EU antwortet"
+      ],
+      "urls": [
+        "https://www.welt.de/finanzen/plus6a3fd6f44f26b24bcf468e0c/ki-deutschland-erlebt-seinen-zweiten-grossen-technologieschock.html",
+        "https://www.welt.de/regionales/hamburg/article6a43821ce507bf1455ece1ff/neue-rechenzentren-ki-wird-zum-treiber-bei-stromverbrauch-und-emissionen.html",
+        "https://www.welt.de/politik/deutschland/article6a417f4f113e90346dc50581/reden-der-regierungsmitglieder-bleibt-ein-prozess-menschlicher-intelligenz-ministerien-und-kanzler-setzen-ki-nur-behutsam-ein.html",
+        "https://www.welt.de/politik/ausland/article6a3eb101afe845031b3af8de/trump-droht-europaeischen-laendern-wegen-digitalsteuer-mit-zoellen-von-100-prozent-eu-antwortet.html"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 5,
+      "sample_titles": [
+        "Mit KI im Abitur schummeln: Wie gehen Schulen in BW mit den neuen Betrugstechniken um?",
+        "KI-Kurse fürs Volk",
+        "Was KI nicht kann",
+        "Forschung an Uni Kassel: KI soll Fahrrad-Unfälle auf Schulwegen verhindern"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/wie-schulen-mit-moeglichem-ki-betrug-bei-pruefungen-umgehen-100.html",
+        "https://www.tagesschau.de/ausland/asien/singapur-ki-kurse-100.html",
+        "https://www.tagesschau.de/wissen/forschung/unkritische-ki-nutzung-100.html",
+        "https://www.hessenschau.de/panorama/forschung-an-uni-kassel-ki-soll-fahrrad-unfaelle-auf-schulwegen-verhindern-v1,ki-sicherheit-radfahren-100.html"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -190,17 +256,17 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 6,
+      "article_count": 4,
       "sample_titles": [
+        "Bayern will KI-Verbote an Unis kippen",
+        "Warum die Fabrik wichtiger sein könnte als der Chatbot",
         "Kann Europa im KI-Rennen noch aufholen?",
-        "Wie Künstliche Intelligenz am Beckenrand Leben retten soll",
-        "Kommission zu Social Media-Verboten für Kinder und Jugendliche",
         "Cybersicherheit: Deutschlands offene Baustellen"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/zdfheute-live/bayern-ki-hochschulen-video-100.html",
+        "https://www.zdfheute.de/wirtschaft/ki-in-der-industrie-deutschland-industrial-ai-100.html",
         "https://www.zdfheute.de/wirtschaft/ki-europa-usa-eu-anthropic-europe-2031-google-openai-100.html",
-        "https://www.zdfheute.de/panorama/badeunfaelle-schwimmbaeder-kuenstliche-intelligenz-ki-lebensretter-100.html",
-        "https://www.phoenix.de/social-media-a-5212248.html",
         "https://www.zdfheute.de/politik/deutschland/cybersicherheit-deutschland-ki-digitale-souveraenitaet-christian-doerr-100.html"
       ],
       "dominant_emotion": "disgust",
@@ -215,107 +281,23 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Arbeitsmarkt und KI: Arbeitsagentur: Jobs in der IT-Branche haben Zukunft",
-        "KI-Assistenten: ChatGPT, Gemini, Claude: Wer kann was?",
-        "Extremismus: Extremisten setzen verstärkt auf KI und soziale Medien",
-        "\"plan b: City vibes – Wie machen wir unsere Städte sicherer?\": Mit KI, Apps und menschlichem Einsatz gegen die nächtliche Angst"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/arbeitsmarkt-und-ki--arbeitsagentur--jobs-in-der-it-branche-haben-zukunft-37614224.html",
-        "https://www.stern.de/kultur/ki-assistenten--chatgpt--gemini--claude--wer-kann-was--37607138.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/extremismus--extremisten-setzen-verstaerkt-auf-ki-und-soziale-medien-37602490.html",
-        "https://www.stern.de/kultur/tv/mit-ki--apps-und-menschlichem-einsatz-gegen-die-naechtliche-angst-37598172.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 5,
-      "sample_titles": [
-        "Dealer auf dem Schulweg, Angst im eigenen Treppenhaus – CDU fordert Sicherheitsoffensive",
-        "KI-Modell zeigt politische Färbung der ARD-Kommentare",
-        "Prien empfiehlt Social-Media-Verbot für unter 13-Jährige",
-        "Schüler sollen Deepfake-Nacktbilder von Mitschülerinnen verbreitet haben – Polizei ermittelt"
-      ],
-      "urls": [
-        "https://www.welt.de/vermischtes/article6a3e1f1d113e90346dc4d64e/berlin-dealer-auf-dem-schulweg-angst-im-eigenen-treppenhaus-cdu-fordert-sicherheitsoffensive.html",
-        "https://www.welt.de/politik/plus6a3be2ff2dd44d7b2527a9bb/startup-untersuchung-ki-modell-zeigt-politische-faerbung-der-ard-kommentare.html",
-        "https://www.welt.de/politik/video6a3ce9caafe845031b3ad94b/familienministerin-prien-empfiehlt-social-media-verbot-fuer-unter-13-jaehrige.html",
-        "https://www.welt.de/vermischtes/article6a3cc6500720f035db42ca2e/berlin-schueler-sollen-deepfake-nacktbilder-von-mitschuelerinnen-verbreitet-haben-polizei-ermittelt.html"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "USA: Wegen Digitalsteuer-Plänen: Trump droht Europäern mit Zöllen in Höhe von 100 Prozent",
-        "Social Media: „Verbotenes schmeckt oft besonders gut“",
-        "Debatte um Social-Media-Verbot: Nicht die Kinder sind das Problem – die Eltern sind es",
-        "Schnelles Internet: Mehr Glasfaser für Germering"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/usa-news-trump-zoelle-100-prozent-europa-digitalsteuer-li.3494806",
-        "https://www.sueddeutsche.de/kultur/social-media-verbot-kinder-deutschland-karin-prien-li.3505726",
-        "https://www.sueddeutsche.de/meinung/kommentar-prien-familie-social-media-verbot-kinder-li.3504233",
-        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/glasfaserausbau-germering-telekom-li.3503964"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
       "article_count": 3,
       "sample_titles": [
-        "Wer wird Weltmeister?  - Bundesliga-Trainer fragt seine KI",
-        "Aus Angst vor China und USA - Deutsche Sicherheits-Chefs fordern Europa-KI",
-        "Datenleck!  - Meta stoppt internes KI-Programm"
+        "Künstliche Intelligenz: USA heben Blockade von Anthropics KI-Modellen auf",
+        "KI in der Politik: Ministerien und Kanzler setzen KI für Recherche- und Hilfsaufgaben ein",
+        "Suresh Venkatasubramanian: »Europa kann digital souverän werden – aber es braucht Ausdauer«"
       ],
       "urls": [
-        "https://www.bild.de/sport/fussball/wm-2026-wer-wird-weltmeister-bundesliga-trainer-baum-fragt-die-ki-6a3e6299113e90346dc4dd48",
-        "https://www.bild.de/politik/inland/aus-angst-vor-china-und-usa-deutsche-sicherheits-chefs-fordern-europa-ki-6a3bfd6c2dd44d7b2527aca1",
-        "https://www.bild.de/leben-wissen/digital/datenleck-meta-stoppt-internes-ki-programm-6a39b4b1e880869d9f532cbb"
+        "https://www.zeit.de/digital/2026-07/anthropic-exportsperre-ki-modelle-mythos-5-fable-5",
+        "https://www.zeit.de/politik/deutschland/2026-06/kuenstliche-intelligenz-reden-politiker-bundesregierung-friedrich-merz",
+        "https://www.zeit.de/politik/ausland/2026-06/suresh-venkatasubramanian-kuenstliche-intelligenz-anthropics-usa-china"
       ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "nzz": {
       "source_id": "nzz",
@@ -323,26 +305,33 @@
       "bias": "conservative-liberal",
       "article_count": 3,
       "sample_titles": [
-        "An der WM rudern die Norweger und präsentieren sich als Wikinger – dieses Bild stösst aber in der Öffentlichkeit auch auf Kritik",
-        "Open AI läuft die Zeit davon. Die KI-Firma muss um ihren Börsengang zittern",
-        "«Niemand kann sagen, wie lange das noch gut geht»: Die KI-Skepsis kehrt an die Finanzmärkte zurück"
+        "KOMMENTAR - Verbotene KI: Nach Anthropic muss jetzt auch Open AI sein bestes Modell unter Verschluss halten – das droht den Ruf der Tech-Nation Amerika zu ruinieren",
+        "Die Bank der Zentralbanken sieht grosses Potenzial in der künstlichen Intelligenz – und eine wachsende Gefahr für einen Crash",
+        "KI-Rechtsschriften beschäftigen die Gerichte: «Alles wird ohne fachliche Endkontrolle eingereicht»"
       ],
       "urls": [
-        "https://www.nzz.ch/sport/an-der-wm-rudern-die-norweger-und-praesentieren-sich-als-wikinger-dieses-bild-stoesst-aber-in-der-oeffentlichkeit-auch-auf-kritik-ld.10013128",
-        "https://www.nzz.ch/finanzen/open-ai-laeuft-die-zeit-davon-die-ki-firma-muss-um-ihren-boersengang-zittern-ld.10013070",
-        "https://www.nzz.ch/finanzen/niemand-kann-sagen-wie-lange-das-noch-gut-geht-die-ki-skepsis-kehrt-an-die-finanzmaerkte-zurueck-ld.10012658"
+        "https://www.nzz.ch/meinung/verbotene-ki-nach-anthropic-muss-jetzt-auch-open-ai-sein-bestes-modell-unter-verschluss-halten-das-droht-den-ruf-der-tech-nation-amerika-zu-ruinieren-ld.10013351",
+        "https://www.nzz.ch/wirtschaft/boom-and-bust-die-bank-der-zentralbanken-sieht-grosses-potenzial-in-der-kuenstlichen-intelligenz-und-eine-wachsende-gefahr-fuer-einen-finanz-crash-ld.10012750",
+        "https://www.nzz.ch/schweiz/ki-rechtsschriften-beschaeftigen-die-gerichte-alles-wird-ohne-fachliche-endkontrolle-eingereicht-ld.10012350"
       ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "KI-Vigilare: Landesmedienanstalten als Handlanger des Geheimdienstes",
+        "Als das Nervensystem der Deutschen Bahn ausfiel"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/meinungen/ki-vigilare-landesmedienanstalten-inquisition/",
+        "https://www.tichyseinblick.de/daili-es-sentials/deutsche-bundesbahn-nervensystem-ausfall/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "cicero": {
       "source_id": "cicero",
@@ -360,46 +349,30 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "Jugendverbot und KI – eine undurchdachte Beziehung",
-        "Deutschland rutscht im Wettbewerbsranking weiter ab"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/feuilleton/medien/jugendverbot-kuenstliche-intelligenz/",
-        "https://www.tichyseinblick.de/wirtschaft/deutschland-rutscht-im-wettbewerbsranking-weiter-ab/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Suresh Venkatasubramanian: »Europa kann digital souverän werden – aber es braucht Ausdauer«"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/ausland/2026-06/suresh-venkatasubramanian-kuenstliche-intelligenz-anthropics-usa-china"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
       "article_count": 1,
       "sample_titles": [
-        "Deutschland: Social-Media-Verbot für unter 13-Jährige?"
+        "US-Regierung verstärkt Einfluss auf KI-Entwickler"
       ],
       "urls": [
-        "https://www.dw.com/de/deutschland-social-media-verbot-für-unter-13-jährige/a-77691902?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/us-regierung-verstärkt-einfluss-auf-ki-entwickler/a-77733401?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Debatte: Social Media verbieten? Ja, klar. Aber für Erwachsene!"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/kultur/social-media-verbot-prien-kinder-jugendliche-li.3504947"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -411,16 +384,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 20,
-    "neutral": 25,
-    "right-conservative": 11,
-    "left": 6,
-    "economic-liberal": 19,
-    "conservative-liberal": 28,
-    "populist-mixed": 3,
-    "far-right": 2
+    "populist-mixed": 7,
+    "economic-liberal": 16,
+    "left-liberal": 19,
+    "left": 5,
+    "neutral": 10,
+    "far-right": 2,
+    "right-conservative": 12,
+    "conservative-liberal": 18
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt eine breite Übereinstimmung darin, dass Künstliche Intelligenz als konkrete Technologie mit praktischen Anwendungspotentialen in Deutschland begriffen wird – von der Unfallprävention bis zur Verwaltungsdigitalisierung – statt sie ausschließlich als abstrakte theoretische Bedrohung zu behandeln. Übergreifend wird die Notwendigkeit europäischer und deutscher digitaler Souveränität gegenüber USA und China als strategische Imperative akzeptiert, unabhängig davon, ob dies mit wirtschaftsliberalen oder sicherheitspolitischen Argumenten begründet wird. Eine dritte Gemeinsamkeit liegt in der impliziten Anerkennung, dass Regulierung und Gestaltung von KI-Systemen unvermeidlich sind – ob durch Altersfreigrenzen bei Social Media, Datenschutz oder staatliche Kontrolle – wobei der Dissens nur die konkrete Form dieser Regulierung betrifft.",
-  "controversial_points": "Der deutsche Mediendiskurs spaltet sich entlang einer grundlegenden Unterscheidung: Während linke und liberal-progressive Medien Digitalisierung und KI primär als Regulierungsproblem rahmen – mit Fokus auf Datenschutz, Arbeitsplatzabbau und gesellschaftliche Nebenwirkungen – sehen wirtschaftsliberale und konservative Medien die zentrale Herausforderung in Deutschlands technologischem Rückstand und mangelnder Wettbewerbsfähigkeit gegenüber USA und China, wodurch Regulierung eher als Innovationsbremse erscheint. Diese Spannung offenbart einen tieferen Konflikt über die Grundfrage, ob digitale Souveränität durch Schutzmaßnahmen (Verbraucherschutz, Arbeitnehmerrechte, Datensicherheit) oder durch technologische Eigenständigkeit und Marktdynamik erreicht werden kann – ein Widerspruch, der sich in der Debatte über KI-Regulierung, Social-Media-Verbote und Arbeitsmarktpolitik durchzieht und keine synthetisierende Lösung erlaubt.",
-  "cached_at": "2026-06-28T08:07:22.079345"
+  "shared_perspectives": "Der deutsche Mediendiskurs zeigt über politische Grenzen hinweg ein geteiltes Verständnis von KI als fundamentale wirtschaftliche und technologische Herausforderung, bei der Deutschland strategisch handeln muss — sowohl durch Investitionen in Halbleiter- und digitale Infrastruktur als auch durch regulatorische Rahmensetzung, um technologische Abhängigkeiten zu reduzieren. Unabhängig von der politischen Ausrichtung wird KI nicht primär als philosophisches oder rein gesellschaftliches Risiko debattiert, sondern als praktisches Gestaltungsproblem für Staat und Wirtschaft, wobei die Frage der europäischen und deutschen Wettbewerbsfähigkeit gegenüber den USA zentral bleibt. Selbst kritische Perspektiven auf KI-Folgen (bei Arbeitsmarkt, Bildung oder Energieverbrauch) werden im deutschen Kontext mehrheitlich mit dem Anspruch verbunden, KI nicht zu verdammen, sondern intelligent einzuordnen und zu regulieren — was eine bemerkenswerte Kontinuität zwischen wirtschaftsliberalen und linken Positionen darstellt.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen KI-Diskurs\n\nDer deutsche Mediendiskurs spaltet sich fundamental zwischen einer **Innovationspflicht-vs.-Kontrollimperativ-Achse**: Während liberal-konservative und wirtschaftsliberale Medien KI primär als Wettbewerbsfaktor gegen US-amerikanische und asiatische Dominanz rahmen und Regulierung als Innovationsbremse kritisieren, inszenieren rechts-konservative und linksliberale Medien KI als Risikotechnologie, die deutsche Besonderheiten (Datenschutz, Souveränität, Mitbestimmung) gefährdet oder unkontrolliert Abhängigkeiten schafft. Diese Konfliktlinie ist keine bloße Meinungsverschiedenheit, sondern drückt gegensätzliche Staatsverständigungen aus: Soll der deutsche Staat KI-Entwicklung als nationale Wirtschaftsstrategie fördern oder als Schutzraum vor Technologieveränderung gestalten?\n\nEine zweite strukturelle Spannungslinie verläuft zwischen **Techno-Solutionismus und Skeptis-Realismus**: Die Populist-Mixed- und Economic-Liberal-Sphären verkaufen KI als Universallösung für Staatsverschlankung, Effizienzgewinne und individuelle Bereicherung (Börsengewinne, Wohnzimmerdesign), während rechts-konservative und linksliberale Medien die Grenze zwischen maschineller Optimierung und menschlicher Urteilskraft bewusst zieht und fragt, was KI *nicht* kann oder *nicht darf*. Hier kollidieren nicht unterschiedliche KI-Bewertungen, sondern unterschiedliche Vorstellungen davon, welche Lebensbereiche der Ökonomisierung und Automatisierung unterliegen sollen.\n\nEine dritte Linie manifestiert sich in der **Souve",
+  "cached_at": "2026-07-01T08:46:03.270908"
 }

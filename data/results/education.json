@@ -1,39 +1,39 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 297,
+  "article_count": 288,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 80,
+      "article_count": 81,
       "sample_titles": [
-        "Forschung an Uni Kassel: KI soll Fahrrad-Unfälle auf Schulwegen verhindern",
-        "AfD-Vize Münzenmaier offen für aufgeweichte Schulpflicht",
-        "Lösung für Raumnot an der Tom-Mutters-Förderschule in Frankenthal gefunden",
-        "Schüler einer Bochumer Schule leiden besonders unter Hitze"
+        "Warum Thüringens Hochschulen Studierende verlieren, aber die Statistik Rekorde meldet",
+        "Badeunfälle vermeiden: Kinder der Grundschulen in Kaiserslautern lernen schwimmen",
+        "Wenn der Abistreich teuer wird: Tübinger Schule verlangt 2.000 Euro Kaution",
+        "Unterricht an Lebuser Schule fällt wegen Lehrermangel monatelang aus"
       ],
       "urls": [
-        "https://www.hessenschau.de/panorama/forschung-an-uni-kassel-ki-soll-fahrrad-unfaelle-auf-schulwegen-verhindern-v1,ki-sicherheit-radfahren-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/swr-aktuell-sommer-interview-sebastian-muenzenmaier-stellvertretender-landesvorsitzende-afd-rlp-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/loesung-fuer-tom-mutters-schule-100.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/bochum/schule-bochum-hitze-gutachten-100.html"
+        "https://www.mdr.de/nachrichten/thueringen/verlieren-gewinnen,hochschulen-studenten-statistik-rekord-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/kinder-sollen-schwimmen-lernen-schwimmzentrum-grundschule-schwimmbad-kaiserslautern-rlp-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/schuke-nimmt-kaution-fuer-abistreich-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/06/schule-unterricht-ausfall-lebus-lehrermangel-oderland-brandenburg.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "curiosity",
           "count": 6
         },
         {
           "emotion": "annoyance",
           "count": 5
-        },
-        {
-          "emotion": "confusion",
-          "count": 3
         }
       ]
     },
@@ -41,18 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 52,
+      "article_count": 57,
       "sample_titles": [
+        "Mit Langer Verzögerung: Baubeginn für Gymnasium Römerhof",
+        "Studie zu Inklusion: Die Förderschule ist für viele Eltern eine „Notlösung“",
         "Prüfungen an Hochschulen: Bayerns KI-Vorstoß ist nur Symbolpolitik",
-        "Folge der Schulpflicht: Wer die Ferien verlängert, riskiert ein Bußgeld",
-        "Einschulung vorbereiten: Acht Tipps, die den Schulanfang leichter machen",
-        "Bayerische Hochschulen: Prüfungen sollen künftig mit KI geschrieben werden dürfen"
+        "Folge der Schulpflicht: Wer die Ferien verlängert, riskiert ein Bußgeld"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/gymnasium-roemerhof-baubeginn-fuer-neubau-in-frankfurt-200983016.html",
+        "https://www.faz.net/aktuell/gesellschaft/menschen/inklusion-die-foerderschule-ist-fuer-viele-eltern-eine-notloesung-200982567.html",
         "https://www.faz.net/aktuell/feuilleton/debatten/ki-verbotsverbot-an-bayerischen-hochschulen-was-soll-das-200967122.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/sommerferien-fruehflieger-riskieren-wegen-schulpflicht-ein-bussgeld-200966958.html",
-        "https://www.faz.net/aktuell/besser-leben/familie/tipps-zur-einschulung-was-eltern-bei-ranzen-schulweg-und-co-beachten-sollten-accg-200934768.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/ki-an-hochschulen-bayern-will-benutzung-bei-pruefungen-erlauben-200962334.html"
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/sommerferien-fruehflieger-riskieren-wegen-schulpflicht-ein-bussgeld-200966958.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -74,7 +74,7 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 29,
+      "article_count": 24,
       "sample_titles": [
         "Wie die »Azubis gegen Rechts« ihre Betriebe verändern wollen",
         "Lernen in den Sommerferien: Was Grundschulkinder trotz Freizeit üben sollten",
@@ -87,8 +87,12 @@
         "https://www.spiegel.de/panorama/bildung/kevelaer-gruppenarbeit-zu-fiktivem-bordell-nrw-schulministerium-kritisiert-aufgabe-als-ungeeignet-a-813a31ba-6a9b-4d58-a210-f6c864b5e537#ref=rss",
         "https://www.spiegel.de/start/bafoeg-friedrich-merz-stellt-baldige-einigung-auf-reform-in-aussicht-a-652c4209-17b9-48fb-b4aa-35f68b39cbd3#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
         {
           "emotion": "optimism",
           "count": 2
@@ -96,42 +100,38 @@
         {
           "emotion": "confusion",
           "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 23,
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 22,
       "sample_titles": [
-        "Vor dem Ferienstart: Bei früherem Abflug droht Ärger - Was zur Schulpflicht gilt",
-        "Ostkongress von Bündnis 90/Die Grünen: Grüne fordern faire Chancen für Kinder auf dem Land",
-        "USA: US-Bundesstaat Texas führt Bibel-Lesepflicht in Schulen ein",
-        "Bildungssystem: Schülermangel? Das ist doch die Chance"
+        "Hamburg setzt auf schnelle Projekte – 500 Millionen Euro fließen bis 2029",
+        "Streit um Schulbegleitung eskaliert – Demonstrationen und Petitionen geplant",
+        "Hamburgs Universitätsbibliothek kämpft mit „unvermeidlichen“ Einschnitten",
+        "Schüler sollten „Puff für alle“ entwerfen – Ministerium rügt Aufgabe an Schule"
       ],
       "urls": [
-        "https://www.zeit.de/news/2026-06/28/bei-frueherem-abflug-droht-aerger-was-zur-schulpflicht-gilt",
-        "https://www.zeit.de/bildung/2026-06/sassnitzer-erklaerung-gruene-bildung-laendlicher-raum",
-        "https://www.zeit.de/politik/ausland/2026-06/usa-bundesstaat-texas-bibel-pflichtlektuere-schule",
-        "https://www.zeit.de/familie/2026-06/bildungssystem-geburtenrueckgang-chance-lehre-kinder-gxe"
+        "https://www.welt.de/regionales/hamburg/article6a43e6755e34580fbae56812/bildungsbau-hamburg-setzt-auf-schnelle-projekte-500-millionen-euro-fliessen-bis-2029.html",
+        "https://www.welt.de/regionales/hamburg/article6a43d7c030b768424cc6268e/schulbegleitung-streit-um-schulbegleitung-eskaliert-demonstrationen-und-petitionen-geplant.html",
+        "https://www.welt.de/regionales/hamburg/article6a425dcdafe845031b3b24f7/literatur-engpass-hamburgs-universitaetsbibliothek-kaempft-mit-unvermeidlichen-einschnitten.html",
+        "https://www.welt.de/politik/deutschland/article6a3e5807f35865c1dfe23388/gymnasium-in-kevelaer-schueler-sollten-puff-fuer-alle-entwerfen-ministerium-ruegt-aufgabe-an-schule.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "excitement",
+          "emotion": "approval",
           "count": 1
         },
         {
-          "emotion": "approval",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -142,153 +142,58 @@
       "bias": "left-liberal",
       "article_count": 22,
       "sample_titles": [
+        "Breitensport: NRW führt Zertifikat „Sportgrundschule“ ein",
         "Vor dem Ferienstart: Bei früherem Abflug droht Ärger - Was zur Schulpflicht gilt",
-        "Frankreichs Schulen bekommen 130 Millionen Euro für Klimaanlagen",
         "Temperaturen über 30 Grad: Hitzefrei an Schulen – Wann der Unterricht ausfällt",
         "Landtagssitzung: CDU und AfD streiten über Bildung und Frauenbild im Landtag"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/breitensport--nrw-fuehrt-zertifikat--sportgrundschule--ein-37620056.html",
         "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/vor-dem-ferienstart--bei-frueherem-abflug-droht-aerger---was-zur-schulpflicht-gilt-37614288.html",
-        "https://www.stern.de/news/frankreichs-schulen-bekommen-130-millionen-euro-fuer-klimaanlagen-37607194.html",
         "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/temperaturen-ueber-30-grad--hitzefrei-an-schulen---wann-der-unterricht-ausfaellt-37594440.html",
         "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/landtagssitzung--cdu-und-afd-streiten-ueber-bildung-und-frauenbild-im-landtag-37586534.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "approval",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
         {
           "emotion": "approval",
           "count": 3
         },
         {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
           "emotion": "annoyance",
           "count": 2
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
       "article_count": 19,
       "sample_titles": [
-        "Schüler sollten „Puff für alle“ entwerfen – Ministerium rügt Aufgabe an Schule",
-        "Steigende Gewalt und Mobbing – Grundschulen schlagen Alarm",
-        "Warum so viele Lehrkräfte Angst haben, ihre politische Meinung zu äußern",
-        "„Die Kinder der Mittelklasse können weder ihre Miete noch ihre Studiengebühren zahlen“"
+        "Ostkongress von Bündnis 90/Die Grünen: Grüne fordern faire Chancen für Kinder auf dem Land",
+        "USA: US-Bundesstaat Texas führt Bibel-Lesepflicht in Schulen ein",
+        "Bildungssystem: Schülermangel? Das ist doch die Chance",
+        "Gewalt an Schulen: Was bitte ist an den Schulen los?"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a3e5807f35865c1dfe23388/gymnasium-in-kevelaer-schueler-sollten-puff-fuer-alle-entwerfen-ministerium-ruegt-aufgabe-an-schule.html",
-        "https://www.welt.de/politik/video6a3a457984d1ec4a45f99a02/berlin-steigende-gewalt-und-mobbing-grundschulen-schlagen-alarm.html",
-        "https://www.welt.de/politik/deutschland/plus6a33b0647e682fc37fbff023/probleme-an-schulen-warum-so-viele-lehrkraefte-angst-haben-ihre-politische-meinung-zu-aeussern.html",
-        "https://www.welt.de/kultur/plus6a3908ac3131b31f75cc95d4/robert-harris-die-kinder-der-mittelklasse-koennen-weder-ihre-miete-noch-ihre-studiengebuehren-zahlen.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 17,
-      "sample_titles": [
-        "Schulen und Kliniken während Hitzewelle: Heiß! Heiß! Baby?!",
-        "Ex­per­tenkom­mis­si­on zu Social Media: Altersgrenze bleibt weiter offen",
-        "Kinder fragen, die taz antwortet: Was machen Lehrer:innen, wenn sie pupsen müssen?",
-        "Studie zu Gewalt an Schulen: Macht es doch wie nach der Silvesternacht"
-      ],
-      "urls": [
-        "https://taz.de/Schulen-und-Kliniken-waehrend-Hitzewelle/!6187304/",
-        "https://taz.de/Expertenkommission-zu-Social-Media/!6190217/",
-        "https://taz.de/Kinder-fragen-die-taz-antwortet/!6187374/",
-        "https://taz.de/Studie-zu-Gewalt-an-Schulen/!6189896/"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "grief",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Edith-Stein-Realschule in Unterschleißheim: Sehbehinderten-Schule kann vorerst weitermachen",
-        "Hitzewelle in Bayern: Was Schulen dürfen, wenn es im Klassenzimmer heiß und stickig ist",
-        "Bildung: Viele Hausaufgaben",
-        "Baubeginn in Geretsried: Spatenstich für die Super-Mittelschule"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/unterschleissheim-realschule-sehbehinderte-einsparungen-li.3501844",
-        "https://www.sueddeutsche.de/bayern/bayern-schulen-klassenzimmer-hitzefrei-li.3504249",
-        "https://www.sueddeutsche.de/muenchen/starnberg/utting-gespraech-grundschule-kindergarten-bildung-bayern-triebel-gruene-li.3492834",
-        "https://www.sueddeutsche.de/muenchen/wolfratshausen/geretsried-spatenstich-mittelschule-adalbert-stifter-strasse-erweiterung-investition-baubeginn-55-millionen-euro-li.3495687"
+        "https://www.zeit.de/bildung/2026-06/sassnitzer-erklaerung-gruene-bildung-laendlicher-raum",
+        "https://www.zeit.de/politik/ausland/2026-06/usa-bundesstaat-texas-bibel-pflichtlektuere-schule",
+        "https://www.zeit.de/familie/2026-06/bildungssystem-geburtenrueckgang-chance-lehre-kinder-gxe",
+        "https://www.zeit.de/bildung/2026-06/gewalt-schulen-deutschland-studie-gewaltbarometer"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 8,
-      "sample_titles": [
-        "Landeskirche Für Gender-Theologie ist Geld da – aber für eine evangelische Privatschule nicht",
-        "Bremerhaven Schule weist Spende für Schwimmunterricht ab – weil der Spender konservativ ist",
-        "Gewalt an Schulen Beleidigt, bedroht, ausgepeitscht – Syrer und Afghane terrorisieren Mitschüler",
-        "Bildungsbericht 2026 Bildungsbericht ist für Ex-Lehrerpräsidenten ein „Mathematik-Desaster“"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/fuer-gender-theologie-ist-geld-da-aber-fuer-eine-evangelische-privatschule-nicht/",
-        "https://jungefreiheit.de/politik/deutschland/2026/schule-weist-spende-fuer-schwimmunterricht-ab-weil-der-spender-konservativ-ist/",
-        "https://jungefreiheit.de/politik/deutschland/2026/beleidigt-bedroht-ausgepeitscht-syrer-und-afghane-terrorisieren-mitschueler/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bildungsbericht-ist-fuer-ex-lehrerpraesidenten-ein-mathematik-desaster/"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
+          "emotion": "approval",
           "count": 1
         },
         {
@@ -297,55 +202,22 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 8,
-      "sample_titles": [
-        "Seitenhieb für Spahn und Bär - Gute BAföG-Nachricht für Studis vom Kanzler",
-        "Erste amtliche Studie für Berlin - Immer mehr Religions-Konflikte an Schulen!",
-        "Nach Vorfall an Schule - Polizei warnt vor Würge-Challenge",
-        "Welche Ausbildung jetzt lohnt - Die 50 besten Azubi-Jobs mit Zukunft"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/friedrich-merz-im-bundestag-das-ueberraschende-bafoeg-basta-des-kanzlers-6a3bc86eafe845031b3ac8f6",
-        "https://www.bild.de/politik/inland/berlin-studie-enthuellt-immer-mehr-konflikte-wegen-religion-an-schulen-6a38acc47e682fc37fc02ef5",
-        "https://www.bild.de/news/inland/nach-vorfall-an-schule-wegen-tiktok-trend-polizei-warnt-vor-wuerge-challenge-6a362dbaaf14c0b5289606e5",
-        "https://www.bild.de/politik/inland/azubis-gesucht-wie-nie-das-sind-die-50-jobs-mit-zukunft-6a2091d21f46a650bff5e91e"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 8,
+      "article_count": 10,
       "sample_titles": [
+        "Bayern will KI-Verbote an Unis kippen",
+        "Schulleiter: \"Mein Parteibuch ist das Grundgesetz\"",
         "Schulbarometer: Schüler-Verhalten belastet Lehrer immer mehr",
-        "Schule: Diese Hitzefrei-Regeln gelten in Ihrem Bundesland",
-        "Jung, qualifiziert und trotzdem kein Job",
-        "Vorstellung Bericht \"Bildung in Deutschland 2026\""
+        "Schule: Diese Hitzefrei-Regeln gelten in Ihrem Bundesland"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/zdfheute-live/bayern-ki-hochschulen-video-100.html",
+        "https://www.zdfheute.de/politik/deutschland/landtagswahl-sachsen-anhalt-bildung-schule-wahlkampf-neutralitaetsgebot-100.html",
         "https://www.zdfheute.de/politik/deutschland/schulbarometer-lehrer-belastung-verhalten-schueler-100.html",
-        "https://www.zdfheute.de/panorama/schule-hitzefrei-regeln-bundeslaender-100.html",
-        "https://www.zdf.de/video/reportagen/zdf-reportage-jung-und-102/jung-qualifiziert-und-trotzdem-kein-job-100",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5210188"
+        "https://www.zdfheute.de/panorama/schule-hitzefrei-regeln-bundeslaender-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -363,31 +235,163 @@
         }
       ]
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 10,
+      "sample_titles": [
+        "Inklusion in der Bildung: Hamburg spart bei Schulbegleitung",
+        "Schulen und Kliniken während Hitzewelle: Heiß! Heiß! Baby?!",
+        "Autismus und Schule: Unverstanden, unerwünscht, ausgeschlossen",
+        "Antisemitismusbeauftragter für Unis: Ein Bewerber, der fast alle glücklich macht"
+      ],
+      "urls": [
+        "https://taz.de/Inklusion-in-der-Bildung/!6191038/",
+        "https://taz.de/Schulen-und-Kliniken-waehrend-Hitzewelle/!6187304/",
+        "https://taz.de/Autismus-und-Schule/!6188476/",
+        "https://taz.de/Antisemitismusbeauftragter-fuer-Unis/!6187676/"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "grief",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 9,
+      "sample_titles": [
+        "Bildung: Gebt den Kindern ihre Bücher",
+        "Edith-Stein-Realschule in Unterschleißheim: Sehbehinderten-Schule kann vorerst weitermachen",
+        "Hitzewelle in Bayern: Was Schulen dürfen, wenn es im Klassenzimmer heiß und stickig ist",
+        "Baubeginn in Geretsried: Spatenstich für die Super-Mittelschule"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/kultur/projekt-lesestart-123-bildungsministerium-li.3505275",
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/unterschleissheim-realschule-sehbehinderte-einsparungen-li.3501844",
+        "https://www.sueddeutsche.de/bayern/bayern-schulen-klassenzimmer-hitzefrei-li.3504249",
+        "https://www.sueddeutsche.de/muenchen/wolfratshausen/geretsried-spatenstich-mittelschule-adalbert-stifter-strasse-erweiterung-investition-baubeginn-55-millionen-euro-li.3495687"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 6,
+      "article_count": 7,
       "sample_titles": [
+        "Frage aus dem Arbeitsrecht: Welche Fortbildung Ihr Arbeitgeber zahlen muss",
+        "Für Kitas, Schulen, Pflegeheime: Grüne fordern \"volles Tempo beim Ausbau von Klimaanlagen\"",
         "Rechtsruck an Schulen: \"Lasst uns Lehrkräfte nicht allein mit der Angst!\"",
-        "Selbst Grundschulen betroffen: Gewalt ist an Berliner Schulen inzwischen Alltag",
-        "\"Gesellschaftlicher Trend\": Lehrergewerkschaft GEW beklagt zunehmende Gewalt in Schulen",
-        "Bildungsbericht veröffentlicht: Kitas und Schulen können trotz Geburtenknick nicht aufatmen"
+        "Selbst Grundschulen betroffen: Gewalt ist an Berliner Schulen inzwischen Alltag"
       ],
       "urls": [
+        "https://www.n-tv.de/ratgeber/Welche-Fortbildung-Ihr-Arbeitgeber-zahlen-muss-id31025148.html",
+        "https://www.n-tv.de/politik/Gruene-fordern-volles-Tempo-beim-Ausbau-von-Klimaanlagen-id31022528.html",
         "https://www.n-tv.de/politik/Lasst-uns-Lehrkraefte-nicht-allein-mit-der-Angst-id30999820.html",
-        "https://www.n-tv.de/panorama/Gewalt-ist-an-Berliner-Schulen-inzwischen-Alltag-id30996527.html",
-        "https://www.n-tv.de/politik/Lehrergewerkschaft-GEW-beklagt-zunehmende-Gewalt-in-Schulen-id30994761.html",
-        "https://www.n-tv.de/politik/Kitas-und-Schulen-koennen-trotz-Geburtenknick-nicht-aufatmen-id30968892.html"
+        "https://www.n-tv.de/panorama/Gewalt-ist-an-Berliner-Schulen-inzwischen-Alltag-id30996527.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
         {
           "emotion": "fear",
           "count": 1
         },
         {
           "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 7,
+      "sample_titles": [
+        "Seitenhieb für Spahn und Bär - Gute BAföG-Nachricht für Studis vom Kanzler",
+        "Erste amtliche Studie für Berlin - Immer mehr Religions-Konflikte an Schulen!",
+        "Nach Vorfall an Schule - Polizei warnt vor Würge-Challenge",
+        "Inklusions-Botschafter Louis Kleemeyer - Tennis-Gold! Aber sein größter Erfolg ist keine Medaille"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/friedrich-merz-im-bundestag-das-ueberraschende-bafoeg-basta-des-kanzlers-6a3bc86eafe845031b3ac8f6",
+        "https://www.bild.de/politik/inland/berlin-studie-enthuellt-immer-mehr-konflikte-wegen-religion-an-schulen-6a38acc47e682fc37fc02ef5",
+        "https://www.bild.de/news/inland/nach-vorfall-an-schule-wegen-tiktok-trend-polizei-warnt-vor-wuerge-challenge-6a362dbaaf14c0b5289606e5",
+        "https://www.bild.de/sport/olympia/tennis-gold-fuer-louis-kleemeyer-aber-sein-groesster-erfolg-ist-keine-medaille-6a357f657e682fc37fc00e4c"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 6,
+      "sample_titles": [
+        "Landeskirche Für Gender-Theologie ist Geld da – aber für eine evangelische Privatschule nicht",
+        "Österreich Gymnasium macht „toxische Männlichkeit“ zum Abitur-Thema",
+        "Bremerhaven Schule weist Spende für Schwimmunterricht ab – weil der Spender konservativ ist",
+        "Bildungsbericht 2026 Bildungsbericht ist für Ex-Lehrerpräsidenten ein „Mathematik-Desaster“"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/fuer-gender-theologie-ist-geld-da-aber-fuer-eine-evangelische-privatschule-nicht/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/gymnasium-macht-toxische-maennlichkeit-zum-abitur-thema/",
+        "https://jungefreiheit.de/politik/deutschland/2026/schule-weist-spende-fuer-schwimmunterricht-ab-weil-der-spender-konservativ-ist/",
+        "https://jungefreiheit.de/politik/deutschland/2026/bildungsbericht-ist-fuer-ex-lehrerpraesidenten-ein-mathematik-desaster/"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -399,13 +403,13 @@
       "article_count": 6,
       "sample_titles": [
         "Karin Priens Verstaatlichung der Kinder",
-        "Memmingen: Schüler aus Afghanistan und Syrien peitschten Mitschüler aus",
+        "Gendern statt großer Geister: Das Elend der deutschen Universitäten – TE-Wecker am 21. Juni 2026",
         "Die alte Leier über das „ungerechte“ Bildungswesen",
         "NRW: 7.800 unbesetzte Lehrer-Stellen – nun lockt man Ruheständler"
       ],
       "urls": [
         "https://www.tichyseinblick.de/meinungen/prien-verstaatlichung-kinder-jugendliche-medien/",
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/memmingen-schule-gewalt-bayern/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-21-juni-2026-2/",
         "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/bildungsbericht-2026-ungerecht-chancen/",
         "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/nrw-lehrer-mangel-ruhestaendler-locken/"
       ],
@@ -416,36 +420,7 @@
           "count": 1
         },
         {
-          "emotion": "grief",
-          "count": 1
-        },
-        {
           "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "Interview: Melanie Maas-Brunner: „Wir sollten uns nicht auf den Staat verlassen“",
-        "Immobilien: Zukunftsmarkt Bildungsimmobilien: Darum werden Schulen für Investoren interessant",
-        "Bildung: „Struktureller Interessenskonflikt“: Wenn die Lehrerfortbildung zu Microsoft führt",
-        "Kommentar: Wer die junge Generation nur zahlen lässt, verspielt Vertrauen"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/melanie-maas-brunner-wir-sollten-uns-nicht-auf-den-staat-verlassen/100233016.html",
-        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-darum-werden-schulen-fuer-investoren-interessant/100233733.html",
-        "https://www.handelsblatt.com/technik/it-internet/bildung-wenn-die-lehrerfortbildung-zu-microsoft-fuehrt/100226263.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-wer-die-junge-generation-nur-zahlen-laesstverspielt-vertrauen/100229833.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -454,14 +429,16 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
         "DER ANDERE BLICK MIT DATEN - Der Beruf des Lehrers wird immer stärker von Frauen dominiert. Warum das für einige Kinder problematisch ist",
+        "ERKLÄRT - Sollten wir Jugendlichen soziale Netzwerke verbieten? Ist das technisch überhaupt machbar? Und was sagt die Forschung über solche Verbote?",
         "«Ein Lehrer, der sich bloss als netter Coach auf Augenhöhe anbiedert, wird von den Schülern nicht ernst genommen», sagt Roland Reichenbach",
         "Der Bund schreibt den Schulen drei Lektionen Sportunterricht pro Woche vor. Damit könnte bald Schluss sein"
       ],
       "urls": [
         "https://www.nzz.ch/der-andere-blick/der-beruf-des-lehrers-wird-immer-staerker-von-frauen-dominiert-warum-das-fuer-einige-kinder-problematisch-ist-ld.10013132",
+        "https://www.nzz.ch/technologie/verbietet-frankreich-jugendlichen-social-media-ist-das-technisch-ueberhaupt-moeglich-und-was-sagt-die-forschung-ueber-solche-verbote-ld.1922437",
         "https://www.nzz.ch/schweiz/ein-lehrer-der-sich-bloss-als-netter-coach-auf-augenhoehe-anbiedert-wird-von-den-schuelern-nicht-ernst-genommen-sagt-roland-reichenbach-ld.10010821",
         "https://www.nzz.ch/panorama/der-bund-schreibt-den-schulen-drei-lektionen-sportunterricht-pro-woche-vor-damit-koennte-bald-schluss-sein-ld.10010322"
       ],
@@ -471,6 +448,33 @@
           "emotion": "annoyance",
           "count": 1
         },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Immobilien: Zukunftsmarkt Bildungsimmobilien: Darum werden Schulen für Investoren interessant",
+        "Bildung: „Struktureller Interessenskonflikt“: Wenn die Lehrerfortbildung zu Microsoft führt",
+        "Kommentar: Wer die junge Generation nur zahlen lässt, verspielt Vertrauen"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-darum-werden-schulen-fuer-investoren-interessant/100233733.html",
+        "https://www.handelsblatt.com/technik/it-internet/bildung-wenn-die-lehrerfortbildung-zu-microsoft-fuehrt/100226263.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-wer-die-junge-generation-nur-zahlen-laesstverspielt-vertrauen/100229833.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
         {
           "emotion": "optimism",
           "count": 1
@@ -495,33 +499,19 @@
           "count": 1
         }
       ]
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Die Schule der Gesinnungsdiktatoren"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/schulpolitik_wenn_die_68er_auf_die_sed_treffen"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "left-liberal": 84,
-    "neutral": 88,
-    "right-conservative": 25,
-    "conservative-liberal": 56,
-    "left": 17,
-    "far-right": 15,
-    "populist-mixed": 8,
-    "economic-liberal": 4
+    "neutral": 91,
+    "right-conservative": 29,
+    "conservative-liberal": 62,
+    "left-liberal": 74,
+    "left": 10,
+    "far-right": 12,
+    "populist-mixed": 7,
+    "economic-liberal": 3
   },
-  "shared_perspectives": "Über alle politischen Ausrichtungen hinweg dominiert im deutschen Mediendiskurs zum Bildungssystem die Diagnose einer Krise durch materielle Unterversorgung und strukturelle Überlastung: Lehrkräftemangel, Hitzeschutz an Schulen, Raumnot und steigende psychische Belastungen von Schülern und Lehrern werden als objektive Probleme anerkannt, unabhängig davon, wie unterschiedlich die Ursachenzuschreibungen ausfallen. Parallel existiert ein breiter medialer Konsens über die wachsende Bedeutung von Digitalisierung und künstlicher Intelligenz für das Bildungssystem, wobei selbst konservative und wirtschaftsliberale Medien diese als notwendige Modernisierung rahmen, während progressive Medien verstärkt nach Regulierung und ethischen Grenzen fragen. Die schärfsten politischen Kontroversen entstehen nicht an bildungspolitischen Kernfragen, sondern an Kulturkonflikten — Genderdebatten, Migration und schulische Gewalt — bei denen rechte und linke Medien völlig divergierende Deutungsmuster verwenden, während die Mitte diese Themen eher technisch-administrativ behandelt.",
-  "controversial_points": "Der Diskurs spaltet sich fundamental entlang der Frage, ob Bildung primär ein öffentliches Gut mit staatlicher Verantwortung für Chancengleichheit sein soll oder ein Markt, in dem private Akteure, Effizienz und individuelle Leistung zentral sind – wobei linke Medien Unterfinanzierung und Ungleichheit kritisieren, während wirtschaftsliberal orientierte Medien private Investitionen und Wettbewerb als Lösungen rahmen. Zweitens kollidieren zwei gegensätzliche Sicherheitskompetitionen: Während progressives Lager Schulen als sichere Orte für diverse Identitäten und gegen Diskriminierung verteidigt, deutet konservativ-rechtes Lager dieselben Schulen als ideologisch überfremdete Räume, in denen deutsche Normalitäten und Disziplin erodieren – eine Trennlinie, die sich auch in Gewaltberichten, Geschlechterdebatten und Migrations­fragen manifestiert. Drittens wird die staatliche Schulpflicht selbst zum Konfliktfeld: Während sie für progressive und liberal-mainstream Medien selbstverständliche Grundlage von Chancengerechtigkeit ist, stellt sie für sowohl libertäre als auch konservativ-identitäre Positionen einen Übergriff dar – nur mit völlig entgegengesetzten Begründungen (elterliche Autonomie vs. Schutz vor vermeintlicher Indoktrination).",
-  "cached_at": "2026-06-28T08:09:27.379012"
+  "shared_perspectives": "# Konsense im deutschen Bildungsdiskurs\n\nDer deutsche Mediendiskurs teilt unabhängig von politischer Ausrichtung die Diagnose einer akuten Krise in der materiellen Infrastruktur und Personalausstattung: Lehrermangel, Schulbaudefizite, fehlende Finanzierung und organisatorische Zusammenbrüche (Unterrichtsausfälle, verspätete Baumaßnahmen, Personalengpässe bei Schulbegleitern) werden von links bis rechts als konkrete, lösungsbedürftige Probleme beschrieben. Zweitens besteht Konsens darüber, dass Inklusion und Chancengerechtigkeit systemische Probleme sind, die das bisherige Schulsystem nicht angemessen bewältigt — ob als Frage unzureichender Ressourcen (linker Fokus) oder als Frage nach der Effektivität aktueller Lösungsansätze (konservativer Fokus). Drittens wird die Digitalisierung und der Umgang mit neuen Technologien (KI, Social Media) als eine Herausforderung wahrgenommen, bei der Schulen und Hochschulen bisher unzureichend handlungsfähig sind, ohne dass substantielle Lösungsansätze im Diskurs hegemonial wären.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer Diskurs spaltet sich entlang einer fundamentalen Frage nach **Effizienz versus Gerechtigkeit**: Während konservativ-liberale und wirtschaftsliberale Medien Bildung primär als Humankapitalinvestition und Standortwettbewerb rahmen (KI-Regulierung, Lehrergeschlecht als Leistungsfaktor, Privatisierung), insistieren linke und linksiberale Medien auf strukturelle Ungleichheit und materiale Benachteiligung als systembedingtes Problem, das durch Umverteilung und ausreichende öffentliche Ressourcen gelöst werden muss. Die zweite Bruchlinie verläuft zwischen einem **säkularen Modernisierungsverständnis und einem wertkonservativ-kulturkritischen Gegenentwurf**: Links-liberale bis linke Medien thematisieren Digitalisierung, Inklusion, Diversität und Klimabildung als emanzipatorische Notwendigkeiten, während rechtskonservative bis rechtsextreme Medien diese als ideologische Überwältigung („Verstaatlichung der Kinder\", Gendern statt Bildungsinhalte) skandalisieren und damit zugleich die Frage nach kultureller Hegemonie in Schulen politisieren. Eine dritte, oft übersehene Spannung zeigt sich zwischen **dezentralem Föderalismus und koordiniertem Systemversagen**: Der Diskurs verschleiert, dass die starke Länderautonomie zwar Kontrolle bewahrt, aber gleichzeitig strukturelle Unterfinanzierung, regionale Disparitäten und koordinierungslose Übergänge (Schule-Ausbildung, Kita-Grundschule) produziert – ein Problem, das Medien nur symptomatisch als Lehrermangel oder Bauausfälle adressieren, nicht als Resultat einer Governance-Wahl",
+  "cached_at": "2026-07-01T08:49:15.040395"
 }
