@@ -1,25 +1,25 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 187,
+  "article_count": 188,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 33,
+      "article_count": 37,
       "sample_titles": [
-        "Alltag im Jugendamt: \"Eltern kommen mit Messer in der Tasche\"",
-        "65 Arbeitsplätze weg - Kündigungen sollen Rettung von Kitas in Karlsruhe sichern",
-        "\"Wir haben sauber gearbeitet\": Jugendamt reagiert auf Kritik nach Tod eines Babys in Renningen",
-        "Neuer Hort statt Kita in Bad Saarow (Oder-Spree) eröffnet"
+        "Rehlinger will Kita-Pflicht einführen",
+        "Potsdamer Jugendamt wird extern überprüft",
+        "Ganztagsbetreuung in Hessen: Schulen fehlen Räume, Personal und Geld",
+        "Tödliche Schüsse in Stade: Interview zur Situation in Kinder- und Jugendhilfe-Einrichtungen"
       ],
       "urls": [
-        "https://www.ndr.de/nachrichten/niedersachsen/alltag-im-jugendamt-eltern-kommen-mit-messer-in-der-tasche,jugendamt-114.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/insolvente-kita-traeger-in-karlsruhe-streichen-arbeitsplaetze-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/jugendamt-boeblingen-totes-baby-renningen-100.html",
-        "https://www.rbb24.de/panorama/beitrag/2026/06/hort-kita-eroeffnung-badsaarow-oderspree-schulkinder-geburtenrueckgang-betreuung.html"
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rehlinger_sommergespraech_2026_100.html",
+        "https://www.rbb24.de/politik/beitrag/2026/07/potsdam-jugendamt-extern-pruefung-beschluss-svv-inobhutnahmen.html",
+        "https://www.hessenschau.de/gesellschaft/ganztagsbetreuung-in-hessen-schulen-fehlen-raeume-personal-und-geld-v1,ganztagsbetreuung-schulen-beispiele-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/06/toedliche-schuesse-stade-interview-professorin-soziale-arbeit.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -32,8 +32,8 @@
           "count": 2
         },
         {
-          "emotion": "pride",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -41,18 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 25,
+      "article_count": 28,
       "sample_titles": [
-        "Uwe Bolls „Citizen Vigilante“: Wenn Elon Musk den deutschen Jugendschutz aushebelt",
-        "Nach der Tat in Stade: „Mitarbeiter in der Jugendhilfe sind oft Ziel von Gewalt“",
-        "Kolumne „Mein Urteil“: Kündigungsschutz gilt auch für mehrere Elternzeitabschnitte",
-        "Alleinerziehende: Und immer das Gefühl, das Kind kommt zu kurz"
+        "Familienpolitik der Afd: Wo sollen die „Kinder für den Erhalt des Staatsvolks“ herkommen?",
+        "Deutschland-Liveblog: Koalition entlastet Familien und erhöht „Reichensteuer“",
+        "Gewalttat in Stade: Wie reagiert das Jugendamt, wenn Mitarbeiter bedroht werden?",
+        "Geburtenrate in Deutschland: So wenige Kinder wie nie seit dem Zweiten Weltkrieg"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/uwe-boll-film-auf-x-wie-elon-musk-den-deutschen-jugendschutz-aushebelt-200982432.html",
-        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/nach-der-tat-von-stade-mitarbeiter-in-der-jugendhilfe-sind-oft-ziel-von-gewalt-200983779.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/mein-urteil/arbeitsrecht-kuendigungsschutz-gilt-auch-fuer-mehrere-elternzeitabschnitte-accg-200958819.html",
-        "https://www.faz.net/aktuell/besser-leben/familie/alleinerziehende-unter-hohem-druck-wie-sie-ihren-alltag-meisten-accg-200916112.html"
+        "https://www.faz.net/aktuell/feuilleton/debatten/familienkredite-und-antifeminismus-wie-die-afd-zu-mehr-kindern-animieren-will-200986507.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-koalition-senkt-einkommensteuer-und-erhoeht-reichensteuer-faz-110093143.html",
+        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/nach-gewalttat-in-stade-wie-reagiert-das-jugendamt-wenn-mitarbeiter-bedroht-werden-200988030.html",
+        "https://www.faz.net/aktuell/gesellschaft/menschen/geburten-so-wenige-kinder-wie-nie-seit-dem-zweiten-weltkrieg-accg-200986865.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -61,11 +61,44 @@
           "count": 4
         },
         {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "disapproval",
+          "count": 1
         },
         {
           "emotion": "joy",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 19,
+      "sample_titles": [
+        "Milliardeneinsparungen möglich: Kuban fordert von Söder Verzicht auf Mütterrente",
+        "Drei der Todesopfer aus Hannover: Tatverdächtiger von Stade soll sein Kind misshandelt haben",
+        "Mutter und Kind unversehrt: Tötungsdelikt in Stade: Motiv offenbar Sorgerechtsstreit - Opfer von Jugendamt und Jugendhilfe",
+        "Für Kitas, Schulen, Pflegeheime: Grüne fordern \"volles Tempo beim Ausbau von Klimaanlagen\""
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Kuban-fordert-von-Soeder-Verzicht-auf-Muetterrente-id31033781.html",
+        "https://www.n-tv.de/panorama/Tatverdaechtiger-von-Stade-soll-sein-Kind-misshandelt-haben-id31032448.html",
+        "https://www.n-tv.de/panorama/Toetungsdelikt-in-Stade-Motiv-offenbar-Sorgerechtsstreit-Opfer-von-Jugendamt-und-Jugendhilfe-id31028243.html",
+        "https://www.n-tv.de/politik/Gruene-fordern-volles-Tempo-beim-Ausbau-von-Klimaanlagen-id31022528.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -74,18 +107,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 21,
+      "article_count": 18,
       "sample_titles": [
+        "Deutschland: Zahl der Adoptionen sinkt auf niedrigsten Stand seit Wiedervereinigung",
+        "England und Wales: Keir Starmer entschuldigt sich für jahrzehntelange Zwangsadoptionen",
         "Elterngeld-Reform: Gleichberechtigung ist der Regierung zu teuer",
-        "Wie Eltern die Geschwisterbeziehung stärken - Podcast mit Eliane Retz",
-        "Sommerferien: Wie Eltern mit ihren Kindern spielerisch lernen können",
-        "Lernen in den Sommerferien: Was Grundschulkinder trotz Freizeit üben sollten"
+        "Wie Eltern die Geschwisterbeziehung stärken - Podcast mit Eliane Retz"
       ],
       "urls": [
+        "https://www.spiegel.de/panorama/gesellschaft/deutschland-zahl-der-adoptionen-sinkt-auf-niedrigsten-stand-seit-wiedervereinigung-a-243ce8e3-41e3-4c65-9a5b-44816da8782e#ref=rss",
+        "https://www.spiegel.de/ausland/england-und-wales-keir-starmer-entschuldigt-sich-fuer-jahrzehntelange-zwangsadoptionen-a-fb761e51-9115-4218-9838-87801db0a8a5#ref=rss",
         "https://www.spiegel.de/politik/deutschland/elterngeld-reform-gleichberechtigung-ist-der-regierung-zu-teuer-a-e6ca486c-5de7-48c6-8939-f2ed72909eaf#ref=rss",
-        "https://www.spiegel.de/familie/wie-eltern-die-geschwisterbeziehung-staerken-podcast-mit-eliane-retz-a-272e1e0e-98b3-4db1-bef7-21dd42a110c9#ref=rss",
-        "https://www.spiegel.de/familie/sommerferien-wie-eltern-mit-ihren-kindern-spielerisch-lernen-koennen-a-3f09a9d8-e07e-4316-8f88-9e8020bb0ff5#ref=rss",
-        "https://www.spiegel.de/familie/lernen-in-den-sommerferien-was-grundschulkinder-trotz-freizeit-ueben-sollten-a-6b2db5a1-8557-4c2b-88c9-5b6ff0b5ff43#ref=rss"
+        "https://www.spiegel.de/familie/wie-eltern-die-geschwisterbeziehung-staerken-podcast-mit-eliane-retz-a-272e1e0e-98b3-4db1-bef7-21dd42a110c9#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -103,65 +136,32 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 19,
-      "sample_titles": [
-        "\"Recht einseitig besetzt\": CDU-Politiker Krings kritisiert Prostitutionskommission von Familienministerin Prien scharf",
-        "Für Kitas, Schulen, Pflegeheime: Grüne fordern \"volles Tempo beim Ausbau von Klimaanlagen\"",
-        "Vätermonate müssen gleichziehen: Prien plant Verschärfung beim Elterngeld",
-        "Kapitän der Herzen: Joshua Kimmich: \"Diese Kinder haben nichts falsch gemacht!\""
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/CDU-Politiker-Krings-kritisiert-Prostitutionskommission-von-Familienministerin-Prien-scharf-id31027932.html",
-        "https://www.n-tv.de/politik/Gruene-fordern-volles-Tempo-beim-Ausbau-von-Klimaanlagen-id31022528.html",
-        "https://www.n-tv.de/politik/Prien-plant-Verschaerfung-beim-Elterngeld-id31014812.html",
-        "https://www.n-tv.de/panorama/Joshua-Kimmich-Diese-Kinder-haben-nichts-falsch-gemacht-id30996048.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 14,
+      "article_count": 15,
       "sample_titles": [
         "CDU-Politiker Kuban fordert Söder zu Verzicht auf Mütterrenten-Ausweitung auf",
-        "Grünen-Fraktionschefin Dröge fordert Sofortprogramm für Klimaanlagen",
-        "„Deutschland, stabil?“: Was ist gerecht? So steht es um die Chancengleichheit in Deutschland",
+        "Tödliche Schüsse: Gewalt in Stade: „Was die gesehen haben, hinterlässt Spuren“",
+        "Tat in Jugendhilfeeinrichtung: Sechs Tote in Stade sorgen für Fassungslosigkeit",
         "Steuerreform: Minister Clemens: Familiensplitting statt Ehegattensplitting"
       ],
       "urls": [
         "https://www.stern.de/news/cdu-politiker-kuban-fordert-soeder-zu-verzicht-auf-muetterrenten-ausweitung-auf-37629324.html",
-        "https://www.stern.de/news/gruenen-fraktionschefin-droege-fordert-sofortprogramm-fuer-klimaanlagen-37614276.html",
-        "https://www.stern.de/panorama/weltgeschehen/chancengleichheit-in-deutschland--rtl-reportage-reihe-gibt-einblicke-37606458.html",
+        "https://www.stern.de/panorama/toedliche-schuesse--gewalt-in-stade---was-die-gesehen-haben--hinterlaesst-spuren--37620628.html",
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/tat-in-jugendhilfeeinrichtung--sechs-tote-in-stade-sorgen-fuer-fassungslosigkeit-37622738.html",
         "https://www.stern.de/gesellschaft/regional/sachsen/steuerreform--minister-clemens--familiensplitting-statt-ehegattensplitting-37605268.html"
       ],
-      "dominant_emotion": "anger",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "anger",
+          "emotion": "fear",
           "count": 2
         },
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "anger",
+          "count": 2
         },
         {
           "emotion": "optimism",
@@ -173,23 +173,23 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 14,
+      "article_count": 13,
       "sample_titles": [
-        "Was dahintersteckt, dass immer mehr Grundschulkinder „wegen Kleinigkeiten explodieren“",
-        "Söder fordert Kürzung des Bürgergeldes „bis auf das absolut verfassungsrechtliche Minimum“",
-        "AfD veranstaltet „Kinderschutzkongress“ – Bündnis kündigt Protest vor dem Landtag an",
-        "Grüne wollen beitragsfreies Kita-Pflichtjahr und „leckeres“ Gratis-Mittagessen"
+        "Junge, Alte, Familien, Arbeitgeber – Die Gewinner und die Verlierer des Reformpakets",
+        "Nach Razzia in Flüchtlingsheim - Behörden streichen Kindergeld in 91 Fällen",
+        "„Nichts ist so groß wie die Angst vorm Jugendamt bei migrantischen Familien“",
+        "Die Mobbing-Krise – und warum Eltern sie nicht ignorieren dürfen"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/plus6a38ddd63131b31f75cc90c7/gewalt-an-schulen-was-dahintersteckt-dass-immer-mehr-grundschulkinder-wegen-kleinigkeiten-explodieren.html",
-        "https://www.welt.de/politik/deutschland/article6a374ed27e682fc37fc02074/markus-soeder-fordert-kuerzung-des-buergergeldes-bis-auf-das-absolute-minimum.html",
-        "https://www.welt.de/politik/deutschland/article6a334df6a7834e0047eed89b/hannover-afd-veranstaltet-kinderschutzkongress-buendnis-kuendigt-protest-an.html",
-        "https://www.welt.de/politik/deutschland/article6a295a7cfbd55a72ddb56363/bundestag-gruene-wollen-beitragsfreies-kita-pflichtjahr-und-leckeres-gratis-mittagessen.html"
+        "https://www.welt.de/wirtschaft/plus6a47c148ad32e994f875a468/reformpaket-junge-alte-familien-arbeitgeber-die-gewinner-und-die-verlierer-des-reformpakets.html",
+        "https://www.welt.de/videos/video6a45fdcfae0977c5aff182d5/hamburg-nach-razzia-in-fluechtlingsheim-behoerden-streichen-kindergeld-in-91-faellen.html",
+        "https://www.welt.de/politik/deutschland/article6a45133f1f5535004df20c6b/bluttat-in-stade-nichts-ist-so-gross-wie-die-angst-vorm-jugendamt-bei-migrantischen-familien-sagt-ahmad-mansour.html",
+        "https://www.welt.de/debatte/plus6a3ce776113e90346dc4c117/gewalt-an-schulen-die-mobbing-krise-und-warum-eltern-sie-nicht-ignorieren-duerfen.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "fear",
           "count": 1
         },
         {
@@ -202,31 +202,97 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 13,
+      "article_count": 12,
       "sample_titles": [
+        "Bundesregierung: Koalition entlastet vor allem Familien, Spitzensteuersatz bleibt",
         "Todesschüsse von Stade: Eltern stritten mit Jugendamt und Klinik um ihr Baby",
         "Hilfe bei Sorgen und Nöten: Neue bayerische Kinderschutz-Hotline startet",
-        "Null Acht Neun: Wenn Kinderrechte bei 40 Grad zu schmelzen beginnen",
-        "Hitzewelle in Bayern: Was Schulen dürfen, wenn es im Klassenzimmer heiß und stickig ist"
+        "Null Acht Neun: Wenn Kinderrechte bei 40 Grad zu schmelzen beginnen"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/koalitionsausschuss-reformen-einkommensteuer-spitzensteuersatz-reichensteuer-li.3508578",
         "https://www.sueddeutsche.de/panorama/stade-jugendamt-klinik-schuesse-mutter-kind-heim-li.3508205",
         "https://www.sueddeutsche.de/bayern/bayern-kinderschutz-hotline-gewalt-missbrauch-mobbing-cybergrooming-kinder-jugendliche-li.3507944",
-        "https://www.sueddeutsche.de/muenchen/muenchen-hitze-kinderrechte-schulpflicht-sommer-li.3469265",
-        "https://www.sueddeutsche.de/bayern/bayern-schulen-klassenzimmer-hitzefrei-li.3504249"
+        "https://www.sueddeutsche.de/muenchen/muenchen-hitze-kinderrechte-schulpflicht-sommer-li.3469265"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "amusement",
       "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 2
-        },
         {
           "emotion": "amusement",
           "count": 2
         },
         {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
           "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 10,
+      "sample_titles": [
+        "Kinderschutz: Verbot von Kindersexpuppen bleibt",
+        "Ausgesetzter Familiennachzug: „Das ist ohne Herz“",
+        "Kita-Forscherin über Chancengleichheit: „Leistungsunterschiede wird es immer geben“",
+        "Kürzungen beim Wohngeld: Förderprogramm für Wohnungslosigkeit"
+      ],
+      "urls": [
+        "https://taz.de/Kinderschutz/!6193082/",
+        "https://taz.de/Ausgesetzter-Familiennachzug/!6187429/",
+        "https://taz.de/Kita-Forscherin-ueber-Chancengleichheit/!6189899/",
+        "https://taz.de/Kuerzungen-beim-Wohngeld/!6190007/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "grief",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 8,
+      "sample_titles": [
+        "6 Tote in Stade - Mutmaßlicher Killer soll Kind geschüttelt haben",
+        "Medien berichten über Amok-Tat von Stade - Jugendamt hatte Tochter aus der Familie genommen",
+        "Großeinsatz in Stade - Schüsse in Mutter-Kind-Heim! Sechs Tote",
+        "Vor dem Amtsgericht Hamm - Bürgermeisterin soll Sorgerecht für Adoptivsohn abgeben"
+      ],
+      "urls": [
+        "https://www.bild.de/regional/niedersachsen/6-tote-bei-schuessen-in-stade-mutmasslicher-killer-soll-sein-kind-geschuettelt-haben-6a43aa5fc04ea97a4e502a93",
+        "https://www.bild.de/news/medien-ueber-stade-jugendamt-hatte-tochter-aus-der-familie-genommen-6a43578709e6e5417cdca335",
+        "https://www.bild.de/news/niedersachsen-schuesse-in-stade-mehrere-tote-6a4257e6afe845031b3b24ab",
+        "https://www.bild.de/regional/nordrhein-westfalen/iris-stalzer-in-hamm-vor-gericht-buergermeisterin-soll-sorgerecht-fuer-adoptivsohn-abgeben-6a3bc128113e90346dc4af09"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -235,18 +301,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 9,
+      "article_count": 7,
       "sample_titles": [
         "Ostkongress von Bündnis 90/Die Grünen: Grüne fordern faire Chancen für Kinder auf dem Land",
         "Elterngeld: Familienministerium dementiert Bericht zum Umbau des Elterngeldes",
-        "Verdacht auf Gewalt: Kinderschutzambulanz: Über 30 Kinder in Potsdam untersucht",
-        "Frühkindliche Bildung: Handlungsbedarf bei Kita-Bildung – Neuer Plan für Sachsen"
+        "Ryanair: Ryanair lässt Familien auch ohne Reservierung zusammensitzen",
+        "Verdacht auf Gewalt: Kinderschutzambulanz: Über 30 Kinder in Potsdam untersucht"
       ],
       "urls": [
         "https://www.zeit.de/bildung/2026-06/sassnitzer-erklaerung-gruene-bildung-laendlicher-raum",
         "https://www.zeit.de/politik/deutschland/2026-06/elterngeld-karin-prien-cdu-vaeatermonate-einsparungen-gxe",
-        "https://www.zeit.de/news/2026-06/20/kinderschutzambulanz-ueber-30-kinder-in-potsdam-untersucht",
-        "https://www.zeit.de/news/2026-06/19/handlungsbedarf-bei-kita-bildung-neuer-plan-fuer-sachsen"
+        "https://www.zeit.de/wirtschaft/2026-06/ryanair-sitzplatzreservierung-familien-flugzeug-kinder",
+        "https://www.zeit.de/news/2026-06/20/kinderschutzambulanz-ueber-30-kinder-in-potsdam-untersucht"
       ],
       "dominant_emotion": "disgust",
       "top_emotions": [
@@ -260,69 +326,28 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 9,
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 5,
       "sample_titles": [
-        "Vor dem Amtsgericht Hamm - Bürgermeisterin soll Sorgerecht für Adoptivsohn abgeben",
-        "Zwei Fünfjährige schwer verbrannt - Vorschul-Experiment geht fürchterlich schief",
-        "BILD kennt den heißen Plan - Minister wollen weniger Stütze und Kindergeld für Ausländer",
-        "Er griff Polizisten an - Mann mit Messer vor Kita niedergeschossen"
+        "Bundesfamilienministerin Priens „Demokratie leben!“-Evaluierungsskandal wird immer größer",
+        "„Verbindliche Grundlage“ Verbände drücken Sexualpädagogik in Berliner Kita-Plan",
+        "Digitale Welt Worum geht es beim Social Media-Verbot für Kinder?",
+        "Gegen Gruppenvergewaltigungen Kirchen und Antifa mobilisieren gegen einen Kinderschutzkongress"
       ],
       "urls": [
-        "https://www.bild.de/regional/nordrhein-westfalen/iris-stalzer-in-hamm-vor-gericht-buergermeisterin-soll-sorgerecht-fuer-adoptivsohn-abgeben-6a3bc128113e90346dc4af09",
-        "https://www.bild.de/news/ausland/experiment-mit-alkohol-und-backpulver-stichflamme-vorschueler-schwer-verbrannt-6a34edf37e682fc37fc00316",
-        "https://www.bild.de/politik/inland/bild-kennt-den-heissen-plan-minister-wollen-weniger-stuetze-und-kindergeld-fuer-auslaender-6a3026426bb5c7fe2e1c822a",
-        "https://www.bild.de/regional/nordrhein-westfalen/er-griff-polizisten-an-mann-mit-messer-vor-kita-niedergeschossen-6a3152447e682fc37fbfc878"
+        "https://jungefreiheit.de/politik/deutschland/2026/priens-demokratie-leben-evaluierungsskandal-wird-immer-groesser/",
+        "https://jungefreiheit.de/politik/deutschland/2026/verbaende-druecken-sexualpaedagogik-in-berliner-kita-plan/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/worum-geht-es-beim-social-media-verbot-fuer-kinder/",
+        "https://jungefreiheit.de/politik/deutschland/2026/warum-kirchen-und-antifa-gegen-den-kinderschutzkongress-mobilisieren/"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "fear",
-          "count": 2
-        },
-        {
           "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 8,
-      "sample_titles": [
-        "Ausgesetzter Familiennachzug: „Das ist ohne Herz“",
-        "Kita-Forscherin über Chancengleichheit: „Leistungsunterschiede wird es immer geben“",
-        "Kinder- und Jugendarbeit in Bremen: Die unerhörte Jugend",
-        "Nationaler Bildungsbericht: Einmal benachteiligt, immer benachteiligt"
-      ],
-      "urls": [
-        "https://taz.de/Ausgesetzter-Familiennachzug/!6187429/",
-        "https://taz.de/Kita-Forscherin-ueber-Chancengleichheit/!6189899/",
-        "https://taz.de/Kinder--und-Jugendarbeit-in-Bremen/!6180037/",
-        "https://taz.de/Nationaler-Bildungsbericht/!6187244/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 2
-        },
-        {
-          "emotion": "grief",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
         }
       ]
     },
@@ -330,23 +355,23 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 6,
+      "article_count": 5,
       "sample_titles": [
-        "Jugendschutz: Australien verdoppelt Strafen für Social-Media-Konzerne",
+        "Stade: Bei Schüssen in Stade sind laut Polizei fünf Menschen gestorben – weitere wurden verletzt",
         "Familienministerin: Verbot bis 13 Jahre: Prien befürwortet gesetzliche Altersgrenze für soziale Medien",
         "Kommentar: Die Mütterrente muss auf den Verhandlungstisch",
         "Haushalt: Ifo schlägt Kürzungen bei Elterngeld und Mütterrente vor"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/jugendschutz-australien-verdoppelt-strafen-fuer-social-media-konzerne/100236374.html",
+        "https://www.handelsblatt.com/politik/deutschland/stade-schuesse-in-stade-polizei-bestaetigt-sechs-todesopfer/100236611.html",
         "https://www.handelsblatt.com/politik/deutschland/familienministerin-prien-will-gesetzliche-altersgrenze-fuer-soziale-medien-und-ki-chatbots/100233171.html",
         "https://www.handelsblatt.com/meinung/kommentare/kommentar-die-muetterrente-muss-auf-den-verhandlungstisch/100234809.html",
         "https://www.handelsblatt.com/politik/deutschland/haushalt-ifo-schlaegt-kuerzungen-bei-elterngeld-und-muetterrente-vor/100233385.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "fear",
           "count": 1
         },
         {
@@ -359,21 +384,60 @@
         }
       ]
     },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Sechs Tote in Stade - Motiv vermutlich Sorgerechtsstreit",
+        "Kommission zu Social Media-Verboten für Kinder und Jugendliche",
+        "Kommission zu Social Media-Verboten für Kinder und Jugendliche",
+        "Anträge der Grünen zur Familien- und Bildungspolitik"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/panorama/stade-tote-festnahmen-100.html",
+        "https://www.phoenix.de/social-media-a-5212248.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5212441",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5209292"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Zwangsadoption wegen einer unehelichen Schwangerschaft: Eine Mutter bricht ihr Schweigen",
+        "Schluss mit Praktikum, spätestens nach einem Jahr: Zürcher Kitas sollen jungen Mitarbeitenden eine Lehrstelle anbieten",
+        "Die Stadt Zürich will ihr Kita-Subventionsmodell bewahren – auch wenn es kompliziert ist"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/zwangsadoption-wegen-einer-unehelichen-schwangerschaft-eine-mutter-bricht-ihr-schweigen-ld.10013475",
+        "https://www.nzz.ch/zuerich/schluss-mit-praktikum-zuerich-setzt-auf-lehrstellen-in-kitas-ld.10012421",
+        "https://www.nzz.ch/zuerich/die-stadt-zuerich-will-ihr-kita-subventionsmodell-bewahren-auch-wenn-es-kompliziert-ist-ld.10011834"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 6,
+      "article_count": 2,
       "sample_titles": [
-        "Karin Prien will unsere Kinder indoktrinieren",
         "Italien bremst bei Social-Media-Verbot für Minderjährige",
-        "Social-Media-Verbot in Großbritannien: Kinderschutz als Einstieg in den Kontrollstaat",
         "Grüne wollen KiTa-Pflicht – Noch mehr Verstaatlichung der Kindheit?"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/video/kommentar/karin-prien-familienministerin-kinder-indoktrinieren-irrsinn-der-woche/",
         "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/italien-bremst-bei-social-media-verbot/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/social-media-verbot-in-grossbritannien/",
         "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/verstaatlichung-kindheit-gruene-wollen-kita-pflicht/"
       ],
       "dominant_emotion": "disapproval",
@@ -385,74 +449,8 @@
         {
           "emotion": "annoyance",
           "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
         }
       ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Schluss mit Praktikum, spätestens nach einem Jahr: Zürcher Kitas sollen jungen Mitarbeitenden eine Lehrstelle anbieten",
-        "DER ANDERE BLICK - Die deutsche Familienministerin möchte den Verfassungsschutz auf unliebsame Vereine ansetzen. Besser wäre es, die NGO-Förderung komplett zu streichen",
-        "Mehr Noahs und Astrids, bitte! Nun betreiben auch die Rechten in Schweden eine grosszügige Familienpolitik"
-      ],
-      "urls": [
-        "https://www.nzz.ch/zuerich/schluss-mit-praktikum-zuerich-setzt-auf-lehrstellen-in-kitas-ld.10012421",
-        "https://www.nzz.ch/der-andere-blick/demokratie-leben-und-der-verfassungsschutz-der-irrweg-der-karin-prien-ld.10011881",
-        "https://www.nzz.ch/international/mehr-noahs-und-astrids-bitte-nun-betreiben-auch-die-rechten-in-schweden-eine-grosszuegige-familienpolitik-ld.10008710"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "Digitale Welt Worum geht es beim Social Media-Verbot für Kinder?",
-        "Gegen Gruppenvergewaltigungen Kirchen und Antifa mobilisieren gegen einen Kinderschutzkongress",
-        "Bundesfamilienministerin Prien lässt „Demokratie leben!“-Evaluationen evaluieren"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/worum-geht-es-beim-social-media-verbot-fuer-kinder/",
-        "https://jungefreiheit.de/politik/deutschland/2026/warum-kirchen-und-antifa-gegen-den-kinderschutzkongress-mobilisieren/",
-        "https://jungefreiheit.de/politik/deutschland/2026/prien-laesst-millionenschwere-demokratie-leben-evaluationen-evaluieren/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 2,
-      "sample_titles": [
-        "Kommission zu Social Media-Verboten für Kinder und Jugendliche",
-        "Anträge der Grünen zur Familien- und Bildungspolitik"
-      ],
-      "urls": [
-        "https://www.phoenix.de/social-media-a-5212248.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5209292"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "cicero": {
       "source_id": "cicero",
@@ -489,16 +487,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 57,
-    "conservative-liberal": 29,
-    "neutral": 36,
-    "right-conservative": 33,
-    "left": 8,
-    "economic-liberal": 6,
-    "far-right": 9,
-    "populist-mixed": 9
+    "right-conservative": 32,
+    "conservative-liberal": 32,
+    "neutral": 42,
+    "left-liberal": 52,
+    "left": 10,
+    "far-right": 7,
+    "populist-mixed": 8,
+    "economic-liberal": 5
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zu Familienpolitik zeigt eine breite Übereinstimmung darin, dass Jugendschutz und Kindeswohl — insbesondere im Kontext digitaler Medien und sozialer Plattformen — als zentrales politisches Handlungsfeld anerkannt wird, wobei auch konservative und linksliberale Akteure für staatliche Regulierungsmaßnahmen eintreten. Unabhängig von der politischen Ausrichtung werden dabei sowohl strukturelle Mängel in der Jugendhilfe (Personalausstattung, Gewaltbelastung von Fachkräften) als auch die Notwendigkeit von besseren Betreuungsangeboten diagnostiziert, ohne dass dabei grundsätzlich die staatliche Verantwortung für Kinderbetreuung in Frage gestellt wird. Eine dritte Gemeinsamkeit liegt in der impliziten Akzeptanz, dass Elternzeit und flexible Arbeitsmodelle als legitime familienpolitische Ziele gelten, auch wenn über die konkrete Ausgestaltung (Gleichberechtigung der Geschlechter, Finanzierbarkeit) unterschiedliche Positionen vertreten werden.",
-  "controversial_points": "Der deutsche Mediendiskurs zur Familienpolitik spaltet sich fundamental entlang der Frage, ob der Staat durch Investitionen in Betreuungsinfrastruktur und Familienleistungen gesellschaftliche Chancengleichheit und weibliche Erwerbsbeteiligung ermöglichen soll (linkes bis liberal-konservatives Lager) oder ob solche Maßnahmen eine staatliche Übergriffigkeit und „Verstaatlichung der Kindheit\" darstellen, die traditionelle Familienstrukturen gefährden (rechtes bis populistisches Lager). Ein zweiter struktureller Konflikt verläuft zwischen einem präventiv-investiven Ansatz der Kinderschutzpolitik, der frühkindliche Förderung und institutionelle Intervention als Chancen begreift, und einem sicherheitsfokussierten Ansatz, der Kinderschutz primär durch Regulierung von Medien, Grenzsetzung bei Migration und Kontrolle vermeintlicher Gefährdungsquellen definiert. Der dritte zentrale Konflikt betrifft die Finanzierungsfrage im Kontext knapper öffentlicher Mittel: Während progressive Medien eine Umverteilung zugunsten von Kinderarmutsprävention und Kita-Ausbau fordern, plädiert das wirtschaftsliberale Lager für fiskalische Kürzungen bei Elterngeld und Mütterrente, wobei rechte Akteure zusätzlich eine reduzierte Leistung für Kinder von Migranten propagieren.",
-  "cached_at": "2026-07-01T08:48:33.433715"
+  "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im Mediendiskurs zu Familienpolitik und Kinderbetreuung\n\nÜber alle politischen Ausrichtungen hinweg wird die Leistungsfähigkeit und Zuverlässigkeit deutscher Jugendämter sowie des Kinderschutzsystems grundsätzlich als reformbedürftig wahrgenommen – ob in Fragen der personellen Ausstattung, der Intervention bei Gefährdungsfällen oder der öffentlichen Wahrnehmung dieser Institutionen. Ein zweiter übergreifender Konsens besteht in der Anerkennung struktureller Defizite beim Kita-Ausbau und bei der Ganztagsbetreuung, die sowohl als Chancengleichungs- als auch als Wirtschaftlichkeitsthema verhandelt werden, selbst wenn über die Finanzierungsmodelle (staatlich vs. privatwirtschaftlich) unterschiedlich gestritten wird. Drittens zeigt sich eine breite Übereinstimmung darin, dass digitale Schutzfragen für Kinder – insbesondere Social-Media-Regulierung – als legitimes staatliches Handlungsfeld betrachtet werden, unabhängig davon, ob dies eher unter dem Aspekt des Kinderwohls oder der gesellschaftlichen Ordnung diskutiert wird.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zu Familienpolitik\n\nDer tiefste Konflikt verläuft zwischen einer **staatlich-interventionistischen und einer familial-subsidiären Ordnungsvorstellung**: Während progressive Medien Kita-Pflicht, staatliche Kontrolle und universelle Familienleistungen als Chancengleichheit rahmen, deuten konservative und rechte Medien dieselben Maßnahmen als „Verstaatlichung der Kindheit\" und Entmachtung elterlicher Autonomie – hier treffen unvereinbare Konzepte davon aufeinander, wer über Kindheit verfügen darf.\n\nEin zweiter struktureller Bruch offenbart sich in der **Figur des gefährlichen Staates versus des gefährlichen Privaten**: Konservative und rechte Medien skandalisieren Jugendämter als repressive Behörden, die Familien – besonders Migrantenfamilien – auseinanderreißen; linke und progressive Medien betonen dagegen die Schutzfunktion dieser Institutionen gegen innerfamiliale Gewalt und halten Mangelverwaltung in Behörden für das zentrale Problem – der Dissens betrifft nicht nur Ressourcenfragen, sondern fundamentale Fragen darüber, welche Institution zum Wohle von Kindern legitim entscheiden darf.\n\nEin dritter Konflikt liegt in der **Grammatik des Mangels**: Rechte Medien rahmen Familienleistungen primär als Anreiz für deutsche Geburtsraten und nationale Kontinuität, während linke Medien denselben Bereich als Kampf gegen Kinderarmut unabhängig von Herkunft politisieren – hier prallen völlig unterschiedliche Ordnungslogiken aufeinander, in denen das Kind entweder als Träger nationaler Zukunft oder als Rechtssubjekt mit eigenständigen Ansprüchen erscheint.",
+  "cached_at": "2026-07-04T07:19:59.816963"
 }

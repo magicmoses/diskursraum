@@ -1,25 +1,25 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 89,
+  "article_count": 110,
   "candidate_count": 800,
   "outlets": {
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 16,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 21,
       "sample_titles": [
-        "Künstliche Intelligenz: US-Regierung hebt Blockade von Anthropics KI-Modellen auf",
-        "Monika Schnitzer: KI kann den Staat schneller machen – reformieren muss die Politik ihn selbst",
-        "Geldanlage: Blackrock setzt weiter auf KI und empfiehlt Staatsanleihen",
-        "Künstliche Intelligenz: Mega-Investitionen in Billionenhöhe: Südkorea stärkt die Chipindustrie"
+        "KI als Jobkiller?: „Die Zahl an Menschen, die künftig in Agenturen arbeiten, dürfte sinken“",
+        "Die Karrierefrage: Wie bleibe ich mit KI kreativ?",
+        "Digitalwirtschaft-Podcast: Wie Roboter, KI und digitale Zwillinge den Bau retten sollen",
+        "KI und Hochschulprüfung: Zurück zur Klausur"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-us-regierung-hebt-blockade-von-anthropics-ki-modellen-auf/100237036.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/wirtschaftsforum-ki-kann-den-staat-schneller-machen-reformieren-muss-die-politik-ihn-selbst/100236659.html",
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-blackrock-setzt-weiter-auf-ki-und-empfiehlt-staatsanleihen/100235215.html",
-        "https://www.handelsblatt.com/politik/international/suedkorea-will-570-milliarden-euro-in-die-chipindustrie-investieren/100236452.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/wird-ki-zum-jobkiller-in-der-werbung-200972801.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/die-karrierefrage/kuenstliche-intelligenz-im-job-wie-man-im-job-mit-ki-kreativ-bleibt-accg-200958795.html",
+        "https://www.faz.net/podcasts/f-a-z-digitalwirtschaft/immobilienmarkt-wie-roboter-und-ki-den-bau-retten-200989848.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/zurueck-zur-klausur-hochschulpruefungen-im-ki-zeitalter-200902925.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -28,27 +28,31 @@
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "optimism",
           "count": 2
+        },
+        {
+          "emotion": "fear",
+          "count": 1
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 13,
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 16,
       "sample_titles": [
-        "Chipfabrik in Dresden: Deutsche Zukunftsmaschine",
-        "Immer abhängiger: Warum lassen wir zu, dass die KI uns verblödet?",
-        "Dartmouth-Konferenz: Der Sommer, in dem die Maschinen denken lernen sollten",
-        "Zwischen KI und Finanzinvestoren: Der Berufsstand der Wirtschaftsprüfer ist gespalten"
+        "KI-Briefing: Grevenbroich und der KI-Boom in der Provinz",
+        "KI: Fusion von Aleph Alpha und Cohere zieht sich in die Länge",
+        "Verbraucherpreise: Die Angst vor dem KI-Inflationsschock",
+        "KI: Was Wildberger vom britischen KI-Sicherheitsinstitut lernen will"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/technik-motor/technik/hinter-den-kulissen-des-neuen-halbleiterwerks-von-infineon-in-dresden-200964113.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/moritz-rinke-warum-lassen-wir-zu-dass-die-ki-uns-verbloedet-200974840.html",
-        "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/ki-konferenz-in-dartmouth-der-sommer-in-dem-die-maschinen-denken-lernen-sollten-200953654.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/zwischen-ki-und-private-equity-der-berufsstand-der-wirtschaftspruefer-ist-gespalten-accg-200962379.html"
+        "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-grevenbroich-und-der-ki-boom-in-der-provinz/100237526.html",
+        "https://www.handelsblatt.com/technik/ki/ki-fusion-von-aleph-alpha-und-cohere-zieht-sich-in-die-laenge/100235888.html",
+        "https://www.handelsblatt.com/finanzen/geldpolitik/verbraucherpreise-die-angst-vor-dem-ki-inflationsschock/100236901.html",
+        "https://www.handelsblatt.com/politik/deutschland/ki-was-wildberger-vom-britischen-ki-sicherheitsinstitut-lernen-will/100235890.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -57,11 +61,94 @@
           "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "fear",
+          "count": 1
         },
         {
-          "emotion": "confusion",
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 12,
+      "sample_titles": [
+        "Beiträge wirken authentischer: KI überzeugt bei Debatten mehr als echte Politiker",
+        "Interne Tonaufnahme geleakt: Zuckerberg enttäuscht von KI-Agenten bei Meta",
+        "KI-Gewinne für den Staat?: Bericht: OpenAI prüft Beteiligung der US-Regierung",
+        "Perfektion statt Fehler: So lassen sich KI-Gesichter besser erkennen"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wissen/KI-ueberzeugt-bei-Debatten-mehr-als-echte-Politiker-id31039235.html",
+        "https://www.n-tv.de/wirtschaft/Zuckerberg-enttaeuscht-von-KI-Agenten-bei-Meta-id31042272.html",
+        "https://www.n-tv.de/wirtschaft/Bericht-OpenAI-prueft-Beteiligung-der-US-Regierung-id31042088.html",
+        "https://www.n-tv.de/wissen/So-lassen-sich-KI-Gesichter-besser-erkennen-id31034324.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 12,
+      "sample_titles": [
+        "„Die Gefahr von Cyberattacken ist mit der Nutzung von KI viel dramatischer geworden“",
+        "So hat Deutschland seine digitale Souveränität verspielt",
+        "Vodafone fordert mehr Pragmatismus bei Cybersicherheit in Deutschland",
+        "Rheinmetall-Chef sieht KI als Schlüsseltechnologie für Verteidigung"
+      ],
+      "urls": [
+        "https://www.welt.de/videos/video6a46a6452a7c6edbda63d775/schutz-vor-hybrider-kriegsfuehrung-die-gefahr-von-cyberattacken-ist-mit-der-nutzung-von-ki-viel-dramatischer-geworden.html",
+        "https://www.welt.de/kultur/plus6a434d61338020c7c9d099cb/elektronische-zukunft-so-hat-deutschland-seine-digitale-souveraenitaet-verspielt.html",
+        "https://www.welt.de/sicherheitsgipfel/video6a464bcfea435cadee21f060/welt-sicherheitsgipfel-vodafone-fordert-mehr-pragmatismus-bei-cybersicherheit-in-deutschland.html",
+        "https://www.welt.de/sicherheitsgipfel/video6a464b0dd9f58c3f01f808a7/welt-sicherheitsgipfel-rheinmetall-chef-sieht-ki-als-schluesseltechnologie-fuer-verteidigung.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 9,
+      "sample_titles": [
+        "KI aus Freiburg soll Betroffene vor Hass im Netz schützen",
+        "KI-Beauftragte der Landesregierung warnt vor zu strenger Regulierung in Europa",
+        "Zulieferer profitieren vom Chip-Boom: Hunderte neue Jobs rund um Dresdens Halbleiterindustrie",
+        "Infineon eröffnet neue Chipfabrik in Dresden"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/app-gegen-hatespeech-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/ki-beauftragte-warnt-vor-regulierung-100.html",
+        "https://www.mdr.de/nachrichten/sachsen/dresden/chipindustrie-fachkraefte-infineon,halbleiter-zulieferer-jobs-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/infineon-chipfabrik-dresden-100.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -72,19 +159,23 @@
       "bias": "left-liberal",
       "article_count": 8,
       "sample_titles": [
-        "Katherina Reiche: Zwei Gastbeiträge der Wirtschaftsministerin unter KI-Verdacht",
-        "Künstliche Intelligenz als Rezeptautomat: Lassen Sie diese KI Ihren nächsten Burger planen",
-        "Künstliche Intelligenz: Wie Kanzler Friedrich Merz und sein Kabinett mit KI umgehen",
-        "Donald Trump und die EU: Droht neuer Zollstreit wegen Digitalsteuer?"
+        "US-Techkonzerne dominieren die Börsen – Deutsche verlieren den Anschluss",
+        "Sachsen: Infineon eröffnet neues Halbleiterwerk in Dresden",
+        "Künstliche Intelligenz: Wie Deutschland zur »KI-Nation« werden soll",
+        "US-Arbeitsmarkt: Ford holt hunderte Ingenieure zurück, weil KI sie doch nicht ersetzen kann"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/deutschland/katherina-reiche-zwei-gastbeitraege-der-wirtschaftsministerin-unter-ki-verdacht-a-a936c07e-a300-43db-ba8f-3e444054be7e#ref=rss",
-        "https://www.spiegel.de/netzwelt/web/kuenstliche-intelligenz-als-rezeptautomat-lassen-sie-diese-ki-ihren-naechsten-burger-planen-a-dc257693-ca0f-4bfc-b8d8-ce3eeeb07120#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/kuenstliche-intelligenz-wie-kanzler-friedrich-merz-und-sein-kabinett-mit-ki-umgehen-a-c50e9bbe-ffab-469a-8555-d014dc973fd9#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/donald-trump-und-die-eu-droht-neuer-zollstreit-wegen-digitalsteuer-a-c73a5b3d-1eeb-4a5c-b35e-e98cda1e465c#ref=rss"
+        "https://www.spiegel.de/wirtschaft/us-techkonzerne-dominieren-die-boersen-deutsche-verlieren-den-anschluss-a-5a70407d-49a4-4775-ab1f-aa063c6419ff#ref=rss",
+        "https://www.spiegel.de/wirtschaft/unternehmen/sachsen-infineon-eroeffnet-neues-halbleiterwerk-in-dresden-a-9b0a816b-c433-41a8-8e62-8e8d42265d88#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/kuenstliche-intelligenz-wie-deutschland-zur-ki-nation-werden-soll-a-5a9eeb2d-ebef-4614-b566-90c1d9ff4f5c#ref=rss",
+        "https://www.spiegel.de/karriere/us-arbeitsmarkt-ford-holt-hunderte-ingenieure-zurueck-weil-ki-sie-doch-nicht-ersetzen-kann-a-8fdeb1b4-4d41-4bc8-9c5a-43a6e0b5430b#ref=rss"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "admiration",
           "count": 1
@@ -97,79 +188,25 @@
       "bias": "populist-mixed",
       "article_count": 7,
       "sample_titles": [
-        "Börsenprofi sagt - So finden Sie geheime KI-Kracher an der Börse",
+        "Tippschein ausfüllen - BILD-KI erstellt Tippschein nach Mathe-Formel",
+        "Skurriles KI-Video - Trump macht sich zum Wunderheiler",
         "Wohnzimmer im Wandel - KI bringt frischen Wind in die Einrichtung",
-        "„Graue Bärte“ retten Qualität - Ford holt Ingenieure zurück, weil die KI versagt",
-        "Tech-Geschwister warnen vor ChatGPT & Co. - Diese drei KI-Regeln sollten alle Kinder kennen"
+        "„Graue Bärte“ retten Qualität - Ford holt Ingenieure zurück, weil die KI versagt"
       ],
       "urls": [
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/so-finden-sie-die-geheimen-ki-kracher-an-der-boerse-6a4363942904699a9c560763",
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/eurojackpot-heute-so-erstellen-sie-ihren-tippschein-nach-mathe-formel-6a43a6c6c04ea97a4e502a3f",
+        "https://www.bild.de/politik/ausland-und-internationales/skurriles-ki-video-trump-macht-sich-zum-wunderheiler-6a4663da2a7c6edbda63c837",
         "https://www.bild.de/leben-wissen/wohnen-living/mit-ki-zur-traumwohnung-diese-tools-zeigen-neue-kreative-wohnideen-6a38f74a7e682fc37fc0334f",
-        "https://www.bild.de/politik/ausland-und-internationales/ford-holt-ingenieure-zurueck-weil-die-ki-versagt-graue-baerte-retten-qualitaet-6a4363469490396aa38abcce",
-        "https://www.bild.de/leben-wissen/kind-familie/geschwister-warnen-vor-ki-an-schulen-eure-kinder-verlernen-zu-denken-6a21a13b85a291ced3869485"
+        "https://www.bild.de/politik/ausland-und-internationales/ford-holt-ingenieure-zurueck-weil-die-ki-versagt-graue-baerte-retten-qualitaet-6a4363469490396aa38abcce"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 7,
-      "sample_titles": [
-        "Gefertigt in Deutschland: Europäisches Datenschutz-Smartphone Punkt MC03 startet",
-        "Unverifizierte Zitate benutzt: Mario Voigt will seinen Umgang mit KI ändern",
-        "Drohnen und KI-Kriegsführung: Russland hat die Masse, die Ukraine das Entwicklungstempo",
-        "Zentralbanken müssen bereit sein: Notenbankenorganisation warnt vor Staatsschulden und KI-Boom"
-      ],
-      "urls": [
-        "https://www.n-tv.de/technik/Europaeisches-Datenschutz-Smartphone-Punkt-MC03-startet-id31013088.html",
-        "https://www.n-tv.de/politik/Mario-Voigt-will-seinen-Umgang-mit-KI-aendern-id31030312.html",
-        "https://www.n-tv.de/politik/Russland-hat-die-Masse-die-Ukraine-das-Entwicklungstempo-id31019242.html",
-        "https://www.n-tv.de/wirtschaft/Notenbankenorganisation-warnt-vor-Staatsschulden-und-KI-Boom-id31023566.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
         {
           "emotion": "disapproval",
           "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Ermittlungen nach Gewalttat: Sechs Tote nach Schüssen in Stade – Wie geht es weiter?",
-        "Newsblog zum Block-Prozess: Zweiter Fahrer der Kindesentführung soll aussagen – per Liveschalte",
-        "KI-Waffensysteme: Der Kollateralschaden ist vorprogrammiert",
-        "Arbeitsmarkt und KI: Arbeitsagentur: Jobs in der IT-Branche haben Zukunft"
-      ],
-      "urls": [
-        "https://www.stern.de/panorama/ermittlungen-nach-gewalttat--sechs-tote-nach-schuessen-in-stade---wie-geht-es-weiter--37623900.html",
-        "https://www.stern.de/panorama/verbrechen/block-prozess-live--entfuehrungs-fahrer-soll-aussagen---aus-israel-35867508.html",
-        "https://www.stern.de/politik/ausland/drohnen-kriege--wie-gefaehrlich-sind-ki-waffen-fuer-die-menschheit--37587608.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/arbeitsmarkt-und-ki--arbeitsagentur--jobs-in-der-it-branche-haben-zukunft-37614224.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -178,76 +215,97 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 5,
+      "article_count": 6,
       "sample_titles": [
+        "AfD-Parteitag in Erfurt: AfD – blockieren und verbieten?",
+        "Rechter Film „Citizen Vigilante“: Er besitzt so ein schönes Waffenlager",
         "KI und Sportjournalismus: Wir sollten uns ehrlich machen",
-        "Südkorea investiert in Chip-Industrie: Hunderte Milliarden für Chips und KI",
-        "Verbot von Social Media: Australien verdoppelt Geldstrafe für Konzern-Verstöße",
-        "Leben ohne Social Media: „Nach zwei Wochen verbessert sich die psychische Gesundheit“"
+        "Marc-Uwe Kling über Digitalkonzerne: „Zum Glück gibt es überall Alternativen“"
       ],
       "urls": [
+        "https://taz.de/AfD-Parteitag-in-Erfurt/!6192940/",
+        "https://taz.de/Rechter-Film-Citizen-Vigilante/!6192816/",
         "https://taz.de/KI-macht-den-Journalismus-nicht-besser-im-Sportjournalismus-zeigt-sich-diese-Entwicklung/!6192086/",
-        "https://taz.de/Suedkorea-investiert-in-Chip-Industrie/!6191702/",
-        "https://taz.de/Verbot-von-Social-Media/!6191478/",
-        "https://taz.de/Professorin-zu-Social-Media-Nach-zwei-Wochen-Abstinenz-verbessert-sich-die-psychische-Gesundheit/!6190512/"
+        "https://taz.de/Marc-Uwe-Kling-ueber-Digitalkonzerne/!6190481/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "confusion",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "confusion",
+          "count": 1
         },
         {
           "emotion": "approval",
           "count": 1
         },
         {
-          "emotion": "annoyance",
+          "emotion": "realization",
           "count": 1
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
       "article_count": 5,
       "sample_titles": [
-        "Deutschland erlebt seinen zweiten großen Technologieschock",
-        "KI wird zum Treiber bei Stromverbrauch und Emissionen",
-        "„Bleibt ein Prozess menschlicher Intelligenz“ – Ministerien und Kanzler setzen KI nur behutsam ein",
-        "Trump droht europäischen Ländern wegen Digitalsteuer mit Zöllen von 100 Prozent – EU antwortet"
+        "Die 100 wertvollsten Firmen: Nvidia & Co: USA dominieren Börsen - Deutschland fällt ab",
+        "Infineon eröffnet neue Smart Power Fab in Dresden",
+        "Infineon eröffnet in Dresden neue Halbleiterfabrik",
+        "Musik: Madonna: KI ist das Gegenteil von Kunstschaffen"
       ],
       "urls": [
-        "https://www.welt.de/finanzen/plus6a3fd6f44f26b24bcf468e0c/ki-deutschland-erlebt-seinen-zweiten-grossen-technologieschock.html",
-        "https://www.welt.de/regionales/hamburg/article6a43821ce507bf1455ece1ff/neue-rechenzentren-ki-wird-zum-treiber-bei-stromverbrauch-und-emissionen.html",
-        "https://www.welt.de/politik/deutschland/article6a417f4f113e90346dc50581/reden-der-regierungsmitglieder-bleibt-ein-prozess-menschlicher-intelligenz-ministerien-und-kanzler-setzen-ki-nur-behutsam-ein.html",
-        "https://www.welt.de/politik/ausland/article6a3eb101afe845031b3af8de/trump-droht-europaeischen-laendern-wegen-digitalsteuer-mit-zoellen-von-100-prozent-eu-antwortet.html"
+        "https://www.stern.de/digital/die-100-wertvollsten-firmen--nvidia---co--usa-dominieren-boersen---deutschland-faellt-ab-37641462.html",
+        "https://www.stern.de/news/infineon-eroeffnet-neue-smart-power-fab-in-dresden-37638248.html",
+        "https://www.stern.de/news/infineon-eroeffnet-in-dresden-neue-halbleiterfabrik-37635252.html",
+        "https://www.stern.de/lifestyle/leute/musik--madonna--ki-ist-das-gegenteil-von-kunstschaffen-37618666.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 3,
+      "sample_titles": [
+        "Die KI kennt den Laufweg – aber nicht den Willen und das Herz",
+        "McKinsey-Studie: Deutscher Standort meilenweit im Abseits",
+        "KI-Vigilare: Landesmedienanstalten als Handlanger des Geheimdienstes"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/die-ki-kennt-den-laufweg/",
+        "https://www.tichyseinblick.de/wirtschaft/mckinsey-deutscher-standort-im-abseits/",
+        "https://www.tichyseinblick.de/meinungen/ki-vigilare-landesmedienanstalten-inquisition/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 5,
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 3,
       "sample_titles": [
-        "Mit KI im Abitur schummeln: Wie gehen Schulen in BW mit den neuen Betrugstechniken um?",
-        "KI-Kurse fürs Volk",
-        "Was KI nicht kann",
-        "Forschung an Uni Kassel: KI soll Fahrrad-Unfälle auf Schulwegen verhindern"
+        "Informationsfreiheitsgesetz: Bundesdatenschutzbeauftragte nennt Koalitionspläne »undemokratisch«",
+        "KI-Boom an den Weltbörsen: Acht Gründe, warum der KI-Crash nahe ist – und fünf für Zuversicht",
+        "KI in der Politik: Ministerien und Kanzler setzen KI für Recherche- und Hilfsaufgaben ein"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/wie-schulen-mit-moeglichem-ki-betrug-bei-pruefungen-umgehen-100.html",
-        "https://www.tagesschau.de/ausland/asien/singapur-ki-kurse-100.html",
-        "https://www.tagesschau.de/wissen/forschung/unkritische-ki-nutzung-100.html",
-        "https://www.hessenschau.de/panorama/forschung-an-uni-kassel-ki-soll-fahrrad-unfaelle-auf-schulwegen-verhindern-v1,ki-sicherheit-radfahren-100.html"
+        "https://www.zeit.de/politik/deutschland/2026-07/informationsfreiheitsgesetz-louisa-specht-transparenz-buergerrechte",
+        "https://www.zeit.de/geld/2026-07/ki-boom-veraendert-weltboersen-krise-anleger-kurs",
+        "https://www.zeit.de/politik/deutschland/2026-06/kuenstliche-intelligenz-reden-politiker-bundesregierung-friedrich-merz"
       ],
-      "dominant_emotion": "surprise",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "surprise",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -256,48 +314,24 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
+        "Milliarden-Invest: Infineon eröffnet Chipfabrik in Dresden",
         "Bayern will KI-Verbote an Unis kippen",
-        "Warum die Fabrik wichtiger sein könnte als der Chatbot",
-        "Kann Europa im KI-Rennen noch aufholen?",
-        "Cybersicherheit: Deutschlands offene Baustellen"
+        "Was ist und was kann lokale KI?"
       ],
       "urls": [
+        "https://www.zdfheute.de/wirtschaft/infineon-ki-chips-smart-fab-dresden-100.html",
         "https://www.zdfheute.de/video/zdfheute-live/bayern-ki-hochschulen-video-100.html",
-        "https://www.zdfheute.de/wirtschaft/ki-in-der-industrie-deutschland-industrial-ai-100.html",
-        "https://www.zdfheute.de/wirtschaft/ki-europa-usa-eu-anthropic-europe-2031-google-openai-100.html",
-        "https://www.zdfheute.de/politik/deutschland/cybersicherheit-deutschland-ki-digitale-souveraenitaet-christian-doerr-100.html"
+        "https://www.zdfheute.de/wirtschaft/kuenstliche-intelligenz-lokale-nutzung-meta-google-100.html"
       ],
-      "dominant_emotion": "disgust",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
         {
           "emotion": "curiosity",
           "count": 1
         }
       ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Künstliche Intelligenz: USA heben Blockade von Anthropics KI-Modellen auf",
-        "KI in der Politik: Ministerien und Kanzler setzen KI für Recherche- und Hilfsaufgaben ein",
-        "Suresh Venkatasubramanian: »Europa kann digital souverän werden – aber es braucht Ausdauer«"
-      ],
-      "urls": [
-        "https://www.zeit.de/digital/2026-07/anthropic-exportsperre-ki-modelle-mythos-5-fable-5",
-        "https://www.zeit.de/politik/deutschland/2026-06/kuenstliche-intelligenz-reden-politiker-bundesregierung-friedrich-merz",
-        "https://www.zeit.de/politik/ausland/2026-06/suresh-venkatasubramanian-kuenstliche-intelligenz-anthropics-usa-china"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     },
     "nzz": {
       "source_id": "nzz",
@@ -305,46 +339,33 @@
       "bias": "conservative-liberal",
       "article_count": 3,
       "sample_titles": [
+        "Schweizer Unternehmer verspricht KI auf Silicon-Valley-Niveau – von heute an kann man sie nutzen",
         "KOMMENTAR - Verbotene KI: Nach Anthropic muss jetzt auch Open AI sein bestes Modell unter Verschluss halten – das droht den Ruf der Tech-Nation Amerika zu ruinieren",
-        "Die Bank der Zentralbanken sieht grosses Potenzial in der künstlichen Intelligenz – und eine wachsende Gefahr für einen Crash",
-        "KI-Rechtsschriften beschäftigen die Gerichte: «Alles wird ohne fachliche Endkontrolle eingereicht»"
+        "China versucht, Amerikaner gegen ihre eigenen KI-Firmen aufzuwiegeln"
       ],
       "urls": [
+        "https://www.nzz.ch/technologie/schweizer-unternehmer-verspricht-ki-auf-silicon-valley-niveau-von-heute-an-kann-man-sie-nutzen-ld.10012998",
         "https://www.nzz.ch/meinung/verbotene-ki-nach-anthropic-muss-jetzt-auch-open-ai-sein-bestes-modell-unter-verschluss-halten-das-droht-den-ruf-der-tech-nation-amerika-zu-ruinieren-ld.10013351",
-        "https://www.nzz.ch/wirtschaft/boom-and-bust-die-bank-der-zentralbanken-sieht-grosses-potenzial-in-der-kuenstlichen-intelligenz-und-eine-wachsende-gefahr-fuer-einen-finanz-crash-ld.10012750",
-        "https://www.nzz.ch/schweiz/ki-rechtsschriften-beschaeftigen-die-gerichte-alles-wird-ohne-fachliche-endkontrolle-eingereicht-ld.10012350"
+        "https://www.nzz.ch/technologie/china-versucht-amerikaner-gegen-ihre-eigenen-ki-firmen-aufzuwiegeln-ld.10013013"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "disgust",
+      "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "KI-Vigilare: Landesmedienanstalten als Handlanger des Geheimdienstes",
-        "Als das Nervensystem der Deutschen Bahn ausfiel"
+        "McKinsey-Studie Deutschlands Nettoinvestitionen stürzen auf historisches Tief"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/meinungen/ki-vigilare-landesmedienanstalten-inquisition/",
-        "https://www.tichyseinblick.de/daili-es-sentials/deutsche-bundesbahn-nervensystem-ausfall/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Schweizer Traditionsmedium - Ein begründeter Verdacht und viele Ungereimtheiten: Die Neue Zürcher Zeitung erlebt ihren KI-Skandal",
-        "Kinder- und Jugendschutz - Eine Versachlichung dieser Social-Media-Debatte ist überfällig"
-      ],
-      "urls": [
-        "https://www.cicero.de/kultur/schweizer-traditionsmedium-ein-begrundeter-verdacht-und-viele-ungereimtheiten-die-neue-zurcher-zeitung-erlebt-ihren-ki-skandal",
-        "https://www.cicero.de/kultur/kinder-und-jugendschutz-social-media-kommission"
+        "https://jungefreiheit.de/wirtschaft/2026/deutschlands-nettoinvestitionen-stuerzen-auf-historisches-tief/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -355,45 +376,26 @@
       "bias": "neutral",
       "article_count": 1,
       "sample_titles": [
-        "US-Regierung verstärkt Einfluss auf KI-Entwickler"
+        "News kompakt: Siemens investiert in deutschen KI-Sektor"
       ],
       "urls": [
-        "https://www.dw.com/de/us-regierung-verstärkt-einfluss-auf-ki-entwickler/a-77733401?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/news-kompakt-siemens-investiert-in-deutschen-ki-sektor/a-77779896?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Debatte: Social Media verbieten? Ja, klar. Aber für Erwachsene!"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/kultur/social-media-verbot-prien-kinder-jugendliche-li.3504947"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
     }
   },
   "bias_distribution": {
-    "populist-mixed": 7,
     "economic-liberal": 16,
-    "left-liberal": 19,
-    "left": 5,
-    "neutral": 10,
-    "far-right": 2,
-    "right-conservative": 12,
-    "conservative-liberal": 18
+    "neutral": 13,
+    "conservative-liberal": 24,
+    "populist-mixed": 7,
+    "right-conservative": 24,
+    "left": 6,
+    "left-liberal": 16,
+    "far-right": 4
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt über politische Grenzen hinweg ein geteiltes Verständnis von KI als fundamentale wirtschaftliche und technologische Herausforderung, bei der Deutschland strategisch handeln muss — sowohl durch Investitionen in Halbleiter- und digitale Infrastruktur als auch durch regulatorische Rahmensetzung, um technologische Abhängigkeiten zu reduzieren. Unabhängig von der politischen Ausrichtung wird KI nicht primär als philosophisches oder rein gesellschaftliches Risiko debattiert, sondern als praktisches Gestaltungsproblem für Staat und Wirtschaft, wobei die Frage der europäischen und deutschen Wettbewerbsfähigkeit gegenüber den USA zentral bleibt. Selbst kritische Perspektiven auf KI-Folgen (bei Arbeitsmarkt, Bildung oder Energieverbrauch) werden im deutschen Kontext mehrheitlich mit dem Anspruch verbunden, KI nicht zu verdammen, sondern intelligent einzuordnen und zu regulieren — was eine bemerkenswerte Kontinuität zwischen wirtschaftsliberalen und linken Positionen darstellt.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen KI-Diskurs\n\nDer deutsche Mediendiskurs spaltet sich fundamental zwischen einer **Innovationspflicht-vs.-Kontrollimperativ-Achse**: Während liberal-konservative und wirtschaftsliberale Medien KI primär als Wettbewerbsfaktor gegen US-amerikanische und asiatische Dominanz rahmen und Regulierung als Innovationsbremse kritisieren, inszenieren rechts-konservative und linksliberale Medien KI als Risikotechnologie, die deutsche Besonderheiten (Datenschutz, Souveränität, Mitbestimmung) gefährdet oder unkontrolliert Abhängigkeiten schafft. Diese Konfliktlinie ist keine bloße Meinungsverschiedenheit, sondern drückt gegensätzliche Staatsverständigungen aus: Soll der deutsche Staat KI-Entwicklung als nationale Wirtschaftsstrategie fördern oder als Schutzraum vor Technologieveränderung gestalten?\n\nEine zweite strukturelle Spannungslinie verläuft zwischen **Techno-Solutionismus und Skeptis-Realismus**: Die Populist-Mixed- und Economic-Liberal-Sphären verkaufen KI als Universallösung für Staatsverschlankung, Effizienzgewinne und individuelle Bereicherung (Börsengewinne, Wohnzimmerdesign), während rechts-konservative und linksliberale Medien die Grenze zwischen maschineller Optimierung und menschlicher Urteilskraft bewusst zieht und fragt, was KI *nicht* kann oder *nicht darf*. Hier kollidieren nicht unterschiedliche KI-Bewertungen, sondern unterschiedliche Vorstellungen davon, welche Lebensbereiche der Ökonomisierung und Automatisierung unterliegen sollen.\n\nEine dritte Linie manifestiert sich in der **Souve",
-  "cached_at": "2026-07-01T08:46:03.270908"
+  "shared_perspectives": "Der deutsche Mediendiskurs zeigt unabhängig von politischer Ausrichtung eine grundsätzliche Anerkennung, dass Digitalisierung und KI-Entwicklung zentrale Zukunftsfaktoren für die deutsche Wettbewerbsfähigkeit sind – dies spiegelt sich in der breiten Berichterstattung über konkrete Infrastrukturprojekte wie die Infineon-Chipfabrik in Dresden und die Forderung nach stärkerer technologischer Eigenständigkeit. Gleichzeitig besteht über das gesamte Spektrum hinweg ein impliziter Konsens, dass Deutschland gegenüber den USA und zunehmend Asien (besonders China und Südkorea) an technologischer und wirtschaftlicher Dominanz verliert, was sowohl in wirtschaftskritischen als auch in politisch-konservativen Medien als strukturelles Problem der deutschen Standortpolitik thematisiert wird. Ein dritter Bereich geteilter Problemwahrnehmung liegt in der Anerkennung praktischer Implementierungschallenges – von der Frage nach angemessener Regulierung über Cybersicherheitsrisiken bis zur Arbeitsmarktdynamik – die über ideologische Grenzen hinweg als reale Gestaltungsaufgaben für Politik und Wirtschaft behandelt werden.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen KI- und Digitalisierungsdiskurs\n\nDer zentrale Konflikt verläuft zwischen einer **wirtschaftlich-pragmatischen Logik der Wettbewerbsfähigkeit und einer regulatorisch-präventiven Logik der Risikokontrolle**: Während liberal orientierte Medien Deutschlands Rückstand gegenüber US-Tech-Konzernen als primäres Problem diagnostizieren und europäische Regulierung als Innovationsbremse kritisieren, warnen progressiv und konservativ positionierte Medien vor Kontrollverlust, Souveränität und neuen Abhängigkeitsstrukturen — ein Konflikt, der in der deutschen Besonderheit wurzelt, zugleich Wirtschaftsmacht und regulatorische Vorsicht bewahren zu wollen.\n\nEine zweite Trennlinie offenbart sich in der **Deutung von Arbeitsmarktfolgen und technologischer Notwendigkeit**: Während konservativ-liberale und wirtschaftliche Medien Automatisierung als unausweichlichen Anpassungsprozess rahmen, der durch individuelle Kreativität und Reskilling bewältigt werden muss, erscheint in linken und gewerkschaftsnahen Debatten die KI-Einführung als gestaltbar und in ihren sozialen Kosten politisch verhandelbar — ein Streit über den Charakter technologischer Entwicklung selbst.\n\nEin dritter Spannungsrahmen trennt eine **national-kompetitive von einer emanzipatorischen Deutung digitaler Transformation**: Die Mehrheit des Medienmainstreams fasst KI primär als Standortwettbewerb und staatliche Infrastrukturinvestition (Chips, Schulen, Regulierung), während linksliberale und linke Stimmen die Frage nach Eigentumsverhältnissen, Datenrechten und der Kontrolle durch Konzerne aufwerfen — also nicht Deutschlands Pl",
+  "cached_at": "2026-07-04T07:18:10.488442"
 }

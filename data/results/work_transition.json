@@ -1,104 +1,38 @@
 {
   "topic_id": "work_transition",
   "topic_label": "Arbeit im Wandel",
-  "article_count": 477,
+  "article_count": 469,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 78,
+      "article_count": 70,
       "sample_titles": [
-        "Was die neue Grundsicherung für Betroffene bedeutet",
-        "Tarifkonflikt bei der Saarbahn spitzt sich weiter zu",
-        "Höchste Juni-Arbeitslosigkeit in RLP seit 17 Jahren",
-        "Muss Audi in Neckarsulm schließen? Politiker und Gewerkschaft wollen für den Standort kämpfen"
+        "Saarbahn-Streik: Arbeitgeber kündigen weitere Gespräche mit der GDL an",
+        "Was es mit der Krankschreibung ab Tag 1 auf sich hat",
+        "Streit um Krankschreibung: Ärzte warnen, Arbeitgeber begrüßen schärfere Regeln",
+        "Mercedes-Beschäftigte protestieren gegen Sparpläne"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/gesellschaft/grundsicherung-132.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/tarifkonflikt_saarbahn_spitzt_sich_zu_100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/hoechste-juni-arbeitslosenquote-seit-17-jahren-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/audi-werk-neckarsulm-schliessung-plaene-vw-konzern-politik-gewerkschaft-100.html"
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/tarifkonflikt_saarbahn_will_verhandeln_100.html",
+        "https://www.rbb24.de/wirtschaft/beitrag/2026/07/reform-krankschreibung-arbeitsunfaehigkeitsbescheinigung-koaltition.html",
+        "https://www.hessenschau.de/gesellschaft/streit-um-krankschreibung-aerzte-warnen-arbeitgeber-begruessen-schaerfere-regeln-v1,krankschreibungen-arzt-mehransturm-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-proteste-autobauer-ig-metall-102.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
         {
           "emotion": "desire",
-          "count": 6
-        },
-        {
-          "emotion": "approval",
           "count": 4
         },
         {
           "emotion": "annoyance",
-          "count": 3
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 53,
-      "sample_titles": [
-        "Arbeitsmarkt: Mehr Wohlstand durch klügeren Kündigungsschutz",
-        "Kündigungsschutz: Reformpläne nur als Verhandlungsmasse",
-        "Arbeitsmarkt: Weniger Arbeitslose im Bürgergeld – schon vor der Reform",
-        "Wirtschaft: Hessens Arbeitsmarkt bleibt schwach"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/dominig-groll-mehr-wohlstand-durch-kluegeren-kuendigungsschutz-200978354.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kuendigungsschutz-reformplaene-nur-als-verhandlungsmasse-200979878.html",
-        "https://www.faz.net/aktuell/wirtschaft/konjunktur/arbeitsmarkt-weniger-arbeitslose-im-buergergeld-schon-vor-der-reform-200983209.html",
-        "https://www.faz.net/aktuell/rhein-main/wirtschaft/hessens-arbeitsmarkt-frank-martin-warnt-vor-stellenverlust-accg-200982618.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "realization",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
           "count": 2
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 51,
-      "sample_titles": [
-        "Neue Grundsicherung ab Juli: Das Bürgergeld ist am Ende - was sich jetzt alles ändert",
-        "Neue Pflichtverletzung : Betrunken beim Bewerbungsgespräch führt zu Bürgergeldkürzung",
-        "Frage aus dem Arbeitsrecht: Welche Fortbildung Ihr Arbeitgeber zahlen muss",
-        "\"Situation dramatisch\": Mercedes verschiebt Bonuszahlung und prüft längere Arbeitszeit"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Das-Buergergeld-ist-am-Ende-was-sich-jetzt-alles-aendert-id31029287.html",
-        "https://www.n-tv.de/politik/Betrunken-beim-Bewerbungsgespraech-fuehrt-zu-Buergergeldkuerzung-id31027565.html",
-        "https://www.n-tv.de/ratgeber/Welche-Fortbildung-Ihr-Arbeitgeber-zahlen-muss-id31025148.html",
-        "https://www.n-tv.de/wirtschaft/Mercedes-verschiebt-Bonuszahlung-und-prueft-laengere-Arbeitszeit-id31016605.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
         },
         {
           "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "approval",
           "count": 2
         }
       ]
@@ -107,32 +41,98 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 51,
+      "article_count": 55,
       "sample_titles": [
-        "Kein Frühjahrsschwung am Arbeitsmarkt – Arbeitslosigkeit sinkt nur leicht",
-        "Beamte in Brandenburg bekommen mehr Geld, müssen aber mehr arbeiten",
-        "„Wer arbeiten kann, muss sich bemühen“ – Bas kündigt konsequentes Vorgehen gegen Missbrauch an",
-        "Metallarbeitgeber beklagen die „vier Plagen“ des Industriestandorts Deutschland"
+        "Junge, Alte, Familien, Arbeitgeber – Die Gewinner und die Verlierer des Reformpakets",
+        "„Man könnte die Schwelle für den Arbeitnehmerbegriff sehr viel höher setzen“",
+        "Verdi kündigt Warnstreiks im Handel an – Tausende sollen am Freitag ihre Arbeit niederlegen",
+        "Unionsfraktionschefs der Länder kritisieren Warkens Reformen – Streit um Bürgergeldempfänger"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/article6a437f5a3b91bb318ea98a3c/arbeitsmarkt-deutschland-trotz-fruehjahrsbelebung-kaum-bewegung-arbeitslosigkeit-sinkt-minimal.html",
-        "https://www.welt.de/politik/deutschland/article6a437afa3b91bb318ea989c6/nach-urteil-aus-karlsruhe-beamte-in-brandenburg-bekommen-mehr-geld-muessen-aber-mehr-arbeiten.html",
-        "https://www.welt.de/politik/deutschland/article6a42fde3b9ced42c832d27c8/grundsicherung-wer-arbeiten-kann-muss-sich-bemuehen-bas-kuendigt-konsequenz-im-kampf-gegen-missbrauch-an.html",
-        "https://www.welt.de/wirtschaft/plus6a42803eb9ced42c832d20b9/so-wird-das-nichts-metallarbeitgeber-fuerchten-die-vier-plagen-des-industriestandorts.html"
+        "https://www.welt.de/wirtschaft/plus6a47c148ad32e994f875a468/reformpaket-junge-alte-familien-arbeitgeber-die-gewinner-und-die-verlierer-des-reformpakets.html",
+        "https://www.welt.de/videos/video6a47ab6b80a38cbeb7ec198a/minijob-debatte-man-koennte-die-schwelle-fuer-den-arbeitnehmerbegriff-sehr-viel-hoeher-setzen.html",
+        "https://www.welt.de/wirtschaft/article6a469f9017e758bbd23e21a4/verdi-kuendigt-warnstreiks-im-handel-an-tausende-sollen-am-freitag-ihre-arbeit-niederlegen.html",
+        "https://www.welt.de/politik/deutschland/article6a45f0f11f5535004df26a8b/gvk-und-pflege-unionsfraktionschefs-der-laender-kritisieren-warkens-reformen-streit-um-buergergeldempfaenger.html"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "disapproval",
-          "count": 3
+          "emotion": "optimism",
+          "count": 4
         },
         {
           "emotion": "desire",
           "count": 3
         },
         {
-          "emotion": "optimism",
+          "emotion": "disapproval",
           "count": 3
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 55,
+      "sample_titles": [
+        "Kanzleramtschef im Frühstart: Frei zu Attestpflicht ab erstem Tag: \"Das ist nicht zu viel verlangt\"",
+        "Fragen aus dem Arbeitsrecht: Krankschreibung ab Tag eins: Muss ich wirklich sofort zum Arzt?",
+        "\"Zweiter Teil im Herbst\": Bei Arbeitszeit und Erbschaftsteuer will Schwarz-Rot noch nachlegen",
+        "Mehr Befristung, weniger Schutz: So will die Koalition auf dem Arbeitsmarkt \"die Fesseln lösen\""
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Frei-zu-Attestpflicht-ab-erstem-Tag-Das-ist-nicht-zu-viel-verlangt-id31043857.html",
+        "https://www.n-tv.de/ratgeber/Krankschreibung-ab-Tag-eins-Muss-ich-wirklich-sofort-zum-Arzt-id31044959.html",
+        "https://www.n-tv.de/politik/Bei-Arbeitszeit-und-Erbschaftsteuer-will-Schwarz-Rot-noch-nachlegen-id31042702.html",
+        "https://www.n-tv.de/wirtschaft/So-will-die-Koalition-auf-dem-Arbeitsmarkt-die-Fesseln-loesen-id31040331.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 8
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 47,
+      "sample_titles": [
+        "Tarife: Hunderte Beschäftigte im Handel protestieren für mehr Geld",
+        "Stuttgarter Autobauer: Zehntausende protestieren gegen Sparkurs von Mercedes-Benz",
+        "Arbeitsmarkt: Erschwerte Krankmeldungen - vieles noch unklar",
+        "Kundgebungen gegen Sparpläne bei Mercedes: 33.000 Teilnehmer laut IG Metall"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarife--hunderte-beschaeftigte-im-handel-protestieren-fuer-mehr-geld-37643556.html",
+        "https://www.stern.de/wirtschaft/news/stuttgarter-autobauer--zehntausende-protestieren-gegen-sparkurs-von-mercedes-benz-37641382.html",
+        "https://www.stern.de/wirtschaft/news/arbeitsmarkt--erschwerte-krankmeldungen---vieles-noch-unklar-37641288.html",
+        "https://www.stern.de/news/kundgebungen-gegen-sparplaene-bei-mercedes--33-000-teilnehmer-laut-ig-metall-37644080.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
         }
       ]
     },
@@ -142,16 +142,16 @@
       "bias": "economic-liberal",
       "article_count": 47,
       "sample_titles": [
-        "Arbeitsmarkt: „Am Arbeitsmarkt ist kaum Veränderung zu sehen“ – Deutsche Arbeitslosenzahl sinkt im Juni nur leicht",
-        "Autobranche: Porsche will Cayenne-Produktion offenbar nach Leipzig verlagern",
-        "Gastkommentar: Die einzige Lösung ist eine Rente mit 70 – und zwar viel früher als geplant",
-        "Axel Börsch-Supan: „Eine Rente mit 70 ist nicht die Baustelle, die jetzt Priorität hat“"
+        "Editorial: Deutschland lässt sich nicht aus dem Homeoffice erneuern",
+        "Bert Rürup: Reform mit Nebenwirkungen – das Ende der Minijobs hat auch Verlierer",
+        "AU-Pflicht: Das gilt künftig bei Krankschreibungen im Job",
+        "Reformen: „Big Bang“ fürs Wirtschaftswachstum? Das Reformpaket im Check"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-deutsche-arbeitslosenzahl-sinkt-im-juni-nur-leicht/100236758.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/autobranche-porsche-will-cayenne-produktion-offenbar-nach-leipzig-verlagern/100236288.html",
-        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-die-einzige-loesung-ist-eine-rente-mit-70-und-zwar-viel-frueher-als-geplant/100235569.html",
-        "https://www.handelsblatt.com/politik/deutschland/axel-boersch-supan-eine-rente-mit-70-ist-nicht-die-baustelle-die-jetzt-prioritaet-hat/100233448.html"
+        "https://www.handelsblatt.com/meinung/kommentare/editorial-deutschland-laesst-sich-nicht-aus-dem-homeoffice-erneuern-1/100237372.html",
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/der-chefoekonom-das-ende-der-minijobs-kennt-auch-verlierer/100236798.html",
+        "https://www.handelsblatt.com/politik/deutschland/au-pflicht-das-gilt-kuenftig-bei-krankschreibungen-im-job/100237481.html",
+        "https://www.handelsblatt.com/politik/deutschland/reformen-big-bang-fuers-wirtschaftswachstum-das-reformpaket-im-check/100237520.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -161,44 +161,44 @@
         },
         {
           "emotion": "annoyance",
-          "count": 3
+          "count": 2
         },
         {
-          "emotion": "desire",
+          "emotion": "excitement",
           "count": 1
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 44,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 46,
       "sample_titles": [
-        "Arbeitsmarkt: Aus für Minijobs? Vorstoß sorgt für Kontroverse in Sachsen",
-        "Arbeitsmarkt: Kaum Frühjahrsschwung am Arbeitsmarkt",
-        "Arbeitsmarkt: Trotz Anspannung: Arbeitslosenquote sinkt leicht",
-        "Arbeitsmarkt und KI: Arbeitsagentur: Jobs in der IT-Branche haben Zukunft"
+        "Mercedes-Sparprogramm: Die unausweichliche Provokation",
+        "Proteste gegen Sparprogramm: Die Wut der Mercedes-Werker: „Ola raus!“",
+        "Hohe Arbeitslosigkeit: Ein Schwimmbad als Arbeitsbeschaffungsmaßnahme",
+        "Arbeitsmarkt: Mehr Wohlstand durch klügeren Kündigungsschutz"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/sachsen/arbeitsmarkt--aus-fuer-minijobs--vorstoss-sorgt-fuer-kontroverse-in-sachsen-37629256.html",
-        "https://www.stern.de/news/arbeitsmarkt--kaum-fruehjahrsschwung-am-arbeitsmarkt-37624842.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/arbeitsmarkt--trotz-anspannung--arbeitslosenquote-sinkt-leicht-37624774.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/arbeitsmarkt-und-ki--arbeitsagentur--jobs-in-der-it-branche-haben-zukunft-37614224.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-die-unausweichliche-provokation-200995501.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-benz-ola-kaellenius-und-die-wut-der-werker-200995368.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/100-jahre-waldschwimmbad-neu-isenburg-als-der-eintritt-noch-25-pfennig-kostete-accg-200952797.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/dominig-groll-mehr-wohlstand-durch-kluegeren-kuendigungsschutz-200978354.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 7
         },
         {
-          "emotion": "disapproval",
-          "count": 1
+          "emotion": "realization",
+          "count": 2
         },
         {
-          "emotion": "desire",
-          "count": 1
+          "emotion": "confusion",
+          "count": 2
         }
       ]
     },
@@ -206,18 +206,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 39,
+      "article_count": 43,
       "sample_titles": [
-        "Kündigung: Anwältin erklärt, wie Beschäftigte sich gegen Druck wehren können",
-        "Arbeitsmarkt: Zahl der Arbeitslosen sinkt im Juni leicht",
-        "Volkswagen: VW-Betriebsrat kennt keinen Plan für 100.000 Jobstreichungen",
-        "Porsche will Cayenne-Produktion offenbar nach Deutschland verlagern"
+        "Volkswagen und Mercedes: Autobauer stellen Werke und Arbeitszeit infrage",
+        "Streik: Ver.di ruft zu bundesweitem Ausstand im Handel auf",
+        "Steuern, Arbeitsmarkt, Bürokratieabbau: Das steht im Koalitionspapier – der Überblick",
+        "Kündigungsschutz, Befristungen, Abfindungen: Koalition lockert – hilft das der Wirtschaft wirklich?"
       ],
       "urls": [
-        "https://www.spiegel.de/karriere/kuendigung-anwaeltin-erklaert-wie-beschaeftigte-sich-gegen-druck-wehren-koennen-a-c7ce26a1-07cd-4352-a724-6d3fa7a75ff3#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/arbeitsmarkt-zahl-der-arbeitslosen-sinkt-im-juni-leicht-a-51c5f55c-c56a-4f6c-8f4e-ff8453178108#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-vw-betriebsrat-kennt-keinen-plan-fuer-100-000-jobstreichungen-a-8fe0d72a-30e4-4a66-8141-13929f3b7e17#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/porsche-will-cayenne-produktion-offenbar-nach-deutschland-verlagern-a-a8368cfa-34e3-4214-a45e-a843ce4d6c88#ref=rss"
+        "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-und-mercedes-autobauer-stellen-werke-und-arbeitszeit-infrage-a-b57f6f87-afcf-45f3-adbe-de45e024590c#ref=rss",
+        "https://www.spiegel.de/wirtschaft/service/streik-ver-di-ruft-zu-bundesweitem-ausstand-im-handel-auf-a-50467697-6bf9-4915-8509-f21841017151#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/steuern-arbeitsmarkt-buerokratieabbau-das-steht-im-reformpaket-der-koalition-a-d554f069-2200-4722-8219-a1fe258ee034#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/kuendigungsschutz-befristungen-abfindungen-koalition-lockert-hilft-das-der-wirtschaft-wirklich-a-fda34f2e-899a-4fb1-9d0c-3974e4f4227a#ref=rss"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -230,8 +230,8 @@
           "count": 3
         },
         {
-          "emotion": "admiration",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 1
         }
       ]
     },
@@ -239,31 +239,31 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 32,
+      "article_count": 24,
       "sample_titles": [
-        "Neuer CDU-Vorstoß - Weniger Bürgergeld, dafür Deutschlandticket",
-        "Kommentar - Schluss mit null Bock auf Job",
-        "Konzept von Kühnert, Lang und Fahimi - Mehr Rente ohne längere Arbeit! Wer dafür zahlen soll",
-        "Sonderzahlung und Arbeitszeit - Bittere Nachrichten für Mercedes-Mitarbeiter"
+        "Schwarz-rote Steuerentlastung - Das hat die Regierung wirklich mit IHREM Lohn vor",
+        "Am Freitag - Verdi ruft zu Warnstreiks im Handel auf",
+        "Kommentar zum Bürgergeld-Aus - Holt mit der neuen Stütze Vertrauen zurück!",
+        "Neue Grundsicherung startet heute - Wofür gibt es welche Strafe?"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/deutschlandticket-statt-bargeld-cdu-will-bei-buergergeld-kuerzen-6a43d43bc04ea97a4e502ed6",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-schluss-mit-null-bock-auf-job-6a413f66113e90346dc502cb",
-        "https://www.bild.de/politik/inland/dgb-konzept-die-renten-alternative-von-kuehnert-lang-und-fahimi-6a3e18f3113e90346dc4d604",
-        "https://www.bild.de/politik/inland/mercedes-streicht-sonderzahlung-und-will-laengere-arbeitszeit-6a3e3946113e90346dc4d8d5"
+        "https://www.bild.de/politik/inland/steuersenkung-das-hat-die-regierung-wirklich-mit-ihrem-lohn-vor-6a477055ad32e994f8759b0d",
+        "https://www.bild.de/geld/wirtschaft/am-freitag-verdi-ruft-zu-warnstreiks-im-handel-auf-6a4664512a7c6edbda63c84e",
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-neue-grundsicherung-muss-vertrauen-schaffen-6a4530903bafc712e6b21dc6",
+        "https://www.bild.de/politik/inland/neue-grundsicherung-startet-heute-fuer-was-gibt-es-welche-strafe-6a43d5eb30b768424cc6264e"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "approval",
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "realization",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -274,22 +274,22 @@
       "bias": "left",
       "article_count": 19,
       "sample_titles": [
-        "Transformation der Stahlindustrie: Grüner Stahl ist hart, aber schutzbedürftig",
-        "Rentenreform und Lebensarbeitszeit: Ungerechtigkeiten verschärfen sich",
-        "Rentenreform und Auswirkungen: „Kapitalrente“ steht in der Kritik",
-        "Linke zu Rentenplänen: „Die Leute arbeiten jetzt schon zu lange“"
+        "Koalition beschließt Reformpaket: Symbolik super, Wirkung ungewiss",
+        "Wie sich Arbeitskampf ändert: Deutsche streiken seltener und kürzer",
+        "Neue Grundsicherung und Mietkosten: Sinnlose Wohnungssuche auf Befehl vom Jobcenter",
+        "Grundsicherung löst Bürgergeld ab: Mehr Druck, mehr Sanktionen"
       ],
       "urls": [
-        "https://taz.de/Transformation-der-Stahlindustrie/!6191711/",
-        "https://taz.de/Rentenreform-und-Lebensarbeitszeit/!6190084/",
-        "https://taz.de/Rentenreform-und-Auswirkungen/!6190302/",
-        "https://taz.de/Rentenpolitische-Sprecherin-der-Linkspartei-Die-Leute-arbeiten-jetzt-schon-zu-lange/!6190022/"
+        "https://taz.de/Koalition-beschliesst-Reformpaket/!6192892/",
+        "https://taz.de/Wie-sich-Arbeitskampf-aendert/!6192982/",
+        "https://taz.de/Neue-Grundsicherung-und-Mietkosten/!6192428/",
+        "https://taz.de/Grundsicherung-loest-Buergergeld-ab/!6192366/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "disgust",
@@ -305,31 +305,31 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 17,
+      "article_count": 18,
       "sample_titles": [
-        "Arbeitslosigkeit in Deutschland stagniert im Juni weitgehend",
-        "Bas: \"Wer arbeiten kann, muss sich um Arbeit bemühen\"",
-        "Verpflichtende Betriebsrente: Wer zahlt die Rechnung?",
-        "Experten kritisieren Aus für \"Rente mit 63\" und Kapitalrente"
+        "Aufreger Krankschreibung: Wie praxistauglich ist die Änderung?",
+        "Was sich bei der Krankschreibung ändern soll",
+        "Warum Eingewanderte Deutschland wieder verlassen",
+        "Arbeitslosigkeit in Deutschland stagniert im Juni weitgehend"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/arbeitslose-arbeitsmarkt-juni-deutschland-100.html",
-        "https://www.zdfheute.de/politik/deutschland/grundsicherung-bas-arbeitsministerin-sozialleistungen-100.html",
-        "https://www.zdfheute.de/wirtschaft/rente-betriebliche-altersvorsorge-betriebsrente-dgb-100.html",
-        "https://www.zdfheute.de/wirtschaft/rentenreform-rente-bundesregierung-merz-baerbel-bas-rentenkommission-100.html"
+        "https://www.zdfheute.de/politik/krankschreibung-reformpaerzte-praxen-unternehmer-kritik-alltag-100.html",
+        "https://www.zdfheute.de/politik/deutschland/krankschreibung-schwarz-rote-koalition-reform-aerzte-attest-arbeitsunfaehigkeitsbescheinigung-100.html",
+        "https://www.phoenix.de/wer-bleibt-wer-geht-a-5214270.html",
+        "https://www.zdfheute.de/wirtschaft/arbeitslose-arbeitsmarkt-juni-deutschland-100.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
+          "count": 2
         },
         {
           "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -340,21 +340,21 @@
       "bias": "left-liberal",
       "article_count": 13,
       "sample_titles": [
+        "Neue Beschlüsse für Arbeitsverträge: Wer einen Job will, muss jetzt maximal flexibel sein",
+        "Bertelsmann-Studie: Studie belegt ungenutztes Fachkräftepotenzial von Zuwanderern",
         "Arbeitsmarkt in Deutschland: Zahl der Arbeitslosen sinkt im Juni nur leicht",
-        "DGB-Rentenkommission: DGB-Kommission fordert höheres Rentenniveau und Abgabe auf Vermögen",
-        "Arbeitsmarkt: Fast ein Drittel aller Erwerbsfähigen kommt bis 2040 ins Rentenalter",
-        "Landesregierung reagiert: Kein Hitzefrei in Ministerien - aber Homeoffice und Wasser"
+        "DGB-Rentenkommission: DGB-Kommission fordert höheres Rentenniveau und Abgabe auf Vermögen"
       ],
       "urls": [
+        "https://www.zeit.de/arbeit/2026-07/neue-beschluesse-arbeitsvertraege-arbeitgeber-entlassung-jobsuche",
+        "https://www.zeit.de/wirtschaft/2026-07/arbeitsmarkt-integration-migranten-fachkraeftemangel-bertelsmann-studie-gxe",
         "https://www.zeit.de/arbeit/2026-06/arbeitsmarkt-deutschland-juni-2024-arbeitslosigkeit-buergergeld-gxe",
-        "https://www.zeit.de/wirtschaft/2026-06/dgb-rentenkommission-rentenreform-vorschlag-yasmin-fahimi",
-        "https://www.zeit.de/arbeit/2026-06/babyboomer-arbeitsmarkt-rente-deutschland-gxe",
-        "https://www.zeit.de/news/2026-06/20/kein-hitzefrei-in-ministerien-aber-homeoffice-und-wasser"
+        "https://www.zeit.de/wirtschaft/2026-06/dgb-rentenkommission-rentenreform-vorschlag-yasmin-fahimi"
       ],
-      "dominant_emotion": "disgust",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "disgust",
+          "emotion": "optimism",
           "count": 2
         },
         {
@@ -362,7 +362,7 @@
           "count": 1
         },
         {
-          "emotion": "admiration",
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -371,31 +371,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 11,
       "sample_titles": [
+        "Andrea Nahles: „Das könnte echt ein großer Wurf werden für den deutschen Arbeitsmarkt“",
+        "Arbeitsmarkt: Bürokratie verschreckt Fachkräfte",
         "Neue Zahlen aus Nürnberg: Keine Belebung am bayerischen Arbeitsmarkt",
-        "Alterssicherung: Schwarz-grüner Rentenvorstoß im Bundestag",
-        "Jobs der Zukunft: Welche Regionen und Branchen gewinnen und verlieren",
-        "Abschaffung von Simulatoren: Deutsche Bahn spart an Lokführer-Ausbildung"
+        "Alterssicherung: Schwarz-grüner Rentenvorstoß im Bundestag"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/reformpaket-bundesregierung-folgen-arbeitsmarkt-reaktionen-nahles-dgb-li.3509304",
+        "https://www.sueddeutsche.de/wirtschaft/fachkraefte-buerokratie-abwanderung-zuwanderung-li.3508593",
         "https://www.sueddeutsche.de/bayern/bayern-arbeitslosigkeit-arbeitsmarktzahlen-beschaeftigung-juni-li.3507940",
-        "https://www.sueddeutsche.de/politik/rente-reform-schwarz-gruen-cdu-bundestag-li.3500449",
-        "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/deutschland-arbeitsmarkt-regionen-branchen-beschaeftigung-jobs-trump-inflation-china-regierung-industrie-auto-autoindustrie-e149341/",
-        "https://www.sueddeutsche.de/wirtschaft/deutsche-bahn-lokfuehrer-ausbildung-simulatoren-spar-druck-li.3496248"
+        "https://www.sueddeutsche.de/politik/rente-reform-schwarz-gruen-cdu-bundestag-li.3500449"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "optimism",
       "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 2
-        },
         {
           "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "admiration",
+          "emotion": "disappointment",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -406,48 +406,19 @@
       "bias": "far-right",
       "article_count": 9,
       "sample_titles": [
+        "Razzia des Jobcenters liefert unerfreuliche Fakten",
         "Linnemann: SPD-Entwurf zur Arbeitszeitflexibiliserung keine Grundlage für die weitere Koalitionsarbeit",
-        "Zuwanderung von „Fachkräften“ steigt stark: Die Methode Stapelmigration",
-        "Jobcenter Bremen feuert Bürgergeld-Kritiker nach ZDF-Auftritt",
-        "Steuerkonzept des DGB: Der Kuh die Weide mähen und dafür mehr melken"
+        "DGB präsentiert Steuerkonzept: Neiddebatte sticht Arbeitnehmervertretung",
+        "ABB-Konzernchef warnt: Europa droht Massen-Arbeitslosigkeit"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/razzia-jobcenter-berlin-neukoelln/",
         "https://www.tichyseinblick.de/meinungen/koalition-streit-linnemann-arbeitszeit-flexibilisierung/",
-        "https://www.tichyseinblick.de/daili-es-sentials/zuwanderung-fachkraefte-statistik/",
-        "https://www.tichyseinblick.de/feuilleton/medien/jobcenter-bremen-mitarbeiter-zdf/",
-        "https://www.tichyseinblick.de/wirtschaft/steuern-dgb/"
+        "https://www.tichyseinblick.de/wirtschaft/dgb-steuerkonzept-neiddebatte/",
+        "https://www.tichyseinblick.de/wirtschaft/abb-europa-droht-massen-arbeitslosigkeit/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 6,
-      "sample_titles": [
-        "Vorschlag der Rentenkommission Was der Wegfall der Minijobs bedeutet",
-        "Vor der Präsentation Merz trommelt für seine „mutlose“ Rentenreform",
-        "„Vermehrte Streitfälle ums Bürgergeld“ Klagen vor Sozialgerichten steigen rasant an",
-        "Höhere Pflegebeiträge Deutscher Gewerkschaftsbund wirft Warken Bestrafung von Kinderlosen vor"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/wirtschaft/2026/was-der-wegfall-der-minijobs-bedeutet/",
-        "https://jungefreiheit.de/politik/deutschland/2026/merz-trommelt-fuer-seine-mutlose-rentenreform/",
-        "https://jungefreiheit.de/politik/deutschland/2026/klagen-vor-sozialgerichten-steigen-rasant-an/",
-        "https://jungefreiheit.de/politik/deutschland/2026/deutscher-gewerkschaftsbund-wirft-warken-bestrafung-von-kinderlosen-vor/"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
     },
     "nzz": {
       "source_id": "nzz",
@@ -482,18 +453,45 @@
         }
       ]
     },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 2,
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 4,
       "sample_titles": [
-        "Sind Totalsanktionen im Bürgergeld gerecht? - Von Haltung, Menschenwürde und Selbstverantwortung",
-        "Markus Söder bei Caren Miosga - „Auch die Gewerkschaften können nicht nur ,Nein‘ sagen“"
+        "Vorschlag der Rentenkommission Was der Wegfall der Minijobs bedeutet",
+        "„Vermehrte Streitfälle ums Bürgergeld“ Klagen vor Sozialgerichten steigen rasant an",
+        "Höhere Pflegebeiträge Deutscher Gewerkschaftsbund wirft Warken Bestrafung von Kinderlosen vor",
+        "Deutschlandticket statt Bargeld? Neuer Streit zwischen Union und SPD ums Bürgergeld"
       ],
       "urls": [
-        "https://www.cicero.de/kultur/sanktionen-soziales-rostock",
-        "https://www.cicero.de/kultur/markus-soder-bei-caren-miosga-reformpaket"
+        "https://jungefreiheit.de/wirtschaft/2026/was-der-wegfall-der-minijobs-bedeutet/",
+        "https://jungefreiheit.de/politik/deutschland/2026/klagen-vor-sozialgerichten-steigen-rasant-an/",
+        "https://jungefreiheit.de/politik/deutschland/2026/deutscher-gewerkschaftsbund-wirft-warken-bestrafung-von-kinderlosen-vor/",
+        "https://jungefreiheit.de/politik/deutschland/2026/neuer-streit-zwischen-union-und-spd-ums-buergergeld/"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "Studie: Fachkräfte-Potenzial von Migranten oft ungenutzt"
+      ],
+      "urls": [
+        "https://www.dw.com/de/studie-fachkräfte-potenzial-von-migranten-oft-ungenutzt/a-77798488?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -516,19 +514,33 @@
           "count": 1
         }
       ]
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Sind Totalsanktionen im Bürgergeld gerecht? - Von Haltung, Menschenwürde und Selbstverantwortung"
+      ],
+      "urls": [
+        "https://www.cicero.de/kultur/sanktionen-soziales-rostock"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 60,
-    "left-liberal": 106,
-    "populist-mixed": 32,
-    "neutral": 95,
-    "right-conservative": 102,
+    "neutral": 89,
+    "populist-mixed": 24,
+    "right-conservative": 110,
+    "conservative-liberal": 52,
+    "left-liberal": 114,
     "economic-liberal": 47,
     "left": 19,
-    "far-right": 16
+    "far-right": 14
   },
-  "shared_perspectives": "# Konsens im deutschen Mediendiskurs zur Zukunft der Arbeit\n\nDer deutsche Mediendiskurs zeigt über alle politischen Lager hinweg breite Übereinstimmung darin, dass die aktuelle Arbeitsmarktlage stagniert und sich ohne strukturelle Interventionen nicht von selbst verbessert — sowohl konservativ-liberale als auch linke Medien berichten konsistent von fehlender Arbeitsmarktbelebung und stagnierender Arbeitslosigkeit. Ein zweiter grundlegender Konsens liegt in der Forderung nach konsequenterer Aktivierung von Arbeitslosen und einer stärkeren Koppelung von Sozialleistungen an Arbeitsbereitschaft, wobei selbst linke und progressive Medien nicht grundsätzlich gegen Kontroll- und Sanktionsmechanismen argumentieren, sondern deren konkrete Ausgestaltung diskutieren. Drittens besteht ein impliziter Konsens, dass Deutschland ein massives Strukturproblem bei der Fachkräftesicherung hat, das weder durch reine Mindestlohnerhöhungen noch durch marginale Rentereformen gelöst werden kann — hier unterscheiden sich die Lager nur in der Lösungspriorität (Zuwanderung vs. Qualifizierung vs. Automatisierung), nicht in der Diagnose des Problems selbst.",
-  "controversial_points": "# Strukturelle Konfliktlinien der deutschen Arbeitsmarktdebatte\n\nDer deutsche Mediendiskurs spaltet sich entlang einer fundamentalen Diagnose-Divergenz: Während liberal-konservative und wirtschaftsliberale Medien einen strukturell trägen, reformresistenten Arbeitsmarkt diagnostizieren und mehr Flexibilität sowie Druck auf Transferleistungsempfänger fordern, argumentieren progressive und linke Medien, dass die Arbeitsmarktprobleme nicht aus mangelnder Anstrengung entstehen, sondern aus unzureichender sozialer Sicherheit und prekären Beschäftigungsbedingungen — womit sich zwei gegensätzliche Verursachungsnarrative um die Deutungshoheit kämpfen. Die zweite tiefe Bruchlinie verläuft zwischen einem Universalitäts- und einem Selektionsparadigma bei der Sicherung der Zukunftsarbeit: Die rechte bis wirtschaftsliberale Seite privilegiert individuelle Leistungsanreize, Effizienzgewinne durch Digitalisierung und selektive Fachkräftemigration als Lösungsmodell, während progressive Medien ein inklusives Modell mit Tarifbindung, Mitbestimmung und umfassender Qualifizierung für alle beschreiben — hier prallen also antagonistische Konzepte von sozialer Partizipation und Risikoteilung aufeinander. Drittens zeigt sich ein Widerspruch zwischen der offiziellen Arbeitsmarktstatistik (leicht sinkende Arbeitslosigkeit) und ihrer völlig divergierenden Interpretation: Conservative und rechte Medien deuten Stabilität als Versagen und Argument für härtere Reformen, während progressive Medien dasselbe Zahlenmaterial als Beleg für funktionsfähige, aber unterfinanzierte Strukturen lesen — womit nicht einmal eine gemeinsame empirische Grundlage für den politischen Streit exist",
-  "cached_at": "2026-07-01T08:46:55.952937"
+  "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im Diskurs zur Zukunft der Arbeit in Deutschland\n\nDer deutsche Mediendiskurs teilt über alle politischen Lager hinweg die Überzeugung, dass strukturelle Arbeitsmarktreformen notwendig sind, um Deutschlands wirtschaftliche Wettbewerbsfähigkeit zu sichern — auch linke Medien kritisieren die Reformmaßnahmen primär als unzureichend, nicht als grundsätzlich falsch, und akzeptieren damit die Prämisse, dass der Status quo unhaltbar ist. Gleichzeitig besteht breite Übereinstimmung darin, dass der Fachkräftemangel ein zentrales strukturelles Problem darstellt, wobei auch sozialpolitisch engagierte Medien nicht ernsthaft gegen eine verstärkte Arbeitskräfteintegration argumentieren, sondern allenfalls über die Verteilungswirkungen debattieren. Drittens wird die Erosion von klassischen Tarifstrukturen (Minijobs, Befristungen, flexible Arbeitszeiten) von Medien aller Ausrichtungen als faktische Realität akzeptiert und diskutiert — der Streit entzündet sich nicht an deren Existenz, sondern an der normativen Frage, ob diese Flexibilisierungen zu begrüßen oder zu kritisieren sind.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zur Zukunft der Arbeit\n\nDer zentrale Konflikt verläuft zwischen zwei unvereinbaren Diagnosen der deutschen Wirtschaftslage: Während konservativ-liberale und wirtschaftsliberale Medien Arbeitsmarktregulierungen als Wachstumsbremse pathologisieren und deren Lockerung als notwendige \"Fesselsprengung\" darstellen, interpretieren linke und gewerkschaftsnahe Medien identische Maßnahmen als Abbau von Arbeitnehmerschutz und Verschiebung von Risiken auf Beschäftigte — beide Seiten sprechen also von denselben Reformen, aber mit völlig gegensätzlichen Kausalitäten (Reform = Chance vs. Reform = Gefährdung). Das zweite strukturelle Spannungsfeld liegt in der Frage, wer das Subjekt von \"Arbeit in Deutschland\" ist: Die wirtschaftsliberale Perspektive behandelt Fachkräftemangel und Produktivität als primäre Probleme, für die Regulierung hinderlich ist, während linke Positionen von Beschäftigten als Schutzsubjekten ausgehen, deren Handlungsfähigkeit durch Sanktionsdruck und Prekarisierung unterminiert wird — es geht also um konkurrierende Menschenbilder (Arbeitskraft als Produktionsfaktor vs. Mensch mit Würdeanspruch). Ein dritter, oft übersehener Konflikt betrifft die Funktionalität der Protestkultur selbst: Während rechts-konservative Medien Massenproteste bei Mercedes als berechtigte Reaktion auf \"unausweichliche\" Marktlogik darstellen, nutzen linke Medien dieselben Proteste, um Gewerkschaftsmacht symbolisch zu restituieren — der Disput ist also nicht nur über Arbeitsbedingungen, sondern über",
+  "cached_at": "2026-07-04T07:18:49.243926"
 }
