@@ -1,14 +1,14 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 297,
+  "article_count": 300,
   "candidate_count": 800,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 57,
+      "article_count": 58,
       "sample_titles": [
         "Zielland Nummer eins für Afghanen ist Deutschland",
         "Innenministerium registriert rund 40.000 Asylerstanträge im ersten Halbjahr",
@@ -21,51 +21,10 @@
         "https://www.welt.de/videos/video6a478c7980a38cbeb7ec16bc/sechs-tode-in-stade-der-fall-zeigt-die-verflechtung-von-steuerfinanzierten-pro-migrations-lobbyvereinen.html",
         "https://www.welt.de/politik/deutschland/article6a46e4ffad32e994f87594bd/aussenminister-wadephul-wirbt-in-sao-paulo-fuer-fachkraefte-und-kritisiert-ueberreaktionen-von-deutschen.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
         {
           "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 27,
-      "sample_titles": [
-        "EU will Schutzstatus für wehrfähige Ukrainer beenden",
-        "Tod von Geflüchtetem: Prozess gegen neun Polizisten beginnt in Duisburg",
-        "Weniger Inobhutnahmen – Rückgang bei minderjährigen Geflüchteten",
-        "Ex-Gotteskrieger verhandelt mit EU über Abschiebungen"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/ausland/europa/eu-schutzstatus-ukraine-102.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/muelheim/prozessbeginn-ibrahima-barry-polizeieinsatz-100.html",
-        "https://www.rbb24.de/panorama/beitrag/2026/06/inobhutnahme-kinder-jugendliche-berlin.html",
-        "https://www.tagesschau.de/investigativ/ndr/afghanistan-taliban-eu-verhandlungen-100.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -74,23 +33,23 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 26,
+      "article_count": 31,
       "sample_titles": [
+        "Business-Ticker: „Unzumutbare Wartezeiten“: Flughäfen kritisieren neue Grenzkontrollen",
         "Afghanistan-Abschiebungen: Herr Tofan wird zum Präzedenzfall",
-        "Skandal um „Citizen Vigilante“: Darf man einen Film zeigen, dessen Held zum Mord an Migranten aufruft?",
-        "Deutschland-Liveblog: Brandanschlag auf Wohnprojekt in Cottbus",
-        "Nach Klagen: Und wieder erklärt ein Gericht Grenzkontrollen für rechtswidrig"
+        "Bluttat in Stade: Schwiegermutter von Politiker fuhr Fluchtwagen",
+        "Deutschland-Liveblog: Brandanschlag auf Wohnprojekt in Cottbus"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-flughaefen-beklagen-lange-wartezeiten-an-der-grenzkontrolle-faz-200452404.html",
         "https://www.faz.net/aktuell/politik/inland/wie-deutschland-seine-abschiebepraxis-nach-afghanistan-ausweitet-200987217.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/citizen-vigilante-wie-gefaehrlich-ist-dieser-film-200990257.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-brandanschlag-auf-wohnprojekt-in-cottbus-faz-110093143.html",
-        "https://www.faz.net/aktuell/politik/inland/grenzkontrollen-gericht-in-muenchen-gibt-klaegern-recht-200990531.html"
+        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/stade-schwiegermutter-von-politiker-fuhr-fluchtwagen-accg-200994515.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-brandanschlag-auf-wohnprojekt-in-cottbus-faz-110093143.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "disapproval",
           "count": 2
         },
         {
@@ -98,7 +57,40 @@
           "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "approval",
+          "count": 2
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 31,
+      "sample_titles": [
+        "EU will Schutzstatus für wehrfähige Ukrainer beenden",
+        "Weniger Inobhutnahmen – Rückgang bei minderjährigen Geflüchteten",
+        "Ex-Gotteskrieger verhandelt mit EU über Abschiebungen",
+        "Ex-Gotteskrieger verhandelt mit EU über Abschiebungen"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/ausland/europa/eu-schutzstatus-ukraine-102.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/06/inobhutnahme-kinder-jugendliche-berlin.html",
+        "https://www.tagesschau.de/investigativ/ndr/afghanistan-taliban-eu-verhandlungen-100.html",
+        "https://www.tagesschau.de/ausland/europa/afghanistan-taliban-eu-verhandlungen-100.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -107,24 +99,24 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 26,
+      "article_count": 24,
       "sample_titles": [
         "Jeder Vierte geht in Rente: Ausländer federn Abgang der Boomer ab",
         "Wegweisendes Urteil: Supreme Court stoppt Trump-Plan für eingeschränkte Staatsbürgerschaft",
-        "Betrug bei Sozialleistungen?: Großrazzia in Flüchtlingsunterkunft in Hamburg",
-        "EU-Gespräche über Abschiebungen: Belgien erteilt Taliban-Delegation Visa"
+        "Weniger Leistungen für Ukrainer: Söder will Bürgergeld kürzen und Bezahlkarte ausweiten",
+        "Mehr Charterflüge geplant: Innenministerium weitet Abschiebungen nach Afghanistan aus"
       ],
       "urls": [
         "https://www.n-tv.de/politik/Auslaender-federn-Abgang-der-Boomer-ab-id31030748.html",
         "https://www.n-tv.de/politik/Supreme-Court-stoppt-Trump-Plan-fuer-eingeschraenkte-Staatsbuergerschaft-id31032428.html",
-        "https://www.n-tv.de/panorama/Grossrazzia-in-Fluechtlingsunterkunft-in-Hamburg-id31011018.html",
-        "https://www.n-tv.de/politik/Belgien-erteilt-Taliban-Delegation-Visa-id30999857.html"
+        "https://www.n-tv.de/politik/Soeder-will-Buergergeld-kuerzen-und-Bezahlkarte-ausweiten-id30992291.html",
+        "https://www.n-tv.de/politik/Innenministerium-weitet-Abschiebungen-nach-Afghanistan-aus-id30992405.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "optimism",
@@ -140,31 +132,60 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 24,
+      "article_count": 23,
       "sample_titles": [
-        "Mit Hilfe linker NGOs Gericht erklärt drei Grenzkontrollen für rechtswidrig",
-        "„Überreaktionen“ Wadephul geißelt Migrationskritiker beim Brasilien-Besuch",
-        "Gefördert von „Demokratie leben!“ Stade: Migrations-Aktivistin fuhr den Fluchtwagen",
-        "USA Trump will Einbürgerung per Geburt einschränken – trotz Gerichtsurteil"
+        "Migrationspolitik Deutschland bleibt größter Asyl-Magnet für Afghanen",
+        "USA Trump will Einbürgerung per Geburt einschränken – trotz Gerichtsurteil",
+        "AfD-Kundgebung Siegmund kündigt vor Rotem Rathaus Arbeitspflicht für Asylbewerber an",
+        "Auswirkungen der Masseneinwanderung Freibäder sind zu Nahkampfzonen geworden"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/gericht-erklaert-drei-grenzkontrollen-fuer-rechtswidrig/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wadephul-geisselt-migrationskritiker-beim-brasilien-besuch/",
-        "https://jungefreiheit.de/politik/deutschland/2026/stade-migrations-aktivistin-fuhr-den-fluchtwagen/",
-        "https://jungefreiheit.de/politik/ausland/2026/trump-will-einbuergerung-per-geburt-einschraenken-trotz-gerichtsurteil/"
+        "https://jungefreiheit.de/politik/deutschland/2026/deutschland-bleibt-groesster-asyl-magnet-fuer-afghanen/",
+        "https://jungefreiheit.de/politik/ausland/2026/trump-will-einbuergerung-per-geburt-einschraenken-trotz-gerichtsurteil/",
+        "https://jungefreiheit.de/politik/deutschland/2026/siegmund-kuendigt-vor-rotem-rathaus-arbeitspflicht-fuer-asylbewerber-an/",
+        "https://jungefreiheit.de/kultur/medien/2026/freibaeder-sind-zu-nahkampfzonen-geworden/"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
         {
           "emotion": "fear",
-          "count": 2
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 20,
+      "sample_titles": [
+        "Rechte instrumentalisieren Stade-Morde: Hetze gegen Integrationsverein",
+        "Rechter Film „Citizen Vigilante“: Er besitzt so ein schönes Waffenlager",
+        "Westbalkanregelung: Zuwanderung aus Südosteuropa soll begrenzt werden",
+        "Versuchter Brandanschlag: Mutmaßliche Unterstützer rechter Terrorgruppe in U-Haft"
+      ],
+      "urls": [
+        "https://taz.de/Rechte-instrumentalisieren-Stade-Morde/!6193173/",
+        "https://taz.de/Rechter-Film-Citizen-Vigilante/!6192816/",
+        "https://taz.de/Westbalkanregelung/!6192961/",
+        "https://taz.de/Versuchter-Brandanschlag/!6190976/"
+      ],
+      "dominant_emotion": "disgust",
+      "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 1
         },
         {
           "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "sadness",
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -175,95 +196,58 @@
       "bias": "left-liberal",
       "article_count": 18,
       "sample_titles": [
-        "Palau: USA beginnen mit Abschiebung von Migranten in Pazifikstaat",
+        "Julian Reichelt: Rechts-außen-Portal gewinnt an Einfluss - Podcast Firewall",
+        "Grenzkontrollen: Verwaltungsgericht München entscheidet drei Klagen",
         "Gehren in Ilmenau: Urteil im Prozess um Anschlag auf Flüchtlingsunterkunft",
-        "Ukraine-Krieg: EU will wehrfähigen Ukrainern Flucht erschweren",
-        "»Remigration«: Die AfD und ihre Abschiebe-Fantasien - SPIEGEL TV"
+        "Ukraine-Krieg: EU will wehrfähigen Ukrainern Flucht erschweren"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/palau-usa-beginnen-mit-abschiebung-von-migranten-in-pazifikstaat-a-d7403f4a-b6f8-4ad9-a88d-f889cfbf44c4#ref=rss",
+        "https://www.spiegel.de/ausland/julian-reichelt-rechts-aussen-portal-gewinnt-an-einfluss-podcast-firewall-a-55a05405-e4d2-4379-94da-e4c07b0d4bc7#ref=rss",
+        "https://www.spiegel.de/panorama/grenzkontrollen-verwaltungsgericht-muenchen-entscheidet-drei-klagen-a-9cd1c866-201a-4efc-b0f7-88377e67b4fd#ref=rss",
         "https://www.spiegel.de/panorama/justiz/gehren-in-ilmenau-urteil-im-prozess-um-anschlag-auf-fluechtlingsunterkunft-a-4878df75-8265-4d50-b242-747219b8fa6d#ref=rss",
-        "https://www.spiegel.de/politik/ukraine-krieg-eu-will-wehrfaehigen-ukrainern-flucht-erschweren-a-4e64a3d9-f363-4ef7-b96f-864a471054a2#ref=rss",
-        "https://www.spiegel.de/politik/remigration-die-afd-und-ihre-abschiebe-fantasien-spiegel-tv-a-a8043190-3cd7-4bc7-bc23-07ceec48bf63#ref=rss"
+        "https://www.spiegel.de/politik/ukraine-krieg-eu-will-wehrfaehigen-ukrainern-flucht-erschweren-a-4e64a3d9-f363-4ef7-b96f-864a471054a2#ref=rss"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "confusion",
       "top_emotions": [
         {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "confusion",
           "count": 1
         },
         {
           "emotion": "approval",
           "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
       "article_count": 17,
       "sample_titles": [
-        "Rechte instrumentalisieren Stade-Morde: Hetze gegen Integrationsverein",
-        "Westbalkanregelung: Zuwanderung aus Südosteuropa soll begrenzt werden",
-        "Positive Folge der Geas-Reform: Hilfe für Fahim",
-        "Landtagswahlen in Berlin und MV: Wer bei Integration spart, zahlt am Ende drauf"
+        "Asylzahlen: Deutlich weniger Menschen beantragen in Deutschland Asyl",
+        "Verwaltungsgericht: Keine Ausnahme von Grenzkontrollen für Rechtsprofessor",
+        "Verwaltungsgericht: Trotz Urteil: Betroffene müssen Kontrollen weiter dulden",
+        "Verwaltungsgericht: Münchner klagt gegen Grenzkontrollen"
       ],
       "urls": [
-        "https://taz.de/Rechte-instrumentalisieren-Stade-Morde/!6193173/",
-        "https://taz.de/Westbalkanregelung/!6192961/",
-        "https://taz.de/Positive-Folge-der-Geas-Reform/!6190569/",
-        "https://taz.de/Armut-und-Reichtum-in-Deutschland/!6190828/"
+        "https://www.stern.de/politik/deutschland/asylzahlen--deutlich-weniger-menschen-beantragen-in-deutschland-asyl-37644108.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/verwaltungsgericht--keine-ausnahme-von-grenzkontrollen-fuer-rechtsprofessor-37635406.html",
+        "https://www.stern.de/politik/deutschland/verwaltungsgericht--trotz-urteil--betroffene-muessen-kontrollen-weiter-dulden-37638296.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/verwaltungsgericht--muenchner-klagt-gegen-grenzkontrollen-37635406.html"
       ],
-      "dominant_emotion": "anger",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 15,
-      "sample_titles": [
-        "Trendwende beim Asyl - 67 Prozent weniger Anträge als 2024",
-        "Gewalt gegen illegale Migranten in Südafrika - Sie ziehen mit Knüppeln von Haus zu Haus",
-        "Damit Abschiebungen schneller gehen - Taliban schicken vier „Diplomaten“ nach Berlin",
-        "Deal mit den Taliban - Fast jede Woche ein Abschiebeflug nach Afghanistan"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/asyl-erstantraege-deutschland-verzeichnet-67-prozent-weniger-antraege-6a455b031f5535004df24ceb",
-        "https://www.bild.de/politik/ausland-und-internationales/gewalt-gegen-illegale-migranten-in-suedafrika-sie-ziehen-mit-knueppeln-von-haus-zu-haus-6a43fbfb0ba20a8ea50805cf",
-        "https://www.bild.de/politik/inland/taliban-schicken-vier-diplomaten-nach-berlin-fuer-mehr-abschiebungen-nach-afghanistan-6a3a1fa17b0e6c975b091926",
-        "https://www.bild.de/politik/inland/deal-mit-den-taliban-fast-jede-woche-ein-abschiebeflug-nach-afghanistan-6a36809b80d43f4394b6c6ad"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 2
-        },
         {
           "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "fear",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -272,7 +256,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 14,
+      "article_count": 12,
       "sample_titles": [
         "Migration: Zahl der Asylanträge sinkt deutlich",
         "Bertelsmann-Studie: Studie belegt ungenutztes Fachkräftepotenzial von Zuwanderern",
@@ -293,31 +277,64 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 13,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 11,
       "sample_titles": [
-        "Asylzahlen: Deutlich weniger Menschen beantragen in Deutschland Asyl",
-        "Verwaltungsgericht: Trotz Urteil: Betroffene müssen Kontrollen weiter dulden",
-        "Verwaltungsgericht: Münchner klagt gegen Grenzkontrollen",
-        "Innenministerium weitet Abschiebungen nach Afghanistan in Absprache mit Taliban aus"
+        "KOMMENTAR - Proteste in Südafrika: Die Steuerung der Migration ist ein wichtiges Anliegen. Aber es gehört in die Parlamente, nicht in die Hände eines Mobs",
+        "Die EU-Staaten wollen mehr Afghanen abschieben. Was erwartet die Rückkehrer in ihrer Heimat?",
+        "Umstrittenes Anlocken von Firmen: Im Zuge der Zuwanderungsdiskussion gerät nun die Standortpromotion des Bundes unter Druck",
+        "Mitte- und FDP-Ständeräte erhöhen den Druck auf Bundesrat Jans – und wollen das Asylsystem teilweise umbauen"
       ],
       "urls": [
-        "https://www.stern.de/politik/deutschland/asylzahlen--deutlich-weniger-menschen-beantragen-in-deutschland-asyl-37644108.html",
-        "https://www.stern.de/politik/deutschland/verwaltungsgericht--trotz-urteil--betroffene-muessen-kontrollen-weiter-dulden-37638296.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/verwaltungsgericht--muenchner-klagt-gegen-grenzkontrollen-37635406.html",
-        "https://www.stern.de/news/innenministerium-weitet-abschiebungen-nach-afghanistan-in-absprache-mit-taliban-aus-37578466.html"
+        "https://www.nzz.ch/meinung/die-migrationskritik-wird-global-warum-proteste-in-afrika-zunehmen-ld.10013404",
+        "https://www.nzz.ch/international/die-eu-staaten-wollen-mehr-afghanen-abschieben-was-erwartet-die-rueckkehrer-in-ihrer-heimat-ld.10013063",
+        "https://www.nzz.ch/schweiz/umstrittenes-anlocken-von-firmen-im-zuge-der-zuwanderungsdiskussion-geraet-nun-die-standortpromotion-des-bundes-unter-druck-ld.10011940",
+        "https://www.nzz.ch/schweiz/mitte-und-fdp-staenderaete-erhoehen-den-druck-auf-bundesrat-jans-und-wollen-das-asylsystem-teilweise-umbauen-ld.10012048"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "optimism",
+          "count": 2
         },
         {
           "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 10,
+      "sample_titles": [
+        "„Remigration ist nicht verhandelbar“: Bewerbungsrede von Sven Tritschler (AfD)",
+        "EU will Flucht für wehrfähige Ukrainer erschweren",
+        "Oberstes US-Gericht macht Weg für Massenabschiebungen frei",
+        "Dobrindt zum Start des EU-Asylsystems GEAS"
+      ],
+      "urls": [
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5215339",
+        "https://www.zdfheute.de/politik/ausland/ukraine-wehrfaehige-maenner-schutzstatus-100.html",
+        "https://www.zdfheute.de/politik/ausland/usa-migration-abschiebung-supreme-court-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5209527"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -330,14 +347,14 @@
       "sample_titles": [
         "Arbeitsmarkt: Fachkräftemangel: Bessere Integration könnte große Potenziale heben",
         "Bert Rürup: Wachstumsbremse AfD: Ohne Zuwanderer kann es kein neues Wirtschaftswunder geben",
-        "Asyl: EU verschärft Asylregeln – Reform in Kraft",
-        "Migration: Neue EU-Asylregeln stellen Melonis Albanien-Zentren auf die Probe"
+        "Migration: Endergebnis: Schweiz lehnt strikte Einwohner-Obergrenze ab",
+        "Asyl: EU verschärft Asylregeln – Reform in Kraft"
       ],
       "urls": [
         "https://www.handelsblatt.com/politik/deutschland/fachkraeftemangel-bessere-integration-koennte-grosse-potenziale-heben/100236874.html",
         "https://www.handelsblatt.com/meinung/wirtschaftsforum/der-chefoekonom-ohne-zuwanderer-kann-es-keine-neue-wachstumsdynamik-geben/100235199.html",
-        "https://www.handelsblatt.com/politik/international/asyl-eu-verschaerft-asylregeln-reform-in-kraft/100232431.html",
-        "https://www.handelsblatt.com/politik/migration-neue-asylregeln-stellen-melonis-albanien-zentren-auf-die-probe/100230612.html"
+        "https://www.handelsblatt.com/politik/international/migration-schweiz-lehnt-strikte-einwohner-obergrenze-ab/100232871.html",
+        "https://www.handelsblatt.com/politik/international/asyl-eu-verschaerft-asylregeln-reform-in-kraft/100232431.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -351,35 +368,60 @@
         }
       ]
     },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 10,
+      "sample_titles": [
+        "Trendwende beim Asyl - 67 Prozent weniger Anträge als 2024",
+        "Damit Abschiebungen schneller gehen - Taliban schicken vier „Diplomaten“ nach Berlin",
+        "Deal mit den Taliban - Fast jede Woche ein Abschiebeflug nach Afghanistan",
+        "CDU-Innenexperte behauptet - „Halbe Weg bei  Migrationswende ist geschafft“"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/asyl-erstantraege-deutschland-verzeichnet-67-prozent-weniger-antraege-6a455b031f5535004df24ceb",
+        "https://www.bild.de/politik/inland/taliban-schicken-vier-diplomaten-nach-berlin-fuer-mehr-abschiebungen-nach-afghanistan-6a3a1fa17b0e6c975b091926",
+        "https://www.bild.de/politik/inland/deal-mit-den-taliban-fast-jede-woche-ein-abschiebeflug-nach-afghanistan-6a36809b80d43f4394b6c6ad",
+        "https://www.bild.de/politik/inland/innenexperte-der-cdu-behauptet-halber-weg-bei-migrationswende-ist-geschafft-6a2ffe671a21c266c42b6fea"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 9,
       "sample_titles": [
-        "Remigration-Petition soll nun „Bewegung” werden",
+        "„Es gab keine systematische Verfolgung“: GIZ-Insider packt über den Afghanen-Import aus",
         "Kriminalität und Migration: So schlimm ist es wirklich",
-        "„Die Entgleisung des ZDF war drastisch“",
-        "Memmingen: Schüler aus Afghanistan und Syrien peitschten Mitschüler aus"
+        "Zuwanderung von „Fachkräften“ steigt stark: Die Methode Stapelmigration",
+        "Von der Leyen will weniger ukrainische Kriegsflüchtlinge"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/remigration-petition-soll-nun-bewegung-werden/",
+        "https://www.tichyseinblick.de/daili-es-sentials/keine-systematische-verfolgung-afghanen-import/",
         "https://www.tichyseinblick.de/video/interview/kriminalitaet-und-migration-so-schlimm-ist-es-wirklich/",
-        "https://www.tichyseinblick.de/interviews/entgleisung-zdf-war-drastisch/",
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/memmingen-schule-gewalt-bayern/"
+        "https://www.tichyseinblick.de/daili-es-sentials/zuwanderung-fachkraefte-statistik/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/von-der-leyen-ukrainische-kriegsfluechtlinge/"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
           "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -388,18 +430,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 8,
       "sample_titles": [
-        "Geflohen in Traunstein, gefasst in Gräfelfing: Geflüchteter Häftling schafft über Nacht 120 Kilometer",
-        "Urteil in Vereinigten Staaten: Oberste Richter weisen Trump in die Schranken",
         "Caritas zu Flüchtlingspolitik: „Das ist inakzeptabel“",
-        "Abschiebung von Flüchtlingen: Und eines Morgens stehen Polizisten am Bett"
+        "Abschiebung von Flüchtlingen: Und eines Morgens stehen Polizisten am Bett",
+        "Migrationspolitik: Ein Ort für Menschen, die schnell wieder wegsollen",
+        "Podcast: „Auf den Punkt“: EU-Asylregeln: Was sich in Deutschland ändert"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/bayern/traunstein-graefelfing-haeftling-flucht-fahndung-li.3508553",
-        "https://www.sueddeutsche.de/politik/us-gericht-staatsbuergerschaft-usa-kinder-li.3503888",
         "https://www.sueddeutsche.de/politik/familiennachzug-ausgesetzt-haertefallregelung-kritik-caritasverband-li.3502739",
-        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/unterhaching-abschiebung-familie-afghanistan-bulgarien-li.3502737"
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/unterhaching-abschiebung-familie-afghanistan-bulgarien-li.3502737",
+        "https://www.sueddeutsche.de/politik/aussengrenzeinrichtung-ber-dobrindt-wilke-geas-li.3497678",
+        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-asyl-flucht-deutschland-li.3497814"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -417,84 +459,20 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "DER ANDERE BLICK - Berlin kann die Welt nicht ordnen. Das eigene Land aber schon",
-        "Die EU-Staaten wollen mehr Afghanen abschieben. Was erwartet die Rückkehrer in ihrer Heimat?",
-        "«Kein Schwimmen, nur schauen!»: Wie Migranten mit Gefahren am Wasser vertraut gemacht werden",
-        "Mitte- und FDP-Ständeräte erhöhen den Druck auf Bundesrat Jans – und wollen das Asylsystem teilweise umbauen"
-      ],
-      "urls": [
-        "https://www.nzz.ch/der-andere-blick/die-welt-kann-berlin-nicht-ordnen-deutschland-schon-ld.10013390",
-        "https://www.nzz.ch/international/die-eu-staaten-wollen-mehr-afghanen-abschieben-was-erwartet-die-rueckkehrer-in-ihrer-heimat-ld.10013063",
-        "https://www.nzz.ch/zuerich/bade-praevention-fuer-migranten-gefahren-in-der-limmat-vermeiden-ld.1898472",
-        "https://www.nzz.ch/schweiz/mitte-und-fdp-staenderaete-erhoehen-den-druck-auf-bundesrat-jans-und-wollen-das-asylsystem-teilweise-umbauen-ld.10012048"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 10,
-      "sample_titles": [
-        "EU will Flucht für wehrfähige Ukrainer erschweren",
-        "EU und Taliban führen Gespräche auf \"technischer Ebene\"",
-        "Hunderttausende Rückkehrer verschärfen Not in Afghanistan",
-        "Dobrindt zum Start des EU-Asylsystems GEAS"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/ausland/ukraine-wehrfaehige-maenner-schutzstatus-100.html",
-        "https://www.zdfheute.de/politik/ausland/eu-taliban-gespraeche-kritik-100.html",
-        "https://www.zdfheute.de/politik/ausland/iran-afghanistan-fluechtlinge-abschiebung-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5209527"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "Studie: Fachkräfte-Potenzial von Migranten oft ungenutzt",
         "Deutschland beschleunigt Abschiebungen nach Afghanistan",
-        "News kompakt: Papst benennt \"Remigration\" als unchristlich",
-        "EU macht Weg frei für Abschiebezentren in Drittstaaten"
+        "News kompakt: Papst benennt \"Remigration\" als unchristlich"
       ],
       "urls": [
         "https://www.dw.com/de/studie-fachkräfte-potenzial-von-migranten-oft-ungenutzt/a-77798488?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/deutschland-beschleunigt-abschiebungen-nach-afghanistan/a-77645904?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/news-kompakt-papst-benennt-remigration-als-unchristlich/a-77584421?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/eu-macht-weg-frei-für-abschiebezentren-in-drittstaaten/a-77386464?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/news-kompakt-papst-benennt-remigration-als-unchristlich/a-77584421?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -508,26 +486,19 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
-        "Die „edle Lüge“ vom Fachkräfte-Import",
         "Asylbewerber: 6,7 Milliarden Euro für den „angemessenen Lebensstandard“",
-        "Zuwanderung halbiert? Framing bei deutschen Medien",
-        "Warum die Türkeistämmigen die größten Kritiker illegaler Migranten sind"
+        "Warum die Türkeistämmigen die größten Kritiker illegaler Migranten sind",
+        "8.000 Euro für Syrer? Dobrindts Rückkehrprämie existiert längst"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/die_edle_luege_vom_fachkraefte_import",
         "https://www.achgut.com/artikel/asylbewerber_67_milliarden_euro_fuer_den_angemessenen_lebensstandard",
-        "https://www.achgut.com/artikel/zuwanderung_halbiert_framing_bei_deutschen_medien",
-        "https://www.achgut.com/artikel/warum_die_tuerkeistaemmigen_die_groessten_kritiker_illegaler_migranten_sind"
+        "https://www.achgut.com/artikel/warum_die_tuerkeistaemmigen_die_groessten_kritiker_illegaler_migranten_sind",
+        "https://www.achgut.com/artikel/8.000_euro_fuer_syrer_dobrindts_rueckkehrpraemie_existiert_laengst"
       ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "cicero": {
       "source_id": "cicero",
@@ -547,16 +518,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 83,
-    "far-right": 38,
-    "conservative-liberal": 38,
-    "left": 17,
+    "neutral": 44,
+    "far-right": 35,
+    "conservative-liberal": 44,
+    "right-conservative": 82,
+    "left": 20,
     "left-liberal": 55,
-    "neutral": 41,
     "economic-liberal": 10,
-    "populist-mixed": 15
+    "populist-mixed": 10
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Migration und Asylpolitik zeigt sich eine breite Übereinstimmung darin, dass die Integration von Geflüchteten und Migranten eine zentrale Herausforderung darstellt, die durch gezielte Maßnahmen und Investitionen in die Bildung und Ausbildung von Zuwanderern angegangen werden muss, um deren Fachkräftepotenzial zu nutzen und den demografischen Wandel in Deutschland zu bewältigen. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Asylverfahren zu beschleunigen und die Abschiebungen von abgelehnten Asylbewerbern zu erleichtern, um die öffentliche Sicherheit und Ordnung zu gewährleisten. Eine weitere Gemeinsamkeit besteht in der Kritik an den bestehenden Grenzkontrollen und Asylregeln, die von vielen Medien als unzureichend oder rechtswidrig angesehen werden, was zu Forderungen nach einer Reform der Asylpolitik und einer Stärkung der europäischen Zusammenarbeit in diesem Bereich führt.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Migration und Asylpolitik zeigt sich eine grundlegende Konfliktlinie zwischen einer eher restriktiven und einer offenen Haltung gegenüber Einwanderung und Asyl, wobei die erstere oft von konservativen und rechten Medien vertreten wird, die die Notwendigkeit strengerer Grenzkontrollen und einer Begrenzung der Zuwanderung betonen, während die letztere von linken und liberalen Medien vertreten wird, die die Bedeutung einer humanitären Asylpolitik und der Integration von Migranten hervorheben. Eine weitere Spannungslinie besteht zwischen der wirtschaftlichen Perspektive, die den Nutzen der Zuwanderung für den deutschen Arbeitsmarkt betont, und der sozialen und kulturellen Perspektive, die die Herausforderungen und Konflikte der Integration in den Vordergrund stellt. Diese Konfliktlinien und Spannungsfelder spiegeln sich in den unterschiedlichen medialen Darstellungen von Ereignissen wie Abschiebungen, Grenzkontrollen und Integrationsbemühungen wider und prägen den Diskurs über Migration und Asylpolitik in Deutschland.",
-  "cached_at": "2026-07-04T07:11:54.350902"
+  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Migration und Asylpolitik zeigt sich eine breite Übereinstimmung darin, dass die Integration von Migranten und Geflüchteten eine zentrale Herausforderung darstellt, die durch gezielte Maßnahmen und Investitionen in Bildung und Ausbildung angegangen werden muss. Darüber hinaus wird in vielen Medien die Notwendigkeit betont, die Asylverfahren zu beschleunigen und die Abschiebungen von abgelehnten Asylbewerbern zu erleichtern, um die Effizienz des Systems zu verbessern. Eine weitere Gemeinsamkeit besteht in der Kritik an den bestehenden Grenzkontrollen und der Forderung nach einer effektiveren Steuerung der Migration, um die Sicherheit und Ordnung in Deutschland zu gewährleisten.",
+  "controversial_points": "Im deutschen Mediendiskurs zu Migration und Asylpolitik zeigt sich eine tiefe Konfliktlinie zwischen denjenigen, die eine restriktive Migrationspolitik und eine schnelle Abschiebung von Asylbewerbern fordern, und denjenigen, die eine integrative und humanitäre Politik befürworten und die Rechte von Flüchtlingen und Migranten in den Vordergrund stellen. Diese Konfliktlinie spiegelt sich in den unterschiedlichen medialen Darstellungen von Ereignissen wie Abschiebungen, Grenzkontrollen und Integrationsbemühungen wider, wobei rechte und konservative Medien oft eine bedrohliche und überlastete Gesellschaft skizzieren, während linke und liberale Medien die Notwendigkeit von humanitären Lösungen und einer offenen Gesellschaft betonen. Die Diskussion um die Migration und Asylpolitik in Deutschland ist auch von einem Konflikt zwischen wirtschaftlichen und sozialen Interessen geprägt, da einige Stimmen die wirtschaftlichen Vorteile der Zuwanderung hervorheben, während andere die sozialen und kulturellen Auswirkungen der Migration auf die deutsche Gesellschaft thematisieren.",
+  "cached_at": "2026-07-05T07:36:19.740552"
 }

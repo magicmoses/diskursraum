@@ -1,72 +1,39 @@
 {
   "topic_id": "work_transition",
   "topic_label": "Arbeit im Wandel",
-  "article_count": 469,
+  "article_count": 439,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 70,
+      "article_count": 64,
       "sample_titles": [
+        "Warnstreiks im Einzelhandel: Beschäftigte von Kaufland, H&M, IKEA und Co. legen Arbeit nieder",
         "Saarbahn-Streik: Arbeitgeber kündigen weitere Gespräche mit der GDL an",
-        "Was es mit der Krankschreibung ab Tag 1 auf sich hat",
         "Streit um Krankschreibung: Ärzte warnen, Arbeitgeber begrüßen schärfere Regeln",
         "Mercedes-Beschäftigte protestieren gegen Sparpläne"
       ],
       "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/warnstreik-einzelhandel-verdi-tarifverhandlung-100.html",
         "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/tarifkonflikt_saarbahn_will_verhandeln_100.html",
-        "https://www.rbb24.de/wirtschaft/beitrag/2026/07/reform-krankschreibung-arbeitsunfaehigkeitsbescheinigung-koaltition.html",
         "https://www.hessenschau.de/gesellschaft/streit-um-krankschreibung-aerzte-warnen-arbeitgeber-begruessen-schaerfere-regeln-v1,krankschreibungen-arzt-mehransturm-100.html",
         "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-proteste-autobauer-ig-metall-102.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "desire",
-          "count": 4
+          "emotion": "annoyance",
+          "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "desire",
+          "count": 3
         },
         {
           "emotion": "curiosity",
           "count": 2
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 55,
-      "sample_titles": [
-        "Junge, Alte, Familien, Arbeitgeber – Die Gewinner und die Verlierer des Reformpakets",
-        "„Man könnte die Schwelle für den Arbeitnehmerbegriff sehr viel höher setzen“",
-        "Verdi kündigt Warnstreiks im Handel an – Tausende sollen am Freitag ihre Arbeit niederlegen",
-        "Unionsfraktionschefs der Länder kritisieren Warkens Reformen – Streit um Bürgergeldempfänger"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/plus6a47c148ad32e994f875a468/reformpaket-junge-alte-familien-arbeitgeber-die-gewinner-und-die-verlierer-des-reformpakets.html",
-        "https://www.welt.de/videos/video6a47ab6b80a38cbeb7ec198a/minijob-debatte-man-koennte-die-schwelle-fuer-den-arbeitnehmerbegriff-sehr-viel-hoeher-setzen.html",
-        "https://www.welt.de/wirtschaft/article6a469f9017e758bbd23e21a4/verdi-kuendigt-warnstreiks-im-handel-an-tausende-sollen-am-freitag-ihre-arbeit-niederlegen.html",
-        "https://www.welt.de/politik/deutschland/article6a45f0f11f5535004df26a8b/gvk-und-pflege-unionsfraktionschefs-der-laender-kritisieren-warkens-reformen-streit-um-buergergeldempfaenger.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "desire",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 3
         }
       ]
     },
@@ -74,65 +41,32 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 55,
+      "article_count": 52,
       "sample_titles": [
-        "Kanzleramtschef im Frühstart: Frei zu Attestpflicht ab erstem Tag: \"Das ist nicht zu viel verlangt\"",
+        "DGB-Umfrage zur Reformdebatte: Jeder Vierte rechnet mit Arbeitsunfähigkeit vor Rentenbeginn",
+        "dm-Chef im Interview: Was taugen die Reformpläne der Koalition, Herr Werner?",
         "Fragen aus dem Arbeitsrecht: Krankschreibung ab Tag eins: Muss ich wirklich sofort zum Arzt?",
-        "\"Zweiter Teil im Herbst\": Bei Arbeitszeit und Erbschaftsteuer will Schwarz-Rot noch nachlegen",
-        "Mehr Befristung, weniger Schutz: So will die Koalition auf dem Arbeitsmarkt \"die Fesseln lösen\""
+        "Kanzleramtschef im Frühstart: Frei zu Attestpflicht ab erstem Tag: \"Das ist nicht zu viel verlangt\""
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Frei-zu-Attestpflicht-ab-erstem-Tag-Das-ist-nicht-zu-viel-verlangt-id31043857.html",
+        "https://www.n-tv.de/politik/Jeder-Vierte-rechnet-mit-Arbeitsunfaehigkeit-vor-Rentenbeginn-id31048792.html",
+        "https://www.n-tv.de/wirtschaft/Was-taugen-die-Reformplaene-der-Koalition-Herr-Werner-id31045164.html",
         "https://www.n-tv.de/ratgeber/Krankschreibung-ab-Tag-eins-Muss-ich-wirklich-sofort-zum-Arzt-id31044959.html",
-        "https://www.n-tv.de/politik/Bei-Arbeitszeit-und-Erbschaftsteuer-will-Schwarz-Rot-noch-nachlegen-id31042702.html",
-        "https://www.n-tv.de/wirtschaft/So-will-die-Koalition-auf-dem-Arbeitsmarkt-die-Fesseln-loesen-id31040331.html"
+        "https://www.n-tv.de/politik/Frei-zu-Attestpflicht-ab-erstem-Tag-Das-ist-nicht-zu-viel-verlangt-id31043857.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 8
+          "count": 6
         },
         {
           "emotion": "curiosity",
           "count": 4
         },
         {
-          "emotion": "approval",
-          "count": 2
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 47,
-      "sample_titles": [
-        "Tarife: Hunderte Beschäftigte im Handel protestieren für mehr Geld",
-        "Stuttgarter Autobauer: Zehntausende protestieren gegen Sparkurs von Mercedes-Benz",
-        "Arbeitsmarkt: Erschwerte Krankmeldungen - vieles noch unklar",
-        "Kundgebungen gegen Sparpläne bei Mercedes: 33.000 Teilnehmer laut IG Metall"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarife--hunderte-beschaeftigte-im-handel-protestieren-fuer-mehr-geld-37643556.html",
-        "https://www.stern.de/wirtschaft/news/stuttgarter-autobauer--zehntausende-protestieren-gegen-sparkurs-von-mercedes-benz-37641382.html",
-        "https://www.stern.de/wirtschaft/news/arbeitsmarkt--erschwerte-krankmeldungen---vieles-noch-unklar-37641288.html",
-        "https://www.stern.de/news/kundgebungen-gegen-sparplaene-bei-mercedes--33-000-teilnehmer-laut-ig-metall-37644080.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
+          "emotion": "confusion",
+          "count": 3
         }
       ]
     },
@@ -140,7 +74,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 47,
+      "article_count": 49,
       "sample_titles": [
         "Editorial: Deutschland lässt sich nicht aus dem Homeoffice erneuern",
         "Bert Rürup: Reform mit Nebenwirkungen – das Ende der Minijobs hat auch Verlierer",
@@ -160,12 +94,45 @@
           "count": 6
         },
         {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
           "emotion": "excitement",
           "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 48,
+      "sample_titles": [
+        "Vier von zehn Arbeitnehmern glauben, dass sie in ihrem Job nicht bis zur Rente durchhalten",
+        "Junge, Alte, Familien, Arbeitgeber – Die Gewinner und die Verlierer des Reformpakets",
+        "Ab Tag 1 zum Arzt? Die Wahrheit über die neuen Regeln bei der Krankschreibung",
+        "„Man könnte die Schwelle für den Arbeitnehmerbegriff sehr viel höher setzen“"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a4999b5c7a2bdb6a363955a/dgb-studie-vier-von-zehn-arbeitnehmern-glauben-dass-sie-ihren-job-nicht-bis-zur-rente-durchhalten.html",
+        "https://www.welt.de/wirtschaft/plus6a47c148ad32e994f875a468/reformpaket-junge-alte-familien-arbeitgeber-die-gewinner-und-die-verlierer-des-reformpakets.html",
+        "https://www.welt.de/wirtschaft/plus6a47a88e0b14ed961bb50a72/krankschreibung-ab-tag-1-zum-arzt-die-wahrheit-ueber-die-neuen-regeln-wirklich.html",
+        "https://www.welt.de/videos/video6a47ab6b80a38cbeb7ec198a/minijob-debatte-man-koennte-die-schwelle-fuer-den-arbeitnehmerbegriff-sehr-viel-hoeher-setzen.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 2
         }
       ]
     },
@@ -175,29 +142,29 @@
       "bias": "conservative-liberal",
       "article_count": 46,
       "sample_titles": [
+        "DGB-Studie: Fast die Hälfte der Beschäftigten zweifelt am Durchhalten bis zur Rente",
         "Mercedes-Sparprogramm: Die unausweichliche Provokation",
         "Proteste gegen Sparprogramm: Die Wut der Mercedes-Werker: „Ola raus!“",
-        "Hohe Arbeitslosigkeit: Ein Schwimmbad als Arbeitsbeschaffungsmaßnahme",
         "Arbeitsmarkt: Mehr Wohlstand durch klügeren Kündigungsschutz"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/fast-die-haelfte-der-beschaeftigten-zweifelt-am-durchhalten-bis-zur-rente-accg-200998535.html",
         "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-die-unausweichliche-provokation-200995501.html",
         "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-benz-ola-kaellenius-und-die-wut-der-werker-200995368.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/100-jahre-waldschwimmbad-neu-isenburg-als-der-eintritt-noch-25-pfennig-kostete-accg-200952797.html",
         "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/dominig-groll-mehr-wohlstand-durch-kluegeren-kuendigungsschutz-200978354.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 7
+          "count": 6
         },
         {
           "emotion": "realization",
           "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "curiosity",
           "count": 2
         }
       ]
@@ -208,16 +175,16 @@
       "bias": "left-liberal",
       "article_count": 43,
       "sample_titles": [
+        "40 Prozent der Beschäftigten zweifeln am Durchhalten bis zur Rente",
+        "Reformpaket: Was eine längere Befristung für Berufseinsteiger bedeutet",
         "Volkswagen und Mercedes: Autobauer stellen Werke und Arbeitszeit infrage",
-        "Streik: Ver.di ruft zu bundesweitem Ausstand im Handel auf",
-        "Steuern, Arbeitsmarkt, Bürokratieabbau: Das steht im Koalitionspapier – der Überblick",
-        "Kündigungsschutz, Befristungen, Abfindungen: Koalition lockert – hilft das der Wirtschaft wirklich?"
+        "Koalition will Reformpaket nicht zerreden lassen"
       ],
       "urls": [
+        "https://www.spiegel.de/politik/40-prozent-der-beschaeftigten-zweifeln-am-durchhalten-bis-zur-rente-a-ba462a1d-588c-4bb8-b384-d62fbe2548b2#ref=rss",
+        "https://www.spiegel.de/start/reformpaket-was-eine-laengere-befristung-fuer-berufseinsteiger-bedeutet-a-980f0b4a-46ab-45f8-ae72-e8153e0e284f#ref=rss",
         "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-und-mercedes-autobauer-stellen-werke-und-arbeitszeit-infrage-a-b57f6f87-afcf-45f3-adbe-de45e024590c#ref=rss",
-        "https://www.spiegel.de/wirtschaft/service/streik-ver-di-ruft-zu-bundesweitem-ausstand-im-handel-auf-a-50467697-6bf9-4915-8509-f21841017151#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/steuern-arbeitsmarkt-buerokratieabbau-das-steht-im-reformpaket-der-koalition-a-d554f069-2200-4722-8219-a1fe258ee034#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/kuendigungsschutz-befristungen-abfindungen-koalition-lockert-hilft-das-der-wirtschaft-wirklich-a-fda34f2e-899a-4fb1-9d0c-3974e4f4227a#ref=rss"
+        "https://www.spiegel.de/politik/koalition-will-reformpaket-nicht-zerreden-lassen-a-ae4b016c-396c-47bb-a9c1-069accb72486#ref=rss"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -230,7 +197,40 @@
           "count": 3
         },
         {
-          "emotion": "curiosity",
+          "emotion": "disapproval",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 41,
+      "sample_titles": [
+        "Stuttgarter Autobauer: Zehntausende protestieren gegen Sparkurs von Mercedes-Benz",
+        "Tarife: Hunderte Beschäftigte im Handel protestieren für mehr Geld",
+        "Kundgebungen gegen Sparpläne bei Mercedes: 33.000 Teilnehmer laut IG Metall",
+        "Arbeitsmarkt: Erschwerte Krankmeldungen - vieles noch unklar"
+      ],
+      "urls": [
+        "https://www.stern.de/wirtschaft/news/stuttgarter-autobauer--zehntausende-protestieren-gegen-sparkurs-von-mercedes-benz-37641382.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarife--hunderte-beschaeftigte-im-handel-protestieren-fuer-mehr-geld-37643556.html",
+        "https://www.stern.de/news/kundgebungen-gegen-sparplaene-bei-mercedes--33-000-teilnehmer-laut-ig-metall-37644080.html",
+        "https://www.stern.de/wirtschaft/news/arbeitsmarkt--erschwerte-krankmeldungen---vieles-noch-unklar-37641288.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -239,31 +239,64 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 24,
+      "article_count": 21,
       "sample_titles": [
         "Schwarz-rote Steuerentlastung - Das hat die Regierung wirklich mit IHREM Lohn vor",
         "Am Freitag - Verdi ruft zu Warnstreiks im Handel auf",
-        "Kommentar zum Bürgergeld-Aus - Holt mit der neuen Stütze Vertrauen zurück!",
-        "Neue Grundsicherung startet heute - Wofür gibt es welche Strafe?"
+        "Neue Grundsicherung startet heute - Wofür gibt es welche Strafe?",
+        "Neuer CDU-Vorstoß - Weniger Bürgergeld, dafür Deutschlandticket"
       ],
       "urls": [
         "https://www.bild.de/politik/inland/steuersenkung-das-hat-die-regierung-wirklich-mit-ihrem-lohn-vor-6a477055ad32e994f8759b0d",
         "https://www.bild.de/geld/wirtschaft/am-freitag-verdi-ruft-zu-warnstreiks-im-handel-auf-6a4664512a7c6edbda63c84e",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-neue-grundsicherung-muss-vertrauen-schaffen-6a4530903bafc712e6b21dc6",
-        "https://www.bild.de/politik/inland/neue-grundsicherung-startet-heute-fuer-was-gibt-es-welche-strafe-6a43d5eb30b768424cc6264e"
+        "https://www.bild.de/politik/inland/neue-grundsicherung-startet-heute-fuer-was-gibt-es-welche-strafe-6a43d5eb30b768424cc6264e",
+        "https://www.bild.de/politik/inland/deutschlandticket-statt-bargeld-cdu-will-bei-buergergeld-kuerzen-6a43d43bc04ea97a4e502ed6"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
         {
           "emotion": "disapproval",
           "count": 1
         },
         {
           "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 18,
+      "sample_titles": [
+        "DIW: Neue Krankschreibe-Regeln könnten Fehlzeiten erhöhen",
+        "Aufreger Krankschreibung: Wie praxistauglich ist die Änderung?",
+        "Was sich bei der Krankschreibung ändern soll",
+        "Warum Eingewanderte Deutschland wieder verlassen"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/deutschland/krankschreibungen-diw-kritik-dgb-videosprechstunden-100.html",
+        "https://www.zdfheute.de/politik/krankschreibung-reformpaerzte-praxen-unternehmer-kritik-alltag-100.html",
+        "https://www.zdfheute.de/politik/deutschland/krankschreibung-schwarz-rote-koalition-reform-aerzte-attest-arbeitsunfaehigkeitsbescheinigung-100.html",
+        "https://www.phoenix.de/wer-bleibt-wer-geht-a-5214270.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -272,7 +305,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 19,
+      "article_count": 17,
       "sample_titles": [
         "Koalition beschließt Reformpaket: Symbolik super, Wirkung ungewiss",
         "Wie sich Arbeitskampf ändert: Deutsche streiken seltener und kürzer",
@@ -301,39 +334,6 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 18,
-      "sample_titles": [
-        "Aufreger Krankschreibung: Wie praxistauglich ist die Änderung?",
-        "Was sich bei der Krankschreibung ändern soll",
-        "Warum Eingewanderte Deutschland wieder verlassen",
-        "Arbeitslosigkeit in Deutschland stagniert im Juni weitgehend"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/krankschreibung-reformpaerzte-praxen-unternehmer-kritik-alltag-100.html",
-        "https://www.zdfheute.de/politik/deutschland/krankschreibung-schwarz-rote-koalition-reform-aerzte-attest-arbeitsunfaehigkeitsbescheinigung-100.html",
-        "https://www.phoenix.de/wer-bleibt-wer-geht-a-5214270.html",
-        "https://www.zdfheute.de/wirtschaft/arbeitslose-arbeitsmarkt-juni-deutschland-100.html"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
@@ -351,10 +351,10 @@
         "https://www.zeit.de/arbeit/2026-06/arbeitsmarkt-deutschland-juni-2024-arbeitslosigkeit-buergergeld-gxe",
         "https://www.zeit.de/wirtschaft/2026-06/dgb-rentenkommission-rentenreform-vorschlag-yasmin-fahimi"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "disgust",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "disgust",
           "count": 2
         },
         {
@@ -362,7 +362,7 @@
           "count": 1
         },
         {
-          "emotion": "desire",
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -371,18 +371,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 11,
+      "article_count": 10,
       "sample_titles": [
         "Andrea Nahles: „Das könnte echt ein großer Wurf werden für den deutschen Arbeitsmarkt“",
+        "Andrea Nahles: „Das könnte echt ein großer Wurf werden für den deutschen Arbeitsmarkt“",
         "Arbeitsmarkt: Bürokratie verschreckt Fachkräfte",
-        "Neue Zahlen aus Nürnberg: Keine Belebung am bayerischen Arbeitsmarkt",
-        "Alterssicherung: Schwarz-grüner Rentenvorstoß im Bundestag"
+        "Neue Zahlen aus Nürnberg: Keine Belebung am bayerischen Arbeitsmarkt"
       ],
       "urls": [
         "https://www.sueddeutsche.de/politik/reformpaket-bundesregierung-folgen-arbeitsmarkt-reaktionen-nahles-dgb-li.3509304",
+        "https://www.sueddeutsche.de/politik/reformpaket-koalition-arbeitsmarkt-reaktionen-nahles-dgb-li.3509304",
         "https://www.sueddeutsche.de/wirtschaft/fachkraefte-buerokratie-abwanderung-zuwanderung-li.3508593",
-        "https://www.sueddeutsche.de/bayern/bayern-arbeitslosigkeit-arbeitsmarktzahlen-beschaeftigung-juni-li.3507940",
-        "https://www.sueddeutsche.de/politik/rente-reform-schwarz-gruen-cdu-bundestag-li.3500449"
+        "https://www.sueddeutsche.de/bayern/bayern-arbeitslosigkeit-arbeitsmarktzahlen-beschaeftigung-juni-li.3507940"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -404,54 +404,21 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 9,
+      "article_count": 7,
       "sample_titles": [
-        "Razzia des Jobcenters liefert unerfreuliche Fakten",
         "Linnemann: SPD-Entwurf zur Arbeitszeitflexibiliserung keine Grundlage für die weitere Koalitionsarbeit",
-        "DGB präsentiert Steuerkonzept: Neiddebatte sticht Arbeitnehmervertretung",
-        "ABB-Konzernchef warnt: Europa droht Massen-Arbeitslosigkeit"
+        "Zuwanderung von „Fachkräften“ steigt stark: Die Methode Stapelmigration",
+        "ABB-Konzernchef warnt: Europa droht Massen-Arbeitslosigkeit",
+        "Jobcenter Bremen feuert Bürgergeld-Kritiker nach ZDF-Auftritt"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/razzia-jobcenter-berlin-neukoelln/",
         "https://www.tichyseinblick.de/meinungen/koalition-streit-linnemann-arbeitszeit-flexibilisierung/",
-        "https://www.tichyseinblick.de/wirtschaft/dgb-steuerkonzept-neiddebatte/",
-        "https://www.tichyseinblick.de/wirtschaft/abb-europa-droht-massen-arbeitslosigkeit/"
+        "https://www.tichyseinblick.de/daili-es-sentials/zuwanderung-fachkraefte-statistik/",
+        "https://www.tichyseinblick.de/wirtschaft/abb-europa-droht-massen-arbeitslosigkeit/",
+        "https://www.tichyseinblick.de/feuilleton/medien/jobcenter-bremen-mitarbeiter-zdf/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Frauenstreik: Tausende demonstrieren für Gleichberechtigung – und feiern nebenbei das 10-Millionen-Nein",
-        "DER ANDERE BLICK - Deutsches Bürgergeld: Der Rauswurf eines Kritikers ist die falsche Reaktion",
-        "Was gilt denn nun, GAV oder Mindestlohn? Das Parlament ist für den GAV. Doch nun will der Gewerkschaftsbund das Referendum ergreifen",
-        "Die EU will mehr Lohngleichheit zwischen Mann und Frau, doch die Mitgliedsländer spielen nicht mit"
-      ],
-      "urls": [
-        "https://www.nzz.ch/zuerich/frauenstreik-tausende-demonstrieren-fuer-gleichberechtigung-und-feiern-nebenbei-das-10-millionen-nein-ld.10011276",
-        "https://www.nzz.ch/der-andere-blick/das-jobcenter-in-bremen-zeigt-einen-fragwuerdigen-umgang-mit-kritik-ld.10010429",
-        "https://www.nzz.ch/schweiz/was-gilt-denn-nun-gav-oder-mindestlohn-das-parlament-ist-fuer-den-gav-doch-nun-will-der-gewerkschaftsbund-das-referendum-ergreifen-ld.10010040",
-        "https://www.nzz.ch/wirtschaft/die-eu-will-mehr-lohngleichheit-zwischen-mann-und-frau-doch-die-mitgliedslaender-spielen-nicht-mit-ld.10009838"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
@@ -478,6 +445,33 @@
         },
         {
           "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "DER ANDERE BLICK - Deutsches Bürgergeld: Der Rauswurf eines Kritikers ist die falsche Reaktion",
+        "Die EU will mehr Lohngleichheit zwischen Mann und Frau, doch die Mitgliedsländer spielen nicht mit",
+        "INTERVIEW - Weniger Lifestyle-Teilzeit, aber trotzdem Frühpensionierungen? «Das ist kein Widerspruch», sagt der oberste Arbeitgeber. «Wir als Gesellschaft müssen länger arbeiten»"
+      ],
+      "urls": [
+        "https://www.nzz.ch/der-andere-blick/das-jobcenter-in-bremen-zeigt-einen-fragwuerdigen-umgang-mit-kritik-ld.10010429",
+        "https://www.nzz.ch/wirtschaft/die-eu-will-mehr-lohngleichheit-zwischen-mann-und-frau-doch-die-mitgliedslaender-spielen-nicht-mit-ld.10009838",
+        "https://www.nzz.ch/schweiz/weniger-lifestyle-teilzeit-aber-trotzdem-fruehpensionierungen-das-ist-kein-widerspruch-sagt-der-oberste-arbeitgeber-wir-als-gesellschaft-muessen-laenger-arbeiten-ld.10008059"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -531,16 +525,16 @@
     }
   },
   "bias_distribution": {
-    "neutral": 89,
-    "populist-mixed": 24,
-    "right-conservative": 110,
-    "conservative-liberal": 52,
-    "left-liberal": 114,
-    "economic-liberal": 47,
-    "left": 19,
-    "far-right": 14
+    "right-conservative": 100,
+    "conservative-liberal": 50,
+    "left-liberal": 107,
+    "neutral": 83,
+    "populist-mixed": 21,
+    "economic-liberal": 49,
+    "left": 17,
+    "far-right": 12
   },
-  "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im Diskurs zur Zukunft der Arbeit in Deutschland\n\nDer deutsche Mediendiskurs teilt über alle politischen Lager hinweg die Überzeugung, dass strukturelle Arbeitsmarktreformen notwendig sind, um Deutschlands wirtschaftliche Wettbewerbsfähigkeit zu sichern — auch linke Medien kritisieren die Reformmaßnahmen primär als unzureichend, nicht als grundsätzlich falsch, und akzeptieren damit die Prämisse, dass der Status quo unhaltbar ist. Gleichzeitig besteht breite Übereinstimmung darin, dass der Fachkräftemangel ein zentrales strukturelles Problem darstellt, wobei auch sozialpolitisch engagierte Medien nicht ernsthaft gegen eine verstärkte Arbeitskräfteintegration argumentieren, sondern allenfalls über die Verteilungswirkungen debattieren. Drittens wird die Erosion von klassischen Tarifstrukturen (Minijobs, Befristungen, flexible Arbeitszeiten) von Medien aller Ausrichtungen als faktische Realität akzeptiert und diskutiert — der Streit entzündet sich nicht an deren Existenz, sondern an der normativen Frage, ob diese Flexibilisierungen zu begrüßen oder zu kritisieren sind.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zur Zukunft der Arbeit\n\nDer zentrale Konflikt verläuft zwischen zwei unvereinbaren Diagnosen der deutschen Wirtschaftslage: Während konservativ-liberale und wirtschaftsliberale Medien Arbeitsmarktregulierungen als Wachstumsbremse pathologisieren und deren Lockerung als notwendige \"Fesselsprengung\" darstellen, interpretieren linke und gewerkschaftsnahe Medien identische Maßnahmen als Abbau von Arbeitnehmerschutz und Verschiebung von Risiken auf Beschäftigte — beide Seiten sprechen also von denselben Reformen, aber mit völlig gegensätzlichen Kausalitäten (Reform = Chance vs. Reform = Gefährdung). Das zweite strukturelle Spannungsfeld liegt in der Frage, wer das Subjekt von \"Arbeit in Deutschland\" ist: Die wirtschaftsliberale Perspektive behandelt Fachkräftemangel und Produktivität als primäre Probleme, für die Regulierung hinderlich ist, während linke Positionen von Beschäftigten als Schutzsubjekten ausgehen, deren Handlungsfähigkeit durch Sanktionsdruck und Prekarisierung unterminiert wird — es geht also um konkurrierende Menschenbilder (Arbeitskraft als Produktionsfaktor vs. Mensch mit Würdeanspruch). Ein dritter, oft übersehener Konflikt betrifft die Funktionalität der Protestkultur selbst: Während rechts-konservative Medien Massenproteste bei Mercedes als berechtigte Reaktion auf \"unausweichliche\" Marktlogik darstellen, nutzen linke Medien dieselben Proteste, um Gewerkschaftsmacht symbolisch zu restituieren — der Disput ist also nicht nur über Arbeitsbedingungen, sondern über",
-  "cached_at": "2026-07-04T07:18:49.243926"
+  "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im deutschen Mediendiskurs zur Zukunft der Arbeit\n\nUnabhängig von politischer Ausrichtung dokumentiert der deutsche Mediendiskurs ein geteiltes Phänomen der Arbeitsunfähigkeit: Die DGB-Umfrage zum Durchhalten bis zur Rente wird von konservativen über liberale bis zu linken Medien aufgegriffen und als faktisches Problem dargestellt, das unabhängig von ideologischen Positionen zu Renteneintrittsalter oder Reformtempo existiert. Alle Medienlager thematisieren konkrete Arbeitskämpfe (Mercedes-Streiks, Warnstreiks im Einzelhandel, Tarifverhandlungen) mit faktischer Berichterstattung zur Mobilisierung und Größe von Protesten — hier gibt es keine grundsätzliche Disputabilität der Ereignisse, sondern nur unterschiedliche Deutungsrahmungen. Die Krankschreibungsreformen werden im gesamten Spektrum als praktisch relevante Veränderung mit umstrittener Wirkung behandelt: Während die Interpretation divergiert (Arbeitgebervorteil vs. Verschärfung der Arbeitnehmensituation), stimmt der Diskurs darin überein, dass diese Regeländerung unmittelbare Konsequenzen für den Arbeitsalltag hat und daher eine empirisch überprüfbare Streitfrage darstellt.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zur Zukunft der Arbeit\n\nDer fundamental auseinandergehende Konflikt zwischen „Arbeitsmarktflexibilisierung als Wachstumstreiber\" versus „Arbeitsschutz als Existenzsicherung\" zeigt sich darin, dass konservativ-liberale und ökonomisch-liberale Medien Reformen (flexiblere Befristung, gelockerte Kündigungsschutzregeln, Homeoffice-Kritik) als notwendige Strukturanpassungen zur Vermeidung von Massenarbeitslosigkeit und wirtschaftlichem Abstieg darstellen, während linke und linksgerichtete Medien dieselben Maßnahmen als Verschiebung von Risiken auf Arbeitnehmende kritisieren und die Unzulänglichkeit des Rentensystems als strukturelles Versprechen-Erfüllungs-Problem rahmen — eine Debatte, die nicht über Fakten entschieden werden kann, weil sie auf gegensätzlichen Annahmen über Kausalität (reagiert Wirtschaft auf Flexibilisierung?) und Verteilungsgerechtigkeit ruht.\n\nEin zweiter Konflikt betrifft die Deutung von Fachkräftemangel: Während wirtschaftsliberale und konservative Medien ihn als reales strukturelles Problem präsentieren, das durch (Zu-)Wanderung und Qualifizierung gelöst werden müsse, verweigern sich rechte und linke Medien dieser Problembestimmung durch Umrahmung in Lohndruckkonkurrenz bzw. „Stapelmigration\" oder durch Gegenerzählung eines künstlich erzeugten Mangels — wodurch nicht nur sachlich-empirische Fragen schweben, sondern die Frage selbst, wer in Deutschland wen als Arbeitskraft benötigt und anerkennt.\n\nDie dritte Trennlinie verläuft zwischen einer „",
+  "cached_at": "2026-07-05T07:45:27.137843"
 }

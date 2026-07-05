@@ -1,14 +1,14 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 305,
+  "article_count": 291,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 87,
+      "article_count": 88,
       "sample_titles": [
         "Mehr Abbrecher: Warum Jugendliche die Schule verlassen - und wie sie neu anfangen",
         "Hochschulabschluss mit Note 1,0: HfG-Student im Spektrum zeichnet Vans und Scheitel",
@@ -25,15 +25,15 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 6
+          "count": 7
+        },
+        {
+          "emotion": "curiosity",
+          "count": 5
         },
         {
           "emotion": "annoyance",
           "count": 5
-        },
-        {
-          "emotion": "confusion",
-          "count": 4
         }
       ]
     },
@@ -41,7 +41,7 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 55,
+      "article_count": 52,
       "sample_titles": [
         "Homeschooling im Ausland: Eine Mutter wird zur Lehrerin ihres eigenen Sohnes",
         "Botanik-Kolumne: Bildungsmisere auf dem Land",
@@ -62,43 +62,10 @@
         },
         {
           "emotion": "annoyance",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 26,
-      "sample_titles": [
-        "Stade: Bildungsgewerkschaft drängt nach Amoktat auf besseren Schutz für Helfer",
-        "Wie die »Azubis gegen Rechts« ihre Betriebe verändern wollen",
-        "Lernen in den Sommerferien: Was Grundschulkinder trotz Freizeit üben sollten",
-        "Kevelaer: Gruppenarbeit zu fiktivem Bordell – NRW-Schulministerium kritisiert Aufgabe als ungeeignet"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/justiz/stade-bildungsgewerkschaft-draengt-nach-amoktat-auf-besseren-schutz-fuer-helfer-a-eddccd1b-2d76-4256-b268-aa75c7819040#ref=rss",
-        "https://www.spiegel.de/start/wie-die-azubis-gegen-rechts-ihre-betriebe-veraendern-wollen-a-5b9e15f1-987b-4f81-a6bc-ed53b8234cc8#ref=rss",
-        "https://www.spiegel.de/familie/lernen-in-den-sommerferien-was-grundschulkinder-trotz-freizeit-ueben-sollten-a-6b2db5a1-8557-4c2b-88c9-5b6ff0b5ff43#ref=rss",
-        "https://www.spiegel.de/panorama/bildung/kevelaer-gruppenarbeit-zu-fiktivem-bordell-nrw-schulministerium-kritisiert-aufgabe-als-ungeeignet-a-813a31ba-6a9b-4d58-a210-f6c864b5e537#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "admiration",
           "count": 2
         }
       ]
@@ -107,31 +74,64 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 25,
+      "article_count": 24,
       "sample_titles": [
+        "Handy in der Schule: Ministerin plant Handyverbot bis Klasse 10 an Schulen",
         "Schulinfrastruktur: So viel Geld gibt es für Schullabore, Sporthallen und mehr",
         "Schulaufsicht: So kämpft die Waldorfschule Dachsberg um ihre Zukunft",
-        "Brücken, Schulen, Bahn: Fünf Jahre nach der Flut: Wie weit ist der Wiederaufbau?",
-        "Breitensport: NRW führt Zertifikat „Sportgrundschule“ ein"
+        "Brücken, Schulen, Bahn: Fünf Jahre nach der Flut: Wie weit ist der Wiederaufbau?"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/handy-in-der-schule--ministerin-plant-handyverbot-bis-klasse-10-an-schulen-37646970.html",
         "https://www.stern.de/gesellschaft/regional/thueringen/schulinfrastruktur--so-viel-geld-gibt-es-fuer-schullabore--sporthallen-und-mehr-37644006.html",
         "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/schulaufsicht--so-kaempft-die-waldorfschule-dachsberg-um-ihre-zukunft-37644056.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/bruecken--schulen--bahn--fuenf-jahre-nach-der-flut--wie-weit-ist-der-wiederaufbau--37635430.html",
-        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/breitensport--nrw-fuehrt-zertifikat--sportgrundschule--ein-37620056.html"
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/bruecken--schulen--bahn--fuenf-jahre-nach-der-flut--wie-weit-ist-der-wiederaufbau--37635430.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 3
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 23,
+      "sample_titles": [
+        "Stade: Bildungsgewerkschaft drängt nach Amoktat auf besseren Schutz für Helfer",
+        "»Demokratie leben«: Karin Prien will bei Demokratieprojekten Verfassungsschutz einbeziehen",
+        "Azubis aus Vietnam in Deutschland: Wie junge Menschen ausgebeutet werden",
+        "Wie die »Azubis gegen Rechts« ihre Betriebe verändern wollen"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/justiz/stade-bildungsgewerkschaft-draengt-nach-amoktat-auf-besseren-schutz-fuer-helfer-a-eddccd1b-2d76-4256-b268-aa75c7819040#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/demokratie-leben-karin-prien-will-bei-demokratieprojekten-verfassungsschutz-einbeziehen-a-faa9bf28-c1d0-4a0b-a110-4a086a283efa#ref=rss",
+        "https://www.spiegel.de/panorama/gesellschaft/azubis-aus-vietnam-in-deutschland-wie-junge-menschen-ausgebeutet-werden-a-2fd063dc-7a1b-4ac5-98d0-33a9e6970a72#ref=rss",
+        "https://www.spiegel.de/start/wie-die-azubis-gegen-rechts-ihre-betriebe-veraendern-wollen-a-5b9e15f1-987b-4f81-a6bc-ed53b8234cc8#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
           "count": 2
         },
         {
           "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -140,7 +140,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 22,
       "sample_titles": [
         "Brücken, Schulen, Bahn: Fünf Jahre nach der Flut: Wie weit ist der Wiederaufbau?",
         "Ostkongress von Bündnis 90/Die Grünen: Grüne fordern faire Chancen für Kinder auf dem Land",
@@ -173,31 +173,31 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 19,
+      "article_count": 18,
       "sample_titles": [
         "Wissenschafts-Bündnis warnt vor „autoritärer Hochschulpolitik der AfD“",
-        "Hamburg setzt auf schnelle Projekte – 500 Millionen Euro fließen bis 2029",
         "Streit um Schulbegleitung eskaliert – Demonstrationen und Petitionen geplant",
-        "Die Bundeszentrale für politische Bildung sollte abgewickelt werden"
+        "Hamburgs Universitätsbibliothek kämpft mit „unvermeidlichen“ Einschnitten",
+        "Steigende Gewalt und Mobbing – Grundschulen schlagen Alarm"
       ],
       "urls": [
         "https://www.welt.de/politik/deutschland/article6a45b2be1f5535004df2683f/wahl-in-sachsen-anhalt-wissenschafts-buendnis-warnt-vor-autoritaerer-hochschulpolitik-der-afd.html",
-        "https://www.welt.de/regionales/hamburg/article6a43e6755e34580fbae56812/bildungsbau-hamburg-setzt-auf-schnelle-projekte-500-millionen-euro-fliessen-bis-2029.html",
         "https://www.welt.de/regionales/hamburg/article6a43d7c030b768424cc6268e/schulbegleitung-streit-um-schulbegleitung-eskaliert-demonstrationen-und-petitionen-geplant.html",
-        "https://www.welt.de/geschichte/plus6a3bbf4203b2c4af36276282/linke-orientierung-die-bundeszentrale-fuer-politische-bildung-sollte-abgewickelt-werden.html"
+        "https://www.welt.de/regionales/hamburg/article6a425dcdafe845031b3b24f7/literatur-engpass-hamburgs-universitaetsbibliothek-kaempft-mit-unvermeidlichen-einschnitten.html",
+        "https://www.welt.de/politik/video6a3a457984d1ec4a45f99a02/berlin-steigende-gewalt-und-mobbing-grundschulen-schlagen-alarm.html"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
           "emotion": "curiosity",
-          "count": 1
+          "count": 2
         },
         {
           "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -206,31 +206,31 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 13,
+      "article_count": 12,
       "sample_titles": [
+        "Schulabschlüsse mit und ohne Party: Feiern dient der Inklusion",
         "Was die Koalition Studierenden anbietet: 380 Euro und Herablassung",
         "Inklusion in der Bildung: Hamburg spart bei Schulbegleitung",
-        "Schulen und Kliniken während Hitzewelle: Heiß! Heiß! Baby?!",
-        "Debatte über Luigi Pantisano: Klassenkonferenz an der Problemschule"
+        "Schulen und Kliniken während Hitzewelle: Heiß! Heiß! Baby?!"
       ],
       "urls": [
+        "https://taz.de/Schulabschluesse-mit-und-ohne-Party/!6192804/",
         "https://taz.de/Bafoeg-Reform/!6192236/",
         "https://taz.de/Inklusion-in-der-Bildung/!6191038/",
-        "https://taz.de/Schulen-und-Kliniken-waehrend-Hitzewelle/!6187304/",
-        "https://taz.de/Debatte-ueber-Luigi-Pantisano/!6190484/"
+        "https://taz.de/Schulen-und-Kliniken-waehrend-Hitzewelle/!6187304/"
       ],
-      "dominant_emotion": "excitement",
+      "dominant_emotion": "joy",
       "top_emotions": [
+        {
+          "emotion": "joy",
+          "count": 1
+        },
         {
           "emotion": "excitement",
           "count": 1
         },
         {
           "emotion": "grief",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -239,23 +239,23 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 11,
+      "article_count": 12,
       "sample_titles": [
+        "Sparen bei Inklusion? \"Es ist eine Riesen-Wut da\"",
         "Bayern will KI-Verbote an Unis kippen",
-        "Obdachlosen-Projekt an Schulen: \"Man ist unsichtbar\"",
         "Schulleiter: \"Mein Parteibuch ist das Grundgesetz\"",
         "Schulbarometer: Schüler-Verhalten belastet Lehrer immer mehr"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/eingliederungshilfe-reform-hamburg-inklusion-100.html",
         "https://www.zdfheute.de/video/zdfheute-live/bayern-ki-hochschulen-video-100.html",
-        "https://www.zdfheute.de/politik/deutschland/obdachlosigkeit-vorurteile-ausgrenzung-schulprojekt-initative-100.html",
         "https://www.zdfheute.de/politik/deutschland/landtagswahl-sachsen-anhalt-bildung-schule-wahlkampf-neutralitaetsgebot-100.html",
         "https://www.zdfheute.de/politik/deutschland/schulbarometer-lehrer-belastung-verhalten-schueler-100.html"
       ],
-      "dominant_emotion": "anger",
+      "dominant_emotion": "surprise",
       "top_emotions": [
         {
-          "emotion": "anger",
+          "emotion": "surprise",
           "count": 1
         },
         {
@@ -272,7 +272,7 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 11,
       "sample_titles": [
         "Bildung: Wie eine ganze Schule in ein Buch eintaucht",
         "Erweiterung und Generalsanierung: Schule einmal anders gedacht",
@@ -305,7 +305,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 9,
+      "article_count": 8,
       "sample_titles": [
         "Seitenhieb für Spahn und Bär - Gute BAföG-Nachricht für Studis vom Kanzler",
         "Erste amtliche Studie für Berlin - Immer mehr Religions-Konflikte an Schulen!",
@@ -327,9 +327,38 @@
         {
           "emotion": "curiosity",
           "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 5,
+      "sample_titles": [
+        "Ein behinderter Bub erleidet in der Schule einen schweren Unfall – und seine Mutter rätselt, was passiert ist",
+        "DER ANDERE BLICK MIT DATEN - Der Beruf des Lehrers wird immer stärker von Frauen dominiert. Warum das für einige Kinder problematisch ist",
+        "ERKLÄRT - Sollten wir Jugendlichen soziale Netzwerke verbieten? Ist das technisch überhaupt machbar? Und was sagt die Forschung über solche Verbote?",
+        "«Ein Lehrer, der sich bloss als netter Coach auf Augenhöhe anbiedert, wird von den Schülern nicht ernst genommen», sagt Roland Reichenbach"
+      ],
+      "urls": [
+        "https://www.nzz.ch/zuerich/ein-behinderter-bub-erleidet-in-der-schule-einen-schweren-unfall-und-seine-mutter-raetselt-was-passiert-ist-ld.10011963",
+        "https://www.nzz.ch/der-andere-blick/der-beruf-des-lehrers-wird-immer-staerker-von-frauen-dominiert-warum-das-fuer-einige-kinder-problematisch-ist-ld.10013132",
+        "https://www.nzz.ch/technologie/verbietet-frankreich-jugendlichen-social-media-ist-das-technisch-ueberhaupt-moeglich-und-was-sagt-die-forschung-ueber-solche-verbote-ld.1922437",
+        "https://www.nzz.ch/schweiz/ein-lehrer-der-sich-bloss-als-netter-coach-auf-augenhoehe-anbiedert-wird-von-den-schuelern-nicht-ernst-genommen-sagt-roland-reichenbach-ld.10010821"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
         },
         {
-          "emotion": "sadness",
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -338,18 +367,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 8,
+      "article_count": 5,
       "sample_titles": [
         "Frage aus dem Arbeitsrecht: Welche Fortbildung Ihr Arbeitgeber zahlen muss",
-        "Für Kitas, Schulen, Pflegeheime: Grüne fordern \"volles Tempo beim Ausbau von Klimaanlagen\"",
         "Rechtsruck an Schulen: \"Lasst uns Lehrkräfte nicht allein mit der Angst!\"",
-        "Selbst Grundschulen betroffen: Gewalt ist an Berliner Schulen inzwischen Alltag"
+        "Selbst Grundschulen betroffen: Gewalt ist an Berliner Schulen inzwischen Alltag",
+        "\"Gesellschaftlicher Trend\": Lehrergewerkschaft GEW beklagt zunehmende Gewalt in Schulen"
       ],
       "urls": [
         "https://www.n-tv.de/ratgeber/Welche-Fortbildung-Ihr-Arbeitgeber-zahlen-muss-id31025148.html",
-        "https://www.n-tv.de/politik/Gruene-fordern-volles-Tempo-beim-Ausbau-von-Klimaanlagen-id31022528.html",
         "https://www.n-tv.de/politik/Lasst-uns-Lehrkraefte-nicht-allein-mit-der-Angst-id30999820.html",
-        "https://www.n-tv.de/panorama/Gewalt-ist-an-Berliner-Schulen-inzwischen-Alltag-id30996527.html"
+        "https://www.n-tv.de/panorama/Gewalt-ist-an-Berliner-Schulen-inzwischen-Alltag-id30996527.html",
+        "https://www.n-tv.de/politik/Lehrergewerkschaft-GEW-beklagt-zunehmende-Gewalt-in-Schulen-id30994761.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -371,25 +400,21 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 7,
+      "article_count": 5,
       "sample_titles": [
-        "Landeskirche Für Gender-Theologie ist Geld da – aber für eine evangelische Privatschule nicht",
         "Bremerhaven Schule weist Spende für Schwimmunterricht ab – weil der Spender konservativ ist",
-        "Gewalt an Schulen Beleidigt, bedroht, ausgepeitscht – Syrer und Afghane terrorisieren Mitschüler",
-        "Bildungsbericht 2026 Bildungsbericht ist für Ex-Lehrerpräsidenten ein „Mathematik-Desaster“"
+        "Bildungsbericht 2026 Bildungsbericht ist für Ex-Lehrerpräsidenten ein „Mathematik-Desaster“",
+        "Bildungsministerkonferenz Bundesjugendspiele sollen wieder zum echten Wettkampf werden",
+        "Linke Ideologie? Eltern warnen vor Projekt „Schule ohne Rassismus“ – und bringen Minister gegen sich auf"
       ],
       "urls": [
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/fuer-gender-theologie-ist-geld-da-aber-fuer-eine-evangelische-privatschule-nicht/",
         "https://jungefreiheit.de/politik/deutschland/2026/schule-weist-spende-fuer-schwimmunterricht-ab-weil-der-spender-konservativ-ist/",
-        "https://jungefreiheit.de/politik/deutschland/2026/beleidigt-bedroht-ausgepeitscht-syrer-und-afghane-terrorisieren-mitschueler/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bildungsbericht-ist-fuer-ex-lehrerpraesidenten-ein-mathematik-desaster/"
+        "https://jungefreiheit.de/politik/deutschland/2026/bildungsbericht-ist-fuer-ex-lehrerpraesidenten-ein-mathematik-desaster/",
+        "https://jungefreiheit.de/politik/deutschland/2026/bundesjugendspiele-sollen-wieder-zum-echten-wettkampf-werden/",
+        "https://jungefreiheit.de/politik/deutschland/2026/eltern-warnen-vor-projekt-schule-ohne-rassismus-und-bringen-minister-gegen-sich-auf/"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "anger",
       "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
         {
           "emotion": "anger",
           "count": 1
@@ -400,18 +425,16 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 6,
+      "article_count": 3,
       "sample_titles": [
-        "Das krumme Eigenleben der Bundeszentrale für politische Bildung",
-        "Karin Priens Verstaatlichung der Kinder",
-        "Gendern statt großer Geister: Das Elend der deutschen Universitäten – TE-Wecker am 21. Juni 2026",
-        "Die alte Leier über das „ungerechte“ Bildungswesen"
+        "Die alte Leier über das „ungerechte“ Bildungswesen",
+        "NRW: 7.800 unbesetzte Lehrer-Stellen – nun lockt man Ruheständler",
+        "Grüne wollen KiTa-Pflicht – Noch mehr Verstaatlichung der Kindheit?"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/eigenleben-bundeszentrale-politische-bildung/",
-        "https://www.tichyseinblick.de/meinungen/prien-verstaatlichung-kinder-jugendliche-medien/",
-        "https://www.tichyseinblick.de/podcast/wecker-am-21-juni-2026-2/",
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/bildungsbericht-2026-ungerecht-chancen/"
+        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/bildungsbericht-2026-ungerecht-chancen/",
+        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/nrw-lehrer-mangel-ruhestaendler-locken/",
+        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/verstaatlichung-kindheit-gruene-wollen-kita-pflicht/"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -425,51 +448,18 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 4,
-      "sample_titles": [
-        "DER ANDERE BLICK MIT DATEN - Der Beruf des Lehrers wird immer stärker von Frauen dominiert. Warum das für einige Kinder problematisch ist",
-        "«Ein Lehrer, der sich bloss als netter Coach auf Augenhöhe anbiedert, wird von den Schülern nicht ernst genommen», sagt Roland Reichenbach",
-        "Das Ende des Lehrmittelmonopols: Zürcher Schulen dürfen ihre Materialien selber bestimmen – zumindest ein bisschen",
-        "Der Bund schreibt den Schulen drei Lektionen Sportunterricht pro Woche vor. Damit könnte bald Schluss sein"
-      ],
-      "urls": [
-        "https://www.nzz.ch/der-andere-blick/der-beruf-des-lehrers-wird-immer-staerker-von-frauen-dominiert-warum-das-fuer-einige-kinder-problematisch-ist-ld.10013132",
-        "https://www.nzz.ch/schweiz/ein-lehrer-der-sich-bloss-als-netter-coach-auf-augenhoehe-anbiedert-wird-von-den-schuelern-nicht-ernst-genommen-sagt-roland-reichenbach-ld.10010821",
-        "https://www.nzz.ch/zuerich/schulen-in-zuerich-das-ende-des-lehrmittelmonopols-ld.10010374",
-        "https://www.nzz.ch/panorama/der-bund-schreibt-den-schulen-drei-lektionen-sportunterricht-pro-woche-vor-damit-koennte-bald-schluss-sein-ld.10010322"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 4,
+      "article_count": 2,
       "sample_titles": [
-        "Interview: Melanie Maas-Brunner: „Wir sollten uns nicht auf den Staat verlassen“",
         "Immobilien: Zukunftsmarkt Bildungsimmobilien: Darum werden Schulen für Investoren interessant",
-        "Bildung: „Struktureller Interessenskonflikt“: Wenn die Lehrerfortbildung zu Microsoft führt",
-        "Kommentar: Wer die junge Generation nur zahlen lässt, verspielt Vertrauen"
+        "Bildung: „Struktureller Interessenskonflikt“: Wenn die Lehrerfortbildung zu Microsoft führt"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/melanie-maas-brunner-wir-sollten-uns-nicht-auf-den-staat-verlassen/100233016.html",
         "https://www.handelsblatt.com/finanzen/immobilien/immobilien-darum-werden-schulen-fuer-investoren-interessant/100233733.html",
-        "https://www.handelsblatt.com/technik/it-internet/bildung-wenn-die-lehrerfortbildung-zu-microsoft-fuehrt/100226263.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-wer-die-junge-generation-nur-zahlen-laesstverspielt-vertrauen/100229833.html"
+        "https://www.handelsblatt.com/technik/it-internet/bildung-wenn-die-lehrerfortbildung-zu-microsoft-fuehrt/100226263.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -500,16 +490,16 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 81,
-    "neutral": 98,
-    "conservative-liberal": 60,
-    "far-right": 13,
-    "right-conservative": 27,
-    "left": 13,
-    "populist-mixed": 9,
-    "economic-liberal": 4
+    "conservative-liberal": 58,
+    "left-liberal": 80,
+    "left": 12,
+    "neutral": 100,
+    "right-conservative": 23,
+    "populist-mixed": 8,
+    "far-right": 8,
+    "economic-liberal": 2
   },
-  "shared_perspectives": "Über alle politischen Ausrichtungen hinweg besteht im deutschen Mediendiskurs ein breit geteiltes Problembewusstsein für die materielle Unterversorgung des Bildungssystems: Mangel an Infrastruktur, Räumen, Personal und ausreichender Finanzierung werden von links bis rechts als zentrale Herausforderung benannt, unabhängig davon, welche Lösungsansätze jeweils bevorzugt werden. Gleichzeitig zeigt sich ein grundsätzlicher Konsens über die wachsende Relevanz von Inklusion und Chancengleichheit als normative Ziele des Bildungssystems, auch wenn die Debatten über deren praktische Umsetzung und die Rolle von Förderschulen erheblich auseinandergehen. Ein dritter Konsensbereich liegt in der Anerkennung, dass Bildung – vom BAföG über die Schulinfrastruktur bis zur beruflichen Weiterbildung – eine zentrale gesellschaftliche und wirtschaftliche Investitionsfrage darstellt, die nicht allein durch private Mittel gelöst werden kann.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Bildungsdiskurs\n\nDer fundamental divergente Konflikt verläuft zwischen einem **Verständnis von Bildung als öffentliches Gemeinschaftsgut, das durch staatliche Investition und Umverteilung soziale Gleichheit herstellt**, und einem **Verständnis von Bildung als Markt- und Effizienzproblem, bei dem private Lösungen, unternehmerische Flexibilität und individuelle Verantwortung Vorrang haben** — dieser Graben zeigt sich darin, dass left-liberal/linke Medien Unterfinanzierung und Gerechtigkeit thematisieren, während economic-liberal Medien Schulen als Investitionsobjekte rahmen und Verantwortung von Familien statt Staat einfordern.\n\nEin zweiter struktureller Konflikt entsteht zwischen der **Forderung nach Inklusion, Vielfalt und Dekonstruktion traditioneller Kategorien (Geschlecht, Ausgrenzung, schulische Stigmatisierung) als Kernanspruch von Bildungsgerechtigkeit** und der **Gegenposition, dass diese Debatten eine »Verstaatlichung der Erziehung« oder ideologische Überfremdung darstellen, die statt dessen bewährte Leistungsorientierung und nationale Wertevermittlung gefährdet** — sichtbar in der scharfen Abgrenzung zwischen Artikeln zu Inklusion/Schulbegleitung auf der einen Seite und far-right/populist-mixed Rahmen von »Gendertheologie« oder »Verstaatlichung der Kinder« auf der anderen.\n\nEin dritter Konflikt offenbart das Spannungsfeld zwischen **föderalistischer Fragmentierung und Wettbewerb der Bundesländer als legitimiertes Strukturprinzip** versus der **Kritik, dass dieser Föderalismus faktisch zu einer Reproduktion sozialer Ungleichheit führt,",
-  "cached_at": "2026-07-04T07:20:32.129136"
+  "shared_perspectives": "# Gemeinsamkeiten im deutschen Bildungsdiskurs\n\nÜber alle politischen Ausrichtungen hinweg wird die **strukturelle Unterfinanzierung und mangelnde Infrastruktur des Bildungssystems** als zentrales Problem anerkannt – ob in Form von fehlenden Schulgebäuden, Sanierungsstaus, nicht besetzten Lehrerstellen oder unzureichenden Mitteln für Inklusion. Dabei zeigt sich eine geteilte Sorge um die **Chancengerechtigkeit und soziale Teilhabe**, die sich in verschiedenen Kontexten manifestiert: von der Inklusion behinderter Schüler über das BAföG-System bis zur Bildung in strukturschwachen Regionen. Ein dritter Konsens besteht darin, dass **Sicherheit und Wohlbefinden von Schülern** zunehmend beeinträchtigt werden – sei es durch steigende Gewalt und Mobbing, psychische Belastungen oder unzureichende Betreuung – was als akutes Handlungsfeld wahrgenommen wird, unabhängig davon, wie unterschiedlich die Ursachenerklärungen ausfallen.",
+  "controversial_points": "Der zentrale Konflikt verläuft zwischen einem **Verständnis von Bildung als Gerechtigkeitsprojekt** (linke und linksliberale Medien fokussieren auf Ressourcenverteilung, Inklusion und strukturelle Benachteiligung) und einem **Verständnis von Bildung als individuelles oder wirtschaftliches Problem** (konservative und wirtschaftsliberale Medien betonen persönliche Verantwortung, Effizienz und Marktlösungen). Ein zweiter struktureller Bruch liegt in der **Frage nach staatlicher Regulierung versus elterlicher Autonomie**: Während linke und linksliberale Positionen mehr staatliche Steuerung befürworten (Handyverbote, Schulinfrastruktur, BAföG-Expansion), interpretieren rechtskonservative Medien solche Maßnahmen als Übergriff des Staates auf Familien und Privatautonomie. Drittens existiert ein tiefgehendes Misstrauen zwischen **Systemoptimierern und Systemkritikern**: Die etablierte Mitte versucht das bestehende föderale, zweigliedrige System durch bessere Ausstattung zu reparieren, während die AfD-nahe Kritik das System selbst als ideologisch kompromittiert darstellt und Alternativkonzepte impliziert.",
+  "cached_at": "2026-07-05T07:47:58.742141"
 }

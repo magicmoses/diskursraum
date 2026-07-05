@@ -1,25 +1,87 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 250,
+  "article_count": 271,
   "candidate_count": 800,
   "outlets": {
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 39,
+      "sample_titles": [
+        "„Du kannst niemals den Trump-Faktor ausschalten“ – Die Nato setzt auf einen historischen Schritt",
+        "Trump greift Deutschland für Nato-Ausgaben an – „Brauchen uns nicht zu verstecken“, kontert Merz",
+        "Panzer reichen nicht – Deutschlands verdrängtes Problem der Zeitenwende",
+        "Nato plant 140-Milliarden-Paket für die Ukraine – Deutschland soll größten Anteil übernehmen"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/ausland/article6a47aee7ad32e994f875a2a1/vor-dem-gipfel-du-kannst-niemals-den-trump-faktor-ausschalten-die-nato-setzt-auf-einen-historischen-schritt.html",
+        "https://www.welt.de/politik/ausland/article6a4697ec2a7c6edbda63d69d/vor-gipfel-in-ankara-trump-greift-deutschland-fuer-nato-ausgaben-an-brauchen-uns-nicht-zu-verstecken-kontert-merz.html",
+        "https://www.welt.de/wirtschaft/plus6a475fbe80a38cbeb7ec11d7/panzer-reichen-nicht-deutschlands-verdraengtes-problem-der-zeitenwende.html",
+        "https://www.welt.de/politik/ausland/article6a47adae0b14ed961bb50afe/ukraine-krieg-nato-plant-140-milliarden-paket-fuer-kiew-deutschland-soll-groessten-anteil-uebernehmen.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 36,
+      "sample_titles": [
+        "Boeing hebt den Preis: Chinooks für die Bundeswehr werden wohl deutlich teurer",
+        "Rüstungsaktien schwanken: Bundesregierung beharrt auf Börsengang von Panzerbauer KNDS",
+        "\"Größte Kraftanstrengung jemals\": Merz weist scharfe Trump-Kritik an deutschen Nato-Beiträgen zurück",
+        "Kurz vor Gipfel in Ankara: Trump nennt deutsche Nato-Beiträge \"lächerlich\""
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Chinooks-fuer-die-Bundeswehr-werden-wohl-deutlich-teurer-id31048540.html",
+        "https://www.n-tv.de/wirtschaft/Bundesregierung-beharrt-auf-Boersengang-von-Panzerbauer-KNDS-id31045585.html",
+        "https://www.n-tv.de/politik/Merz-weist-scharfe-Trump-Kritik-an-deutschen-Nato-Beitraegen-zurueck-id31045972.html",
+        "https://www.n-tv.de/politik/Trump-nennt-deutsche-Nato-Beitraege-laecherlich-id31042451.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 35,
+      "article_count": 36,
       "sample_titles": [
+        "EUropa und die USA: Warum diese Partnerschaft schwierig, aber unverzichtbar ist",
         "Militär und Forschung: Ran an die Zivilklausel!",
         "Hilfe für die Ukraine: Europa hat sein Schicksal nun selbst in der Hand",
-        "Geplatzter Staatseinstieg: Der abgesagte KNDS-Börsengang und seine Folgen",
-        "Schmeicheleien bei Donald Trump: Pistorius nimmt NATO-Chef Rutte in Schutz"
+        "UkraineKrieg: Die NATO sagt Kiew 140 Milliarden Euro zu"
       ],
       "urls": [
+        "https://www.faz.net/premium/weltwirtschaft/weltwissen/europa-und-usa-warum-diese-partnerschaft-unverzichtbar-ist-accg-200986294.html",
         "https://www.faz.net/aktuell/rhein-main/region-und-hessen/militaerforschung-an-der-uni-kassel-ran-an-die-zivilklausel-200991135.html",
         "https://www.faz.net/aktuell/politik/ukraine/nato-sagt-ukraine-geld-zu-lieber-zahlen-als-putin-nachgeben-200995287.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/knds-boersengang-gestoppt-was-das-fuer-deutschland-bedeutet-accg-200990730.html",
-        "https://www.faz.net/aktuell/politik/ausland/umgang-mit-trump-pistorius-nimmt-nato-chef-rutte-in-schutz-accg-200989640.html"
+        "https://www.faz.net/aktuell/politik/ausland/ukraine-krieg-nato-sagt-kiew-140-milliarden-euro-zu-200993249.html"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -37,97 +99,27 @@
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 34,
-      "sample_titles": [
-        "„Die Amerikaner sind faktisch auf dem Weg nach draußen“ – Joschka Fischer warnt die Nato",
-        "Trump greift Deutschland für Nato-Ausgaben an – „Brauchen uns nicht zu verstecken“, kontert Merz",
-        "Panzer reichen nicht – Deutschlands verdrängtes Problem der Zeitenwende",
-        "Nato plant 140-Milliarden-Paket für die Ukraine – Deutschland soll größten Anteil übernehmen"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article6a4842a1ad32e994f875aabd/joschka-fischer-warnt-die-nato-die-amerikaner-sind-faktisch-auf-dem-weg-nach-draussen.html",
-        "https://www.welt.de/politik/ausland/article6a4697ec2a7c6edbda63d69d/vor-gipfel-in-ankara-trump-greift-deutschland-fuer-nato-ausgaben-an-brauchen-uns-nicht-zu-verstecken-kontert-merz.html",
-        "https://www.welt.de/wirtschaft/plus6a475fbe80a38cbeb7ec11d7/panzer-reichen-nicht-deutschlands-verdraengtes-problem-der-zeitenwende.html",
-        "https://www.welt.de/politik/ausland/article6a47adae0b14ed961bb50afe/ukraine-krieg-nato-plant-140-milliarden-paket-fuer-kiew-deutschland-soll-groessten-anteil-uebernehmen.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 33,
-      "sample_titles": [
-        "\"USA sind auf Weg nach draußen\": Joschka Fischer zweifelt an Fortbestand der Nato",
-        "Rüstungsaktien schwanken: Bundesregierung beharrt auf Börsengang von Panzerbauer KNDS",
-        "\"Größte Kraftanstrengung jemals\": Merz weist scharfe Trump-Kritik an deutschen Nato-Beiträgen zurück",
-        "Kurz vor Gipfel in Ankara: Trump nennt deutsche Nato-Beiträge \"lächerlich\""
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Joschka-Fischer-zweifelt-an-Fortbestand-der-Nato-id31046847.html",
-        "https://www.n-tv.de/wirtschaft/Bundesregierung-beharrt-auf-Boersengang-von-Panzerbauer-KNDS-id31045585.html",
-        "https://www.n-tv.de/politik/Merz-weist-scharfe-Trump-Kritik-an-deutschen-Nato-Beitraegen-zurueck-id31045972.html",
-        "https://www.n-tv.de/politik/Trump-nennt-deutsche-Nato-Beitraege-laecherlich-id31042451.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 25,
+      "article_count": 27,
       "sample_titles": [
+        "+++ Ukraine-Krieg +++: Ukraine soll bei Nato-Gipfel Milliardenversprechen erhalten",
         "Nato-Bündnis: Trump bezeichnet Deutschlands Nato-Ausgaben als „lächerlich“",
         "Rüstung: Renk übernimmt britischen U-Boot-Zulieferer",
-        "Rüstung: Absage von Fregatten-Projekt belastet Ausblick von Rheinmetall",
-        "IPO-Termin geplatzt: Panzerbauer KNDS schiebt Börsengang auf"
+        "Rüstung: Absage von Fregatten-Projekt belastet Ausblick von Rheinmetall"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/international/ukraine-ukraine-soll-bei-nato-gipfel-milliardenversprechen-erhalten/27982126.html",
         "https://www.handelsblatt.com/politik/international/nato-buendnis-trump-bezeichnet-deutschlands-nato-ausgaben-als-laecherlich/100237667.html",
         "https://www.handelsblatt.com/unternehmen/industrie/ruestung-renk-uebernimmt-britischen-u-boot-zulieferer/100237664.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-absage-von-fregatten-projekt-belastet-ausblick-von-rheinmetall/100237578.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/knds-panzerbauer-schiebt-boersengang-auf/100237301.html"
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-absage-von-fregatten-projekt-belastet-ausblick-von-rheinmetall/100237578.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
           "count": 2
         },
         {
@@ -140,23 +132,27 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 24,
+      "article_count": 26,
       "sample_titles": [
+        "Boris Pistorius warnt vor Weitergabe geheimer Informationen an mögliche AfD-Minister",
+        "Bundeswehr-Aufrüstung: Transporthubschrauber CH47 werden deutlich teurer",
         "Donald Trump bezeichnet Deutschlands Nato-Ausgaben als »lächerlich«",
-        "Boris Pistorius über Trump, die Nato und seine persönliche Krisenvorsorge: »Ein paar Tage könnten meine Frau und ich uns ohne Probleme verpflegen«",
-        "KNDS: Panzerbauer will mit Börsengang auf höheren Kurs warten",
-        "Boris Pistorius löst mit Äußerungen zur Straße von Hormus Irritationen aus"
+        "Boris Pistorius über Trump, die Nato und seine persönliche Krisenvorsorge: »Ein paar Tage könnten meine Frau und ich uns ohne Probleme verpflegen«"
       ],
       "urls": [
+        "https://www.spiegel.de/politik/boris-pistorius-warnt-vor-weitergabe-geheimer-informationen-an-moegliche-afd-minister-a-9a5008ad-56d3-46a7-9df4-dd5088e299bd#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/bundeswehr-aufruestung-transporthubschrauber-ch47-werden-deutlich-teurer-a-eef477f7-9120-4ddd-839c-b7ea5a78f8e3#ref=rss",
         "https://www.spiegel.de/ausland/trump-bezeichnet-deutschlands-nato-ausgaben-als-laecherlich-a-34433357-3850-4c84-90fd-b5362dad84db#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/boris-pistorius-ueber-trump-die-nato-und-seine-persoenliche-krisenvorsorge-ein-paar-tage-koennten-meine-frau-und-ich-uns-ohne-probleme-verpflegen-a-7f18389a-576d-4c60-94a7-0ddcecdc6bcb#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/knds-panzerbauer-will-mit-boersengang-auf-hoeheren-kurs-warten-a-74b1a806-89e1-40b0-bfb6-3969e8e9ed41#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/boris-pistorius-loest-mit-aeusserungen-zu-hormus-irritationen-aus-a-f7552f02-e165-4412-8862-f65e83db4f67#ref=rss"
+        "https://www.spiegel.de/politik/deutschland/boris-pistorius-ueber-trump-die-nato-und-seine-persoenliche-krisenvorsorge-ein-paar-tage-koennten-meine-frau-und-ich-uns-ohne-probleme-verpflegen-a-7f18389a-576d-4c60-94a7-0ddcecdc6bcb#ref=rss"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
         {
           "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -165,17 +161,17 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 21,
+      "article_count": 22,
       "sample_titles": [
+        "Panzerbauer KNDS bläst Börsengang vorerst ab",
         "Wie die Munitionsbergung in Nord- und Ostsee vorangehen soll",
         "Erneut mehr Verdachtsmeldungen bei der Bundeswehr",
-        "Sind die Saar-Kommunen bereit für den Ernstfall?",
         "Uni Kassel vertagt Entscheidung zu militärischer Forschung"
       ],
       "urls": [
+        "https://www.tagesschau.de/wirtschaft/unternehmen/knds-boersengang-ruestung-100.html",
         "https://www.tagesschau.de/inland/kompetenzentrum-munitionsbergung-rostock-100.html",
         "https://www.tagesschau.de/investigativ/wdr/bundeswehr-rechtsextremismus-136.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/sommerserie_saarland_im_ernstfall_teil1_kommunen_100.html",
         "https://www.hessenschau.de/gesellschaft/uni-kassel-vertagt-entscheidung-zu-militaerischer-forschung-v1,zivilklausel-uni-kassel-100.html"
       ],
       "dominant_emotion": "desire",
@@ -185,11 +181,11 @@
           "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "gratitude",
           "count": 1
         },
         {
-          "emotion": "gratitude",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -211,10 +207,39 @@
         "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-50-kabinettssitzung-im-a-5205753.html",
         "https://www.zdfheute.de/politik/deutschland/wadephul-usa-nato-buendnis-rubio-100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
           "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 12,
+      "sample_titles": [
+        "Pistorius macht Ukraine-Hoffnung - „So gut wie jetzt gerade sah es noch nie aus“",
+        "Boris Pistorius im BILD-Interview - Sind wir selbst unser größter Feind?",
+        "Überstunden und Urlaubssperren - Neues Bundeswehr-Gesetz kann Folgen für SIE haben!",
+        "Wenn Putin eskaliert - Bahn-Blackout legt heikle Nato-Schwachstelle offen"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/boris-pistorius-macht-ukraine-hoffnung-so-gut-sah-es-noch-nie-aus-6a4915b9ad32e994f875b658",
+        "https://www.bild.de/politik/boris-pistorius-im-bild-interview-sind-wir-selbst-unser-groesster-feind-6a467b37fe916cf558e89263",
+        "https://www.bild.de/politik/inland/ueberstunden-und-urlaubssperren-neues-bundeswehr-gesetz-kann-folgen-fuer-ihren-job-haben-6a45279ec154597ea93dddd0",
+        "https://www.bild.de/politik/inland/wenn-putin-eskaliert-komplettausfall-der-bahn-legt-heikle-nato-schwachstelle-offen-6a3be65903b2c4af362766ce"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -223,7 +248,7 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 9,
       "sample_titles": [
         "USA: Trump bezeichnet Deutschlands Nato-Ausgaben als „lächerlich“",
         "BND und Verfassungsschutz: Geheimdienste sollen auch sabotieren und zurückschlagen",
@@ -236,38 +261,8 @@
         "https://www.sueddeutsche.de/politik/bundeswehr-reserve-reform-pistorius-wirtschaft-li.3508468",
         "https://www.sueddeutsche.de/bayern/kaudbeuren-verteidigung-raketenabwehrsystem-li.3508233"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 9,
-      "sample_titles": [
-        "Überstunden und Urlaubssperren - Neues Bundeswehr-Gesetz kann Folgen für SIE haben!",
-        "Wenn Putin eskaliert - Bahn-Blackout legt heikle Nato-Schwachstelle offen",
-        "Hilfe nach Erdbeben-Katastrophe - Pistorius schickt Luftwaffe nach Venezuela",
-        "Urteil des Bundesverwaltungsgerichts - Soldatin siegt im Corona-Streit gegen Bundeswehr"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/ueberstunden-und-urlaubssperren-neues-bundeswehr-gesetz-kann-folgen-fuer-ihren-job-haben-6a45279ec154597ea93dddd0",
-        "https://www.bild.de/politik/inland/wenn-putin-eskaliert-komplettausfall-der-bahn-legt-heikle-nato-schwachstelle-offen-6a3be65903b2c4af362766ce",
-        "https://www.bild.de/politik/hilfe-nach-erdbeben-katastrophe-pistorius-schickt-luftwaffe-nach-venezuela-6a3ce542afe845031b3ad8c8",
-        "https://www.bild.de/regional/thueringen/urteil-gefallen-soldatin-siegt-im-corona-streit-gegen-die-bundeswehr-69ef83347573b6e50794b132"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "nzz": {
       "source_id": "nzz",
@@ -298,22 +293,84 @@
         }
       ]
     },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 8,
+      "sample_titles": [
+        "Ukraine soll bei Nato-Gipfel Milliardenversprechen erhalten",
+        "Rüstung: Renk baut Marinegeschäft mit Übernahme aus",
+        "Kriegslasten: Zentrum soll Altmunition aus Nord- und Ostsee bergen helfen",
+        "KI-Waffensysteme: Der Kollateralschaden ist vorprogrammiert"
+      ],
+      "urls": [
+        "https://www.stern.de/news/--ukraine-soll-bei-nato-gipfel-milliardenversprechen-erhalten-37644158.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/ruestung--renk-baut-marinegeschaeft-mit-uebernahme-aus-37642996.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/kriegslasten--zentrum-soll-altmunition-aus-nord--und-ostsee-bergen-helfen-37635434.html",
+        "https://www.stern.de/politik/ausland/drohnen-kriege--wie-gefaehrlich-sind-ki-waffen-fuer-die-menschheit--37587608.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 7,
+      "sample_titles": [
+        "Baltische Staaten bei Merz: Drei kleine Partner und ihr großer Bruder",
+        "Drohnenangriffe in baltischen Staaten: Fast täglich springen die Warn-Apps an",
+        "Bundeswehr auf Shoppingtour: Ein Aufstand gegen den Truppenzuschlag – wie schön",
+        "EU-Schutzstatus für Ukrainer: Schutz für Wehrpflichtige wird erschwert"
+      ],
+      "urls": [
+        "https://taz.de/Baltische-Staaten-bei-Merz/!6193201/",
+        "https://taz.de/Drohnenangriffe-in-baltischen-Staaten/!6191504/",
+        "https://taz.de/Bundeswehr-auf-Shoppingtour/!6187396/",
+        "https://taz.de/EU-Schutzstatus-fuer-Ukrainer/!6191383/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 8,
+      "article_count": 7,
       "sample_titles": [
         "Nato: Litauen will Teil der atomaren Abschreckung der Nato werden",
-        "Türkei: Polizei verhaftet fast 180 Menschen vor Nato-Gipfel in Ankara",
         "Armin Papperger: Sicherheitspanne bei Rheinmetall-Chef",
-        "Wehrerfassung: Bundeswehr rekrutiert nur 530 Freiwillige durch Wehrdienstfragebogen"
+        "Wehrerfassung: Bundeswehr rekrutiert nur 530 Freiwillige durch Wehrdienstfragebogen",
+        "Vorbereitung für den Nato-Gipfel: Fünf Freunde, mehr als drei Fragezeichen"
       ],
       "urls": [
         "https://www.zeit.de/politik/deutschland/2026-07/ruestungsindustrie-baltikum-deutschland-nato-friedrich-merz",
-        "https://www.zeit.de/politik/ausland/2026-06/verhaftungen-ankara-terrorismusvorwuerfe-razzien-nato-gipfel",
         "https://www.zeit.de/politik/2026-06/armin-papperger-rheinmetall-vorstandsvorsitz-russland-daten",
-        "https://www.zeit.de/politik/deutschland/2026-06/wehrerfassung-bundeswehr-fragebogen-wehrdienst-freiwillige"
+        "https://www.zeit.de/politik/deutschland/2026-06/wehrerfassung-bundeswehr-fragebogen-wehrdienst-freiwillige",
+        "https://www.zeit.de/politik/ausland/2026-06/vorbereitung-nato-gipfel-friedrich-merz-e5-europa"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -347,56 +404,27 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 5,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 4,
       "sample_titles": [
-        "Baltische Staaten bei Merz: Drei kleine Partner und ihr großer Bruder",
-        "Bundeswehr auf Shoppingtour: Ein Aufstand gegen den Truppenzuschlag – wie schön",
-        "Bundeswehr in Litauen: Der Sand als momentan größter Gegner",
-        "Sicherheit in den Bundesländern: Innenminister suchen die Nähe zur Bundeswehr"
+        "Taucht Rheinmetall wieder auf? – Inflationsbefürchtungen – Erhöhen Tech-Konzerne Preise?",
+        "„E5“ mit Merz voran soll Trump durch fünf Botschaften besänftigen",
+        "Bundeswehr per Marschbefehl nach Litauen",
+        "Mehr Rüstung, mehr Klimaabzocke – die EU dreht das ganz große Umverteilungsrad"
       ],
       "urls": [
-        "https://taz.de/Baltische-Staaten-bei-Merz/!6193201/",
-        "https://taz.de/Bundeswehr-auf-Shoppingtour/!6187396/",
-        "https://taz.de/Bundeswehr-in-Litauen/!6189562/",
-        "https://taz.de/Sicherheit-in-den-Bundeslaendern/!6189316/"
+        "https://www.tichyseinblick.de/wirtschaft/geldanlage/taucht-rheinmetall-wieder-auf-inflationsbefuerchtungen-erhoehen-tech-konzerne-preise/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/trump-merz-e5-nato-eu/",
+        "https://www.tichyseinblick.de/daili-es-sentials/bundeswehr-brigade-litauen-marschbefehl/",
+        "https://www.tichyseinblick.de/wirtschaft/eu-dreht-grosses-umverteilungsrad/"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 5,
-      "sample_titles": [
-        "Rüstung: Renk baut Marinegeschäft mit Übernahme aus",
-        "Kriegslasten: Zentrum soll Altmunition aus Nord- und Ostsee bergen helfen",
-        "KI-Waffensysteme: Der Kollateralschaden ist vorprogrammiert",
-        "E5-Treffen in Berlin: Europäer sichern Ukraine anhaltende Unterstützung zu"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/bayern/ruestung--renk-baut-marinegeschaeft-mit-uebernahme-aus-37642996.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/kriegslasten--zentrum-soll-altmunition-aus-nord--und-ostsee-bergen-helfen-37635434.html",
-        "https://www.stern.de/politik/ausland/drohnen-kriege--wie-gefaehrlich-sind-ki-waffen-fuer-die-menschheit--37587608.html",
-        "https://www.stern.de/politik/deutschland/e5-treffen-in-berlin--europaeer-sichern-ukraine-anhaltende-unterstuetzung-zu-37592854.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -418,33 +446,6 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "Zivile Industrie geht, die Rüstung kommt – und verbrennt dabei die Zukunft",
-        "Taucht Rheinmetall wieder auf? – Inflationsbefürchtungen – Erhöhen Tech-Konzerne Preise?",
-        "Bundeswehr per Marschbefehl nach Litauen"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/zivile-industrie-geht-ruestung-kommt/",
-        "https://www.tichyseinblick.de/wirtschaft/geldanlage/taucht-rheinmetall-wieder-auf-inflationsbefuerchtungen-erhoehen-tech-konzerne-preise/",
-        "https://www.tichyseinblick.de/daili-es-sentials/bundeswehr-brigade-litauen-marschbefehl/"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
     },
     "achgut": {
       "source_id": "achgut",
@@ -480,16 +481,16 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 67,
-    "conservative-liberal": 46,
-    "neutral": 40,
-    "left": 5,
-    "left-liberal": 47,
-    "populist-mixed": 9,
-    "economic-liberal": 25,
-    "far-right": 11
+    "left-liberal": 50,
+    "populist-mixed": 12,
+    "right-conservative": 75,
+    "conservative-liberal": 47,
+    "neutral": 41,
+    "economic-liberal": 27,
+    "left": 7,
+    "far-right": 12
   },
-  "shared_perspectives": "# Konsens im deutschen Verteidigungsdiskurs\n\nÜber alle politischen Ausrichtungen hinweg besteht Einigkeit darüber, dass Deutschland seine Verteidigungskapazitäten erheblich ausbauen muss und die NATO-Zwei-Prozent-Zielmarke eine zwingende Verpflichtung darstellt — auch konservative und liberal geprägte Medien betonen die Notwendigkeit dieser Rüstungsausgaben, während selbst kritische Stimmen diesen Imperativ nicht grundsätzlich in Frage stellen. Die deutsche Rüstungsindustrie wird medienübergreifend als strategischer Wirtschaftszweig behandelt, dessen Modernisierung und Funktionsfähigkeit ein Gemeinwohlinteresse darstellt, wobei auch linke und kritische Medien ihre Kritik eher auf Effizienzprobleme und Projektmanagement konzentrieren als auf die grundsätzliche Notwendigkeit der Aufrüstung. Schließlich wird die Bündnisfähigkeit in der NATO und die europäische Handlungsfähigkeit gegenüber russischen Bedrohungen über Parteigrenzen hinweg als unhinterfragte Grundlage deutscher Sicherheitspolitik behandelt, wobei selbst Trump-kritische Medien nicht die NATO-Mitgliedschaft oder das Bündnisprinzip selbst zur Debatte stellen, sondern nur Form und Lasten der Beteiligung verhandeln.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Verteidigungspolitik-Diskurs\n\nDer zentrale Konflikt verläuft zwischen einer **Logik der Sicherheitsimperative und einer Logik der Transformation**: Während konservativ-liberale bis rechtskonservative Medien die Notwendigkeit exponentieller Rüstungssteigerung als alternativloses Reaktion auf geopolitische Realität darstellen (Zeitenwende, NATO-Bündnisverteidigung), problematisieren linke und progressive Medien diese Aufstockung als Umverteilungsmechanismus, der zivile Infrastruktur und Sozialausgaben gefährdet und strukturelle Abhängigkeiten schafft. Die Frage ist nicht primär *ob* aufrüsten, sondern ob Aufrüstung eine temporäre Anomalie oder dauerhafte Reorganisation der deutschen Staatlichkeit darstellt.\n\nEin zweiter struktureller Bruch liegt in der **Kontrollfrage über Beschaffung und Einsatz**: Zwischen denen, die Rüstungsproduktion und -verkauf primär als Wirtschaftsfaktor und Industriestabilisierungsproblem rahmen (ökonomisch-liberale Perspektive auf KNDS-Börsengang, Rüstungsboom-Potenziale), und denen, die Rüstung als parlamentarisch-demokratisch kontrolliertes Politikfeld verstehen, in dem Geheimdiensttätigkeiten und Bundeswehr-Einsätze grundsätzlicher Transparenz und Mandatierung bedürfen. Hier kollidieren wirtschaftliche Autonomieansprüche mit demokratischem Kontrollbegehren.\n\nEin dritter Spannungsbereich betrifft die **Semantik von Verantwortung zwischen Selbstschutz und Bündnisverpflichtung**: Konservative Medien inszenieren deutsche Rüstungsanstrengungen als not",
-  "cached_at": "2026-07-04T07:19:21.682788"
+  "shared_perspectives": "Der deutsche Mediendiskurs vereinigt sich unabhängig von politischer Ausrichtung in der Anerkennung einer grundsätzlichen sicherheitspolitischen Notwendigkeit: Alle Spektren akzeptieren erhöhte Rüstungsausgaben und die Stärkung der Bundeswehr als unvermeidbare Reaktion auf die veränderte europäische Sicherheitslage nach dem Ukraine-Krieg, wobei selbst kritische Stimmen diese Ausgaben nicht fundamental infrage stellen, sondern eher deren Effektivität und Umsetzung debattieren. Über alle Lager hinweg zeigt sich zudem Einigkeit darüber, dass Deutschland gegenüber internationalen Partnern – insbesondere den USA unter Trump – eine selbstbewusste Verteidigungshaltung einnehmen muss und deutsche Rüstungsanstrengungen nicht als unzureichend darzustellen sind, was eine nationale Abwehrbewegung gegen externe Kritik markiert. Die zentrale diskursive Spannung verläuft nicht zwischen Befürwortung und Ablehnung von Rüstung, sondern zwischen Fragen zur praktischen Umsetzbarkeit (Kosten von Rüstungsprojekten, Lieferketten, technische Herausforderungen) und zur politischen Strategie (Verhältnis zu Bündnispartnern, Umfang der Auslandseinsätze), wo durchaus parteiübergreifend sachliche Kritik artikuliert wird.",
+  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Verteidigungsdiskurs\n\nDer deutsche Mediendiskurs spaltet sich fundamental entlang der Frage, ob die aktuelle Aufrüstung eine notwendige Anpassung an veränderte Sicherheitsrealitäten oder eine Kapitulation vor externem (US-amerikanischem) Druck darstellt: Während konservative und wirtschaftsliberale Medien Deutschlands NATO-Beitrag als unzureichend und die Aufrüstung als historisch notwendig rahmen, delegitimieren linke und rechtsradikale Medien diesen Kurs jeweils aus gegensätzlichen Gründen — die Linke durch Pazifismus und Kritik an der Subordination unter US-Interessen, die Rechte durch Souveränistische Ablehnung externer Vorgaben und wirtschaftliche Skepsis gegenüber Rüstungskonzernen. Die zweite Konfliktlinie verläuft zwischen einer techno-optimistischen und einer krisenrealistischen Perspektive auf deutsche Rüstungsfähigkeit: Während populistische und konservative Medien deutsche Rüstungsprojekte oft als gescheitert oder ineffizient kritisieren (teurere Hubschrauber, geplatzte Börsengänge, Munitionsbergung als „verdrängtes Problem\"), präsentieren liberal-konservative Medien dieselbe Aufrüstung als unvermeidliche europäische Kraftanstrengung ohne realistische Alternative. Die dritte strukturelle Spannung liegt in der Bewertung deutscher Handlungsfähigkeit im Verhältnis zu Bündnisverpflichtungen: Der Diskurs rangiert zwischen einer Position der Eigenverantwortung und europäischen Autonomiegewinnung (conservative-liberal, teilweise links) und einer Position fortgesetzter Abhängigkeit bzw. Instrumentalisierung durch USA und NATO (rechts, teils links), wobei beide Positionen paradoxer",
+  "cached_at": "2026-07-05T07:45:57.779228"
 }
