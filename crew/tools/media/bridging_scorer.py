@@ -360,6 +360,8 @@ _REVIEW_INSTRUCTION = {
         "Prüfe den folgenden deutschen Analyse-Text auf Vollständigkeit und Konsistenz. "
         "Achte auf: mitten im Satz abgebrochene Sätze, fehlendes Satzende, grammatikalische "
         "Brüche, Wiederholungen, Markdown- oder JSON-Reste.\n"
+        "Ersetze außerdem alle Gedankenstriche (— oder –) durch normale Interpunktion "
+        "(Komma, Doppelpunkt oder Satzende), ohne den Inhalt zu verändern.\n"
         "Wenn der Text fehlerfrei ist, gib ihn EXAKT unverändert zurück.\n"
         "Wenn nicht, repariere ihn minimal: schließe einen abgebrochenen Satz sinnvoll ab "
         "oder entferne das unvollständige Fragment. Erfinde keine neuen Inhalte.\n"
@@ -369,6 +371,8 @@ _REVIEW_INSTRUCTION = {
         "Check the following English analysis text for completeness and consistency. "
         "Look for: sentences cut off mid-sentence, missing sentence endings, grammatical "
         "breaks, repetitions, markdown or JSON artifacts.\n"
+        "Also replace all em-dashes and en-dashes (— or –) with regular punctuation "
+        "(comma, colon, or sentence break) without changing the content.\n"
         "If the text is flawless, return it EXACTLY unchanged.\n"
         "If not, repair it minimally: complete a truncated sentence sensibly or remove "
         "the incomplete fragment. Do not invent new content.\n"
@@ -642,7 +646,9 @@ def llm_synthesize_de(articles: list[dict], topic_id: str) -> dict:
         "zu denen trotz unterschiedlicher politischer Ausrichtung eine erkennbare "
         "Übereinstimmung im deutschen Mediendiskurs besteht. Formuliere 2-3 präzise "
         "analytische Aussagen. Keine vagen Zusammenfassungen — konkrete inhaltliche "
-        "Gemeinsamkeiten benennen. Keine Quellennennung. Fokus auf das Gesamtbild des Diskurses."
+        "Gemeinsamkeiten benennen. Keine Quellennennung. Fokus auf das Gesamtbild des Diskurses. "
+        "Wichtig: Verwende keine Gedankenstriche (— oder –). Nutze stattdessen Kommas, "
+        "Doppelpunkte oder eigenständige Sätze."
     )
 
     system_controversial = (
@@ -654,7 +660,9 @@ def llm_synthesize_de(articles: list[dict], topic_id: str) -> dict:
         "Meinungsverschiedenheiten. "
         "Schreibstil: klar und flüssig lesbar. Kurze, direkte Sätze mit höchstens "
         "20 Wörtern. Keine Schachtelsätze, keine langen Einschübe — pro Satz genau "
-        "ein Gedanke. Keine Quellennennung."
+        "ein Gedanke. Keine Quellennennung. "
+        "Wichtig: Verwende keine Gedankenstriche (— oder –). Nutze stattdessen Kommas, "
+        "Doppelpunkte oder eigenständige Sätze."
     )
 
     prompt_shared = f"""Thema: {topic_desc}
@@ -734,7 +742,8 @@ def llm_synthesize_en(articles: list[dict], topic_id: str) -> dict:
         system_base + " "
         "Identify concrete themes, ideas, concepts, or political positions where there is discernible agreement in German media discourse "
         "despite different political leanings. Formulate 2-3 precise analytical statements. No vague summaries — name concrete substantive commonalities. "
-        "No source citations. Focus on the overall picture of discourse."
+        "No source citations. Focus on the overall picture of discourse. "
+        "Important: Do not use em-dashes or en-dashes (— or –). Use commas, colons, or separate sentences instead."
     )
 
     system_controversial = (
@@ -743,7 +752,8 @@ def llm_synthesize_en(articles: list[dict], topic_id: str) -> dict:
         "Where do different worldviews, values, or political concepts collide? Name the actual dividing lines — "
         "structural conflicts, not superficial disagreements. "
         "Writing style: clear and fluent. Short, direct sentences of at most 20 words. "
-        "No nested clauses, no long insertions — exactly one idea per sentence. No source citations."
+        "No nested clauses, no long insertions — exactly one idea per sentence. No source citations. "
+        "Important: Do not use em-dashes or en-dashes (— or –). Use commas, colons, or separate sentences instead."
     )
 
     prompt_shared = f"""Topic: {topic_desc}
