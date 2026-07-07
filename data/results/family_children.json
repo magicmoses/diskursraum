@@ -1,14 +1,14 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 202,
+  "article_count": 207,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 41,
+      "article_count": 43,
       "sample_titles": [
         "Prien will Elterngeld auf zwölf Monate beschränken",
         "Pflegefamilien dringend gesucht",
@@ -41,7 +41,7 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 28,
+      "article_count": 29,
       "sample_titles": [
         "Deutschland-Liveblog: Gesetzesentwurf: Elterngeld künftig nur noch 12 statt 14 Monate",
         "F.A.Z. exklusiv: Weniger neue Belastungen für Krankenversicherte als ursprünglich geplant",
@@ -58,7 +58,7 @@
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "disapproval",
@@ -66,6 +66,39 @@
         },
         {
           "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 20,
+      "sample_titles": [
+        "Nur noch 12 statt 14 Monate: Neue Regeln beim Elterngeld: Das plant das Bundesfamilienministerium",
+        "450 Millionen Euro Ersparnis: Schwarz-Rot will Teil des Kinderzuschlags streichen",
+        "Kritik an Reformplänen: Soziologin: Koalition vernachlässigt Folgen für Frauen",
+        "Kaum Verbote: Nur wenige Eltern limitieren Handynutzung ihrer Kinder"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Neue-Regeln-beim-Elterngeld-Das-plant-das-Bundesfamilienministerium-id31055658.html",
+        "https://www.n-tv.de/politik/Schwarz-Rot-will-Teil-des-Kinderzuschlags-streichen-id31054881.html",
+        "https://www.n-tv.de/wirtschaft/Soziologin-Koalition-vernachlaessigt-Folgen-fuer-Frauen-id31049623.html",
+        "https://www.n-tv.de/panorama/Nur-wenige-Eltern-limitieren-Handynutzung-ihrer-Kinder-id31049397.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -98,40 +131,7 @@
           "count": 1
         },
         {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 19,
-      "sample_titles": [
-        "Nur noch 12 statt 14 Monate: Neue Regeln beim Elterngeld: Das plant das Bundesfamilienministerium",
-        "450 Millionen Euro Ersparnis: Schwarz-Rot will Teil des Kinderzuschlags streichen",
-        "Kritik an Reformplänen: Soziologin: Koalition vernachlässigt Folgen für Frauen",
-        "Kaum Verbote: Nur wenige Eltern limitieren Handynutzung ihrer Kinder"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Neue-Regeln-beim-Elterngeld-Das-plant-das-Bundesfamilienministerium-id31055658.html",
-        "https://www.n-tv.de/politik/Schwarz-Rot-will-Teil-des-Kinderzuschlags-streichen-id31054881.html",
-        "https://www.n-tv.de/wirtschaft/Soziologin-Koalition-vernachlaessigt-Folgen-fuer-Frauen-id31049623.html",
-        "https://www.n-tv.de/panorama/Nur-wenige-Eltern-limitieren-Handynutzung-ihrer-Kinder-id31049397.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -173,7 +173,7 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 15,
+      "article_count": 14,
       "sample_titles": [
         "Neubau in Germering: Kita am Hochhaus",
         "Todesschüsse von Stade: Die Angst der Kinderschützer",
@@ -193,12 +193,12 @@
           "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "amusement",
+          "count": 1
         }
       ]
     },
@@ -231,7 +231,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 10,
+      "article_count": 11,
       "sample_titles": [
         "Gesundheitsreform soll entschärft werden - Warken für mehr Ausnahmen bei Familienversicherten",
         "Familie unter Schock - Emmanuel starb beim Baden in Berliner See",
@@ -297,7 +297,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
         "GKV-Finanzreform: Nina Warken ändert Krankenkassen-Sparpaket",
         "GKV-Finanzreform: Nina Warken ändert laut Berichten Krankenkassen-Sparpaket",
@@ -310,8 +310,12 @@
         "https://www.zeit.de/news/2026-07/01/vierlinge-seltenes-babyglueck-fuer-junges-paar-im-erzgebirge",
         "https://www.zeit.de/bildung/2026-06/sassnitzer-erklaerung-gruene-bildung-laendlicher-raum"
       ],
-      "dominant_emotion": "disgust",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "disgust",
           "count": 1
@@ -493,24 +497,24 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 30,
-    "conservative-liberal": 34,
+    "right-conservative": 31,
+    "conservative-liberal": 35,
     "left-liberal": 60,
-    "neutral": 45,
-    "populist-mixed": 10,
+    "neutral": 47,
+    "populist-mixed": 11,
     "left": 10,
     "economic-liberal": 5,
     "far-right": 8
   },
   "statements": {
     "de": {
-      "shared_perspectives": "# Inhaltliche Gemeinsamkeiten im Mediendiskurs zu Familienpolitik\n\nDer deutsche Mediendiskurs zeigt eine breite medienübergreifende Debatte über konkrete Sparmaßnahmen in der Familienpolitik, insbesondere die Reduktion des Elterngeldes von 14 auf 12 Monate, die von konservativen bis linken Medien als zentrale Reformfrage behandelt wird — unabhängig davon, ob sie kritisiert oder befürwortet wird. Gleichzeitig besteht über das gesamte Spektrum hinweg Konsens darüber, dass Kinderschutz und Jugendhilfe legitime staatliche Aufgaben sind, was sich in der parallelen Berichterstattung über Missbrauchsfälle, Sorgerecht und Schutzmaßnahmen zeigt. Während rechts-konservative und linke Medien unterschiedliche Bevölkerungsgruppen fokussieren — die einen Mittelschicht-Belastungen, die anderen Migration und Chancengleichheit — wird der Fokus auf digitale Sicherheit von Kindern (Social-Media-Verbote, Altersfreigaben) über alle politischen Lager hinweg als sachliche Schutzfrage behandelt.",
-      "controversial_points": "# Strukturelle Konfliktlinien im deutschen Mediendiskurs zu Familienpolitik\n\nDer zentrale Konflikt verläuft zwischen einem **fiskalisch-rationalisierenden und einem universalistisch-investiven Paradigma**: Während konservativ-liberale und wirtschaftsliberale Medien Elterngeldkürzungen und Leistungsrestriktionen primär als notwendige Sparmaßnahmen rahmen, interpretieren linke und links-liberale Medien dieselben Maßnahmen als Investitionsverzicht in gesellschaftliche Chancengleichheit und weibliche Erwerbsbeteiligung — es geht nicht um unterschiedliche Effizienzberechnungen, sondern um fundamentale Fragen, ob Familienpolitik Sozialaufgabe oder Haushaltsfrage ist.\n\nEin zweiter Konflikt manifestiert sich in der **Spannung zwischen individuellen Wahlfreiheitsrechten und kollektivem Wohlfahrtsauftrag**: Die Far-Right und konservative Medien skandalisieren staatliche Regelungsambitionen (Kita-Pflicht, Social-Media-Verbote) als Verstaatlichung der Kindheit und ideologische Bevormundung, während linke und wirtschaftsliberale Medien genau diese Standards als notwendige Schutzbarrieren gegen private Marktmacht oder elterliche Vernachlässigung legitimieren — hier prallen unvereinbare Vorstellungen von staatlicher Autorität und Familie aufeinander.\n\nEin dritter struktureller Bruch betrifft die **Entkopplung zwischen Inklusionsanspruch und Selektivität in der Sozialpolitik**: Linke Medien thematisieren Kinderarmut und Chancengleichheit universalistisch, während konservative und wirtschaftsliberale Diskurse implizit eine Segmentierung vornehmen (Sparen bei Transferleistungen für „Ausländer\", Unterscheidung würdiger/unwürdiger Bedür"
+      "shared_perspectives": "Über alle politischen Ausrichtungen hinweg dominiert die Debatte um Sparmaßnahmen bei Elterngeld und Familienleistungen als zentrale Reformthematik — von konservativen über liberale bis zu linken Medien wird die geplante Reduktion von 14 auf 12 Monate und die Streichung von Partnermonaten als faktisches Ereignis behandelt, unabhängig davon, ob es kritisiert oder befürwortet wird. Ein zweiter breiter Konsens zeigt sich bei der Sicherung von Kinderbetreuung und Kita-Infrastruktur als gesamtgesellschaftliche Notwendigkeit — während die konkrete Ausgestaltung umstritten ist, wird der grundsätzliche Bedarf und die Mangelversorgung von keinem relevanten Akteur grundsätzlich in Frage gestellt. Ein dritter Punkt ist die wachsende Regulierungsdebatte um digitale Medien und Social Media für Kinder, die von wirtschaftsliberal bis konservativ geführt wird und in der auch kritische Stimmen einen Konsens zu erkennen geben, dass staatliche Grenzsetzung diskutabel ist, statt grundsätzlich abgelehnt zu werden.",
+      "controversial_points": "Der zentrale Konflikt verläuft zwischen Sparlogik und Leistungsausweitung: Konservative und liberale Medien rahmen Elterngeld- und Kindergeldkürzungen als notwendige Haushaltskonsolidierung, während linke Medien dieselben Maßnahmen als Angriff auf Familienleistungen kritisieren. Ein zweiter struktureller Bruch trennt universalistische von restriktiven Familienkonzepten – die Frage, ob Familienleistungen allen Kindern zugute kommen oder gezielt bestimmte Gruppen ausschließen sollen, spaltet besonders die rechte von der linken Perspektive. Ein dritter Konflikt liegt zwischen Erwerbstätigenförderung und Wahlfreiheit: Liberal-konservative Medien betonen Vereinbarkeit von Beruf und Familie, während linke Medien Chancengleichheit und Kinderschutz prioritären, nicht ökonomische Effizienz. Schließlich zeigt sich ein ideologisches Spannungsfeld beim Thema staatliche Einmischung – die Frage, ob der Staat Kindheit stärker regulieren darf (Altersgrenze Social Media, Kita-Pflicht), wird von rechts als Verstaatlichung, von links als notwendiger Schutz gerahmt."
     },
     "en": {
-      "shared_perspectives": "# Substantive Commonalities in German Family Policy Discourse\n\nAcross the political spectrum, German media discourse demonstrates near-universal agreement that fiscal consolidation in family benefits is a current policy reality requiring public discussion, with even left-liberal outlets reporting matter-of-factly on parental leave reductions from 14 to 12 months rather than opposing the principle itself. There is also broad consensus that digital protection of children—particularly age restrictions on social media platforms—represents a legitimate policy domain where state intervention is appropriate, with disagreement confined to implementation details rather than the underlying premise. Finally, German media across all mainstream positions shares a fundamental concern with institutional child welfare and protection (from foster care recruitment to investigation of abuse cases), treating this as a non-partisan administrative and social imperative distinct from ideological debate about family structure or parental philosophy.",
-      "controversial_points": "# Structural Conflict Lines in German Family Policy Discourse\n\nThe fundamental tension in German family policy discourse is between fiscal retrenchment and social investment, manifested as a collision between two irreconcilable visions of state responsibility: the right-conservative and economic-liberal framing positions family benefits as unsustainable fiscal burdens requiring cost reduction (parental leave cuts, child supplement restrictions, healthcare premium increases), while left-liberal and left media frames family policy as foundational public infrastructure whose erosion intensifies inequality and particularly harms women's economic autonomy and labor market participation. This economic debate conceals a deeper ideological rupture about whether family is primarily a private responsibility requiring individual adaptation to market constraints, or a social sphere requiring state support as a matter of democratic equality.\n\nA second structural conflict divides the discourse between protective familialism and individualist autonomy: the far-right and conservative media emphasize family as a bounded unit requiring state protection from external threats (immigration policy, ideological influences, technological disruption), while left and left-liberal outlets frame family diversity and individual choice within families as positive developments requiring institutional accommodation (diverse family structures, parental leave flexibility, child autonomy regarding digital platforms), creating an unbridgeable disagreement about whether family policy should reinforce traditional family forms or enable plural arrangements.\n\nThe third tension field concerns the construction of risk and responsibility in child welfare: populist-mixed and far-right media sensationalize individual family catastrophes and criminal failures as isolated tragedies requiring stricter enforcement, whereas left media contextualizes the same events within systemic protection gaps and resource constraints, producing fundamentally different diagnoses of whether family policy problems require deterrence and accountability or structural investment and professional support."
+      "shared_perspectives": "# Substantive Commonalities in German Media Discourse on Family Policy\n\nAcross the political spectrum, German media exhibits fundamental consensus that parental leave duration and structure require rationalization, with virtually all outlets—from conservative to left-liberal sources—treating the reduction of parental leave months as a legitimate policy option rather than a categorical threat, suggesting broad acceptance that family benefits cannot remain fiscally unconstrained. Media coverage demonstrates near-universal agreement that child protection and safeguarding institutions require strengthening, evidenced by substantial reporting on foster family recruitment, institutional oversight failures, and social media risks to minors, with even ideologically opposed outlets converging on the premise that state intervention in child welfare is necessary and legitimate. A third consensus emerges around the tension between work-life balance aspirations and economic constraints: German media across the political divide acknowledges both the normative desirability of flexible childcare arrangements and the reality that expansions require fiscal trade-offs, framing family policy debates explicitly as questions of sustainable public spending rather than categorical rights.",
+      "controversial_points": "# Structural Conflict Lines in German Family Policy Discourse\n\nThe fundamental divide centers on the state's role: should government actively expand support infrastructure or reduce spending to preserve market autonomy and parental choice? Right-conservative outlets frame benefit cuts as fiscal necessity, while left-liberal media emphasizes social consequences for women and low-income families. A second conflict runs between universalist policies (equal support for all) and targeted assistance for vulnerable groups, with economic-liberal voices pushing efficiency over solidarity. Gender roles remain deeply contested—discussions of parental leave reveal clashing visions of mothers' workforce participation versus traditional family structures, particularly visible in far-right framing of demographic concerns. Finally, state authority over childhood itself creates tension: progressive outlets support regulatory intervention (social media bans, childcare standards), while conservative and far-right sources resist what they frame as state overreach into family autonomy and parental responsibility."
     }
   },
-  "cached_at": "2026-07-07T07:54:43.391776"
+  "cached_at": "2026-07-07T08:57:53.603034"
 }

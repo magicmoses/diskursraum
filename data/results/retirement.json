@@ -1,68 +1,35 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 800,
+  "article_count": 560,
   "candidate_count": 800,
   "outlets": {
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 116,
-      "sample_titles": [
-        "TKMS erhält historischen Auftrag aus Kanada",
-        "„Menschen nicht kurz vor knapp die Tür vor der Nase zumachen“ – SPD fordert lange Übergangsfrist",
-        "Vier von zehn Arbeitnehmern glauben, dass sie in ihrem Job nicht bis zur Rente durchhalten",
-        "Junge, Alte, Familien, Arbeitgeber – Die Gewinner und die Verlierer des Reformpakets"
-      ],
-      "urls": [
-        "https://www.welt.de/regionales/hamburg/article6a4c096ed3ad550c6d65f730/tkms-erhaelt-historischen-auftrag-aus-kanada-kieler-unternehmen-baut-zwoelf-u-boote.html",
-        "https://www.welt.de/politik/deutschland/article6a4b05580b14ed961bb53310/rente-mit-63-menschen-nicht-kurz-vor-knapp-die-tuer-vor-der-nase-zumachen-spd-fordert-lange-uebergangsfrist.html",
-        "https://www.welt.de/politik/deutschland/article6a4999b5c7a2bdb6a363955a/dgb-studie-vier-von-zehn-arbeitnehmern-glauben-dass-sie-ihren-job-nicht-bis-zur-rente-durchhalten.html",
-        "https://www.welt.de/wirtschaft/plus6a47c148ad32e994f875a468/reformpaket-junge-alte-familien-arbeitgeber-die-gewinner-und-die-verlierer-des-reformpakets.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "anger",
-          "count": 2
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 102,
+      "article_count": 74,
       "sample_titles": [
-        "Ausnahmen statt Abschaffung?: SPD-Abgeordnete Klose dringt auf Minijob-Erhalt für Studenten",
         "Kritik an Reformplänen: Soziologin: Koalition vernachlässigt Folgen für Frauen",
         "DGB-Umfrage zur Reformdebatte: Jeder Vierte rechnet mit Arbeitsunfähigkeit vor Rentenbeginn",
-        "Bis 67,5? Bis 70? Was denn nun?: Wie lange die Deutschen wirklich arbeiten müssen"
+        "Bis 67,5? Bis 70? Was denn nun?: Wie lange die Deutschen wirklich arbeiten müssen",
+        "Die Frist läuft: Ohne Lebensnachweis droht einigen Auslandsrenten das Aus"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/SPD-Abgeordnete-Klose-dringt-auf-Minijob-Erhalt-fuer-Studenten-id31055393.html",
         "https://www.n-tv.de/wirtschaft/Soziologin-Koalition-vernachlaessigt-Folgen-fuer-Frauen-id31049623.html",
         "https://www.n-tv.de/politik/Jeder-Vierte-rechnet-mit-Arbeitsunfaehigkeit-vor-Rentenbeginn-id31048792.html",
-        "https://www.n-tv.de/politik/Wie-lange-die-Deutschen-wirklich-arbeiten-muessen-id31027711.html"
+        "https://www.n-tv.de/politik/Wie-lange-die-Deutschen-wirklich-arbeiten-muessen-id31027711.html",
+        "https://www.n-tv.de/ratgeber/Ohne-Lebensnachweis-droht-einigen-Auslandsrenten-das-Aus-id31036909.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 11
+          "count": 10
         },
         {
           "emotion": "curiosity",
-          "count": 5
+          "count": 3
         },
         {
           "emotion": "disgust",
@@ -70,69 +37,69 @@
         }
       ]
     },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 73,
+      "sample_titles": [
+        "„Menschen nicht kurz vor knapp die Tür vor der Nase zumachen“ – SPD fordert lange Übergangsfrist",
+        "Vier von zehn Arbeitnehmern glauben, dass sie in ihrem Job nicht bis zur Rente durchhalten",
+        "Junge, Alte, Familien, Arbeitgeber – Die Gewinner und die Verlierer des Reformpakets",
+        "Reformpaket der Bundesregierung – lesen Sie hier das Dokument in voller Länge"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a4b05580b14ed961bb53310/rente-mit-63-menschen-nicht-kurz-vor-knapp-die-tuer-vor-der-nase-zumachen-spd-fordert-lange-uebergangsfrist.html",
+        "https://www.welt.de/politik/deutschland/article6a4999b5c7a2bdb6a363955a/dgb-studie-vier-von-zehn-arbeitnehmern-glauben-dass-sie-ihren-job-nicht-bis-zur-rente-durchhalten.html",
+        "https://www.welt.de/wirtschaft/plus6a47c148ad32e994f875a468/reformpaket-junge-alte-familien-arbeitgeber-die-gewinner-und-die-verlierer-des-reformpakets.html",
+        "https://www.welt.de/politik/deutschland/plus6a461044ae0977c5aff1908d/steuern-rente-krankschreibung-lesen-sie-hier-das-dokument-mit-allen-massnahmen-von-schwarz-rot.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 93,
+      "article_count": 60,
       "sample_titles": [
-        "11,7 Milliarden Euro weniger: Die Krise lässt die Gewinne der deutschen Wirtschaftselite schrumpfen",
         "Staatliche Kapitalrente: „Die Rendite muss im Vordergrund stehen“",
         "DGB-Studie: Fast die Hälfte der Beschäftigten zweifelt am Durchhalten bis zur Rente",
-        "Reform der Alterssicherung: Die Rentenkommission schont die Falschen"
+        "Reform der Alterssicherung: Die Rentenkommission schont die Falschen",
+        "Deutschland-Liveblog: Von Steuer bis Rente: Koalition einigt sich auf Reformpaket"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/f-a-z-liste-zeigt-so-stark-schrumpfen-die-gewinne-der-groessten-unternehmen-200995570.html",
         "https://www.faz.net/aktuell/finanzen/finanzmarkt/franz-josef-leven-rendite-muss-bei-kapitalrente-prioritaet-haben-accg-200990826.html",
         "https://www.faz.net/aktuell/wirtschaft/fast-die-haelfte-der-beschaeftigten-zweifelt-am-durchhalten-bis-zur-rente-accg-200998535.html",
-        "https://www.faz.net/aktuell/wirtschaft/alterssicherung-die-rentenkommission-schont-die-falschen-accg-200978668.html"
+        "https://www.faz.net/aktuell/wirtschaft/alterssicherung-die-rentenkommission-schont-die-falschen-accg-200978668.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-koalitionsausschuss-informiert-am-donnerstag-ueber-ergebnisse-faz-110093143.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 12
-        },
-        {
-          "emotion": "confusion",
-          "count": 6
-        },
-        {
-          "emotion": "admiration",
-          "count": 3
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 68,
-      "sample_titles": [
-        "Viele Arbeitnehmer zweifeln am Durchhalten bis zur Rente",
-        "Was das neue Altersvorsorgedepot zu bieten hat",
-        "Rehlinger äußert Zweifel an Renten-Paket",
-        "Reaktionen auf Bundes-Reformpaket: Richtung stimmt, aber auch deutliche Kritik"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/gesellschaft/dgb-studie-rente-100.html",
-        "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-renten-reform-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rehlinger_zur_geplanten_rentenreform_100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/reaktionen_saarland_reformpaket_bundesregierung_100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
           "count": 8
         },
         {
-          "emotion": "optimism",
+          "emotion": "confusion",
           "count": 6
         },
         {
-          "emotion": "confusion",
-          "count": 4
+          "emotion": "disapproval",
+          "count": 3
         }
       ]
     },
@@ -140,7 +107,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 66,
+      "article_count": 55,
       "sample_titles": [
         "Rentenreform: So gut ist der Staat als Investor am Kapitalmarkt",
         "Renten: Nach Rentenreform – Handwerk fordert Senkung der Sozialbeiträge",
@@ -173,31 +140,64 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 62,
+      "article_count": 51,
       "sample_titles": [
-        "TKMS: Thyssenkrupp-Tochter laut Bericht Favorit für U-Boot-Deal in Kanada",
-        "»Rente mit 63«: SPD-Sozialexperte fordert Zehn-Jahres-Frist für Abschaffung",
         "Kapitalrente: Wie Anja Mikus Milliarden für die Altersvorsorge anlegen soll",
-        "40 Prozent der Beschäftigten zweifeln am Durchhalten bis zur Rente"
+        "»Rente mit 63«: SPD-Sozialexperte fordert Zehn-Jahres-Frist für Abschaffung",
+        "40 Prozent der Beschäftigten zweifeln am Durchhalten bis zur Rente",
+        "Rente und Altersarmut: Zahl der Rentner mit Sozialhilfe steigt schnell"
       ],
       "urls": [
-        "https://www.spiegel.de/wirtschaft/tkms-thyssenkrupp-tochter-laut-bericht-favorit-fuer-u-boot-deal-in-kanada-a-4c3fac7b-9f03-4ba2-a234-4aaada02da2a#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rente-mit-63-spd-sozialexperte-fordert-zehn-jahres-frist-fuer-abschaffung-a-948eef44-6045-412f-bf41-4ef097a11a0b#ref=rss",
         "https://www.spiegel.de/wirtschaft/kapitalrente-wie-anja-mikus-milliarden-fuer-die-altersvorsorge-anlegen-soll-a-2aae8821-ea03-4d96-94d3-9d01a88be155#ref=rss",
-        "https://www.spiegel.de/politik/40-prozent-der-beschaeftigten-zweifeln-am-durchhalten-bis-zur-rente-a-ba462a1d-588c-4bb8-b384-d62fbe2548b2#ref=rss"
+        "https://www.spiegel.de/wirtschaft/soziales/rente-mit-63-spd-sozialexperte-fordert-zehn-jahres-frist-fuer-abschaffung-a-948eef44-6045-412f-bf41-4ef097a11a0b#ref=rss",
+        "https://www.spiegel.de/politik/40-prozent-der-beschaeftigten-zweifeln-am-durchhalten-bis-zur-rente-a-ba462a1d-588c-4bb8-b384-d62fbe2548b2#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/rente-und-altersarmut-zahl-der-rentner-mit-sozialhilfe-steigt-schnell-a-ee8ccfb1-975b-40af-ad5f-c72d3dd200a9#ref=rss"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 4
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 46,
+      "sample_titles": [
+        "Viele Arbeitnehmer zweifeln am Durchhalten bis zur Rente",
+        "Was das neue Altersvorsorgedepot zu bieten hat",
+        "Rehlinger äußert Zweifel an Renten-Paket",
+        "Reaktionen auf Bundes-Reformpaket: Richtung stimmt, aber auch deutliche Kritik"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/gesellschaft/dgb-studie-rente-100.html",
+        "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-renten-reform-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rehlinger_zur_geplanten_rentenreform_100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/reaktionen_saarland_reformpaket_bundesregierung_100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 6
+        },
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
           "count": 2
         }
       ]
@@ -206,18 +206,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 59,
+      "article_count": 44,
       "sample_titles": [
         "Je nach Bundesland - So unterschiedlich sind die Renten in Deutschland",
         "50 Jahre Bühnenkarriere - 300 Euro Rente für Schlager-Legende Jürgen Drews",
         "Rente, Steuern, Krankmeldung - So verändert die Koalition Deutschland",
-        "Merz stellt klar - „Willen, Deutschland in die Zukunft zu führen“"
+        "BILD berichtet live - Reichensteuer! Krankschreibung ab 1. Tag nur mit Attest! Rentenreform kommt!"
       ],
       "urls": [
         "https://www.bild.de/politik/inland/je-nach-bundesland-so-unterschiedlich-sind-die-renten-in-deutschland-6a4a178c0b14ed961bb527b3",
         "https://www.bild.de/unterhaltung/stars-und-leute/juergen-drews-schlagerlegende-bekommt-nur-300-euro-rente-6a49ee410b14ed961bb5252f",
         "https://www.bild.de/politik/inland/rente-steuern-krankmeldung-so-veraendert-die-koalition-deutschland-6a461a28c154597ea93e584a",
-        "https://www.bild.de/politik/inland/merz-stellt-klar-wir-haben-den-willen-deutschland-in-die-zukunft-zu-fuehren-6a4611f0ae0977c5aff194dd"
+        "https://www.bild.de/politik/inland/merz-und-klingbeil-stellen-beschluesse-vor-das-sind-die-reformen-von-schwarz-rot-6a45fe36c154597ea93e3ca3"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -226,11 +226,11 @@
           "count": 8
         },
         {
-          "emotion": "excitement",
-          "count": 4
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "confusion",
           "count": 2
         }
       ]
@@ -239,32 +239,32 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 53,
+      "article_count": 42,
       "sample_titles": [
         "\"Rente mit 63\": SPD-Politiker fordern längere Übergangsfrist",
         "40 Prozent glauben nicht an Durchhalten bis zur Rente",
-        "Die größten Konkurrenten von Florian Lipowitz",
-        "So stark steigt die Rente im Vergleich zu anderen Leistungen"
+        "So stark steigt die Rente im Vergleich zu anderen Leistungen",
+        "Was ist jetzt geplant und wann soll es kommen? Ein Überblick"
       ],
       "urls": [
         "https://www.zdfheute.de/politik/deutschland/rente-63-abschaffung-frist-uebergang-100.html",
         "https://www.zdfheute.de/wirtschaft/rente-arbeit-befragung-dgb-100.html",
-        "https://www.zdfheute.de/sport/del-toro-evenepoel-lipowitz-tour-de-france-100.html",
-        "https://www.zdfheute.de/politik/deutschland/steigende-rente-vergleich-buergergeld-kindergeld-elterngeld-100.html"
+        "https://www.zdfheute.de/politik/deutschland/steigende-rente-vergleich-buergergeld-kindergeld-elterngeld-100.html",
+        "https://www.zdfheute.de/politik/deutschland/reformen-pflege-krankenkassen-rente-steuern-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
           "count": 3
         },
         {
           "emotion": "confusion",
           "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
         }
       ]
     },
@@ -272,18 +272,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 45,
+      "article_count": 34,
       "sample_titles": [
         "Altersvorsorge: Allianz: Betriebsrente ist beliebteste Zusatzleistung im Job",
-        "Leute: Ben Kingsley ist 82 - und will weiterhin schauspielern",
         "Rente: Wie reich macht Sie das Vorsorgedepot? Rechnen Sie es aus!",
-        "Die Koalition versucht mit umfangreichem Reformpaket den Befreiungsschlag"
+        "Die Koalition versucht mit umfangreichem Reformpaket den Befreiungsschlag",
+        "Neue Frist: Rente in Gefahr? Wer jetzt einen „Lebensnachweis“ einreichen muss"
       ],
       "urls": [
         "https://www.stern.de/wirtschaft/news/altersvorsorge--allianz--betriebsrente-ist-beliebteste-zusatzleistung-im-job-37651916.html",
-        "https://www.stern.de/kultur/tv/leute--ben-kingsley-ist-82---und-will-weiterhin-schauspielern-37648802.html",
         "https://www.stern.de/altersvorsorgedepot-rechner--so-reich-machen-sie-die-zuschuesse-vom-staat-37418830.html",
-        "https://www.stern.de/news/die-koalition-versucht-mit-umfangreichem-reformpaket-den-befreiungsschlag-37636836.html"
+        "https://www.stern.de/news/die-koalition-versucht-mit-umfangreichem-reformpaket-den-befreiungsschlag-37636836.html",
+        "https://www.stern.de/wirtschaft/rente--fuer-einige-bezieher-gilt-jetzt-eine-wichtige-frist-37630584.html"
       ],
       "dominant_emotion": "surprise",
       "top_emotions": [
@@ -292,12 +292,12 @@
           "count": 3
         },
         {
-          "emotion": "confusion",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "confusion",
+          "count": 1
         }
       ]
     },
@@ -305,18 +305,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 36,
+      "article_count": 27,
       "sample_titles": [
-        "DGB-Studie zur Rente: 40 Prozent glauben nicht, dass sie durchhalten",
         "Sichere Rente: Besteuert die Maschinen!",
-        "Worum es geht beim Koalitionsausschuss: Ringen um Reformen im Kanzleramt",
-        "Ruhestand mit 63: Rente gut, alles gut"
+        "Ruhestand mit 63: Rente gut, alles gut",
+        "CDU-Abgeordneter über Rentenreform: „Man lernt ja auch dazu“",
+        "Die Reformpläne von Schwarz-Rot: Der nächste Stresstest"
       ],
       "urls": [
-        "https://taz.de/DGB-Studie-zur-Rente/!6193460/",
         "https://taz.de/Rente-Besteuert-die-Maschinen/!6192873/",
-        "https://taz.de/Worum-es-geht-beim-Koalitionsausschuss/!6192474/",
-        "https://taz.de/Ruhestand-mit-63/!6187386/"
+        "https://taz.de/Ruhestand-mit-63/!6187386/",
+        "https://taz.de/CDU-Abgeordneter-ueber-Rentenreform/!6191428/",
+        "https://taz.de/Die-Reformplaene-von-Schwarz-Rot/!6187387/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -334,64 +334,31 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 25,
-      "sample_titles": [
-        "Arbeit: Bericht: 40 Prozent glauben nicht an Durchhalten bis zur Rente",
-        "Münchner Mango-Koalition: Das ist OB Krauses Immobilien-Chef – und er kommt ausgerechnet von der CSU",
-        "News-Überblick: Das sind die Nachrichten des Tages",
-        "Münchens Mango-Koalition: OB Krauses erster neuer Stadtminister kommt ausgerechnet von der CSU"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/arbeit-bericht-40-prozent-glauben-nicht-an-durchhalten-bis-zur-rente-li.3510791",
-        "https://www.sueddeutsche.de/muenchen/muenchen-alexander-dietrich-kommunalreferat-csu-dominik-krause-gruene-spd-li.3507915",
-        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3507540",
-        "https://www.sueddeutsche.de/muenchen/muenchen-ob-krause-neue-referenten-csu-dietrich-wiechers-zurek-dunkel-li.3505215"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 24,
+      "article_count": 18,
       "sample_titles": [
-        "Wirtschaftspolitik: Merz’ Problem ist nicht allein die SPD. Es ist auch Söder",
         "Pläne gegen Altersarmut: Abschreckende Hürden, 22 Formularseiten und hohe Dunkelziffer",
         "Rentenreform: JU-Chef äußert sich verärgert über Söders Kritik an Rentenreform",
-        "Rentenreform: Rentenexperte warnt vor Einbeziehung von Beamten in gesetzliche Rente"
+        "Rentenreform: Rentenexperte warnt vor Einbeziehung von Beamten in gesetzliche Rente",
+        "Reform: CDU-Politiker will Rente mit 63 so schnell wie möglich abschaffen"
       ],
       "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-07/friedrich-merz-markus-soeder-rentenreform-cdu-csu-spd",
         "https://www.zeit.de/wirtschaft/2026-06/plaene-altersarmut-rentenkommission-arbeitszeit-renteneintritt",
         "https://www.zeit.de/politik/deutschland/2026-06/rentenreform-johannes-winkel-markus-soeder-minijobs-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-06/peter-bofinger-beamte-rentenversicherung-berechnungsgrundlage"
+        "https://www.zeit.de/politik/deutschland/2026-06/peter-bofinger-beamte-rentenversicherung-berechnungsgrundlage",
+        "https://www.zeit.de/politik/ausland/2026-06/rente-mit-63-abschaffung-cdu-pascal-reddig"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "fear",
+          "count": 1
         },
         {
-          "emotion": "fear",
+          "emotion": "optimism",
           "count": 1
         },
         {
@@ -400,64 +367,60 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 21,
-      "sample_titles": [
-        "«Investoren sitzen auf Beteiligungen, die sie nicht verkaufen können», sagt Joe Bae, Co-Chef der grössten Private-Equity-Firma der Welt",
-        "INTERVIEW - Radsportlegende Eddy Merckx sagt: «Ich konnte mehr leiden als meine Konkurrenten, deshalb habe ich sie alle geschlagen»",
-        "Bei der anstehenden Steuerreform zeigt sich, wer in der Koalition Koch und wer Kellner ist",
-        "«Irrweg», «Katastrophe», «Risiko für den Rechtsstaat»: Darum geht es im Kampf um die deutschen Minijobs"
-      ],
-      "urls": [
-        "https://www.nzz.ch/wirtschaft/investoren-sitzen-auf-beteiligungen-die-sie-nicht-verkaufen-koennen-sagt-joe-bae-co-chef-der-groessten-private-equity-firma-der-welt-ld.10013940",
-        "https://www.nzz.ch/sport/radsport-legende-eddy-merckx-sagt-ich-konnte-mehr-leiden-als-meine-konkurrenten-deshalb-habe-ich-sie-alle-geschlagen-ld.10013772",
-        "https://www.nzz.ch/der-andere-blick/bei-der-anstehenden-steuerreform-zeigt-sich-wer-in-der-koalition-koch-und-wer-kellner-ist-ld.10013544",
-        "https://www.nzz.ch/wirtschaft/irrweg-katastrophe-risiko-fuer-den-rechtsstaat-darum-geht-es-im-kampf-um-die-deutschen-minijobs-ld.10012913"
-      ],
-      "dominant_emotion": "pride",
-      "top_emotions": [
-        {
-          "emotion": "pride",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 12,
       "sample_titles": [
         "Länger arbeiten für weniger Geld – Die Chaos-Regierung sägt am Ast, auf dem sie sitzt",
         "Rentenabzocke, Steuererhöhungen, Hütchenspielertricks: Die Krise nimmt reale Formen an",
-        "Wird das Kartell aus Politik und Gewerkschaften den Angriff von Italo doch noch abwehren?",
-        "Das Rentendesaster der Zahnärzte als Modell für die geplante Zwangskapitalrente des Bundes?"
+        "Das Rentendesaster der Zahnärzte als Modell für die geplante Zwangskapitalrente des Bundes?",
+        "Lanz auf Norbert Blüms Spuren: Die Rente ist sicher!"
       ],
       "urls": [
         "https://www.tichyseinblick.de/wirtschaft/laenger-arbeiten-weniger-geld/",
         "https://www.tichyseinblick.de/wirtschaft/rentenabzocke-steuererhoehungen-huetchenspielertricks/",
-        "https://www.tichyseinblick.de/wirtschaft/kartell-politik-gewerkschaften-italo-bahn/",
-        "https://www.tichyseinblick.de/meinungen/rentendesaster-zahnaerzte-modell-zwangskapitalrente/"
+        "https://www.tichyseinblick.de/meinungen/rentendesaster-zahnaerzte-modell-zwangskapitalrente/",
+        "https://www.tichyseinblick.de/feuilleton/medien/lanz-auf-norbert-bluems-spuren-die-rente-ist-sicher/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
+          "count": 2
         },
         {
           "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 11,
+      "sample_titles": [
+        "Arbeit: Bericht: 40 Prozent glauben nicht an Durchhalten bis zur Rente",
+        "Altersvorsorge: „Man muss überhaupt erst mal das Geld haben, um zu sparen“",
+        "Altersvorsorge: Rentenpaket träfe Minijobber besonders hart",
+        "Altersvorsorge: Zusammen sind wir superreich"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/arbeit-bericht-40-prozent-glauben-nicht-an-durchhalten-bis-zur-rente-li.3510791",
+        "https://www.sueddeutsche.de/wirtschaft/altersvorsorgedepot-finanzbildung-deutschland-amundi-pellis-li.3501849",
+        "https://www.sueddeutsche.de/politik/rentenreform-rente-minijobs-li.3506595",
+        "https://www.sueddeutsche.de/wirtschaft/rentenreform-schweden-aktienmarkt-spacex-spotify-li.3501119"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -466,7 +429,7 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 8,
       "sample_titles": [
         "Alterssicherungskommission Warum die Rente ein strukturelles Demokratie-Defizit offenbart",
         "Rentenreform Gesamtkunstwerk mit Schönheitsfehlern",
@@ -479,37 +442,37 @@
         "https://jungefreiheit.de/wirtschaft/2026/was-der-wegfall-der-minijobs-bedeutet/",
         "https://jungefreiheit.de/politik/deutschland/2026/merz-will-vorschlaege-der-rentenkommission-zuegig-umsetzen/"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
         {
           "emotion": "disapproval",
           "count": 1
         }
       ]
     },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
       "article_count": 3,
       "sample_titles": [
-        "Kein Rettungsring für die Rente",
-        "Abbas bekennt sich erneut zu Terror-Renten",
-        "Seychellen – ein Leuchtturm für Afrikas Politik"
+        "DER ANDERE BLICK - Nicht reden, sondern umsetzen: Die Rentenreform liefert die Chance, die Stimmung im Land zu drehen",
+        "Finanzierung der 13. AHV-Rente: Das Parlament will nur die Mehrwertsteuer erhöhen, nicht aber die Lohnbeiträge",
+        "Christine Egerszegi über die Reform der Altersvorsorge: «Herrgott noch mal, irgendwann sollte man daraus seine Lehren ziehen»"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/kein_rettungsring_fuer_die_rente",
-        "https://www.achgut.com/artikel/abbas_bekennt_sich_erneut_zu_terrorrenten",
-        "https://www.achgut.com/artikel/seychellen_ein_leuchtturm_fuer_afrikas_politik"
+        "https://www.nzz.ch/der-andere-blick/rentenreform-wenn-merz-jetzt-nicht-liefert-verliert-er-seine-glaubwuerdigkeit-ld.10012516",
+        "https://www.nzz.ch/schweiz/finanzierung-der-13-ahv-rente-das-parlament-will-nur-die-mehrwertsteuer-erhoehen-nicht-aber-die-lohnbeitraege-ld.10011656",
+        "https://www.nzz.ch/schweiz/christine-egerszegi-ueber-die-reform-der-altersvorsorge-herrgott-noch-mal-irgendwann-sollte-man-daraus-seine-lehren-ziehen-ld.10010693"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "approval",
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -528,40 +491,40 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "EU einigt sich im Streit um Fluggastrechte"
+        "Kein Rettungsring für die Rente"
       ],
       "urls": [
-        "https://www.dw.com/de/eu-einigt-sich-im-streit-um-fluggastrechte/a-77534486?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.achgut.com/artikel/kein_rettungsring_fuer_die_rente"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 218,
-    "left-liberal": 156,
-    "conservative-liberal": 115,
-    "neutral": 122,
-    "populist-mixed": 59,
-    "economic-liberal": 66,
-    "left": 36,
-    "far-right": 28
+    "left-liberal": 114,
+    "neutral": 88,
+    "populist-mixed": 44,
+    "economic-liberal": 55,
+    "right-conservative": 147,
+    "conservative-liberal": 64,
+    "far-right": 21,
+    "left": 27
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Unabhängig von der politischen Ausrichtung betonen fast alle Beiträge die wachsende Unsicherheit der Beschäftigten, dass ein erheblicher Teil der Bevölkerung nicht bis zum regulären Rentenalter durchhalten kann – ein Kernproblem, das im Diskurs als direkte Folge des demografischen Wandels benannt wird. Gleichzeitig wird die Notwendigkeit von Reformen – insbesondere einer schrittweisen Anhebung des Renteneintrittsalters und einer stärkeren kapitalgedeckten Komponente – als unausweichlich angesehen, wobei die meisten Medien die Bedeutung einer klaren Übergangsfrist für die Umsetzung hervorheben. Darüber hinaus wird überparteilich die Gefahr einer ungerechten Belastung künftiger Generationen durch die aktuelle Finanzierungsstruktur thematisiert, was als zentrales Argument für eine nachhaltige Neua",
-      "controversial_points": "Im deutschen Mediendiskurs prallen vor allem drei strukturelle Konfliktlinien aufeinander: Einerseits steht das solidarische, umlagefinanzierte Modell der gesetzlichen Rente, das von Gewerkschaften und linksorientierten Medien als Garant für Generationengerechtigkeit und soziale Sicherheit verteidigt wird, gegen die marktwirtschaftlich geprägte Forderung nach einer stärkeren kapitalgedeckten Vorsorge, die von konservativen‑ und wirtschaftsliberalen Stimmen als notwendiger Renditetreiber zur Finanzierbarkeit des demografisch belasteten Systems präsentiert wird; zweitens erzeugt die Debatte um das Renteneintrittsalter eine Spannung zwischen dem Anspruch auf ein früheres, altersgerechtes Ausscheiden aus dem Berufsleben – besonders von Frauen und körperlich beanspruchten Berufsgruppen – und dem politischen Druck, das Rentenalter zu erhöhen, um die Beitragsbasis zu sichern, wobei die jeweiligen Narrative jeweils die „Arbeitsunfähigkeit“ bzw. die „ökonomische Notwendigkeit“ betonen; drittens spaltet sich der Diskurs entlang der Frage, ob die Reformlast primär auf die Beitragszahler (z. B. durch Abschaffung von Minijobs oder höhere Sozialabgaben) oder auf die Kapitalmärkte und Unternehmen (z. B. durch verpflichtende Betriebsrenten und höhere Renditeerwartungen) verlagert werden soll, was die grundsätzliche Gegenüberstellung von sozialer Gerechtigkeit gegenüber marktorientierter Effizienz verdeutlicht."
+      "shared_perspectives": "# Konsens im deutschen Rentendiskurs\n\nÜber alle politischen Ausrichtungen hinweg wird die objektive Realität der Durchhaltekrise bei Arbeitnehmern als faktisches Problem anerkannt: Die wiederholte Berichterstattung über die 40-Prozent-Quote zweifelnder Beschäftigter erscheint medienübergreifend, wobei selbst wirtschaftsliberal und konservativ ausgerichtete Quellen diese empirische Grundlage nicht bestreiten, sondern nur unterschiedliche Lösungsansätze daran anknüpfen. Die Notwendigkeit einer grundsätzlichen Rentenreform wird konsensual vorausgesetzt — nicht die Frage ob, sondern nur wie und mit welchen Prioritäten die Reform gestaltet werden soll, wird diskutiert. Ein dritter impliziter Konsens betrifft die Anerkennung der Mehrschichtigkeit der Alterssicherung: Selbst konservative und linke Quellen berichten parallel über gesetzliche Rente, kapitalgedeckte Elemente und betriebliche Vorsorge als notwendige Säulen, weshalb das Entweder-oder-Denken im deutschen Mediendiskurs faktisch nicht auftritt.",
+      "controversial_points": "Der zentrale Konflikt verläuft zwischen einer **produktivitäts- und wachstumsorientierten Perspektive** (wirtschaftsliberal, konservativ-liberal) und einer **schutzorientierten Perspektive** (links, linksliberal). Die erste sieht in Rentenreformen, höherem Renteneintrittsalter und Kapitaldeckung notwendige Anpassungen an Demografie und Wirtschaftlichkeit. Die zweite warnt vor sozialen Lasten für Erwerbstätige und Altersarmut als Folge unzureichender Leistungen. Ein zweiter Konflikt zeigt sich in der **Frage nach Verteilungsgerechtigkeit zwischen Generationen**: Während die Mitte eine Balance sucht, kritisiert die Linke die Verlagerung von Lasten auf Jüngere und Frauen, während rechts-konservativ und wirtschaftsliberal eher individuelle Vorsorge und Leistungsprinzipien betont werden. Die populistischen Medien schließlich zerlegen Reformen in skandalisierte Einzelmaßnahmen statt strukturelle Lösungen zu diskutieren."
     },
     "en": {
-      "shared_perspectives": "Across the German media landscape, there is a shared recognition that a sizable and growing proportion of workers doubt they can stay employed until the statutory retirement age, leading to widespread calls for a phased or flexible transition toward later retirement ages rather than a sudden shift. At the same time, all outlets agree that demographic pressure makes it unavoidable to broaden the financing base of old‑age security, with both the statutory pay‑as‑you‑go pillar and private, capital‑funded components (e.g., Riester products, ETFs) being presented as complementary necessities. Finally, despite divergent policy prescriptions, the discourse converges on the premise that any reform must safeguard intergenerational fairness, warning that excessive burden on younger cohorts would undermine social cohesion and political legitimacy.",
-      "controversial_points": "German media discourse pits a fundamentally different vision of the welfare state against market‑driven individualisation: the left‑liberal and trade‑union camp frames the pension system as a collective guarantee against old‑age poverty and gendered precarity, demanding early‑retirement safeguards and a robust public pillar, while conservative‑liberal and economic‑liberal outlets champion higher statutory retirement ages, capital‑funded supplements and profit‑oriented investment as the only sustainable response to demographic pressure. This clash creates a structural tension between intergenerational fairness—portrayed as a moral duty to protect today’s retirees and future workers—and a neoliberal calculus that treats pensions as a private asset class, turning the debate into a contest over whether social solidarity or market efficiency should define the core of Germany’s retirement security."
+      "shared_perspectives": "# Substantive Commonalities in German Pension Debate Discourse\n\nAcross the German media spectrum, there is broad empirical consensus that a substantial portion of the workforce—consistently reported as approximately 40 percent—harbors genuine doubts about their ability to work until standard retirement age, framing this as a concrete demographic and labor market reality rather than ideological assertion. This finding appears across left-liberal, neutral, right-conservative, and conservative-liberal outlets, suggesting agreement that physical and psychological capacity constraints, not merely political preference, constitute a material constraint on pension system design.\n\nGerman media across political lines converges on treating capital-funded supplementary pensions (Kapitalrente) as a necessary structural component of retirement security, with discussion focusing on implementation mechanisms—state management capacity, ETF selection, return expectations—rather than debating whether such market-based elements should exist at all. Even left-oriented outlets acknowledge the inevitability of capital markets involvement while varying mainly on governance questions, indicating shared acceptance that pure pay-as-you-go systems cannot independently address demographic pressures.\n\nThere is implicit agreement across ideological boundaries that pension reform generates asymmetric distributional consequences requiring explicit attention: women's unpaid care work contributions, minijob elimination effects, regional disparities in retirement adequacy, and intergenerational burden-shifting represent recognized externalities rather than theoretical concerns, appearing consistently in coverage from conservative to left positions, suggesting shared recognition that reform sustainability depends on managing these concrete social impacts.",
+      "controversial_points": "# Structural Conflict Lines in German Pension Discourse\n\nThe fundamental divide pits **individual responsibility against collective security**. Liberal and conservative outlets frame pensions as requiring market-based capital investment and extended work lives, while left-wing media emphasizes state responsibility and protection from work until traditional retirement ages. This clash reflects incompatible visions of how risk should be distributed across generations and income groups.\n\nA second critical tension separates **demographic realism from social protection**. Centrist and conservative voices acknowledge that longer lifespans demand higher retirement ages, yet left-wing and populist media highlight the physical impossibility for many workers—40 percent report doubts about working until 67—exposing a gap between abstract sustainability and concrete human capacity.\n\nThe third conflict line concerns **who bears reform costs**. Economic-liberal outlets celebrate efficiency gains and business relief from social contributions, while left-wing and far-right media (unusually aligned here) attack what they see as burden-shifting onto workers and the poor. This reveals competing definitions of fairness: generational balance versus immediate protection of vulnerable groups.\n\nA final tension emerges around **state versus market competence**. Conservatives trust the state as a capital investor through new pension funds; liberals question state investment capacity and prefer individual choice. This disagreement about institutional capability masks deeper disputes about whether pensions should be treated as market products or social guarantees."
     }
   },
-  "cached_at": "2026-07-07T07:43:41.744897"
+  "cached_at": "2026-07-07T08:52:48.846350"
 }
