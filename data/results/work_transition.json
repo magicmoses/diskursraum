@@ -1,72 +1,72 @@
 {
   "topic_id": "work_transition",
   "topic_label": "Arbeit im Wandel",
-  "article_count": 439,
-  "candidate_count": 728,
+  "article_count": 800,
+  "candidate_count": 800,
   "outlets": {
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 78,
-      "sample_titles": [
-        "Gewerkschaften und Verbände treffen sich zum Sozialgipfel in Saarbrücken",
-        "Auch Klingbeil für verpflichtende Betriebsrente",
-        "Fachkräftemangel im Saarland: Engpass in der Pflege, genug Informatiker",
-        "DGB für verpflichtende Betriebsrente"
-      ],
-      "urls": [
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/saarlaendischer_sozialgipfel_in_saarbruecken_100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/klingbeil-betriebsrente-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/wo_im_saarland_es_engpaesse_bei_fachkraeften_gibt_100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/rente-dgb-vorschlag-100.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 5
-        },
-        {
-          "emotion": "desire",
-          "count": 4
-        },
-        {
-          "emotion": "approval",
-          "count": 3
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 55,
+      "article_count": 113,
       "sample_titles": [
-        "„Die Arbeitnehmerparteien, die sitzen hier“",
-        "„Auf diesem Sofa ist es zwar bequem, aber einsam“ – Spahn warnt SPD vor Kanzleramts-Gipfel",
-        "CDU-Wirtschaftsrat lehnt verpflichtende Betriebsrente ab – Zustimmung von Grünen und Linke",
-        "„Da muss ich hart widersprechen“ – Klingbeil gerät bei Fragen des Publikums ins Schwitzen"
+        "Neuer Job in Kopenhagen – Robert Habeck wird Berater bei Investmentgesellschaft",
+        "„Der Fisch stinkt immer vom Kopf her“ – Auch Arbeitgeber müssen sich hinterfragen",
+        "Vier von zehn Arbeitnehmern glauben, dass sie in ihrem Job nicht bis zur Rente durchhalten",
+        "„Anders als in der Politik redet die Polizei miteinander“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/plus6a219e14a54320792aaa6aa8/seeheimer-kreis-auf-spargelfahrt-die-arbeitnehmerparteien-die-sitzen-hier.html",
-        "https://www.welt.de/politik/deutschland/article6a281f54405f5b69b799bc97/spahn-warnt-spd-vor-kanzleramts-gipfel-auf-diesem-sofa-ist-es-zwar-bequem-aber-einsam.html",
-        "https://www.welt.de/politik/deutschland/article6a27f2902f1d399245057a7f/altersvorsorge-cdu-wirtschaftsrat-lehnt-verpflichtende-betriebsrente-ab-zustimmung-von-gruene-und-linke.html",
-        "https://www.welt.de/politik/deutschland/article6a2719aba95adbb6c4ccb255/lars-klingbeil-in-der-ard-arena-da-muss-ich-hart-widersprechen-vizekanzler-am-schwitzen.html"
+        "https://www.welt.de/wirtschaft/article6a4b6b0c0b14ed961bb538a0/robert-habeck-wird-berater-einer-investmentfirma-dr-habeck-bringt-eine-beeindruckende-erfolgsbilanz-mit.html",
+        "https://www.welt.de/videos/video6a4a0512ad32e994f875bf72/enormer-krankenstand-der-fisch-stinkt-immer-vom-kopf-her-auch-arbeitgeber-muessen-sich-hinterfragen.html",
+        "https://www.welt.de/politik/deutschland/article6a4999b5c7a2bdb6a363955a/dgb-studie-vier-von-zehn-arbeitnehmern-glauben-dass-sie-ihren-job-nicht-bis-zur-rente-durchhalten.html",
+        "https://www.welt.de/videos/video6a48a8890b14ed961bb5176c/afd-parteitag-in-erfurt-anders-als-in-der-politik-redet-die-polizei-miteinander.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 8
+        },
+        {
+          "emotion": "disapproval",
+          "count": 5
         },
         {
           "emotion": "desire",
-          "count": 2
+          "count": 3
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 99,
+      "sample_titles": [
+        "Niederlande ziehen Konsequenzen",
+        "Bosch-Betriebsrat fordert Taskforce für die Autoindustrie",
+        "Viele Arbeitnehmer zweifeln am Durchhalten bis zur Rente",
+        "Warnstreiks an vier Unikliniken in Baden-Württemberg in der kommenden Woche"
+      ],
+      "urls": [
+        "https://www1.wdr.de/nrw/niederrhein/niederlande-leiharbeit-fleischindustrie-verbot-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/bosch-betriebsrat-taskforce-autoindustrie-100.html",
+        "https://www.tagesschau.de/inland/gesellschaft/dgb-studie-rente-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/weiterer-warnstreik-an-unikliniken-102.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
         },
         {
-          "emotion": "pride",
-          "count": 1
+          "emotion": "annoyance",
+          "count": 4
+        },
+        {
+          "emotion": "desire",
+          "count": 4
         }
       ]
     },
@@ -74,31 +74,31 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 44,
+      "article_count": 84,
       "sample_titles": [
-        "Schwarz-rote Reformen: Des Kanzlers neue Hoffnung",
-        "Ungleiche Bezahlung: Klagerisiko Lohntransparenz",
-        "Deutschland-Liveblog: DGB-Chefin Fahimi für verpflichtende Betriebsrente",
-        "Bundesregierung: Doch – es braucht den „Big Bang“ der Reformen"
+        "Sparprogramm: Betriebsrat von Porsche kann Stellenabbau deutlich verringern",
+        "F.A.Z. Podcast für Deutschland: Zoff um Krankschreibungen: „Fehltage kosten 80 Milliarden Euro im Jahr“",
+        "Sylvester Stallone 80: Der Sieger, der zum Verlierer bestimmt war",
+        "Arbeitsmarkt: Mehr Wohlstand durch klügeren Kündigungsschutz"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/reformen-warum-die-gewerkschaften-merz-retten-sollen-accg-200902442.html",
-        "https://www.faz.net/aktuell/wirtschaft/klagerisiko-lohntransparenz-deutschland-hat-eu-vorgabe-noch-nicht-umgesetzt-200898054.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-dgb-chefin-fahimi-fuer-verpflichtende-betriebsrente-faz-110093143.html",
-        "https://www.faz.net/aktuell/wirtschaft/bundesregierung-doch-es-braucht-den-big-bang-der-reformen-200901795.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/porsche-stellenabbau-betriebsrat-setzt-reduzierung-durch-201002390.html",
+        "https://www.faz.net/podcasts/f-a-z-podcast-fuer-deutschland/zoff-um-krankschreibungen-fehltage-kosten-80-milliarden-euro-im-jahr-201002947.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/sylvester-stallone-wird-achtzig-accg-200999613.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/dominik-groll-mehr-wohlstand-durch-kluegeren-kuendigungsschutz-200978354.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 9
         },
         {
           "emotion": "realization",
           "count": 3
         },
         {
-          "emotion": "anger",
+          "emotion": "excitement",
           "count": 2
         }
       ]
@@ -107,32 +107,32 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 42,
+      "article_count": 81,
       "sample_titles": [
-        "Dulger: Nicht vermittelbar: Arbeitgeberpräsident will Rentenanstieg ausbremsen",
-        "DGB-Vorschlag aufgegriffen: Klingbeil unterstützt verpflichtende Betriebsrente",
-        "\"Keine Beschlüsse am Mittwoch\": CDU erwartet kein Reform-Paket, sondern \"Pfad\"",
-        "Frage aus dem Arbeitsrecht: Darf ich in der Arbeitszeit zum Arzt gehen?"
+        "\"Nicht krank zum Arzt schleppen\": Klingbeil: Krankschreibung ab erstem Tag pragmatisch lösen",
+        "Zulieferer schlägt Alarm: Bosch-Betriebsrat will mit Taskforce Zukunft der Autoindustrie sichern",
+        "DGB-Umfrage zur Reformdebatte: Jeder Vierte rechnet mit Arbeitsunfähigkeit vor Rentenbeginn",
+        "dm-Chef im Interview: Was taugen die Reformpläne der Koalition, Herr Werner?"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Arbeitgeberpraesident-will-Rentenanstieg-ausbremsen-id30944736.html",
-        "https://www.n-tv.de/politik/Klingbeil-unterstuetzt-verpflichtende-Betriebsrente-id30945151.html",
-        "https://www.n-tv.de/politik/CDU-erwartet-kein-Reform-Paket-sondern-Pfad-id30943936.html",
-        "https://www.n-tv.de/ratgeber/Darf-ich-waehrend-der-Arbeitszeit-zum-Arzt-Und-muss-ich-meinen-Chef-ueber-den-Termin-informieren-id30902992.html"
+        "https://www.n-tv.de/politik/Klingbeil-Krankschreibung-ab-erstem-Tag-pragmatisch-loesen-id31050775.html",
+        "https://www.n-tv.de/wirtschaft/Bosch-Betriebsrat-will-mit-Taskforce-Zukunft-der-Autoindustrie-sichern-id31050483.html",
+        "https://www.n-tv.de/politik/Jeder-Vierte-rechnet-mit-Arbeitsunfaehigkeit-vor-Rentenbeginn-id31048792.html",
+        "https://www.n-tv.de/wirtschaft/Was-taugen-die-Reformplaene-der-Koalition-Herr-Werner-id31045164.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 10
         },
         {
-          "emotion": "annoyance",
-          "count": 3
+          "emotion": "curiosity",
+          "count": 4
         },
         {
           "emotion": "confusion",
-          "count": 1
+          "count": 3
         }
       ]
     },
@@ -140,18 +140,117 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 34,
+      "article_count": 76,
       "sample_titles": [
-        "Sozialpartner: Verhärtete Fronten vor dem großen Reformgipfel im Kanzleramt",
-        "Lars Feld: Der DGB greift nach dem Steuerhammer – und schlägt den Standort kaputt",
-        "Sozialpartner-Dialog: Spitzentreffen im Kanzleramt nur ein „Stuhlkreis“? Arbeitgeber und Gewerkschaften bremsen Erwartungen",
-        "Bundeswehr: Arbeitgeber fordern von Pistorius Auskunft über Reservistenstatus"
+        "HDE-Konsumbarometer: Die Stimmung beruhigt sich – aber die Konjunktur zieht nicht an",
+        "Gastkommentar: In diesen neun Bereichen wird KI den Menschen nicht ersetzen",
+        "Kündigungsschutz: „Die meisten Arbeitnehmer bekommen Sie raus aus der Firma“",
+        "Basketball: LeBron James: Milliardär, 41, sucht neuen Arbeitgeber"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/sozialpartner-verhaertete-fronten-vor-dem-grossen-reformgipfel-im-kanzleramt/100231196.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/lars-felds-ordnungsruf-der-dgb-greift-nach-dem-steuerhammer/100231067.html",
-        "https://www.handelsblatt.com/politik/deutschland/bundesregierung-vor-treffen-im-kanzleramt-waechst-die-skepsis-der-sozialpartner/100231357.html",
-        "https://www.handelsblatt.com/politik/deutschland/bundeswehr-arbeitgeber-fordern-auskunft-ueber-reservistenstatus/100231075.html"
+        "https://www.handelsblatt.com/politik/konjunktur/hde-konsumbarometer-die-stimmung-beruhigt-sich-aber-die-konjunktur-zieht-nicht-an/100236800.html",
+        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-in-diesen-neun-bereichen-wird-ki-den-menschen-nicht-ersetzen/100233139.html",
+        "https://www.handelsblatt.com/unternehmen/management/kuendigungsschutz-diese-tricks-nutzen-unternehmen-bei-personalabbau/100237997.html",
+        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/lebron-james-milliardaer-41-sucht-neue-herausforderung/100237593.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 8
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 67,
+      "sample_titles": [
+        "Sonntags-Öffnungszeiten: Politik und Handel drängen auf mehr Sonntagsöffnungen",
+        "Autoindustrie: Bosch-Betriebsratschef will Gespräche mit Politikern und Bossen",
+        "Bosch-Betriebsratschef will Gespräche mit Politikern und Bossen",
+        "40 Prozent der Beschäftigten zweifeln am Durchhalten bis zur Rente"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/service/sonntags-oeffnungszeiten-politik-und-handel-draengen-auf-mehr-sonntagsoeffnungen-a-85779075-e261-4bdf-ab8a-4e3877ccda14#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/autoindustrie-bosch-betriebsratschef-will-gespraeche-mit-politikern-und-bossen-a-82dc719a-2d63-40d2-ad9d-2cd4550923a0#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/bosch-betriebsratschef-will-gespraeche-mit-politikern-und-bossen-a-82dc719a-2d63-40d2-ad9d-2cd4550923a0#ref=rss",
+        "https://www.spiegel.de/politik/40-prozent-der-beschaeftigten-zweifeln-am-durchhalten-bis-zur-rente-a-ba462a1d-588c-4bb8-b384-d62fbe2548b2#ref=rss"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "desire",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 65,
+      "sample_titles": [
+        "Gründerbranche: KI-Boom sorgt für Gründungsrekord bei deutschen Start-ups",
+        "Drei-Stunden-Regel: Längere Sonntagsarbeit für Bäcker: Gewerkschaft besorgt",
+        "Arbeitsmarkt-Studie: Verkehrsbranche sucht Zehntausende neue Bus- und Bahnfahrer",
+        "„Vieles für Arbeitnehmer drin“: Klingbeil verteidigt Reformpaket"
+      ],
+      "urls": [
+        "https://www.stern.de/digital/gruenderbranche--ki-boom-sorgt-fuer-gruendungsrekord-bei-deutschen-start-ups-37651882.html",
+        "https://www.stern.de/wirtschaft/news/drei-stunden-regel--laengere-sonntagsarbeit-fuer-baecker--gewerkschaft-besorgt-37651092.html",
+        "https://www.stern.de/wirtschaft/news/arbeitsmarkt-studie--verkehrsbranche-sucht-zehntausende-neue-bus--und-bahnfahrer-37648538.html",
+        "https://www.stern.de/news/-vieles-fuer-arbeitnehmer-drin---klingbeil-verteidigt-reformpaket-37648210.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 43,
+      "sample_titles": [
+        "„Im Homeoffice!“ - Beamte berichten von Skifahren, Angeln und Tagen am See",
+        "Regierung will es stoppen - Kein Bürgergeld mehr für Menschen mit Haftbefehl",
+        "Schwarz-rote Steuerentlastung - Das hat die Regierung wirklich mit IHREM Lohn vor",
+        "Streit um Arbeitszeiten auf Mallorca - Mann wollte keine 16-Stundenschicht, Wirt stach zu"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/so-krass-nutzen-beamte-das-homeoffice-aus-6a44d41a650749238cdc6434",
+        "https://www.bild.de/news/inland/irrwitzige-regelung-kein-buergergeld-mehr-fuer-menschen-mit-haftbefehl-6a4791820b14ed961bb50833",
+        "https://www.bild.de/politik/inland/steuersenkung-das-hat-die-regierung-wirklich-mit-ihrem-lohn-vor-6a477055ad32e994f8759b0d",
+        "https://www.bild.de/news/ausland/mallorca-kellner-wollte-keine-16-stunden-arbeiten-da-stach-wirt-mit-messer-zu-6a477901ad32e994f8759c35"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -164,73 +263,40 @@
           "count": 2
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "annoyance",
+          "count": 2
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 33,
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 41,
       "sample_titles": [
-        "Vor Spitzentreffen im Kanzleramt: Verdi warnt vor Renten-Einschnitten",
-        "Sachsen-Anhalt: Land will Jugendarbeitslosigkeit bis 2030 drastisch senken",
-        "Teure Frührente: „Rente mit 63“ abschaffen würde fast zehn Milliarden sparen – pro Jahrgang",
-        "Hessischer Arbeitsmarkt: Fast jeder zweite Betrieb setzt auf ausländische Mitarbeiter"
+        "Gewalttat von Stade: Der Ort, der schützen sollte",
+        "Kritik an CDU-Vorschlag: Zwangsweises Deutschlandticket für einkommensarme Menschen",
+        "Koalition beschließt Reformpaket: Symbolik super, Wirkung ungewiss",
+        "Wie sich Arbeitskampf ändert: Deutsche streiken seltener und kürzer"
       ],
       "urls": [
-        "https://www.stern.de/news/vor-spitzentreffen-im-kanzleramt--verdi-warnt-vor-renten-einschnitten-37520518.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/sachsen-anhalt--land-will-jugendarbeitslosigkeit-bis-2030-drastisch-senken-37519042.html",
-        "https://www.stern.de/wirtschaft/news/-rente-mit-63--abschaffen-wuerde-zehn-milliarden-sparen---pro-jahrgang-37482098.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/hessischer-arbeitsmarkt--fast-jeder-zweite-betrieb-setzt-auf-auslaendische-mitarbeiter-37478166.html"
+        "https://taz.de/Gewalttat-von-Stade/!6192420/",
+        "https://taz.de/Kritik-an-CDU-Vorschlag/!6192826/",
+        "https://taz.de/Koalition-beschliesst-Reformpaket/!6192892/",
+        "https://taz.de/Wie-sich-Arbeitskampf-aendert/!6192982/"
       ],
-      "dominant_emotion": "joy",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "joy",
-          "count": 1
+          "emotion": "annoyance",
+          "count": 5
         },
         {
-          "emotion": "confusion",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 30,
-      "sample_titles": [
-        "Rente: Arbeitgeberpräsident Dulger verlangt Begrenzung der Rentensteigerung",
-        "Donald Trump: Richter verbietet den USA Vergabe von 100.000-Dollar-Visa an Fachkräfte",
-        "Studium und Arbeitsmarkt: Studierende sorgen sich um Jobaussichten",
-        "Arbeitsmarkt: Wie KI Berufe verändert – und worauf Eltern ihre Kinder vorbereiten können"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/soziales/rente-arbeitgeberpraesident-dulger-verlangt-begrenzung-der-rentensteigerung-a-32627770-284f-4393-8e7b-e2b8abfee2be#ref=rss",
-        "https://www.spiegel.de/ausland/donald-trump-richter-verbietet-den-usa-vergabe-von-100-000-dollar-visa-an-fachkraefte-a-07d10f48-c021-4353-8179-69ee16c15cd7#ref=rss",
-        "https://www.spiegel.de/start/umfrage-zum-berufseinstieg-studierende-sorgen-sich-um-jobaussichten-a-e705fbd7-5b32-4fc4-b6c4-fe5a045e0219#ref=rss",
-        "https://www.spiegel.de/karriere/arbeitsmarkt-wie-ki-berufe-veraendert-und-worauf-eltern-ihre-kinder-vorbereiten-koennen-a-0d4a2745-1fb1-4cda-b8ea-2f79eac8c537#ref=rss"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "desire",
+          "emotion": "amusement",
           "count": 2
         }
       ]
@@ -241,128 +307,29 @@
       "bias": "neutral",
       "article_count": 27,
       "sample_titles": [
-        "DGB-Vorsitzende Fahimi will Betriebsrenten-Pflicht für alle",
-        "Kampeter: \"Parolen schaffen keine Arbeitsplätze\"",
-        "So belastend sind Jobs wegen der Arbeitszeit",
-        "DGB schlägt Steuer für Millionäre vor"
+        "40 Prozent glauben nicht an Durchhalten bis zur Rente",
+        "DIW: Neue Krankschreibe-Regeln könnten Fehlzeiten erhöhen",
+        "Was sich bei der Krankschreibung ändern soll",
+        "Aufreger Krankschreibung: Wie praxistauglich ist die Änderung?"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/rente-reform-altersvorsorge-dgb-100.html",
-        "https://www.zdfheute.de/politik/acht-stunden-tag-interview-kampeter-arbeitgeber-100.html",
-        "https://www.zdfheute.de/video/wirtschaft-arbeitszeiten-nacht-wochenende-100.html",
-        "https://www.zdfheute.de/wirtschaft/dgb-superreiche-vermoegensteuer-100.html"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 22,
-      "sample_titles": [
-        "Homeoffice-Irrsinn!  - Regierungsbeamte dürfen sogar aus Mallorca arbeiten",
-        "Vor Reform-Gipfel - Arbeitgeber fordern Renten-Bremse",
-        "Gewerkschaften und Arbeitgeber geladen - Sabotage-Verdacht vor Gipfel im Kanzleramt",
-        "Rente, Mehrwertsteuer, 8-Stunden-Tag - Nerven-Gipfel im Kanzleramt"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/homeoffice-mit-mallorca-regel-in-diesen-ministerien-muss-kein-mitarbeiter-ins-buero-6a2578ddb20db0d89b658487",
-        "https://www.bild.de/politik/inland/rente-zu-teuer-arbeitgeber-fordern-rentenbremse-6a27b35f29fcf2207deb17e3",
-        "https://www.bild.de/politik/inland/gewerkschaften-und-arbeitgeber-geladen-sabotage-verdacht-vor-gipfel-im-kanzleramt-6a26cd14b20db0d89b6596ca",
-        "https://www.bild.de/politik/inland/reformgipfel-im-kanzleramt-findet-schwarz-rot-den-ausweg-6a24258db6319c631be126a4"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 16,
-      "sample_titles": [
-        "Diskussion über Rente in Deutschland: Klingbeil für verpflichtende Betriebsrenten",
-        "EU-Vorgaben bei Lohngleichheit: Gleichstellung ist der Bundesregierung zu bürokratisch",
-        "Altersvorsorge in der Krise: Gewerkschaftsbund fordert Betriebsrente für alle",
-        "Rechtslastige Polizeigewerkschaften: Hier spricht die Polizei"
-      ],
-      "urls": [
-        "https://taz.de/Diskussion-ueber-Rente-in-Deutschland/!6185798/",
-        "https://taz.de/EU-Vorgaben-bei-Lohngleichheit/!6184970/",
-        "https://taz.de/Altersvorsorge-in-der-Krise/!6185093/",
-        "https://taz.de/Rechtslastige-Polizeigewerkschaften/!6178449/"
+        "https://www.zdfheute.de/wirtschaft/rente-arbeit-befragung-dgb-100.html",
+        "https://www.zdfheute.de/politik/deutschland/krankschreibungen-diw-kritik-dgb-videosprechstunden-100.html",
+        "https://www.zdfheute.de/politik/deutschland/krankschreibung-schwarz-rote-koalition-reform-aerzte-attest-arbeitsunfaehigkeitsbescheinigung-100.html",
+        "https://www.zdfheute.de/politik/krankschreibung-reformpaerzte-praxen-unternehmer-kritik-alltag-100.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 5
-        },
-        {
-          "emotion": "confusion",
           "count": 2
         },
         {
           "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 16,
-      "sample_titles": [
-        "Spitzentreffen im Kanzleramt: Koalition dämpft Erwartungen an Treffen zu Reformenvorhaben",
-        "Udo Dinglreiter: »Jeden Monat werden weitere 10.000 Stellen abgebaut«",
-        "Einsamkeit im Homeoffice: Ist das Homeoffice eine Gefahr für die Psyche?",
-        "Arbeitsbelastung in der Schulleitung: »Jeder fünfte Schulleiter zeigt Burn-out-Symptome«"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-06/spitzentreffen-kanzleramt-gewerkschaften-arbeitgeber-reformen",
-        "https://www.zeit.de/wirtschaft/2026-06/udo-dinglreiter-gesamtmetall-krise-industrie-deindustrialisierung",
-        "https://www.zeit.de/gesundheit/2026-06/homeoffice-einsamkeit-psychische-mentale-gesundheit-studie",
-        "https://www.zeit.de/bildung/2026-06/arbeitsbelastung-schulleitung-pierre-tulowitzki-studie-zufriedenheit-schule"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -371,38 +338,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 14,
+      "article_count": 25,
       "sample_titles": [
-        "Gewerkschaft Verdi zahlt Demonstranten die Fahrt zur AfD-Blockade",
-        "DGB präsentiert Steuerkonzept: Neiddebatte sticht Arbeitnehmervertretung",
-        "ABB-Konzernchef warnt: Europa droht Massen-Arbeitslosigkeit",
-        "Fregatten-Kapitän steuert vom Homeoffice"
+        "Beamte im Homeoffice: Überreizen aller Privilegien",
+        "Razzia des Jobcenters liefert unerfreuliche Fakten",
+        "Jobverlust-Report Juni: Produktion wandert nach Tschechien, Malta und China",
+        "„Remigration“ auf Afrikanisch"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/gewerkschaft-verdi-afd-blockade/",
-        "https://www.tichyseinblick.de/wirtschaft/dgb-steuerkonzept-neiddebatte/",
-        "https://www.tichyseinblick.de/wirtschaft/abb-europa-droht-massen-arbeitslosigkeit/",
-        "https://www.tichyseinblick.de/daili-es-sentials/fregatten-kapitaen-steuert-vom-homeoffice/"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 9,
-      "sample_titles": [
-        "Bundespolitik: CDU-Arbeitnehmerflügel fordert Einbeziehung der Beamten in die Reformen",
-        "Krankenhausreform: Gewerkschafter und Kliniken protestieren gegen Kürzungen",
-        "Bayerns Metall- und Elektroindustrie in der Krise: „Die Lage ist dramatisch“",
-        "Arbeitsmarkt: Führungskraft, 53, arbeitslos, sucht"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-radke-cdu-arbeitnehmerfluegel-beamte-reform-rente-pflege-gesundheit-li.3495864",
-        "https://www.sueddeutsche.de/bayern/muenchen-nuernberg-augsburg-demonstration-krankenhausreform-sparmassnahmen-li.3494655",
-        "https://www.sueddeutsche.de/bayern/bayern-konjunktur-metallindustrie-krise-li.3492033",
-        "https://www.sueddeutsche.de/wirtschaft/arbeitsmarkt-deutschland-arbeitslos-manager-li.3484942"
+        "https://www.tichyseinblick.de/daili-es-sentials/beamte-im-homeoffice/",
+        "https://www.tichyseinblick.de/daili-es-sentials/razzia-jobcenter-berlin-neukoelln/",
+        "https://www.tichyseinblick.de/daili-es-sentials/jobverlust-report-juni/",
+        "https://www.tichyseinblick.de/gastbeitrag/remigration-auf-afrikanisch/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -415,7 +362,40 @@
           "count": 1
         },
         {
-          "emotion": "confusion",
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 25,
+      "sample_titles": [
+        "Klopp soll neuer Bundestrainer werden: Jetzt wird verhandelt",
+        "Rekordbeschäftigung: Das Geheimnis der Münchner Wirtschaftskraft",
+        "Andrea Nahles: „Das könnte echt ein großer Wurf werden für den deutschen Arbeitsmarkt“",
+        "Andrea Nahles: „Das könnte echt ein großer Wurf werden für den deutschen Arbeitsmarkt“"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/sport/nationalmannschaft-trainer-nagelsmann-klopp-li.3509794",
+        "https://www.sueddeutsche.de/muenchen/muenchen-jobs-rekord-gewerbesteuer-arbeitslosigkeit-li.3508089",
+        "https://www.sueddeutsche.de/politik/reformpaket-bundesregierung-folgen-arbeitsmarkt-reaktionen-nahles-dgb-li.3509304",
+        "https://www.sueddeutsche.de/politik/reformpaket-koalition-arbeitsmarkt-reaktionen-nahles-dgb-li.3509304"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "disappointment",
           "count": 1
         }
       ]
@@ -424,27 +404,64 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 7,
+      "article_count": 19,
       "sample_titles": [
-        "„Vermehrte Streitfälle ums Bürgergeld“ Klagen vor Sozialgerichten steigen rasant an",
-        "Höhere Pflegebeiträge Deutscher Gewerkschaftsbund wirft Warken Bestrafung von Kinderlosen vor",
-        "Deutschlandticket statt Bargeld? Neuer Streit zwischen Union und SPD ums Bürgergeld",
-        "Sozialpolitik Linnemann fordert schärfere Regeln bei Bürgergeld und Grundsicherung"
+        "Angriffe auf Journalisten Wetterleuchten einer neuen RAF",
+        "„Überreaktionen“ Wadephul geißelt Migrationskritiker beim Brasilien-Besuch",
+        "„Widersetzen“ Anti-AfD-Bündnis gibt jetzt sogar Tips für Sprengstoffanschläge",
+        "„Äußerst besorgniserregend“ Polizeigewerkschaft warnt vor massiven linken Krawallen beim AfD-Parteitag"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/klagen-vor-sozialgerichten-steigen-rasant-an/",
-        "https://jungefreiheit.de/politik/deutschland/2026/deutscher-gewerkschaftsbund-wirft-warken-bestrafung-von-kinderlosen-vor/",
-        "https://jungefreiheit.de/politik/deutschland/2026/neuer-streit-zwischen-union-und-spd-ums-buergergeld/",
-        "https://jungefreiheit.de/politik/deutschland/2026/linnemann-fordert-schaerfere-regeln-bei-buergergeld-und-grundsicherung/"
+        "https://jungefreiheit.de/debatte/kommentar/2026/wetterleuchten-einer-neuen-raf/",
+        "https://jungefreiheit.de/politik/deutschland/2026/wadephul-geisselt-migrationskritiker-beim-brasilien-besuch/",
+        "https://jungefreiheit.de/politik/deutschland/2026/anti-afd-buendnis-gibt-jetzt-sogar-tips-fuer-sprengstoffanschlaege/",
+        "https://jungefreiheit.de/politik/deutschland/2026/polizeigewerkschaft-warnt-vor-massiven-linken-krawallen-beim-afd-parteitag/"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "disapproval",
+          "emotion": "curiosity",
           "count": 1
         },
         {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 16,
+      "sample_titles": [
+        "Neue Beschlüsse für Arbeitsverträge: Wer einen Job will, muss jetzt maximal flexibel sein",
+        "Bertelsmann-Studie: Studie belegt ungenutztes Fachkräftepotenzial von Zuwanderern",
+        "Arbeitsmarkt in Deutschland: Zahl der Arbeitslosen sinkt im Juni nur leicht",
+        "DGB-Rentenkommission: DGB-Kommission fordert höheres Rentenniveau und Abgabe auf Vermögen"
+      ],
+      "urls": [
+        "https://www.zeit.de/arbeit/2026-07/neue-beschluesse-arbeitsvertraege-arbeitgeber-entlassung-jobsuche",
+        "https://www.zeit.de/wirtschaft/2026-07/arbeitsmarkt-integration-migranten-fachkraeftemangel-bertelsmann-studie-gxe",
+        "https://www.zeit.de/arbeit/2026-06/arbeitsmarkt-deutschland-juni-2024-arbeitslosigkeit-buergergeld-gxe",
+        "https://www.zeit.de/wirtschaft/2026-06/dgb-rentenkommission-rentenreform-vorschlag-yasmin-fahimi"
+      ],
+      "dominant_emotion": "disgust",
+      "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 2
+        },
+        {
           "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -453,56 +470,54 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 6,
+      "article_count": 13,
       "sample_titles": [
-        "DER ANDERE BLICK - Deutsches Bürgergeld: Der Rauswurf eines Kritikers ist die falsche Reaktion",
-        "Was gilt denn nun, GAV oder Mindestlohn? Das Parlament ist für den GAV. Doch nun will der Gewerkschaftsbund das Referendum ergreifen",
-        "Plötzlich kostet die Prämie zehnmal so viel: die Krankentaggeldversicherung wird zum Problem für ältere Arbeitnehmer",
-        "40-Stunden-Woche, flexible Arbeitszeiten, Fairtrade-Schoggi: wenn der Zivildienst zum Hochschulpraktikum wird"
+        "«Es wird anstrengend. Wir werden den Menschen etwas abverlangen müssen»",
+        "Die verbaute Treppe: Macht KI die Gen Z zur neuen verlorenen Generation?",
+        "KOMMENTAR - Sträfliche Nachlässigkeit: Chinas Regierung tut nicht genug, um neue Arbeitsplätze zu schaffen",
+        "Auch Kevin Warsh lässt Trump warten: Das Fed belässt den Leitzins unverändert"
       ],
       "urls": [
-        "https://www.nzz.ch/der-andere-blick/das-jobcenter-in-bremen-zeigt-einen-fragwuerdigen-umgang-mit-kritik-ld.10010429",
-        "https://www.nzz.ch/schweiz/was-gilt-denn-nun-gav-oder-mindestlohn-das-parlament-ist-fuer-den-gav-doch-nun-will-der-gewerkschaftsbund-das-referendum-ergreifen-ld.10010040",
-        "https://www.nzz.ch/schweiz/ploetzlich-kostet-die-praemie-zehnmal-so-viel-warum-die-krankentaggeldversicherung-zum-problem-fuer-aeltere-arbeitnehmer-wird-ld.10008107",
-        "https://www.nzz.ch/schweiz/40-stunden-woche-flexible-arbeitszeiten-fairtrade-schoggi-wenn-der-zivildienst-zum-hochschulpraktikum-wird-ld.10005989"
+        "https://www.nzz.ch/international/es-wird-anstrengend-wir-werden-den-menschen-etwas-abverlangen-muessen-ld.10014232",
+        "https://www.nzz.ch/schweiz/ki-erschwert-gen-z-berufseinstieg-weniger-einstiegsjobs-mehr-iv-renten-ld.10014035",
+        "https://www.nzz.ch/meinung/straefliche-nachlaessigkeit-chinas-regierung-tut-nicht-genug-um-neue-arbeitsplaetze-zu-schaffen-ld.10012398",
+        "https://www.nzz.ch/wirtschaft/auch-kevin-warsh-laesst-trump-warten-das-fed-behaelt-den-leitzins-unveraendert-ld.10011731"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
         {
           "emotion": "anger",
-          "count": 1
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
         },
         {
           "emotion": "confusion",
           "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
         }
       ]
     },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 5,
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 3,
       "sample_titles": [
-        "„Sozialleistungen trotz Portugal-Aufenthalt“ - Der Bürgergeldempfänger, den der Staat selbst schuf",
-        "Sind Totalsanktionen im Bürgergeld gerecht? - Von Haltung, Menschenwürde und Selbstverantwortung",
-        "Reformdebatte - Während die Gewerkschaften noch mauern, entwickeln andere längst seriöse Reformideen",
-        "Bürgergeld im Ausland? - Der „Portugal-Schmarotzer“ – und wie eine Medienerzählung in sich zusammenfällt"
+        "Studie: Fachkräfte-Potenzial von Migranten oft ungenutzt",
+        "Protest gegen Rundfunkpläne: Warnstreik in Tschechien",
+        "Proteste in Mexiko-Stadt eskalieren vor WM-Start"
       ],
       "urls": [
-        "https://www.cicero.de/wirtschaft/sozialstaat-missbrauch-portugal-burgergeld",
-        "https://www.cicero.de/kultur/sanktionen-soziales-rostock",
-        "https://www.cicero.de/wirtschaft/stiftung-familienunternehmen-dgb-reformdebatte",
-        "https://www.cicero.de/wirtschaft/burgergeld-portugal-schmarotzer-wie-eine-medienerzahlung-in-sich-zusammenfallt"
+        "https://www.dw.com/de/studie-fachkräfte-potenzial-von-migranten-oft-ungenutzt/a-77798488?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/protest-gegen-rundfunkpläne-warnstreik-in-tschechien/a-77653330?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/proteste-in-mexiko-stadt-eskalieren-vor-wm-start/a-77432134?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -511,33 +526,61 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
-        "Wer hat’s gesagt? Fachkräftemangel beginnt „schon auf Kabinettsebene“"
+        "Die „edle Lüge“ vom Fachkräfte-Import",
+        "Konkurrenz der Ungerechtigkeiten"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/wer_hats_gesagt_deutscher_Fachkraeftemangel_beginnt_schon_auf_Kabinettsebene"
+        "https://www.achgut.com/artikel/die_edle_luege_vom_fachkraefte_import",
+        "https://www.achgut.com/artikel/konkurrenz_der_ungerechtigkeiten"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "„Sozialleistungen trotz Portugal-Aufenthalt“ - Der Bürgergeldempfänger, den der Staat selbst schuf"
+      ],
+      "urls": [
+        "https://www.cicero.de/wirtschaft/sozialstaat-missbrauch-portugal-burgergeld"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 97,
-    "economic-liberal": 34,
-    "left-liberal": 88,
-    "populist-mixed": 22,
-    "far-right": 22,
-    "conservative-liberal": 55,
-    "left": 16,
-    "neutral": 105
+    "left-liberal": 173,
+    "neutral": 129,
+    "far-right": 46,
+    "conservative-liberal": 98,
+    "right-conservative": 194,
+    "economic-liberal": 76,
+    "populist-mixed": 43,
+    "left": 41
   },
-  "shared_perspectives": "Der deutsche Mediendiskurs zeigt über alle politischen Ausrichtungen hinweg eine grundlegende Übereinstimmung darin, dass die verpflichtende Betriebsrente als zentrale Reform der Altersvorsorge notwendig ist — sowohl Gewerkschaften, SPD, CDU-Arbeitnehmerflügel als auch wirtschaftsliberale Kräfte und linksliberale Medien behandeln dies als etablierte Reformagenda, während der Widerstand des Wirtschaftsrats als Außenseiterposition erscheint. Gleichzeitig herrscht Konsens darüber, dass der Sozialgipfel im Kanzleramt trotz seiner Bedeutung strukturell in einer Sackgasse steckt — von konservativ bis links werden verhärtete Fronten zwischen Arbeitgebern und Gewerkschaften, fehlende konkrete Ergebnisse und zu niedrige Erwartungen kritisiert, ohne dass dabei fundamentale Zweifel am Dialog-Format selbst geäußert werden. Eine dritte Übereinstimmung zeigt sich bei der Diagnose des Fachkräftemangels als akutem Standortproblem, das sowohl wirtschaftsliberale als auch progressive Medien als zentral für Deutschlands Zukunftsfähigkeit rahmen, auch wenn sie unterschiedliche Lösungsansätze (Steuerlast versus Sozialstandards) favorisieren.",
-  "controversial_points": "# Strukturelle Konfliktlinien im deutschen Arbeitsmarktdiskurs\n\nDer zentrale Konflikt verläuft zwischen zwei konkurrierenden **Produktivitäts- und Sicherungsparadigmen**: Während konservativ-liberale und wirtschaftsliberale Medien Arbeitgeberinteressen an Kostenkontrolle, Flexibilisierung und Leistungsanreizen (Rentenbremse, Bürgergeld-Kritik, Homeoffice-Kontrolle) priorisieren, setzen linke und linker-liberale Medien auf Umverteilungsmechanismen und kollektive Absicherung (verpflichtende Betriebsrenten, Lohntransparenz, Tarifbindung) — beide legitimieren ihre Position jedoch nicht mit explizit unterschiedlichen Wertesystemen, sondern mit widersprüchlichen ökonomischen Effektivitätsbehauptungen (Standortsicherung vs. Binnenkonjunktur).\n\nDie zweite Bruchlinie markiert den **Konflikt zwischen institutionalisierter Mitbestimmung und individualisierter Responsibilisierung**: Gewerkschaften und SPD/Grüne argumentieren für stärkere kollektive Regelwerke und paritätische Strukturen (Betriebsräte, Tarifbindung), während konservative und liberale Lager diese als Wettbewerbshemmnisse kritisieren und stattdessen auf Unternehmensflexibilität, individuelle Anreize und gezielte Marktsteuerung setzen — diese Differenz ist nicht primär technisch-administrativ, sondern betrifft fundamental unterschiedliche Vorstellungen davon, wer Arbeitsmarktrisiken tragen soll und durch welche Mechanismen.\n\nDrittens offenbart sich ein **diskursiver Legitimationsproblem bezüglich des Bürgergeld-Komplexes**: Während rechts-konservative Medien das",
-  "cached_at": "2026-06-10T08:41:56.849382"
+  "statements": {
+    "de": {
+      "shared_perspectives": "Im deutschen Mediendiskurs lässt sich trotz unterschiedlicher politischer Ausrichtung ein klarer Konsens darüber erkennen, dass der Fachkräftemangel – besonders in der Verkehrs‑ und Automobilbranche – ein zentrales Risiko für die Wettbewerbsfähigkeit darstellt und deshalb gezielte Qualifizierungs‑ und Rekrutierungsprogramme gefordert werden. Gleichzeitig betonen fast alle Berichterstattungen die Notwendigkeit, die zunehmende Flexibilisierung der Arbeit (Homeoffice, Plattform‑ und Zeitarbeit) stärker zu regulieren, weil sie sowohl betriebliche Kosten (z. B. Krankheitsausfälle) als auch die soziale Sicherung belastet. Darüber hinaus wird ein breiter Medien‑Konsens über die Dringlichkeit von strukturierten Verhandlungs‑ und Task‑Force‑Formaten zwischen Betriebsräten, Arbeitgebern und Politik sichtbar, um Tarifbindung, Künd",
+      "controversial_points": "Im deutschen Mediendiskurs kollidieren einerseits die liberale Vorstellung einer flexiblen, marktorientierten Arbeitswelt – verkörpert durch Forderungen nach geringeren Kündigungsschutz, Ausweitung von Sonntagsöffnungen und einer Deregulierung von Plattform‑ und Home‑Office‑Modellen – mit einer Gegenbewegung, die soziale Sicherungsmechanismen wie den Mindestlohn, Tarifbindung und das Bürgergeld als unverzichtbare Grundpfeiler gegen wachsende Prekarisierung und den Fachkräftemangel verteidigt; diese Gegenüberstellung spiegelt einen tieferliegenden Wertebruch zwischen einer auf Wettbewerbsfähigkeit und individueller Verantwortung setzenden Wirtschaftsliberalität und einer solidarisch‑staatlichen Auffassung von Arbeitsschutz und sozialer Gerechtigkeit wider. Gleichzeitig entsteht ein struktureller Konflikt zwischen der politischen Agenda, die durch digitale Transformation und Automatisierung neue Qualifikationsanforderungen schafft, und den institutionellen Realitäten von Gewerkschaften, Betriebsräten und dem Bildungssystem, die sich teils überfordert fühlen, weil sie einerseits die Beschäftigungs‑ und Qualifizierungs‑sicherheit garantieren sollen, andererseits aber von einer von Wirtschaft und Medien propagierten „Future‑of‑Work“-Narrative, die schnelle Flexibilisierung und Entgrenzung von Arbeitszeit fordert, stark unter Druck gesetzt werden."
+    },
+    "en": {
+      "shared_perspectives": "German media, regardless of political orientation, converge on the view that Germany’s looming skills shortage and rapid automation demand a systematic, state‑backed upskilling programme that links vocational training to digital competencies, while simultaneously preserving the collective‑bargaining and works‑council infrastructure as the primary safeguard for workers’ rights. At the same time, there is broad agreement that the current minimum‑wage and social‑security framework must be adjusted—not by abandoning the wage floor, but by introducing targeted, income‑support measures (e.g., basic‑income pilots or expanded Bürgergeld) that protect low‑paid and precarious workers in an increasingly platform‑driven, hybrid‑office labour market.",
+      "controversial_points": "German media discourse pits the left‑liberal vision of a reinforced social partnership—higher minimum wages, strong collective bargaining, universal basic income and state‑driven reskilling—against a conservative‑liberal narrative that frames labour flexibility, deregulated home‑office, and employer‑led skill investment as the only viable response to automation and platform work, exposing a structural clash between collective welfare provision and market‑driven individualism. A parallel fault line runs between far‑right outlets, which portray social security measures and workers’ rights as “privileges” that burden the economy, and progressive voices that defend them as essential safeguards, revealing a deeper contest over the legitimacy and scope of the German welfare state. Finally, the debate over digitalisation and the future of work is divided between those who demand state‑mediated regulation of platform employment and equitable pay (left/liberal) and those who champion self‑responsibility, entrepreneurial freedom and minimal state interference (economic‑liberal/conservative), a conflict that structures the entire discourse on how Germany will adapt to technological change."
+    }
+  },
+  "cached_at": "2026-07-07T07:51:34.377372"
 }

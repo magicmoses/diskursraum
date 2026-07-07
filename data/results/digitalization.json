@@ -1,58 +1,91 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 124,
+  "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 22,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 132,
       "sample_titles": [
-        "Künstliche Intelligenz: Anthropic veröffentlicht neues Hochleistungsmodell „Fable“",
-        "Kolumne „Out of the box“: Die Innovationskraft wandert aus",
-        "Konferenz WWDC: „Von Grund auf mit KI neu gebaut”: Apple stellt lang erwartete neue Siri vor",
-        "Konferenz WWDC: „Von Grund auf mit KI neu gebaut”: Apple stellt lang erwartete neue Siri vor"
+        "Business-Ticker: Samsung verbucht nächsten Rekordgewinn",
+        "U-Boote aus Kiel: TKMS bekommt Zuschlag für Milliarden-Auftrag aus Kanada",
+        "Riesen-Rechenzentren: Der Kampf gegen KI am Großen Salzsee",
+        "Auch ohne Raffael: Engel sind genug da"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-anthropic-veroeffentlicht-neues-hochleistungsmodell-fable/100231404.html",
-        "https://www.handelsblatt.com/meinung/kolumnen/kolumne-out-of-the-box-die-innovationskraft-wandert-aus/100231405.html",
-        "https://www.handelsblatt.com/technik/it-internet/technologie-apple-stellt-lang-erwartete-neue-ki-siri-vor/100230539.html",
-        "https://www.handelsblatt.com/technik/it-internet/wwdc-apple-stellt-lang-erwartete-neue-siri-vor/100230539.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-samsung-verbucht-naechsten-rekordgewinn-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/tkms-erhaelt-milliarden-auftrag-fuer-kanadas-u-boot-flotte-201001761.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/great-salt-lake-protest-gegen-ki-rechenzentrum-in-utah-200977104.html",
+        "https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/am-herkunftsort-von-raffaels-sixtinischer-madonna-quicklebendige-engel-201001242.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 5
+        },
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "confusion",
+          "count": 4
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 94,
+      "sample_titles": [
+        "Von Mini-Bike bis zur WM - MotoGP-Star macht deutsches Mega-Talent stark",
+        "US-Prozess nach Mord an Aktivisten - Kirk-Witwe mit Trump-Sohn vor Gericht",
+        "Kosten für Unterhalt explodieren! - Trennungseltern schulden dem Staat Milliarden",
+        "Fifa schießt gegen Uefa zurück - Zoff um WM-Skandal eskaliert!"
+      ],
+      "urls": [
+        "https://www.bild.de/sport/mehr-sport/fynn-kratochwil-will-sieg-am-sachsenring-rookies-cup-talent-im-fokus-6a4bd1c91cbe5f3a786a8dec",
+        "https://www.bild.de/politik/ausland-und-internationales/us-prozess-nach-mord-an-aktivisten-kirk-witwe-mit-trump-sohn-vor-gericht-6a4c1ca71cbe5f3a786a913e",
+        "https://www.bild.de/politik/inland/unterhalt-nicht-gezahlt-getrennte-eltern-schulden-dem-staat-milliarden-6a4b8fb6d38ff307b9185d2a",
+        "https://www.bild.de/sport/fussball/wm-2026-fifa-schiesst-gegen-uefa-zurueck-im-wm-skandal-um-rote-karte-6a4c1998b2ab39bc4a3235b8"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
         {
           "emotion": "excitement",
-          "count": 2
+          "count": 3
         },
         {
-          "emotion": "admiration",
-          "count": 1
+          "emotion": "pride",
+          "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 1
+          "emotion": "fear",
+          "count": 3
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 14,
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 84,
       "sample_titles": [
-        "umstrittenes KI-Modell: Anthropic veröffentlicht eingeschränkte Version von Mythos",
-        "EU-Zwangsmaßnahme: WhatsApp muss andere KI-Anbieter zulassen",
-        "Lernen mit Sprachmodellen: Macht Künstliche Intelligenz das BWL-Studium überflüssig?",
-        "Konferenz WWDC 2026: Ist Apples neue Siri jetzt intelligent?"
+        "\"Ein Kieswerk nach dem anderen schließt\"",
+        "Pflegefamilien dringend gesucht",
+        "Straßenexperiment in Wuppertal",
+        "Jugendliche stellen sich dem Eifelsteig"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/anthropic-veroeffentlicht-eingeschraenkte-version-von-mythos-200914511.html",
-        "https://www.faz.net/aktuell/wirtschaft/whatsapp-muss-andere-ki-anbieter-zulassen-200914253.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/hoersaal/macht-ki-das-bwl-studium-ueberfluessig-accg-200886409.html",
-        "https://www.faz.net/aktuell/technik-motor/digital/das-kann-die-neue-apple-siri-ki-200909860.html"
+        "https://www1.wdr.de/nrw/kies-abbau-niederrhein-holemans-regionalplan-100.html",
+        "https://www1.wdr.de/nrw/pflegefamilien-inobhutnahme-jugendamt-112.html",
+        "https://www1.wdr.de/nrw/bergisches-land/wuppertal/erste-hilfe-kind-helfen-wuppertal-deutsches-rotes-kreuz-100.html",
+        "https://www1.wdr.de/nrw/aachen-eifel/staedteregion-aachen/eifelsteig-daltongymnasium-aachen-schueler-projektwoche-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -65,36 +98,40 @@
           "count": 2
         },
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "realization",
+          "count": 2
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 13,
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 82,
       "sample_titles": [
-        "Mord-Prozess gegen Gina H.  - Die Trauerrede für Fabian ließ sie ChatGPT schreiben",
-        "EU-Kommission greift durch - WhatsApp muss andere KI-Anbieter zulassen",
-        "Was an dem WhatsApp-Kettenbrief dran ist - Liest die Meta-KI wirklich meine Chats?",
-        "Chef sieht, ob Sie im Büro sind! - Teams startet neue Tracking-Funktion"
+        "TKMS erhält historischen Auftrag aus Kanada",
+        "„Nein Bro, ich habe die Trump-Karte“ – KI-Video von entsperrtem US-Stürmer geht viral",
+        "Dann bezeichnet Donald Trump Rapperin Nicki Minaj als „heiß“",
+        "Tillman-Freistoß lässt das Stadion beben"
       ],
       "urls": [
-        "https://www.bild.de/news/inland/mordprozess-gina-h-liess-chatgpt-trauerrede-fuer-fabian-schreiben-6a280813405f5b69b799b9e5",
-        "https://www.bild.de/politik/eu-kommission-whatsapp-muss-andere-ki-anbieter-zulassen-6a28305f87d7db02baee07e0",
-        "https://www.bild.de/leben-wissen/was-an-dem-whatsapp-kettenbrief-dran-ist-liest-die-meta-ki-wirklich-meine-chats-6a280dbe2f1d399245057cff",
-        "https://www.bild.de/leben-wissen/digital/microsoft-teams-erkennt-kuenftig-automatisch-den-arbeitsort-6a27d11fb20db0d89b65a21b"
+        "https://www.welt.de/regionales/hamburg/article6a4c096ed3ad550c6d65f730/tkms-erhaelt-historischen-auftrag-aus-kanada-kieler-unternehmen-baut-zwoelf-u-boote.html",
+        "https://www.welt.de/sport/fussball/wm/article6a4c22b3b2ab39bc4a3235ee/usa-belgien-nein-bro-ich-habe-die-trump-karte-ki-video-von-us-stuermer-geht-viral.html",
+        "https://www.welt.de/politik/ausland/article6a4c3f92b2ab39bc4a323684/usa-donald-trump-schwaermt-von-rapperin-nicki-minaj-und-bezeichnet-sie-als-heiss.html",
+        "https://www.welt.de/sport/fussball/wm/video6a4c6147b2ab39bc4a32379f/usa-belgien-highlights-tillman-freistoss-laesst-das-stadion-beben.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
           "count": 1
         },
         {
-          "emotion": "disappointment",
+          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -103,48 +140,32 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 11,
+      "article_count": 78,
       "sample_titles": [
-        "Neues vom Pannen-Bahnhof: Stuttgart 21: Mehr als 1000 Kilometer Kabel wohl falsch verlegt",
-        "Leistungsstark, aber begrenzt: Anthropic veröffentlicht entschärfte Version von KI-Modell Mythos",
-        "Gebühren sollen entfallen: EU zwingt Meta zum Kurswechsel bei KI-Chatbots",
-        "Im Bett mit Sophie Turner: Kit Harington erinnert sich an \"ekelhafte\" Sexszenen"
+        "Jobabbau setzt Microsoft zu: Chip-Werte geben Wall Street Auftrieb",
+        "\"Enttäuschend\": Prinz Harry übernachtet während London-Reise nicht im Buckingham-Palast",
+        "Kirche warnt vor Liberalisierung: Bundestags-Wirtschaftsausschuss wirbt für mehr Sonntagsöffnungen im Handel",
+        "\"Bevorzugter Lieferant\": Kanada vergibt U-Boot-Milliardenauftrag an deutsche Werft TKMS"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Stuttgart-21-Mehr-als-1000-Kilometer-Kabel-wohl-falsch-verlegt-id30948001.html",
-        "https://www.n-tv.de/wirtschaft/Anthropic-veroeffentlicht-entschaerfte-Version-von-KI-Modell-Mythos-id30948334.html",
-        "https://www.n-tv.de/wirtschaft/EU-zwingt-Meta-zum-Kurswechsel-bei-KI-Chatbots-id30947926.html",
-        "https://www.n-tv.de/leute/Kit-Harington-erinnert-sich-an-ekelhafte-Sexszenen-id30946964.html"
+        "https://www.n-tv.de/wirtschaft/Chip-Werte-geben-Wall-Street-Auftrieb-id31055234.html",
+        "https://www.n-tv.de/leute/Prinz-Harry-uebernachtet-waehrend-London-Reise-nicht-im-Buckingham-Palast-id31055423.html",
+        "https://www.n-tv.de/wirtschaft/Bundestags-Wirtschaftsausschuss-wirbt-fuer-mehr-Sonntagsoeffnungen-im-Handel-id31055407.html",
+        "https://www.n-tv.de/wirtschaft/Kanada-vergibt-U-Boot-Milliardenauftrag-an-deutsche-Werft-TKMS-id31055333.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 10,
-      "sample_titles": [
-        "Liest eine KI Chatnachrichten mit?",
-        "WhatsApp muss andere KI-Anbieter zulassen",
-        "35-Milliarden-Kredit für Anthropic weckt Fantasie",
-        "Frankfurter Student gewinnt Entwickler-Wettbewerb bei Apple mit KI-App"
-      ],
-      "urls": [
-        "https://www1.wdr.de/nrw/whatsapp-kettenbrief-fake-100.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/whatsapp-ki-europaeische-union-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-megakredit-fuer-anthropic-100.html",
-        "https://www.hessenschau.de/wirtschaft/frankfurter-student-gewinnt-entwickler-wettbewerb-bei-apple-mit-ki-app-v1,frankfurter-gewinnt-apple-wettbewerb-100.html"
-      ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 1
+          "emotion": "annoyance",
+          "count": 4
         },
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "amusement",
+          "count": 3
+        },
+        {
+          "emotion": "sadness",
+          "count": 3
         }
       ]
     },
@@ -152,57 +173,127 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 63,
       "sample_titles": [
-        "Apple kritisiert EU für Verzögerung bei Siri AI: »Wir sind sehr frustriert«",
-        "Christian Eriksen: Fußballstar erholt sich zu Hause bei seiner Familie",
-        "WWDC 2026: Apple stellt Siri AI vor",
-        "Apple stellt auf Entwicklerkonferenz WWDC neue KI-Version von Siri vor"
+        "WM 2026 live: USA - Belgien im Liveticker - Belgien kickt Gastgeber aus dem Turnier",
+        "Sonntags-Öffnungszeiten: Politik und Handel drängen auf mehr Sonntagsöffnungen",
+        "Rüstung: Kanada will bis zu zwölf U-Boote bei deutscher Werft TKMS bestellen",
+        "Künstliche Intelligenz: Microsoft will Belegschaft um zwei Prozent reduzieren"
       ],
       "urls": [
-        "https://www.spiegel.de/netzwelt/apple-kritisiert-eu-fuer-verzoegerung-bei-siri-ai-wir-sind-sehr-frustriert-a-462fb85e-d03e-42e1-84a7-6cf3086ffad3#ref=rss",
-        "https://www.spiegel.de/sport/fussball/christian-eriksen-fussballstar-erholt-sich-zu-hause-bei-seiner-familie-a-e5e6eed1-ef50-41f5-805c-426ff8fff602#ref=rss",
-        "https://www.spiegel.de/netzwelt/gadgets/wwdc-2026-apple-stellt-siri-ai-vor-a-e6d2ac38-c86a-4819-9ae7-07b82faef3e7#ref=rss",
-        "https://www.spiegel.de/netzwelt/gadgets/apple-stellt-auf-entwicklerkonferenz-wwdc-neue-ki-version-von-siri-vor-a-3a62e926-c979-40df-a760-110612f3e1c5#ref=rss"
+        "https://www.spiegel.de/sport/fussball/wm-2026-live-usa-belgien-im-liveticker-a-27fbb586-ea6e-4a5e-838f-010ece86724d#ref=rss",
+        "https://www.spiegel.de/wirtschaft/service/sonntags-oeffnungszeiten-politik-und-handel-draengen-auf-mehr-sonntagsoeffnungen-a-85779075-e261-4bdf-ab8a-4e3877ccda14#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/ruestung-kanada-bestellt-ein-dutzend-u-boote-bei-deutscher-werft-tkms-a-470a6a87-5ed4-49f2-8ce4-4cfba383b1cb#ref=rss",
+        "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-microsoft-will-belegschaft-um-zwei-prozent-reduzieren-a-3f97e9dc-9a97-49b3-9d2c-c9edb75b97fd#ref=rss"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "admiration",
+          "count": 2
         },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "sadness",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 54,
+      "sample_titles": [
+        "Zeit für Kinder: Neue Regeln beim Elterngeld: Was plant Prien?",
+        "Nato-Gipfel in der Türkei: Umstritten, aber eng mit Trump - Nato zu Gast bei Erdogan",
+        "Gründerbranche: KI-Boom sorgt für Gründungsrekord bei deutschen Start-ups",
+        "„Deadly Patient“: „Ich sollte da gestorben haben\": KI-übersetzter Film bei Amazon geht viral"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/zeit-fuer-kinder--neue-regeln-beim-elterngeld--was-plant-prien--37651858.html",
+        "https://www.stern.de/politik/ausland/nato-gipfel-in-der-tuerkei--umstritten--aber-eng-mit-trump---nato-zu-gast-bei-erdogan-37651892.html",
+        "https://www.stern.de/digital/gruenderbranche--ki-boom-sorgt-fuer-gruendungsrekord-bei-deutschen-start-ups-37651882.html",
+        "https://www.stern.de/digital/homeentertainment/amazon-prime-streicht-ki-uebersetzten-film---sollte-da-gestorben-haben--37650906.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 4
+        },
+        {
+          "emotion": "annoyance",
+          "count": 4
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 43,
+      "sample_titles": [
+        "Ukraine-Krieg: Tausende Kilometer hinter der Front – Ukrainische Drohnen greifen größte Ölraffinerie in Russland an",
+        "Krypto: 216 Millionen Euro – Saylor verkauft weitere Bestände an Bitcoin",
+        "+++ Ukraine-Krieg +++: 2400 Kilometer hinter der Front – Ukrainische Drohnen greifen größte Ölraffinerie Russlands an",
+        "Technologie: „Größter Treiber von Veränderung seit 25 Jahren“: Wie KI die Banken umkrempelt"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/politik/international/omsk-ukrainische-drohnen-greifen-groesste-oelraffinerie-in-russland-an/100238273.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/krypto-216-millionen-euro-saylor-verkauft-weitere-bestaende-an-bitcoin/100238275.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-ukrainische-drohnen-greifen-oelraffinerie-in-sibirien-an/27982126.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/technologie-wie-ki-die-banken-veraendert-die-acht-wichtigsten-erkenntnisse-01/100236555.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 4
         },
         {
-          "emotion": "admiration",
+          "emotion": "amusement",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 9,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 36,
       "sample_titles": [
-        "Apples neue Siri AI lässt Europas iPhones außen vor",
-        "Apples neue Siri AI lässt Europas iPhones außen vor",
-        "„Bestes Netz für Deutschland“ – jetzt zeigt sich das wahre Ausmaß des Glasfaser-Irrtums",
-        "KI-Forscher warnt – „Alle Tests schlagen Alarm, die Sirenen heulen. Und wir ignorieren das einfach“"
+        "Wildparkierer in autoarmer Siedlung der Stadt: Zürich engagiert eine private Sicherheitsfirma",
+        "Gewalttätige Schüler, hilflose Lehrer, verzweifelte Eltern: wie weiter an der «Problemschule» in Winterthur?",
+        "China feuert eine ballistische Rakete in die atomwaffenfreie Zone des Pazifiks",
+        "Die Allmend ist Zürichs grösstes Hundeparadies. Nun macht die Stadt das rechte Sihlufer zur Verbotszone"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/article6a2710860a7678c39c90b428/apple-neue-siri-ai-vorgestell-europas-iphones-aussen-vor.html",
-        "https://www.welt.de/wirtschaft/article6a2710860a7678c39c90b428/neuheiten-fuer-apple-geraete-apples-neue-siri-ai-laesst-europas-iphones-aussen-vor.html",
-        "https://www.welt.de/wirtschaft/plus6a258c3954cb5c359ee00003/glasfaserausbau-jetzt-zeigt-sich-das-wahre-ausmass-des-breitband-irrtums.html",
-        "https://www.welt.de/wirtschaft/article6a25800c27d9ac9142ccde0c/ki-forscher-warnt-alle-tests-schlagen-alarm-die-sirenen-heulen-und-wir-ignorieren-das-einfach.html"
+        "https://www.nzz.ch/zuerich/zuerich-private-sicherheitsfirma-ueberwacht-wildparkierer-in-autoarmer-siedlung-ld.10013683",
+        "https://www.nzz.ch/zuerich/gewalttaetige-schueler-hilflose-lehrer-verzweifelte-eltern-wie-weiter-an-der-problemschule-in-winterthur-ld.10014017",
+        "https://www.nzz.ch/international/china-feuert-eine-ballistische-rakete-in-die-atomwaffenfreie-zone-des-pazifiks-ld.10014274",
+        "https://www.nzz.ch/zuerich/allmend-in-zuerich-stadt-fuehrt-hunde-verbotszone-am-rechten-sihlufer-ein-ld.10014269"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
           "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
         },
         {
           "emotion": "optimism",
@@ -214,77 +305,64 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 6,
+      "article_count": 29,
       "sample_titles": [
-        "Wettbewerb: EU verlangt: Whatsapp muss andere KI-Anbieter kostenlos zulassen",
-        "Apple und KI: Siri ist jetzt quasi allwissend",
-        "Künstliche Intelligenz: Was tun gegen Angst vor KI?",
-        "Digitalisierung: „Muenchen App“ wird zum 1. Juli eingestellt"
+        "Krieg in der Ukraine: Trump möchte wohl Gespräche mit Selenskij über ein Kriegsende führen",
+        "Vor dem Nato-Gipfel: Deutscher U-Boot-Bauer steht vor Zehn-Milliarden-Auftrag aus Kanada",
+        "Aktion in Grafing: Eintauchen in ein lebenswichtiges Thema",
+        "Neubau in Germering: Kita am Hochhaus"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/eu-whatsapp-deutschland-ki-zugang-li.3496354",
-        "https://www.sueddeutsche.de/wirtschaft/apple-siri-iphone-ki-datenschutz-li.3493005",
-        "https://www.sueddeutsche.de/leben/intelligenz-angst-generation-z-ki-li.3489743",
-        "https://www.sueddeutsche.de/muenchen/muenchen-app-eingestellt-freizeit-aktivitaeten-li.3492892"
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-nato-putin-selenskij-gespraeche-li.3500126",
+        "https://www.sueddeutsche.de/wirtschaft/tkms-u-boot-auftrag-kanada-milliarden-deal-werft-li.3511394",
+        "https://www.sueddeutsche.de/muenchen/ebersberg/grafing-schwimmenlernen-freibad-wasserwacht-li.3507392",
+        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/germering-kita-wolkennest-hochhaus-gerwebegebiet-einweihung-baustelle-li.3503807"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 24,
+      "sample_titles": [
+        "Buch über die Umweltbewegung: Alles egal ist auch keine Haltung",
+        "43. Filmfest München: Ganz im Zeichen der Überraschung",
+        "Streit vor Nato-Gipfel: Wadephul springt Israel im Streit mit der Türkei bei",
+        "Elterliche Aufsichtspflicht: Einmal gratis Babysitten im Freibad"
+      ],
+      "urls": [
+        "https://taz.de/Buch-ueber-die-Umweltbewegung/!6186125/",
+        "https://taz.de/43-Filmfest-Muenchen/!6193720/",
+        "https://taz.de/Streit-vor-Nato-Gipfel/!6193693/",
+        "https://taz.de/Elterliche-Aufsichtspflicht/!6187848/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 3
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Mythos-KI von Anthropic: Anthropic veröffentlicht Variante von KI-Modell Mythos",
-        "Apple Entwicklerkonferenz: Jetzt muss Siri Gas geben",
-        "Arbeitsvermittlung: Bärbel Bas plant Digitalisierung der Arbeitsvermittlung",
-        "Künstliche Intelligenz: SpaceX erhält milliardenschweren KI-Auftrag von Google"
-      ],
-      "urls": [
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-06/anthropic-mythos-ki-modell-cyberangriffe-sicherheit",
-        "https://www.zeit.de/digital/mobil/2026-06/apple-wwdc-siri-kuenstliche-intelligenz-john-ternus-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-06/arbeitsvermittlung-reform-buergerfreundlichkeit-digitalisierung-baerbel-bas",
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-06/kuenstliche-intelligenz-spacex-boersengang-grossauftrag-google"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Apple stellt seine neue KI vor. Diesmal soll sie wirklich funktionieren",
-        "«Je mehr KI ich anzapfe, desto mehr Tokens verbrauche ich. Deshalb kann das exponentiell teuer werden»",
-        "Plötzlich brauchen alle Kapital: Der KI-Boom saugt den Finanzmärkten die Liquidität ab",
-        "PODCAST «NZZ WEEKEND» - KI-Forscher Marcel Salathé: «Wir verblöden nicht, aber wir sind blöd genug, immer wieder denselben Fehler zu machen»"
-      ],
-      "urls": [
-        "https://www.nzz.ch/technologie/apple-stellt-seine-neue-ki-vor-diesmal-soll-sie-wirklich-funktionieren-ld.10010461",
-        "https://www.nzz.ch/wirtschaft/je-mehr-ki-ich-anzapfe-desto-mehr-tokens-verbrauche-ich-deshalb-kann-das-sehr-schnell-exponentiell-teuer-werden-ld.10010028",
-        "https://www.nzz.ch/wirtschaft/ploetzlich-brauchen-alle-kapital-der-ki-boom-saugt-den-finanzmaerkten-die-liquiditaet-ab-ld.10009862",
-        "https://www.nzz.ch/podcast/ki-forscher-marcel-salathe-wir-verbloeden-nicht-aber-wir-sind-bloed-genug-immer-wieder-denselben-fehler-zu-machen-ld.10009889"
-      ],
-      "dominant_emotion": "surprise",
-      "top_emotions": [
-        {
-          "emotion": "surprise",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -293,21 +371,25 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 5,
+      "article_count": 19,
       "sample_titles": [
-        "KI-Riesen vor Börsengang: Erst Boom, dann Crash?",
-        "Apple will mit Siri AI im KI-Wettlauf aufholen",
-        "Digitalminister Karsten Wildberger zum Netzausbau",
-        "Mit Daten und Algorithmen gegen die Elfenbein-Mafia"
+        "Ikkimel mit \"Fußballmänner\"",
+        "Zu wenig Sprache, zu viel Bildschirm: Minischule soll helfen",
+        "Sylvester Stallone wird 80: So wurde er zur Action-Ikone",
+        "Kurz vor Nato-Gipfel: Heftige Luftangriffe auf Kiew"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/unternehmen/ki-openai-anthropic-chatgpt-boerse-usa-ki-dotcom-blase-100.html",
-        "https://www.zdfheute.de/wirtschaft/unternehmen/apple-ki-siri-wwdc-eu-einfuehrung-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-der-tag/ua-ausbau-von-glasfaser-u-a-5192470.html",
-        "https://www.zdfheute.de/panorama/elefanten-elfenbeinmafia-ki-mosambik-afrika-100.html"
+        "https://www.zdfheute.de/video/zdf-morgenmagazin/ikkimel-102.html",
+        "https://www.zdfheute.de/politik/deutschland/bildung-foerderung-einschulung-minischule-100.html",
+        "https://www.zdfheute.de/panorama/prominente/sylvester-stallone-80-geburtstag-100.html",
+        "https://www.zdfheute.de/politik/ausland/ukraine-russland-kiew-angriffe-nato-selenskyj-trump-100.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "surprise",
       "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
         {
           "emotion": "admiration",
           "count": 1
@@ -318,43 +400,81 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 18,
       "sample_titles": [
-        "Nach Gastbeitrag Voigt soll auch Holocaust-Rede mit KI geschrieben haben",
-        "Digital Markets Act EU sperrt iPhone-Nutzer von neuer Apple-KI aus",
-        "KI-Datenzentren fordern mehr Energie Brüssel will Bürger zum Stromsparen bringen",
-        "KI-Boom und Börsenmacht Wachablösung im Nikkei: SoftBank verdrängt Toyota"
+        "Mecklenburg-Vorpommern Linkspartei blockiert Veröffentlichung zur AfD im Verfassungsschutzbericht",
+        "Angriffe auf Journalisten Wetterleuchten einer neuen RAF",
+        "Werben für Kinderlosigkeit Sterilisationspropaganda ohne Widerspruch",
+        "Krise Wieder 4.000 Jobs bedroht – Porsche feuert drei Top-Managerinnen"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/voigt-soll-sogar-holocaust-rede-mit-ki-geschrieben-haben/",
-        "https://jungefreiheit.de/wirtschaft/2026/eu-sperrt-iphone-nutzer-von-neuer-apple-ki-aus/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bruessel-will-buerger-zum-stromsparen-bringen/",
-        "https://jungefreiheit.de/wirtschaft/2026/wachabloesung-im-nikkei-softbank-verdraengt-toyota/"
+        "https://jungefreiheit.de/politik/deutschland/2026/linkspartei-blockiert-veroeffentlichung-zur-afd-im-verfassungsschutzbericht/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/wetterleuchten-einer-neuen-raf/",
+        "https://jungefreiheit.de/kultur/medien/2026/sterilisationspropaganda-ohne-widerspruch/",
+        "https://jungefreiheit.de/wirtschaft/2026/wieder-4-000-jobs-bedroht-porsche-feuert-drei-top-managerinnen/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 4,
-      "sample_titles": [
-        "Digitalisierung in Deutschland: Die Staatsmodernisierung zieht sich",
-        "Fußball-WM 2026: Gianni Infantinos beinahe grenzenlose Allmacht",
-        "Wie klimaschädlich ist KI?: Die drei wichtigsten Klima-News der Woche",
-        "Digitale Souveränität: Europa will intelligenter werden"
-      ],
-      "urls": [
-        "https://taz.de/Digitalisierung-in-Deutschland/!6185712/",
-        "https://taz.de/Fussball-WM-2026/!6178485/",
-        "https://taz.de/Wie-klimaschaedlich-ist-KI/!6184815/",
-        "https://taz.de/Digitale-Souveraenitaet/!6184045/"
-      ],
-      "dominant_emotion": "amusement",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "amusement",
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 18,
+      "sample_titles": [
+        "Dax mit neuem Rekord – Anleger optimistisch, aber nicht euphorisch – Halbleiteraktien gesucht",
+        "Gnadenlos frei – Fernando Pessoa: Ein anarchistischer Bankier",
+        "Blackbox KW 27 – AfD 1 / Antifa 0",
+        "AfD-Parteitag beginnt mit einer Sensation: Die Antifa blockiert sich selbst"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/wirtschaft/geldanlage/dax-rekord-anleger-optimistisch-halbleiteraktien/",
+        "https://www.tichyseinblick.de/feuilleton/buecher/gnadenlos-frei-fernando-pessoa-ein-anarchistischer-bankier/",
+        "https://www.tichyseinblick.de/kolumnen/blackbox/blackbox-kw-27-afd-1-antifa-0/",
+        "https://www.tichyseinblick.de/daili-es-sentials/afd-parteitag-beginnt-mit-sensation-antifa-blockiert-sich-selbst/"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 17,
+      "sample_titles": [
+        "KI-Texterkennung: Finde den Fehler",
+        "Unfall mit Schulbus: Kleinbus prallt gegen Dachvorsprung – Kinder leicht verletzt",
+        "António Guterres: António Guterres fordert Kontrollen für künstliche Intelligenz",
+        "Rekorde und Kuriositäten: Neuenkirchen: Ein Name, neun Orte, endlose Verwechslungen"
+      ],
+      "urls": [
+        "https://www.zeit.de/feuilleton/2026-07/ki-texterkennung-detektion-medienwissenschaft-schrift-autoren",
+        "https://www.zeit.de/news/2026-07/06/kleinbus-prallt-gegen-dachvorsprung-kinder-leicht-verletzt",
+        "https://www.zeit.de/politik/ausland/2026-07/antonio-guterres-kuenstliche-intelligenz-un-gefahren-regelwerk",
+        "https://www.zeit.de/news/2026-07/06/neuenkirchen-ein-name-neun-orte-endlose-verwechslungen"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "sadness",
           "count": 1
         },
         {
@@ -363,60 +483,81 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Künstliche Intelligenz: Bundesregierung gründet KI-Sicherheitsinstitut",
-        "Künstliche Intelligenz: Verliebt in einen Bot – Sind KIs die besseren Partner?",
-        "Anthropic plädiert für weltweite Pause bei KI-Entwicklung"
-      ],
-      "urls": [
-        "https://www.stern.de/digital/kuenstliche-intelligenz--bundesregierung-gruendet-ki-sicherheitsinstitut-37513998.html",
-        "https://www.stern.de/panorama/wissen/kuenstliche-intelligenz--verliebt-in-einen-bot---sind-kis-die-besseren-partner--37508424.html",
-        "https://www.stern.de/news/anthropic-plaediert-fuer-weltweite-pause-bei-ki-entwicklung-37496064.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 1,
+      "article_count": 6,
       "sample_titles": [
-        "Umfrage: Mehr als Hälfte der deutschen Unternehmen nutzt KI"
+        "Guterres fordert internationale KI-Regulierung",
+        "Supertaifun \"Bavi\" trifft Pazifikinsel Rota mit Wucht",
+        "News kompakt: Festnahmen in der Türkei vor NATO-Gipfel",
+        "Ukraine attackiert Erdölterminal in Sankt Petersburg"
       ],
       "urls": [
-        "https://www.dw.com/de/umfrage-mehr-als-hälfte-der-deutschen-unternehmen-nutzt-ki/a-77436206?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/guterres-fordert-internationale-ki-regulierung/a-77850890?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/supertaifun-bavi-trifft-pazifikinsel-rota-mit-wucht/a-77847700?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/news-kompakt-festnahmen-in-der-türkei-vor-nato-gipfel/a-77843147?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/ukraine-attackiert-erdölterminal-in-sankt-petersburg/a-77831115?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Gibt es eine ethische KI? - Wunderbare Menschheit und bedrohliche Technik",
+        "Film der Woche: „The Piano Tuner“ - Vom Wunderkind zum Panzerknacker"
+      ],
+      "urls": [
+        "https://www.cicero.de/kultur/gibt-es-eine-ethische-ki-wunderbare-menschheit-und-bedrohliche-technik",
+        "https://www.cicero.de/kultur/film-der-woche-the-piano-tuner-vom-wunderkind-zum-panzerknacker"
+      ],
+      "dominant_emotion": "amusement",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "amusement",
           "count": 1
         }
       ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Cancel Cuisine: Nogger Dir einen"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/cancel_cuisine_nogger_dir_einen"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "populist-mixed": 13,
-    "far-right": 4,
-    "right-conservative": 20,
-    "economic-liberal": 22,
-    "conservative-liberal": 20,
-    "left-liberal": 25,
-    "neutral": 16,
-    "left": 4
+    "populist-mixed": 94,
+    "right-conservative": 160,
+    "conservative-liberal": 170,
+    "left-liberal": 163,
+    "neutral": 109,
+    "economic-liberal": 43,
+    "left": 24,
+    "far-right": 37
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zum Thema Digitalisierung, Künstliche Intelligenz und digitale Transformation zeigt sich eine breite Übereinstimmung darin, dass die Entwicklung und Regulierung von KI-Technologien eine zentrale Herausforderung für Deutschland und Europa darstellt, wobei insbesondere die Themen Datenschutz, Cybersicherheit und die Notwendigkeit einer europäischen Regulierung von KI-Anbietern wie WhatsApp und Apple im Fokus stehen. Darüber hinaus wird die Bedeutung von Investitionen in die digitale Infrastruktur, wie den Breitbandausbau, und die Förderung von digitaler Bildung und Forschung betont, um Deutschland und Europa wettbewerbsfähig im globalen KI-Markt zu halten. Die Diskussion um die Auswirkungen von KI auf den Arbeitsmarkt und die Gesellschaft zeigt auch eine Übereinstimmung darin, dass eine umfassende Debatte über die Chancen und Risiken von KI und Digitalisierung notwendig ist, um eine verantwortungsvolle und nachhaltige Entwicklung dieser Technologien zu gewährleisten.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Digitalisierung, Künstlicher Intelligenz und digitaler Transformation zeigen sich strukturelle Konfliktlinien zwischen den Befürwortern einer schnellen und unregulierten Einführung von KI-Technologien und denjenigen, die eine stärkere Regulierung und Kontrolle der Auswirkungen auf den Arbeitsmarkt, den Datenschutz und die Umwelt fordern. Eine weitere Spannungslinie verläuft zwischen den Vertretern einer marktwirtschaftlichen Orientierung, die die Innovationskraft der Wirtschaft durch KI-Entwicklungen sehen, und denjenigen, die eine stärkere Rolle des Staates bei der Gestaltung der digitalen Transformation und der Sicherung der digitalen Souveränität Deutschlands und Europas einfordern. Die Debatte um die Regulierung von KI-Technologien, insbesondere durch den EU AI Act, und die Auswirkungen auf die Wirtschaft und die Gesellschaft spiegelt diese Konfliktlinien wider und zeigt, dass die Diskussion um die digitale Zukunft Deutschlands und Europas von grundlegend unterschiedlichen Weltbildern und politischen Konzepten geprägt ist.",
-  "cached_at": "2026-06-10T08:40:56.345480"
+  "statements": {
+    "de": {
+      "shared_perspectives": "Im deutschen Mediendiskurs besteht trotz unterschiedlicher politischer Ausrichtung Einigkeit darüber, dass ein flächendeckender Breitbandausbau und der Ausbau leistungsfähiger Rechenzentren als unverzichtbare Infrastruktur für die Wettbewerbsfähigkeit Deutschlands und Europas gelten. Gleichzeitig wird in nahezu allen Medienlagern die Notwendigkeit betont, klare regulatorische Rahmenbedingungen – insbesondere den EU‑AI‑Act – zu etablieren, um Innovationspotenziale zu sichern und gleichzeitig Datenschutz‑ sowie Sicherheitsrisiken zu begrenzen. Ein drittes gemeinsames Motiv ist die Forderung nach einer umfassenden digitalen Bildung und Qualifizierung, weil der Fachkräftemangel als zentrales Hindernis für die KI",
+      "controversial_points": "Der zentrale Konflikt im deutschen Mediendiskurs um Digitalisierung und KI verläuft zwischen einem technik‑optimistischen, wachstums‑ und sicherheitsorientierten Narrativ, das vor allem rechte‑konservative und wirtschaftsliberale Medien vertreten und KI als Schlüssel zur globalen Wettbewerbsfähigkeit und nationalen Verteidigung positionieren, und einem linksliberalen Gegenpol, der die Risiken für Datenschutz, Arbeitsmarkt und demokratische Teilhabe betont und die Technologie als potenzi"
+    },
+    "en": {
+      "shared_perspectives": "German media, irrespective of political orientation, converge on three substantive points: first, there is a broad consensus that Germany’s digital infrastructure—particularly broadband and 5G roll‑out—remains a strategic deficit that must be remedied through coordinated public investment and regulatory incentives. Second, coverage across the spectrum stresses that the EU AI Act and related data‑protection rules are shaping a “German‑specific” regulatory framework that must balance strict privacy standards with the need to keep domestic AI firms competitive, prompting calls for a national AI strategy and increased funding for research, talent development and cybersecurity. Third, despite divergent views on the social impact of automation, all outlets acknowledge that the rapid diffusion of generative AI and large‑language models will reshape the labour market, prompting a shared narrative that upskilling, digital education in schools and vocational training are urgent policy priorities to avoid a skills gap and preserve Germany’s industrial edge.",
+      "controversial_points": "German media discourse pits a market‑driven, growth‑oriented vision of AI—championed by right‑conservative and economic‑liberal outlets that stress competitiveness, sovereign tech champions and deregulated innovation—against a left‑liberal, data‑protectionist narrative that foregrounds social safety, strict EU AI‑Act regulation and the preservation of employment, thereby exposing a structural clash between profit‑centric digitalisation and a welfare‑state model of technological governance. A second fault line runs between nationalist calls for digital sovereignty—framing foreign AI dominance as a security threat and demanding German‑controlled infrastructure—and pro‑European integration arguments that view harmonised standards and cross‑border data flows as essential for a competitive digital single market, revealing a tension between sovereign control and supranational coordination. Finally, populist outlets amplify a cultural‑risk discourse that portrays AI as a source of job loss, surveillance and societal disruption, while technocratic and business‑oriented media present digital transformation as a panacea for structural economic problems, highlighting a deep divide between fear‑driven scepticism and optimism‑driven techno‑utopianism."
+    }
+  },
+  "cached_at": "2026-07-07T07:47:39.431052"
 }

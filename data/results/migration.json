@@ -1,134 +1,39 @@
 {
   "topic_id": "migration",
   "topic_label": "Migration & Asylpolitik",
-  "article_count": 276,
-  "candidate_count": 586,
+  "article_count": 800,
+  "candidate_count": 800,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 55,
+      "article_count": 136,
       "sample_titles": [
-        "SPD wirbt für Abbau der Grenzkontrollen – CDU hält Vorstoß für verfrüht",
-        "Merkel sieht „erfreulichen Fortschritt“ bei Migrationspolitik – und eigene Schuld am AfD-Aufstieg",
-        "„Auch in Deutschland angebracht“ – EU-Kommission drängt auf Abbau der Grenzkontrollen",
-        "„Solche Tricksereien sind mehr als schäbig“ – Bezahlkarte für Migranten steht erneut in der Kritik"
+        "„Wenn man so‘n Typ nicht an Ort und Stelle exekutiert, hat man nicht mehr alle Tassen im Schrank“",
+        "„Das ,grüne Wirtschaftswunder‘ ist ausgeblieben, diese Politik offensichtlich gescheitert“",
+        "„Ich kann und will Schüler nicht mit dem Nürnberger Trichter zu Demokraten machen“",
+        "„Wir brauchen Sicherheit in unserem Land“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a2739938d84dbd8a4ed976e/spd-wirbt-fuer-abbau-der-grenzkontrollen-cdu-haelt-vorstoss-fuer-verfrueht.html",
-        "https://www.welt.de/politik/deutschland/article6a23f9318d84dbd8a4ed6c73/angela-merkel-sieht-erfreulichen-fortschritt-bei-migrationspolitik-und-eigene-schuld-am-afd-aufstieg.html",
-        "https://www.welt.de/politik/deutschland/article6a2356d78d84dbd8a4ed669b/eu-kommission-draengt-auf-abbau-der-grenzkontrollen-auch-in-deutschland.html",
-        "https://www.welt.de/politik/deutschland/article6a229e6a9e32e33bafd53344/tauschboersen-solche-tricksereien-sind-mehr-als-schaebig-bezahlkarte-fuer-migranten-steht-erneut-in-der-kritik.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 32,
-      "sample_titles": [
-        "Lars Klingbeil „Wir sehen, dass Migration dieses Land reicher macht“",
-        "Nun 1,4 Mio. in Deutschland Ukraine-Flüchtlinge: Jetzt kommen vor allem wehrfähige Männer",
-        "Für Haushalt 2027 Innenministerium stoppt Finanzierung von NGO-Asylberatungen – Grüne außer sich",
-        "„Angemessener Lebensstandard“ als Richtschnur Europäischer Gerichtshof verbietet Deutschland Kürzungen von Asylleistungen"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/wir-sehen-dass-migration-dieses-land-reicher-macht/",
-        "https://jungefreiheit.de/politik/deutschland/2026/ukraine-fluechtlinge-jetzt-kommen-vor-allem-wehrfaehige-maenner/",
-        "https://jungefreiheit.de/politik/deutschland/2026/innenministerium-stoppt-finanzierung-von-ngo-asylberatungen-gruene-ausser-sich/",
-        "https://jungefreiheit.de/politik/deutschland/2026/europaeischer-gerichtshof-verbietet-deutschland-kuerzungen-von-asylleistungen/"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 24,
-      "sample_titles": [
-        "Vor Start der EU-Asylreform: SPD will Grenzkontrollen abbauen – Dobrindt sagt Nein",
-        "Vor Start der EU-Asylreform: SPD will Grenzkontrollen abbauen – Dobrindt sagt \"nein\"",
-        "Dobrindt will Einschränkungen: Zahl der wehrfähigen Ukrainer in Deutschland steigt massiv",
-        "Flug soll nachgeholt werden: Taliban sagen Sammelabschiebung nach Afghanistan ab"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/SPD-will-Grenzkontrollen-abbauen-Dobrindt-sagt-Nein-id30944593.html",
-        "https://www.n-tv.de/politik/SPD-will-Grenzkontrollen-abbauen-Dobrindt-sagt-nein-id30944593.html",
-        "https://www.n-tv.de/politik/Zahl-der-wehrfaehigen-Ukrainer-in-Deutschland-steigt-massiv-id30944312.html",
-        "https://www.n-tv.de/politik/Taliban-sagen-Sammelabschiebung-nach-Afghanistan-ab-id30896053.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 24,
-      "sample_titles": [
-        "SPD will deutsche Grenzkontrollen abbauen",
-        "Weniger Flüchtlinge - Hessen schließt zwei Unterkünfte",
-        "Das Saarland hat die wenigsten Zuwanderer bundesweit",
-        "EU-Migrationskommissar für Abbau der Grenzkontrollen"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/spd-grenzkontrollen-abbau-100.html",
-        "https://www.hessenschau.de/gesellschaft/weniger-fluechtlinge---hessen-schliesst-zwei-unterkuenfte-v1,erstaufnahmeeinrichtung-104.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/niedrige_nettozuwanderung_wanderungssaldo_saarland_100.html",
-        "https://www.tagesschau.de/ausland/europa/deutschland-grenzkontrollen-kritik-100.html"
+        "https://www.welt.de/vermischtes/article6a4a6eb1dbe2b30aced1ae97/uwe-boll-bei-hopf-kettner-wenn-man-son-typ-nicht-an-ort-und-stelle-exekutiert-hat-man-nicht-mehr-alle-tassen-im-schrank.html",
+        "https://www.welt.de/wirtschaft/plus6a3d148c507c0ee6f17a7d07/staedteplanung-das-gruene-wirtschaftswunder-ist-ausgeblieben-diese-politik-offensichtlich-gescheitert.html",
+        "https://www.welt.de/kultur/plus6a461c913f5c38e2aa5a640c/praesident-deutscher-lehrerverband-ich-kann-und-will-schueler-nicht-mit-dem-nuernberger-trichter-zu-demokraten-machen.html",
+        "https://www.welt.de/videos/video6a48f26bad32e994f875b44a/rede-von-weidel-beim-parteitag-wir-brauchen-sicherheit-in-unserem-land.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 2
+          "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 3
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "disapproval",
+          "count": 2
         }
       ]
     },
@@ -136,97 +41,64 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 19,
+      "article_count": 92,
       "sample_titles": [
-        "Neues EU-Asylsystem: Warum Deutschland nicht ganz bereit ist",
-        "Wegen gesunkener Zahlen: Hessen schließt Unterkünfte für Flüchtlinge",
-        "Reisefreiheit: EU-Kommission fordert Abbau von Grenzkontrollen in Deutschland",
-        "Grenzkontrollen: Eine Chance für das neue Asylsystem der EU"
+        "Unabhängigkeitstag der USA: Der Papst entscheidet sich für Lampedusa – und gegen Washington",
+        "Leo auf Lampedusa: Die Kraft der Barmherzigkeit",
+        "Business-Ticker: Uber stoppt offenbar Expansion von Essenslieferdienst in Europa",
+        "Business-Ticker: „Unzumutbare Wartezeiten“: Flughäfen kritisieren neue Grenzkontrollen"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/ausland/neues-eu-asylsystem-warum-deutschland-hinterher-hinkt-200908351.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/weniger-fluechtlinge-hessen-schliesst-unterkuenfte-200909546.html",
-        "https://www.faz.net/aktuell/politik/inland/eu-kommission-grenzkontrollen-in-deutschland-abbauen-accg-200903984.html",
-        "https://www.faz.net/aktuell/politik/ausland/grenzkontrollen-eine-chance-fuer-das-neue-eu-asylsystem-200901338.html"
+        "https://www.faz.net/aktuell/politik/ausland/papst-leo-xiv-auf-lampedusa-wuerde-der-migranten-accg-200999084.html",
+        "https://www.faz.net/aktuell/politik/ausland/leo-auf-lampedusa-die-kraft-der-barmherzigkeit-200999455.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-uber-stoppt-offenbar-expansion-von-essenslieferdienst-in-europa-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-flughaefen-beklagen-lange-wartezeiten-an-der-grenzkontrolle-faz-200452404.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "EU-Kommission fordert erneut Ende der Grenzkontrollen in Deutschland",
-        "Grenzkontrollen: Alexander Dobrindt will an Kontrollen festhalten",
-        "Migration: EuGH erklärt deutsche Kürzung von Asylleistungen für rechtswidrig",
-        "»Return Hubs«: Expertin kritisiert EU-Pläne zu Abschiebezentren außerhalb Europas"
-      ],
-      "urls": [
-        "https://www.spiegel.de/politik/eu-kommission-fordert-erneut-ende-der-grenzkontrollen-in-deutschland-a-9bb00f4e-412f-49ba-bd5b-be767359d7ce#ref=rss",
-        "https://www.spiegel.de/politik/grenzkontrollen-alexander-dobrindt-will-an-kontrollen-festhalten-a-2b78e507-6f8e-435b-92b0-e46e8ad237c9#ref=rss",
-        "https://www.spiegel.de/ausland/migration-eugh-erklaert-deutsche-kuerzung-von-asylleistungen-fuer-rechtswidrig-a-429c3119-4682-42b5-bccf-75db0351fb3e#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/return-hubs-expertin-kritisiert-eu-plaene-zu-abschiebezentren-ausserhalb-europas-a-88a7869b-e3c1-4fcb-a211-1b07933b3b75#ref=rss"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 16,
-      "sample_titles": [
-        "Integrationsbeauftragte packt aus - Zwangsehen, Schwulenhass – und der Staat schaut weg",
-        "Polizist packt über Abschiebungen aus - „Wer gewalttätig wird, wird belohnt“",
-        "Asylkarten-Betrug - So fließt deutsches Steuergeld an Schleuser!",
-        "EU-Einigung zu Abschiebezentren - Klares Signal an Asylbetrüger"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/integrationsbeauftragte-von-berlin-neukoelln-packt-aus-zwangsehen-schwulenhass-und-der-staat-schaut-weg-6a219e6f85a291ced3869458",
-        "https://www.bild.de/politik/inland/polizist-packt-aus-warum-deutschland-bei-den-abschiebungen-versagt-6a2143e1aa3fa782d14715b1",
-        "https://www.bild.de/politik/inland/asylkarten-betrug-so-fliesst-deutsches-steuergeld-an-schleuser-und-clans-6a17e0fc1233b05f95d0a5ef",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/eu-einigung-zu-abschiebezentren-klares-signal-an-asylbetrueger-6a1ef2e1aa3fa782d146f68e"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "realization",
+          "count": 4
         },
         {
           "emotion": "fear",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 3
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 68,
+      "sample_titles": [
+        "Migrationspolitik Jetzt spricht die EVP von „harter Asylwende“ an Europas Außengrenzen",
+        "Migrationskritischer Actionfilm „Citizen Vigilante“ Jetzt spricht Regisseur Uwe Boll: „Das ist politische Zensur“",
+        "Migrationspolitik Deutschland bleibt größter Asyl-Magnet für Afghanen",
+        "Mit Hilfe linker NGOs Gericht erklärt drei Grenzkontrollen für rechtswidrig"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/ausland/2026/jetzt-spricht-die-evp-von-harter-asylwende-an-europas-aussengrenzen/",
+        "https://jungefreiheit.de/debatte/interview/2026/citizen-vigilante-regisseur-uwe-boll-das-ist-politische-zensur/",
+        "https://jungefreiheit.de/politik/deutschland/2026/deutschland-bleibt-groesster-asyl-magnet-fuer-afghanen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/gericht-erklaert-drei-grenzkontrollen-fuer-rechtswidrig/"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -235,18 +107,348 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 15,
+      "article_count": 68,
       "sample_titles": [
-        "Weniger Geld in Massenunterkünften: Bundesregierung ignoriert Urteil zu Asyl-Leistungen",
-        "Abschiebezentren und härtere Strafen: EU verschärft ihre Migrationspolitik",
-        "Trotz Ukraine-Krieg: Wehrdienst in Russland für Bundesregierung kein Schutzgrund",
-        "Zwei Jahre Bezahlkarte für Geflüchtete: Endlich wieder mehr Solidarität"
+        "Meloni zwischen dem Papst und Trump: Die goldenen Zeiten sind vorbei",
+        "250. Geburtstag der USA: Papst Leo XIV. besucht Lampedusa",
+        "Rechte instrumentalisieren Stade-Morde: Hetze gegen Integrationsverein",
+        "Rechter Film „Citizen Vigilante“: Er besitzt so ein schönes Waffenlager"
       ],
       "urls": [
-        "https://taz.de/Weniger-Geld-in-Massenunterkuenften/!6185684/",
-        "https://taz.de/Abschiebezentren-und-haertere-Strafen/!6183569/",
-        "https://taz.de/Trotz-Ukraine-Krieg/!6182924/",
-        "https://taz.de/Zwei-Jahre-Bezahlkarte-fuer-Gefluechtete/!6180265/"
+        "https://taz.de/Meloni-zwischen-dem-Papst-und-Trump/!6193154/",
+        "https://taz.de/250-Geburtstag-der-USA/!6193419/",
+        "https://taz.de/Rechte-instrumentalisieren-Stade-Morde/!6193173/",
+        "https://taz.de/Rechter-Film-Citizen-Vigilante/!6192816/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "anger",
+          "count": 3
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 55,
+      "sample_titles": [
+        "Grenzkontrollen: Unerlaubte Einreisen nach Deutschland im ersten Halbjahr 2026 deutlich gesunken",
+        "Papst Leo XIV. besucht Lampedusa – »Ort der Hoffnung und der Menschlichkeit«",
+        "Julian Reichelt: Rechts-außen-Portal gewinnt an Einfluss - Podcast Firewall",
+        "Grenzkontrollen: Verwaltungsgericht München entscheidet drei Klagen"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/deutschland/grenzkontrollen-unerlaubte-einreisen-nach-deutschland-im-ersten-halbjahr-2026-deutlich-gesunken-a-e175fc6c-b760-419f-a3cf-8a6935317ac3#ref=rss",
+        "https://www.spiegel.de/panorama/papst-leo-xiv-besucht-lampedusa-ort-der-hoffnung-und-der-menschlichkeit-a-85cc3a7d-9181-4b13-b259-033fcafbf10e#ref=rss",
+        "https://www.spiegel.de/ausland/julian-reichelt-rechts-aussen-portal-gewinnt-an-einfluss-podcast-firewall-a-55a05405-e4d2-4379-94da-e4c07b0d4bc7#ref=rss",
+        "https://www.spiegel.de/panorama/grenzkontrollen-verwaltungsgericht-muenchen-entscheidet-drei-klagen-a-9cd1c866-201a-4efc-b0f7-88377e67b4fd#ref=rss"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 53,
+      "sample_titles": [
+        "Ministerium: Weniger Menschen suchen Asyl – niedrigste Zahl seit fünf Jahren",
+        "Ministerium: Weniger Menschen suchen Asyl – niedrigste Zahl seit fünf Jahren",
+        "\"Habt den Mut, anders zu denken\"",
+        "US-Gericht begrenzt Haftdauer von Einwanderern"
+      ],
+      "urls": [
+        "https://www.mdr.de/nachrichten/sachsen-anhalt/innenministerium-zahlen-asylbewerber,migration-asylsuchende-rueckgang-100.html",
+        "https://www.mdr.de/nachrichten/sachsen-anhalt/migration-asylsuchende-rueckgang-100.html",
+        "https://www.tagesschau.de/ausland/europa/italien-papst-lampedusa-100.html",
+        "https://www.tagesschau.de/ausland/amerika/us-gericht-einwanderer-100.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 5
+        },
+        {
+          "emotion": "fear",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 53,
+      "sample_titles": [
+        "Müssen aber erduldet werden: Gericht gibt Klägern gegen rechtswidrige Grenzkontrollen recht",
+        "\"Keine Gefahr für Gemeinschaft\": US-Einwanderungsbehörde nimmt Nonne auf Weg zur Kirche fest",
+        "Jeder Vierte geht in Rente: Ausländer federn Abgang der Boomer ab",
+        "Insgesamt 75 Menschen: Inselstaat erhält Millionen für ungewollte Migranten aus den USA"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Gericht-gibt-Klaegern-gegen-rechtswidrige-Grenzkontrollen-recht-id31041329.html",
+        "https://www.n-tv.de/politik/US-Einwanderungsbehoerde-nimmt-Nonne-auf-Weg-zur-Kirche-fest-id31038263.html",
+        "https://www.n-tv.de/politik/Auslaender-federn-Abgang-der-Boomer-ab-id31030748.html",
+        "https://www.n-tv.de/politik/Inselstaat-erhaelt-Millionen-fuer-ungewollte-Migranten-aus-den-USA-id31033654.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "fear",
+          "count": 2
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 47,
+      "sample_titles": [
+        "Ein Patient kostete 1,4 Millionen Franken: Kranke Georgier kommen in die Schweiz, um sich hier behandeln zu lassen",
+        "Ein Anstieg um 12 Prozent: Wie bewältigt Afghanistan die Rückkehr von 6 Millionen Migranten?",
+        "Zürcher Milieu-Beiz «Sonne»: Wo einst Prostituierte arbeiteten, ziehen nun Flüchtlinge ein – ist das der richtige Ort?",
+        "KOMMENTAR - Proteste in Südafrika: Die Steuerung der Migration ist ein wichtiges Anliegen. Aber es gehört in die Parlamente, nicht in die Hände eines Mobs"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/ein-patient-kostete-14-millionen-franken-kranke-georgier-kommen-in-die-schweiz-um-sich-hier-kostenlos-behandeln-zu-lassen-ld.10013670",
+        "https://www.nzz.ch/international/die-rueckkehr-von-millionen-migranten-stellt-afghanistan-auf-die-probe-ld.10013487",
+        "https://www.nzz.ch/zuerich/zuercher-milieu-beiz-sonne-wo-einst-prostituierte-arbeiteten-ziehen-nun-fluechtlinge-ein-ist-das-der-richtige-ort-ld.10012707",
+        "https://www.nzz.ch/meinung/die-migrationskritik-wird-global-warum-proteste-in-afrika-zunehmen-ld.10013404"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "realization",
+          "count": 3
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 43,
+      "sample_titles": [
+        "Migranten-Gangs greifen Polizei an: Rom kämpft um das Kolosseum",
+        "„Remigration wird sexy“ – Das Ausland sieht, was der ÖRR nicht sehen will",
+        "Schüsse, Fluchtauto, SPD-Verbindung – neue Fragen im Fall Stade",
+        "Der Fall Shabir Ahmed: Wie das UK an der Abschiebung der Grooming-Gang-Täter scheitert"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/migranten-gangs-greifen-polizei-rom-kolosseum/",
+        "https://www.tichyseinblick.de/feuilleton/medien/afd-parteitag-berichte-ausland/",
+        "https://www.tichyseinblick.de/daili-es-sentials/schuesse-fluchtauto-spd-verbindung-neue-fragen-im-fall-stade/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/uk-grooming-gang-taeter-abschieben-scheitern/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 34,
+      "sample_titles": [
+        "Papst macht in Lampedusa auf Schicksal von Migranten aufmerksam",
+        "USA: Einreise, Tickets, Trinkgeld – was bei Ihrem WM-Besuch schiefgehen kann",
+        "Asylzahlen: Deutlich weniger Menschen beantragen in Deutschland Asyl",
+        "Illegaler Einwanderer: 85-jähriger Deutscher stirbt in ICE-Gewahrsam"
+      ],
+      "urls": [
+        "https://www.stern.de/news/papst-macht-in-lampedusa-auf-schicksal-von-migranten-aufmerksam-37645828.html",
+        "https://www.stern.de/reise/fernreisen/wm-2026--usa-einreise--tickets--trinkgeld---was-alles-schiefgehen-kann-37437864.html",
+        "https://www.stern.de/politik/deutschland/asylzahlen--deutlich-weniger-menschen-beantragen-in-deutschland-asyl-37644108.html",
+        "https://www.stern.de/panorama/tod-in-ice-gewahrsam--85-jahre-alter-deutscher-stirbt-im-krankenhaus-37642718.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 29,
+      "sample_titles": [
+        "AfD-Parteitag: Ohne ihren Extremismus ist die AfD nichts",
+        "Migration: Zahl der Asylanträge sinkt deutlich",
+        "Bertelsmann-Studie: Studie belegt ungenutztes Fachkräftepotenzial von Zuwanderern",
+        "Abschiebungen nach Afghanistan: Gültige Papiere? Stellt in Deutschland jetzt ein Taliban aus"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-07/afd-parteitag-erfurt-weidel-chrupalla-migration",
+        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/asylantraege-deutschland-zahl-rueckgang-bamf",
+        "https://www.zeit.de/wirtschaft/2026-07/arbeitsmarkt-integration-migranten-fachkraeftemangel-bertelsmann-studie-gxe",
+        "https://www.zeit.de/politik/deutschland/2026-06/abschiebung-afghanistan-taliban-deutschland-gefluechtete-botschaft-gxe"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 29,
+      "sample_titles": [
+        "Obduktion angeordnet - Deutscher stirbt in ICE-Gewahrsam in den USA",
+        "Trendwende beim Asyl - 67 Prozent weniger Anträge als 2024",
+        "Gewalt gegen illegale Migranten in Südafrika - Sie ziehen mit Knüppeln von Haus zu Haus",
+        "„Hervorragende Wahl“ - Trump will IHN als neuen Chef-Abschieber"
+      ],
+      "urls": [
+        "https://www.bild.de/news/obduktion-angeordnet-deutscher-stirbt-in-ice-gewahrsam-in-den-usa-6a47817080a38cbeb7ec151f",
+        "https://www.bild.de/politik/inland/asyl-erstantraege-deutschland-verzeichnet-67-prozent-weniger-antraege-6a455b031f5535004df24ceb",
+        "https://www.bild.de/politik/ausland-und-internationales/gewalt-gegen-illegale-migranten-in-suedafrika-sie-ziehen-mit-knueppeln-von-haus-zu-haus-6a43fbfb0ba20a8ea50805cf",
+        "https://www.bild.de/politik/ausland-und-internationales/hervorragende-wahl-trump-will-ihn-als-neuen-chef-abschieber-6a4065ffafe845031b3b0c26"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 25,
+      "sample_titles": [
+        "„Remigration ist nicht verhandelbar“: Bewerbungsrede von Sven Tritschler (AfD)",
+        "Fremdenfeindliche Proteste im Land des Regenbogens",
+        "Trump nominiert neuen Chef der Einwanderungsbehörde ICE",
+        "EU will Flucht für wehrfähige Ukrainer erschweren"
+      ],
+      "urls": [
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5215339",
+        "https://www.zdfheute.de/politik/ausland/protest-suedafrika-migration-100.html",
+        "https://www.zdfheute.de/politik/ausland/usa-ice-einwanderungsbehoerde-chef-nominierung-trump-100.html",
+        "https://www.zdfheute.de/politik/ausland/ukraine-wehrfaehige-maenner-schutzstatus-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "gratitude",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 22,
+      "sample_titles": [
+        "WDR: Weg von der Straße",
+        "Nürnberg: Ein Polizist, den Bayern nicht losbekommt",
+        "Geflohen in Traunstein, gefasst in Gräfelfing: Geflüchteter Häftling schafft über Nacht 120 Kilometer",
+        "Urteil in Vereinigten Staaten: Oberste Richter weisen Trump in die Schranken"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/medien/wdr-diskriminierung-vorwuerfe-jetzt-doch-nicht-1live-street-li.3510184",
+        "https://www.sueddeutsche.de/bayern/hauptkommissar-polizei-nuernberg-ansbach-mittelfranken-gericht-nationalsozialismus-rassismus-reichsbuerger-fluechtlinge-li.3505200",
+        "https://www.sueddeutsche.de/bayern/traunstein-graefelfing-haeftling-flucht-fahndung-li.3508553",
+        "https://www.sueddeutsche.de/politik/us-gericht-staatsbuergerschaft-usa-kinder-li.3503888"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -259,123 +461,7 @@
           "count": 1
         },
         {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Europäische Asylreform Geas: SPD fordert schrittweise Aufhebung von Grenzkontrollen",
-        "Migration und Flucht: EU-Kommissar Brunner sieht Rückgang irregulärer Einreisen",
-        "EU-Rückführungsverordnung: Migrationsforscher warnen vor »Rückführungen um jeden Preis«",
-        "EuGH-Urteil zu Asylbewerberleistungen: Deutschlands Kürzungen von Asylleistungen verstoßen gegen EU-Recht"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-06/eu-geas-asylreform-ende-grenzkontrollen-spd-cdu",
-        "https://www.zeit.de/politik/ausland/2026-06/migration-magnus-brunner-eu-kommissar-rueckgang-europa",
-        "https://www.zeit.de/politik/deutschland/2026-06/eu-rueckfuehrungsverordnung-sachverstaendigenrat-winfried-kluth",
-        "https://www.zeit.de/politik/deutschland/2026-06/eugh-urteil-asylbewerber-leistungen-kuerzungen-eu-recht"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 10,
-      "sample_titles": [
-        "Probleme der Zuwanderung geschildert: Wiener Lehrer droht nun der Maulkorb",
-        "EU dreht bei: Abschiebezentren in Drittstaaten sollen kommen",
-        "Steuer-, Abgaben- und Beitragserhöhungen strangulieren die „Nicht-Migranten“",
-        "„Nicht-Migranten“: Tagesschau schafft die Deutschen sprachlich ab"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/zuwanderung-problematik-geschildert-wien-lehrer-maulkorb/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eu-dreht-bei-abschiebezentren-in-drittstaaten-sollen-kommen/",
-        "https://www.tichyseinblick.de/meinungen/steuer-abgaben-und-beitragserhoehungen/",
-        "https://www.tichyseinblick.de/feuilleton/medien/nicht-migranten-tagesschau/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 9,
-      "sample_titles": [
-        "Kriminalität: Ein Verletzter nach Schlägerei in Unterkunft",
-        "Migration: Ministerium: Deutlich mehr Abschiebungen vollzogen",
-        "Europäischer Gerichtshof: Deutsche Kürzung von Asylleistungen verstößt gegen EU-Recht",
-        "Hessischer Arbeitsmarkt: Fast jeder zweite Betrieb setzt auf ausländische Mitarbeiter"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/kriminalitaet--ein-verletzter-nach-schlaegerei-in-unterkunft-37502276.html",
-        "https://www.stern.de/gesellschaft/regional/thueringen/migration--ministerium--deutlich-mehr-abschiebungen-vollzogen-37500116.html",
-        "https://www.stern.de/politik/ausland/europaeischer-gerichtshof--deutsche-kuerzung-von-asylleistungen-verstoesst-gegen-eu-recht-37491724.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/hessischer-arbeitsmarkt--fast-jeder-zweite-betrieb-setzt-auf-auslaendische-mitarbeiter-37478166.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 9,
-      "sample_titles": [
-        "Überfremdungsdebatte: Ging das Römische Reich tatsächlich wegen der starken Einwanderung zugrunde?",
-        "DER ANDERE BLICK - Deutschland muss mit dem EU-Asylpakt beweisen, dass es aus 2015 gelernt hat",
-        "Ist die Zuwanderung schuld an der Wohnungsnot? Eine Beweisaufnahme",
-        "Verschärfung der Asylpolitik: Brüssel ermöglicht Abschiebezentren in Drittstaaten"
-      ],
-      "urls": [
-        "https://www.nzz.ch/feuilleton/ueberfremdungsdebatte-ging-das-roemische-reich-tatsaechlich-wegen-der-starken-einwanderung-zugrunde-ld.10009773",
-        "https://www.nzz.ch/der-andere-blick/deutschland-muss-mit-dem-asylpakt-beweisen-dass-der-staat-aus-2015-gelernt-hat-ld.10009675",
-        "https://www.nzz.ch/wirtschaft/ist-die-zuwanderung-schuld-an-der-wohnungsnot-eine-beweisaufnahme-ld.10007428",
-        "https://www.nzz.ch/international/verschaerfung-der-asylpolitik-bruessel-ermoeglicht-abschiebezentren-in-drittstaaten-ld.10009421"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -384,89 +470,27 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 9,
+      "article_count": 21,
       "sample_titles": [
-        "Urteil: Deutsche Kürzung von Asylleistungen verstößt gegen EU-Recht",
-        "Migration: Rückkehrzentren sollen Abschiebungen beschleunigen: Kann das funktionieren?",
-        "Migration: „Bevorzugung bestimmter Gruppen beenden“ – Union stellt Einbürgerungsrecht infrage",
-        "Deutschlandtrend: Wirtschaft löst Migration als zentrales Problem ab"
+        "Arbeitsmarkt: Fachkräftemangel: Bessere Integration könnte große Potenziale heben",
+        "+++ USA +++: Trump nominiert neue Spitze der Einwanderungsbehörde ICE",
+        "Bert Rürup: Wachstumsbremse AfD: Ohne Zuwanderer kann es kein neues Wirtschaftswunder geben",
+        "Tencent: Wechat soll zum KI-Betriebssystem der Chinesen werden"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/urteil-deutsche-kuerzung-von-asylleistungen-verstoesst-gegen-eu-recht/100230431.html",
-        "https://www.handelsblatt.com/politik/deutschland/migration-wie-rueckkehrzentren-abschiebungen-beschleunigen-sollen/100230027.html",
-        "https://www.handelsblatt.com/politik/deutschland/migration-union-stellt-einbuergerungsrecht-infrage/100230244.html",
-        "https://www.handelsblatt.com/politik/deutschland/deutschlandtrend-wirtschaft-loest-migration-als-zentrales-problem-ab/100230272.html"
+        "https://www.handelsblatt.com/politik/deutschland/fachkraeftemangel-bessere-integration-koennte-grosse-potenziale-heben/100236874.html",
+        "https://www.handelsblatt.com/politik/international/usa-trump-nominiert-neue-spitze-der-einwanderungsbehoerde-ice/29669594.html",
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/der-chefoekonom-ohne-zuwanderer-kann-es-keine-neue-wachstumsdynamik-geben/100235199.html",
+        "https://www.handelsblatt.com/technik/ki/tencent-wechat-soll-zum-ki-betriebssystem-der-chinesen-werden/100234810.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
         {
           "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Migrationspakt: Europa wagt den Einstieg in ein solidarisches Asylsystem",
-        "Bundespolitik: Wirtschaft löst laut neuer Umfrage Migration als zentrales Problem ab",
-        "Podcast: „Auf den Punkt“: Neue EU-Asylregeln: Europa schottet sich weiter ab",
-        "Bundespolitik: Brüssel sieht deutsche Grenzkontrollen nicht genug begründet"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/migrationspakt-eu-asylpolitik-deutschland-grenzkontrollen-ungarn-menschenrechte-li.3492258",
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-wirtschaft-wirtschaftskrise-li.3491578",
-        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-eu-asyl-asylzentren-li.3492662",
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-grenzkontrollen-eu-kommission-kritik-li.3491578"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 8,
-      "sample_titles": [
-        "Deutsche Kürzungen bei Asylleistungen teils unzulässig",
-        "Schutz für Ukrainer: Dobrindt für Ende der Regel bei Männern",
-        "EU-Rückkehrverordnung: \"Wichtiger Schritt zur Neuordnung der Migrationspolitik\"",
-        "EU macht Weg für Abschiebezentren in Drittstaaten frei"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/ausland/eugh-deutschland-asyl-leistungen-kuerzungen-urteil-100.html",
-        "https://www.zdfheute.de/politik/ausland/dobrindt-ukraine-maenner-asyl-fluechtlinge-aufnahme-regeln-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-pressekonferenz-mitfri-a-5206523.html",
-        "https://www.zdfheute.de/politik/ausland/eu-abschiebezentren-drittstaaten-100.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -475,68 +499,100 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 5,
+      "article_count": 14,
       "sample_titles": [
-        "Der Messermigrant und die Obsession der Antirassisten",
-        "Zuwanderung halbiert? Framing bei deutschen Medien",
-        "Warum die Türkeistämmigen die größten Kritiker illegaler Migranten sind",
-        "8.000 Euro für Syrer? Dobrindts Rückkehrprämie existiert längst"
+        "Antifa-Demo für Remigration jetzt!",
+        "„Remigration“ auf afrikanisch",
+        "Die „edle Lüge“ vom Fachkräfte-Import",
+        "Wir fressen Dreck und führen Kriege für die Reichen"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/der_messermigrant_und_die_obesssion_der_antirassisten",
-        "https://www.achgut.com/artikel/zuwanderung_halbiert_framing_bei_deutschen_medien",
-        "https://www.achgut.com/artikel/warum_die_tuerkeistaemmigen_die_groessten_kritiker_illegaler_migranten_sind",
-        "https://www.achgut.com/artikel/8.000_euro_fuer_syrer_dobrindts_rueckkehrpraemie_existiert_laengst"
+        "https://www.achgut.com/artikel/antifa_demo_fuer_remigration_jetzt",
+        "https://www.achgut.com/artikel/remigration_auf_afrikanisch",
+        "https://www.achgut.com/artikel/die_edle_luege_vom_fachkraefte_import",
+        "https://www.achgut.com/artikel/wir_fressen_dreck_und_fuehren_kriege_fuer_die_reichen"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Bett, Brot und Seife reichen auf für Ausreisepflichtige nicht - Europas Richter verurteilen Deutschlands Asyl-Verschärfung",
-        "Flüchtlingskostenbericht - Der Bund zahlt mehr für Asyl als für Bildung und Forschung",
-        "„Es wandert niemand in unsere Sozialsysteme ein“ - Bärbel Bas leugnet die Migrationswirklichkeit"
-      ],
-      "urls": [
-        "https://www.cicero.de/innenpolitik/EuGH-asyl-bett-brot-und-seife-reichen-nicht",
-        "https://www.cicero.de/innenpolitik/fluchtlingskostenbericht-der-bund-zahlt-mehr-fur-asyl-als-fur-bildung-und-forschung",
-        "https://www.cicero.de/innenpolitik/es-wandert-niemand-in-unsere-sozialsysteme-ein-bas"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
     },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 2,
+      "article_count": 9,
       "sample_titles": [
-        "EU macht Weg frei für Abschiebezentren in Drittstaaten",
-        "Deutschland: Erstmals seit fünf Jahren weniger Abschiebungen"
+        "Lampedusa: Papst Leo erinnert an ertrunkene Bootsflüchtlinge",
+        "Studie: Fachkräfte-Potenzial von Migranten oft ungenutzt",
+        "Deutschland beschleunigt Abschiebungen nach Afghanistan",
+        "News kompakt: UN-Appell zum Weltflüchtlingstag"
       ],
       "urls": [
-        "https://www.dw.com/de/eu-macht-weg-frei-für-abschiebezentren-in-drittstaaten/a-77386464?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/deutschland-erstmals-seit-fünf-jahren-weniger-abschiebungen/a-76994454?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/lampedusa-papst-leo-erinnert-an-ertrunkene-bootsflüchtlinge/a-77831117?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/studie-fachkräfte-potenzial-von-migranten-oft-ungenutzt/a-77798488?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/deutschland-beschleunigt-abschiebungen-nach-afghanistan/a-77645904?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/news-kompakt-un-appell-zum-weltflüchtlingstag/a-77634167?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 2,
+      "sample_titles": [
+        "Bett, Brot und Seife reichen auf für Ausreisepflichtige nicht - Europas Richter verurteilen Deutschlands Asyl-Verschärfung",
+        "Flüchtlingskostenbericht - Der Bund zahlt mehr für Asyl als für Bildung und Forschung"
+      ],
+      "urls": [
+        "https://www.cicero.de/innenpolitik/EuGH-asyl-bett-brot-und-seife-reichen-nicht",
+        "https://www.cicero.de/innenpolitik/fluchtlingskostenbericht-der-bund-zahlt-mehr-fur-asyl-als-fur-bildung-und-forschung"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "far-right": 47,
-    "right-conservative": 79,
-    "left": 15,
-    "neutral": 34,
-    "left-liberal": 45,
-    "conservative-liberal": 31,
-    "populist-mixed": 16,
-    "economic-liberal": 9
+    "neutral": 87,
+    "left-liberal": 140,
+    "far-right": 125,
+    "right-conservative": 189,
+    "conservative-liberal": 141,
+    "left": 68,
+    "populist-mixed": 29,
+    "economic-liberal": 21
   },
-  "shared_perspectives": "Im deutschen Mediendiskurs zu Migration und Asylpolitik zeigt sich eine breite Diskussion über die Notwendigkeit von Grenzkontrollen und ihre mögliche Aufhebung, wobei sowohl linke als auch konservative Medien die EU-Kommission als treibende Kraft hinter dem Abbau von Grenzkontrollen sehen. Ein weiterer gemeinsamer Aspekt ist die Kritik an der deutschen Asylpolitik, insbesondere hinsichtlich der Kürzung von Asylleistungen, die von verschiedenen Medien als unzulässig oder unzureichend angesehen wird. Darüber hinaus wird die Integration von Geflüchteten und Migranten als wichtiger Punkt in der deutschen Migrationspolitik thematisiert, wobei die Medien unterschiedliche Ansichten über die beste Vorgehensweise haben, aber alle eine Lösung für die erfolgreiche Integration fordern.",
-  "controversial_points": "Im deutschen Mediendiskurs zu Migration und Asylpolitik zeigt sich eine grundlegende Konfliktlinie zwischen einer offenheitserklärten, integrationsorientierten Haltung und einer restriktiven, abschottenden Position, die sich in den politischen Ausrichtungen der Medien widerspiegelt. Die Debatte um Grenzkontrollen, Asylleistungen und Abschiebungen offenbart eine tiefe Spaltung zwischen linken und rechten politischen Lagern, wobei die einen eine humanitäre und solidarische Herangehensweise fordern, während die anderen eine striktere Kontrolle und Begrenzung der Einwanderung einfordern. Diese Spannungsfelder werden durch die Berichterstattung über konkrete Ereignisse wie Abschiebungen und Flüchtlingsunterkünfte noch verstärkt, indem sie die emotionalen und moralischen Aspekte der Debatte hervorheben und die politischen Positionen der Parteien und Medien polarisieren.",
-  "cached_at": "2026-06-10T08:35:13.913493"
+  "statements": {
+    "de": {
+      "shared_perspectives": "Trotz divergierender ideologischer Ausrichtungen betonen fast alle deutschen Medien, dass die Zahl der Asylanträge seit mehreren Jahren rückläufig ist und damit die bislang höchste Belastung des Asylsystems abnimmt. Gleichzeitig wird in nahezu allen Diskurssträngen die Afghanistan‑Krise als zentraler Faktor genannt, weil Deutschland nach wie vor das bevorzugte Zielland für afghanische Geflüchtete bleibt und die Abschiebungen dort politisch stark umstritten sind. Schließlich gibt es einen breiten Konsens darüber, dass eine bessere Integration von bereits in Deutschland lebenden Migranten nicht nur aus humanitärer Sicht, sondern auch zur Linderung des Fachkräftemangels und zur Stärkung der öffentlichen Sicherheit notwendig ist.",
+      "controversial_points": "Im deutschen Mediendiskurs kollidieren einerseits das humanitäre Selbstverständnis, das Asyl als Grundrecht und Ausdruck christlicher Barmherzigkeit betont, mit einem sicherheits‑ und ordnungspolitisch geprägten Narrativ, das Migration primär als Bedrohung für innere Sicherheit und nationale Identität darstellt; diese Gegenüberstellung erzeugt eine strukturelle Spaltung zwischen einer liberal‑progressiven Moral‑politik und einer konservativ‑nationalen Souveränitätslogik. Parallel dazu entsteht ein zweites Spannungsfeld zwischen der ökonomischen Argumentation, die Zuwanderung als notwendige Ressource gegen Fachkräftemangel und demografischen Wandel positioniert, und einer rechts‑populistischen Diskurslinie, die Zuwanderung als ökonomische Belastung und kulturelle Verdrängung konstruiert und dabei NGOs sowie Gerichte als „politische Hindernisse“ brandmarkt. Diese beiden Konfliktlinien verbinden sich in einer dauerhaften Kontroverse um die Legitimität von Grenzkontrollen, Abschiebungen und der Ausgestaltung des Asylrechts, wobei die jeweiligen Medienakteure die Debatte je nach ideologischer Ausrichtung entweder als humanitäre Verpflichtung, sicherheitspolitische Notwendigkeit oder ökonomisches Kalkül rahmen."
+    },
+    "en": {
+      "shared_perspectives": "German media, regardless of political orientation, converge on the factual assessment that asylum applications have fallen to their lowest level in half a decade and that intensified border controls are credited with sharply reducing illegal entries. At the same time, there is a broadly shared recognition that, while security concerns dominate the right‑leaning narrative, the left‑ and centrist outlets stress that better integration of the remaining, especially skilled, migrants is essential to alleviate Germany’s chronic labour‑shortage. This dual consensus—acknowledging both the quantitative decline in flows and the economic imperative of integrating the migrants who do arrive—structures the entire public debate on migration policy.",
+      "controversial_points": "The German media landscape splits along a fundamental humanitarian‑security axis: left‑liberal and centrist outlets foreground human‑rights"
+    }
+  },
+  "cached_at": "2026-07-07T07:35:49.740490"
 }
