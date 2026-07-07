@@ -327,6 +327,86 @@ def call_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
     raise RuntimeError("Kein LLM verfügbar — weder Groq noch Claude")
 
 
+def call_claude(prompt: str, max_tokens: int = 300, system: str = "") -> str:
+    """
+    Anthropic-only call — no Groq involvement. Used for the post-generation
+    QA pass, where Groq output errors are exactly what we need to catch.
+    """
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    if not anthropic_key:
+        raise RuntimeError("ANTHROPIC_API_KEY nicht gesetzt")
+    import anthropic
+    client = anthropic.Anthropic(api_key=anthropic_key)
+    kwargs = {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": max_tokens,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    if system:
+        kwargs["system"] = system
+    response = client.messages.create(**kwargs)
+    return response.content[0].text.strip()
+
+
+_PLACEHOLDER_STATEMENTS = {
+    "Synthese nicht verfügbar.",
+    "Zu wenig Quellen für eine Synthese.",
+    "Synthesis not available.",
+    "Not enough sources for synthesis.",
+}
+
+_REVIEW_INSTRUCTION = {
+    "de": (
+        "Prüfe den folgenden deutschen Analyse-Text auf Vollständigkeit und Konsistenz. "
+        "Achte auf: mitten im Satz abgebrochene Sätze, fehlendes Satzende, grammatikalische "
+        "Brüche, Wiederholungen, Markdown- oder JSON-Reste.\n"
+        "Wenn der Text fehlerfrei ist, gib ihn EXAKT unverändert zurück.\n"
+        "Wenn nicht, repariere ihn minimal: schließe einen abgebrochenen Satz sinnvoll ab "
+        "oder entferne das unvollständige Fragment. Erfinde keine neuen Inhalte.\n"
+        "Gib NUR den finalen Text zurück, ohne Kommentar oder Erklärung."
+    ),
+    "en": (
+        "Check the following English analysis text for completeness and consistency. "
+        "Look for: sentences cut off mid-sentence, missing sentence endings, grammatical "
+        "breaks, repetitions, markdown or JSON artifacts.\n"
+        "If the text is flawless, return it EXACTLY unchanged.\n"
+        "If not, repair it minimally: complete a truncated sentence sensibly or remove "
+        "the incomplete fragment. Do not invent new content.\n"
+        "Return ONLY the final text, without comment or explanation."
+    ),
+}
+
+
+def review_statement(text: str, lang: str = "de") -> str:
+    """
+    Mandatory QA pass after synthesis: detects truncated or inconsistent
+    statements and repairs them via Claude Haiku. Never uses Groq.
+    Falls back to a heuristic trim if Claude is unavailable.
+    """
+    if not text or text in _PLACEHOLDER_STATEMENTS:
+        return text
+
+    try:
+        fixed = call_claude(
+            f"{_REVIEW_INSTRUCTION[lang]}\n\nText:\n{text}",
+            max_tokens=800,
+        )
+        if fixed:
+            if fixed != text:
+                print(f"  ✎ Statement repaired by Claude review ({lang})")
+            return fixed
+    except Exception as e:
+        print(f"  ⚠ Claude review failed: {e} — applying heuristic trim")
+
+    # Heuristic fallback: drop an unfinished trailing sentence
+    stripped = text.rstrip()
+    if stripped and stripped[-1] not in '.!?"”)':
+        cut = max(stripped.rfind("."), stripped.rfind("!"), stripped.rfind("?"))
+        if cut > 0:
+            return stripped[: cut + 1]
+    return stripped
+
+
 # ── DB Persistence ────────────────────────────────
 def save_result(topic_id: str, result: dict):
     conn = get_conn()
@@ -567,12 +647,14 @@ def llm_synthesize_de(articles: list[dict], topic_id: str) -> dict:
 
     system_controversial = (
         system_base + " "
-        "Identifiziere konkrete Spannungsfelder, Widersprüche und Konfliktlinien im "
-        "deutschen Mediendiskurs zu diesem Thema. Wo prallen grundlegend unterschiedliche "
-        "Weltbilder, Werte oder politische Konzepte aufeinander? Formuliere 2-3 präzise "
-        "analytische Aussagen die die tatsächlichen Trennlinien benennen — nicht "
-        "oberflächliche Meinungsverschiedenheiten sondern strukturelle Konflikte im Diskurs. "
-        "Keine Quellennennung."
+        "Identifiziere konkrete Spannungsfelder und Konfliktlinien im deutschen "
+        "Mediendiskurs zu diesem Thema. Wo prallen unterschiedliche Weltbilder, "
+        "Werte oder politische Konzepte aufeinander? Benenne die tatsächlichen "
+        "Trennlinien — strukturelle Konflikte, keine oberflächlichen "
+        "Meinungsverschiedenheiten. "
+        "Schreibstil: klar und flüssig lesbar. Kurze, direkte Sätze mit höchstens "
+        "20 Wörtern. Keine Schachtelsätze, keine langen Einschübe — pro Satz genau "
+        "ein Gedanke. Keine Quellennennung."
     )
 
     prompt_shared = f"""Thema: {topic_desc}
@@ -589,20 +671,22 @@ Artikeltitel nach politischer Ausrichtung der Medien:
 {samples_text}
 
 Welche strukturellen Konfliktlinien und Spannungsfelder zeigen sich im deutschen Mediendiskurs zu diesem Thema?
-Antworte auf Deutsch in 2-3 präzisen analytischen Sätzen. Nur Fließtext, kein JSON, keine Aufzählung."""
+Antworte auf Deutsch in 3-5 kurzen, klaren Sätzen. Nur Fließtext, kein JSON, keine Aufzählung."""
 
     shared = "Synthese nicht verfügbar."
     controversial = "Synthese nicht verfügbar."
 
     try:
-        shared = call_llm(prompt_shared, max_tokens=500, system=system_shared).strip()
+        shared = call_llm(prompt_shared, max_tokens=700, system=system_shared).strip()
         print(f"  ✓ DE Shared synthesis generated ({len(shared)} chars)")
+        shared = review_statement(shared, lang="de")
     except Exception as e:
         print(f"  ⚠ DE Shared synthesis failed: {e}")
 
     try:
-        controversial = call_llm(prompt_controversial, max_tokens=500, system=system_controversial).strip()
+        controversial = call_llm(prompt_controversial, max_tokens=700, system=system_controversial).strip()
         print(f"  ✓ DE Controversial synthesis generated ({len(controversial)} chars)")
+        controversial = review_statement(controversial, lang="de")
     except Exception as e:
         print(f"  ⚠ DE Controversial synthesis failed: {e}")
 
@@ -655,9 +739,11 @@ def llm_synthesize_en(articles: list[dict], topic_id: str) -> dict:
 
     system_controversial = (
         system_base + " "
-        "Identify concrete tension fields, contradictions, and conflict lines in German media discourse on this topic. "
-        "Where do fundamentally different worldviews, values, or political concepts collide? Formulate 2-3 precise analytical statements that name the actual dividing lines — "
-        "not superficial disagreements but structural conflicts in discourse. No source citations."
+        "Identify concrete tension fields and conflict lines in German media discourse on this topic. "
+        "Where do different worldviews, values, or political concepts collide? Name the actual dividing lines — "
+        "structural conflicts, not superficial disagreements. "
+        "Writing style: clear and fluent. Short, direct sentences of at most 20 words. "
+        "No nested clauses, no long insertions — exactly one idea per sentence. No source citations."
     )
 
     prompt_shared = f"""Topic: {topic_desc}
@@ -674,20 +760,22 @@ Article headlines by media political alignment:
 {samples_text}
 
 What structural conflict lines and tension fields emerge in German media discourse on this topic?
-Answer in 2-3 precise analytical sentences in English. Prose only, no JSON, no bullet points."""
+Answer in 3-5 short, clear sentences in English. Prose only, no JSON, no bullet points."""
 
     shared = "Synthesis not available."
     controversial = "Synthesis not available."
 
     try:
-        shared = call_llm(prompt_shared, max_tokens=500, system=system_shared).strip()
+        shared = call_llm(prompt_shared, max_tokens=700, system=system_shared).strip()
         print(f"  ✓ EN Shared synthesis generated ({len(shared)} chars)")
+        shared = review_statement(shared, lang="en")
     except Exception as e:
         print(f"  ⚠ EN Shared synthesis failed: {e}")
 
     try:
-        controversial = call_llm(prompt_controversial, max_tokens=500, system=system_controversial).strip()
+        controversial = call_llm(prompt_controversial, max_tokens=700, system=system_controversial).strip()
         print(f"  ✓ EN Controversial synthesis generated ({len(controversial)} chars)")
+        controversial = review_statement(controversial, lang="en")
     except Exception as e:
         print(f"  ⚠ EN Controversial synthesis failed: {e}")
 
