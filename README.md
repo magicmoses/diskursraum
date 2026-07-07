@@ -1,6 +1,14 @@
 # Diskursraum 🎙️
 
-> Mapping Public Discourse in Germany — inspired by Taiwan's vTaiwan and the Pol.is bridging algorithm.
+> Mapping Public Discourse in Germany. Inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl) and the [Pol.is](https://pol.is) bridging algorithm from Taiwan's vTaiwan platform
+
+> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural."*
+> — Audrey Tang & E. Glen Weyl, Plurality
+
+Diskursraum makes this principle visible. Not for social media posts as in Pol.is, but for professional media discourse in Germany. Many voices, one discourse.
+
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-9135FF?style=flat-square&logo=vite&logoColor=white) ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3&logoColor=white) ![Recharts](https://img.shields.io/badge/Recharts-8884d8?style=flat-square) ![react-i18next](https://img.shields.io/badge/react--i18next-26A69A?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-9B59B6?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Groq](https://img.shields.io/badge/Groq-3B3B3B?style=flat-square) ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-191919?style=flat-square&logo=anthropic&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+
 
 **[Live Demo](https://diskursraum.vercel.app)** · [GitHub](https://github.com/magic-moses/diskursraum)
 
@@ -10,9 +18,9 @@
 
 Diskursraum makes German public discourse visible across three dimensions:
 
-**Dimension I — Medienspiegel:** How do 19 German news outlets cover polarizing societal topics? Where is there consensus — and where does discourse begin?
+**Dimension I — Medienspiegel:** How do 19 German news outlets cover polarizing societal topics (tracked since March 2026)? Where is there consensus & where does discourse begin? 
 
-**Dimension II — Parteienspiegel:** How have party positions evolved across six federal elections from 2005 to 2025? Who converges, who diverges — and what do the election results say about it?
+**Dimension II — Parteienspiegel:** How have party positions evolved across six federal elections from 2005 to 2025? Who converges, who diverges & what do the election results say about it?
 
 **Dimension III — Frag nach.:** Ask the party manifestos directly. Semantic search across all Bundestagswahlprogramme 2005–2025 with LLM-generated answers.
 
@@ -24,7 +32,7 @@ Inspired by [Plurality](https://www.plurality.net/) (Audrey Tang & E. Glen Weyl)
 
 <img width="3562" height="1754" alt="01_overview" src="https://github.com/user-attachments/assets/e90af083-aa3a-4c2b-82dc-0b8046e95276" />
 
-Diskursraum follows a **static-first architecture**: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API — eliminating runtime database load for the core application. The only live path is Dimension III (Frag nach.), which queries pgvector in real time via RAG.
+Diskursraum follows a **static-first architecture**: all analysis results are pre-computed offline, committed as JSON to the repository, and served directly by the API, eliminating runtime database load for the core application. The only live path is Dimension III (Frag nach./(engl.: Ask.), which queries pgvector in real time via RAG.
 
 ### Storage
 
@@ -45,6 +53,8 @@ Diskursraum uses three distinct storage layers:
 
 
 ## Dimension I — Medienspiegel
+
+> Coverage data spans from March 2026 to present, crawled 4× daily from RSS feeds.
 
 For each of eight topics, the app shows:
 
@@ -81,7 +91,7 @@ Semantic analysis of all Bundestagswahlprogramme from 2005 to 2025:
 - **Populism Score** — sentence-level populist rhetoric detection via PopEuroBERT
 - **Program Length** — word count per party per election year
 
-Beyond classification and scoring, the manifesto pipeline derives an ideological position for each party per election year — mapping programmatic emphasis onto a two-dimensional space (economy and society) directly from ManifestoBERTa category weights. Party trajectories, pairwise similarity heatmaps, and a force-directed similarity network visualise how the six parties have moved toward or away from each other across twenty years of German federal elections.
+Beyond classification and scoring, the manifesto pipeline derives an ideological position for each party per election year mapping programmatic emphasis onto a two-dimensional space (economy and society) directly from ManifestoBERTa category weights. Party trajectories, pairwise similarity heatmaps, and a force-directed similarity network visualise how the six parties have moved toward or away from each other across twenty years of German federal elections.
 
 | Metric | Coverage |
 |--------|----------|
@@ -189,20 +199,9 @@ cd frontend && npm install && npm run dev
 - **Vercel** — React frontend
 - **GitHub Actions** — `daily_crawl.yml` (4x daily) + `daily_ml.yml` (every 3 days)
 
-All core analysis results are pre-computed and committed as JSON. The only live database path in production is the pgvector semantic search for Dimension III.
-
 ---
 
 ## Author
 
-**Ayzenna Moses Arndt** — M.Sc. Business Informatics, HKA Karlsruhe
-[GitHub](https://github.com/magic-moses) · [LinkedIn](https://linkedin.com/in/dein-profil)
-
+[GitHub](https://github.com/magic-moses)
 ---
-
-## Methodology
-
-> *"In Mandarin, 數位 means both 'digital' and 'plural.' To be plural is to be digital. To be digital is to be plural."*
-> — Audrey Tang & E. Glen Weyl, Plurality
-
-Diskursraum makes this principle visible — not for social media posts as in Pol.is, but for professional media discourse in Germany. Many voices, one discourse.
