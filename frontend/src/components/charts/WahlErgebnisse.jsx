@@ -168,6 +168,16 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
     })
     .filter(d => !d.no_data)
 
+  const populismYMax = hohenheimData
+    ? (() => {
+        const allScores = ELECTION_YEARS.flatMap(y =>
+          PARTY_ORDER.map(p => hohenheimData.years?.[String(y)]?.[p]?.populism?.anti_elitism ?? 0)
+        )
+        const max = Math.max(...allScores)
+        return Math.ceil(max * 20) / 20
+      })()
+    : 0.3
+
   const topicsEmphasis = data?.category_analysis?.policy_emphasis?.[String(topicsYear)]?.[topicsParty]
   const topicsData = topicsEmphasis
     ? Object.entries(topicsEmphasis)
@@ -339,7 +349,7 @@ export default function WahlErgebnisse({ data, selectedYear, hohenheimData }) {
                     stroke="var(--border)"
                     tick={{ fontSize: 11, fill: 'var(--text-secondary)' }}
                     tickFormatter={v => `${(v * 100).toFixed(0)}%`}
-                    domain={[0, 'auto']}
+                    domain={[0, populismYMax]}
                     label={{
                       value: 'Anteil populist. Sätze',
                       angle: -90,

@@ -195,7 +195,7 @@ export default function Analytics() {
       {/* ── Artikel pro Quelle ───────────────────── */}
       <Section title={t('analytics.sources_title')}>
         <ResponsiveContainer width="100%" height={320}>
-          <BarChart data={ov.by_source} layout="vertical" margin={{ left: 8 }}>
+          <BarChart data={ov.by_source} layout="vertical" margin={{ left: 8, top: 12 }}>
             <XAxis type="number" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <YAxis type="category" dataKey="source" width={190} stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <Tooltip contentStyle={TOOLTIP_STYLE} formatter={v => [`${v} Artikel`]} />
@@ -214,7 +214,7 @@ export default function Analytics() {
       {/* ── Durchschnitt pro Tag ─────────────────── */}
       <Section title={t('analytics.avg_title')} subtitle={t('analytics.avg_sub')}>
         <ResponsiveContainer width="100%" height={420}>
-          <BarChart data={sourceDetails} layout="vertical" margin={{ left: 8 }}>
+          <BarChart data={sourceDetails} layout="vertical" margin={{ left: 8, top: 12 }}>
             <XAxis type="number" stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <YAxis type="category" dataKey="source" width={170} stroke="var(--border)" tick={{ fontSize: 11, fill: 'var(--text-secondary)' }} />
             <Tooltip contentStyle={TOOLTIP_STYLE} formatter={v => [`${v} Artikel/Tag`]} />

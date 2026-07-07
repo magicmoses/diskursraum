@@ -285,7 +285,7 @@ function TabBar({ tabs, active, onChange }) {
 export default function TopicView() {
   const { topicId } = useParams()
   const navigate = useNavigate()
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [activeTab, setActiveTab] = useState('overview')
@@ -357,7 +357,7 @@ export default function TopicView() {
           letterSpacing: '-0.02em',
           marginBottom: 'var(--space-3)',
         }}>
-          {data.topic_label}
+          {t(`home.topics.${topicId}.label`, { defaultValue: data.topic_label })}
         </h1>
         <div style={{ display: 'flex', gap: 'var(--space-4)', fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
           <span>{t('topicview.article_count', { count: data.article_count })}</span>
@@ -380,11 +380,20 @@ export default function TopicView() {
       )}
 
       {/* ── Synthesis ─────────────────────────────── */}
-      {data.shared_perspectives && data.controversial_points && (
-        <div style={{ marginBottom: 'var(--space-6)' }}>
-          <SynthesisCard shared={data.shared_perspectives} controversial={data.controversial_points} />
-        </div>
-      )}
+      {(() => {
+        const lang = i18n.language === 'en' ? 'en' : 'de'
+        const shared = data.statements?.[lang]?.shared_perspectives ||
+                       data.statements?.de?.shared_perspectives ||
+                       data.shared_perspectives
+        const controversial = data.statements?.[lang]?.controversial_points ||
+                              data.statements?.de?.controversial_points ||
+                              data.controversial_points
+        return (shared && controversial) ? (
+          <div style={{ marginBottom: 'var(--space-6)' }}>
+            <SynthesisCard shared={shared} controversial={controversial} />
+          </div>
+        ) : null
+      })()}
 
       {/* ── Tabs ──────────────────────────────────── */}
       <TabBar tabs={tabs} active={activeTab} onChange={setActiveTab} />
