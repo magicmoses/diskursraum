@@ -178,9 +178,9 @@ async def get_manifesto_summary(party: str, year: int):
     if groq_key:
         try:
             from groq import Groq
-            client = Groq(api_key=groq_key)
+            client = Groq(api_key=groq_key, base_url="https://api.groq.com")
             resp = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-120b",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.4,
                 max_tokens=300,
@@ -289,9 +289,9 @@ async def _stream_llm(query: str, chunks: list):
     if groq_key:
         try:
             from groq import AsyncGroq
-            client = AsyncGroq(api_key=groq_key)
+            client = AsyncGroq(api_key=groq_key, base_url="https://api.groq.com")
             stream = await client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-120b",
                 messages=messages,
                 temperature=0.3,
                 max_tokens=400,

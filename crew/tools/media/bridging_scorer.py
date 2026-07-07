@@ -154,89 +154,145 @@ TOPIC_KEYWORDS = {
 }
 
 TOPIC_DESCRIPTIONS = {
-    "migration": (
-        "Migration und Asylpolitik in Deutschland. Dieser Themenbereich umfasst die gesamte "
-        "Debatte rund um Einwanderung, Asylrecht und Asylverfahren, Abschiebungen und "
-        "Rückführungen, die Integration von Geflüchteten und Migranten, Grenzkontrollen, "
-        "sowie politische Positionen von Parteien zur Migrationspolitik. Auch Artikel über "
-        "konkrete Ereignisse wie Abschiebungen nach Syrien oder Afghanistan, Debatten über "
-        "das Asylrecht oder Berichte über Flüchtlingsunterkünfte gehören dazu."
-    ),
-    "energy_transition": (
-        "Die deutsche Energiewende und Klimapolitik. Dazu gehören Debatten über Atomkraft "
-        "und Atomausstieg, den Ausbau erneuerbarer Energien wie Wind- und Solarenergie, "
-        "den Kohleausstieg, Strompreise und Energieversorgungssicherheit, Klimaschutzziele "
-        "und CO2-Neutralität, das Heizungsgesetz, Wasserstofftechnologie sowie die "
-        "politische und gesellschaftliche Debatte über den richtigen Energiemix für Deutschland."
-    ),
-    "retirement": (
-        "Das deutsche Rentensystem und die Debatte um Altersvorsorge. Dieser Themenbereich "
-        "umfasst Rentenreformen und Rentenerhöhungen, das Renteneintrittsalter und Debatten "
-        "über Rente mit 63, 67 oder 70, Altersarmut und Rentenlücken, die Aktienrente und "
-        "kapitalgedeckte Vorsorge, den demographischen Wandel als Herausforderung für das "
-        "Rentensystem, die Riester-Rente sowie grundsätzliche Fragen zur "
-        "Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung."
-    ),
-    "work_transition": (
-        "Die Zukunft der Arbeit in Deutschland — Mindestlohn, Tarifbindung, Fachkräftemangel "
-        "und soziale Sicherung. Dieser Themenbereich umfasst Debatten über Mindestlöhne und "
-        "Tarifverträge, Gewerkschaften und Arbeitgeber, Bürgergeld und Hartz-Reformen, "
-        "Kurzarbeit und Beschäftigungssicherung, die Auswirkungen von Automatisierung und "
-        "Digitalisierung auf den Arbeitsmarkt, Plattformarbeit und Scheinselbstständigkeit, "
-        "Homeoffice, Qualifizierung und Umschulung sowie Fragen zu Lohngleichheit, "
-        "Betriebsräten und Mitbestimmung."
-    ),
-    "defense": (
-        "Die deutsche Verteidigungspolitik, Bundeswehr und NATO-Engagement. Dieser "
-        "Themenbereich umfasst die Debatte um Wehrpflicht und Bundeswehrreform, "
-        "Rüstungsausgaben und das NATO-Zwei-Prozent-Ziel, Rüstungsexporte und "
-        "Waffenlieferungen, Auslandseinsätze der Bundeswehr, die Zeitenwende in der "
-        "deutschen Sicherheitspolitik nach dem russischen Angriff auf die Ukraine, "
-        "Cyberabwehr, Zivilschutz sowie Fragen zur Bündnisverteidigung und dem "
-        "Artikel-5-Beistandsfall innerhalb der NATO."
-    ),
-    "family_children": (
-        "Familienpolitik, Kinderbetreuung und Familienleistungen in Deutschland. Dieser "
-        "Themenbereich umfasst Debatten über Kindergeld und Kinderfreibetrag, den Kita-Ausbau "
-        "und Betreuungsplätze, Elterngeld und Elternzeit, die Vereinbarkeit von Familie und "
-        "Beruf, Kinderarmut und Grundsicherung für Kinder, Jugendschutz und Jugendhilfe, "
-        "Rechte und Wohlergehen von Kindern sowie frühkindliche Förderung. Auch Berichte "
-        "über Hebammen, Geburtshilfe, Tagesmütter und Erzieher gehören dazu."
-    ),
-    "education": (
-        "Das deutsche Bildungssystem von der Kita bis zur Hochschule und Weiterbildung. "
-        "Dieser Themenbereich umfasst Debatten über Schulfinanzierung und "
-        "Bildungsgerechtigkeit, BAföG und Studiengebühren, die duale Berufsausbildung, "
-        "Digitalisierung in Schulen, Lehrkräftemangel und Quereinsteiger, "
-        "Bildungsföderalismus, Inklusion und Sonderpädagogik, Ganztagsschulen, "
-        "PISA-Studien sowie lebenslanges Lernen und Weiterbildung im Wandel der Arbeitswelt."
-    ),
-    "digitalization": (
-        "Digitalisierung, Künstliche Intelligenz und digitale Transformation in Deutschland "
-        "und Europa. Dieser Themenbereich umfasst KI-Entwicklungen und Large Language Models, "
-        "die Digitalisierung von Verwaltung und Wirtschaft, Datenschutz und Cybersicherheit, "
-        "den Breitbandausbau und digitale Infrastruktur, den EU AI Act und KI-Regulierung, "
-        "Automatisierung und deren Auswirkungen auf den Arbeitsmarkt, digitale Bildung, "
-        "sowie die gesellschaftliche und politische Debatte über Chancen und Risiken "
-        "von KI und Digitalisierung für Deutschland."
-    ),
+    "migration": {
+        "de": (
+            "Migration und Asylpolitik in Deutschland. Dieser Themenbereich umfasst die gesamte "
+            "Debatte rund um Einwanderung, Asylrecht und Asylverfahren, Abschiebungen und "
+            "Rückführungen, die Integration von Geflüchteten und Migranten, Grenzkontrollen, "
+            "sowie politische Positionen von Parteien zur Migrationspolitik. Auch Artikel über "
+            "konkrete Ereignisse wie Abschiebungen nach Syrien oder Afghanistan, Debatten über "
+            "das Asylrecht oder Berichte über Flüchtlingsunterkünfte gehören dazu."
+        ),
+        "en": (
+            "Migration and asylum policy in Germany. Encompasses debates on immigration, asylum law and procedures, "
+            "deportations and returns, integration of refugees and migrants, border controls, and party positions on migration policy. "
+            "Includes reporting on specific events like deportations to Syria or Afghanistan, asylum law debates, and refugee accommodation news."
+        ),
+    },
+    "energy_transition": {
+        "de": (
+            "Die deutsche Energiewende und Klimapolitik. Dazu gehören Debatten über Atomkraft "
+            "und Atomausstieg, den Ausbau erneuerbarer Energien wie Wind- und Solarenergie, "
+            "den Kohleausstieg, Strompreise und Energieversorgungssicherheit, Klimaschutzziele "
+            "und CO2-Neutralität, das Heizungsgesetz, Wasserstofftechnologie sowie die "
+            "politische und gesellschaftliche Debatte über den richtigen Energiemix für Deutschland."
+        ),
+        "en": (
+            "Germany's energy transition and climate policy. Includes debates on nuclear power and phase-out, renewable energy expansion "
+            "(wind, solar), coal phase-out, electricity prices, energy supply security, climate targets and carbon neutrality, heating law, "
+            "hydrogen technology, and the political debate on the right energy mix for Germany."
+        ),
+    },
+    "retirement": {
+        "de": (
+            "Das deutsche Rentensystem und die Debatte um Altersvorsorge. Dieser Themenbereich "
+            "umfasst Rentenreformen und Rentenerhöhungen, das Renteneintrittsalter und Debatten "
+            "über Rente mit 63, 67 oder 70, Altersarmut und Rentenlücken, die Aktienrente und "
+            "kapitalgedeckte Vorsorge, den demographischen Wandel als Herausforderung für das "
+            "Rentensystem, die Riester-Rente sowie grundsätzliche Fragen zur "
+            "Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Rentenversicherung."
+        ),
+        "en": (
+            "Germany's pension system and retirement savings debates. Covers pension reforms and increases, retirement age "
+            "(retirement at 63, 67, 70), pension gaps and poverty in old age, capital-funded pensions, demographic change challenges, "
+            "Riester pensions, and questions about intergenerational fairness and sustainability of public pensions."
+        ),
+    },
+    "work_transition": {
+        "de": (
+            "Die Zukunft der Arbeit in Deutschland — Mindestlohn, Tarifbindung, Fachkräftemangel "
+            "und soziale Sicherung. Dieser Themenbereich umfasst Debatten über Mindestlöhne und "
+            "Tarifverträge, Gewerkschaften und Arbeitgeber, Bürgergeld und Hartz-Reformen, "
+            "Kurzarbeit und Beschäftigungssicherung, die Auswirkungen von Automatisierung und "
+            "Digitalisierung auf den Arbeitsmarkt, Plattformarbeit und Scheinselbstständigkeit, "
+            "Homeoffice, Qualifizierung und Umschulung sowie Fragen zu Lohngleichheit, "
+            "Betriebsräten und Mitbestimmung."
+        ),
+        "en": (
+            "The future of work in Germany — minimum wage, collective bargaining, skills shortage, and social security. "
+            "Covers minimum wage debates, union-employer relations, basic income reform, automation and digitalization impacts, "
+            "platform work, works councils, equal pay, home office, and worker reskilling."
+        ),
+    },
+    "defense": {
+        "de": (
+            "Die deutsche Verteidigungspolitik, Bundeswehr und NATO-Engagement. Dieser "
+            "Themenbereich umfasst die Debatte um Wehrpflicht und Bundeswehrreform, "
+            "Rüstungsausgaben und das NATO-Zwei-Prozent-Ziel, Rüstungsexporte und "
+            "Waffenlieferungen, Auslandseinsätze der Bundeswehr, die Zeitenwende in der "
+            "deutschen Sicherheitspolitik nach dem russischen Angriff auf die Ukraine, "
+            "Cyberabwehr, Zivilschutz sowie Fragen zur Bündnisverteidigung und dem "
+            "Artikel-5-Beistandsfall innerhalb der NATO."
+        ),
+        "en": (
+            "German defense policy, Bundeswehr, and NATO engagement. Includes conscription and military reform debates, "
+            "defense spending and NATO's 2% target, arms exports and weapons deliveries, military missions abroad, "
+            "security policy transformation after Ukraine, cyber defense, civil protection, and NATO commitments."
+        ),
+    },
+    "family_children": {
+        "de": (
+            "Familienpolitik, Kinderbetreuung und Familienleistungen in Deutschland. Dieser "
+            "Themenbereich umfasst Debatten über Kindergeld und Kinderfreibetrag, den Kita-Ausbau "
+            "und Betreuungsplätze, Elterngeld und Elternzeit, die Vereinbarkeit von Familie und "
+            "Beruf, Kinderarmut und Grundsicherung für Kinder, Jugendschutz und Jugendhilfe, "
+            "Rechte und Wohlergehen von Kindern sowie frühkindliche Förderung. Auch Berichte "
+            "über Hebammen, Geburtshilfe, Tagesmütter und Erzieher gehören dazu."
+        ),
+        "en": (
+            "Family policy, childcare, and family benefits in Germany. Covers child benefits, kindergarten expansion, "
+            "parental leave and allowances, work-life balance, child poverty, child protection and welfare, early childhood education, "
+            "and reporting on midwives and childcare workers."
+        ),
+    },
+    "education": {
+        "de": (
+            "Das deutsche Bildungssystem von der Kita bis zur Hochschule und Weiterbildung. "
+            "Dieser Themenbereich umfasst Debatten über Schulfinanzierung und "
+            "Bildungsgerechtigkeit, BAföG und Studiengebühren, die duale Berufsausbildung, "
+            "Digitalisierung in Schulen, Lehrkräftemangel und Quereinsteiger, "
+            "Bildungsföderalismus, Inklusion und Sonderpädagogik, Ganztagsschulen, "
+            "PISA-Studien sowie lebenslanges Lernen und Weiterbildung im Wandel der Arbeitswelt."
+        ),
+        "en": (
+            "Germany's education system from kindergarten to universities and lifelong learning. Includes school funding and "
+            "educational equity debates, BAföG and tuition fees, dual vocational training, school digitalization, teacher shortages, "
+            "special education, all-day schools, PISA studies, and continuing education."
+        ),
+    },
+    "digitalization": {
+        "de": (
+            "Digitalisierung, Künstliche Intelligenz und digitale Transformation in Deutschland "
+            "und Europa. Dieser Themenbereich umfasst KI-Entwicklungen und Large Language Models, "
+            "die Digitalisierung von Verwaltung und Wirtschaft, Datenschutz und Cybersicherheit, "
+            "den Breitbandausbau und digitale Infrastruktur, den EU AI Act und KI-Regulierung, "
+            "Automatisierung und deren Auswirkungen auf den Arbeitsmarkt, digitale Bildung, "
+            "sowie die gesellschaftliche und politische Debatte über Chancen und Risiken "
+            "von KI und Digitalisierung für Deutschland."
+        ),
+        "en": (
+            "Digitalization, artificial intelligence, and digital transformation in Germany and Europe. Covers AI developments "
+            "and LLMs, government and business digitalization, data protection and cybersecurity, broadband expansion, "
+            "EU AI Act and AI regulation, automation impacts on employment, digital education, and societal debate on AI opportunities and risks."
+        ),
+    },
 }
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 OLLAMA_MODEL = "llama3.1"
 
 
 # ── Unified LLM Call ──────────────────────────────
 def call_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
     """
-    Unified LLM call — Groq primary (llama-3.3-70b-versatile), Claude Haiku fallback.
+    Unified LLM call — Groq primary (openai/gpt-oss-120b), Claude Haiku fallback.
     Optional system message supported by both providers.
     """
     groq_key = os.getenv("GROQ_API_KEY")
     if groq_key:
         try:
             from groq import Groq
-            client = Groq(api_key=groq_key)
+            client = Groq(api_key=groq_key, base_url="https://api.groq.com")
             messages = []
             if system:
                 messages.append({"role": "system", "content": system})
@@ -357,7 +413,8 @@ def llm_relevance_filter(
     Sends batches of titles — asks which are truly about the topic.
     Falls back to all articles if LLM fails.
     """
-    topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
+    topic_desc_obj = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
+    topic_desc = topic_desc_obj.get("de", topic_id) if isinstance(topic_desc_obj, dict) else topic_desc_obj
     relevant = []
     total_batches = (len(articles) + batch_size - 1) // batch_size
 
@@ -462,14 +519,13 @@ def aggregate_by_outlet(articles: list[dict]) -> dict:
     ))
 
 
-# ── Step 4: LLM Synthesis ─────────────────────────
-def llm_synthesize(articles: list[dict], topic_id: str) -> dict:
+# ── Step 4: LLM Synthesis (Deutsch) ──────────────
+def llm_synthesize_de(articles: list[dict], topic_id: str) -> dict:
     """
-    Identifies shared perspectives and controversial points across
-    different media outlets using two separate LLM calls with
-    dedicated system prompts for analytical depth.
+    German synthesis: shared perspectives and controversial points.
     """
-    topic_desc = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
+    topic_desc_obj = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
+    topic_desc = topic_desc_obj.get("de", topic_id) if isinstance(topic_desc_obj, dict) else topic_desc_obj
 
     bias_samples = {}
     for article in articles:
@@ -540,15 +596,100 @@ Antworte auf Deutsch in 2-3 präzisen analytischen Sätzen. Nur Fließtext, kein
 
     try:
         shared = call_llm(prompt_shared, max_tokens=500, system=system_shared).strip()
-        print(f"  ✓ Shared synthesis generated ({len(shared)} chars)")
+        print(f"  ✓ DE Shared synthesis generated ({len(shared)} chars)")
     except Exception as e:
-        print(f"  ⚠ Shared synthesis failed: {e}")
+        print(f"  ⚠ DE Shared synthesis failed: {e}")
 
     try:
         controversial = call_llm(prompt_controversial, max_tokens=500, system=system_controversial).strip()
-        print(f"  ✓ Controversial synthesis generated ({len(controversial)} chars)")
+        print(f"  ✓ DE Controversial synthesis generated ({len(controversial)} chars)")
     except Exception as e:
-        print(f"  ⚠ Controversial synthesis failed: {e}")
+        print(f"  ⚠ DE Controversial synthesis failed: {e}")
+
+    return {
+        "shared_perspectives": shared,
+        "controversial_points": controversial,
+    }
+
+
+# ── Step 4: LLM Synthesis (English) ──────────────
+def llm_synthesize_en(articles: list[dict], topic_id: str) -> dict:
+    """
+    English synthesis: shared perspectives and controversial points.
+    """
+    topic_desc_obj = TOPIC_DESCRIPTIONS.get(topic_id, topic_id)
+    topic_desc = topic_desc_obj.get("en", topic_id) if isinstance(topic_desc_obj, dict) else topic_desc_obj
+
+    bias_samples = {}
+    for article in articles:
+        bias = article.get("bias", "unknown")
+        if bias not in bias_samples:
+            bias_samples[bias] = []
+        if len(bias_samples[bias]) < 6:
+            bias_samples[bias].append(article["title"])
+
+    if len(bias_samples) < 2:
+        return {
+            "shared_perspectives": "Not enough sources for synthesis.",
+            "controversial_points": "Not enough sources for synthesis.",
+        }
+
+    samples_text = "\n".join([
+        f"{bias.upper()}:\n" + "\n".join(f"  - {t}" for t in titles)
+        for bias, titles in bias_samples.items()
+    ])
+
+    system_base = (
+        "You analyse German media discourse exclusively. "
+        "Focus only on content with direct relevance to Germany — German politics, society, institutions, and impacts on Germany. "
+        "Mention international events only when they have direct demonstrable influence on Germany and German media reports on them in a German context. "
+        "Avoid generic international statements."
+    )
+
+    system_shared = (
+        system_base + " "
+        "Identify concrete themes, ideas, concepts, or political positions where there is discernible agreement in German media discourse "
+        "despite different political leanings. Formulate 2-3 precise analytical statements. No vague summaries — name concrete substantive commonalities. "
+        "No source citations. Focus on the overall picture of discourse."
+    )
+
+    system_controversial = (
+        system_base + " "
+        "Identify concrete tension fields, contradictions, and conflict lines in German media discourse on this topic. "
+        "Where do fundamentally different worldviews, values, or political concepts collide? Formulate 2-3 precise analytical statements that name the actual dividing lines — "
+        "not superficial disagreements but structural conflicts in discourse. No source citations."
+    )
+
+    prompt_shared = f"""Topic: {topic_desc}
+
+Article headlines by media political alignment:
+{samples_text}
+
+What substantive commonalities emerge in German media discourse on this topic?
+Answer in 2-3 precise analytical sentences in English. Prose only, no JSON, no bullet points."""
+
+    prompt_controversial = f"""Topic: {topic_desc}
+
+Article headlines by media political alignment:
+{samples_text}
+
+What structural conflict lines and tension fields emerge in German media discourse on this topic?
+Answer in 2-3 precise analytical sentences in English. Prose only, no JSON, no bullet points."""
+
+    shared = "Synthesis not available."
+    controversial = "Synthesis not available."
+
+    try:
+        shared = call_llm(prompt_shared, max_tokens=500, system=system_shared).strip()
+        print(f"  ✓ EN Shared synthesis generated ({len(shared)} chars)")
+    except Exception as e:
+        print(f"  ⚠ EN Shared synthesis failed: {e}")
+
+    try:
+        controversial = call_llm(prompt_controversial, max_tokens=500, system=system_controversial).strip()
+        print(f"  ✓ EN Controversial synthesis generated ({len(controversial)} chars)")
+    except Exception as e:
+        print(f"  ⚠ EN Controversial synthesis failed: {e}")
 
     return {
         "shared_perspectives": shared,
@@ -583,8 +724,9 @@ def analyze_topic(topic_id: str) -> dict:
         relevant = candidates
     outlets = aggregate_by_outlet(relevant)
     print(f"  → {len(outlets)} outlets represented")
-    print(f"  → Generating synthesis...")
-    synthesis = llm_synthesize(relevant, topic_id)
+    print(f"  → Generating synthesis (DE + EN)...")
+    synthesis_de = llm_synthesize_de(relevant, topic_id)
+    synthesis_en = llm_synthesize_en(relevant, topic_id)
     bias_dist = {}
     for article in relevant:
         bias = article.get("bias", "unknown")
@@ -596,8 +738,16 @@ def analyze_topic(topic_id: str) -> dict:
         "candidate_count": len(candidates),
         "outlets": outlets,
         "bias_distribution": bias_dist,
-        "shared_perspectives": synthesis["shared_perspectives"],
-        "controversial_points": synthesis["controversial_points"],
+        "statements": {
+            "de": {
+                "shared_perspectives": synthesis_de["shared_perspectives"],
+                "controversial_points": synthesis_de["controversial_points"],
+            },
+            "en": {
+                "shared_perspectives": synthesis_en["shared_perspectives"],
+                "controversial_points": synthesis_en["controversial_points"],
+            },
+        },
         "cached_at": datetime.utcnow().isoformat(),
     }
     print(f"  ✅ Done")
@@ -646,5 +796,5 @@ if __name__ == "__main__":
             print(f"\n=== Result ===")
             print(f"Articles: {result['article_count']} (from {result['candidate_count']} candidates)")
             print(f"Outlets: {list(result['outlets'].keys())}")
-            print(f"\nShared: {result['shared_perspectives']}")
-            print(f"\nControversial: {result['controversial_points']}")
+            print(f"\nShared: {result['statements']['de']['shared_perspectives']}")
+            print(f"\nControversial: {result['statements']['de']['controversial_points']}")

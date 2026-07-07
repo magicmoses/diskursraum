@@ -254,9 +254,9 @@ Rules:
 
         try:
             from groq import Groq
-            client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+            client = Groq(api_key=os.getenv("GROQ_API_KEY"), base_url="https://api.groq.com")
             response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-120b",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.1,
                 max_tokens=100,

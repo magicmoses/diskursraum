@@ -100,7 +100,7 @@ Ask the party manifestos directly. Enter a free-text question — Diskursraum de
 
 - Semantic search across all Bundestagswahlprogramme 2005–2025
 - Automatic party and year detection from free-text input
-- Streamed answers via Groq llama-3.3-70b with Claude Haiku-4.5 fallback
+- Streamed answers via Groq openai/gpt-oss-120b with Claude Haiku-4.5 fallback
 - Rate limiting: 10 deep-dives per session, 50 per IP per day
 
 ---
@@ -131,7 +131,7 @@ Diskursraum measures populist rhetoric in party manifestos using a sentence-leve
 | Backend | FastAPI, Python 3.11 |
 | Database | PostgreSQL + pgvector (Railway) |
 | ML/NLP | sentence-transformers, german-sentiment-bert, go_emotions_V1.2 |
-| LLM | Groq llama-3.3-70b-versatile, Anthropic Claude Haiku-4.5 (fallback) |
+| LLM | Groq openai/gpt-oss-120b, Anthropic Claude Haiku-4.5 (fallback) |
 | Vector search | pgvector (production), ChromaDB (local pipeline) |
 | Graph analysis | NetworkX |
 | Classification | ManifestoBERTa (Manifesto Project) |

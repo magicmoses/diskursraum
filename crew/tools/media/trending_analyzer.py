@@ -29,7 +29,7 @@ def _get_conn():
         raise RuntimeError("DATABASE_URL or RAILWAY_DATABASE_URL not set")
     return psycopg2.connect(DATABASE_URL, cursor_factory=psycopg2.extras.RealDictCursor)
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 GERMAN_STOPWORDS = [
     "der", "die", "das", "den", "dem", "des", "ein", "eine", "einer",
@@ -82,7 +82,7 @@ def _call_llm(prompt: str, max_tokens: int = 900) -> str:
     if groq_key:
         try:
             from groq import Groq
-            client = Groq(api_key=groq_key)
+            client = Groq(api_key=groq_key, base_url="https://api.groq.com")
             response = client.chat.completions.create(
                 model=GROQ_MODEL,
                 messages=[{"role": "user", "content": prompt}],

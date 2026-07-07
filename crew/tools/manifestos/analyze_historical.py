@@ -227,12 +227,12 @@ def compute_pca_trajectories(years_found: list) -> dict:
 def get_election_topics(years_found: list) -> dict:
     """One Groq call per year — 6 calls total."""
     from groq import Groq
-    client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    client = Groq(api_key=os.getenv("GROQ_API_KEY"), base_url="https://api.groq.com")
     result = {}
     for year in years_found:
         try:
             resp = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-120b",
                 messages=[{"role": "user", "content":
                     f"Top 5 politische Themen der deutschen Bundestagswahl {year}. "
                     f"Kurze Schlagworte. NUR JSON-Array: [\"T1\",\"T2\",\"T3\",\"T4\",\"T5\"]"
@@ -456,7 +456,7 @@ def analyze_nlp() -> dict:
 
     # ── central_promises ──────────────────────────
     from groq import Groq
-    groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"), base_url="https://api.groq.com")
     chroma_client = _chroma()
     central_promises: dict = {}
 
@@ -486,7 +486,7 @@ def analyze_nlp() -> dict:
 
                 context = "\n\n".join(docs)
                 resp = groq_client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                    model="openai/gpt-oss-120b",
                     messages=[{"role": "user", "content":
                         f"Extrahiere 3-5 zentrale Versprechen aus diesem Auszug des Wahlprogramms "
                         f"({PARTIES[pid]['name']}, Bundestagswahl {year}).\n"
