@@ -1,39 +1,237 @@
 {
   "topic_id": "digitalization",
   "topic_label": "Digitale Transformation & KI",
-  "article_count": 103,
+  "article_count": 800,
   "candidate_count": 800,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 33,
+      "article_count": 129,
       "sample_titles": [
-        "Riesen-Rechenzentren: Der Kampf gegen KI am Großen Salzsee",
-        "Business-Ticker: Microsoft baut mehrere tausend Stellen ab",
-        "Autonome KI auf dem Chefsessel: Auf dem Weg zum Unternehmen ohne Mitarbeiter",
-        "KI mischt Arbeitswelt auf: Welche Berufe jetzt noch gebraucht werden"
+        "Liveblog Ukrainekrieg: Erneut russischer Angriff mit ballistischen Raketen auf Kiew",
+        "„Trump Accounts“: Investieren mit einem Geschenk von Trump",
+        "Reaktionen nach auftritt: Rapperin Ikkimel sprengt das ZDF-„Morgenmagazin“",
+        "Podcast Finanzen & Immobilien: Wie die KI-Welle viele Investitionen und Anlageoptionen antreibt"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/great-salt-lake-protest-gegen-ki-rechenzentrum-in-utah-200977104.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-microsoft-baut-mehrere-tausend-stellen-ab-faz-200452404.html",
-        "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/firmen-ohne-mitarbeiter-wenn-ki-agenten-auf-dem-chefsessel-sitzen-accg-200955637.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kuenstliche-intelligenz-und-berufe-welche-jobs-haben-zukunft-accg-200980123.html"
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-erneut-russischer-angriff-mit-ballistischen-raketen-auf-kiew-faz-110683325.html",
+        "https://www.faz.net/aktuell/finanzen/trump-accounts-investieren-mit-einem-geschenk-des-praesidenten-201006008.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/ikkimel-im-zdf-morgenmagazin-auftritt-sorgt-fuer-empoerung-201006073.html",
+        "https://www.faz.net/podcasts/f-a-z-finanzen-immobilien/podcast-was-kuenstliche-intelligenz-fuer-anleger-bedeutet-201006569.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 9
+        },
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 93,
+      "sample_titles": [
+        "„Ein furchtbarer Gegner“ - Riesen-Wut auf Putin!",
+        "Von 90 auf 70 Kilo - „Mit 6 Tricks überlistete ich den Jojo-Effekt“",
+        "Lebensgefahr vor türkischer Küste - Mädchen treibt mit Luftmatratze aufs offene Meer",
+        "Trotz Mitglieder-Tiefstand - Kirchen kassieren so viel Steuern wie nie"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/ausland-und-internationales/riesen-wut-auf-wladimir-putin-inkompetenz-ist-ein-furchtbarer-gegner-6a4cd8f0efe247f8a9c6a39f",
+        "https://www.bild.de/leben-wissen/ernaehrung-diaet/von-90-auf-70-kilo-mit-6-tricks-ueberlistete-ich-den-jojo-effekt-6a2fa48f1a21c266c42b6542",
+        "https://www.bild.de/news/ausland/kind-treibt-aufs-meer-kuestenwache-startet-rettung-6a4d262cbb0cf80de56a14bf",
+        "https://www.bild.de/politik/inland/kirchensteuer-einnahmen-so-hoch-wie-nie-trotz-mitgliederschwund-6a4d1216cc64e7e4fc39b155"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 4
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "pride",
+          "count": 3
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 89,
+      "sample_titles": [
+        "„Struktur, Ausbildung. Einen Haufen zu tun“ – Klopp skizziert seine Aufgaben als Bundestrainer",
+        "„Äußert ernste Lage“ – Großeinsatz wegen Einsturzgefahr bei Wolkenkratzer",
+        "„Kill the Jews“ – Antisemiten bepöbeln Paar mit Kinderwagen, Zeugin greift ein",
+        "„Man sollte Trump ernst nehmen, aber nicht wörtlich“"
+      ],
+      "urls": [
+        "https://www.welt.de/sport/article6a4d532271eeac23515b1358/sollte-ich-das-machen-struktur-ausbildung-einen-haufen-zu-tun-klopp-skizziert-seine-aufgaben-als-bundestrainer.html",
+        "https://www.welt.de/vermischtes/article6a4d8473bb0cf80de56a1887/new-york-aeussert-ernste-lage-grosseinsatz-wegen-einsturzgefahr-bei-wolkenkratzer.html",
+        "https://www.welt.de/politik/deutschland/article6a4d87c1bb0cf80de56a189f/berlin-kill-the-jews-antisemiten-bepoebeln-paar-mit-kinderwagen-zeugin-greift-ein.html",
+        "https://www.welt.de/videos/video6a4d279ccc64e7e4fc39b3cb/nato-gipfel-in-ankara-man-sollte-trump-ernst-nehmen-aber-nicht-woertlich.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 85,
+      "sample_titles": [
+        "Fach-Konferenz in Bonn: Wie KI Medizin und Forschung revolutioniert",
+        "TKMS baut bis zu zwölf U-Boote für Kanada in Kiel und Wismar",
+        "Nach tödlichem Angriff in Linden: Große Hilfsbereitschaft für Kinder der getöteten Frau",
+        "Internetsperren für Samidoun-Netzwerk greifen allmählich"
+      ],
+      "urls": [
+        "https://www1.wdr.de/nrw/rheinland/bonn/ki-medizin-uniklinik-forschung-100.html",
+        "https://www.ndr.de/nachrichten/schleswig-holstein/kiel_neumuenster_ploen_rendsburg-eckernfoerde/tkms-baut-bis-zu-zwoelf-u-boote-fuer-kanada-in-kiel-und-wismar,tkms-158.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/hilfsbereitschaft-kinder-getoetete-frau-linden-100.html",
+        "https://www.tagesschau.de/investigativ/swr/samidoun-netzwerk-verbot-100.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 4
+        },
         {
           "emotion": "curiosity",
           "count": 3
         },
         {
-          "emotion": "fear",
-          "count": 1
+          "emotion": "excitement",
+          "count": 2
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 84,
+      "sample_titles": [
+        "KI und Ölpreis unter Druck: Ausverkauf bei Chip-Werten belastet Wall Street",
+        "\"Werden wir so nicht halten\": Autoindustrie-Verband erwartet ohne Reformen Werksschließungen",
+        "Palla plant drei Maßnahmenpakete: Deutsche Bahn will Verspätungsprognosen mit KI verbessern",
+        "Weg in den Élysée vor Augen: Le Pen riskiert für ihren Traum Kopf und Kragen"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wirtschaft/Ausverkauf-bei-Chip-Werten-belastet-Wall-Street-id31059989.html",
+        "https://www.n-tv.de/wirtschaft/Autoindustrie-Verband-erwartet-ohne-Reformen-Werksschliessungen-id31060110.html",
+        "https://www.n-tv.de/wirtschaft/Deutsche-Bahn-will-Verspaetungsprognosen-mit-KI-verbessern-id31060295.html",
+        "https://www.n-tv.de/politik/politik_kommentare/Le-Pen-riskiert-fuer-ihren-Traum-Kopf-und-Kragen-id31059955.html"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 5
         },
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 4
+        },
+        {
+          "emotion": "annoyance",
+          "count": 4
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 64,
+      "sample_titles": [
+        "USA attackieren mehr als 80 Ziele in Iran – Teheran droht mit »vernichtender Reaktion«",
+        "Russlands Krieg gegen die Ukraine: Warum es in Kyjiw Tote gibt, während Moskau nur erschrickt",
+        "Nato-Gipfel in Ankara: Schlechte Stimmung bei den USA, wenig Hoffnung für Europa",
+        "Haushalt 2027: Diese Laster sollen künftig stärker besteuert werden"
+      ],
+      "urls": [
+        "https://www.spiegel.de/ausland/waehrend-nato-gipfel-usa-greifen-iran-erneut-an-streit-ueber-strasse-von-hormus-a-6ca5471f-d95d-4ec0-8486-7f6313d80d99#ref=rss",
+        "https://www.spiegel.de/ausland/russlands-krieg-gegen-die-ukraine-warum-es-in-kyjiw-tote-gibt-waehrend-moskau-nur-erschrickt-a-38e66bc7-3d73-4a3b-807d-3ee5e8fa608e#ref=rss",
+        "https://www.spiegel.de/ausland/nato-gipfel-in-ankara-schlechte-stimmung-bei-den-usa-wenig-hoffnung-fuer-europa-a-f4e66daf-fb33-4219-b513-34667c6a5747#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/haushalt-2027-diese-laster-sollen-kuenftig-staerker-besteuert-werden-a-24de460c-6517-4369-a086-9967bb7300f8#ref=rss"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 51,
+      "sample_titles": [
+        "Marineschiffbau: Wirtschaftsminister: U-Boot-Auftrag bringt neue Perspektiven",
+        "Kinder schwimmen kostenlos: Spender für freien Freibad-Eintritt: „Man schwebt im Wasser“",
+        "Bundestag berät über digitale Ermittlungsbefugnisse für Polizei",
+        "Neuzulassungen: BMW holt sich Platz zwei bei den Elektroautos zurück"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/marineschiffbau--wirtschaftsminister--u-boot-auftrag-bringt-neue-perspektiven-37657890.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/kinder-schwimmen-kostenlos--spender-fuer-freien-freibad-eintritt---man-schwebt-im-wasser--37657868.html",
+        "https://www.stern.de/news/bundestag-beraet-ueber-digitale-ermittlungsbefugnisse-fuer-polizei-37657926.html",
+        "https://www.stern.de/wirtschaft/news/neuzulassungen--bmw-holt-sich-platz-zwei-bei-den-elektroautos-zurueck-37657938.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 5
+        },
+        {
+          "emotion": "realization",
+          "count": 4
+        },
+        {
+          "emotion": "fear",
+          "count": 3
         }
       ]
     },
@@ -41,18 +239,117 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 14,
+      "article_count": 49,
       "sample_titles": [
-        "Technologie: „Größter Treiber von Veränderung seit 25 Jahren“: Wie KI die Banken umkrempelt",
-        "Daniel Stelter: Könnte KI zum Piketty-Szenario führen?",
-        "Innovationen: Deutschland fällt im Patentrennen weiter zurück",
-        "Gastkommentar: In diesen neun Bereichen wird KI den Menschen nicht ersetzen"
+        "Beauty: Wie Indie-Brands den Hautpflegemarkt aufmischen",
+        "Exklusiv: Datenschützer will EU-Datenabkommen mit den USA kippen",
+        "Gastkommentar: KI-Firmen erzielen die größte Wertsteigerung vor dem Börsengang",
+        "E-Autos: BMW holt sich Platz zwei bei den Elektroautos zurück"
       ],
       "urls": [
-        "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/technologie-wie-ki-die-banken-veraendert-die-acht-wichtigsten-erkenntnisse-01/100236555.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-koennte-ki-zum-piketty-szenario-fuehren/100237686.html",
-        "https://www.handelsblatt.com/politik/deutschland/innovationen-deutschland-faellt-im-patentrennen-weiter-zurueck/100236978.html",
-        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-in-diesen-neun-bereichen-wird-ki-den-menschen-nicht-ersetzen/100233139.html"
+        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/beauty-wie-indie-brands-den-hautpflegemarkt-aufmischen/100234918.html",
+        "https://www.handelsblatt.com/politik/international/eu-aktivist-will-bruessels-datendeal-mit-den-usa-kippen/100238256.html",
+        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-ki-firmen-erzielen-die-groesste-wertsteigerung-vor-dem-boersengang/100231674.html",
+        "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/e-autos-bmw-holt-sich-platz-zwei-bei-den-elektroautos-zurueck/100238634.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "amusement",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 32,
+      "sample_titles": [
+        "LIVE-TICKER - Schweiz gegen Kolumbien: Manzambi verletzt, Vargas auf der Bank – Ardon Jashari und Fabian Rieder rücken ins Team",
+        "Kiews Horrornächte: Nach dem jüngsten russischen Grossangriff suchen Rettungskräfte nach Überlebenden im Schutt",
+        "U-Boot-Auftrag an TKMS: Kanada, Deutschland und Norwegen schmieden eine neue maritime Allianz",
+        "Symbol der Kriegszerstörung: Vögel in der Ukraine bauen ihre Nester aus Drohnenkabeln"
+      ],
+      "urls": [
+        "https://www.nzz.ch/sport/schweiz-gegen-kolumbien-mit-johan-manzambi-faellt-der-beste-skorer-verletzt-aus-wie-improvisiert-murat-yakin-ld.10014277",
+        "https://www.nzz.ch/international/kiews-horror-naechte-nach-russischen-grossangriffen-suchen-rettungskraefte-mit-blossen-haenden-nach-ueberlebenden-im-schutt-ld.10014424",
+        "https://www.nzz.ch/pro/tkms-was-kanadas-u-boot-deal-mit-der-kieler-werft-fuer-die-nato-bedeutet-ld.10014488",
+        "https://www.nzz.ch/panorama/symbol-der-kriegszerstoerung-voegel-in-der-ukraine-bauen-ihre-nester-aus-drohnenkabeln-ld.10014005"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 24,
+      "sample_titles": [
+        "Norwegische Vikings: Kollektive Wahnvorstellung",
+        "Automatisierte Durchsuchung: Chatkontrolle im Eilverfahren",
+        "Rechenzentren und Klimaschutz: KI um jeden Preis",
+        "Die Wahrheit: Das Geldbeuteltier"
+      ],
+      "urls": [
+        "https://taz.de/Norwegische-Vikings/!6194105/",
+        "https://taz.de/Automatisierte-Durchsuchung/!6194203/",
+        "https://taz.de/Rechenzentren-und-Klimaschutz/!6193704/",
+        "https://taz.de/Die-Wahrheit/!6193709/"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 22,
+      "sample_titles": [
+        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Bildung: Waldkindergarten Starnberg fürchtet um Fortbestand",
+        "Krieg in der Ukraine: Trump möchte wohl Gespräche mit Selenskij über ein Kriegsende führen",
+        "Vor dem Nato-Gipfel: Deutscher U-Boot-Bauer steht vor Zehn-Milliarden-Auftrag aus Kanada"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3512158",
+        "https://www.sueddeutsche.de/muenchen/starnberg/waldkindergarten-starnberg-schliessung-finanzprobleme-defizit-verein-darlehen-spenden-li.3509418",
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-nato-putin-selenskij-gespraeche-li.3500126",
+        "https://www.sueddeutsche.de/wirtschaft/tkms-u-boot-auftrag-kanada-milliarden-deal-werft-li.3511394"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -62,138 +359,72 @@
         },
         {
           "emotion": "curiosity",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "admiration",
           "count": 1
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 10,
+      "article_count": 20,
       "sample_titles": [
-        "Stadt Saarbrücken setzt auf KI-Bot im Telefonservice der Verwaltung",
-        "KI: Erleichterung im Alltag oder Technologie für Betrüger?",
-        "KI-Firmen kaufen offenbar Antiquariate leer",
-        "KI aus Freiburg soll Betroffene vor Hass im Netz schützen"
+        "Entthronte Ski-Könige",
+        "Vor NATO-Gipfel: Trump trifft Erdogan",
+        "Ikkimel mit \"Fußballmänner\"",
+        "Zu wenig Sprache, zu viel Bildschirm: Minischule soll helfen"
       ],
       "urls": [
-        "https://www.sr.de/sr/home/nachrichten/panorama/ki-bot_stadt_saarbruecken_telefonanfragen_100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/ki-fluch-oder-segen-rentner-lka-100.html",
-        "https://www.tagesschau.de/kultur/ki-firmen-antiquarische-buecher-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/app-gegen-hatespeech-100.html"
+        "https://www.zdfheute.de/sport/wintersport/nordische-kombination-olympia-aus-2030-kommentar-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5216323",
+        "https://www.zdfheute.de/video/zdf-morgenmagazin/ikkimel-102.html",
+        "https://www.zdfheute.de/politik/deutschland/bildung-foerderung-einschulung-minischule-100.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "realization",
       "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
         {
           "emotion": "realization",
           "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "surprise",
           "count": 1
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 9,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 17,
       "sample_titles": [
-        "Frau verliert durch gefälschten „Markus Lanz“-Clip mehr als eine Million Euro",
-        "Britische Außenministerin sieht die Gefahr einer „KI-Version von Hiroshima“",
-        "Russische Hacker stehlen Passwörter britischer Regierungsbeamter – Daten zum Verkauf angeboten",
-        "US-Präsident postet KI-Video als Arzt, der „Trump Derangement Syndrome“ heilen könne"
+        "Stade: Sechs Tote – und die entscheidenden Fragen bleiben weiterhin offen – TE-Wecker am 8. Juli 2026",
+        "Bombenlegerin von Monaco tot bei Kiew gefunden",
+        "Fünf Prozent für die Abschreckung: der teuerste NATO-Gipfel seit Jahrzehnten",
+        "„Citizen Vigilante“: FSK gibt Film nun doch „ab 18″ frei"
       ],
       "urls": [
-        "https://www.welt.de/vermischtes/article6a4bb381bfe786e9bb64d04e/betrug-frau-verliert-durch-gefaelschten-markus-lanz-clip-mehr-als-eine-million-euro.html",
-        "https://www.welt.de/politik/ausland/article6a4b0762ad32e994f875cc01/britische-aussenministerin-sieht-die-gefahr-einer-ki-version-von-hiroshima.html",
-        "https://www.welt.de/politik/ausland/article6a4ad2a00b14ed961bb53196/grossbritannien-russische-hacker-stehlen-passwoerter-von-regierungsbeamten.html",
-        "https://www.welt.de/politik/ausland/article6a47bd7980a38cbeb7ec1b96/donald-trump-postet-ki-video-als-arzt-der-trump-verblendungssyndrom-heilen-koenne-um-kritiker-zu-verspotten.html"
+        "https://www.tichyseinblick.de/podcast/wecker-am-8-juli-2026/",
+        "https://www.tichyseinblick.de/daili-es-sentials/bombenlegerin-monaco-tot-gefunden/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/fuenf-prozent-fuer-abschreckung-nato/",
+        "https://www.tichyseinblick.de/feuilleton/medien/fsk-gibt-citizen-vigilante-frei/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 7,
-      "sample_titles": [
-        "Künstliche Intelligenz: Microsoft will Belegschaft um zwei Prozent reduzieren",
-        "»Deadly Patient«: Amazon löscht vergurkte KI-Synchro",
-        "Asma Mhalla über den Technofaschismus: Gehirne an der Leine",
-        "US-Techkonzerne dominieren die Börsen – Deutsche verlieren den Anschluss"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-microsoft-will-belegschaft-um-zwei-prozent-reduzieren-a-3f97e9dc-9a97-49b3-9d2c-c9edb75b97fd#ref=rss",
-        "https://www.spiegel.de/kultur/deadly-patient-amazon-loescht-vergurkte-ki-synchro-a-5bb07225-80b1-47e1-81ad-364c91a3135b#ref=rss",
-        "https://www.spiegel.de/kultur/literatur/asma-mhalla-ueber-den-technofaschismus-gehirne-an-der-leine-a-59ce7fbe-15cf-4f62-9c28-6571051074d3#ref=rss",
-        "https://www.spiegel.de/wirtschaft/us-techkonzerne-dominieren-die-boersen-deutsche-verlieren-den-anschluss-a-5a70407d-49a4-4775-ab1f-aa063c6419ff#ref=rss"
-      ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "approval",
+          "emotion": "sadness",
           "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 6,
-      "sample_titles": [
-        "Gründerbranche: KI-Boom sorgt für Gründungsrekord bei deutschen Start-ups",
-        "„Deadly Patient“: „Ich sollte da gestorben haben\": KI-übersetzter Film bei Amazon geht viral",
-        "Handy in der Schule: Ministerin plant Handyverbot bis Klasse 10 an Schulen",
-        "„Chatkontrolle“: Kampf gegen Kindesmissbrauch: Minister fordern EU-Ausnahme"
-      ],
-      "urls": [
-        "https://www.stern.de/digital/gruenderbranche--ki-boom-sorgt-fuer-gruendungsrekord-bei-deutschen-start-ups-37651882.html",
-        "https://www.stern.de/digital/homeentertainment/amazon-prime-streicht-ki-uebersetzten-film---sollte-da-gestorben-haben--37650906.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/handy-in-der-schule--ministerin-plant-handyverbot-bis-klasse-10-an-schulen-37646970.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/-chatkontrolle---kampf-gegen-kindesmissbrauch--minister-fordern-eu-ausnahme-37645856.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
+        },
         {
           "emotion": "confusion",
           "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 5,
-      "sample_titles": [
-        "Kaum Verbote: Nur wenige Eltern limitieren Handynutzung ihrer Kinder",
-        "Beiträge wirken authentischer: KI überzeugt bei Debatten mehr als echte Politiker",
-        "Chips für E-Mobilität: Infineon-Werk bei Dresden startet früher als geplant",
-        "Milliarden-Investitionen: Microsoft will weiteres KI-Rechenzentrum in NRW bauen"
-      ],
-      "urls": [
-        "https://www.n-tv.de/panorama/Nur-wenige-Eltern-limitieren-Handynutzung-ihrer-Kinder-id31049397.html",
-        "https://www.n-tv.de/wissen/KI-ueberzeugt-bei-Debatten-mehr-als-echte-Politiker-id31039235.html",
-        "https://www.n-tv.de/wirtschaft/Infineon-Werk-bei-Dresden-startet-frueher-als-geplant-id31035748.html",
-        "https://www.n-tv.de/wirtschaft/Microsoft-will-weiteres-KI-Rechenzentrum-in-NRW-bauen-id31034797.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
+        },
         {
-          "emotion": "optimism",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -202,73 +433,58 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 3,
+      "article_count": 16,
       "sample_titles": [
-        "António Guterres: António Guterres fordert Kontrollen für künstliche Intelligenz",
-        "Künstliche Intelligenz: Wenn der Bot-Politiker in der Talkshow authentischer wirkt",
-        "Informationsfreiheitsgesetz: Bundesdatenschutzbeauftragte nennt Koalitionspläne »undemokratisch«"
+        "Soziale Medien: Social-Media-Verbot für Kinder scheitert schon an Altersabfrage",
+        "Künstliche Intelligenz im Studium: »Mitten im Text stand ›hier Titel der Bachelorarbeit einfügen‹«",
+        "KI-Texterkennung: Finde den Fehler",
+        "Unfall mit Schulbus: Kleinbus prallt gegen Dachvorsprung – Kinder leicht verletzt"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-07/antonio-guterres-kuenstliche-intelligenz-un-gefahren-regelwerk",
-        "https://www.zeit.de/wissenschaft/2026-07/kuenstliche-intelligenz-politische-kommunikation-studie",
-        "https://www.zeit.de/politik/deutschland/2026-07/informationsfreiheitsgesetz-louisa-specht-transparenz-buergerrechte"
+        "https://www.zeit.de/politik/ausland/2026-07/australien-social-media-verbot-instagram-snapchat-altersnachweis",
+        "https://www.zeit.de/campus/2026-07/kuenstliche-intelligenz-studium-abschlussarbeit-bachelor-campus",
+        "https://www.zeit.de/feuilleton/2026-07/ki-texterkennung-detektion-medienwissenschaft-schrift-autoren",
+        "https://www.zeit.de/news/2026-07/06/kleinbus-prallt-gegen-dachvorsprung-kinder-leicht-verletzt"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 3,
+      "article_count": 14,
       "sample_titles": [
-        "Krise Wieder 4.000 Jobs bedroht – Porsche feuert drei Top-Managerinnen",
-        "Kehrseiten des Fortschritts Das Internet versinkt im KI-Slop",
-        "Technologie Je klüger die KI, desto wichtiger der Mensch"
+        "Nach FSK-Streit „Citizen Vigilante“ von Uwe Boll darf jetzt doch ins Kino",
+        "Mecklenburg-Vorpommern Linkspartei blockiert Veröffentlichung zur AfD im Verfassungsschutzbericht",
+        "Angriffe auf Journalisten Wetterleuchten einer neuen RAF",
+        "Werben für Kinderlosigkeit Sterilisationspropaganda ohne Widerspruch"
       ],
       "urls": [
-        "https://jungefreiheit.de/wirtschaft/2026/wieder-4-000-jobs-bedroht-porsche-feuert-drei-top-managerinnen/",
-        "https://jungefreiheit.de/kultur/gesellschaft/2026/das-internet-versinkt-im-ki-slop/",
-        "https://jungefreiheit.de/kultur/2026/je-klueger-die-ki-desto-wichtiger-der-mensch/"
+        "https://jungefreiheit.de/kultur/2026/citizen-vigilante-von-uwe-boll-darf-jetzt-doch-ins-kino/",
+        "https://jungefreiheit.de/politik/deutschland/2026/linkspartei-blockiert-veroeffentlichung-zur-afd-im-verfassungsschutzbericht/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/wetterleuchten-einer-neuen-raf/",
+        "https://jungefreiheit.de/kultur/medien/2026/sterilisationspropaganda-ohne-widerspruch/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 3,
-      "sample_titles": [
-        "Mit KI-Check - Hüft- oder Knie-OP? Hier die beste Klinik finden",
-        "Tippschein ausfüllen - KI erstellt Ihre Zahlen nach cleverer Formel",
-        "Tippschein ausfüllen - BILD-KI erstellt Tippschein nach Mathe-Formel"
-      ],
-      "urls": [
-        "https://www.bild.de/leben-wissen/medizin/klinik-fuer-knie-oder-hueft-op-finden-checkliste-und-klinik-finder-6a21ad3685a291ced386952b",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/eurojackpot-nicht-geknackt-ki-erstellt-die-naechsten-zahlen-nach-cleverer-formel-6a43a6c6c04ea97a4e502a3f",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/eurojackpot-heute-so-erstellen-sie-ihren-tippschein-nach-mathe-formel-6a43a6c6c04ea97a4e502a3f"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Die verbaute Treppe: Macht KI die Gen Z zur neuen verlorenen Generation?",
-        "Der Vormarsch der KI sorgt bei Unternehmensberatern für Nervosität. Der Aktienkurs von Accenture bricht um fast die Hälfte ein",
-        "Schweizer Unternehmer verspricht KI auf Silicon-Valley-Niveau – von heute an kann man sie nutzen"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/ki-erschwert-gen-z-berufseinstieg-weniger-einstiegsjobs-mehr-iv-renten-ld.10014035",
-        "https://www.nzz.ch/wirtschaft/unruhe-bei-beratungsfirmen-aktienkurs-von-accenture-bricht-ein-ld.10013995",
-        "https://www.nzz.ch/technologie/schweizer-unternehmer-verspricht-ki-auf-silicon-valley-niveau-von-heute-an-kann-man-sie-nutzen-ld.10012998"
-      ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
         {
           "emotion": "optimism",
           "count": 1
@@ -279,30 +495,18 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 2,
+      "article_count": 7,
       "sample_titles": [
+        "Erneuter Stromausfall legt ganz Kuba lahm - News kompakt: Das Wichtigste kurz gefasst",
         "Guterres fordert internationale KI-Regulierung",
-        "Bau im Rekordtempo: Infineons neue Chipfabrik in Dresden"
+        "Supertaifun \"Bavi\" trifft Pazifikinsel Rota mit Wucht",
+        "News kompakt: Festnahmen in der Türkei vor NATO-Gipfel"
       ],
       "urls": [
+        "https://www.dw.com/de/erneuter-stromausfall-legt-ganz-kuba-lahm-news-kompakt-das-wichtigste-kurz-gefasst/a-77858387?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/guterres-fordert-internationale-ki-regulierung/a-77850890?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/bau-im-rekordtempo-infineons-neue-chipfabrik-in-dresden/a-77802293?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 2,
-      "sample_titles": [
-        "Zu wenig Sprache, zu viel Bildschirm: Minischule soll helfen",
-        "Milliarden-Invest: Infineon eröffnet Chipfabrik in Dresden"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/bildung-foerderung-einschulung-minischule-100.html",
-        "https://www.zdfheute.de/wirtschaft/infineon-ki-chips-smart-fab-dresden-100.html"
+        "https://www.dw.com/de/supertaifun-bavi-trifft-pazifikinsel-rota-mit-wucht/a-77847700?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/news-kompakt-festnahmen-in-der-türkei-vor-nato-gipfel/a-77843147?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -311,63 +515,72 @@
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 1,
+      "article_count": 3,
       "sample_titles": [
+        "Warum Künstliche Intelligenz kein Bewusstsein hat - Der Geist, der stets vereint",
+        "Wider Selbstbanalisierung und Moralisierung - Trotz allem: Ein Plädoyer für die Kirche",
         "Gibt es eine ethische KI? - Wunderbare Menschheit und bedrohliche Technik"
       ],
       "urls": [
+        "https://www.cicero.de/kultur/warum-kunstliche-intelligenz-kein-bewusstsein-hat-der-geist-der-stets-vereint",
+        "https://www.cicero.de/innenpolitik/wider-die-selbstbanalisierung-und-moralisierung-trotz-allem-ein-pladoyer-fur-die-kirche",
         "https://www.cicero.de/kultur/gibt-es-eine-ethische-ki-wunderbare-menschheit-und-bedrohliche-technik"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Weiterbildung: So machen Sie Ihren Job KI-sicher"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/wirtschaft/deutschland-ki-fachkraeftemangel-weiterbildung-li.3483221"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
       "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "Informationsfreiheit vor dem Aus? Koalition will Politik und Verwaltung stärker abschotten"
+        "Cancel Cuisine: Nogger Dir einen"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/koalition-informationsfreiheit-gesetz-reform/"
+        "https://www.achgut.com/artikel/cancel_cuisine_nogger_dir_einen"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "left-liberal": 17,
-    "conservative-liberal": 37,
-    "right-conservative": 14,
-    "neutral": 14,
-    "far-right": 4,
-    "economic-liberal": 14,
-    "populist-mixed": 3
+    "far-right": 32,
+    "populist-mixed": 93,
+    "right-conservative": 173,
+    "economic-liberal": 49,
+    "conservative-liberal": 164,
+    "left-liberal": 153,
+    "left": 24,
+    "neutral": 112
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Über alle politischen Ausrichtungen hinweg dominiert eine ambivalente Wahrnehmung von KI als fundamentale wirtschaftliche und gesellschaftliche Transformationskraft, bei der sowohl erhebliche Produktivitätspotenziale als auch konkrete Risiken (Jobverluste, Missbrauch durch Deepfakes, Sicherheitslücken) gleichermaßen ernst genommen werden. Der Mediendiskurs zeigt Konsens darüber, dass Deutschland strukturell im internationalen KI-Wettbewerb zurückfällt und dass regulatorische Rahmenbedingungen (EU AI Act, Datenschutz) zwar notwendig sind, aber möglicherweise als Wettbewerbsnachteil wirken — eine Spannung, die unabhängig von politischer Positionierung artikuliert wird. Schließlich besteht breite Übereinstimmung, dass KI-bedingte Arbeitsmarktveränderungen unmittelbar bevorstehen und konkrete Fragen zu Qualifizierung und sozialen Folgen aufwerfen, wobei die Debatte weniger ideologisch als pragmatisch-besorgt ausfällt.",
-      "controversial_points": "# Strukturelle Konfliktlinien im deutschen KI-Diskurs\n\nDer deutsche Mediendiskurs spaltet sich an der Frage, ob KI ein Wohlfahrtsgewinn oder ein Kontrollrisiko darstellt. Links-liberal geprägte Medien betonen Chancen für Gründer und fordern staatliche Regulierung, während konservativ-liberale Medien Effizienzgewinne hervorheben und vor Überregulierung warnen. Ein zweiter fundamentaler Konflikt verläuft zwischen wirtschafts-liberalen Akteuren, die KI als Wettbewerbsfähigkeit Deutschlands darstellen, und skeptischen Stimmen quer durch alle Spektren, die Arbeitsplatzabbau und manipulative Technologien fürchten. Die tiefere Spannungslinie aber ist die zwischen Vertrauensoptimismus (KI ist regulierbar, steuerbar) und technikskeptizischem Kontrollpessimismus (KI entgleitet der menschlichen Kontrolle). Deutschland ringt dabei konkret darum, ob es beim EU AI Act mitführend agiert oder durch Überregulierung den technologischen Anschluss verliert."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens über die Notwendigkeit einer beschleunigten digitalen Infrastruktur, insbesondere des Breitbandausbaus und der Integration von KI-Systemen in Verwaltung und Wirtschaft, formuliert. Gleichzeitig betonen fast alle Beiträge die Dringlichkeit klarer regulatorischer Rahmenbedingungen, wobei der EU-AI-Act als zentraler Bezugspunkt für Datenschutz, Cybersicherheit und ethische Standards genannt wird. Darüber hinaus wird in nahezu allen Medienberichten die potenzielle Umgestaltung des Arbeitsmarktes durch Automatisierung und KI hervorgehoben, wobei sowohl Chancen für neue Berufsfelder als auch Risiken von Arbeitsplatzverlusten und Qualifikationsdefiziten thematisiert werden. Schließlich verbinden konservative, liberale und linke Stimmen die digitale Transformation mit der Forderung nach gezielten staatlichen Förderprogrammen, um Wettbewerbsfähigkeit zu sichern und gleichzeitig soziale Abfederungsmechanismen für von der Technologie betroffene Gruppen zu etablieren.",
+      "controversial_points": "Der EU‑AI‑Act spaltet konservative Wirtschaftslobby von progressiven Datenschützern, die Regulierung als Innovationsbremse sehen. In der Verwaltung fordert die Linke schnelle digitale Infrastruktur, während die Mitte‑Rechts‑Fraktion Kosten und Bürokratie betont. Gewerkschaften warnen vor Arbeitsplatzverlust durch KI‑Automatisierung, Unternehmen betonen Wettbewerbsfähigkeit."
     },
     "en": {
-      "shared_perspectives": "# Substantive Commonalities in German Media Discourse on AI\n\nAcross the political spectrum, German media discourse demonstrates broad acknowledgment that AI presents simultaneous structural threats to German employment and competitive advantages—employment displacement is treated as an inevitable transformation requiring workforce adaptation rather than a debatable premise, while Germany's lagging position in AI development and patent innovation is framed as a systemic problem demanding urgent policy intervention. A second area of convergence concerns the concrete risks of AI-enabled deception and manipulation in German society, whether through deepfakes targeting individual citizens, synthetic content undermining electoral authenticity, or administrative fraud, suggesting shared anxiety about AI's capacity to erode trust in established institutions and information environments rather than disagreement about whether such risks exist. Finally, German media across outlets reflect implicit consensus that AI governance cannot remain solely market-driven or technology-neutral—regulation, ethical frameworks, and state involvement in computational infrastructure are presented as necessary rather than contested, though outlets differ sharply on regulatory scope and speed rather than on whether government intervention itself is appropriate.",
-      "controversial_points": "# Structural Conflict Lines in German AI Discourse\n\nThe fundamental divide pits **innovation acceleration** against **risk mitigation and worker protection**. Left-liberal outlets stress job losses and ethical concerns, while economic-liberal and conservative media emphasize competitive necessity and market opportunities. Germany's regulatory ambition—embodied in the EU AI Act—collides with pressure from tech companies and efficiency-focused sectors who see compliance as bureaucratic drag on innovation. A secondary fault line separates **technological determinism** (the view that AI transforms work inevitably) from **human agency** (the belief that policy and design choices shape outcomes). Right-conservative and far-right media exploit AI's disruptive effects to amplify anxieties about authenticity, deception, and social control, while other segments frame similar technologies as tools requiring proper governance rather than existential threats."
+      "shared_perspectives": "German media, from left-liberal to conservative, uniformly present artificial intelligence as a decisive engine for Germany's economic competitiveness and stress that state-driven investment in broadband, data-center capacity and digital skills is a prerequisite for that growth. At the same time they converge on the necessity of a calibrated regulatory framework, epitomized by the EU AI Act, that safeguards data protection and public safety while allowing concrete AI applications in transport, policing and healthcare to be deployed. This shared focus on pragmatic infrastructure and balanced oversight outweighs partisan differences about the broader societal risks of AI.",
+      "controversial_points": "German media split between AI innovation drive and strict data protection demands. Conservatives stress economic growth, liberals demand EU AI Act safeguards. Labor unions fear automation job loss, industry calls for digital skills investment. Federal government balances national digital sovereignty with EU coordination on standards. Public debate pits security surveillance expansion against civil liberty concerns."
     }
   },
-  "cached_at": "2026-07-07T08:53:48.115373"
+  "cached_at": "2026-07-08T06:58:55.003241"
 }

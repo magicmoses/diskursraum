@@ -1,25 +1,58 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 452,
-  "candidate_count": 777,
+  "article_count": 799,
+  "candidate_count": 799,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 62,
+      "article_count": 112,
       "sample_titles": [
+        "Sparpläne: Schnell noch eine Wärmepumpe kaufen?",
+        "Haushaltsausschuss: Die Förderung der Wärmepumpen ist aus dem Ruder gelaufen",
         "Flusskraftwerk in Giessen: Blaupause für Energiewende von unten",
-        "Flexibler Stromverbrauch: Die klugen Stromzähler kommen – und eine Billigvariante",
-        "Klimaneutrale Energie: Flusskraftwerk soll Energie für 4000 Wohnungen generieren",
-        "Stromnetze: Europaparlament zündet den Genehmigungsturbo"
+        "Flexibler Stromverbrauch: Die klugen Stromzähler kommen – und eine Billigvariante"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/waermepumpenfoerderung-was-auf-hauseigentuemer-zukommt-201005343.html",
+        "https://www.faz.net/aktuell/wirtschaft/waermepumpenfoerderung-warum-die-kuerzung-sinnvoll-ist-201006102.html",
         "https://www.faz.net/aktuell/rhein-main/region-und-hessen/flusskraftwerk-in-giessen-eine-blaupause-fuer-energiewende-von-unten-200994346.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/reformen-die-klugen-stromzaehler-kommen-aber-nicht-die-kluegsten-accg-200991153.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/speicher-fuer-oekostrom-flusskraftwerk-an-der-lahn-soll-giessen-mit-waerme-versorgen-200990176.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/eu-parlament-will-ausbau-von-stromtrassen-stark-beschleunigen-200991365.html"
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/reformen-die-klugen-stromzaehler-kommen-aber-nicht-die-kluegsten-accg-200991153.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 8
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "disapproval",
+          "count": 4
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 89,
+      "sample_titles": [
+        "Tanker in der Straße von Hormus beschossen",
+        "Zwei Menschen bei Unfall in Recyclingbetrieb in Saarlouis schwer verletzt",
+        "Strom weg im Südwesten: Macht das Stromnetz bei Hitze schlapp?",
+        "Experten sehen Mängel beim Berliner Katastrophenschutz"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/ausland/asien/strasse-von-hormus-brand-tanker-100.html",
+        "https://www.sr.de/sr/home/nachrichten/panorama/zwei_schwerverletzte_unfall_recyclingbetrieb_saarlouis_100.html",
+        "https://www.swr.de/swraktuell/strom-weg-im-suedwesten-macht-das-stromnetz-bei-hitze-schlapp-100.html",
+        "https://www.rbb24.de/politik/beitrag/2026/07/stromausfall-januar-2026-bericht-expertenkommission.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -28,45 +61,45 @@
           "count": 7
         },
         {
-          "emotion": "disapproval",
-          "count": 3
-        },
-        {
           "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 56,
-      "sample_titles": [
-        "Strom weg im Südwesten: Macht das Stromnetz bei Hitze schlapp?",
-        "Können Windräder der Gesundheit schaden?",
-        "Erste Flusswasser-Wärmepumpen: In Gießen kommt die Wärme jetzt aus der Lahn",
-        "Erneuerbare Energien liefern Rekord-Anteil"
-      ],
-      "urls": [
-        "https://www.swr.de/swraktuell/strom-weg-im-suedwesten-macht-das-stromnetz-bei-hitze-schlapp-100.html",
-        "https://www.tagesschau.de/wissen/gesundheit/windraeder-studie-100.html",
-        "https://www.hessenschau.de/wirtschaft/erste-flusswasser-waermepumpen-in-giessen-kommt-die-waerme-jetzt-aus-der-lahn-v1,flusswaermepumpe-giessen-powerlahn-100.html",
-        "https://www.tagesschau.de/wirtschaft/energie/oekostrom-rekord-104.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 6
         },
         {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 75,
+      "sample_titles": [
+        "„Remigration wird sexy“ – Das Ausland sieht, was der ÖRR nicht sehen will",
+        "Kanzler Merz: Was hat die SPD gegen Sie in der Hand?",
+        "Schüsse, Fluchtauto, SPD-Verbindung – neue Fragen im Fall Stade – TE-Wecker am 3. Juli 2026",
+        "Nord-Stream: Bundesanwaltschaft erhebt Anklage"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/feuilleton/medien/afd-parteitag-berichte-ausland/",
+        "https://www.tichyseinblick.de/video/kommentar/kanzler-merz-was-hat-spd-gegen-sie-in-der-hand/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-3-juli-2026/",
+        "https://www.tichyseinblick.de/daili-es-sentials/nord-stream-bundesanwaltschaft-erhebt-anklage/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
           "emotion": "curiosity",
-          "count": 5
+          "count": 6
         },
         {
-          "emotion": "desire",
-          "count": 1
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 2
         }
       ]
     },
@@ -74,24 +107,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 47,
+      "article_count": 72,
       "sample_titles": [
-        "Flüssigerdgas: LNG-Anteil an Gasimporten steigt trotz Iran-Konflikt deutlich",
-        "Energiewende: Koalition erzielt Durchbruch bei Förderung von Reservekraftwerken",
-        "Solarausbau: Ohne Garantievergütung droht Einbruch bei Photovoltaikanlagen",
-        "Windkraft: Kooperation beim Ausbau? Wie Dänemark die deutsche Energiewende retten könnte"
+        "Energiepolitik: Regierung plant Milliarden-Einsparung bei Heizungsförderung",
+        "Energiewende: Energiebranche pocht auf rasche Reformen für die Offshore-Windkraft",
+        "Energiepolitik: Regierung plant Milliarden-Einsparung bei Heizungsförderung",
+        "Flüssigerdgas: LNG-Anteil an Gasimporten steigt trotz Iran-Konflikt deutlich"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/fluessigerdgas-lng-anteil-an-gasimporten-steigt-trotz-iran-konflikt-deutlich/100237979.html",
-        "https://www.handelsblatt.com/politik/deutschland/energiewende-koalition-erzielt-durchbruch-bei-foerderung-von-reservekraftwerken/100237910.html",
-        "https://www.handelsblatt.com/politik/deutschland/solarausbau-ohne-garantieverguetung-droht-einbruch-bei-photovoltaik-anlagen/100236116.html",
-        "https://www.handelsblatt.com/politik/deutschland/windkraft-wie-daenemark-die-deutsche-energiewende-retten-koennte/100234051.html"
+        "https://www.handelsblatt.com/politik/deutschland/heizen-regierung-kuerzt-foerderung-fuer-waermepumpen/100238447.html",
+        "https://www.handelsblatt.com/politik/deutschland/energiewende-branche-pocht-auf-rasche-reformen-fuer-die-offshore-windkraft/100237671.html",
+        "https://www.handelsblatt.com/politik/deutschland/heizungsfoerderung-regierung-kuerzt-foerderung-fuer-waermepumpen/100238447.html",
+        "https://www.handelsblatt.com/politik/deutschland/fluessigerdgas-lng-anteil-an-gasimporten-steigt-trotz-iran-konflikt-deutlich/100237979.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 12
+          "count": 17
         },
         {
           "emotion": "disapproval",
@@ -107,32 +140,32 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 42,
+      "article_count": 69,
       "sample_titles": [
+        "Zuschüsse für Wärmepumpen und Co.: Regierung will Förderung klimafreundlicher Heizungen senken",
+        "Haushalts- und Klimapolitik: Mit Vollgas rückwärts",
         "Nach Kritik: Schwarz-Rot korrigiert das Heizungsgesetz",
-        "Fraktion reicht Verfassungsklage ein: Linke will Heizungsgesetz vor der Sommerpause verhindern",
-        "Entlastung in Milliardenhöhe: Speicherausbau senkt laut Studie Kosten der Energiewende",
-        "Steigende CO₂-Emissionen in Hamburg: Der Weg zur Klimaneutralität wird immer mühsamer"
+        "Fraktion reicht Verfassungsklage ein: Linke will Heizungsgesetz vor der Sommerpause verhindern"
       ],
       "urls": [
+        "https://taz.de/Zuschuesse-fuer-Waermepumpen-und-Co/!6194126/",
+        "https://taz.de/Haushalts--und-Klimapolitik/!6189158/",
         "https://taz.de/Neues-Heizungsgesetz/!6193759/",
-        "https://taz.de/Fraktion-reicht-Verfassungsklage-ein/!6193168/",
-        "https://taz.de/Entlastung-in-Milliardenhoehe/!6192363/",
-        "https://taz.de/Steigende-CO2-Emissionen-in-Hamburg/!6192139/"
+        "https://taz.de/Fraktion-reicht-Verfassungsklage-ein/!6193168/"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 3
-        },
-        {
           "emotion": "optimism",
-          "count": 3
+          "count": 8
         },
         {
-          "emotion": "realization",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 4
         }
       ]
     },
@@ -140,31 +173,64 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 41,
+      "article_count": 67,
       "sample_titles": [
-        "Stilllegung trotz Grüngasquote?: Fraunhofer sieht Gasnetz spätestens 2045 am Ende",
-        "Verzögerungen bei Reform: Grüne wollen Ministerin Reiche in Ausschuss zitieren",
-        "Flüssigerdgas aus den USA: Deutsche LNG-Importe steigen trotz Iran-Krieg",
-        "Solaranlagen nachts betreiben: Startup will mit 50.000 Spiegeln Sonnenlicht zur Erde lenken"
+        "Koalition schiebt Verabschiedung: Die Farce ums schwarz-rote Heizungsgesetz ist perfekt",
+        "Verbraucher bezahlen Reserve: So will die Regierung die Gasversorgung im Krisenfall absichern",
+        "Kritik an Bundeswehr und Nato: Aufrüstung des Militärs macht Klimaziele zunichte",
+        "Kritik an Bundeswehr und Nato: Militärische Aufrüstung macht Klimaziele zunichte"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Fraunhofer-sieht-Gasnetz-spaetestens-2045-am-Ende-id31051942.html",
-        "https://www.n-tv.de/politik/Gruene-wollen-Ministerin-Reiche-in-Ausschuss-zitieren-id31049235.html",
-        "https://www.n-tv.de/wirtschaft/Deutsche-LNG-Importe-steigen-trotz-Iran-Krieg-id31047923.html",
-        "https://www.n-tv.de/wissen/Startup-will-mit-50-000-Spiegeln-Sonnenlicht-zur-Erde-lenken-id31040334.html"
+        "https://www.n-tv.de/politik/politik_kommentare/Die-Farce-ums-schwarz-rote-Heizungsgesetz-ist-perfekt-id31057086.html",
+        "https://www.n-tv.de/politik/So-will-die-Regierung-die-Gasversorgung-im-Krisenfall-absichern-id31055854.html",
+        "https://www.n-tv.de/wissen/Aufruestung-des-Militaers-macht-Klimaziele-zunichte-id31052003.html",
+        "https://www.n-tv.de/wissen/Militaerische-Aufruestung-macht-Klimaziele-zunichte-id31052003.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 8
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
         },
         {
           "emotion": "disapproval",
           "count": 2
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 62,
+      "sample_titles": [
+        "„Stümperhaft“, „unprofessionell“ – Grüne wollen Gesundheitsreform im Bundestag stoppen",
+        "Drei Tanker in der Straße von Hormus attackiert – USA widerrufen Lizenz für iranische Ölexporte",
+        "„Der Markt für kleine Kernreaktoren könnte auf eine Billion Dollar wachsen“",
+        "Grüne werfen Wirtschaftsministerin Reiche „Arbeitsverweigerung“ vor"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a4d9716cbe0facee4120e61/stuemperhaft-unprofessionell-gruene-wollen-gesundheitsreform-im-bundestag-stoppen.html",
+        "https://www.welt.de/politik/ausland/article6a4d40cadfc0c82fa290966a/trotz-waffenruhe-drei-tanker-in-der-strasse-von-hormus-attackiert-usa-widerrufen-lizenz-fuer-iranische-oelexporte.html",
+        "https://www.welt.de/wirtschaft/article6a477156ad32e994f8759b36/rolls-royce-power-systems-der-markt-fuer-kleine-kernreaktoren-koennte-auf-eine-billion-dollar-wachsen.html",
+        "https://www.welt.de/politik/deutschland/article6a49c2a60b14ed961bb5242b/eeg-reform-die-gruenen-werfen-katherina-reiche-arbeitsverweigerung-vor.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
         },
         {
-          "emotion": "pride",
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -173,18 +239,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 32,
+      "article_count": 53,
       "sample_titles": [
-        "Heizungsgesetz von Katherina Reiche: Studie, Grüne und BUND kritisieren Gas-Pläne",
-        "Berlin: Anschlag auf Stromnetz - Experten empfehlen zentrales Krisenzentrum",
-        "Erneuerbare-Energien-Gesetz: Grüne wollen Katherina Reiche in Ausschuss zitieren",
-        "Heizungsgesetz: Grüne kritisieren Unionsangaben zu Biomethan für Gasheizungen"
+        "Robert Habeck: Investmentgesellschaft Urban Partners bestreitet Zusammenhang zwischen Viessmann-Beteiligung und Habecks neuem Job",
+        "Balkonkraftwerke: Viele Anlagen lassen sich zu leicht hacken",
+        "Klimapolitik: Mannheim baut größte Flusswärmepumpe Europas",
+        "Kuba: Blackout und neue Signale an Donald Trump"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/heizungsgesetz-von-katherina-reiche-studie-gruene-und-bund-kritisieren-gas-plaene-a-3e70b5d9-e226-4c28-9ecf-c2544bb42238#ref=rss",
-        "https://www.spiegel.de/panorama/anschlag-auf-das-berliner-stromnetz-experten-empfehlen-zentrales-krisenzentrum-a-c9d7983c-03fc-4974-831e-9bce61ae6ec7#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/erneuerbare-energien-gesetz-gruene-wollen-katherina-reiche-in-ausschuss-zitieren-a-f6821f07-f867-4d1e-8a8a-9ca7c068f5d9#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/heizungsgesetz-gruene-kritisieren-unionsangaben-zu-biomethan-fuer-gasheizungen-a-d36f785c-283b-4608-b1b0-5b0b7ec209b7#ref=rss"
+        "https://www.spiegel.de/politik/deutschland/robert-habeck-investmentgesellschaft-urban-partners-bestreitet-zusammenhang-zwischen-viessmann-beteiligung-und-habecks-neuem-job-a-c3d121ea-0635-47cc-9447-d8dffe096f76#ref=rss",
+        "https://www.spiegel.de/netzwelt/web/balkonkraftwerke-viele-anlagen-lassen-sich-laut-medienbericht-leicht-hacken-a-f87a5b9e-f56d-4bde-8e7e-b440db88f181#ref=rss",
+        "https://www.spiegel.de/wissenschaft/klimapolitik-mannheim-baut-groesste-flusswaermepumpe-europas-a-6550f3fa-4ef1-471e-9a98-a982b2573c01#ref=rss",
+        "https://www.spiegel.de/ausland/kuba-blackout-und-neue-signale-an-donald-trump-a-25aaa769-d339-4bbe-9037-ca9d657c7464#ref=rss"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -194,77 +260,11 @@
         },
         {
           "emotion": "annoyance",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 30,
-      "sample_titles": [
-        "„Der Markt für kleine Kernreaktoren könnte auf eine Billion Dollar wachsen“",
-        "Grüne werfen Wirtschaftsministerin Reiche „Arbeitsverweigerung“ vor",
-        "Erneuerbare Energien decken im ersten Halbjahr 58 Prozent des Stromverbrauchs",
-        "Neuer Rekord – Erneuerbare Energien decken 58 Prozent des deutschen Stromverbrauchs"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/article6a477156ad32e994f8759b36/rolls-royce-power-systems-der-markt-fuer-kleine-kernreaktoren-koennte-auf-eine-billion-dollar-wachsen.html",
-        "https://www.welt.de/politik/deutschland/article6a49c2a60b14ed961bb5242b/eeg-reform-die-gruenen-werfen-katherina-reiche-arbeitsverweigerung-vor.html",
-        "https://www.welt.de/videos/video6a44c31ef027d3237396322b/neuer-rekord-erneuerbare-energien-decken-im-ersten-halbjahr-58-prozent-des-stromverbrauchs.html",
-        "https://www.welt.de/politik/deutschland/article6a4467b8c04ea97a4e5034d7/strom-neuer-rekord-erneuerbare-energien-decken-58-prozent-des-deutschen-verbrauchs.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 30,
-      "sample_titles": [
-        "Nord-Stream: Bundesanwaltschaft erhebt Anklage",
-        "Das ABC von Energiewende und Grünsprech 115 – Hitzeflaute",
-        "Atomkraft-Wiedereinstieg ist möglich – und günstiger als „weiter so“",
-        "Atomkraft, ja bitte | Tichys Börsenwecker am 29. Juni 2026"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/nord-stream-bundesanwaltschaft-erhebt-anklage/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/gruensprech-115-hitzeflaute/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/radiant-neustart-deutsche-kern-reaktoren/",
-        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-29-juni-2026-2/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -272,21 +272,25 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 27,
+      "article_count": 41,
       "sample_titles": [
-        "Energieversorgung: Reiche will bei Gaskraftwerken mehr Chancen für Nord und Ost",
+        "Kernkraft: Mehr Zeit für Atommüll-Transporte quer durch NRW beantragt",
         "Regierungsfraktionen für Änderungen an neuem Heizungsgesetz - Kritik bleibt",
-        "Flüssigerdgas: LNG-Anteil an Gasimporten trotz Iran-Konfliktes gestiegen",
-        "Erneuerbare Energie: Landkreis genehmigt Bau von Pumpspeicherwerk Riedl"
+        "Energieversorgung: Reiche will bei Gaskraftwerken mehr Chancen für Nord und Ost",
+        "Flüssigerdgas: LNG-Anteil an Gasimporten trotz Iran-Konfliktes gestiegen"
       ],
       "urls": [
-        "https://www.stern.de/wirtschaft/news/energieversorgung--reiche-will-bei-gaskraftwerken-mehr-chancen-fuer-nord-und-ost-37649492.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/kernkraft--mehr-zeit-fuer-atommuell-transporte-quer-durch-nrw-beantragt-37655488.html",
         "https://www.stern.de/news/regierungsfraktionen-fuer-aenderungen-an-neuem-heizungsgesetz---kritik-bleibt-37650094.html",
-        "https://www.stern.de/wirtschaft/news/fluessigerdgas--lng-anteil-an-gasimporten-trotz-iran-konfliktes-gestiegen-37645370.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/erneuerbare-energie--landkreis-genehmigt-bau-von-pumpspeicherwerk-riedl-37643276.html"
+        "https://www.stern.de/wirtschaft/news/energieversorgung--reiche-will-bei-gaskraftwerken-mehr-chancen-fuer-nord-und-ost-37649492.html",
+        "https://www.stern.de/wirtschaft/news/fluessigerdgas--lng-anteil-an-gasimporten-trotz-iran-konfliktes-gestiegen-37645370.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
         {
           "emotion": "confusion",
           "count": 2
@@ -294,10 +298,6 @@
         {
           "emotion": "approval",
           "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
         }
       ]
     },
@@ -305,31 +305,31 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 20,
+      "article_count": 34,
       "sample_titles": [
+        "Klimafreundliches Heizen: Regierung will Hilfen kappen",
         "Wie anfällig sind Kernkraftwerke im Hitzestress?",
-        "Erneuerbare Energien erzeugen 58 Prozent des Stroms",
-        "Banaszak zur Klimapolitik: Fatalismus in der Bundesregierung breitgemacht",
-        "Kraftwerk Plessa: Fotomodell statt Industrieruine"
+        "Siemens Energy hält an umstrittenem Deal fest",
+        "Erneuerbare Energien erzeugen 58 Prozent des Stroms"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/heizungsfoerderung-kuerzung-regierungsplan-100.html",
         "https://www.zdfheute.de/wissen/hitze-atomkraft-kraftwerk-atomenergie-100.html",
-        "https://www.zdfheute.de/wissen/erneuerbare-energien-anteil-stromverbrauch-windenergie-100.html",
-        "https://www.phoenix.de/die-woche-a-5213354.html",
-        "https://www.zdfheute.de/panorama/lost-place-kraftwerk-plessa-tour-besucher-100.html"
+        "https://www.zdf.de/video/dokus/frontal-die-doku-100/siemens-in-mosambik-geschaefte-trotz-menschenrechtsverletzungen-100",
+        "https://www.zdfheute.de/wissen/erneuerbare-energien-anteil-stromverbrauch-windenergie-100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 4
+        },
         {
           "emotion": "curiosity",
           "count": 1
         },
         {
           "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
           "count": 1
         }
       ]
@@ -338,24 +338,65 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 15,
+      "article_count": 25,
       "sample_titles": [
+        "GKV-Finanzreform: Grüne wollen Abstimmung über Krankenkassenreform verhindern",
+        "Gasversorgung: Bundesregierung plant staatliche Gasreserve",
         "Gebäudemodernisierungsgesetz: Regierungsfraktionen beschließen Änderungsantrag für Heizungsgesetz",
-        "Energieversorgung: Reiche will bei Gaskraftwerken mehr Chancen für Nord und Ost",
-        "Fernwärmeversorgung: So können Sie zukünftig heizen",
-        "Erneuerbare Energien: Erneuerbare decken erstmalig 58 Prozent des deutschen Stromverbrauchs"
+        "Energieversorgung: Reiche will bei Gaskraftwerken mehr Chancen für Nord und Ost"
       ],
       "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-07/gesundheits-sparpaket-bundestag-felix-banaszak-nina-warken-juristische-schritte",
+        "https://www.zeit.de/politik/deutschland/2026-07/gasreserve-krisenvorsorge-erdgas-notsituation-gasspeicherumlage",
         "https://www.zeit.de/politik/deutschland/2026-07/gebaeudemodernisierungsgesetz-heizungsgesetz-aenderungen-oel-gasheizungen",
-        "https://www.zeit.de/news/2026-07/06/reiche-will-bei-gaskraftwerken-auf-norden-und-osten-zugehen",
-        "https://www.zeit.de/wirtschaft/2026-07/fernwaerme-versorgung-grossstaedte-kommunale-waermeplanung",
-        "https://www.zeit.de/wirtschaft/2026-07/erneuerbare-energien-stromverbrauch-anteil-deutschland"
+        "https://www.zeit.de/news/2026-07/06/reiche-will-bei-gaskraftwerken-auf-norden-und-osten-zugehen"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "desire",
       "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 2
+        },
         {
           "emotion": "confusion",
           "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 24,
+      "sample_titles": [
+        "In Liechtenstein sollen Wärmepumpen künftig auch zur Kühlung eingesetzt werden",
+        "Neue ETH-Studie: Ohne Subventionen und Garantien des Staates ergeben neue AKW wirtschaftlich keinen Sinn",
+        "KOMMENTAR - «Hitzeflaute» treibt Strompreise auf Spitzenwerte – der Strommarkt benötigt dringend mehr Marktmechanismen",
+        "KOMMENTAR - Hunderttausend Stellen werden gestrichen: Die Krise bei VW ist ein Menetekel für den Standort Deutschland"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/in-liechtenstein-sollen-waermepumpen-kuenftig-auch-zur-kuehlung-eingesetzt-werden-ld.10013997",
+        "https://www.nzz.ch/schweiz/neue-eth-studie-ohne-subventionen-und-garantien-des-staates-ergeben-neue-akw-wirtschaftlich-keinen-sinn-ld.10013135",
+        "https://www.nzz.ch/meinung/hitzeflaute-treibt-strompreise-auf-spitzenwerte-der-strommarkt-benoetigt-dringend-mehr-marktmechanismen-ld.10013115",
+        "https://www.nzz.ch/meinung/die-krise-bei-vw-ist-ein-menetekel-fuer-den-standort-deutschland-ld.10013104"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
         }
       ]
     },
@@ -363,18 +404,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 12,
+      "article_count": 24,
       "sample_titles": [
+        "Bundespolitik: Regierung plant Milliarden-Einsparung bei Heizungsförderung",
         "Energie: Das Heizungsgesetz wird immer komplexer",
         "Energiewende in Bayern: Warum es beim Bau von Windrädern nicht vorwärtsgeht",
-        "Klimaschutz: Feldaufschwung zur Energiewende",
-        "Energie: Haushalte spüren bislang nichts von der Gas-Krise"
+        "Klimaschutz: Feldaufschwung zur Energiewende"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-waermepumpen-heizung-foerderung-einsparung-li.3495864",
         "https://www.sueddeutsche.de/wirtschaft/heizungsgesetz-deutschland-aenderungen-li.3511044",
         "https://www.sueddeutsche.de/bayern/windkraft-bayern-csu-soeder-seehofer-suedquote-energiewende-windraeder-li.3507545",
-        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/energiewende-tsv-unterpfaffenhofen-germering-buergerenergiepreis-li.3507984",
-        "https://www.sueddeutsche.de/wirtschaft/gaskosten-deutschland-preise-li.3506606"
+        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/energiewende-tsv-unterpfaffenhofen-germering-buergerenergiepreis-li.3507984"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -384,43 +425,10 @@
         },
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Neue ETH-Studie: Ohne Subventionen und Garantien des Staates ergeben neue AKW wirtschaftlich keinen Sinn",
-        "KOMMENTAR - «Hitzeflaute» treibt Strompreise auf Spitzenwerte – der Strommarkt benötigt dringend mehr Marktmechanismen",
-        "Auf den «Putin-Peak» folgt die Ernüchterung: Hausbesitzer installieren immer weniger Solaranlagen",
-        "EWZ-Chef warnt vor einem Scheitern des Stromabkommens: «Das wird extrem teuer – die Rechnung berappen die Kunden»"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/neue-eth-studie-ohne-subventionen-und-garantien-des-staates-ergeben-neue-akw-wirtschaftlich-keinen-sinn-ld.10013135",
-        "https://www.nzz.ch/meinung/hitzeflaute-treibt-strompreise-auf-spitzenwerte-der-strommarkt-benoetigt-dringend-mehr-marktmechanismen-ld.10013115",
-        "https://www.nzz.ch/schweiz/auf-den-putin-peak-folgt-die-ernuechterung-hausbesitzer-installieren-immer-weniger-solaranlagen-ld.10011498",
-        "https://www.nzz.ch/schweiz/ewz-chef-warnt-vor-einem-scheitern-des-stromabkommens-das-wird-extrem-teuer-die-rechnung-berappen-die-kunden-ld.10012138"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -429,60 +437,27 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 17,
       "sample_titles": [
+        "„Urban Partners“ Robert Habeck wird Senior Advisor für Entwicklung nachhaltiger Städte",
         "Energiepolitik Wie kräftig ist Windkraft wirklich?",
-        "Zu viel Strom – oder zu wenig Der sonnige Mai zeigt das Speicher-Dilemma der Energiewende",
-        "Entscheidung heute Bundesrat will zurück zu Habecks Heizungsgesetz",
-        "Hamburgs schwarzer Sonntag Ein Kessel mit Folgen"
+        "ARC-Konferenz 4.000 Stimmen gegen die „Dekonstruktion“ des Westens",
+        "Zu viel Strom – oder zu wenig Der sonnige Mai zeigt das Speicher-Dilemma der Energiewende"
       ],
       "urls": [
+        "https://jungefreiheit.de/wirtschaft/2026/robert-habeck-wird-senior-advisor-fuer-entwicklung-nachhaltiger-staedte/",
         "https://jungefreiheit.de/wissen/natur-und-technik/2026/wie-kraeftig-ist-windkraft-wirklich/",
-        "https://jungefreiheit.de/wissen/2026/der-sonnige-mai-zeigt-das-speicher-dilemma-der-energiewende/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bundesrat-will-zurueck-zu-habecks-heizungsgesetz/",
-        "https://jungefreiheit.de/wissen/geschichte/2026/ein-kessel-mit-folgen/"
+        "https://jungefreiheit.de/politik/ausland/2026/4-000-stimmen-gegen-die-dekonstruktion-des-westens/",
+        "https://jungefreiheit.de/wissen/2026/der-sonnige-mai-zeigt-das-speicher-dilemma-der-energiewende/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 7,
-      "sample_titles": [
-        "Hitzeflaute – ein neuer Feind der Energiewende",
-        "Goldgrube „Energiewende“: Die sittenwidrigen Pachtverträge",
-        "Windkraft: Sittenwidrige Pachtverträge",
-        "Woher kommt der Strom? 20. Analysewoche 2026 – es rechnet sich nicht"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/hitzeflaute_ein_neuer_feind_der_energiewende",
-        "https://www.achgut.com/artikel/goldgrube_energiewende_sittenwidrige_pachtvertraege_auf_kosten_der_allgemeinheit",
-        "https://www.achgut.com/artikel/windkraft_sittenwidrige_pachtvertraege",
-        "https://www.achgut.com/artikel/woher_kommt_der_strom_20_analysewoche_2026_es_rechnet_sich_nicht"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -491,21 +466,25 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 7,
+      "article_count": 14,
       "sample_titles": [
-        "Milliardenauftrag für Neptun-Werft - Energiewende sichert Jobs in Rostock",
-        "Hansestadt plant radikalen Wärme-Umbau - Hamburger Heizung-Murks",
-        "Gunnar Schupelius – Mein Ärger - Die „Wärmewende“ ist ein teures Luftschloss",
-        "Windrad in Bayern in Flammen - Gefahr durch abstürzende Trümmer"
+        "Feuerball in Indien - Explosion verschlingt Mautstation",
+        "Merz stellt klar - „Willen, Deutschland in die Zukunft zu führen“",
+        "Internet-Hack im Faktencheck - Trick holt 30 Prozent mehr aus Ihrer Solaranlage",
+        "Milliardenauftrag für Neptun-Werft - Energiewende sichert Jobs in Rostock"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/milliardenauftrag-fuer-neptun-werft-energiewende-schafft-500-neue-jobs-6a32487de495aff7b58461ce",
-        "https://www.bild.de/politik/inland/heizung-murks-in-hamburg-gas-und-oel-nicht-mehr-erwuenscht-6a310fe16bb5c7fe2e1c8fde",
-        "https://www.bild.de/regional/berlin/gunnar-schupelius-die-waermewende-ist-ein-teures-luftschloss-6a16c5a7bd0d0e58e09d951f",
-        "https://www.bild.de/regional/nuernberg/nach-windrad-brand-rotorblatt-stuerzt-in-die-tiefe-6a142dea0c38ecf8d88c0d0b"
+        "https://www.bild.de/news/explosion-in-indien-tanklaster-mit-fluessiggas-rast-in-mautstation-6a4b9b1d1cbe5f3a786a8849",
+        "https://www.bild.de/politik/inland/merz-stellt-klar-wir-haben-den-willen-deutschland-in-die-zukunft-zu-fuehren-6a4611f0ae0977c5aff194dd",
+        "https://www.bild.de/leben-wissen/digital/7-euro-trick-holt-bis-zu-30-prozent-mehr-leistung-aus-der-solaranlage-6a42409ef01db81211d540c7",
+        "https://www.bild.de/politik/inland/milliardenauftrag-fuer-neptun-werft-energiewende-schafft-500-neue-jobs-6a32487de495aff7b58461ce"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "excitement",
       "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
         {
           "emotion": "desire",
           "count": 1
@@ -513,9 +492,38 @@
         {
           "emotion": "amusement",
           "count": 1
+        }
+      ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 12,
+      "sample_titles": [
+        "Wiederinbetriebnahme deutscher Kernkraftwerke?",
+        "Hitzeflaute – ein neuer Feind der Energiewende",
+        "Goldgrube „Energiewende“: Die sittenwidrigen Pachtverträge",
+        "Wir fressen Dreck und führen Kriege für die Reichen"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/wiederinbetriebnahme_deutscher_kernkraftwerke",
+        "https://www.achgut.com/artikel/hitzeflaute_ein_neuer_feind_der_energiewende",
+        "https://www.achgut.com/artikel/goldgrube_energiewende_sittenwidrige_pachtvertraege_auf_kosten_der_allgemeinheit",
+        "https://www.achgut.com/artikel/wir_fressen_dreck_und_fuehren_kriege_fuer_die_reichen"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
         },
         {
-          "emotion": "surprise",
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -524,13 +532,17 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 2,
+      "article_count": 6,
       "sample_titles": [
         "Letzter Atommüll aus britischem Sellafield in Deutschland",
+        "Ukraine-Krieg: Drohneneinschlag in AKW - IAEA ist alarmiert",
+        "Ukraine-Krieg: Drohneneinschlag in AKW - IAEA besorgt",
         "Warten auf den Wärmepumpen-Boom"
       ],
       "urls": [
         "https://www.dw.com/de/letzter-atommüll-aus-britischem-sellafield-in-deutschland/a-77575384?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/ukraine-krieg-drohneneinschlag-in-akw-iaea-ist-alarmiert/a-77362124?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/ukraine-krieg-drohneneinschlag-in-akw-iaea-besorgt/a-77362124?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/warten-auf-den-wärmepumpen-boom/a-77247293?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "optimism",
@@ -545,12 +557,14 @@
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 2,
+      "article_count": 3,
       "sample_titles": [
+        "Der Ausstieg vom Ausstieg - Südkorea entdeckt die Atomkraft neu",
         "Kann Kernfusion die Kernenergie ersetzen? - „Fusion ist im Idealfall eine langfristige Alternative“",
         "Vorbild Südkorea? - Warum Atomkraft in Deutschland nicht zu teuer wäre"
       ],
       "urls": [
+        "https://www.cicero.de/aussenpolitik/der-ausstieg-vom-ausstieg-sudkorea-entdeckt-die-atomkraft-neu",
         "https://www.cicero.de/wirtschaft/kann-kernfusion-die-kernenergie-ersetzen-fusion-ist-im-idealfall-eine-langfristige-alternative",
         "https://www.cicero.de/wirtschaft/vorbild-sudkorea-wie-atomkraft-auch-in-deutschland-funktionieren-konnte"
       ],
@@ -564,24 +578,24 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 71,
-    "left": 42,
-    "left-liberal": 86,
-    "neutral": 78,
-    "economic-liberal": 47,
-    "conservative-liberal": 74,
-    "far-right": 47,
-    "populist-mixed": 7
+    "right-conservative": 129,
+    "left-liberal": 143,
+    "conservative-liberal": 139,
+    "left": 69,
+    "neutral": 129,
+    "economic-liberal": 72,
+    "far-right": 104,
+    "populist-mixed": 14
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Über alle Mediensegmente hinweg besteht Konsens darüber, dass die technische Infrastruktur der Energiewende — Stromnetze, Speicher, Netzausbau — massiv ausgebaut und modernisiert werden muss, um Versorgungssicherheit zu gewährleisten; dieser Punkt erscheint unabhängig von ideologischen Positionen zu Atomkraft oder Tempozielen als zentrale praktische Herausforderung. Ebenso wird die wirtschaftliche Dimension der Energiewende als kritisch wahrgenommen — sowohl progressive als auch wirtschaftsliberale und konservative Medien thematisieren Kostenfragen, Arbeitsplätze und Industriefähigkeit, wobei sie nur in der Gewichtung dieser Aspekte divergieren. Ein dritter gemeinsamer Nenner liegt in der De-facto-Akzeptanz erneuerbarer Energien als Kernlösung: Auch rechtskonservative und rechtspopulistische Medien stellen die Realisierbarkeit von Wind- und Solarenergie nicht grundsätzlich in Frage, sondern kritisieren eher Umsetzungsgeschwindigkeit, Regulierungsstil und Nebenfolgen — während linke Medien die Geschwindigkeit beklagen und wirtschaftsliberale auf Effizienzgewinne setzen.",
-      "controversial_points": "Der deutsche Energiewende-Diskurs spaltet sich primär entlang der Frage nach Geschwindigkeit versus Machbarkeit. Während linke und grüne Medien den Atomausstieg und aggressive CO₂-Ziele verteidigen, stellen rechts-konservative und wirtschaftsliberal orientierte Medien diese Prioritäten infrage und fordern pragmatischere Lösungen wie Kernenergie oder flexible Gasnutzung. Ein zweiter Konflikt liegt in der Verteilungsfrage: Linke Medien skandalisieren steigende Strompreise und soziale Lasten des Heizungsgesetzes, während wirtschaftsliberale Medien Investitionen und Marktmechanismen priorisieren. Populistische und konservative Medien instrumentalisieren technische Unsicherheiten (Stromnetzstabilität, Windkraftrisiken) als Legitimitätskrise der gesamten Energiewende. Darunter liegt ein tieferer Wertekonflikt: Ob schneller Klimaschutz ein Selbstzweck ist oder nur unter Bedingung von Wirtschaftlichkeit und sozialer Verträglichkeit akzeptabel sein darf."
+      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung kritisieren fast alle Berichte die aktuelle Förderpolitik für Wärmepumpen und Heizungslösungen als kostenintensiv und administrativ überladen, wodurch die Belastung der Verbraucher steigt. Gleichzeitig betonen Medien aus allen Lagern die Notwendigkeit, die Versorgungssicherheit zu stärken, etwa durch staatliche Gasreserven oder flexible Reservekraftwerke, um Engpässe zu vermeiden. Schließlich wird in nahezu allen Artikeln die Dringlichkeit eines beschleunigten Ausbaus von erneuerbaren Energien und Speichertechnologien hervorgehoben, weil sonst die Erreichung der Klimaziele gefährdet bleibt.",
+      "controversial_points": "Der Streit um den Energiemix spaltet sich zwischen Befürwortern von Kernenergie und Verfechtern erneuerbarer Quellen. Die Kostenfrage verknüpft haushaltsliberalen Druck mit sozialdemokratischer Forderung nach bezahlbarer Wärme. Klimaziele kollidieren mit Sicherheitsbedenken bei Gasversorgung und Stromnetzstabilität. Regionale Interessen fordern schnelle Genehmigungen, während Umweltverbände langfristige Naturschutzauflagen betonen."
     },
     "en": {
-      "shared_perspectives": "# Substantive Commonalities in German Energy Transition Discourse\n\nAcross the political spectrum, German media discourse demonstrates broad consensus that the energy transition requires substantial infrastructure modernization and investment in grid stability, reflected equally in coverage of offshore wind expansion, storage solutions, and smart grid technology from conservative-liberal to left outlets. There is also nearly universal recognition that the heating law represents a contentious policy implementation challenge requiring multiple legislative corrections and regional flexibility—a theme appearing across left, left-liberal, and economic-liberal sources, indicating agreement that prescriptive building retrofit mandates face practical governance problems regardless of climate policy support. Finally, media across ideological boundaries (right-conservative, economic-liberal, and neutral sources) converge on the technical reality that Germany's energy system faces acute vulnerability to weather-dependent supply disruptions and price volatility, as evidenced by parallel coverage of heat-induced grid stress, storage necessity, and the intermittency problem of renewables, suggesting shared concern that transition speed must account for system resilience rather than aspiration alone.",
-      "controversial_points": "# Structural Conflict Lines in German Energy Transition Discourse\n\nThe central tension divides those who accept transformation costs as inevitable against those demanding proven technology and market efficiency first. The right emphasizes nuclear revival, LNG imports, and gas infrastructure preservation as pragmatic solutions, while the left frames these as delays preventing rapid decarbonization. A deeper conflict exists between top-down regulatory mandates (heating law, strict timelines) and bottom-up market-driven approaches that trust technology innovation and price signals. Regional and economic interests clash: eastern Germany and industrial regions resist rapid coal exit and infrastructure overhaul, while wealthy western regions can absorb renovation costs. Finally, discourse splits between those viewing climate policy as economic opportunity (jobs, export industries) and those seeing it primarily as imposed burden on ordinary citizens and small businesses."
+      "shared_perspectives": "Across the political spectrum German media agree that the energy transition is being slowed by rising consumer costs, leading to widespread calls for tighter control of heating subsidies and more transparent electricity pricing. All outlets also stress the need to secure supply, whether through strategic gas reserves, accelerated grid expansion, or the addition of flexible generation such as small modular reactors and offshore wind. Finally, there is a shared recognition that storage and grid flexibility are the decisive bottlenecks, prompting repeated calls for rapid investment in battery, pumped-hydro and other reserve-capacity solutions.",
+      "controversial_points": "The core conflict pits market-driven liberalism against state-led climate intervention. Conservatives demand nuclear revival and cheap energy, while Greens push rapid renewables and strict emissions limits. The financing debate divides those who favor cost-shifting to consumers from those who prioritize social equity. Regional autonomy clashes with federal planning over grid expansion and storage investment."
     }
   },
-  "cached_at": "2026-07-07T08:51:06.058629"
+  "cached_at": "2026-07-08T06:50:47.394234"
 }
