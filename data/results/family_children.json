@@ -1,105 +1,72 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 200,
+  "article_count": 386,
   "candidate_count": 800,
   "outlets": {
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 40,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 54,
       "sample_titles": [
-        "Was sich beim Elterngeld ändern könnte",
-        "Gelsenkirchener Erzieherin hat eigene Kinder missbraucht",
-        "Pflegefamilien dringend gesucht",
-        "Prien will Elterngeld auf zwölf Monate beschränken"
+        "Familientipp: Abkühlung in der Kristallhöhle",
+        "Nach zwei Monaten: Mehr als 40 entführte Schulkinder in Nigeria befreit",
+        "Rhein-Main-Feierabendbriefing: Hitze und fehlender Regen machen Bauern zu schaffen",
+        "Prinz Harry im Königreich: König Charles empfängt Harry, Meghan und die Kinder"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/prien-elterngeld-102.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/gelsenkirchen/gelsenkirchener-erzieherin-missbrauch-100.html",
-        "https://www1.wdr.de/nrw/pflegefamilien-inobhutnahme-jugendamt-112.html",
-        "https://www.tagesschau.de/inland/prien-elterngeld-kuerzung-100.html"
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/kubacher-kristallhoehle-einst-mitten-im-korallenriff-zwischen-diez-und-giessen-200980959.html",
+        "https://www.faz.net/aktuell/politik/ausland/nigeria-46-entfuehrte-schulkinder-vom-militaer-befreit-accg-201019914.html",
+        "https://www.faz.net/podcasts/rhein-main-feierabendbriefing/hessen-klimawandel-hitze-und-zikaden-bedrohen-ernten-201019236.html",
+        "https://www.faz.net/aktuell/gesellschaft/menschen/koenig-charles-empfaengt-harry-meghan-und-die-kinder-201018398.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 4
+          "emotion": "admiration",
+          "count": 7
         },
         {
           "emotion": "curiosity",
           "count": 3
         },
         {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "optimism",
+          "count": 3
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 30,
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 54,
       "sample_titles": [
-        "Priens Entwurf: Warum wird ausgerechnet beim Elterngeld gespart?",
-        "Gesetzesentwurf: Zwei Monate weniger Elterngeld",
-        "Reform: Das Elterngeld wird erwachsen",
-        "Deutschland-Liveblog: Gesetzesentwurf: Elterngeld künftig nur noch 12 statt 14 Monate"
+        "Frauen bleiben von Japans Thronfolge ausgeschlossen",
+        "Geburtshilfe am St.-Josefs-Krankenhaus ab sofort geschlossen",
+        "Brandenburger Familie soll Fahrtkosten für behindertes Kind zahlen",
+        "Brand in Wittener Mehrfamilienhaus"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/elterngeld-sparen-im-geburten-tief-trifft-familien-hart-201006734.html",
-        "https://www.faz.net/aktuell/politik/inland/prien-will-elterngeld-reformieren-201004803.html",
-        "https://www.faz.net/aktuell/wirtschaft/das-elterngeld-wird-erwachsen-201005657.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-familienministerium-sieht-kuerzung-von-elterngeld-um-zwei-monate-vor-faz-110093143.html"
+        "https://www.tagesschau.de/ausland/asien/japan-reform-kaiserhaus-thronfolge-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/07/potsdam-klinikum-geburtshilfe-versorgung-krankenhausreform.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/07/brandenburg-potsdam-michendorf-inklusion-schule-fahrdienst.html",
+        "https://www1.wdr.de/nrw/ruhrgebiet/witten-brand-feuerwehr-grosseinsatz-100.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "curiosity",
           "count": 4
         },
         {
           "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
           "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 21,
-      "sample_titles": [
-        "Elterngeld: Neuer Gesetzentwurf sieht offenbar drei statt vier Partnermonate vor",
-        "Deutschland: Zahl der Adoptionen sinkt auf niedrigsten Stand seit Wiedervereinigung",
-        "England und Wales: Keir Starmer entschuldigt sich für jahrzehntelange Zwangsadoptionen",
-        "Stade: Bildungsgewerkschaft drängt nach Amoktat auf besseren Schutz für Helfer"
-      ],
-      "urls": [
-        "https://www.spiegel.de/politik/elterngeld-neuer-gesetzentwurf-sieht-offenbar-drei-statt-vier-partnermonate-vor-a-d2bfd47a-4ad4-44fc-8d92-1290087722c2#ref=rss",
-        "https://www.spiegel.de/panorama/gesellschaft/deutschland-zahl-der-adoptionen-sinkt-auf-niedrigsten-stand-seit-wiedervereinigung-a-243ce8e3-41e3-4c65-9a5b-44816da8782e#ref=rss",
-        "https://www.spiegel.de/ausland/england-und-wales-keir-starmer-entschuldigt-sich-fuer-jahrzehntelange-zwangsadoptionen-a-fb761e51-9115-4218-9838-87801db0a8a5#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/stade-bildungsgewerkschaft-draengt-nach-amoktat-auf-besseren-schutz-fuer-helfer-a-eddccd1b-2d76-4256-b268-aa75c7819040#ref=rss"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
         }
       ]
     },
@@ -107,64 +74,97 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 20,
+      "article_count": 44,
       "sample_titles": [
-        "Künftig drei Vätermonate nötig: Elterngeld soll kürzer gezahlt werden, aber höher ausfallen",
-        "Nur noch 12 statt 14 Monate: Neue Regeln beim Elterngeld: Das plant das Bundesfamilienministerium",
-        "450 Millionen Euro Ersparnis: Schwarz-Rot will Teil des Kinderzuschlags streichen",
-        "Kritik an Reformplänen: Soziologin: Koalition vernachlässigt Folgen für Frauen"
+        "Erstes Familientreffen seit 2022: Harry und Meghan besuchen mit ihren Kindern König Charles",
+        "Gegner Fery erlebt Märchen: Zverev spielt sogar gegen den Segen des Königshauses",
+        "Familienstreit eskaliert: Mann zündet Mutter an und verletzt 103-jährige Großmutter",
+        "Er erkennt seine Hits im Koma: Familie schöpft Hoffnung bei Ralph Siegel"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Elterngeld-soll-kuerzer-gezahlt-werden-aber-hoeher-ausfallen-id31055658.html",
-        "https://www.n-tv.de/politik/Neue-Regeln-beim-Elterngeld-Das-plant-das-Bundesfamilienministerium-id31055658.html",
-        "https://www.n-tv.de/politik/Schwarz-Rot-will-Teil-des-Kinderzuschlags-streichen-id31054881.html",
-        "https://www.n-tv.de/wirtschaft/Soziologin-Koalition-vernachlaessigt-Folgen-fuer-Frauen-id31049623.html"
+        "https://www.n-tv.de/leute/Harry-und-Meghan-besuchen-mit-ihren-Kindern-Koenig-Charles-id31073840.html",
+        "https://www.n-tv.de/sport/tennis/wimbledon/Zverev-spielt-sogar-gegen-den-Segen-des-Koenigshauses-id31067279.html",
+        "https://www.n-tv.de/panorama/Mann-zuendet-Mutter-an-und-verletzt-103-jaehrige-Grossmutter-id31069519.html",
+        "https://www.n-tv.de/leute/Familie-schoepft-Hoffnung-bei-Ralph-Siegel-id31067979.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 35,
+      "sample_titles": [
+        "Royals: König Charles empfängt Prinz Harry und seine Familie in privatem Rahmen",
+        "Nigeria: 46 entführte Schulkinder aus Gefangenschaft befreit",
+        "Fußball-WM: Nackte Oberschenkel, Löcher in den Stutzen – woher kommen die Macken der WM-Stars?",
+        "Kindergeld: Bundestag beschließt antragslose Zahlung"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/leute/royals-koenig-charles-empfaengt-prinz-harry-und-seine-familie-in-privatem-rahmen-a-45911913-2ad1-4cd6-b70a-8dad4d637dbb#ref=rss",
+        "https://www.spiegel.de/ausland/nigeria-46-entfuehrte-schulkinder-aus-gefangenschaft-befreit-a-266ae77e-b2c1-42f4-b4a9-13a29a37d62a#ref=rss",
+        "https://www.spiegel.de/sport/fussball/fussball-wm-nackte-oberschenkel-loecher-in-den-stutzen-woher-kommen-die-macken-der-wm-stars-a-bfa09f6b-2f80-4634-b5e2-51ec7236adb4#ref=rss",
+        "https://www.spiegel.de/politik/kindergeld-bundestag-beschliesst-antragslose-zahlung-a-f089fb2f-41a0-4361-b667-040c66f5e0e3#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "excitement",
           "count": 2
         },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 15,
-      "sample_titles": [
-        "Bundeshaushalt: CDU und SPD uneins über Pläne zum Elterngeld",
-        "Bildung: Waldkindergarten Starnberg fürchtet um Fortbestand",
-        "Neubau in Germering: Kita am Hochhaus",
-        "Todesschüsse von Stade: Die Angst der Kinderschützer"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/elterngeldreform-deutschland-reform-vaeter-prien-li.3511672",
-        "https://www.sueddeutsche.de/muenchen/starnberg/waldkindergarten-starnberg-schliessung-finanzprobleme-defizit-verein-darlehen-spenden-li.3509418",
-        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/germering-kita-wolkennest-hochhaus-gerwebegebiet-einweihung-baustelle-li.3503807",
-        "https://www.sueddeutsche.de/muenchen/muenchen-angst-sicherheit-jugendhilfe-stade-li.3509137"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
         {
           "emotion": "fear",
           "count": 2
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 32,
+      "sample_titles": [
+        "König Charles trifft Harry und Meghan mit Enkeln nach Jahren wieder",
+        "Nach knapp zwei Monaten Gefangenschaft – Große Gruppe entführter Schulkinder gerettet",
+        "Seltsam getröstet geht man am Ende aus diesem Film",
+        "Nach Familienstreit – Mann soll Mutter vor den Augen der Großmutter angezündet haben"
+      ],
+      "urls": [
+        "https://www.welt.de/vermischtes/article6a5142b41aef3ee586480d4d/britische-koenigsfamilie-koenig-charles-trifft-harry-und-meghan-mit-enkeln-nach-jahren-wieder.html",
+        "https://www.welt.de/politik/ausland/article6a516cf436e98236c4bc4aa2/nigeria-nach-knapp-zwei-monaten-gefangenschaft-grosse-gruppe-entfuehrter-schulkinder-gerettet.html",
+        "https://www.welt.de/kultur/article6a462577c154597ea93e5c0d/etwas-ganz-besonderes-seltsam-getroestet-geht-man-am-ende-aus-diesem-film.html",
+        "https://www.welt.de/vermischtes/article6a5000c1fe4170d03593c142/huenfelden-hessen-nach-familienstreit-mann-soll-mutter-vor-den-augen-der-grossmutter-angezuendet-haben.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 3
         },
         {
-          "emotion": "amusement",
-          "count": 2
+          "emotion": "optimism",
+          "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -173,151 +173,31 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 13,
+      "article_count": 32,
       "sample_titles": [
-        "Regierung setzt aus Spargründen Rotstift beim Elterngeld an - Kritik an Prien",
-        "Zeit für Kinder: Neue Regeln beim Elterngeld: Was plant Prien?",
-        "Raser im Straßenverkehr: Mit Tempo 134 in 30er-Zone an Kita geblitzt",
-        "Unfall mit Schulbus: Kleinbus prallt gegen Dachvorsprung – Kinder leicht verletzt"
+        "Familie: Landesfrauenrat fordert mehr Wickelmöglichkeiten für alle",
+        "Automobilindustrie: Audi-Standort Neckarsulm: OB fordert Klarheit von Volkswagen",
+        "Skeets der Woche: Der Lieblingsfilm von Sanitätern? „Bambi. Das ist ein Reh-Animationsfilm“",
+        "Thronfolge: Kein Thron für Aiko? - Japan vor Kaiserhausgesetz-Reform"
       ],
       "urls": [
-        "https://www.stern.de/news/regierung-setzt-aus-spargruenden-rotstift-beim-elterngeld-an---kritik-an-prien-37653832.html",
-        "https://www.stern.de/politik/deutschland/zeit-fuer-kinder--neue-regeln-beim-elterngeld--was-plant-prien--37651858.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/raser-im-strassenverkehr--mit-tempo-134-in-30er-zone-an-kita-geblitzt-37651036.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/unfall-mit-schulbus--kleinbus-prallt-gegen-dachvorsprung---kinder-leicht-verletzt-37649540.html"
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/familie--landesfrauenrat-fordert-mehr-wickelmoeglichkeiten-fuer-alle-37950594.html",
+        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/automobilindustrie--audi-standort-neckarsulm--ob-fordert-klarheit-von-volkswagen-37950556.html",
+        "https://www.stern.de/familie/kinder/sanitaeter-lieblingsfilm---bambi--das-ist-ein-reh-animationsfilm--37946698.html",
+        "https://www.stern.de/panorama/thronfolge--kein-thron-fuer-aiko----japan-vor-kaiserhausgesetz-reform-37947056.html"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "amusement",
       "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
         {
           "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 11,
-      "sample_titles": [
-        "SPD kritisiert Priens Sparvorschläge beim Elterngeld",
-        "Prien will Elterngeld auf zwölf Monate beschränken",
-        "Wie sehr die Regierung jetzt bei Elterngeld und Unterhaltsvorschuss für Alleinerziehende spart",
-        "Zuzahlung, Familienversicherung – Koalition soll sich auf etwas weniger Belastung geeinigt haben"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/ausland/article6a4d6a8cdfc0c82fa290984d/reform-spd-kritisiert-priens-sparvorschlaege-beim-elterngeld.html",
-        "https://www.welt.de/politik/video6a4ca28ac3a9cf3e798157c9/entwurf-des-familienministeriums-prien-will-elterngeld-auf-zwoelf-monate-beschraenken.html",
-        "https://www.welt.de/politik/deutschland/plus6a4bc14ab2ab39bc4a323205/einschnitte-fuer-familien-wie-sehr-die-regierung-jetzt-bei-elterngeld-und-unterhaltsvorschuss-fuer-alleinerziehende-spart.html",
-        "https://www.welt.de/politik/deutschland/article6a4a69e70b14ed961bb52d41/sparpaket-bei-krankenkassen-zuzahlung-familienversicherung-koalition-soll-sich-auf-etwas-weniger-belastung-geeinigt-haben.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 10,
-      "sample_titles": [
-        "Neues Elterngeld: Verpasste Chance",
-        "Gesetzentwurf der Familienministerin: Elterngeld soll nur noch kürzer gezahlt werden",
-        "Geplante Reform: Was sich beim Elterngeld ändern könnte",
-        "Kinderschutz: Verbot von Kindersexpuppen bleibt"
-      ],
-      "urls": [
-        "https://taz.de/Neues-Elterngeld/!6194101/",
-        "https://taz.de/Gesetzentwurf-der-Familienministerin/!6194148/",
-        "https://taz.de/Reform-des-Elterngeldes/!6193680/",
-        "https://taz.de/Kinderschutz/!6193082/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "realization",
           "count": 2
         },
         {
-          "emotion": "grief",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 9,
-      "sample_titles": [
-        "Elterngeld: So erledigt sich das Thema Familie von selbst",
-        "GKV-Finanzreform: Nina Warken ändert Krankenkassen-Sparpaket",
-        "GKV-Finanzreform: Nina Warken ändert laut Berichten Krankenkassen-Sparpaket",
-        "Ostkongress von Bündnis 90/Die Grünen: Grüne fordern faire Chancen für Kinder auf dem Land"
-      ],
-      "urls": [
-        "https://www.zeit.de/familie/2026-07/elterngeld-reform-plan",
-        "https://www.zeit.de/politik/deutschland/2026-07/gkv-finanzreform-union-spd-krankenversicherung-beitraege-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-07/gkv-finanzreform-union-spd-krankenversicherung-beitraege",
-        "https://www.zeit.de/bildung/2026-06/sassnitzer-erklaerung-gruene-bildung-laendlicher-raum"
-      ],
-      "dominant_emotion": "disgust",
-      "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 8,
-      "sample_titles": [
-        "Sozialleistung: Diese Regeln gelten künftig beim Elterngeld",
-        "Sozialleistung: Diese Regeln gelten künftig beim Elterngeld",
-        "Steuererklärung 2025: Elterngeld und Ausgaben für die Kinder: So senken Eltern ihre Steuerlast",
-        "Jugendschutz: Australien verdoppelt Strafen für Social-Media-Konzerne"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/elterngeld-wo-kuenftig-gekuerzt-wird-und-was-sich-fuer-eltern-aendert/100238363.html",
-        "https://www.handelsblatt.com/politik/deutschland/elterngeld-womit-eltern-kuenftig-rechnen-koennen/100238363.html",
-        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuererklaerung-2025-das-hilft-eltern-die-steuerlast-zu-senken/100105887.html",
-        "https://www.handelsblatt.com/politik/international/jugendschutz-australien-verdoppelt-strafen-fuer-social-media-konzerne/100236374.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -326,31 +206,163 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 8,
+      "article_count": 25,
       "sample_titles": [
-        "Gesundheitsreform soll entschärft werden - Warken für mehr Ausnahmen bei Familienversicherten",
-        "6 Tote in Stade - Mutmaßlicher Killer soll Kind geschüttelt haben",
-        "Medien berichten über Amok-Tat von Stade - Jugendamt hatte Tochter aus der Familie genommen",
-        "Vor dem Amtsgericht Hamm - Bürgermeisterin soll Sorgerecht für Adoptivsohn abgeben"
+        "Neuauflage des Klassikers - „Free Willy“ bekommt ein Hollywood-Comeback",
+        "Jetzt trifft König Charles sie doch! - „Die Enkelkinder sollen endlich Opa kennenlernen“",
+        "So wie König Charles - Diese Promis kennen ihre Enkel kaum",
+        "Kindergeld-Revolution beschlossen - So kommt das Geld künftig automatisch aufs Konto"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/grosses-defizit-erwartet-krankenkassen-bekommen-1-4-milliarden-euro-vom-bund-6a4a26a60b14ed961bb52925",
-        "https://www.bild.de/regional/niedersachsen/6-tote-bei-schuessen-in-stade-mutmasslicher-killer-soll-sein-kind-geschuettelt-haben-6a43aa5fc04ea97a4e502a93",
-        "https://www.bild.de/news/medien-ueber-stade-jugendamt-hatte-tochter-aus-der-familie-genommen-6a43578709e6e5417cdca335",
-        "https://www.bild.de/regional/nordrhein-westfalen/iris-stalzer-in-hamm-vor-gericht-buergermeisterin-soll-sorgerecht-fuer-adoptivsohn-abgeben-6a3bc128113e90346dc4af09"
+        "https://www.bild.de/leben-wissen/digital/free-willy-bekommt-ein-hollywood-comeback-6a50f0524c65dbb4ac8fd856",
+        "https://www.bild.de/news/meghan-reist-ueberraschend-nach-england-treffen-zwischen-archie-lilibet-und-koenig-charles-6a50cfb436e98236c4bc3ef9",
+        "https://www.bild.de/unterhaltung/stars-und-leute/so-wie-koenig-charles-diese-promis-kennen-ihre-enkel-kaum-6a50b1eec13a557858aa0895",
+        "https://www.bild.de/politik/inland/kindergeld-so-kommt-das-geld-kuenftig-automatisch-auf-ihr-konto-6a4fa4bca6db83ce8f124495"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "grief",
       "top_emotions": [
         {
-          "emotion": "desire",
+          "emotion": "grief",
+          "count": 2
+        },
+        {
+          "emotion": "surprise",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
+          "count": 2
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "Familien-Newsletter: Es liegt nicht an Ihnen!",
+        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Elternkolumne „Die Erziehungsberechtigten“: Heiße Luft aus Berlin",
+        "Lebensmittel: Rewe übernimmt Lebensmittelkette Feneberg"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/leben/patchwork-familie-erziehung-streit-li.3508533",
+        "https://www.sueddeutsche.de/muenchen/muenchen-nachrichten-wasser-kinderbetreuung-hitze-musik-li.3514060",
+        "https://www.sueddeutsche.de/leben/elterngeld-waermepumpe-die-erziehungsberechtigten-li.3509430",
+        "https://www.sueddeutsche.de/wirtschaft/rewe-feneberg-allgaeu-edeka-li.3513153"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 2
+        },
+        {
+          "emotion": "fear",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
           "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 16,
+      "sample_titles": [
+        "Bildhauerin Marisol im Kunsthaus Zürich: Familie ist nie einfach",
+        "Dokumentarfilm über Kinderverschickung: Die kleine und die große Betroffenheit",
+        "Neues Elterngeld: Verpasste Chance",
+        "Rechte ESN-Partei: EU-Parlament votiert für Prüfverfahren"
+      ],
+      "urls": [
+        "https://taz.de/Bildhauerin-Marisol-im-Kunsthaus-Zuerich/!6186918/",
+        "https://taz.de/Dokumentarfilm-ueber-Kinderverschickung/!6193852/",
+        "https://taz.de/Neues-Elterngeld/!6194101/",
+        "https://taz.de/Rechte-ESN-Partei/!6194144/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "grief",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 15,
+      "sample_titles": [
+        "Kapital: Wachstum bei Familienholding Cofra: Neuer Chef für Vermögensverwalter Anthos",
+        "Steuerhinterziehung: Macquarie-Banker kann nach Plädoyers in Cum-Ex-Skandal auf Bewährungsstrafe hoffen",
+        "+++ Nato-Gipfel +++: „﻿Familien, die streiten, halten besser zusammen“ – Rutte betont Trumps Nato-Engagement",
+        "Steuerhinterziehung: Angeklagter Börsenhändler in Cum-Ex-Skandal erscheint nicht zum Prozessauftakt"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/familienunternehmen-neuer-chef-fuer-vermoegensverwalter-anthos/100239210.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/cum-ex/cum-ex-macquarie-banker-kann-nach-plaedoyers-auf-bewaehrungsstrafe-hoffen/100239083.html",
+        "https://www.handelsblatt.com/politik/international/nato-gipfel-rutte-betont-trumps-nato-engagement/100238692.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/cum-ex/cum-ex-angeklagter-boersenhaendler-erscheint-nicht-zum-prozessauftakt/100237569.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 2
         },
         {
           "emotion": "annoyance",
           "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 14,
+      "sample_titles": [
+        "Bonnie Tyler: Sängerin Bonnie Tyler ist tot",
+        "Familien: Kindergeld ohne Antrag im Bundestag - darum geht es",
+        "Religiöser Wahn in der Familie: Die Schwester",
+        "Institut für deutsche Wirtschaft Köln: Elterngeld hat fast ein Drittel an Kaufkraft eingebüßt"
+      ],
+      "urls": [
+        "https://www.zeit.de/feuilleton/musik/2026-07/saengerin-bonnie-tyler-ist-tot",
+        "https://www.zeit.de/news/2026-07/09/kindergeld-ohne-antrag-im-bundestag-darum-geht-es",
+        "https://www.zeit.de/zeit-verbrechen/2026/39/religioeser-wahn-familie-schizophrenie-mutter-schwester",
+        "https://www.zeit.de/wirtschaft/2026-07/elterngeld-inflation-kaufkraft-verlust-familienministerium"
+      ],
+      "dominant_emotion": "grief",
+      "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "caring",
           "count": 1
         }
       ]
@@ -359,41 +371,29 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 13,
       "sample_titles": [
-        "Zwei Monate weniger Elterngeld - was sich ändern soll",
-        "Kommission zu Social Media-Verboten für Kinder und Jugendliche",
-        "Kommission zu Social Media-Verboten für Kinder und Jugendliche",
-        "Anträge der Grünen zur Familien- und Bildungspolitik"
+        "Bundestag macht Weg frei für antragsloses Kindergeld",
+        "Rockstar Bonnie Tyler ist tot",
+        "Illegale Pestizide in Istanbuler Hotels weiter im Einsatz",
+        "Wo ist Alexander Bohnert?"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/elterngeld-bezugsdauer-regeln-aenderung-prien-100.html",
-        "https://www.phoenix.de/social-media-a-5212248.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5212441",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5209292"
+        "https://www.zdfheute.de/politik/deutschland/bundestag-kindergeld-beschluss-antragslos-100.html",
+        "https://www.zdfheute.de/panorama/prominente/bonnie-tyler-tot-100.html",
+        "https://www.zdfheute.de/panorama/kriminalitaet/istanbul-hotel-pestizide-tote-familie-100.html",
+        "https://www.zdfheute.de/panorama/kriminalitaet/aktenzeichen-xy-juli-2026-vermisst-alexander-bohnert-100.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 4,
-      "sample_titles": [
-        "Bundesfamilienministerin Priens „Demokratie leben!“-Evaluierungsskandal wird immer größer",
-        "„Verbindliche Grundlage“ Verbände drücken Sexualpädagogik in Berliner Kita-Plan",
-        "Digitale Welt Worum geht es beim Social Media-Verbot für Kinder?",
-        "Bundesfamilienministerin Prien lässt „Demokratie leben!“-Evaluationen evaluieren"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/priens-demokratie-leben-evaluierungsskandal-wird-immer-groesser/",
-        "https://jungefreiheit.de/politik/deutschland/2026/verbaende-druecken-sexualpaedagogik-in-berliner-kita-plan/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/worum-geht-es-beim-social-media-verbot-fuer-kinder/",
-        "https://jungefreiheit.de/politik/deutschland/2026/prien-laesst-millionenschwere-demokratie-leben-evaluationen-evaluieren/"
-      ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "grief",
       "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
         {
           "emotion": "curiosity",
           "count": 1
@@ -404,26 +404,57 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 10,
       "sample_titles": [
-        "Zwangsadoption wegen einer unehelichen Schwangerschaft: Eine Mutter bricht ihr Schweigen",
-        "Schluss mit Praktikum, spätestens nach einem Jahr: Zürcher Kitas sollen jungen Mitarbeitenden eine Lehrstelle anbieten",
-        "DER ANDERE BLICK - Die deutsche Familienministerin möchte den Verfassungsschutz auf unliebsame Vereine ansetzen. Besser wäre es, die NGO-Förderung komplett zu streichen"
+        "KOMMENTAR - «Lena ist müde vom Nati-Spiel, ich schicke sie erst um zehn zur Schule» – ein Hoch auf alle Lehrerinnen und Lehrer, die Kinder ernst nehmen (und Eltern etwas weniger)",
+        "Das EU-Parlament stimmt für ein Verfahren gegen die AfD-Parteifamilie",
+        "Der Bund lässt Strafverfolgung gegen die Ex-Fedpol-Chefin Nicoletta della Valle zu. Sie sagt, die Schweiz könnte damit zu einem «Hort für Hassprediger» werden",
+        "Erbdynastie in der Steppe: Bei den Nomaden, die vor 2500 Jahren im heutigen Kasachstan lebten, blieb die Macht über Generationen in der gleichen Familie"
       ],
       "urls": [
-        "https://www.nzz.ch/schweiz/zwangsadoption-wegen-einer-unehelichen-schwangerschaft-eine-mutter-bricht-ihr-schweigen-ld.10013475",
-        "https://www.nzz.ch/zuerich/schluss-mit-praktikum-zuerich-setzt-auf-lehrstellen-in-kitas-ld.10012421",
-        "https://www.nzz.ch/der-andere-blick/demokratie-leben-und-der-verfassungsschutz-der-irrweg-der-karin-prien-ld.10011881"
+        "https://www.nzz.ch/meinung/lena-ist-muede-vom-nati-spiel-ich-schicke-sie-erst-um-zehn-zur-schule-ein-hoch-auf-alle-lehrerinnen-und-lehrer-die-kinder-ernst-nehmen-und-eltern-etwas-weniger-ld.10014791",
+        "https://www.nzz.ch/international/eu-parlament-will-untersuchung-gegen-afd-europapartei-ld.10014410",
+        "https://www.nzz.ch/schweiz/der-bund-laesst-eine-klage-gegen-die-ex-fedpol-chefin-nicoletta-della-valle-zu-sie-sagt-die-schweiz-koennte-damit-zu-einem-hort-fuer-hassprediger-werden-ld.10013616",
+        "https://www.nzz.ch/wissenschaft/erbdynastie-in-der-steppe-bei-den-nomaden-die-vor-2500-jahren-im-heutigen-kasachstan-lebten-blieb-die-macht-ueber-generationen-in-der-gleichen-familie-ld.10014206"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "realization",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 9,
+      "sample_titles": [
+        "Urteil im Fall Serkan Çalar Zugbegleiter totgeprügelt: Zehn Jahre Haft für Ioanni V.",
+        "Umgang mit AfD Brandenburger CDU-Wirtschaftsverband probt den Brandmauer-Aufstand",
+        "Fehlende FSK-Freigabe Wie Uwe Bolls „Citizen Vigilante“ zum Politikum wurde",
+        "250 Jahre Unabhängigkeitserklärung Die Gründerväter der USA und ihre mittelalterlichen Vorbilder"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/zugbegleiter-totgepruegelt-zehn-jahre-in-haft-fuer-ioanni-v/",
+        "https://jungefreiheit.de/politik/deutschland/2026/brandenburger-cdu-wirtschaftsverband-probt-den-brandmauer-aufstand/",
+        "https://jungefreiheit.de/kultur/medien/2026/wie-uwe-bolls-citizen-vigilante-zum-politikum-wurde/",
+        "https://jungefreiheit.de/wissen/geschichte/2026/die-gruendervaeter-der-usa-und-ihre-mittelalterlichen-vorbilder/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -431,23 +462,27 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 8,
       "sample_titles": [
-        "Grüne wollen KiTa-Pflicht – Noch mehr Verstaatlichung der Kindheit?",
-        "Wer pflegt, verliert: Die Koalition greift Familien an – TE-Wecker am 9. Juni 2026"
+        "Familiennachzug ohne Ende – von Migrationsbremse keine Spur",
+        "Familienpolitik gegen Familien: Prien will 350 Millionen beim Elterngeld sparen",
+        "Bluttat in Stade: Fahrerin des Fluchtfahrzeugs offenbar untergetaucht",
+        "Sozialhilfe in Absurdistan: Monatlich 8.200 Euro für syrische Familie in Wien"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/verstaatlichung-kindheit-gruene-wollen-kita-pflicht/",
-        "https://www.tichyseinblick.de/podcast/wer-pflegt-verliert-die-koalition-greift-familien-an-te-wecker-am-9-juni-2026/"
+        "https://www.tichyseinblick.de/daili-es-sentials/familiennachzug-ohne-ende-migrationsbremse/",
+        "https://www.tichyseinblick.de/daili-es-sentials/antifamilienpolitik-prien-will-elterngeld-sparen/",
+        "https://www.tichyseinblick.de/daili-es-sentials/stade-bluttat-fluchtfahrzeug/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/sozialhilfe-in-absurdistan-wien/"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -456,11 +491,13 @@
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
+        "Elternzeit - Der Staat will die Väter an den Wickeltisch bringen",
         "Kinder- und Jugendschutz - Eine Versachlichung dieser Social-Media-Debatte ist überfällig"
       ],
       "urls": [
+        "https://www.cicero.de/innenpolitik/elternzeit-der-staat-will-die-vater-an-den-wickeltisch-bringen",
         "https://www.cicero.de/kultur/kinder-und-jugendschutz-social-media-kommission"
       ],
       "dominant_emotion": "neutral",
@@ -470,11 +507,13 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
+        "Guterres fordert internationale KI-Regulierung",
         "Deutschland: Social-Media-Verbot für unter 13-Jährige?"
       ],
       "urls": [
+        "https://www.dw.com/de/guterres-fordert-internationale-ki-regulierung/a-77850890?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/deutschland-social-media-verbot-für-unter-13-jährige/a-77691902?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "optimism",
@@ -484,27 +523,46 @@
           "count": 1
         }
       ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 1,
+      "sample_titles": [
+        "Die Maulheldin am Samstag: Ein bisschen Bürgerkrieg"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/die_maulheldin_am_samstag_ein_bisschen_buergerkrieg"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "right-conservative": 31,
-    "conservative-liberal": 34,
-    "left": 10,
-    "economic-liberal": 8,
-    "left-liberal": 58,
-    "neutral": 45,
-    "populist-mixed": 8,
-    "far-right": 6
+    "right-conservative": 76,
+    "conservative-liberal": 66,
+    "left-liberal": 101,
+    "populist-mixed": 25,
+    "neutral": 69,
+    "economic-liberal": 15,
+    "far-right": 18,
+    "left": 16
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Der deutsche Mediendiskurs zur Familienpolitik zeigt eine breite Übereinstimmung darin, dass die Kürzung des Elterngeldes von 14 auf 12 Monate das zentrale reformpolitische Thema darstellt, wobei sowohl konservative als auch linke Medien diese Sparmaßnahme als faktisch relevant und berichtenswert einschätzen und damit implizit die finanzielle Gestaltung von Familienleistungen als legitimes Reformfeld anerkennen. Über alle politischen Lager hinweg wird die Vereinbarkeit von Familie und Beruf sowie die strukturelle Unterstützung von Eltern durch staatliche Maßnahmen als gesellschaftlich bedeutsames Thema behandelt, selbst wenn die Bewertung der konkreten Reformvorschläge divergiert. Ein drittes gemeinsames Verständnis offenbart sich darin, dass Kinderschutz, Betreuungsqualität und die Wohlfahrt von Kindern als eigenständige, von wirtschaftlichen Sparzielen zu unterscheidende Dimensionen von Familienpolitik wahrgenommen werden, wie die parallele Berichterstattung zu Kita-Standards, Missbrauchsfällen und Jugendschutz zeigt.",
-      "controversial_points": "Der zentrale Konflikt verläuft zwischen Sparlogik und Leistungsgarantie: Konservative und wirtschaftsliberale Medien rahmen Elterngeldkürzungen als notwendige Haushaltskorrektionen, während linke Medien darin einen Angriff auf Familienförderung sehen. Ein tieferer Konflikt betrifft die Rolle des Staates bei der Kindererziehung, wo die Rechte „Verstaatlichung der Kindheit\" kritisiert und progressive Medien gesellschaftliche Verantwortung für frühe Bildung einfordern. Die Trennlinie verläuft auch zwischen einer universalistischen Sicht (Familienleistungen für alle) und einer selektiven Perspektive (Fokus auf Armutsprävention bei Bedürftigen), die in Debatten um Kinderzuschlag und Kindergeld für Migrantenfamilien besonders sichtbar wird. Ein struktureller Konflikt offenbart sich schließlich in der Frage nach Geschlechtermodellen: Während konservative Medien flexible Elternzeitmodelle mit Sparzielen verbinden, sehen progressive Medien darin einen Rückschritt bei der Gleichstellung, wenn Mütter- und Vätermonate asymmetrisch verteilt werden."
+      "shared_perspectives": "Der deutsche Mediendiskurs zeigt eine breite Übereinstimmung darin, dass aktuelle Reformen der Familienleistungen, insbesondere die Umgestaltung des Kindergeldes zu einer automatisierten Auszahlung und Veränderungen beim Elterngeld, als zentrale politische Maßnahmen wahrgenommen werden, die unabhängig von politischer Ausrichtung Aufmerksamkeit erhalten. Über alle Medienspektren hinweg wird außerdem die grundsätzliche Bedeutung von Familienthemen und deren gesellschaftliche Relevanz anerkannt, wobei sowohl progressive als auch konservative Medien sich mit Fragen der Kinderbetreuung, elterlichen Leistungen und der Vereinbarkeit von Familie und Beruf auseinandersetzen. Die Unterschiede manifestieren sich primär nicht in der Relevanzeinschätzung dieser Themen, sondern in der Bewertung: Während progressive Medien die Reformen als unzureichend kritisieren, fokussieren rechte und populistische Medien eher auf praktische Effekte und Implementierungsfragen sowie auf kulturelle Narrative rund um Familie.",
+      "controversial_points": "Der deutsche Mediendiskurs zu Familienpolitik spaltet sich entlang einer zentralen Linie: Während progressive Medien Familienleistungen als sozialpolitische Gestaltungsaufgabe des Staates verstehen, sehen konservative und wirtschaftsliberale Medien darin ein Sparfeld und Kostenproblem. Ein zweiter Konflikt verläuft zwischen jenen, die Familie als private Angelegenheit behandeln (Royals-Berichterstattung), und jenen, die sie als Kampfplatz um Migration und nationale Sicherheit deuten (rechte Medien). Besonders deutlich wird die Spannung beim Elterngeld: Links wird jede Kürzung als Anschlag auf Vereinbarkeit und Geschlechtergerechtigkeit kritisiert, rechts dagegen als notwendige Sparmaßnahme oder sogar als migrationspolitisches Problem verhandelt. Praktische Fragen wie Kita-Ausbau und Kinderarmut erscheinen in diesem Diskurs nur am Rande, während symbolische und verteilungspolitische Kämpfe dominieren."
     },
     "en": {
-      "shared_perspectives": "# Substantive Commonalities in German Family Policy Discourse\n\nAcross nearly all political segments of German media, there is broad consensus that the reduction of parental leave duration from 14 to 12 months represents a significant policy shift requiring critical examination, whether framed as necessary fiscal adjustment or problematic dismantling of family support. Conservative through left-liberal outlets universally engage with the concrete mechanics and family-level impacts of Minister Prien's reform proposals rather than dismissing them as ideologically predetermined, suggesting shared acknowledgment that parental leave policy operates as a practical instrument affecting real household economics and gender dynamics in Germany.\n\nGerman media discourse demonstrates convergence on the principle that childcare and family policy decisions carry direct consequences for parental labor force participation and gender equality outcomes, with even economically liberal and conservative commentators engaging substantively with questions of how reduced benefits affect mothers' and fathers' work-life balance rather than treating family policy as purely a budgetary line item. The widespread coverage of specific institutional changes across the political spectrum indicates tacit agreement that family policy constitutes a core domestic governance domain where detailed public scrutiny of government proposals is both necessary and expected in German democratic discourse.",
-      "controversial_points": "# Structural Conflict Lines in German Family Policy Discourse\n\nThe primary tension divides fiscal conservatives from social investment advocates. Right-aligned media emphasizes cost reduction and targeted benefits, while left-aligned outlets frame cuts as abandonment of family support. This reflects a fundamental disagreement over whether family policy should prioritize state budget discipline or comprehensive social provision.\n\nA secondary conflict concerns the role of state versus family responsibility. Far-right and conservative voices increasingly question state involvement in childcare and early education, using language of \"state control of childhood.\" Progressive outlets conversely view expanded public childcare as essential for gender equality and social mobility.\n\nA third line separates universalist from selectivist approaches to family benefits. Liberals and conservatives debate whether benefits should serve all families or concentrate resources on low-income households. This reveals competing visions of family policy as either a broad social institution or targeted poverty prevention.\n\nFinally, disagreement exists over gender norms embedded in family policy. Debates about parental leave duration and partner months reflect divergent assumptions about mothers' work participation and father involvement, with traditional and modern family models colliding within policy design."
+      "shared_perspectives": "# Substantive Commonalities in German Media Discourse on Family Policy\n\nGerman media across the political spectrum demonstrates broad consensus that administrative modernization of family benefits represents legitimate policy reform, as evidenced by coverage of automatic kindergeld processing that appears across neutral, economic-liberal, and populist outlets without fundamental contestation of the underlying mechanism. There is shared recognition across multiple ideological positions that childcare infrastructure gaps, particularly around practical facilities like changing tables and birth clinic closures, constitute concrete governance problems requiring policy attention, though outlets differ sharply on causes and solutions rather than on whether these problems exist. Media discourse reveals a fundamental agreement that family policy decisions involve real trade-offs between fiscal sustainability and benefit levels, as reflected in coverage of parental leave spending debates appearing across left-wing, far-right, and economic-liberal sources, with disagreement centered on prioritization rather than whether such difficult choices are necessary or legitimate.",
+      "controversial_points": "# Structural Conflict Lines in German Family Policy Discourse\n\nThe most visible tension separates those who see family policy as enabling individual choice from those prioritizing state support for care work. Right and conservative outlets emphasize personal responsibility and traditional family structures, while left-liberal media demands expanded public infrastructure like changing facilities and robust childcare systems. A second deep divide concerns migration's role in family policy: far-right outlets frame family benefits as unsustainable welfare magnets attracting migration, whereas left and neutral outlets treat family support as a universal social right. A third conflict emerges between cost-cutting austerity and investment paradigms, where economic-liberal voices accept reduced benefits despite social costs, while left-wing critics call this a betrayal of families. Finally, the discourse splits between those viewing childcare workers' wages and conditions as legitimate cost factors versus those treating them as secondary to overall spending limits."
     }
   },
-  "cached_at": "2026-07-08T07:06:44.965790"
+  "cached_at": "2026-07-11T07:03:53.204553"
 }

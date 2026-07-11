@@ -1,39 +1,72 @@
 {
   "topic_id": "defense",
   "topic_label": "Verteidigung & Militär",
-  "article_count": 739,
+  "article_count": 800,
   "candidate_count": 800,
   "outlets": {
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 107,
+      "article_count": 111,
       "sample_titles": [
-        "US-Militär fliegt über Stunden „schwere“ Angriffe auf den Iran – Teheran droht mit Vergeltung",
-        "Trump erneuert Anspruch auf Grönland – Selenskyj wirbt um Nato-Beitritt der Ukraine",
-        "„Das ist Gehirnwäsche der europäischen Steuerzahler“, urteilt Putins Sprecher",
-        "„Man braucht spezielle Produktionsstätten und das ist momentan der Hemmschuh“"
+        "Berlins Finanz- und Kultursenator Evers für Wegner-Nachfolge nominiert",
+        "„Da braucht es einen Spitzenkandidaten, der klare Kante zeigt“",
+        "Evers soll Spitzenkandidat der Berliner CDU werden – „Die Ausgangslage könnte besser sein“",
+        "„Die Nato muss fähig sein, konventionelle und unkonventionelle Kriege gleichzeitig zu führen“"
       ],
       "urls": [
-        "https://www.welt.de/politik/ausland/article6a4d71a2bb0cf80de56a180c/nach-attacken-auf-tankschiffe-us-militaer-fliegt-ueber-stunden-schwere-angriffe-auf-den-iran-teheran-droht-mit-vergeltung.html",
-        "https://www.welt.de/politik/ausland/article6a4ca0c41cbe5f3a786a9520/nato-gipfel-im-liveticker-trump-erneuert-anspruch-auf-groenland-selenskyj-wirbt-um-nato-beitritt-der-ukraine.html",
-        "https://www.welt.de/politik/ausland/article6a4d7eb1dfc0c82fa29098f1/ukraine-krieg-putins-sprecher-peskow-spricht-von-gehirnwaesche-der-europaeischen-steuerzahler.html",
-        "https://www.welt.de/wirtschaft/video6a4d25ae486ea1079bcfeb75/kanada-kauft-deutsche-u-boote-man-braucht-spezielle-produktionsstaetten-und-das-ist-momentan-der-hemmschuh.html"
+        "https://www.welt.de/politik/article6a51452d4c65dbb4ac8fddef/abgeordnetenhauswahl-berlins-finanz-und-kultursenator-evers-fuer-wegner-nachfolge-nominiert.html",
+        "https://www.welt.de/videos/video6a51329a4c65dbb4ac8fdd16/evers-ersetzt-wegner-da-braucht-es-einen-spitzenkandidaten-der-klare-kante-zeigt.html",
+        "https://www.welt.de/videos/video6a5131e64c65dbb4ac8fdd0a/nach-wegner-verzicht-evers-soll-spitzenkandidat-der-berliner-cdu-werden-die-ausgangslage-koennte-besser-sein.html",
+        "https://www.welt.de/politik/ausland/article6a50fd3436e98236c4bc4450/us-demokrat-die-nato-muss-faehig-sein-konventionelle-und-unkonventionelle-kriege-gleichzeitig-zu-fuehren.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "fear",
-          "count": 2
+          "emotion": "disapproval",
+          "count": 1
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "love",
+          "count": 1
         },
         {
           "emotion": "annoyance",
           "count": 1
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 107,
+      "sample_titles": [
+        "F.A.Z. Machtprobe: Erdogans Waffen für den Westen: „Türkei ist Außenposten der NATO“",
+        "Nach zwei Monaten: Mehr als 40 entführte Schulkinder in Nigeria befreit",
+        "Deutschland-Liveblog: Finanzsenator Evers soll CDU-Spitzenkandidat in Berlin werden",
+        "Nach wegners Rückzug: Wie geht es jetzt weiter in der Berliner CDU?"
+      ],
+      "urls": [
+        "https://www.faz.net/podcasts/f-a-z-podcast-machtprobe/erdogans-waffen-fuer-den-westen-tuerkei-ist-aussenposten-der-nato-201017326.html",
+        "https://www.faz.net/aktuell/politik/ausland/nigeria-46-entfuehrte-schulkinder-vom-militaer-befreit-accg-201019914.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-finanzsenator-evers-wird-cdu-spitzenkandidat-in-berlin-faz-110093143.html",
+        "https://www.faz.net/aktuell/politik/inland/berliner-cdu-wer-folgt-auf-kai-wegner-als-spitzenkandidat-201019435.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -43,63 +76,30 @@
       "bias": "right-conservative",
       "article_count": 100,
       "sample_titles": [
-        "\"Verstoß gegen die Waffenruhe\": US-Militär greift nach Tanker-Beschuss erneut Ziele im Iran an",
-        "Bekannter US-Senator hirntot?: Gerüchte über Gesundheitszustand von McConnell überschlagen sich",
-        "\"Ein bisschen ungerecht\": Völler wirft sich vor geschassten Nagelsmann - und zählt Fehler auf",
-        "\"Insel ohne USA nicht sicher\": Trump will Grönland-Traum nicht loslassen"
+        "Vom Vater ausgezeichnet: Spaniens Kronprinzessin Leonor beendet Militär-Ausbildung",
+        "\"Plötzlich schossen sie auf ihn\": Zeugen werfen israelischem Militär \"Hinrichtung\" eines Hilfslieferanten vor",
+        "\"Sollte irgendetwas passieren\" : US-Präsident Trump hinterlässt Anweisungen für den Fall seiner Ermordung",
+        "Aus für russische Tanktouristen?: Kasachstan kontrolliert an 59 Checkpoints Benzinschmuggel ins Ausland"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/US-Militaer-greift-nach-Tanker-Beschuss-erneut-Ziele-im-Iran-an-id31060047.html",
-        "https://www.n-tv.de/politik/Geruechte-ueber-Gesundheitszustand-von-McConnell-ueberschlagen-sich-id31059744.html",
-        "https://www.n-tv.de/sport/fussball/Voeller-wirft-sich-vor-geschassten-Nagelsmann-und-zaehlt-Fehler-auf-id31059291.html",
-        "https://www.n-tv.de/politik/Trump-will-Groenland-Traum-nicht-loslassen-id31058983.html"
+        "https://www.n-tv.de/leute/Spaniens-Kronprinzessin-Leonor-beendet-Militaer-Ausbildung-id31073273.html",
+        "https://www.n-tv.de/politik/Zeugen-werfen-israelischem-Militaer-Hinrichtung-eines-Hilfslieferanten-vor-id31073132.html",
+        "https://www.n-tv.de/politik/US-Praesident-Trump-hinterlaesst-Anweisungen-fuer-den-Fall-seiner-Ermordung-id31073733.html",
+        "https://www.n-tv.de/wirtschaft/Kasachstan-kontrolliert-an-59-Checkpoints-Benzinschmuggel-ins-Ausland-id31071284.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "desire",
+          "emotion": "pride",
           "count": 1
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 94,
-      "sample_titles": [
-        "Medienpolitik der SPD: „Hochwertige Angebote kosten nun mal Geld“",
-        "Liveblog Ukrainekrieg: Erneut russischer Angriff mit ballistischen Raketen auf Kiew",
-        "Trump auf NATO-Gipfel: Prognose: Deutschland meldet 2026 Rekordsumme für Verteidigung",
-        "F.A.Z. Podcast für Deutschland: Militärexpertin Major zu NATO-Gipfel: „Können nur Zeit kaufen\""
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/kultursenator-carsten-brosda-spd-zur-medienpolitik-200954606.html",
-        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-erneut-russischer-angriff-mit-ballistischen-raketen-auf-kiew-faz-110683325.html",
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-prognose-deutschland-meldet-2026-rekordsumme-fuer-verteidigung-faz-19444916.html",
-        "https://www.faz.net/podcasts/f-a-z-podcast-fuer-deutschland/militaerexpertin-major-zu-nato-gipfel-koennen-nur-zeit-kaufen-201005295.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
         }
       ]
     },
@@ -107,31 +107,31 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 81,
+      "article_count": 79,
       "sample_titles": [
-        "Nato: Deutschland meldet Verteidigungsausgaben in Rekordhöhe",
-        "Ukraine verkündet Drohnenabkommen mit Dänemark, Estland und den Niederlanden",
-        "USA attackieren mehr als 80 Ziele in Iran – Teheran droht mit »vernichtender Reaktion«",
-        "WM 2026: Paraguay verurteilt rassistische Beleidigungen von Senatorin gegen Kylian Mbappé"
+        "Nigeria: 46 entführte Schulkinder aus Gefangenschaft befreit",
+        "Stefan Evers: Finanzsenator als CDU-Spitzenkandidat in Berlin nominiert",
+        "Kuriose Geschenke von Politikern an Politiker: Revolver, Rollerblades, Krokodil-Versicherungen",
+        "Bundeswehr: Deutschland rüstet sich mit 100 Millionen Euro für Angriffe auf feindliche Satelliten"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/nato-deutschland-meldet-verteidigungsausgaben-in-rekordhoehe-a-d7f5b22e-824c-4014-a489-eb2023b7441e#ref=rss",
-        "https://www.spiegel.de/ausland/ukraine-verkuendet-drohnenabkommen-mit-daenemark-estland-und-den-niederlanden-a-65b14089-3648-4e71-bcde-9c31c036f5ea#ref=rss",
-        "https://www.spiegel.de/ausland/waehrend-nato-gipfel-usa-greifen-iran-erneut-an-streit-ueber-strasse-von-hormus-a-6ca5471f-d95d-4ec0-8486-7f6313d80d99#ref=rss",
-        "https://www.spiegel.de/sport/fussball/wm-2026-paraguay-verurteilt-rassistische-beleidigungen-von-senatorin-gegen-kylian-mbappe-a-cc03b480-d40f-48f5-81a7-b6c7b887e6d9#ref=rss"
+        "https://www.spiegel.de/ausland/nigeria-46-entfuehrte-schulkinder-aus-gefangenschaft-befreit-a-266ae77e-b2c1-42f4-b4a9-13a29a37d62a#ref=rss",
+        "https://www.spiegel.de/politik/stefan-evers-finanzsenator-als-cdu-spitzenkandidat-in-berlin-nominiert-a-abe83c86-2e6b-49a6-99e4-8d905afc6091#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/kuriose-geschenke-von-politikern-an-politiker-lego-raumschiffe-rollerblades-krokodil-versicherungen-a-3f10676d-ea2d-4531-9625-05f30fc24e70#ref=rss",
+        "https://www.spiegel.de/wissenschaft/weltall/bundeswehr-deutschland-ruestet-sich-mit-100-millionen-euro-fuer-angriffe-auf-feindliche-satelliten-a-49c07aca-8527-44dd-b3a7-e3b9c4fc4a35#ref=rss"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "approval",
+          "emotion": "fear",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "joy",
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -140,31 +140,31 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 72,
+      "article_count": 76,
       "sample_titles": [
-        "+++ Ukraine-Krieg +++: Erneut russischer Angriff mit ballistischen Raketen auf Kiew",
-        "USA: Angriffe und Sanktionen stellen Iran-Abkommen auf die Probe",
-        "Nato-Gipfel: „Wir werden die Sanktionen aufheben“ – Trump offen für Verkauf von F-35-Kampfjets an die Türkei",
-        "Rüstung: GCAP-Kampfjet erhält mehr Förderung – deutsche Beteiligung möglich"
+        "Volkswagen: Nahostkonflikt erreicht VW – Katar stellt sich gegen Deal mit Israel",
+        "+++ Ukraine-Krieg +++: Ukraine greift russische Tanker im Asowschen Meer an",
+        "+++ Ukraine-Krieg +++: Nach Angriffen auf Infrastruktur: Energieagentur senkt Prognose für Russlands Ölförderung",
+        "Ukraine-Krieg: US-Zusage: „Ukrainische Patriots? Ich rechne mit mindestens einem Jahr“"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/ukraine-erneut-russischer-angriff-mit-ballistischen-raketen-auf-kiew/27982126.html",
-        "https://www.handelsblatt.com/politik/international/usa-angriffe-und-sanktionen-stellen-iran-abkommen-auf-die-probe/100238632.html",
-        "https://www.handelsblatt.com/politik/international/nato-gipfel-trump-offen-fuer-verkauf-von-f-35-kampfjets-an-tuerkei/100238015.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-gcap-kampfjet-erhaelt-mehr-foerderung-deutsche-beteiligung-moeglich/100237719.html"
+        "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-katar-stellt-sich-gegen-deal-mit-israel/100239467.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-ukraine-greift-russische-tanker-im-asowschen-meer-an/27982126.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-energieagentur-senkt-prognose-fuer-russlands-oelfoerderung/27982126.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-ukrainische-patriots-ich-rechne-mit-mindestens-einem-jahr/100239142.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 4
         },
         {
-          "emotion": "surprise",
+          "emotion": "desire",
           "count": 1
         },
         {
-          "emotion": "sadness",
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -175,21 +175,21 @@
       "bias": "neutral",
       "article_count": 51,
       "sample_titles": [
-        "USA starten erneut Angriffe auf Iran",
-        "Bund sichert Geld für Munitionsbergung in Nord- und Ostsee zu",
-        "Was das U-Boot-Geschäft mit Kanada bedeutet",
-        "Stahlholding Saar will mehr für Rüstungsindustrie produzieren"
+        "Frankreich verschärft Hitze-Krisenplan",
+        "Finanzsenator Evers soll CDU-Spitzenkandidat werden",
+        "BW-Newsticker am Morgen: Zukunft des Audi-Werks Neckarsulm: BW-Wirtschaftsministerin will Taskforce bilden, Wird Sigmaringen wieder Bundeswehrstandort?, Extraschichten bei Mineralwasser-Herstellern",
+        "Stationiert die Bundeswehr in Speyer und Kusel wieder Soldaten?"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/asien/iran-angriffe-usa-102.html",
-        "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/bund-sichert-geld-fuer-munitionsbergung-in-nord-und-ostsee-zu,munitionsbergung-104.html",
-        "https://www.tagesschau.de/inland/innenpolitik/u-boote-kanada-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/stahlproduktion_stahlholding_saar_ruestungsindustrie_100.html"
+        "https://www.tagesschau.de/ausland/europa/hitzewelle-frankreich-warnstufe-100.html",
+        "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berliner-cdu-evers-kreisvorstaende-spitzenkandidat.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-07-10-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/reaktivierung-neuer-bundeswehr-standorte-speyer-kusel-100.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "desire",
+          "emotion": "approval",
           "count": 2
         },
         {
@@ -197,40 +197,40 @@
           "count": 2
         },
         {
-          "emotion": "disapproval",
-          "count": 1
+          "emotion": "desire",
+          "count": 2
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 39,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 45,
       "sample_titles": [
-        "Nato-Gipfel in Ankara geht nach Trump-Kritik weiter",
-        "US-Senator: „Er kommt nicht zurück“: Spekulationen über Gesundheit von Mitch McConnell",
-        "Nato-Gipfel in Ankara: Trump über Grönland: Sollte von den USA kontrolliert werden",
-        "Nato-Gipfel in der Türkei: Umstritten, aber eng mit Trump - Nato zu Gast bei Erdogan"
+        "Stefan Evers: Er soll für Berliner CDU ins Rennen gehen",
+        "Keine geheimen Informationen an die AfD - geht das?",
+        "Was der Tomahawk-Deal für die Bundeswehr heißt",
+        "Erdogans Revolver-Geschenk an Nato-Gäste sorgt für Aufsehen"
       ],
       "urls": [
-        "https://www.stern.de/news/nato-gipfel-in-ankara-geht-nach-trump-kritik-weiter-37657930.html",
-        "https://www.stern.de/politik/ausland/mitch-mcconnell--usa-spekulieren-ueber-zustand-von-us-sentator-37657202.html",
-        "https://www.stern.de/politik/ausland/nato-gipfel-in-ankara--trump-ueber-groenland--sollte-von-den-usa-kontrolliert-werden-37651870.html",
-        "https://www.stern.de/politik/ausland/nato-gipfel-in-der-tuerkei--umstritten--aber-eng-mit-trump---nato-zu-gast-bei-erdogan-37651892.html"
+        "https://www.zdfheute.de/politik/deutschland/berlin-evers-spitzenkandidat-cdu-100.html",
+        "https://www.zdfheute.de/politik/deutschland/afd-sachsen-anhalt-regierungszugang-staatsgeheimnisse-pistorius-100.html",
+        "https://www.zdfheute.de/politik/ausland/faq-tomahawk-deal-trump-100.html",
+        "https://www.zdfheute.de/politik/ausland/erdogan-nato-gipfel-geschenk-pistole-100.html"
       ],
-      "dominant_emotion": "joy",
+      "dominant_emotion": "confusion",
       "top_emotions": [
         {
-          "emotion": "joy",
-          "count": 1
-        },
-        {
           "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "admiration",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -239,31 +239,64 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 37,
+      "article_count": 42,
       "sample_titles": [
-        "BILD kennt die Dokumente! - Der Nato-Geheimplan gegen Putin",
-        "„Ein furchtbarer Gegner“ - Riesen-Wut auf Putin!",
-        "BILD-Reporter zu besiegeltem U-Boot-Deal - „Kanzler im Glück“",
-        "20-Milliarden-Deal mit Kanada - Deutsches U-Boot fast unsichtbar für Schiffe"
+        "Nach Rückzug von Bürgermeister Kai Wegner - Evers wird CDU-Spitzenkandidat in Berlin",
+        "Stefan Evers will Berlin regieren - „Stehe für Stabilität und Zuversicht“",
+        "Mit Sprengstoff-Drohnen - Blutbad-Plan bei Trump-Geburtstag! 8 Männer angeklagt",
+        "Putins aktuelles Kriegsziel - „Über den Sommer kommen“"
       ],
       "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/nato-dokumente-enthuellen-die-verteidigungsplaene-gegen-putin-6a47a8caad32e994f875a219",
-        "https://www.bild.de/politik/ausland-und-internationales/riesen-wut-auf-wladimir-putin-inkompetenz-ist-ein-furchtbarer-gegner-6a4cd8f0efe247f8a9c6a39f",
-        "https://www.bild.de/news/bild-reporter-zu-besiegeltem-u-boot-deal-kanzler-im-glueck-6a4d4503dfc0c82fa29096c7",
-        "https://www.bild.de/politik/ein-deal-im-wert-von-rund-20-milliarden-euro-mit-kanada-das-kann-das-deutsche-super-u-boot-6a4cbb10df0fbe5b4950936e"
+        "https://www.bild.de/politik/nach-rueckzug-von-buergermeister-kai-wegner-finanzsenator-evers-wird-cdu-spitzenkandidat-in-berlin-6a512b5b36e98236c4bc478f",
+        "https://www.bild.de/politik/stefan-evers-will-berlin-regieren-stehe-fuer-stabilitaet-und-zuversicht-6a513c6636e98236c4bc4892",
+        "https://www.bild.de/politik/ausland-und-internationales/attentaeter-sollen-blutbad-bei-trump-geburtstag-geplant-haben-6a501eb943b7fd5185004574",
+        "https://www.bild.de/politik/putins-aktuelles-kriegsziel-ueber-den-sommer-kommen-6a4f66f0a6db83ce8f123dac"
       ],
-      "dominant_emotion": "joy",
+      "dominant_emotion": "amusement",
       "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
         {
           "emotion": "joy",
           "count": 1
-        },
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 42,
+      "sample_titles": [
+        "Ischingers Welt: „Ruttes Unterwürfigkeit war Teil der Zirkusdarbietung\"",
+        "Nach neuen Angriffen: Trump bekräftigt: Waffenruhe im Iran-Krieg vorbei",
+        "Spanische Thronfolgerin: Kronprinzessin Leonor beendet Militärausbildung",
+        "Aktie der Woche: TKMS – Ist die Aktie besser als die von Rheinmetall?"
+      ],
+      "urls": [
+        "https://www.stern.de/politik/ausland/ischinger---ruttes-unterwuerfigkeit-war-teil-der-zirkusdarbietung--37945628.html",
+        "https://www.stern.de/politik/ausland/nach-neuen-angriffen--trump-bekraeftigt--waffenruhe-im-iran-krieg-vorbei-37946040.html",
+        "https://www.stern.de/lifestyle/leute/spanische-thronfolgerin--kronprinzessin-leonor-beendet-militaerausbildung-37948746.html",
+        "https://www.stern.de/capital/tkms---ist-die-aktie-besser-als-die-von-rheinmetall--37942522.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
         {
-          "emotion": "approval",
+          "emotion": "sadness",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -272,60 +305,27 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 33,
+      "article_count": 39,
       "sample_titles": [
-        "Staatsaffäre um Fußballstar: Rassistische Entgleisung",
-        "Europa setzt auf Rüstungsdeals: Der Waffengeist von Ankara",
-        "U-Boote für Kanada: Der Auftakt zum Auftakt",
-        "Streitgespräch über Aufrüstung: „Europa sollte stärker werden als Russland.“ – „Da widerspreche ich.“"
+        "Rüstung oder Rente: Mit diesem Haushalt verspielt die Regierung Vertrauen",
+        "Donald Trump beim Nato-Gipfel: Wenn der Tyrann von Liebe spricht",
+        "Iran-Konflikt: Spiel für die Kriegsherren",
+        "Nato-Gipfel: Trump lässt sich nicht um den Finger wickeln"
       ],
       "urls": [
-        "https://taz.de/Staatsaffaere-um-Fussballstar/!6194110/",
-        "https://taz.de/Europa-setzt-auf-Ruestungsdeals/!6194058/",
-        "https://taz.de/U-Boote-fuer-Kanada/!6194103/",
-        "https://taz.de/Streitgespraech-ueber-Aufruestung/!6190054/"
+        "https://taz.de/Ruestung-oder-Rente/!6191122/",
+        "https://taz.de/Donald-Trump-beim-Nato-Gipfel/!6194792/",
+        "https://taz.de/Iran-Konflikt/!6191178/",
+        "https://taz.de/Nato-Gipfel/!6191159/"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "anger",
           "count": 1
         },
         {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 25,
-      "sample_titles": [
-        "Krieg in Nahost: US-Militär greift Ziele in Iran an",
-        "Bundespolitik: Deutschland meldet Nato Verteidigungsausgaben in Rekordhöhe",
-        "Krieg in der Ukraine: Trump möchte wohl Gespräche mit Selenskij über ein Kriegsende führen",
-        "Vor dem Nato-Gipfel: Deutscher U-Boot-Bauer steht vor Zehn-Milliarden-Auftrag aus Kanada"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/liveblog-nahost-iran-news-usa-angriffe-li.3508345",
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-verteidigungsausgaben-nato-li.3495864",
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-nato-putin-selenskij-gespraeche-li.3500126",
-        "https://www.sueddeutsche.de/wirtschaft/tkms-u-boot-auftrag-kanada-milliarden-deal-werft-li.3511394"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
+          "emotion": "disgust",
           "count": 1
         },
         {
@@ -334,35 +334,60 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 24,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 28,
       "sample_titles": [
-        "US-Militär greift Ziele in Iran an",
-        "Trump von Nato \"sehr enttäuscht\"",
-        "Fünf Nato-Staaten werden 2026 wohl 3,5-Prozent-Ziel erreichen",
-        "Theveßen: \"Missverständnis, was die Nato ist\""
+        "Wechsel im VBS: Pälvi Pulli verlässt das Staatssekretariat für Sicherheitspolitik",
+        "Gefährlicher Übergang: Die Nato wird europäischer, das könnte von Moskau als Schwäche ausgelegt werden",
+        "Die letzte Reise von Ayatollah Ali Khamenei",
+        "Pandas, Kuchen und Pistolen: Die Kunst des diplomatischen Schenkens hat ihre Tücken"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/ausland/angriffe-usa-iran-100.html",
-        "https://www.zdfheute.de/politik/ausland/nato-gipfel-tuerkei-ankara-trump-europa-ukraine-iran-krieg-100.html",
-        "https://www.zdfheute.de/politik/ausland/nato-ausgaben-verteidigung-ziel-trump-100.html",
-        "https://www.zdfheute.de/video/zdfheute-live/nato-gipfel-ankara-thevessen-video-100.html"
+        "https://www.nzz.ch/schweiz/wechsel-im-vbs-paelvi-pulli-verlaesst-das-staatssekretariat-fuer-sicherheitspolitik-ld.10015004",
+        "https://www.nzz.ch/pro/nato-gipfel-in-ankara-das-buendnis-wird-europaeischer-was-heisst-das-fuer-putin-ld.10014842",
+        "https://www.nzz.ch/visuals/die-letzte-reise-von-ayatollah-ali-khamenei-ld.10014339",
+        "https://www.nzz.ch/panorama/pandas-kuchen-und-pistolen-die-kunst-des-diplomatischen-schenkens-hat-ihre-tuecken-ld.10014769"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "anger",
       "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 27,
+      "sample_titles": [
+        "Irak: Wadephul: Wollen weiterhin Bundeswehr-Engagement in Erbil",
+        "Berlin: Wegners Irrweg ins politische Aus",
+        "Getötetes Staatsoberhaupt: Irans oberster Führer Chamenei beerdigt",
+        "Krieg in Nahost: US-Militär greift erneut Ziele in Iran an"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/bundeswehr-erbil-irak-wadephul-li.3514164",
+        "https://www.sueddeutsche.de/politik/berlin-wegner-buergermeister-stromausfall-luege-cdu-spitzenkandidat-spd-wahl-li.3513374",
+        "https://www.sueddeutsche.de/politik/iran-beerdigung-ajatollah-chamenei-li.3513566",
+        "https://www.sueddeutsche.de/politik/liveblog-nahost-iran-news-usa-trump-drohung-neue-angriffe-li.3508345"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        },
         {
           "emotion": "desire",
           "count": 1
         },
         {
-          "emotion": "surprise",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -371,18 +396,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 22,
+      "article_count": 21,
       "sample_titles": [
-        "Krieg im Iran: US-Militär fliegt neue Angriffe, Iran spricht von Bruch des Abkommens",
-        "Nato-Gipfel in Ankara: Trump über Grönland: Sollte von den USA kontrolliert werden",
-        "Verteidigung: Nato will mit schwedischen Flugzeugen Luftaufklärung verbessern",
-        "Rüstungsindustrie: Kanada bestellt U-Boote bei deutschem Hersteller TKMS"
+        "Recep Tayyip Erdoğan: Kommt ein Komiker ins Gefängnis",
+        "CDU-Berlin: Berliner Finanzsenator Evers soll CDU-Spitzenkandidat in Berlin werden",
+        "Bundeswehr-Abzug aus Erbil: Bundeswehr räumt Lager im Irak",
+        "Nato-Treffen in der Türkei: Wadephul sieht Nato trotz Kritik von Trump »stärker als je zuvor«"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-07/irankrieg-usa-angriffe-iran-strasse-von-hormus",
-        "https://www.zeit.de/news/2026-07/07/was-vom-nato-gipfel-zu-erwarten-ist",
-        "https://www.zeit.de/politik/ausland/2026-07/nato-luftaufklaerung-schwedische-flugzeuge-saab-340-gxe",
-        "https://www.zeit.de/wirtschaft/2026-07/kanada-bestellt-u-boote-bei-deutschem-hersteller-tkms"
+        "https://www.zeit.de/feuilleton/2026-07/recep-tayyip-erdogan-tuerkei-opposition-unterdrueckung-ekrem-imamoglu",
+        "https://www.zeit.de/politik/deutschland/2026-07/stefan-evers-cdu-berlin-abgeordnetenhauswahl",
+        "https://www.zeit.de/politik/ausland/2026-07/bundeswehr-abzug-erbil-nordirak-feldlager-peschmerga",
+        "https://www.zeit.de/politik/ausland/2026-07/nato-gipfel-ankara-usa-johann-wadephul-donald-trump"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -393,35 +418,6 @@
         {
           "emotion": "curiosity",
           "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "US-Streitkräfte nehmen Attacken gegen Iran wieder auf und greifen über 80 Ziele an",
-        "Trump macht der Türkei Hoffnung auf die Lieferung von F-35",
-        "Kylian Mbappé wird von einer paraguayischen Politikerin rassistisch beleidigt – Macron lobt seine Reaktion",
-        "U-Boot-Auftrag an TKMS: Kanada, Deutschland und Norwegen schmieden eine neue maritime Allianz"
-      ],
-      "urls": [
-        "https://www.nzz.ch/international/iran-krieg/neue-us-angriffe-auf-iran-offenbar-staerker-als-zuvor-ld.10014583",
-        "https://www.nzz.ch/international/trump-macht-der-tuerkei-hoffnung-auf-die-lieferung-von-f-35-ld.10014473",
-        "https://www.nzz.ch/sport/kylian-mbappe-wird-von-einer-paraguayischen-politikerin-rassistisch-beleidigt-macron-lobt-seine-reaktion-ld.10014477",
-        "https://www.nzz.ch/pro/tkms-was-kanadas-u-boot-deal-mit-der-kieler-werft-fuer-die-nato-bedeutet-ld.10014488"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
         }
       ]
     },
@@ -429,27 +425,27 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 14,
+      "article_count": 15,
       "sample_titles": [
-        "Stade: Sechs Tote – und die entscheidenden Fragen bleiben weiterhin offen – TE-Wecker am 8. Juli 2026",
-        "Bundeshaushaltsplan 2027: Entlastung? Von wegen, der Raubzug beginnt erst",
-        "Fünf Prozent für die Abschreckung: der teuerste NATO-Gipfel seit Jahrzehnten",
-        "Habeck wird Berater bei den Profiteuren seiner Politik"
+        "Widerspruch unerwünscht: Union setzt auf geräuschlose Militarisierung",
+        "Bundeshaushalt 2027: Raubzug im unverbindlichen Zahlensalat",
+        "Argentinien dreht das WM-Drama: Messi trifft, weint – und Ägypten protestiert",
+        "Stade: Sechs Tote – und die entscheidenden Fragen bleiben weiterhin offen – TE-Wecker am 8. Juli 2026"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/podcast/wecker-am-8-juli-2026/",
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/entlastung-steuern-enteignung/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/fuenf-prozent-fuer-abschreckung-nato/",
-        "https://www.tichyseinblick.de/meinungen/habeck-urban-partners/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/nato-gipfel-ankara-militarisierung/",
+        "https://www.tichyseinblick.de/kolumnen/goergens-feder/bundeshaushalt-2027-raubzug/",
+        "https://www.tichyseinblick.de/feuilleton/messi-argentinien-aegypten-protest/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-8-juli-2026/"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "realization",
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -460,16 +456,36 @@
       "bias": "neutral",
       "article_count": 8,
       "sample_titles": [
-        "China testet Rakete im Pazifik - Anrainerstaaten sind empört",
-        "Tote und Verletzte bei neuen russischen Angriffen auf Kyjiw",
-        "News kompakt: Festnahmen in der Türkei vor NATO-Gipfel",
-        "Ukraine attackiert Erdölterminal in Sankt Petersburg"
+        "News kompakt: Trump droht Iran mit noch heftigeren Angriffen",
+        "\"Sehr verärgert\" - Trump schießt gegen NATO-Verbündete",
+        "ICE-Beamter tötet mexikanischen Einwanderer - News kompakt: Das Wichtigste kurz gefasst",
+        "China testet Rakete im Pazifik - Anrainerstaaten sind empört"
       ],
       "urls": [
-        "https://www.dw.com/de/china-testet-rakete-im-pazifik-anrainerstaaten-sind-empört/a-77847814?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/tote-und-verletzte-bei-neuen-russischen-angriffen-auf-kyjiw/a-77844728?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/news-kompakt-festnahmen-in-der-türkei-vor-nato-gipfel/a-77843147?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/ukraine-attackiert-erdölterminal-in-sankt-petersburg/a-77831115?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/news-kompakt-trump-droht-iran-mit-noch-heftigeren-angriffen/a-77883612?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/sehr-verärgert-trump-schießt-gegen-nato-verbündete/a-77876754?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/ice-beamter-tötet-mexikanischen-einwanderer-news-kompakt-das-wichtigste-kurz-gefasst/a-77867626?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/china-testet-rakete-im-pazifik-anrainerstaaten-sind-empört/a-77847814?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 4,
+      "sample_titles": [
+        "Pomp und Prompter: Der NATO-Gipfel und Erdogan",
+        "Mit Merz in den militärisch-industriellen Komplex",
+        "Schiffbruch mit Boris",
+        "Deutschlands Milliarden-Rüstungsdebakel: Immerhin Neuseeland will daraus lernen"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/pomp_und_prompter_der_nato_gipfel_und_erdogan",
+        "https://www.achgut.com/artikel/mit_merz_in_den_militaerisch_industriellen_komplex",
+        "https://www.achgut.com/artikel/schiffbruch_mit_boris",
+        "https://www.achgut.com/artikel/deutschlands_milliarden_ruestungsdebakel_immerhin_neuseeland_will_daraus_lernen"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -478,27 +494,21 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 7,
+      "article_count": 3,
       "sample_titles": [
+        "Nato-Gipfel Trump will Handel mit Spanien aussetzen und nennt Iran-Führung „Abschaum“",
         "Fregatte F126 Warum müssen deutsche Rüstungsprojekte dauernd scheitern?",
-        "7,2 Milliarden Steuergeld Rüstungskonzern sagt Börsengang ab, Bundesregierung steigt ein",
-        "Ukrainekrieg Russlands Südfront bröckelt und die Soldaten murren lauter",
-        "Wehrpflicht Bundeswehr: Zahl der Kriegsdienstverweigerer steigt deutlich"
+        "7,2 Milliarden Steuergeld Rüstungskonzern sagt Börsengang ab, Bundesregierung steigt ein"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/ausland/2026/trump-will-handel-mit-spanien-aussetzen-und-nennt-iran-fuehrung-abschaum/",
         "https://jungefreiheit.de/politik/deutschland/2026/warum-muessen-deutsche-ruestungsprojekte-dauernd-scheitern/",
-        "https://jungefreiheit.de/wirtschaft/2026/ruestungskonzern-sagt-boersengang-ab-bundesregierung-steigt-ein/",
-        "https://jungefreiheit.de/politik/ausland/2026/russlands-suedfront-broeckelt-und-die-soldaten-murren-lauter/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bundeswehr-zahl-der-kriegsdienstverweigerer-steigt-deutlich/"
+        "https://jungefreiheit.de/wirtschaft/2026/ruestungskonzern-sagt-boersengang-ab-bundesregierung-steigt-ein/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -507,65 +517,43 @@
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 3,
+      "article_count": 2,
       "sample_titles": [
-        "Film der Woche: „The Piano Tuner“ - Vom Wunderkind zum Panzerknacker",
-        "Deutschlands Niederlage im UN-Sicherheitsrat - Retten, was noch zu retten ist",
-        "Gescheitertes Kriegsschiff-Projekt der Bundeswehr - „Das wird noch sehr viel teurer als zwei Milliarden Euro“"
+        "Nato-Gipfel in Ankara - Der verärgerte und der nette Trump",
+        "Film der Woche: „The Piano Tuner“ - Vom Wunderkind zum Panzerknacker"
       ],
       "urls": [
-        "https://www.cicero.de/kultur/film-der-woche-the-piano-tuner-vom-wunderkind-zum-panzerknacker",
-        "https://www.cicero.de/aussenpolitik/deutschlands-niederlage-im-un-sicherheitsrat-retten-was-noch-zu-retten-ist",
-        "https://www.cicero.de/innenpolitik/gescheitertes-kriegsschiff-projekt-der-bundeswehr-das-wird-noch-sehr-viel-teurer-als-zwei-milliarden-euro"
+        "https://www.cicero.de/aussenpolitik/nato-gipfel-in-ankara-der-verargerte-und-der-nette-trump",
+        "https://www.cicero.de/kultur/film-der-woche-the-piano-tuner-vom-wunderkind-zum-panzerknacker"
       ],
       "dominant_emotion": "amusement",
       "top_emotions": [
         {
           "emotion": "amusement",
           "count": 1
-        },
-        {
-          "emotion": "disappointment",
-          "count": 1
         }
       ]
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "Schiffbruch mit Boris",
-        "Deutschlands Milliarden-Rüstungsdebakel: Immerhin Neuseeland will daraus lernen"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/schiffbruch_mit_boris",
-        "https://www.achgut.com/artikel/deutschlands_milliarden_ruestungsdebakel_immerhin_neuseeland_will_daraus_lernen"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "far-right": 23,
-    "populist-mixed": 37,
-    "right-conservative": 207,
-    "economic-liberal": 72,
-    "conservative-liberal": 117,
-    "left-liberal": 167,
-    "neutral": 83,
-    "left": 33
+    "right-conservative": 211,
+    "economic-liberal": 76,
+    "conservative-liberal": 137,
+    "left-liberal": 169,
+    "neutral": 104,
+    "populist-mixed": 42,
+    "left": 39,
+    "far-right": 22
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs zur Verteidigungspolitik zeigt sich über alle Spektren hinweg eine breite Akzeptanz gestiegener Rüstungsausgaben und der Aufrüstung als Reaktion auf geopolitische Veränderungen, wobei selbst kritische Medien die Notwendigkeit erhöhter Verteidigungsfähigkeit nicht grundsätzlich in Frage stellen, sondern eher deren Ausgestaltung diskutieren. Die deutsche Rüstungsindustrie und internationale Rüstungsdeals wie der U-Boot-Auftrag aus Kanada werden durchgehend als Erfolg und strategische Chance für Deutschland positioniert, unabhängig davon, ob Medien die Aufrüstung kritisch-skeptisch oder befürwortend bewerten. Ein dritter Konsens besteht in der Wahrnehmung Deutschlands als zuverlässiger NATO-Partner und Verfechter europäischer Handlungsfähigkeit, besonders im Kontext der Trump-Administration. Dieses Deutschland-Narrativ ist sowohl in konservativen als auch in linken Medien präsent, wenn auch mit unterschiedlichen Bewertungen der dahinterstehenden Logik.",
-      "controversial_points": "Der zentrale Konflikt verläuft zwischen einem sicherheitspolitischen Realismus und einer fundamentalen Skepsis gegenüber Rüstung und militärischer Aufrüstung. Die Rechte und Konservative akzeptieren hohe Verteidigungsausgaben als notwendige Reaktion auf äußere Bedrohungen, während die Linke diese als problematische Eskalation und Verschiebung von Ressourcen kritisiert. Ein zweiter Bruchpunkt liegt in der NATO-Integration und der Abhängigkeit von den USA. Hier spaltet sich der Diskurs zwischen jenen, die NATO-Bündnisse und europäische Aufrüstung als unvermeidbar sehen, und jenen, die darin eine gefährliche Militarisierung unter amerikanischer Kontrolle erkennen. Die rechte und populistische Presse instrumentalisiert zudem Rüstungsdeals für nationale Prestigepolitik, während linke Medien diese als Problem-Verschiebung und ethisch fragwürdig rahmen. Besonders deutlich wird das Spannungsfeld bei Rüstungsexporten, wo wirtschaftliche Interessen gegen friedenspolitische Bedenken prallen und die Frage nach Deutschlands Rolle zwischen militärischer Handlungsfähigkeit und historischer Verantwortung ungelöst bleibt."
+      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz unterschiedlicher politischer Ausrichtung eine klare Übereinstimmung darin, dass die Bundeswehr umfassend reformiert und modernisiert werden muss, um die NATO-Zwei-Prozent-Vorgabe zu erreichen und den veränderten sicherheitspolitischen Anforderungen nach der Ukraine-Krise gerecht zu werden. Gleichzeitig wird von allen Seiten betont, dass höhere Rüstungsausgaben nur im Rahmen einer transparenten parlamentarischen Kontrolle und einer stärkeren Einbindung der Zivilgesellschaft akzeptabel sind. Ein weiteres gemeinsames Thema ist die wachsende Bedeutung der Cyber- und Informationsabwehr, die als zentrale Säule der zukünftigen Verteidigungsstrategie hervorgehoben wird.",
+      "controversial_points": "Die Debatte um das NATO-Zwei-Prozent-Ziel spaltet Befürworter von Sicherheitsgarantien und Kritiker von Haushaltsbelastungen. Die Rückkehr der Wehrpflicht kollidiert mit einer zivilgesellschaftlichen Ablehnung von Militarisierung. Rüstungsexporte erzeugen Spannungen zwischen Wirtschaftslobby, Menschenrechtsorganisationen und einer außenpolitischen Verpflichtung zur NATO. Cyber-Abwehr fordert eine kontinuierliche Ressourcenallokation."
     },
     "en": {
-      "shared_perspectives": "German media across the political spectrum broadly accepts that Germany must significantly increase defense spending and military capability as a strategic necessity following Russia's invasion of Ukraine, with disagreement focused primarily on implementation speed and fiscal priorities rather than the fundamental direction of rearmament. There is widespread consensus that NATO burden-sharing obligations require Germany to meet or exceed spending targets, reflected even in critical coverage that frames increased defense budgets as inevitable rather than optional, though far-right outlets dispute whether this spending represents prudent security investment or wasteful redistribution. German media consistently frames defense industrial expansion, particularly visible in the Canadian U-boat deal and GCAP combat aircraft involvement, as both an economic opportunity for German companies and a geopolitical necessity for European independence from US security guarantees, with this dual framing appearing across outlets from liberal to conservative positions.",
-      "controversial_points": "German media discourse on defense policy splits fundamentally between those viewing NATO strengthening as necessary responsibility versus those seeing it as wasteful militarization driven by elites. The far-right and left frames converge on opposing increased defense spending but from opposite directions: the right attacks it as financial exploitation, the left as dangerous militarism that enriches arms manufacturers. A core tension emerges between security pragmatism (especially after Ukraine) advocated by center-right and economic-liberal outlets versus strategic skepticism about NATO's durability under Trump, which fractures the traditional security consensus. The debate over rearmament intensity reveals a structural conflict between those accepting permanent military buildup as Germany's new normal and those viewing it as temporary emergency spending that must eventually return to social priorities."
+      "shared_perspectives": "Across the spectrum German outlets converge on the assessment that the Ukraine war has turned meeting NATO's 2% spending target into an urgent political priority, prompting calls for a rapid increase in the defence budget and for structural reforms of the Bundeswehr, including a renewed debate on a form of conscription to remedy personnel shortages. They also uniformly stress that Germany must integrate stronger cyber-defence and civil-protection capacities as essential components of a reliable NATO partnership. Finally, despite divergent opinions on individual procurement projects, there is a shared narrative that Germany's arms-export policy should be aligned with NATO strategic interests and broader European security objectives.",
+      "controversial_points": "German media split between a security-first narrative and a social-budget narrative. Conservatives push conscription revival and NATO 2% target, liberals demand civilian oversight and spending cuts. Arms-export debates pit economic interests against human-rights criticism, especially regarding Turkey and Israel. NATO engagement creates tension between pro-US alignment and calls for European strategic autonomy."
     }
   },
-  "cached_at": "2026-07-08T07:06:00.898480"
+  "cached_at": "2026-07-11T07:01:42.134203"
 }
