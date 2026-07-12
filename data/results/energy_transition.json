@@ -8,7 +8,7 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 109,
+      "article_count": 107,
       "sample_titles": [
         "Gebäudemodernisierungsgesetz: Ein schlechtes Heizungsgesetz wird durch ein anderes schlechtes ersetzt",
         "F.A.Z. Frühdenker: Wie radikal werden die Pläne zur VW-Sanierung?",
@@ -43,16 +43,16 @@
       "bias": "neutral",
       "article_count": 85,
       "sample_titles": [
+        "Deutsche Klimaneutralität soll auf 2050 verschoben werden",
         "Wie Wärmepumpen auch kühlen können",
         "Klütz: Klare Mehrheit lehnt Windkraft und Agri-PV bis 2029 ab",
-        "Bundespräsident übergibt Steinkohle in Bonn",
-        "Wie Windräder beim Waldumbau helfen können"
+        "Bundespräsident übergibt Steinkohle in Bonn"
       ],
       "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/wirtschaft-klimaziele-100.html",
         "https://www.tagesschau.de/wissen/technologie/waermepumpe-zum-kuehlen-100.html",
         "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/kluetz-klare-mehrheit-lehnt-windkraft-und-agri-pv-bis-2029-ab,mvregioschwerin-4866.html",
-        "https://www1.wdr.de/nrw/rheinland/bonn/steinmeier-steinkohle-haus-der-geschichte-100.html",
-        "https://www.tagesschau.de/wissen/klima/windraeder-helfen-beim-waldumbau-100.html"
+        "https://www1.wdr.de/nrw/rheinland/bonn/steinmeier-steinkohle-haus-der-geschichte-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -107,18 +107,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 69,
+      "article_count": 73,
       "sample_titles": [
-        "Heizungsgesetz: Bundestag beschließt neues Heizungsgesetz",
-        "Energie: Einschnitte bei Wärmepumpen-Förderung: Kunden bleiben auf Tausenden Euro an Mehrkosten sitzen",
-        "+++ Iran-Krieg +++: Jordanien meldet Raketenbeschuss aus dem Iran",
-        "Energiepolitik: Regierung plant Milliarden-Einsparung bei Heizungsförderung"
+        "Klimapolitik: Kein Tabu mehr – Hitze zwingt Frankreich zum Kurswechsel bei Klimaanlagen",
+        "Klimawandel: Wirtschaft fordert Verschiebung des Klimaziels auf 2050",
+        "Hitzewelle: So machen Sie die Wärmepumpe zur Klimaanlage – ganz ohne Umbau",
+        "Gastkommentar: Europas Weg in die Unabhängigkeit führt über die Steckdose"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/heizungsgesetz-bundestag-beschliesst-neues-heizungsgesetz/100239407.html",
-        "https://www.handelsblatt.com/unternehmen/energie/waermepumpe-einschnitte-bei-foerderung-sorgen-fuer-ueberraschende-mehrkosten/100239052.html",
-        "https://www.handelsblatt.com/politik/international/iran-krieg-jordanien-meldet-raketenbeschuss-aus-dem-iran/100136895.html",
-        "https://www.handelsblatt.com/politik/deutschland/heizen-regierung-kuerzt-foerderung-fuer-waermepumpen/100238447.html"
+        "https://www.handelsblatt.com/politik/international/klimapolitik-hitze-zwingt-frankreich-zum-kurswechsel-bei-klimaanlagen/100238513.html",
+        "https://www.handelsblatt.com/politik/deutschland/klimawandel-wirtschaft-fordert-verschiebung-des-klimaziels-auf-2050/100239526.html",
+        "https://www.handelsblatt.com/unternehmen/energie/hitzewelle-so-machen-sie-die-waermepumpe-zur-klimaanlage-ganz-ohne-umbau/100237112.html",
+        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-europas-weg-in-die-unabhaengigkeit-fuehrt-ueber-die-steckdose/100239393.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -169,22 +169,55 @@
         }
       ]
     },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 62,
+      "sample_titles": [
+        "Protest-Irrsinn in Lommatzsch: \"Wir wollten Windkraft unbedingt ablehnen und bekommen jetzt das Gegenteil\"",
+        "Ruf nach Aufschub: Industrievertreter und CDU-Vereinigung rütteln am Klimaziel 2045",
+        "Weg frei für Biogas: Bundestag beschließt das neue Heizungsgesetz",
+        "Linke und Grüne scheitern: Bundesverfassungsgericht erlaubt Abstimmungen zu Kassenreform und Heizungsgesetz"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Lommatzsch-Wir-wollten-Windkraft-unbedingt-ablehnen-und-bekommen-jetzt-das-Gegenteil-id31066791.html",
+        "https://www.n-tv.de/politik/Industrievertreter-und-CDU-Vereinigung-ruetteln-am-Klimaziel-2045-id31074351.html",
+        "https://www.n-tv.de/politik/Bundestag-beschliesst-das-neue-Heizungsgesetz-id31072294.html",
+        "https://www.n-tv.de/politik/Bundesverfassungsgericht-erlaubt-Abstimmungen-zu-Kassenreform-und-Heizungsgesetz-id31067548.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 8
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 64,
+      "article_count": 61,
       "sample_titles": [
-        "Vertreter aus Wirtschaft und Politik fordern Verschiebung der deutschen Klimaneutralität",
+        "148 Prozent in einem Jahr – mit diesen ETFs spielen Sie die Megatrends der Börse",
         "Jede fünfte Firma in Deutschland verzichtet ganz auf Investitionen",
-        "„Der komplette Wahnsinn“ – jetzt kommt der Wärmepumpen-Ärger bei den Installateuren an",
-        "Neues Heizungsgesetz beschlossen – was sich jetzt ändert"
+        "Vertreter aus Wirtschaft und Politik fordern Verschiebung der deutschen Klimaneutralität",
+        "„Der komplette Wahnsinn“ – jetzt kommt der Wärmepumpen-Ärger bei den Installateuren an"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/article6a50d55a8b5b8e3f0122a694/vertreter-aus-wirtschaft-und-politik-fordern-verschiebung-der-deutschen-klimaneutralitaet.html",
+        "https://www.welt.de/finanzen/plus6a50af18c13a557858aa086b/speicher-space-uran-mit-diesen-etfs-spielen-sie-die-megatrends-der-boerse.html",
         "https://www.welt.de/wirtschaft/article6a50e1f41aef3ee586480703/studie-zeigt-negativ-rekord-der-naechste-investitions-tiefpunkt-am-standort-deutschland.html",
-        "https://www.welt.de/wirtschaft/plus6a4f9eba43b7fd5185003d22/heizungsfoerder-chaos-der-komplette-wahnsinn-jetzt-kommt-der-waermepumpen-aerger-bei-den-installateuren-an.html",
-        "https://www.welt.de/wirtschaft/article6a50e0684c65dbb4ac8fd5cd/bundestag-beschliesst-neues-heizungsgesetz-was-sich-jetzt-aendert.html"
+        "https://www.welt.de/wirtschaft/article6a50d55a8b5b8e3f0122a694/vertreter-aus-wirtschaft-und-politik-fordern-verschiebung-der-deutschen-klimaneutralitaet.html",
+        "https://www.welt.de/wirtschaft/plus6a4f9eba43b7fd5185003d22/heizungsfoerder-chaos-der-komplette-wahnsinn-jetzt-kommt-der-waermepumpen-aerger-bei-den-installateuren-an.html"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -202,55 +235,22 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 62,
-      "sample_titles": [
-        "Weg frei für Biogas: Bundestag beschließt das neue Heizungsgesetz",
-        "Linke und Grüne scheitern: Bundesverfassungsgericht erlaubt Abstimmungen zu Kassenreform und Heizungsgesetz",
-        "Koalition schiebt Verabschiedung: Die Farce ums schwarz-rote Heizungsgesetz ist perfekt",
-        "Verbraucher bezahlen Reserve: So will die Regierung die Gasversorgung im Krisenfall absichern"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Bundestag-beschliesst-das-neue-Heizungsgesetz-id31072294.html",
-        "https://www.n-tv.de/politik/Bundesverfassungsgericht-erlaubt-Abstimmungen-zu-Kassenreform-und-Heizungsgesetz-id31067548.html",
-        "https://www.n-tv.de/politik/politik_kommentare/Die-Farce-ums-schwarz-rote-Heizungsgesetz-ist-perfekt-id31057086.html",
-        "https://www.n-tv.de/politik/So-will-die-Regierung-die-Gasversorgung-im-Krisenfall-absichern-id31055854.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        }
-      ]
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 59,
+      "article_count": 60,
       "sample_titles": [
+        "Gebäudemodernisierungsgesetz: Grüne melden verfassungsrechtliche Bedenken an",
+        "Heizungsgesetz: Desinformation wirkt",
         "News des Tages: Kai Wegner gibt auf, Heizungsgesetz gekippt, Jimi Blue Ochsenknecht wieder vor Gericht",
-        "Bundestag kippt Heizungsgesetz der Ampelregierung",
-        "Gesundheitsreform: Bundestagsdebatte über Krankschreibung ab Tag eins – Livestream",
-        "Bundestag kann über Kassenreform und Heizungsgesetz abstimmen"
+        "Bundestag kippt Heizungsgesetz der Ampelregierung"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/gebaeudemodernisierungsgesetz-gruene-melden-verfassungsrechtliche-bedenken-an-a-a66b3c2b-471e-4456-8f36-ea5faa1196e3#ref=rss",
+        "https://www.spiegel.de/wissenschaft/technik/heizungsgesetz-desinformation-wirkt-a-bf4c2625-e598-4a4f-9e67-811e20bfc798#ref=rss",
         "https://www.spiegel.de/politik/deutschland/news-des-tages-kai-wegner-gibt-auf-heizungsgesetz-gekippt-jimi-blue-ochsenknecht-wieder-vor-gericht-a-af911a24-b9e7-4685-8140-b84fe17aa12b#ref=rss",
-        "https://www.spiegel.de/wirtschaft/bundestag-kippt-heizungsgesetz-der-ampelregierung-a-57e92cb9-36bb-4909-b98e-2b8d906927d7#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/gesundheitsreform-bundestagsdebatte-ueber-krankschreibung-ab-tag-eins-livestream-a-e8f5f73a-63de-413e-ac07-2c1f18495d9a#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/bundestag-kann-ueber-kassenreform-und-heizungsgesetz-abstimmen-a-23962352-c018-4ae6-bae3-544c848dac90#ref=rss"
+        "https://www.spiegel.de/wirtschaft/bundestag-kippt-heizungsgesetz-der-ampelregierung-a-57e92cb9-36bb-4909-b98e-2b8d906927d7#ref=rss"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -272,18 +272,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 43,
+      "article_count": 44,
       "sample_titles": [
+        "Rufe nach Aufschub der Klimaneutralität Deutschlands um fünf Jahre",
         "Zum zweiten Mal in fünf Tagen: Neuer landesweiter Stromausfall in Kuba",
         "Ökostrom: Erneuerbare Energien: Netzanschlüsse gefragt wie noch nie",
-        "Monopolkommission kritisiert „Labyrinth“ bei Stromhilfen - und sieht KI-Defizite",
-        "Kernkraft: Mehr Zeit für Atommüll-Transporte quer durch NRW beantragt"
+        "Monopolkommission kritisiert „Labyrinth“ bei Stromhilfen - und sieht KI-Defizite"
       ],
       "urls": [
+        "https://www.stern.de/news/rufe-nach-aufschub-der-klimaneutralitaet-deutschlands-um-fuenf-jahre-37950428.html",
         "https://www.stern.de/news/zum-zweiten-mal-in-fuenf-tagen--neuer-landesweiter-stromausfall-in-kuba-37950616.html",
         "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/oekostrom--erneuerbare-energien--netzanschluesse-gefragt-wie-noch-nie-37949010.html",
-        "https://www.stern.de/news/monopolkommission-kritisiert--labyrinth--bei-stromhilfen---und-sieht-ki-defizite-37944412.html",
-        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/kernkraft--mehr-zeit-fuer-atommuell-transporte-quer-durch-nrw-beantragt-37655488.html"
+        "https://www.stern.de/news/monopolkommission-kritisiert--labyrinth--bei-stromhilfen---und-sieht-ki-defizite-37944412.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -305,7 +305,7 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 33,
+      "article_count": 32,
       "sample_titles": [
         "Neues \"Heizungsgesetz\": Was sich jetzt ändern soll",
         "Debatte zum neuen Heizungsgesetz",
@@ -367,11 +367,44 @@
         }
       ]
     },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 26,
+      "sample_titles": [
+        "DER ANDERE BLICK MIT DATEN - Die Legende vom Stillstand der französischen Atomkraftwerke: In der Hitze schwächelten vor allem Windräder",
+        "Zehn Wochen vor der Berlin-Wahl: Kai Wegner zieht seine Kandidatur zurück",
+        "Atomkraft oder Solarstrom: Wer braucht mehr Subventionen?",
+        "In Liechtenstein sollen Wärmepumpen künftig auch zur Kühlung eingesetzt werden"
+      ],
+      "urls": [
+        "https://www.nzz.ch/der-andere-blick/die-legende-vom-stillstand-der-franzoesischen-atomkraftwerke-ld.10015071",
+        "https://www.nzz.ch/international/zehn-wochen-vor-der-berlin-wahl-kai-wegner-zieht-seine-kandidatur-zurueck-ld.10015037",
+        "https://www.nzz.ch/schweiz/atomkraft-oder-solarstrom-wer-braucht-mehr-staat-ld.10014706",
+        "https://www.nzz.ch/schweiz/in-liechtenstein-sollen-waermepumpen-kuenftig-auch-zur-kuehlung-eingesetzt-werden-ld.10013997"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 27,
+      "article_count": 26,
       "sample_titles": [
         "Klimaziel für Deutschland: Industrie und Gewerkschaft dringen auf neues Klimaziel",
         "Neues Regeln für Heizungen: Was sich durch das neue Gebäudemodernisierungsgesetz verändert",
@@ -397,39 +430,6 @@
         {
           "emotion": "excitement",
           "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 25,
-      "sample_titles": [
-        "Zehn Wochen vor der Berlin-Wahl: Kai Wegner zieht seine Kandidatur zurück",
-        "Atomkraft oder Solarstrom: Wer braucht mehr Subventionen?",
-        "In Liechtenstein sollen Wärmepumpen künftig auch zur Kühlung eingesetzt werden",
-        "Neue ETH-Studie: Ohne Subventionen und Garantien des Staates ergeben neue AKW wirtschaftlich keinen Sinn"
-      ],
-      "urls": [
-        "https://www.nzz.ch/international/zehn-wochen-vor-der-berlin-wahl-kai-wegner-zieht-seine-kandidatur-zurueck-ld.10015037",
-        "https://www.nzz.ch/schweiz/atomkraft-oder-solarstrom-wer-braucht-mehr-staat-ld.10014706",
-        "https://www.nzz.ch/schweiz/in-liechtenstein-sollen-waermepumpen-kuenftig-auch-zur-kuehlung-eingesetzt-werden-ld.10013997",
-        "https://www.nzz.ch/schweiz/neue-eth-studie-ohne-subventionen-und-garantien-des-staates-ergeben-neue-akw-wirtschaftlich-keinen-sinn-ld.10013135"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
         }
       ]
     },
@@ -578,24 +578,24 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 126,
-    "left-liberal": 158,
+    "left-liberal": 159,
+    "right-conservative": 123,
+    "economic-liberal": 73,
+    "neutral": 123,
+    "conservative-liberal": 136,
     "left": 67,
-    "neutral": 124,
     "far-right": 103,
-    "populist-mixed": 16,
-    "economic-liberal": 69,
-    "conservative-liberal": 137
+    "populist-mixed": 16
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg betont, dass die aktuelle Reform des Heizungsgesetzes die Kosten für private Haushalte deutlich erhöhen und damit die Akzeptanz der Energiewende gefährden könnte. Gleichzeitig besteht ein breiter Konsens darüber, dass der Ausbau der Stromnetze und die Sicherstellung einer zuverlässigen Energieversorgung zentrale Voraussetzungen für den Ausstieg aus Kohle und Atomkraft sind. Schließlich wird in nahezu allen Berichten kritisiert, dass bürokratische Hürden und langsame Förderungs- und Genehmigungsverfahren den schnellen Ausbau von Wind- und Solarenergie sowie von Wärmepumpen behindern.",
-      "controversial_points": "Der Streit um den Energiemix spaltet Befürworter von Kernenergie von Befürwortern erneuerbarer Quellen. Die Kostenfrage verbindet Industrie, Verbraucher und Politik, weil Förderungen und Strompreise stark variieren. Das Heizungsgesetz erzeugt Konflikte zwischen Klimaschutzforderungen, sozialer Verträglichkeit und Lobbyinteressen der Heizungsbranche. Die Debatte um Kohle- und Wasserstoffausstieg verknüpft regionale Arbeitsplätze, Energiesicherheit und internationale Wettbewerbsfähigkeit."
+      "shared_perspectives": "Alle Lager betonen, dass das neue Heizungsgesetz zu erheblichen Mehrkosten für private Haushalte führt und damit die Akzeptanz der Energiewende gefährdet. Gleichzeitig wird in nahezu allen Beiträgen die unzureichende Netzinfrastruktur als zentrales Hindernis für den Ausbau von Wind- und Solarenergie hervorgehoben, unabhängig von der politischen Ausrichtung. Darüber hinaus zeigen sowohl Wirtschaftsvertreter als auch Umweltorganisationen eine wachsende Skepsis gegenüber dem festgelegten Klimaneutralitätsziel 2050 und fordern eine realistischere Frist.",
+      "controversial_points": "Der Streit um den Energiemix spaltet Befürworter erneuerbarer Energien und Vertreter fossiler bzw. nuklearer Versorgung. Klimazielverschiebungen werden von Industrie und konservativen Parteien als Wettbewerbsnachteil und von Grünen als Klimaverzicht kritisiert. Das Heizungsgesetz löst Konflikte zwischen Mietern, Bauherren und Förderpolitik aus, weil Kosten und Umsetzungsfristen stark variieren. Regionale Widerstände gegen Wind- und Solarprojekte verbinden Umweltbedenken, Landschaftsschutz und lokale Wirtschaftserwartungen zu einem politischen Blockadefeld."
     },
     "en": {
-      "shared_perspectives": "German media from all sides agree that the new heating law will sharply cut subsidies for heat pumps, raising costs for households and sparking backlash from industry and consumer groups. They also converge on the assessment that an urgent expansion of the electricity grid is essential to accommodate the rapid growth of wind and solar, and that the current renewable-subsidy regime (EEG) needs reform to keep deployment cost-effective. Finally, despite divergent visions for the overall energy mix, there is a broad consensus that nuclear power is financially unattractive and that the coal phase-out will continue, with political leaders publicly marking the end of hard-coal mining.",
-      "controversial_points": "Climate ambition clashes with economic competitiveness. Conservatives call for cheaper heating and slower renewables. Left parties demand faster decarbonisation and higher subsidies. The nuclear versus renewable debate splits parties over grid stability and costs. Regional wind opposition pits local land rights against national climate goals."
+      "shared_perspectives": "Across German media, from left-leaning to conservative outlets, there is a clear consensus that the rapid pace of the energy transition is generating significant cost pressures for both industry and households, leading to repeated calls to shift the climate-neutrality target from 2045 to 2050 or later. All sides stress that the current bottleneck in grid capacity and the abrupt cut-back of heat-pump subsidies threaten the rollout of renewable electricity and the decarbonisation of heating, underscoring the need for a coordinated infrastructure and funding plan. Moreover, despite divergent views on the exact energy mix, every editorial line agrees that securing a reliable domestic supply, especially during periods of low wind output and reduced foreign gas imports, is a prerequisite for any viable transition strategy.",
+      "controversial_points": "The deepest structural conflict pits climate urgency against economic competitiveness and industrial investment security. Left-liberal media frames climate targets as non-negotiable moral imperatives, while right-conservative and business outlets portray them as threatening Germany's industrial base and energy affordability. A second major tension divides technology preferences: left-green media embraces renewable expansion and heat pump mandates as inevitable, whereas conservative and far-right outlets question renewables' reliability and demand coal continuation or nuclear reactors. The heating law crystallizes this divide into a concrete battlefield where implementation timelines, subsidy levels, and state mandate scope expose fundamentally different visions of state authority and citizen freedom. Finally, a practical conflict emerges between Germany's supply security needs in the short term and its 2045 carbon neutrality target, with economic-liberal outlets seeking delay while climate-oriented media resists compromise."
     }
   },
-  "cached_at": "2026-07-11T06:45:23.410928"
+  "cached_at": "2026-07-12T06:49:40.633971"
 }
