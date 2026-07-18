@@ -1,39 +1,39 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 800,
-  "candidate_count": 800,
+  "article_count": 795,
+  "candidate_count": 795,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 107,
+      "article_count": 108,
       "sample_titles": [
-        "Fünf Jahre danach: Ahrweiler als Menetekel",
-        "Kommunale Wärmeplanung: Frankfurt verfehlt Stichtag",
-        "Gebäudemodernisierungsgesetz: Ein schlechtes Heizungsgesetz wird durch ein anderes schlechtes ersetzt",
-        "F.A.Z. Frühdenker: Wie radikal werden die Pläne zur VW-Sanierung?"
+        "Pflanzenkohle: Negative Emissionen sollen zum Klimaziel beitragen",
+        "Pflanzenkohle: Negative Emissionen sollen zum Klimaziel beitragen",
+        "Liveblog Ukrainekrieg: Russland wirft Ukraine Tötung von Akw-Chefingenieur vor",
+        "Wissenschaftler kritisieren: Das Netzentgelt verteilt von Arm zu Reich um"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/fuenf-jahre-nach-der-katastrophe-ahrweiler-als-menetekel-201027984.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/frankfurt-kommunale-waermeplanung-verfehlt-stichtag-accg-201015430.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/das-schlechte-heizungsgesetz-wird-durch-ein-anderes-schlechtes-ersetzt-201017883.html",
-        "https://www.faz.net/podcasts/f-a-z-podcast-fruehdenker/wie-radikal-werden-die-plaene-zur-vw-sanierung-faz-fruehdenker-201012041.html"
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/wie-die-eu-mit-negativen-emissionen-ihr-klimaziel-erreichen-will-accg-201034602.html",
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/negative-emissionen-wie-die-eu-ihr-klimaziel-erreichen-will-accg-201034602.html",
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-russland-wirft-ukraine-toetung-von-akw-chefingenieur-vor-faz-110683325.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kritik-an-bundesnetzagentur-stromnetzentgelt-reform-belastet-aermere-201030594.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 8
+          "count": 9
+        },
+        {
+          "emotion": "realization",
+          "count": 4
         },
         {
           "emotion": "disapproval",
           "count": 4
-        },
-        {
-          "emotion": "confusion",
-          "count": 3
         }
       ]
     },
@@ -41,28 +41,28 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 87,
+      "article_count": 89,
       "sample_titles": [
-        "Millionen fehlen: Sonnenbühler Windkraftpionier SOWITEC ist insolvent",
-        "Geothermie: Warmes Wasser einen Kilometer unter Potsdam",
-        "Das war der BW-Newsticker am Montagmorgen: Bundestagsabgeordneter Bareiß bei Unfall schwer verletzt, Bürger stimmen für neue Windräder in Heidelberg, Stromausfall in zwei Landkreisen",
-        "Tausende Einsprüche gegen neue Flächen für Windräder in Elbtal und Osterzgebirge"
+        "Wirtschaftsministerium entschärft EEG-Reform",
+        "Windpark Großenlüder vorerst gescheitert: Streit um die Gründe für das Aus",
+        "Kreuz Stuttgart: Schwertransport mit Windradflügel blockiert Überleitung auf A81",
+        "Das war der BW-Newsticker am Freitagmorgen: Schwere Gewitter über BW: Mann bei Unwetter von Baum erschlagen, Windradflügel blockiert A8-Überleitung am Kreuz Stuttgart, Innenminister will Schutzplan für BW ausarbeiten"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/sowitec-in-sonnenbuehl-ist-insolvent-100.html",
-        "https://www.rbb24.de/wirtschaft/beitrag/2026/07/brandenburg-potsdam-geothermie-waermeversorgung.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-07-13-100.html",
-        "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/planung-einwand-windrad,windkraft-oberes-elbtal-100.html"
+        "https://www.tagesschau.de/inland/innenpolitik/reiche-reform-erneuerbare-energien-gesetz-100.html",
+        "https://www.hessenschau.de/wirtschaft/windpark-grossenlueder-vorerst-gescheitert-streit-um-die-gruende-fuer-das-aus-v1,windpark-giseler-forst-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/windradfluegel-steckt-im-kreuz-stuttgart-a81-18-fest-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-07-17-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 7
         },
         {
-          "emotion": "curiosity",
-          "count": 6
+          "emotion": "optimism",
+          "count": 7
         },
         {
           "emotion": "approval",
@@ -74,31 +74,31 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 73,
+      "article_count": 74,
       "sample_titles": [
-        "Energiekrise: Deutschland schließt Gas-Pakt mit Algerien – aber zwei Minister streiten weiter",
-        "Energiekrise: Gas-Pakt mit Algerien – so will Berlin die Versorgung sichern",
-        "Insight Innovation: Alles auf Kernenergie – so will Frankreich Europas KI-Macht werden",
-        "Regulierung: Daimler-Truck-Chefin sieht Existenz der Branche in Europa bedroht"
+        "Energiewende: Nach monatelangen Verhandlungen: Reiche schwächt Kürzungspläne bei Erneuerbaren ab",
+        "Energiewende: Reiche schwächt Kürzungspläne bei Ökostrom-Förderung ab",
+        "Russland: „Angespannt wie seit dem Kalten Krieg nicht mehr“: So läuft Putins geheimer Krieg gegen Deutschland",
+        "Energiewende: Kann Wellenenergie der Windkraft in Europa Konkurrenz machen?"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/energiekrise-deutschland-schliesst-gas-pakt-mit-algerien/100239273.html",
-        "https://www.handelsblatt.com/politik/deutschland/energiekrise-gas-pakt-mit-algerien-so-will-berlin-die-versorgung-sichern/100239273.html",
-        "https://www.handelsblatt.com/technik/forschung-innovation/energie-wie-frankreich-mit-atomkraft-europas-ki-macht-werden-will/100230212.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/regulierung-daimler-truck-chefin-existenz-der-branche-in-europa-bedroht/100239612.html"
+        "https://www.handelsblatt.com/politik/deutschland/energiewende-reiche-schwaecht-kuerzungsplaene-bei-erneuerbaren-ab/100241133.html",
+        "https://www.handelsblatt.com/politik/deutschland/energiewende-reiche-schwaecht-kuerzungsplaene-bei-oekostrom-foerderung-ab/100241133.html",
+        "https://www.handelsblatt.com/politik/deutschland/russland-so-laeuft-putins-geheimer-krieg-gegen-deutschland/100239149.html",
+        "https://www.handelsblatt.com/unternehmen/energie/energie-kann-wellenenergie-der-windkraft-in-europa-konkurrenz-machen/100237378.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 13
+          "count": 12
         },
         {
-          "emotion": "curiosity",
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -107,32 +107,32 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 72,
+      "article_count": 70,
       "sample_titles": [
-        "Wie CDU/CSU die Bundesrepublik zum Stasi-Staat umbauen will – TE-Wecker am 15. Juli 2026",
-        "Von wegen Sanktionen: EU-Länder kaufen Rekordmenge an russischem LNG",
-        "Die Befüllung der deutschen Gasspeicher bis zur Heizsaison wird schwierig",
-        "Windräder als Heidelberger Stadtsilhouette"
+        "Spahns Babyglück und die politische Doppelmoral – TE-Wecker am 17. Juli 2026",
+        "Brüsseler Würgegriff: Verbote, Verluste, Versorgungslücken – TE-Wecker am 16. Juli 2026",
+        "SoWiTec-Insolvenz: Palmers Windpark und die wirtschaftliche Realität",
+        "Wie CDU/CSU die Bundesrepublik zum Stasi-Staat umbauen will – TE-Wecker am 15. Juli 2026"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/podcast/wecker-am-15-juli-2026/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eu-laender-russisches-lng/",
-        "https://www.tichyseinblick.de/kolumnen/klima-durchblick/befuellung-gasspeicher-schwierig/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/windraeder-heidelberg/"
+        "https://www.tichyseinblick.de/podcast/wecker-am-17-juli-2026/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-16-juli-2026/",
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/sowitec-insolvenz-palmer-windpark-realitaet/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-15-juli-2026/"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
-        },
         {
           "emotion": "curiosity",
           "count": 6
         },
         {
+          "emotion": "optimism",
+          "count": 6
+        },
+        {
           "emotion": "disapproval",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -140,18 +140,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 66,
+      "article_count": 68,
       "sample_titles": [
-        "Deutlich mehr als im Vorjahr: Solaranlagen boomen in Deutschland",
-        "In der Hitzewelle: Drei Atomreaktoren in Frankreich heruntergefahren",
-        "Geschäft mit Wärmepumpen: Lobbycontrol kritisiert Habecks neuen Job bei dänischer Investmentfirma",
-        "Geschäft mit Wärmepumpen: Verein kritisiert Habecks neuen Job bei dänischer Investmentfirma"
+        "Coldplay-Konzerte als Ideengeber: Mega-Events: Anreisen des Publikums verursachen massenhaft Treibhausgase",
+        "Explosion nahe Straße von Hormus: Iranische Medien melden US-Angriffe auf Brücken",
+        "Moskau wirft Kiew Angriff vor: Chefingenieur des AKW Saporischschja offenbar tot",
+        "\"Trendwende im Heizungskeller\": Wärmepumpe liegt beim Heizungswechsel vorn"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Solaranlagen-boomen-in-Deutschland-id31082661.html",
-        "https://www.n-tv.de/wirtschaft/Drei-Atomreaktoren-in-Frankreich-heruntergefahren-id31077774.html",
-        "https://www.n-tv.de/politik/Lobbycontrol-kritisiert-Habecks-neuen-Job-bei-daenischer-Investmentfirma-id31076845.html",
-        "https://www.n-tv.de/politik/Verein-kritisiert-Habecks-neuen-Job-bei-daenischer-Investmentfirma-id31076845.html"
+        "https://www.n-tv.de/wissen/Mega-Events-Anreisen-des-Publikums-verursachen-massenhaft-Treibhausgase-id31095867.html",
+        "https://www.n-tv.de/politik/Iranische-Medien-melden-US-Angriffe-auf-Bruecken-id31095172.html",
+        "https://www.n-tv.de/politik/Chefingenieur-des-AKW-Saporischschja-offenbar-tot-id31090527.html",
+        "https://www.n-tv.de/wirtschaft/Waermepumpe-liegt-beim-Heizungswechsel-vorn-id31089814.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -161,10 +161,76 @@
         },
         {
           "emotion": "curiosity",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 62,
+      "sample_titles": [
+        "Reiche entschärft Kürzungen bei Förderung erneuerbarer Energien",
+        "„Man sollte die Abschaltung regelbarer, oft abgeschriebener Kraftwerke, sofort stoppen“",
+        "USA greifen Brücken und Flughafen im Süden des Iran an – Berichte über mindestens 7 Tote",
+        "Warum Deutschlands Klimaziele plötzlich ins Wanken geraten"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a5a7c9dc722326276499db7/energiepolitik-reiche-entschaerft-kuerzungen-bei-foerderung-erneuerbarer-energien.html",
+        "https://www.welt.de/wissenschaft/plus6a560fd49356b2f22385915b/kritik-an-energiewende-abschaltung-der-kraftwerke-sofort-stoppen.html",
+        "https://www.welt.de/politik/ausland/article6a59583a29b150f031b15902/sechste-nacht-in-folge-usa-greifen-bruecken-und-flughafen-im-sueden-des-iran-an-berichte-ueber-mindestens-7-tote.html",
+        "https://www.welt.de/wirtschaft/plus6a52000867eabcf09894925b/co-regeln-warum-deutschlands-klimaziele-ploetzlich-ins-wanken-geraten.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 60,
+      "sample_titles": [
+        "Katar: Wie Emir Hamad bin Khalifa Al Thani das Land reich gemacht hat",
+        "Klimaschutz: EU-Umbau des Emissionshandels soll Deindustrialisierung verhindern",
+        "AKW Saporischschja: Russland wirft Ukraine gezielte Tötung von Chefingenieur vor",
+        "Wärmepumpe laut IW-Statistik erstmals am häufigsten eingebaute Heizungsart"
+      ],
+      "urls": [
+        "https://www.spiegel.de/ausland/katar-wie-emir-hamad-bin-khalifa-al-thani-das-land-reich-gemacht-hat-a-be130148-c175-4fd2-b7da-a7f74b00a752#ref=rss",
+        "https://www.spiegel.de/wirtschaft/unternehmen/klimaschutz-eu-umbau-des-emissionshandels-soll-deindustrialisierung-verhindern-a-0e79636e-d714-4024-bc49-505e64eba73d#ref=rss",
+        "https://www.spiegel.de/ausland/akw-saporischschja-russland-wirft-ukraine-gezielte-toetung-von-chefingenieur-vor-a-5a98c4fa-c41d-4ab9-9721-18daa8c85f08#ref=rss",
+        "https://www.spiegel.de/wirtschaft/waermepumpe-laut-iw-statistik-erstmals-am-haeufigsten-eingebaute-heizungsart-a-c7d24876-372a-411e-9e74-96e541b02b88#ref=rss"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -173,7 +239,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 64,
+      "article_count": 60,
       "sample_titles": [
         "Konsequenzen aus der Ahrtal-Flut: Von einer Klimakatastrophe zur nächsten",
         "Anschläge auf Bahn und Stromnetz: Linksextremisten? Nur ein Verdacht",
@@ -197,74 +263,8 @@
           "count": 4
         },
         {
-          "emotion": "approval",
-          "count": 4
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 60,
-      "sample_titles": [
-        "Hamburg: Neues 24.000-Container-Schiff »Notre Dame« erstmals im Hamburger Hafen",
-        "Frankreich: Hitzewelle lässt Wald nahe Paris brennen und macht Herunterfahren von Atomreaktoren nötig",
-        "Gebäudemodernisierungsgesetz: Grüne melden verfassungsrechtliche Bedenken an",
-        "Heizungsgesetz: Desinformation wirkt"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/hamburg-neues-24-000-container-schiff-notre-dame-laeuft-erstmals-hamburger-hafen-an-a-3901b5fd-7453-4fee-95f6-8b700eda9da5#ref=rss",
-        "https://www.spiegel.de/panorama/frankreich-hitzewelle-laesst-wald-nahe-paris-brennen-und-macht-herunterfahren-von-atomreaktoren-noetig-a-fa111831-c376-41e2-bf3f-729da6fe4257#ref=rss",
-        "https://www.spiegel.de/wirtschaft/gebaeudemodernisierungsgesetz-gruene-melden-verfassungsrechtliche-bedenken-an-a-a66b3c2b-471e-4456-8f36-ea5faa1196e3#ref=rss",
-        "https://www.spiegel.de/wissenschaft/technik/heizungsgesetz-desinformation-wirkt-a-bf4c2625-e598-4a4f-9e67-811e20bfc798#ref=rss"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
+          "emotion": "realization",
           "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 3
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 59,
-      "sample_titles": [
-        "Die neue Karriere des Klima-Ruinators als Gentrifizator",
-        "Rekordschiff „Notre Dame“ setzt auf LNG und Biomethan – ein Blick in die Zukunft",
-        "Die Götterdämmerung bei der Wärmewende",
-        "148 Prozent in einem Jahr – mit diesen ETFs spielen Sie die Megatrends der Börse"
-      ],
-      "urls": [
-        "https://www.welt.de/kultur/stuetzen-der-gesellschaft/plus6a55c99886a2f0846eaafd18/habeck-ante-portas-die-neue-karriere-des-klima-ruinators-als-gentrifizator.html",
-        "https://www.welt.de/regionales/hamburg/article6a54b050fa6efd2265aa6732/mega-containerschiff-rekordschiff-notre-dame-setzt-auf-lng-und-biomethan-ein-blick-in-die-zukunft.html",
-        "https://www.welt.de/wirtschaft/plus6a535ef436e98236c4bc5fa8/waermepumpe-abschied-vom-absurd-teuren-klimamoralismus.html",
-        "https://www.welt.de/finanzen/plus6a50af18c13a557858aa086b/speicher-space-uran-mit-diesen-etfs-spielen-sie-die-megatrends-der-boerse.html"
-      ],
-      "dominant_emotion": "disgust",
-      "top_emotions": [
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
         }
       ]
     },
@@ -272,18 +272,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 44,
+      "article_count": 42,
       "sample_titles": [
+        "Ukraine-Krieg: Rosatom: Drohne tötet Chefingenieur des AKW Saporischschja",
         "Rufe nach Aufschub der Klimaneutralität Deutschlands um fünf Jahre",
         "Zum zweiten Mal in fünf Tagen: Neuer landesweiter Stromausfall in Kuba",
-        "Ökostrom: Erneuerbare Energien: Netzanschlüsse gefragt wie noch nie",
-        "Monopolkommission kritisiert „Labyrinth“ bei Stromhilfen - und sieht KI-Defizite"
+        "Ökostrom: Erneuerbare Energien: Netzanschlüsse gefragt wie noch nie"
       ],
       "urls": [
+        "https://www.stern.de/politik/ausland/ukraine-krieg--rosatom--drohne-toetet-chefingenieur-des-akw-saporischschja-37970044.html",
         "https://www.stern.de/news/rufe-nach-aufschub-der-klimaneutralitaet-deutschlands-um-fuenf-jahre-37950428.html",
         "https://www.stern.de/news/zum-zweiten-mal-in-fuenf-tagen--neuer-landesweiter-stromausfall-in-kuba-37950616.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/oekostrom--erneuerbare-energien--netzanschluesse-gefragt-wie-noch-nie-37949010.html",
-        "https://www.stern.de/news/monopolkommission-kritisiert--labyrinth--bei-stromhilfen---und-sieht-ki-defizite-37944412.html"
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/oekostrom--erneuerbare-energien--netzanschluesse-gefragt-wie-noch-nie-37949010.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -305,18 +305,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 32,
+      "article_count": 31,
       "sample_titles": [
+        "Selbst entwickelter Wasserstoffzug in Indien",
         "Neues \"Heizungsgesetz\": Was sich jetzt ändern soll",
         "Debatte zum neuen Heizungsgesetz",
-        "Klimafreundliches Heizen: Regierung will Hilfen kappen",
-        "Wie anfällig sind Kernkraftwerke im Hitzestress?"
+        "Klimafreundliches Heizen: Regierung will Hilfen kappen"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/zdfheute-xpress/indien-wasserstoffzug-einweihung-video-100.html",
         "https://www.zdfheute.de/politik/deutschland/heizungsgesetz-bundestag-aenderungen-oel-gas-mieter-100.html",
         "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5217012",
-        "https://www.zdfheute.de/politik/deutschland/heizungsfoerderung-kuerzung-regierungsplan-100.html",
-        "https://www.zdfheute.de/wissen/hitze-atomkraft-kraftwerk-atomenergie-100.html"
+        "https://www.zdfheute.de/politik/deutschland/heizungsfoerderung-kuerzung-regierungsplan-100.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -338,18 +338,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 30,
+      "article_count": 27,
       "sample_titles": [
+        "Krieg in der Ukraine: Russland meldet Tod des Saporischschja-Chefingenieurs",
         "Dietmar Woidke im Interview: Ein Vorschlag aus Brandenburg, der Markus Söder nicht gefallen wird",
         "Stromnetze: Wo die Energiewende hakt – und wie sie wieder in Schwung kommt",
-        "Klimapolitik: Drei Dinge, die sich vom Heizungsgesetz lernen lassen",
-        "Elternkolumne „Die Erziehungsberechtigten“: Heiße Luft aus Berlin"
+        "Klimapolitik: Drei Dinge, die sich vom Heizungsgesetz lernen lassen"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-saporischschja-russland-li.3512468",
         "https://www.sueddeutsche.de/politik/brandenburg-energiepreise-arbeitsplaetze-strukturwandel-woidke-li.3511395",
         "https://www.sueddeutsche.de/projekte/artikel/wissen/energiewende-katherina-reiche-redispatch-erneuerbare-energien-eeg-netzpaket-gaskraftwerke-e431074/",
-        "https://www.sueddeutsche.de/wirtschaft/heizungsgesetz-deutschland-aenderungen-folgen-klimaschutz-li.3513439",
-        "https://www.sueddeutsche.de/leben/elterngeld-waermepumpe-die-erziehungsberechtigten-li.3509430"
+        "https://www.sueddeutsche.de/wirtschaft/heizungsgesetz-deutschland-aenderungen-folgen-klimaschutz-li.3513439"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -373,16 +373,16 @@
       "bias": "left-liberal",
       "article_count": 25,
       "sample_titles": [
+        "Klimapolitik: Wadephul drängt auf Ausbau erneuerbarer Energien",
         "Solarenergie in der EU: Neuer Solarstromrekord in Deutschland im Mai und Juni",
         "Klimaziel für Deutschland: Industrie und Gewerkschaft dringen auf neues Klimaziel",
-        "Neues Regeln für Heizungen: Was sich durch das neue Gebäudemodernisierungsgesetz verändert",
-        "Heizungsgesetz: Abstimmung im Bundestag: Was sich beim Heizen jetzt ändert"
+        "Neues Regeln für Heizungen: Was sich durch das neue Gebäudemodernisierungsgesetz verändert"
       ],
       "urls": [
+        "https://www.zeit.de/wirtschaft/2026-07/klimapolitik-union-johann-wadephul-strasse-von-hormus-energie",
         "https://www.zeit.de/wirtschaft/2026-07/solarenergie-eu-strom-quellen-rekord",
         "https://www.zeit.de/wirtschaft/2026-07/klimaneutralitaet-deutschland-2045-2050-industrie-eu-emissionshandel",
-        "https://www.zeit.de/politik/deutschland/2026-07/neue-regeln-fuer-heizungen-was-aendert-sich-neues-heizungsgesetz-oel-gas-waermepumpe",
-        "https://www.zeit.de/news/2026-07/10/abstimmung-im-bundestag-was-sich-beim-heizen-jetzt-aendert"
+        "https://www.zeit.de/politik/deutschland/2026-07/neue-regeln-fuer-heizungen-was-aendert-sich-neues-heizungsgesetz-oel-gas-waermepumpe"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -404,24 +404,24 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 25,
+      "article_count": 24,
       "sample_titles": [
+        "Hoher CO2-Preis: Die EU schlägt Änderungen vor, trotzdem sprechen die Firmen von brutalem «Industrieabbau»",
         "DER ANDERE BLICK MIT DATEN - Die Legende vom Stillstand der französischen Atomkraftwerke: In der Hitze schwächelten vor allem Windräder",
         "Zehn Wochen vor der Berlin-Wahl: Kai Wegner zieht seine Kandidatur zurück",
-        "Atomkraft oder Solarstrom: Wer braucht mehr Subventionen?",
-        "In Liechtenstein sollen Wärmepumpen künftig auch zur Kühlung eingesetzt werden"
+        "Atomkraft oder Solarstrom: Wer braucht mehr Subventionen?"
       ],
       "urls": [
+        "https://www.nzz.ch/wirtschaft/hoher-co2-preis-die-eu-schlaegt-aenderungen-vor-trotzdem-sprechen-die-firmen-von-brutalem-industrieabbau-ld.10015876",
         "https://www.nzz.ch/der-andere-blick/die-legende-vom-stillstand-der-franzoesischen-atomkraftwerke-ld.10015071",
         "https://www.nzz.ch/international/zehn-wochen-vor-der-berlin-wahl-kai-wegner-zieht-seine-kandidatur-zurueck-ld.10015037",
-        "https://www.nzz.ch/schweiz/atomkraft-oder-solarstrom-wer-braucht-mehr-staat-ld.10014706",
-        "https://www.nzz.ch/schweiz/in-liechtenstein-sollen-waermepumpen-kuenftig-auch-zur-kuehlung-eingesetzt-werden-ld.10013997"
+        "https://www.nzz.ch/schweiz/atomkraft-oder-solarstrom-wer-braucht-mehr-staat-ld.10014706"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "approval",
@@ -437,18 +437,18 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 16,
+      "article_count": 17,
       "sample_titles": [
+        "Der Tod eines Kernkraftwerks",
+        "Südeuropa Blackout: EU definiert Ursachen weg",
         "Woher kommt der Strom? 27. Analysewoche 2026 – Energiewende absurd",
-        "Das Energiewende-Desaster als Endlosschleife",
-        "Das deutsche Gas-Harakiri",
-        "Windräder – Je „dünner“ die Energie, desto größer Material- und Landschaftsverbrauch"
+        "Das Energiewende-Desaster als Endlosschleife"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/der_tod_eines_kernkraftwerks_",
+        "https://www.achgut.com/artikel/suedeuropa_blackout_eu_definiert_ursachen_weg",
         "https://www.achgut.com/artikel/copy_woher_kommt_der_strom_27_analysewoche_2026_energiewende_absurd",
-        "https://www.achgut.com/artikel/das_energiewende_desaster_als_endlosschleife",
-        "https://www.achgut.com/artikel/das_deutsche_gas_harakiri",
-        "https://www.achgut.com/artikel/windraeder_je_duenner_die_energie_desto_groesser_material_und_landschaftsverbrauch"
+        "https://www.achgut.com/artikel/das_energiewende_desaster_als_endlosschleife"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -461,8 +461,8 @@
           "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "annoyance",
+          "count": 1
         }
       ]
     },
@@ -501,16 +501,16 @@
       "bias": "populist-mixed",
       "article_count": 15,
       "sample_titles": [
+        "AKW-Chefingenieur getötet - Mordanschlag am Atomkraftwerk?",
         "Nach Eilverfahren - Bundestag beschließt neues Heizungsgesetz",
         "Anschlag auf Berliner Stromnetz - Kai Wegners „8-Uhr-8-Lüge“",
-        "Neuer Heiz-Hammer - So viel weniger Zuschuss gibt’s für die Wärmepumpe",
-        "Feuerball in Indien - Explosion verschlingt Mautstation"
+        "Neuer Heiz-Hammer - So viel weniger Zuschuss gibt’s für die Wärmepumpe"
       ],
       "urls": [
+        "https://www.bild.de/politik/ausland-und-internationales/akw-chefingenieur-getoetet-mordanschlag-am-atomkraftwerk-saporischschja-6a58103c68b3d6515268a274",
         "https://www.bild.de/politik/nach-eilverfahren-bundestag-beschliesst-neues-heizungsgesetz-6a50de3f1aef3ee5864806a4",
         "https://www.bild.de/politik/anschlag-auf-berliner-stromnetz-kai-wegners-8-uhr-8-luege-6a4e211b43b7fd5185001ee6",
-        "https://www.bild.de/politik/inland/neuer-heiz-hammer-so-viel-weniger-zuschuss-gibts-fuer-die-waermepumpe-6a4d0230cc64e7e4fc39af28",
-        "https://www.bild.de/news/explosion-in-indien-tanklaster-mit-fluessiggas-rast-in-mautstation-6a4b9b1d1cbe5f3a786a8849"
+        "https://www.bild.de/politik/inland/neuer-heiz-hammer-so-viel-weniger-zuschuss-gibts-fuer-die-waermepumpe-6a4d0230cc64e7e4fc39af28"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -532,7 +532,7 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 6,
+      "article_count": 4,
       "sample_titles": [
         "Letzter Atommüll aus britischem Sellafield in Deutschland",
         "Ukraine-Krieg: Drohneneinschlag in AKW - IAEA ist alarmiert",
@@ -578,24 +578,24 @@
     }
   },
   "bias_distribution": {
-    "far-right": 104,
+    "right-conservative": 130,
+    "economic-liberal": 74,
+    "left-liberal": 154,
+    "neutral": 124,
     "conservative-liberal": 135,
-    "neutral": 125,
-    "right-conservative": 125,
-    "left": 64,
-    "left-liberal": 159,
-    "economic-liberal": 73,
-    "populist-mixed": 15
+    "far-right": 103,
+    "populist-mixed": 15,
+    "left": 60
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im gesamten Diskurs wird die steigende Strompreisentwicklung als zentrales Problem benannt, das die Akzeptanz der Energiewende gefährdet und gleichzeitig die Versorgungssicherheit in den Fokus rückt. Fast alle Berichterstattungen kritisieren die langsame Umsetzung von Ausbauprojekten für Wind und Solar sowie die komplexen Genehmigungsverfahren, die den geplanten Ausbau verzögern. Zudem besteht ein breiter Konsens darüber, dass das aktuelle Tempo nicht ausreicht, um die Klimaziele zu erreichen, weshalb sowohl Befürworter erneuerbarer Energien als auch Vertreter traditioneller Technologien über eine stärkere Diversifizierung des Energiemixes diskutieren.",
-      "controversial_points": "Der Streit um den Energiemix spaltet Befürworter von Kernenergie und Befürworter erneuerbarer Quellen. Die Frage nach Strompreisen verbindet soziale Gerechtigkeit mit Wirtschaftsliberalismus und führt zu Konflikten zwischen Verbrauchern und Industrie. Das Heizungsgesetz erzeugt Spannungen zwischen Umweltverbänden, die Klimaziele fordern, und konservativen Parteien, die Kosten kritisieren. Die Abhängigkeit von russischem Gas und LNG wird von rechten Medien als Sicherheitsrisiko dargestellt, während liberale Stimmen auf Marktdiversifizierung setzen."
+      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung betonen fast alle deutschen Medien, dass die Reduzierung von Förderungen für erneuerbare Energien die Preisentwicklung für Strom beschleunigt und damit die Versorgungssicherheit gefährdet, weil die geplanten Ausbauziele nicht mehr zuverlässig finanziert werden können. Gleichzeitig wird in den meisten Beiträgen die Notwendigkeit einer stabilen Übergangs- und Backup-Kapazität hervorgehoben, weil der beschleunigte Atomausstieg und der Kohleausstieg ohne ausreichende Ersatzenergie zu Netzengpässen führen könnten. Schließlich wird in nahezu allen Diskursen die steigende Belastung der Industrie durch den hohen EU-CO₂-Preis genannt, wobei sowohl konservative als auch liberale und linke Stimmen vor einem möglichen Wettbewerbsnachteil und einer Deindustrialisierung warnen.",
+      "controversial_points": "Der Streit um die Förderhöhe für erneuerbare Energien spaltet konservative und liberale Medien zwischen Subventionsabbau und Klimaziel-Dringlichkeit. Der Atomausstieg wird von rechten Stimmen als Sicherheitsrisiko dargestellt, während linke Akteure den Kohleausstieg fordern. Preissteigerungen beim Strom erzeugen Konflikte zwischen Verbraucherfrust und Industrieangst vor Wettbewerbsverlusten. Die Debatte um Wasserstoff und Netzentgelte verbindet technologische Hoffnungen mit Kritik an sozialer Ungerechtigkeit."
     },
     "en": {
-      "shared_perspectives": "German media, from far-right to left-liberal, uniformly stress that the current energy transition is straining electricity prices and supply security, prompting repeated calls for a more diversified mix that reintroduces stable baseload options such as nuclear or gas alongside renewables. At the same time, there is broad consensus that the newly passed heating and building modernisation legislation is widely regarded as either ineffective or overly burdensome, and that the 2050 climate neutrality target is increasingly seen as unrealistic, leading many outlets to demand a concrete timetable adjustment.",
-      "controversial_points": "The debate pits market-driven deregulation against state-led subsidies for renewables. A clash exists between rapid coal and nuclear phase-out and concerns over energy security. Regional opposition to wind farms conflicts with national climate targets and grid expansion plans. Social equity disputes arise over heating subsidies versus rising electricity prices for households."
+      "shared_perspectives": "Across the spectrum German outlets agree that the expansion of renewable capacity must be coupled with measures to curb the surge in electricity prices for households, prompting a consensus on revising subsidy schemes without abandoning the overall expansion goal. They also converge on the view that a secure energy supply in the near term requires retaining a limited share of fossil-gas or nuclear generation while the coal phase-out proceeds, and that emerging technologies such as hydrogen are seen as essential to bridge the gap to carbon neutrality. Finally, there is a shared emphasis on the need for a transparent, cost-effective financing model for the heating and building sector, reflecting broad political support for a reformed heating law that balances climate ambition with affordability.",
+      "controversial_points": "The core conflict pits market-driven liberalism against state-led climate ambition. Conservatives demand preserving existing fossil and nuclear capacity for energy security. Left and green forces push rapid renewable expansion and strict emissions targets, fearing social injustice from price hikes. The EU carbon-price debate creates a divide between industry protection arguments and climate-justice narratives."
     }
   },
-  "cached_at": "2026-07-15T06:34:50.855240"
+  "cached_at": "2026-07-18T06:29:47.356862"
 }

@@ -1,25 +1,25 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 263,
+  "article_count": 273,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 64,
+      "article_count": 63,
       "sample_titles": [
-        "Sparkurs nach Hochschulpakt: Uni Frankfurt bietet weniger Studienplätze an",
-        "Experte: Ja zum \"Rennsteiglied\" in der Schule, nein zum Lehrplan-Eingriff",
-        "Landau will Kitas und Grundschulen besser vor Hitze schützen",
-        "Jugendämter bezahlen für Privatschule in Willich"
+        "Blaulicht im Schulhof: Wie ein Aktionstag Schüler auf Katastrophen vorbereitet",
+        "Einser-Schwemme im Thüringer Abi: Woran liegt's?",
+        "Wie eine Teilzeitausbildung den Berufseinstieg erleichtern kann",
+        "Abschluss mit Anschluss: Wie eine Gemeinschaftsschule fast alle Schüler in Ausbildung bringt"
       ],
       "urls": [
-        "https://www.hessenschau.de/gesellschaft/sparkurs-nach-hochschulpakt-uni-frankfurt-bietet-weniger-studienplaetze-an-v1,weniger-studienplaetze-frankfurt-100.html",
-        "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/weimar/rennsteig-lied-schule-musik-lehrplan-bildung,oberlaender-rennsteiglied-kultur-news-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/landau-will-kitas-und-grundschulen-gegen-hitze-wappnen-sondervermoegen-100.html",
-        "https://www1.wdr.de/politik/politik-in-nrw/privatschule-carpe-diem-jugendamt-nrw-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/katastrophenschutz-aktionstag-schule-weissacher-tal-100.html",
+        "https://www.mdr.de/nachrichten/thueringen/abiturienten,abi-in-thueringen-warum-haben-schueler-so-viele-einser-100.html",
+        "https://www.butenunbinnen.de/nachrichten/teilzeit-ausbildung-bremen-bremerhaven-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/vom-abschluss-zur-ausbildung-schule-in-gemmingen-mit-erfolgskonzept-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -32,7 +32,7 @@
           "count": 3
         },
         {
-          "emotion": "approval",
+          "emotion": "curiosity",
           "count": 2
         }
       ]
@@ -41,31 +41,31 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 39,
+      "article_count": 41,
       "sample_titles": [
-        "Aus finanziellen Gründen: Uni Frankfurt bietet weniger Studienplätze an",
-        "Ultimatum verstrichen: Polizei räumt besetztes Uni-Gebäude in Gießen",
-        "Künstliche Intelligenz: KI macht das Informatikstudium wichtiger",
-        "Stefan Evers im Interview: „Ich halte nichts von Kostenlos-Politik für Gutverdiener“"
+        "F.A.Z. Podcast Wissen: Warum versagen Studenten, wenn man ihnen den Chatbot nimmt?",
+        "Wandel in der Bildung: Warum ein Informatikstudium im KI-Zeitalter wichtiger wird",
+        "Wegen Kürzungen: Weniger Studienplätze an der Goethe-Uni",
+        "„Patriotische Kulturpolitik“: AfD will neues Bildungssystem in Sachsen-Anhalt"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/finanzielle-gruende-goethe-universitaet-frankfurt-bietet-weniger-studienplaetze-an-accg-201028942.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/giessen-polizei-raeumt-besetztes-uni-gebaeude-accg-201027456.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/hoersaal/warum-informatikstudium-trotz-ki-wichtiger-wird-accg-200898601.html",
-        "https://www.faz.net/aktuell/politik/inland/stefan-evers-cdu-spitzenkandidat-fuer-berlin-im-interview-accg-201021646.html"
+        "https://www.faz.net/podcasts/f-a-z-wissen-der-podcast/betrug-an-der-uni-wenn-studenten-ohne-chatgpt-versagen-201041122.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/ki-und-studium-worauf-es-in-der-informatik-kuenftig-ankommt-accg-201025120.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt-goethe-universitaet-streicht-455-studienplaetze-201028247.html",
+        "https://www.faz.net/video/afd-will-neues-bildungssystem-in-sachsen-anhalt-201033836.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "realization",
       "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 4
+        },
         {
           "emotion": "admiration",
           "count": 3
         },
         {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
           "count": 3
         }
       ]
@@ -74,18 +74,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 34,
+      "article_count": 36,
       "sample_titles": [
-        "Ausbildungsmarkt: Wo Lehrstellen in Thüringen noch gute Chancen bieten",
-        "Ultimatum abgelaufen: Polizei räumt besetztes Uni-Gebäude in Gießen",
-        "Verteidigung: Diese Hochschulen in Hessen halten an Zivilklausel fest",
-        "Verteidigung: Zivilklausel an Uni Kassel: Streit um Forschung für Militär"
+        "Sprachkompetenz: NRW führt „ABC-Klassen“ für Sprachförderung ein",
+        "Quereinsteiger: Sieben gut bezahlte Jobs für Quereinsteiger",
+        "Schulen: Bildungsministerin: Es liegt nicht nur an der Klassengröße",
+        "Ausbildungsmarkt: Wo Lehrstellen in Thüringen noch gute Chancen bieten"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/thueringen/ausbildungsmarkt--wo-lehrstellen-in-thueringen-noch-gute-chancen-bieten-37966456.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/ultimatum-abgelaufen--polizei-raeumt-besetztes-uni-gebaeude-in-giessen-37962454.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/verteidigung--diese-hochschulen-in-hessen-halten-an-zivilklausel-fest-37962128.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/verteidigung--zivilklausel-an-uni-kassel--streit-um-forschung-fuer-militaer-37962068.html"
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/sprachkompetenz--nrw-fuehrt--abc-klassen--fuer-sprachfoerderung-ein-37975736.html",
+        "https://www.stern.de/capital/sieben-gut-bezahlte-jobs-fuer-quereinsteiger-37406208.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/schulen--bildungsministerin--es-liegt-nicht-nur-an-der-klassengroesse-37970766.html",
+        "https://www.stern.de/gesellschaft/regional/thueringen/ausbildungsmarkt--wo-lehrstellen-in-thueringen-noch-gute-chancen-bieten-37966456.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -98,8 +98,41 @@
           "count": 3
         },
         {
+          "emotion": "annoyance",
+          "count": 3
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 25,
+      "sample_titles": [
+        "„Da sind wir bei Klassenarbeiten auf Arabisch“ – FDP löst Eklat um Sprache in der Schule aus",
+        "„Antisemitischer Tiefpunkt“ – Studentenparlament der Humboldt-Uni fordert Israel-Boykott",
+        "„Ich spreche schon ganz gut Deutsch, meine Eltern lernen noch“",
+        "„Ein völlig unfairer Prozess“ – Das sagt Lehmann zum belgischen Torwartdrama"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a5907d929b150f031b15524/landtag-nordrhein-westfalen-da-sind-wir-bei-klassenarbeiten-auf-arabisch-fdp-loest-eklat-um-sprache-in-der-schule-aus.html",
+        "https://www.welt.de/politik/deutschland/article6a54edc6580feb522ba9a99c/antrag-an-universitaetsleitung-antisemitischer-tiefpunkt-studentenparlament-der-humboldt-uni-fordert-israel-boykott.html",
+        "https://www.welt.de/politik/deutschland/plus6a50dc0036e98236c4bc4063/deutsch-lernen-ich-spreche-schon-ganz-gut-deutsch-meine-eltern-lernen-noch.html",
+        "https://www.welt.de/sport/fussball/wm/video6a52011f67eabcf098949284/welt-am-ball-wm-spezial-ein-voellig-unfairer-prozess-das-sagt-lehmann-zum-belgischen-torwartdrama.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
           "emotion": "approval",
-          "count": 2
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
         }
       ]
     },
@@ -109,62 +142,29 @@
       "bias": "left-liberal",
       "article_count": 21,
       "sample_titles": [
+        "Kolonialismus: Uni Freiburg gibt Menschenknochen an Kamerun zurück",
         "Abitur: Gibt es eine Noteninflation und wenn ja, wie schlimm ist das?",
-        "Schongau in Bayern: Mutmaßlicher Täter der Gewalttat an Gymnasium sitzt in Untersuchungshaft",
-        "Schongau in Bayern: 19-seitiges Hassdokument nach Gewalttat aufgetaucht",
-        "Befristungen zum Berufseinstieg: Was bedeutet das Vorhaben der Bundesregierung? (Newsletter)"
+        "Autobahnen: Ein Tempolimit würde jedes Jahr 90 Menschen das Leben retten",
+        "Geopolitik: »China hat Russland genau dort, wo es Russland haben möchte«"
       ],
       "urls": [
+        "https://www.spiegel.de/panorama/kolonialismus-uni-freiburg-gibt-menschenknochen-an-kamerun-zurueck-a-a23626e2-1458-4261-96ec-259cc59003ac#ref=rss",
         "https://www.spiegel.de/panorama/bildung/abitur-gibt-es-eine-noteninflation-und-wenn-ja-wie-schlimm-ist-das-a-160ec868-766c-4edd-aca2-afdd46395097#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/schongau-in-bayern-mutmasslicher-taeter-der-gewalttat-an-gymnasium-sitzt-in-untersuchungshaft-a-e4ea2fce-04c9-4a49-b035-91cebbc25911#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/schongau-in-bayern-19-seitiges-hassdokument-nach-gewalttat-aufgetaucht-a-2368b670-8471-48e5-afc6-d1e92d70e602#ref=rss",
-        "https://www.spiegel.de/start/befristungen-zum-berufseinstieg-was-bedeutet-das-vorhaben-der-bundesregierung-newsletter-a-776680b0-bfda-405c-b4fd-49e7b521ddee#ref=rss"
+        "https://www.spiegel.de/mobilitaet/auto/autobahnen-ein-tempolimit-wuerde-jedes-jahr-90-menschen-das-leben-retten-a-ba370e4d-acf5-4c76-a8a9-0c7e38484d6a#ref=rss",
+        "https://www.spiegel.de/ausland/china-hat-russland-genau-dort-wo-es-russland-haben-moechte-a-debe249c-7165-41ba-830d-0c36f0ad002c#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
         {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 20,
-      "sample_titles": [
-        "„Antisemitischer Tiefpunkt“ – Studentenparlament der Humboldt-Uni fordert Israel-Boykott",
-        "„Ich spreche schon ganz gut Deutsch, meine Eltern lernen noch“",
-        "„Fickt euch einfach nur alle!“ – Abiturientin hält Wutrede wegen Zuständen am Gymnasium",
-        "Wenn ein Elitejurist eine Brennpunktschule besucht"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article6a54edc6580feb522ba9a99c/antrag-an-universitaetsleitung-antisemitischer-tiefpunkt-studentenparlament-der-humboldt-uni-fordert-israel-boykott.html",
-        "https://www.welt.de/politik/deutschland/plus6a50dc0036e98236c4bc4063/deutsch-lernen-ich-spreche-schon-ganz-gut-deutsch-meine-eltern-lernen-noch.html",
-        "https://www.welt.de/videos/video6a4f9942a6db83ce8f124320/hohe-durchfallquote-fickt-euch-einfach-nur-alle-abiturientin-haelt-wutrede-wegen-zustaenden-am-gymnasium.html",
-        "https://www.welt.de/politik/plus6a43d2bec04ea97a4e502eab/75-jahre-bundesverfassungsgericht-wenn-ein-elitejurist-eine-brennpunktschule-besucht.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 2
-        },
-        {
-          "emotion": "anger",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -173,31 +173,31 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 15,
+      "article_count": 16,
       "sample_titles": [
+        "Wahlen in Sachsen-Anhalt: Rechter Kulturkampf im Kindergarten",
+        "Erinnern und Vergessen: Den richtigen Nerv treffen",
         "Schullektüre im Unterricht: Wolf statt Vorstadtkrokodile",
-        "CDUler spielt Verfassungsschutz: Professor fühlt sich wegen linker Posts unter Druck gesetzt",
-        "Gewalttat an Gymnasium in Schongau: Social Media allein ist nicht das Problem",
-        "Einigung von Schwarz-Rot: Bafög-Erhöhung kommt – aber erst später"
+        "CDUler spielt Verfassungsschutz: Professor fühlt sich wegen linker Posts unter Druck gesetzt"
       ],
       "urls": [
+        "https://taz.de/Wahlen-in-Sachsen-Anhalt/!6196479/",
+        "https://taz.de/Erinnern-und-Vergessen/!6191121/",
         "https://taz.de/Schullektuere-im-Unterricht/!6193727/",
-        "https://taz.de/CDUler-spielt-Verfassungsschutz/!6194179/",
-        "https://taz.de/Gewalttat-an-Gymnasium-in-Schongau/!6194732/",
-        "https://taz.de/Einigung-von-Schwarz-Rot/!6194831/"
+        "https://taz.de/CDUler-spielt-Verfassungsschutz/!6194179/"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
         {
           "emotion": "confusion",
           "count": 2
         },
         {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -208,29 +208,62 @@
       "bias": "left-liberal",
       "article_count": 14,
       "sample_titles": [
+        "Vor der Berlin-Wahl: Wahlkampf ums Schulessen: Wer soll das bezahlen?",
+        "Wohnen während des Studiums: Mehr als jeder vierte Studierende lebt bei den Eltern",
         "Verteidigung: Zivilklausel an Uni Kassel: Streit um Forschung für Militär",
-        "Amoktat in Schongau: Verdächtiger von Schongau war wohl vom Unterricht ausgeschlossen",
-        "Studienkredite in Deutschland: Nachfrage nach Studienkrediten steigt wieder",
-        "Künstliche Intelligenz im Studium: »Mitten im Text stand ›hier Titel der Bachelorarbeit einfügen‹«"
+        "Bestnote im Abitur: 900 Punkte-Abi - Aber was bringt der perfekte Schnitt?"
       ],
       "urls": [
+        "https://www.zeit.de/news/2026-07/17/cdu-stellt-kostenloses-schulessen-zur-diskussion",
+        "https://www.zeit.de/bildung/2026-07/wohnen-studium-eltern-mietwohnung-wg",
         "https://www.zeit.de/news/2026-07/14/zivilklausel-an-uni-kassel-streit-um-forschung-fuer-militaer",
-        "https://www.zeit.de/politik/deutschland/2026-07/amoktat-schongau-gymnasium-16-jaehriger-tatverdaechtiger",
-        "https://www.zeit.de/bildung/2026-07/studienkredite-deutschland-che-test-kfw-bildungskredit",
-        "https://www.zeit.de/campus/2026-07/kuenstliche-intelligenz-studium-abschlussarbeit-bachelor-campus"
+        "https://www.zeit.de/news/2026-07/11/900-punkte-abi-aber-was-bringt-der-perfekte-schnitt"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "excitement",
       "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 2
+        },
         {
           "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "surprise",
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 12,
+      "sample_titles": [
+        "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut",
+        "Satellitenbilder zeigen Aktivität: Teheran lässt offenbar Nuklearforschungsanlagen reparieren",
+        "Todesfälle in der Ausbildung: Skandal in Angriffsregiment - Selenskyj kündigt Reform an",
+        "Vom Vater ausgezeichnet: Spaniens Kronprinzessin Leonor beendet Militär-Ausbildung"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html",
+        "https://www.n-tv.de/politik/Teheran-laesst-offenbar-Nuklearforschungsanlagen-reparieren-id31074341.html",
+        "https://www.n-tv.de/politik/Skandal-in-Angriffsregiment-Selenskyj-kuendigt-Reform-an-id31073922.html",
+        "https://www.n-tv.de/leute/Spaniens-Kronprinzessin-Leonor-beendet-Militaer-Ausbildung-id31073273.html"
+      ],
+      "dominant_emotion": "pride",
+      "top_emotions": [
+        {
+          "emotion": "pride",
           "count": 1
         },
         {
-          "emotion": "excitement",
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -239,18 +272,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 13,
+      "article_count": 12,
       "sample_titles": [
         "Grund- und Mittelschule Tutzing: Planungsfehler verzögern und verteuern Modernisierung",
         "Unterricht im Krankenhaus: „Es gibt Kinder, die wollen auch auf der Palliativstation ihren Schulabschluss machen“",
         "Oberfranken: Hacker kündigt Amoklauf im Namen eines Schülers an",
-        "Schulen: Dürfen Lehrer das sagen?"
+        "Krieg in Nahost: Hinweise auf Reparaturen an iranischen Atomanlagen"
       ],
       "urls": [
         "https://www.sueddeutsche.de/muenchen/starnberg/tutzing-schule-sanierung-verzoegerungen-kosten-li.3512462",
         "https://www.sueddeutsche.de/muenchen/muenchen-schule-unterricht-kinder-krankenhaus-interview-li.3495973",
         "https://www.sueddeutsche.de/bayern/ebermannstadt-hacker-cyberkriminalitaet-amoklauf-schule-li.3514337",
-        "https://www.sueddeutsche.de/leben/schule-lehrer-neutral-afd-rechtstextremismus-li.3505157"
+        "https://www.sueddeutsche.de/politik/liveblog-nahost-iran-news-atomanlagen-li.3513707"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -272,64 +305,27 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 12,
+      "article_count": 10,
       "sample_titles": [
-        "Psychotherapie als \"Booster für die Volkswirtschaft\"",
         "\"Wir bringen das echte Leben ins Klassenzimmer\"",
         "Was nicht im Lehrplan steht",
+        "Lernen für den Tier-Notfall auf der Alp",
         "Förderung kultureller Bildung und des Sports"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/psychotherapie-einschnitte-gesundheitsreform-interview-100.html",
         "https://www.zdfheute.de/panorama/life-teacher-schule-unterricht-alltagswissen-100.html",
         "https://www.zdfheute.de/video/panorama-lehrplan-schule-projekt-video-100.html",
+        "https://www.zdfheute.de/video/heute-in-europa/tieraerzte-auf-der-alp-100.html",
         "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5217088"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "surprise",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 10,
-      "sample_titles": [
-        "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut",
-        "Union verweist auf leere Kassen: Koalition verschiebt Bafög-Erhöhung auf Sommer 2027",
-        "\"Schreckliche Stunden\": Polizei sucht Motiv für Amoktat in Schongau",
-        "Amoktat an Gymnasium in Schongau: Ministerin lobt Schüler: Mädchen wäre wahrscheinlich verblutet"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html",
-        "https://www.n-tv.de/politik/Koalition-verschiebt-Bafoeg-Erhoehung-auf-Sommer-2027-id31067153.html",
-        "https://www.n-tv.de/panorama/Polizei-sucht-Motiv-fuer-Amoktat-in-Schongau-id31067526.html",
-        "https://www.n-tv.de/panorama/Ministerin-lobt-Schueler-Maedchen-waere-wahrscheinlich-verblutet-id31068126.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "pride",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
           "count": 1
         }
       ]
@@ -338,17 +334,17 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 8,
+      "article_count": 6,
       "sample_titles": [
+        "Zoff um Sprache in der Schule - „Da sind wir bei Klassenarbeiten auf Arabisch“",
+        "Neuer Lehrplan in England - Schüler lernen: Beim Sex bitte nicht würgen!",
         "Zuspruch für Abi-Rebellin - Deutschlands ehrlichste Lehrer: „Sie hat recht!“",
-        "Bluttat an Gymnasium in Bayern - Amok an Schule! Kam die Waffe aus dem 3D-Drucker?",
-        "Jeder Dritte durchgefallen? - „Fickt euch!“ Schülerin hält Wut-Rede bei Abi-Feier",
         "Eilmeldung - Teil der Bafög-Reform wird verschoben"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/sprache-in-der-schule-da-sind-wir-bei-klassenarbeiten-auf-arabisch-6a59b8df29b150f031b15bb1",
+        "https://www.bild.de/leben-wissen/bildung-schule-studium/neuer-lehrplan-in-england-schueler-lernen-beim-sex-bitte-nicht-wuergen-6a57266f88b6b373594b2364",
         "https://www.bild.de/politik/inland/deutschlands-ehrlichste-lehrer-zur-abi-rebellin-von-hagenow-sie-hat-recht-6a50f8408b5b8e3f0122aa00",
-        "https://www.bild.de/regional/bayern/bluttat-an-gymnasium-in-bayern-amok-an-schule-kam-die-waffe-aus-dem-3d-drucker-6a4fb59f43b7fd5185003fd1",
-        "https://www.bild.de/politik/inland/mecklenburg-vorpommern-fickt-euch-schuelerin-haelt-wut-rede-beim-abi-ball-6a4f2111bb0cf80de56a2e5c",
         "https://www.bild.de/politik/teil-der-bafoeg-reform-wird-verschoben-6a4f689ffe4170d03593b20b"
       ],
       "dominant_emotion": "amusement",
@@ -358,11 +354,40 @@
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 5,
+      "sample_titles": [
+        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen",
+        "Mitarbeiter zu dumm? Lauterbach begründet Volkswagen-Niedergang mit „Bildungspolitik“",
+        "Prozess in Berlin Ermittlungen: Neuköllner Islamismuskritiker soll Anschlagsversuch erfunden haben",
+        "Landeskirche Für Gender-Theologie ist Geld da – aber für eine evangelische Privatschule nicht"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/lauterbach-begruendet-vw-niedergang-mit-bildungspolitik/",
+        "https://jungefreiheit.de/politik/deutschland/2026/ermittlungen-neukoellner-islamismuskritiker-soll-anschlagsversuch-erfunden-haben/",
+        "https://jungefreiheit.de/kultur/gesellschaft/2026/fuer-gender-theologie-ist-geld-da-aber-fuer-eine-evangelische-privatschule-nicht/"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
           "count": 1
         },
         {
-          "emotion": "desire",
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -375,49 +400,35 @@
       "sample_titles": [
         "Arbeitsmarkt: Millionenschwere Hilfe zur Qualifizierung erreicht nur 350 Beschäftigte",
         "Strukturwandel: Förderung zur Weiterbildung in der Transformation kaum genutzt",
-        "Interview: Helmholtz-Chef: „Die Reputation des Forschungsstandortes steht auf dem Spiel“",
-        "Immobilien: Zukunftsmarkt Bildungsimmobilien: Darum werden Schulen für Investoren interessant"
+        "+++ Iran-Krieg +++: Vermittler planen offenbar Gespräch zwischen Iran, USA, Katar und Pakistan",
+        "Interview: Melanie Maas-Brunner: „Wir sollten uns nicht auf den Staat verlassen“"
       ],
       "urls": [
         "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-millionenschwere-hilfe-zur-qualifizierung-erreicht-nur-350-beschaeftigte/100239088.html",
         "https://www.handelsblatt.com/politik/deutschland/strukturwandel-foerderung-zur-weiterbildung-in-der-transformation-kaum-genutzt/100239088.html",
-        "https://www.handelsblatt.com/politik/deutschland/cispa-institut-reputation-des-forschungsstandortes-steht-auf-dem-spiel/100236513.html",
-        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-darum-werden-schulen-fuer-investoren-interessant/100233733.html"
+        "https://www.handelsblatt.com/politik/international/iran-krieg-vermittler-planen-offenbar-gespraech-zwischen-iran-usa-katar-und-pakistan/100136895.html",
+        "https://www.handelsblatt.com/politik/deutschland/melanie-maas-brunner-wir-sollten-uns-nicht-auf-den-staat-verlassen/100233016.html"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
       "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
-        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen",
-        "Mitarbeiter zu dumm? Lauterbach begründet Volkswagen-Niedergang mit „Bildungspolitik“",
-        "Bremerhaven Schule weist Spende für Schwimmunterricht ab – weil der Spender konservativ ist"
+        "Deutsch als Unterrichtssprache demnächst nachrangig?",
+        "Wie die Grünen in einem Sumpf aus Verschwörungstheorien versinken",
+        "Das krumme Eigenleben der Bundeszentrale für politische Bildung"
       ],
       "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/lauterbach-begruendet-vw-niedergang-mit-bildungspolitik/",
-        "https://jungefreiheit.de/politik/deutschland/2026/schule-weist-spende-fuer-schwimmunterricht-ab-weil-der-spender-konservativ-ist/"
+        "https://www.tichyseinblick.de/meinungen/deutsch-unterrichtssprache-nachrangig/",
+        "https://www.tichyseinblick.de/meinungen/gruene-verschwoerungstheorien/",
+        "https://www.tichyseinblick.de/daili-es-sentials/eigenleben-bundeszentrale-politische-bildung/"
       ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "nzz": {
       "source_id": "nzz",
@@ -425,48 +436,19 @@
       "bias": "conservative-liberal",
       "article_count": 3,
       "sample_titles": [
-        "KOMMENTAR - «Lena ist müde vom Nati-Spiel, ich schicke sie erst um zehn zur Schule» – ein Hoch auf alle Lehrerinnen und Lehrer, die Kinder ernst nehmen (und Eltern etwas weniger)",
-        "Ein behinderter Bub erleidet in der Schule einen schweren Unfall – und seine Mutter rätselt, was passiert ist",
+        "«Meistens kennt man sich»: Warum Schweizer Flugplätze zum Sicherheitsrisiko werden",
+        "Drohnenabwehr: Schweizer Hochschulen starten Forschungsprogramme",
         "DER ANDERE BLICK MIT DATEN - Der Beruf des Lehrers wird immer stärker von Frauen dominiert. Warum das für einige Kinder problematisch ist"
       ],
       "urls": [
-        "https://www.nzz.ch/meinung/lena-ist-muede-vom-nati-spiel-ich-schicke-sie-erst-um-zehn-zur-schule-ein-hoch-auf-alle-lehrerinnen-und-lehrer-die-kinder-ernst-nehmen-und-eltern-etwas-weniger-ld.10014791",
-        "https://www.nzz.ch/zuerich/ein-behinderter-bub-erleidet-in-der-schule-einen-schweren-unfall-und-seine-mutter-raetselt-was-passiert-ist-ld.10011963",
+        "https://www.nzz.ch/schweiz/meistens-kennt-man-sich-warum-schweizer-flugplaetze-zum-sicherheitsrisiko-werden-ld.10014852",
+        "https://www.nzz.ch/schweiz/drohnenabwehr-schweizer-hochschulen-starten-forschungsprogramme-ld.10014838",
         "https://www.nzz.ch/der-andere-blick/der-beruf-des-lehrers-wird-immer-staerker-von-frauen-dominiert-warum-das-fuer-einige-kinder-problematisch-ist-ld.10013132"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
-          "count": 1
-        },
         {
           "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 2,
-      "sample_titles": [
-        "„Folge der Wissenschaft“",
-        "Berlin quartiert Süchtige in Grundschule ein"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/feuilleton/buecher/folge-der-wissenschaft/",
-        "https://www.tichyseinblick.de/meinungen/berlin-grundschule-kreuzberg-suechtige/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -475,36 +457,43 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 1,
+      "article_count": 2,
       "sample_titles": [
-        "Handyverbot an Schulen: Ein Smartphone ist keine Zigarette"
+        "Handyverbot an Schulen: Ein Smartphone ist keine Zigarette",
+        "Vom Fußball lernen"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/handyverbot_an_schulen_ein_smartphone_ist_keine_zigarette"
+        "https://www.achgut.com/artikel/handyverbot_an_schulen_ein_smartphone_ist_keine_zigarette",
+        "https://www.achgut.com/artikel/vom_fussball_lernen"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "left-liberal": 82,
-    "neutral": 76,
-    "conservative-liberal": 42,
-    "economic-liberal": 4,
-    "right-conservative": 30,
-    "far-right": 6,
-    "populist-mixed": 8,
-    "left": 15
+    "far-right": 10,
+    "conservative-liberal": 44,
+    "left-liberal": 83,
+    "neutral": 73,
+    "populist-mixed": 6,
+    "left": 16,
+    "right-conservative": 37,
+    "economic-liberal": 4
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Unabhängig von der politischen Ausrichtung wird im deutschen Mediendiskurs die Unterfinanzierung des Bildungssystems als zentrale strukturelle Herausforderung anerkannt, die sich in konkreten Problemen wie Lehrkräftemangel, reduzierten Studienplätzen und verzögerten Reformen manifestiert. Über alle Spektren hinweg existiert eine faktische Übereinstimmung, dass die duale Berufsausbildung und Weiterbildung angesichts des Strukturwandels und der Anforderungen des Arbeitsmarkts an Bedeutung gewinnen müssen, auch wenn die Lösungsansätze unterschiedlich gewichtet werden. Der Diskurs zeigt zudem eine breite Akzeptanz dafür, dass gesellschaftliche Krisen wie Migration, Gewalt an Schulen und ideologische Konflikte unmittelbare Auswirkungen auf das Bildungssystem haben und Schulen nicht isoliert von diesen Herausforderungen betrachtet werden können.",
-      "controversial_points": "Der tiefste Konflikt verläuft zwischen Kostenlosmentalität und Leistungsprinzip: Während die Linke BAföG-Erhöhungen und gebührenfreie Bildung fordert, argumentieren Konservative und Liberale mit knappen Mitteln und Anreizen für Eigenverantwortung. Ein zweiter Bruchpunkt ist die Frage nach ideologischer Neutralität versus politischer Gestaltung in Schulen und Hochschulen, wo Zivilklauseln, Boykott-Beschlüsse und Lehrplaninhalte zu fundamentalen Debatten über die Rolle von Bildungsinstitutionen führen. Drittens spaltet die Digitalisierung die Medienlandschaft: Während Liberale KI als Chance sehen, kritisiert die Linke Profitinteressen und ungleiche Chancen. Ein vierter Konflikt ist die föderale Zersplitterung, bei der jedes Bundesland andere Standards setzt, was Konservative als Qualitätsverlust und Linke als Gerechtigkeitsproblem deuten. Schließlich zeigt sich eine Realitätskluft zwischen wirtschaftsliberalem Optimismus über Fachkräftepotenziale und linker Skepsis, ob Weiterbildung tatsächlich prekäre Beschäftigung überwindet oder nur neue Anforderungen schafft."
+      "shared_perspectives": "Der deutsche Mediendiskurs zum Bildungssystem offenbart unabhängig von politischer Ausrichtung eine breite Übereinstimmung darin, dass strukturelle Unterfinanzierung und mangelnde Ressourcenausstattung zentrale Probleme darstellen, die sich konkret in Lehrkräftemangel, reduzierten Studienplätzen und gestiegenen Kosten für Eltern manifestieren. Über das gesamte Spektrum hinweg wird zudem anerkannt, dass die duale Berufsausbildung und Quereinsteiger-Programme notwendige Lösungen für Fachkräftemangel darstellen und dass Sprachförderung sowie berufliche Vorbereitung praktische Ansätze zur Verbesserung von Chancengerechtigkeit sind. Die Debatten zeigen ferner, dass trotz gegensätzlicher Positionen zum Pluralismus in der Bildung, etwa zur Rolle von Mehrsprachigkeit oder kulturellen Inhalten, alle Lager das Problem des Personalmangels und der notwendigen Digitalisierung als zentrale Zukunftsherausforderungen benennen.",
+      "controversial_points": "Der deutsche Bildungsdiskurs spaltet sich entlang zweier Hauptlinien: Erstens der Frage von Chancengerechtigkeit versus Leistungsorientierung, wobei linke Medien strukturelle Ungleichheit und Finanzierungsmängel kritisieren, während konservativ-liberale Blätter individuelle Leistung und Digitalisierung betonen. Zweitens prallen fundamentale Konflikte um nationale Identität und Sprache aufeinander, wo rechte und populistische Medien eine vermeintliche Gefährdung des Deutschen durch Mehrsprachigkeit skandalisieren, während linke Medien Sprachförderung als Inklusion verstehen. Ein dritter Konflikt betrifft die Verteilung von Verantwortung zwischen Staat und privaten Akteuren: Wirtschaftsliberale Medien sehen unzureichende Eigeninitiative von Bürgern, während linke Kritik dem Staat Versagen bei der Daseinsvorsorge vorhält. Die Frage von Schulfinanzierung wird dadurch ideologisch aufgeladen, dass Sparmaßnahmen entweder als notwendig oder als Investitionsverweigerung in die Zukunft interpretiert werden."
     },
     "en": {
-      "shared_perspectives": "# Substantive Commonalities in German Education Discourse\n\nAcross the political spectrum, German media discourse treats teacher shortages and demographic aging of the teaching workforce as an established crisis requiring urgent systemic solutions, with even outlets spanning left to right-conservative coverage treating this as a factual challenge to educational quality rather than a contested political claim. A second broad consensus emerges around the structural inadequacy of current public education funding, where even conservative-liberal and economic-liberal outlets frame university capacity reductions and school infrastructure deficits as consequences of budget constraints rather than ideological policy choices, implicitly accepting that resource scarcity is the core problem. Additionally, media across different alignments converge on treating vocational training (Ausbildung) and continuing education (Weiterbildung) as economically vital responses to labor market transformation and structural change, with coverage emphasizing practical workforce development needs rather than purely academic educational pathways, suggesting broad agreement that Germany's dual system addresses genuine economic demands.",
-      "controversial_points": "# Structural Conflict Lines in German Education Discourse\n\nThe deepest divide separates those viewing education as a public investment requiring state funding from those treating it as consumer choice driven by markets and private initiative. Left-liberal outlets emphasize equity, access, and societal benefit, while economic-liberal and right-conservative media frame education through fiscal constraint and individual responsibility, creating irreconcilable positions on BAföG expansion, tuition fees, and school funding. A second major fault line concerns institutional autonomy: left-liberal discourse defends universities' civil clauses against military research and student activism, whereas conservative outlets treat such positions as ideological overreach that damages Germany's research competitiveness. The far-right and populist media attack the education system itself as fundamentally dysfunctional or infiltrated by ideology, rejecting both establishment-left and establishment-right frameworks entirely. Finally, immigration and integration tensions surface in right-conservative and far-right media through selective framing of conflicts at schools, contrasting sharply with left-liberal silence or normalization of such issues, revealing a core disagreement about whether education should promote assimilation or pluralism."
+      "shared_perspectives": "German media discourse across the political spectrum reveals a shared recognition that the German education system faces a structural crisis rooted in inadequate funding and resource allocation, manifested in teacher shortages, reduced study places at universities, and deteriorating school infrastructure, with this consensus cutting across outlets that otherwise dispute causes and solutions. There is also broad agreement that educational equity has become a central policy concern, whether framed through debates about language integration in schools, student housing affordability, or access to vocational training pathways, indicating that questions of who gains educational access and under what conditions now occupy German media discourse regardless of ideological positioning. Finally, German media across the spectrum engages substantively with the practical problem of how educational institutions should adapt to contemporary economic and technological change, particularly around digitalization, artificial intelligence competencies, and the relationship between traditional academic training and labor market demands, suggesting consensus that education policy cannot remain static in response to rapid societal transformation.",
+      "controversial_points": "The deepest conflict line runs between universalist and culturalist visions of education. The right frames schools as sites where German language, national identity, and traditional knowledge must be protected against dilution by migration and progressive pedagogy. The left and liberal center emphasize inclusion, equity, and adaptation to demographic change, viewing education as a tool for social cohesion across difference. A second major tension opposes market-driven versus publicly-funded models: economic-liberal voices push privatization and efficiency metrics, while left-leaning outlets defend robust public investment and criticize underfunding as structural injustice. Finally, a meta-conflict shapes debate over education's purpose itself: is schooling primarily about transmitting cultural values and national identity, or about developing individual potential and fostering social mobility regardless of background? This fracture explains why identical problems like teacher shortages or digitalization trigger radically different diagnoses and solutions across the political spectrum."
     }
   },
-  "cached_at": "2026-07-15T06:53:53.764135"
+  "cached_at": "2026-07-18T06:48:53.927256"
 }
