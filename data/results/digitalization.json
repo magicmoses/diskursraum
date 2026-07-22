@@ -8,97 +8,64 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 128,
+      "article_count": 112,
       "sample_titles": [
-        "Nach dem Kursrutsch von TSMC: Droht Chipaktien ein Bärenmarkt?",
-        "Rede an die Nation: Trumps altes Klagelied",
-        "Leihmutterschaft: Spahn stellt sich über das Gesetz",
-        "Kelkheim unter Schock: „Kinder werden diese Bilder ihr Leben lang nicht loswerden“"
+        "Krise in Kiew: Jetzt spricht Syrskyj",
+        "KinderSchutz: Frankreich beschließt Social-Media-Verbot für unter 15-Jährige",
+        "Liveblog Irankrieg: Huthi-Miliz: Sechs Schiffe zur Umkehr gezwungen",
+        "Medienaufsicht handelt: Google und Perplexity müssen sich an Medienrecht halten"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/finanzen/chipaktien-stehen-vor-einem-baerenmarkt-201039535.html",
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/donald-trump-angebliche-intervention-pekings-2020-durch-akten-belegt-accg-201038764.html",
-        "https://www.faz.net/aktuell/politik/inland/leihmutterschaft-ist-nicht-spahns-privatangelegenheit-201040374.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/femizid-in-kelkheim-junge-maenner-versuchten-den-mutmasslichen-moerder-zu-stoppen-accg-201040168.html"
+        "https://www.faz.net/aktuell/politik/ukraine/syrskyj-wehrt-sich-selenskyj-sucht-alternativen-201050232.html",
+        "https://www.faz.net/aktuell/politik/ausland/frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige-201049966.html",
+        "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-huthi-miliz-sechs-schiffe-zur-umkehr-gezwungen-faz-200583539.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/google-und-perplexity-muessen-sich-an-medienrecht-halten-201046157.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 7
+          "count": 5
         },
         {
-          "emotion": "annoyance",
-          "count": 5
+          "emotion": "excitement",
+          "count": 4
         },
         {
           "emotion": "sadness",
-          "count": 5
+          "count": 4
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 82,
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 91,
       "sample_titles": [
-        "„Das ist tatsächlich doppelzüngig bis hin zur Doppelmoral“",
-        "Apple überholt Nvidia – und stellt die Logik des KI-Booms auf den Kopf",
-        "„Das KI-Beben ging weiter – Ausverkauf bei den Technologiewerten“",
-        "Am Strand von Kinburn beginnt die Ukraine den modernen Roboterkrieg"
+        "Wie ein Leipziger Antiquariat den KI-Boom erlebt",
+        "Frankreich verbietet Social Media für unter 15-Jährige",
+        "Tausende Angriffe täglich: Wie kann der Schutz gegen Drohnen, Hacker und Blackouts aussehen",
+        "Nach Vorwürfen in Jugendhilfeeinrichtung: Arbeitsverbot für Leiterin"
       ],
       "urls": [
-        "https://www.welt.de/videos/video6a5a2b8bc722326276499948/leihmutterschaft-das-ist-tatsaechlich-doppelzuengig-bis-hin-zur-doppelmoral.html",
-        "https://www.welt.de/wirtschaft/plus6a5a38b5bb3fbf9dba987dba/boersenwert-apple-ueberholt-nvidia-und-stellt-die-logik-des-ki-booms-auf-den-kopf.html",
-        "https://www.welt.de/videos/video6a5a509d61b8a80211aa9e7c/deffner-zschaepitz-das-ki-beben-ging-weiter-ausverkauf-bei-den-technologiewerten.html",
-        "https://www.welt.de/wirtschaft/plus6a5a3530bb3fbf9dba987d5c/ruestungstechnologie-am-strand-von-kinburn-beginnt-die-ukraine-den-modernen-roboterkrieg.html"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 5
-        },
-        {
-          "emotion": "realization",
-          "count": 5
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 74,
-      "sample_titles": [
-        "Gebrauchtwagencheck: Hyundai Ioniq 5 holt beim Tüv viele Bestnoten",
-        "Weitere Angriffe im Nahen Osten: Zwei Tanker brennen nach Minenexplosion in Straße von Hormus",
-        "\"Beschädigt Glaubwürdigkeit\": In der CDU gibt es weitere Rücktrittsforderungen gegen Spahn",
-        "DSDS-Sieger im Glück: Menowin Fröhlich ist zum neunten Mal Vater geworden"
-      ],
-      "urls": [
-        "https://www.n-tv.de/auto/gebrauchte/Hyundai-Ioniq-5-holt-beim-Tuev-viele-Bestnoten-id31079079.html",
-        "https://www.n-tv.de/politik/Zwei-Tanker-brennen-nach-Minenexplosion-in-Strasse-von-Hormus-id31099393.html",
-        "https://www.n-tv.de/politik/In-der-CDU-gibt-es-weitere-Ruecktrittsforderungen-gegen-Spahn-id31098885.html",
-        "https://www.n-tv.de/leute/Menowin-Froehlich-ist-zum-neunten-Mal-Vater-geworden-id31098108.html"
+        "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/ki-boom-antiquariat-buch,ki-boom-antiquariat-kultur-news-100.html",
+        "https://www.tagesschau.de/ausland/europa/frankreich-social-media-verbot-102.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/infrastruktur-angriffe-schutz-hacker-blackout-drohnen-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/jugendamt-untersagt-leiterin-taetigkeit-bei-jugendhilfeeinrichtung-im-main-tauber-kreis-100.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 4
+          "count": 7
         },
         {
-          "emotion": "grief",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 5
         },
         {
-          "emotion": "disapproval",
+          "emotion": "sadness",
           "count": 2
         }
       ]
@@ -107,51 +74,51 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 73,
+      "article_count": 84,
       "sample_titles": [
-        "Tour-Finale der Schlagerkönigin in München - Überraschung! Silbereisen rollt in Kiste zu Helene",
-        "Superhype um WM-Star Haaland und Isabel - Verliebt in den berühmtesten Wikinger der Welt",
-        "„Kindheitstraum!\" - Gosens Schalke-Transfer perfekt",
-        "„Menschlich enttäuscht“ - Franzi van Almsick zerlegt Goretzka!"
+        "Zoff im „Bergdoktor“-Dorf! - Deutsche Geschwister packen üble Details aus",
+        "Wo Nagelsmann landet - Das deutsche Trainer-Ranking",
+        "Frau und vier Kinder nachts attackiert - Jugendstrafe für grinsenden Messerstecher",
+        "Sohn festgenommen - Kinderarzt (78) in seiner Villa getötet"
       ],
       "urls": [
-        "https://www.bild.de/unterhaltung/stars-und-leute/helenes-tour-finale-in-muenchen-sie-und-silbereisen-singen-ihren-hit-6a5a443cbb3fbf9dba987edd",
-        "https://www.bild.de/unterhaltung/stars-und-leute/erling-haaland-und-freudin-isabel-neuer-superhype-6a5a505ce2d50c13b9a7a8ff",
-        "https://www.bild.de/sport/fussball/kindheitstraum-gosens-schalke-transfer-perfekt-6a5a87ec7000970e2d111308",
-        "https://www.bild.de/sport/fussball/wm-2026-franziska-van-almsick-zerlegt-leon-goretzka-menschlich-enttaeuscht-6a5a70bfe2d50c13b9a7aad4"
+        "https://www.bild.de/unterhaltung/stars-und-leute/blutige-verletzungen-und-heftiger-inzest-vorwurf-bild-im-zerstrittenen-bergdoktor-dorf-6a5f13ca0b026c7d9a972c91",
+        "https://www.bild.de/sport/fussball/wer-auf-platz-1-steht-wo-nagelsmann-landet-das-deutsche-trainer-ranking-6a5f839a7d9caf17695e926e",
+        "https://www.bild.de/regional/nordrhein-westfalen/frau-und-kinder-attackiert-jugendstrafe-fuer-grinsenden-messerstecher-6a5f5409668d28f8978b173a",
+        "https://www.bild.de/regional/dortmund/dortmund-kinderarzt-78-in-seiner-villa-getoetet-6a5faf8f2937e4865893f4a3"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 6
+        },
         {
           "emotion": "admiration",
           "count": 3
         },
         {
-          "emotion": "love",
-          "count": 3
-        },
-        {
-          "emotion": "realization",
+          "emotion": "amusement",
           "count": 3
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 70,
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 76,
       "sample_titles": [
-        "Radfahrer in Bad Kreuznach attackiert: Täter klaut Rad und flieht",
-        "Urlaub zu Hause: Noch freie Plätze im Ferienprogramm",
-        "\"Warum wir?\" - Schwer behinderte Kinder plötzlich ohne Betreuung",
-        "Tödlicher Zug-Unfall in Leingarten: KI-generierte Bilder sorgen für Verwirrung"
+        "„Mir wurde die Hose runtergezogen oder im Schwimmbad zwischen die Beine gefasst“",
+        "Nach Suizid von Verdächtigem – CDU sieht „Kontrollverlust“ und attackiert Behörden scharf",
+        "„Die Bevölkerung hätte sich mehr Mut von Selenskyj gewünscht“",
+        "„Angenehm wir das für die Justiz jetzt sicherlich auch nicht“"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/streit-zwischen-radfahrern-eskaliert-in-bad-kreuznach-mann-verletzt-fahrrad-weg-100.html",
-        "https://www1.wdr.de/nrw/duesseldorf/Ferienprogramm-freie-plaetze-100.html",
-        "https://www.br.de/nachrichten/bayern/warum-wir-traeger-kuendigt-betreuung-schwerbehinderter-kinder,VPQeY7L",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/ki-generierte-bilder-nach-ungluecken-in-sozialen-medien-beispiel-leingarten-100.html"
+        "https://www.welt.de/vermischtes/article6a601cf58683a0c9097167e8/bill-kaulitz-spricht-ueber-queerfeindliche-angriffe-im-schwimmbad-zwischen-die-beine-gefasst.html",
+        "https://www.welt.de/vermischtes/article6a5ff89a5675b70e69474308/stade-haette-rund-um-die-uhr-beobachtet-werden-muessen-cdu-attackiert-behoerden-nach-suizid-von-verdaechtigem.html",
+        "https://www.welt.de/politik/ausland/video6a5faea1fb6c4ab717fca1d5/proteste-gegen-fedorow-entlassung-die-bevoelkerung-haette-sich-mehr-mut-von-selenskyj-gewuenscht.html",
+        "https://www.welt.de/vermischtes/video6a5fb3bbfb6c4ab717fca363/nach-der-bluttat-von-stade-angenehm-wir-das-fuer-die-justiz-jetzt-sicherlich-auch-nicht.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -160,12 +127,45 @@
           "count": 5
         },
         {
-          "emotion": "sadness",
-          "count": 3
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 70,
+      "sample_titles": [
+        "Chipwerte legen deutlich zu: US-Anleger gehen vor Quartalszahlen auf Einkaufstour",
+        "Diagnose nach Sturz da: Vor seinem verhängnisvollen Sturz war Lipowitz \"viel zu schnell\"",
+        "\"Beispielloser Cyber-Vorfall\" : KI von OpenAI bricht bei Testlauf aus und hackt fremdes System",
+        "Als erstes Land der EU: Frankreich verbietet soziale Medien für unter 15-Jährige"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wirtschaft/US-Anleger-gehen-vor-Quartalszahlen-auf-Einkaufstour-id31110849.html",
+        "https://www.n-tv.de/sport/Radsport/Tour_de_France/Vor-seinem-verhaengnisvollen-Sturz-war-Lipowitz-viel-zu-schnell-id31110766.html",
+        "https://www.n-tv.de/technik/KI-von-OpenAI-bricht-bei-Testlauf-aus-und-hackt-fremdes-System-id31111212.html",
+        "https://www.n-tv.de/politik/Frankreich-verbietet-soziale-Medien-fuer-unter-15-Jaehrige-id31110820.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 5
         },
         {
           "emotion": "admiration",
-          "count": 2
+          "count": 4
+        },
+        {
+          "emotion": "sadness",
+          "count": 3
         }
       ]
     },
@@ -173,31 +173,31 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 64,
+      "article_count": 62,
       "sample_titles": [
-        "Erneut Buckelwal in der Ostsee gesichtet",
-        "Jens Spahn in der Kritik: »Was er hier getan hat, ist eine echte Zumutung«",
-        "WM 2026: Fotograf spricht über Lamine Yamals Babyfoto mit Lionel Messi",
-        "Stade: Sechs Tote in Mutter-Kind-Einrichtung – die Vorgeschichte des mutmaßlichen Schützen"
+        "Dresden: Anonymer Gönner spendiert Kindern den Freibad-Eintritt",
+        "Türkei: Deutsche-Welle-Journalist Alican Uludağ erneut festgenommen",
+        "Google macht uns zu KI-Zombies – Meinung",
+        "Burkardroth: Frau muss niesen und fährt mit Auto in Lkw"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/erneut-buckelwal-in-der-ostsee-gesichtet-a-b3c84eb2-0708-454f-976c-c3d84334304f#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/jens-spahn-in-der-kritik-was-er-hier-getan-hat-ist-eine-echte-zumutung-a-59b88f1b-84d1-4512-8f59-a99c9be2fa53#ref=rss",
-        "https://www.spiegel.de/sport/fussball/wm-2026-fotograf-spricht-ueber-lamine-yamals-babyfoto-mit-lionel-messi-a-13c0c6f9-6f9e-416f-868a-2f59dd584299#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/stade-sechs-tote-in-mutter-kind-einrichtung-die-vorgeschichte-des-mutmasslichen-schuetzen-a-3c431133-0122-45c1-b05e-188797626a7e#ref=rss"
+        "https://www.spiegel.de/panorama/gesellschaft/dresden-anonymer-goenner-spendiert-kindern-den-freibad-eintritt-a-95a8214a-9c26-4ce3-a374-b78d132b6642#ref=rss",
+        "https://www.spiegel.de/ausland/tuerkei-deutsche-welle-journalist-alican-uludag-erneut-festgenommen-a-d7e8407f-db9b-433c-95f1-b9a62e2b45a8#ref=rss",
+        "https://www.spiegel.de/netzwelt/netzpolitik/google-macht-uns-zu-ki-zombies-meinung-a-2c800257-5381-4797-82e6-1f5ec5bc8f65#ref=rss",
+        "https://www.spiegel.de/panorama/burkardroth-frau-muss-niesen-und-faehrt-mit-auto-in-lkw-a-9f47fe1f-4ec6-4ea4-adf1-2383eb57793f#ref=rss"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "amusement",
       "top_emotions": [
         {
-          "emotion": "disapproval",
+          "emotion": "amusement",
           "count": 4
         },
         {
           "emotion": "sadness",
-          "count": 3
+          "count": 4
         },
         {
-          "emotion": "annoyance",
+          "emotion": "gratitude",
           "count": 3
         }
       ]
@@ -206,31 +206,31 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 63,
+      "article_count": 58,
       "sample_titles": [
-        "+++ Iran-Krieg +++: USA und Iran melden weitere gegenseitige Angriffe in Golfregion",
-        "KI-Briefing: Mira Murati kannte die Geheimnisse von OpenAI – und wählte Chinas Weg",
-        "Moonshot gegen OpenAI: Sprachmodelle als Machtinstrument: Wem gehören Daten im KI-Zeitalter?",
-        "Dow, S&P, Nasdaq: Apple löst Nvidia als wertvollsten Konzern ab – Anleger haben neue Favoriten"
+        "KI: Anthropic zahlt Autoren 1,5 Milliarden Dollar in Urheberrechtsstreit",
+        "KI-Unternehmen: OpenAI übernimmt Verantwortung für KI-gesteuerten Hackerangriff",
+        "Künstliche Intelligenz: Dieses Milliarden-Start-up schult Dax-Mitarbeiter mit Avataren",
+        "KI-Tools: Raus aus der Cloud, zurück in die Fabrik – Investoren setzen auf bewährte Industrien"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/iran-krieg-usa-und-iran-melden-weitere-gegenseitige-angriffe-in-golfregion/100136895.html",
-        "https://www.handelsblatt.com/technik/ki/ki-briefing/ki-briefing-murati-kannte-geheimnisse-von-openai-und-waehlte-chinas-weg/100240739.html",
-        "https://www.handelsblatt.com/technik/ki/moonshot-gegen-openai-wem-gehoeren-daten-im-ki-zeitalter/100240863.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-sp-nasdaq-apple-loest-nvidia-als-wertvollsten-konzern-ab/100241066.html"
+        "https://www.handelsblatt.com/technik/ki/ki-anthropic-zahlt-autoren-15-milliarden-dollar-in-urheberrechtsstreit/100241911.html",
+        "https://www.handelsblatt.com/technik/it-internet/ki-unternehmen-openai-uebernimmt-verantwortung-fuer-ki-gesteuerten-hackerangriff/100241924.html",
+        "https://www.handelsblatt.com/unternehmen/start-ups/kuenstliche-intelligenz-dieses-milliarden-start-up-schult-dax-mitarbeiter-mit-avataren/100239317.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/ki-tools-abkehr-vom-tech-hype-investoren-setzen-auf-bewaehrte-industrien/100235183.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "confusion",
+          "emotion": "admiration",
           "count": 2
         },
         {
-          "emotion": "desire",
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -239,64 +239,31 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 57,
+      "article_count": 55,
       "sample_titles": [
-        "Weniger Mitglieder und Geld: Evangelische Landeskirche stoppt Bauprojekte für zwei Jahre",
-        "Leidenschaft: Minister Teuber: Kinder sind meine Kraftquelle",
-        "Gesellschaft: Lesbisch-schwules Stadtfest in Schöneberg am Wochenende",
-        "Musik: Bohlen will Modern Talking aufleben lassen - Und Anders?"
+        "Frankreich beschließt als erstes EU-Land Social-Media-Verbot für unter 15-Jährige",
+        "Nach Kampf um Parteiführung: Abgesetzter türkischer Oppositionschef gründet neue Partei",
+        "Behörden: Waldbrand in Spanien nördlich von Madrid extrem schwer zu bekämpfen",
+        "KI aus Europa: Milliarden-Deal: Microsoft und Mistral AI stärken Europas KI"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/sachsen/weniger-mitglieder-und-geld--evangelische-landeskirche-stoppt-bauprojekte-fuer-zwei-jahre-37982514.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/leidenschaft--minister-teuber--kinder-sind-meine-kraftquelle-37982494.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/gesellschaft--lesbisch-schwules-stadtfest-in-schoeneberg-am-wochenende-37982458.html",
-        "https://www.stern.de/lifestyle/musik--bohlen-will-modern-talking-aufleben-lassen---und-anders--37978008.html"
+        "https://www.stern.de/news/frankreich-beschliesst-als-erstes-eu-land-social-media-verbot-fuer-unter-15-jaehrige-37995990.html",
+        "https://www.stern.de/politik/ausland/nach-kampf-um-parteifuehrung--abgesetzter-tuerkischer-oppositionschef-gruendet-neue-partei-37995004.html",
+        "https://www.stern.de/news/behoerden--waldbrand-in-spanien-noerdlich-von-madrid-extrem-schwer-zu-bekaempfen-37994986.html",
+        "https://www.stern.de/digital/ki-aus-europa--milliarden-deal--microsoft-und-mistral-ai-staerken-europas-ki-37994966.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
         {
           "emotion": "sadness",
-          "count": 5
-        },
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 38,
-      "sample_titles": [
-        "Streit um Pogrome in Polen: Gedenken in der Kirche und in der Synagoge",
-        "Spahns Leihmutter-Kind: Auch in der CDU regen sich die Rücktrittsforderungen",
-        "Veto des rechtskonservativen Staatschefs: Polens Präsident stoppt eingetragene Lebenspartnerschaften",
-        "Wahlen in Sachsen-Anhalt: Rechter Kulturkampf im Kindergarten"
-      ],
-      "urls": [
-        "https://taz.de/Streit-um-Pogrome-in-Polen/!6196442/",
-        "https://taz.de/Spahns-Leihmutter-Kind/!6197133/",
-        "https://taz.de/Veto-des-rechtskonservativen-Staatschefs/!6197103/",
-        "https://taz.de/Wahlen-in-Sachsen-Anhalt/!6196479/"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
+          "count": 6
         },
         {
           "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -305,31 +272,97 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 32,
+      "article_count": 33,
       "sample_titles": [
-        "Biologie: Pubertät: Warum sich der Wahnsinn lohnt",
-        "Big Tech: Apple war kurzzeitig wieder wertvollstes Unternehmen der Welt",
-        "Krieg in der Ukraine: Demos in der Ukraine für entlassenen Minister gehen weiter",
-        "Familien-Newsletter: Der Wunsch nach einem Kind"
+        "Künstliche Intelligenz: KI von OpenAI spielt eigenständig Computer-Hacker",
+        "Krieg in der Ukraine: Selenskij entlässt Armeechef Olexander Syrskyj",
+        "Nahost: Jetzt wollen Irans Hilfstruppen die nächste Meerenge blockieren",
+        "Bundeskriminalamt: Mehr als 20 000 Kinder und Jugendliche Opfer von sexuellem Missbrauch"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/projekte/artikel/wissen/pubertaet-koerper-gehirn-e943845/",
-        "https://www.sueddeutsche.de/wirtschaft/apple-nvidia-wertvollstes-unternehmen-boerse-aktie-li.3517785",
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-regierung-umbau-fedorow-li.3512468",
-        "https://www.sueddeutsche.de/leben/kinderwunsch-familie-behinderung-inklusion-leihmutterschaft-li.3513764"
+        "https://www.sueddeutsche.de/wirtschaft/openai-kuenstliche-intelligenz-ki-hackerangriff-li.3519653",
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-slenskij-li.3512468",
+        "https://www.sueddeutsche.de/meinung/iran-huthi-jemen-saudi-arabien-usa-meerenge-oelpreis-kommentar-li.3519045",
+        "https://www.sueddeutsche.de/politik/deutschland-kinder-jugendliche-opfer-missbrauch-li.3519016"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 4
+          "count": 3
         },
         {
-          "emotion": "joy",
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "realization",
+          "count": 2
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 32,
+      "sample_titles": [
+        "Brosius-Gersdorf und die Leihmutterschaft: Kinder für alle!",
+        "Die Frau als Fabrik und der Mensch als Ware",
+        "Sechsfachmord: Der Tatverdächtige von Stade ist tot",
+        "Kein Recht auf ein Kind: Der blinde Fleck im deutschen Leihmutterschaftsverbot"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/stephans-spitzen/brosius-gersdorf-leihmutter-verbot/",
+        "https://www.tichyseinblick.de/meinungen/die-frau-als-fabrik-und-der-mensch-als-ware/",
+        "https://www.tichyseinblick.de/daili-es-sentials/sechsfachmord-der-tatverdaechtige-tot-aufgefunden/",
+        "https://www.tichyseinblick.de/daili-es-sentials/kein-recht-auf-ein-kind/"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 31,
+      "sample_titles": [
+        "Gewalttat in Stade: Täter von Stade begeht Suizid",
+        "EU-Methanverordnung: Keine Strafen für den Klimakiller Methan",
+        "Sexuelle Gewalt gegen Kinder: Polizei registriert mehr Fälle",
+        "Kindermangel an Berliner Kitas: ErzieherInnen geht die Arbeit aus"
+      ],
+      "urls": [
+        "https://taz.de/Gewalttat-in-Stade/!6197983/",
+        "https://taz.de/EU-Methanverordnung/!6197822/",
+        "https://taz.de/Sexuelle-Gewalt-gegen-Kinder/!6198051/",
+        "https://taz.de/Kindermangel-an-Berliner-Kitas/!6197532/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
           "count": 2
         }
       ]
@@ -338,31 +371,31 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 29,
+      "article_count": 27,
       "sample_titles": [
-        "Sie kaufen keine Kühe, keine Schafe. Sie kaufen Kilos und Tonnen Tier – Dann beginnt eine Reise, die keiner sehen soll",
-        "Zweiter Deepseek-Moment: Chinesisches Startup veröffentlicht KI-Modell, das die besten amerikanischen Anbieter überholt – und wesentlich weniger kostet",
-        "Hat China US-Wahlen manipuliert? Was die Dokumente des Weissen Hauses sagen",
-        "«Ich will zurück in die Sowjetunion»: Russlands Chef der Ermittlungsbehörde dichtet sich die Vergangenheit herbei"
+        "Selenski beugt sich dem Druck der Demonstranten: Die Ukraine erhält einen neuen Oberbefehlshaber",
+        "Frankreich verbietet soziale Netzwerke für unter 15-Jährige",
+        "Der Boom der Startups in London kann nicht über die Misere der britischen Wirtschaft hinwegtäuschen",
+        "KOMMENTAR - Kimi K3: Aus China kommt eines der besten KI-Modelle der Welt. Der Westen muss aufwachen"
       ],
       "urls": [
-        "https://www.nzz.ch/gesellschaft/tiertransport-per-schiff-wie-europa-weltweit-tiere-exportiert-ld.10015291",
-        "https://www.nzz.ch/technologie/zweiter-deepseek-moment-chinesisches-startup-veroeffentlicht-ki-modell-das-die-besten-amerikanischen-anbieter-ueberholt-und-wesentlich-weniger-kostet-ld.10015997",
-        "https://www.nzz.ch/international/trump-wirft-china-us-wahleinmischung-vor-liefert-aber-keine-beweise-nzz-ld.10015954",
-        "https://www.nzz.ch/feuilleton/ich-will-zurueck-in-die-sowjetunion-russlands-chef-der-ermittlungsbehoerde-dichtet-sich-die-vergangenheit-herbei-ld.10015910"
+        "https://www.nzz.ch/international/ukraine-selenski-ernennt-neuen-armeechef-auf-sirski-folgt-drapati-ld.10016490",
+        "https://www.nzz.ch/international/frankreich-verbietet-soziale-netzwerke-fuer-unter-15-jaehrige-ld.10016489",
+        "https://www.nzz.ch/wirtschaft/der-boom-der-startups-in-london-kann-nicht-ueber-die-misere-der-britischen-wirtschaft-hinwegtaeuschen-ld.10015208",
+        "https://www.nzz.ch/meinung/kimi-k3-aus-china-kommt-eines-der-besten-ki-modelle-der-welt-der-westen-muss-aufwachen-ld.10016192"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "anger",
+          "emotion": "admiration",
           "count": 2
         },
         {
-          "emotion": "surprise",
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
           "count": 1
         }
       ]
@@ -371,97 +404,31 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 27,
+      "article_count": 25,
       "sample_titles": [
-        "Modern Talking: Bohlen will, Anders nicht",
-        "Tobias Krick: Deutschlands außergewöhnlichster Volleyballer",
-        "Selbst entwickelter Wasserstoffzug in Indien",
-        "Was hinter der Ablösung des Verteidigungsministers steckt"
+        "Frankreich beschließt Social-Media-Verbot für unter 15-Jährige",
+        "Innenpolitischer Druck, schwerer Beschuss: So ist Kiews Lage",
+        "Goldbrunner: Klopp kann Euphorie entfachen",
+        "Wie Lidls Tech-Sparte Google und Microsoft den Kampf ansagt"
       ],
       "urls": [
-        "https://www.zdfheute.de/panorama/prominente/modern-talking-bohlen-anders-pop-duo-100.html",
-        "https://www.zdfheute.de/sport/volleyball-nations-league-tobias-krick-deutschland-100.html",
-        "https://www.zdfheute.de/video/zdfheute-xpress/indien-wasserstoffzug-einweihung-video-100.html",
-        "https://www.zdfheute.de/politik/ausland/fedorow-entlassung-selenskyj-machtkampf-syrskyj-kabinett-umbau-ukraine-krieg-russland-100.html"
+        "https://www.zdfheute.de/politik/ausland/frankreich-social-media-verbot-100.html",
+        "https://www.zdfheute.de/politik/ausland/raketen-angriffe-russland-fedorow-selenskyj-ukraine-krieg-100.html",
+        "https://www.zdfheute.de/video/zdf-morgenmagazin/tobias-goldbrunner-kicker-100.html",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/digitale-souveraenititaet-schwarz-digits-campus-ki-100.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
+          "emotion": "sadness",
           "count": 1
         },
         {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 22,
-      "sample_titles": [
-        "Weniger Mitglieder und Geld: Evangelische Landeskirche stoppt Bauprojekte für zwei Jahre",
-        "Die Lage im Überblick: Iran: US-Angriffe auf Brücken – Vermittler Pakistan hadert",
-        "Irankrieg: Schwerste Angriffe zwischen USA und Iran seit Ende der Waffenruhe",
-        "Schutz von Kindern: England will koffeinstarke Energydrinks für unter 16-Jährige verbieten"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-07/18/evangelische-landeskirche-stoppt-bauprojekte-fuer-zwei-jahre",
-        "https://www.zeit.de/news/2026-07/17/berichte-us-militaer-greift-bruecken-im-iran-an",
-        "https://www.zeit.de/politik/ausland/2026-07/usa-iran-angriffe-militaer-nahost",
-        "https://www.zeit.de/politik/ausland/2026-07/energydrinks-verkauf-verbot-england-kinder"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
+          "emotion": "desire",
           "count": 1
         },
         {
           "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 18,
-      "sample_titles": [
-        "Staatsknete für Solo-Mütter: Wie die Gesellschaft für gewollte Vaterlosigkeit bezahlen muss",
-        "Die KI-Strategie Chinas | Tichys Börsenwecker am 17. Juli 2026",
-        "CDU-Fraktionschef Jens Spahn: Per Leihmutterschaft zum Kind",
-        "Mamdani macht New York judenfrei"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/meinungen/staatsknete-fuer-solo-muetter-gewollte-vaterlosigkeit/",
-        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-17-juli-2026/",
-        "https://www.tichyseinblick.de/feuilleton/buecher/cdu-fraktionschef-jens-spahn-kind-leihmutterschaft/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/mamdani-macht-new-york-judenfrei/"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -470,21 +437,63 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 17,
       "sample_titles": [
-        "Kulturpolitik Weimer warnt vor AfD-Angriff auf Weihnachten",
-        "Streit um Sitzplatz Scharia im Ferien-Flieger: Türke will nicht neben Frau sitzen und schlägt zu",
-        "Wirbel nach Baby-Kauf Spahns Leihmutter-Skandal: Rücktrittsforderungen aus der CDU",
-        "Staatsanwaltschaft Gegen Christen unerbittlich, bei Linken nachsichtig"
+        "Deutlich überrepräsentiert Immer mehr Fälle von Kindesmissbrauch in Deutschland",
+        "Nach sechsfachem Mord Stade-Killer soll in Untersuchungshaft Suizid begangen haben",
+        "Generalbundesanwalt ermittelt Syrer soll wegen Israel-Anstecker Mann verprügelt haben",
+        "Feliks Dzierzynski Polnisch-litauischer Adelssohn Dzierzynski organisierte den Sowjetterror"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/weimer-warnt-vor-afd-angriff-auf-weihnachten/",
-        "https://jungefreiheit.de/politik/deutschland/2026/scharia-im-ferien-flieger-tuerke-will-nicht-neben-frau-sitzen-und-schlaegt-zu/",
-        "https://jungefreiheit.de/politik/deutschland/2026/spahns-leihmutter-skandal-ruecktrittsforderungen-aus-der-cdu/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/gegen-christen-unerbittlich-bei-linken-nachsichtig/"
+        "https://jungefreiheit.de/politik/deutschland/2026/immer-mehr-faelle-von-kindesmissbrauch-in-deutschland/",
+        "https://jungefreiheit.de/politik/deutschland/2026/stade-killer-soll-in-untersuchungshaft-suizid-begangen-haben/",
+        "https://jungefreiheit.de/politik/deutschland/2026/syrer-soll-wegen-eines-israel-ansteckers-einen-mann-verpruegelt-haben/",
+        "https://jungefreiheit.de/wissen/geschichte/2026/polnisch-litauischer-adelssohn-dzierzynski-organisierte-den-sowjetterror/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "disappointment",
+      "top_emotions": [
+        {
+          "emotion": "disappointment",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 16,
+      "sample_titles": [
+        "Gazastreifen: Satellitenbilder zeigen: Ein Erdwall, 23 Kilometer lang",
+        "Soziale Medien: Frankreich beschließt Social-Media-Verbot für unter 15-Jährige",
+        "Bundeskriminalamt: Mehr als 20.000 Kinder und Jugendliche Opfer sexuellen Missbrauchs",
+        "Digitalisierung und Umwelt: Die KI wird ein Ökokiller"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/ausland/2026-07/gazastreifen-israel-grenze-erdwall-westjordanland-satellitenbilder",
+        "https://www.zeit.de/digital/2026-07/social-media-verbot-frankreich-gesetz-jugendliche",
+        "https://www.zeit.de/gesellschaft/2026-07/sexueller-missbrauch-kinder-jugendliche-zahlen-anstieg",
+        "https://www.zeit.de/wirtschaft/2026-07/digitalisierung-umwelt-kuenstliche-intelligenz-klimaschaden-emissionshandel"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 2
+        },
+        {
+          "emotion": "disappointment",
+          "count": 1
+        }
+      ]
     },
     "achgut": {
       "source_id": "achgut",
@@ -492,16 +501,16 @@
       "bias": "far-right",
       "article_count": 8,
       "sample_titles": [
-        "Ausgestoßene der Woche: Kehrwoche in Gelsenkirchen",
-        "Immer neue Kleider für den militärisch-industriellen Komplex",
-        "Mein 15. Juli 2016: Der Tag von Erdogans Putsch-Inszenierung",
-        "Ob die AfD rechtsextrem ist, entscheidet die Evangelische Kirche"
+        "Dritter Akt, letzter Aufzug, Bundes­verfassungs­gericht – das Recht tritt ab",
+        "Mit Babyfabriken am Ende der menschlichen Freiheit",
+        "Das Handy – der teuerste Schnuller der Welt",
+        "Der Sonntagsfahrer: Nässie und die Krokodile"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/ausgestossene_der_woche_kehrwoche_in_gelsenkirchen",
-        "https://www.achgut.com/artikel/immer_neue_kleider_fuer_den_militaerisch_industriellen_komplex",
-        "https://www.achgut.com/artikel/mein_15_juli_2016_der_tag_von_erdogans_putsch_inszenierung",
-        "https://www.achgut.com/artikel/Ob_die_AfD_rechtsextrem_ist_entscheidet_die_evangelische_kirche"
+        "https://www.achgut.com/artikel/dritter_akt_letzter_aufzug_bundesverfassungsgericht_das_recht_tritt_ab",
+        "https://www.achgut.com/artikel/Mit_Babyfabriken_am_Ende_der_menschlichen_freiheit",
+        "https://www.achgut.com/artikel/das_handy_der_teuerste_schnuller_der_welt",
+        "https://www.achgut.com/artikel/der_sonntagsfahrer_naessie_und_die_krokodile"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -510,18 +519,14 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 2,
       "sample_titles": [
-        "KI-Konferenz in Shanghai: China fordert mehr Kooperation",
-        "News kompakt: USA blockieren wieder iranische Seehäfen",
-        "Steinwurf auf Polizeiauto: DNA-Test für Hochhausbewohner",
-        "Cyberangriffe: EU verhängt Sanktionen gegen Russland"
+        "Tote bei russischem Angriff auf türkisches Frachtschiff",
+        "KI-Konferenz in Shanghai: China fordert mehr Kooperation"
       ],
       "urls": [
-        "https://www.dw.com/de/ki-konferenz-in-shanghai-china-fordert-mehr-kooperation/a-78004826?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/news-kompakt-usa-blockieren-wieder-iranische-seehäfen/a-77961573?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/steinwurf-auf-polizeiauto-dna-test-für-hochhausbewohner/a-77947008?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/cyberangriffe-eu-verhängt-sanktionen-gegen-russland/a-77934996?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/tote-bei-russischem-angriff-auf-türkisches-frachtschiff/a-78032410?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/ki-konferenz-in-shanghai-china-fordert-mehr-kooperation/a-78004826?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -532,34 +537,39 @@
       "bias": "conservative-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Erdoğans Neuordnung des türkischen Staates - Vom Putschversuch zum autokratischen Präsidialsystem"
+        "Ist Leihmutterschaft ethisch zulässig? - Geliebte Kinder Gottes einerseits, Baby-Kauf andererseits"
       ],
       "urls": [
-        "https://www.cicero.de/aussenpolitik/zehn-jahre-putschversuch-turkei"
+        "https://www.cicero.de/innenpolitik/ist-leihmutterschaft-ethisch-zulassig-geliebte-kinder-gottes-einerseits-baby-kauf-andererseits"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "populist-mixed": 73,
-    "right-conservative": 156,
-    "economic-liberal": 63,
-    "conservative-liberal": 158,
-    "left-liberal": 175,
-    "neutral": 101,
-    "left": 38,
-    "far-right": 36
+    "populist-mixed": 84,
+    "right-conservative": 146,
+    "economic-liberal": 58,
+    "conservative-liberal": 140,
+    "left-liberal": 166,
+    "neutral": 118,
+    "far-right": 57,
+    "left": 31
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber beobachtet, dass der Ausbau von Breitband- und 5G-Netzen als Grundvoraussetzung für die Wettbewerbsfähigkeit der deutschen Wirtschaft gilt, wobei sowohl linke als auch rechte Medien die aktuelle Verzögerung kritisieren und staatliche Förderprogramme fordern. Gleichzeitig besteht ein einheitliches Bild, dass der EU-AI-Act und strengere Datenschutz- sowie Cybersicherheitsvorschriften notwendig sind, um das Vertrauen der Bevölkerung in KI-Anwendungen zu sichern, wobei alle Lager betonen, dass regulatorische Klarheit Investitionen in Forschung und industrielle Anwendung fördern würde. Schließlich teilen die meisten Beiträge die Einschätzung, dass die digitale Bildung in Schulen und die Qualifizierung von Fachkräften zentrale Handlungsfelder sind, weil ohne gezielte Weiterbildungsmaßnahmen die Risiken von Arbeitsplatzverlusten durch Automatisierung nicht bewältigt werden können.",
-      "controversial_points": "Im Diskurs kollidieren liberale Wirtschaftslösungen, die KI-Freiheit fordern, mit sozialdemokratischer Forderung nach starker Regulierung. Datenschutzvertreter betonen Grundrechtsschutz, während Unternehmen den Ausbau digitaler Infrastruktur als Wachstumsmotor sehen. Der EU-AI-Act erzeugt Spannungen zwischen nationaler Souveränität und europäischer Harmonisierung. Gewerkschaften warnen vor Arbeitsplatzverlust durch Automatisierung, während Fachverbände Fachkräftebedarf betonen. Der digitale Graben zwischen städtischen Metropolen und ländlichen Regionen verschärft sich."
+      "shared_perspectives": "",
+      "controversial_points": ""
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum agree that the state must accelerate broadband and 5G rollout and fund a coordinated digital infrastructure programme, because without reliable connectivity the country cannot compete in the AI-driven European market. At the same time there is a shared conviction that strong data-protection rules and a clear regulatory framework such as the EU AI Act are essential to curb the risks of opaque large-language models and to safeguard privacy and security. Finally, most outlets, from liberal to conservative, stress that AI will boost productivity but will also reshape the labour market, prompting a consensus call for targeted up-skilling and education policies to mitigate employment displacement.",
-      "controversial_points": "German media clash over AI regulation versus industry growth. Data protection advocates demand strict rules while firms push for flexible standards. Labor unions fear job losses from automation, governments stress digital skills training. EU AI Act sparks debate on national sovereignty versus European harmonization. Rural broadband gaps expose a digital divide that fuels political polarization."
+      "shared_perspectives": "Across the political spectrum German media converge on the view that artificial‑intelligence systems pose concrete security and misuse risks, as illustrated by repeated reports of OpenAI‑related breaches, and therefore call for stronger oversight, liability rules and coordinated national implementation of the EU AI Act. At the same time there is a shared emphasis on the urgency of expanding digital infrastructure and building AI‑related skills, with frequent calls for faster broadband rollout, industry‑wide training programmes and education reforms to keep Germany competitive in Europe. Finally, coverage uniformly treats recent EU‑level regulatory moves, such as youth‑social‑media bans, as necessary but insufficient, urging German authorities to translate them into effective domestic policy.",
+      "controversial_points": "The debate pits market‑driven AI innovation against strict data‑protection and sovereignty concerns. Liberal outlets emphasize competitiveness and investment, while conservative media stress regulatory safeguards and national security. Labor unions and left‑leaning papers focus on job displacement risks, demanding stronger social safety nets. EU‑level AI legislation becomes a battleground where sovereignty advocates clash with proponents of harmonized market rules."
     }
   },
-  "cached_at": "2026-07-18T06:37:53.385914"
+  "cached_at": "2026-07-22T07:13:11.712853"
 }
