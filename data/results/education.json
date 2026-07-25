@@ -1,104 +1,38 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 800,
+  "article_count": 228,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 137,
-      "sample_titles": [
-        "Verbeamtete Pädagogin: 17 Jahre krankgeschriebene Lehrerin klagt gegen Versetzung in Ruhestand",
-        "Brosius-Gersdorf zu Spahn: Der Körper als Ware",
-        "Wissenschaftliche Rezension: Wie differenziert darf man über die AfD berichten?",
-        "Schülerprojekt: „Demokratie ist übertrieben wichtig“"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/17-jahre-krankgeschrieben-lehrerin-aus-nrw-klagt-gegen-ruhestand-201052290.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/frauke-brosius-gersdorf-die-uebergangene-wuerde-der-leihmutter-201050073.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/rechtspopulismus-und-homosexualitaet-wie-differenziert-darf-man-ueber-die-afd-berichten-accg-201040712.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/demokratie-machen-rapper-rico-montero-vermittelt-politische-bildung-201006979.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 14
-        },
-        {
-          "emotion": "optimism",
-          "count": 11
-        },
-        {
-          "emotion": "admiration",
-          "count": 7
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 112,
+      "article_count": 52,
       "sample_titles": [
-        "Verteidigungsminister Pistorius bei KNDS in Kassel: \"Aufbruchsgeist im Werk spürbar\"",
-        "Lehrerin in Wesel will nicht in den Ruhestand gehen",
-        "Trend bei Ausbildungen: Handwerk statt Hochschule",
-        "Warum 39.000 Stellen unbesetzt bleiben"
+        "Förderprogramm läuft aus: Sprach-Kitas in Hessen bangen um ihre Zukunft",
+        "Erstklässler mussten Kothaufen aufsammeln: Pädagoge kritisiert \"kollektive Bestrafung\"",
+        "Frauenanteil an saarländischen Schulen wächst weiter",
+        "Zu teuer für die Stadt: Albstadt will eine erfolgreiche Schule schließen"
       ],
       "urls": [
-        "https://www.hessenschau.de/wirtschaft/verteidigungsminister-pistorius-bei-knds-in-kassel-aufbruchsgeist-im-werk-spuerbar-v1,pistorius-knds-kassel-100.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/duisburg/lehrerin-krankgeschrieben-102.html",
-        "https://www.rbb24.de/panorama/beitrag/2026/07/brandenburg-ausbildung-handwerk-bewerbung-abitur.html",
-        "https://www1.wdr.de/nrw/sauerland-siegerland/azubis-jobs-stellen-markt-nrw-100.html"
+        "https://www.hessenschau.de/politik/foerderprogramm-laeuft-aus-sprach-kitas-in-hessen-bangen-um-ihre-zukunft-v1,sprachkita-kuerzungen-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/paedagoge-einordnung-toiletten-vorfall-an-schule-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/frauenanteil_an_saarlaendischen_schulen_gestiegen_100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/albstadt-will-schulen-schliessen-rat-entscheidet-100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 9
+          "emotion": "desire",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 3
         },
         {
           "emotion": "confusion",
-          "count": 4
-        },
-        {
-          "emotion": "disapproval",
-          "count": 3
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 99,
-      "sample_titles": [
-        "„Ich möchte gestalten, nicht nur reagieren“ – Hamburgs neue Beauftragte setzt klare Ziele",
-        "Frankreich beschließt als erstes EU-Land ein Social-Media-Verbot für unter 15-Jährige",
-        "„Der Staat muss bei Legalisierung Vorkehrungen zum Schutz vor Zwang und wirtschaftlicher Ausbeutung treffen“",
-        "Der fatale Sparplan gegen Deutschlands Mittelstand"
-      ],
-      "urls": [
-        "https://www.welt.de/regionales/hamburg/article6a5f99d12937e4865893ee53/antisemitismus-ich-moechte-gestalten-nicht-nur-reagieren-hamburgs-neue-beauftragte-setzt-klare-ziele.html",
-        "https://www.welt.de/politik/ausland/article6a5fb3b5fb6c4ab717fca35a/social-media-frankreich-beschliesst-als-erstes-eu-land-ein-verbot-fuer-unter-15-jaehrige.html",
-        "https://www.welt.de/politik/deutschland/video6a5fa1aafb6c4ab717fc9e54/debatte-um-leihmutterschaft-der-staat-muss-bei-legalisierung-vorkehrungen-zum-schutz-vor-zwang-und-wirtschaftlicher-ausbeutung-treffen.html",
-        "https://www.welt.de/wirtschaft/plus6a5debb0c72232627649ded3/subventionen-der-fatale-sparplan-gegen-deutschlands-mittelstand.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 4
-        },
-        {
-          "emotion": "sadness",
-          "count": 3
-        },
-        {
-          "emotion": "anger",
           "count": 3
         }
       ]
@@ -107,131 +41,98 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 69,
+      "article_count": 34,
       "sample_titles": [
-        "Kriminalität: Uni Trier nach zweitem Todesfall binnen Tagen erschüttert",
-        "Gewalttat an Gymnasium: Nach Messerattacke in Schongau: Mädchen aus Klinik entlassen",
-        "Weltraum-Schrott: Teil von SpaceX-Rakete könnte ungeplant auf Mond aufschlagen",
-        "Bedrohte Sprache: Erstmals zwölf Bewerber für neues Sorbisch-Lehramtsstudium"
+        "Fachkräftemangel: Chemiebranche will mehr Ausbildungsplätze sichern",
+        "Wunschschule: Keine Wunschschule für Fünftklässler per Gericht",
+        "Umstrittene Maßnahme: Dienstaufsichtsbeschwerde nach Kothaufen-Vorfall an Schule",
+        "Zahl von Habilitationen in Deutschland 2025 leicht gestiegen"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/kriminalitaet--uni-trier-nach-zweitem-todesfall-binnen-tagen-erschuettert-37995044.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/gewalttat-an-gymnasium--nach-messerattacke-in-schongau--maedchen-aus-klinik-entlassen-37990194.html",
-        "https://www.stern.de/panorama/wissen/weltraum-schrott--teil-von-spacex-rakete-koennte-ungeplant-auf-mond-aufschlagen-37988446.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/bedrohte-sprache--erstmals-zwoelf-bewerber-fuer-neues-sorbisch-lehramtsstudium-37985874.html"
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/fachkraeftemangel--chemiebranche-will-mehr-ausbildungsplaetze-sichern-38005392.html",
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/wunschschule--keine-wunschschule-fuer-fuenftklaessler-per-gericht-38002912.html",
+        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/umstrittene-massnahme--dienstaufsichtsbeschwerde-nach-kothaufen-vorfall-an-schule-37999588.html",
+        "https://www.stern.de/news/zahl-von-habilitationen-in-deutschland-2025-leicht-gestiegen-37997172.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 7
-        },
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "confusion",
           "count": 3
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 67,
-      "sample_titles": [
-        "Indien: Die größte Demokratie der Welt verdrischt ihre Talente mit Schlagstöcken",
-        "Deutschland: Konjunkturerwartungen verbessern sich",
-        "Nordrhein-Westfalen: Lehrerin 17 Jahre krankgeschrieben – Streit um volle Bezüge",
-        "Emanuel Lasker: Deutscher Schachweltmeister bekommt endlich ein Stück seiner Würde zurück"
-      ],
-      "urls": [
-        "https://www.spiegel.de/ausland/indien-die-groesste-demokratie-der-welt-verdrischt-ihre-talente-mit-schlagstoecken-a-5725367c-84e3-4d9a-a50c-ddc1c56a874c#ref=rss",
-        "https://www.spiegel.de/wirtschaft/deutschland-konjunkturerwartungen-verbessern-sich-a-bc0b9ae3-97bc-4ee2-b26b-2e185382e573#ref=rss",
-        "https://www.spiegel.de/panorama/bildung/nordrhein-westfalen-lehrerin-17-jahre-krankgeschrieben-streit-um-volle-bezuege-a-33ccff0b-5867-4709-b2bc-5735e61a3711#ref=rss",
-        "https://www.spiegel.de/sport/schach/emanuel-lasker-deutscher-schachweltmeister-bekommt-endlich-ein-stueck-seiner-wuerde-zurueck-a-e034d1e0-8300-4cba-a682-c408fb9ffa59#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 5
         },
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 3
         },
-        {
-          "emotion": "curiosity",
-          "count": 5
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 52,
-      "sample_titles": [
-        "17 Jahre krankgeschrieben:  Lehrerin kämpft gegen Zwangspensionierung",
-        "Explosion zweier Sterne: Erstmals doppelter Supernova-Überrest in der Milchstraße entdeckt",
-        "Sollen Anschläge geplant haben: Staatsanwaltschaft klagt zwei mögliche IS-Anhänger an",
-        "Kabinettsumbildung in London: Neuer britischer Premier holt zurückgetretenen Verteidigungsminister zurück"
-      ],
-      "urls": [
-        "https://www.n-tv.de/panorama/Lehrerin-kaempft-gegen-Zwangspensionierung-id31110749.html",
-        "https://www.n-tv.de/wissen/Erstmals-doppelter-Supernova-Ueberrest-in-der-Milchstrasse-entdeckt-id31108516.html",
-        "https://www.n-tv.de/politik/Staatsanwaltschaft-klagt-zwei-moegliche-IS-Anhaenger-an-id31109008.html",
-        "https://www.n-tv.de/politik/Neuer-britischer-Premier-holt-zurueckgetretenen-Verteidigungsminister-zurueck-id31107083.html"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
         {
           "emotion": "anger",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
           "count": 2
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 46,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 34,
       "sample_titles": [
-        "Schulen in der Hitzewelle: Hitzefrei fürs Hirn",
-        "Sozialpsychologin Pia Lamberty: „Wenn Irrationalität zum Standard wird, wird’s problematisch“",
-        "Rechte Verlage im Literaturbetrieb: „Es geht um die kulturelle Stabilisierung eines Milieus“",
-        "AfD-Fakes gegen Postkolonialismus: Weiße Schuld weißwaschen"
+        "Studium und Ausbildung: Ist das Handwerk wieder cool?",
+        "Coaching für Kinder: Was helfen kann, wenn sich die Schule doof anfühlt",
+        "Besuch im Klassenzimmer: Erzählroboter lockt schüchterne Grundschüler zum Sprechen",
+        "Barbara Bingel: Von der Lehrerin zur Literaturveranstalterin"
       ],
       "urls": [
-        "https://taz.de/Schulen-in-der-Hitzewelle/!6192592/",
-        "https://taz.de/Sozialpsychologin-Pia-Lamberty/!6192526/",
-        "https://taz.de/Rechte-Verlage-im-Literaturbetrieb/!6195811/",
-        "https://taz.de/AfD-Fakes-gegen-Postkolonialismus/!6196171/"
+        "https://www.faz.net/aktuell/feuilleton/studie-ausbildungsberufe-werden-beliebter-201058491.html",
+        "https://www.faz.net/aktuell/besser-leben/familie/was-helfen-kann-wenn-sich-die-schule-doof-anfuehlt-accg-200924538.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/klassenzimmer/wie-ein-erzaehlroboter-schuechterne-grundschueler-foerdert-accg-201015041.html",
+        "https://www.faz.net/aktuell/rhein-main/kultur/barbara-bingel-lyriknacht-und-horst-bingel-preis-in-frankfurt-accg-201048086.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 5
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "realization",
+          "count": 3
         },
         {
           "emotion": "confusion",
-          "count": 4
+          "count": 2
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 20,
+      "sample_titles": [
+        "Verbeamtete Lehrerin in NRW 17 Jahre durchgehend krankgeschrieben",
+        "Fast 17 Jahre nicht im Dienst – Dauerkranke Lehrerin bekam offenbar trotzdem Lohnerhöhungen",
+        "Frankreich beschließt als erstes EU-Land ein Social-Media-Verbot für unter 15-Jährige",
+        "Nach Amtsarzt-Untersuchung – Streit um jahrelang krankgeschriebene Lehrerin geht in nächste Runde"
+      ],
+      "urls": [
+        "https://www.welt.de/videos/video6a638193fe2765826e0fc552/bei-vollem-gehalt-verbeamtete-lehrerin-in-nrw-17-jahre-durchgehend-krankgeschrieben.html",
+        "https://www.welt.de/politik/video6a62f6fa26ebb8e13e2ef475/skandal-in-nrw-fast-17-jahre-nicht-im-dienst-dauerkranke-lehrerin-bekam-offenbar-trotzdem-lohnerhoehungen.html",
+        "https://www.welt.de/politik/ausland/article6a5fb3b5fb6c4ab717fca35a/social-media-frankreich-beschliesst-als-erstes-eu-land-ein-verbot-fuer-unter-15-jaehrige.html",
+        "https://www.welt.de/vermischtes/article6a5f7807668d28f8978b1b7b/bericht-streit-um-jahrelang-krankgeschriebene-lehrerin-geht-in-naechste-runde.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 4
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
         }
       ]
     },
@@ -239,32 +140,65 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 40,
+      "article_count": 19,
       "sample_titles": [
-        "Zufriedenheit: Warum sind die Finnen so verdammt glücklich?",
-        "Rosenheim: Polizeieinsatz an Schule wegen Spielzeugwaffe",
-        "Bildung im Landkreis Fürstenfeldbruck: Endlich schöner lernen",
-        "Migration: Volkshochschulen werfen der Regierung „Demontage“  der Integrationskurse vor"
+        "Bafög: „Im letzten Jahr habe ich zwölf Monate auf mein Geld gewartet“",
+        "Kinderbetreuung in der Schule: Kommt eine Mensa geflogen",
+        "Studie: Ausbildung ist beliebteste Option nach der Schule",
+        "Hackerangriff: Wenn die KI ins Lehrerzimmer einbricht"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/projekte/artikel/magazin/glueck-finnland-bildung-zufriedenheit-gluecksforschung-world-happiness-report-e123880/",
-        "https://www.sueddeutsche.de/bayern/rosenheim-polizeieinsatz-spielzeugwaffe-schule-li.3519334",
-        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/fos-germering-neubau-schueler-planung-li.3512675",
-        "https://www.sueddeutsche.de/politik/integrationskurse-deutschland-streit-kuerzungen-finanzierung-li.3516370"
+        "https://www.sueddeutsche.de/panorama/bafoeg-deutschland-probleme-reformen-studienfinanzierung-li.3512763",
+        "https://www.sueddeutsche.de/muenchen/wolfratshausen/geretsried-isardammschule-anbau-modulbauweise-mittagsbetreuung-li.3519783",
+        "https://www.sueddeutsche.de/wirtschaft/ausbildung-umfrage-studie-beruf-li.3520503",
+        "https://www.sueddeutsche.de/wirtschaft/ki-hack-open-ai-hugging-face-sicherheitsluecken-li.3519795"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "realization",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 13,
+      "sample_titles": [
+        "Ausbildung: Großteil der jungen Menschen blickt positiv auf Ausbildungsberufe",
+        "Sozialversicherungensfachangestellte (Sofa) werden: Gehalt, Aufgaben, Karrierechancen",
+        "KI im Studium: Wie setzen Studierende künstliche Intelligenz am Campus ein?",
+        "Ausbildung: Zahl der Ausbildungsverträge im Handwerk steigt viertes Jahr in Folge"
+      ],
+      "urls": [
+        "https://www.spiegel.de/start/ausbildung-grossteil-der-jungen-menschen-blickt-positiv-auf-ausbildungsberufe-a-6f9ba73c-46a5-420d-b2f5-f39031ed7ba5#ref=rss",
+        "https://www.spiegel.de/start/sozialversicherungensfachangestellte-sofa-werden-gehalt-aufgaben-karrierechancen-a-eddf9c5a-68ea-4945-b5a6-afcbee363f77#ref=rss",
+        "https://www.spiegel.de/start/ki-im-studium-wie-setzen-studierende-kuenstliche-intelligenz-am-campus-ein-a-80e79028-a9b2-4d82-a89a-de717732e14f#ref=rss",
+        "https://www.spiegel.de/karriere/ausbildung-zahl-der-ausbildungsvertraege-im-handwerk-steigt-viertes-jahr-in-folge-a-0651596e-ccb0-443e-b7a3-60902b047da8#ref=rss"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "disgust",
-          "count": 2
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
         }
       ]
     },
@@ -272,31 +206,97 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 32,
+      "article_count": 11,
       "sample_titles": [
-        "Das war die Erfolgsformel der Topteams bei der WM",
-        "Das ZDF-Sommerinterview mit Friedrich Merz",
-        "Merz offen für Kabinettsumbildung - Kritik an Spahn",
-        "Wenn die AfD regiert - was heißt das für Hochschulen?"
+        "Abmahnung wegen AfD-Aussage: Wie politisch darf Schule sein?",
+        "Wenn die AfD regiert - was heißt das für Hochschulen?",
+        "Bildung und Migration: Sind die AfD-Pläne rechtlich machbar?",
+        "\"Wir bringen das echte Leben ins Klassenzimmer\""
       ],
       "urls": [
-        "https://www.zdfheute.de/sport/fussball-wm/fussball-wm-2026-entwicklungen-taktik-analyse-100.html",
-        "https://www.zdfheute.de/video/berlin-direkt/berlin-direkt---sommerinterview-vom-19-juli-2026-100.html",
-        "https://www.zdfheute.de/politik/deutschland/bundeskanzler-friedrich-merz-zdf-sommerinterview-100.html",
-        "https://www.zdfheute.de/wissen/afd-sachsen-anhalt-hochschule-terrax-nano-ulrich-mueller-kolumne-100.html"
+        "https://www.zdfheute.de/politik/deutschland/schule-lehrer-neutralitaet-abmahnung-afd-siegmund-100.html",
+        "https://www.zdfheute.de/wissen/afd-sachsen-anhalt-hochschule-terrax-nano-ulrich-mueller-kolumne-100.html",
+        "https://www.zdfheute.de/politik/deutschland/afd-sachsen-anhalt-landtagswahl-migration-bildung-schule-100.html",
+        "https://www.zdfheute.de/panorama/life-teacher-schule-unterricht-alltagswissen-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 3
         },
         {
-          "emotion": "curiosity",
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "surprise",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 10,
+      "sample_titles": [
+        "Nach Gewalttat an Gymnasium: Söder will Rettungsmedaillen für Helfer von Schongau",
+        "Tschechien: Tschechische Regierung beschließt Handyverbot an Schulen",
+        "Bildungspolitik in Ostdeutschland: Erst Lehrermangel, bald Schülermangel",
+        "Arbeitsmarkt: Ausbildungszahlen im Handwerk steigen gegen den Wirtschaftstrend"
+      ],
+      "urls": [
+        "https://www.zeit.de/news/2026-07/24/soeder-will-rettungsmedaillen-fuer-helfer-von-schongau",
+        "https://www.zeit.de/politik/ausland/2026-07/handyverbot-schulen-tschechien-andrej-babis",
+        "https://www.zeit.de/2026/31/lehrermangel-ostdeutschland-sachsen-brandenburg-schuelerzahlen",
+        "https://www.zeit.de/wirtschaft/2026-07/ausbildung-handwerk-arbeitsmarkt-ki-industrie-gxe"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
           "count": 2
         },
         {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 9,
+      "sample_titles": [
+        "Schulen in der Hitzewelle: Hitzefrei fürs Hirn",
+        "Wahlen in Sachsen-Anhalt: Rechter Kulturkampf im Kindergarten",
+        "Schullektüre im Unterricht: Wolf statt Vorstadtkrokodile",
+        "Einigung von Schwarz-Rot: Bafög-Erhöhung kommt – aber erst später"
+      ],
+      "urls": [
+        "https://taz.de/Schulen-in-der-Hitzewelle/!6192592/",
+        "https://taz.de/Wahlen-in-Sachsen-Anhalt/!6196479/",
+        "https://taz.de/Schullektuere-im-Unterricht/!6193727/",
+        "https://taz.de/Einigung-von-Schwarz-Rot/!6194831/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
           "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -305,94 +305,57 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 30,
+      "article_count": 7,
       "sample_titles": [
+        "17 Jahre nicht im Dienst - Lohnerhöhungen für dauerkranke Lehrerin",
         "17 Jahre nicht an der Schule - Dauerkranke Lehrerin klagt gegen Ruhestand",
-        "Teures Konzentrat in der Kritik - Das halten BILD-Ernährungs-Wissenschaftler von LaVita",
-        "Wegen heftiger Szenen nach Abpfiff - Fifa leitet Verfahren gegen Argentinien ein",
-        "CDU tagt in Berlin - Union entscheidet am 29. Juli über Spahn-Nachfolge"
+        "Top-Verdienst schon in der Ausbildung - Das sind die 50 bestbezahlten Azubi-Jobs",
+        "Zoff um Sprache in der Schule - „Da sind wir bei Klassenarbeiten auf Arabisch“"
       ],
       "urls": [
+        "https://www.bild.de/regional/nordrhein-westfalen/17-jahre-nicht-im-dienst-lohnerhoehungen-fuer-dauerkranke-lehrerin-6a60da23df889b74b6648b75",
         "https://www.bild.de/regional/nordrhein-westfalen/17-jahren-nicht-an-der-schule-dauerkranke-lehrerin-klagt-gegen-ruhestand-6a5f863ffb6c4ab717fc9883",
-        "https://www.bild.de/leben-wissen/sparfochs/konzentrat-in-der-kritik-das-halten-ernaehrungs-wissenschaftler-von-lavita-6a5ddc1318722ca86615128b",
-        "https://www.bild.de/sport/fussball/wegen-heftiger-szenen-nach-abpfiff-fifa-leitet-verfahren-gegen-argentinien-ein-6a5e7f353d7c8c257075f400",
-        "https://www.bild.de/politik/cdu-tagt-in-berlin-kommt-spahns-nachfolger-hier-zum-vorstellungsgespraech-6a5de03961b8a80211aaed3f"
+        "https://www.bild.de/politik/inland/top-verdienst-in-der-ausbildung-das-sind-die-bestbezahlten-azubi-jobs-6a46896017e758bbd23e1637",
+        "https://www.bild.de/politik/inland/sprache-in-der-schule-da-sind-wir-bei-klassenarbeiten-auf-arabisch-6a59b8df29b150f031b15bb1"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "disapproval",
-          "count": 3
-        },
-        {
-          "emotion": "sadness",
-          "count": 2
+          "emotion": "approval",
+          "count": 1
         },
         {
           "emotion": "amusement",
-          "count": 2
+          "count": 1
+        },
+        {
+          "emotion": "desire",
+          "count": 1
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 26,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 7,
       "sample_titles": [
-        "KOMMENTAR - Der Bürgerkrieg vor unserer Haustür: Attacken auf Lehrer, Messergewalt und Strassenschlachten",
-        "Tage der Einmütigkeit: Andy Burnham übernimmt die Führung der Labour-Partei",
-        "Die Freimaurerei war im Orient eine Schule der Demokratie. Heute sind die Logen in den meisten arabischen Ländern verboten",
-        "«Grösser als die industrielle Revolution»: 200 Ökonomen und Tech-Bosse warnen vor KI. Selbst frühere Skeptiker sind nun alarmiert"
+        "Beamtin will weiter volle Bezüge : 17 Jahre krankgeschrieben - Lehrerin kämpft gegen Pensionierung",
+        "17 Jahre krankgeschrieben:  Lehrerin kämpft gegen Zwangspensionierung",
+        "900 Punkte: Was bringt der perfekte Abi-Schnitt?",
+        "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut"
       ],
       "urls": [
-        "https://www.nzz.ch/meinung/der-buergerkrieg-vor-unserer-haustuer-attacken-auf-lehrer-messergewalt-und-strassenschlachten-ld.10015687",
-        "https://www.nzz.ch/international/tage-der-einmuetigkeit-andy-burnham-uebernimmt-die-fuehrung-der-labour-partei-ld.10015947",
-        "https://www.nzz.ch/feuilleton/die-freimaurerei-war-im-orient-eine-schule-der-demokratie-heute-sind-die-logen-in-den-meisten-arabischen-laendern-verboten-ld.10015642",
-        "https://www.nzz.ch/wirtschaft/groesser-als-die-industrielle-revolution-200-oekonomen-und-tech-bosse-warnen-vor-ki-selbst-fruehere-skeptiker-sind-nun-alarmiert-ld.10015350"
+        "https://www.n-tv.de/panorama/17-Jahre-krankgeschrieben-Lehrerin-kaempft-gegen-Pensionierung-id31110749.html",
+        "https://www.n-tv.de/panorama/Lehrerin-kaempft-gegen-Zwangspensionierung-id31110749.html",
+        "https://www.n-tv.de/panorama/Was-bringt-der-perfekte-Abi-Schnitt-id31084736.html",
+        "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "realization",
-          "count": 2
-        },
         {
           "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 23,
-      "sample_titles": [
-        "Tschechien: Tschechische Regierung beschließt Handyverbot an Schulen",
-        "Proteste in Neu-Delhi: Indische Polizei geht mit Gewalt gegen junge Demonstranten vor",
-        "Bildungspolitik in Ostdeutschland: Erst Lehrermangel, bald Schülermangel",
-        "Arbeitsmarkt: Ausbildungszahlen im Handwerk steigen gegen den Wirtschaftstrend"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/ausland/2026-07/handyverbot-schulen-tschechien-andrej-babis",
-        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-07/proteste-neu-delhi-kakerlaken-partei-polizei",
-        "https://www.zeit.de/2026/31/lehrermangel-ostdeutschland-sachsen-brandenburg-schuelerzahlen",
-        "https://www.zeit.de/wirtschaft/2026-07/ausbildung-handwerk-arbeitsmarkt-ki-industrie-gxe"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 3
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "annoyance",
@@ -404,80 +367,54 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 22,
+      "article_count": 5,
       "sample_titles": [
-        "Die demographische Alterung ist eine Strohmann-Argumentation",
+        "17 Jahre dauerkrank: Lehrerin prozessiert gegen Ruhestand",
         "Vorlesung zu Trans-Ideologien: Studentenvertreter gehen gegen Professorin vor",
-        "Verfassungspreis für Mai Thi Nguyen-Kim",
-        "Deutsch als Unterrichtssprache demnächst nachrangig?"
+        "Deutsch als Unterrichtssprache demnächst nachrangig?",
+        "Berlin quartiert Süchtige in Grundschule ein"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/die-demographische-alterung-ist-eine-strohmann-argumentation/",
+        "https://www.tichyseinblick.de/daili-es-sentials/17-jahre-dauerkrank-lehrerin-prozessiert-gegen-ruhestand/",
         "https://www.tichyseinblick.de/meinungen/vorlesung-studentenvertreter-gegen-professorin/",
-        "https://www.tichyseinblick.de/daili-es-sentials/verfassungspreis-fuer-mai-thi-nguyen-kim/",
-        "https://www.tichyseinblick.de/meinungen/deutsch-unterrichtssprache-nachrangig/"
+        "https://www.tichyseinblick.de/meinungen/deutsch-unterrichtssprache-nachrangig/",
+        "https://www.tichyseinblick.de/meinungen/berlin-grundschule-kreuzberg-suechtige/"
       ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 19,
+      "article_count": 3,
       "sample_titles": [
-        "Spahn-Rücktritt: „Merz hat Führung gezeigt – allerdings spät“",
-        "Beratung: Die sieben Erfolgsfaktoren von McKinsey – und ihre Schattenseiten",
-        "Spionage: Union warnt deutsche Drohnenforscher vor Hilfe für Russlands Rüstungsindustrie",
-        "Unionsfraktion: „Es könnte eine Gelegenheit sein“: Merz schließt nach Spahn-Rücktritt Kabinettsumbildung nicht aus"
+        "Interview: Präsident der Saar-Uni: „Wir müssen mit Einschränkungen der Wissenschaftsfreiheit leben“",
+        "Arbeitsmarkt: Millionenschwere Hilfe zur Qualifizierung erreicht nur 350 Beschäftigte",
+        "Strukturwandel: Förderung zur Weiterbildung in der Transformation kaum genutzt"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/spahn-ruecktritt-merz-hat-fuehrung-gezeigt-allerdings-spaet/100241326.html",
-        "https://www.handelsblatt.com/unternehmen/dienstleister/beratung-sieben-erfolgsfaktoren-von-mckinsey-und-ihre-schattenseiten/100238838.html",
-        "https://www.handelsblatt.com/politik/deutschland/spionage-politik-warnt-forscher-vor-hilfe-fuer-russlands-ruestungsindustrie/100240827.html",
-        "https://www.handelsblatt.com/politik/deutschland/unionsfraktion-merz-schliesst-nach-spahn-ruecktritt-kabinettsumbildung-nicht-aus/100241284.html"
+        "https://www.handelsblatt.com/politik/deutschland/cispa-wir-muessen-mit-einschraenkungen-der-wissenschaftsfreiheit-leben/100239796.html",
+        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-millionenschwere-hilfe-zur-qualifizierung-erreicht-nur-350-beschaeftigte/100239088.html",
+        "https://www.handelsblatt.com/politik/deutschland/strukturwandel-foerderung-zur-weiterbildung-in-der-transformation-kaum-genutzt/100239088.html"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 13,
+      "article_count": 3,
       "sample_titles": [
         "„Asta“ ruft zu Demo auf Linke fordern Entlassung von Professorin wegen Vorlesung über Transidentität",
-        "Erinnerung an linken Terrorismus Lernort „Landshut“ erleidet schwere Bruchlandung",
-        "Beim Bier schwitzen Löyly statt Regelpaket – die finnische Sauna",
-        "Wissenschaftsbetrieb Wie der Bund die Forschung kontrolliert"
+        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen",
+        "Mitarbeiter zu dumm? Lauterbach begründet Volkswagen-Niedergang mit „Bildungspolitik“"
       ],
       "urls": [
         "https://jungefreiheit.de/politik/deutschland/2026/linke-fordern-entlassung-von-professorin-wegen-vorlesung-ueber-transidentitaet/",
-        "https://jungefreiheit.de/politik/deutschland/2026/lernort-landshut-erleidet-schwere-bruchlandung/",
-        "https://jungefreiheit.de/kultur/2026/loeyly-statt-regelpaket-die-finnische-sauna/",
-        "https://jungefreiheit.de/kultur/2026/wie-der-bund-die-forschung-kontrolliert/"
+        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/lauterbach-begruendet-vw-niedergang-mit-bildungspolitik/"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -488,10 +425,6 @@
         {
           "emotion": "amusement",
           "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
         }
       ]
     },
@@ -499,65 +432,36 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 12,
-      "sample_titles": [
-        "Mit Babyfabriken am Ende der menschlichen Freiheit",
-        "„Ich bekam den Stempel der antimuslimischen Rassistin“",
-        "Plädoyers im Prozess gegen Nadine D.",
-        "Der Feminist Trump"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/Mit_Babyfabriken_am_Ende_der_menschlichen_freiheit",
-        "https://www.achgut.com/artikel/ich_bekam_den_stempel_der_antimuslimischen_rassistin",
-        "https://www.achgut.com/artikel/plaedoyers_im_prozess_gegen_nadine_d",
-        "https://www.achgut.com/artikel/der_feminist_trump"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
       "article_count": 1,
       "sample_titles": [
-        "News kompakt: Festnahmen in der Türkei vor NATO-Gipfel"
+        "Handyverbot an Schulen: Ein Smartphone ist keine Zigarette"
       ],
       "urls": [
-        "https://www.dw.com/de/news-kompakt-festnahmen-in-der-türkei-vor-nato-gipfel/a-77843147?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.achgut.com/artikel/handyverbot_an_schulen_ein_smartphone_ist_keine_zigarette"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 151,
-    "far-right": 47,
-    "populist-mixed": 30,
-    "conservative-liberal": 163,
-    "left-liberal": 199,
-    "neutral": 145,
-    "economic-liberal": 19,
-    "left": 46
+    "right-conservative": 27,
+    "left-liberal": 76,
+    "neutral": 63,
+    "far-right": 9,
+    "conservative-liberal": 34,
+    "populist-mixed": 7,
+    "economic-liberal": 3,
+    "left": 9
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Synthese nicht verfügbar.",
-      "controversial_points": "Synthese nicht verfügbar."
+      "shared_perspectives": "Unabhängig von politischer Ausrichtung wird in deutschen Medien ein grundlegendes Ressourcenproblem des Bildungssystems thematisiert, das sich in Lehrkräftemangel, mangelhafter Infrastruktur und Finanzierungslücken manifestiert und alle Bereiche von der Kita bis zur Hochschule betrifft. Parallel existiert über das gesamte Spektrum hinweg eine Debatte über die Passung zwischen Bildungssystem und Arbeitsmarkt, insbesondere bezüglich der Attraktivität beruflicher Ausbildungen und der Vermittelbarkeit von Qualifikationen in einem sich wandelnden Arbeitsumfeld. Die Frage nach Chancengleichheit und sozialer Gerechtigkeit im Bildungszugang, etwa beim BAföG oder bei Schulplatzvergabe, wird sachlich und kontinuierlich verhandelt, ohne dass dabei ideologische Polarisierung das Kernproblem überlagert.",
+      "controversial_points": "Der Mediendiskurs spaltet sich grundlegend in zwei Lager: Konservative und rechte Medien skandalisieren einzelne Systemausfälle wie die langfristig krankgeschriebene Lehrerin, um grundsätzliche Ineffizienz des öffentlichen Dienstes zu belegen, während linke Medien strukturelle Unterfinanzierung und mangelnde Unterstützung von Studierenden und Schulen thematisieren. Ein zweiter Konflikt verläuft zwischen wirtschaftsliberal-pragmatischen Positionen, die Bildung als Arbeitsmarktfähigkeit definieren, und wertekonservativen sowie linken Positionen, die Bildung als Kulturauftrag und Chancengleichheit sehen. Ein dritter Bruchpunkt entsteht um die Frage, welche Inhalte und Weltbilder in Schulen vermittelt werden dürfen: rechte Medien warnen vor ideologischer Indoktrinierung, progressive Medien thematisieren Diskriminierungsschutz und Wissenschaftsfreiheit. Schließlich zeigt sich ein struktureller Konflikt zwischen dem Föderalismus, der zu Ungleichheit zwischen Bundesländern führt, und der Forderung nach bundesweit einheitlichen Standards und ausreichender Finanzierung."
     },
     "en": {
-      "shared_perspectives": "Synthesis not available.",
-      "controversial_points": "Synthesis not available."
+      "shared_perspectives": "Across the German media spectrum, there is broad recognition that the education system faces acute structural deficits in teacher supply and retention, with widespread reporting on teacher shortages, aging teaching staff, and systemic challenges in school infrastructure that transcend left-right political divisions. German media discourse converges on the inadequacy of current vocational training pathways and BAföG support mechanisms, with both left-liberal and economic outlets documenting how students face delays in financial assistance and how skilled trades struggle to attract qualified candidates despite genuine labor market demand. A third substantive commonality centers on concerns about educational equity and resource allocation, where reports spanning moderate-conservative to left perspectives document how schools struggle with funding constraints, facility maintenance, and capacity for all-day care provision, reflecting implicit agreement that Germany's educational institutions require substantial material and personnel investment to meet contemporary demands.",
+      "controversial_points": "The central tension divides those defending traditional institutional structures and state authority from those questioning systemic adequacy. Right-conservative media focus on individual pathologies and system abuse, exemplified by the 17-year sick-leave teacher case, while left-liberal outlets emphasize structural failures like inadequate BAföG funding and chronic personnel shortages. A deeper ideological fault line separates cultural-conservative concerns about language, identity politics, and external influences from progressive commitments to inclusion and pedagogical innovation. Economic perspectives clash over whether education requires robust public investment or market-responsive efficiency measures that reallocate resources based on outcomes. Finally, fundamental disagreement exists about whether educational problems stem from excessive state bureaucracy and permissiveness or insufficient funding and political will."
     }
   },
-  "cached_at": "2026-07-22T07:22:29.993362"
+  "cached_at": "2026-07-25T07:02:46.096007"
 }

@@ -4,28 +4,61 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 110,
+      "sample_titles": [
+        "Sammlung von Keramikscherben in Jingdezhen wird Zentrum für weltweite Forschung",
+        "Mehr Risiko für die Rente? Reiche will Beiträge zur Start-up-Finanzierung nutzen",
+        "Sozialausgaben steigen weiter – fast jeder dritte Euro für Arbeitslosigkeit, Gesundheit, Rente",
+        "Mobilfunkanbieter O2 streicht 1100 Stellen und schließt 60 Shops"
+      ],
+      "urls": [
+        "https://www.welt.de/videos/video6a6223c7efccf0c0d5536f75/anzeige-sammlung-von-keramikscherben-in-jingdezhen-wird-zentrum-fuer-weltweite-forschung.html",
+        "https://www.welt.de/wirtschaft/plus6a60c69af8f59889637251a5/altersvorsorge-mehr-risiko-fuer-die-rente-reiche-will-beitraege-zur-start-up-finanzierung-nutzen.html",
+        "https://www.welt.de/wirtschaft/article6a61aa7826ebb8e13e2edf5b/deutschlands-sozialausgaben-steigen-weiter-fast-jeder-dritte-euro-fuer-arbeitslosigkeit-gesundheit-rente.html",
+        "https://www.welt.de/wirtschaft/article6a60eee8f8f59889637254c1/mobilfunkanbieter-o2-streicht-1100-stellen-und-schliesst-60-shops.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
       "article_count": 108,
       "sample_titles": [
-        "Die Macht des Kanzlers: Merz wird froh sein, dass er Spahn los ist",
-        "Altersvorsorgedepot: Wie aus einem Riester-Vertrag noch etwas werden kann",
-        "Preisverfall-Theorie: Hat das alles bald noch Wert?",
-        "Nachhaltige Finanzen: Ethifinance erwartet ein transparentes Zeitalter der Nachhaltigkeit"
+        "Nach Wettbewerbsklage: Paramount setzt Übernahme von Warner Brothers aus",
+        "Sozialstaatsreformen: Arbeitgeber warnen vor dem geplanten Rentenpaket",
+        "Vorsorge: Die Frühstartrente hat zwei Vorteile",
+        "120 Euro im Jahr vom Staat: Die Frühstartrente für Kinder kommt"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/wie-geht-es-fuer-merz-ohne-spahn-weiter-201049917.html",
-        "https://www.faz.net/premium/meine-finanzen/vorsorge/riester-reform-wann-lohnt-sich-ein-vertragswechsel-accg-201046294.html",
-        "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/haeuserpreise-und-demographischer-wandel-was-kaeufer-wissen-muessen-201031987.html",
-        "https://www.faz.net/aktuell/finanzen/nachhaltige-finanzen-macht-die-branche-fortschritte-accg-201011570.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/paramount-setzt-uebernahme-von-warner-brothers-aus-201063949.html",
+        "https://www.faz.net/aktuell/wirtschaft/arbeitgeber-warnen-vor-dem-geplanten-rentenpaket-201057363.html",
+        "https://www.faz.net/aktuell/wirtschaft/die-fruehstartrente-hat-zwei-vorteile-201054705.html",
+        "https://www.faz.net/aktuell/wirtschaft/fruehstartrente-das-staatliche-vorsorgedepot-fuer-kinder-kommt-201054376.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 14
+          "count": 13
         },
         {
           "emotion": "confusion",
@@ -43,62 +76,29 @@
       "bias": "right-conservative",
       "article_count": 108,
       "sample_titles": [
-        "Gebrauchtwagencheck: VW Sharan - beliebtes Familienauto gibts nur noch gebraucht",
-        "Rücktritt auf dem Höhepunkt: Spahn hat seine Macht gerade gesichert - dann stürzt er",
-        "Neue Regelung bei Netzengpässen: Reiche entschärft Kürzungspläne bei Ökostrom-Förderung deutlich",
-        "Tipps von Warentest: Wo man beim Mietwagen besser nicht sparen sollte"
+        "Grandioses Finish in Alpe d'Huez: Tadej Pogacar frisst Konkurrenten im Chaos gnadenlos auf",
+        "Rente, Gesundheit, Pflege: Sozialausgaben betragen ein Drittel der deutschen Wirtschaftskraft",
+        "Wellnessgetränke im Warentest: Wasser mit Vitamin- und Fruchtzusatz - gesunde Durstlöscher?",
+        "Sechsstellige Summen sind drin : Zehn Euro im Monat: So soll die Frühstartrente funktionieren"
       ],
       "urls": [
-        "https://www.n-tv.de/auto/gebrauchte/VW-Sharan-beliebtes-Familienauto-gibts-nur-noch-gebraucht-id31082637.html",
-        "https://www.n-tv.de/politik/Spahn-hat-seine-Macht-gerade-gesichert-dann-stuerzt-er-id31100770.html",
-        "https://www.n-tv.de/politik/Reiche-entschaerft-Kuerzungsplaene-bei-Oekostrom-Foerderung-deutlich-id31099299.html",
-        "https://www.n-tv.de/ratgeber/Wo-man-beim-Mietwagen-besser-nicht-sparen-sollte-id30726456.html"
+        "https://www.n-tv.de/sport/Radsport/Tadej-Pogacar-frisst-Konkurrenten-im-Chaos-gnadenlos-auf-id31123193.html",
+        "https://www.n-tv.de/politik/Sozialausgaben-betragen-ein-Drittel-der-deutschen-Wirtschaftskraft-id31117989.html",
+        "https://www.n-tv.de/ratgeber/Wasser-mit-Vitamin-und-Fruchtzusatz-gesunde-Durstloescher-id31117235.html",
+        "https://www.n-tv.de/ratgeber/Zehn-Euro-im-Monat-So-soll-die-Fruehstartrente-funktionieren-id31113825.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 10
+          "count": 9
         },
         {
           "emotion": "curiosity",
-          "count": 5
+          "count": 6
         },
         {
-          "emotion": "disapproval",
-          "count": 3
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 107,
-      "sample_titles": [
-        "2000 Euro steuerfrei – jetzt zeigt sich der Effekt der Aktivrente",
-        "Die neue Rente – Rechnen Sie hier aus, wie viel für Sie drin ist",
-        "Das sollten Sie jetzt über den Plan für die Minijobs wissen",
-        "Merz hat geliefert – aber keiner sieht’s, keiner merkt’s"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/plus6a59fe0029b150f031b1614d/aktivrente-erklaert-darauf-sollten-renter-beim-steuerbonus-jetzt-achten.html",
-        "https://www.welt.de/wirtschaft/plus6a58cd4d8e06d6769140ef16/altersvorsorge-die-neue-rente-rechnen-sie-hier-aus-wie-viel-fuer-sie-drin-ist.html",
-        "https://www.welt.de/politik/deutschland/plus6a4bb4881cbe5f3a786a8af6/rentenreform-das-sollten-sie-jetzt-ueber-den-plan-fuer-die-minijobs-wissen.html",
-        "https://www.welt.de/debatte/plus6a58d12c7a35912eb9adc5b4/sommer-bilanz-merz-hat-geliefert-aber-keiner-siehts-keiner-merkts.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "desire",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
+          "emotion": "excitement",
           "count": 2
         }
       ]
@@ -107,18 +107,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 68,
+      "article_count": 69,
       "sample_titles": [
+        "Kommentar: Jetzt könnte die Regierung mal sinnvoll Geld ausgeben – und zaudert",
+        "Jens Südekum: Deutschlands Rentenmilliarden machen mehr Investitionen möglich",
         "Moonshot gegen OpenAI: Sprachmodelle als Machtinstrument: Wem gehören Daten im KI-Zeitalter?",
-        "Riester-Nachfolger: Kommt das private Altersvorsorgedepot am 1. Januar? Die Zweifel wachsen",
-        "Elektromobilität: VW enthüllt elektrisches Mini-SUV für 28.000 Euro",
-        "Kenfo: Der Staatsfonds, der die Kapitalrente verwalten könnte, überrascht mit hoher Rendite"
+        "Riester-Nachfolger: Kommt das private Altersvorsorgedepot am 1. Januar? Die Zweifel wachsen"
       ],
       "urls": [
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-jetzt-koennte-die-regierung-mal-sinnvoll-geld-ausgeben-und-zaudert/100242149.html",
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/wirtschaftsforum-deutschlands-rentenmilliarden-machen-mehr-investitionen-moeglich/100240253.html",
         "https://www.handelsblatt.com/technik/ki/moonshot-gegen-openai-wem-gehoeren-daten-im-ki-zeitalter/100240863.html",
-        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorgedepot-banken-und-broker-sind-im-zeitplan-der-bund-nicht/100240062.html",
-        "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/volkswagen-vw-enthuellt-elektrisches-mini-suv-fuer-28.000-euro/100240449.html",
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/kenfo-erster-deutscher-staatsfonds-ueberrascht-mit-hoher-rendite/100238431.html"
+        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorgedepot-banken-und-broker-sind-im-zeitplan-der-bund-nicht/100240062.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -140,18 +140,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 65,
+      "article_count": 62,
       "sample_titles": [
+        "Altersvorsorge im Kindesalter - so soll es klappen",
+        "EU billigt Warner-Übernahme durch Paramount",
         "Minijob-Reform könnte über 1,2 Millionen Menschen in BW betreffen",
-        "Babyboomer wollen eher in den Ruhestand",
-        "Netzagentur macht Weg für Bahn-Konkurrenz frei",
-        "Söder versichert, dass \"Minijobs bleiben\""
+        "Babyboomer wollen eher in den Ruhestand"
       ],
       "urls": [
+        "https://www.tagesschau.de/inland/fruehstartrente-100.html",
+        "https://www.tagesschau.de/wirtschaft/unternehmen/warner-paramount-uebernahme-100.html",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/minijob-reform-koennte-mehr-als-12-millionen-menschen-in-bw-betreffen-100.html",
-        "https://www1.wdr.de/nrw/frueher-in-rente-nrw-100.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/bundesnetzagentur-entscheidung-fernverkehr-100.html",
-        "https://www.tagesschau.de/inland/soeder-minijobs-100.html"
+        "https://www1.wdr.de/nrw/frueher-in-rente-nrw-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -160,11 +160,11 @@
           "count": 6
         },
         {
-          "emotion": "optimism",
-          "count": 5
+          "emotion": "desire",
+          "count": 4
         },
         {
-          "emotion": "confusion",
+          "emotion": "optimism",
           "count": 4
         }
       ]
@@ -173,27 +173,27 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 61,
+      "article_count": 59,
       "sample_titles": [
+        "Paramount legt Übernahme von Warner Bros. vorübergehend auf Eis",
+        "Künstliche Intelligenz: So bedrohlich ist der autonome Hackerangriff einer KI",
         "ZDF: Inhalte der Mediathek künftig auch bei Konkurrent Joyn von ProSiebenSat zum Streaming abrufbar",
-        "Wie teuer kommen Sie die Reformen zu stehen? Oder profitieren Sie? Schreiben Sie uns!",
-        "Rente: Mehr als eine Million Babyboomer sind vorzeitig in Ruhestand",
-        "Jürgen Klopp: Vertragen sich seine Deals mit dem Amt des Bundestrainers?"
+        "Wie teuer kommen Sie die Reformen zu stehen? Oder profitieren Sie? Schreiben Sie uns!"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/unternehmen/paramount-legt-uebernahme-von-warner-bros-voruebergehend-auf-eis-a-870ecb24-6176-41ba-9eff-cf0a9b9ef5c2#ref=rss",
+        "https://www.spiegel.de/netzwelt/so-bedrohlich-ist-der-autonome-hacker-angriff-einer-ki-a-71d8d418-bc96-4050-b641-7dd98704ff88#ref=rss",
         "https://www.spiegel.de/kultur/zdf-inhalte-der-mediathek-kuenftig-auch-bei-konkurrent-joyn-von-prosiebensat-zum-streaming-abrufbar-a-c32a4d90-ee39-4224-9f37-740149ac3577#ref=rss",
-        "https://www.spiegel.de/wirtschaft/service/wie-teuer-kommen-sie-die-reformen-zu-stehen-oder-profitieren-sie-schreiben-sie-uns-a-abd4e886-19a6-40c3-9646-6929422fc568#ref=rss",
-        "https://www.spiegel.de/wirtschaft/rente-mehr-als-eine-million-babyboomer-sind-vorzeitig-in-ruhestand-a-0c1056b0-4e18-488c-b956-521ad8150aa5#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/juergen-klopp-vertragen-sich-seine-deals-mit-dem-amt-des-bundestrainers-a-5a4a6b26-f869-4b3f-a8fb-b4873e0261bd#ref=rss"
+        "https://www.spiegel.de/wirtschaft/service/wie-teuer-kommen-sie-die-reformen-zu-stehen-oder-profitieren-sie-schreiben-sie-uns-a-abd4e886-19a6-40c3-9646-6929422fc568#ref=rss"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "confusion",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 3
+          "emotion": "confusion",
+          "count": 4
         },
         {
-          "emotion": "confusion",
+          "emotion": "curiosity",
           "count": 3
         },
         {
@@ -206,18 +206,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 52,
+      "article_count": 50,
       "sample_titles": [
-        "Schon ab 100 Euro! - So planen Sie ab 40 Ihre Rente",
-        "Wir bringen Ordnung - Renten-Depot: Das müssen Sie Ihren Berater fragen",
-        "Trick für die Altersvorsorge - So wird der Coffee to go zum 340.000-Euro-Polster",
-        "Meinungsforscher erklärt - 3 Gründe, warum Schwesig wieder da ist"
+        "Politik-Vodcast: Vertraulich! - Hier baut Merz sein Kabinett um",
+        "Zwischenruf von Peter Tiede - Herr Lauterbach, Herr Klingbeil: Das ist einfach asozial!",
+        "Ikone spricht über Karrierepläne - LeBron: „Ich kann mit 65 noch in der NBA spielen“",
+        "Schon ab 100 Euro! - So planen Sie ab 40 Ihre Rente"
       ],
       "urls": [
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/rente-ab-40-warum-100-euro-im-monat-wichtig-sind-6a4e0fac43b7fd5185001b97",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/altersvorsorge-depot-diese-fragen-sollten-sie-ihrem-finanzberater-stellen-6a47bb5c2e8f13ca8ed2b184",
-        "https://www.bild.de/politik/inland/altersvorsorge-trick-so-wird-der-coffee-to-go-zum-340-000-euro-polster-6a4a4d45dbe2b30aced1acb3",
-        "https://www.bild.de/politik/inland/mecklenburg-vorpommern-drei-gruende-fuer-das-comeback-von-schwesig-und-der-spd-6a50a6395ee5db799e970c25"
+        "https://www.bild.de/politik/politik-vodcast-vertraulich-hier-baut-merz-sein-kabinett-um-6a637640166bc12eb54f4f62",
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-herr-lauterbach-herr-klingbeil-das-ist-einfach-asozial-6a61ecb9d4d33e475a7b5a86",
+        "https://www.bild.de/sport/mehr-sport/karriereende-lebron-ich-kann-mit-65-noch-in-der-nba-spielen-6a60f9ebefccf0c0d5535f31",
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/rente-ab-40-warum-100-euro-im-monat-wichtig-sind-6a4e0fac43b7fd5185001b97"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -226,7 +226,40 @@
           "count": 7
         },
         {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
           "emotion": "excitement",
+          "count": 3
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 50,
+      "sample_titles": [
+        "„Finanztip“: Frühstartrente kann erheblichen Beitrag zu Vermögensbildung leisten",
+        "Rentenreform: Ministerin zu Minijobs: Vorschlag im Grundsatz richtig",
+        "Altersvorsorge: So berechnen Rentner ihren persönlichen Steuersatz – es ist ganz einfach",
+        "EU gibt unter Auflagen grünes Licht für Übernahme von Warner Bros. durch Paramount"
+      ],
+      "urls": [
+        "https://www.stern.de/news/-finanztip---fruehstartrente-kann-erheblichen-beitrag-zu-vermoegensbildung-leisten-38004194.html",
+        "https://www.stern.de/gesellschaft/regional/thueringen/rentenreform--ministerin-zu-minijobs--vorschlag-im-grundsatz-richtig-38003992.html",
+        "https://www.stern.de/wirtschaft/geld/rente-und-steuersatz--wieviel-geben-sie-jaehrlich-dem-finanzamt-ab--37999820.html",
+        "https://www.stern.de/news/eu-gibt-unter-auflagen-gruenes-licht-fuer-uebernahme-von-warner-bros--durch-paramount-38000196.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
           "count": 3
         },
         {
@@ -268,55 +301,22 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 47,
-      "sample_titles": [
-        "Abnehmmittelhersteller Novo Nordisk verklagt Ely Lilly in den USA",
-        "Schwarz-rote Reformpläne: So viele Menschen im Land wären vom Minijob-Aus betroffen",
-        "Gesundheit und Rente: DAK-Report: Auch gesunde Arbeitnehmer wollen früh in Rente",
-        "Renten-Debatte: Umfrage: Mehrheit im Südwesten will nicht länger arbeiten"
-      ],
-      "urls": [
-        "https://www.stern.de/news/abnehmmittelhersteller-novo-nordisk-verklagt-ely-lilly-in-den-usa-37995178.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/schwarz-rote-reformplaene--so-viele-menschen-im-land-waeren-vom-minijob-aus-betroffen-37992814.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/gesundheit-und-rente--dak-report--auch-gesunde-arbeitnehmer-wollen-frueh-in-rente-37982522.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/renten-debatte--umfrage--mehrheit-im-suedwesten-will-nicht-laenger-arbeiten-37982510.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 39,
+      "article_count": 40,
       "sample_titles": [
+        "Zehn Euro im Monat: Entwurf für die Frühstartrente liegt vor",
         "Sommerinterview des Kanzlers: Merz kann jetzt seinen Machtzirkel neu ordnen",
         "Linken-Anfrage an Bundesregierung: Jedem Zweiten im Osten droht Armutsrente",
-        "Klaus Siekmann geht in Rente: Er sicherte ab, wo andere Muffensausen bekamen",
-        "Fluggastrechte in der EU: Transparentere Preise und schnellere Entschädigungen"
+        "Klaus Siekmann geht in Rente: Er sicherte ab, wo andere Muffensausen bekamen"
       ],
       "urls": [
+        "https://taz.de/Zehn-Euro-im-Monat/!6198270/",
         "https://taz.de/Sommerinterview-des-Kanzlers/!6197514/",
         "https://taz.de/Linken-Anfrage-an-Bundesregierung/!6197660/",
-        "https://taz.de/Klaus-Siekmann-geht-in-Rente/!6195769/",
-        "https://taz.de/Neue-Fluggastrechte-Schnellere-Entschaedigungen-und-transparentere-Preise/!6195637/"
+        "https://taz.de/Klaus-Siekmann-geht-in-Rente/!6195769/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -338,18 +338,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 23,
+      "article_count": 24,
       "sample_titles": [
+        "Altersvorsorge: So funktioniert die Frühstart-Rente",
         "Arbeitsleben: Umfrage: Hälfte aller Bayern will vorzeitig in Rente gehen",
         "Ehrenamt in Bayern: Die Krux mit der Feuerwehr-Rente",
-        "Fußball: Adeyemi steht unmittelbar vor einem Wechsel nach Barcelona",
-        "Dietmar Woidke im Interview: Ein Vorschlag aus Brandenburg, der Markus Söder nicht gefallen wird"
+        "Fußball: Adeyemi steht unmittelbar vor einem Wechsel nach Barcelona"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/fruehstartrente-deutschland-foerderung-kinder-li.3520077",
         "https://www.sueddeutsche.de/bayern/bayern-rente-vorzeitig-haelfte-umfrage-li.3518304",
         "https://www.sueddeutsche.de/bayern/bayern-ehrenamt-rente-feuerwehr-li.3516544",
-        "https://www.sueddeutsche.de/sport/adeyemi-dortmund-barcelona-wechsel-li.3514691",
-        "https://www.sueddeutsche.de/politik/brandenburg-energiepreise-arbeitsplaetze-strukturwandel-woidke-li.3511395"
+        "https://www.sueddeutsche.de/sport/adeyemi-dortmund-barcelona-wechsel-li.3514691"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -367,11 +367,44 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "Reformrechner: Weniger oder mehr? Das ist Ihr neues Netto",
+        "Armut im Alter: Linke warnt vor Armutsrente für Millionen Beschäftigte in Deutschland",
+        "Gesundheit und Rente: DAK-Report: Auch gesunde Arbeitnehmer wollen früh in Rente",
+        "Wirtschaftspolitik: Merz’ Problem ist nicht allein die SPD. Es ist auch Söder"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-07/reformrechner-einkommenssteuer-sozialversicherunng-einkommen-brutto",
+        "https://www.zeit.de/politik/deutschland/2026-07/rente-armutsgrenze-gesetz-beschaeftigte-ostdeutschland-gxe",
+        "https://www.zeit.de/news/2026-07/18/dak-report-auch-gesunde-arbeitnehmer-wollen-frueh-in-rente",
+        "https://www.zeit.de/politik/deutschland/2026-07/friedrich-merz-markus-soeder-rentenreform-cdu-csu-spd"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "disgust",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 21,
+      "article_count": 19,
       "sample_titles": [
         "Die demographische Alterung ist eine Strohmann-Argumentation",
         "Warkens Reform eines ineffizienten Gesundheitssystems – Nur ein tiefer Griff in die Taschen der Beitragszahler?",
@@ -400,55 +433,22 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Armut im Alter: Linke warnt vor Armutsrente für Millionen Beschäftigte in Deutschland",
-        "Gesundheit und Rente: DAK-Report: Auch gesunde Arbeitnehmer wollen früh in Rente",
-        "Wirtschaftspolitik: Merz’ Problem ist nicht allein die SPD. Es ist auch Söder",
-        "Pläne gegen Altersarmut: Abschreckende Hürden, 22 Formularseiten und hohe Dunkelziffer"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-07/rente-armutsgrenze-gesetz-beschaeftigte-ostdeutschland-gxe",
-        "https://www.zeit.de/news/2026-07/18/dak-report-auch-gesunde-arbeitnehmer-wollen-frueh-in-rente",
-        "https://www.zeit.de/politik/deutschland/2026-07/friedrich-merz-markus-soeder-rentenreform-cdu-csu-spd",
-        "https://www.zeit.de/wirtschaft/2026-06/plaene-altersarmut-rentenkommission-arbeitszeit-renteneintritt"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
       "article_count": 18,
       "sample_titles": [
+        "Mitten im Handelsstreit mit den USA: Die EU wagt die Konfrontation mit Google und spricht eine Busse von 890 Millionen Euro aus",
         "«Investoren sitzen auf Beteiligungen, die sie nicht verkaufen können», sagt Joe Bae, Co-Chef der grössten Private-Equity-Firma der Welt",
         "INTERVIEW - Radsportlegende Eddy Merckx sagt: «Ich konnte mehr leiden als meine Konkurrenten, deshalb habe ich sie alle geschlagen»",
-        "Bei der anstehenden Steuerreform zeigt sich, wer in der Koalition Koch und wer Kellner ist",
-        "«Irrweg», «Katastrophe», «Risiko für den Rechtsstaat»: Darum geht es im Kampf um die deutschen Minijobs"
+        "Bei der anstehenden Steuerreform zeigt sich, wer in der Koalition Koch und wer Kellner ist"
       ],
       "urls": [
+        "https://www.nzz.ch/wirtschaft/eu-verhaengt-890-millionen-euro-strafe-gegen-google-ld.10016712",
         "https://www.nzz.ch/wirtschaft/investoren-sitzen-auf-beteiligungen-die-sie-nicht-verkaufen-koennen-sagt-joe-bae-co-chef-der-groessten-private-equity-firma-der-welt-ld.10013940",
         "https://www.nzz.ch/sport/radsport-legende-eddy-merckx-sagt-ich-konnte-mehr-leiden-als-meine-konkurrenten-deshalb-habe-ich-sie-alle-geschlagen-ld.10013772",
-        "https://www.nzz.ch/der-andere-blick/bei-der-anstehenden-steuerreform-zeigt-sich-wer-in-der-koalition-koch-und-wer-kellner-ist-ld.10013544",
-        "https://www.nzz.ch/wirtschaft/irrweg-katastrophe-risiko-fuer-den-rechtsstaat-darum-geht-es-im-kampf-um-die-deutschen-minijobs-ld.10012913"
+        "https://www.nzz.ch/der-andere-blick/bei-der-anstehenden-steuerreform-zeigt-sich-wer-in-der-koalition-koch-und-wer-kellner-ist-ld.10013544"
       ],
       "dominant_emotion": "pride",
       "top_emotions": [
@@ -470,18 +470,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 11,
       "sample_titles": [
+        "1,43 Billionen Euro Fast jeder dritte Euro fließt in den Sozialstaat",
         "Referentenentwurf Verfassungsschutz soll Zugriff auf Wohnungen und Computer erlangen",
         "Altersarmut wächst So viele Rentner beziehen Grundsicherung",
-        "Alterssicherungskommission Warum die Rente ein strukturelles Demokratie-Defizit offenbart",
-        "Rentenreform Gesamtkunstwerk mit Schönheitsfehlern"
+        "Alterssicherungskommission Warum die Rente ein strukturelles Demokratie-Defizit offenbart"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/fast-jeder-dritte-euro-fliesst-in-den-sozialstaat/",
         "https://jungefreiheit.de/politik/deutschland/2026/verfassungsschutz-soll-zugriff-auf-wohnungen-und-computer-erlangen/",
         "https://jungefreiheit.de/wirtschaft/2026/so-viele-rentner-beziehen-grundsicherung/",
-        "https://jungefreiheit.de/wirtschaft/2026/warum-die-rente-ein-strukturelles-demokratie-defizit-offenbart/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/gesamtkunstwerk-mit-schoenheitsfehlern-vor/"
+        "https://jungefreiheit.de/wirtschaft/2026/warum-die-rente-ein-strukturelles-demokratie-defizit-offenbart/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -515,14 +515,12 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Kein Rettungsring für die Rente",
-        "Abbas bekennt sich erneut zu Terror-Renten"
+        "Kein Rettungsring für die Rente"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/kein_rettungsring_fuer_die_rente",
-        "https://www.achgut.com/artikel/abbas_bekennt_sich_erneut_zu_terrorrenten"
+        "https://www.achgut.com/artikel/kein_rettungsring_fuer_die_rente"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -543,24 +541,24 @@
     }
   },
   "bias_distribution": {
-    "far-right": 33,
     "conservative-liberal": 128,
-    "left-liberal": 151,
-    "neutral": 114,
-    "right-conservative": 215,
-    "left": 39,
-    "economic-liberal": 68,
-    "populist-mixed": 52
+    "left-liberal": 153,
+    "populist-mixed": 50,
+    "right-conservative": 218,
+    "far-right": 31,
+    "economic-liberal": 69,
+    "neutral": 111,
+    "left": 40
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg die demografische Alterung als zentrale Finanzierungsherausforderung des gesetzlichen Rentensystems benannt und ein Reformbedarf zur Sicherung der Beitragsbasis gefordert. Gleichzeitig zeigen die Beiträge einheitlich, dass die wachsende Gefahr von Altersarmut und Rentenlücken, insbesondere bei frühzeitigen Austritten aus dem Erwerbsleben, als gesellschaftliches Problem wahrgenommen wird und nach transparenteren, weniger komplexen Vorsorgemodellen wie einem vereinfachten Depot gesucht wird. Schließlich wird in nahezu allen Artikeln die Notwendigkeit betont, die Generationengerechtigkeit zu wahren, indem die Lasten zwischen Beitragszahlern und künftigen Rentnern ausgewogener verteilt werden.",
-      "controversial_points": "Das Renteneintrittsalter spaltet links‑liberale und konservative Medien über Generationengerechtigkeit. Rechtsorientierte Titel nutzen demografische Angst, während liberale Stimmen Finanzierbarkeit und soziale Absicherung betonen. Kapitalgedeckte Modelle erzeugen Konflikt zwischen Marktliberalen, die Rendite fordern, und Sozialdemokraten, die Solidarität schützen. Altersarmut wird von linken Medien als strukturelles Versagen dargestellt, während rechte Berichte Schuld auf individuelles Sparverhalten schieben."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg die demografische Alterung als zentrale Belastung der gesetzlichen Rentenversicherung hervorgehoben, wobei die Notwendigkeit einer langfristigen Finanzierungsreform betont wird. Gleichzeitig wird die Frühstartrente bzw. kapitalgedeckte Zusatzvorsorge als möglicher Baustein zur Schließung von Rentenlücken und zur Stärkung der Generationengerechtigkeit diskutiert. Schließlich finden sich in den Beiträgen von konservativen, liberalen und wirtschaftsliberalen Medien übereinstimmende Hinweise darauf, dass ein größerer Anteil des Sozialbudgets in produktive Anlagen investiert werden sollte, um die Rendite der Rentenversicherung zu erhöhen.",
+      "controversial_points": "Das Renteneintrittsalter wird zwischen Befürwortern einer Anhebung auf 70 und Verfechtern einer Frühstartrente um 63 gespalten. Die Finanzierungskonflikte drehen sich um die Belastung der Beitragszahler versus die Nutzung kapitalgedeckter Anlagen für höhere Renditen. Generationengerechtigkeit wird von linken Medien als Schutz vor Altersarmut und von rechten Medien als Belastung junger Arbeitnehmer dargestellt."
     },
     "en": {
-      "shared_perspectives": "German media across the political spectrum agree that demographic ageing is creating a fiscal gap that makes the existing pay‑as‑you‑go pension scheme unsustainable and that a structural reform—whether by raising the statutory retirement age, introducing a stronger capital‑funded component or overhauling the Riester system—is now unavoidable. At the same time, reports from left, centre and right uniformly highlight the growing demand for early retirement and the risk that large cohorts of retirees could fall into poverty without a more robust supplemental savings framework. Consequently, there is a shared narrative that inter‑generational fairness can only be restored by combining a modest extension of contribution periods with incentives for private retirement accounts, even while the precise design of those incentives remains contested.",
-      "controversial_points": "The debate pits intergenerational solidarity against individual responsibility for retirement financing. Public pension sustainability clashes with market based capital solutions promoted by liberal economists. Age raising reforms create tension between fiscal prudence and workers’ demand for early retirement. Regional disparities in pension levels fuel political conflict over equity and federal responsibility."
+      "shared_perspectives": "German media of all political stripes concur that demographic ageing is turning the statutory pension into a fiscal burden that now consumes roughly a third of social spending, and that any sustainable reform must therefore combine a higher retirement age with stronger private, capital-based savings. At the same time there is a shared view that early-start schemes such as the Frühstartrente can materially improve wealth accumulation for younger cohorts and help narrow the projected old-age poverty gap, even though the details of implementation are debated.",
+      "controversial_points": "The debate pits intergenerational solidarity against market-based individualisation. Conservatives demand a higher retirement age and private capital pensions to curb fiscal strain. Left-leaning outlets stress poverty risk and call for stronger public guarantees and wage-linked benefits. Economic liberals focus on the investment potential of pension funds while questioning state subsidies and administrative complexity."
     }
   },
-  "cached_at": "2026-07-22T07:09:08.809474"
+  "cached_at": "2026-07-25T06:48:32.612007"
 }
