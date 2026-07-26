@@ -4,11 +4,44 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 109,
+      "sample_titles": [
+        "Staat fördert Sparen: Die Frühstartrente ist ungerecht",
+        "Nach Wettbewerbsklage: Paramount setzt Übernahme von Warner Brothers aus",
+        "Sozialstaatsreformen: Arbeitgeber warnen vor dem geplanten Rentenpaket",
+        "Vorsorge: Die Frühstartrente hat zwei Vorteile"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/finanzen/fruehstartrente-warum-die-foerderung-ungerecht-ist-201057581.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/paramount-setzt-uebernahme-von-warner-brothers-aus-201063949.html",
+        "https://www.faz.net/aktuell/wirtschaft/arbeitgeber-warnen-vor-dem-geplanten-rentenpaket-201057363.html",
+        "https://www.faz.net/aktuell/wirtschaft/die-fruehstartrente-hat-zwei-vorteile-201054705.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 13
+        },
+        {
+          "emotion": "confusion",
+          "count": 9
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 110,
+      "article_count": 109,
       "sample_titles": [
         "Sammlung von Keramikscherben in Jingdezhen wird Zentrum für weltweite Forschung",
         "Mehr Risiko für die Rente? Reiche will Beiträge zur Start-up-Finanzierung nutzen",
@@ -37,44 +70,11 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 108,
-      "sample_titles": [
-        "Nach Wettbewerbsklage: Paramount setzt Übernahme von Warner Brothers aus",
-        "Sozialstaatsreformen: Arbeitgeber warnen vor dem geplanten Rentenpaket",
-        "Vorsorge: Die Frühstartrente hat zwei Vorteile",
-        "120 Euro im Jahr vom Staat: Die Frühstartrente für Kinder kommt"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/paramount-setzt-uebernahme-von-warner-brothers-aus-201063949.html",
-        "https://www.faz.net/aktuell/wirtschaft/arbeitgeber-warnen-vor-dem-geplanten-rentenpaket-201057363.html",
-        "https://www.faz.net/aktuell/wirtschaft/die-fruehstartrente-hat-zwei-vorteile-201054705.html",
-        "https://www.faz.net/aktuell/wirtschaft/fruehstartrente-das-staatliche-vorsorgedepot-fuer-kinder-kommt-201054376.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 13
-        },
-        {
-          "emotion": "confusion",
-          "count": 9
-        },
-        {
-          "emotion": "curiosity",
-          "count": 4
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 108,
+      "article_count": 106,
       "sample_titles": [
         "Grandioses Finish in Alpe d'Huez: Tadej Pogacar frisst Konkurrenten im Chaos gnadenlos auf",
         "Rente, Gesundheit, Pflege: Sozialausgaben betragen ein Drittel der deutschen Wirtschaftskraft",
@@ -173,18 +173,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 59,
+      "article_count": 60,
       "sample_titles": [
+        "Früher in Rente: Warum viele den Arbeitsmarkt vorzeitig verlassen",
         "Paramount legt Übernahme von Warner Bros. vorübergehend auf Eis",
         "Künstliche Intelligenz: So bedrohlich ist der autonome Hackerangriff einer KI",
-        "ZDF: Inhalte der Mediathek künftig auch bei Konkurrent Joyn von ProSiebenSat zum Streaming abrufbar",
-        "Wie teuer kommen Sie die Reformen zu stehen? Oder profitieren Sie? Schreiben Sie uns!"
+        "ZDF: Inhalte der Mediathek künftig auch bei Konkurrent Joyn von ProSiebenSat zum Streaming abrufbar"
       ],
       "urls": [
+        "https://www.spiegel.de/panorama/gesellschaft/frueher-in-rente-warum-viele-den-arbeitsmarkt-vorzeitig-verlassen-a-a9386c9f-e89a-4354-87d5-ac1b90c43f2d#ref=rss",
         "https://www.spiegel.de/wirtschaft/unternehmen/paramount-legt-uebernahme-von-warner-bros-voruebergehend-auf-eis-a-870ecb24-6176-41ba-9eff-cf0a9b9ef5c2#ref=rss",
         "https://www.spiegel.de/netzwelt/so-bedrohlich-ist-der-autonome-hacker-angriff-einer-ki-a-71d8d418-bc96-4050-b641-7dd98704ff88#ref=rss",
-        "https://www.spiegel.de/kultur/zdf-inhalte-der-mediathek-kuenftig-auch-bei-konkurrent-joyn-von-prosiebensat-zum-streaming-abrufbar-a-c32a4d90-ee39-4224-9f37-740149ac3577#ref=rss",
-        "https://www.spiegel.de/wirtschaft/service/wie-teuer-kommen-sie-die-reformen-zu-stehen-oder-profitieren-sie-schreiben-sie-uns-a-abd4e886-19a6-40c3-9646-6929422fc568#ref=rss"
+        "https://www.spiegel.de/kultur/zdf-inhalte-der-mediathek-kuenftig-auch-bei-konkurrent-joyn-von-prosiebensat-zum-streaming-abrufbar-a-c32a4d90-ee39-4224-9f37-740149ac3577#ref=rss"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -206,18 +206,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 50,
+      "article_count": 51,
       "sample_titles": [
+        "Neues Renten-Geschenk für Kinder - Wer sich jetzt 53.000 Euro sichern kann",
         "Politik-Vodcast: Vertraulich! - Hier baut Merz sein Kabinett um",
         "Zwischenruf von Peter Tiede - Herr Lauterbach, Herr Klingbeil: Das ist einfach asozial!",
-        "Ikone spricht über Karrierepläne - LeBron: „Ich kann mit 65 noch in der NBA spielen“",
-        "Schon ab 100 Euro! - So planen Sie ab 40 Ihre Rente"
+        "Ikone spricht über Karrierepläne - LeBron: „Ich kann mit 65 noch in der NBA spielen“"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/staat-zahlt-kindern-beitrag-fuer-die-rente-wer-sich-jetzt-53-000-euro-sichern-kann-6a60d63d51897532dc73a40a",
         "https://www.bild.de/politik/politik-vodcast-vertraulich-hier-baut-merz-sein-kabinett-um-6a637640166bc12eb54f4f62",
         "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-herr-lauterbach-herr-klingbeil-das-ist-einfach-asozial-6a61ecb9d4d33e475a7b5a86",
-        "https://www.bild.de/sport/mehr-sport/karriereende-lebron-ich-kann-mit-65-noch-in-der-nba-spielen-6a60f9ebefccf0c0d5535f31",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/rente-ab-40-warum-100-euro-im-monat-wichtig-sind-6a4e0fac43b7fd5185001b97"
+        "https://www.bild.de/sport/mehr-sport/karriereende-lebron-ich-kann-mit-65-noch-in-der-nba-spielen-6a60f9ebefccf0c0d5535f31"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -274,16 +274,16 @@
       "bias": "neutral",
       "article_count": 48,
       "sample_titles": [
+        "\"Rente wird nicht sicherer, wenn wir Arbeit teurer machen\"",
         "Altersvorsorgedepot ersetzt Riester: Was anders werden soll",
         "Lebenserwartung in Deutschland steigt auf Höchstwerte",
-        "\"Rente mit 63\": SPD-Politiker fordern längere Übergangsfrist",
-        "40 Prozent glauben nicht an Durchhalten bis zur Rente"
+        "\"Rente mit 63\": SPD-Politiker fordern längere Übergangsfrist"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/rentenreform-arbeitgeber-dulger-korrekturen-100.html",
         "https://www.zdfheute.de/wirtschaft/altersvorsorgedepot-riester-rente-vorsorgeplan-100.html",
         "https://www.zdfheute.de/panorama/lebenserwartung-deutschland-anstieg-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rente-63-abschaffung-frist-uebergang-100.html",
-        "https://www.zdfheute.de/wirtschaft/rente-arbeit-befragung-dgb-100.html"
+        "https://www.zdfheute.de/politik/deutschland/rente-63-abschaffung-frist-uebergang-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -541,24 +541,24 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 128,
-    "left-liberal": 153,
-    "populist-mixed": 50,
-    "right-conservative": 218,
+    "populist-mixed": 51,
+    "conservative-liberal": 129,
+    "left-liberal": 154,
+    "neutral": 111,
+    "right-conservative": 215,
     "far-right": 31,
     "economic-liberal": 69,
-    "neutral": 111,
     "left": 40
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg die demografische Alterung als zentrale Belastung der gesetzlichen Rentenversicherung hervorgehoben, wobei die Notwendigkeit einer langfristigen Finanzierungsreform betont wird. Gleichzeitig wird die Frühstartrente bzw. kapitalgedeckte Zusatzvorsorge als möglicher Baustein zur Schließung von Rentenlücken und zur Stärkung der Generationengerechtigkeit diskutiert. Schließlich finden sich in den Beiträgen von konservativen, liberalen und wirtschaftsliberalen Medien übereinstimmende Hinweise darauf, dass ein größerer Anteil des Sozialbudgets in produktive Anlagen investiert werden sollte, um die Rendite der Rentenversicherung zu erhöhen.",
-      "controversial_points": "Das Renteneintrittsalter wird zwischen Befürwortern einer Anhebung auf 70 und Verfechtern einer Frühstartrente um 63 gespalten. Die Finanzierungskonflikte drehen sich um die Belastung der Beitragszahler versus die Nutzung kapitalgedeckter Anlagen für höhere Renditen. Generationengerechtigkeit wird von linken Medien als Schutz vor Altersarmut und von rechten Medien als Belastung junger Arbeitnehmer dargestellt."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg die demografische Alterung als zentrale Belastung der gesetzlichen Rentenversicherung hervorgehoben, wobei die Finanzierbarkeit des Systems und die Gefahr von Altersarmut als gemeinsame Sorgen benannt werden. Gleichzeitig finden sich in den Beiträgen von konservativen, linken und neutralen Medien übereinstimmende Hinweise darauf, dass ergänzende private Vorsorgeformen, etwa die Frühstartrente für Kinder oder kapitalgedeckte Modelle, als notwendige Ergänzung zur Sicherung des Lebensstandards im Alter angesehen werden. Schließlich wird in nahezu allen Artikeln das Prinzip der Generationengerechtigkeit thematisiert, wobei die Diskussion um ein höheres Renteneintrittsalter und die Belastung künftiger Beitragszahler als politisch übergreifendes Problem dargestellt wird.",
+      "controversial_points": "Das Rentenalter wird zwischen Generationengerechtigkeit und Finanzierbarkeit polarisiert. Kapitalgedeckte Modelle stoßen auf Widerstand von Sozialverbänden, die Umlagensysteme bevorzugen."
     },
     "en": {
-      "shared_perspectives": "German media of all political stripes concur that demographic ageing is turning the statutory pension into a fiscal burden that now consumes roughly a third of social spending, and that any sustainable reform must therefore combine a higher retirement age with stronger private, capital-based savings. At the same time there is a shared view that early-start schemes such as the Frühstartrente can materially improve wealth accumulation for younger cohorts and help narrow the projected old-age poverty gap, even though the details of implementation are debated.",
-      "controversial_points": "The debate pits intergenerational solidarity against market-based individualisation. Conservatives demand a higher retirement age and private capital pensions to curb fiscal strain. Left-leaning outlets stress poverty risk and call for stronger public guarantees and wage-linked benefits. Economic liberals focus on the investment potential of pension funds while questioning state subsidies and administrative complexity."
+      "shared_perspectives": "Across the spectrum German media agree that demographic ageing is eroding the sustainability of the pay-as-you-go public pension and that a shift toward capital-funded elements such as the Frühstartrente is seen as necessary to close future pension gaps. They also converge on the view that any reform must be financed without imposing an excessive burden on younger generations, emphasizing intergenerational fairness.",
+      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability, with younger voters demanding state support while older cohorts protect contribution levels. Conservative outlets frame capital funded pensions as market freedom, whereas left leaning media warn they deepen wealth inequality. Populist narratives link pension generosity to social decay, turning the retirement age debate into a cultural clash over work ethic. Economic liberal voices stress investment returns and a state fund, while social democrats emphasize universal coverage and poverty prevention. Media polarization creates a structural conflict between market based reforms and the welfare state."
     }
   },
-  "cached_at": "2026-07-25T06:48:32.612007"
+  "cached_at": "2026-07-26T06:55:32.405404"
 }

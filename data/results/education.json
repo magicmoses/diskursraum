@@ -1,39 +1,72 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 228,
+  "article_count": 227,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 52,
+      "article_count": 49,
       "sample_titles": [
+        "Viele Sanierungsarbeiten an den Schulen im Saarland während der Sommerferien",
         "Förderprogramm läuft aus: Sprach-Kitas in Hessen bangen um ihre Zukunft",
         "Erstklässler mussten Kothaufen aufsammeln: Pädagoge kritisiert \"kollektive Bestrafung\"",
-        "Frauenanteil an saarländischen Schulen wächst weiter",
-        "Zu teuer für die Stadt: Albstadt will eine erfolgreiche Schule schließen"
+        "Frauenanteil an saarländischen Schulen wächst weiter"
       ],
       "urls": [
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/sanierung_schulen_saarland_sommerferien_100.html",
         "https://www.hessenschau.de/politik/foerderprogramm-laeuft-aus-sprach-kitas-in-hessen-bangen-um-ihre-zukunft-v1,sprachkita-kuerzungen-100.html",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/paedagoge-einordnung-toiletten-vorfall-an-schule-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/frauenanteil_an_saarlaendischen_schulen_gestiegen_100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/albstadt-will-schulen-schliessen-rat-entscheidet-100.html"
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/frauenanteil_an_saarlaendischen_schulen_gestiegen_100.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "desire",
-          "count": 3
-        },
-        {
           "emotion": "approval",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "confusion",
           "count": 3
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 35,
+      "sample_titles": [
+        "Studium und Ausbildung: Ist das Handwerk wieder cool?",
+        "fest an Privatschule: Schüler singen „Deutschland den Deutschen, Ausländer raus“",
+        "Coaching für Kinder: Was helfen kann, wenn sich die Schule doof anfühlt",
+        "Besuch im Klassenzimmer: Erzählroboter lockt schüchterne Grundschüler zum Sprechen"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/feuilleton/studie-ausbildungsberufe-werden-beliebter-201058491.html",
+        "https://www.faz.net/aktuell/politik/inland/schueler-singen-deutschland-den-deutschen-auslaender-raus-201057686.html",
+        "https://www.faz.net/aktuell/besser-leben/familie/was-helfen-kann-wenn-sich-die-schule-doof-anfuehlt-accg-200924538.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/klassenzimmer/wie-ein-erzaehlroboter-schuechterne-grundschueler-foerdert-accg-201015041.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "realization",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
         }
       ]
     },
@@ -41,7 +74,7 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 34,
+      "article_count": 33,
       "sample_titles": [
         "Fachkräftemangel: Chemiebranche will mehr Ausbildungsplätze sichern",
         "Wunschschule: Keine Wunschschule für Fünftklässler per Gericht",
@@ -70,55 +103,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 34,
-      "sample_titles": [
-        "Studium und Ausbildung: Ist das Handwerk wieder cool?",
-        "Coaching für Kinder: Was helfen kann, wenn sich die Schule doof anfühlt",
-        "Besuch im Klassenzimmer: Erzählroboter lockt schüchterne Grundschüler zum Sprechen",
-        "Barbara Bingel: Von der Lehrerin zur Literaturveranstalterin"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/feuilleton/studie-ausbildungsberufe-werden-beliebter-201058491.html",
-        "https://www.faz.net/aktuell/besser-leben/familie/was-helfen-kann-wenn-sich-die-schule-doof-anfuehlt-accg-200924538.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/klassenzimmer/wie-ein-erzaehlroboter-schuechterne-grundschueler-foerdert-accg-201015041.html",
-        "https://www.faz.net/aktuell/rhein-main/kultur/barbara-bingel-lyriknacht-und-horst-bingel-preis-in-frankfurt-accg-201048086.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "realization",
-          "count": 3
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        }
-      ]
-    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 20,
+      "article_count": 22,
       "sample_titles": [
         "Verbeamtete Lehrerin in NRW 17 Jahre durchgehend krankgeschrieben",
         "Fast 17 Jahre nicht im Dienst – Dauerkranke Lehrerin bekam offenbar trotzdem Lohnerhöhungen",
-        "Frankreich beschließt als erstes EU-Land ein Social-Media-Verbot für unter 15-Jährige",
-        "Nach Amtsarzt-Untersuchung – Streit um jahrelang krankgeschriebene Lehrerin geht in nächste Runde"
+        "Fast 17 Jahre nicht im Dienst – Dauerkranke Lehrerin bekam offenbar trotzdem Lohnerhöhungen",
+        "„Ausländer raus“-Gesänge auf Sommerfest von Schule – Schulleiter ist entsetzt"
       ],
       "urls": [
         "https://www.welt.de/videos/video6a638193fe2765826e0fc552/bei-vollem-gehalt-verbeamtete-lehrerin-in-nrw-17-jahre-durchgehend-krankgeschrieben.html",
         "https://www.welt.de/politik/video6a62f6fa26ebb8e13e2ef475/skandal-in-nrw-fast-17-jahre-nicht-im-dienst-dauerkranke-lehrerin-bekam-offenbar-trotzdem-lohnerhoehungen.html",
-        "https://www.welt.de/politik/ausland/article6a5fb3b5fb6c4ab717fca35a/social-media-frankreich-beschliesst-als-erstes-eu-land-ein-verbot-fuer-unter-15-jaehrige.html",
-        "https://www.welt.de/vermischtes/article6a5f7807668d28f8978b1b7b/bericht-streit-um-jahrelang-krankgeschriebene-lehrerin-geht-in-naechste-runde.html"
+        "https://www.welt.de/politik/deutschland/article6a625e1defccf0c0d553731b/nrw-fast-17-jahre-nicht-im-dienst-dauerkranke-lehrerin-bekam-offenbar-trotzdem-lohnerhoehungen.html",
+        "https://www.welt.de/vermischtes/article6a61efdf26ebb8e13e2ee66d/stuttgart-schule-bestuerzt-nach-rassistischen-gesaengen-auf-fest-schulleiter-fordert-debatte.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -131,7 +131,7 @@
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -140,7 +140,7 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 19,
+      "article_count": 18,
       "sample_titles": [
         "Bafög: „Im letzten Jahr habe ich zwölf Monate auf mein Geld gewartet“",
         "Kinderbetreuung in der Schule: Kommt eine Mensa geflogen",
@@ -157,14 +157,14 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 2
+          "count": 3
         },
         {
-          "emotion": "realization",
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "amusement",
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -173,21 +173,25 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 13,
+      "article_count": 16,
       "sample_titles": [
+        "Karlsruhe: Dienstaufsichtsbeschwerde nach Kothaufen-Vorfall an Grundschule",
         "Ausbildung: Großteil der jungen Menschen blickt positiv auf Ausbildungsberufe",
         "Sozialversicherungensfachangestellte (Sofa) werden: Gehalt, Aufgaben, Karrierechancen",
-        "KI im Studium: Wie setzen Studierende künstliche Intelligenz am Campus ein?",
-        "Ausbildung: Zahl der Ausbildungsverträge im Handwerk steigt viertes Jahr in Folge"
+        "»Schattenseite«: Caro Cult soll Lehrerin spielen, die Sex mit Schüler hat. Dann wird sie schwanger"
       ],
       "urls": [
+        "https://www.spiegel.de/panorama/bildung/karlsruhe-dienstaufsichtsbeschwerde-nach-kothaufen-vorfall-an-grundschule-a-1900bc36-72eb-4360-b920-b7966558e588#ref=rss",
         "https://www.spiegel.de/start/ausbildung-grossteil-der-jungen-menschen-blickt-positiv-auf-ausbildungsberufe-a-6f9ba73c-46a5-420d-b2f5-f39031ed7ba5#ref=rss",
         "https://www.spiegel.de/start/sozialversicherungensfachangestellte-sofa-werden-gehalt-aufgaben-karrierechancen-a-eddf9c5a-68ea-4945-b5a6-afcbee363f77#ref=rss",
-        "https://www.spiegel.de/start/ki-im-studium-wie-setzen-studierende-kuenstliche-intelligenz-am-campus-ein-a-80e79028-a9b2-4d82-a89a-de717732e14f#ref=rss",
-        "https://www.spiegel.de/karriere/ausbildung-zahl-der-ausbildungsvertraege-im-handwerk-steigt-viertes-jahr-in-folge-a-0651596e-ccb0-443e-b7a3-60902b047da8#ref=rss"
+        "https://www.spiegel.de/kultur/tv/schattenseite-caro-cult-soll-lehrerin-spielen-die-sex-mit-schueler-hat-dann-wird-sie-schwanger-a-96a36005-cc3c-43c1-b1c7-1572654cf08f#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
         {
           "emotion": "optimism",
           "count": 2
@@ -195,9 +199,38 @@
         {
           "emotion": "fear",
           "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 10,
+      "sample_titles": [
+        "Nach Gewalttat an Gymnasium: Söder will Rettungsmedaillen für Helfer von Schongau",
+        "Tschechien: Tschechische Regierung beschließt Handyverbot an Schulen",
+        "Bildungspolitik in Ostdeutschland: Erst Lehrermangel, bald Schülermangel",
+        "Arbeitsmarkt: Ausbildungszahlen im Handwerk steigen gegen den Wirtschaftstrend"
+      ],
+      "urls": [
+        "https://www.zeit.de/news/2026-07/24/soeder-will-rettungsmedaillen-fuer-helfer-von-schongau",
+        "https://www.zeit.de/politik/ausland/2026-07/handyverbot-schulen-tschechien-andrej-babis",
+        "https://www.zeit.de/2026/31/lehrermangel-ostdeutschland-sachsen-brandenburg-schuelerzahlen",
+        "https://www.zeit.de/wirtschaft/2026-07/ausbildung-handwerk-arbeitsmarkt-ki-industrie-gxe"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
         },
         {
-          "emotion": "realization",
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -206,7 +239,7 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 11,
+      "article_count": 9,
       "sample_titles": [
         "Abmahnung wegen AfD-Aussage: Wie politisch darf Schule sein?",
         "Wenn die AfD regiert - was heißt das für Hochschulen?",
@@ -231,39 +264,6 @@
         },
         {
           "emotion": "surprise",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Nach Gewalttat an Gymnasium: Söder will Rettungsmedaillen für Helfer von Schongau",
-        "Tschechien: Tschechische Regierung beschließt Handyverbot an Schulen",
-        "Bildungspolitik in Ostdeutschland: Erst Lehrermangel, bald Schülermangel",
-        "Arbeitsmarkt: Ausbildungszahlen im Handwerk steigen gegen den Wirtschaftstrend"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-07/24/soeder-will-rettungsmedaillen-fuer-helfer-von-schongau",
-        "https://www.zeit.de/politik/ausland/2026-07/handyverbot-schulen-tschechien-andrej-babis",
-        "https://www.zeit.de/2026/31/lehrermangel-ostdeutschland-sachsen-brandenburg-schuelerzahlen",
-        "https://www.zeit.de/wirtschaft/2026-07/ausbildung-handwerk-arbeitsmarkt-ki-industrie-gxe"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -305,7 +305,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 7,
+      "article_count": 8,
       "sample_titles": [
         "17 Jahre nicht im Dienst - Lohnerhöhungen für dauerkranke Lehrerin",
         "17 Jahre nicht an der Schule - Dauerkranke Lehrerin klagt gegen Ruhestand",
@@ -325,11 +325,40 @@
           "count": 1
         },
         {
-          "emotion": "amusement",
+          "emotion": "realization",
           "count": 1
         },
         {
-          "emotion": "desire",
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 5,
+      "sample_titles": [
+        "Polizei ermittelt nicht „Ausländer raus“-Gesänge an Stuttgarter Schule – auch Migranten machen mit",
+        "„Asta“ ruft zu Demo auf Linke fordern Entlassung von Professorin wegen Vorlesung über Transidentität",
+        "Erinnerung an linken Terrorismus Lernort „Landshut“ erleidet schwere Bruchlandung",
+        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/auslaender-raus-gesaenge-an-stuttgarter-schule-auch-migranten-machen-mit/",
+        "https://jungefreiheit.de/politik/deutschland/2026/linke-fordern-entlassung-von-professorin-wegen-vorlesung-ueber-transidentitaet/",
+        "https://jungefreiheit.de/politik/deutschland/2026/lernort-landshut-erleidet-schwere-bruchlandung/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -338,45 +367,34 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 7,
+      "article_count": 5,
       "sample_titles": [
         "Beamtin will weiter volle Bezüge : 17 Jahre krankgeschrieben - Lehrerin kämpft gegen Pensionierung",
         "17 Jahre krankgeschrieben:  Lehrerin kämpft gegen Zwangspensionierung",
-        "900 Punkte: Was bringt der perfekte Abi-Schnitt?",
-        "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut"
+        "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut",
+        "Union verweist auf leere Kassen: Koalition verschiebt Bafög-Erhöhung auf Sommer 2027"
       ],
       "urls": [
         "https://www.n-tv.de/panorama/17-Jahre-krankgeschrieben-Lehrerin-kaempft-gegen-Pensionierung-id31110749.html",
         "https://www.n-tv.de/panorama/Lehrerin-kaempft-gegen-Zwangspensionierung-id31110749.html",
-        "https://www.n-tv.de/panorama/Was-bringt-der-perfekte-Abi-Schnitt-id31084736.html",
-        "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html"
+        "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html",
+        "https://www.n-tv.de/politik/Koalition-verschiebt-Bafoeg-Erhoehung-auf-Sommer-2027-id31067153.html"
       ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 5,
+      "article_count": 3,
       "sample_titles": [
         "17 Jahre dauerkrank: Lehrerin prozessiert gegen Ruhestand",
-        "Vorlesung zu Trans-Ideologien: Studentenvertreter gehen gegen Professorin vor",
         "Deutsch als Unterrichtssprache demnächst nachrangig?",
         "Berlin quartiert Süchtige in Grundschule ein"
       ],
       "urls": [
         "https://www.tichyseinblick.de/daili-es-sentials/17-jahre-dauerkrank-lehrerin-prozessiert-gegen-ruhestand/",
-        "https://www.tichyseinblick.de/meinungen/vorlesung-studentenvertreter-gegen-professorin/",
         "https://www.tichyseinblick.de/meinungen/deutsch-unterrichtssprache-nachrangig/",
         "https://www.tichyseinblick.de/meinungen/berlin-grundschule-kreuzberg-suechtige/"
       ],
@@ -401,33 +419,6 @@
       "dominant_emotion": "neutral",
       "top_emotions": []
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "„Asta“ ruft zu Demo auf Linke fordern Entlassung von Professorin wegen Vorlesung über Transidentität",
-        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen",
-        "Mitarbeiter zu dumm? Lauterbach begründet Volkswagen-Niedergang mit „Bildungspolitik“"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/linke-fordern-entlassung-von-professorin-wegen-vorlesung-ueber-transidentitaet/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/lauterbach-begruendet-vw-niedergang-mit-bildungspolitik/"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
@@ -441,27 +432,46 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Ein behinderter Bub erleidet in der Schule einen schweren Unfall – und seine Mutter rätselt, was passiert ist"
+      ],
+      "urls": [
+        "https://www.nzz.ch/zuerich/ein-behinderter-bub-erleidet-in-der-schule-einen-schweren-unfall-und-seine-mutter-raetselt-was-passiert-ist-ld.10011963"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
+    "neutral": 58,
     "right-conservative": 27,
-    "left-liberal": 76,
-    "neutral": 63,
+    "left-liberal": 77,
     "far-right": 9,
-    "conservative-liberal": 34,
-    "populist-mixed": 7,
+    "conservative-liberal": 36,
+    "populist-mixed": 8,
     "economic-liberal": 3,
     "left": 9
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Unabhängig von politischer Ausrichtung wird in deutschen Medien ein grundlegendes Ressourcenproblem des Bildungssystems thematisiert, das sich in Lehrkräftemangel, mangelhafter Infrastruktur und Finanzierungslücken manifestiert und alle Bereiche von der Kita bis zur Hochschule betrifft. Parallel existiert über das gesamte Spektrum hinweg eine Debatte über die Passung zwischen Bildungssystem und Arbeitsmarkt, insbesondere bezüglich der Attraktivität beruflicher Ausbildungen und der Vermittelbarkeit von Qualifikationen in einem sich wandelnden Arbeitsumfeld. Die Frage nach Chancengleichheit und sozialer Gerechtigkeit im Bildungszugang, etwa beim BAföG oder bei Schulplatzvergabe, wird sachlich und kontinuierlich verhandelt, ohne dass dabei ideologische Polarisierung das Kernproblem überlagert.",
-      "controversial_points": "Der Mediendiskurs spaltet sich grundlegend in zwei Lager: Konservative und rechte Medien skandalisieren einzelne Systemausfälle wie die langfristig krankgeschriebene Lehrerin, um grundsätzliche Ineffizienz des öffentlichen Dienstes zu belegen, während linke Medien strukturelle Unterfinanzierung und mangelnde Unterstützung von Studierenden und Schulen thematisieren. Ein zweiter Konflikt verläuft zwischen wirtschaftsliberal-pragmatischen Positionen, die Bildung als Arbeitsmarktfähigkeit definieren, und wertekonservativen sowie linken Positionen, die Bildung als Kulturauftrag und Chancengleichheit sehen. Ein dritter Bruchpunkt entsteht um die Frage, welche Inhalte und Weltbilder in Schulen vermittelt werden dürfen: rechte Medien warnen vor ideologischer Indoktrinierung, progressive Medien thematisieren Diskriminierungsschutz und Wissenschaftsfreiheit. Schließlich zeigt sich ein struktureller Konflikt zwischen dem Föderalismus, der zu Ungleichheit zwischen Bundesländern führt, und der Forderung nach bundesweit einheitlichen Standards und ausreichender Finanzierung."
+      "shared_perspectives": "Der deutsche Mediendiskurs zeigt eine bemerkenswerte parteiübergreifende Einigkeit darin, dass der Lehrkräftemangel und die Probleme bei der Personalausstattung von Schulen ein zentrales Strukturproblem darstellen, das in Beiträgen von links bis rechts als drängend dargestellt wird, auch wenn die Ursachenerklärungen unterschiedlich ausfallen. Über alle politischen Spektren hinweg wird zudem das BAföG-System und die Finanzierungsfragen im Bildungsbereich als akute Krise behandelt, wobei selbst konservative und liberale Medien die Notwendigkeit von Verbesserungen für Studierende anerkennen. Ein dritter Konsens besteht darin, dass konkrete Einzelfälle von Schulen, seien es Sanierungsprobleme, Sicherheitsvorfälle oder pädagogische Fehlleistungen, als Symptome für systematische Unterversorgung und mangelnde Ressourcenausstattung des Bildungssystems interpretiert werden, unabhängig davon, ob diese Fälle eher zur Illustration von Verwaltungsproblemen oder als Belege für gesellschaftlichen Verfall benutzt werden.",
+      "controversial_points": "Der deutsche Bildungsdiskurs spaltet sich grundlegend entlang der Frage, ob Bildung primär öffentliche Daseinsvorsorge oder Mittel zur Sozialkontrolle ist. Die Rechte kritisiert Lehrkräfte als Belastungsfaktor und wendet Einzelfälle zur grundsätzlichen Delegitimierung von Beamtentum an, während die Linke strukturelle Unterfinanzierung und mangelnde Chancengerechtigkeit anprangert. Ein zweiter tiefgreifender Konflikt betrifft die Deutungshoheit über Schule: Während progressive Kräfte sie als Ort der Pluralität und Selbstbestimmung sehen, verdächtigt die Neue Rechte sie einer ideologischen Indoktrination und fordert kulturelle Gegenwehr. Ein dritter Bruchpunkt liegt zwischen Meritokratie-Vertrauen und Strukturkritik, wo Liberale Einzelleistung und Effizienz betonen, während Linke systematische Ungerechtigkeit in föderalen Ressourcenverteilungen diagnostizieren. Zuletzt zeigt sich eine Kluft zwischen Digitalisierungsoptimismus und Skepsis vor Technik als Panacea für pädagogische Probleme, die tiefer sitzende Investitions- und Professionalisierungsfragen überlagert."
     },
     "en": {
-      "shared_perspectives": "Across the German media spectrum, there is broad recognition that the education system faces acute structural deficits in teacher supply and retention, with widespread reporting on teacher shortages, aging teaching staff, and systemic challenges in school infrastructure that transcend left-right political divisions. German media discourse converges on the inadequacy of current vocational training pathways and BAföG support mechanisms, with both left-liberal and economic outlets documenting how students face delays in financial assistance and how skilled trades struggle to attract qualified candidates despite genuine labor market demand. A third substantive commonality centers on concerns about educational equity and resource allocation, where reports spanning moderate-conservative to left perspectives document how schools struggle with funding constraints, facility maintenance, and capacity for all-day care provision, reflecting implicit agreement that Germany's educational institutions require substantial material and personnel investment to meet contemporary demands.",
-      "controversial_points": "The central tension divides those defending traditional institutional structures and state authority from those questioning systemic adequacy. Right-conservative media focus on individual pathologies and system abuse, exemplified by the 17-year sick-leave teacher case, while left-liberal outlets emphasize structural failures like inadequate BAföG funding and chronic personnel shortages. A deeper ideological fault line separates cultural-conservative concerns about language, identity politics, and external influences from progressive commitments to inclusion and pedagogical innovation. Economic perspectives clash over whether education requires robust public investment or market-responsive efficiency measures that reallocate resources based on outcomes. Finally, fundamental disagreement exists about whether educational problems stem from excessive state bureaucracy and permissiveness or insufficient funding and political will."
+      "shared_perspectives": "Across German media of different political orientations, there is widespread consensus that structural deficiencies in school infrastructure, teacher availability, and administrative efficiency represent urgent practical problems requiring concrete solutions, evidenced by repeated coverage of school building repairs, teacher shortages, and resource allocation failures regardless of outlet political leaning. German media across the spectrum demonstrates shared concern that education policy decisions increasingly involve conflicts between equity principles and fiscal constraints, particularly visible in debates over BAföG delays, school closures due to budget limitations, and unevenly resourced language support programs that pit educational ideals against municipal financial capacity. There is discernible agreement that the education system faces personnel-related crises, whether framed through teacher burnout and long-term sick leave patterns or through insufficient vocational recruitment, suggesting recognition among diverse media voices that staffing sustainability has become a threshold problem affecting educational quality independent of other policy disagreements.",
+      "controversial_points": "# Structural Conflict Lines in German Education Discourse\n\nThe core tension divides those defending state institutions and worker protections (left, center-left) against those demanding accountability, efficiency, and individual merit (right, conservative). The sick-leave teacher case epitomizes this: left media frames systemic failures and healthcare rights, while right media frames abuse of state resources and lack of performance consequences. A second fault line separates cultural-identity concerns (far-right focus on language, migration, traditional curricula) from equity and inclusion priorities (left-liberal emphasis on access, support for disadvantaged students, diversity). A third conflict concerns state responsibility versus market solutions: left positions demand public investment in infrastructure and teacher pay, while economic-liberal outlets stress cost-efficiency, workforce mobility, and privatization of services like childcare. Finally, disputes over what schools should teach reflect competing visions of socialization: conservatives and far-right outlets defend traditional authority and national cultural transmission, while left-liberal media champion critical thinking and social justice frameworks."
     }
   },
-  "cached_at": "2026-07-25T07:02:46.096007"
+  "cached_at": "2026-07-26T07:09:33.617952"
 }
