@@ -8,32 +8,98 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 139,
+      "article_count": 141,
       "sample_titles": [
-        "Unterhaltsvorschuss: Nicht auf dem Rücken der Kinder",
-        "Die Rolle der Unicredit: Der Niedergang der deutschen Großbanken",
-        "Angriff auf Hugging Face: Die KI soll tagelang auf Hacker-Tour gewesen sein, ohne dass Open AI es merkte",
-        "Zeichen für Demokratie und Vielfalt: Hunderttausende beim Christopher Street Day in Berlin"
+        "KI in der Verwaltung: Wenn die Software den Antrag liest und beantwortet",
+        "Serie „Furious“ bei Disney: „Von Frauen wird nicht erwartet, dass sie Leute umbringen“",
+        "Aufstieg eines Migranten: Zidanes Krönung",
+        "Neue KI-Allianz: Keine Sicherheit durch Unklarheit"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/unterhaltsvorschuss-praesidentin-des-kinderschutzbundes-kritisiert-geplante-kuerzungen-accg-201061618.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/commerzbank-und-unicredit-der-niedergang-der-deutschen-grossbanken-accg-201058913.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/die-ki-von-openai-soll-lange-unbemerkt-auf-hacker-tour-gewesen-sein-accg-201064751.html",
-        "https://www.faz.net/aktuell/gesellschaft/haltung-ist-hot-hunderttausende-teilnehmer-beim-csd-in-berlin-accg-201065082.html"
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/kameras-zur-muellerkennung-frankfurt-will-ki-einsatz-zentral-koordinieren-201062892.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/serien/serie-furious-bei-disney-eine-frau-als-serienmoerderin-201067978.html",
+        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/zinedine-zidane-vom-migrantischen-arbeiterkind-zum-weltstar-200956018.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/open-ai-und-hugging-face-keine-sicherheit-durch-unklarheit-201072572.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 8
+          "emotion": "optimism",
+          "count": 9
         },
+        {
+          "emotion": "amusement",
+          "count": 7
+        },
+        {
+          "emotion": "realization",
+          "count": 7
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 92,
+      "sample_titles": [
+        "Berater verrät die Summe - Lewandowski lehnte verrücktes Saudi-Angebot ab",
+        "Eigentlich ganz einfach - Bis 100 zählen? KI scheitert grandios!",
+        "24 Stunden in der Luft! - Airbus stellt neuen Rekord auf",
+        "23.076 Kilometer zurückgelegt - 24 Stunden in der Luft! Airbus stellt Rekord auf"
+      ],
+      "urls": [
+        "https://www.bild.de/sport/fussball/robert-lewandowski-lehnte-verruecktes-angebot-aus-saudi-arabien-ab-6a68afb51ff9bc89d8811db6",
+        "https://www.bild.de/unterhaltung/stars-und-leute/eigentlich-ganz-einfach-bis-100-zaehlen-ki-scheitert-grandios-6a68662e1ff9bc89d88115f7",
+        "https://www.bild.de/news/ausland/24-stunden-in-der-luft-airbus-stellt-neuen-rekord-auf-6a6916601ff9bc89d8812355",
+        "https://www.bild.de/news/ausland/toulouse-24-stunden-in-der-luft-airbus-stellt-neuen-rekord-auf-6a6901a7a17ee9f1dfd8228a"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
         {
           "emotion": "realization",
           "count": 6
         },
         {
+          "emotion": "admiration",
+          "count": 4
+        },
+        {
+          "emotion": "surprise",
+          "count": 2
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 85,
+      "sample_titles": [
+        "Erste Angriffe seit Tagen: USA melden Raketenbeschuss auf Stützpunkte im Nahen Osten",
+        "US-Anleger schichten um  : Ausverkauf bei Chip-Werten dauert an",
+        "Angeblich genug Freiwillige: Moskau streitet Mobilmachungspläne ab",
+        "Vorfall in Mönchengladbach: Einbrecher räumen 29 Schließfächer in geöffneter Sparkasse leer"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/USA-melden-Raketenbeschuss-auf-Stuetzpunkte-im-Nahen-Osten-id31135246.html",
+        "https://www.n-tv.de/wirtschaft/Ausverkauf-bei-Chip-Werten-dauert-an-id31135216.html",
+        "https://www.n-tv.de/politik/Moskau-streitet-Mobilmachungsplaene-ab-id31135230.html",
+        "https://www.n-tv.de/panorama/Einbrecher-raeumen-29-Schliessfaecher-in-geoeffneter-Sparkasse-leer-id31134592.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
+        },
+        {
+          "emotion": "surprise",
+          "count": 3
+        },
+        {
           "emotion": "amusement",
-          "count": 5
+          "count": 3
         }
       ]
     },
@@ -41,18 +107,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 88,
+      "article_count": 83,
       "sample_titles": [
-        "Kickers Offenbach feiert sich selbst und verliert gegen Bayer Leverkusen",
-        "Viele Opfer bei gegenseitigen Angriffen",
-        "Wie eine Mailbox-Ansage oder ein \"Peace\"-Foto für Betrug genutzt werden können",
-        "A7: Kleinbus fährt in Baustelle - neun Fahrzeuge beschädigt"
+        "Kind stirbt bei einem Unfall im Kreis Heilbronn",
+        "Deutscher KI-Chatbot Soofi soll bald online gehen",
+        "Durch KI betrogen: Ein Freiburger Love-Scamming-Opfer berichtet",
+        "Echzell: Sechsjähriger entdeckt 1.700 Jahre alte Römermünze auf Kita-Gelände"
       ],
       "urls": [
-        "https://www.hessenschau.de/sport/fussball/regionalliga/kickers-offenbach-feiert-sich-selbst-und-verliert-gegen-bayer-leverkusen-v1,kickers-offenbach-leverkusen-testspiel-100.html",
-        "https://www.tagesschau.de/ausland/europa/ukraine-russland-240.html",
-        "https://www.sr.de/sr/home/nachrichten/panorama/biometrische_daten_risiken_durch_ki_100.html",
-        "https://www.hessenschau.de/panorama/a7-kleinbus-faehrt-in-baustelle---neun-fahrzeuge-beschaedigt-v2,unfall-a7-hoher-schaden-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/kind-stirbt-bei-unfall-in-bad-friedrichshall-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/deutsche_ki_soofi_soll_bald_auf_den_markt_kommen_100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/love-scamming-mit-ki-opfer-aus-freiburg-berichtet-100.html",
+        "https://www.hessenschau.de/kultur/echzell-sechsjaehriger-entdeckt-1700-jahre-alte-roemermuenze-auf-kita-gelaende-v1,roemische-muenze-kita-102.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -61,77 +127,11 @@
           "count": 4
         },
         {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
           "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 85,
-      "sample_titles": [
-        "BILD-Reporter stößt Debatte an - Darum schlafen die Kinder (8) immer noch bei uns",
-        "Da jubelt sogar der Trainer - Köln-Stars legen Spaß-Start in Österreich hin",
-        "Evakuierung wird diskutiert - Feuer nur noch 30 Kilometer vor Bordeaux",
-        "Mit KI vor Gericht - Kann ChatGPT einen Anwalt ersetzen?"
-      ],
-      "urls": [
-        "https://www.bild.de/leben-wissen/meine-familie-familienportal/duerfen-kinder-mit-8-noch-im-elternbett-schlafen-ein-vater-erklaert-seine-entscheidung-6a6093a5ea7bf3843138ac6b",
-        "https://www.bild.de/sport/fussball/1-fc-koeln-trainer-jubel-in-kitzbuehel-koeln-stars-legen-spass-start-in-oesterreich-hin-6a64d664413df7c047eea8ac",
-        "https://www.bild.de/news/evakuierung-wird-diskutiert-feuer-nur-noch-30-kilometer-vor-bordeaux-6a6504f0166bc12eb54f6301",
-        "https://www.bild.de/regional/leipzig/chatgpt-als-anwalt-mann-zieht-mit-ki-vor-gericht-6a06bd3d847da7a92c144b4c"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
           "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 3
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 79,
-      "sample_titles": [
-        "\"Drohnenproduktion hochfahren\": CSU-Landeschef fordert Abkommen mit Kiew",
-        "Paparazzi-Fotos aufgetaucht: Kidman turtelt nach Scheidung mit neuem Mann",
-        "Zehn Tote nach Raketenbeschuss: Tödliche Waffenschau bei Kiew - Organisator festgenommen",
-        "Tochter muss in die Klinik: Anna-Maria Ferchichi erlebt \"Super-GAU\" im Sommerurlaub mit Bushido"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/CSU-Landeschef-fordert-Abkommen-mit-Kiew-id31125463.html",
-        "https://www.n-tv.de/leute/Kidman-turtelt-nach-Scheidung-mit-neuem-Mann-id31125179.html",
-        "https://www.n-tv.de/politik/Toedliche-Waffenschau-bei-Kiew-Organisator-festgenommen-id31124901.html",
-        "https://www.n-tv.de/leute/Anna-Maria-Ferchichi-erlebt-Super-GAU-im-Sommerurlaub-mit-Bushido-id31125043.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 4
-        },
-        {
-          "emotion": "amusement",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
+          "emotion": "curiosity",
           "count": 3
         }
       ]
@@ -140,18 +140,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 71,
+      "article_count": 72,
       "sample_titles": [
-        "„Deutschland muss an diesen Innovationen teilhaben“ – CSU fordert Rüstungsabkommen mit Kiew",
-        "Wohnmobil-Fahrer übersieht Stauende und rammt mehrere Fahrzeuge – 34 Verletzte",
-        "Eine Frage der politischen Glaubwürdigkeit",
-        "Außer Kontrolle geratenes OpenAI-Modell war offenbar tagelang unbemerkt auf Hacker-Tour"
+        "„Das macht Leute wütend, macht sie kirre“ – Boris Palmer im Kampf gegen die Bürokratie-„Hydra“",
+        "Drei Mädchen zerschneiden Schwestern die Gesichter",
+        "„So kann man sich nicht äußern dazu“ – Özdemir attackiert Islamverbände wegen Reaktion auf Anschlag",
+        "Deutschland schiebt erstmals einen Afghanen ohne Vorstrafe ab"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a653912fe2765826e0fd535/deutschland-muss-an-diesen-innovationen-teilhaben-csu-fordert-ruestungsabkommen-mit-kiew.html",
-        "https://www.welt.de/vermischtes/article6a6566ac166bc12eb54f6689/thueringen-wohnmobil-fahrer-uebersieht-stauende-und-rammt-mehrere-fahrzeuge-34-verletzte.html",
-        "https://www.welt.de/politik/ausland/article6a64cfe22d42c378bab768b8/atomdeal-mit-saudi-arabien-eine-frage-der-politischen-glaubwuerdigkeit.html",
-        "https://www.welt.de/wirtschaft/article6a64c1a9166bc12eb54f5e47/ki-ausser-kontrolle-geratenes-openai-modell-war-tagelang-unbemerkt-auf-hacker-tour.html"
+        "https://www.welt.de/politik/deutschland/plus6a673c63b5090c8e581ee06f/oezdemirs-berater-das-macht-leute-wuetend-macht-sie-kirre-boris-palmer-im-kampf-gegen-die-buerokratie-hydra.html",
+        "https://www.welt.de/vermischtes/kriminalitaet/article6a68d523ce0aac7f44e4151b/brutale-attacke-in-heidelberg-drei-maedchen-zerschneiden-schwestern-die-gesichter.html",
+        "https://www.welt.de/politik/deutschland/article6a68cfe9c435b807339bda4d/bluttat-beim-csd-in-berlin-so-kann-man-sich-nicht-aeussern-dazu-oezdemir-attackiert-islamverbaende-wegen-reaktion-auf-anschlag.html",
+        "https://www.welt.de/politik/deutschland/article6a689944a17ee9f1dfd819df/deutschland-schiebt-erstmals-einen-afghanen-ohne-vorstrafe-ab.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -160,44 +160,11 @@
           "count": 5
         },
         {
-          "emotion": "sadness",
-          "count": 2
-        },
-        {
           "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 64,
-      "sample_titles": [
-        "US-Berufungsgericht blockiert Donald Trumps Erlass zur Briefwahl",
-        "OpenAI: Ausgebrochenes KI-Modell ging tagelang unbemerkt auf Hacker-Tour",
-        "Frankreich: Waldbrände laut Innenminister Laurent Nuñez 30 Kilometer vor Bordeaux",
-        "OpenAI: Ausgebrochenes KI-Modell ging tagelang unbemerkt auf Hacker-Tour"
-      ],
-      "urls": [
-        "https://www.spiegel.de/ausland/us-berufungsgericht-blockiert-donald-trumps-erlass-zur-briefwahl-a-7b1ceed3-3254-4e87-a81b-db0939b5bd60#ref=rss",
-        "https://www.spiegel.de/netzwelt/web/openai-ausgebrochenes-ki-modell-ging-tagelang-unbemerkt-auf-hacker-tour-a-fe0326a8-25f6-4b78-a77d-3aacee6d669f#ref=rss",
-        "https://www.spiegel.de/ausland/frankreich-waldbraende-laut-innenminister-laurent-nunez-30-kilometer-vor-bordeaux-a-bf0990eb-6127-4a83-89d6-5ee19994e510#ref=rss",
-        "https://www.spiegel.de/netzwelt/openai-ausgebrochenes-ki-modell-ging-tagelang-unbemerkt-auf-hacker-tour-a-fe0326a8-25f6-4b78-a77d-3aacee6d669f#ref=rss"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
           "count": 3
         },
         {
-          "emotion": "sadness",
+          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -206,31 +173,64 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 48,
+      "article_count": 56,
       "sample_titles": [
-        "Bekifft am Steuer: Mehr Fahrten unter Cannabis: Was steckt hinter dem Anstieg?",
-        "Cannabis am Steuer: „Sprunghafter Anstieg“ - Bekifft am Steuer",
-        "Musik in Kirche: Weltrekordversuch: Drei Tage durchgehend Posaunenmusik",
-        "Unfall in Südthüringen: 34 Verletzte bei Auffahrunfall auf A9 - darunter auch Kinder"
+        "Betrunken am Steuer?: Mann und zwei Kinder sterben bei Unfall - Vater vor Gericht",
+        "Stahlindustrie und Wasserstoff: Bau von Wasserstoffpipeline im Saarland kann beginnen",
+        "35 Jahre: Ist Wacken das einzig wahre Festival oder nur noch ein Metal-Disneyland?",
+        "Verkürzte Wirbelsäule: Kein Affe, keine KI – warum Waschbär Jimothy für Aufsehen sorgt"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/bekifft-am-steuer--mehr-fahrten-unter-cannabis--was-steckt-hinter-dem-anstieg--38012370.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/cannabis-am-steuer---sprunghafter-anstieg----bekifft-am-steuer-38012316.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/musik-in-kirche--weltrekordversuch--drei-tage-durchgehend-posaunenmusik-38012346.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/unfall-in-suedthueringen--34-verletzte-bei-auffahrunfall-auf-a9---darunter-auch-kinder-38012300.html"
+        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/betrunken-am-steuer---mann-und-zwei-kinder-sterben-bei-unfall---vater-vor-gericht-38026740.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/stahlindustrie-und-wasserstoff--bau-von-wasserstoffpipeline-im-saarland-kann-beginnen-38025902.html",
+        "https://www.stern.de/kultur/musik/35-jahre-wacken--was-ist-das-geheimnis-eines-norddeutschen-ackers--38023240.html",
+        "https://www.stern.de/panorama/usa--kein-affe--keine-ki---warum-waschbaer-jimothy-fuer-aufsehen-sorgt-38022460.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "excitement",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 4
+          "emotion": "excitement",
+          "count": 3
         },
         {
-          "emotion": "excitement",
+          "emotion": "sadness",
           "count": 2
         },
         {
-          "emotion": "grief",
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 50,
+      "sample_titles": [
+        "Irankrieg: USA melden Raketen-Angriffe aus Iran – und attackieren mit Saudi-Arabien Ziele im Irak",
+        "Peru: Keiko Fujimori steht ein Balanceakt zwischen Peking und Washington bevor",
+        "Anthropic Claude: Private KI-Chats tauchten in Google-Suchergebnissen auf",
+        "Ariana Grande klagt gegen unbekannte Hacker"
+      ],
+      "urls": [
+        "https://www.spiegel.de/ausland/iran-krieg-usa-melden-raketen-angriffe-auf-us-ziele-im-nahen-osten-a-cc6eb93f-8136-434d-83ad-583cefad3272#ref=rss",
+        "https://www.spiegel.de/ausland/peru-keiko-fujimori-steht-ein-balanceakt-zwischen-peking-und-washington-bevor-a-bf2ece6b-6e6e-4934-a3d8-a282f10a96fd#ref=rss",
+        "https://www.spiegel.de/netzwelt/anthropic-claude-private-ki-chats-tauchten-in-google-suchergebnissen-auf-a-19672739-6e05-4ed0-b29a-2823e46a76d5#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/ariana-grande-klagt-gegen-unbekannte-hacker-a-b3365f33-4e28-4026-9084-a56d75b1e51b#ref=rss"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
           "count": 2
         }
       ]
@@ -239,31 +239,130 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 40,
+      "article_count": 49,
       "sample_titles": [
-        "+++ Ukraine-Krieg +++: Kiew unter russischem Raketenbeschuss",
-        "Südkorea: Samsung und SK Group kündigen KI-Projekte mit US-Konzernen über 950 Milliarden Dollar an",
-        "Interview: „Das ist kein Skynet-Szenario“ – Verfassungsschützer warnt vor Panikmache wegen KI-Vorfall",
-        "+++ Iran-Krieg +++: US-Militär beschießt Tanker im Golf von Oman"
+        "Künstliche Intelligenz: Mitarbeiter von OpenAI, Anthropic & Co. – Über 1.000 Experten fordern KI-Bremsmechanismus",
+        "Kommentar: Kiew hat allen Grund zur Hoffnung",
+        "Sicherheitrisiken: USA verbieten Import neuer chinesischer Roboter und Wechselrichter",
+        "Künstliche Intelligenz: Hacker-KI von OpenAI kompromittierte Kunden weiterer Firma"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/ukraine-krieg-kiew-unter-russischem-raketenbeschuss/27982126.html",
-        "https://www.handelsblatt.com/technik/ki/technologie-suedkorea-kuendigt-ki-projekte-ueber-950-milliarden-dollar-an/100242840.html",
-        "https://www.handelsblatt.com/politik/deutschland/das-ist-kein-skynet-szenario-verfassungsschuetzer-warnt-vor-ki-panikmache/100242209.html",
-        "https://www.handelsblatt.com/politik/international/iran-krieg-us-militaer-beschiesst-tanker-im-golf-von-oman/100136895.html"
+        "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-ueber-1.000-experten-fordern-ki-bremsmechanismus/100243565.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-kiew-hat-allen-grund-zur-hoffnung/100243443.html",
+        "https://www.handelsblatt.com/technik/ki/sicherheitrisiken-usa-verbieten-import-neuer-chinesischer-roboter-und-wechselrichter/100243540.html",
+        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-hacker-ki-von-openai-kompromittierte-kunden-weiterer-firma/100243552.html"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "realization",
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "excitement",
-          "count": 1
+          "emotion": "realization",
+          "count": 2
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 30,
+      "sample_titles": [
+        "USA verbieten Einfuhr humanoider Roboter aus China",
+        "Tango-Festival in Finnland",
+        "Wie eine Russin Kriegsgefangene in der Ukraine aufspürt",
+        "Live: Niedrigwasser - Problem der Binnenschifffahrt"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/wirtschaft/usa-verbot-roboter-wechselrichter-china-ki-100.html",
+        "https://www.zdfheute.de/video/heute-in-europa/tango-festival-in-finnland-102.html",
+        "https://www.zdfheute.de/politik/ausland/kriegsgefangene-ngo-angehoerige-ukraine-krieg-russland-100.html",
+        "https://www.zdfheute.de/video/zdf-mittagsmagazin/niedrigwasser-binnenschiffahrt-100.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 3
         },
         {
-          "emotion": "optimism",
+          "emotion": "excitement",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 30,
+      "sample_titles": [
+        "Beseitigung von Wikingerlegenden: „Archäologie und Mythos gehen weit auseinander“",
+        "Jugendwort des Jahres 2026: Langenscheidt, leck Eier!",
+        "„Kirchensteuerkirchen“ in Sachsen-Anhalt: „AfD und Christentum sind unvereinbar“",
+        "Repression in der Türkei: Ein Neustart für Özgur Özel"
+      ],
+      "urls": [
+        "https://taz.de/Beseitigung-von-Wikingerlegenden/!6197961/",
+        "https://taz.de/Jugendwort-des-Jahres-Langenscheidt-leck-Eier/!6199724/",
+        "https://taz.de/Kirchensteuerkirchen-in-Sachsen-Anhalt/!6194634/",
+        "https://taz.de/Repression-in-der-Tuerkei/!6199761/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "surprise",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 29,
+      "sample_titles": [
+        "Ein «amerikanisches Original»: So nimmt Präsident Trump Abschied vom verstorbenen Senator Lindsey Graham",
+        "Zirkuläre Deals verunsichern die Investoren: Während die KI-Konzerne immer grössere Geschäfte ankündigen, brechen ihre Aktienkurse ein",
+        "Trump empfängt Selenski und Netanyahu: Die Trauerfeier für Lindsey Graham wird zum diplomatischen Gipfeltreffen",
+        "DIE NEUESTEN ENTWICKLUNGEN - Trumps zweite Amtszeit: Trump ruft Supreme Court im Streit um Wahlregeln an +++ Gericht blockiert Trumps Briefwahl-Pläne"
+      ],
+      "urls": [
+        "https://www.nzz.ch/international/ein-amerikanisches-original-so-nimmt-praesident-trump-abschied-vom-verstorbenen-senator-lindsey-graham-ld.10017314",
+        "https://www.nzz.ch/wirtschaft/zirkulaere-deals-verunsichern-die-investoren-waehrend-die-ki-konzerne-immer-groessere-geschaefte-ankuendigen-brechen-ihre-aktienkurse-ein-ld.10017292",
+        "https://www.nzz.ch/international/trump-empfaengt-selenski-und-netanyahu-im-weissen-haus-die-trauerfeier-fuer-lindsey-graham-wird-zum-diplomatischen-gipfeltreffen-ld.10017340",
+        "https://www.nzz.ch/international/trumps-zweite-amtszeit-trump-ruft-supreme-court-im-streit-um-wahlregeln-an-gericht-blockiert-trumps-briefwahl-plaene-ld.1856621"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -272,18 +371,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 36,
+      "article_count": 27,
       "sample_titles": [
-        "Polen: Kaczyńskis Partei zerbricht",
-        "Familien-Newsletter: Das Schulklo als politischer Raum",
-        "Volkswagen in der Krise: „VW erlebt gerade seinen Nokia-Moment“",
-        "Mathematik: Mit diesen Fields-Medaillen könnte eine Ära zu Ende gehen"
+        "Heiligenstadt: Verfolgungsjagd über die A73: Jetzt ermittelt die Polizei wegen versuchten Mordes",
+        "Ukraine und USA: Späte Genugtuung für Selenskij",
+        "Urteil des Landgerichts: Sexueller Missbrauch von Kindern – Haftstrafe für 47-Jährigen",
+        "Premier League: Der FC Chelsea arbeitet am nächsten sündteuren Umbruch"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/polen-pis-spaltung-kaczynski-li.3521194",
-        "https://www.sueddeutsche.de/leben/demokratie-schultoilette-werte-schule-engagement-li.3517970",
-        "https://www.sueddeutsche.de/wirtschaft/vw-zahlen-2026-desaster-krise-li.3518853",
-        "https://www.sueddeutsche.de/wissen/fields-mathematik-ki-li.3520920"
+        "https://www.sueddeutsche.de/bayern/heiligenstadt-bamberg-a73-verfolgungsjagd-b22-li.3523125",
+        "https://www.sueddeutsche.de/politik/washington-selenskij-trump-us-senat-lindsey-graham-li.3522808",
+        "https://www.sueddeutsche.de/muenchen/schwerer-sexueller-missbrauch-von-kindern-landgericht-muenchen-i-urteil-li.3522791",
+        "https://www.sueddeutsche.de/sport/fc-chelsea-transfers-rogers-alonso-li.3522867"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -301,101 +400,35 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 31,
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 18,
       "sample_titles": [
-        "Spahn und die Leihmutterschaft: Warum denn keine Pflegekinder?",
-        "Ebola-Ausbruch in der DR Kongo: „Eine würdige und sichere Beerdigung ist wichtig“",
-        "Fränkische Traditionsbrauerei: „Nur beim Saufen konnte ich nicht mithalten“",
-        "Eskalation am Roten Meer: Huthi-Miliz feuert Raketen auf Saudi-Arabien ab"
+        "Cybersicherheit: USA verbieten Import von humanoiden Robotern aus China",
+        "Betrunken am Steuer?: Mann und zwei Kinder sterben bei Unfall - Vater vor Gericht",
+        "Kennenlernen im Studium: »Sein Anblick warf mich ziemlich aus der Bahn – aber ich schaffte es, ihn einzuladen«",
+        "Klimaklage in Peru: Tat ohne Täter – Teil 2: Als das Eis zur Gefahr wurde"
       ],
       "urls": [
-        "https://taz.de/Spahn-und-die-Leihmutterschaft/!6199135/",
-        "https://taz.de/Ebola-Ausbruch-in-der-DR-Kongo/!6195190/",
-        "https://taz.de/Fraenkische-Traditionsbrauerei/!6170676/",
-        "https://taz.de/Eskalation-am-Roten-Meer/!6199147/"
+        "https://www.zeit.de/wirtschaft/2026-07/importverbot-roboter-china-usa-unitree-wechselrichter",
+        "https://www.zeit.de/news/2026-07/29/mann-und-zwei-kinder-sterben-bei-unfall-vater-vor-gericht",
+        "https://www.zeit.de/zeit-magazin/2026/32/kennenlernen-studium-beziehung-liebeskolumne",
+        "https://www.zeit.de/gesellschaft/2026-07/klimaklage-peru-rwe-verbrechen-podcast"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "grief",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 28,
-      "sample_titles": [
-        "Breaking (F): Top 8 B-Girls",
-        "Bericht: KI-Agent von OpenAI war tagelang außer Kontrolle",
-        "Bikepacking: Tipps für die erste Reise mit dem Fahrrad",
-        "Polens größte Oppositionspartei PiS zerbricht an Machtkampf"
-      ],
-      "urls": [
-        "https://www.zdf.de/video/livestreams/die-finals-live-livestream-ergebnisse-zeitplan-deutsche-meisterschaft-100/livestream-breaking-frauen-top-8-girls-27-juli-2026-100",
-        "https://www.zdfheute.de/panorama/ki-modell-hackerangriff-100.html",
-        "https://www.zdfheute.de/ratgeber/urlaub-mit-dem-fahrrad-bikepacking-reisen-radreise-100.html",
-        "https://www.zdfheute.de/politik/ausland/polen-pis-spaltung-morawiecki-kaczynski-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "sadness",
+          "emotion": "grief",
           "count": 1
         },
         {
-          "emotion": "annoyance",
+          "emotion": "joy",
           "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 27,
-      "sample_titles": [
-        "«Endlich kann ich mit ihr machen, was ich will»: In den Köpfen der Männer, die Frauen sedieren wollen",
-        "Wie russische Desinformation die kommenden Wahlen in Deutschland ins Visier nimmt",
-        "Lebensgefährliches Spielzeug: Wenn Kinder Magnete verschlucken, müssen sie sofort ins Spital",
-        "Tod einer Sechsjährigen: In einem Spital in Schanghai stirbt ein Kind nach einer missglückten Gentherapie"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/endlich-kann-ich-mit-ihr-machen-was-ich-will-in-den-koepfen-der-maenner-die-frauen-sedieren-wollen-ld.10016850",
-        "https://www.nzz.ch/visuals/wie-russische-desinformation-die-kommenden-wahlen-in-deutschland-ins-visier-nimmt-ld.10016563",
-        "https://www.nzz.ch/wissenschaft/wenn-kinder-magnete-verschlucken-besteht-akute-lebensgefahr-ld.10016521",
-        "https://www.nzz.ch/wissenschaft/tod-einer-sechsjaehrigen-in-schanghai-missglueckte-gentherapie-wirft-fragen-auf-ld.10016864"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
+        },
         {
           "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "desire",
           "count": 1
         }
       ]
@@ -404,27 +437,31 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 21,
+      "article_count": 17,
       "sample_titles": [
-        "Bruch in der größten polnischen Oppositionspartei",
-        "Lithium-Ionen-Batterien: Ein gefährlicher Brandherd",
-        "„Raus, so schnell es geht“: Wachsende Panik am Arbeitsmarkt",
-        "Hausdurchsuchungen bei Minderjährigen wegen mutmaßlicher Fremdenfeindlichkeit"
+        "Autofahrer fährt drei Mädchen um und flüchtet – nicht festgenommen",
+        "Börsenwoche: Nicht die Zahlen entscheiden, sondern die Erwartungen",
+        "Welche Generation sind wir denn gerade?",
+        "Die Verfügbarmachung von Frauen und Kindern"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/bruch-in-der-groessten-polnischen-oppositionspartei/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/batteriebrand-in-bautzen/",
-        "https://www.tichyseinblick.de/wirtschaft/wachsende-panik-am-arbeitsmarkt/",
-        "https://www.tichyseinblick.de/meinungen/hausdurchsuchungen-bei-minderjaehrigen/"
+        "https://www.tichyseinblick.de/daili-es-sentials/muenchen-autofahrer-faehrt-drei-maedchen-um-und-fluechtet/",
+        "https://www.tichyseinblick.de/wirtschaft/geldanlage/nicht-die-zahlen-entscheiden-sondern-die-erwartungen/",
+        "https://www.tichyseinblick.de/feuilleton/buecher/welche-generation-sind-wir-denn-gerade/",
+        "https://www.tichyseinblick.de/gastbeitrag/leihmutterschaft-der-mensch-als-ware/"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 3
+          "emotion": "optimism",
+          "count": 1
         },
         {
-          "emotion": "desire",
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -433,64 +470,27 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 17,
+      "article_count": 14,
       "sample_titles": [
-        "Krieg in der Ukraine Trump-Vertraute Loomer: „Ich fiel auf russische Desinformation herein“",
-        "NGO-Komplex Wie queere Schattennetzwerke an Deutschlands Schüler rankommen",
-        "Öffentlich-Rechtlicher Rundfunk Staatsanwaltschaft äußert sich zu „Teufel“-Aussage im „Wort zum Sonntag“",
-        "Rheinmetall auf Pekings Strafliste China kontert EU-Russland-Sanktionen mit Exportsperre für deutsche Unternehmen"
+        "Posse in Euskirchen Weil Schiedsrichter in AfD ist, tritt ein Kreissportgericht zurück",
+        "Leipziger Flughafen Linksextreme protestieren gegen Abschiebung afghanischer Kinderschänder",
+        "Leihmutterschaft-Affäre Kinder haben Recht auf ihre Mutter",
+        "Großbritannien Farage fordert Verhaftung von Grünen-Chef nach Guillotinen-Post"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/ausland/2026/trump-vertraute-loomer-ich-fiel-auf-russische-desinformation-herein/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wie-queere-schattennetzwerke-deutschlands-schueler-rankommen/",
-        "https://jungefreiheit.de/kultur/medien/2026/staatsanwaltschaft-aeussert-sich-zu-teufel-aussage-im-wort-zum-sonntag/",
-        "https://jungefreiheit.de/wirtschaft/2026/china-kontert-eu-russland-sanktionen-mit-exportsperre-fuer-deutsche-unternehmen/"
+        "https://jungefreiheit.de/politik/deutschland/2026/weil-schiedsrichter-in-afd-ist-tritt-ein-kreissportgericht-tritt-zurueck/",
+        "https://jungefreiheit.de/politik/deutschland/2026/linksextreme-protestieren-gegen-abschiebung-afghanischer-kinderschaender/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/kinder-haben-recht-auf-ihre-mutter/",
+        "https://jungefreiheit.de/politik/ausland/2026/farage-fordert-verhaftung-von-gruenen-chef-nach-guillotinen-post/"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "disappointment",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 15,
-      "sample_titles": [
-        "Bekifft am Steuer: Mehr Fahrten unter Cannabis: Was steckt hinter dem Anstieg?",
-        "Briefwahl in den USA: US-Berufungsgericht blockiert Trumps Erlass zur Briefwahl",
-        "Bayreuther Festspiele: Katharina Wagner und Michel Friedman eröffnen Festspiele nach Streit",
-        "Scheidung der Eltern: Sie will ihren Kindern die Trennung ersparen. Dann geht sie doch"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-07/26/mehr-fahrten-unter-cannabis-was-steckt-hinter-dem-anstieg",
-        "https://www.zeit.de/politik/ausland/2026-07/briefwahl-usa-donald-trump-dekret-gericht-boston",
-        "https://www.zeit.de/feuilleton/musik/2026-07/bayreuther-festspiele-katharina-wagner-michel-friedman-gedenkveranstaltung",
-        "https://www.zeit.de/zeit-magazin/leben/2026-07/scheidung-eltern-kinder-trennung-aengste"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "remorse",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
           "count": 1
         }
       ]
@@ -499,7 +499,7 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 6,
+      "article_count": 4,
       "sample_titles": [
         "Nach dem Eklat ist vor dem Eklat: Die Bayreuther Wagner-Festspiele beginnen mal wieder",
         "Wer schützt die Bürger vor den „Schutzsuchenden“?",
@@ -524,60 +524,56 @@
         }
       ]
     },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Kino-Dokumentation „Was haben wir gelacht“ - Das Tribunal der Gegenwart",
-        "Brosius-Gersdorf attackiert die Union - Eine Beleidigung für alle Christen",
-        "Ukrainischer Generalstabschef entlassen - Reformkurs in Kiews Armee wird fortgesetzt"
-      ],
-      "urls": [
-        "https://www.cicero.de/kultur/was-haben-wir-gelacht-gottschalk-kritik-gegenwart",
-        "https://www.cicero.de/innenpolitik/brosius-gersdorf-attackiert-die-union-eine-beleidigung-fur-alle-christen",
-        "https://www.cicero.de/aussenpolitik/ukrainischer-generalstabschef-entlassen-reformkurs-in-kiews-armee-wird-fortgesetzt"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
       "article_count": 2,
       "sample_titles": [
-        "Huthi-Rebellen attackieren saudischen Öltanker",
-        "KI bricht aus Cyberkäfig aus und verübt Hacker-Angriff"
+        "Deutlich weniger Kinder und Jugendliche in Obhut genommen",
+        "Huthi-Rebellen attackieren saudischen Öltanker"
       ],
       "urls": [
-        "https://www.dw.com/de/huthi-rebellen-attackieren-saudischen-öltanker/a-78079727?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/ki-bricht-aus-cyberkäfig-aus-und-verübt-hacker-angriff/a-78066584?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/deutlich-weniger-kinder-und-jugendliche-in-obhut-genommen/a-78130850?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/huthi-rebellen-attackieren-saudischen-öltanker/a-78079727?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Kino-Dokumentation „Was haben wir gelacht“ - Das Tribunal der Gegenwart"
+      ],
+      "urls": [
+        "https://www.cicero.de/kultur/was-haben-wir-gelacht-gottschalk-kritik-gegenwart"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "far-right": 44,
-    "populist-mixed": 85,
-    "right-conservative": 150,
-    "economic-liberal": 40,
-    "conservative-liberal": 169,
-    "left-liberal": 163,
-    "left": 31,
-    "neutral": 118
+    "populist-mixed": 92,
+    "right-conservative": 157,
+    "economic-liberal": 49,
+    "conservative-liberal": 171,
+    "left-liberal": 151,
+    "neutral": 115,
+    "far-right": 35,
+    "left": 30
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs besteht trotz unterschiedlicher politischer Ausrichtungen Einigkeit darüber, dass der flächendeckende Ausbau von Breitband- und 5G-Netzen als unverzichtbare Basis für die Wettbewerbsfähigkeit Deutschlands und Europas gilt und die aktuellen Infrastrukturdefizite von allen Seiten kritisiert werden. Gleichzeitig wird in nahezu allen Lagern die Notwendigkeit betont, klare regulatorische Rahmenbedingungen für Künstliche Intelligenz zu schaffen, wobei der EU-AI-Act als zentraler Bezugspunkt genannt wird, um Innovationsdruck und Datenschutz- sowie Sicherheitsbedenken zu verbinden. Ein weiteres gemeinsames Motiv ist die Forderung nach einer umfassenden digitalen Bildungsoffensive, weil Medien aus allen politischen Richtungen vor einem drohenden Fachkräftemangel und den sozialen Folgen einer ungleichen Digitalisierung warnen.",
-      "controversial_points": "Der Staat fordert Regulierung von KI, während Wirtschaftsliberale auf Innovationsfreiheit pochen. Datenschutzvertreter betonen Bürgerrechte, während Sicherheitsbehörden mehr Datenzugriff für Cyberabwehr verlangen. Öffentliche Medien kritisieren digitale Spaltung, während konservative Stimmen den Breitbandausbau als Wahlkampf-Propaganda sehen. Gewerkschaften warnen vor Jobverlust durch Automatisierung, Unternehmen betonen neue Qualifikationschancen und Wettbewerbsfähigkeit."
+      "shared_perspectives": "",
+      "controversial_points": "Der Streit zwischen Innovationsförderung und strenger Datenschutzpolitik prägt die Debatte um KI in Deutschland. Bund und Länder kämpfen um Zuständigkeit beim Breitbandausbau, was regionale Ungleichheiten verstärkt."
     },
     "en": {
-      "shared_perspectives": "German media, from left-leaning to right-leaning outlets, consistently stress that artificial intelligence must be governed by clear, enforceable rules because of concrete security and privacy threats, while rejecting sensationalist panic narratives; they also converge on the view that the state should finance a rapid expansion of broadband, cloud services and digital skills programmes to keep German industry and public services competitive in Europe; finally, there is a broad cross-political consensus that AI will reshape the legal profession and the labour market, prompting calls for systematic retraining and institutional adaptation rather than outright opposition.",
-      "controversial_points": "A clash exists between market-driven AI expansion and strict data-protection norms championed by privacy advocates. Labor unions resist automation while industry groups demand rapid digitalisation to stay globally competitive. The EU AI Act pits European regulatory sovereignty against German firms' reliance on US and Chinese AI platforms. Federal and state governments dispute funding responsibilities for nationwide broadband rollout. Security-focused conservatives prioritize AI for defense, while left-leaning voices warn of civil-rights erosion."
+      "shared_perspectives": "German media across the spectrum agree that AI and digital transformation are strategic priorities for national competitiveness and therefore require substantial public investment in infrastructure such as broadband, data centres and research networks. At the same time there is a broadly shared conviction that security risks and ethical questions demand a strong regulatory framework, with the EU AI Act repeatedly cited as the necessary baseline to protect data, prevent misuse and ensure a level playing field. Finally, most outlets, regardless of political leaning, stress that the labour market impact of automation must be managed through coordinated education and up-skilling programmes to avoid widening social inequality.",
+      "controversial_points": "A major conflict pits data protection advocates against AI industry lobbyists. Another tension separates federal regulatory ambition from business demand for rapid innovation. A third line divides EU AI rules from German sovereignty concerns. A fourth field contrasts labor unions' fear of job loss with tech firms' growth narrative."
     }
   },
-  "cached_at": "2026-07-26T06:59:37.789661"
+  "cached_at": "2026-07-29T07:05:10.865935"
 }

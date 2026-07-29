@@ -8,18 +8,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 109,
+      "article_count": 110,
       "sample_titles": [
-        "Staat fördert Sparen: Die Frühstartrente ist ungerecht",
-        "Nach Wettbewerbsklage: Paramount setzt Übernahme von Warner Brothers aus",
-        "Sozialstaatsreformen: Arbeitgeber warnen vor dem geplanten Rentenpaket",
-        "Vorsorge: Die Frühstartrente hat zwei Vorteile"
+        "Altersvorsorge: Der digitale Renten-Reinfall",
+        "Medizin: Was taugt Dr. ChatGPT?",
+        "Pogačar überlässt Sieg: Der Mann in Gelb hat keinen Stierkampf nötig",
+        "Staat fördert Sparen: Die Frühstartrente ist ungerecht"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/finanzen/fruehstartrente-warum-die-foerderung-ungerecht-ist-201057581.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/paramount-setzt-uebernahme-von-warner-brothers-aus-201063949.html",
-        "https://www.faz.net/aktuell/wirtschaft/arbeitgeber-warnen-vor-dem-geplanten-rentenpaket-201057363.html",
-        "https://www.faz.net/aktuell/wirtschaft/die-fruehstartrente-hat-zwei-vorteile-201054705.html"
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rentenuebersicht-der-digitale-renten-reinfall-201071557.html",
+        "https://www.faz.net/aktuell/wissen/medizin-ernaehrung/stiftung-warentest-testet-ki-chatbots-mit-gesundheitlichen-fragen-viele-forscher-sind-kritischer-accg-201070028.html",
+        "https://www.faz.net/aktuell/sport/tour-de-france/tour-de-france-2026-tadej-pogaar-hat-keinen-stierkampf-noetig-accg-201066187.html",
+        "https://www.faz.net/aktuell/finanzen/fruehstartrente-warum-die-foerderung-ungerecht-ist-201057581.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -32,8 +32,41 @@
           "count": 9
         },
         {
-          "emotion": "curiosity",
+          "emotion": "admiration",
           "count": 4
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 109,
+      "sample_titles": [
+        "Ökobilanz des Druckens: Tinte oder Laser? So drucken Sie am umweltfreundlichsten",
+        "Schon vor American-Absage: United Airlines wollte wohl Delta übernehmen",
+        "Auftrieb durch Regierungskrise: Geschasster Verteidigungsminister mausert sich zu Selenskyjs Konkurrenten",
+        "Grandioses Finish in Alpe d'Huez: Tadej Pogacar frisst Konkurrenten im Chaos gnadenlos auf"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Tinte-oder-Laser-So-drucken-Sie-am-umweltfreundlichsten-id31115877.html",
+        "https://www.n-tv.de/wirtschaft/United-Airlines-wollte-wohl-Delta-uebernehmen-id31127577.html",
+        "https://www.n-tv.de/politik/Geschasster-Verteidigungsminister-Fedorow-mausert-sich-zu-Selenskyjs-Konkurrenten-id31122642.html",
+        "https://www.n-tv.de/sport/Radsport/Tadej-Pogacar-frisst-Konkurrenten-im-Chaos-gnadenlos-auf-id31123193.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 9
+        },
+        {
+          "emotion": "curiosity",
+          "count": 7
+        },
+        {
+          "emotion": "excitement",
+          "count": 2
         }
       ]
     },
@@ -41,18 +74,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 109,
+      "article_count": 103,
       "sample_titles": [
+        "„Das Auto ist aerodynamisch einfach komplett kaputt. Was für ein Witz“, hadert Verstappen",
         "Sammlung von Keramikscherben in Jingdezhen wird Zentrum für weltweite Forschung",
         "Mehr Risiko für die Rente? Reiche will Beiträge zur Start-up-Finanzierung nutzen",
-        "Sozialausgaben steigen weiter – fast jeder dritte Euro für Arbeitslosigkeit, Gesundheit, Rente",
-        "Mobilfunkanbieter O2 streicht 1100 Stellen und schließt 60 Shops"
+        "Sozialausgaben steigen weiter – fast jeder dritte Euro für Arbeitslosigkeit, Gesundheit, Rente"
       ],
       "urls": [
+        "https://www.welt.de/sport/formel1/article6a65a5cdfe2765826e0fd85f/grand-prix-von-ungarn-das-auto-ist-aerodynamisch-einfach-komplett-kaputt-was-fuer-ein-witz-hadert-verstappen.html",
         "https://www.welt.de/videos/video6a6223c7efccf0c0d5536f75/anzeige-sammlung-von-keramikscherben-in-jingdezhen-wird-zentrum-fuer-weltweite-forschung.html",
         "https://www.welt.de/wirtschaft/plus6a60c69af8f59889637251a5/altersvorsorge-mehr-risiko-fuer-die-rente-reiche-will-beitraege-zur-start-up-finanzierung-nutzen.html",
-        "https://www.welt.de/wirtschaft/article6a61aa7826ebb8e13e2edf5b/deutschlands-sozialausgaben-steigen-weiter-fast-jeder-dritte-euro-fuer-arbeitslosigkeit-gesundheit-rente.html",
-        "https://www.welt.de/wirtschaft/article6a60eee8f8f59889637254c1/mobilfunkanbieter-o2-streicht-1100-stellen-und-schliesst-60-shops.html"
+        "https://www.welt.de/wirtschaft/article6a61aa7826ebb8e13e2edf5b/deutschlands-sozialausgaben-steigen-weiter-fast-jeder-dritte-euro-fuer-arbeitslosigkeit-gesundheit-rente.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -70,55 +103,22 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 106,
-      "sample_titles": [
-        "Grandioses Finish in Alpe d'Huez: Tadej Pogacar frisst Konkurrenten im Chaos gnadenlos auf",
-        "Rente, Gesundheit, Pflege: Sozialausgaben betragen ein Drittel der deutschen Wirtschaftskraft",
-        "Wellnessgetränke im Warentest: Wasser mit Vitamin- und Fruchtzusatz - gesunde Durstlöscher?",
-        "Sechsstellige Summen sind drin : Zehn Euro im Monat: So soll die Frühstartrente funktionieren"
-      ],
-      "urls": [
-        "https://www.n-tv.de/sport/Radsport/Tadej-Pogacar-frisst-Konkurrenten-im-Chaos-gnadenlos-auf-id31123193.html",
-        "https://www.n-tv.de/politik/Sozialausgaben-betragen-ein-Drittel-der-deutschen-Wirtschaftskraft-id31117989.html",
-        "https://www.n-tv.de/ratgeber/Wasser-mit-Vitamin-und-Fruchtzusatz-gesunde-Durstloescher-id31117235.html",
-        "https://www.n-tv.de/ratgeber/Zehn-Euro-im-Monat-So-soll-die-Fruehstartrente-funktionieren-id31113825.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 9
-        },
-        {
-          "emotion": "curiosity",
-          "count": 6
-        },
-        {
-          "emotion": "excitement",
-          "count": 2
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 69,
+      "article_count": 71,
       "sample_titles": [
-        "Kommentar: Jetzt könnte die Regierung mal sinnvoll Geld ausgeben – und zaudert",
-        "Jens Südekum: Deutschlands Rentenmilliarden machen mehr Investitionen möglich",
-        "Moonshot gegen OpenAI: Sprachmodelle als Machtinstrument: Wem gehören Daten im KI-Zeitalter?",
-        "Riester-Nachfolger: Kommt das private Altersvorsorgedepot am 1. Januar? Die Zweifel wachsen"
+        "Altersvorsorge: BGH kippt Verwaltungsgebühr bei Riester-Bausparvertrag",
+        "VZB: Verantwortliche beim Versorgungswerk der Berliner Zahnärzte sollen 230 Millionen Euro veruntreut haben",
+        "Christiane Benner: IG-Metall-Chefin: „Die Rente nach 45 Jahren werden wir mit Zähnen und Klauen verteidigen“",
+        "Rentenreform: Arbeitgeber kritisieren höhere Beiträge für „Schwedenrente“"
       ],
       "urls": [
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-jetzt-koennte-die-regierung-mal-sinnvoll-geld-ausgeben-und-zaudert/100242149.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/wirtschaftsforum-deutschlands-rentenmilliarden-machen-mehr-investitionen-moeglich/100240253.html",
-        "https://www.handelsblatt.com/technik/ki/moonshot-gegen-openai-wem-gehoeren-daten-im-ki-zeitalter/100240863.html",
-        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorgedepot-banken-und-broker-sind-im-zeitplan-der-bund-nicht/100240062.html"
+        "https://www.handelsblatt.com/finanzen/immobilien/altersvorsorge-bgh-kippt-verwaltungsgebuehr-bei-riester-bausparvertrag/100241870.html",
+        "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorge-vzb-verantwortliche-sollen-230-millionen-euro-veruntreut-haben/100242749.html",
+        "https://www.handelsblatt.com/politik/deutschland/ig-metall-die-rente-nach-45-jahren-verteidigen-wir-mit-zaehnen-und-klauen/100240811.html",
+        "https://www.handelsblatt.com/politik/deutschland/rentenreform-arbeitgeber-kritisieren-hoehere-beitraege-fuer-schwedenrente/100243145.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -136,11 +136,44 @@
         }
       ]
     },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 61,
+      "sample_titles": [
+        "Aktien-abhängige Altersvorsorge: Ist Amerikas Aktienmarkt »too big to fail«?",
+        "Früher in Rente: Warum viele den Arbeitsmarkt vorzeitig verlassen",
+        "Paramount legt Übernahme von Warner Bros. vorübergehend auf Eis",
+        "Künstliche Intelligenz: So bedrohlich ist der autonome Hackerangriff einer KI"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/aktien-abhaengige-altersvorsorge-ist-amerikas-aktienmarkt-too-big-to-fail-a-3aa6cfab-c31d-49f6-be58-7e8aea9f87a6#ref=rss",
+        "https://www.spiegel.de/panorama/gesellschaft/frueher-in-rente-warum-viele-den-arbeitsmarkt-vorzeitig-verlassen-a-a9386c9f-e89a-4354-87d5-ac1b90c43f2d#ref=rss",
+        "https://www.spiegel.de/wirtschaft/unternehmen/paramount-legt-uebernahme-von-warner-bros-voruebergehend-auf-eis-a-870ecb24-6176-41ba-9eff-cf0a9b9ef5c2#ref=rss",
+        "https://www.spiegel.de/netzwelt/so-bedrohlich-ist-der-autonome-hacker-angriff-einer-ki-a-71d8d418-bc96-4050-b641-7dd98704ff88#ref=rss"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "confusion",
+          "count": 4
+        },
+        {
+          "emotion": "excitement",
+          "count": 2
+        }
+      ]
+    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 62,
+      "article_count": 61,
       "sample_titles": [
         "Altersvorsorge im Kindesalter - so soll es klappen",
         "EU billigt Warner-Übernahme durch Paramount",
@@ -169,35 +202,35 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 60,
+      "article_count": 55,
       "sample_titles": [
-        "Früher in Rente: Warum viele den Arbeitsmarkt vorzeitig verlassen",
-        "Paramount legt Übernahme von Warner Bros. vorübergehend auf Eis",
-        "Künstliche Intelligenz: So bedrohlich ist der autonome Hackerangriff einer KI",
-        "ZDF: Inhalte der Mediathek künftig auch bei Konkurrent Joyn von ProSiebenSat zum Streaming abrufbar"
+        "Medienbericht: Fast jeder zweite Rentner in Deutschland muss Steuern nachzahlen",
+        "Von ÖPNV bis Zoo: Diese Rabatte gibt es mit dem Rentenausweis",
+        "Inklusiver Tourismus: Neues System soll Reisen für alle transparenter machen",
+        "Altersvorsorge: Was bedeuten 50 Rentenpunkte für die eigene Rente?"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/gesellschaft/frueher-in-rente-warum-viele-den-arbeitsmarkt-vorzeitig-verlassen-a-a9386c9f-e89a-4354-87d5-ac1b90c43f2d#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/paramount-legt-uebernahme-von-warner-bros-voruebergehend-auf-eis-a-870ecb24-6176-41ba-9eff-cf0a9b9ef5c2#ref=rss",
-        "https://www.spiegel.de/netzwelt/so-bedrohlich-ist-der-autonome-hacker-angriff-einer-ki-a-71d8d418-bc96-4050-b641-7dd98704ff88#ref=rss",
-        "https://www.spiegel.de/kultur/zdf-inhalte-der-mediathek-kuenftig-auch-bei-konkurrent-joyn-von-prosiebensat-zum-streaming-abrufbar-a-c32a4d90-ee39-4224-9f37-740149ac3577#ref=rss"
+        "https://www.stern.de/wirtschaft/news/rente--fast-jeder-zweite-deutsche-rentner-muss-steuern-nachzahlen-38012340.html",
+        "https://www.stern.de/wirtschaft/geld/rentenausweis--ein-ueberblick-der-rabatte-fuer-senioren-im-ruhestand-36050296.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/inklusiver-tourismus--neues-system-soll-reisen-fuer-alle-transparenter-machen-38021302.html",
+        "https://www.stern.de/wirtschaft/geld/rente--was-bedeuten-50-rentenpunkte-spaeter-fuer-mich--37571134.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
         {
           "emotion": "confusion",
           "count": 4
         },
         {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "excitement",
+          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -206,7 +239,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 51,
+      "article_count": 48,
       "sample_titles": [
         "Neues Renten-Geschenk für Kinder - Wer sich jetzt 53.000 Euro sichern kann",
         "Politik-Vodcast: Vertraulich! - Hier baut Merz sein Kabinett um",
@@ -223,7 +256,7 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 7
+          "count": 6
         },
         {
           "emotion": "curiosity",
@@ -232,39 +265,6 @@
         {
           "emotion": "excitement",
           "count": 3
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 50,
-      "sample_titles": [
-        "„Finanztip“: Frühstartrente kann erheblichen Beitrag zu Vermögensbildung leisten",
-        "Rentenreform: Ministerin zu Minijobs: Vorschlag im Grundsatz richtig",
-        "Altersvorsorge: So berechnen Rentner ihren persönlichen Steuersatz – es ist ganz einfach",
-        "EU gibt unter Auflagen grünes Licht für Übernahme von Warner Bros. durch Paramount"
-      ],
-      "urls": [
-        "https://www.stern.de/news/-finanztip---fruehstartrente-kann-erheblichen-beitrag-zu-vermoegensbildung-leisten-38004194.html",
-        "https://www.stern.de/gesellschaft/regional/thueringen/rentenreform--ministerin-zu-minijobs--vorschlag-im-grundsatz-richtig-38003992.html",
-        "https://www.stern.de/wirtschaft/geld/rente-und-steuersatz--wieviel-geben-sie-jaehrlich-dem-finanzamt-ab--37999820.html",
-        "https://www.stern.de/news/eu-gibt-unter-auflagen-gruenes-licht-fuer-uebernahme-von-warner-bros--durch-paramount-38000196.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
         }
       ]
     },
@@ -305,7 +305,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 40,
+      "article_count": 37,
       "sample_titles": [
         "Zehn Euro im Monat: Entwurf für die Frühstartrente liegt vor",
         "Sommerinterview des Kanzlers: Merz kann jetzt seinen Machtzirkel neu ordnen",
@@ -400,6 +400,39 @@
         }
       ]
     },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 19,
+      "sample_titles": [
+        "Ein neuer Fall von «Rentenklau»? Die Finanzmarktaufsicht nimmt die Versicherung Zurich unter die Lupe",
+        "Mitten im Handelsstreit mit den USA: Die EU wagt die Konfrontation mit Google und spricht eine Busse von 890 Millionen Euro aus",
+        "«Investoren sitzen auf Beteiligungen, die sie nicht verkaufen können», sagt Joe Bae, Co-Chef der grössten Private-Equity-Firma der Welt",
+        "INTERVIEW - Radsportlegende Eddy Merckx sagt: «Ich konnte mehr leiden als meine Konkurrenten, deshalb habe ich sie alle geschlagen»"
+      ],
+      "urls": [
+        "https://www.nzz.ch/wirtschaft/ein-neuer-fall-von-rentenklau-die-finanzmarktaufsicht-nimmt-die-versicherung-zurich-unter-die-lupe-ld.10017152",
+        "https://www.nzz.ch/wirtschaft/eu-verhaengt-890-millionen-euro-strafe-gegen-google-ld.10016712",
+        "https://www.nzz.ch/wirtschaft/investoren-sitzen-auf-beteiligungen-die-sie-nicht-verkaufen-koennen-sagt-joe-bae-co-chef-der-groessten-private-equity-firma-der-welt-ld.10013940",
+        "https://www.nzz.ch/sport/radsport-legende-eddy-merckx-sagt-ich-konnte-mehr-leiden-als-meine-konkurrenten-deshalb-habe-ich-sie-alle-geschlagen-ld.10013772"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "pride",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
@@ -429,39 +462,6 @@
         },
         {
           "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "Mitten im Handelsstreit mit den USA: Die EU wagt die Konfrontation mit Google und spricht eine Busse von 890 Millionen Euro aus",
-        "«Investoren sitzen auf Beteiligungen, die sie nicht verkaufen können», sagt Joe Bae, Co-Chef der grössten Private-Equity-Firma der Welt",
-        "INTERVIEW - Radsportlegende Eddy Merckx sagt: «Ich konnte mehr leiden als meine Konkurrenten, deshalb habe ich sie alle geschlagen»",
-        "Bei der anstehenden Steuerreform zeigt sich, wer in der Koalition Koch und wer Kellner ist"
-      ],
-      "urls": [
-        "https://www.nzz.ch/wirtschaft/eu-verhaengt-890-millionen-euro-strafe-gegen-google-ld.10016712",
-        "https://www.nzz.ch/wirtschaft/investoren-sitzen-auf-beteiligungen-die-sie-nicht-verkaufen-koennen-sagt-joe-bae-co-chef-der-groessten-private-equity-firma-der-welt-ld.10013940",
-        "https://www.nzz.ch/sport/radsport-legende-eddy-merckx-sagt-ich-konnte-mehr-leiden-als-meine-konkurrenten-deshalb-habe-ich-sie-alle-geschlagen-ld.10013772",
-        "https://www.nzz.ch/der-andere-blick/bei-der-anstehenden-steuerreform-zeigt-sich-wer-in-der-koalition-koch-und-wer-kellner-ist-ld.10013544"
-      ],
-      "dominant_emotion": "pride",
-      "top_emotions": [
-        {
-          "emotion": "pride",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -541,24 +541,24 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 51,
-    "conservative-liberal": 129,
-    "left-liberal": 154,
-    "neutral": 111,
-    "right-conservative": 215,
+    "economic-liberal": 71,
+    "conservative-liberal": 131,
+    "left-liberal": 160,
+    "right-conservative": 212,
+    "populist-mixed": 48,
+    "neutral": 110,
     "far-right": 31,
-    "economic-liberal": 69,
-    "left": 40
+    "left": 37
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg die demografische Alterung als zentrale Belastung der gesetzlichen Rentenversicherung hervorgehoben, wobei die Finanzierbarkeit des Systems und die Gefahr von Altersarmut als gemeinsame Sorgen benannt werden. Gleichzeitig finden sich in den Beiträgen von konservativen, linken und neutralen Medien übereinstimmende Hinweise darauf, dass ergänzende private Vorsorgeformen, etwa die Frühstartrente für Kinder oder kapitalgedeckte Modelle, als notwendige Ergänzung zur Sicherung des Lebensstandards im Alter angesehen werden. Schließlich wird in nahezu allen Artikeln das Prinzip der Generationengerechtigkeit thematisiert, wobei die Diskussion um ein höheres Renteneintrittsalter und die Belastung künftiger Beitragszahler als politisch übergreifendes Problem dargestellt wird.",
-      "controversial_points": "Das Rentenalter wird zwischen Generationengerechtigkeit und Finanzierbarkeit polarisiert. Kapitalgedeckte Modelle stoßen auf Widerstand von Sozialverbänden, die Umlagensysteme bevorzugen."
+      "shared_perspectives": "Der deutsche Mediendiskurs zum Rentensystem zeigt unabhängig von politischer Ausrichtung eine breite Übereinstimmung darin, dass die gesetzliche Altersvorsorge durch strukturelle Probleme unter Druck steht und ergänzende kapitalgedeckte Lösungen notwendig sind, wobei sowohl liberal als auch konservativ orientierte Medien die Aktienrente und das neue Altersvorsorgedepot als praktikable Reforminstrumente diskutieren. Eine zweite Gemeinsamkeit liegt in der Anerkennung wachsender Altersarmut und Rentenlücken als konkrete Probleme für Millionen Deutscher, die über alle politischen Lager hinweg thematisiert werden und zur Legitimation von Reformdiskussionen herangezogen werden. Drittens besteht implizite Einigkeit darüber, dass Rentenfinanzierung eine Frage der Generationengerechtigkeit und gesamtwirtschaftlichen Priorisierung ist, auch wenn die Lösungsansätze divergieren, wie die parallel laufenden Debatten um Beitragssätze, Renteneintrittsalter und Steuerfinanzierung demonstrieren.",
+      "controversial_points": "Das Renteneintrittsalter ist ein wichtiges Thema der Sozialpolitik."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media agree that demographic ageing is eroding the sustainability of the pay-as-you-go public pension and that a shift toward capital-funded elements such as the Frühstartrente is seen as necessary to close future pension gaps. They also converge on the view that any reform must be financed without imposing an excessive burden on younger generations, emphasizing intergenerational fairness.",
-      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability, with younger voters demanding state support while older cohorts protect contribution levels. Conservative outlets frame capital funded pensions as market freedom, whereas left leaning media warn they deepen wealth inequality. Populist narratives link pension generosity to social decay, turning the retirement age debate into a cultural clash over work ethic. Economic liberal voices stress investment returns and a state fund, while social democrats emphasize universal coverage and poverty prevention. Media polarization creates a structural conflict between market based reforms and the welfare state."
+      "shared_perspectives": "Across the spectrum German outlets agree that demographic ageing is eroding the fiscal balance of the statutory pension scheme and that a pure pay-as-you-go model is no longer sustainable. Consequently, there is a shared call for a mixed system that supplements the state pension with private, capital-based savings while criticizing early-retirement incentives as inequitable and financially burdensome for younger workers. Media from all sides also converge on the observation that retirees are increasingly exposed to tax liabilities, which heightens concerns about pension poverty and intergenerational fairness.",
+      "controversial_points": "The debate pits market-based capital funding against solidarity-based statutory pensions. Liberals demand higher contribution rates and private savings, while leftists warn of growing poverty and intergenerational inequity. Demographic decline creates fiscal strain: conservatives blame welfare bloat, progressives call for systemic reform. Media framing splits along party lines, with right-wing outlets emphasizing cost-cutting and left-wing sources highlighting social justice."
     }
   },
-  "cached_at": "2026-07-26T06:55:32.405404"
+  "cached_at": "2026-07-29T07:01:03.463639"
 }
