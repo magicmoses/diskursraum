@@ -1,38 +1,38 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 213,
+  "article_count": 207,
   "candidate_count": 800,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 49,
+      "article_count": 42,
       "sample_titles": [
-        "FAQ: Welche Auswirkungen hat die IT-Panne bei Abiturnoten in Baden-Württemberg?",
-        "Hitze an Schulen - Schüler, Lehrkräfte und Verbände fordern klare Regeln",
-        "Schuleschwänzen vor den Ferien kann bis zu 1.000 Euro kosten",
-        "Umgang mit Social Media: Heidelberger Lehrer fordert mehr Medienkompetenz"
+        "Warum junge Migranten schwerer von Ausbildung zu überzeugen sind",
+        "Ausbildung in SH: Unternehmen werben Azubis aus dem Ausland an",
+        "Handwerk statt Hörsaal: Warum Abiturient Samuel aus Trier Friseur werden möchte",
+        "FAQ: Welche Auswirkungen hat die IT-Panne bei Abiturnoten in Baden-Württemberg?"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/faq-welche-auswirkungen-hat-die-it-panne-bei-abiturnoten-in-baden-wuerttemberg-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/hitze-an-schulen-in-rheinland-pfalz-forderungen-nach-regeln-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/darf-man-vor-beginn-der-ferien-mit-schulkindern-in-den-urlaub-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/lehrer-des-jahres-social-media-verbot-100.html"
+        "https://www.br.de/nachrichten/bayern/junge-migranten-sind-schwerer-von-ausbildung-zu-ueberzeugen,VQlrnl7",
+        "https://www.ndr.de/nachrichten/schleswig-holstein/ausbildung-in-sh-unternehmen-werben-azubis-aus-dem-ausland-an,auslaendischeazubis-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/samuel-aus-trier-entscheidet-sich-gegen-das-studium-und-fuer-die-ausbildung-zum-friseur-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/faq-welche-auswirkungen-hat-die-it-panne-bei-abiturnoten-in-baden-wuerttemberg-100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
         {
           "emotion": "curiosity",
           "count": 3
         },
         {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "desire",
           "count": 3
         }
       ]
@@ -41,32 +41,32 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 35,
+      "article_count": 33,
       "sample_titles": [
+        "Ethikprofessor warnt: „KI stellt den Sinn von Bildung grundsätzlich in Frage“",
+        "Hohe Kosten befürchtet: Alle Länder lehnen neues Kita-Qualitätsgesetz ab",
         "Versetzungssorgen: Wissen die Lehrer, was an ihrer Note hängt?",
-        "Karrierewege-Rechner: Wann sich ein Studium finanziell wirklich lohnt",
-        "Hochschulpräsidenten: Abgemeiert, übermüdet, unterbezahlt",
         "Versetzungssorgen: Wissen die Lehrer, was an ihrer Note hängt?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/wenn-die-versetzung-gefaehrdet-ist-wissen-lehrer-was-an-ihrer-note-haengt-accg-201054985.html",
-        "https://www.faz.net/aktuell/finanzen/jetzt-berechnen-was-lohnt-sich-fuer-mich-studium-oder-ausbildung-200902295.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/der-wahlmodus-fuer-hochschulpraesidenten-muss-reformiert-werden-accg-201059494.html",
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/versetzungssorgen-wissen-die-lehrer-was-an-ihrer-note-haengt-accg-201054985.html"
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ethikprofessor-warnt-kuenstliche-intelligenz-stellt-den-sinn-von-bildung-grundsaetzlich-infrage-accg-201049545.html",
+        "https://www.faz.net/aktuell/politik/inland/laender-verweigern-zustimmung-zu-neuem-kita-qualitaetsgesetz-accg-201076301.html",
+        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/wissen-lehrer-was-an-ihrer-note-haengt-erfahrungsbericht-bei-versetzungsgefahr-accg-201054985.html",
+        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/wenn-die-versetzung-gefaehrdet-ist-wissen-lehrer-was-an-ihrer-note-haengt-accg-201054985.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "surprise",
       "top_emotions": [
         {
+          "emotion": "surprise",
+          "count": 3
+        },
+        {
           "emotion": "optimism",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "realization",
           "count": 3
-        },
-        {
-          "emotion": "surprise",
-          "count": 2
         }
       ]
     },
@@ -76,63 +76,30 @@
       "bias": "left-liberal",
       "article_count": 31,
       "sample_titles": [
-        "Lernen bei 30 Grad und mehr: Hitze im Klassenzimmer - was getan und was gefordert wird",
-        "Lehrermangel in Brandenburg: Minister hofft auf Lehrkräfte aus anderen Bundesländern",
-        "Fachkräftemangel: Chemiebranche will mehr Ausbildungsplätze sichern",
-        "Wunschschule: Keine Wunschschule für Fünftklässler per Gericht"
+        "Sanierungen und Investitionen: Reinigung bis Neubau: Ferienzeit ist Bauzeit an den Schulen",
+        "Jura-Studium in Bayern: CSU-Experten nun doch offen für Jura-Bachelor",
+        "Bundesagentur für Arbeit: Mehr junge Menschen suchen Ausbildungsplatz",
+        "Neun Tage überall keine Schule: Ganz Deutschland hat nun Sommerferien"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/lernen-bei-30-grad-und-mehr--hitze-im-klassenzimmer---was-getan-und-was-gefordert-wird-38021362.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/lehrermangel-in-brandenburg--minister-hofft-auf-lehrkraefte-aus-anderen-bundeslaendern-38021374.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/fachkraeftemangel--chemiebranche-will-mehr-ausbildungsplaetze-sichern-38005392.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/wunschschule--keine-wunschschule-fuer-fuenftklaessler-per-gericht-38002912.html"
+        "https://www.stern.de/gesellschaft/regional/thueringen/sanierungen-und-investitionen--reinigung-bis-neubau--ferienzeit-ist-bauzeit-an-den-schulen-38043578.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/jura-studium-in-bayern--csu-experten-nun-doch-offen-fuer-jura-bachelor-38042062.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/bundesagentur-fuer-arbeit--mehr-junge-menschen-suchen-ausbildungsplatz-38040266.html",
+        "https://www.stern.de/panorama/neun-tage-ueberall-keine-schule--ganz-deutschland-hat-nun-sommerferien-38038508.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
-          "count": 3
+          "emotion": "admiration",
+          "count": 2
         },
         {
           "emotion": "anger",
           "count": 2
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 19,
-      "sample_titles": [
-        "Studiengebühren in Bayern: 6000 Euro pro Semester, bitte!",
-        "Literatur: „Ich bin Lehrerin, eine Sabbeltante, Hardcore-Humanistin“",
-        "Jugend und Politik: In der Schule der Demokratie",
-        "Bafög: „Im letzten Jahr habe ich zwölf Monate auf mein Geld gewartet“"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/bayern/bayern-fau-uni-nuernberg-erlangen-studiengebuehren-nicht-eu-laender-li.3522844",
-        "https://www.sueddeutsche.de/kultur/annika-buesing-magisch-roman-begegnung-interview-schule-lehrerin-afd-liebe-brandmauer-li.3516047",
-        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/jugendparlament-unterschleissheim-dvbj-emilio-emiliano-li.3514082",
-        "https://www.sueddeutsche.de/panorama/bafoeg-deutschland-probleme-reformen-studienfinanzierung-li.3512763"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 1
         },
         {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -140,18 +107,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 16,
+      "article_count": 17,
       "sample_titles": [
+        "Ausbildung oder Studium? In diesen Jobs gibt es für Azubis das beste Einstiegsgehalt",
         "Verbeamtete Lehrerin in NRW 17 Jahre durchgehend krankgeschrieben",
         "Fast 17 Jahre nicht im Dienst – Dauerkranke Lehrerin bekam offenbar trotzdem Lohnerhöhungen",
-        "Fast 17 Jahre nicht im Dienst – Dauerkranke Lehrerin bekam offenbar trotzdem Lohnerhöhungen",
-        "Nach Amtsarzt-Untersuchung – Streit um jahrelang krankgeschriebene Lehrerin geht in nächste Runde"
+        "Fast 17 Jahre nicht im Dienst – Dauerkranke Lehrerin bekam offenbar trotzdem Lohnerhöhungen"
       ],
       "urls": [
+        "https://www.welt.de/wirtschaft/plus6a6735c2024bbad46d7ada0c/ausbildung-oder-studium-in-diesen-jobs-gibt-es-fuer-azubis-das-beste-einstiegsgehalt.html",
         "https://www.welt.de/videos/video6a638193fe2765826e0fc552/bei-vollem-gehalt-verbeamtete-lehrerin-in-nrw-17-jahre-durchgehend-krankgeschrieben.html",
         "https://www.welt.de/politik/video6a62f6fa26ebb8e13e2ef475/skandal-in-nrw-fast-17-jahre-nicht-im-dienst-dauerkranke-lehrerin-bekam-offenbar-trotzdem-lohnerhoehungen.html",
-        "https://www.welt.de/politik/deutschland/article6a625e1defccf0c0d553731b/nrw-fast-17-jahre-nicht-im-dienst-dauerkranke-lehrerin-bekam-offenbar-trotzdem-lohnerhoehungen.html",
-        "https://www.welt.de/vermischtes/article6a5f7807668d28f8978b1b7b/bericht-streit-um-jahrelang-krankgeschriebene-lehrerin-geht-in-naechste-runde.html"
+        "https://www.welt.de/politik/deutschland/article6a625e1defccf0c0d553731b/nrw-fast-17-jahre-nicht-im-dienst-dauerkranke-lehrerin-bekam-offenbar-trotzdem-lohnerhoehungen.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -160,11 +127,40 @@
           "count": 2
         },
         {
-          "emotion": "anger",
-          "count": 2
+          "emotion": "admiration",
+          "count": 1
         },
         {
           "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 16,
+      "sample_titles": [
+        "Schulen in Bayern: 24-Stunden-Protest gegen unangekündigte Exen",
+        "Studiengebühren in Bayern: 6000 Euro pro Semester, bitte!",
+        "Jugend und Politik: In der Schule der Demokratie",
+        "Bafög: „Im letzten Jahr habe ich zwölf Monate auf mein Geld gewartet“"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/bayern/schueler-muenchen-protest-exen-soeder-kultusministerium-li.3524161",
+        "https://www.sueddeutsche.de/bayern/bayern-fau-uni-nuernberg-erlangen-studiengebuehren-nicht-eu-laender-li.3522844",
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/jugendparlament-unterschleissheim-dvbj-emilio-emiliano-li.3514082",
+        "https://www.sueddeutsche.de/panorama/bafoeg-deutschland-probleme-reformen-studienfinanzierung-li.3512763"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -173,27 +169,27 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 12,
+      "article_count": 13,
       "sample_titles": [
-        "Frauke Brosius-Gersdorf: Universität Hamburg sieht Plagiatsverdacht gegen Brosius-Gersdorf »nicht bestätigt«",
-        "Ausbildung: Großteil der jungen Menschen blickt positiv auf Ausbildungsberufe",
-        "Sozialversicherungensfachangestellte (Sofa) werden: Gehalt, Aufgaben, Karrierechancen",
-        "KI im Studium: Wie setzen Studierende künstliche Intelligenz am Campus ein?"
+        "Abitur in Baden-Württemberg: Software-Fehler sorgt für zu gute Zeugnisse",
+        "Ausbildung: In diesen Branchen erhalten Azubis die höchste Vergütung nach Tarif",
+        "Kinder ohne Smartphone lesen besser",
+        "Stendal: Lehrer Max Heckel kämpft gegen die AfD – nun landet der Fall vor Gericht"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/bildung/frauke-brosius-gersdorf-universitaet-hamburg-sieht-plagiatsverdacht-gegen-brosius-gersdorf-nicht-bestaetigt-a-819cc8f1-1d48-461a-80f2-82b349835ec6#ref=rss",
-        "https://www.spiegel.de/start/ausbildung-grossteil-der-jungen-menschen-blickt-positiv-auf-ausbildungsberufe-a-6f9ba73c-46a5-420d-b2f5-f39031ed7ba5#ref=rss",
-        "https://www.spiegel.de/start/sozialversicherungensfachangestellte-sofa-werden-gehalt-aufgaben-karrierechancen-a-eddf9c5a-68ea-4945-b5a6-afcbee363f77#ref=rss",
-        "https://www.spiegel.de/start/ki-im-studium-wie-setzen-studierende-kuenstliche-intelligenz-am-campus-ein-a-80e79028-a9b2-4d82-a89a-de717732e14f#ref=rss"
+        "https://www.spiegel.de/panorama/bildung/abitur-in-baden-wuerttemberg-software-fehler-sorgt-fuer-zu-gute-zeugnisse-a-ea689005-233d-4536-8e4a-52bbe7c50166#ref=rss",
+        "https://www.spiegel.de/start/ausbildung-in-diesen-branchen-erhalten-azubis-die-hoechste-verguetung-nach-tarif-a-e0dcf6f4-00af-44d5-ab06-1a6b00467c5b#ref=rss",
+        "https://www.spiegel.de/wissenschaft/mensch/kinder-ohne-smartphone-lesen-besser-a-1db6dc74-dc14-496c-809e-1e035dcab0f8#ref=rss",
+        "https://www.spiegel.de/panorama/bildung/afd-der-lehrer-max-heckel-aus-stendal-will-einen-praezedenzfall-schaffen-a-20444482-fb06-4259-bea5-d7ad40ac0955#ref=rss"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "fear",
-          "count": 1
+          "emotion": "disapproval",
+          "count": 2
         },
         {
-          "emotion": "sadness",
+          "emotion": "approval",
           "count": 1
         },
         {
@@ -208,13 +204,13 @@
       "bias": "left-liberal",
       "article_count": 10,
       "sample_titles": [
-        "Kakerlakenbewegung in Indien: Narendra Modi will Indiens Bildungssystem reformieren",
+        "Terror in Berlin: Attentäter war Salafist und schon in der Schule auffällig",
         "Nach Gewalttat an Gymnasium: Söder will Rettungsmedaillen für Helfer von Schongau",
         "Tschechien: Tschechische Regierung beschließt Handyverbot an Schulen",
         "Bildungspolitik in Ostdeutschland: Erst Lehrermangel, bald Schülermangel"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-07/kakerlaken-bewegung-indien-proteste-pruefungsskandal-dharmendra-pradhan-narendra-modi",
+        "https://www.zeit.de/news/2026-07/29/csd-anschlag-innensenatorin-und-polizei-beantworten-fragen",
         "https://www.zeit.de/news/2026-07/24/soeder-will-rettungsmedaillen-fuer-helfer-von-schongau",
         "https://www.zeit.de/politik/ausland/2026-07/handyverbot-schulen-tschechien-andrej-babis",
         "https://www.zeit.de/2026/31/lehrermangel-ostdeutschland-sachsen-brandenburg-schuelerzahlen"
@@ -228,10 +224,6 @@
         {
           "emotion": "surprise",
           "count": 1
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
         }
       ]
     },
@@ -239,18 +231,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
+        "Nach CSD-Anschlag - Wegner will Islamunterricht an Berliner Schulen",
         "17 Jahre nicht im Dienst - Lohnerhöhungen für dauerkranke Lehrerin",
         "17 Jahre nicht an der Schule - Dauerkranke Lehrerin klagt gegen Ruhestand",
-        "Top-Verdienst schon in der Ausbildung - Das sind die 50 bestbezahlten Azubi-Jobs",
-        "Zoff um Sprache in der Schule - „Da sind wir bei Klassenarbeiten auf Arabisch“"
+        "Top-Verdienst schon in der Ausbildung - Das sind die 50 bestbezahlten Azubi-Jobs"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/berlin-buergermeister-kai-wegner-will-nach-csd-anschlag-islamunterricht-an-schulen-6a69923ba17ee9f1dfd82632",
         "https://www.bild.de/regional/nordrhein-westfalen/17-jahre-nicht-im-dienst-lohnerhoehungen-fuer-dauerkranke-lehrerin-6a60da23df889b74b6648b75",
         "https://www.bild.de/regional/nordrhein-westfalen/17-jahren-nicht-an-der-schule-dauerkranke-lehrerin-klagt-gegen-ruhestand-6a5f863ffb6c4ab717fc9883",
-        "https://www.bild.de/politik/inland/top-verdienst-in-der-ausbildung-das-sind-die-bestbezahlten-azubi-jobs-6a46896017e758bbd23e1637",
-        "https://www.bild.de/politik/inland/sprache-in-der-schule-da-sind-wir-bei-klassenarbeiten-auf-arabisch-6a59b8df29b150f031b15bb1"
+        "https://www.bild.de/politik/inland/top-verdienst-in-der-ausbildung-das-sind-die-bestbezahlten-azubi-jobs-6a46896017e758bbd23e1637"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -272,60 +264,27 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 7,
+      "article_count": 8,
       "sample_titles": [
+        "Nach Referendariat: In den Sommerferien erst mal arbeitslos",
         "Abmahnung wegen AfD-Aussage: Wie politisch darf Schule sein?",
         "Wenn die AfD regiert - was heißt das für Hochschulen?",
-        "\"Wir bringen das echte Leben ins Klassenzimmer\"",
-        "Was nicht im Lehrplan steht"
+        "Bildung und Migration: Sind die AfD-Pläne rechtlich machbar?"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/lehrer-referendariat-arbeitslos-sommerferien-gew-kritik-100.html",
         "https://www.zdfheute.de/politik/deutschland/schule-lehrer-neutralitaet-abmahnung-afd-siegmund-100.html",
         "https://www.zdfheute.de/wissen/afd-sachsen-anhalt-hochschule-terrax-nano-ulrich-mueller-kolumne-100.html",
-        "https://www.zdfheute.de/panorama/life-teacher-schule-unterricht-alltagswissen-100.html",
-        "https://www.zdfheute.de/video/panorama-lehrplan-schule-projekt-video-100.html"
+        "https://www.zdfheute.de/politik/deutschland/afd-sachsen-anhalt-landtagswahl-migration-bildung-schule-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "confusion",
-          "count": 1
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 7,
-      "sample_titles": [
-        "Beamtin will weiter volle Bezüge : 17 Jahre krankgeschrieben - Lehrerin kämpft gegen Pensionierung",
-        "17 Jahre krankgeschrieben:  Lehrerin kämpft gegen Zwangspensionierung",
-        "900 Punkte: Was bringt der perfekte Abi-Schnitt?",
-        "Union verweist auf leere Kassen: Koalition verschiebt Bafög-Erhöhung auf Sommer 2027"
-      ],
-      "urls": [
-        "https://www.n-tv.de/panorama/17-Jahre-krankgeschrieben-Lehrerin-kaempft-gegen-Pensionierung-id31110749.html",
-        "https://www.n-tv.de/panorama/Lehrerin-kaempft-gegen-Zwangspensionierung-id31110749.html",
-        "https://www.n-tv.de/panorama/Was-bringt-der-perfekte-Abi-Schnitt-id31084736.html",
-        "https://www.n-tv.de/politik/Koalition-verschiebt-Bafoeg-Erhoehung-auf-Sommer-2027-id31067153.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "pride",
           "count": 1
         }
       ]
@@ -336,16 +295,16 @@
       "bias": "left",
       "article_count": 7,
       "sample_titles": [
+        "Medizinstudium im Ausland: Ab nach Wien",
         "Schulen in der Hitzewelle: Hitzefrei fürs Hirn",
         "Wahlen in Sachsen-Anhalt: Rechter Kulturkampf im Kindergarten",
-        "Schullektüre im Unterricht: Wolf statt Vorstadtkrokodile",
-        "Einigung von Schwarz-Rot: Bafög-Erhöhung kommt – aber erst später"
+        "Schullektüre im Unterricht: Wolf statt Vorstadtkrokodile"
       ],
       "urls": [
+        "https://taz.de/Medizinstudium-im-Ausland/!6196192/",
         "https://taz.de/Schulen-in-der-Hitzewelle/!6192592/",
         "https://taz.de/Wahlen-in-Sachsen-Anhalt/!6196479/",
-        "https://taz.de/Schullektuere-im-Unterricht/!6193727/",
-        "https://taz.de/Einigung-von-Schwarz-Rot/!6194831/"
+        "https://taz.de/Schullektuere-im-Unterricht/!6193727/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -354,11 +313,11 @@
           "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "optimism",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -367,21 +326,77 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "Strafanzeige wegen „Schwarzer Peter“: Justiz-Irrsinn gegen Lehrerin",
         "17 Jahre dauerkrank: Lehrerin prozessiert gegen Ruhestand",
         "Vorlesung zu Trans-Ideologien: Studentenvertreter gehen gegen Professorin vor",
-        "Deutsch als Unterrichtssprache demnächst nachrangig?",
-        "Berlin quartiert Süchtige in Grundschule ein"
+        "Deutsch als Unterrichtssprache demnächst nachrangig?"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/video/kommentar/strafanzeige-schwarzer-peter-lehrerin/",
         "https://www.tichyseinblick.de/daili-es-sentials/17-jahre-dauerkrank-lehrerin-prozessiert-gegen-ruhestand/",
         "https://www.tichyseinblick.de/meinungen/vorlesung-studentenvertreter-gegen-professorin/",
-        "https://www.tichyseinblick.de/meinungen/deutsch-unterrichtssprache-nachrangig/",
-        "https://www.tichyseinblick.de/meinungen/berlin-grundschule-kreuzberg-suechtige/"
+        "https://www.tichyseinblick.de/meinungen/deutsch-unterrichtssprache-nachrangig/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 5,
+      "sample_titles": [
+        "Beamtin will weiter volle Bezüge : 17 Jahre krankgeschrieben - Lehrerin kämpft gegen Pensionierung",
+        "17 Jahre krankgeschrieben:  Lehrerin kämpft gegen Zwangspensionierung",
+        "900 Punkte: Was bringt der perfekte Abi-Schnitt?",
+        "Von Bildung bis Sicherheit: Was die AfD in Sachsen-Anhalt plant und was die Politik dagegen tut"
+      ],
+      "urls": [
+        "https://www.n-tv.de/panorama/17-Jahre-krankgeschrieben-Lehrerin-kaempft-gegen-Pensionierung-id31110749.html",
+        "https://www.n-tv.de/panorama/Lehrerin-kaempft-gegen-Zwangspensionierung-id31110749.html",
+        "https://www.n-tv.de/panorama/Was-bringt-der-perfekte-Abi-Schnitt-id31084736.html",
+        "https://www.n-tv.de/politik/Was-die-AfD-in-Sachsen-Anhalt-plant-und-was-die-Politik-dagegen-tut-id31081729.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 3,
+      "sample_titles": [
+        "Eine Sek-Schülerin kommt regelmässig zu spät, schläft im Unterricht ein oder vernachlässigt die Hausaufgaben. Was dann passiert, löst einen Rechtsstreit aus",
+        "KOMMENTAR - Je mehr der Computer in der Schule eingesetzt wird, desto schlechter werden die Leistungen. Die Bildungselite kümmert das wenig. Gut, fordert eine Initiative nun eine bildschirmfreie Primarschule",
+        "KOMMENTAR - «Lena ist müde vom Nati-Spiel, ich schicke sie erst um zehn zur Schule» – ein Hoch auf alle Lehrerinnen und Lehrer, die Kinder ernst nehmen (und Eltern etwas weniger)"
+      ],
+      "urls": [
+        "https://www.nzz.ch/zuerich/ein-schulstreit-eskaliert-eltern-wehren-sich-gegen-versetzung-ihrer-tochter-ld.10017207",
+        "https://www.nzz.ch/meinung/je-mehr-der-computer-in-der-schule-eingesetzt-wird-desto-schlechter-werden-die-leistungen-die-bildungselite-kuemmert-das-wenig-gut-fordert-eine-initiative-nun-eine-bildschirmfreie-primarschule-ld.10017283",
+        "https://www.nzz.ch/meinung/lena-ist-muede-vom-nati-spiel-ich-schicke-sie-erst-um-zehn-zur-schule-ein-hoch-auf-alle-lehrerinnen-und-lehrer-die-kinder-ernst-nehmen-und-eltern-etwas-weniger-ld.10014791"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
     },
     "handelsblatt": {
       "source_id": "handelsblatt",
@@ -389,13 +404,13 @@
       "bias": "economic-liberal",
       "article_count": 3,
       "sample_titles": [
-        "Forschung: Experten sehen TU München als mögliches Sicherheitsrisiko für Rüstungsfirmen",
         "Interview: Präsident der Saar-Uni: „Wir müssen mit Einschränkungen der Wissenschaftsfreiheit leben“",
+        "Arbeitsmarkt: Millionenschwere Hilfe zur Qualifizierung erreicht nur 350 Beschäftigte",
         "Strukturwandel: Förderung zur Weiterbildung in der Transformation kaum genutzt"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/ruestung-experten-sehen-tu-muenchen-als-moegliches-sicherheitsrisiko/100240419.html",
         "https://www.handelsblatt.com/politik/deutschland/cispa-wir-muessen-mit-einschraenkungen-der-wissenschaftsfreiheit-leben/100239796.html",
+        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-millionenschwere-hilfe-zur-qualifizierung-erreicht-nur-350-beschaeftigte/100239088.html",
         "https://www.handelsblatt.com/politik/deutschland/strukturwandel-foerderung-zur-weiterbildung-in-der-transformation-kaum-genutzt/100239088.html"
       ],
       "dominant_emotion": "neutral",
@@ -407,20 +422,24 @@
       "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
-        "Polizei ermittelt nicht „Ausländer raus“-Gesänge an Stuttgarter Schule – auch Migranten machen mit",
-        "Bayern Mitschüler rassistisch beleidigt? Hausdurchsuchungen bei 15- bis 17jährigen",
-        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen"
+        "„Asta“ ruft zu Demo auf Linke fordern Entlassung von Professorin wegen Vorlesung über Transidentität",
+        "Schulsystem vor dem Niedergang Warum wir Bildung außerhalb des Klassenzimmers denken müssen",
+        "Mitarbeiter zu dumm? Lauterbach begründet Volkswagen-Niedergang mit „Bildungspolitik“"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/auslaender-raus-gesaenge-an-stuttgarter-schule-auch-migranten-machen-mit/",
-        "https://jungefreiheit.de/politik/deutschland/2026/mitschueler-rassistisch-beleidigt-hausdurchsuchungen-bei-15-und-17jaehrigen/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/"
+        "https://jungefreiheit.de/politik/deutschland/2026/linke-fordern-entlassung-von-professorin-wegen-vorlesung-ueber-transidentitaet/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/warum-wir-bildung-ausserhalb-des-klassenzimmers-denken-muessen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/lauterbach-begruendet-vw-niedergang-mit-bildungspolitik/"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
         {
           "emotion": "anger",
-          "count": 2
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
         }
       ]
     },
@@ -440,24 +459,24 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 72,
-    "neutral": 56,
-    "conservative-liberal": 35,
-    "economic-liberal": 3,
-    "right-conservative": 23,
-    "far-right": 8,
-    "populist-mixed": 9,
-    "left": 7
+    "left-liberal": 70,
+    "right-conservative": 22,
+    "neutral": 50,
+    "conservative-liberal": 36,
+    "far-right": 9,
+    "left": 7,
+    "populist-mixed": 10,
+    "economic-liberal": 3
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Der deutsche Mediendiskurs zu Bildung zeigt über alle Ausrichtungen hinweg eine breite Übereinstimmung darin, dass der Lehrkräftemangel und die mangelnde Ausstattung des Schulsystems ein strukturelles Problem darstellen, das unmittelbare Auswirkungen auf Schüler und Lehrende hat. Sowohl konservative als auch linke Medien berichten über Unterversorgung, fehlende Ressourcen und die Belastung von Schulpersonal, wobei dieses Thema als faktisches Problem der Gegenwart und nicht als ideologische Frage behandelt wird. Daneben besteht Konsens darüber, dass praktische Herausforderungen wie Hitze in Schulgebäuden, IT-Pannen bei der Zeugnisausstellung oder fehlende Medienkompetenz als konkrete schulische Probleme zu adressieren sind, die unabhängig von Schulphilosophie gelöst werden müssen. Ein drittes gemeinsames Erkennungszeichen liegt in der Problematisierung von Chancengerechtigkeit und finanziellen Barrieren beim Zugang zu Bildung, wo sowohl progressive als auch wirtschaftsliberale Quellen die Frage stellen, wie Studierende finanziert werden und welche Aufstiegschancen das Bildungssystem bietet, auch wenn sie diese Probleme unterschiedlich gewichten.",
-      "controversial_points": "Der deutsche Mediendiskurs zum Bildungssystem spaltet sich grundlegend entlang der Frage, ob Bildung primär eine soziale Investition oder eine individuelle Leistungsfrage ist. Während linke und liberal-progressive Medien Systemprobleme wie Unterfinanzierung, Hitzestress und Chancenungleichheit thematisieren, fokussieren konservative und wirtschaftsliberale Medien auf individuelle Verantwortung, Effizienz und die Frage, wann sich Bildungsinvestitionen \"lohnen\". Eine zweite tiefe Bruchlinie verläuft zwischen Befürwortern von Universalstandards und kultureller Inklusivität einerseits und Verteidigern einer monokulturellen, deutschzentrierten Lehrkultur andererseits, was sich besonders an Debatten über Sprache, Lehrplaninhalte und Diversity abliest. Die rechten und populistischen Medien instrumentalisieren einzelne Skandalfälle wie die jahrelang krankgeschriebene Lehrerin systematisch, um das gesamte Beamtentum und die Reformresistenz des Systems anzuklagen, während Qualitätsprobleme nur als Vorwand für kulturelle Kampagnen dienen."
+      "shared_perspectives": "Der deutsche Mediendiskurs teilt über alle politischen Lager hinweg die Wahrnehmung einer Strukturkrise in der Lehrerversorgung und Personalverwaltung, die sich sowohl im akuten Mangel an Fachkräften als auch in Grenzfällen ineffizienter Beamtenverwaltung manifestiert. Übergreifend wird die duale Ausbildung und insbesondere das Handwerk als gleichwertiger Karriereweg zum Studium dargestellt, was auf einen gesamtgesellschaftlichen Konsens über die wirtschaftliche Notwendigkeit dieser Ausbildungspfade verweist. Schließlich findet sich in verschiedenen Varianten das Thema der technologischen Transformation des Bildungssystems, wobei sowohl die Chancen durch digitale Tools als auch Skeptizismus gegenüber ihrer flächendeckenden Einführung artikuliert werden, was auf ungelöste Fragen zur Integration von Digitalisierung in bewährte Unterrichtsstrukturen hindeutet.",
+      "controversial_points": "Der deutsche Mediendiskurs zum Bildungssystem spaltet sich entlang mehrerer grundlegender Konfliktlinien auf. Das zentrale Spannungsfeld verläuft zwischen Investitions- und Reformansprüchen einerseits und Kostenkontrolle sowie Effizienzbedenken andererseits. Während linke und liberal-progressive Medien bauliche Missstände und Unterfinanzierung skandalisieren, thematisieren wirtschaftsliberal orientierte Medien fehlende Kosteneffizienz von Fördermaßnahmen. Ein zweiter Konflikt betrifft die Frage nach der Steuerung von Bildungsinhalten und Pädagogik, wo sich ein kulturkonservativer Kampf gegen vermeintliche ideologische Einflussnahmen (Geschlechteridentität, Sprachenpolitik) gegen progressive Positionen zur gesellschaftlichen Inklusion durchsetzt. Die rechte und far-right Presse nutzt dabei Einzelfälle systemkritisch, während linke Medien strukturelle Ungleichheiten in den Fokus setzen. Drittens offenbart sich ein Konflikt zwischen föderalistischen Länderrealitäten und dem Ruf nach bundeseinheitlichen Standards, der besonders bei Lehrerkräftepolitik und Qualitätsvorgaben sichtbar wird."
     },
     "en": {
-      "shared_perspectives": "Across the political spectrum, German media discourse treats teacher shortages and precarious working conditions as a systemic crisis demanding urgent structural solutions, with even economically-liberal outlets acknowledging that inadequate compensation and overwork threaten educational quality, not merely individual career satisfaction. There is broad agreement spanning left-liberal to conservative media that digitalization failures in schools represent a concrete governance problem, as evidenced by extensive coverage of IT system malfunctions affecting student records and the consistent framing of these incidents as symptoms of institutional unpreparedness rather than isolated technical glitches. Media across ideological positions recognize that educational equity depends on adequate public investment and infrastructure, with discussions of heat in classrooms, special education funding, and vocational training pathways all implicitly sharing the premise that student outcomes correlate directly with resource availability and institutional capacity rather than individual merit alone.",
-      "controversial_points": "German education discourse reveals a fundamental divide between those viewing education as a public good requiring state investment versus those treating it as an economic efficiency problem. Left-aligned media highlight systemic failures like teacher shortages and crumbling infrastructure, while right-aligned outlets focus on individual misconduct and alleged ideological excess in schools. A second conflict pits educational equity concerns (funding disparities, access) against market-oriented arguments that education should yield measurable financial returns and not burden taxpayers equally. A third tension field centers on cultural authority: left-liberal voices defend pedagogical autonomy and progressive curricula, while right-conservative media challenge what they frame as ideological capture of schools, particularly regarding language, migration, and gender issues. These divisions reflect competing visions of education's purpose: social transformation and equality versus cultural preservation and economic productivity."
+      "shared_perspectives": "Across the political spectrum, German media discourse converges on the acute dysfunction of teacher management and labor administration, treating the high-profile case of a long-term sick-leave teacher as emblematic of systemic failure rather than isolated pathology, with even outlets differing sharply on other educational questions agreeing that institutional procedures have broken down. There is broad consensus across left-liberal, neutral, and conservative outlets that vocational training (dual apprenticeships) represents a tangible alternative career pathway with genuine economic value, evidenced by parallel reporting on competitive trainee wages and recruitment challenges, suggesting implicit agreement that diversifying educational trajectories beyond university attendance serves labor market realities. German media across ideological lines collectively frames digitalization and technology adoption in schools as pedagogically problematic when implemented without pedagogical justification, whether through reporting on software errors in grading systems, warnings about screen time effects on learning, or skepticism about artificial intelligence replacing educational fundamentals, indicating shared worry about technological solutionism in education despite disagreements on cultural and political dimensions of schooling.",
+      "controversial_points": "The deepest structural conflict pits **individual responsibility against systemic adequacy**. Right-conservative outlets fixate on individual failures (the long-sick teacher, the unmotivated student) while left-liberal media emphasize structural investment gaps and school infrastructure crises. This reveals incompatible diagnoses: is education failing because institutions are underfunded and digitally neglected, or because accountability mechanisms are too weak and standards too soft?\n\nA second fault line divides **performance measurement from educational philosophy**. Conservative-liberal voices warn that computerization correlates with declining test scores and question whether AI undermines learning's purpose entirely. Left-liberal outlets celebrate technical modernization as necessary infrastructure. Both sides claim empirical ground but operate from opposite premises about what schools should optimize for.\n\nThe third tension emerges around **cultural gatekeeping versus social inclusion**. Far-right and conservative media attack progressive curriculum content (trans identity discussions, canonical shifts away from traditional literature) as ideological capture. Left-wing outlets frame such criticism as cultural censorship and demand curricular pluralism. This is not mere disagreement but collision between fundamentally different visions of whose knowledge counts as legitimate.\n\nFinally, **vocational versus academic pathways** remain structurally unresolved in German discourse. While neutral coverage presents dual training positively, the underlying anxiety persists: does Germany's world-class apprenticeship system genuinely offer equal dignity, or does it channelize disadvantaged students away from tertiary education?"
     }
   },
-  "cached_at": "2026-07-29T07:15:47.278796"
+  "cached_at": "2026-08-01T07:21:19.751708"
 }
