@@ -4,28 +4,61 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 119,
+      "sample_titles": [
+        "CDU verlassen, aber nicht verbittert – Warum Strohschneider das Merz-Rentenpaket stützt",
+        "„Wenn zentraler Baustein herausgenommen wird, dann gerät notwendiges Reformwerk in Gefahr“",
+        "„Und es zeigt nur, dass hier das Ego durchaus über dem Wohl der ganzen Republik steht“",
+        "„Die gesamte Regierung wäre im Grunde keine Reformregierung mehr“"
+      ],
+      "urls": [
+        "https://www.welt.de/videos/video6a721ed551f495777d99e9b1/ost-aufstand-cdu-verlassen-aber-nicht-verbittertwarum-strohschneider-das-merz-rentenpaket-stuetzt.html",
+        "https://www.welt.de/videos/video6a7224c7cc46967c04caed40/wolfgang-bosbach-wenn-zentraler-baustein-herausgenommen-wird-dann-geraet-notwendiges-reformwerk-in-gefahr.html",
+        "https://www.welt.de/videos/politik_original/inland/video6a72100147f8c988ecd61f26/meine-welt-meine-meinung-und-es-zeigt-nur-dass-hier-das-ego-durchaus-ueber-dem-wohl-der-ganzen-republik-steht.html",
+        "https://www.welt.de/videos/video6a7211e047f8c988ecd61f3b/streit-ueber-rentenreform-die-gesamte-regierung-waere-im-grunde-keine-reformregierung-mehr.html"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
       "article_count": 114,
       "sample_titles": [
-        "Deutschland-Liveblog: Frei beharrt auf Ende der Rente mit 63",
-        "Deutschland-Liveblog: Umfrage: Jeder Vierte fühlt sich nach CSD-Anschlag weniger sicher",
-        "Ost-Regierungschefs: So scheitert die ganze Rentenreform",
-        "Deutschland-Liveblog: Hallervorden singt auf CDU-Veranstaltung gegen Merz und dessen „Kriegsminister“ an"
+        "Rentendebatte im Osten: Warum die Grünen einen CDU-Ministerpräsidenten verteidigen",
+        "Rentendebatte: Die SPD will sich nicht links von der CDU überholen lassen",
+        "CDU-Ministerpräsidenten: Die ostdeutsche CDU öffnet die Büchse der Pandora",
+        "Deutschland-Liveblog: Polizei stellt Führerschein von CDU-Politiker Bareiß sicher"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-frei-beharrt-auf-aus-der-rente-mit-63-faz-110093143.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-umfrage-jeder-vierte-fuehlt-sich-nach-csd-anschlag-weniger-sicher-faz-110093143.html",
-        "https://www.faz.net/aktuell/wirtschaft/rentenreform-wie-die-fruehrente-das-ganze-paket-gefaehrdet-201084294.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-hallervorden-kritisiert-auf-cdu-veranstaltung-merz-und-pistorius-faz-110093143.html"
+        "https://www.faz.net/aktuell/politik/wahl-in-sachsen-anhalt/rentendebatte-im-osten-die-gruenen-verteidigen-sven-schulze-201091810.html",
+        "https://www.faz.net/aktuell/politik/inland/die-spd-will-sich-bei-der-rente-mit-63-nicht-links-von-der-cdu-ueberholen-lassen-accg-201093404.html",
+        "https://www.faz.net/aktuell/politik/inland/die-renten-hintertuerchen-fuer-den-osten-201090548.html",
+        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-polizei-stellt-fuehrerschein-von-cdu-politiker-bareiss-sicher-faz-110093143.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 13
+          "count": 15
         },
         {
           "emotion": "confusion",
@@ -37,65 +70,32 @@
         }
       ]
     },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 107,
-      "sample_titles": [
-        "Nur jeder Vierte glaubt an Reformen – Deutsche zweifeln am Tempo der Merz-Regierung",
-        "CDU-Fraktionschef Frei pocht auf Ende der „Rente mit 63“ – Klüssendorf (SPD) stellt Aus infrage",
-        "„Müssen von dieser Gießkannen-Pauschalmentalität ein Stück wegkommen“",
-        "Reiche verteidigt Rentenpläne gegen Kritik der ostdeutschen CDU-Ministerpräsidenten"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article6a6e3f17ef632fe6ede68039/insa-umfrage-nur-jeder-vierte-glaubt-an-reformen-deutsche-zweifeln-am-tempo-der-merz-regierung.html",
-        "https://www.welt.de/politik/deutschland/article6a6db07cdd06dd5ef2e41561/nach-vorstoss-aus-ostdeutschland-cdu-fraktionschef-frei-pocht-auf-ende-der-rente-mit-63-kluessendorf-spd-stellt-aus-infrage.html",
-        "https://www.welt.de/wirtschaft/video6a6c94c1ff33749f5728a23d/rentenreformpaket-muessen-von-dieser-giesskannen-pauschalmentalitaet-ein-stueck-wegkommen.html",
-        "https://www.welt.de/videos/video6a6c67c1ff33749f57289e12/bundeswirtschaftsministerin-reiche-verteidigt-rentenplaene-gegen-kritik-der-ostdeutschen-cdu-ministerpraesidenten.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 107,
+      "article_count": 89,
       "sample_titles": [
-        "Rentenpaket wieder aufgeknüpft?: Jetzt zweifelt auch die SPD an der Abschaffung der \"Rente mit 63\"",
-        "\"Diese Tendenz ist fatal\": Vertreter der 100.000 Mercedes-Werksmitarbeiter schicken Brandbrief an Merz",
-        "Rentenreform in Gefahr?: Kretschmer droht mit Nein bei Renten-Abstimmung im Bundesrat",
-        "Rente nach 45 Arbeitsjahren: Chef des CDU-Sozialflügels kontert Merz bei Rentenplan"
+        "\"Macht mich fassungslos\": BDA-Präsident Kampeter warnt vor dem Aufschnüren des Rentenpakets",
+        "Kritik am Rentenpaket wächst: Frei sieht \"wirklich keinen\" Verhandlungsspielraum bei Rente mit 63",
+        "Kritik am Aus der Rente mit 63: Schulze will Rentenreform \"nicht grundsätzlich infrage stellen\"",
+        "Kritik aus der eigenen Partei: Ein scharfer Ostwind weht Merz' Rentenreform entgegen"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Jetzt-zweifelt-auch-die-SPD-an-der-Abschaffung-der-Rente-mit-63-id31148997.html",
-        "https://www.n-tv.de/politik/Vertreter-der-100-000-Mercedes-Werksmitarbeiter-schicken-Brandbrief-an-Merz-id31145472.html",
-        "https://www.n-tv.de/politik/Kretschmer-droht-mit-Nein-bei-Renten-Abstimmung-im-Bundesrat-id31145774.html",
-        "https://www.n-tv.de/politik/Chef-des-CDU-Sozialfluegels-kontert-Merz-bei-Rentenplan-id31143908.html"
+        "https://www.n-tv.de/politik/BDA-Praesident-Kampeter-warnt-vor-dem-Aufschnueren-des-Rentenpakets-id31159514.html",
+        "https://www.n-tv.de/politik/Frei-sieht-wirklich-keinen-Verhandlungsspielraum-bei-Rente-mit-63-id31155616.html",
+        "https://www.n-tv.de/politik/Schulze-will-Rentenreform-nicht-grundsaetzlich-infrage-stellen-id31155478.html",
+        "https://www.n-tv.de/politik/Ein-scharfer-Ostwind-weht-Merz-Rentenreform-entgegen-id31152760.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 9
+          "count": 6
         },
         {
           "emotion": "curiosity",
-          "count": 6
+          "count": 5
         },
         {
           "emotion": "excitement",
@@ -107,18 +107,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 74,
+      "article_count": 71,
       "sample_titles": [
-        "Rentenreform: CDU-Führung besteht auf Abschaffung der „Rente mit 63“",
-        "Privatbanken: Bankhaus Metzler warnte zeitweise vor Geschäften mit Berenberg",
-        "Bert Rürup: Ein Missverständnis prägt seit Jahrzehnten die Rentendebatte",
-        "Rente: Ein Jahr später in Frührente brächte Staatskasse mehr als 700 Millionen Euro"
+        "Rente: „Kein Verhandlungsspielraum“ – Frei will keine Debatte über Rente mit 63",
+        "Rentenreform: Doch kein Aus für die Rente mit 63? SPD nimmt Steilvorlage aus CDU an",
+        "Rentenstreit: Ablehnung auch im Westen: SPD-Landeschefin Rehlinger gegen Ende der Rente mit 63",
+        "Rentenreform: „Sonst ist die Reform tot“: DIW-Präsident Fratzscher für Ende der Rente mit 63"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/rentenreform-cdu-fuehrung-besteht-auf-abschaffung-der-rente-mit-63/100244434.html",
-        "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-bankhaus-metzler-warnte-zeitweise-vor-geschaeften-mit-berenberg/100244069.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/der-chefoekonom-ein-missverstaendnis-praegt-seit-jahrzehnten-die-rentendebatte/100242639.html",
-        "https://www.handelsblatt.com/politik/deutschland/rente-ein-jahr-spaeter-in-fruehrente-braechte-staatskasse-kraeftiges-plus/100243315.html"
+        "https://www.handelsblatt.com/politik/deutschland/rente-frei-sieht-keinen-raum-fuer-verhandlungen-ueber-rente-mit-63/100244864.html",
+        "https://www.handelsblatt.com/politik/deutschland/rentenreform-doch-kein-aus-fuer-rente-mit-63-spd-nimmt-cdu-steilvorlage-an/100244717.html",
+        "https://www.handelsblatt.com/politik/deutschland/rente-spd-ministerpraesidentin-rehlinger-lehnt-ende-der-rente-mit-63-ab/100244702.html",
+        "https://www.handelsblatt.com/politik/deutschland/rentenreform-diw-praesident-fuer-abschaffung-der-rente-mit-63/100244588.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -128,11 +128,11 @@
         },
         {
           "emotion": "confusion",
-          "count": 3
+          "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "amusement",
+          "count": 1
         }
       ]
     },
@@ -140,18 +140,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 61,
+      "article_count": 67,
       "sample_titles": [
-        "»Rente mit 63«: Thorsten Frei widerspricht Ost-Ministerpräsidenten der CDU",
-        "Russland: Sberbank fürchtet Kreditausfälle nach ukrainischen Angriffen auf Online-Händler",
-        "Aktien-abhängige Altersvorsorge: Ist Amerikas Aktienmarkt »too big to fail«?",
-        "Früher in Rente: Warum viele den Arbeitsmarkt vorzeitig verlassen"
+        "Rente mit 63: Warum die Frühverrentung für den Osten besonders wichtig ist",
+        "Rente mit 63: Der Widerstand der Ost-Ministerpräsidenten ist gefährlich und dreist",
+        "News: Friedrich Merz, Rente, Elon Musk, SpaceX, Börse, Ceuta, Marokko",
+        "FDP drängt auf Abschaffung der Rente mit 63"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/rente-mit-63-thorsten-frei-widerspricht-ost-ministerpraesidenten-der-cdu-a-4229a64c-0e68-465f-a0d3-a1a9718dd861#ref=rss",
-        "https://www.spiegel.de/wirtschaft/russland-sberbank-fuerchtet-kreditausfaelle-nach-ukrainischen-angriffen-auf-online-haendler-a-0668051a-4681-470f-aabb-5b659111765d#ref=rss",
-        "https://www.spiegel.de/wirtschaft/aktien-abhaengige-altersvorsorge-ist-amerikas-aktienmarkt-too-big-to-fail-a-3aa6cfab-c31d-49f6-be58-7e8aea9f87a6#ref=rss",
-        "https://www.spiegel.de/panorama/gesellschaft/frueher-in-rente-warum-viele-den-arbeitsmarkt-vorzeitig-verlassen-a-a9386c9f-e89a-4354-87d5-ac1b90c43f2d#ref=rss"
+        "https://www.spiegel.de/wirtschaft/soziales/rente-mit-63-warum-die-fruehverrentung-fuer-den-osten-besonders-wichtig-ist-a-d423e8b4-d47c-462a-ac5b-2b4c2e47b8fb#ref=rss",
+        "https://www.spiegel.de/wirtschaft/rente-mit-63-der-widerstand-der-ost-ministerpraesidenten-ist-gefaehrlich-und-dreist-a-8a5079b7-50ed-42a8-8cf8-d8836b2c7221#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/news-friedrich-merz-rente-elon-musk-spacex-boerse-ceuta-marokko-a-392488fd-f1a9-4688-96ea-b7ae9407e16e#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/fdp-draengt-auf-abschaffung-der-rente-mit-63-a-8df6d4d1-8560-45bb-a4b3-922825ef554a#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -164,6 +164,39 @@
           "count": 4
         },
         {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 57,
+      "sample_titles": [
+        "„Rente mit 63“: Frei sieht im Rentenstreit keinen Verhandlungsspielraum",
+        "Pressestimmen: „Es gibt Gründe, die ,Rente mit 63‘ zu kippen“",
+        "Rentenreform: Rehlinger und Schweitzer gegen Abschaffung der Rente mit 63",
+        "Pressestimmen: „Es gibt Gründe, die 'Rente mit 63' zu kippen\""
+      ],
+      "urls": [
+        "https://www.stern.de/politik/deutschland/-rente-mit-63---frei-sieht-im-rentenstreit-keinen-verhandlungsspielraum-38057144.html",
+        "https://www.stern.de/politik/deutschland/presesstimmen---es-gibt-gruende--die--rente-mit-63--zu-kippen--38052904.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/rentenreform--rehlinger-und-schweitzer-gegen-abschaffung-der-rente-mit-63-38053046.html",
+        "https://www.stern.de/politik/deutschland/rentendebatte-laesst-kanzler-und-koalition-bloed-dastehen---pressestimmen-38052904.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 7
+        },
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
           "emotion": "excitement",
           "count": 2
         }
@@ -173,18 +206,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 59,
+      "article_count": 53,
       "sample_titles": [
-        "Auch Klüssendorf stellt Aus der \"Rente mit 63\" infrage",
-        "Kretschmer kämpft für die Rente nach 45 Beitragsjahren",
-        "Warum Ängste Aktiensparen verhindern",
-        "Altersvorsorge im Kindesalter - so soll es klappen"
+        "Rehlinger lehnt Abschaffung der Rente mit 63 ab",
+        "Was wird aus der abschlagsfreien Frührente?",
+        "Bas fordert Union zur Klärung bei \"Rente mit 63\" auf",
+        "Auch Klüssendorf stellt Aus der \"Rente mit 63\" infrage"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/rentenreform-vorschlag-cdu-reaktionen-100.html",
-        "https://www.tagesschau.de/inland/kritik-osten-rentenplaene-100.html",
-        "https://www.tagesschau.de/wirtschaft/boerse/aktien-anlage-alterssicherung-100.html",
-        "https://www.tagesschau.de/inland/fruehstartrente-100.html"
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rehlinger_gegen_abschaffung_rente_mit_63_100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/rente-diskussion-rentenalter-koalition-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/rentenreform-bas-100.html",
+        "https://www.tagesschau.de/inland/rentenreform-vorschlag-cdu-reaktionen-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -197,41 +230,8 @@
           "count": 4
         },
         {
-          "emotion": "confusion",
-          "count": 3
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 55,
-      "sample_titles": [
-        "Neue Debatten in Koalition über Abkehr von „Rente mit 63“",
-        "Rente: Gefahr der Altersarmut: Mehr Frauen mit niedrigen Renten",
-        "Vorschau: TV-Tipps am Donnerstag",
-        "Sozialreformen: Ost-Ministerpräsidenten der CDU fordern Rücksicht vom Bund"
-      ],
-      "urls": [
-        "https://www.stern.de/news/neue-debatten-in-koalition-ueber-abkehr-von--rente-mit-63--38044370.html",
-        "https://www.stern.de/gesellschaft/regional/thueringen/rente--gefahr-der-altersarmut--mehr-frauen-mit-niedrigen-renten-38043550.html",
-        "https://www.stern.de/kultur/vorschau--tv-tipps-am-donnerstag-38032954.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen/sozialreformen--ost-ministerpraesidenten-der-cdu-fordern-ruecksicht-vom-bund-38032164.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
           "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "confusion",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -239,31 +239,31 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 48,
+      "article_count": 50,
       "sample_titles": [
-        "SPD-General über höhere Steuern für Reiche - Klüssendorf: „Wir nehmen denen nichts weg“",
-        "SPD-General Tim Klüssendorf in BILD - Rente mit 63 soll bleiben",
-        "Am Freitag kommt das dicke Plus an - So viel Rente haben Sie ab heute mehr",
-        "Nach neuem Vertrag bis 2029 - Atik spricht über Fußball-Rente in Magdeburg"
+        "Kommentar - Milliarden Gründe für die Rentenreform!",
+        "So teuer ist die „Rente mit 63“ wirklich - 7 von 16 Länder-Chefs rebellieren gegen Abschaffung",
+        "Politik-Vodcast - Vertraulich! -„Nur eine Frage der Zeit, bis der nächste Ansturm kommt“",
+        "Steuern auf die Rente - Wer wie viel nachzahlen muss oder raus bekommt"
       ],
       "urls": [
-        "https://www.bild.de/politik/spd-general-kluessendorf-im-bild-talk-rente-mit-63-soll-bleiben-6a6c93415aee44c118a95116",
-        "https://www.bild.de/politik/inland/neuer-zoff-mit-dem-koalitionspartner-cdu-spd-haelt-an-rente-mit-63-jahren-fest-6a6ca70bff33749f5728a3d2",
-        "https://www.bild.de/politik/inland/am-freitag-kommt-das-dicke-plus-an-so-viel-rente-haben-sie-ab-morgen-mehr-6a68b1bea17ee9f1dfd81cca",
-        "https://www.bild.de/sport/fussball/nach-neuem-vertrag-bis-2029-atik-spricht-ueber-fussball-rente-in-magdeburg-6a6b493cb5b26399f0be1473"
+        "https://www.bild.de/politik/meinung-kommentare-kolumnen/kommentar-milliarden-gruende-fuer-die-rentenreform-6a722a2d4bc688bc1d63ad3e",
+        "https://www.bild.de/politik/inland/7-von-16-ministerpraesidenten-rebellieren-gegen-die-abschaffung-so-teuer-ist-die-rente-mit-63-wirklich-6a706a3dabec2d71c8bee081",
+        "https://www.bild.de/politik/politik-vodcast-vertraulich-nur-eine-frage-der-zeit-bis-der-naechste-ansturm-kommt-6a70a87dcc46967c04cadab0",
+        "https://www.bild.de/politik/inland/mehr-als-1300-euro-nachzahlung-steuerschock-fuer-millionen-rentner-6a6c5edfef632fe6ede66920"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "excitement",
       "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 4
+        },
         {
           "emotion": "optimism",
           "count": 4
         },
         {
           "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "excitement",
           "count": 3
         }
       ]
@@ -274,16 +274,16 @@
       "bias": "neutral",
       "article_count": 48,
       "sample_titles": [
-        "Rente mit 63: CDU-Spitzen halten an Abschaffung fest",
-        "Stiftung Warentest: Diese Spülmaschinentabs überzeugen",
-        "\"Rente wird nicht sicherer, wenn wir Arbeit teurer machen\"",
-        "Altersvorsorgedepot ersetzt Riester: Was anders werden soll"
+        "\"Rente mit 63\" im Osten: Zahlen und Fakten",
+        "Aus von \"Rente mit 63\": Osten wäre \"stark betroffen\"",
+        "Rente: Bas zeigt sich offen für Diskussionen",
+        "Was wird aus der \"Rente mit 63\"?"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/rente-63-abschlagsfrei-cdu-100.html",
-        "https://www.zdfheute.de/ratgeber/stiftung-warentest-spuelmaschine-spuelmaschinentabs-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rentenreform-arbeitgeber-dulger-korrekturen-100.html",
-        "https://www.zdfheute.de/wirtschaft/altersvorsorgedepot-riester-rente-vorsorgeplan-100.html"
+        "https://www.zdfheute.de/politik/deutschland/rente-osten-63-statistik-faq-100.html",
+        "https://www.zdfheute.de/politik/deutschland/schwesig-rente-abschlagsfrei-reform-100.html",
+        "https://www.zdfheute.de/video/berlin-direkt/berlin-direkt---sommerinterview-clip-2-280.html",
+        "https://www.zdfheute.de/politik/deutschland/rente-mit-63-debatte-abschlagsfreie-fuehrente-union-spd-schwarz-rote-koalition-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -305,65 +305,32 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 33,
+      "article_count": 35,
       "sample_titles": [
-        "Koalition uneins bei Rentenreform: SPD-Generalsekretär Klüssendorf will doch „Rente mit 63“",
-        "Zehn Euro im Monat: Entwurf für die Frühstartrente liegt vor",
-        "Sommerinterview des Kanzlers: Merz kann jetzt seinen Machtzirkel neu ordnen",
-        "Linken-Anfrage an Bundesregierung: Jedem Zweiten im Osten droht Armutsrente"
+        "Vorstoß zur Rente mit 63: Die Scheindebatte des Jahres",
+        "Debatte über Reform: Ostdeutsche Politiker wollen abschlagsfreie Rente behalten",
+        "Marktradikaler Redner bei AfD-Stiftung: Mileis Meister",
+        "Debatte über Rentenpaket: Bas offen, Söder skeptisch"
       ],
       "urls": [
-        "https://taz.de/Kluessendorf-stellt-Aus-fuer-Rente-mit-63-infrage/!6201031/",
-        "https://taz.de/Zehn-Euro-im-Monat/!6198270/",
-        "https://taz.de/Sommerinterview-des-Kanzlers/!6197514/",
-        "https://taz.de/Linken-Anfrage-an-Bundesregierung/!6197660/"
+        "https://taz.de/Rente-mit-63-Die-Scheindebatte-des-Jahres/!6196913/",
+        "https://taz.de/Drei-ostdeutsche-Politiker-der-CDU-wollen-die-abschlagsfreie-Rente-behalten/!6201311/",
+        "https://taz.de/Marktradikaler-Redner-bei-AfD-Stiftung/!6201174/",
+        "https://taz.de/Debatte-ueber-Rentenpaket/!6201274/"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 4
+        },
         {
           "emotion": "optimism",
           "count": 4
         },
         {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
           "emotion": "disgust",
           "count": 2
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 25,
-      "sample_titles": [
-        "Bundespolitik: Frei verteidigt geplante Abschaffung der „Rente mit 63“ gegen Kritiker aus der CDU",
-        "CDU-Ministerpräsidenten: Eine Ansage an den eigenen Kanzler",
-        "Altersvorsorge: So funktioniert die Frühstart-Rente",
-        "Arbeitsleben: Umfrage: Hälfte aller Bayern will vorzeitig in Rente gehen"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-rente-63-li.3516334",
-        "https://www.sueddeutsche.de/politik/cdu-merz-ostdeutschland-kritik-sachsen-anhalt-li.3524132",
-        "https://www.sueddeutsche.de/wirtschaft/fruehstartrente-deutschland-foerderung-kinder-li.3520077",
-        "https://www.sueddeutsche.de/bayern/bayern-rente-vorzeitig-haelfte-umfrage-li.3518304"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
         }
       ]
     },
@@ -371,18 +338,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 21,
+      "article_count": 26,
       "sample_titles": [
-        "Rentenreform: SPD-Generalsekretär will an abschlagsfreier Frührente festhalten",
-        "Reformrechner: Weniger oder mehr? Das ist Ihr neues Netto",
-        "Armut im Alter: Linke warnt vor Armutsrente für Millionen Beschäftigte in Deutschland",
-        "Gesundheit und Rente: DAK-Report: Auch gesunde Arbeitnehmer wollen früh in Rente"
+        "Rentenreform: Arbeitgeber kritisieren Widerstand gegen Ende der Rente mit 63",
+        "Abschlagsfreie Rente: Unionsfraktion hält trotz Kritik an Abschaffung der Rente mit 63 fest",
+        "Rente mit 63: Bitte bloß nicht wieder das Rentenpaket aufschnüren!",
+        "Rentenreform: Was würde das Aus für die «Rente mit 63» bedeuten?"
       ],
       "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-08/rente-mit-63-abschlagsfrei-cdu-spd-tim-kluessendorf",
-        "https://www.zeit.de/politik/deutschland/2026-07/reformrechner-einkommenssteuer-sozialversicherunng-einkommen-brutto",
-        "https://www.zeit.de/politik/deutschland/2026-07/rente-armutsgrenze-gesetz-beschaeftigte-ostdeutschland-gxe",
-        "https://www.zeit.de/news/2026-07/18/dak-report-auch-gesunde-arbeitnehmer-wollen-frueh-in-rente"
+        "https://www.zeit.de/politik/deutschland/2026-08/rente-mit-63-fruehrente-abschaffung-bda-cdu-spd",
+        "https://www.zeit.de/politik/deutschland/2026-08/abschlagsfreie-rente-45-jahre-rente-mit-63-rentenpaket-thorsten-frei",
+        "https://www.zeit.de/wirtschaft/2026-08/rente-mit-63-cdu-ostdeutschland-abschaffung-rentenpaket",
+        "https://www.zeit.de/news/2026-08/03/was-wuerde-das-aus-fuer-die-rente-mit-63-bedeuten"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -391,11 +358,44 @@
           "count": 3
         },
         {
-          "emotion": "fear",
+          "emotion": "confusion",
           "count": 1
         },
         {
-          "emotion": "disgust",
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 26,
+      "sample_titles": [
+        "Podcast: „Auf den Punkt“: Merz' neuestes Problem: der Rentenstreit",
+        "Bundespolitik: Unionsfraktionschef sieht keinen Verhandlungsspielraum bei Frühverrentung",
+        "Sommerinterview mit Bärbel Bas: Die Koalition streitet um die Rente, auch in der Sommerpause",
+        "Bundespolitik: Frei verteidigt geplante Abschaffung der „Rente mit 63“ gegen Kritiker aus der CDU"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/auf-den-punkt-podcast-merz-rente-li.3526473",
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-rente-63-spd-cdu-union-frei-li.3516334",
+        "https://www.sueddeutsche.de/medien/sommerinterview-zdf-baerbel-bas-ard-markus-soeder-rentenreform-li.3524226",
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-rente-63-li.3516334"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -404,18 +404,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 20,
+      "article_count": 21,
       "sample_titles": [
+        "Veronika Grimm warnt vor Schuldenkrise",
         "BMW: Gewinn bricht um 35 Prozent ein – Tausende Stellen gefährdet",
         "Die demographische Alterung ist eine Strohmann-Argumentation",
-        "Warkens Reform eines ineffizienten Gesundheitssystems – Nur ein tiefer Griff in die Taschen der Beitragszahler?",
-        "Dobrindts Plan für den Polizeistaat: Verfassungsschutz und BND von der Kette gelassen"
+        "Warkens Reform eines ineffizienten Gesundheitssystems – Nur ein tiefer Griff in die Taschen der Beitragszahler?"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/wirtschaft/veronika-grimm-warnt-vor-schuldenkrise/",
         "https://www.tichyseinblick.de/wirtschaft/mobilitaet/bmw-gewinneinbruch-35-prozent/",
         "https://www.tichyseinblick.de/wirtschaft/die-demographische-alterung-ist-eine-strohmann-argumentation/",
-        "https://www.tichyseinblick.de/gastbeitrag/warken-gesundheitsreform-ineffizientes-system/",
-        "https://www.tichyseinblick.de/video/interview/donrindt-plan-polizeistaat-verfassungsschutz-bnd/"
+        "https://www.tichyseinblick.de/gastbeitrag/warken-gesundheitsreform-ineffizientes-system/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -433,22 +433,47 @@
         }
       ]
     },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 11,
+      "sample_titles": [
+        "„Einschnitte, die auch wehtun“ Günther verteidigt Rentenreform – gegen parteiinternen Widerstand",
+        "DIW-Chef Fratzscher verteidigt Abschaffung der Rente mit 63",
+        "1,43 Billionen Euro Fast jeder dritte Euro fließt in den Sozialstaat",
+        "Referentenentwurf Verfassungsschutz soll Zugriff auf Wohnungen und Computer erlangen"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/guenther-verteidigt-rentenreform-gegen-parteiinternen-widerstand/",
+        "https://jungefreiheit.de/politik/deutschland/2026/fratzscher-verteidigt-abschaffung-der-rente-mit-63/",
+        "https://jungefreiheit.de/politik/deutschland/2026/fast-jeder-dritte-euro-fliesst-in-den-sozialstaat/",
+        "https://jungefreiheit.de/politik/deutschland/2026/verfassungsschutz-soll-zugriff-auf-wohnungen-und-computer-erlangen/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 14,
+      "article_count": 9,
       "sample_titles": [
+        "DER ANDERE BLICK - Die ostdeutschen Ministerpräsidenten wollen die Rente mit 63 retten. Das ist falsch. Die Frührente muss weg",
         "Ein neuer Fall von «Rentenklau»? Die Finanzmarktaufsicht nimmt die Versicherung Zurich unter die Lupe",
         "Mitten im Handelsstreit mit den USA: Die EU wagt die Konfrontation mit Google und spricht eine Busse von 890 Millionen Euro aus",
-        "«Investoren sitzen auf Beteiligungen, die sie nicht verkaufen können», sagt Joe Bae, Co-Chef der grössten Private-Equity-Firma der Welt",
-        "INTERVIEW - Radsportlegende Eddy Merckx sagt: «Ich konnte mehr leiden als meine Konkurrenten, deshalb habe ich sie alle geschlagen»"
+        "«Investoren sitzen auf Beteiligungen, die sie nicht verkaufen können», sagt Joe Bae, Co-Chef der grössten Private-Equity-Firma der Welt"
       ],
       "urls": [
+        "https://www.nzz.ch/der-andere-blick/die-ostdeutschen-ministerpraesidenten-wollen-die-rente-mit-63-retten-das-ist-falsch-die-fruehrente-muss-weg-ld.10017953",
         "https://www.nzz.ch/wirtschaft/ein-neuer-fall-von-rentenklau-die-finanzmarktaufsicht-nimmt-die-versicherung-zurich-unter-die-lupe-ld.10017152",
         "https://www.nzz.ch/wirtschaft/eu-verhaengt-890-millionen-euro-strafe-gegen-google-ld.10016712",
-        "https://www.nzz.ch/wirtschaft/investoren-sitzen-auf-beteiligungen-die-sie-nicht-verkaufen-koennen-sagt-joe-bae-co-chef-der-groessten-private-equity-firma-der-welt-ld.10013940",
-        "https://www.nzz.ch/sport/radsport-legende-eddy-merckx-sagt-ich-konnte-mehr-leiden-als-meine-konkurrenten-deshalb-habe-ich-sie-alle-geschlagen-ld.10013772"
+        "https://www.nzz.ch/wirtschaft/investoren-sitzen-auf-beteiligungen-die-sie-nicht-verkaufen-koennen-sagt-joe-bae-co-chef-der-groessten-private-equity-firma-der-welt-ld.10013940"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -466,31 +491,23 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 2,
       "sample_titles": [
-        "1,43 Billionen Euro Fast jeder dritte Euro fließt in den Sozialstaat",
-        "Referentenentwurf Verfassungsschutz soll Zugriff auf Wohnungen und Computer erlangen",
-        "Altersarmut wächst So viele Rentner beziehen Grundsicherung",
-        "Alterssicherungskommission Warum die Rente ein strukturelles Demokratie-Defizit offenbart"
+        "Die drei Möchtegern-Rächer der Ost-Rentner",
+        "Kein Rettungsring für die Rente"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/fast-jeder-dritte-euro-fliesst-in-den-sozialstaat/",
-        "https://jungefreiheit.de/politik/deutschland/2026/verfassungsschutz-soll-zugriff-auf-wohnungen-und-computer-erlangen/",
-        "https://jungefreiheit.de/wirtschaft/2026/so-viele-rentner-beziehen-grundsicherung/",
-        "https://jungefreiheit.de/wirtschaft/2026/warum-die-rente-ein-strukturelles-demokratie-defizit-offenbart/"
+        "https://www.achgut.com/artikel/die_drei_moechtegern_raecher_der_ostrentner",
+        "https://www.achgut.com/artikel/kein_rettungsring_fuer_die_rente"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -510,55 +527,27 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Kein Rettungsring für die Rente"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/kein_rettungsring_fuer_die_rente"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 1,
-      "sample_titles": [
-        "EU einigt sich im Streit um Fluggastrechte"
-      ],
-      "urls": [
-        "https://www.dw.com/de/eu-einigt-sich-im-streit-um-fluggastrechte/a-77534486?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 214,
-    "populist-mixed": 48,
-    "economic-liberal": 74,
-    "neutral": 108,
-    "conservative-liberal": 130,
-    "left": 33,
-    "left-liberal": 162,
-    "far-right": 31
+    "right-conservative": 208,
+    "left-liberal": 176,
+    "populist-mixed": 50,
+    "conservative-liberal": 125,
+    "far-right": 34,
+    "economic-liberal": 71,
+    "left": 35,
+    "neutral": 101
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im gesamten deutschen Mediendiskurs wird die demografische Alterung als zentrale Finanzierungsherausforderung des gesetzlichen Rentensystems benannt, wobei Medien aller Lager betonen, dass das aktuelle Beitrags- und Leistungsniveau langfristig nicht tragfähig ist. Gleichzeitig besteht ein breiter Konsens darüber, dass die „Rente mit 63\" nicht dauerhaft erhalten werden kann und dass eine Reform, sei es durch Anhebung des Renteneintrittsalters, Einführung einer abschlagsfreien Frühstartrente oder stärkere kapitalgedeckte Elemente, notwendig ist, um Generationengerechtigkeit zu wahren und Altersarmut zu verhindern. Schließlich wird in nahezu allen Beiträgen die Notwendigkeit einer strukturellen Neuausrichtung hervorgehoben, die sowohl die Finanzierungssicherheit als auch die soziale Absicherung der kommenden Generationen berücksichtigt.",
-      "controversial_points": "Die Debatte spaltet zwischen Befürwortern höherer Rentenalter und Gruppen, die die Rente mit 63 schützen. Finanzierbarkeit wird von Wirtschaftsliberalen als Kernproblem gesehen, während linke Medien die Gefahr von Altersarmut betonen. Kapitalgedeckte Modelle wie Riester oder Aktienrente stoßen auf Misstrauen seitens Gewerkschaften, die das Umlageprinzip verteidigen. Demografischer Wandel erzeugt regionalen Druck, weil Ostdeutschland stärker von sinkenden Beitragszahlern betroffen ist."
+      "shared_perspectives": "Alle Medien betonen, dass der demografische Wandel die Finanzierbarkeit der gesetzlichen Rente gefährdet und deshalb Reformen unvermeidlich sind. Gleichzeitig wird die Debatte um die Rente mit 63 als zentraler Konflikt zwischen Generationengerechtigkeit und regionalen Ungleichheiten dargestellt, wobei Ostdeutschland als besonders stark betroffen hervorgehoben wird. Darüber hinaus wird in nahezu allen Beiträgen die politische Risikolage jeder Reformoption (sei es die Anhebung des Rentenalters, die Einführung kapitalgedeckter Elemente oder die Beibehaltung der Frührente) als entscheidendes Hindernis für die Regierungskoalition beschrieben.",
+      "controversial_points": "Im Diskurs kollidiert das Prinzip der Generationengerechtigkeit mit der Finanzierbarkeit der gesetzlichen Rente. Konservative Medien betonen die Gefahr von Sozialstaatsausgaben, linke Medien fordern soziale Sicherheit für Ostdeutsche. Die Debatte um das Rentenalter verbindet demografischen Wandel mit regionalen Ungleichheiten zwischen Ost und West. Kapitalgedeckte Modelle werden als Marktliberalisierung gesehen, während Gewerkschaften sie als Risiko für Rentenlücken kritisieren."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media agree that demographic ageing is creating a fiscal gap that makes the current statutory pension level unsustainable without reforms, and that this pressure forces a re-evaluation of early-retirement schemes such as the \"Rente mit 63\". They also converge on the assessment that extending or preserving such early-retirement options faces strong budgetary resistance and will likely be curtailed, even though parties differ on the exact timetable. Finally, there is a shared acknowledgement that private, capital-based retirement products are viewed as necessary supplements, yet their complexity and low uptake raise concerns about intergenerational equity.",
-      "controversial_points": "The debate pits intergenerational solidarity against individual responsibility, dividing parties over who should bear pension costs. Conservatives demand raising retirement age to preserve pay-as-you-go, while leftists push early pensions to avoid old-age poverty. Riester controversy pits market-based savings advocates against critics who view it as a regressive burden on low-income earners. Demographic decline fuels tension between fiscal conservatives urging contribution hikes and liberals promoting private capital solutions to sustain pension solvency."
+      "shared_perspectives": "Across the spectrum, German outlets agree that demographic ageing makes the existing pay-as-you-go system financially untenable and that any lasting solution must balance intergenerational equity with fiscal sustainability. They also converge on the view that the early-retirement provision of 63 years, which is concentrated in the eastern states, creates a regional fiscal strain and cannot be retained without offsetting measures. Despite divergent political framing, the media uniformly treat the pension package as a keystone of the broader reform agenda, warning that dismantling its core elements would jeopardise the entire reform effort.",
+      "controversial_points": "The core conflict is intergenerational fairness versus pension system sustainability. Eastern states press for a 63-year retirement age. Western parties argue that early retirement threatens fiscal balance. Conservatives favor market-based private pensions and limited state spending. The left defends universal benefits and higher public financing."
     }
   },
-  "cached_at": "2026-08-02T06:51:33.995844"
+  "cached_at": "2026-08-05T06:55:59.382007"
 }
