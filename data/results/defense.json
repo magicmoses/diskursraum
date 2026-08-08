@@ -4,36 +4,36 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 124,
+      "article_count": 115,
       "sample_titles": [
-        "Im Visier ukrainischer Drohnen : Warum Russlands Amazon Wildberries heißt",
-        "Mehr Raketen, weniger Drohnen: Russland schwenkt im Luftkrieg um",
-        "Dritter Vorfall in kurzer Zeit: Polnische Kampfjets fangen erneut russischen Aufklärer ab",
-        "\"Nahezu alle\" aufgebraucht: Insider: US-Militär steht vor bedrohlichem Raketenmangel"
+        "„Grenze des Akzeptablen überschritten“ – Festnahmen bei Protesten gegen Asylunterkunft in Kleinstadt",
+        "„Die Gefahr ist sehr groß, dass Putin uns alle testet“, warnt Strack-Zimmermann",
+        "„Stellen Sie sich vor, die kommt im Vorbereich des Flughafens nieder und dann zur Explosion“",
+        "„Es liegt auf der Hand …“ – Russland veröffentlicht Erklärung nach Drohnenvorfall in Leipzig"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Warum-Russlands-Amazon-Wildberries-heisst-id31158783.html",
-        "https://www.n-tv.de/politik/Russland-schwenkt-im-Luftkrieg-um-id31153113.html",
-        "https://www.n-tv.de/politik/Polnische-Kampfjets-fangen-erneut-russischen-Aufklaerer-ab-id31158806.html",
-        "https://www.n-tv.de/politik/Insider-US-Militaer-steht-vor-bedrohlichem-Raketenmangel-id31157361.html"
+        "https://www.welt.de/politik/ausland/article6a766ff635268e50270222cb/england-grenze-des-akzeptablen-ueberschritten-festnahmen-bei-protesten-gegen-asylunterkunft-in-kleinstadt.html",
+        "https://www.welt.de/politik/ausland/video6a760e8b0e3689919ec744e3/angriffe-auf-nato-staaten-die-gefahr-ist-sehr-gross-dass-putin-uns-alle-testet-warnt-strack-zimmermann.html",
+        "https://www.welt.de/politik/deutschland/video6a7619a8c07f6c2f08035fdb/drohnenabwehr-stellen-sie-sich-vor-die-kommt-im-vorbereich-des-flughafens-nieder-und-dann-zur-explosion.html",
+        "https://www.welt.de/politik/ausland/article6a7611e70e3689919ec7450e/leipzig-es-liegt-auf-der-hand-russland-veroeffentlicht-erklaerung-nach-drohnenvorfall.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 4
         },
         {
-          "emotion": "annoyance",
-          "count": 3
+          "emotion": "fear",
+          "count": 4
         },
         {
-          "emotion": "sadness",
-          "count": 3
+          "emotion": "anger",
+          "count": 2
         }
       ]
     },
@@ -41,18 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 116,
+      "article_count": 111,
       "sample_titles": [
-        "USA unter Trump: Hegseth weist Bericht über schwindendes Abwehrarsenal zurück",
-        "Produktionsstart in Bayern: Kampfdrohnen für die deutsche Brigade in Litauen",
-        "Liveblog Ukrainekrieg: Ukraine attackiert abermals Wildberries-Lager in Russland",
-        "Filmfestival Locarno: Als in Hollywood die Zeit der Schurken begann"
+        "Krieg in der Ukraine: Der Druck auf die letzten Festungen im Donbass wächst",
+        "Tatjana Kim: Ihre Warenlager gehen in Flammen auf",
+        "Sprengstoffdrohne: Wer fremden Mächten dient",
+        "„Spiegel-Solutions“: Die neue Hamburger Journalistenschule"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-hegseth-weist-bericht-ueber-schwindendes-abwehrarsenal-zurueck-faz-19444916.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/stark-defence-kampfdrohnen-fuer-die-bundeswehr-in-litauen-201084627.html",
-        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-ukraine-greift-abermals-wildberries-lager-in-russland-an-faz-110683325.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/retrospektive-in-locarno-hollywood-waehrend-der-kommunistenjagd-201090626.html"
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-kramatorsk-und-slowjansk-unter-beschuss-201104929.html",
+        "https://www.faz.net/aktuell/politik/ukraine/wildberries-tatjana-kims-unternehmen-geht-in-flammen-auf-201105243.html",
+        "https://www.faz.net/aktuell/politik/inland/drohnenvorfall-in-leipzig-bewaffneter-angriff-auf-deutschland-201105571.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/der-neue-loesungsorientierte-journalismus-des-spiegel-201105250.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -61,77 +61,44 @@
           "count": 6
         },
         {
-          "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "realization",
-          "count": 2
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 97,
-      "sample_titles": [
-        "Mann mit Waffe und Munition vor Trump-Golfplatz festgenommen",
-        "„Solche Angriffe gehören in Cherson seit beinahe zwei Jahren zum Alltag!“",
-        "Israelische Soldaten müssen künftig den Generalstabschef fragen, bevor sie Hamas-Kämpfer töten",
-        "Donau gibt Nazi-Kriegsschiffe wieder frei – noch immer liegt Munition an Bord"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/ausland/article6a727b8147f8c988ecd62352/los-angeles-mann-mit-waffe-und-munition-vor-trump-golfplatz-festgenommen.html",
-        "https://www.welt.de/videos/video6a72189047f8c988ecd61f7d/drohnen-safari-solche-angriffe-gehoeren-in-cherson-seit-beinahe-zwei-jahren-zum-alltag.html",
-        "https://www.welt.de/politik/article6a722290cc46967c04caed2a/gaza-krieg-israelische-soldaten-muessen-kuenftig-den-generalstabschef-fragen-bevor-sie-hamas-kaempfer-toeten.html",
-        "https://www.welt.de/vermischtes/article6a721dfbbdd88e54c67cf779/donau-in-serbien-tauchen-durch-niedrigen-wasserpegel-nazi-kriegsschiffe-wieder-auf.html"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
+          "emotion": "optimism",
           "count": 4
         },
         {
           "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
-          "count": 3
+          "count": 4
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 74,
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 103,
       "sample_titles": [
-        "Nahost: Möglicher Angriff der Huthis - Seedrohne versenkt Frachtschiff vor der Küste Jemens",
-        "Video von Attacke auf Gemüsehändler: Selenskyj kritisiert Drohnen-»Safari« auf Zivilisten in Cherson",
-        "Wehrdienst: Was Rekruten in Bundeswehr und NVA erlebten",
-        "Israel-Gaza-Krieg: Katar, Ägypten und Türkei verurteilen Israels jüngste Angriffe im Gazastreifen"
+        "Nahost-Dreierbündnis: Was ist bekannt zum \"Mekka Verteidigungspakt\"?",
+        "Schärfere Sanktionen beschlossen: US-Senat sendet Signal an Putin: \"Du wirst die Ukraine nicht erobern\"",
+        "Sprengsatz am Flughafen Leipzig: Russland weist Verantwortung für Drohnenvorfall zurück",
+        "Bundeswehr nennt ihn \"Schakal\": Deutschland und Niederlande bestellen gemeinsam neue Panzer"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/nahost-moeglicher-angriff-der-huthis-seedrohne-versenkt-frachtschiff-vor-der-kueste-jemens-a-f5571423-f3c8-4643-a8d6-beaa3486265c#ref=rss",
-        "https://www.spiegel.de/ausland/video-von-attacke-auf-gemuesehaendler-selenskyj-kritisiert-drohnen-safari-auf-zivilisten-in-cherson-a-e06d6c79-16d5-4e3b-8557-99e9669f9378#ref=rss",
-        "https://www.spiegel.de/geschichte/wehrdienst-was-rekruten-in-bundeswehr-und-nva-erlebten-a-817c254b-245c-4e7c-9b2e-17089924f824#ref=rss",
-        "https://www.spiegel.de/ausland/israel-gaza-krieg-katar-aegypten-und-tuerkei-verurteilen-israels-juengste-angriffe-im-gazastreifen-a-747ff41f-6720-4ffe-b1f2-70b24dfa1128#ref=rss"
+        "https://www.n-tv.de/politik/Was-bedeutet-das-Militaerbuendnis-zwischen-Pakistan-Tuerkei-und-Saudi-Arabien-id31171652.html",
+        "https://www.n-tv.de/politik/US-Senat-sendet-Signal-an-Putin-Du-wirst-die-Ukraine-nicht-erobern-id31171586.html",
+        "https://www.n-tv.de/politik/Russland-weist-Verantwortung-fuer-Drohnenvorfall-zurueck-id31171520.html",
+        "https://www.n-tv.de/politik/Deutschland-und-Niederlande-bestellen-gemeinsam-neue-Panzer-id31171338.html"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "realization",
+          "emotion": "sadness",
           "count": 3
         },
         {
-          "emotion": "remorse",
-          "count": 2
+          "emotion": "optimism",
+          "count": 3
         },
         {
-          "emotion": "sadness",
+          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -140,64 +107,97 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 70,
+      "article_count": 68,
       "sample_titles": [
-        "Deep Read: Unheimliche Macht – wie gefährlich ist ein starkes Deutschland?",
-        "+++ Iran-Krieg +++: Israel verschärft Regeln für Angriffe in Gaza – Drohnenboot versenkt Frachtschiff im Roten Meer",
-        "Rüstung: Vertrauliche Verhandlungen um Notfall-Deal: Übernimmt der Staat den Panzerbauer KNDS komplett?",
-        "Rüstung: Hensoldt zieht bei Bosch ein und will Beschäftigte übernehmen"
+        "US-Regierung: Trumps umstrittener Justizminister-Kandidat Todd Blanche entgeht Blamage im Senat nur knapp",
+        "Rüstung: Jagdbomberdrohne für die Bundeswehr: US-Unternehmen steigt ins Rennen ein",
+        "+++ Ukraine-Krieg +++: US-Senat stimmt für Gesetz zu Russland-Sanktionen",
+        "Innere Sicherheit: Sprengstoff-Drohne in Leipzig: Russland sieht „Provokation“"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/verteidigung-unheimliche-macht-wie-gefaehrlich-ist-ein-starkes-deutschland/100239760.html",
-        "https://www.handelsblatt.com/politik/international/iran-krieg-tisrael-verschaerft-regeln-fuer-angriffe-in-gaza-drohnenboot-versenkt-frachtschiff-im-roten-meer/100136895.html",
-        "https://www.handelsblatt.com/politik/deutschland/ruestung-uebernimmt-der-staat-den-panzerbauer-knds-komplett/100244113.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-hensoldt-will-bosch-ingenieure-uebernehmen/100244949.html"
+        "https://www.handelsblatt.com/politik/international/todd-blanche-trumps-umstrittener-justizminister-kandidat-entgeht-blamage-knapp/100245420.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-jagdbomberdrohne-erst-2035-rheinmetall-warnt-vor-verzoegerung/100245339.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen/27982126.html",
+        "https://www.handelsblatt.com/politik/deutschland/innere-sicherheit-sprengstoff-drohne-in-leipzig-russland-sieht-provokation/100245874.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
+          "count": 5
         },
         {
           "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 59,
-      "sample_titles": [
-        "Urteil in Prozess um rechte Gruppe Letzte Verteidigungswelle in Hamburg erwartet",
-        "Neuer US-Geheimdienstkoordinator Clayton vereidigt",
-        "Munitionsherstellung: Tschechische Rüstungsfirma investiert bei Bautzen",
-        "Fast verdreifacht: Wehrdienst in Dänemark dauert nun elf Monate"
-      ],
-      "urls": [
-        "https://www.stern.de/news/urteil-in-prozess-um-rechte-gruppe-letzte-verteidigungswelle-in-hamburg-erwartet-38058824.html",
-        "https://www.stern.de/news/neuer-us-geheimdienstkoordinator-clayton-vereidigt-38058350.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen/munitionsherstellung--tschechische-ruestungsfirma-investiert-bei-bautzen-38057308.html",
-        "https://www.stern.de/news/fast-verdreifacht--wehrdienst-in-daenemark-dauert-nun-elf-monate-38053096.html"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
           "count": 2
         },
         {
           "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 65,
+      "sample_titles": [
+        "Flughafen Leipzig: Russland weist Verantwortung für Drohnenvorfall zurück",
+        "Flughafen Leipzig/Halle: Was der Drohnen-Fund für den Bündnisfall bedeutet",
+        "Iran-Krieg: Türkei, Saudi-Arabien und Pakistan bilden Verteidigungsbündnis",
+        "Iran-Krieg: Donald Trump hat ein Munitionsproblem"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/deutschland/flughafen-leipzig-russland-weist-verantwortung-fuer-drohnenvorfall-zurueck-a-05b9d04b-a5ae-4768-af20-e1433d1e0cc5#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/flughafen-leipzig-halle-was-der-drohnen-fund-fuer-den-buendnisfall-bedeutet-a-921cfe92-81c7-431a-b20f-dc918d0957db#ref=rss",
+        "https://www.spiegel.de/politik/iran-krieg-tuerkei-saudi-arabien-und-pakistan-bilden-verteidigungsbuendnis-a-53513d6f-bc1d-4ca5-9cc2-cc8003ccd9e1#ref=rss",
+        "https://www.spiegel.de/ausland/iran-krieg-donald-trump-hat-ein-munitionsproblem-a-17de2a6a-5e1b-43c7-941b-dd1704282754#ref=rss"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 3
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "remorse",
+          "count": 2
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 56,
+      "sample_titles": [
+        "Bald auch bei uns? - Anti-Drohnen-Netze sichern ukrainische Straßen",
+        "Drohnen-Vorfall sei inszeniert - Irrer Russen-Vorwurf zur Leipzig-Drohne",
+        "„Mekka-Bündnis“ mit Atom-Macht - Drei Islam-Staaten schmieden Militärpakt",
+        "Unterirdische Raketen-Werkstatt - Riesen-Drohne über sensiblem Bundeswehr-Bunker!"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/bald-auch-bei-uns-anti-drohnen-netze-sichern-ukrainische-strassen-6a7632ae0e3689919ec7465a",
+        "https://www.bild.de/politik/inland/angeblich-alles-inszeniert-irrer-russen-vorwurf-zur-drohnenbombe-von-leipzig-6a7620d7e04765407d9a3130",
+        "https://www.bild.de/politik/ausland-und-internationales/mekka-buendnis-mit-atom-macht-drei-islam-staaten-schmieden-militaerpakt-6a75e4d94aef843a3227664f",
+        "https://www.bild.de/politik/inland/riesen-drohne-kreist-ueber-sensiblen-bundeswehr-bunker-mit-geheimer-raketenwerkstatt-6a7609bee04765407d9a2fee"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
           "count": 2
         }
       ]
@@ -206,64 +206,64 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 45,
+      "article_count": 54,
       "sample_titles": [
-        "Selenskyj wirft Russland \"Drohnen-Safari\" vor",
-        "Rüstungskonzern Hensoldt will neues Entwicklungszentrum bauen und qualifizierte Bosch-Mitarbeiter übernehmen",
-        "Russland meldet mehrere Todesopfer",
-        "Dänemark startet verlängerte Wehrpflicht"
+        "Ukraine greift erneut russischen Onlinehändler an",
+        "Verdächtiger Drohnenflug über \"Patriot-Werft\"",
+        "Türkei, Pakistan und Saudi-Arabien schließen Militärpakt",
+        "Ein bulgarisches Dorf gegen US-Flugzeuge"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/europa/ukraine-cherson-drohnenangriff-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/hensoldt-entwicklungszentrum-in-leinfelden-in-kooperation-mit-bosch-100.html",
-        "https://www.tagesschau.de/ausland/europa/ukraine-russland-drohnenangriffe-118.html",
-        "https://www.tagesschau.de/ausland/europa/daenemark-wehrdienst-100.html"
+        "https://www.tagesschau.de/ausland/europa/ukraine-russland-250.html",
+        "https://www.tagesschau.de/investigativ/drohnenueberfluge-100.html",
+        "https://www.tagesschau.de/ausland/asien/militaerpakt-tuerkei-saudi-arabien-pakistan-100.html",
+        "https://www.tagesschau.de/ausland/europa/bulgarien-us-flugzeuge-100.html"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "grief",
+          "count": 2
+        },
+        {
           "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "remorse",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
+          "count": 2
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 37,
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 41,
       "sample_titles": [
-        "Ukrainische „Einflussoperation“  - 40 Tage, die Putin schwer zugesetzt haben",
-        "6 Tote, darunter 3 Kinder - Drohnenabschuss über Badegästen",
-        "Erst drohen – jetzt Friedenskurs - Trump: „Größte Angriff seit dem Zweiten Weltkrieg“",
-        "Notstand in Rumänien ausgerufen - Wasser-Mangel! Militär sprengt in der Donau"
+        "Trump spricht nach Ballsaal-Urteil von „nationaler Schande“",
+        "Sicherheit: CDU-Sicherheitsexperte: Russland spielt Spiel ohne Regeln",
+        "Militärische Bündnisse: Türkei, Saudi-Arabien und Pakistan schließen Militärpakt",
+        "Über Social Media: Bundespolizei warnt Drohnenpiloten vor Flugverbotszone"
       ],
       "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/ukrainische-einflussoperation-40-tage-die-putin-schwer-zugesetzt-haben-6a71c7d047f8c988ecd617a4",
-        "https://www.bild.de/politik/ausland-und-internationales/6-tote-darunter-3-kinder-drohnenabschuss-ueber-badegaesten-6a708836935ebc37ca9d41d8",
-        "https://www.bild.de/politik/ausland-und-internationales/erst-drohen-dann-friedenskurs-trump-groesste-angriff-seit-dem-zweiten-weltkrieg-6a704dfb8fa429a9893fe9d2",
-        "https://www.bild.de/news/ausland/notstand-in-rumaenien-ausgerufen-wasser-mangel-jetzt-sprengt-das-militaer-in-der-donau-6a6f958edd06dd5ef2e427fa"
+        "https://www.stern.de/news/trump-spricht-nach-ballsaal-urteil-von--nationaler-schande--38075198.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen/sicherheit--cdu-sicherheitsexperte--russland-spielt-spiel-ohne-regeln-38075104.html",
+        "https://www.stern.de/politik/ausland/militaerische-buendnisse--tuerkei--saudi-arabien-und-pakistan-schliessen-militaerpakt-38072752.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/ueber-social-media--bundespolizei-warnt-drohnenpiloten-vor-flugverbotszone-38073340.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 3
-        },
-        {
-          "emotion": "sadness",
           "count": 2
         },
         {
-          "emotion": "surprise",
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -272,31 +272,31 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 35,
+      "article_count": 38,
       "sample_titles": [
-        "\"Schämt euch\": US-Minister dementiert Munitionsmangel",
-        "Selenskyj wirft Russland Drohnen-\"Safari\" auf Zivilisten vor",
-        "Bundesregierung: Verbände zeigen Interesse an Zivildienst",
-        "Synchronschimmerin Bleyer gewinnt Silber in der Freien Kür"
+        "Sprengstoff-Drohne: Russland beschuldigt die Ukraine",
+        "\"Mekka\"-Verteidigungspakt: Das steckt im neuen Abkommen",
+        "Drohne in Leipzig: Waren Munitionstransporte das Ziel?",
+        "Tote Wehrmachtssoldaten in Donau-Flussbett entdeckt"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/ausland/iran-raketen-patriot-cnn-hegseth-100.html",
-        "https://www.zdfheute.de/politik/ausland/ukraine-krieg-russland-selenskyj-drohne-safari-haendler-100.html",
-        "https://www.zdfheute.de/politik/deutschland/verbaende-interesse-zivildienst-100.html",
-        "https://www.zdfheute.de/sport/schwimmen-em-silber-klara-bleyer-100.html"
+        "https://www.zdfheute.de/politik/deutschland/drohne-leipzig-russland-provokation-kreml-100.html",
+        "https://www.zdfheute.de/politik/ausland/tuerkei-saudi-arabien-pakistan-verteidigungspakt-100.html",
+        "https://www.zdfheute.de/politik/drohne-leipzig-flughafen-antonow-mitarbeiter-munition-100.html",
+        "https://www.zdfheute.de/panorama/kriegstote-niedrigwasser-wehrmachtssoldaten-exhumiert-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
           "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "approval",
+          "emotion": "admiration",
           "count": 2
         }
       ]
@@ -305,18 +305,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 34,
+      "article_count": 35,
       "sample_titles": [
-        "Zivildienst: Zwangsdienst als Randnotiz",
-        "Bundeswehr-Serie „Generation Wehrdienst“: Sehnsucht nach der Unfreiheit",
-        "Verhandlungen von Israel und Libanon: Von Waffenruhe keine Rede",
-        "+++ Nachrichten im Ukrainekrieg +++: Lagerhalle bei St. Petersburg von Drohnen getroffen"
+        "Spionieren, sabotieren, angreifen: Das böse Ungewisse und ein Held",
+        "Ukrainisch-russischer Drohnenkrieg: Gefahr für den Weltmarkt",
+        "Mekka-Verteidigungspakt unterzeichnet: Türkei, Saudi-Arabien und Pakistan schließen Militärpakt",
+        "Sprengstoff-Drohne am Flughafen Leipzig: Busfahrer trat, Nationaler Sicherheitsrat tagt"
       ],
       "urls": [
-        "https://taz.de/Die-moegliche-Rueckkehr-des-Zivildienstes-sorgt-fuer-gemischte-Reaktionen-bei-Sozialverbaenden/!6201783/",
-        "https://taz.de/Bundeswehr-Serie-Generation-Wehrdienst/!6198302/",
-        "https://taz.de/Verhandlungen-Israel-und-LIbanon/!6201643/",
-        "https://taz.de/-Nachrichten-im-Ukraine-Krieg-/!6201546/"
+        "https://taz.de/Spionieren-sabotieren-angreifen/!6202353/",
+        "https://taz.de/Ukrainisch-russischer-Drohnenkrieg/!6202496/",
+        "https://taz.de/Mekka-Verteidigungspakt-unterzeichnet/!6202834/",
+        "https://taz.de/Sprengstoff-Drohne-am-Flughafen-Leipzig/!6202512/"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -325,7 +325,40 @@
           "count": 5
         },
         {
-          "emotion": "realization",
+          "emotion": "fear",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 28,
+      "sample_titles": [
+        "Verteidigungsabkommen: Türkei verteidigt Militärabkommen mit Saudi-Arabien und Pakistan",
+        "Hybride Kriegsführung: Russland weist Verantwortung für Drohnenvorfall in Leipzig zurück",
+        "Nordrhein-Westfalen: Zwei Drohnen über Militärstützpunkt in der Eifel gesichtet",
+        "Drohnen: Der Himmel selbst ist jetzt eine Waffe"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/ausland/2026-08/tuerkei-saudi-arabien-pakistan-verteidigungsabkommen-nato-iran",
+        "https://www.zeit.de/politik/ausland/2026-08/drohne-flughafen-leipzig-halle-alexander-dobrindt-bundespolizei-ukraine-russland",
+        "https://www.zeit.de/politik/deutschland/2026-08/drohnen-mechernich-militaerstuetzpunkt-bundeswehr-nrw",
+        "https://www.zeit.de/feuilleton/2026-08/drohnen-drohnenfund-kontrolle-moderne"
+      ],
+      "dominant_emotion": "amusement",
+      "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
           "count": 1
         },
         {
@@ -340,62 +373,29 @@
       "bias": "conservative-liberal",
       "article_count": 27,
       "sample_titles": [
-        "Trumps umstrittener Entschädigungsfonds: Kehrtwende ebnet Weg für Todd Blanches Aufstieg zum Justizminister",
-        "Militärhilfe von Israel und Handel mit Iran: Wie sich die Emirate in alle Richtungen absichern",
-        "DIE NEUESTEN ENTWICKLUNGEN - Bürgerkrieg in Myanmar: Seltene Bilder von Aung San Suu Kyi aufgetaucht",
-        "Wie China Iran unterstützt – ohne selbst Krieg zu führen"
+        "Gianni Infantino will mit neuen Versprechen die Verteidigungslinie schliessen",
+        "DER ANDERE BLICK - Effektive Drohnenabwehr hat ihren Preis. Die deutsche Gesellschaft muss das wissen",
+        "Flugobjekt mit Sprengstoff blieb in Leipzig unentdeckt: Wie schützt man einen Flughafen vor Drohnen?",
+        "Wirren bei Russlands Drohnentruppen: «Toiletten-Juri» fällt in Ungnade, Putin bevorzugt Panzergeneral"
       ],
       "urls": [
-        "https://www.nzz.ch/international/trumps-umstrittener-entschaedigungsfonds-kehrtwende-ebnet-weg-fuer-todd-blanches-aufstieg-zum-justizminister-ld.10018030",
-        "https://www.nzz.ch/international/iran-krieg-wie-sich-die-emirate-in-alle-richtungen-absichern-ld.10017687",
-        "https://www.nzz.ch/international/militaerputsch-in-myanmar-junta-plant-wahl-mit-massiven-einschraenkungen-ld.1599361",
-        "https://www.nzz.ch/international/wie-china-den-iran-im-krieg-unterstuetzt-nzz-ld.10017589"
+        "https://www.nzz.ch/sport/fussball/gianni-infantino-will-mit-neuen-versprechen-die-verteidigungslinie-schliessen-ld.10018430",
+        "https://www.nzz.ch/der-andere-blick/effektive-drohnenabwehr-hat-ihren-preis-weiss-das-die-deutsche-gesellschaft-ld.10018446",
+        "https://www.nzz.ch/visuals/drohnen-abwehr-wenn-in-der-dunkelheit-die-unbekannten-drohnen-kommen-wie-schuetzt-man-einen-flughafen-vor-angriffen-ld.1904914",
+        "https://www.nzz.ch/international/wirren-bei-russlands-drohnentruppen-putin-nimmt-eine-rochade-bei-seinen-generaelen-vor-ld.10018328"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Zivildienst: Arbeiter-Samariter-Bund fordert umfangreicheren Zivildienst",
-        "Zivildienst: Bundesregierung soll Grundlagen für neuen Zivildienst vorbereiten",
-        "Rustem Umjerow: Ukrainischer US-Verhandler Umjerow soll Auslandsgeheimdienst leiten",
-        "Aufrüstung und Sozialkürzungen: Erst die Kanonen, dann die Butter"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-08/zivildienst-arbeiter-samariter-bund-asb-knut-fleckenstein",
-        "https://www.zeit.de/politik/deutschland/2026-08/zivildienst-wehrdienstverweigerer-wehrpflicht-bundesregierung",
-        "https://www.zeit.de/politik/ausland/2026-08/rustem-umjerow-auslandsgeheimdienst-ukraine-regierungsumbau-wolodymyr-selenskyj",
-        "https://www.zeit.de/politik/deutschland/2026-07/aufruestung-sozialkuerzungen-gesellschaftlicher-zusammenhalt-populismus"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "amusement",
           "count": 1
         },
         {
-          "emotion": "annoyance",
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -404,56 +404,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 18,
+      "article_count": 21,
       "sample_titles": [
-        "USA: Hegseth weist Bericht über schwindendes Abwehrarsenal zurück",
-        "Künstliche Intelligenz: KI-Datenfirma Palantir mit mehr als 90 Prozent Umsatzplus",
-        "Krieg in Nahost: Trump: Angriffe auf Iran abgesagt – „Umrisse einer Einigung“",
-        "Spanische Exklave: Madrid schickt nach Ansturm von Migranten Militär nach Ceuta"
+        "Krieg in der Ukraine: Russland: Drohnen-Vorfall in Leipzig ist „zusammengezimmerte Provokation“",
+        "Verteidigung: Neuer Drohnen-Vorfall über Bundeswehrgelände",
+        "Debatte: Kampf um die Killermaschinen",
+        "Anschlagsversuch in Leipzig: Eine neue Dimension der Bedrohung"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/usa-news-liveblog-hegseth-cnn-raketenbestaende-pentagon-li.3523200",
-        "https://www.sueddeutsche.de/wirtschaft/palantir-umsatz-usa-prozent-li.3526120",
-        "https://www.sueddeutsche.de/politik/liveblog-nahost-iran-news-usa-trump-einigung-strasse-von-hormus-li.3523210",
-        "https://www.sueddeutsche.de/politik/migration-spanien-marokko-notstand-li.3524173"
+        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-leipzig-drohne-russland-statement-li.3524928",
+        "https://www.sueddeutsche.de/politik/bundeswehr-drohne-mechernich-li.3528110",
+        "https://www.sueddeutsche.de/kultur/drohnen-ki-waffensysteme-ruestung-li.3528109",
+        "https://www.sueddeutsche.de/politik/leipzig-flughafen-drohne-anschlagsversuch-russland-bedrohung-deutschland-li.3527285"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "confusion",
       "top_emotions": [
         {
-          "emotion": "fear",
-          "count": 3
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        }
-      ]
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 14,
-      "sample_titles": [
-        "Iran-Krieg: Trump klingt wieder gefährlich",
-        "Seltene Bilder von Aung San Suu Kyi: Treffen mit Rotem Kreuz",
-        "Tote bei Bombenanschlag auf Moskauer Edelrestaurant",
-        "\"Umrisse einer Einigung\" - Trump sagt Angriffe auf Iran ab"
-      ],
-      "urls": [
-        "https://www.dw.com/de/iran-krieg-trump-klingt-wieder-gefährlich/a-78227054?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/seltene-bilder-von-aung-san-suu-kyi-treffen-mit-rotem-kreuz/a-78212267?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/tote-bei-bombenanschlag-auf-moskauer-edelrestaurant/a-78207576?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/umrisse-einer-einigung-trump-sagt-angriffe-auf-iran-ab/a-78205884?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
+          "emotion": "confusion",
           "count": 1
         },
         {
           "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -462,92 +437,107 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 13,
+      "article_count": 14,
       "sample_titles": [
-        "Ist Deutschland das nächste Ziel? – Ceuta-Analyse mit Roland Tichy & Marco Pino",
-        "Ex-Armeechef Saluschnyj: „Leider werden wir niemals der NATO beitreten“",
-        "Faucis Tagebuch entlarvt den gigantischen Täuschungsapparat der Corona-Politik",
-        "Ceuta-Krise: Der Tag nach dem Sturm"
+        "Spionageverdacht: Ukrainer in Thüringen festgenommen",
+        "Anschlag im Ural: Drohnen-Tycoon Wladimir Tkatschuk schwer verletzt",
+        "Drohnenbombe an Leipziger Flughafen",
+        "Ist Deutschland das nächste Ziel? – Ceuta-Analyse mit Roland Tichy & Marco Pino"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/video/interview/ist-deutschland-das-naechste-ziel-ceuta-analyse/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/ex-armeechef-saluschnyj-leider-werden-wir-niemals-der-nato-beitreten/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/usa-tagebuch-fauci-corona-impfung/",
-        "https://www.tichyseinblick.de/video/kommentar/ceuta-krise-der-tag-nach-dem-sturm/"
+        "https://www.tichyseinblick.de/daili-es-sentials/spionageverdacht-ukrainer-festgenommen/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/anschlag-im-ural/",
+        "https://www.tichyseinblick.de/daili-es-sentials/drohnenbombe-an-leipziger-flughafen/",
+        "https://www.tichyseinblick.de/video/interview/ist-deutschland-das-naechste-ziel-ceuta-analyse/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 11,
+      "sample_titles": [
+        "Türkei, Saudi-Arabien und Pakistan schließen Pakt",
+        "Iran-Krieg: Trump klingt wieder gefährlich",
+        "Seltene Bilder von Aung San Suu Kyi: Treffen mit Rotem Kreuz",
+        "Tote bei Bombenanschlag auf Moskauer Edelrestaurant"
+      ],
+      "urls": [
+        "https://www.dw.com/de/türkei-saudi-arabien-und-pakistan-schließen-pakt/a-78278759?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/iran-krieg-trump-klingt-wieder-gefährlich/a-78227054?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/seltene-bilder-von-aung-san-suu-kyi-treffen-mit-rotem-kreuz/a-78212267?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/tote-bei-bombenanschlag-auf-moskauer-edelrestaurant/a-78207576?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 7,
       "sample_titles": [
+        "Iran-Krieg Insider warnen vor Munitionsmangel in der US-Armee – Hegseth dementiert",
+        "In der Nähe eines ukrainischen Flugzeugs Offenbar Drohnenbombe am Leipziger Flughafen entdeckt",
         "Technologischer Pakt Israel und die USA schmieden gemeinsam ihre Waffen",
-        "Luftraumverteidigung Russlands Drohnen werden schneller – Europa nicht",
-        "Massenmigration nach Europa Ausschreitungen und Wohnungseinbrüche nach Migrantenansturm auf Ceuta und Melilla",
-        "Nachruf Lindsey Graham suchte die Nähe zur Macht"
+        "Luftraumverteidigung Russlands Drohnen werden schneller – Europa nicht"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/ausland/2026/insider-warnen-vor-munitionsmangel-in-der-us-armee-hegseth-dementiert/",
+        "https://jungefreiheit.de/politik/deutschland/2026/offenbar-drohnenbombe-am-leipziger-flughafen-entdeckt/",
         "https://jungefreiheit.de/politik/ausland/2026/israel-und-die-usa-schmieden-gemeinsam-ihre-waffen/",
-        "https://jungefreiheit.de/politik/ausland/2026/russlands-drohnen-werden-schneller-europa-nicht/",
-        "https://jungefreiheit.de/politik/ausland/2026/ausschreitungen-und-wohnungseinbrueche-nach-migrantenansturm-auf-ceuta-und-melilla/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/lindsey-graham-suchte-die-naehe-zur-macht/"
+        "https://jungefreiheit.de/politik/ausland/2026/russlands-drohnen-werden-schneller-europa-nicht/"
       ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 7,
+      "article_count": 6,
       "sample_titles": [
+        "Der Westen kämpft draußen – und gibt sich drinnen auf",
         "Doris van Geul-Prozess: Ungewöhnlicher Verfolgungseifer gegen eine alte Dame",
         "Iran-Taktik: Erholen in der Feuerpause",
-        "Terror in Berlin: Anatomie einer politischen Selbsttäuschung",
-        "Von der Leyens Amtsmissbrauch geht weiter"
+        "Terror in Berlin: Anatomie einer politischen Selbsttäuschung"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/der_westen_kaempft_draussen_und_gibt_sich_drinnen_auf",
         "https://www.achgut.com/artikel/doris_van_geul_prozess_ungewoehnlicher_verfolgungseifer_gegen_eine_alte_dame",
         "https://www.achgut.com/artikel/iran_taktik_erholen_in_der_feuerpause",
-        "https://www.achgut.com/artikel/terror_in_berlin_anatomie_einer_politischen_selbsttaeuschung",
-        "https://www.achgut.com/artikel/von_der_leyens_amtsmissbrauch_geht_weiter"
+        "https://www.achgut.com/artikel/terror_in_berlin_anatomie_einer_politischen_selbsttaeuschung"
       ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 221,
-    "conservative-liberal": 143,
-    "left-liberal": 171,
-    "neutral": 94,
-    "far-right": 30,
-    "populist-mixed": 37,
-    "economic-liberal": 70,
-    "left": 34
+    "populist-mixed": 56,
+    "right-conservative": 218,
+    "conservative-liberal": 138,
+    "left-liberal": 155,
+    "neutral": 103,
+    "economic-liberal": 68,
+    "left": 35,
+    "far-right": 27
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz unterschiedlicher politischer Ausrichtung eine klare Übereinstimmung darin, dass die aktuelle „Zeitenwende\" durch den russischen Angriff auf die Ukraine die Notwendigkeit einer schnellen Aufstockung der Verteidigungsausgaben auf das NATO-Zwei-Prozent-Ziel und einer umfassenden Modernisierung der Bundeswehr, insbesondere im Bereich Cyber- und Drohnentechnologie, bekräftigt. Gleichzeitig wird von allen Seiten betont, dass die traditionelle Wehrpflicht nicht wieder eingeführt, dafür aber ein erweiterter Zivildienst oder ein freiwilliger Grundwehrdienst als integraler Bestandteil einer ganzheitlichen Sicherheitsstrategie dienen muss. Schließlich wird in den Medien ein breiter Konsens darüber geäußert, dass die Bündnisverpflichtungen nach Artikel 5 und die verstärkte Präsenz deutscher Truppen im Ausland, etwa in Litauen, als unverzichtbare Elemente zur Stärkung der kollektiven Verteidigung und zur Abschreckung potenzieller Aggressoren angesehen werden.",
-      "controversial_points": "Die Diskussion um das NATO-Zwei-Prozent-Ziel spaltet Befürworter von Lastenteilung und Kritiker, die nationale Souveränität betonen. Reformen der Bundeswehr kollidieren mit einer pazifistischen Tradition, die Abschreckung und Auslandseinsätze ablehnt. Rüstungsexporte erzeugen Spannungen zwischen Sicherheitsinteressen, Wirtschaftslobby und Menschenrechtsorganisationen, die Exportkontrollen fordern. Die Debatte über Wehrpflicht versus Zivildienst reflektiert ein Spannungsfeld zwischen Personalbedarf und gesellschaftlicher Freiheit."
+      "shared_perspectives": "Im gesamten deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein einheitliches Bild gezeichnet, dass die jüngsten Drohnenvorfälle über deutschen Militärstandorten die Dringlichkeit einer schnellen Modernisierung der Luft- und Cyberabwehr verdeutlichen.",
+      "controversial_points": ""
     },
     "en": {
-      "shared_perspectives": "German media across the political spectrum agree that the Bundeswehr's material shortfalls, especially in ammunition and modern weapon systems such as drones and rockets, constitute a pressing security gap that must be closed urgently. They also converge on the assessment that Germany's defence budget has to be raised substantially to reach NATO's 2 percent target, a step portrayed as essential for credible collective defence after the Ukraine war. Finally, there is a shared emphasis on expanding cyber-defence and civil-protection structures as core elements of the broader transformation of Germany's security policy.",
-      "controversial_points": "The debate pits NATO-aligned security expansion against a sovereign-defense narrative that rejects deeper integration. Conscription versus professional volunteer force divides parties that prioritize societal cohesion from those emphasizing efficiency. Defense spending targets create a clash between fiscal conservatives demanding budget restraint and left-leaning groups demanding humanitarian redirection. Arms export controversies expose tension between economic-interest advocates and human-rights activists demanding stricter controls."
+      "shared_perspectives": "German media across the spectrum agree that the recent drone incidents over Leipzig and other Bundeswehr sites expose a concrete capability gap in air-defence and surveillance, prompting a widely voiced call for accelerated procurement of counter-drone systems and broader modernisation of the armed forces. Simultaneously, there is a shared narrative that Germany must meet its NATO 2 percent spending commitment and deepen operational integration with allies, especially in response to Russian aggression in Ukraine, even as the debate over the exact size and structure of the force remains partisan. Finally, most outlets, from left-liberal to conservative, stress that any defence reform must be coupled with stronger cyber-security and civil-protection measures to safeguard critical infrastructure against hybrid threats.",
+      "controversial_points": "The debate pits a nationalist security narrative against a liberal democratic view of civilian oversight. Conscription revives tensions between traditional militarism and modern professional army concepts. NATO spending demands clash with fiscal conservatives demanding lower taxes and higher social spending. Arms export discussions expose a divide between economic interests and human rights advocacy. Cyber defence strategies reveal conflict between privacy advocates and security agencies seeking broader surveillance."
     }
   },
-  "cached_at": "2026-08-05T07:08:17.584083"
+  "cached_at": "2026-08-08T05:42:36.263930"
 }
