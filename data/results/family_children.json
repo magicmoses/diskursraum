@@ -1,237 +1,72 @@
 {
   "topic_id": "family_children",
   "topic_label": "Für Familien & Kinder",
-  "article_count": 231,
+  "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 49,
-      "sample_titles": [
-        "Großeinsatz für Feuerwehr: Vier Mehrfamilienhäuser brennen in Krefeld",
-        "Neustart mit Herzblut im Erzgebirge: Familie Tröger belebt das Auersberg-Haus",
-        "Auf hessische Schüler kommen mehr Leistungschecks in Mathe zu",
-        "Stress und Überlastung: So hilft die erste Mütterklinik in SH Frauen"
-      ],
-      "urls": [
-        "https://www1.wdr.de/nrw/niederrhein/krefeld/brand-krefeld-wohnhaeuser-100.html",
-        "https://www.mdr.de/nachrichten/sachsen/chemnitz/annaberg-aue-schwarzenberg/gastwirtschaft-herberge-neuanfang,auersberg-haus-100.html",
-        "https://www.hessenschau.de/politik/auf-hessische-schueler-kommen-mehr-leistungschecks-in-mathe-zu-v1,streit-schulpolitik-hessen-100.html",
-        "https://www.ndr.de/nachrichten/schleswig-holstein/stress-und-ueberlastung-so-hilft-die-erste-muetterklinik-in-sh-frauen,muetterklinik-travemuende-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 3
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 30,
+      "article_count": 109,
       "sample_titles": [
-        "F.A.S. exklusiv: Zahl der Väter in Deutschland ist deutlich gesunken",
-        "Jugend im Osten: Widerstand muss man sich leisten können",
-        "Fila Slantshot A wmn: Solide, sportlich und ein bisschen oldschool",
-        "Neues Schuljahr: Schülerzahl steigt in Frankfurt um fast 2000 Kinder"
+        "Sprachförderung: Bei den Qualitätsansprüchen darf Prien nicht nachgeben",
+        "Made in Germany unter Druck: „Deutschland muss den Mut haben, sich als Marke zu begreifen“",
+        "Aktuelle zahlen: Mehr Hessengeld für Haushalte mit Kindern",
+        "Besuch bei Amischen: Mit der Kutsche in die Zukunft"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/gesellschaft/menschen/kinderlose-maenner-in-deutschland-anstieg-auf-40-prozent-accg-201101546.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/don-pablo-mulemba-ueber-neonazis-accg-201092351.html",
-        "https://www.faz.net/aktuell/besser-leben/stil/fila-slantshot-a-wmn-kleiner-stoerer-fuer-ein-simples-outfit-accg-201018346.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/anstieg-zum-neuen-schuljahr-frankfurter-gymnasien-unterrichten-1700-kinder-mehr-accg-201106220.html"
+        "https://www.faz.net/aktuell/politik/inland/die-sprachfoerderung-in-kitas-ist-zu-wichtig-prien-darf-nicht-nachgeben-201105113.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/engelbert-strauss-chef-spricht-darueber-was-die-arbeitshosen-marke-so-erfolgreich-macht-accg-201099445.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/foerderprogramm-mehr-hessengeld-fuer-haushalte-mit-kindern-accg-201111773.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/wie-eine-amische-familie-in-ohio-ein-hochmodernes-unternehmen-fuehrt-accg-201069619.html"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "realization",
-          "count": 3
+          "emotion": "fear",
+          "count": 6
         },
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 24,
-      "sample_titles": [
-        "Klingbeil will deutlich mehr Steuern bei Vereinen kassieren, Kindergeld soll steigen",
-        "Bis zu mehrere Tausend Euro pro Monat – die milliardenschweren Familienzuschläge für Beamte",
-        "„Zwei-Klassen-Rente droht“ – Verbraucherschützer fordern Nachbesserungen bei Frühstartrente",
-        "Klingbeil will deutlich mehr Steuern bei Vereinen kassieren, Kindergeld soll steigen"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/article6a765c4d0e3689919ec74784/steuerfreibetraege-klingbeil-will-deutlich-mehr-steuern-bei-vereinen-kassieren-kindergeld-soll-steigen.html",
-        "https://www.welt.de/politik/deutschland/plus6a733a012b19377cc1230ddd/lukrativer-staatsdienst-bis-zu-mehrere-tausend-euro-pro-monat-die-milliardenschweren-familienzuschlaege-fuer-beamte.html",
-        "https://www.welt.de/wirtschaft/article6a75c866c07f6c2f08035a10/altersvorsorge-verbraucherschuetzer-fordern-nachbesserungen-bei-fruehstartrente.html",
-        "https://www.welt.de/politik/deutschland/article6a765c4d0e3689919ec74784/bericht-klingbeil-will-deutlich-mehr-steuern-bei-vereinen-kassieren-kindergeld-soll-steigen.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
         {
           "emotion": "sadness",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Todd Blanche: US-Senat bestätigt umstrittenen Kandidaten als US-Justizminister",
-        "Fall Fabian: Was ihre Schwester über die Angeklagte Gina H. aussagt",
-        "VW: Porsche SE will Umbau von Volkswagen beschleunigen",
-        "Familie: Hasst Deutschland Kinder? – Meinung"
-      ],
-      "urls": [
-        "https://www.spiegel.de/ausland/us-senat-bestaetigt-trumps-umstrittenen-kandidaten-als-us-justizminister-a-921dcd55-0ee6-4796-8e91-53bc7e861735#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/fall-fabian-was-ihre-schwester-ueber-die-angeklagte-gina-h-aussagt-a-b1540eee-f76c-46f5-8ddf-ffbf9c6b5be4#ref=rss",
-        "https://www.spiegel.de/wirtschaft/grossaktionaer-porsche-se-will-umbau-von-volkswagen-beschleunigen-a-7d0bfed2-6526-4942-896b-d9dd83391937#ref=rss",
-        "https://www.spiegel.de/familie/familie-hasst-deutschland-kinder-meinung-a-dbe9d29f-0497-45ac-b568-d6cb607e8846#ref=rss"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "Tod des Vaters: Messi reist zur Trauerfeier seines Vaters nach Argentinien",
-        "Vier Tote bei Hubschrauberabsturz in Rio de Janeiro",
-        "Lionel Messi trauert um Vater und langjährigen Manager Jorge Messi",
-        "Brände: Mehrfamilienhaus nach Explosion und Brand weiter gesperrt"
-      ],
-      "urls": [
-        "https://www.stern.de/sport/tod-des-vaters--messi-reist-zur-trauerfeier-seines-vaters-nach-argentinien-38078196.html",
-        "https://www.stern.de/news/vier-tote-bei-hubschrauberabsturz-in-rio-de-janeiro-38078128.html",
-        "https://www.stern.de/news/lionel-messi-trauert-um-vater-und-langjaehrigen-manager-jorge-messi-38077918.html",
-        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/braende--mehrfamilienhaus-nach-explosion-und-brand-weiter-gesperrt-38073364.html"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 2
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 16,
-      "sample_titles": [
-        "Hubschrauber kracht in den Dschungel - Oma, Mutter und Tochter sterben bei Absturz",
-        "Italienische Ermittler sicher - Fake-Ferienwohnungen – es ist eine ganze Bande!",
-        "Liebe, Familie – und kluge Entscheidungen - Das Millionen-Imperium von Tom Holland und Zendaya",
-        "Mordprozess in Rostock - Jetzt soll Fabians Oma von seiner Kindheit erzählen"
-      ],
-      "urls": [
-        "https://www.bild.de/news/ausland/oma-mutter-und-tochter-sterben-bei-absturz-6a779fd30e3689919ec75457",
-        "https://www.bild.de/leben-wissen/reisen/italien-hinter-den-fake-ferienwohnungen-steckt-eine-bande-6a758da34aef843a32275dd6",
-        "https://www.bild.de/unterhaltung/stars-und-leute/tom-holland-und-zendaya-ihr-erfolgsgeheimnis-liebe-familie-und-kluge-entscheidungen-6a70356fcf0a7790ecb7dc92",
-        "https://www.bild.de/news/inland/mordprozess-in-rostock-fabians-oma-soll-von-gluecklichen-tagen-erzaehlen-6a73303d2b19377cc1230cb8"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 2
+          "count": 5
         },
         {
           "emotion": "admiration",
-          "count": 1
+          "count": 5
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 14,
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 93,
       "sample_titles": [
-        "Familien-Newsletter: Du mich auch, Juli!",
-        "Münchens neuer OB zieht eine erste Bilanz: Dominik Krause und sein „wahnsinniges“ Oberbürgermeister-Gefühl",
-        "Ganztagsbetreuung in Bad Tölz: Interimsbau für die Lettenholzschule",
-        "Sachsen-Anhalt: Die AfD-Bildungspolitik ist Kulturkampf auf Kosten der Kinder"
+        "Wie in Mainz die Ganztagsbetreuung an Grundschulen gelingt",
+        "Rechtsanspruch für Ganztagsbetreuung startet zunächst für Erstklässler",
+        "Bootsbrand vor der Insel Mainau - Heilbronner Familie im Krankenhaus",
+        "Schrauben bis zum Schulgong"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/leben/ferien-sommerfeste-mini-muenchen-ferienbetreuung-li.3524096",
-        "https://www.sueddeutsche.de/muenchen/muenchen-dominik-krause-bilanz-hundert-tagen-oberbuergermeister-li.3526967",
-        "https://www.sueddeutsche.de/muenchen/wolfratshausen/bad-toelz-lettenholzschule-interimsbau-ganztagsbetreuung-li.3523434",
-        "https://www.sueddeutsche.de/meinung/afd-bildung-schule-sachsen-anhalt-kommentar-li.3515677"
+        "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/gelingt-grundschulen-die-ganztagsbetreuung-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/rechtsanspruch_ganztagsbetreuung_betreuungsplaetze_saarland_100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/bootsbrand-vor-der-insel-mainau-drei-menschen-im-krankenhaus-100.html",
+        "https://www.tagesschau.de/inland/gesellschaft/ganztagsbetreuung-schulen-kommunen-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 9
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "annoyance",
+          "count": 6
         },
         {
-          "emotion": "anger",
-          "count": 1
+          "emotion": "disapproval",
+          "count": 3
         }
       ]
     },
@@ -239,31 +74,196 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 13,
+      "article_count": 83,
       "sample_titles": [
-        "Kind Nummer drei?: Für Sarah Engels ist die Familienplanung noch nicht abgeschlossen",
-        "Debatte um Verbote: Prien: Auch 13- bis 18-Jährige brauchen Schutz auf Socia Media",
-        "Unglück auf 2500 Meter Höhe: 14-Jährige stürzt in Südtirol in den Tod",
-        "Drittes Kind mit über 50: \"Peggy Bundy\" spricht über späte Mutterschaft"
+        "Diebstähle gegen Ausgang: Erneute Korruptionsvorwürfe gegen Gefängniswärter in NRW",
+        "Rettungstorpedo schleudert empor: Hai zieht Rettungsschwimmer an beliebtem Strand unter Wasser",
+        "Nach langem Zögern: Jon Hamm wird mit 55 Jahren erstmals Vater",
+        "Israels Armee untersucht Vorfall: Radikale Siedler belagern vierköpfige Familie - Soldaten beten mit Belagerern"
       ],
       "urls": [
-        "https://www.n-tv.de/leute/Fuer-Sarah-Engels-ist-die-Familienplanung-noch-nicht-abgeschlossen-id31173278.html",
-        "https://www.n-tv.de/politik/Prien-Auch-13-bis-18-Jaehrige-brauchen-Schutz-auf-Socia-Media-id31173052.html",
-        "https://www.n-tv.de/panorama/14-Jaehrige-stuerzt-in-Suedtirol-in-den-Tod-id31168999.html",
-        "https://www.n-tv.de/leute/Peggy-Bundy-spricht-ueber-spaete-Mutterschaft-id31167161.html"
+        "https://www.n-tv.de/panorama/NRW-Erneute-Korruptionsvorwuerfe-gegen-Gefaengnis-id31182858.html",
+        "https://www.n-tv.de/panorama/Hai-zieht-Rettungsschwimmer-an-beliebtem-Strand-unter-Wasser-id31181301.html",
+        "https://www.n-tv.de/leute/Jon-Hamm-wird-mit-55-Jahren-erstmals-Vater-id31181142.html",
+        "https://www.n-tv.de/politik/Radikale-Siedler-belagern-vierkoepfige-Familie-Soldaten-beten-mit-Belagerern-id31178554.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "sadness",
+          "count": 6
         },
+        {
+          "emotion": "realization",
+          "count": 5
+        },
+        {
+          "emotion": "disapproval",
+          "count": 3
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 79,
+      "sample_titles": [
+        "Blutige Massenschlägerei in Düren - Sie schlugen mit Äxten und Hämmern aufeinander ein",
+        "Seine Frau lernte er am Set kennen - „Mad Men“-Star Jon Hamm (55) wird Vater",
+        "Neuer Sommer, neues Liebesglück - Michelle Hunziker planscht jetzt mit „Dr. Love“",
+        "Verona Pooth so offen wie selten - „Auf Wolke 7 sind wir verabredet“"
+      ],
+      "urls": [
+        "https://www.bild.de/regional/nordrhein-westfalen/blutige-massenschlaegerei-in-dueren-sie-schlugen-mit-aexten-und-haemmern-aufeinander-ein-6a7ae723630361c8992288f3",
+        "https://www.bild.de/unterhaltung/stars-und-leute/jon-hamm-wird-vater-mad-men-star-erwartet-erstes-kind-mit-55-6a7ab05035268e5027025095",
+        "https://www.bild.de/unterhaltung/stars-und-leute/michelle-hunziker-mit-dr-love-im-romantischen-familienurlaub-6a7995b397ee93b7ce8548c4",
+        "https://www.bild.de/unterhaltung/verona-pooth-ueber-tod-und-familie-auf-wolke-7-sind-wir-verabredet-6a745e7f4ed0eddcc11f35c0"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 5
+        },
+        {
+          "emotion": "sadness",
+          "count": 5
+        },
+        {
+          "emotion": "admiration",
+          "count": 4
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 79,
+      "sample_titles": [
+        "Norwegische Königsfamilie: Keine Freilassung: Marius Borg Høiby bleibt mit Fußfessel im Hausarrest",
+        "Erziehung: Eltern, die erfolgreiche Kinder großziehen, nutzen diese vier „positiven“ Sätze",
+        "\"Forever Jan: 25 Jahre Jan Delay\": Jan Delay: Wie der \"Hamburger Jung\" zur Musik kam",
+        "Vier Tote bei Hubschrauberabsturz in Rio de Janeiro"
+      ],
+      "urls": [
+        "https://www.stern.de/panorama/marius-borg-h%C3%B8iby-bleibt-mit-fussfessel-im-hausarrest-38084262.html",
+        "https://www.stern.de/familie/kindererziehung--diese-vier-saetze-wirken-nachhaltig-positiv-33697260.html",
+        "https://www.stern.de/kultur/tv/jan-delay--wie-der--hamburger-jung--zur-musik-kam-38081032.html",
+        "https://www.stern.de/news/vier-tote-bei-hubschrauberabsturz-in-rio-de-janeiro-38078128.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 9
+        },
+        {
+          "emotion": "fear",
+          "count": 4
+        },
+        {
+          "emotion": "optimism",
+          "count": 3
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 72,
+      "sample_titles": [
+        "Hamburg: Bewohner nach Rissen in Mehrfamilienhaus evakuiert",
+        "Leichtathletik-EM: Florian Bremm weiß trotz EM-Silber, was er seinen Liebsten abverlangt",
+        "Österreich: Familien mit Kinderwagen geraten im Hochgebirge in Bergnot",
+        "Todd Blanche: US-Senat bestätigt umstrittenen Kandidaten als US-Justizminister"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/hamburg-bewohner-nach-rissen-in-mehrfamilienhaus-evakuiert-a-398acb74-d98e-48ee-beb3-9cc5640e2d46#ref=rss",
+        "https://www.spiegel.de/panorama/leute/leichtathletik-em-florian-bremm-weiss-trotz-em-silber-was-er-seinen-liebsten-abverlangt-a-6a8096c3-9f20-433c-b40a-631639ca0f89#ref=rss",
+        "https://www.spiegel.de/panorama/oesterreich-familien-mit-kinderwagen-geraten-im-hochgebirge-in-bergnot-a-55956319-2099-4e3f-bb92-ad9f591667a0#ref=rss",
+        "https://www.spiegel.de/ausland/us-senat-bestaetigt-trumps-umstrittenen-kandidaten-als-us-justizminister-a-921dcd55-0ee6-4796-8e91-53bc7e861735#ref=rss"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
+          "count": 5
+        },
+        {
+          "emotion": "realization",
+          "count": 3
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 71,
+      "sample_titles": [
+        "„Man muss sich diesen Familienstrukturen jetzt mal mit langem Atem widmen“",
+        "Großfamilien schlagen mit Äxten, Hämmern und Baseballschlägern aufeinander ein – acht Verletzte",
+        "„Wenn die AfD die absolute Mehrheit erreicht, dann fällt der CDU ein großer Stein vom Herzen“",
+        "Bushido wurde Tumor an der Ohrspeicheldrüse entfernt"
+      ],
+      "urls": [
+        "https://www.welt.de/vermischtes/video6a7b5954630361c8992295bb/schlaegerei-in-dueren-man-muss-sich-diesen-familienstrukturen-jetzt-mal-mit-langem-atem-widmen.html",
+        "https://www.welt.de/vermischtes/kriminalitaet/article6a7b30dc630361c89922925a/dueren-grossfamilien-schlagen-mit-aexten-haemmern-und-baseballschlaegern-aufeinander-ein-acht-verletzte.html",
+        "https://www.welt.de/politik/deutschland/video6a7a0b4635268e5027024c2b/wahl-in-sachsen-anhalt-wenn-die-afd-die-absolute-mehrheit-erreicht-dann-faellt-der-cdu-ein-grosser-stein-vom-herzen.html",
+        "https://www.welt.de/vermischtes/article6a79eb6b97ee93b7ce855120/bushido-wurde-tumor-an-der-ohrspeicheldruese-entfernt.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 11
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "amusement",
+          "count": 2
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 38,
+      "sample_titles": [
+        "Sportpolitik: Eskalation auf dem Eis",
+        "Familien-Newsletter: Du mich auch, Juli!",
+        "Münchens neuer OB zieht eine erste Bilanz: Dominik Krause und sein „wahnsinniges“ Oberbürgermeister-Gefühl",
+        "Kommunale Finanzen: Starnberger Landrat erlässt Haushaltssperre"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/sport/eisschnelllauf-desg-dosb-streit-li.3528277",
+        "https://www.sueddeutsche.de/leben/ferien-sommerfeste-mini-muenchen-ferienbetreuung-li.3524096",
+        "https://www.sueddeutsche.de/muenchen/muenchen-dominik-krause-bilanz-hundert-tagen-oberbuergermeister-li.3526967",
+        "https://www.sueddeutsche.de/muenchen/starnberg/landkreis-starnberg-haushaltssperre-jugendhilfekosten-li.3526481"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
         {
           "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
           "count": 2
         }
       ]
@@ -272,31 +272,64 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 13,
+      "article_count": 37,
       "sample_titles": [
-        "Israelische Siedlungen im Westjordanland: Wenn der Hinterhof zu militärischem Sperrgebiet wird",
-        "Ungleichbehandlung im Abstammungsrecht: Familien ohne Cis-Mann wird es schwer gemacht",
-        "Klimaanpassung in Kitas und Pflegeheimen: Bundesregierung will mehr Geld für Hitzeschutz bereitstellen",
-        "Spahn und die Leihmutterschaft: Warum denn keine Pflegekinder?"
+        "Gedenkkultur in der Ukraine: Eine Grünfläche für Roman Ratuschnyj",
+        "Abriss von Mehrfamilienhaus in Hamburg: Eigentümer ließ Haus verfallen",
+        "Student über Kindeswohl an Schulen: „Das hat nichts mit Sensibilisierung von Lehrkräften zu tun“",
+        "Demografischer Wandel in Israel: Exodus"
       ],
       "urls": [
-        "https://taz.de/Israelische-Siedlungen-im-Westjordanland/!6202252/",
-        "https://taz.de/Ungleichbehandlung-im-Abstammungsrecht/!6201672/",
-        "https://taz.de/Klimaanpassung-in-Kitas-und-Pflegeheimen/!6200614/",
-        "https://taz.de/Spahn-und-die-Leihmutterschaft/!6199135/"
+        "https://taz.de/Gedenkkultur-in-der-Ukraine/!6203476/",
+        "https://taz.de/Abriss-von-Mehrfamilienhaus-in-Hamburg/!6203536/",
+        "https://taz.de/Student-ueber-Kindeswohl-an-Schulen/!6196194/",
+        "https://taz.de/Demografischer-Wandel-in-Israel-Mehr-Juden-wandern-aus-als-ein/!6198950/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 3
+          "count": 7
         },
         {
-          "emotion": "disapproval",
+          "emotion": "admiration",
+          "count": 4
+        },
+        {
+          "emotion": "grief",
+          "count": 2
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 28,
+      "sample_titles": [
+        "Brasilien: Mütter und Mörderinnen",
+        "Bei Roland Kaiser geht nichts ohne die Familie",
+        "Ungenügender Kinderschutz: Meta zu Millionenstrafe verurteilt",
+        "Recht auf Ganztagsbetreuung: Was Eltern jetzt wissen sollten"
+      ],
+      "urls": [
+        "https://www.zdf.de/video/dokus/ueberleben-hinter-gittern-100/zdfinfo-ueberleben-hinter-gittern-brasilien-muetter-und-moerderinnen-100",
+        "https://www.zdfheute.de/panorama/prominente/roland-kaiser-kaisermania-2026-dresden-100.html",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/meta-millionenstrafe-kinderschutz-gericht-100.html",
+        "https://www.zdfheute.de/ratgeber/ganztagsbetreuung-schule-ganztagsfoerderungsgesetz-100.html"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
           "count": 2
         },
         {
           "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
           "count": 2
         }
       ]
@@ -305,18 +338,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 10,
+      "article_count": 27,
       "sample_titles": [
-        "Elterngeld: »Eltern sollten 100 Prozent ihres Gehalts bekommen«",
-        "Alleinerziehende: Alleinerziehend mit Zwillingen und Vollzeitjob – es geht ganz gut",
-        "Leihmutterschaft: Mutter, Mutter, Mutter und Mutter",
-        "Alleinerziehende in Deutschland: Zahl der Alleinerziehenden sinkt leicht"
+        "Internationale Arbeitsorganisation: ILO warnt vor Krise auf dem Arbeitsmarkt für junge Menschen",
+        "Gewalt in der S-Bahn: Blut auf der Heimfahrt",
+        "Kürzung der Schulbegleitung: »Ich weiß nicht, wie wir als Familie noch funktionieren sollen«",
+        "Mieten in Deutschland: Mieten in Deutschland steigen deutlich"
       ],
       "urls": [
-        "https://www.zeit.de/familie/2026-08/elterngeld-niederlande-vaeter-familie-renske-keizer-gxe",
-        "https://www.zeit.de/familie/2026-07/alleinerziehende-alltag-familie-kinder-herausforderung",
-        "https://www.zeit.de/feuilleton/2026-07/leihmutterschaft-reproduktion-medizin-fortschritt-ethik-jens-spahn",
-        "https://www.zeit.de/gesellschaft/2026-07/alleinerziehende-deutschland-statistik-familien-kinder"
+        "https://www.zeit.de/politik/ausland/2026-08/internationale-arbeitsorganisation-arbeitsmarkt-krise-junge-menschen",
+        "https://www.zeit.de/sport/2026-08/gewalt-s-bahn-fussball-verbrechen-podcast",
+        "https://www.zeit.de/hamburg/2026-07/kuerzung-schulbegleitung-eimsbuettel-rellinger-strasse-schule",
+        "https://www.zeit.de/wirtschaft/2026-08/mieten-deutschland-wohnungsmarkt-mehrfamilienhaeuser-wohnungsmangel"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -326,43 +359,43 @@
         },
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 2
         },
         {
           "emotion": "amusement",
-          "count": 1
+          "count": 2
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 8,
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 24,
       "sample_titles": [
-        "Bei Roland Kaiser geht nichts ohne die Familie",
-        "Ungenügender Kinderschutz: Meta zu Millionenstrafe verurteilt",
-        "Recht auf Ganztagsbetreuung: Was Eltern jetzt wissen sollten",
-        "Zwangsheirat: Wenn der Stuhl nach den Ferien leer bleibt"
+        "Deep Read: Das Millionengeschäft mit ukrainischen Leihmüttern",
+        "Autobauer: Porsche SE meldet Nettoverlust von 2,2 Milliarden",
+        "Geldanlage: Warum Shortseller bald gegen deutsche Chemie-Aktien wetten könnten",
+        "Autoindustrie: Wohnzimmer auf Rädern: Smartphone-Hersteller Xiaomi startet mit Mega-SUV für 38.700 Euro"
       ],
       "urls": [
-        "https://www.zdfheute.de/panorama/prominente/roland-kaiser-kaisermania-2026-dresden-100.html",
-        "https://www.zdfheute.de/wirtschaft/unternehmen/meta-millionenstrafe-kinderschutz-gericht-100.html",
-        "https://www.zdfheute.de/ratgeber/ganztagsbetreuung-schule-ganztagsfoerderungsgesetz-100.html",
-        "https://www.zdfheute.de/politik/deutschland/zwangsheirat-maedchen-schule-ferien-flucht-betroffene-100.html"
+        "https://www.handelsblatt.com/technik/medizin/leihmutterschaft-das-millionengeschaeft-mit-ukrainischen-leihmuettern/100243118.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/autobauer-porsche-se-meldet-nettoverlust-von-22-milliarden/100244962.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-shortseller-koennten-bald-gegen-deutsche-chemie-aktien-wetten/100245440.html",
+        "https://www.handelsblatt.com/unternehmen/autobauer-wohnzimmer-buero-spielplatz-xiaomi-stellt-mega-suv-vor-01/100243886.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "excitement",
       "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
         {
           "emotion": "confusion",
           "count": 1
         },
         {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -371,27 +404,31 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 5,
+      "article_count": 23,
       "sample_titles": [
         "Beamtenstaat außer Kontrolle: Fünf Milliarden Euro allein für Familienzuschläge",
-        "Sprung aus dem Fenster: 12-jähriges Mädchen flüchtet vor Betreuer mit Teufelshörnern",
-        "Brosius-Gersdorf und die Leihmutterschaft: Kinder für alle!",
-        "Kein Recht auf ein Kind: Der blinde Fleck im deutschen Leihmutterschaftsverbot"
+        "„Vorsätzliches Staatsversagen“: Kölns Abschiebe-Skandal weitet sich aus",
+        "Katholische Jugendarbeit: Gemeinsam zum CSD?",
+        "Sprung aus dem Fenster: 12-jähriges Mädchen flüchtet vor Betreuer mit Teufelshörnern"
       ],
       "urls": [
         "https://www.tichyseinblick.de/daili-es-sentials/beamtenstaat-ausser-kontrolle/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/wien-sprung-fenster-maedchen-flucht-betreuer/",
-        "https://www.tichyseinblick.de/kolumnen/stephans-spitzen/brosius-gersdorf-leihmutter-verbot/",
-        "https://www.tichyseinblick.de/daili-es-sentials/kein-recht-auf-ein-kind/"
+        "https://www.tichyseinblick.de/daili-es-sentials/vorsaetzliches-staatsversagen-koelns-abschiebe-skandal-weitet-sich-aus/",
+        "https://www.tichyseinblick.de/meinungen/katholische-jugendarbeit-gemeinsam-zum-csd/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/wien-sprung-fenster-maedchen-flucht-betreuer/"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
         {
           "emotion": "desire",
           "count": 1
         },
         {
-          "emotion": "joy",
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -400,18 +437,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 18,
       "sample_titles": [
         "JF-Reihe Wie die Familie Wagner Hitler zum Hausfreund in Bayreuth machte",
         "„Familienfreundliche“ Demo Nackte Fahrradfahrer radeln am Sonntag quer durch Berlin",
-        "Gleitgel für Achtjährige Sex-Broschüre der „Falken“ immer noch online: Wie reagiert das Ministerium?",
-        "Migrationspolitik Erneut 53.598 Visa für Familiennachzug im ersten Halbjahr"
+        "Streit unter Großfamilien Nach Schüssen in Köln sind alle Verdächtigen wieder frei",
+        "JF-Interview zum Sturm auf Ceuta Spanischer EU-Abgeordneter: Pedro Sánchez schmiedet kriminelle Pläne"
       ],
       "urls": [
         "https://jungefreiheit.de/wissen/geschichte/2026/wie-die-familie-wagner-hitler-zum-hausfreund-in-bayreuth-machte/",
         "https://jungefreiheit.de/politik/deutschland/2026/nackte-fahrradfahrer-radeln-am-sonntag-quer-durch-berlin/",
-        "https://jungefreiheit.de/politik/deutschland/2026/sex-broschuere-der-falken-immer-noch-online-wie-reagiert-das-ministerium/",
-        "https://jungefreiheit.de/politik/deutschland/2026/erneut-53-598-visa-fuer-familiennachzug-im-ersten-halbjahr/"
+        "https://jungefreiheit.de/politik/deutschland/2026/nach-schuessen-in-koeln-sind-alle-verdaechtigen-wieder-frei/",
+        "https://jungefreiheit.de/debatte/interview/2026/spanischer-eu-abgeordneter-pedro-sanchez-schmiedet-kriminelle-plaene/"
       ],
       "dominant_emotion": "realization",
       "top_emotions": [
@@ -422,6 +459,43 @@
         {
           "emotion": "curiosity",
           "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 14,
+      "sample_titles": [
+        "«Kinderbetreuung ist keine Arbeit»: Österreichs Kanzler stolpert auf seiner eigenen Imagetour",
+        "Ein Mann sorgt 20 Jahre lang in der Familiengartenidylle in Dietikon für Unruhe. Dann erhält er die Kündigung",
+        "«Spaghetti sind etikettemässig eines der anspruchsvollsten Gerichte überhaupt», sagt ein Knigge-Trainer",
+        "Elon Musk darf, was Jens Spahn die Karriere gekostet hat: Leihmütter sind in den USA völlig normal"
+      ],
+      "urls": [
+        "https://www.nzz.ch/international/fauxpas-ueber-kinderbetreuung-des-kanzlers-sorgt-fuer-eklat-in-oesterreich-ld.10018959",
+        "https://www.nzz.ch/zuerich/ein-mann-sorgt-20-jahre-lang-in-der-familiengartenidylle-in-dietikon-fuer-unruhe-dann-erhaelt-er-die-kuendigung-ld.10017982",
+        "https://www.nzz.ch/feuilleton/knigge-kurse-boomen-einblick-in-die-welt-der-knigge-trainer-ld.10016207",
+        "https://www.nzz.ch/international/leihmutterschaft-in-den-usa-von-jens-spahn-bis-elon-musk-ld.10017913"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
         }
       ]
     },
@@ -429,89 +503,70 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
         "100 Tage Isolation: Projekt SOLIS100 ist zu Ende",
         "Deutlich weniger Kinder und Jugendliche in Obhut genommen",
-        "EU-Kommission: TikTok verletzt Jugendschutz-Regeln"
+        "EU-Kommission: TikTok verletzt Jugendschutz-Regeln",
+        "Bundesverfassungsgericht stärkt Afghanen bei Visa-Klagen"
       ],
       "urls": [
         "https://www.dw.com/de/100-tage-isolation-projekt-solis100-ist-zu-ende/a-78287936?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/deutlich-weniger-kinder-und-jugendliche-in-obhut-genommen/a-78130850?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/eu-kommission-tiktok-verletzt-jugendschutz-regeln/a-78101490?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/eu-kommission-tiktok-verletzt-jugendschutz-regeln/a-78101490?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/bundesverfassungsgericht-stärkt-afghanen-bei-visa-klagen/a-78097982?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
           "count": 1
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 2,
-      "sample_titles": [
-        "Autobauer: Porsche SE meldet Nettoverlust von 2,2 Milliarden",
-        "Jugendschutz: Frankreich verbietet soziale Medien für unter 15-Jährige"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/autobauer-porsche-se-meldet-nettoverlust-von-22-milliarden/100244962.html",
-        "https://www.handelsblatt.com/politik/international/jugendschutz-frankreich-verbietet-soziale-medien-fuer-unter-15-jaehrige/100241905.html"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
       "article_count": 1,
       "sample_titles": [
-        "Ein Mann sorgt 20 Jahre lang in der Familiengartenidylle in Dietikon für Unruhe. Dann erhält er die Kündigung"
+        "Die Lage ist hoffnungslos, aber nicht ernst"
       ],
       "urls": [
-        "https://www.nzz.ch/zuerich/ein-mann-sorgt-20-jahre-lang-in-der-familiengartenidylle-in-dietikon-fuer-unruhe-dann-erhaelt-er-die-kuendigung-ld.10017982"
+        "https://www.achgut.com/artikel/die_lage_ist_hoffnungslos_aber_nicht_ernst"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
-    },
-    "cicero": {
-      "source_id": "cicero",
-      "source": "Cicero",
-      "bias": "conservative-liberal",
-      "article_count": 1,
-      "sample_titles": [
-        "Elternzeit - Der Staat will die Väter an den Wickeltisch bringen"
-      ],
-      "urls": [
-        "https://www.cicero.de/innenpolitik/elternzeit-der-staat-will-die-vater-an-den-wickeltisch-bringen"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
     }
   },
   "bias_distribution": {
-    "populist-mixed": 16,
-    "left-liberal": 62,
-    "neutral": 60,
-    "far-right": 9,
-    "right-conservative": 37,
-    "conservative-liberal": 32,
-    "left": 13,
-    "economic-liberal": 2
+    "left-liberal": 216,
+    "right-conservative": 154,
+    "left": 37,
+    "populist-mixed": 79,
+    "conservative-liberal": 123,
+    "neutral": 125,
+    "economic-liberal": 24,
+    "far-right": 42
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Der deutsche Mediendiskurs zu Familienpolitik zeigt eine breite Übereinstimmung darin, dass die materielle Ausstattung von Familien ein zentrales Problem darstellt: sowohl konservative als auch linke Medien thematisieren Kindergeld, Beamtenfamilienzuschläge und staatliche Leistungen als relevante Verteilungsfragen, wobei sich die Kritik auf unterschiedliche Aspekte richtet, aber das Thema selbst als politisch bedeutsam anerkannt wird. Gleichzeitig besteht medienübergreifend Konsens darüber, dass der Zugang zu Kinderbetreuung und die Vereinbarkeit von Familie und Beruf strukturelle Herausforderungen darstellen, die durch staatliche Intervention gelöst werden müssen, was sich in Berichten über Kita-Engpässe und Betreuungslücken widerspiegelt. Eine dritte Gemeinsamkeit liegt in der Wahrnehmung von Kindern als Schutzsubjekte, die spezieller staatlicher Regulierung bedürfen, sei es beim Jugendschutz im Internet oder bei pädagogischen Inhalten, wobei auch hier die konkrete Ausgestaltung politisch umstritten ist.",
-      "controversial_points": "Der Diskurs spaltet sich fundamental in zwei Lager: Rechtskonservative und rechtsextreme Medien dramatisieren Familienthemen als kulturelle Bedrohung, etwa durch Gender-Debatten in der Sexualerziehung oder Migration via Familiennachzug. Demgegenüber fokussieren linke und progressive Medien auf strukturelle Mängel und Gerechtigkeitsfragen wie Kinderarmut, ungleiche Betreuungslasten oder fehlende Kita-Plätze. Ein drittes Spannungsfeld verläuft zwischen wirtschaftlichen Interessen und sozialer Verantwortung: Während konservative Medien hohe Familientransferleistungen als Kostenproblem kritisieren, argumentieren linke Medien für mehr öffentliche Investitionen in Infrastruktur. Populistische und rechtsextreme Outlets nutzen Familienfälle vorwiegend für Emotionalisierung statt systematischer Analyse. Die Mitte-Medien hingegen heben allmählich neue Themen hervor wie väterliche Partizipation oder Hitzeschutz in Kitas, ohne dabei klar Position zu klassischen Konfliktlinien zu beziehen."
+      "shared_perspectives": "Synthese nicht verfügbar.",
+      "controversial_points": "Synthese nicht verfügbar."
     },
     "en": {
-      "shared_perspectives": "# Substantive Commonalities in German Family Policy Discourse\n\nAcross the political spectrum, German media demonstrates broad concern about institutional capacity gaps in childcare and early education, with left-liberal outlets highlighting staff shortages in kindergartens and conservative sources discussing expansion needs and beamten family allowances as competing budget priorities. Both progressive and conservative media engage substantively with questions about work-life balance and parental roles, particularly regarding fathers' participation in childcare and parental leave structures, suggesting recognition that family policy requires systemic rather than merely individual solutions. The discourse reveals consensus that family policy is fundamentally a state responsibility requiring significant public expenditure, though sources differ sharply on distribution mechanisms, with social democratic and left outlets favoring universal programs while conservative outlets emphasize existing public obligations to state employees and question fiscal sustainability.",
-      "controversial_points": "The deepest conflict divides progressive and conservative visions of family structure itself. Left-liberal outlets emphasize diverse family forms, parental equality, and state support for childcare as emancipation. Right-conservative sources defend traditional family hierarchies and resist expansive welfare spending on families, particularly on public childcare. A second fault line separates those viewing family policy as social investment from those seeing it as fiscal burden. The far-right exploits family policy discourse as cover for immigration anxiety, framing family benefits through demographic nationalism rather than genuine support concerns. A final tension emerges between those prioritizing child welfare institutions and those defending parental autonomy and traditional home-centered childrearing against state intervention."
+      "shared_perspectives": "Synthesis not available.",
+      "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-08-09T05:37:41.752088"
+  "cached_at": "2026-08-12T06:18:11.305700"
 }

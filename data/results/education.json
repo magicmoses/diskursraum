@@ -1,71 +1,104 @@
 {
   "topic_id": "education",
   "topic_label": "Bildung & lebenslanges Lernen",
-  "article_count": 211,
+  "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 47,
-      "sample_titles": [
-        "AfD-Chef Lambrou fordert Abschaffung der bisherigen Schulpflicht",
-        "Rekord in Thüringen: Fast jeder dritte neu eingestellte Lehrer ist Seiteneinsteiger",
-        "Warum der Stendaler Lehrer Max Heckel Sachsen-Anhalt nicht aufgibt",
-        "Der Schulleiter der Karolina-Burger-Schule wird nicht zwangsversetzt"
-      ],
-      "urls": [
-        "https://www.hessenschau.de/politik/landtag/afd-chef-lambrou-fordert-abschaffung-der-bisherigen-schulpflicht-v1,hr-sommerinterview-afd-lambrou-102.html",
-        "https://www.mdr.de/nachrichten/thueringen/lehrer-schule,seiteneinsteiger-120.html",
-        "https://www.mdr.de/nachrichten/sachsen-anhalt/stendal/musiker-lehrer-afd-landtag-wahl,heckel-ltw-hausbesuch-kultur-news-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/geruechte-schulleiter-karolina-burger-realschule-plus-ludwigshafen-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "approval",
-          "count": 4
-        },
-        {
-          "emotion": "desire",
-          "count": 3
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 37,
+      "article_count": 147,
       "sample_titles": [
-        "Neues Schuljahr: Schülerzahl steigt in Frankfurt um fast 2000 Kinder",
-        "„Spiegel-Solutions“: Die neue Hamburger Journalistenschule",
-        "Rhein-Main-Feierabendbriefing: Hessen will Lesekompetenz von Schülern stärken",
-        "Neues Schuljahr beginnt: Hessen führt feste Lesezeit an Grundschulen ein"
+        "Harry Potter und der Hauself: Ein Steinhaufen für Dobby",
+        "Schulbeginn in Hessen: Warum zwei neue Gymnasien besonders beliebt sind",
+        "Kritik an Förderung: Bevorzugt Hessens Wissenschaftsminister seine Heimatregion?",
+        "Streit um DEI-Programme: Alles Heuchelei mit der Diversität?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/anstieg-zum-neuen-schuljahr-frankfurter-gymnasien-unterrichten-1700-kinder-mehr-accg-201106220.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/der-neue-loesungsorientierte-journalismus-des-spiegel-201105250.html",
-        "https://www.faz.net/podcasts/rhein-main-feierabendbriefing/schulbeginn-in-hessen-land-fuehrt-feste-lesezeiten-an-grundschulen-ein-201106506.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/neues-schuljahr-in-hessen-mehr-mathearbeiten-feste-lesezeit-und-ein-rekordetat-fuer-die-schulen-201105765.html"
+        "https://www.faz.net/aktuell/feuilleton/buecher/literatur/harry-potters-freund-wo-liegt-dobby-der-hauself-begraben-201114523.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/zwei-neue-gymnasien-in-frankfurt-sind-beliebt-201115665.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/bevorzugt-wissenschaftsminister-timon-gremmels-die-uni-kassel-201110717.html",
+        "https://www.faz.net/aktuell/feuilleton/debatten/tyler-austin-harper-warum-der-linke-autor-us-diversitaetsprogramme-kritisiert-201113804.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "surprise",
-          "count": 3
+          "count": 11
         },
         {
           "emotion": "confusion",
+          "count": 8
+        },
+        {
+          "emotion": "realization",
+          "count": 8
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 95,
+      "sample_titles": [
+        "Unbekannte verwüsten Grundschule",
+        "Hakenkreuz und Hitlergruß an Grundschulen: Neue Beratungsstelle in Leipzig will Lehrern helfen",
+        "Gleitzeit an Schule: Schüler können später kommen und früher gehen",
+        "Hitzeschutz an Hessens Schulen: Einige Schulträger rüsten nach"
+      ],
+      "urls": [
+        "https://www1.wdr.de/nrw/rheinland/rhein-sieg-kreis/einbruch-grundschule-troisdorf-102.html",
+        "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/news-rassismus-praevention,rechtsextremismus-schule-102.html",
+        "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/gleitzeit-an-schule-schueler-koennen-spaeter-kommen-und-frueher-gehen,schule-530.html",
+        "https://www.hessenschau.de/gesellschaft/hitzeschutz-an-hessens-schulen-einige-schultraeger-ruesten-nach-v1,schule-hitzeschutz-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 9
+        },
+        {
+          "emotion": "approval",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 93,
+      "sample_titles": [
+        "Siegmund weist BSW-Hilfe zurück – und fordert eigene Mehrheit mit „45 Prozent plus X“",
+        "Taliban verwehren 2,4 Millionen Mädchen in Afghanistan den Besuch weiterführender Schulen",
+        "Fernuniversitäten waren mal ein linkes Projekt",
+        "Fälle der „Avocado-Hand“ nehmen zu – Klinik warnt vor schweren Handverletzungen"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6a7b64e467ddb2e13c584772/siegmund-will-afd-regierung-ohne-hilfe-des-bsw.html",
+        "https://www.welt.de/politik/ausland/article6a7b407667ddb2e13c58458c/unesco-taliban-verwehren-2-4-millionen-maedchen-in-afghanistan-den-besuch-weiterfuehrender-schulen.html",
+        "https://www.welt.de/kultur/plus6a798b710e3689919ec765e6/siegmunds-abschluss-fernuniversitaeten-waren-mal-ein-linkes-projekt.html",
+        "https://www.welt.de/regionales/hamburg/article6a79b2a197ee93b7ce854be0/falsche-zubereitung-der-frucht-faelle-der-avocado-hand-nehmen-zu-klinik-warnt-vor-schweren-handverletzungen.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 6
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "disapproval",
           "count": 3
         }
       ]
@@ -74,32 +107,32 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 26,
+      "article_count": 69,
       "sample_titles": [
-        "Schulabgänger im Nachteil: 107 falsche Schulabschlüsse in Vechta – mehr Schulen geprüft",
-        "Schulstart: So weit ist in Rheinland-Pfalz der Weg zur Schule",
-        "Schulen: 95 Prozent der Schüler bestehen Abschlussprüfungen",
-        "Auszeichnung für Filmnachwuchs: Studenten-Oscar für Regisseur von deutscher Filmschule"
+        "Umstrittene Gesundheitspolitik: Trump streicht Empfehlungen für Kinderimpfungen zusammen",
+        "Bildung: Schulstart für die Erstklässler",
+        "Trump verstärkt Vorgehen gegen Impfungen",
+        "Umstrittene Institution: Innenministerium: Russisches Haus „im Blick“"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/schulabgaenger-im-nachteil--107-falsche-schulabschluesse-in-vechta---mehr-schulen-geprueft-38072636.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/schulstart--so-weit-ist-in-rheinland-pfalz-der-weg-zur-schule-38072616.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen/schulen--95-prozent-der-schueler-bestehen-abschlusspruefungen-38068484.html",
-        "https://www.stern.de/lifestyle/auszeichnung-fuer-filmnachwuchs--studenten-oscar-fuer-regisseur-von-deutscher-filmschule-38064356.html"
+        "https://www.stern.de/politik/ausland/umstrittene-gesundheitspolitik--trump-streicht-empfehlungen-fuer-kinderimpfungen-zusammen-38086574.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/bildung--schulstart-fuer-die-erstklaessler-38086596.html",
+        "https://www.stern.de/news/trump-verstaerkt-vorgehen-gegen-impfungen-38086526.html",
+        "https://www.stern.de/politik/deutschland/umstrittene-institution--innenministerium--russisches-haus--im-blick--38085570.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "anger",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "disapproval",
+          "count": 2
         }
       ]
     },
@@ -107,172 +140,97 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 66,
       "sample_titles": [
-        "Dänemark verschärft Prüfungen wegen KI-Betrugsverdacht",
-        "Jason Arday: Ist die Universität Cambridge auf einen Hochstapler hereingefallen?",
-        "Köln: Warum ein wegen Sexualstraftaten verurteilter Lehrer weiter Beamtenbezüge kassiert hat",
-        "Startklar-Newsletter: Lohnt sich eine Klage gegen das Bafög-Amt?"
+        "Sonnenfinsternis: So wollen Forscher am Mittwoch die Rätsel der Sonne ergründen",
+        "Berlin: Hunderte Lehrer fallen wegen Krankheit dauerhaft aus",
+        "Hubert Aiwanger und die Flugblattaffäre: Staatsanwaltschaft ermittelt erneut gegen Ex-Lehrer",
+        "Forschungsförderung aus den USA: So viel Pentagon-Geld fließt an deutsche Unis"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/daenemark-verschaerft-pruefungen-wegen-ki-betrugsverdacht-a-0a41c17b-fce2-4443-82af-c7ec61ad2196#ref=rss",
-        "https://www.spiegel.de/kultur/jason-arday-ist-die-universitaet-cambridge-auf-einen-hochstapler-hereingefallen-a-c2445f48-940c-4bf5-9920-d8b9f244988d#ref=rss",
-        "https://www.spiegel.de/panorama/bildung/koeln-warum-ein-wegen-sexualstraftaten-verurteilter-lehrer-weiter-beamtenbezuege-kassiert-hat-a-2ae24bec-69d8-4f77-91ac-e969e2836cf2#ref=rss",
-        "https://www.spiegel.de/start/startklar-newsletter-lohnt-sich-eine-klage-gegen-das-bafoeg-amt-a-b10e90be-e21a-4b77-8d2b-6097d86a68d4#ref=rss"
+        "https://www.spiegel.de/wissenschaft/weltall/sonnenfinsternis-so-wollen-forscher-am-mittwoch-die-raetsel-der-sonne-ergruenden-a-6e19c57b-e915-4133-a3a8-c4d6ac4729b7#ref=rss",
+        "https://www.spiegel.de/panorama/berlin-mehr-als-350-lehrkraefte-dauerhaft-krank-vor-allem-an-grundschulen-a-6b896d50-fce9-414d-986a-1e04242c2f32#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/hubert-aiwanger-und-die-flugblattaffaere-staatsanwaltschaft-ermittelt-erneut-gegen-ex-lehrer-a-14c83606-8351-4d71-a238-de5a07b3e91d#ref=rss",
+        "https://www.spiegel.de/start/forschungsfoerderung-aus-den-usa-so-viel-pentagon-geld-fliesst-an-deutsche-unis-a-e0d9ec41-4050-4fc4-812f-6a4ef3c2be2a#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 4
+          "count": 9
         },
         {
           "emotion": "disapproval",
+          "count": 4
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 53,
+      "sample_titles": [
+        "\"Ziemlich tödlich\": Trump streicht Impfempfehlungen für Kinder zusammen",
+        "Schwindende Ertragskraft: Autohersteller machen pro Auto deutlich weniger Gewinn",
+        "Blick in Korona, Jagd auf Schatten: Forscher nutzen Sonnenfinsternis für sonst unmögliche Experimente",
+        "Kochschule statt Architektur: Leni Klum zieht es nach dem Studium an den Herd"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Trump-streicht-Impfempfehlungen-fuer-Kinder-zusammen-id31179490.html",
+        "https://www.n-tv.de/wirtschaft/Autohersteller-machen-pro-Auto-deutlich-weniger-Gewinn-id31179763.html",
+        "https://www.n-tv.de/wissen/Forscher-nutzen-Sonnenfinsternis-fuer-sonst-unmoegliche-Experimente-id31176410.html",
+        "https://www.n-tv.de/leute/Leni-Klum-zieht-es-nach-dem-Studium-an-den-Herd-id31177789.html"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 4
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "surprise",
+          "count": 2
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 41,
+      "sample_titles": [
+        "Trump streicht Empfehlungen für Kinderimpfungen zusammen",
+        "Sonnenfinsternis: \"Ein Grenzerlebnis unserer Wahrnehmung\"",
+        "Zeugnis-Chaos: Gute Noten und doch kein Realabschluss",
+        "Ab 17. August: Handyverbot bis zur 8. Klasse in Sachsen"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/politik/ausland/usa-trump-impfung-empfehlung-kinder-autismus-100.html",
+        "https://www.zdfheute.de/wissen/sonnenfinsternis-sonne-mond-harald-lesch-100.html",
+        "https://www.zdfheute.de/panorama/zeugnis-chaos-noten-falsch-oberschule-vechta-100.html",
+        "https://www.zdfheute.de/politik/sachsen-schule-handyverbot-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 5
+        },
+        {
+          "emotion": "admiration",
           "count": 3
         },
         {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 17,
-      "sample_titles": [
-        "„Ich bin immer noch Beamter“ – Wegen Missbrauchs verurteilter Lehrer bezieht weiter Beamtengehalt",
-        "AfD-Spitzenkandidat Siegmund wackelt bei Abschluss-Bezeichnung",
-        "„Jedes Unternehmen sollte ihre Mitarbeiter mit einem KI-Führerschein schulen“",
-        "„Jeder Beruf und alle Tätigkeiten werden durch KI über die Jahre verändert“"
-      ],
-      "urls": [
-        "https://www.welt.de/vermischtes/article6a72ecb5cc46967c04caf326/koeln-ich-bin-immer-noch-beamter-wegen-missbrauchs-verurteilter-lehrer-bezieht-weiter-beamtengehalt.html",
-        "https://www.welt.de/vermischtes/video6a717f66cc46967c04cae157/studium-afd-spitzenkandidat-siegmund-wackelt-bei-abschluss-bezeichnung.html",
-        "https://www.welt.de/vermischtes/video6a70619add06dd5ef2e42f2f/tausende-lehrstellen-unbesetzt-jedes-unternehmen-sollte-ihre-mitarbeiter-mit-einem-ki-fuehrerschein-schulen.html",
-        "https://www.welt.de/vermischtes/video6a706a1b935ebc37ca9d3e4f/tausende-lehrstellen-unbesetzt-jeder-beruf-und-alle-taetigkeiten-werden-durch-ki-ueber-die-jahre-veraendert.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 13,
-      "sample_titles": [
-        "Ganztagsbetreuung in Bad Tölz: Interimsbau für die Lettenholzschule",
-        "Landtagswahlen: Wie die AfD den Schulen ihr Weltbild aufdrücken könnte",
-        "Sachsen-Anhalt: Die AfD-Bildungspolitik ist Kulturkampf auf Kosten der Kinder",
-        "Schulen in Bayern: 24-Stunden-Protest gegen unangekündigte Exen"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/muenchen/wolfratshausen/bad-toelz-lettenholzschule-interimsbau-ganztagsbetreuung-li.3523434",
-        "https://www.sueddeutsche.de/politik/afd-schule-zukunft-schulpflicht-lehrplan-aenderungen-li.3513753",
-        "https://www.sueddeutsche.de/meinung/afd-bildung-schule-sachsen-anhalt-kommentar-li.3515677",
-        "https://www.sueddeutsche.de/bayern/schueler-muenchen-protest-exen-soeder-kultusministerium-li.3524161"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
           "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 10,
-      "sample_titles": [
-        "Schulen: GEW warnt vor Frust und Abwanderung bei Lehrern in Sachsen",
-        "Oberschule in Vechta: Um Abschluss gebracht - «Ein richtiger Schlag ins Gesicht»",
-        "Terror in Berlin: Attentäter war Salafist und schon in der Schule auffällig",
-        "Diebstahl an Universitäten: Tat ohne Täter – Teil 1: Die verschwundenen Stühle"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-08/08/gew-warnt-vor-frust-und-abwanderung-bei-lehrern-in-sachsen",
-        "https://www.zeit.de/news/2026-08/07/um-abschluss-gebracht-ein-richtiger-schlag-ins-gesicht",
-        "https://www.zeit.de/news/2026-07/29/csd-anschlag-innensenatorin-und-polizei-beantworten-fragen",
-        "https://www.zeit.de/gesellschaft/2026-07/diebstahl-universitaeten-verbrechen-podcast"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 8,
-      "sample_titles": [
-        "Lehrerin spricht über Gewalt an Schulen - „Schüler nannten mich ‚Hure‘ und drohten mir“",
-        "Folgenschwere Fehler bei der Bewertung - 100 Schüler erhalten zu schlechte Abschlüsse",
-        "Lehrerverbands-Chef zu Gewalt an Schulen - „Wir müssen an Brennpunkten sofort eingreifen“",
-        "Tochter und Schülerin missbraucht - Pädokrimineller Lehrer will weiter Beamter bleiben"
-      ],
-      "urls": [
-        "https://www.bild.de/news/inland/gewalt-an-schulen-schueler-nannten-mich-hure-und-drohten-mir-6a75915e0e3689919ec73a28",
-        "https://www.bild.de/politik/inland/folgenschwere-fehler-bei-der-bewertung-mehr-als-100-schueler-erhalten-zu-schlechte-abschluesse-oder-gar-keinen-6a75d96dc07f6c2f08035bb5",
-        "https://www.bild.de/politik/lehrerverbands-chef-zu-gewalt-an-schulen-wir-muessen-an-brennpunkten-sofort-eingreifen-6a75b1ddc07f6c2f08035810",
-        "https://www.bild.de/regional/koeln/paedokrimineller-lehrer-aus-koeln-will-weiter-unterrichten-revision-eingelegt-6a72cc63cc46967c04caf12d"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 7,
-      "sample_titles": [
-        "Werding will an Beamten-Wasserkopf: Lehrer und Professoren müssen keine Beamten sein",
-        "Gefallener „Professor“ Jason Arday: Plagiate, Flunkereien und die korrumpierte Universität",
-        "Bundeszentrale für politische Bildung: Ist jetzt endlich Schluss mit Linksaktionismus?",
-        "Strafanzeige wegen „Schwarzer Peter“: Justiz-Irrsinn gegen Lehrerin"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/wirtschaftsweiser-marting-werding-beamte/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/jason-arday/",
-        "https://www.tichyseinblick.de/meinungen/bpb-ruecktritt-rix-neuausrichtung/",
-        "https://www.tichyseinblick.de/video/kommentar/strafanzeige-schwarzer-peter-lehrerin/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -281,27 +239,130 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 7,
+      "article_count": 32,
       "sample_titles": [
-        "107 falsche Zeugnisse: Oberschule in Vechta vergibt seit Jahren falsche Abschlüsse",
-        "Bildungskrise in Ost und West: Gemeinsam gescheitert?",
-        "Bafög: Zahlen auf neuem Tiefststand",
-        "Medizinstudium im Ausland: Ab nach Wien"
+        "Pädagogin über Microsoft an Schulen: „Was mit den Daten passiert, ist eine große Blackbox“",
+        "Nach Massaker an Schule: Thailand ringt mit seinem Waffenproblem",
+        "Digitale Ausstattung an Schulen: Wieder Ärger mit dem Digitalpakt 2.0",
+        "Student über Kindeswohl an Schulen: „Das hat nichts mit Sensibilisierung von Lehrkräften zu tun“"
       ],
       "urls": [
-        "https://taz.de/107-falsche-Zeugnisse/!6202516/",
-        "https://taz.de/Bildungskrise-in-Ost-und-West/!6202136/",
-        "https://taz.de/Bafoeg-Zahlen-auf-tiefstem-Stand-seit-25-Jahren-Daten-zeigen-wie-dringend-eine-Reform-ist/!6201894/",
-        "https://taz.de/Medizinstudium-im-Ausland/!6196192/"
+        "https://taz.de/Paedagogin-ueber-Microsoft-an-Schulen/!6203349/",
+        "https://taz.de/Nach-Massaker-an-Schule/!6203508/",
+        "https://taz.de/Digitale-Ausstattung-an-Schulen/!6203350/",
+        "https://taz.de/Student-ueber-Kindeswohl-an-Schulen/!6196194/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 31,
+      "sample_titles": [
+        "Ernährungswissenschaftlerin verrät - Frühstücks-Falle Wurst! Diese Sorten schaden Ihnen",
+        "Durchbruch in der Forschung? - Gegen diesen Hund ist niemand allergisch",
+        "Lehrerin spricht über Gewalt an Schulen - „Schüler nannten mich ‚Hure‘ und drohten mir“",
+        "Amoklauf an Schule in Thailand - 14-Jähriger tötet 8 Menschen"
+      ],
+      "urls": [
+        "https://www.bild.de/leben-wissen/ernaehrung-diaet/wurst-warum-salami-wiener-und-co-problematisch-sind-6a745ae43013d32d6788232b",
+        "https://www.bild.de/news/forschung-mit-beagles-gegen-diesen-hund-ist-niemand-allergisch-6a7348bc3013d32d67881598",
+        "https://www.bild.de/news/inland/gewalt-an-schulen-schueler-nannten-mich-hure-und-drohten-mir-6a75915e0e3689919ec73a28",
+        "https://www.bild.de/news/amoklauf-an-schule-in-thailand-14-jaehriger-toetet-8-menschen-6a762232e04765407d9a3150"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "pride",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 30,
+      "sample_titles": [
+        "Vermögen und Ungleichheit: Die beste Chance auf Reichtum? Das Netzwerk von Oma und Opa",
+        "Literatur: „KI-Stimmen stoßen das Publikum nicht ab“",
+        "Leute: „Eine Art Liebesbeweis für diese Welt“",
+        "Drohne am Leipziger Flughafen: Moskau dementiert, indem es gleich wieder angreift"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/reichtum-netzwerke-deutschland-familien-vermoegen-e484074/",
+        "https://www.sueddeutsche.de/kultur/hoerbuecher-lesen-wien-forschung-nutzung-wirkung-li.3527077",
+        "https://www.sueddeutsche.de/panorama/luisa-neubauer-usher-promi-news-promis-li.3528952",
+        "https://www.sueddeutsche.de/meinung/leipzig-vorfaelle-drohne-brand-flugzeugtransport-russland-dobrindt-kommentar-li.3528610"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
+          "count": 2
         },
         {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 30,
+      "sample_titles": [
+        "Waffentechnologie: Bundesinnenminister kündigt neues Drohnenzentrum an",
+        "Schulen: GEW warnt vor Frust und Abwanderung bei Lehrern in Sachsen",
+        "Oberschule in Vechta: Um Abschluss gebracht - «Ein richtiger Schlag ins Gesicht»",
+        "Infratest-Umfrage: Deutsche auch nach Kabinettsumbildung unzufrieden mit Bundesregierung"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-08/bombendrohnen-anschlag-leipzig-hybride-bedrohung-drohnenabwehr",
+        "https://www.zeit.de/news/2026-08/08/gew-warnt-vor-frust-und-abwanderung-bei-lehrern-in-sachsen",
+        "https://www.zeit.de/news/2026-08/07/um-abschluss-gebracht-ein-richtiger-schlag-ins-gesicht",
+        "https://www.zeit.de/politik/deutschland/2026-08/kabinettsumbildung-friedrich-merz-cdu-umfrage-infratest-dimap"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
           "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -310,93 +371,60 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 5,
+      "article_count": 27,
       "sample_titles": [
-        "Keine inhaltliche Neuausrichtung? Bundeszentrale für politische Bildung hält an Rechtsextremismus-Schwerpunkt fest",
-        "Schule beharrt auf Anwesenheit Schüler droht Bußgeld wegen Teilnahmeverweigerung an „Queer“-Workshop",
-        "Studienabschluss Fernhochschule bestätigt: Ulrich Siegmund hat bei uns studiert",
-        "Nach Rücktritt des Präsidenten Bundeszentrale für politische Bildung will sich mehr um Linksextremismus kümmern"
+        "Mädchen unter 14 Jahren betroffen Nach dem Massenansturm auf Ceuta häufen sich die Vergewaltigungsfälle",
+        "In Gewässern des Empirismus Klima-Alarmismus als neue Priesterlehre",
+        "Weißmanns Notizen GegenAufklärung",
+        "Bayern Flugblattaffäre: Neues Ermittlungsverfahren gegen Ex-Lehrer Aiwangers"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/bundeszentrale-fuer-politische-bildung-haelt-an-rechtsextremismus-schwerpunkt-fest/",
-        "https://jungefreiheit.de/politik/deutschland/2026/schueler-droht-bussgeld-wegen-teilnahmeverweigerung-an-queer-workshop/",
-        "https://jungefreiheit.de/politik/deutschland/2026/fernhochschule-bestaetigt-ulrich-siegmund-hat-bei-uns-studiert/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bundeszentrale-fuer-politische-bildung-will-sich-mehr-um-linksextremismus-kuemmern/"
+        "https://jungefreiheit.de/politik/ausland/2026/nach-dem-massenansturm-auf-ceuta-haeufen-sich-die-vergewaltigungsfaelle/",
+        "https://jungefreiheit.de/wissen/natur-und-technik/2026/klima-alarmismus-als-neue-priesterlehre/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/gegenaufklaerung-60/",
+        "https://jungefreiheit.de/politik/deutschland/2026/flugblattaffaere-neues-ermittlungsverfahren-gegen-ex-lehrer-aiwangers/"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 5,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 25,
       "sample_titles": [
-        "Industrie im Wandel: Was das für Azubis bedeutet",
-        "Nach Referendariat: In den Sommerferien erst mal arbeitslos",
-        "Abmahnung wegen AfD-Aussage: Wie politisch darf Schule sein?",
-        "Wenn die AfD regiert - was heißt das für Hochschulen?"
+        "Mario Voigt verliert den Doktortitel – will aber weiter Doktor bleiben",
+        "Um Recht und Demokratie ging’s beim Wahlrecht nie – sondern um Machtsicherung",
+        "Wenn viele nicht zu fragen wagen",
+        "Wissenschaftliche Aufklärung: „Vom Gendern und seinen Grenzen“"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/industrie-strukturwandel-berufsbild-ausbildung-100.html",
-        "https://www.zdfheute.de/politik/deutschland/lehrer-referendariat-arbeitslos-sommerferien-gew-kritik-100.html",
-        "https://www.zdfheute.de/politik/deutschland/schule-lehrer-neutralitaet-abmahnung-afd-siegmund-100.html",
-        "https://www.zdfheute.de/wissen/afd-sachsen-anhalt-hochschule-terrax-nano-ulrich-mueller-kolumne-100.html"
+        "https://www.tichyseinblick.de/daili-es-sentials/voigt-verliert-doktortitel/",
+        "https://www.tichyseinblick.de/kolumnen/goergens-feder/wahlrecht-grundgesetz-macht/",
+        "https://www.tichyseinblick.de/meinungen/wenn-viele-nicht-zu-fragen-wagen/",
+        "https://www.tichyseinblick.de/feuilleton/gendern-und-seinen-grenzen/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 4
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 3,
-      "sample_titles": [
-        "Ausgleichsregelung missachtet: Schule in Vechta übergibt jahrelang falsche Abschlusszeugnisse",
-        "Viel weniger Studenten gefördert: So wenige Bafög-Empfänger wie zuletzt vor 25 Jahren",
-        "900 Punkte: Was bringt der perfekte Abi-Schnitt?"
-      ],
-      "urls": [
-        "https://www.n-tv.de/panorama/Jahrelang-falsche-Schulabschluesse-in-Vechta-uebergeben-id31170905.html",
-        "https://www.n-tv.de/panorama/So-wenige-Bafoeg-Empfaenger-wie-zuletzt-vor-25-Jahren-id31160650.html",
-        "https://www.n-tv.de/panorama/Was-bringt-der-perfekte-Abi-Schnitt-id31084736.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 3,
-      "sample_titles": [
-        "Die Renaissance des Analogen: Schweizer Schulen sind digitalen Geräten gegenüber skeptisch geworden. Reagiert wird mit knallharten Verboten",
-        "Eine Sek-Schülerin kommt regelmässig zu spät, schläft im Unterricht ein oder vernachlässigt die Hausaufgaben. Was dann passiert, löst einen Rechtsstreit aus",
-        "KOMMENTAR - Je mehr der Computer in der Schule eingesetzt wird, desto schlechter werden die Leistungen. Die Bildungselite kümmert das wenig. Gut, fordert eine Initiative nun eine bildschirmfreie Primarschule"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/die-renaissance-des-analogen-schweizer-schulen-sind-digitalen-geraeten-gegenueber-skeptisch-geworden-reagiert-wird-mit-knallharten-verboten-ld.10017968",
-        "https://www.nzz.ch/zuerich/ein-schulstreit-eskaliert-eltern-wehren-sich-gegen-versetzung-ihrer-tochter-ld.10017207",
-        "https://www.nzz.ch/meinung/je-mehr-der-computer-in-der-schule-eingesetzt-wird-desto-schlechter-werden-die-leistungen-die-bildungselite-kuemmert-das-wenig-gut-fordert-eine-initiative-nun-eine-bildschirmfreie-primarschule-ld.10017283"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
+          "emotion": "realization",
           "count": 1
         },
         {
@@ -409,57 +437,164 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 2,
+      "article_count": 25,
       "sample_titles": [
-        "Forschung: Experten sehen TU München als mögliches Sicherheitsrisiko für Rüstungsfirmen",
-        "Interview: Präsident der Saar-Uni: „Wir müssen mit Einschränkungen der Wissenschaftsfreiheit leben“"
+        "Regelstudienzeit: Einfacher Trick: Diese Methode könnte das Studium beschleunigen",
+        "KI: Philosophen statt Programmierer: Profitieren Geisteswissenschaftler vom KI-Boom?﻿",
+        "Insight Innovation: KI, die sich selbst verbessert – die letzte Erfindung der Menschheit?",
+        "Meckel & Matthes: Deutschlands Zukunft, Bildung, Mindsetkrise – was Hörer bewegt"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/ruestung-experten-sehen-tu-muenchen-als-moegliches-sicherheitsrisiko/100240419.html",
-        "https://www.handelsblatt.com/politik/deutschland/cispa-wir-muessen-mit-einschraenkungen-der-wissenschaftsfreiheit-leben/100239796.html"
+        "https://www.handelsblatt.com/karriere/regelstudienzeit-diese-methode-koennte-das-studium-beschleunigen/100244713.html",
+        "https://www.handelsblatt.com/technik/ki/ki-warum-ki-unternehmen-jetzt-philosophen-einstellen/100238881.html",
+        "https://www.handelsblatt.com/technik/ki/innovation-ist-sich-selbst-verbessernde-ki-die-letzte-menschheitserfindung/100245212.html",
+        "https://www.handelsblatt.com/audio/meckel-und-matthes/meckel-matthes-deutschlands-zukunft-bildung-mindsetkrise-was-hoerer-bewegt/100245676.html"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 19,
+      "sample_titles": [
+        "«Praktische Fähigkeiten sind wichtiger als Allgemeinbildung», sagt der Bildungsforscher Stefan Wolter. Wer nur in der Theorie stark ist, bekommt Probleme",
+        "KOMMENTAR - Für fast jedes Problemchen gewähren Schulen heute einen Nachteilsausgleich. Dieser belohnt jedoch vor allem jene, die gar keine Hilfe nötig haben",
+        "DER ANDERE BLICK - Lehrer sind enorm wichtig.  Deshalb sollten sie in Deutschland keine Beamten sein",
+        "Das Wasserschloss trocknet aus – die Schweiz muss sich auf harte Verteilungskonflikte mit den Nachbarländern einstellen"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/praktische-faehigkeiten-sind-wichtiger-als-allgemeinbildung-sagt-der-bildungsforscher-stefan-wolter-wer-nur-in-der-theorie-stark-ist-bekommt-probleme-ld.10018606",
+        "https://www.nzz.ch/meinung/fuer-fast-jedes-problemchen-gewaehren-schulen-heute-einen-nachteilsausgleich-dieser-belohnt-jedoch-vor-allem-jene-die-gar-keine-hilfe-noetig-haben-ld.10018912",
+        "https://www.nzz.ch/der-andere-blick/lehrer-sind-enorm-wichtig-deshalb-sollten-sie-in-deutschland-keine-beamten-sein-ld.10018823",
+        "https://www.nzz.ch/schweiz/die-schweiz-das-wasserschloss-europas-das-stimmt-schon-lange-nicht-mehr-sagt-ein-hydrologe-die-schweiz-muss-sich-auf-harte-verteilkonflikte-mit-den-nachbarlaendern-einstellen-ld.10018473"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        }
+      ]
     },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 1,
+      "article_count": 10,
       "sample_titles": [
-        "Fördert die Bundeszentrale für politische Bildung Islam-Influencer?"
+        "Der Hauptmann von Cambridge",
+        "Macht der Klimawandel jetzt auch noch gewalttätig?",
+        "Als die Ökologie noch nicht strafte. Jacques-Yves Cousteau als Pionier der Meeresforschung.",
+        "Schrott-Studie erteilt Covid-Impfstoffen Absolution – und die Medien machen mit"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/foerdert_die_bundeszentrale_fuer_politische_bildung_islam_influencer"
+        "https://www.achgut.com/artikel/der_hauptmann_von_cambridge",
+        "https://www.achgut.com/artikel/macht_der_klimawandel_jetzt_auch_noch_gewalttaetig",
+        "https://www.achgut.com/artikel/als_die_oekologie_noch_nicht_strafte_jacques_yves_cousteau_als_pionier_der_meeresforschung",
+        "https://www.achgut.com/artikel/schrott_studie_erteilt_covid_impfstoffen_absolution_und_die_medien_machen_mit"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
           "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 4,
+      "sample_titles": [
+        "Bundeszentrale für Politische Bildung unter neuer Führung - Mitgift der Union im Schlingerkurs",
+        "Anthony Fauci vor dem US-Senat - Mister Wissenschaft beruft sich auf sein Schweigerecht",
+        "Kabinettsumbildung mit Hindernissen - Friedrich Merz stolpert in die Sommerpause",
+        "Mehr Aufklärung statt Überzeugungsarbeit - Wissenschaftskommunikation über Impfungen braucht mehr Ehrlichkeit"
+      ],
+      "urls": [
+        "https://www.cicero.de/innenpolitik/bundeszentrale-fur-politische-bildung-unter-neuer-fuhrung-mitgift-der-union-im-schlingerkurs",
+        "https://www.cicero.de/aussenpolitik/anthony-fauci-vor-dem-us-senat-mister-wissenschaft-beruft-sich-auf-sein-schweigerecht",
+        "https://www.cicero.de/innenpolitik/merz-kabinett-sommerpause-umbildung",
+        "https://www.cicero.de/innenpolitik/impfungen-aufklarung-statt-uberzeungsarbeit"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 3,
+      "sample_titles": [
+        "Trump streicht Empfehlungen für Kinderimpfungen zusammen",
+        "Schüler in Thailand tötet acht Menschen",
+        "Unter dem Schiefen Turm von Pisa bebt die Erde"
+      ],
+      "urls": [
+        "https://www.dw.com/de/trump-streicht-empfehlungen-für-kinderimpfungen-zusammen/a-78318308?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/schüler-in-thailand-tötet-acht-menschen/a-78276318?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/unter-dem-schiefen-turm-von-pisa-bebt-die-erde/a-78233410?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
     }
   },
   "bias_distribution": {
-    "far-right": 13,
-    "neutral": 52,
-    "populist-mixed": 8,
-    "conservative-liberal": 40,
-    "left-liberal": 69,
-    "right-conservative": 20,
-    "left": 7,
-    "economic-liberal": 2
+    "conservative-liberal": 170,
+    "populist-mixed": 31,
+    "right-conservative": 146,
+    "left": 32,
+    "left-liberal": 195,
+    "neutral": 139,
+    "far-right": 62,
+    "economic-liberal": 25
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Der deutsche Mediendiskurs zeigt unabhängig von politischer Ausrichtung eine breite Übereinstimmung darin, dass das Bildungssystem in strukturelle Krisen geraten ist: Der Lehrkräftemangel wird als faktisches Problem anerkannt (Seiteneinsteiger, Burnout-Warnung der GEW), Qualitätsprobleme bei Abschlüssen und ihre Anerkennung sind dokumentiert (Vechta-Skandal über falsche Zeugnisse wird übergreifend berichtet) und die soziale Selektivität der Förderung wird kritisiert (BAföG-Rückgang wird sowohl links als auch konservativ als Indiz für unzureichende Chancengleichheit problematisiert). Darüber hinaus findet sich ein konsensual geteiltes Unbehagen darüber, dass Schulen ihre grundlegenden Aufgaben nicht erfüllen: Von der HR-Umfrage zur schlechten Lebensvorbereitung über Berichte zu Gewalt und Sicherheit an Schulen bis zu Debatten über fehlende Lesekompetenzen und Hitzeschutz wird diagnostiziert, dass Schulen Schüler nicht angemessen auf ihre zukünftige Rolle in Gesellschaft und Arbeitswelt vorbereiten. Lediglich in der Deutung dieser Probleme (strukturelle Unterfinanzierung versus ideologische Fehlentwicklung) und in den geforderten Lösungsansätzen divergieren die Perspektiven erheblich.",
-      "controversial_points": "Der deutsche Bildungsdiskurs spaltet sich grundlegend zwischen einer linken Gerechtigkeitsperspektive und einer rechtskonservativen Leistungsorientierung. Die Linke prangert strukturelle Unterfinanzierung und soziale Selektion an, während die Rechte Disziplin, Leistungsstandards und schlanke Verwaltung fordert. Ein zweiter Konflikt verläuft zwischen Befürwortern progressiver Inhalte (Inklusion, Diversität, politische Bildung) und Kritikern, die darin ideologische Indoktrination sehen. Besonders sichtbar wird dieser Streit bei Fragen von Geschlechtervielfalt und Antirassismus in Schulen. Ein dritter Spannungsrahmen betrifft die Frage von Eliteförderung versus Chancengleichheit, speziell beim Hochschulzugang und der Ausstattung von Universitäten."
+      "shared_perspectives": "Synthese nicht verfügbar.",
+      "controversial_points": "Synthese nicht verfügbar."
     },
     "en": {
-      "shared_perspectives": "Across the political spectrum, German media discourse identifies a systemic crisis of teacher recruitment and retention driven by inadequate working conditions, material shortages, and deteriorating school infrastructure, with even conservative outlets reporting on classroom violence, burnout warnings from teacher unions, and the emergency reliance on career-switching newcomers rather than debating whether this crisis itself reflects policy failure. There is broad agreement spanning left to right that educational equity has contracted measurably, evidenced by recurring reports of credential fraud in Vechta, dramatic BAföG enrollment collapse to 25-year lows, and documented disparities in student preparation for professional life, framed as institutional accountability failures rather than merely individual scandals. German media across ideological lines treats digitalization of schools, AI literacy in workforce training, and structural incentives for lifelong learning as unavoidable policy imperatives, with even rightwing outlets acknowledging these represent necessary system adaptations rather than optional enhancements.",
-      "controversial_points": "# Structural Conflict Lines in German Education Discourse\n\nThe deepest divide separates those defending educational institutions' autonomy from those demanding external accountability and ideological scrutiny. Far-right and conservative voices attack universities and educational agencies as ideologically corrupted spaces requiring political intervention, while left-liberal outlets defend institutional independence and warn of politicization. A second fault line runs between investment-focused and cost-reduction approaches: left voices emphasize resource shortages and teacher burnout, while economic-liberal and some right-conservative voices question public spending on education administration. The third structural conflict concerns education's purpose itself, pitting those viewing schools as spaces for social stability and skills transmission against those seeing them as sites for social justice and identity exploration, visible in clashes over curriculum content and mandatory participation in certain educational activities. Finally, concrete material crises like teacher shortages and credential fraud expose a shared systemic failure across the political spectrum, yet different factions attribute blame to ideological mismanagement versus chronic underfunding, preventing consensus on solutions."
+      "shared_perspectives": "Synthesis not available.",
+      "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-08-09T05:38:23.236209"
+  "cached_at": "2026-08-12T06:18:18.544381"
 }
