@@ -4,22 +4,55 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 119,
+      "sample_titles": [
+        "Rente mit 63: Wie berechtigt ist die Kritik der Ostministerpräsidenten?",
+        "Vertrauensschutz und Rente: Wie viel Vorlauf braucht der Ausstieg aus der Rente ab 63?",
+        "Stimmung in Deutschland: Sorgt die Hitze für ein Revival der Klimapolitik?",
+        "Streit um Frührente: Wahlkampf-Populismus ist teuer für die Volkswirtschaft"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rente-mit-63-was-ist-dran-an-der-kritik-der-ostdeutschen-ministerpraesidenten-201126003.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rente-ab-63-wie-viel-vorlauf-braucht-der-ausstieg-201125850.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bundesregierung-reformen-spalten-deutschland-tief-201122455.html",
+        "https://www.faz.net/aktuell/wirtschaft/cdu-und-spd-uebernehmen-strategie-der-afd-wahlkampf-populismus-ist-teuer-201104562.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 13
+        },
+        {
+          "emotion": "confusion",
+          "count": 7
+        },
+        {
+          "emotion": "admiration",
+          "count": 5
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 117,
+      "article_count": 116,
       "sample_titles": [
-        "„Sie belasten an vielen anderen Stellen zusätzlich, sodass unterm Strich keine Entlastung da ist“",
-        "„Das ist eine Drohkulisse“ – Schwesig wirft Bundesregierung „faktische Rentenkürzung“ vor",
-        "„Menschen dürfen nicht wie eine Zitrone ausgequetscht werden“, mahnt die Gewerkschafterin",
-        "„Dramatisch schlechte Stimmung“ – Riesige Mehrheit stellt sich gegen Rentenpläne der Regierung"
+        "Deutlich höhere Renten möglich – So gewaltig wäre der Effekt der Rentenreform schon heute",
+        "Rente, Bafög, CO₂-Preis – das hat das Bundeskabinett heute beschlossen",
+        "Bund zahlt zehn Euro monatlich für Kinder ab sechs Jahren",
+        "„Sie belasten an vielen anderen Stellen zusätzlich, sodass unterm Strich keine Entlastung da ist“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/video6a79bd040e3689919ec76a58/entwurf-fuer-die-steuerreform-sie-belasten-an-vielen-anderen-stellen-zusaetzlich-sodass-unterm-strich-keine-entlastung-da-ist.html",
-        "https://www.welt.de/politik/deutschland/article6a799658e22753e756e9b7e2/rente-das-ist-eine-drohkulisse-schwesig-wirft-bundesregierung-faktische-rentenkuerzung-vor.html",
-        "https://www.welt.de/politik/deutschland/article6a77ce8735268e5027022ff2/rente-mit-63-gewerkschaften-gegen-abschaffung-menschen-duerfen-nicht-ausgequetscht-werden.html",
-        "https://www.welt.de/politik/deutschland/article6a77780a35268e5027022e6b/umfrage-dramatisch-schlechte-stimmung-riesige-mehrheit-stellt-sich-gegen-rentenplaene-der-regierung.html"
+        "https://www.welt.de/finanzen/plus6a798f4297ee93b7ce854822/neue-altersvorsorge-deutlich-hoehere-renten-moeglich-so-gewaltig-waere-der-effekt-der-rentenreform-schon-heute.html",
+        "https://www.welt.de/politik/deutschland/article6a7c5343169e8e32c0ae54f8/reformen-rente-bafoeg-co-preis-das-hat-das-bundeskabinett-heute-beschlossen.html",
+        "https://www.welt.de/wirtschaft/video6a7c51c3a87e8142c31cdb17/boerse-am-mittag-bund-zahlt-zehn-euro-monatlich-fuer-kinder-ab-sechs-jahren.html",
+        "https://www.welt.de/politik/deutschland/video6a79bd040e3689919ec76a58/entwurf-fuer-die-steuerreform-sie-belasten-an-vielen-anderen-stellen-zusaetzlich-sodass-unterm-strich-keine-entlastung-da-ist.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -37,55 +70,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 112,
-      "sample_titles": [
-        "Altersvorsorgedepot: Staatlich gefördert an die Börse",
-        "Hanks Welt: Den Politikern ist nicht zu trauen",
-        "Früher in Rente?: So arm sind die Ost-Rentner nicht",
-        "Altersvorsorge: Deutsche trauen der Aktie mehr als der Rente"
-      ],
-      "urls": [
-        "https://www.faz.net/podcasts/f-a-z-finanzen-immobilien/wie-funktioniert-das-neue-altersvorsorgedepot-faz-podcast-201116140.html",
-        "https://www.faz.net/aktuell/wirtschaft/hanks-welt/lars-p-feld-warum-politikern-nicht-zu-trauen-ist-201101579.html",
-        "https://www.faz.net/aktuell/wirtschaft/ost-renten-sind-ostdeutsche-wirklich-benachteiligt-accg-201104965.html",
-        "https://www.faz.net/aktuell/finanzen/altersvorsorge-vertrauen-der-deutschen-in-die-rente-sinkt-110179997.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 12
-        },
-        {
-          "emotion": "confusion",
-          "count": 8
-        },
-        {
-          "emotion": "admiration",
-          "count": 5
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 96,
+      "article_count": 94,
       "sample_titles": [
-        "Vor allem Osten hält daran fest: Große Mehrheit ist gegen Abschaffung der \"Rente mit 63\"",
-        "Oft aus Eigeninteresse: Umfrage: Große Mehrheit will \"Rente mit 63\" behalten",
-        "Referentenentwurf durchgestochen: Steuerreform gleicht kalte Progression vorerst nicht aus",
-        "VIP VIP, Hurra!: Sexy bis zur Pflegestufe - was eine 85-Jährige auf Onlyfans mit Ihrer Rente zu tun hat"
+        "\"Lücken an den Arbeitsmärkten\": Studie: Ostdeutschland drohen ohne Zuwanderung Wohlstandsverluste",
+        "\"Lange Übergangsfrist\": SPD-Expertin erklärt Ausstiegsplan für \"Rente mit 63\"",
+        "Warentest macht den Abwasch: Das sind die besten Multigeschirrspülmittel",
+        "Staatlicher Zuschuss pro Monat: Kabinett bringt Frühstartrente auf den Weg"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Grosse-Mehrheit-ist-gegen-Abschaffung-der-Rente-mit-63-id31181165.html",
-        "https://www.n-tv.de/politik/Umfrage-Grosse-Mehrheit-will-Rente-mit-63-behalten-id31173638.html",
-        "https://www.n-tv.de/politik/Steuerreform-gleicht-kalte-Progression-vorerst-nicht-aus-id31172931.html",
-        "https://www.n-tv.de/leute/Sexy-bis-zur-Pflegestufe-was-eine-85-Jaehrige-auf-Onlyfans-mit-Ihrer-Rente-zu-tun-hat-id31167677.html"
+        "https://www.n-tv.de/wirtschaft/Studie-Ostdeutschland-drohen-ohne-Zuwanderung-Wohlstandsverluste-id31192395.html",
+        "https://www.n-tv.de/politik/SPD-Expertin-erklaert-Ausstiegsplan-fuer-Rente-mit-63-id31192214.html",
+        "https://www.n-tv.de/ratgeber/Das-sind-die-besten-Multigeschirrspuelmittel-id31185528.html",
+        "https://www.n-tv.de/politik/Kabinett-bringt-Fruehstartrente-auf-den-Weg-id31183074.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -98,7 +98,7 @@
           "count": 6
         },
         {
-          "emotion": "disapproval",
+          "emotion": "confusion",
           "count": 3
         }
       ]
@@ -109,16 +109,16 @@
       "bias": "economic-liberal",
       "article_count": 68,
       "sample_titles": [
-        "Medienbericht: Wegen Wettbewerbsklagen – Paramount will offenbar aus Kalifornien wegziehen",
-        "Rentenreform: Droht bald eine Kündigung statt der Altersteilzeit?",
-        "Rentenreform: Droht bald eine Kündigung statt der Altersteilzeit?",
-        "Zukunftsgestalter: Dieses Unternehmen machte aus 43 Marken genau eine"
+        "Geld. Leben. Looman: Sie sorgen sich um Ihre Rente? Werden Sie Politiker!",
+        "Alterssicherung: Fünf Jahre Übergangsfrist bis zum Aus für „Rente mit 63“?",
+        "Alterssicherung: Dieser Kompromiss könnte die „Rente mit 63“ ersetzen",
+        "Reformen: Neue Befugnisse für Geheimdienste, Zoll und Altersvorsorge – das hat das Kabinett heute beschlossen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/it-medien/medienbericht-wegen-wettbewerbsklagen-paramount-will-offenbar-aus-kalifornien-wegziehen/100246634.html",
-        "https://www.handelsblatt.com/politik/deutschland/rentenreform-droht-bald-eine-kuendigung-statt-der-altersteilzeit-01/100246204.html",
-        "https://www.handelsblatt.com/politik/deutschland/rentenreform-droht-bald-kuendigung-statt-der-altersteilzeit/100246204.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/transformation-dieses-unternehmen-machte-aus-43-marken-genau-eine/100238557.html"
+        "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geld.-leben.-looman-sie-sorgen-sich-um-ihre-rente-werden-sie-politiker/100247013.html",
+        "https://www.handelsblatt.com/politik/deutschland/alterssicherung-fuenf-jahre-uebergangsfrist-bis-zum-aus-fuer-rente-mit-63/100247289.html",
+        "https://www.handelsblatt.com/politik/deutschland/alterssicherung-dieser-kompromiss-koennte-die-rente-mit-63-ersetzen/100246554.html",
+        "https://www.handelsblatt.com/politik/deutschland/reform-kabinett-beschliesst-weitreichende-geheimdienstreform/100246746.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -131,7 +131,7 @@
           "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -140,18 +140,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 65,
+      "article_count": 68,
       "sample_titles": [
-        "Rente mit 63: Gewerkschaften gegen Abschaffung",
-        "Thorsten Frei will Rentenreform mit Härtefall- und Übergangsregeln abfedern",
-        "Glasfaser: Fairplay-Vereinbarung soll Netzausbau beschleunigen",
-        "Rente mit 63: Michael Kretschmer, Sven Schulze und Mario Voigt lehnen sich auf – und widersprechen sich"
+        "SPD-Rentenexpertin schlägt Abschaffung der »Rente mit 63« in fünf Jahren vor",
+        "Rente: Kabinett beschließt Frühstartrente von Lars Klingbeil",
+        "Noch 37.000 Deutsche beziehen DDR-Opferrente",
+        "Rente mit 63: Gewerkschaften gegen Abschaffung"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/deutschland/rente-mit-63-gewerkschaften-gegen-abschaffung-a-2f52a959-c99b-4c82-9016-79764595701e#ref=rss",
-        "https://www.spiegel.de/politik/thorsten-frei-will-rentenreform-mit-haertefall-und-uebergangsregeln-abfedern-a-b459fceb-1e83-4336-aea7-1e50e00265b8#ref=rss",
-        "https://www.spiegel.de/netzwelt/glasfaser-fairplay-vereinbarung-soll-netzausbau-beschleunigen-a-fcc8cb40-1f86-4e7d-9b14-f3a8c60f39af#ref=rss",
-        "https://www.spiegel.de/wirtschaft/soziales/rente-mit-63-michael-kretschmer-sven-schulze-und-mario-voigt-lehnen-sich-auf-und-widersprechen-sich-a-28bd977a-2a05-4fc7-9340-6e2c40d08402#ref=rss"
+        "https://www.spiegel.de/wirtschaft/spd-rentenexpertin-schlaegt-abschaffung-der-rente-mit-63-in-fuenf-jahren-vor-a-0324af14-cbe4-45d8-bf3d-cba48778fd78#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/rente-kabinett-beschliesst-fruehstartrente-von-lars-klingbeil-a-10990e16-7f7b-4327-a648-823416b95cd5#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/sed-opferbeauftragte-will-ddr-geschichte-im-unterricht-verankern-a-12228fd9-d063-47b2-8a3e-f77b6d332497#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/rente-mit-63-gewerkschaften-gegen-abschaffung-a-2f52a959-c99b-4c82-9016-79764595701e#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -173,18 +173,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 62,
+      "article_count": 58,
       "sample_titles": [
+        "Linke kritisiert Frühstartrente: „Kinder brauchen keine Casino-Rente“",
         "Witwenrente: Rente nach Todesfällen – so viel Geld können Hinterbliebene erhalten",
         "Umfrage: Mehrheit der Deutschen gegen Abschaffung der „Rente mit 63“",
-        "Rentenpaket: Kommt eine Härtefall-Regelung im Streit um die Rente mit 63?",
-        "Rentenreform: Umfrage: Mehrheit gegen Abschaffung der „Rente mit 63“"
+        "Rentenpaket: Kommt eine Härtefall-Regelung im Streit um die Rente mit 63?"
       ],
       "urls": [
+        "https://www.stern.de/news/linke-kritisiert-fruehstartrente---kinder-brauchen-keine-casino-rente--38092970.html",
         "https://www.stern.de/wirtschaft/geld/witwenrente--so-viel-geld-koennen-hinterbliebene-erhalten-38071496.html",
         "https://www.stern.de/news/umfrage--mehrheit-der-deutschen-gegen-abschaffung-der--rente-mit-63--38080696.html",
-        "https://www.stern.de/politik/deutschland/rentenpaket--kommt-eine-haertefall-regelung-im-streit-um-die-rente-mit-63--38079706.html",
-        "https://www.stern.de/politik/deutschland/rentenreform--umfrage--mehrheit-gegen-abschaffung-der--rente-mit-63--38078112.html"
+        "https://www.stern.de/politik/deutschland/rentenpaket--kommt-eine-haertefall-regelung-im-streit-um-die-rente-mit-63--38079706.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -194,11 +194,11 @@
         },
         {
           "emotion": "optimism",
-          "count": 6
+          "count": 5
         },
         {
-          "emotion": "annoyance",
-          "count": 3
+          "emotion": "excitement",
+          "count": 2
         }
       ]
     },
@@ -206,18 +206,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 51,
+      "article_count": 50,
       "sample_titles": [
-        "Frei fordert von Bas Tempo bei Rentenreform",
-        "Härtefall-Regeln, Vertrauensschutz oder Abschaffung?",
-        "Mehr Rentner im Saarland",
-        "Frauen in Hessen bekommen im Schnitt nur 970 Euro Rente"
+        "Wie funktioniert Österreichs Rente mit 60?",
+        "Frühstartrente,  Schul-Gleitzeit, Fake-Autoverkäufe",
+        "\"Ein Startkapital für die eigene Altersvorsorge\"",
+        "Frei fordert von Bas Tempo bei Rentenreform"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/frei-rente-reform-tempo-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/rentendiskussion-102.html",
-        "https://www.sr.de/sr/home/nachrichten/panorama/mehr_rentner_saarland_100.html",
-        "https://www.hessenschau.de/gesellschaft/frauen-in-hessen-bekommen-im-schnitt-nur-970-euro-rente-v1,rente-126.html"
+        "https://www.tagesschau.de/ausland/europa/oesterreich-schwerarbeitpension-100.html",
+        "https://www.tagesschau.de/multimedia/podcast/15-minuten/15-minuten-fruehstartrente-schule-autokauf-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/kabinettsbeschluss-fruehstartrente-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/frei-rente-reform-tempo-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -227,11 +227,11 @@
         },
         {
           "emotion": "desire",
-          "count": 4
+          "count": 3
         },
         {
-          "emotion": "disappointment",
-          "count": 1
+          "emotion": "confusion",
+          "count": 2
         }
       ]
     },
@@ -239,7 +239,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 48,
+      "article_count": 46,
       "sample_titles": [
         "Dabei war sich die Regierung doch einig - Rentenreform auf der Kippe!",
         "Neuer Armuts-Schock - Jeder zweiten Frau reicht ihre Rente nicht",
@@ -274,16 +274,16 @@
       "bias": "neutral",
       "article_count": 45,
       "sample_titles": [
-        "Warum die \"Rente mit 63\" entscheidend für die Reformpläne ist",
-        "Ringen um \"Rente mit 63\": Regierung weiter uneinig",
-        "\"Rente mit 63\" im Osten: Zahlen und Fakten",
-        "Aus von \"Rente mit 63\": Osten wäre \"stark betroffen\""
+        "Sollten Beamte in die gesetzliche Altersvorsorge einzahlen?",
+        "Grünes Licht für Frühstartrente: Wer davon profitieren kann",
+        "Finanzminister Klingbeil: „Haben Kultur der Sparbücher“",
+        "Spotify will KI-generierte Profile kennzeichnen"
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/rente-mit-63-rentenreform-kosten-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rente-63-frei-bovenschulte-abschaffung-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rente-osten-63-statistik-faq-100.html",
-        "https://www.zdfheute.de/politik/deutschland/schwesig-rente-abschlagsfrei-reform-100.html"
+        "https://www.zdfheute.de/video/beamte-rente-pensionen-drotschmann-xplained-100.html",
+        "https://www.zdfheute.de/politik/deutschland/fruehstart-rente-erklaerung-vorteile-eltern-kind-100.html",
+        "https://www.phoenix.de/fruehstartrente-a-5224892.html",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/spotify-kuenstliche-intelligenz-profil-kennzeichnung-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -292,11 +292,11 @@
           "count": 5
         },
         {
-          "emotion": "desire",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "desire",
           "count": 2
         }
       ]
@@ -307,16 +307,16 @@
       "bias": "left",
       "article_count": 34,
       "sample_titles": [
+        "Reform der Altersvorsorge: Die Rente beginnt im Kinderzimmer",
+        "„Frühstartrente“ für Kinder: Omas Sparschwein 2.0",
         "Debatte um Rente: Nicht einlassen auf das Krümelverteilergerede von oben",
-        "Linken-Politikerin von Angern zur Rente: „Dem Kanzler ist der Osten egal“",
-        "Streit um Rente mit 63: Passgenauer Populismus",
-        "Vorstoß zur Rente mit 63: Die Scheindebatte des Jahres"
+        "Linken-Politikerin von Angern zur Rente: „Dem Kanzler ist der Osten egal“"
       ],
       "urls": [
+        "https://taz.de/Reform-der-Altersvorsorge/!6203858/",
+        "https://taz.de/Fruehstartrente-fuer-Kinder/!6203790/",
         "https://taz.de/Debatte-um-Rente/!6202979/",
-        "https://taz.de/Linken-Politikerin-von-Angern-zur-Rente/!6202467/",
-        "https://taz.de/Streit-um-Rente-mit-63/!6202331/",
-        "https://taz.de/Rente-mit-63-Die-Scheindebatte-des-Jahres/!6196913/"
+        "https://taz.de/Linken-Politikerin-von-Angern-zur-Rente/!6202467/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -338,7 +338,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 27,
+      "article_count": 26,
       "sample_titles": [
         "Vorzeitiger Renteneintritt: Gewerkschaften fordern Erhalt der Rente mit 63",
         "Rente: Viele Renten trotz 45 Versicherungsjahren unter Armutsrisikoschwelle",
@@ -373,16 +373,16 @@
       "bias": "left-liberal",
       "article_count": 24,
       "sample_titles": [
+        "Wettbewerb auf der Schiene: Bahn klagt gegen die Vorteile für italienischen Anbieter Italo",
         "Transparente Behörden: „Frei von Informationen“",
         "Interview: „Schmerz ist doch kein Qualitätsmerkmal für Reformen“",
-        "Sozialdemokraten: „Wenn ihr bei mir klingelt, polier ich euch die Fresse“",
-        "Podcast: „Auf den Punkt“: Merz' neuestes Problem: der Rentenstreit"
+        "Sozialdemokraten: „Wenn ihr bei mir klingelt, polier ich euch die Fresse“"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/deutsche-bahn-wettbewerb-fernverkehr-italo-klage-vorteile-li.3531338",
         "https://www.sueddeutsche.de/kolumne/informationsfreiheitsgesetz-leserbriefe-li.3524764",
         "https://www.sueddeutsche.de/politik/anke-rehlinger-spd-rentenreform-pflege-saarland-li.3522162",
-        "https://www.sueddeutsche.de/politik/spd-rente-kluessendorf-sachsen-anhalt-li.3527961",
-        "https://www.sueddeutsche.de/politik/auf-den-punkt-podcast-merz-rente-li.3526473"
+        "https://www.sueddeutsche.de/politik/spd-rente-kluessendorf-sachsen-anhalt-li.3527961"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -404,7 +404,7 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 23,
+      "article_count": 21,
       "sample_titles": [
         "Stabile Renten erfordern eine starke Wirtschaft",
         "Gnadenlose Abrechnung: Wolfgang Herles über Boomer-Versagen, Merz und Altersdiskriminierung",
@@ -421,7 +421,7 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "disapproval",
@@ -437,18 +437,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 13,
+      "article_count": 14,
       "sample_titles": [
+        "„Lange Übergangsfristen sinnvoll“ SPD will Frührente noch fünf Jahre schützen",
+        "Sozialpolitik „Lasse mich nicht erpressen“ – Lauterbach rüttelt an Rentenreform",
         "Schwarz-Rot in der Krise Die letzte Patrone der Demokratie gibt sich die Kugel",
-        "Arbeitgeber entsetzt „Ministerpräsidenten verspielen letzte Chance“",
-        "„Einschnitte, die auch wehtun“ Günther verteidigt Rentenreform – gegen parteiinternen Widerstand",
-        "DIW-Chef Fratzscher verteidigt Abschaffung der Rente mit 63"
+        "Arbeitgeber entsetzt „Ministerpräsidenten verspielen letzte Chance“"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/spd-will-fruehrente-noch-fuenf-jahre-schuetzen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/lasse-mich-nicht-erpressen-lauterbach-ruettelt-an-rentenreform/",
         "https://jungefreiheit.de/debatte/kommentar/2026/die-letzte-patrone-der-demokratie-gibt-sich-die-kugel/",
-        "https://jungefreiheit.de/politik/deutschland/2026/ministerpraesidenten-verspielen-letzte-chance/",
-        "https://jungefreiheit.de/politik/deutschland/2026/guenther-verteidigt-rentenreform-gegen-parteiinternen-widerstand/",
-        "https://jungefreiheit.de/politik/deutschland/2026/fratzscher-verteidigt-abschaffung-der-rente-mit-63/"
+        "https://jungefreiheit.de/politik/deutschland/2026/ministerpraesidenten-verspielen-letzte-chance/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -462,31 +462,31 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 10,
+      "article_count": 12,
       "sample_titles": [
+        "Das sind die grössten Kostenfallen bei der Geldanlage in der Schweiz – und so kann man sie vermeiden",
+        "KOMMENTAR - Ärzte bereichern sich illegal: Jetzt müssen die Krankenkassen in die Verantwortung",
         "KOMMENTAR - Grossfusionen sind meist zum Misserfolg verdammt: Daran sollte sich auch AstraZeneca erinnern",
-        "DER ANDERE BLICK - Die ostdeutschen Ministerpräsidenten wollen die Rente mit 63 retten. Das ist falsch. Die Frührente muss weg",
-        "Ein neuer Fall von «Rentenklau»? Die Finanzmarktaufsicht nimmt die Versicherung Zurich unter die Lupe",
-        "Mitten im Handelsstreit mit den USA: Die EU wagt die Konfrontation mit Google und spricht eine Busse von 890 Millionen Euro aus"
+        "DER ANDERE BLICK - Die ostdeutschen Ministerpräsidenten wollen die Rente mit 63 retten. Das ist falsch. Die Frührente muss weg"
       ],
       "urls": [
+        "https://www.nzz.ch/finanzen/groesste-kostenfallen-bei-geldanlagen-in-der-schweiz-so-vermeiden-sie-sie-ld.10019339",
+        "https://www.nzz.ch/meinung/aerzte-bereichern-sich-illegal-jetzt-muessen-die-krankenkassen-in-die-verantwortung-ld.10019441",
         "https://www.nzz.ch/meinung/spekulationen-ueber-grossfusion-astrazeneca-haette-wenig-von-bms-ld.10018916",
-        "https://www.nzz.ch/der-andere-blick/die-ostdeutschen-ministerpraesidenten-wollen-die-rente-mit-63-retten-das-ist-falsch-die-fruehrente-muss-weg-ld.10017953",
-        "https://www.nzz.ch/wirtschaft/ein-neuer-fall-von-rentenklau-die-finanzmarktaufsicht-nimmt-die-versicherung-zurich-unter-die-lupe-ld.10017152",
-        "https://www.nzz.ch/wirtschaft/eu-verhaengt-890-millionen-euro-strafe-gegen-google-ld.10016712"
+        "https://www.nzz.ch/der-andere-blick/die-ostdeutschen-ministerpraesidenten-wollen-die-rente-mit-63-retten-das-ist-falsch-die-fruehrente-muss-weg-ld.10017953"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
           "count": 1
         },
         {
           "emotion": "pride",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -536,24 +536,24 @@
     }
   },
   "bias_distribution": {
+    "conservative-liberal": 133,
+    "far-right": 38,
+    "right-conservative": 210,
     "economic-liberal": 68,
-    "conservative-liberal": 124,
-    "right-conservative": 213,
-    "left-liberal": 178,
-    "far-right": 39,
-    "populist-mixed": 48,
+    "left-liberal": 176,
+    "neutral": 95,
     "left": 34,
-    "neutral": 96
+    "populist-mixed": 46
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im gesamten deutschen Mediendiskurs wird die „Rente mit 63“ als zentrales Symbol für die Angst vor einer vorzeitigen Abschaffung von Sozialleistungen genannt, wobei sowohl linke als auch rechte und liberale Beiträge betonen, dass große Teile der Bevölkerung – insbesondere im Osten – den Erhalt dieses Anspruchs fordern. Gleichzeitig wird in allen Richtungen die demografische Alterung als strukturelle Belastung der gesetzlichen Rentenversicherung dargestellt, die eine Reform zwingt, die Generationengerechtigkeit und die Vermeidung von Altersarmut sicherstellen muss. Schließlich vereinigen die Berichte die Kritik an geplanten Anhebungen des Renteneintrittsalters mit dem Hinweis, dass kapitalgedeckte Modelle wie die Aktien‑ oder Riester‑Rente zwar als Ergänzung präsentiert werden, aber allein die Finanzierbarkeit des Gesamtsystems nicht lösen können.",
-      "controversial_points": "Das Rentenalter wird zwischen Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Versicherung ausgetragen. Kapitalgedeckte Modelle stoßen auf Skepsis, weil sie soziale Sicherung mit Marktrisiken verbinden. Ostdeutsche Regionen fordern den Erhalt der Rente mit 63, während zentrale Parteien Kürzungen zur Stabilisierung fordern. Frauen sehen sich besonders von Rentenlücken betroffen, was die Debatte um Geschlechtergerechtigkeit verstärkt."
+      "shared_perspectives": "Im gesamten Diskurs wird die „Rente mit 63“ als zentrale Kostenfalle dargestellt, wobei alle Lager – von konservativen über linke bis zu populistischen Medien – betonen, dass ein vorzeitiger Renteneintritt die Finanzierbarkeit der gesetzlichen Rentenversicherung gefährdet und deshalb nur mit langen Übergangsfristen oder klaren Kompensationsmechanismen umgesetzt werden könne. Gleichzeitig wird der demografische Wandel als unabdingbare Hintergrundbedingung genannt, die den Druck auf das Umlageverfahren erhöht und eine Generationengerechtigkeit zwischen jüngeren Beitragszahlern und älteren Rentnern zwingend macht. Schließlich finden sich in den Beiträgen beider politischer Spektren übereinstimmende Warnungen, dass populistische Frühstartrenten‑Versprechen ohne nachhaltige Reformen zu höheren Sozialausgaben und einer Belastung der Gesamtwirtschaft führen würden.",
+      "controversial_points": ""
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media agree that demographic ageing creates a fiscal gap that the statutory pay‑as‑you‑go pillar cannot fill alone, leading to calls for a complementary capital‑based element and for explicit hardship rules to protect low‑earning retirees, especially women. At the same time there is broad acknowledgment that the proposed abolition of the “Rente mit 63” meets strong popular resistance, particularly in the former East, and that any reform must balance intergenerational equity with the need to preserve a basic retirement income.",
-      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability of the pay‑as‑you‑go system. Liberal market advocates push for capital‑funded Riester products while unions demand protection of the statutory 63‑year pension. Regional cleavages show East Germans overwhelmingly support maintaining early retirement, contrasting with West‑centric calls for raising the retirement age. Fiscal conservatives frame pension hikes as tax burdens, whereas left‑leaning parties frame them as social justice to prevent old‑age poverty."
+      "shared_perspectives": "German media across the spectrum agree that the “Rente mit 63” proposal is financially untenable without a clearly defined transition period and that any early‑retirement measure must be funded in a way that does not increase the burden on younger workers facing demographic shrinkage. At the same time there is a shared recognition that pension poverty, especially among women and former East‑German retirees, is a pressing social issue that any reform must address through stronger safety nets or supplemental private savings. Finally, commentators from liberal, conservative and left‑leaning outlets converge on the view that sustainable pension policy requires a balance between inter‑generational fairness and maintaining a competitive economy, even if they differ on the exact mix of public versus capital‑funded components.",
+      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability of the pay‑as‑you‑go system. Conservatives frame early retirement as a social right; left parties see it as wealth redistribution harming younger workers. Economic liberals stress market‑based capital pensions and argue that state subsidies distort competition and burden taxpayers. Regional divides surface as eastern politicians demand protection against pension cuts, while western parties emphasize national fiscal discipline."
     }
   },
-  "cached_at": "2026-08-12T06:04:32.384134"
+  "cached_at": "2026-08-15T05:08:03.207926"
 }
