@@ -8,7 +8,7 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 120,
+      "article_count": 118,
       "sample_titles": [
         "AKW läuft weiter: Spanien verzögert den Atomausstieg",
         "Stimmung in Deutschland: Sorgt die Hitze für ein Revival der Klimapolitik?",
@@ -202,11 +202,44 @@
         }
       ]
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 56,
+      "sample_titles": [
+        "Klimakrise und Kraftwerke: Wie belastbar ist die Energieversorgung bei Hitze und Dürre?",
+        "Überhitzte Reaktoren: Frankreichs Atomkraftwerke brauchen Kühlung",
+        "Nach taz-Recherche: Linke verurteilt statistische Lücke zu hitzetotem Vieh",
+        "Niedrigwasser in Flüssen: Kaum noch Schiffe auf dem Rhein unterwegs"
+      ],
+      "urls": [
+        "https://taz.de/Klimakrise-und-Kraftwerke/!6204420/",
+        "https://taz.de/Ueberhitzte-Reaktoren/!6204432/",
+        "https://taz.de/Nach-taz-Recherche/!6204175/",
+        "https://taz.de/Niedrigwasser-in-Fluessen/!6204211/"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 10
+        },
+        {
+          "emotion": "approval",
+          "count": 5
+        },
+        {
+          "emotion": "annoyance",
+          "count": 4
+        }
+      ]
+    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 57,
+      "article_count": 56,
       "sample_titles": [
         "Klima: KI führt laut Studie zu mehr Emissionen aus Kohle, Öl und Gas",
         "Donau-Niedrigwasser: Rumänien will einziges AKW Cernavodă herunterfahren",
@@ -235,55 +268,22 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 56,
-      "sample_titles": [
-        "Überhitzte Reaktoren: Frankreichs Atomkraftwerke brauchen Kühlung",
-        "Nach taz-Recherche: Linke verurteilt statistische Lücke zu hitzetotem Vieh",
-        "Niedrigwasser in Flüssen: Kaum noch Schiffe auf dem Rhein unterwegs",
-        "Niedrigwasser in der Donau: Einziges Atomkraftwerk von Rumänien wird abgeschaltet"
-      ],
-      "urls": [
-        "https://taz.de/Ueberhitzte-Reaktoren/!6204432/",
-        "https://taz.de/Nach-taz-Recherche/!6204175/",
-        "https://taz.de/Niedrigwasser-in-Fluessen/!6204211/",
-        "https://taz.de/Niedrigwasser-in-der-Donau/!6204036/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 10
-        },
-        {
-          "emotion": "approval",
-          "count": 5
-        },
-        {
-          "emotion": "annoyance",
-          "count": 4
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 39,
+      "article_count": 40,
       "sample_titles": [
+        "Lebensraum für seltene Arten: Warum Moore bei Trockenheit Treibhausgase freisetzen können",
         "Sicherheit des Stromnetzes: Senat stellt Maßnahmen zum Schutz von Infrastruktur vor",
         "Energie: Wirtschaftsministerium: Kohleausstiegs-Bericht kommt später",
-        "Windkraft in den USA: Deal mit Windkraftgegner Trump: RWE stoppt Offshore-Projekte",
-        "Energiepolitik: Grüne: Reiches Politik verhindert günstige Strompreise"
+        "Windkraft in den USA: Deal mit Windkraftgegner Trump: RWE stoppt Offshore-Projekte"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/lebensraum-fuer-seltene-arten--warum-moore-bei-trockenheit-treibhausgase-freisetzen-koennen-38109352.html",
         "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/sicherheit-des-stromnetzes--senat-stellt-massnahmen-zum-schutz-von-infrastruktur-vor-38091910.html",
         "https://www.stern.de/wirtschaft/news/energie--wirtschaftsministerium--kohleausstiegs-bericht-kommt-spaeter-38089706.html",
-        "https://www.stern.de/wirtschaft/news/windkraft-in-den-usa--deal-mit-windkraftgegner-trump--rwe-stoppt-offshore-projekte-38069954.html",
-        "https://www.stern.de/wirtschaft/news/energiepolitik--gruene--reiches-politik-verhindert-guenstige-strompreise-38070126.html"
+        "https://www.stern.de/wirtschaft/news/windkraft-in-den-usa--deal-mit-windkraftgegner-trump--rwe-stoppt-offshore-projekte-38069954.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -298,6 +298,39 @@
         {
           "emotion": "confusion",
           "count": 2
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 31,
+      "sample_titles": [
+        "Warum Strom bei uns so teuer ist und wer daran was verdient",
+        "Strompreis: Mit Batteriespeichern wieder stabil und günstig?",
+        "Rumänien schaltet Kernkraftwerk Cernavoda vollständig ab",
+        "Ökonomen warnen vor Wirtschaftsplänen der AfD"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/wirtschaft/strompreis-strom-energiekosten-deutschland-100.html",
+        "https://www.zdfheute.de/politik/batterie-speicher-strom-energie-100.html",
+        "https://www.zdfheute.de/panorama/akw-abschaltung-rumaenien-donau-niedrigwasser-cernavoda-100.html",
+        "https://www.zdfheute.de/politik/deutschland/afd-landtagswahlen-ostdeutschland-wirtschaft-wahlprogramm-kritik-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
         }
       ]
     },
@@ -334,55 +367,22 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 30,
-      "sample_titles": [
-        "Strompreis: Mit Batteriespeichern wieder stabil und günstig?",
-        "Rumänien schaltet Kernkraftwerk Cernavoda vollständig ab",
-        "Ökonomen warnen vor Wirtschaftsplänen der AfD",
-        "ISS-Astronauten installieren Solarpanel"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/batterie-speicher-strom-energie-100.html",
-        "https://www.zdfheute.de/panorama/akw-abschaltung-rumaenien-donau-niedrigwasser-cernavoda-100.html",
-        "https://www.zdfheute.de/politik/deutschland/afd-landtagswahlen-ostdeutschland-wirtschaft-wahlprogramm-kritik-100.html",
-        "https://www.zdfheute.de/video/zdfheute-xpress/iss-nasa-astronaut-ausseneinsatz-solarpanel-video-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
       "article_count": 29,
       "sample_titles": [
+        "Lebensraum für seltene Arten: Warum Moore bei Trockenheit Treibhausgase freisetzen können",
         "Windkraft in den USA: Wie ein deutscher Energiekonzern Trumps Klimawahn stützt",
         "Hitzewelle in Frankreich: Und jetzt auch noch eine Quallenplage",
-        "Sicherheit des Stromnetzes: Senat stellt Maßnahmen zum Schutz von Infrastruktur vor",
-        "Windkraft in den USA: Deal mit Windkraftgegner Trump: RWE stoppt Offshore-Projekte"
+        "Sicherheit des Stromnetzes: Senat stellt Maßnahmen zum Schutz von Infrastruktur vor"
       ],
       "urls": [
+        "https://www.zeit.de/news/2026-08/15/warum-moore-bei-trockenheit-treibhausgase-freisetzen-koennen",
         "https://www.zeit.de/politik/deutschland/2026-08/windkraft-usa-rwe-donald-trump-deal",
         "https://www.zeit.de/wirtschaft/2026-08/hitzewelle-frankreich-atomkraftwerke-strom-energieversorgung",
-        "https://www.zeit.de/news/2026-08/12/senat-stellt-massnahmen-zum-schutz-von-infrastruktur-vor",
-        "https://www.zeit.de/news/2026-08/07/deal-mit-windkraftgegner-trump-rwe-stoppt-offshore-projekte"
+        "https://www.zeit.de/news/2026-08/12/senat-stellt-massnahmen-zum-schutz-von-infrastruktur-vor"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -503,18 +503,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 11,
+      "article_count": 12,
       "sample_titles": [
+        "Grüner Stahl So wird die Wasserstoff-Desinformation betrieben",
         "Kohleausstieg Netzbetreiber warnen vor dramatischem Strommangel",
         "Klimapolitik Deutschland hat brutale Erderwärmung verhindert – sagt der Umweltminister",
-        "Energiewende Wie der Evonik-Chef die Energiekrise erkennt und doch falsch deutet",
-        "Energiewende in Italien Wenn Windräder sich über der Toskana drehen"
+        "Energiewende Wie der Evonik-Chef die Energiekrise erkennt und doch falsch deutet"
       ],
       "urls": [
+        "https://jungefreiheit.de/wirtschaft/2026/so-wird-die-wasserstoff-desinformation-betrieben/",
         "https://jungefreiheit.de/wirtschaft/2026/netzbetreiber-warnen-vor-dramatischem-strommangel/",
         "https://jungefreiheit.de/politik/deutschland/2026/deutschland-hat-brutale-erderwaermung-verhindert-sagt-der-umweltminister/",
-        "https://jungefreiheit.de/wirtschaft/2026/wie-der-evonik-chef-die-energiekrise-erkennt-und-doch-falsch-deutet/",
-        "https://jungefreiheit.de/kultur/2026/wenn-windraeder-sich-ueber-der-toskana-drehen/"
+        "https://jungefreiheit.de/wirtschaft/2026/wie-der-evonik-chef-die-energiekrise-erkennt-und-doch-falsch-deutet/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -575,24 +575,24 @@
     }
   },
   "bias_distribution": {
-    "economic-liberal": 77,
+    "far-right": 94,
     "left": 56,
+    "neutral": 121,
     "left-liberal": 156,
-    "far-right": 93,
-    "conservative-liberal": 148,
+    "economic-liberal": 77,
+    "conservative-liberal": 146,
     "populist-mixed": 20,
-    "neutral": 120,
     "right-conservative": 130
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Unabhängig von der politischen Ausrichtung betonen deutsche Medien die wachsende Gefahr von Versorgungsengpässen, weil extreme Wetterlagen wie Hitze und Niedrigwasser sowohl konventionelle Kraftwerke als auch den Ausbau erneuerbarer Energien belasten. Gleichzeitig wird in fast allen Diskursen die Notwendigkeit massiver Investitionen in Netzinfrastruktur und Speichertechnologien hervorgehoben, um die Integration von Wind‑ und Solarenergie zu sichern und die Strompreise zu stabilisieren. Ein weiteres gemeinsames Motiv ist die kritische Bewertung staatlicher Förderungen, wobei sowohl liberale, linke als auch rechte Stimmen die Effizienz und Zielgerichtetheit von Subventionen für erneuerbare Energien und Wasserstoff hinterfragen.",
-      "controversial_points": "Der Streit um den Energiemix spaltet zwischen Befürwortern von Atomkraft als Versorgungssicherheit und Gegnern, die den Ausstieg fordern. Der Ausbau erneuerbarer Energien kollidiert mit regionalen Widerständen gegen Windparks und hohen Investitionskosten. Kohleausstieg wird von Industrieverbänden als Wettbewerbsnachteil gesehen, während Klimaschützer ihn als unverzichtbar bezeichnen. Strompreisanstieg erzeugt soziale Spannungen, weil Verbraucher Kosten für Klimaziele tragen sollen, während Politiker über Subventionen debattieren."
+      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz ideologischer Unterschiede einen klaren Konsens darüber, dass die steigenden Strompreise die Haushalte stark belasten und die Kostenverteilung politisch kontrovers diskutiert wird, dass die Sicherstellung einer zuverlässigen Energieversorgung angesichts des Atomaus- und Kohleausstiegs sowie zunehmender Wetterextreme als zentrales Risiko wahrgenommen wird und dass der Ausbau von erneuerbaren Energien nur mit einer konsequenten Modernisierung des Stromnetzes und dem Ausbau von Speichertechnologien realisierbar ist. Diese drei Themen – Preisentwicklung, Versorgungssicherheit und Netzinfrastruktur – bilden die gemeinsamen Handlungsfelder, die in allen mediale Ausrichtungen als entscheidend für die Fortführung der deutschen Energiewende benannt werden.",
+      "controversial_points": "Der Streit um den Energiemix spaltet zwischen Befürwortern von Kernenergie und Verfechtern erneuerbarer Quellen. Wirtschaftsliberale kritisieren die Kosten der Klimapolitik, während linke Medien die sozialen Folgen des Kohleausstiegs betonen. Regionen mit hoher Industrie fordern Versorgungssicherheit, während Umweltverbände auf schnelle Dekarbonisierung drängen. Die Diskussion um Wasserstoff wird von Förderungsdebatten und Skepsis gegenüber Technologieeffizienz dominiert."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media agree that the simultaneous nuclear and coal phase‑out has generated a concrete risk of supply shortages and rising electricity prices, which they all call for reinforced grid and storage measures to mitigate. They also converge on the view that offshore wind, backed by state support or clear regulatory frameworks, together with emerging hydrogen solutions, is the core of a realistic energy mix for Germany.",
-      "controversial_points": "Economic liberals frame the energy transition as costly inefficiency, demanding market‑driven investments and low regulation.  \nLeft‑leaning outlets stress climate justice, pushing state subsidies for renewables and rapid nuclear phase‑out.  \nFar‑right narratives warn of energy scarcity, linking renewable expansion to national decline and demanding fossil or nuclear security.  \nConservative‑liberals balance grid reliability with climate goals, emphasizing storage, grid reinforcement, and pragmatic nuclear extensions."
+      "shared_perspectives": "German media, from the far‑right to the left, uniformly stress that the current energy transition is driving record‑high electricity prices and that the fiscal burden of subsidies and infrastructure upgrades is a central political problem. At the same time all outlets highlight the fragility of supply security, pointing to heat waves, low river levels and grid bottlenecks as evidence that a rapid expansion of transmission capacity, storage and offshore wind is indispensable. Finally, despite divergent rhetoric on nuclear and coal, there is a broad consensus that hydrogen and offshore wind are seen as the cornerstone technologies for meeting Germany’s 2045 climate target, but that decisive, well‑funded policy action is still missing.",
+      "controversial_points": "The debate pits climate‑driven decarbonisation against concerns over energy affordability and supply reliability. Renewable expansion collides with resistance to land use, grid bottlenecks, and the perceived loss of industrial jobs. Nuclear phase‑out versus nuclear retention creates a split between safety‑focused right and climate‑optimistic left. Hydrogen strategy fuels a clash between market‑liberal profit motives and state‑driven climate justice narratives."
     }
   },
-  "cached_at": "2026-08-15T05:03:57.816453"
+  "cached_at": "2026-08-16T04:51:20.097005"
 }

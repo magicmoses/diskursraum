@@ -8,28 +8,28 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 155,
+      "article_count": 154,
       "sample_titles": [
+        "Liveblog Ukrainekrieg: Kiew: Haben Raumfahrtfabrik in Russland angegriffen",
+        "Soziologie der Esoterik: Noch ein kleiner Unterschied",
         "Nach Plagiatsvorwürfen: Früherer Cambridge-Professor Jason Arday tot aufgefunden",
-        "„Der Sound der Väter“: Kulturwissenschaftler Helmut Lethen ist tot",
-        "Neues Schuljahr: „Keinen Hitzeschutz zu haben, kostet Leben“",
-        "Frankfurter Bauprojekte: Planen wie die Schildbürger"
+        "„Der Sound der Väter“: Kulturwissenschaftler Helmut Lethen ist tot"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-kiew-haben-raumfahrtfabrik-in-russland-angegriffen-faz-110683325.html",
+        "https://www.faz.net/aktuell/wissen/geist-soziales/frauen-und-esoterik-warum-glauben-frauen-mehr-daran-accg-201093864.html",
         "https://www.faz.net/aktuell/gesellschaft/menschen/jason-arday-cambridge-professor-tot-aufgefunden-201128454.html",
-        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/der-kulturwissenschaftler-helmut-lethen-ist-gestorben-201128134.html",
-        "https://www.faz.net/aktuell/gesellschaft/gesundheit/hohe-temperaturen-in-schulen-kein-hitzeschutz-zu-haben-kostet-leben-201126328.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/schoenhofviertel-warum-in-frankfurter-neubaugebieten-so-viel-falsch-laeuft-201125598.html"
+        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/der-kulturwissenschaftler-helmut-lethen-ist-gestorben-201128134.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 11
-        },
         {
           "emotion": "curiosity",
           "count": 11
+        },
+        {
+          "emotion": "confusion",
+          "count": 10
         },
         {
           "emotion": "optimism",
@@ -37,11 +37,44 @@
         }
       ]
     },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 92,
+      "sample_titles": [
+        "Fünf Verletzte nach Schüssen an US-Universität – Fahndung nach „mehreren Verdächtigen“",
+        "Warum das „größte bildungspolitische Projekt“ von Schwarz-Rot auf heftigen Widerstand stößt",
+        "Umstrittener Cambridge‑Professor kurz nach Rücktritt tot aufgefunden – Familie erhebt Vorwürfe",
+        "Welche überraschenden Vorteile das Joggen mit Kinderwagen bietet"
+      ],
+      "urls": [
+        "https://www.welt.de/vermischtes/article6a8064c3fff1ccc44dd68e2d/us-bundesstaat-virginia-fuenf-verletzte-nach-schuessen-an-us-universitaet-fahndung-nach-mehreren-verdaechtigen.html",
+        "https://www.welt.de/politik/deutschland/plus6a7b25a967ddb2e13c584340/sprachfoerderung-bei-kita-kindern-warum-das-groesste-bildungspolitische-projekt-von-schwarz-rot-auf-heftigen-widerstand-stoesst.html",
+        "https://www.welt.de/vermischtes/video6a802ffc100dad9ca7516d97/nach-plagiatsvorwuerfen-umstrittener-cambridgeprofessor-kurz-nach-ruecktritt-tot-aufgefunden-familie-erhebt-vorwuerfe.html",
+        "https://www.welt.de/gesundheit/article6a7ec304169e8e32c0ae7987/joggen-welche-ueberraschenden-vorteile-das-laufen-mit-kinderwagen-bietet.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 6
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        }
+      ]
+    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 94,
+      "article_count": 92,
       "sample_titles": [
         "Hitzeschutz: Kaum Klimaanlagen an saarländischen Schulen",
         "Gibt es nach dem Schulstart schon gleich Hitzefrei in Bremen?",
@@ -62,44 +95,11 @@
         },
         {
           "emotion": "approval",
-          "count": 5
-        },
-        {
-          "emotion": "annoyance",
-          "count": 3
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 86,
-      "sample_titles": [
-        "Denker im Niemandsland",
-        "Gordon Schnieder kritisiert „schlecht durchgeführte“ Regierungsumbildung von Merz",
-        "Mario Voigt klagt gegen Entzug seines Doktortitels",
-        "„Zwei Stunden pro Woche mehr in der Grundschule könnten reichen, um viele Bildungsprobleme zu lösen“"
-      ],
-      "urls": [
-        "https://www.welt.de/kultur/article6a7ec8db2ea28efdb27910e6/nachruf-auf-helmut-lethen-denker-im-niemandsland.html",
-        "https://www.welt.de/politik/deutschland/article6a7f3452a87e8142c31d058e/tumult-macht-vertrauen-kaputt-gordon-schnieder-kritisiert-schlecht-durchgefuehrte-regierungsumbildung-von-merz.html",
-        "https://www.welt.de/politik/deutschland/article6a7ef079f14aa44f2fd5dd8a/nach-entscheidung-der-tu-chemnitz-mario-voigt-klagt-gegen-entzug-seines-doktortitels.html",
-        "https://www.welt.de/politik/deutschland/plus6a7b1ab95a14d83b293f04ed/deutsche-bildungskrise-zwei-stunden-pro-woche-mehr-in-der-grundschule-koennten-reichen-um-viele-bildungsprobleme-zu-loesen.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 5
-        },
-        {
-          "emotion": "curiosity",
           "count": 4
         },
         {
           "emotion": "annoyance",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -109,16 +109,16 @@
       "bias": "left-liberal",
       "article_count": 67,
       "sample_titles": [
+        "Universitäten: Fall Jason Arday: Trauer nach Tod von Cambridge-Professor",
+        "Psychologin rät: Wann Sie Ihr Kind besser nicht in die Krippe geben sollten",
         "Behindertenbeauftragter: „Manchen ist offenbar der Wertekompass abhandengekommen“",
-        "Strukturwandel: 23 Millionen Euro für neues Entwicklungszentrum in Eisleben",
-        "Studie: Lohnstückkosten steigen in Deutschland vor allem wegen schwacher Produktivität",
-        "Mauerbau vor 65 Jahren: Stiftung Berliner Mauer will mehr DDR-Geschichte in Schulen"
+        "Strukturwandel: 23 Millionen Euro für neues Entwicklungszentrum in Eisleben"
       ],
       "urls": [
+        "https://www.stern.de/panorama/universitaeten--fall-jason-arday--trauer-nach-tod-von-cambridge-professor-38110512.html",
+        "https://www.stern.de/wirtschaft/die-boss/wann-sie-ihr-kind-lieber-nicht-in-die-krippe-geben-sollten-35077766.html",
         "https://www.stern.de/politik/behindertenbeauftragter-juergen-dusel-sieht-inklusion-im-land-bedroht-38087534.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/strukturwandel--23-millionen-euro-fuer-neues-entwicklungszentrum-in-eisleben-38102094.html",
-        "https://www.stern.de/news/studie--lohnstueckkosten-steigen-in-deutschland-vor-allem-wegen-schwacher-produktivitaet-38098732.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/mauerbau-vor-65-jahren--stiftung-berliner-mauer-will-mehr-ddr-geschichte-in-schulen-38098710.html"
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/strukturwandel--23-millionen-euro-fuer-neues-entwicklungszentrum-in-eisleben-38102094.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -140,24 +140,24 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 65,
+      "article_count": 62,
       "sample_titles": [
+        "Jason Arday: Andy Burnham bezeichnet Tod von Cambridge-Professor als »Tragödie«",
+        "Indien: Wie Modi die »Kakerlaken-Bewegung« mit Nachhilfe und KI-Kursen besänftigen will",
         "Helmut Lethen: Kulturwissenschaftler im Alter von 87 Jahren gestorben",
-        "Jason Arday: Cambridge-Professor nach Plagiatsvorwürfen tot aufgefunden",
-        "Künstliche Intelligenz in der IT-Branche: Ist das das Ende der Programmierer?",
-        "Berufseinstieg als Segellehrerin: Segelschule statt Olympia"
+        "Jason Arday: Cambridge-Professor nach Plagiatsvorwürfen tot aufgefunden"
       ],
       "urls": [
+        "https://www.spiegel.de/ausland/jason-arday-andy-burnham-bezeichnet-tod-von-cambridge-professor-als-tragoedie-a-858dc06e-6d19-4441-a1c5-4547742e022d#ref=rss",
+        "https://www.spiegel.de/ausland/indien-wie-modi-die-kakerlaken-bewegung-mit-bildungsangeboten-besaenftigen-will-a-00316800-ac70-426f-aec7-39b49a378a7d#ref=rss",
         "https://www.spiegel.de/kultur/literatur/helmut-lethen-kulturwissenschaftler-im-alter-von-87-jahren-gestorben-a-af1c5b98-c2a8-4769-b817-45f0b3df891c#ref=rss",
-        "https://www.spiegel.de/ausland/jason-arday-cambridge-professor-nach-plagiatsvorwuerfen-tot-aufgefunden-a-7a75dcc5-f11a-484a-9fb0-1e25eab7b335#ref=rss",
-        "https://www.spiegel.de/start/it-branche-und-kuenstliche-intelligenz-ist-das-das-ende-der-programmierer-a-7ce4ae20-c916-4fa2-bceb-721fd05297b0#ref=rss",
-        "https://www.spiegel.de/start/berufseinstieg-als-segellehrerin-segelschule-statt-olympia-a-fd78bfc1-4849-4c47-b11e-2cb7922348f9#ref=rss"
+        "https://www.spiegel.de/ausland/jason-arday-cambridge-professor-nach-plagiatsvorwuerfen-tot-aufgefunden-a-7a75dcc5-f11a-484a-9fb0-1e25eab7b335#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 9
+          "count": 8
         },
         {
           "emotion": "disapproval",
@@ -173,18 +173,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 49,
+      "article_count": 48,
       "sample_titles": [
+        "Mit neuer Untersuchungsmethode: Haischuppen im Sediment sollen Anzahl der Tiere von einst verraten",
         "Nach Skandal in Cambridge: Wegen Betrugsvorwürfen zurückgetretener Professor ist tot",
         "Warum starb das Tier?: Toter Riesenhai in der Ostsee gibt Forschern ein Rätsel auf",
-        "Warum starb das Tier?: Toter Riesenhai in der Ostsee gibt Forschern ein Rätsel auf",
-        "\"Nicht Stand der Wissenschaft\": Trumps Impfempfehlungen erzürnen die WHO"
+        "Warum starb das Tier?: Toter Riesenhai in der Ostsee gibt Forschern ein Rätsel auf"
       ],
       "urls": [
+        "https://www.n-tv.de/wissen/Haischuppen-im-Sediment-sollen-Anzahl-der-Tiere-von-einst-verraten-id31194584.html",
         "https://www.n-tv.de/panorama/Wegen-Betrugsvorwuerfen-zurueckgetretener-Professor-ist-tot-id31195965.html",
         "https://www.n-tv.de/wissen/Toter-Riesenhai-in-der-Ostsee-gibt-Forschern-ein-Raetsel-auf-id31190312.html",
-        "https://www.n-tv.de/panorama/Toter-Riesenhai-in-der-Ostsee-gibt-Forschern-ein-Raetsel-auf-id31190312.html",
-        "https://www.n-tv.de/politik/Trumps-Impfempfehlungen-erzuernen-die-WHO-id31187266.html"
+        "https://www.n-tv.de/panorama/Toter-Riesenhai-in-der-Ostsee-gibt-Forschern-ein-Raetsel-auf-id31190312.html"
       ],
       "dominant_emotion": "surprise",
       "top_emotions": [
@@ -206,18 +206,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 43,
+      "article_count": 42,
       "sample_titles": [
+        "Jüngster schwarzer Cambridge-Professor Arday tot aufgefunden",
         "SPD-Vorsitzdebatte kommt zur \"denkbar ungünstigen Zeit\"",
         "Was eine AfD-Regierung für Schulen bedeuten könnte",
-        "Doku: Faszination Sonnenfinsternis",
-        "\"Es war ein Highlight der Wissenschaften\""
+        "Doku: Faszination Sonnenfinsternis"
       ],
       "urls": [
+        "https://www.zdfheute.de/panorama/cambridge-professor-arday-100.html",
         "https://www.zdfheute.de/politik/deutschland/spd-vorsitz-debatte-richter-interview-100.html",
         "https://www.zdfheute.de/politik/deutschland/afd-osten-sachsen-anhalt-heute-journal-podcast-landtagswahl-schule-100.html",
-        "https://www.arte.tv/de/videos/125674-000-A/totale-sonnenfinsternis-europa-im-mondschatten/",
-        "https://www.zdfheute.de/video/heute-journal/sgs-lesch-sievers-100.html"
+        "https://www.arte.tv/de/videos/125674-000-A/totale-sonnenfinsternis-europa-im-mondschatten/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -239,7 +239,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 36,
+      "article_count": 35,
       "sample_titles": [
         "Entwurf des Bundeshaushalts: Solarforschern drohen deutliche Kürzungen",
         "Aus PCOS wird PMOS: Ein neuer Name macht Hoffnung",
@@ -274,30 +274,63 @@
       "bias": "left-liberal",
       "article_count": 32,
       "sample_titles": [
+        "Kakerlakenbewegung in Indien: Indien bietet künftig kostenlose Nachhilfe und KI-Kurse an",
+        "Forschung in München: Die Spritze für mehr Muskeln",
         "Moskau: Russland erklärt Forschungsstelle Osteuropa für »unerwünscht«",
-        "Auswandern in die Niederlande: »32 Stunden in der Woche gelten hier als Vollzeit«",
-        "Antisemitismus: US-Richter weist Klage der Trump-Regierung gegen Harvard ab",
-        "Mauerbau vor 65 Jahren: Stiftung Berliner Mauer will mehr DDR-Geschichte in Schulen"
+        "Auswandern in die Niederlande: »32 Stunden in der Woche gelten hier als Vollzeit«"
       ],
       "urls": [
+        "https://www.zeit.de/politik/ausland/2026-08/proteste-indien-bildungssystem-narendra-modi-nachhilfe-kuenstliche-intelligenz",
+        "https://www.zeit.de/2026/35/forschung-muenchen-myostatin-muskel-wachstum-abnehmmedikament",
         "https://www.zeit.de/politik/ausland/2026-08/russland-uni-bremen-forschungsstelle-osteuropa",
-        "https://www.zeit.de/arbeit/2026-07/auswandern-niederlande-kinderbetreuung-arbeit-politik",
-        "https://www.zeit.de/politik/ausland/2026-08/harvard-antisemitismus-klage-donald-trump-boston",
-        "https://www.zeit.de/news/2026-08/13/stiftung-berliner-mauer-will-mehr-ddr-geschichte-in-schulen"
+        "https://www.zeit.de/arbeit/2026-07/auswandern-niederlande-kinderbetreuung-arbeit-politik"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 31,
+      "sample_titles": [
+        "Weltrekord von Johannes Liebmann: Ein 19-jähriger Abiturient schwimmt allen davon",
+        "Schwimm-EM: Johannes Liebmann gewinnt Gold über 1500 Meter – mit Weltrekord",
+        "Familien-Newsletter: Spielen und kuscheln mit KI",
+        "USA: Gericht weist Klage der Trump-Regierung gegen Harvard ab"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/sport/schwimmen-schwimm-em-johannes-liebmann-weltrekord-1500-meter-paris-li.3531981",
+        "https://www.sueddeutsche.de/sport/schwimm-em-johannes-liebmann-weltrekord-1500-meter-li.3531978",
+        "https://www.sueddeutsche.de/leben/spielzeug-ki-technologie-kinder-li.3524637",
+        "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-harvard-antisemitismus-klage-gericht-li.3530667"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "confusion",
           "count": 2
         },
         {
-          "emotion": "anger",
-          "count": 1
+          "emotion": "optimism",
+          "count": 2
         }
       ]
     },
@@ -334,27 +367,27 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 30,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 26,
       "sample_titles": [
-        "Familien-Newsletter: Spielen und kuscheln mit KI",
-        "USA: Gericht weist Klage der Trump-Regierung gegen Harvard ab",
-        "Flughafen München: Mit Discover Airlines in die Servicehölle reisen – ohne Rückflugticket",
-        "Hitzesommer: Mit der Anpassung an den Klimawandel ist es nicht getan"
+        "Integrative Schule: «Man kann nicht einem inklusiven Idealbild nachhängen, wenn der reguläre Unterricht verunmöglicht wird»",
+        "Jason Arday ist laut britischen Medienberichten tot",
+        "Die Columbia University war das Epizentrum der Proteste gegen Israel. Jetzt verklagen Palästinenser die Hochschule wegen Diskriminierung",
+        "Vernichtende Umfrage über die integrative Schule: Die Hälfte der Schweizer Lehrer hält das inklusive Modell für gescheitert, weil es sie überlastet – und die Schüler schlechter macht"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/leben/spielzeug-ki-technologie-kinder-li.3524637",
-        "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-harvard-antisemitismus-klage-gericht-li.3530667",
-        "https://www.sueddeutsche.de/muenchen/discover-airlines-gepaeckverlust-kundenservice-muenchen-flughafen-li.3469278",
-        "https://www.sueddeutsche.de/politik/hitze-anpassung-klimaschutz-warnung-wissenschaftler-li.3530851"
+        "https://www.nzz.ch/schweiz/integrative-schule-man-kann-nicht-einem-inklusiven-idealbild-nachhaengen-wenn-der-regulaere-unterricht-verunmoeglicht-wird-ld.10019547",
+        "https://www.nzz.ch/feuilleton/jason-arday-ist-laut-britischen-medienberichten-tot-ld.10019691",
+        "https://www.nzz.ch/feuilleton/die-columbia-university-war-das-epizentrum-der-proteste-gegen-israel-jetzt-verklagen-palaestinenser-die-hochschule-wegen-diskriminierung-ld.10019380",
+        "https://www.nzz.ch/schweiz/vernichtende-umfrage-ueber-die-integrative-schule-die-haelfte-der-schweizer-lehrer-haelt-das-inklusive-modell-fuer-gescheitert-weil-es-sie-ueberlastet-und-die-schueler-auch-noch-schlechter-macht-ld.10019378"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "confusion",
+          "emotion": "annoyance",
           "count": 2
         },
         {
@@ -371,7 +404,7 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 27,
+      "article_count": 25,
       "sample_titles": [
         "Wegen Plagiatsvorwürfen Höcke plant Misstrauensvotum gegen Ministerpräsident Voigt",
         "Mädchen unter 14 Jahren betroffen Nach dem Massenansturm auf Ceuta häufen sich die Vergewaltigungsfälle",
@@ -393,43 +426,6 @@
         {
           "emotion": "curiosity",
           "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 25,
-      "sample_titles": [
-        "Jason Arday ist laut britischen Medienberichten tot",
-        "Die Columbia University war das Epizentrum der Proteste gegen Israel. Jetzt verklagen Palästinenser die Hochschule wegen Diskriminierung",
-        "Vernichtende Umfrage über die integrative Schule: Die Hälfte der Schweizer Lehrer hält das inklusive Modell für gescheitert, weil es sie überlastet – und die Schüler schlechter macht",
-        "Der rätselhafte Geburtenknick erreicht die Zürcher Volksschule: Die Kinderzahlen sinken erstmals seit Jahren"
-      ],
-      "urls": [
-        "https://www.nzz.ch/feuilleton/jason-arday-ist-laut-britischen-medienberichten-tot-ld.10019691",
-        "https://www.nzz.ch/feuilleton/die-columbia-university-war-das-epizentrum-der-proteste-gegen-israel-jetzt-verklagen-palaestinenser-die-hochschule-wegen-diskriminierung-ld.10019380",
-        "https://www.nzz.ch/schweiz/vernichtende-umfrage-ueber-die-integrative-schule-die-haelfte-der-schweizer-lehrer-haelt-das-inklusive-modell-fuer-gescheitert-weil-es-sie-ueberlastet-und-die-schueler-auch-noch-schlechter-macht-ld.10019378",
-        "https://www.nzz.ch/zuerich/der-raetselhafte-geburtenknick-erreicht-die-zuercher-volksschule-die-kinderzahlen-sinken-erstmals-seit-jahren-ld.10019226"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
         }
       ]
     },
@@ -437,18 +433,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 23,
+      "article_count": 24,
       "sample_titles": [
+        "Ex-Dschihadistin lehrt Erziehungswissenschaften in Cambridge",
+        "Argentiniens Geldpolitik enthüllt deutschen Kontrollverlust",
         "Mario Voigt verliert den Doktortitel – will aber weiter Doktor bleiben",
-        "Um Recht und Demokratie ging’s beim Wahlrecht nie – sondern um Machtsicherung",
-        "Wenn viele nicht zu fragen wagen",
-        "Wissenschaftliche Aufklärung: „Vom Gendern und seinen Grenzen“"
+        "Um Recht und Demokratie ging’s beim Wahlrecht nie – sondern um Machtsicherung"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/uk-cambridge-farah-ahmed/",
+        "https://www.tichyseinblick.de/wirtschaft/argentiniens-geldpolitik-deutscher-kontrollverlust/",
         "https://www.tichyseinblick.de/daili-es-sentials/voigt-verliert-doktortitel/",
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/wahlrecht-grundgesetz-macht/",
-        "https://www.tichyseinblick.de/meinungen/wenn-viele-nicht-zu-fragen-wagen/",
-        "https://www.tichyseinblick.de/feuilleton/gendern-und-seinen-grenzen/"
+        "https://www.tichyseinblick.de/kolumnen/goergens-feder/wahlrecht-grundgesetz-macht/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -470,24 +466,28 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 20,
+      "article_count": 21,
       "sample_titles": [
+        "Insight Innovation: „Klug, schön und gesund“: bis zu 25.000 Dollar für ein optimiertes Baby",
+        "Indien: KI-Trainings und Gratis-Nachhilfe: Wie Modi Indiens Jugend auf seine Seite ziehen will",
         "Regelstudienzeit: Einfacher Trick: Diese Methode könnte das Studium beschleunigen",
-        "KI: Philosophen statt Programmierer: Profitieren Geisteswissenschaftler vom KI-Boom?﻿",
-        "Insight Innovation: KI, die sich selbst verbessert – die letzte Erfindung der Menschheit?",
-        "Meckel & Matthes: Deutschlands Zukunft, Bildung, Mindsetkrise – was Hörer bewegt"
+        "KI: Philosophen statt Programmierer: Profitieren Geisteswissenschaftler vom KI-Boom?﻿"
       ],
       "urls": [
+        "https://www.handelsblatt.com/technik/medizin-klug-schoen-und-gesund-25.000-dollar-fuer-ein-optimiertes-baby/100243100.html",
+        "https://www.handelsblatt.com/politik/international/indien-wie-modi-indiens-jugend-auf-seine-seite-ziehen-will/100247230.html",
         "https://www.handelsblatt.com/karriere/regelstudienzeit-diese-methode-koennte-das-studium-beschleunigen/100244713.html",
-        "https://www.handelsblatt.com/technik/ki/ki-warum-ki-unternehmen-jetzt-philosophen-einstellen/100238881.html",
-        "https://www.handelsblatt.com/technik/ki/innovation-ist-sich-selbst-verbessernde-ki-die-letzte-menschheitserfindung/100245212.html",
-        "https://www.handelsblatt.com/audio/meckel-und-matthes/meckel-matthes-deutschlands-zukunft-bildung-mindsetkrise-was-hoerer-bewegt/100245676.html"
+        "https://www.handelsblatt.com/technik/ki/ki-warum-ki-unternehmen-jetzt-philosophen-einstellen/100238881.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
           "count": 2
+        },
+        {
+          "emotion": "anger",
+          "count": 1
         }
       ]
     },
@@ -524,6 +524,35 @@
         }
       ]
     },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Indiens Premier verspricht Gratis-Nachhilfe und KI-Kurse",
+        "Trump streicht Empfehlungen für Kinderimpfungen zusammen",
+        "Schüler in Thailand tötet acht Menschen",
+        "Unter dem Schiefen Turm von Pisa bebt die Erde"
+      ],
+      "urls": [
+        "https://www.dw.com/de/indiens-premier-verspricht-gratis-nachhilfe-und-ki-kurse/a-78381087?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/trump-streicht-empfehlungen-für-kinderimpfungen-zusammen/a-78318308?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/schüler-in-thailand-tötet-acht-menschen/a-78276318?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/unter-dem-schiefen-turm-von-pisa-bebt-die-erde/a-78233410?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "cicero": {
       "source_id": "cicero",
       "source": "Cicero",
@@ -541,44 +570,17 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "Trump streicht Empfehlungen für Kinderimpfungen zusammen",
-        "Schüler in Thailand tötet acht Menschen",
-        "Unter dem Schiefen Turm von Pisa bebt die Erde"
-      ],
-      "urls": [
-        "https://www.dw.com/de/trump-streicht-empfehlungen-für-kinderimpfungen-zusammen/a-78318308?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/schüler-in-thailand-tötet-acht-menschen/a-78276318?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/unter-dem-schiefen-turm-von-pisa-bebt-die-erde/a-78233410?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
     }
   },
   "bias_distribution": {
-    "populist-mixed": 30,
-    "right-conservative": 135,
+    "left-liberal": 192,
+    "far-right": 61,
+    "right-conservative": 140,
+    "economic-liberal": 21,
     "conservative-liberal": 183,
-    "left-liberal": 194,
-    "far-right": 62,
-    "neutral": 140,
-    "left": 36,
-    "economic-liberal": 20
+    "neutral": 138,
+    "populist-mixed": 30,
+    "left": 35
   },
   "statements": {
     "de": {
@@ -590,5 +592,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-08-15T05:22:01.031032"
+  "cached_at": "2026-08-16T05:07:44.791822"
 }
