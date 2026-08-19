@@ -8,18 +8,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 119,
+      "article_count": 118,
       "sample_titles": [
-        "„Fuck Künstliche Intelligenz!“ – Amerikas Hass auf KI",
-        "Easyjet streicht rund 100 Flüge – Streit über Dienstpläne legt Ferienverkehr lahm",
-        "„Die unter Herrn Kaeser vollzogenen Abspaltungen sind ein Fehler gewesen“",
-        "SPD baut intern Stellen ab und erhöht Arbeitszeiten"
+        "„Echte Fachkräfte kommen nicht nach Deutschland“, kritisiert der AfD-Kandidat",
+        "Top-Ökonom will Mehrwertsteuer von 19 auf 22 Prozent anheben – und Kündigungsschutz abschaffen",
+        "Warnstreiks bremsen Betrieb in deutschen Seehäfen",
+        "Berliner SPD-Kandidat will Handel harte Drogen erlauben – Polizeigewerkschaftler „fassungslos“"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/plus6a7e49a3169e8e32c0ae757f/amerikas-hass-auf-die-ki-und-die-wachsende-angst-der-tech-unternehmer.html",
-        "https://www.welt.de/wirtschaft/article6a8042f9a87e8142c31d0eff/frankreich-easyjet-streicht-rund-100-fluege-streit-ueber-dienstplaene-legt-ferienverkehr-lahm.html",
-        "https://www.welt.de/wirtschaft/article6a7eec9c169e8e32c0ae7ece/siemens-die-unter-herrn-kaeser-vollzogenen-abspaltungen-sind-ein-fehler-gewesen.html",
-        "https://www.welt.de/politik/video6a7e942da87e8142c31cf874/wegen-schlechter-wahlergebnisse-spd-baut-intern-stellen-ab-und-erhoeht-arbeitszeiten.html"
+        "https://www.welt.de/politik/deutschland/plus6a830f74a87e8142c31d2ee5/wahlkampf-in-sachsen-anhalt-echte-fachkraefte-kommen-nicht-nach-deutschland-kritisiert-der-afd-kandidat.html",
+        "https://www.welt.de/wirtschaft/video6a8494f6e6cb5d2272651585/steuerreform-top-oekonom-will-mehrwertsteuer-von-19-auf-22-prozent-anheben-und-kuendigungsschutz-abschaffen.html",
+        "https://www.welt.de/regionales/hamburg/article6a84331007b9f9f1de127e08/tarifkonflikt-warnstreiks-bremsen-betrieb-in-deutschen-seehaefen.html",
+        "https://www.welt.de/videos/video6a83dc82a87e8142c31d3627/25-millionen-euro-programm-berliner-spd-kandidat-will-handel-harte-drogen-erlauben-polizeigewerkschaftler-fassungslos.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -28,11 +28,11 @@
           "count": 5
         },
         {
-          "emotion": "disapproval",
-          "count": 5
+          "emotion": "anger",
+          "count": 4
         },
         {
-          "emotion": "anger",
+          "emotion": "disapproval",
           "count": 4
         }
       ]
@@ -41,18 +41,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 105,
+      "article_count": 107,
       "sample_titles": [
-        "Kolumne „Mein urteil“: Darf ich mein Arbeitszeugnis selbst formulieren?",
-        "Gewerkschaft uneinig: Polizeigewerkschafter streiten über AfD",
-        "Digitalwirtschaft-Podcast: Wenn Halbleiter-Angestellte für höhere Löhne streiken",
-        "Steuerreform: Klingbeil will Steuervorteil für Personalrabatte streichen"
+        "Business-Ticker: Unternehmen spenden offenbar Milliarden für Putins Krieg",
+        "Diskriminierungsverbot: Gesetze allein verändern keine Haltungen, aber Verhaltensweisen",
+        "20 Jahre AGG: Wie wirksam ist das Antidiskriminierungsgesetz?",
+        "Arbeitslosigkeit: Jeder zehnte junge Mensch macht keine Ausbildung oder arbeitet nicht"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/karriere-hochschule/mein-urteil/wann-arbeitnehmer-arbeitszeugnisse-selbst-schreiben-duerfen-accg-201121896.html",
-        "https://www.faz.net/aktuell/politik/inland/gewerkschaft-uneinig-duerfen-polizeibeamte-mit-der-afd-sympathisieren-201126558.html",
-        "https://www.faz.net/podcasts/f-a-z-digitalwirtschaft/zeiss-smt-wenn-halbleiter-angestellte-fuer-hoehere-loehne-streiken-201126101.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/klingbeils-reform-steuervorteil-fuer-personalrabatte-soll-fallen-accg-201126516.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-unternehmen-spenden-offenbar-milliarden-fuer-putins-krieg-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/diskriminierung-am-arbeitsplatz-gesetze-allein-veraendern-keine-haltungen-aber-verhaltensweisen-201134043.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/20-jahre-gleichbehandlungsgesetz-viel-buerokratie-und-missbraeuchliche-klagen-accg-201132691.html",
+        "https://www.faz.net/aktuell/wirtschaft/konjunktur/arbeitslosigkeit-jeder-zehnte-junge-mensch-macht-keine-ausbildung-oder-arbeitet-nicht-201132946.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -66,7 +66,40 @@
         },
         {
           "emotion": "anger",
-          "count": 5
+          "count": 6
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 78,
+      "sample_titles": [
+        "Jobverluste jetzt auch bei Dienstleistungen",
+        "Rhein wirbt in Indien um Absatzmärkte und Fachkräfte für Hessen",
+        "GDL kündigt Streik bei der Saarbahn am Montag an",
+        "Lokführer-Streik bei der Saarbahn für Samstag abgesagt"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/wirtschaft/unternehmen/dienstleistungen-jobverlust-firmensterben-deutschland-zew-100.html",
+        "https://www.hessenschau.de/politik/rhein-wirbt-in-indien-um-absatzmaerkte-und-fachkraefte-fuer-hessen-v1,indien-fachkraefte-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/gdl_kuendigt_neue_streikmassnahmen_an_100.html",
+        "https://www.sr.de/sr/home/nachrichten/panorama/saarbahn_streiks_100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
         }
       ]
     },
@@ -74,24 +107,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 80,
+      "article_count": 71,
       "sample_titles": [
+        "Arbeitsmarkt: Jeder zehnte junge Deutsche hat weder Job noch Ausbildung",
         "Arbeitsmarkt: „Einstellungsbremsen“ lösen: Arbeitgeber drängen auf Erleichterungen bei befristeten Jobs",
         "Kommentar: Die 35-Stunden-Woche ist kein Modell für eine Krise",
-        "Arbeitszeit: „Eine echte Frechheit“: Gewerkschaften und SPD kontern Angriff auf 35-Stunden-Woche",
-        "Kommentar: Der Grund für die Krise der deutschen Industrie, über den kaum jemand spricht"
+        "Arbeitszeit: „Eine echte Frechheit“: Gewerkschaften und SPD kontern Angriff auf 35-Stunden-Woche"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-jeder-zehnte-junge-deutsche-hat-weder-job-noch-ausbildung/100247676.html",
         "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-arbeitgeber-draengen-auf-erleichterungen-bei-befristeten-jobs/100247168.html",
         "https://www.handelsblatt.com/meinung/kommentare/kommentar-die-35-stunden-woche-ist-kein-modell-fuer-eine-krise/100246782.html",
-        "https://www.handelsblatt.com/politik/deutschland/arbeitszeit-gewerkschaften-und-spd-kontern-angriff-auf-35-stunden-woche/100246593.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-grund-fuer-die-krise-der-industrie-ueber-den-kaum-jemand-spricht/100242467.html"
+        "https://www.handelsblatt.com/politik/deutschland/arbeitszeit-gewerkschaften-und-spd-kontern-angriff-auf-35-stunden-woche/100246593.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "disapproval",
@@ -103,27 +136,27 @@
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 75,
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 65,
       "sample_titles": [
-        "Lokführer-Streik bei der Saarbahn für Samstag abgesagt",
-        "Lokführer der Saarbahn streiken ab 11.00 Uhr",
-        "Verdi ruft Beschäftigte im hessischen Einzelhandel erneut zum Streik auf",
-        "Wie funktioniert Österreichs Rente mit 60?"
+        "Streik: Ver.di droht mit Arbeitskampf im Supermarkt",
+        "Unternehmen schließen: Firmensterben so hoch wie seit fast 20 Jahren nicht",
+        "Hamburg, Bremen: Ver.di ruft an sechs Seehäfen zu Warnstreiks auf",
+        "Fast jeder zehnte Euro der Haushalte fließt in Freizeitausgaben"
       ],
       "urls": [
-        "https://www.sr.de/sr/home/nachrichten/panorama/saarbahn_streiks_100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/saarbahn_streik_freitag_ersatzfahrplan_soll_laufen_100.html",
-        "https://www.hessenschau.de/wirtschaft/verdi-ruft-beschaeftigte-im-hessischen-einzelhandel-erneut-zum-streik-auf-v1,streik-erneut-einzelhandel-100.html",
-        "https://www.tagesschau.de/ausland/europa/oesterreich-schwerarbeitpension-100.html"
+        "https://www.spiegel.de/wirtschaft/unternehmen/streik-ver-di-droht-mit-arbeitskampf-im-supermarkt-a-5c78aa44-45f1-49ae-9e8a-2488022ccdbd#ref=rss",
+        "https://www.spiegel.de/wirtschaft/unternehmen/unternehmen-schliessen-firmensterben-so-hoch-wie-seit-fast-20-jahren-nicht-a-688b4185-d0b1-435a-b9bd-d69d162cf4ba#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/hamburg-bremen-ver-di-ruft-an-sechs-seehaefen-zu-warnstreiks-auf-a-a17c54ab-db55-4c66-95bb-86bb2a5faae9#ref=rss",
+        "https://www.spiegel.de/wirtschaft/fast-jeder-zehnte-euro-der-haushalte-fliesst-in-freizeitausgaben-a-5b4f5066-6ce5-4ad8-9dcd-3fe64ea1d2a7#ref=rss"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "excitement",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "excitement",
           "count": 3
         },
         {
@@ -142,62 +175,29 @@
       "bias": "right-conservative",
       "article_count": 64,
       "sample_titles": [
-        "Bis zu 45 Grad: Pflegekräfte berichten von lebensbedrohlicher Hitze in Heimen",
-        "Zettel, Kabel und Chaos?: So bringt die 5S-Methode Ordnung an den Arbeitsplatz",
-        "Bund gibt BND mehr Befugnisse: Polizeigewerkschaft pocht bei Nachrichtendiensten auf Kompetenzgrenzen",
-        "Finanzloch durch illegale Tricks: DGB beklagt Milliardenlücke in Sozialkassen durch Mindestlohnbetrug"
+        "Frage aus dem Arbeitsrecht: Darf der Arbeitgeber einfach so einen Drogentest verlangen?",
+        "\"Wir meinen es ernst\": Verdi ruft Hafenmitarbeiter zu Warnstreiks auf",
+        "Gelassen an die Arbeit gehen: Nach längerer Auszeit: So gelingt der Wiedereinstieg im Job",
+        "Bis zu 45 Grad: Pflegekräfte berichten von lebensbedrohlicher Hitze in Heimen"
       ],
       "urls": [
-        "https://www.n-tv.de/panorama/Pflegekraefte-berichten-von-lebensbedrohlicher-Hitze-in-Heimen-id31197143.html",
-        "https://www.n-tv.de/ratgeber/So-bringt-die-5S-Methode-Ordnung-an-den-Arbeitsplatz-id30270942.html",
-        "https://www.n-tv.de/politik/Polizeigewerkschaft-pocht-bei-Nachrichtendiensten-auf-Kompetenzgrenzen-id31179405.html",
-        "https://www.n-tv.de/wirtschaft/DGB-beklagt-Milliardenluecke-in-Sozialkassen-durch-Mindestlohnbetrug-id31175706.html"
+        "https://www.n-tv.de/ratgeber/Darf-der-Arbeitgeber-einfach-so-einen-Drogentest-verlangen-id31201010.html",
+        "https://www.n-tv.de/wirtschaft/Verdi-ruft-Hafenmitarbeiter-bundesweit-zu-Warnstreiks-auf-id31203170.html",
+        "https://www.n-tv.de/ratgeber/Nach-laengerer-Auszeit-So-gelingt-der-Wiedereinstieg-im-Job-id31185339.html",
+        "https://www.n-tv.de/panorama/Pflegekraefte-berichten-von-lebensbedrohlicher-Hitze-in-Heimen-id31197143.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 4
         },
         {
           "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 64,
-      "sample_titles": [
-        "Ostdeutschland: Zuwanderung stützt laut IW-Studie Arbeitsmarkt und Wirtschaft",
-        "Tesla soll Streikenden in Schweden Geld gegeben haben, damit sie aufhören",
-        "Homeoffice-Studie: Unternehmen erwarten dauerhaft hohes Niveau beim Arbeiten von zu Hause",
-        "Arbeitszeit-Auswertung: Jüngere arbeiten weniger, Ältere legen bei Stunden zu"
-      ],
-      "urls": [
-        "https://www.spiegel.de/wirtschaft/ostdeutschland-zuwanderung-stuetzt-laut-iw-studie-arbeitsmarkt-und-wirtschaft-a-e0504519-6676-483f-a674-d72fff5cefae#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/tesla-soll-streikenden-in-schweden-geld-gegeben-haben-damit-sie-aufhoeren-a-4ddfc657-6010-4796-bf38-454f9843807a#ref=rss",
-        "https://www.spiegel.de/karriere/homeoffice-studie-unternehmen-erwarten-dauerhaft-hohes-niveau-beim-arbeiten-von-zu-hause-a-de3850f2-2e44-4f4d-85dc-c7b1764b2fc5#ref=rss",
-        "https://www.spiegel.de/wirtschaft/arbeitszeit-auswertung-juengere-arbeiten-weniger-aeltere-legen-bei-stunden-zu-a-6639891f-d527-4c9c-afd0-db91a7c89f1c#ref=rss"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
           "count": 3
         },
         {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "realization",
+          "emotion": "admiration",
           "count": 2
         }
       ]
@@ -206,18 +206,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 61,
+      "article_count": 62,
       "sample_titles": [
-        "Tarif: Tarifabschluss auch für Groß- und Außenhandel im Norden",
-        "Konjunktur: Arbeitszeit pro Kopf sinkt leicht - Ältere arbeiten mehr",
-        "Früheres Bürgergeld: Deutschlandticket für 27,50 Euro? Hier sparen Grundsicherungsempfänger",
-        "Rainer Dulger: Arbeitgeberpräsident pocht auf wöchentliche Höchstarbeitszeit"
+        "Hackerangriff: Was der Cyberangriff auf die Berliner Verwaltung bedeutet",
+        "Verhandlungen im Nahverkehr: Tarifverhandlungen für kommunale Busunternehmen vertagt",
+        "Diskussion um Frührente: SPD-Arbeitnehmerflügel: abschlagsfreie Frührente beibehalten",
+        "Betriebsdirektor muss gehen: Fifa trennt sich von Infantino-Kritiker Lamour"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/tarif--tarifabschluss-auch-fuer-gross--und-aussenhandel-im-norden-38098706.html",
-        "https://www.stern.de/wirtschaft/news/konjunktur--arbeitszeit-pro-kopf-sinkt-leicht---aeltere-arbeiten-mehr-38092928.html",
-        "https://www.stern.de/wirtschaft/wie-grundsicherungsempfaenger-das-deutschlandticket-fuer-27-euro-kriegen-38066090.html",
-        "https://www.stern.de/wirtschaft/hoechstarbeitszeit--arbeitgeberpraesident-dulger-fordert-neue-regeln-38078632.html"
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/hackerangriff--was-der-cyberangriff-auf-die-berliner-verwaltung-bedeutet-38123920.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/verhandlungen-im-nahverkehr--tarifverhandlungen-fuer-kommunale-busunternehmen-vertagt-38124390.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/diskussion-um-fruehrente--spd-arbeitnehmerfluegel--abschlagsfreie-fruehrente-beibehalten-38120500.html",
+        "https://www.stern.de/sport/fussball/betriebsdirektor-kevin-lamour--fifa-trennt-sich-von-infantino-kritiker-38120376.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -241,16 +241,16 @@
       "bias": "left",
       "article_count": 47,
       "sample_titles": [
+        "Grüne in Mecklenburg-Vorpommern: Landesverband als Selbstbeschäftigungsgruppe",
+        "Streik in Häfen: Verdi ruft zu Warnstreiks an sechs Seehäfen auf",
         "Abfindung statt Tarifvertrag: Amerikanisches Ende für schwedischen Tesla-Streik",
-        "Erwerbsbeteiligung der Gen Z steigt: Ganz so wie Friedrich Merz es will",
-        "Vorstoß für längeres Arbeiten: Ein heißer Herbst?",
-        "Buch über Zukunft der Arbeit: Mangelware Mensch"
+        "Erwerbsbeteiligung der Gen Z steigt: Ganz so wie Friedrich Merz es will"
       ],
       "urls": [
+        "https://taz.de/Gruene-in-Mecklenburg-Vorpommern/!6205253/",
+        "https://taz.de/Streik-in-Haefen/!6205176/",
         "https://taz.de/Abfindung-statt-Tarifvertrag/!6204463/",
-        "https://taz.de/Erwerbsbeteiligung-der-Gen-Z-steigt/!6203440/",
-        "https://taz.de/Vorstoss-fuer-laengeres-Arbeiten/!6203248/",
-        "https://taz.de/Buch-ueber-Zukunft-der-Arbeit/!6201405/"
+        "https://taz.de/Erwerbsbeteiligung-der-Gen-Z-steigt/!6203440/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -274,16 +274,16 @@
       "bias": "populist-mixed",
       "article_count": 43,
       "sample_titles": [
-        "800 Mitarbeiter betroffen - Große Haustechnik-Firma meldet Insolvenz an",
-        "Trotz Kritik in eigenen Reihen - GdP-Chef stellt sich hinter Aufwiegel-Polizist Hüber",
-        "Sven Hüber war DDR-Politoffizier - Wie der Aufwiegel-Polizist  Karriere in Deutschland machen konnte",
-        "Zwischenruf von Peter Tiede - Sanierungsfall SPD: Verstehen die Genossen jetzt Wirtschaft?"
+        "Dramatische Entwicklung - Pro Stunde machen 21 Firmen in Deutschland dicht",
+        "Dramatische Experten-Warnung - Deutschland steht am Steuer-Kipppunkt!",
+        "Arbeitszeit, Rente, Überstunden - So viel arbeiten wir wirklich",
+        "Viele der versprochenen Reformen stecken fest - Der große Bluff beim Bürgergeld"
       ],
       "urls": [
-        "https://www.bild.de/regional/thueringen/grosse-haustechnik-firma-meldet-insolvenz-an-6a7f1f0ca87e8142c31d03f5",
-        "https://www.bild.de/politik/inland/gdp-chef-kopelke-rueckendeckung-fuer-umstrittenen-vize-hueber-6a801345169e8e32c0ae8e05",
-        "https://www.bild.de/politik/inland/sven-hueber-wie-ein-ddr-politoffizier-polizeigewerkschafter-wurde-6a7edbe5a87e8142c31cfd78",
-        "https://www.bild.de/politik/meinung-kommentare-kolumnen/zwischenruf-von-peter-tiede-versteht-die-spd-jetzt-wirtschaft-6a7dde90169e8e32c0ae7082"
+        "https://www.bild.de/politik/inland/firmensterben-in-deutschland-pro-stunde-machen-21-betriebe-dicht-6a84396b9fcb5798aae3a6c0",
+        "https://www.bild.de/politik/inland/dramatische-experten-warnung-deutschland-steht-am-steuer-kipppunkt-6a82eb7c9fcb5798aae3942d",
+        "https://www.bild.de/politik/inland/arbeitszeit-in-deutschland-so-viel-arbeiten-wir-wirklich-6a7c7a3f169e8e32c0ae5937",
+        "https://www.bild.de/politik/inland/der-grosse-bluff-beim-buergergeld-viele-reformen-stecken-fest-6a7ee8d52ea28efdb2791403"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -293,7 +293,7 @@
         },
         {
           "emotion": "disapproval",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "confusion",
@@ -305,7 +305,7 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 30,
+      "article_count": 28,
       "sample_titles": [
         "Notlage im Westjordanland verschärft sich",
         "Ökonomen warnen vor Wirtschaftsplänen der AfD",
@@ -322,7 +322,7 @@
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 6
+          "count": 5
         },
         {
           "emotion": "amusement",
@@ -340,19 +340,23 @@
       "bias": "left-liberal",
       "article_count": 26,
       "sample_titles": [
+        "Ver.di: Beschäftigte streiken an sechs deutschen Seehäfen",
         "Gewinnwachstum: Dax-Konzerne erzielen Rekordsummen und streichen Jobs",
         "Beschäftigung in der Industrie: Deutsche Automobilbranche hat geringste Mitarbeiterzahl seit 2005",
-        "Konjunktur: Arbeitszeit pro Kopf sinkt leicht - Ältere arbeiten mehr",
-        "Arbeitsalltag: Wo nervt Sie Bürokratie im Job?"
+        "Konjunktur: Arbeitszeit pro Kopf sinkt leicht - Ältere arbeiten mehr"
       ],
       "urls": [
+        "https://www.zeit.de/arbeit/2026-08/warnstreiks-seehafen-verdi-tarifverhandlungen-hamburg-bremen-bremerhaven",
         "https://www.zeit.de/politik/ausland/2026-08/dax-konzerne-quartalszahlen-gewinne-jobabbau-deutschland",
         "https://www.zeit.de/wirtschaft/2026-08/industrie-beschaeftigung-stellenabbau-automobilindustrie-maschinenbau",
-        "https://www.zeit.de/news/2026-08/12/arbeitszeit-pro-kopf-sinkt-leicht-aeltere-arbeiten-mehr",
-        "https://www.zeit.de/wirtschaft/2026-07/arbeitsalltag-chef-arbeitnehmer-stress-aufruf"
+        "https://www.zeit.de/news/2026-08/12/arbeitszeit-pro-kopf-sinkt-leicht-aeltere-arbeiten-mehr"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 2
+        },
         {
           "emotion": "optimism",
           "count": 2
@@ -360,9 +364,38 @@
         {
           "emotion": "anger",
           "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 24,
+      "sample_titles": [
+        "Sachsen-Anhalt Nächste Kampagne: Nun wollen Promis die AfD-Mehrheit verhindern",
+        "Vor der Landtagswahl Asyllobby ruft zum Migranten-Streik in Sachsen-Anhalt auf",
+        "Skandal um Sven Hüber Wie sich die GdP in immer mehr Widersprüche verstrickt",
+        "Arbeitslosigkeit und Bildung Weder Job noch Ausbildung: So viele junge Deutsche sind betroffen"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/naechste-kampagne-jetzt-wollen-promis-die-afd-mehrheit-verhindern/",
+        "https://jungefreiheit.de/politik/deutschland/2026/asyllobby-ruft-zum-migranten-streik-in-sachsen-anhalt-auf/",
+        "https://jungefreiheit.de/politik/deutschland/2026/wie-sich-die-gdp-in-immer-mehr-widersprueche-verstrickt/",
+        "https://jungefreiheit.de/wirtschaft/2026/weder-job-noch-ausbildung-so-viele-junge-deutsche-sind-betroffen/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
         },
         {
-          "emotion": "amusement",
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -373,16 +406,16 @@
       "bias": "left-liberal",
       "article_count": 23,
       "sample_titles": [
+        "Einzelhandel: Verdi droht mit Streiks in Supermärkten",
         "Feuerwehr in Frankreich: Die Helden wollen endlich wie Helden behandelt werden",
         "Fifa: Die nächste Anti-Infantino-Welle türmt sich auf",
-        "Anschlag auf Münchner Verdi-Demo – das Prozesstagebuch: 34 Tage, mehr als 100 Zeugen und die große Frage nach dem Warum",
-        "Gerichtsprozess in München: Butler soll seinen Chef um 50 000 Euro erleichtert haben"
+        "Anschlag auf Münchner Verdi-Demo – das Prozesstagebuch: 34 Tage, mehr als 100 Zeugen und die große Frage nach dem Warum"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/streiks-supermaerkte-verdi-li.3533056",
         "https://www.sueddeutsche.de/meinung/frankreich-feuerwehr-waldbraende-feuer-streik-li.3530740",
         "https://www.sueddeutsche.de/sport/fifa-infantino-krisentreffen-rabat-uefa-boykott-wm-fussball-li.3527723",
-        "https://www.sueddeutsche.de/projekte/artikel/muenchen/muenchen-anschlag-demo-verdi-prozess-e627785/",
-        "https://www.sueddeutsche.de/muenchen/gericht-muenchen-butler-betrug-vorwurf-li.3521217"
+        "https://www.sueddeutsche.de/projekte/artikel/muenchen/muenchen-anschlag-demo-verdi-prozess-e627785/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -404,7 +437,7 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 21,
+      "article_count": 18,
       "sample_titles": [
         "GdP Berlin geht auf Distanz zu Hüber",
         "Wall of Shame: Sven Hüber – Vom DDR-Politoffizier zum Wächter über den Wähler",
@@ -433,51 +466,22 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 20,
-      "sample_titles": [
-        "„Juristisch falsch“ Größter GdP-Landesbezirk zerlegt Hübers AfD-Thesen",
-        "„Da halte ich überhaupt nichts von“ Polizeigewerkschafter wegen AfD zerstritten",
-        "Düsseldorf „Fachkräfte statt Asylbewerber“: Staatsanwaltschaft will Rentnerin erneut vor Gericht zerren",
-        "BDA Arbeitgeberverband kann mit der Brandmauer „nichts anfangen“"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/groesster-gdp-landesbezirk-zerlegt-huebers-afd-thesen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/dpolg-bundesvorsitzender-teggatz-attackiert-gdp-linie-gegen-die-afd/",
-        "https://jungefreiheit.de/politik/deutschland/2026/fachkraefte-statt-asylbewerber-staatsanwaltschaft-will-rentnerin-erneut-vor-gericht-zerren/",
-        "https://jungefreiheit.de/wirtschaft/2026/arbeitgeberverband-kann-mit-der-brandmauer-nichts-anfangen/"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 14,
+      "article_count": 17,
       "sample_titles": [
-        "KOMMENTAR - Obstruktion im Hinterzimmer – die Debatte über die EU-Verträge beginnt mit einem Fehlstart",
-        "DER ANDERE BLICK - Der deutschen Arbeitslosenversicherung droht ein Milliarden-Defizit. Die Regierung muss handeln – und den Rotstift zücken.",
-        "KOMMENTAR - Achtsam oder arbeitsam? Die neue Kälte am Jobmarkt wird zum Stresstest für die Gen Z",
-        "KOMMENTAR - Künstliche Intelligenz ist für Entwicklungsländer eine historische Chance"
+        "DER ANDERE BLICK - Deutschland droht ein Prekariat bei Jugendlichen. Das hat auch mit der Einwanderung zu tun",
+        "Abgesetzt per sofort: In der Schweizer Unternehmenswelt mehren sich abrupte Chefwechsel",
+        "Die Beratungen um die neuen EU-Verträge beginnen mit einem Säbelrasseln",
+        "KOMMENTAR - Obstruktion im Hinterzimmer – die Debatte über die EU-Verträge beginnt mit einem Fehlstart"
       ],
       "urls": [
-        "https://www.nzz.ch/meinung/obstruktion-im-hinterzimmer-die-debatte-ueber-die-eu-vertraege-beginnt-mit-einem-fehlstart-ld.10019190",
-        "https://www.nzz.ch/der-andere-blick/der-deutschen-arbeitslosenversicherung-droht-ein-milliarden-defizit-die-regierung-muss-handeln-und-den-rotstift-zuecken-ld.10018905",
-        "https://www.nzz.ch/meinung/achtsam-oder-arbeitsam-die-neue-kaelte-am-jobmarkt-wird-zum-stresstest-fuer-die-gen-z-ld.10018564",
-        "https://www.nzz.ch/meinung/kuenstliche-intelligenz-ist-fuer-entwicklungslaender-eine-historische-chance-ld.10018453"
+        "https://www.nzz.ch/der-andere-blick/deutschland-droht-ein-prekariat-bei-jugendlichen-das-hat-auch-mit-der-einwanderung-zu-tun-ld.10019772",
+        "https://www.nzz.ch/wirtschaft/gurit-komax-denner-abrupte-chefwechsel-mehren-sich-ld.10019528",
+        "https://www.nzz.ch/schweiz/eu-vertraege-fuer-eine-handvoll-gewerkschafter-ld.10019662",
+        "https://www.nzz.ch/meinung/obstruktion-im-hinterzimmer-die-debatte-ueber-die-eu-vertraege-beginnt-mit-einem-fehlstart-ld.10019190"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -486,12 +490,12 @@
           "count": 3
         },
         {
-          "emotion": "admiration",
+          "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "annoyance",
-          "count": 1
+          "emotion": "anger",
+          "count": 2
         }
       ]
     },
@@ -499,18 +503,18 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "Deutschland: Mehr junge Erwachsene ohne Job und Ausbildung",
         "News kompakt: Lufthansa-Pilotenstreiks vorerst abgewendet",
         "Flughafencheck: München ist der sicherste deutsche Airport",
-        "Erntehelfer verblutet: 16 Jahre Haft für Landwirt in Italien",
-        "Studie: Fachkräfte-Potenzial von Migranten oft ungenutzt"
+        "Erntehelfer verblutet: 16 Jahre Haft für Landwirt in Italien"
       ],
       "urls": [
+        "https://www.dw.com/de/deutschland-mehr-junge-erwachsene-ohne-job-und-ausbildung/a-78395076?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/news-kompakt-lufthansa-pilotenstreiks-vorerst-abgewendet/a-78315391?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/flughafencheck-münchen-ist-der-sicherste-deutsche-airport/a-78146808?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/erntehelfer-verblutet-16-jahre-haft-für-landwirt-in-italien/a-77884058?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/studie-fachkräfte-potenzial-von-migranten-oft-ungenutzt/a-77798488?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/erntehelfer-verblutet-16-jahre-haft-für-landwirt-in-italien/a-77884058?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -554,24 +558,24 @@
     }
   },
   "bias_distribution": {
-    "neutral": 109,
-    "right-conservative": 183,
-    "populist-mixed": 43,
-    "conservative-liberal": 121,
+    "right-conservative": 182,
+    "conservative-liberal": 126,
     "left": 47,
-    "far-right": 43,
-    "economic-liberal": 80,
-    "left-liberal": 174
+    "left-liberal": 176,
+    "far-right": 44,
+    "populist-mixed": 43,
+    "neutral": 111,
+    "economic-liberal": 71
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber sichtbar, dass der Fachkräftemangel durch gezielte Qualifizierungs‑ und Umschulungsprogramme sowie durch eine bessere Durchsetzung des Mindestlohns und stärkerer Tarifbindung gemildert werden muss, wobei sowohl linke als auch rechte Beiträge die aktuelle Lücken­politik kritisieren. Gleichzeitig betonen fast alle Medien die Notwendigkeit, die Folgen von Digitalisierung und Plattformarbeit durch klare gesetzliche Rahmenbedingungen und erweiterte soziale Sicherungsinstrumente wie Kurzarbeit oder ein reformiertes Bürgergeld zu adressieren, um prekäre Beschäftigungsverhältnisse zu verhindern. Schließlich wird in den meisten Artikeln die langfristige Bedeutung von Homeoffice und flexiblen Arbeitsmodellen hervorgehoben, wobei die Diskussion jedoch einheitlich darauf hinausläuft, dass diese Modelle nur dann erfolgreich sein können, wenn sie mit transparenten Regelungen zur Arbeitszeit und Mitbestimmung kombiniert werden.",
-      "controversial_points": "Der Mindestlohn spaltet zwischen Gewerkschaften, die höhere Werte fordern, und Arbeitgeberverbänden, die Kosten senken wollen. Tarifbindung wird von linken Medien als Schutz für Beschäftigte dargestellt, während liberale Pressen Befristungen als Flexibilitätsinstrument loben. Fachkräftemangel löst Debatten über Zuwanderung, wobei rechte Stimmen Migration als Bedrohung und linke Stimmen als Chance sehen. Digitalisierung und Plattformarbeit erzeugen Konflikt zwischen Forderungen nach sozialer Absicherung und Argumenten für unternehmerische Freiheit."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg betont, dass der akute Fachkräftemangel und die wachsende Zahl junger Menschen ohne Ausbildung oder Beschäftigung die wirtschaftliche Stabilität gefährden. Gleichzeitig besteht ein breiter Konsens, dass starre arbeitsrechtliche Regelungen – insbesondere der eingeschränkte Kündigungsschutz, die geringe Tarifbindung und starre Arbeitszeitmodelle – reformiert werden müssen, um mehr Flexibilität für die Digitalisierung, Automatisierung und Plattformarbeit zu schaffen. Darüber hinaus wird einheitlich gefordert, dass gezielte Qualifizierungs‑ und Weiterbildungsprogramme sowie eine engere Zusammenarbeit von Unternehmen und Gewerkschaften die Zukunft der Arbeit sichern sollen.",
+      "controversial_points": "Der Streit um den Mindestlohn spaltet konservative Wirtschaftskreise, die Abschaffung fordern, und linke Gewerkschaften, die höhere Werte verteidigen. Tarifbindung wird als Wettbewerbsnachteil von Unternehmerverbänden kritisiert, während Arbeitnehmervertretungen sie als Schutz vor Prekarisierung sehen. Fachkräftemangel wird von rechten Parteien als Migrationsproblem dargestellt, linke Medien betonen strukturelle Bildungsdefizite. Digitalisierung und Plattformarbeit erzeugen Konflikte zwischen Flexibilitätsbefürwortern, die Deregulierung fordern, und Sozialverbänden, die Absicherung verlangen."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media stress that the looming skills shortage and accelerating automation demand coordinated reskilling programmes backed by both unions and employers. They also converge on the view that the current minimum‑wage system is being widely evaded, prompting calls for stricter enforcement and stronger collective‑bargaining mechanisms. Finally, there is a shared expectation that the expansion of home‑office and platform work will become permanent, requiring updated social‑security rules and stronger works‑council participation.",
-      "controversial_points": "Conflict between unions demanding higher wages and employers pushing for flexibility and lower labor costs. Tension between government’s minimum wage enforcement and accusations of employer fraud and underpayment. Clash over digitalization: unions fear job loss, liberal media promote automation as growth driver. Debate over social security reforms: left supports basic income, conservatives defend traditional pension and work‑hour models."
+      "shared_perspectives": "Across the spectrum German media uniformly stress that the acute shortage of qualified workers and the high rate of youth inactivity constitute a structural bottleneck for the economy, prompting calls for targeted immigration and expanded vocational‑training programmes. At the same time there is broad agreement that the acceleration of automation and platform work will erode traditional employment relationships, making collective bargaining, works councils and systematic reskilling indispensable to preserve workers’ rights and social security. Finally, while the exact level of the statutory minimum wage and the design of a basic‑income scheme remain contested, most outlets concur that any reform must be tied to a sustainable financing model and cannot ignore the fiscal pressures of an aging population and rising energy costs.",
+      "controversial_points": ""
     }
   },
-  "cached_at": "2026-08-16T05:03:04.043483"
+  "cached_at": "2026-08-19T05:21:41.382569"
 }
