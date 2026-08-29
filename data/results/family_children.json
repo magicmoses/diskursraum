@@ -8,27 +8,27 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 108,
+      "article_count": 115,
       "sample_titles": [
-        "mit 80 Jahren: Countrysängerin Dolly Parton gestorben",
-        "Oscar-Teilnahme: Deutschland tritt mit dem Film „Everytime“ an",
-        "Karin Prien im Interview: „Ich wünsche mir mehr Mut der Kabinettskollegen“",
-        "Regeln in der Familie: Weiß Papa denn nicht, dass Sonnencreme Pflicht ist?"
+        "Bei Hofe: Charles III. trauert um seinen „Cousin“ Harald V.",
+        "Deutsche in Nepal: Verschollen auf der Suche nach einer spirituellen Erfahrung",
+        "Einspruch Exklusiv: Sind Großkanzlei und Vaterschaft zwei Welten, die sich ausschließen?",
+        "Angriff an Schule in Brandenburg: Einer der Toten war Erzieher"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/dolly-parton-im-alter-von-80-jahren-gestorben-201158971.html",
-        "https://www.faz.net/aktuell/feuilleton/kulturnachrichten/everytime-geht-als-deutscher-beitrag-fuer-die-oscars-ins-rennen-201158843.html",
-        "https://www.faz.net/aktuell/politik/inland/karin-prien-wuenscht-sich-mehr-mut-der-kabinettskollegen-accg-201151084.html",
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/sonnencreme-wenn-sich-eltern-nicht-an-die-eigenen-regeln-halten-accg-201132821.html"
+        "https://www.faz.net/aktuell/gesellschaft/menschen/royaler-wochenblick-charles-iii-trauert-um-seinen-cousin-harald-v-accg-201165494.html",
+        "https://www.faz.net/aktuell/gesellschaft/ungluecke/flutwelle-in-nepal-mehrere-deutsche-werden-vermisst-201168362.html",
+        "https://www.faz.net/premium/einspruch/exklusiv/grosskanzlei-und-vaterschaft-wie-juristen-familie-vereinbaren-201165575.html",
+        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/gewalttat-in-brandenburg-einer-der-toten-war-erzieher-accg-201167786.html"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "grief",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "grief",
           "count": 7
         },
         {
-          "emotion": "grief",
+          "emotion": "admiration",
           "count": 6
         },
         {
@@ -37,22 +37,55 @@
         }
       ]
     },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 91,
+      "sample_titles": [
+        "Deutscher aus Ulm weiter in Gefängnis in der Türkei - Familie durfte ihn besuchen",
+        "Mehr Arbeitslose in Baden-Württemberg - vor allem die Jugendarbeitslosigkeit steigt im August",
+        "Schüler in Neustadt sollen zwei Jahre aufs Handy verzichten",
+        "Mehr als 500 Tote in Nepal - deutsche Familie gerettet"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/kontakt-zu-soylu-gefaengnis-tuerkei-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/jugendarbeitslosigkeit-in-bw-steigt-im-august-um-zwanzig-prozent-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/schueler-in-neustadt-sollen-zwei-jahre-aufs-handy-verzichten-102.html",
+        "https://www.tagesschau.de/ausland/asien/nepal-erdrutsch-vermisste-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "desire",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        }
+      ]
+    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 93,
+      "article_count": 88,
       "sample_titles": [
-        "Notlandung auf Straße! - Flugzeug kracht in Familienauto – Mutter stirbt",
-        "Krise immer schlimmer! - Klub von Timo Werner schmiert ab",
-        "BILDplus Gewinnspiel - Europa-Park & Fußball Wochenende gewinnen",
-        "Als Kind bei Pflegefamilie - 38-Jährige gibt sich als 12-Jährige aus"
+        "Klage um Entschädigung - Nach Todesflug! Der Schmerz der Väter hört nie auf",
+        "Doppelmord an Schule - Erzieher wollte Schülerin retten und starb mit ihr",
+        "König Harald von Norwegen ist tot - Seine Sonja schaffte es nicht mehr rechtzeitig",
+        "Jugendschutz bei Instagram und Facebook - Was der Meta-Vergleich für unsere Kinder bedeutet"
       ],
       "urls": [
-        "https://www.bild.de/news/ausland/notlandung-auf-strasse-flugzeug-kracht-in-familienauto-mutter-stirbt-6a8d8c5dd8b561d618971547",
-        "https://www.bild.de/sport/fussball/rb-leipzig-mls-krise-schlimmer-san-jose-und-timo-werner-schmieren-ab-6a8c57dac3692834ff6db51a",
-        "https://www.bild.de/sonstiges/bildplus-gewinnspiele-aktionen/europa-park-gewinnspiel-wochenende-mit-sc-freiburg-spiel-gewinnen-6a86f391c3692834ff6d74ee",
-        "https://www.bild.de/news/ausland/brasilien-38-jaehrige-gibt-sich-als-kind-aus-und-zieht-bei-pflegefamilie-ein-6a8beedac08bf8a320188052"
+        "https://www.bild.de/regional/niedersachsen/germanwings-prozess-vaeter-kaempfen-elf-jahre-nach-todesflug-weiter-um-aufklaerung-6a9171b2d88567044d847faf",
+        "https://www.bild.de/regional/brandenburg/doppelmord-an-schule-erzieher-wollte-schuelerin-retten-und-starb-mit-ihr-6a91a868518a586e1855bb5d",
+        "https://www.bild.de/unterhaltung/royals-adel/koenig-harald-von-norwegen-ist-tot-haakon-wachte-noch-die-ganze-nacht-an-papas-bett-6a9127c88a7786c19f336c6c",
+        "https://www.bild.de/leben-wissen/meta-vergleich-zwei-stunden-limit-fuer-us-jugendliche-6a904258518a586e1855a5c4"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -61,45 +94,12 @@
           "count": 8
         },
         {
-          "emotion": "excitement",
+          "emotion": "grief",
           "count": 4
         },
         {
           "emotion": "realization",
           "count": 4
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 88,
-      "sample_titles": [
-        "Queer-Beauftragte Koch fordert mehr Schutz vor Diskriminierung",
-        "Ulmer Familienvater in der Türkei verhaftet",
-        "Richterin macht Fehler – verurteilter Brandstifter kommt frei",
-        "Explosion an Mehrfamilienhaus in Hötensleben: Vier Verletzte"
-      ],
-      "urls": [
-        "https://www.rbb24.de/politik/beitrag/2026/08/queerbeauftragte-koch-csd-anschlag-berlin.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/ulm/ulmer-familienvater-in-der-tuerkei-verhaftet-100.html",
-        "https://www.hessenschau.de/panorama/richterin-macht-fehler--verurteilter-brandstifter-kommt-frei-v1,justizpanne-lg-hanau-100.html",
-        "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/boerde/polizei-hoetensleben-knalltraumata-100,explosion-mehrfamilienhaus-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 8
-        },
-        {
-          "emotion": "desire",
-          "count": 4
-        },
-        {
-          "emotion": "fear",
-          "count": 2
         }
       ]
     },
@@ -109,26 +109,26 @@
       "bias": "right-conservative",
       "article_count": 87,
       "sample_titles": [
-        "Bei Familienbesuch festgenommen: Künstler von Mao-Skulpturen in China zu drei Jahren Haft verurteilt",
-        "\"Einfach so schwer\": Tochter Rumer vermisst Vater Bruce Willis",
-        "Schauspielstar im zweiten Anlauf: Alexander Skarsgård bleibt Hollywoods liebster Schwedenhappen",
-        "\"Wahnsinn, oder?\": Amira Aly verrät Geschlecht ihres dritten Kindes"
+        "Mit Timothée Chalamet liiert : Kylie Jenner reagiert auf Gerüchte über dritte Schwangerschaft",
+        "Hohe Strafen gegen Meta in USA: Social-Media-Sucht bei Kindern: Hubig will hart durchgreifen",
+        "Familie bringt ihn heim : Sarg mit König Harald wird zum Schloss überführt",
+        "Fünf statt acht Milliarden Euro?: Le Pen will bei Wahlsieg französischen EU-Beitrag kürzen"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Kuenstler-von-Mao-Skulpturen-in-China-zu-drei-Jahren-Haft-verurteilt-id31230291.html",
-        "https://www.n-tv.de/leute/Tochter-Rumer-vermisst-Vater-Bruce-Willis-id31230029.html",
-        "https://www.n-tv.de/leute/Alexander-Skarsgard-bleibt-Hollywoods-liebster-Schwedenhappen-id31229801.html",
-        "https://www.n-tv.de/leute/Amira-Aly-verraet-Geschlecht-ihres-dritten-Kindes-id31228817.html"
+        "https://www.n-tv.de/leute/Kylie-Jenner-reagiert-auf-Geruechte-ueber-dritte-Schwangerschaft-id31244966.html",
+        "https://www.n-tv.de/politik/Social-Media-Sucht-bei-Kindern-Hubig-will-hart-durchgreifen-id31245006.html",
+        "https://www.n-tv.de/leute/Sarg-mit-Koenig-Harald-wird-zum-Schloss-ueberfuehrt-id31243772.html",
+        "https://www.n-tv.de/politik/Le-Pen-will-bei-Wahlsieg-franzoesischen-EU-Beitrag-kuerzen-id31240318.html"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "realization",
       "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 7
-        },
         {
           "emotion": "realization",
           "count": 7
+        },
+        {
+          "emotion": "sadness",
+          "count": 6
         },
         {
           "emotion": "annoyance",
@@ -140,24 +140,24 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 78,
+      "article_count": 75,
       "sample_titles": [
-        "Vermisste Lisa B.: Deutsche Urlauberin auf Mallorca wieder aufgetaucht",
-        "Demo gegen Einsparungen: Dresdner Bündnis ruft zu Protest gegen Sozialkürzungen auf",
-        "US-Countrylegende Dolly Parton mit 80 Jahren gestorben",
-        "US-Countrysängerin: Dolly Parton mit 80 Jahren gestorben"
+        "Katastrophe im Himalaya: Deutsche Familie in Nepal gerettet: „Wir wären gestorben“",
+        "Konvoi bringt Sarg von Norwegens König Harald V. zum Palast",
+        "Im Urlaub inhaftiert: Familie hofft auf Freiheit für Ulmer in türkischer Haft",
+        "Sorgen in der Familie: Haakon lächelt tapfer vom Schlossbalkon"
       ],
       "urls": [
-        "https://www.stern.de/reise/europa/mallorca--familie-findet-vermisste-deutsche-lisa-b--38155230.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen/demo-gegen-einsparungen--dresdner-buendnis-ruft-zu-protest-gegen-sozialkuerzungen-auf-38158698.html",
-        "https://www.stern.de/news/us-countrylegende-dolly-parton-mit-80-jahren-gestorben-38158720.html",
-        "https://www.stern.de/lifestyle/leute/dolly-parton--us-countrysaengerin-mit-80-jahren-gestorben-38158508.html"
+        "https://www.stern.de/panorama/katastrophe-im-himalaya--deutsche-familie-in-nepal-gerettet---wir-waeren-gestorben--38172854.html",
+        "https://www.stern.de/news/konvoi-bringt-sarg-von-norwegens-koenig-harald-v--zum-palast-38174382.html",
+        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/im-urlaub-inhaftiert--familie-hofft-auf-freiheit-fuer-ulmer-in-tuerkischer-haft-38171982.html",
+        "https://www.stern.de/lifestyle/leute/sorgen-in-der-familie--haakon-laechelt-tapfer-vom-schlossbalkon-38164508.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
         {
           "emotion": "sadness",
-          "count": 7
+          "count": 9
         },
         {
           "emotion": "admiration",
@@ -173,18 +173,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 73,
+      "article_count": 70,
       "sample_titles": [
-        "Dolly Parton stirbt mit 80 Jahren – Sprecher nennt Todesursache",
-        "„Queen der Countrymusik“ Dolly Parton stirbt mit 80 Jahren",
-        "Brite schloss sich heimlich russischen Streitkräften an – jetzt ist er tot",
-        "Syrer kassiert für 32 Kinder – „Warum setzen wir keine Obergrenze für Kindergeld?“"
+        "„Das kann auf Dauer nicht funktionieren“ – Miele-Chef kritisiert Standort Deutschland",
+        "Sachsen-Anhalts JU-Chef befürwortet Zusammenarbeit mit der AfD – aber keine Koalition",
+        "Mehrere Ehefrauen und 32 Kinder – Clan-Chef soll Zehntausende Euro Kindergeld erhalten",
+        "1,4 Billionen Euro im Jahr und doch nur Mittelmaß – Deutschlands Sozialstaat-Paradox"
       ],
       "urls": [
-        "https://www.welt.de/vermischtes/article6a8dd8d2d0a8f4f416fb44fe/dolly-parton-stirbt-mit-80-jahren-sprecher-nennt-todesursache.html",
-        "https://www.welt.de/vermischtes/article6a8dd8d2d0a8f4f416fb44fe/video-der-familie-queen-der-countrymusik-dolly-parton-stirbt-mit-80-jahren.html",
-        "https://www.welt.de/politik/ausland/article6a8db248e998204a5d80bcbf/ukraine-krieg-brite-schloss-sich-heimlich-russischen-streitkraeften-an-jetzt-ist-er-tot.html",
-        "https://www.welt.de/mediathek/talk/meinungsfreiheit/video6a8da722511d4fd3bc4e38a9/brockhaus-bei-meinungsfreiheit-syrer-kassiert-fuer-32-kinder-warum-setzen-wir-keine-obergrenze-fuer-kindergeld.html"
+        "https://www.welt.de/wirtschaft/article6a919c9ab3df30a615529349/miele-das-kann-auf-dauer-nicht-funktionieren-markus-miele-kritisiert-standort-deutschland.html",
+        "https://www.welt.de/politik/deutschland/article6a8f27f3e58d265057e45986/sachsen-anhalt-ju-chef-befuerwortet-zusammenarbeit-mit-der-afd-aber-keine-koalition.html",
+        "https://www.welt.de/politik/deutschland/video6a8ea5220797e27ac1de061f/leipzig-mehrere-ehefrauen-und-32-kinder-clan-chef-soll-zehntausende-euro-kindergeld-erhalten.html",
+        "https://www.welt.de/wirtschaft/plus6a89844ac3692834ff6d9431/reformpaket-1-4-billionen-euro-im-jahr-und-doch-nur-mittelmass-deutschlands-sozialstaat-paradox.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -206,31 +206,31 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 66,
+      "article_count": 62,
       "sample_titles": [
-        "Oscars: »Everytime« geht für Deutschland als bester internationaler Film ins Rennen",
-        "Dolly Parton ist tot: Country-Ikone im Alter von 80 Jahren gestorben",
-        "Singapur will Eltern pro Kind rund 55.000 Dollar Prämie zahlen",
-        "Eugen Block streitet in Dänemark um Umgangsrecht mit Enkeln"
+        "Gerichtsprozess in den USA: Lindsay Clancy tötete ihre Kinder – und erfährt Solidarität",
+        "Sturzflut im Himalaja: »Als die Warnung kam, sah ich nur noch, wie die Häuser und Dörfer weggeschwemmt wurden«",
+        "Harald V. von Norwegen ist tot: Der König verkörperte, was seiner Familie und seinem Land fehlt – Nachruf",
+        "China: Künstler Gao Zhen wegen satirischer Mao-Skulpturen zu drei Jahren Haft verurteilt"
       ],
       "urls": [
-        "https://www.spiegel.de/kultur/kino/oscars-everytime-geht-fuer-deutschland-als-bester-internationaler-film-ins-rennen-a-47941f40-e6ef-45bf-a857-27afdd8a6d6e#ref=rss",
-        "https://www.spiegel.de/kultur/dolly-parton-ist-tot-country-ikone-im-alter-von-80-jahren-gestorben-a-364a3b63-92f7-40ce-84c1-dae9eb08bbcf#ref=rss",
-        "https://www.spiegel.de/ausland/singapur-will-eltern-pro-kind-rund-55-000-dollar-praemie-zahlen-a-2e648727-6993-4cc2-89ea-39973ba94179#ref=rss",
-        "https://www.spiegel.de/panorama/eugen-block-streitet-in-daenemark-um-umgangsrecht-mit-enkeln-a-060c8066-94ac-4a89-a40f-315d69f68b0d#ref=rss"
+        "https://www.spiegel.de/ausland/gerichtsprozess-in-den-usa-lindsay-clancy-toetete-ihre-kinder-und-erfaehrt-solidaritaet-a-45f5115b-07f8-44cf-a09f-745dfafd6987#ref=rss",
+        "https://www.spiegel.de/ausland/sturzflut-im-himalaja-als-die-warnung-kam-sah-ich-nur-noch-wie-die-haeuser-und-doerfer-weggeschwemmt-wurden-a-78025562-db95-4fd3-bc4c-1d31a615dbab#ref=rss",
+        "https://www.spiegel.de/ausland/harald-v-von-norwegen-ist-tot-dieser-koenig-war-ein-land-nachruf-a-3a04d640-7aa7-4aa8-9728-9e01301782ec#ref=rss",
+        "https://www.spiegel.de/kultur/gao-zhen-muss-in-china-ins-gefaengnis-fuer-satirische-mao-skulpturen-a-865b8d5f-499f-4b4e-9939-e91657486c5e#ref=rss"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "grief",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 6
-        },
-        {
           "emotion": "grief",
-          "count": 4
+          "count": 5
         },
         {
-          "emotion": "curiosity",
+          "emotion": "admiration",
+          "count": 5
+        },
+        {
+          "emotion": "pride",
           "count": 4
         }
       ]
@@ -239,21 +239,25 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 47,
+      "article_count": 48,
       "sample_titles": [
-        "Freizeit in Dachau: Kürzere Öffnungszeiten im Familienbad",
-        "Familientradition: Wie Wirtssohn Benedikt Wildmoser seinen Weg in der Münchner Gastroszene geht",
-        "Sagen Sie jetzt nichts: Was ist das Türkischste an Ihnen, Filiz Tasdan?",
-        "Elternkolumne „Die Erziehungsberechtigten“: So viel Zeit!"
+        "Kino: Wir sind Ausländer! Igitt!",
+        "Serie: Bitte nicht mein Kind",
+        "Dem Geheimnis auf der Spur: Ein mörderischer Clan?",
+        "Auf die Bestenliste nominiert: Ein Ebersberger zählt zu Deutschlands Lieblingsbusfahrern"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/muenchen/dachau/dachau-familienbad-oeffnungszeiten-september-li.3535699",
-        "https://www.sueddeutsche.de/muenchen/muenchen-benedikt-wildmoser-gastronomie-familientradition-li.3528239",
-        "https://www.sueddeutsche.de/projekte/artikel/magazin/interview-ohne-worte-sagen-sie-jetzt-nichts-comedy-filiz-tasdan-e086951/",
-        "https://www.sueddeutsche.de/leben/eltern-sturmfrei-freie-zeit-sehnsucht-li.3530051"
+        "https://www.sueddeutsche.de/kultur/kino-wir-sind-auslaender-igitt-li.3534421",
+        "https://www.sueddeutsche.de/medien/familiengeheimnisse-serie-arte-kritik-li.3524796",
+        "https://www.sueddeutsche.de/reise/schottland-sawney-beane-kannibalen-mythos-li.3530489",
+        "https://www.sueddeutsche.de/muenchen/ebersberg/markt-schwaben-busfahrer-hans-kanter-oepnv-lieblingsfahrer-li.3530861"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "amusement",
       "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 3
+        },
         {
           "emotion": "optimism",
           "count": 3
@@ -261,10 +265,6 @@
         {
           "emotion": "admiration",
           "count": 3
-        },
-        {
-          "emotion": "grief",
-          "count": 2
         }
       ]
     },
@@ -272,32 +272,32 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 34,
+      "article_count": 37,
       "sample_titles": [
-        "Mittelmeerspiele in Süditalien: Nur wenig Familienglück",
-        "Verlegerin über den Wert von Biografien: „In Familiengeschichten steckt die Weltgeschichte“",
-        "Datendiebstahl in Frankreich: Personendaten des Fiskus meistbietend zu verkaufen",
-        "Pionier der Täterarbeit: „Täterarbeit ist kein Stuhlkreis, sondern knallharte Arbeit“"
+        "Vergleich mit Meta in den USA: Importware Jugendschutz",
+        "Zum Gedenken an Gunter Hampel: „Ich träume von Musik und spiele sie dann auch“",
+        "Prozess gegen Meta: Mehr Jugendschutz ist möglich",
+        "Milliarden-Vergleich von Meta in den USA: Ringen um Jugendschutz in sozialen Medien entfacht"
       ],
       "urls": [
-        "https://taz.de/Mittelmeerspiele-in-Sueditalien/!6207039/",
-        "https://taz.de/Verlegerin-ueber-Biografien-In-Familiengeschichten-steckt-die-Weltgeschichte/!6202190/",
-        "https://taz.de/Datendiebstahl-in-Frankreich/!6205547/",
-        "https://taz.de/Pionier-der-Taeterarbeit/!6205279/"
+        "https://taz.de/Vergleich-mit-Meta-in-den-USA/!6207933/",
+        "https://taz.de/Zum-Gedenken-an-Gunter-Hampel/!6207289/",
+        "https://taz.de/Einigung-von-Meta-und-US-Gericht-Ist-auch-in-Europa-mehr-Jugendschutz-moeglich/!6207566/",
+        "https://taz.de/Milliarden-Vergleich-von-Meta-in-den-USA/!6207607/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 7
-        },
-        {
-          "emotion": "curiosity",
-          "count": 4
+          "count": 5
         },
         {
           "emotion": "confusion",
-          "count": 2
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
+          "count": 3
         }
       ]
     },
@@ -305,31 +305,31 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 28,
+      "article_count": 30,
       "sample_titles": [
-        "Die CDU zwischen Duldung und Brandmauer",
-        "Immer mehr Familienunternehmen vor dem Verkauf",
-        "Wer zieht wen über den Tisch? Meisterschaft im \"Fingerhakeln\"",
-        "Bartsch zur CDU: \"Unvereinbarkeitsbeschluss großer Unsinn\""
+        "Deutsche Familie in Nepal gerettet",
+        "König Harald V. in \"extrem ernstem\" Zustand",
+        "Marco Reus ist zum dritten Mal Vater geworden",
+        "Andreas Hoppe ist tot"
       ],
       "urls": [
-        "https://www.zdfheute.de/video/frontal/landtagswahl-sachsen-anhalt-cdu-zwischen-duldung-und-brandmauer-afd-linkspartei-100.html",
-        "https://www.zdfheute.de/wirtschaft/familienunternehmen-verkauf-nachfolger-firma-100.html",
-        "https://www.zdfheute.de/video/deutsche-meisterschaft-fingerhakeln-9x16-video-100.html",
-        "https://www.zdfheute.de/politik/deutschland/lanz-bartsch-quadbeck-landtagswahlen-100.html"
+        "https://www.zdfheute.de/panorama/nepal-sturzflut-deutsche-familie-rettung-100.html",
+        "https://www.zdfheute.de/panorama/prominente/nowegen-royals-koenig-harald-gesundheit-schlecht-100.html",
+        "https://www.zdfheute.de/video/hallo-deutschland/marco-reus-vater-100.html",
+        "https://www.zdfheute.de/panorama/andreas-hoppe-tot-tatort-100.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "curiosity",
           "count": 3
         },
         {
-          "emotion": "approval",
+          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -338,18 +338,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 22,
+      "article_count": 24,
       "sample_titles": [
+        "Familienunternehmen: Vom Rechenzentren-Boom profitieren, ohne welche zu bauen: Goldbeck startet in den USA",
+        "Elektromobilität: Diese fünf Elektro-Vans erfinden den Familienbus neu",
         "Russland: Zunahme von mehr als 29 Milliarden Euro seit Januar: Warum Russen Milliarden an Bargeld abheben",
-        "Privatbank: Berenberg ordnet nach Skandal Gesellschafterkreis neu",
-        "Fressnapf-Gründer: Torsten Toeller holte einen Finanzinvestor in sein Unternehmen – das hat der Milliardär daraus gelernt",
-        "Fressnapf-Gründer: Torsten Toeller holte einen Finanzinvestor in sein Unternehmen – das hat der Milliardär daraus gelernt"
+        "Privatbank: Berenberg ordnet nach Skandal Gesellschafterkreis neu"
       ],
       "urls": [
+        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/familienunternehmen-goldbeck-startet-mit-partner-in-den-usa/100248088.html",
+        "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/elektromobilitaet-diese-fuenf-elektro-vans-erfinden-den-familienbus-neu/100249739.html",
         "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/russland-warum-russen-milliarden-an-bargeld-abheben/100249206.html",
-        "https://www.handelsblatt.com/finanzen/banken-versicherungen/privatbank-berenberg-ordnet-nach-skandal-gesellschafterkreis-neu/100249350.html",
-        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/fressnapf-gruender-holte-finanzinvestor-in-die-firma-das-hat-er-daraus-gelernt-01/100247106.html",
-        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/fressnapf-gruender-holte-finanzinvestor-in-die-firma-das-hat-er-daraus-gelernt/100247106.html"
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/privatbank-berenberg-ordnet-nach-skandal-gesellschafterkreis-neu/100249350.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -369,16 +369,16 @@
       "bias": "left-liberal",
       "article_count": 22,
       "sample_titles": [
+        "Lage im Katastrophengebiet: Himalaya-Sturzflut: Über 500 Tote, deutsche Familie gerettet",
+        "Im Urlaub inhaftiert: Familie hofft auf Freiheit für Ulmer in türkischer Haft",
         "Kalte Gurkensuppe aus Bulgarien: Sommerliche Familienbande",
-        "Stellenabbau in der Autoindustrie: Mercedes war ihre Familie. Jetzt ist sie raus und bereut nichts",
-        "Kinderbetreuung: Wovor genau habt ihr Angst?",
-        "Harry und Meghan: Sie sind wieder da"
+        "Stellenabbau in der Autoindustrie: Mercedes war ihre Familie. Jetzt ist sie raus und bereut nichts"
       ],
       "urls": [
+        "https://www.zeit.de/news/2026-08/28/opferzahl-nach-sturzflut-steigt-auf-469",
+        "https://www.zeit.de/news/2026-08/28/familie-hofft-auf-freiheit-fuer-ulmer-in-tuerkischer-haft",
         "https://www.zeit.de/zeit-magazin/wochenmarkt/2026-08/kalte-gurkensuppe-bulgarien-rezept-wochenmarkt",
-        "https://www.zeit.de/2026/36/autoindustrie-stellenabbau-vw-mercedes-abfindungen",
-        "https://www.zeit.de/familie/2026-08/kinderbetreuung-eltern-vertrauen-fremdbetreuung-gxe",
-        "https://www.zeit.de/zeit-magazin/unterhaltung/2026-08/harry-meghan-rueckkehr-grossbritannien-koenigsfamilie-charles"
+        "https://www.zeit.de/2026/36/autoindustrie-stellenabbau-vw-mercedes-abfindungen"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -396,76 +396,22 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 18,
-      "sample_titles": [
-        "Weshalb sich Staatsökonomen nun auf den Substanzraub verlegen",
-        "Ist jetzt bunt genug oder die Kapitulation des Lehrpersonals",
-        "Berlin: Rumänische Familie verliert nach Heimaturlaub 5.400 Euro teure Notunterkunft",
-        "Sexuelle Belästigung? Grünen-Chefin Constanze Oehlrich tritt zurück"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/staatsoekonomen-substanzraub/",
-        "https://www.tichyseinblick.de/meinungen/karolina-burger-realschule/",
-        "https://www.tichyseinblick.de/meinungen/berlin-rumaenische-familie-heimaturlaub/",
-        "https://www.tichyseinblick.de/daili-es-sentials/constanze-oehlrich-tritt-zurueck/"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 15,
-      "sample_titles": [
-        "Staatlich geförderte Sozialisten Streicht den „Falken“ endlich das Geld!",
-        "Sex-Broschüre Nach Kritik des Ministeriums: „Falken“ schimpfen auf rechte „Hetzkampagne“",
-        "Skandal um Sven Hüber Wie sich die GdP in immer mehr Widersprüche verstrickt",
-        "„Breites Bündnis der Demokraten“ Grünen-Chef fordert von CDU Allparteien-Koalitionen mit der Linken"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/streicht-den-falken-endlich-das-geld/",
-        "https://jungefreiheit.de/politik/deutschland/2026/nach-kritik-des-ministeriums-falken-schimpfen-auf-rechte-hetzkampagne/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wie-sich-die-gdp-in-immer-mehr-widersprueche-verstrickt/",
-        "https://jungefreiheit.de/politik/deutschland/2026/gruenen-chef-fordert-von-cdu-allparteien-koalitionen-mit-der-linken/"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 12,
+      "article_count": 15,
       "sample_titles": [
-        "Die US-Country-Sängerin Dolly Parton ist  gestorben. Sie wurde 80 Jahre alt",
-        "Der neue Ridley Scott und eine Familiensaga aus dem Sudetenland: Die Kulturtipps der «NZZ am Sonntag»",
-        "Prichard Colón sollte Boxweltmeister werden, dann kostete ihn ein Kampf die Karriere – und am Ende das Leben",
-        "Suizidversuche und knappe Lebensmittel: Missstände auf Flugzeugträger USS «Abraham Lincoln» lösen in den USA Besorgnis aus"
+        "Sina Frei im Short Track WM-Dritte – Gold an Österreicherin Stigger",
+        "INTERVIEW - Der Kronzeuge im Meta-Prozess mahnt: «Instagram ist ein Dienst, der Fremde in die Schlafzimmer unserer Kinder einlädt, in der Nacht»",
+        "Der Datendiebstahl in Liechtenstein reicht bis in die Schweiz. Ein Jus-Professor sagt: «Gibt es einen Skandal im Ausland, schwappt dieser zwangsläufig zu uns herüber»",
+        "Die US-Country-Sängerin Dolly Parton ist  gestorben. Sie wurde 80 Jahre alt"
       ],
       "urls": [
-        "https://www.nzz.ch/feuilleton/die-us-country-saengerin-dolly-parton-ist-gestorben-sie-wurde-80-jahre-alt-ld.10021046",
-        "https://www.nzz.ch/feuilleton/der-neue-ridley-scott-und-eine-familiensaga-aus-dem-sudetenland-die-kulturtipps-der-nzz-am-sonntag-ld.10020146",
-        "https://www.nzz.ch/sport/weitere-sportarten/prichard-colon-sollte-boxweltmeister-werden-dann-kostete-ihn-ein-kampf-die-karriere-und-am-ende-das-leben-ld.10019801",
-        "https://www.nzz.ch/international/suizidversuche-und-knappe-lebensmittel-missstaende-auf-flugzeugtraeger-uss-abraham-lincoln-loesen-in-den-usa-besorgnis-aus-ld.10019645"
+        "https://www.nzz.ch/sport/sina-frei-im-short-track-wm-dritte-gold-an-oesterreicherin-stigger-ld.10021389",
+        "https://www.nzz.ch/technologie/der-kronzeuge-im-meta-prozess-warnt-instagram-ist-ein-dienst-der-fremde-in-die-schlafzimmer-unserer-kinder-einlaedt-in-der-nacht-ld.10021277",
+        "https://www.nzz.ch/wirtschaft/hacker-in-liechtenstein-datendiebstahl-heizt-debatte-um-schweizer-stiftungen-an-ld.10020847",
+        "https://www.nzz.ch/feuilleton/die-us-country-saengerin-dolly-parton-ist-gestorben-sie-wurde-80-jahre-alt-ld.10021046"
       ],
       "dominant_emotion": "grief",
       "top_emotions": [
@@ -483,11 +429,60 @@
         }
       ]
     },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 15,
+      "sample_titles": [
+        "Botswana: Demokratie, Wohlstand und kein Bedarf an deutscher Erziehung",
+        "Weshalb sich Staatsökonomen nun auf den Substanzraub verlegen",
+        "Ist jetzt bunt genug oder die Kapitulation des Lehrpersonals",
+        "Berlin: Rumänische Familie verliert nach Heimaturlaub 5.400 Euro teure Notunterkunft"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/botswana-demokratie-deutsche-erziehung-entwicklungshilfe/",
+        "https://www.tichyseinblick.de/wirtschaft/staatsoekonomen-substanzraub/",
+        "https://www.tichyseinblick.de/meinungen/karolina-burger-realschule/",
+        "https://www.tichyseinblick.de/meinungen/berlin-rumaenische-familie-heimaturlaub/"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 14,
+      "sample_titles": [
+        "Illegale Einwanderung Migranten überfahren 17jähriges Mädchen mit Schlauchboot und flüchten",
+        "Kampf gegen Sozialbetrug Das Kindergeld muss weg",
+        "Staatlich geförderte Sozialisten Streicht den „Falken“ endlich das Geld!",
+        "Sex-Broschüre Nach Kritik des Ministeriums: „Falken“ schimpfen auf rechte „Hetzkampagne“"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/ausland/2026/migranten-fahren-17jaehriges-maedchen-mit-schlauchboot-an-und-fluechten/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/das-kindergeld-muss-weg/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/streicht-den-falken-endlich-das-geld/",
+        "https://jungefreiheit.de/politik/deutschland/2026/nach-kritik-des-ministeriums-falken-schimpfen-auf-rechte-hetzkampagne/"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 6,
+      "article_count": 4,
       "sample_titles": [
         "Israel sendet Soldaten zum Schutz in palästinensische Häuser",
         "Trump-\"Sprachrohr\" Leavitt zieht sich zurück",
@@ -504,14 +499,6 @@
       "top_emotions": [
         {
           "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -541,14 +528,14 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 160,
-    "left-liberal": 213,
-    "neutral": 122,
-    "far-right": 36,
-    "populist-mixed": 93,
-    "conservative-liberal": 120,
-    "left": 34,
-    "economic-liberal": 22
+    "right-conservative": 157,
+    "left-liberal": 207,
+    "populist-mixed": 88,
+    "conservative-liberal": 130,
+    "left": 37,
+    "neutral": 125,
+    "far-right": 32,
+    "economic-liberal": 24
   },
   "statements": {
     "de": {
@@ -560,5 +547,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-08-26T05:22:41.388010"
+  "cached_at": "2026-08-29T11:41:16.909760"
 }

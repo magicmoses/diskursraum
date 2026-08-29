@@ -8,18 +8,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 125,
+      "article_count": 116,
       "sample_titles": [
-        "John Ratcliffe: Was über den Besuch des CIA-Direktors in Moskau bekannt ist",
-        "Drohnen bei Leipzig: Den Blick auf Putin richten",
-        "USA unter Trump: Epstein-Komplizin Maxwell bleibt in Haft",
-        "F.A.Z. PODCAST FÜR DEUTSCHLAND: Niedersachsens Ministerpräsident zur VW-Krise: „Sollen in Zukunft Drohnen produzieren“"
+        "Liveblog Ukrainekrieg: Selenskyj: Militär soll Drohnenangriffe auf Russland mehr als verdreifachen",
+        "USA unter Trump: Trump verkündet bedeutendes Öl-Abkommen mit Venezuela",
+        "Krieg in der Ukraine: Putin will zeigen, dass er weiter eskalieren kann",
+        "USA unter Trump: US-Gericht lehnt Trumps Antrag in Schweigegeld-Affäre ab"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/john-ratcliffe-in-moskau-was-wir-ueber-den-besuch-des-cia-direktors-wissen-201159032.html",
-        "https://www.faz.net/aktuell/politik/inland/leipziger-drohnenvorfall-nennt-putin-beim-namen-201157805.html",
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-epstein-komplizin-ghislaine-maxwell-bleibt-in-haft-faz-19444916.html",
-        "https://www.faz.net/podcasts/f-a-z-podcast-fuer-deutschland/niedersachsens-ministerpraesident-zur-vw-krise-sollen-in-zukunft-drohnen-produzieren-201156930.html"
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-militaer-soll-drohnenangriffe-auf-russland-mehr-als-verdreifachen-faz-110683325.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-verkuendet-bedeutendes-oel-abkommen-mit-venezuela-faz-19444916.html",
+        "https://www.faz.net/aktuell/politik/ukraine/putin-will-zeigen-dass-er-den-ukrainekrieg-weiter-eskalieren-kann-201167766.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-us-gericht-lehnt-trumps-antrag-in-schweigegeld-affaere-ab-faz-19444916.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -29,10 +29,43 @@
         },
         {
           "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 102,
+      "sample_titles": [
+        "Ukrainischer Ex-Minister: Geschasster Fedorow erhält neuen Job in Italien",
+        "Ausbildungsort auch für US-Armee: Trump kündigt neue Weltraum-Akademie für die \"größten Talente\" an",
+        "Schuldenberg wächst: Militärausgaben halten Polens Staatshaushalt tief im Minus",
+        "Tödlicher Angriff auf Ukraine: Kiew meldet Geheimdienstoperation gegen russischen Stützpunkt"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Geschasster-Fedorow-erhaelt-neuen-Job-in-Italien-id31244747.html",
+        "https://www.n-tv.de/wissen/Trump-kuendigt-neue-Weltraum-Akademie-fuer-die-groessten-Talente-an-id31244682.html",
+        "https://www.n-tv.de/politik/Militaerausgaben-halten-Polens-Staatshaushalt-tief-im-Minus-id31243756.html",
+        "https://www.n-tv.de/politik/Kiew-meldet-Geheimdienstoperation-gegen-russischen-Stuetzpunkt-id31242513.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
           "count": 3
         },
         {
-          "emotion": "amusement",
+          "emotion": "disapproval",
           "count": 2
         }
       ]
@@ -41,64 +74,31 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 97,
+      "article_count": 93,
       "sample_titles": [
-        "CIA-Direktor ist offenbar mit Militärflugzeug nach Russland gereist",
-        "Westliche Partner unterstützen Ukraine mit neuen Hilfen und Friedensplan",
-        "Brite schloss sich heimlich russischen Streitkräften an – jetzt ist er tot",
-        "„Goldgrube“ für den Heimatschutz – Der Deal zum Kampf gegen Putins Saboteure"
+        "„Täglich 1000 Drohnen“ – Selenskyj droht Russland mit verstärkten Angriffen",
+        "Selenskyj entließ ihn – jetzt arbeitet Ex-Minister Fedorow für Italien",
+        "„Die Briten haben eine sehr kluge Nukleardoktrin“",
+        "„Das Entscheidende ist der nukleare Schutzschild. Und das ist Abschreckung“"
       ],
       "urls": [
-        "https://www.welt.de/politik/ausland/video6a8dc707c3692834ff6dc824/john-ratcliffe-cia-direktor-ist-offenbar-mit-militaerflugzeug-nach-russland-gereist.html",
-        "https://www.welt.de/politik/ausland/video6a8d9111e998204a5d80b8c5/krieg-gegen-russland-westliche-partner-unterstuetzen-ukraine-mit-neuen-hilfen-und-friedensplan.html",
-        "https://www.welt.de/politik/ausland/article6a8db248e998204a5d80bcbf/ukraine-krieg-brite-schloss-sich-heimlich-russischen-streitkraeften-an-jetzt-ist-er-tot.html",
-        "https://www.welt.de/politik/ausland/article6a8d4cb8e998204a5d80b237/ukraine-krieg-goldgrube-fuer-den-heimatschutz-der-deal-zum-kampf-gegen-putins-saboteure.html"
+        "https://www.welt.de/politik/ausland/article6a91f268518a586e1855bec9/ukraine-krieg-taeglich-1000-drohnen-selenskyj-droht-russland-mit-verstaerkten-angriffen.html",
+        "https://www.welt.de/politik/ausland/article6a91d91ac5eb5ae47c9587ad/ehemaliger-verteidigungsminister-selenskyj-entliess-ihn-jetzt-arbeitet-ex-minister-fedorow-fuer-italien.html",
+        "https://www.welt.de/politik/ausland/video6a91c7fbd88567044d848838/europas-nuklearschirm-die-briten-haben-eine-sehr-kluge-nukleardoktrin.html",
+        "https://www.welt.de/politik/video6a918c2a2ed18bbd042e74d6/muss-europa-aufruesten-das-entscheidende-ist-der-nukleare-schutzschild-und-das-ist-abschreckung.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
         {
           "emotion": "fear",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "approval",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 95,
-      "sample_titles": [
-        "Kreml gibt sich ahnungslos: US-Militärflugzeug landet in Moskau - CIA-Direktor offenbar an Bord",
-        "Jetzt bekommt auch Ozon Löcher: Kiews Drohnen verschonen Wildberries' großen Rivalen nicht mehr",
-        "\"Gehofft, dass ich überlebe\": Pogacar führt Konkurrenten bei Vuelta gnadenlos vor",
-        "Neue Schulden spürbar teurer: Deutscher Staat macht im ersten Halbjahr Minus von 71 Milliarden Euro"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/US-Militaerflugzeug-landet-in-Moskau-CIA-Direktor-offenbar-an-Bord-id31230906.html",
-        "https://www.n-tv.de/politik/Kiews-Drohnen-verschonen-Wildberries-grossen-Rivalen-nicht-mehr-id31231581.html",
-        "https://www.n-tv.de/sport/Radsport/Pogacar-fuehrt-Konkurrenten-bei-Vuelta-gnadenlos-vor-id31231732.html",
-        "https://www.n-tv.de/wirtschaft/Deutscher-Staat-macht-im-ersten-Halbjahr-Minus-von-71-Milliarden-Euro-id31229091.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 4
-        },
-        {
-          "emotion": "disapproval",
           "count": 3
         },
         {
-          "emotion": "approval",
+          "emotion": "admiration",
           "count": 2
         }
       ]
@@ -107,31 +107,31 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 81,
+      "article_count": 84,
       "sample_titles": [
-        "Rio de Janeiro: Ehemaliger Bürgermeister setzt auf Sicherheits-Show im Wahlkampf",
-        "Kabinettsklausur: Friedrich Merz beschwört Teamspirit in Neuhardenberg",
-        "Syrien: Warum Israel trotz US-Widerstand weiter Ziele angreift",
-        "Leipzig: Friedrich Merz droht Drohnen-Angreifern mit Konsequenzen"
+        "Selenskyj droht Russland mit bis zu 1000 Drohnen täglich",
+        "Mychajlo Fedorow: Ukrainischer Ex-Minister wird Berater im italienischen Verteidigungsministerium",
+        "Ratko Mladić: Kriegsverbrecher soll Staatsbegräbnis in Serbien erhalten",
+        "Flughafen Leipzig/Halle: Flugzeuge nach Drohnensichtung umgeleitet"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/rio-de-janeiro-ehemaliger-buergermeister-setzt-auf-sicherheits-show-im-wahlkampf-a-c4b2af2b-30f4-4a55-a687-1e2449b7e4d2#ref=rss",
-        "https://www.spiegel.de/politik/kabinettsklausur-friedrich-merz-beschwoert-teamspirit-in-neuhardenberg-a-9fcd1c0f-5390-4fee-9078-5ebdd5aa77c8#ref=rss",
-        "https://www.spiegel.de/ausland/syrien-warum-israel-trotz-us-widerstand-weiter-ziele-angreift-a-fbd40220-731f-4ebf-9ab3-d9a093981274#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/leipzig-friedrich-merz-droht-drohnen-angreifern-mit-konsequenzen-a-e9e70dfc-34cb-489e-a8b3-41916d806e3e#ref=rss"
+        "https://www.spiegel.de/ausland/selenskyj-droht-russland-mit-bis-zu-1000-drohnen-taeglich-a-30a4726a-63f4-4684-8444-2b9c520b04c1#ref=rss",
+        "https://www.spiegel.de/ausland/mychajlo-fedorow-ukrainischer-ex-minister-wird-berater-im-italienischen-verteidigungsministerium-a-3032c4cb-d75b-4454-9ad6-5c6c7489eb75#ref=rss",
+        "https://www.spiegel.de/ausland/ratko-mladic-kriegsverbrecher-soll-staatsbegraebnis-in-serbien-erhalten-a-a164aacf-b3ef-453f-b172-de6afe531d65#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/flughafen-leipzig-halle-flugzeuge-nach-drohnensichtung-umgeleitet-a-881c7785-6242-4d28-98a0-fbd740cd76bf#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "grief",
       "top_emotions": [
         {
+          "emotion": "grief",
+          "count": 3
+        },
+        {
+          "emotion": "fear",
+          "count": 3
+        },
+        {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
           "count": 3
         }
       ]
@@ -140,18 +140,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 59,
+      "article_count": 51,
       "sample_titles": [
-        "„Du verdammter Idiot!“ - Russen-Rekrut schießt sich fast selbst ab",
-        "Zwickau und Emden - Die geheimen Rettungspläne für zwei VW-Werke",
-        "Ex-BND-Chef warnt - „Putin greift an, wenn er sich stark genug fühlt\"",
-        "Flammen-Inferno in Putins Geburtsstadt - Lagerhallen-Brand in Sankt Petersburg"
+        "Sabotage, „grüne Männchen“, Blitz-Vorstoß - So bedroht uns Russland",
+        "Nach Leipzig-Anschlag - Innenminister planen Drohnen-Gipfel",
+        "Trumps Top-Agent in Moskau - Sollte der Geheimflug gar nicht geheim bleiben?",
+        "Spekulationen über Reise des CIA-Chefs - Trump gibt Putin-Entwarnung"
       ],
       "urls": [
-        "https://www.bild.de/news/panne-bei-militaeruebung-soldat-schiesst-panzerfaust-vor-die-fuesse-6a8df4934fc9919f7d9b5757",
-        "https://www.bild.de/politik/inland/vw-geheime-rettungsplaene-fuer-zwickau-und-emden-6a8dc9ce511d4fd3bc4e3b26",
-        "https://www.bild.de/politik/ex-bnd-chef-warnt-putin-greift-an-wenn-er-sich-stark-genug-fuehlt-6a8dc055d8b561d6189719fb",
-        "https://www.bild.de/news/grossbrand-von-82-000-m-in-sankt-petersburg-sind-ukrainische-drohnen-der-ausloeser-6a8c061cc08bf8a32018828e"
+        "https://www.bild.de/politik/ausland-und-internationales/so-koennte-russland-die-nato-angreifen-die-gefaehrlichsten-szenarien-6a918d25518a586e1855b900",
+        "https://www.bild.de/politik/inland/drohnenabwehr-innenminister-erwaegen-treffen-nach-leipzig-vorfall-6a8d4d57511d4fd3bc4e3122",
+        "https://www.bild.de/politik/ausland-und-internationales/donald-trump-sollte-der-geheimflug-seines-top-agenten-nach-moskau-gar-nicht-geheim-bleiben-6a904c3f8a7786c19f336461",
+        "https://www.bild.de/politik/ausland-und-internationales/ueberraschende-aussagen-von-trump-putin-wird-kein-nato-territorium-angreifen-6a907aec0c649aabd9716223"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -173,97 +173,31 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 48,
+      "article_count": 51,
       "sample_titles": [
-        "Mehr Straftaten mit Drohnen - SPD fordert mehr Befugnisse für Polizei",
-        "Polizei vereitelt Anschlag auf Drohnenfabrik",
-        "Ermittler finden weitere Drohne und Sprengstoff",
-        "Ukraine-Hilfen, Aktion gegen Behördendeutsch, Kino-Boom?"
+        "Militäranlage in der Wüste wirft Fragen auf",
+        "Özdemir und Pistorius werben für AfD-Verbotsverfahren",
+        "Archäologen finden Belege für römisches Militärlager",
+        "Özdemir und Pistorius werben für Verbot völkischer AfD-Landesverbände"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/mehr-straftaten-mit-drohnen-in-bw-kriminalitaet-luftverkehr-100.html",
-        "https://www.tagesschau.de/ausland/europa/slowakei-anschlag-drohnenfabrik-vereitelt-100.html",
-        "https://www.tagesschau.de/investigativ/ndr-wdr/drohne-leipzig-110.html",
-        "https://www.tagesschau.de/multimedia/podcast/15-minuten/15min-podcast-eu-ukraine-hilfen-kino-100.html"
+        "https://www.tagesschau.de/ausland/asien/china-militaer-aufruestung-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/pistorius-und-oezdemir-fuer-afd-verbotsverfahren-100.html",
+        "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz/roemer-deersheim-102,archaeologie-roemische-lager-militaer-geschichte-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/gastbeitrag-oezdemir-pistorius-werben-fuer-afd-verbotsverfahren-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "desire",
+          "count": 3
         },
         {
-          "emotion": "confusion",
-          "count": 2
+          "emotion": "approval",
+          "count": 3
         },
         {
-          "emotion": "disapproval",
-          "count": 2
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 48,
-      "sample_titles": [
-        "Amtseid: AfD wirft Justizsenatorin Verletzung des Amtseids vor",
-        "Erfolgreich im Osten: Paul von 01099: „Ich gebe Sachsen nicht auf“",
-        "Neuer britischer Premier Burnham unternimmt erste Auslandsreise am Montag nach Kiew",
-        "Iran-Krieg: Iran warnt USA vor Bumerang-Effekt bei Wirtschaftskrieg"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/amtseid--afd-wirft-justizsenatorin-verletzung-des-amtseids-vor-38151722.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/erfolgreich-im-osten--paul-von-01099---ich-gebe-sachsen-nicht-auf--38149118.html",
-        "https://www.stern.de/news/neuer-britischer-premier-burnham-unternimmt-erste-auslandsreise-am-montag-nach-kiew-38148764.html",
-        "https://www.stern.de/politik/ausland/iran-krieg--iran-warnt-usa-vor-bumerang-effekt-bei-wirtschaftskrieg-38148470.html"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "gratitude",
-          "count": 1
-        },
-        {
-          "emotion": "grief",
-          "count": 1
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 43,
-      "sample_titles": [
-        "CIA-Chef Ratcliffe reiste offenbar zu Gesprächen nach Moskau",
-        "Reformen für die Wirtschaft, Drohnen - und Streitpunkt Klima?",
-        "Merz zu hybriden Angriffen: \"Sie werden dafür bezahlen\"",
-        "Leipzig: Offenbar weitere Drohne mit Sprengstoff entdeckt"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/ausland/cia-direktor-ratcliffe-moskau-100.html",
-        "https://www.zdfheute.de/politik/deutschland/neuhardenberg-klausurtagung-bundeskabinett-100.html",
-        "https://www.zdfheute.de/politik/deutschland/merz-drohne-leipzig-konsequenzen-100.html",
-        "https://www.zdfheute.de/politik/deutschland/leipzig-drohnen-sprengstoff-flugzeug-hexogen-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "realization",
+          "emotion": "amusement",
           "count": 2
         }
       ]
@@ -272,18 +206,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 43,
+      "article_count": 48,
       "sample_titles": [
-        "+++ Ukraine-Krieg +++: US-Militärflugzeug in Moskau gelandet – CIA-Chef womöglich vor Ort",
-        "Anschlagsversuch: „Sie werden dafür bezahlen“ – Merz droht Urhebern des versuchten Drohnenangriffs in Leipzig",
-        "Anschlagsversuch: Ermittler sollen weitere Drohne nahe des Leipziger Flughafens gefunden haben",
-        "Kommentar: Trumps „D-Day“-Drohung verfängt aus einem simplen Grund nicht"
+        "+++ Iran-Krieg +++: Iran weist US-Angaben über geöffnete Straße von Hormus zurück",
+        "Verteidigung: US-Firma plant offenbar Marschflugkörper-Bau ab 2027 bei Leipzig",
+        "Landtagswahl: Politiker fordern Verbotsverfahren gegen Sachsen-Anhalt-AfD",
+        "Rüstung: Kanada rüstet auf – einheimische Auftragnehmer profitieren"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/ukraine-krieg-us-militaerflugzeug-in-moskau-gelandet-cia-chef-wohl-vor-ort/27982126.html",
-        "https://www.handelsblatt.com/politik/deutschland/vorfall-in-leipzig-merz-droht-urhebern-des-versuchten-drohnenangriffs/100249455.html",
-        "https://www.handelsblatt.com/politik/deutschland/leipzig-ermittler-sollen-dritte-drohne-nahe-des-airports-gefunden-haben/100249455.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-trumps-d-day-drohung-verfaengt-aus-einem-simplen-grund-nicht/100249259.html"
+        "https://www.handelsblatt.com/politik/international/iran-krieg-iran-weist-us-angaben-ueber-geoeffnete-strasse-von-hormus-zurueck/100136895.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/verteidigung-us-firma-plant-offenbar-marschflugkoerper-bau-ab-2027-bei-leipzig/100250458.html",
+        "https://www.handelsblatt.com/politik/deutschland/landtagswahl-politiker-fordern-verbotsverfahren-gegen-sachsen-anhalt-afd/100250420.html",
+        "https://www.handelsblatt.com/politik/international/ruestung-kanada-ruestet-auf-einheimische-auftragnehmer-profitieren/100250266.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -301,64 +235,101 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 41,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 45,
       "sample_titles": [
-        "Attacke auf Leipziger Flughafen: Jetzt waren es schon drei Drohnen",
-        "Bundeswehr und Frieden: Vom Nein zum Ja",
-        "Schulstart mit Berlins Bildungssenatorin: Die Penne ruft",
-        "Drohnenvorfälle in Rumänien: Neptun ist ein verlockendes Ziel"
+        "Jagd",
+        "Serbischer Justizminister: Mladic wird Staatsehren erhalten",
+        "Aus diesen Gründen hält Putin die Nato gerade für schwach",
+        "\"Operation Overload\": Wie beeinflusst Russland die Wahlen?"
       ],
       "urls": [
-        "https://taz.de/Leipziger-Flughafen-Weitere-Sprengstoff-Drohne-gefunden/!6206966/",
-        "https://taz.de/Bundeswehr-und-Frieden/!6203001/",
-        "https://taz.de/Bildungssenatorin-zum-Schulstart/!6205411/",
-        "https://taz.de/Drohnenvorfaelle-in-Rumaenien/!6206259/"
+        "https://www.zdf.de/dokumentation/zdfinfo-doku/zdfino-9-11-der-lange-schatten-des-terrors-jagd-100.html",
+        "https://www.zdfheute.de/politik/ausland/mladic-serbien-beisetzung-staatsehren-100.html",
+        "https://www.zdfheute.de/politik/russland-usa-cia-direktor-besuch-putin-nato-100.html",
+        "https://www.zdfheute.de/politik/deutschland/russland-einfluss-bundestagswahl-sachsen-anhalt-100.html"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "optimism",
+          "count": 4
         },
         {
           "emotion": "annoyance",
           "count": 2
         },
         {
-          "emotion": "remorse",
+          "emotion": "realization",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 45,
+      "sample_titles": [
+        "Bericht: US-Gericht untersagt Nutzung von FBI-Verhörprotokollen in 9/11-Prozess",
+        "Israel meldet Tötung von drei militanten Kämpfern im Westjordanland",
+        "Einsatz mit Hunden und Drohnen: Große Suchaktion in den Alpen nach verschollenem Wanderer",
+        "Drohnen: Drohnen über kritischen Anlagen: Wie Sachsen reagiert"
+      ],
+      "urls": [
+        "https://www.stern.de/news/bericht--us-gericht-untersagt-nutzung-von-fbi-verhoerprotokollen-in-9-11-prozess-38175000.html",
+        "https://www.stern.de/news/israel-meldet-toetung-von-drei-militanten-kaempfern-im-westjordanland-38174378.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/einsatz-mit-hunden-und-drohnen--grosse-suchaktion-in-den-alpen-nach-verschollenem-wanderer-38172020.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen/drohnen--drohnen-ueber-kritischen-anlagen--wie-sachsen-reagiert-38170074.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 27,
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 35,
       "sample_titles": [
-        "Hind Rajab: 335 Kugeln, ein totes Kind",
-        "Flughafen Leipzig/Halle: Ermittler entdecken offenbar dritte Drohne und Sprengstoff",
-        "Künstliche Intelligenz: Ukraine und Großbritannien wollen KI für Militär gemeinsam nutzen",
-        "Zollstreit zwischen USA und Kanada: Kanada will ab September Zölle auf US-Produkte erheben"
+        "Krieg in der Ukraine: Schlaflos in Odessa",
+        "Sommerferien in der Ukraine: Berge, Strand und Drohnen",
+        "Politik im neuen Syrien: Das Ende der SDF",
+        "Russische Mobilmachung: „Russlands Verluste sind außerordentlich hoch“"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-08/hind-rajab-tod-israel-sanitaeter-ermittlung",
-        "https://www.zeit.de/politik/deutschland/2026-08/anschlag-flughafen-leipzig-drohnen-bka-generalbundesanwalt-gxe",
-        "https://www.zeit.de/politik/ausland/2026-08/militaerische-ki-ukraine-grossbritannien-drohnen-daten",
-        "https://www.zeit.de/politik/ausland/2026-08/kanada-gegendoelle-usa-mark-carney-zollstreit"
+        "https://taz.de/Krieg-in-der-Ukraine/!6207649/",
+        "https://taz.de/Sommerferien-in-der-Ukraine/!6207294/",
+        "https://taz.de/Politik-im-neuen-Syrien/!6207325/",
+        "https://taz.de/Russische-Mobilmachung/!6207209/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -367,23 +338,23 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 25,
+      "article_count": 31,
       "sample_titles": [
-        "Neuer Vorschlag für das Rüstungsbudget: Die Steuern sollen weniger stark erhöht werden, dafür länger",
-        "Israel bombardiert Syrien und zielt auf die Türkei",
-        "35 Jahre ukrainische Unabhängigkeit: London gibt zum Jahrestag grünes Licht für den Transfer wichtiger Rüstungstechnologie",
-        "Die Slowakei kauft bei einer Firma aus Zypern neue Verkehrskameras. Doch diese stammen aus Russland und nehmen per SMS Befehle entgegen"
+        "Die Amerikaner demonstrieren wieder Präsenz in Europa. Kann die Nato den Kreml wirklich von einer Ausweitung des Kriegs abhalten?",
+        "LIVE-TICKER - Krieg in der Ukraine: CIA-Chef Ratcliffe warnte Russland laut Berichten vor Angriff auf Nato",
+        "GASTKOMMENTAR - Wo das politische Ethos schwindet – in Deutschland wird die Verfassung zunehmend zum Machterhalt missbraucht",
+        "Marinedrohnen vor Rumänien, Warnsignale an London: Russland verstärkt die Drohkulisse gegenüber Europa"
       ],
       "urls": [
-        "https://www.nzz.ch/schweiz/neuer-vorschlag-fuer-das-ruestungsbudget-die-steuern-sollen-weniger-stark-erhoeht-werden-dafuer-laenger-ld.10021035",
-        "https://www.nzz.ch/international/israel-bombardiert-syrien-und-zielt-auf-die-tuerkei-ld.10020882",
-        "https://www.nzz.ch/international/35-jahre-ukrainische-unabhaengigkeit-selenski-fordert-mehr-unterstuetzung-ld.10020761",
-        "https://www.nzz.ch/pro/die-slowakei-kauft-bei-einer-firma-aus-zypern-neue-verkehrskameras-doch-diese-stammen-aus-russland-und-nehmen-per-sms-befehle-entgegen-ld.10020359"
+        "https://www.nzz.ch/international/die-amerikaner-demonstrieren-wieder-praesenz-in-europa-kann-die-nato-den-kreml-wirklich-vor-einer-ausweitung-des-kriegs-abhalten-ld.10020826",
+        "https://www.nzz.ch/international/krieg-in-der-ukraine-cia-chef-ratcliffe-warnte-russland-laut-berichten-vor-angriff-auf-nato-ld.10021245",
+        "https://www.nzz.ch/meinung/wo-das-politische-ethos-schwindet-in-deutschland-wird-die-verfassung-zunehmend-zum-machterhalt-missbraucht-ld.10020292",
+        "https://www.nzz.ch/international/russland-verstaerkt-die-drohkulisse-gegenueber-eu-und-nato-ld.10020904"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "disapproval",
+          "emotion": "curiosity",
           "count": 2
         },
         {
@@ -396,22 +367,55 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 30,
+      "sample_titles": [
+        "Mychajlo Fedorow: Ukrainischer Ex-Verteidigungsminister berät italienische Regierung",
+        "Westjordanland: Israel meldet Tötung eines Hamas-Mitglieds im Westjordanland",
+        "Einsatz mit Hunden und Drohnen: Große Suchaktion in den Alpen nach verschollenem Wanderer",
+        "Militärzeitung »Stars and Stripes«: Journalisten klagen gegen Entlassung durch Pentagon"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/ausland/2026-08/mychajlo-fedorow-italien-berater-guido-crosetto-militaer",
+        "https://www.zeit.de/politik/ausland/2026-08/israel-luftangriff-dschenin-hamas-westjordanland",
+        "https://www.zeit.de/news/2026-08/28/grosse-suchaktion-in-den-alpen-nach-verschollenem-wanderer",
+        "https://www.zeit.de/politik/ausland/2026-08/stars-and-stripes-entlassung-chefredakteur-klage-pentagon-pete-hegseth"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 22,
+      "article_count": 21,
       "sample_titles": [
+        "Bundespolitik: Pistorius und Özdemir fordern Verbot „völkischer“ AfD-Landesverbände",
+        "Freizeit und Technik: Wenn Drohnen zur Gefahr für Wildtiere werden",
         "Ukrainischer Transportflieger: Anschlagsversuch in Leipzig: Weitere Sprengstoffdrohne entdeckt",
-        "Dachauer Straße: Unbekannte verüben Farbanschlag auf Bundeswehr-Einrichtung",
-        "Krieg in der Ukraine: Selenskij lehnt Wahlen in Kriegszeiten weiter ab: Wäre ein „Tsunami“",
-        "Krieg in der Ukraine: Während Wadephul-Besuch in Kiew: Russland beschießt Vorort"
+        "Dachauer Straße: Unbekannte verüben Farbanschlag auf Bundeswehr-Einrichtung"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/bundesregierung-pistorius-oezdemir-afd-verbot-li.3529564",
+        "https://www.sueddeutsche.de/muenchen/fuerstenfeldbruck/drohnen-gefahr-wildtiere-naturschutz-bayern-li.3538154",
         "https://www.sueddeutsche.de/politik/flughafen-leipzig-anschlag-ukraine-li.3536132",
-        "https://www.sueddeutsche.de/muenchen/bundeswehr-karrierecenter-muenchen-farbanschlag-li.3536042",
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-wahlen-selenskij-li.3524928",
-        "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-wadephul-kiew-russland-angriffe-li.3524928"
+        "https://www.sueddeutsche.de/muenchen/bundeswehr-karrierecenter-muenchen-farbanschlag-li.3536042"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -433,18 +437,18 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 18,
+      "article_count": 19,
       "sample_titles": [
+        "US-Medien: CIA-Chef warnte in Moskau vor Angriff auf NATO",
         "Drohnen-Vorfall am Leipziger Flughafen ernster als gedacht",
         "USA sagen großes Militärmanöver mit Südkorea ab",
-        "EU gibt 6,1 Milliarden Euro für Ukraine frei",
-        "Selenskyj will 30 Milliarden Euro von der EU"
+        "EU gibt 6,1 Milliarden Euro für Ukraine frei"
       ],
       "urls": [
+        "https://www.dw.com/de/us-medien-cia-chef-warnte-in-moskau-vor-angriff-auf-nato/a-78525213?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/drohnen-vorfall-am-leipziger-flughafen-ernster-als-gedacht/a-78492391?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/usa-sagen-großes-militärmanöver-mit-südkorea-ab/a-78484706?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/eu-gibt-6-1-milliarden-euro-für-ukraine-frei/a-78482824?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/selenskyj-will-30-milliarden-euro-von-der-eu/a-78476565?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/eu-gibt-6-1-milliarden-euro-für-ukraine-frei/a-78482824?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -460,16 +464,16 @@
       "bias": "far-right",
       "article_count": 14,
       "sample_titles": [
+        "VW vor Rüstungsdeal mit Iron-Dome-Konzern Rafael",
+        "AfD bei 42 Prozent: CDU mit 22 Prozent vor historischem Debakel – TE-Wecker am 27. August 2026",
         "Wadephul: USA sollen wieder im Ukraine-Krieg vermitteln",
-        "Berlins CDU-Bildungssenatorin setzt zur Wahl Jubelerklärungen ab",
-        "Die mentale Dauerkrise der „white liberal women“",
-        "Die Kosten des Ukraine-Krieges"
+        "Berlins CDU-Bildungssenatorin setzt zur Wahl Jubelerklärungen ab"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/wirtschaft/vw-vor-ruestungsdeal-rafael/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-27-august-2026/",
         "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/wadephul-merz-ukraine-usa/",
-        "https://www.tichyseinblick.de/meinungen/berlins-cdu-bildungssenatorin-zur-wahl-jubelerklaerungen/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/same-lindsay/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/kosten-ukraine-krieg/"
+        "https://www.tichyseinblick.de/meinungen/berlins-cdu-bildungssenatorin-zur-wahl-jubelerklaerungen/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -483,18 +487,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 12,
       "sample_titles": [
-        "Wegen CSD-Anschlag Berlins Innensenatorin will Tiergarten wegen Terrorgefahr verbarrikadieren",
-        "Mekka-Pakt „Im Nahen Osten gibt es den Eindruck, es gebe keine roten Linien mehr“",
-        "JF-Reportage aus der Ukraine „Die Deutschen sind anständige, gute Leute!“",
-        "Wahl des UN-Generalsekretärs Baerbock will Kandidaten aussortieren und löst einen Eklat aus"
+        "Angriffe auf das Militär Einwohner setzen Migrantenlager in Ceuta in Brand",
+        "Ausbau der Grenzanlagen Polens Ostschild schützt auch gegen illegale Migration",
+        "John Ratcliffe CIA-Chef reist mit dramatischer Warnung nach Moskau",
+        "Wegen CSD-Anschlag Berlins Innensenatorin will Tiergarten wegen Terrorgefahr verbarrikadieren"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/berlins-innensenatorin-will-tiergarten-wegen-terrorgefahr-verbarrikadieren/",
-        "https://jungefreiheit.de/debatte/interview/2026/im-nahen-osten-gibt-es-den-eindruck-es-gebe-keine-roten-linien-mehr/",
-        "https://jungefreiheit.de/politik/ausland/2026/die-deutschen-sind-anstaendige-gute-leute/",
-        "https://jungefreiheit.de/politik/ausland/2026/baerbock-will-kandidaten-aussortieren-und-loest-einen-eklat-aus/"
+        "https://jungefreiheit.de/politik/ausland/2026/einwohner-setzen-migrantenlager-in-ceuta-in-brand/",
+        "https://jungefreiheit.de/politik/ausland/2026/polens-ostschild-schuetzt-auch-gegen-illegale-migration/",
+        "https://jungefreiheit.de/politik/ausland/2026/cia-chef-reist-mit-dramatischer-warnung-nach-moskau/",
+        "https://jungefreiheit.de/politik/deutschland/2026/berlins-innensenatorin-will-tiergarten-wegen-terrorgefahr-verbarrikadieren/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -503,42 +507,40 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
+        "Separatisten-Prozess: Der Gerichtssaal wird zum Hörsaal",
         "Unterstützung: Selenskyj ist nicht gleichbedeutend mit der Ukraine",
-        "50 Jahre Entebbe: Die außergewöhnlichste Geiselbefreiung der Militärgeschichte",
-        "Vermittler Pakistan: Chinas Waffenlieferant",
-        "Michigan: Ein Israelhasser als Senator?"
+        "50 Jahre Entebbe: Die außergewöhnlichste Geiselbefreiung der Militärgeschichte"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/separatisten_prozess_gerichtssaal_wird_zum_hoersaal",
         "https://www.achgut.com/artikel/unterstuezung_selenskyj_ist_nicht_glkeichbedeutens_mit_der_ukraine",
-        "https://www.achgut.com/artikel/50_jahre_entebbe_die_aussergewoehnlichste_Geiselbefreiung_der_Militaergeschichte",
-        "https://www.achgut.com/artikel/vermittler_pakistan_chinas_waffenlieferant",
-        "https://www.achgut.com/artikel/michigan_ein_israelhasser_als_senator"
+        "https://www.achgut.com/artikel/50_jahre_entebbe_die_aussergewoehnlichste_Geiselbefreiung_der_Militaergeschichte"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "populist-mixed": 59,
-    "conservative-liberal": 150,
-    "left-liberal": 178,
-    "neutral": 109,
-    "far-right": 28,
-    "right-conservative": 192,
-    "economic-liberal": 43,
-    "left": 41
+    "economic-liberal": 48,
+    "conservative-liberal": 147,
+    "neutral": 115,
+    "left-liberal": 180,
+    "far-right": 29,
+    "populist-mixed": 51,
+    "right-conservative": 195,
+    "left": 35
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz unterschiedlicher politischer Ausrichtungen einen klaren Konsens darüber, dass die russische Aggression in der Ukraine die sicherheitspolitische Lage grundlegend verändert hat und deshalb die Bundeswehr dringend modernisiert und ihre Einsatzfähigkeit gesteigert werden muss. Gleichzeitig wird von fast allen Seiten gefordert, die Verteidigungsausgaben auf das NATO‑Zwei‑Prozent‑Ziel anzuheben, wobei die konkreten Finanzierungswege kontrovers diskutiert werden. Ein weiteres gemeinsames Thema ist die wachsende Bedeutung von Cyber‑ und Hybridabwehr, die als zentrale Elemente einer zeitgemäßen Sicherheitsstrategie angesehen werden.",
-      "controversial_points": "Die Debatte um das NATO‑Zwei‑Prozent‑Ziel spaltet Liberale, die höhere Last fordern, und Konservative, die fiskalische Zurückhaltung betonen. Wehrpflicht‑Rückkehr wird von Sicherheits‑ und Sozialverbänden als notwendige Resilienz gesehen, während Parteien die Kosten kritisieren. Rüstungsexporte lösen Konflikt zwischen Wirtschaftslobby, die Wachstum fordert, und Friedensbewegungen, die Menschenrechte betonen. Auslandseinsätze der Bundeswehr erzeugen Spannungen zwischen strategischer Bündnisverpflichtung und innenpolitischer Ablehnung militärischer Interventionen."
+      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz unterschiedlicher Ausrichtungen einen breiten Konsens darüber, dass die sicherheitspolitische Lage, insbesondere die russische Aggression, eine Beschleunigung der Bundeswehrmodernisierung und die Erfüllung des NATO‑Zwei‑Prozent‑Ziels erfordert. Gleichzeitig wird die Notwendigkeit einer stärkeren Einbindung der heimischen Rüstungsindustrie, etwa durch Aufträge an Rheinmetall oder US‑Firmen, als Beitrag zur strategischen Autonomie und zur Sicherung von Arbeitsplätzen betont. Schließlich wird die Bedeutung einer verlässlichen NATO‑Bündnisverteidigung, insbesondere an der Ostflanke, als zentrale Voraussetzung für die deutsche Sicherheitsstrategie hervorgehoben.",
+      "controversial_points": "Die Debatte um die Erhöhung der Rüstungsausgaben spaltet liberale Wirtschaftspresse, die Sparsamkeit fordert, und konservative Medien, die Sicherheit priorisieren. Wehrpflicht und Bundeswehrreform erzeugen Konflikt zwischen linken Stimmen, die Entmilitarisierung wollen, und rechten Kräften, die Aufrüstung befürworten. NATO‑Zwei‑Prozent‑Ziel löst Spannungen aus, weil EU‑kritische Parteien die Abhängigkeit von den USA ablehnen. Rüstungsexporte und Waffenlieferungen an Konfliktregionen erzeugen moralische Kontroversen zwischen Wirtschaftslobby und Friedensbewegungen."
     },
     "en": {
-      "shared_perspectives": "German media from all sides agree that Russia’s aggression has turned defence and security into a top‑priority issue, leading to a broad call for higher defence spending and for Germany to meet NATO’s 2 percent target. There is a cross‑political consensus that the Bundeswehr must undergo structural reform – including a renewed debate on conscription and modernisation – to cope with hybrid, cyber and drone threats. Across the spectrum the coverage stresses the need for stricter regulation of drones and autonomous weapons and for expanded police powers to protect critical infrastructure.",
-      "controversial_points": "German media split between a security‑first narrative demanding higher NATO spending and a social‑welfare narrative opposing budget cuts. Conscription debate pits civic duty advocates against professional‑army proponents fearing inefficiency and loss of democratic control. Arms‑export coverage creates tension between economic interests and human‑rights arguments demanding stricter export controls. Cyber‑defence discussions clash with privacy advocates over state surveillance powers and civilian data protection."
+      "shared_perspectives": "German media across the spectrum agree that the Ukraine war has turned defence spending into a political imperative, with most outlets stressing the need for Germany to close the gap to NATO’s 2 percent target and to accelerate the Bundeswehr’s modernization, especially in air‑defence, drone and cyber capabilities. At the same time there is a broadly shared view that reliance on foreign suppliers is a strategic vulnerability, prompting widespread coverage of domestic production initiatives such as Rheinmetall’s tank expansion and the planned missile project in Leipzig. Finally, commentators from liberal to conservative parties converge on the assessment that Germany’s credibility within the alliance now hinges on a visible, operational contribution to NATO’s eastern flank and on tighter integration of civil‑protection structures with military planning.",
+      "controversial_points": "German media split between liberal‑conservative calls for higher NATO spending and left‑leaning criticism of militarisation. Conscription debate pits security‑focused parties against civil‑rights advocates demanding a volunteer army. Arms‑export coverage reveals tension between economic‑liberal profit motives and ethical concerns over conflict zones. Cyber‑defence and civil protection discussions clash with skepticism about NATO’s strategic direction and German sovereignty."
     }
   },
-  "cached_at": "2026-08-26T05:21:17.394282"
+  "cached_at": "2026-08-29T11:40:02.687455"
 }
