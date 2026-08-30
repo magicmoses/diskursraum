@@ -8,18 +8,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 125,
+      "article_count": 126,
       "sample_titles": [
+        "So arbeitet Deutschland: „Wir hängen an den letzten Resten des Wirtschaftswunders“",
         "Kevin Warsh in jackson Hole: Amerikas Notenbankchef sagt der Inflation den Kampf an",
         "Arbeitsmarkt: Nicht nur gute Signale",
-        "Christian Lindner mahnt: Schuldenpolitik ist gleich doppelt unsozial",
-        "Beschäftigung in Deutschland: Mehr als drei Millionen Arbeitslose"
+        "Christian Lindner mahnt: Schuldenpolitik ist gleich doppelt unsozial"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/deutschland-in-der-erneuerungskrise-was-bedeutet-das-fuer-uns-accg-201112222.html",
         "https://www.faz.net/aktuell/wirtschaft/fed-chef-kevin-warsh-sagt-der-inflation-den-kampf-an-201169325.html",
         "https://www.faz.net/aktuell/rhein-main/region-und-hessen/ausbildungsmarkt-hessen-zahl-der-ausbildungsplaetze-sinkt-201167680.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/christian-lindner-mahnt-schuldenpolitik-ist-gleich-doppelt-unsozial-accg-201163514.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/keine-besserung-in-sicht-zahl-der-arbeitslosen-steigt-im-august-auf-3-061-millionen-accg-201167458.html"
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/christian-lindner-mahnt-schuldenpolitik-ist-gleich-doppelt-unsozial-accg-201163514.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -103,11 +103,44 @@
         }
       ]
     },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 65,
+      "sample_titles": [
+        "Volkswagen: 100.000 Jobs weg? Warum das VW-Horrorszenario unwahrscheinlicher wird",
+        "Dow Jones, S&P 500, Nasdaq: Dow Jones schließt fast unverändert – Warsh-Aussagen bremsen",
+        "Arbeitsmarkt: Erstmals mehr als sechs Millionen ausländische Beschäftigte in Deutschland",
+        "Bärbel Bas: Stresstest Rentenreform – Warum die Arbeitsministerin vor ihrer größten Bewährungsprobe steht"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-beim-stellenbau-zeichnet-sich-eine-ueberraschende-wende-ab/100250324.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-jones-schliesst-fast-unveraendert-warsh-aussagen-bremsen/100250403.html",
+        "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-erstmals-mehr-als-sechs-millionen-auslaendische-beschaeftigte/100250343.html",
+        "https://www.handelsblatt.com/politik/deutschland/rentenreform-warum-arbeitsministerin-bas-vor-ihrem-groessten-stresstest-steht/100249251.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 6
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 65,
+      "article_count": 64,
       "sample_titles": [
         "Krankschreibungen: Bärbel Bas stellt Attestpflicht ab erstem Tag infrage",
         "Arbeitslosenzahl steigt auf 3,061 Millionen",
@@ -136,44 +169,11 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 65,
-      "sample_titles": [
-        "Dow Jones, S&P 500, Nasdaq: Dow Jones schließt fast unverändert – Warsh-Aussagen bremsen",
-        "Arbeitsmarkt: Erstmals mehr als sechs Millionen ausländische Beschäftigte in Deutschland",
-        "Bärbel Bas: Stresstest Rentenreform – Warum die Arbeitsministerin vor ihrer größten Bewährungsprobe steht",
-        "Kommentar: Hi Boomer, schreibt die Gen Z nicht ab"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-jones-schliesst-fast-unveraendert-warsh-aussagen-bremsen/100250403.html",
-        "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-erstmals-mehr-als-sechs-millionen-auslaendische-beschaeftigte/100250343.html",
-        "https://www.handelsblatt.com/politik/deutschland/rentenreform-warum-arbeitsministerin-bas-vor-ihrem-groessten-stresstest-steht/100249251.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-hi-boomer-schreibt-die-gen-z-nicht-ab/100249516.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 63,
+      "article_count": 61,
       "sample_titles": [
         "Ausbildungsort auch für US-Armee: Trump kündigt neue Weltraum-Akademie für die \"größten Talente\" an",
         "3,06 Millionen Menschen ohne Job: Zahl der Arbeitslosen in Deutschland steigt",
@@ -206,18 +206,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 55,
+      "article_count": 54,
       "sample_titles": [
+        "IW Köln erwartet kaum Veränderungen durch Attestpflicht ab Tag eins",
         "Arbeitsmarkt: Zahl der Arbeitslosen in NRW steigt auf mehr als 800.000",
         "Lage am Arbeitsmarkt weiter schwierig - Arbeitslosigkeit erneut leicht gestiegen",
-        "Streit um VW-Werke: „Wir müssen immer in der Lage sein, zu eskalieren“",
-        "Sicherheit für Zugbegleiter: Bahngewerkschaft droht mit bundesweiten Streiks ab Januar"
+        "Streit um VW-Werke: „Wir müssen immer in der Lage sein, zu eskalieren“"
       ],
       "urls": [
+        "https://www.stern.de/news/iw-koeln-erwartet-kaum-veraenderungen-durch-attestpflicht-ab-tag-eins-38175928.html",
         "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/arbeitsmarkt--zahl-der-arbeitslosen-in-nrw-steigt-auf-mehr-als-800-000-38171666.html",
         "https://www.stern.de/news/lage-am-arbeitsmarkt-weiter-schwierig---arbeitslosigkeit-erneut-leicht-gestiegen-38172024.html",
-        "https://www.stern.de/wirtschaft/volkswagen--ig-metall-droht-mit-harten-massnahmen----sehr-alarmiert--38150866.html",
-        "https://www.stern.de/wirtschaft/news/sicherheit-fuer-zugbegleiter--bahngewerkschaft-droht-mit-bundesweiten-streiks-ab-januar-38145868.html"
+        "https://www.stern.de/wirtschaft/volkswagen--ig-metall-droht-mit-harten-massnahmen----sehr-alarmiert--38150866.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -272,18 +272,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 40,
+      "article_count": 41,
       "sample_titles": [
+        "Trotz 3 Millionen Arbeitslosen - Diese Jobs warten auf Sie!",
         "Weiter über drei MIllionen - Arbeitslosigkeit im August erneut leicht gestiegen",
         "Was sie verdienen - Woher unsere Fachkräfte wirklich kommen",
-        "Gehalt bis 100.000 Euro  - Wie wär’s mit einem Top-Job in der Rüstung?",
-        "Angriffe auf Zugbegleiter - Gewerkschaft droht mit bundesweitem Bahnstreik"
+        "Gehalt bis 100.000 Euro  - Wie wär’s mit einem Top-Job in der Rüstung?"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/jobs-mit-schnellem-einstieg-verkauf-logistik-bau-6a8d64c1d8b561d618971116",
         "https://www.bild.de/politik/inland/weiter-ueber-drei-millionen-arbeitslosigkeit-im-august-erneut-leicht-gestiegen-6a913f75b3df30a6155288ed",
         "https://www.bild.de/politik/inland/woher-unsere-fachkraefte-wirklich-kommen-und-was-sie-verdienen-6a8da35de998204a5d80bb0f",
-        "https://www.bild.de/politik/inland/gehalt-bis-zu-100-000-euro-im-jahr-wie-waers-mit-einem-top-job-in-der-ruestung-6a1d9462411d40cd4c74e78d",
-        "https://www.bild.de/politik/evg-droht-mit-sicherheitsstreik-gesetz-laesst-auf-sich-warten-6a89ba01c3692834ff6d96b1"
+        "https://www.bild.de/politik/inland/gehalt-bis-zu-100-000-euro-im-jahr-wie-waers-mit-einem-top-job-in-der-ruestung-6a1d9462411d40cd4c74e78d"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -307,16 +307,16 @@
       "bias": "neutral",
       "article_count": 35,
       "sample_titles": [
+        "Wie Brandenburg Geflüchtete in Arbeit bringen will",
         "Drei Millionen Arbeitslose - \"Wenig Dynamik\" am Arbeitsmarkt",
         "Grundsicherung: Bürokratiemonster oder Armutsfalle?",
-        "Zweites Quartal: Reallöhne in Deutschland steigen weiter",
-        "NRW: Mehr Geld für Jobs im Einzelhandel"
+        "Zweites Quartal: Reallöhne in Deutschland steigen weiter"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/chancen-center-frankfurt-oder-gefluechtete-asylbewerber-brandenburg-100.html",
         "https://www.zdfheute.de/wirtschaft/arbeitslose-drei-millionen-100.html",
         "https://www.zdfheute.de/wirtschaft/tacke-ploss-kipping-grundsicherung-beschaeftigung-100.html",
-        "https://www.zdfheute.de/wirtschaft/konjunktur-arbeit-realloehne-gestiegen-100.html",
-        "https://www.zdfheute.de/wirtschaft/tarifeinigung-einzelhandel-verdi-nrw-100.html"
+        "https://www.zdfheute.de/wirtschaft/konjunktur-arbeit-realloehne-gestiegen-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -404,24 +404,24 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 24,
+      "article_count": 25,
       "sample_titles": [
+        "Gute Laune – schlechte Lügen",
         "Beamtenbund fordert Besetzung von 631.000 Posten",
         "Als der „Migra-Streik“ in Magdeburg zur unfreiwilligen Wahlkampfhilfe für die AfD wurde",
-        "Exklusive Civey-Umfrage: BSW- und Linke-Wähler am ehesten zu Schummelei bereit",
-        "Sven Hüber legt Amt als stellvertretender GdP-Bundesvorsitzender nieder"
+        "Exklusive Civey-Umfrage: BSW- und Linke-Wähler am ehesten zu Schummelei bereit"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/herles-faellt-auf/gute-laune-schlechte-luegen/",
         "https://www.tichyseinblick.de/daili-es-sentials/beamtenbund-fordert-besetzung-von-631000-posten/",
         "https://www.tichyseinblick.de/meinungen/migra-streik-magdeburg/",
-        "https://www.tichyseinblick.de/wirtschaft/bsw-linke-civey-arbeitszeitbetrug/",
-        "https://www.tichyseinblick.de/daili-es-sentials/sven-hueber-legt-amt-nieder/"
+        "https://www.tichyseinblick.de/wirtschaft/bsw-linke-civey-arbeitszeitbetrug/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "optimism",
@@ -429,6 +429,39 @@
         },
         {
           "emotion": "gratitude",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "Wirtschaftskraft: Der Osten ist näher am Westen, als er denkt",
+        "Arbeitsmarkt: Arbeitslosenzahl in Bayern erreicht 20-Jahres-Hoch",
+        "Deutsche Bahn: Zugbegleiter brauchen schnell einen besseren Schutz",
+        "Bahngewerkschaft: EVG fordert härtere Strafen bei Angriffen auf Zugpersonal – sonst drohen Streiks"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/sachsen-anhalt-wahl-afd-ostdeutschland-wirtschaft-e895387/",
+        "https://www.sueddeutsche.de/bayern/bayern-wirtschaft-arbeitsmarkt-arbeitslosenzahlen-li.3538572",
+        "https://www.sueddeutsche.de/meinung/bahn-zugbegleiter-schutzmassnahmen-gewalt-li.3535901",
+        "https://www.sueddeutsche.de/wirtschaft/bahn-streik-angriffe-zugpersonal-evg-januar-li.3535499"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -463,39 +496,6 @@
         {
           "emotion": "admiration",
           "count": 2
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 19,
-      "sample_titles": [
-        "Arbeitsmarkt: Arbeitslosenzahl in Bayern erreicht 20-Jahres-Hoch",
-        "Deutsche Bahn: Zugbegleiter brauchen schnell einen besseren Schutz",
-        "Bahngewerkschaft: EVG fordert härtere Strafen bei Angriffen auf Zugpersonal – sonst drohen Streiks",
-        "Sommer der Sozialreformen: Was mit der Rentenreform auf Jüngere und Ältere zukommt"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/bayern/bayern-wirtschaft-arbeitsmarkt-arbeitslosenzahlen-li.3538572",
-        "https://www.sueddeutsche.de/meinung/bahn-zugbegleiter-schutzmassnahmen-gewalt-li.3535901",
-        "https://www.sueddeutsche.de/wirtschaft/bahn-streik-angriffe-zugpersonal-evg-januar-li.3535499",
-        "https://www.sueddeutsche.de/projekte/artikel/politik/rentenreform-altersvorsorge-sz-sommerserie-e785822/"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
         }
       ]
     },
@@ -573,24 +573,24 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 148,
-    "left-liberal": 168,
+    "conservative-liberal": 149,
+    "populist-mixed": 41,
+    "left-liberal": 167,
+    "far-right": 59,
     "economic-liberal": 65,
-    "right-conservative": 169,
     "neutral": 106,
-    "far-right": 58,
-    "populist-mixed": 40,
+    "right-conservative": 167,
     "left": 46
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die steigende Arbeitslosenzahl und der anhaltende Fachkräftemangel zentrale Handlungsfelder sind, wobei sowohl konservative als auch linke und wirtschaftsliberale Beiträge die Notwendigkeit einer gezielten Qualifizierung und Umschulung von Beschäftigten hervorheben. Gleichzeitig besteht ein breiter Konsens darüber, dass die fortschreitende Automatisierung und Digitalisierung den Arbeitsmarkt grundlegend verändern und deshalb sowohl die Tarifbindung als auch die soziale Sicherung, etwa durch Anpassungen im Bürgergeld, reformiert werden müssen, um prekäre Beschäftigungsformen wie Plattformarbeit und Scheinselbstständigkeit wirksam zu regulieren. Schließlich wird in nahezu allen Berichten die zunehmende Verbreitung von Home‑Office und flexiblen Arbeitsmodellen als dauerhafte Strukturveränderung anerkannt, die neue Anforderungen an betriebliche Mitbestimmung und Betriebsräte stellt.",
-      "controversial_points": "Synthese nicht verfügbar."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die steigende Arbeitslosenzahl und der akute Fachkräftemangel die Dringlichkeit von strukturellen Qualifizierungs‑ und Umschulungsprogrammen erhöhen, weil die digitale Transformation und Automatisierung traditionelle Berufsbilder schnell verändern. Gleichzeitig besteht ein breiter Konsens darüber, dass die aktuelle Tarifbindung und das Mindestlohnsystem allein nicht ausreichen, um Lohngerechtigkeit und soziale Sicherung zu gewährleisten, weshalb eine stärkere Regulierung von Plattformarbeit, Scheinselbstständigkeit und flexiblen Beschäftigungsformen gefordert wird. Schließlich wird in fast allen Beiträgen die Notwendigkeit einer verbesserten Zusammenarbeit zwischen Gewerkschaften, Arbeitgeberverbänden und staatlichen Institutionen hervorgehoben, um langfristig stabile Beschäftigungsperspektiven und ein funktionierendes System der Arbeitsmarkt‑ und Sozialpolitik zu sichern.",
+      "controversial_points": "Der Streit um den Mindestlohn spaltet liberale Wirtschaftsmagazine, die Flexibilität fordern, und linke Blätter, die soziale Gerechtigkeit betonen. Tarifbindung wird von Arbeitgeberverbänden als Wettbewerbsnachteil dargestellt, während Gewerkschaften sie als Schutz vor Prekarisierung verteidigen. Die Debatte um Fachkräftemangel verknüpft Einwanderungsfragen mit Bildungspolitik und löst kulturpolitische Fronten aus. Digitalisierung und Plattformarbeit erzeugen Spannungen zwischen Forderungen nach sozialer Absicherung und dem Wunsch nach unternehmerischer Freiheit."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German outlets uniformly stress that the rise in registered unemployment, now above three million, signals a structural mismatch between job vacancies and available qualified workers, prompting calls for intensified vocational training and targeted immigration of skilled labour. At the same time there is broad agreement that collective‑bargaining institutions and works councils must be modernised to cope with digitalisation, platform work and automation, while preserving workers’ social‑security protections.",
-      "controversial_points": ""
+      "shared_perspectives": "Across the spectrum German media converge on the view that the headline rise in unemployment masks a deeper structural shortage of qualified workers, leading to repeated calls for systematic reskilling programmes and stronger cooperation between unions, works councils and employers. They also share the assessment that automation and platform‑based work will reshape job structures, but that the impact can be mitigated through targeted education policies and adjustments to collective‑bargaining frameworks rather than radical wage cuts or universal basic‑income schemes.",
+      "controversial_points": "German media split between market‑liberal calls for wage flexibility and left‑leaning demands for stronger collective bargaining.  \nUnions and works councils clash with employers over platform regulation and automation‑driven job losses.  \nFiscal conservatives oppose basic‑income proposals while social democrats link them to poverty reduction.  \nRemote‑work debates pit employee health protections against corporate productivity arguments."
     }
   },
-  "cached_at": "2026-08-29T11:35:53.159542"
+  "cached_at": "2026-08-30T10:13:59.549158"
 }
