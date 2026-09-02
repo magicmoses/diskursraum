@@ -8,28 +8,28 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 126,
+      "article_count": 123,
       "sample_titles": [
-        "So arbeitet Deutschland: „Wir hängen an den letzten Resten des Wirtschaftswunders“",
-        "Kevin Warsh in jackson Hole: Amerikas Notenbankchef sagt der Inflation den Kampf an",
-        "Arbeitsmarkt: Nicht nur gute Signale",
-        "Christian Lindner mahnt: Schuldenpolitik ist gleich doppelt unsozial"
+        "Business-Ticker: Schwedischer Konzern kauft Sportmarken Uhlsport und Kempa",
+        "Business-Ticker: Renditen japanischer Staatsanleihen erreichen höchsten Stand seit 30 Jahren",
+        "Business-Ticker: US-Wettbewerbsbehörde verklagt Amazon",
+        "Rechtsstreit endet: Hertha BSC muss Bobic Millionen zahlen"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/deutschland-in-der-erneuerungskrise-was-bedeutet-das-fuer-uns-accg-201112222.html",
-        "https://www.faz.net/aktuell/wirtschaft/fed-chef-kevin-warsh-sagt-der-inflation-den-kampf-an-201169325.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/ausbildungsmarkt-hessen-zahl-der-ausbildungsplaetze-sinkt-201167680.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/christian-lindner-mahnt-schuldenpolitik-ist-gleich-doppelt-unsozial-accg-201163514.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-schwedische-new-wave-group-kauft-uhlsport-und-kempa-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-adlon-verkauf-findet-keine-mehrheit-wie-geht-es-weiter-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-us-wettbewerbsbehoerde-verklagt-amazon-faz-200452404.html",
+        "https://www.faz.net/aktuell/sport/fussball/bundesliga/hertha-bsc-mehrere-millionen-an-manager-bobic-accg-201174868.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 14
+          "count": 13
         },
         {
           "emotion": "realization",
-          "count": 8
+          "count": 7
         },
         {
           "emotion": "anger",
@@ -41,18 +41,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 106,
+      "article_count": 105,
       "sample_titles": [
-        "Der Irrtum vom ewigen Immobilienboom – was Sie über Dubai-Investments wissen sollten",
-        "Arbeitslosigkeit nimmt weiter zu – Hamburg meldet höchsten Stand seit 20 Jahren",
-        "Skandal um Coesfelder Liste – „Politisches Versagen auf ganzer Ebene“",
-        "„10.000 Arbeitsplätze weg, 1600 Euro pro Kopf weniger“ – Wirtschaftsexperten warnen vor AfD-Plänen"
+        "„Vereinbarung gilt“ – Merz hält trotz Bas’ Kritik an Plänen für Attestpflicht ab Tag 1 fest",
+        "„Klassenkampf von oben“ – Mercedes-Gewerkschafter attackieren IG-Metall-Chefin",
+        "„Rest der Welt dürfte Kopf schütteln“ – Per Haftbefehl Gesuchte kassieren weiter Grundsicherung",
+        "„Rest der Welt dürfte Kopf schütteln“ – Per Haftbefehl Gesuchte kassieren weiter Grundsicherung"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/plus6a89a5ad06b88cef09759364/das-ende-des-immobilienbooms-was-sie-ueber-investments-in-dubai-wissen-sollten.html",
-        "https://www.welt.de/wirtschaft/article6a91413b518a586e1855b06f/arbeitslosigkeit-nimmt-weiter-zu-hamburg-meldet-hoechsten-stand-seit-20-jahren.html",
-        "https://www.welt.de/politik/deutschland/video6a8f1feb8a7786c19f3352a0/manuel-ostermann-skandal-um-coesfelder-liste-politisches-versagen-auf-ganzer-ebene.html",
-        "https://www.welt.de/politik/deutschland/article6a8e73ecc3692834ff6dcd01/landtagswahlen-im-osten-10-000-arbeitsplaetze-weg-1600-euro-pro-kopf-weniger-wirtschaftsexperten-warnen-vor-afd-plaenen.html"
+        "https://www.welt.de/politik/deutschland/article6a956547518a586e1855e2f9/krankschreibung-vereinbarung-gilt-merz-haelt-trotz-bas-kritik-an-plaenen-fuer-attestpflicht-ab-tag-1-fest.html",
+        "https://www.welt.de/wirtschaft/article6a955472d88567044d84b2fe/klassenkampf-von-oben-mercedes-gewerkschafter-attackieren-ig-metall-chefin-christiane-benner.html",
+        "https://www.welt.de/politik/deutschland/video6a957204518a586e1855e487/leistungs-missbrauch-rest-der-welt-duerfte-kopf-schuetteln-per-haftbefehl-gesuchte-kassieren-weiter-grundsicherung.html",
+        "https://www.welt.de/politik/deutschland/article6a94b273d88567044d84aa1c/leistungs-missbrauch-rest-der-welt-duerfte-kopf-schuetteln-per-haftbefehl-gesuchte-kassieren-weiter-grundsicherung.html"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -70,22 +70,55 @@
         }
       ]
     },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 70,
+      "sample_titles": [
+        "Autoindustrie: Keine Einigung mit Land und Arbeitnehmern – die Suche von VW nach Kompromissen droht zu scheitern",
+        "Doppel-Interview: „Wir werden Arbeitsplätze verlieren“",
+        "Industrie: Zehntausende neue Jobs – Rüstungsfirmen stellen kräftig ein",
+        "Arbeitsmarkt: Teilzeitquote in Deutschland erreicht mit 40,3 Prozent neuen Höchststand"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-bei-vw-droht-die-suche-nach-kompromissen-zu-scheitern/100250809.html",
+        "https://www.handelsblatt.com/politik/international/doppel-interview-wir-werden-arbeitsplaetze-verlieren/100249982.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestungsindustrie-zehntausende-neue-jobs-unternehmen-stellen-kraeftig-ein/100249822.html",
+        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-teilzeitquote-in-deutschland-erreicht-mit-403-prozent-neuen-hoechststand/100251104.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        }
+      ]
+    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 66,
+      "article_count": 64,
       "sample_titles": [
+        "Arbeitslosigkeit steigt seit Jahren – besonders bei jungen Menschen",
         "Mehr Arbeitslose in Baden-Württemberg - vor allem die Jugendarbeitslosigkeit steigt im August",
         "VW-Betriebsrat pocht auf Zusagen - 6.000 Beschäftigte bei Betriebsversammlung in Baunatal",
-        "Cellforce: Betriebsrat erhebt Vorwürfe",
-        "Schlagabtausch auf dem Center Court"
+        "Cellforce: Betriebsrat erhebt Vorwürfe"
       ],
       "urls": [
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/arbeitslosigkeit_bei_jungen_steigt_seit_jahren_100.html",
         "https://www.swr.de/swraktuell/baden-wuerttemberg/jugendarbeitslosigkeit-in-bw-steigt-im-august-um-zwanzig-prozent-100.html",
         "https://www.hessenschau.de/wirtschaft/vw-betriebsrat-pocht-auf-zusagen---6000-beschaeftigte-bei-betriebsversammlung-in-baunatal-v1,vw-baunatal-betriebsversammlung-130.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/cellforce-vorwuerfe-betriebsrat-an-porsche-100.html",
-        "https://www.tagesschau.de/ausland/europa/frankreich-wahlkampfauftakt-praesidentschaftswahl-unternehmerverband-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/cellforce-vorwuerfe-betriebsrat-an-porsche-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -103,65 +136,32 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 65,
-      "sample_titles": [
-        "Volkswagen: 100.000 Jobs weg? Warum das VW-Horrorszenario unwahrscheinlicher wird",
-        "Dow Jones, S&P 500, Nasdaq: Dow Jones schließt fast unverändert – Warsh-Aussagen bremsen",
-        "Arbeitsmarkt: Erstmals mehr als sechs Millionen ausländische Beschäftigte in Deutschland",
-        "Bärbel Bas: Stresstest Rentenreform – Warum die Arbeitsministerin vor ihrer größten Bewährungsprobe steht"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-beim-stellenbau-zeichnet-sich-eine-ueberraschende-wende-ab/100250324.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-jones-schliesst-fast-unveraendert-warsh-aussagen-bremsen/100250403.html",
-        "https://www.handelsblatt.com/politik/konjunktur/arbeitsmarkt-erstmals-mehr-als-sechs-millionen-auslaendische-beschaeftigte/100250343.html",
-        "https://www.handelsblatt.com/politik/deutschland/rentenreform-warum-arbeitsministerin-bas-vor-ihrem-groessten-stresstest-steht/100249251.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 64,
+      "article_count": 63,
       "sample_titles": [
-        "Krankschreibungen: Bärbel Bas stellt Attestpflicht ab erstem Tag infrage",
-        "Arbeitslosenzahl steigt auf 3,061 Millionen",
-        "Bundesarbeitsgericht: Arbeitgeber dürfen Gekündigte nicht zu Bewerbungen ausfragen",
-        "Rostock: Universitätsmedizin Rostock stellt Oberarzt wegen Posts in sozialen Netzwerken frei"
+        "Arbeitsmarkt: Teilzeitquote in Deutschland erreicht neuen Höchststand",
+        "VW sieht für Werk in Hannover bislang keine Nachfolgeproduktion – Gewerkschaft gibt sich kampfbereit",
+        "Grundsicherung: Union drängt auf Ende der Zahlungen für mit Haftbefehl Gesuchte",
+        "Krankschreibungen: Bärbel Bas stellt Attestpflicht ab erstem Tag infrage"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/deutschland/krankschreibungen-baerbel-bas-stellt-attestpflicht-ab-erstem-tag-infrage-a-adeb41b7-f751-46a6-a070-7c8f756fb142#ref=rss",
-        "https://www.spiegel.de/wirtschaft/arbeitslosenzahl-steigt-auf-3-061-millionen-a-03702718-6350-4e2d-b030-80743bbee80b#ref=rss",
-        "https://www.spiegel.de/karriere/bundesarbeitsgericht-arbeitgeber-duerfen-gekuendigte-nicht-zu-bewerbungen-ausfragen-a-e3e48610-72ff-48fe-9825-510d04dddc34#ref=rss",
-        "https://www.spiegel.de/panorama/rostock-universitaetsmedizin-rostock-stellt-oberarzt-wegen-posts-in-sozialen-netzwerken-frei-a-93378cf7-8bbf-44a7-9a4b-ef95d70dab3b#ref=rss"
+        "https://www.spiegel.de/wirtschaft/arbeitsmarkt-teilzeitquote-in-deutschland-erreicht-neuen-hoechststand-a-5dc7d7dd-d27e-4063-b440-2cab9df48d5a#ref=rss",
+        "https://www.spiegel.de/wirtschaft/unternehmen/vw-sieht-fuer-werk-in-hannover-bislang-keine-nachfolgeproduktion-gewerkschaft-gibt-sich-kampfbereit-a-fe04341c-0d21-4143-a9e9-ae8a1f39fe31#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/grundsicherung-union-draengt-auf-ende-der-zahlungen-fuer-mit-haftbefehl-gesuchte-a-6ac3d105-2d70-419d-9ceb-d9e27ee6abae#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/krankschreibungen-baerbel-bas-stellt-attestpflicht-ab-erstem-tag-infrage-a-adeb41b7-f751-46a6-a070-7c8f756fb142#ref=rss"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "excitement",
       "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
         {
           "emotion": "excitement",
           "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
         },
         {
           "emotion": "disapproval",
@@ -175,16 +175,16 @@
       "bias": "right-conservative",
       "article_count": 61,
       "sample_titles": [
+        "\"Wir sind zu teuer\": Kretschmer bringt längere Arbeitszeiten bei VW ins Spiel",
+        "Arbeitsministerin Bas im Verzug: Union dringt auf Grundsicherungsstopp für polizeilich Gesuchte",
         "Ausbildungsort auch für US-Armee: Trump kündigt neue Weltraum-Akademie für die \"größten Talente\" an",
-        "3,06 Millionen Menschen ohne Job: Zahl der Arbeitslosen in Deutschland steigt",
-        "Fünf statt acht Milliarden Euro?: Le Pen will bei Wahlsieg französischen EU-Beitrag kürzen",
-        "Urteil aus dem Arbeitsrecht: Online-Krankschreibung ohne Arztkontakt - Kündigung wirksam"
+        "3,06 Millionen Menschen ohne Job: Zahl der Arbeitslosen in Deutschland steigt"
       ],
       "urls": [
+        "https://www.n-tv.de/wirtschaft/Kretschmer-bringt-laengere-Arbeitszeiten-bei-VW-ins-Spiel-id31249798.html",
+        "https://www.n-tv.de/politik/Union-dringt-auf-Grundsicherungsstopp-fuer-polizeilich-Gesuchte-id31249017.html",
         "https://www.n-tv.de/wissen/Trump-kuendigt-neue-Weltraum-Akademie-fuer-die-groessten-Talente-an-id31244682.html",
-        "https://www.n-tv.de/wirtschaft/Zahl-der-Arbeitslosen-in-Deutschland-steigt-id31241923.html",
-        "https://www.n-tv.de/politik/Le-Pen-will-bei-Wahlsieg-franzoesischen-EU-Beitrag-kuerzen-id31240318.html",
-        "https://www.n-tv.de/ratgeber/Online-Krankschreibung-ohne-Arztkontakt-Kuendigung-wirksam-id31237809.html"
+        "https://www.n-tv.de/wirtschaft/Zahl-der-Arbeitslosen-in-Deutschland-steigt-id31241923.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -206,51 +206,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 54,
+      "article_count": 49,
       "sample_titles": [
+        "Volkswagen: Arbeitnehmer enttäuscht von Vorstand - Gewerkschaft warnt vor Streiks",
         "IW Köln erwartet kaum Veränderungen durch Attestpflicht ab Tag eins",
         "Arbeitsmarkt: Zahl der Arbeitslosen in NRW steigt auf mehr als 800.000",
-        "Lage am Arbeitsmarkt weiter schwierig - Arbeitslosigkeit erneut leicht gestiegen",
-        "Streit um VW-Werke: „Wir müssen immer in der Lage sein, zu eskalieren“"
+        "Lage am Arbeitsmarkt weiter schwierig - Arbeitslosigkeit erneut leicht gestiegen"
       ],
       "urls": [
+        "https://www.stern.de/news/volkswagen--arbeitnehmer-enttaeuscht-von-vorstand---gewerkschaft-warnt-vor-streiks-38185048.html",
         "https://www.stern.de/news/iw-koeln-erwartet-kaum-veraenderungen-durch-attestpflicht-ab-tag-eins-38175928.html",
         "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/arbeitsmarkt--zahl-der-arbeitslosen-in-nrw-steigt-auf-mehr-als-800-000-38171666.html",
-        "https://www.stern.de/news/lage-am-arbeitsmarkt-weiter-schwierig---arbeitslosigkeit-erneut-leicht-gestiegen-38172024.html",
-        "https://www.stern.de/wirtschaft/volkswagen--ig-metall-droht-mit-harten-massnahmen----sehr-alarmiert--38150866.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 46,
-      "sample_titles": [
-        "Polizeigewerkschafter Sven Hüber: Rücktritt nach Misshandlungsvorwürfen aus DDR-Vergangenheit",
-        "Migrantischer Streik in Sachsen-Anhalt: Land ohne Läden als Warnung gegen die AfD",
-        "Zukunft von Volkswagen: VW-Beschäftigte in Zwickau bangen",
-        "Migrantischer Streik in Magdeburg: „Die Entschlossenheit in der Community ist groß“"
-      ],
-      "urls": [
-        "https://taz.de/Polizeigewerkschafter-Sven-Hueber/!6207351/",
-        "https://taz.de/Migrantenstreik-in-Sachsen-Anhalt/!6207343/",
-        "https://taz.de/Zukunft-von-Volkswagen/!6207267/",
-        "https://taz.de/Migrantischer-Streik-in-Magdeburg/!6206957/"
+        "https://www.stern.de/news/lage-am-arbeitsmarkt-weiter-schwierig---arbeitslosigkeit-erneut-leicht-gestiegen-38172024.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -259,12 +226,12 @@
           "count": 5
         },
         {
-          "emotion": "confusion",
+          "emotion": "optimism",
           "count": 3
         },
         {
-          "emotion": "realization",
-          "count": 3
+          "emotion": "curiosity",
+          "count": 1
         }
       ]
     },
@@ -272,18 +239,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 41,
+      "article_count": 44,
       "sample_titles": [
-        "Trotz 3 Millionen Arbeitslosen - Diese Jobs warten auf Sie!",
-        "Weiter über drei MIllionen - Arbeitslosigkeit im August erneut leicht gestiegen",
-        "Was sie verdienen - Woher unsere Fachkräfte wirklich kommen",
-        "Gehalt bis 100.000 Euro  - Wie wär’s mit einem Top-Job in der Rüstung?"
+        "Bürgergeld - Jobcenter zahlt Koran-Vorleser bedingungslos Stütze",
+        "Gewerkschaften eskalieren - Regierung im Renten-Krieg",
+        "Traumreise wird zum Finanz-Krimi - Wenn Kreditkarten im Urlaub plötzlich streiken",
+        "Trotz 3 Millionen Arbeitslosen - Diese Jobs warten auf Sie!"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/jobs-mit-schnellem-einstieg-verkauf-logistik-bau-6a8d64c1d8b561d618971116",
-        "https://www.bild.de/politik/inland/weiter-ueber-drei-millionen-arbeitslosigkeit-im-august-erneut-leicht-gestiegen-6a913f75b3df30a6155288ed",
-        "https://www.bild.de/politik/inland/woher-unsere-fachkraefte-wirklich-kommen-und-was-sie-verdienen-6a8da35de998204a5d80bb0f",
-        "https://www.bild.de/politik/inland/gehalt-bis-zu-100-000-euro-im-jahr-wie-waers-mit-einem-top-job-in-der-ruestung-6a1d9462411d40cd4c74e78d"
+        "https://www.bild.de/politik/inland/buergergeld-jobcenter-zahlt-koran-vorleser-bedingungslos-die-stuetze-6a95390bec27d32fb526a5cc",
+        "https://www.bild.de/politik/inland/rente-mit-63-chefin-des-dgb-yasmin-fahimi-warnt-spd-vor-abgrund-6a92f3d434aac181d7097b90",
+        "https://www.bild.de/leben-wissen/reisen/kreditkarte-im-urlaub-was-tun-wenn-man-auf-reisen-nicht-zahlen-kann-6a6dc2d9ef632fe6ede67a21",
+        "https://www.bild.de/politik/inland/jobs-mit-schnellem-einstieg-verkauf-logistik-bau-6a8d64c1d8b561d618971116"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -301,22 +268,55 @@
         }
       ]
     },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 44,
+      "sample_titles": [
+        "Zukunft von Volkswagen: Gewerkschaft will Autowerke retten",
+        "Mieten, Kabinettsklausur, Social Media: Ein Nietendeckel tut's auch",
+        "Polizeigewerkschafter Sven Hüber: Rücktritt nach Misshandlungsvorwürfen aus DDR-Vergangenheit",
+        "Migrantischer Streik in Sachsen-Anhalt: Land ohne Läden als Warnung gegen die AfD"
+      ],
+      "urls": [
+        "https://taz.de/Zukunft-von-Volkswagen/!6208735/",
+        "https://taz.de/Mieten-Kabinettsklausur-Social-Media/!6208538/",
+        "https://taz.de/Polizeigewerkschafter-Sven-Hueber/!6207351/",
+        "https://taz.de/Migrantenstreik-in-Sachsen-Anhalt/!6207343/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 4
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "realization",
+          "count": 3
+        }
+      ]
+    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 35,
+      "article_count": 36,
       "sample_titles": [
+        "Grundsicherung trotz Haftbefehl? Viel Aufregung, kaum Zahlen",
+        "Aktuelles zur Krise bei VW",
         "Wie Brandenburg Geflüchtete in Arbeit bringen will",
-        "Drei Millionen Arbeitslose - \"Wenig Dynamik\" am Arbeitsmarkt",
-        "Grundsicherung: Bürokratiemonster oder Armutsfalle?",
-        "Zweites Quartal: Reallöhne in Deutschland steigen weiter"
+        "Drei Millionen Arbeitslose - \"Wenig Dynamik\" am Arbeitsmarkt"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/grundsicherung-haftbefehl-streichung-missbrauch-betrug-100.html",
+        "https://www.phoenix.de/vw-in-der-krise-a-5228238.html",
         "https://www.zdfheute.de/politik/deutschland/chancen-center-frankfurt-oder-gefluechtete-asylbewerber-brandenburg-100.html",
-        "https://www.zdfheute.de/wirtschaft/arbeitslose-drei-millionen-100.html",
-        "https://www.zdfheute.de/wirtschaft/tacke-ploss-kipping-grundsicherung-beschaeftigung-100.html",
-        "https://www.zdfheute.de/wirtschaft/konjunktur-arbeit-realloehne-gestiegen-100.html"
+        "https://www.zdfheute.de/wirtschaft/arbeitslose-drei-millionen-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -334,22 +334,55 @@
         }
       ]
     },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 31,
+      "sample_titles": [
+        "Behördenchaos Polizeigewerkschafter fordert Sozialleistungs-Stopp für flüchtige Kriminelle",
+        "Fachkräftemangel Der aggressive Bernd G. schreit Bibelverse – und bekommt 2.500 Saudi-Riyal im Monat",
+        "Nordrhein-Westfalen Aus Angst vor dem Koran-Vorleser zahlt das Jobcenter bedingungslos Bürgergeld",
+        "Kommt die erste AfD-Regierung? Liveticker: Sachsen-Anhalt vor der Wahl"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/polizeigewerkschafter-fordert-sozialleistungs-stopp-fuer-fluechtige-kriminelle/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/der-aggressive-bernd-g-schreit-bibelverse-und-bekommt-2-500-saudi-riyal-im-monat/",
+        "https://jungefreiheit.de/politik/deutschland/2026/aus-angst-vor-dem-koran-vorleser-zahlt-das-jobcenter-bedingungslos-buergergeld/",
+        "https://jungefreiheit.de/politik/deutschland/2026/liveticker-sachsen-anhalt-vor-der-wahl/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 29,
+      "article_count": 31,
       "sample_titles": [
+        "Teilzeitarbeit : Noch nie arbeiteten so viele Beschäftigte in Teilzeit",
+        "Rentenreform: CDU-Arbeitnehmerflügel kritisiert SPD in der Rentendebatte",
         "Arbeitslosigkeit in Deutschland: Arbeitslosenzahl steigt erneut leicht und bleibt über drei Millionen",
-        "Sozialstaat: Ein Sparkurs gegen den Wählerwillen – kann das funktionieren?",
-        "Arbeitszeit in Deutschland: Die Deutschen arbeiten genug – oder?",
-        "Klausur in Schloss Neuhardenberg: Friedrich Merz will Reformvorhaben »so schnell wie möglich« umsetzen"
+        "Sozialstaat: Ein Sparkurs gegen den Wählerwillen – kann das funktionieren?"
       ],
       "urls": [
+        "https://www.zeit.de/arbeit/2026-09/teilzeitquote-deutschland-rekord-iab-arbeitsmarkt",
+        "https://www.zeit.de/politik/deutschland/2026-08/dennis-radtke-cda-cdu-rente-mit-63-spd",
         "https://www.zeit.de/arbeit/2026-08/arbeitslosigkeit-deutschland-arbeitslosenzahl-arbeitsmarkt-bundesagentur-fuer-arbeit-gxe",
-        "https://www.zeit.de/wirtschaft/2026-08/sozialstaat-sparen-dgb-wahl-bevoelkerung",
-        "https://www.zeit.de/arbeit/2026-08/arbeitszeit-deutschland-arbeitsplatz-arbeit-podcast",
-        "https://www.zeit.de/politik/deutschland/2026-08/klausur-schloss-neuhardenberg-friedrich-merz-reformen-wirtschaft-mittelstand"
+        "https://www.zeit.de/wirtschaft/2026-08/sozialstaat-sparen-dgb-wahl-bevoelkerung"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -367,65 +400,32 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 28,
-      "sample_titles": [
-        "Nach Foltervorwürfen Ex-Mauerschützen-Politoffizier Hüber tritt als GdP-Vize zurück",
-        "„Wirft ein unschönes Licht auf die Gewerkschaft“ Nach Foltervorwürfen: AfD fordert Konsequenzen für GdP-Vize Hüber",
-        "Gewalt im Nahverkehr „Es reicht!“ – Bahngewerkschaft droht mit Mega-Streik",
-        "GdP-Skandal Polizeigewerkschafter Sven Hüber: Profi für Agitation"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/ex-mauerschuetzen-politoffizier-hueber-tritt-als-gdp-vize-zurueck/",
-        "https://jungefreiheit.de/politik/deutschland/2026/nach-foltervorwuerfen-afd-fordert-konsequenzen-fuer-gdp-vize-hueber/",
-        "https://jungefreiheit.de/politik/deutschland/2026/es-reicht-bahngewerkschaft-droht-mit-mega-streik/",
-        "https://jungefreiheit.de/politik/deutschland/2026/polizeigewerkschafter-sven-hueber-kaempfer-fuer-die-ddr/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 25,
+      "article_count": 27,
       "sample_titles": [
-        "Gute Laune – schlechte Lügen",
-        "Beamtenbund fordert Besetzung von 631.000 Posten",
-        "Als der „Migra-Streik“ in Magdeburg zur unfreiwilligen Wahlkampfhilfe für die AfD wurde",
-        "Exklusive Civey-Umfrage: BSW- und Linke-Wähler am ehesten zu Schummelei bereit"
+        "Jobverlust-Report August",
+        "Zukunft ohne Pflege: Wenn die Versorgung der Alten am Fachkräftemangel scheitert",
+        "Per Haftbefehl Gesuchte kassieren weiter Grundsicherung",
+        "Gefährliche Gedankenspiele: Von der Leyen will private Bankguthaben staatlich lenken"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/herles-faellt-auf/gute-laune-schlechte-luegen/",
-        "https://www.tichyseinblick.de/daili-es-sentials/beamtenbund-fordert-besetzung-von-631000-posten/",
-        "https://www.tichyseinblick.de/meinungen/migra-streik-magdeburg/",
-        "https://www.tichyseinblick.de/wirtschaft/bsw-linke-civey-arbeitszeitbetrug/"
+        "https://www.tichyseinblick.de/wirtschaft/jobverlust-report-august/",
+        "https://www.tichyseinblick.de/video/interview/versorgung-alter-scheitert-am-fachkraeftemangel/",
+        "https://www.tichyseinblick.de/meinungen/per-haftbefehl-gesuchte-kassieren-weiter-grundsicherung/",
+        "https://www.tichyseinblick.de/wirtschaft/von-der-leyen-private-bankguthaben-staatlich-lenken/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 3
+          "emotion": "optimism",
+          "count": 2
         },
         {
-          "emotion": "optimism",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         },
         {
           "emotion": "gratitude",
@@ -437,18 +437,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 21,
       "sample_titles": [
+        "Arbeitsmarkt: Teilzeitquote auf neuem Höchststand",
         "Wirtschaftskraft: Der Osten ist näher am Westen, als er denkt",
         "Arbeitsmarkt: Arbeitslosenzahl in Bayern erreicht 20-Jahres-Hoch",
-        "Deutsche Bahn: Zugbegleiter brauchen schnell einen besseren Schutz",
-        "Bahngewerkschaft: EVG fordert härtere Strafen bei Angriffen auf Zugpersonal – sonst drohen Streiks"
+        "Deutsche Bahn: Zugbegleiter brauchen schnell einen besseren Schutz"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/arbeit-teilzeit-merz-hoechststand-teilzeitquote-li.3540483",
         "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/sachsen-anhalt-wahl-afd-ostdeutschland-wirtschaft-e895387/",
         "https://www.sueddeutsche.de/bayern/bayern-wirtschaft-arbeitsmarkt-arbeitslosenzahlen-li.3538572",
-        "https://www.sueddeutsche.de/meinung/bahn-zugbegleiter-schutzmassnahmen-gewalt-li.3535901",
-        "https://www.sueddeutsche.de/wirtschaft/bahn-streik-angriffe-zugpersonal-evg-januar-li.3535499"
+        "https://www.sueddeutsche.de/meinung/bahn-zugbegleiter-schutzmassnahmen-gewalt-li.3535901"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -470,7 +470,7 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 20,
+      "article_count": 18,
       "sample_titles": [
         "Frankreichs Präsidentschaftskandidaten streiten über die Schulden",
         "KOMMENTAR - Die Gewerkschaften verlangen eine 13. Pensionskassenrente: Das ist eine Schnapsidee",
@@ -532,7 +532,7 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 5,
+      "article_count": 4,
       "sample_titles": [
         "Deutschland: Bahngewerkschaft EVG droht mit Streiks",
         "Deutschland: Mehr junge Erwachsene ohne Job und Ausbildung",
@@ -573,24 +573,24 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 149,
-    "populist-mixed": 41,
-    "left-liberal": 167,
-    "far-right": 59,
-    "economic-liberal": 65,
-    "neutral": 106,
-    "right-conservative": 167,
-    "left": 46
+    "far-right": 64,
+    "economic-liberal": 70,
+    "conservative-liberal": 144,
+    "populist-mixed": 44,
+    "left-liberal": 164,
+    "neutral": 104,
+    "left": 44,
+    "right-conservative": 166
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die steigende Arbeitslosenzahl und der akute Fachkräftemangel die Dringlichkeit von strukturellen Qualifizierungs‑ und Umschulungsprogrammen erhöhen, weil die digitale Transformation und Automatisierung traditionelle Berufsbilder schnell verändern. Gleichzeitig besteht ein breiter Konsens darüber, dass die aktuelle Tarifbindung und das Mindestlohnsystem allein nicht ausreichen, um Lohngerechtigkeit und soziale Sicherung zu gewährleisten, weshalb eine stärkere Regulierung von Plattformarbeit, Scheinselbstständigkeit und flexiblen Beschäftigungsformen gefordert wird. Schließlich wird in fast allen Beiträgen die Notwendigkeit einer verbesserten Zusammenarbeit zwischen Gewerkschaften, Arbeitgeberverbänden und staatlichen Institutionen hervorgehoben, um langfristig stabile Beschäftigungsperspektiven und ein funktionierendes System der Arbeitsmarkt‑ und Sozialpolitik zu sichern.",
-      "controversial_points": "Der Streit um den Mindestlohn spaltet liberale Wirtschaftsmagazine, die Flexibilität fordern, und linke Blätter, die soziale Gerechtigkeit betonen. Tarifbindung wird von Arbeitgeberverbänden als Wettbewerbsnachteil dargestellt, während Gewerkschaften sie als Schutz vor Prekarisierung verteidigen. Die Debatte um Fachkräftemangel verknüpft Einwanderungsfragen mit Bildungspolitik und löst kulturpolitische Fronten aus. Digitalisierung und Plattformarbeit erzeugen Spannungen zwischen Forderungen nach sozialer Absicherung und dem Wunsch nach unternehmerischer Freiheit."
+      "shared_perspectives": "Alle mediale Strömungen betonen, dass der Fachkräftemangel in Pflege und Industrie ein zentrales Risiko für die Wettbewerbsfähigkeit Deutschlands darstellt und gleichzeitig gezielte Qualifizierungs- und Umschulungsprogramme gefordert werden. Gleichzeitig wird in nahezu allen Artikeln die steigende Teilzeitquote sowie die Zunahme prekärer Beschäftigungsformen wie Plattformarbeit als Herausforderung für die Tarifbindung und die soziale Sicherung hervorgehoben, wobei über Mindestlohn‑ und Grundsicherungsreformen parteiübergreifend diskutiert wird. Schließlich einigt sich der Diskurs darauf, dass Digitalisierung und Automatisierung den Arbeitsmarkt grundlegend verändern und Politik sowie Unternehmen flexible Weiterbildungsangebote bereitstellen müssen, um die Beschäftigungsfähigkeit langfristig zu sichern.",
+      "controversial_points": "Der Mindestlohn wird zwischen Gewerkschaften, die höhere Werte fordern, und Arbeitgeberverbänden, die Kosten senken wollen, polarisiert. Die Tarifbindung kollidiert mit der wachsenden Plattformarbeit, die flexible Beschäftigung ohne kollektive Regelungen ermöglicht. Fachkräftemangel erzeugt Spannungen zwischen Politik, die Zuwanderung lockern will, und Parteien, die soziale Sicherung schützen. Das Bürgergeld wird von linken Medien als soziale Notwendigkeit dargestellt, während rechte Stimmen es als Anreiz für Missbrauch kritisieren."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media converge on the view that the headline rise in unemployment masks a deeper structural shortage of qualified workers, leading to repeated calls for systematic reskilling programmes and stronger cooperation between unions, works councils and employers. They also share the assessment that automation and platform‑based work will reshape job structures, but that the impact can be mitigated through targeted education policies and adjustments to collective‑bargaining frameworks rather than radical wage cuts or universal basic‑income schemes.",
-      "controversial_points": "German media split between market‑liberal calls for wage flexibility and left‑leaning demands for stronger collective bargaining.  \nUnions and works councils clash with employers over platform regulation and automation‑driven job losses.  \nFiscal conservatives oppose basic‑income proposals while social democrats link them to poverty reduction.  \nRemote‑work debates pit employee health protections against corporate productivity arguments."
+      "shared_perspectives": "Across the spectrum German outlets treat the acute shortage of skilled workers as the primary economic bottleneck, linking it to automation, digitalisation and the urgent need for systematic reskilling programmes. Media from all sides note the simultaneous rise in part‑time and precarious jobs and the growing number of people receiving basic‑income or unemployment benefits, prompting a debate on the sustainability of the current social‑security model and calls for stricter eligibility criteria. There is a shared perception that collective bargaining and works councils are losing leverage to employer‑driven flexibility, leading to calls for stronger institutional support for unions regardless of political orientation.",
+      "controversial_points": "The core conflict pits market‑oriented liberalism against organized labour over wage setting and collective bargaining. A second tension divides those demanding stricter social safety nets from those promoting basic‑income cuts and benefit restrictions. Automation and platform work create a clash between calls for reskilling investment and fears of job loss driving protectionist rhetoric. Regional politics intensify the dispute as states use migrant labour narratives to justify or reject foreign worker inflows."
     }
   },
-  "cached_at": "2026-08-30T10:13:59.549158"
+  "cached_at": "2026-09-02T09:01:29.479372"
 }
