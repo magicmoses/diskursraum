@@ -4,55 +4,22 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 117,
-      "sample_titles": [
-        "USA unter Trump: Supreme Court soll Streit um Transmenschen im Militär entscheiden",
-        "Deutschland-Liveblog: Putin bezeichnet deutsche Strafmaßnahmen als „schweren Fehler“",
-        "Anschlag auf Flughafen: Diesen Preis soll Russland bezahlen",
-        "Deutschland-Liveblog: Moskau will auf Berlins „antirussische Entscheidung“ reagieren"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-streit-um-transmenschen-im-militaer-supreme-court-soll-entscheiden-faz-19444916.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-putin-nennt-deutsche-strafmassnahmen-einen-schweren-fehler-faz-110093143.html",
-        "https://www.faz.net/aktuell/politik/inland/dobrindt-und-wadephul-zu-drohnenvorfall-in-leipzig-diesen-preis-soll-russland-bezahlen-201180607.html",
-        "https://www.faz.net/aktuell/politik/inland/liveblog-bundespolitik-moskau-will-auf-berlins-antirussische-entscheidung-reagieren-faz-110093143.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 2
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 109,
+      "article_count": 113,
       "sample_titles": [
-        "Ölpreis legt zu: Stimmung an der Wall Street trübt sich weiter ein",
-        "Trotz Trumps Warnung : Iran greift nach US-Schlägen in Kuwait, Jordanien und Bahrain an",
-        "\"Hochzufrieden\" mit der Leistung: Deutsche Marine testet Raketensystem mit großer Reichweite",
-        "Belege angeblich gefälscht: Putin nennt Berlins Sanktionen \"schweren Fehler\""
+        "\"Ich kenne ihn sehr gut\": Trump: Putin will Nato nicht angreifen",
+        "Nach Ehren für Kriegsverbrecher: EU-Kommissarin sagt Serbien-Reise wegen \"Verherrlichung\" Mladics ab",
+        "Zeitenwende in Wolfsburg: VW-Arbeitnehmer geben viel preis - und Blume gewinnt",
+        "Politisches Motiv wahrscheinlich: Zwei Bulgaren nach Brandanschlag in München in U-Haft"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Stimmung-an-der-Wall-Street-truebt-sich-weiter-ein-id31258797.html",
-        "https://www.n-tv.de/politik/Iran-greift-nach-US-Schlaegen-in-Kuwait-Jordanien-und-Bahrain-an-id31259136.html",
-        "https://www.n-tv.de/politik/Deutsche-Marine-testet-Raketensystem-mit-grosser-Reichweite-id31258942.html",
-        "https://www.n-tv.de/politik/Putin-nennt-Berlins-Sanktionen-schweren-Fehler-id31258863.html"
+        "https://www.n-tv.de/politik/Trump-Putin-will-Nato-nicht-angreifen-id31272024.html",
+        "https://www.n-tv.de/politik/EU-Kommissarin-sagt-Serbien-Reise-wegen-Verherrlichung-Mladics-ab-id31271894.html",
+        "https://www.n-tv.de/wirtschaft/VW-Arbeitnehmer-geben-viel-preis-und-Blume-gewinnt-id31270886.html",
+        "https://www.n-tv.de/politik/Zwei-Bulgaren-nach-Brandanschlag-in-Muenchen-in-U-Haft-id31270427.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -61,12 +28,45 @@
           "count": 3
         },
         {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 111,
+      "sample_titles": [
+        "USA unter Trump: Tetris distanziert sich von Videospiel auf Webseite des Weißen Hauses",
+        "Schutz der Infrastruktur: Die Zeitenwende darf nicht am Trafo enden",
+        "Reservistenverband Hanau: Eine Woche ohne Luftalarm",
+        "Früherer Feuerwehrchef: „Muss erst ein Flugzeug explodieren, damit wir aufwachen?“"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-tetris-distanziert-sich-von-videospiel-auf-internetseite-des-weissen-hauses-faz-19444916.html",
+        "https://www.faz.net/aktuell/politik/inland/mona-neubaur-zu-sabotage-die-zeitenwende-darf-nicht-am-trafo-enden-201195458.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hanau-ukrainer-besuchen-reservistenverband-201160550.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/albrecht-broemme-wann-wacht-deutschland-im-zivilschutz-auf-accg-201188265.html"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 2
+        },
+        {
           "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "admiration",
+          "count": 1
         }
       ]
     },
@@ -74,32 +74,32 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 94,
+      "article_count": 90,
       "sample_titles": [
-        "Putin nennt Strafmaßnahmen „schweren Fehler“ – Wagenknecht und Siegmund kritisieren Bundesregierung",
-        "„Wird vollkommen unsicher“ – Selenskyj erklärt russischen Luftraum für „faktisch“ geschlossen",
-        "„Russland hat den Anschlag zu verantworten“ – Bundesregierung schließt russisches Generalkonsulat",
-        "„Ich glaube nicht, dass man im Kreml jetzt eine schlaflose Nacht hat“"
+        "„Putin plant keinen Angriff auf das Nato-Gebiet“ – Trump äußert sich zu Drohnen-Vorfall",
+        "„Dieser Ruf nach Verhandlungen ist für die Innenpolitik, aber nicht für den Iran“",
+        "WELT Spezial zur Sabotage-Serie – Wie verwundbar ist Deutschland?",
+        "„Greife nicht das Land, sondern die fossile Brennstoffindustrie an“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6a970cb0518a586e1855fec5/reaktionen-auf-regierungsmassnahmen-putin-nennt-strafmassnahmen-schweren-fehler-wagenknecht-und-siegmund-kritisieren-bundesregierung.html",
-        "https://www.welt.de/politik/ausland/article6a9746f59452c522382305c4/drohnen-aus-der-ukraine-wird-vollkommen-unsicher-selenskyj-erklaert-russischen-luftraum-fuer-faktisch-geschlossen.html",
-        "https://www.welt.de/politik/ausland/article6a96a117518a586e1855f465/leipzig-russland-laut-regierung-verantwortlich-fuer-drohnen-attacke-wadephul-schliesst-russisches-konsulat.html",
-        "https://www.welt.de/politik/video6a96fa92d32756d4be19bcf1/deutschlands-reaktion-zu-lasch-ich-glaube-nicht-dass-man-im-kreml-jetzt-eine-schlaflose-nacht-hat.html"
+        "https://www.welt.de/politik/ausland/article6a9b1f6c240b302c8a839b2c/trump-aeussert-sich-zu-drohnen-vorfall-putin-plant-keinen-angriff-auf-das-nato-gebiet.html",
+        "https://www.welt.de/politik/ausland/video6a9af61adde98c9236182205/nahost-dieser-ruf-nach-verhandlungen-ist-fuer-die-innenpolitik-aber-nicht-fuer-den-iran.html",
+        "https://www.welt.de/politik/video6a9abb6cb3e0470a1975bb32/hybride-bedrohungen-welt-spezial-zur-sabotage-serie-wie-verwundbar-ist-deutschland.html",
+        "https://www.welt.de/politik/deutschland/plus6a9ab42608c763dcf81f41e5/anschlaege-auf-infrastruktur-greife-nicht-das-land-sondern-die-fossile-brennstoffindustrie-an.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "anger",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "anger",
           "count": 2
         },
         {
-          "emotion": "sadness",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "anger",
-          "count": 1
+          "emotion": "admiration",
+          "count": 2
         }
       ]
     },
@@ -107,27 +107,27 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 78,
+      "article_count": 70,
       "sample_titles": [
-        "USA bombardieren nahe Straße von Hormus, Iran startet Vergeltungsangriffe",
-        "Trump zieht im Streit über trans Menschen beim Militär vor Supreme Court",
-        "Flughafen Leipzig/Halle: Wie Berlin auf Putins Schattenkrieg reagiert",
-        "Anschlag Leipzig: Nato begrüßt Maßnahmen, Grüne fordern härtere Sanktionen gegen Russland"
+        "Serbien: EU-Kommissarin Marta Kos sagt Besuch wegen »Verherrlichung« von Ratko Mladić ab",
+        "Ukraine: Wolodymyr Selenskyj verurteilt Schusswechsel zwischen ukrainischen Geheimdiensten",
+        "Experten machen US-Munition für Tote auf Hochzeit in Iran verantwortlich",
+        "Sabotage: Offenbar 165 Verdachtsfälle in Deutschland in diesem Jahr"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/usa-bombardiert-nahe-strasse-von-hormus-iran-startet-vergeltungsangriffe-a-377a2cf7-e3d0-4048-85dd-777433958151#ref=rss",
-        "https://www.spiegel.de/ausland/trump-zieht-im-streit-ueber-trans-menschen-beim-militaer-vor-supreme-court-a-906eaf1e-306d-40bf-9040-b65ec9df4a97#ref=rss",
-        "https://www.spiegel.de/politik/flughafen-leipzig-halle-wie-berlin-auf-putins-schattenkrieg-reagiert-a-203cbeab-c5d4-468a-88be-be002c1ee8d7#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/anschlag-leipzig-nato-begruesst-massnahmen-gruene-fordern-haertere-sanktionen-gegen-russland-a-1307eeea-6a44-4ec4-83a1-f79e990618f5#ref=rss"
+        "https://www.spiegel.de/ausland/serbien-eu-kommissarin-marta-kos-sagt-besuch-wegen-verherrlichung-von-ratko-mladic-ab-a-d5a5c389-6324-4e95-9924-a8d03ca0fca9#ref=rss",
+        "https://www.spiegel.de/politik/selenskyj-verurteilt-schusswechsel-zwischen-ukrainischen-geheimdiensten-a-71105a6c-72d4-4cf4-be8a-b635d5c5a522#ref=rss",
+        "https://www.spiegel.de/ausland/experten-machen-us-munition-fuer-tote-auf-hochzeit-in-iran-verantwortlich-a-4b8bf0d5-656d-4d06-8558-88633b965a03#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/sabotage-offenbar-165-verdachtsfaelle-in-deutschland-in-diesem-jahr-a-80bf4f2e-49a7-42bb-9110-f0748693df10#ref=rss"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "approval",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "approval",
           "count": 3
         },
         {
-          "emotion": "grief",
+          "emotion": "curiosity",
           "count": 2
         },
         {
@@ -140,64 +140,31 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 60,
+      "article_count": 63,
       "sample_titles": [
-        "Rüstung: Deutsche Marine testet erfolgreich weitreichende Rakete",
-        "Südchinesisches Meer: Während sich die USA zurückziehen, rückt China vor",
-        "Hybrider Krieg: Bundesregierung ergreift nach Drohnenangriff von Leipzig Maßnahmen gegen Russland",
-        "Kommentar: Berlins Antwort auf die Drohnenattacke kann nur der Anfang sein"
+        "Rüstung: Kursrutsch, Umsatzwarnung, Lieferprobleme – wie Armin Papperger bei Rheinmetall an Grenzen stößt",
+        "Ukraine-Krieg: Trump zu Drohnen-Fund in Leipzig: Putin plant keine Angriffe auf Nato",
+        "Ukraine-Krieg: Wie die Ukraine den zivilen Luftverkehr in Russland lahmlegen will – und vielleicht auch kann",
+        "Editorial: Deutsche Beißhemmung gegen Russland"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/ruestung-deutsche-marine-testet-erfolgreich-weitreichende-rakete/100251327.html",
-        "https://www.handelsblatt.com/politik/international/suedchinesisches-meer-waehrend-sich-die-usa-zurueckziehen-rueckt-china-vor/100249553.html",
-        "https://www.handelsblatt.com/politik/deutschland/leipzig-bundesregierung-sieht-russland-hinter-drohnenangriff/100251085.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-berlins-antwort-auf-die-drohnenattacke-kann-nur-der-anfang-sein/100251291.html"
+        "https://www.handelsblatt.com/unternehmen/industrie/ruestung-wie-armin-papperger-bei-rheinmetall-an-seine-grenzen-stoesst/100251097.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-trump-zu-drohnen-fund-in-leipzig-putin-plant-keine-angriffe-auf-nato/27982126.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/ukraine-krieg-wie-kiew-den-zivilen-luftverkehr-in-russland-lahmlegen-will1234/100252009.html",
+        "https://www.handelsblatt.com/meinung/kommentare/editorial-deutsche-beisshemmung-gegen-russland-1/100251738.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "curiosity",
           "count": 2
         },
         {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
           "emotion": "excitement",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 48,
-      "sample_titles": [
-        "Reporter analysiert Drohnen-Angriff - Diese Indizien führen nach Russland",
-        "Live-Ticker - Das ist die Reaktion Deutschlands auf die Drohnen",
-        "Selenskyj warnt Internationale Fluggesellschaften - Russischer Luftraum wird „faktisch gesperrt“",
-        "Rheinmetall plant KI-Zentrum - Rüstungs-Gigant will neue 1200  Jobs schaffen"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/reporter-analysiert-drohnen-angriff-diese-indizien-fuehren-nach-russland-6a9724862a6051ae2e13feb1",
-        "https://www.bild.de/politik/inland/live-ticker-zu-drohnen-von-leipzig-das-ist-die-reaktion-deutschlands-6a96d5482a6051ae2e13f900",
-        "https://www.bild.de/politik/ausland-und-internationales/selenskyj-warnt-internationale-fluggesellschaften-russischer-luftraum-wird-faktisch-gesperrt-6a971b232a6051ae2e13fe18",
-        "https://www.bild.de/regional/nordrhein-westfalen/ruestungs-gigant-will-1200-neue-jobs-schaffen-6a969e2c9452c5223822f338"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
           "count": 1
         }
       ]
@@ -206,18 +173,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 47,
+      "article_count": 54,
       "sample_titles": [
-        "Putin bezeichnet deutsche Maßnahmen als \"schweren Fehler\"",
-        "Antikriegstag: Der DGB zwischen Friedenswunsch und Rüstungsgewinnen",
-        "Bundesregierung schließt russisches Generalkonsulat in Bonn",
-        "US-Unternehmen plant Rüstungsfabrik in Leipzig"
+        "Bei SEK-Einsatz: Mehrere Hundert Kilogramm Munition beschlagnahmt",
+        "Bundeswehrstandort in Merzig wird deutlich größer",
+        "Milei kündigt Militärbasis und Sanktionen an",
+        "Trump will Geld von Europa für Ukraine-Hilfen zurück"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/asien/putin-ukraine-deutschland-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/friedrichshafen/dgb-antikriegstag-friedenswunsch-und-ruestungsgewinne-100.html",
-        "https://www1.wdr.de/nrw/bundesregierung-schliesst-russisches-generalkonsulat-in-bonn-100.html",
-        "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/produktion-leipzig-mittelstrecken-marschflugkoerper,covenant-akt-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/murr-sek-einsatz-mehrere-hundert-kilogramm-munition-beschlagnahmt-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/bundeswehr_merzig_aufstockung_dienstposten_heimatschutzbataillon132_100.html",
+        "https://www.tagesschau.de/ausland/amerika/argentinien-streit-falkland-inseln-100.html",
+        "https://www.tagesschau.de/ausland/amerika/trump-ukraine-hilfen-forderung-europa-100.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -230,8 +197,41 @@
           "count": 2
         },
         {
-          "emotion": "amusement",
-          "count": 2
+          "emotion": "gratitude",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 47,
+      "sample_titles": [
+        "Dreifacher Mordversuch in Deutschland - MMA-Star „Terminator“ droht lebenslang!",
+        "Er feuerte mehr als 200 Mal - US-Polizei stoppt Traktor-Schützen",
+        "Großeinsatz in München - Nach Anschlag! SEK sprengt Tür auf",
+        "Angriff auf Rüstungsunternehmen - Kampfmittelroboter am Anschlagsort"
+      ],
+      "urls": [
+        "https://www.bild.de/regional/frankfurt/mma-star-terminator-muss-wegen-dreifachen-mordversuchs-vor-gericht-6a92ad27518a586e1855c51b",
+        "https://www.bild.de/news/er-feuerte-mehr-als-200-mal-us-polizei-stoppt-traktor-schuetzen-6a9acafc08c763dcf81f4586",
+        "https://www.bild.de/regional/muenchen/muenchen-nach-brandanschlag-mann-verschanzt-sich-sek-sprengt-tuer-auf-6a99850ddde98c9236180758",
+        "https://www.bild.de/news/inland/roboter-entschaerft-brandsaetze-lka-bayern-vermutet-anschlagversuch-auf-ruestungsunternehmen-6a9918499452c5223823254a"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
+          "count": 1
         }
       ]
     },
@@ -241,25 +241,25 @@
       "bias": "left-liberal",
       "article_count": 44,
       "sample_titles": [
-        "Luftkrieg: Selenskyj erklärt Russlands Himmel zur Drohnen-Sperrzone",
-        "Drohnen-Vorwürfe: Putin: Deutsche Sanktionen gegen Russland ein „schwerer Fehler“",
-        "Krieg: USA und Iran verkünden neue gegenseitige Angriffe",
-        "Selenskyj warnt Airlines: „Sichere Tage im russischen Luftraum sind vorbei“"
+        "Bundesdigitalminister Wildberger eröffnet Elektronikmesse IFA mit Rundgang",
+        "Hybride Kriegsführung: Mehr Drohnenflüge - Delegation war in Kiew",
+        "Jahre nach sächsischem Munitionsskandal: Schießplatzbetreiber in Schwerin verurteilt",
+        "Arbeitsplätze: Anhaltender Stellenabbau in der Metall- und Elektroindustrie"
       ],
       "urls": [
-        "https://www.stern.de/politik/ausland/selenskyj-erklaert-russlands-himmel-zur-drohnen-sperrzone-38193324.html",
-        "https://www.stern.de/politik/ausland/sanktionen-gegen-russland--fuer-putin-ein--schwerer-fehler--38193386.html",
-        "https://www.stern.de/politik/ausland/krieg--usa-und-iran-verkuenden-neue-gegenseitige-angriffe-38192818.html",
-        "https://www.stern.de/news/selenskyj-warnt-airlines---sichere-tage-im-russischen-luftraum-sind-vorbei--38193220.html"
+        "https://www.stern.de/news/bundesdigitalminister-wildberger-eroeffnet-elektronikmesse-ifa-mit-rundgang-38205678.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/hybride-kriegsfuehrung--mehr-drohnenfluege---delegation-war-in-kiew-38203452.html",
+        "https://www.stern.de/news/jahre-nach-saechsischem-munitionsskandal--schiessplatzbetreiber-in-schwerin-verurteilt-38202404.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/arbeitsplaetze--anhaltender-stellenabbau-in-der-metall--und-elektroindustrie-38199864.html"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "disapproval",
           "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "fear",
           "count": 2
         },
         {
@@ -274,29 +274,29 @@
       "bias": "neutral",
       "article_count": 41,
       "sample_titles": [
-        "Konflikt zwischen USA und Iran eskaliert erneut",
-        "Drohnenvorfall: Russland hat Angriff zu verantworten",
-        "Staatssekretär Hartmann zum EU-Verteidigungsministertreffen",
-        "Live: Pressekonferenz zu Deutschlands Antwort"
+        "Militärexperte Lange: Mehr Druck auf Russland war überfällig",
+        "Wird die Landtagswahl in Sachsen-Anhalt eine Zeitenwende?",
+        "Anschlagsversuch in Leipzig: Führt eine Spur nach Serbien?",
+        "LKA vermutet Anschlagsversuch auf Rüstungsunternehmen"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/ausland/usa-iran-angriffe-trump-vergeltung-100.html",
-        "https://www.phoenix.de/sendungen/ereignisse/phoenix-der-tag/ua-pressekonferenz-mit-jo-a-5222562.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5228585",
-        "https://www.zdfheute.de/video/zdfheute-live/drohnenangriff-leipzig-pressekonferenz-video-100.html"
+        "https://www.zdfheute.de/politik/deutschland/russland-deutschland-hybride-angriffe-nico-lange-100.html",
+        "https://www.zdfheute.de/politik/deutschland/wahl-sachsen-anhalt-afd-spaltung-rechtsextremismus-100.html",
+        "https://www.zdfheute.de/politik/ausland/anschlagsversuch-leipzig-flughafen-sprengstoff-drohne-ermittlung-serbien-sabotage-100.html",
+        "https://www.zdfheute.de/politik/brandattacke-muenchen-lka-anschlagsversuch-ruestungsunternehmen-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "confusion",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "confusion",
+          "count": 3
         },
         {
           "emotion": "curiosity",
-          "count": 1
+          "count": 2
         },
         {
-          "emotion": "confusion",
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -305,27 +305,60 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 38,
+      "article_count": 40,
       "sample_titles": [
-        "Nach Drohnen auf Leipziger Flughafen: Grüße nach Moskau",
-        "Nach der Armeerevolte in Niger: Russland als Neokolonialist",
-        "Russlands Machenschaften in der EU: Tanker, Drohnen, Sprengstoffanschläge",
-        "Nach Brandanschlag auf Flüchtlingsheim: Zwei Jungnazis wegen Beihilfe zu versuchtem Mord angeklagt"
+        "Russische Attacken auf Kyjiw: Drohne trifft Zentrale des Geheimdienstes",
+        "EU-Rechnungsprüfer warnen: Trotz hoher Verteidigungsausgaben schlecht gerüstet",
+        "Russland schließt Goethe-Institute: Keine Deutschprüfungen mehr in Moskau",
+        "Rüstungskonzern in München angegriffen: LKA vermutet Anschlag"
       ],
       "urls": [
-        "https://taz.de/Drohnenanschlag-in-Leipzig/!6204869/",
-        "https://taz.de/Nach-der-Armeerevolte-in-Niger/!6209167/",
-        "https://taz.de/Russlands-Machenschaften-in-der-EU/!6209136/",
-        "https://taz.de/Nach-Brandanschlag-auf-Fluechtlingsheim/!6209166/"
+        "https://taz.de/Russische-Attacken-auf-Kyjiw/!6210454/",
+        "https://taz.de/EU-Rechnungspruefer-warnen/!6210381/",
+        "https://taz.de/Russland-schliesst-Goethe-Institute/!6209863/",
+        "https://taz.de/Ruestungskonzern-in-Muenchen-angegriffen-LKA-ermittelt-wegen-politischem-Hintergrund/!6209786/"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "disapproval",
           "count": 2
         },
         {
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
           "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 37,
+      "sample_titles": [
+        "DER ANDERE BLICK MIT DATEN - Von wegen Wachstumsprogramm: Die Aufrüstung der Bundeswehr wird die Wirtschaft nicht stärken",
+        "«Same, Lindsay»: Hunderte solidarisieren sich mit der Frau, die ihre Kinder getötet hat – der Prozess endet vorerst ohne Urteil",
+        "KOMMENTAR - Der Bundesrat sollte noch dieses Jahr eine Alternative zu Patriot beschaffen. Dazu braucht es einen Partner, hinter dem alle stehen können",
+        "Estland hat 70 Millionen Euro an eine indische Firma bezahlt und leere Versprechen statt Munition bekommen – jetzt muss der Verteidigungsminister gehen"
+      ],
+      "urls": [
+        "https://www.nzz.ch/der-andere-blick/von-wegen-wachstumsprogramm-die-aufruestung-der-bundeswehr-wird-die-wirtschaft-nicht-staerken-ld.10022262",
+        "https://www.nzz.ch/panorama/lindsay-clancy-fall-spaltet-jury-und-gesellschaft-ld.10022020",
+        "https://www.nzz.ch/meinung/der-bundesrat-sollte-noch-dieses-jahr-eine-alternative-zu-patriot-beschaffen-dazu-braucht-es-einen-partner-hinter-dem-alle-stehen-koennen-ld.10022432",
+        "https://www.nzz.ch/international/estlands-verteidigungsminister-tritt-zurueck-inmitten-geopolitischer-spannungen-ld.10022235"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "disgust",
           "count": 1
         },
         {
@@ -338,18 +371,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 32,
+      "article_count": 31,
       "sample_titles": [
-        "Krieg im Iran: USA und Iran greifen sich gegenseitig an",
-        "US-Militär: Trump will Ausschluss von trans Soldaten vor Supreme Court durchsetzen",
-        "Bedrohung aus Russland: Kreml erzürnt über deutsche Sanktionen nach Drohnen-Vorfall",
-        "Anschlagsversuch in Leipzig: Russland weist Vorwürfe zu Leipziger Drohnenvorfall zurück"
+        "Geran-4-Drohne: Putins neue Drohnen sind tödlich, blitzschnell – und sie können sehen",
+        "Deutsch-französischer Panzerhersteller: Staatsanwaltschaft prüft Milliardengeschäft zwischen KNDS und Katar",
+        "Drohnenvorfall: Kiesewetter nennt Reaktion des Bundes auf Drohnenvorfall unzureichend",
+        "Venezuela: Donald Trump hält Venezuela für Neuwahlen »noch nicht bereit«"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-09/usa-iran-angriffe-strasse-von-hormus-revolutionsgarden-donald-trump",
-        "https://www.zeit.de/politik/ausland/2026-09/trans-menschen-us-militaer-donald-trump-entlassungen-supreme-court",
-        "https://www.zeit.de/news/2026-09/02/kreml-erzuernt-ueber-deutsche-sanktionen-nach-drohnen-vorfall",
-        "https://www.zeit.de/politik/ausland/2026-09/russland-drohnenangriff-flughafen-leipzig-halle-konsulat-kulturzentrum"
+        "https://www.zeit.de/politik/ausland/2026-09/geran-4-drohne-russland-ukraine-angriffe-odessa",
+        "https://www.zeit.de/wirtschaft/2026-09/knds-panzer-deal-katar-leopard-2-schmiergeld",
+        "https://www.zeit.de/politik/deutschland/2026-09/drohnenanschlag-flughafen-leipzig-roderich-kiesewetter-russland-bundesregierung",
+        "https://www.zeit.de/politik/ausland/2026-09/genaro-garcia-luna-mexiko-new-york-drogenterrorismus-prozess"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -358,44 +391,11 @@
           "count": 2
         },
         {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
           "emotion": "desire",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 30,
-      "sample_titles": [
-        "DIE NEUESTEN ENTWICKLUNGEN - Trumps zweite Amtszeit: Trump zieht für Bann von Transmenschen im Militär vor Supreme Court",
-        "Hilft der Schweiz die Neutralität noch – und wenn ja, was für eine?",
-        "Gegen Wokeness und Ukraine-Hilfe: wie Giuseppe Conte die italienische Opposition für sein Comeback erpresst",
-        "Nein zu Beitrittsverhandlungen: Island braucht keine EU-Mitgliedschaft, die Nato reicht"
-      ],
-      "urls": [
-        "https://www.nzz.ch/international/trumps-zweite-amtszeit-trump-zieht-fuer-bann-von-transmenschen-im-militaer-vor-supreme-court-ld.1856621",
-        "https://www.nzz.ch/pro/hilft-der-schweiz-die-neutralitaet-noch-und-wenn-ja-was-fuer-eine-ld.10021511",
-        "https://www.nzz.ch/international/das-schlamassel-von-mitte-links-wie-giuseppe-conte-die-italienische-opposition-fuer-sein-comeback-erpresst-ld.10021467",
-        "https://www.nzz.ch/international/nein-zu-beitrittsverhandlungen-island-braucht-keine-eu-mitgliedschaft-die-nato-reicht-ld.10021638"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
           "count": 1
         }
       ]
@@ -404,27 +404,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 19,
+      "article_count": 21,
       "sample_titles": [
-        "Newsblog zur Bundespolitik: Leipzig: Putin wirft Deutschland Beweisfälschung vor",
-        "Verteidigung: Deutsche Marine testet erfolgreich weitreichende Rakete",
-        "USA-Newsblog: Streit um Transmenschen im Militär: Trump zieht vor Supreme Court",
-        "Newsblog zur Bundespolitik: Leipzig: Russland kündigt Reaktion auf Sanktionen an"
+        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Anschlag auf Münchner Rüstungsfirmen: Sie warfen die Brandsätze aus einem Auto heraus",
+        "Russland: „Man sollte alles versuchen, um zu verhindern, dass sich Russland weiter bereichert“",
+        "Drohnen, Agenten, Anschläge: Hat Putins hybrider Krieg München erreicht?"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/bundesregierung-leipzig-sanktionen-russland-reaktionen-putin-li.3529564",
-        "https://www.sueddeutsche.de/politik/marine-raketentest-russland-lora-reichweite-verteidigung-li.3540917",
-        "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-transmenschen-us-armee-supreme-court-li.3530667",
-        "https://www.sueddeutsche.de/politik/bundesregierung-leipzig-sanktionen-russland-reaktionen-li.3529564"
+        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3541956",
+        "https://www.sueddeutsche.de/muenchen/muenchen-brandanschlag-ruestungsfirmen-rohde-schwarz-helsing-li.3541542",
+        "https://www.sueddeutsche.de/medien/dmitry-glukhovsky-russland-drohnen-leipzig-li.3541395",
+        "https://www.sueddeutsche.de/muenchen/muenchen-flughafen-drohnen-agenten-anschlaege-infrastruktur-russland-li.3322996"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "curiosity",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -433,23 +437,52 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 17,
       "sample_titles": [
-        "Nach Drohnenvorfall in Leipzig Bundesregierung schließt Russlands Generalkonsulat und Kulturzentrum",
-        "Mutmaßliche Sabotage Bundesregierung macht Russland für Sprengstoffdrohnen in Leipzig verantwortlich",
-        "US-Generäle widersprechen Hegseth Der Irankrieg bringt Amerikas Militär an seine Grenzen",
-        "Verteidigungshaushalt Warum 930 Milliarden Euro für Rüstung kaum Wachstum bringen"
+        "Folgen des Drohnenkrieges Der Ölmacht Russland geht das Benzin aus",
+        "Geheimdienstzentrale getroffen Selenskyj droht Moskau nach Drohnenschlag mit Vergeltung",
+        "Dschihad in der Sahelzone Afrikas Militärregime suchen neue Partner im Kampf gegen Islamisten",
+        "Rohde & Schwarz Brandanschlag auf Bundeswehr-Ausrüster: LKA vermutet politisches Motiv"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/bundesregierung-schliesst-russlands-generalkonsulat-und-kulturzentrum/",
-        "https://jungefreiheit.de/politik/deutschland/2026/bundesregierung-macht-russland-fuer-sprengstoffdrohnen-in-leipzig-verantwortlich/",
-        "https://jungefreiheit.de/politik/ausland/2026/der-irankrieg-bringt-amerikas-militaer-an-seine-grenzen/",
-        "https://jungefreiheit.de/wirtschaft/2026/warum-930-milliarden-euro-fuer-ruestung-kaum-wachstum-bringen/"
+        "https://jungefreiheit.de/politik/ausland/2026/der-oelmacht-russland-geht-das-benzin-aus/",
+        "https://jungefreiheit.de/politik/ausland/2026/selenskyj-droht-moskau-nach-drohnenschlag-mit-vergeltung/",
+        "https://jungefreiheit.de/politik/ausland/2026/afrikas-militaerregime-suchen-neue-partner-im-kampf-gegen-islamisten/",
+        "https://jungefreiheit.de/politik/deutschland/2026/brandanschlag-auf-bundeswehr-ausruester-lka-vermutet-politisches-motiv/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
           "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 10,
+      "sample_titles": [
+        "Trump will der EU noch eine gewaltige Rechnung schicken",
+        "Gefährliche Gedankenspiele: Von der Leyen will private Bankguthaben staatlich lenken",
+        "Viel Klima, viel Militär: Echte Gründer sind Mangelware",
+        "Ukrainischer Ex-Verteidigungsminister Fedorow arbeitet nun für Italien"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/usa-waffen-ukraine-trump-eu/",
+        "https://www.tichyseinblick.de/wirtschaft/von-der-leyen-private-bankguthaben-staatlich-lenken/",
+        "https://www.tichyseinblick.de/wirtschaft/klima-militaer-echte-gruender-mangelware/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/ukrainischer-ex-verteidigungsminister-fedorow-italien/"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -458,7 +491,7 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 14,
+      "article_count": 7,
       "sample_titles": [
         "Schwerer Angriff nahe Kyjiw: Fast 40 Tote sind zu beklagen",
         "US-Medien: CIA-Chef warnte in Moskau vor Angriff auf NATO",
@@ -471,38 +504,24 @@
         "https://www.dw.com/de/drohnen-vorfall-am-leipziger-flughafen-ernster-als-gedacht/a-78492391?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/usa-sagen-großes-militärmanöver-mit-südkorea-ab/a-78484706?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 12,
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 2,
       "sample_titles": [
-        "Gefährliche Gedankenspiele: Von der Leyen will private Bankguthaben staatlich lenken",
-        "Viel Klima, viel Militär: Echte Gründer sind Mangelware",
-        "Ukrainischer Ex-Verteidigungsminister Fedorow arbeitet nun für Italien",
-        "VW vor Rüstungsdeal mit Iron-Dome-Konzern Rafael"
+        "Steckt Russland hinter dem Drohnenanschlag von Leipzig? - Nichts Genaues weiß man nicht",
+        "Interview mit Militärexperte Ralph Thiele - „Das Schlachtfeld der Zukunft sieht vielleicht gar nicht wie ein Schlachtfeld aus“"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/von-der-leyen-private-bankguthaben-staatlich-lenken/",
-        "https://www.tichyseinblick.de/wirtschaft/klima-militaer-echte-gruender-mangelware/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/ukrainischer-ex-verteidigungsminister-fedorow-italien/",
-        "https://www.tichyseinblick.de/wirtschaft/vw-vor-ruestungsdeal-rafael/"
+        "https://www.cicero.de/innenpolitik/steckt-russland-hinter-dem-drohnenanschlag-von-leipzig-nichts-genaues-weiss-man-nicht",
+        "https://www.cicero.de/innenpolitik/interview-mit-militarexperte-ralph-thiele-die-wichtigste-antwort-auf-russland-heisst-resilienz"
       ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "achgut": {
       "source_id": "achgut",
@@ -522,24 +541,24 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 48,
     "right-conservative": 203,
-    "economic-liberal": 60,
-    "conservative-liberal": 147,
-    "left-liberal": 173,
-    "neutral": 102,
+    "conservative-liberal": 150,
+    "populist-mixed": 47,
+    "economic-liberal": 63,
+    "left": 40,
+    "left-liberal": 166,
     "far-right": 29,
-    "left": 38
+    "neutral": 102
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im gesamten deutschen Mediendiskurs wird Russland trotz unterschiedlicher politischer Ausrichtung konsequent als Hauptverantwortlicher für die jüngsten Drohnenangriffe benannt, was zu einer breiten Übereinstimmung über die Notwendigkeit schärferer Sanktionen und diplomatischer Gegenmaßnahmen führt.",
-      "controversial_points": "Die Debatte spaltet zwischen Befürwortern einer Aufstockung der Rüstungsausgaben und Kritikern, die Frieden und Sozialausgaben priorisieren. Wehrpflicht und Bundeswehrreform werden als Symbol für nationale Souveränität von Konservativen und als Kostenfalle von Linken gesehen. NATO‑Zwei‑Prozent‑Ziel erzeugt Spannungen, weil Liberale europäische Integration betonen und Rechte nationale Sicherheitsautonomie fordern. Rüstungsexporte und Waffenlieferungen an Konfliktparteien polarisieren, da Wirtschaftslobbyismus mit Menschenrechtsdebatten kollidiert."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die Bundeswehr trotz steigender Verteidigungsausgaben weiterhin strukturelle Schwächen bei Beschaffung und Einsatzbereitschaft aufweist, was insbesondere im Kontext der Ukraine‑Krieg‑Folgen und der geforderten Erfüllung des NATO‑Zwei‑Prozent‑Ziels kritisch hinterfragt wird. Gleichzeitig wird in fast allen Berichterstattungen die Notwendigkeit hervorgehoben, die Sicherheit kritischer Infrastruktur – von Energie‑ bis zu Kommunikationsnetzen – stärker in die Gesamtverteidigungsstrategie zu integrieren, weil Cyber‑ und hybride Bedrohungen als zentrale Risiken der „Zeitenwende“ angesehen werden. Diese beiden Punkte bilden den Kern der einheitlichen Diskussion über die zukünftige Ausrichtung der deutschen Sicherheitspolitik.",
+      "controversial_points": "Die Debatte spaltet zwischen Befürwortern einer schnellen Aufrüstung und Kritik an ineffizienter Mittelverwendung."
     },
     "en": {
-      "shared_perspectives": "German media, from left‑liberal to conservative, uniformly attribute the recent drone incidents to Russian actors and call for a decisive German response, ranging from diplomatic expulsions to reinforced sanctions. Across the spectrum there is a clear consensus that the Bundeswehr must be modernised urgently – with long‑range missiles, AI‑driven projects and a higher defence budget – to meet NATO’s 2 percent target and to address the hybrid and cyber threats highlighted by the war in Ukraine. The coverage also agrees that the conflict in Ukraine has fundamentally reshaped Germany’s security policy, prompting a stronger commitment to NATO and a shift toward a more proactive, deterrent posture.",
-      "controversial_points": "German media split between NATO burden‑sharing demands and national sovereignty concerns.  \nDebates pit higher defense budgets against social welfare priorities and fiscal conservatism.  \nConscription proposals clash with professional army arguments and demographic sustainability worries.  \nArms export coverage reveals tension between economic interests and anti‑militarist civil society activism.  \nCyber‑defence initiatives confront privacy advocates over state surveillance and data protection norms."
+      "shared_perspectives": "German media across the spectrum agree that the Bundeswehr is inadequately equipped and that a substantial, credible increase in defence spending – enough to meet NATO’s 2 percent guideline – is now a political imperative. They also converge on the view that the war in Ukraine has forced a strategic shift, demanding faster procurement, stronger cyber‑defence capacities and tighter integration of civil protection with military planning. Finally, there is a shared concern that recent attacks on defence firms and recurring export controversies expose systemic security gaps, prompting calls for stricter oversight and more reliable procurement partners.",
+      "controversial_points": "German media split between NATO burden‑sharing demands and national sovereignty concerns.  \nDebates pit conscription revival against professional army reforms and demographic realities.  \nDefense spending clashes with fiscal conservatism and industrial lobbying for arms exports.  \nForeign missions trigger constitutional limits versus perceived security obligations after Ukraine.  \nCyber‑defence initiatives confront privacy advocates and fragmented federal coordination."
     }
   },
-  "cached_at": "2026-09-02T09:05:40.183021"
+  "cached_at": "2026-09-05T08:43:53.179676"
 }
