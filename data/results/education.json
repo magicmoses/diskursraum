@@ -4,55 +4,22 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 129,
-      "sample_titles": [
-        "Österreich: Erste positive Bilanz zu Kopftuchverbot an Schulen",
-        "F.A.Z-Gesundheitspodcast: „Mama, das schmeckt nicht!“ – Wie kann Schulessen lecker und gesund sein?",
-        "Fagersta: Ermittlungen gegen 15-Jährige nach Schwertangriff an Schule in Schweden",
-        "Brandkatastrophe: Feuer im Kongo tötet 26 Schulkinder"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/ausland/positive-bilanz-zu-kopftuchverbot-fuer-schuelerinnen-in-oesterreich-201217440.html",
-        "https://www.faz.net/podcasts/der-geschichtspodcast/wie-kann-schulessen-lecker-und-gesund-sein-201211403.html",
-        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/schweden-ermittlungen-gegen-15-jaehrige-nach-schwertangriff-an-schule-accg-201217689.html",
-        "https://www.faz.net/aktuell/gesellschaft/ungluecke/feuer-in-bukavu-im-ostkongo-toetet-26-schulkinder-accg-201217367.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 12
-        },
-        {
-          "emotion": "admiration",
-          "count": 6
-        },
-        {
-          "emotion": "annoyance",
-          "count": 5
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 121,
+      "article_count": 123,
       "sample_titles": [
+        "Heißwasserleitung defekt: Universitätsbibliothek Freiburg geschlossen",
+        "Studentin aus Mainz will Gold bei Weltmeisterschaft der Berufe holen",
         "Details aus der Flugschule",
-        "Hochschulrahmenvertrag umstritten: Das müssen Sie zur Zukunft der Thüringer Hochschulen wissen",
-        "Schnieder: \"Wenn Kinder in die Schule kommen, müssen sie Deutsch sprechen.“",
-        "Drei von vier saarländischen Betrieben müssen Azubis nachschulen"
+        "Hochschulrahmenvertrag umstritten: Das müssen Sie zur Zukunft der Thüringer Hochschulen wissen"
       ],
       "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/unibibiliothek-freiburg-nach-feueralarm-geschlossen-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/studentin-aus-hochschule-mainz-bei-weltmeisterschaft-der-berufe-100.html",
         "https://www1.wdr.de/nrw/ostwestfalen-lippe/kreis-paderborn/flugzeugabsturz-oesterreich-paderborner-gestorben-100.html",
-        "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/erfurt/rahmenvertrag-landtag-universitaet,petition-hochschule-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/schnieder-kuendigt-sprachtests-fuer-kita-kinder-an-nach-pisa-studie-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/defizite_auszubildende_100.html"
+        "https://www.mdr.de/nachrichten/thueringen/mitte-thueringen/erfurt/rahmenvertrag-landtag-universitaet,petition-hochschule-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -70,22 +37,55 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 123,
+      "sample_titles": [
+        "Pisa-Studie: Wenn Mathe nur noch Horror ist",
+        "Weiterführende Schule: „Ich fange von vorne an und lasse das Schlechte hinter mir“",
+        "Bundesliga-Spitzenreiter: Wie Manuel Baum beim FC Augsburg alle überraschte",
+        "F.A.Z-Gesundheitspodcast: „Mama, das schmeckt nicht!“ – Wie kann Schulessen lecker und gesund sein?"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/besser-leben/familie/ist-der-mathe-unterricht-an-schulen-zu-schlecht-gedanken-einer-mutter-accg-201217044.html",
+        "https://www.faz.net/aktuell/besser-leben/familie/ploetzlich-wieder-eine-der-kleinsten-so-meisterte-marlene-12-den-uebergang-aufs-gymnasium-accg-201153790.html",
+        "https://www.faz.net/aktuell/sport/fussball/bundesliga/fc-augsburg-ueberrascht-mit-manuel-baum-in-fussball-bundesliga-accg-201214642.html",
+        "https://www.faz.net/podcasts/f-a-z-gesundheit-der-podcast/wie-kann-schulessen-lecker-und-gesund-sein-201211403.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 8
+        },
+        {
+          "emotion": "annoyance",
+          "count": 6
+        },
+        {
+          "emotion": "optimism",
+          "count": 5
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 84,
+      "article_count": 85,
       "sample_titles": [
+        "Merz ist in einer „ziemlich ausweglosen Situation“",
+        "Drohungen, Schulschwänzen – Neues Kopftuchverbot an Österreichs Schulen sorgt für Spannungen",
         "Verhaltensregeln, Disziplin, Handyverbot – Wie England die Bildungswende gelang",
-        "„Und je stärker die SPD sozusagen nach links zieht, desto deutlicher wird die Abhängigkeit“",
-        "Trauen Sie Merz zu, die Zustimmungswerte für die CDU deutlich zu verbessern?",
-        "„Wenn Kinder in die Grundschule kommen, müssen sie Deutsch sprechen“ – Schnieder kündigt Tests an"
+        "„Und je stärker die SPD sozusagen nach links zieht, desto deutlicher wird die Abhängigkeit“"
       ],
       "urls": [
+        "https://www.welt.de/politik/deutschland/video6aa539b5181cb962d488ce15/autoritaetsverlust-des-kanzlers-merz-ist-in-einer-ziemlich-ausweglosen-situation.html",
+        "https://www.welt.de/politik/ausland/article6aa527a2cdb463e19b9343bd/lehrer-berichten-drohungen-schulschwaenzen-neues-kopftuchverbot-an-oesterreichs-schulen-sorgt-fuer-spannungen.html",
         "https://www.welt.de/politik/ausland/plus6aa3ecad181cb962d488becb/pisa-studie-verhaltensregeln-disziplin-handyverbot-wie-england-die-bildungswende-gelang.html",
-        "https://www.welt.de/politik/deutschland/video6aa44144240b302c8a841c78/koalitionsprobleme-bei-der-cdu-und-je-staerker-die-spd-sozusagen-nach-links-zieht-desto-deutlicher-wird-die-abhaengigkeit.html",
-        "https://www.welt.de/politik/deutschland/video6aa40253181cb962d488c0e4/civey-umfrage-trauen-sie-merz-zu-die-zustimmungswerte-fuer-die-cdu-deutlich-zu-verbessern.html",
-        "https://www.welt.de/politik/deutschland/article6aa32c46240b302c8a840aec/nach-pisa-schock-wenn-kinder-in-die-grundschule-kommen-muessen-sie-deutsch-sprechen-schnieder-kuendigt-tests-an.html"
+        "https://www.welt.de/politik/deutschland/video6aa44144240b302c8a841c78/koalitionsprobleme-bei-der-cdu-und-je-staerker-die-spd-sozusagen-nach-links-zieht-desto-deutlicher-wird-die-abhaengigkeit.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -107,31 +107,31 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 67,
+      "article_count": 70,
       "sample_titles": [
-        "Umfrage: Müde Schüler: Fast jeder zweite klagt über Schlafprobleme",
-        "Vor dem neuen Semester: Universitäten haben Platz in zulassungsfreien Studiengängen",
-        "Anthropic stoppt verdächtige Anfragen an KI-Modelle zum Thema Waffen und Bio-Forschung",
-        "Kriminalität: Geplanter Anschlag? Anklage gegen Jugendliche erhoben"
+        "Bildung: Schuljahr startet mit vielen Schülern und wenigen Lehrern",
+        "Tiere: Wie viel Schlaf braucht mein Hund wirklich? Was die aktuelle Forschung weiß",
+        "Kolumne: Geht doch, Deutschland!: Warum die deutsche Wirtschaft einen Aufschwung erlebt",
+        "Vor dem neuen Semester: Universitäten haben Platz in zulassungsfreien Studiengängen"
       ],
       "urls": [
-        "https://www.stern.de/politik/deutschland/umfrage--muede-schueler--fast-jeder-zweite-klagt-ueber-schlafprobleme-38242068.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/vor-dem-neuen-semester--universitaeten-haben-platz-in-zulassungsfreien-studiengaengen-38242074.html",
-        "https://www.stern.de/news/anthropic-stoppt-verdaechtige-anfragen-an-ki-modelle-zum-thema-waffen-und-bio-forschung-38240856.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/kriminalitaet--geplanter-anschlag--anklage-gegen-jugendliche-erhoben-38238792.html"
+        "https://www.stern.de/gesellschaft/regional/bayern/bildung--schuljahr-startet-mit-vielen-schuelern-und-wenigen-lehrern-38245342.html",
+        "https://www.stern.de/geo/wie-viele-stunden-sollte-ein-hund-schlafen--das-sagt-die-forschung--38215662.html",
+        "https://www.stern.de/wirtschaft/warum-die-deutsche-wirtschaft-einen-aufschwung-erlebt-38234994.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/vor-dem-neuen-semester--universitaeten-haben-platz-in-zulassungsfreien-studiengaengen-38242074.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "optimism",
           "count": 4
         },
         {
-          "emotion": "admiration",
+          "emotion": "excitement",
           "count": 2
         }
       ]
@@ -140,27 +140,27 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 60,
+      "article_count": 63,
       "sample_titles": [
-        "Landtagswahl in Mecklenburg-Vorpommern: Diese Regierungen sind möglich",
-        "Führerschein: Bedrängt, beschimpft, angehupt – die absurde Wut auf Fahrschüler",
-        "ZDF-Politbarometer: AfD und SPD laut Umfrage in Mecklenburg-Vorpommern vorn, Linke und CDU in Berlin",
-        "Motivation von Schülern: Tipps von »Checker Tobi« für Eltern und Grundschulkinder"
+        "Trier, Kempten, Worms, Heuneburg: Wo liegt die älteste Stadt Deutschlands?",
+        "Zahnmedizin-Hochschule DTMD: Viel Geld für einen Abschluss, der nichts wert ist?",
+        "Deutschland: Fast jeder zweite Schüler schläft laut DAK schlecht",
+        "Landtagswahl in Mecklenburg-Vorpommern: Diese Regierungen sind möglich"
       ],
       "urls": [
-        "https://www.spiegel.de/politik/deutschland/landtagswahl-in-mecklenburg-vorpommern-diese-regierungen-sind-moeglich-a-b9ed7749-ef51-488a-ba30-0c9ad847d1ae#ref=rss",
-        "https://www.spiegel.de/mobilitaet/auto/fuehrerschein-bedraengt-beschimpft-angehupt-die-absurde-wut-auf-fahrschueler-a-16209461-1d1e-4c44-9aa3-197be4b9b4a7#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/zdf-politbarometer-afd-und-spd-laut-umfrage-in-mecklenburg-vorpommern-vorn-linke-und-cdu-in-berlin-a-a1f1bd1a-ebc5-46af-b99a-61c7cf0d7d02#ref=rss",
-        "https://www.spiegel.de/wissenschaft/mensch/motivation-von-schuelern-tipps-von-checker-tobi-fuer-eltern-und-grundschulkinder-a-c7c59e0c-bbff-4b52-8e94-69b10f95b1b7#ref=rss"
+        "https://www.spiegel.de/wissenschaft/trier-kempten-worms-heuneburg-wo-liegt-die-aelteste-stadt-deutschlands-a-0fea2647-cc1d-4f94-ad2f-217f505c7bcf#ref=rss",
+        "https://www.spiegel.de/start/zahnmedizin-hochschule-dtmd-viel-geld-fuer-einen-abschluss-der-nichts-wert-ist-a-74aae922-7bda-4725-863c-922f0e8c185f#ref=rss",
+        "https://www.spiegel.de/panorama/bildung/deutschland-fast-jeder-zweite-schueler-schlaeft-laut-dak-schlecht-a-7ed44bd7-d6f0-44c2-a688-a7920e01b8ea#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/landtagswahl-in-mecklenburg-vorpommern-diese-regierungen-sind-moeglich-a-b9ed7749-ef51-488a-ba30-0c9ad847d1ae#ref=rss"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 3
+          "emotion": "annoyance",
+          "count": 4
         },
         {
-          "emotion": "annoyance",
+          "emotion": "curiosity",
           "count": 3
         },
         {
@@ -173,18 +173,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 53,
+      "article_count": 52,
       "sample_titles": [
+        "Erklärung für Pisa-Desaster?: Schüler schlafen immer schlechter und sind erschöpft",
         "Er wird zum ersten Mal Vater : Christian Düren plant Baby-Auszeit für Amira Aly",
         "Nach erneutem Pisa-Schock: Schüler können Leseschwächen in kurzer Zeit aufholen",
-        "Fehlt es an Grundkompetenzen?: Ministerpräsident kündigt Tests für Vorschulkinder an",
-        "Versuchter KI-Missbrauch: Anthropic registriert Aktivitäten rund um mögliche Biowaffen-Forschung"
+        "Fehlt es an Grundkompetenzen?: Ministerpräsident kündigt Tests für Vorschulkinder an"
       ],
       "urls": [
+        "https://www.n-tv.de/panorama/Schueler-schlafen-immer-schlechter-und-sind-erschoepft-id31298758.html",
         "https://www.n-tv.de/leute/Christian-Dueren-plant-Baby-Auszeit-fuer-Amira-Aly-id31297898.html",
         "https://www.n-tv.de/panorama/Schueler-koennen-Leseschwaechen-in-kurzer-Zeit-aufholen-id31291086.html",
-        "https://www.n-tv.de/politik/Ministerpraesident-kuendigt-Tests-fuer-Vorschulkinder-an-id31294794.html",
-        "https://www.n-tv.de/wirtschaft/Anthropic-registriert-Aktivitaeten-rund-um-moegliche-Biowaffen-Forschung-id31293846.html"
+        "https://www.n-tv.de/politik/Ministerpraesident-kuendigt-Tests-fuer-Vorschulkinder-an-id31294794.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -239,7 +239,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 38,
+      "article_count": 36,
       "sample_titles": [
         "Wissenschaftsformat der ARD - WDR kennt Unterschied zwischen Rechts und Hitler nicht",
         "Halbfinal-Heldin muss unterrichten - Morgen Halbfinale! Sonntag Finale? Montag Mathe!",
@@ -263,8 +263,8 @@
           "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 1
         }
       ]
     },
@@ -272,7 +272,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 34,
+      "article_count": 33,
       "sample_titles": [
         "Haushalt ohne Perspektiven: 1,4 Milliarden Euro weniger für Bildung und Familien",
         "Sparen an der Bildung: Uni Hamburg baut Studienplätze ab",
@@ -307,16 +307,16 @@
       "bias": "conservative-liberal",
       "article_count": 32,
       "sample_titles": [
+        "Die Elite ist zurück: Wirtschaftsstudenten sind immer öfter arbeitslos, doch die Kaderschmiede HSG trotzt dem Trend",
         "Pläne für ein neues Medizinstudium: Angehende Hausärzte sollen kürzer studieren",
         "«Ich schneide dir den Kopf ab!» – ein Vater bedroht die Lehrerin seines Sohnes und wird zu sechs Monaten Haft verurteilt",
-        "So viel Geld gab es in der Leichtathletik noch nie: In Budapest locken 10 Millionen Dollar Preisgeld",
-        "Mindestens 24 Kinder kommen bei Grossbrand in Osten von Kongo-Kinshasa ums Leben"
+        "So viel Geld gab es in der Leichtathletik noch nie: In Budapest locken 10 Millionen Dollar Preisgeld"
       ],
       "urls": [
+        "https://www.nzz.ch/wirtschaft/die-elite-ist-zurueck-wirtschaftsstudenten-sind-immer-oefter-arbeitslos-doch-die-kaderschmiede-hsg-trotzt-dem-trend-ld.10021759",
         "https://www.nzz.ch/schweiz/plaene-fuer-ein-neues-medizinstudium-angehende-hausaerzte-sollen-kuerzer-studieren-ld.10020979",
         "https://www.nzz.ch/international/ich-schneide-dir-den-kopf-ab-ein-vater-bedroht-die-lehrerin-seines-sohnes-und-wird-zu-sechs-monaten-haft-verurteilt-ld.10023388",
-        "https://www.nzz.ch/sport/leichtathletik/ultimate-championship-leichtathletik-neuheit-mit-rekord-preisgeld-ld.10023380",
-        "https://www.nzz.ch/panorama/mindestens-24-kinder-kommen-bei-grossbrand-in-osten-von-kongo-kinshasa-ums-leben-ld.10023333"
+        "https://www.nzz.ch/sport/leichtathletik/ultimate-championship-leichtathletik-neuheit-mit-rekord-preisgeld-ld.10023380"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -338,7 +338,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 30,
+      "article_count": 29,
       "sample_titles": [
         "25 Jahre 9/11: „Völkerrechtsverletzungen waren prägender Bestandteil des Kriegs gegen den Terror“",
         "Bildung: Ist die deutsche Bildung wirklich so schlecht? Experten zerpflücken den Pisa-Test",
@@ -371,7 +371,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 28,
+      "article_count": 27,
       "sample_titles": [
         "Vor dem neuen Semester: Universitäten haben Platz in zulassungsfreien Studiengängen",
         "Schwertangriff in Schweden: Ermittlungen gegen 15-Jährige nach tödlichem Schwertangriff in Schule",
@@ -437,18 +437,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 15,
+      "article_count": 16,
       "sample_titles": [
+        "Podcast „Auf den Punkt“: Die AfD bestimmt den öffentlichen Diskurs – aber warum?",
         "SZ Weekender: Neuanfänge und neue Chancen",
         "Haushalt des Bundesfamilienministeriums: Eine Milliarde Euro weniger – und viele wütende Eltern",
-        "Stärke 3,3 oder 3,4: Leichtes Erdbeben in der Region Mannheim",
-        "Glosse: Das Streiflicht"
+        "Stärke 3,3 oder 3,4: Leichtes Erdbeben in der Region Mannheim"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-afd-sachsen-anhalt-diskurs-extreme-rechte-li.3545894",
         "https://www.sueddeutsche.de/projekte/artikel/gesellschaft/sz-weekender-lesegeschichten-e201805/",
         "https://www.sueddeutsche.de/politik/bundesregierung-kuerzungen-elterngeld-bildung-reformen-prien-li.3545301",
-        "https://www.sueddeutsche.de/panorama/erdbeben-mannheim-worms-baden-wuerttemberg-rheinland-pfalz-li.3545679",
-        "https://www.sueddeutsche.de/politik/streiflicht-tauben-kunst-berlin-pisa-studie-li.3544584"
+        "https://www.sueddeutsche.de/panorama/erdbeben-mannheim-worms-baden-wuerttemberg-rheinland-pfalz-li.3545679"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -457,11 +457,11 @@
           "count": 3
         },
         {
-          "emotion": "anger",
+          "emotion": "confusion",
           "count": 1
         },
         {
-          "emotion": "amusement",
+          "emotion": "anger",
           "count": 1
         }
       ]
@@ -495,31 +495,31 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 12,
       "sample_titles": [
+        "Die Maulheldin am Samstag: Die Macht-Ergreifung naht!",
+        "„Nie wieder ist jetzt“ 2.0 – Der stille Verfall der KZ-Gedenkstätten",
         "Die Schlacht ist verloren",
-        "Rechtsextremismus für alle!",
-        "Ausgestoßene der Woche: Peter Hahne kommt hier nicht rein",
-        "Judenmord als Mathematikaufgabe für Kinder"
+        "Rechtsextremismus für alle!"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/die_maulheldin_am_samstag_26_09_13_die_machtergreifung_naht",
+        "https://www.achgut.com/artikel/nie_wieder_ist_jetzt_20",
         "https://www.achgut.com/artikel/die_schlacht_ist_verloren",
-        "https://www.achgut.com/artikel/rechtsextremismus_fuer_alle",
-        "https://www.achgut.com/artikel/ausgestossene_der_woch",
-        "https://www.achgut.com/artikel/judenmord_als_mathematikaufgabe_fuer_kinder"
+        "https://www.achgut.com/artikel/rechtsextremismus_fuer_alle"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "amusement",
       "top_emotions": [
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
         {
           "emotion": "sadness",
           "count": 1
         },
         {
           "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
           "count": 1
         }
       ]
@@ -567,14 +567,14 @@
     }
   },
   "bias_distribution": {
+    "left-liberal": 176,
+    "conservative-liberal": 157,
+    "neutral": 178,
     "right-conservative": 137,
-    "conservative-liberal": 163,
-    "left-liberal": 170,
-    "populist-mixed": 38,
-    "neutral": 176,
-    "far-right": 52,
-    "economic-liberal": 30,
-    "left": 34
+    "far-right": 54,
+    "populist-mixed": 36,
+    "economic-liberal": 29,
+    "left": 33
   },
   "statements": {
     "de": {
@@ -586,5 +586,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-09-12T09:13:14.727480"
+  "cached_at": "2026-09-13T09:42:48.579096"
 }
