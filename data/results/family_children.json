@@ -4,55 +4,22 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 102,
-      "sample_titles": [
-        "Melania stocksauer wegen Hochzeit - Putin-Oligarch sorgt für Familien-Krach bei den Trumps",
-        "Mädchen vergewaltigt - Polizistin gesteht furchtbare Tat",
-        "„Ich musste das erst mal sacken lassen“ - Fiona Erdmann: Großfamilie? War seine Idee!",
-        "Hat er bei Papa oft gesehen - Gallagher-Sohn zeigt nach Haaland-Tor Stinkefinger"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/donald-trump-jr-putin-oligarch-zahlte-melania-weist-kontakt-zurueck-6aa9631263f3636d5f50b7ee",
-        "https://www.bild.de/news/inland/maedchen-vergewaltigt-polizistin-gesteht-furchtbare-tat-6aa93d1604c45a39956edef1",
-        "https://www.bild.de/unterhaltung/stars-und-leute/ich-musste-das-erst-mal-sacken-lassen-fiona-erdmann-grossfamilie-war-seine-idee-6aa6a492181cb962d488debf",
-        "https://www.bild.de/unterhaltung/stars-und-leute/oasis-noel-gallaghers-sohn-zeigt-nach-haaland-tor-den-stinkefinger-6aa782e4240b302c8a843ced"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 8
-        },
-        {
-          "emotion": "excitement",
-          "count": 6
-        },
-        {
-          "emotion": "grief",
-          "count": 5
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 100,
+      "article_count": 103,
       "sample_titles": [
-        "Familie von Leo XIV.: Bei Computerproblemen ruft er einfach seinen Bruder an – den Papst",
-        "Geordneter Ausstieg: Wie Familienunternehmen den Generationswechsel regeln sollten",
-        "Weinkönigin Lena Roie: „Als Frankfurterin war ich für den Rheingau eine Herausforderung“",
-        "Nach wenigen Tagen: Kinder von Harry und Meghan wechseln die Schule"
+        "Nach Tod von Ralf Richter: Spendenaktion für Beisetzung bringt mehr als 20.000 Euro",
+        "Ansturm auf Ceuta: Schulkinder werden mit Maschinengewehren beschützt",
+        "„Kalter hund“ im Kino: Der Hundertjährige, der morgens tot im Bett lag",
+        "„Familienmitglied verloren“: Obamas trauern um Hündin Sunny"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/gesellschaft/menschen/leo-xiv-bruder-john-joseph-prevost-bittet-ihn-um-hilfe-bei-der-steuer-201227964.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/warum-familienunternehmen-den-ausstieg-neu-regeln-sollten-201195413.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/vom-rummelplatz-zu-den-reben-frankfurter-schaustellerin-will-deutsche-weinkoenigin-werden-201209122.html",
-        "https://www.faz.net/aktuell/gesellschaft/smalltalk/harrys-kinder-archie-und-lilibet-wechseln-die-schule-accg-201228309.html"
+        "https://www.faz.net/aktuell/gesellschaft/menschen/nach-tod-von-ralf-richter-spendenaktion-fuer-beerdigung-bringt-mehr-als-20-000-euro-201240033.html",
+        "https://www.faz.net/aktuell/politik/ausland/migrantenansturm-auf-ceuta-der-unmut-in-der-exklave-waechst-accg-201217061.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/der-familienpsychofilm-kalter-hund-im-kino-201229222.html",
+        "https://www.faz.net/aktuell/gesellschaft/tiere/barack-und-michelle-obama-trauern-um-huendin-sunny-accg-201235079.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -61,6 +28,72 @@
           "count": 6
         },
         {
+          "emotion": "grief",
+          "count": 5
+        },
+        {
+          "emotion": "realization",
+          "count": 5
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 95,
+      "sample_titles": [
+        "Familienbetrieb in fünfter Generation - Traditionsbäckerei ist insolvent",
+        "BILD klärt auf - Darf ich meinen Eltern Billig-Sprit aus Polen mitbringen?",
+        "Vater sticht Familie nieder und tötet Sohn - „Die Augen, die mich anguckten, hassten mich“",
+        "Familie nimmt emotional Abschied - Fußball-Legende Koeman trauert um seine Frau (†65)"
+      ],
+      "urls": [
+        "https://www.bild.de/geld/wirtschaft/baeckerei-maier-bayerischer-familienbetrieb-mit-50-jobs-in-insolvenz-6aabf893fc82e30f94af36ee",
+        "https://www.bild.de/leben-wissen/sparfochs/bild-klaert-auf-darf-ich-meinen-eltern-billig-sprit-aus-polen-mitbringen-6aaa6df7bfb40073cb2f37ee",
+        "https://www.bild.de/regional/nordrhein-westfalen/vater-sticht-familie-nieder-die-augen-die-mich-anguckten-hassten-mich-6aaa8704bfb40073cb2f3a43",
+        "https://www.bild.de/sport/fussball/fussball-legende-koeman-trauert-um-seine-frau-65-6aaa524791d8cffaad47b142"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 8
+        },
+        {
+          "emotion": "grief",
+          "count": 6
+        },
+        {
+          "emotion": "excitement",
+          "count": 6
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 92,
+      "sample_titles": [
+        "Erhebliche Service-Unterschiede: Diese Schüleraustausch-Organisationen überzeugen",
+        "Sozialsparpläne der Regierung: Mehrheit der Deutschen offen für Kürzungen bei Bafög und Elterngeld",
+        "Dänisches Gericht entscheidet : Eugen Block darf seine Enkelkinder weiterhin nicht sehen",
+        "Ermittler äußern neuen Verdacht: Mädchen stirbt nach Hausbrand in Sachsen-Anhalt"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Diese-Schueleraustausch-Organisationen-ueberzeugen-id31322157.html",
+        "https://www.n-tv.de/panorama/Mehrheit-der-Deutschen-offen-fuer-Kuerzungen-bei-Bafoeg-und-Elterngeld-id31321490.html",
+        "https://www.n-tv.de/panorama/Eugen-Block-darf-seine-Enkelkinder-weiterhin-nicht-sehen-id31322584.html",
+        "https://www.n-tv.de/panorama/Maedchen-stirbt-nach-Hausbrand-in-Sachsen-Anhalt-id31320594.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 8
+        },
+        {
           "emotion": "realization",
           "count": 4
         },
@@ -70,68 +103,35 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 89,
-      "sample_titles": [
-        "Sommerhaus der Stars - Folge 3: Nico Legat und die Liebe: Papa redet mit",
-        "Einblicke in den Familienalltag: Boris Becker feiert zweiten Hochzeitstag",
-        "Sportversionen für E-Autos: Kia bringt drei neue Elektro-GTs an den Start",
-        "Finale Staffel angekündigt: \"Die Geissens\" verabschieden sich von RTLZWEI"
-      ],
-      "urls": [
-        "https://www.n-tv.de/leute/tv/Sommerhaus-der-Stars-Folge-3-id31308531.html",
-        "https://www.n-tv.de/leute/Boris-Becker-feiert-zweiten-Hochzeitstag-id31307119.html",
-        "https://www.n-tv.de/auto/Kia-bringt-drei-neue-Elektro-GTs-an-den-Start-id31282097.html",
-        "https://www.n-tv.de/leute/Die-Geissens-verabschieden-sich-von-RTLZWEI-id31303821.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 7
-        },
-        {
-          "emotion": "excitement",
-          "count": 4
-        },
-        {
-          "emotion": "realization",
-          "count": 4
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 85,
+      "article_count": 82,
       "sample_titles": [
-        "Boris Becker feiert Hochzeitstag mit Post: Liebeserklärung an Ehefrau Lilian",
-        "Prinzessin Isabella: Küsschen für die Rekrutin von König Frederik",
-        "Reality-Familie: RTL Zwei und die Geissens trennen sich",
-        "Brände: Hoher Sachschaden bei Hausbrand in Bobzin"
+        "Pflege: Studie: Pflegende Angehörige benötigen mehr psychische Hilfe",
+        "Zahl überschuldeter Menschen steigt - Alleinerziehende besonders betroffen",
+        "München: Klum feiert „HeidiFest“ – und wartet auf die Stargäste",
+        "Reality-Familie: RTL Zwei und die Geissens trennen sich"
       ],
       "urls": [
-        "https://www.stern.de/lifestyle/leute/boris-becker-feiert-hochzeitstag-mit-post--liebeserklaerung-an-ehefrau-lilian-38253362.html",
-        "https://www.stern.de/lifestyle/leute/prinzessin-isabella--kuesschen-fuer-die-rekrutin-von-koenig-frederik-38251510.html",
-        "https://www.stern.de/kultur/tv/robert-geiss--rtl-zwei-und-die-geissens-trennen-sich-38250802.html",
-        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/braende--hoher-sachschaden-bei-hausbrand-in-bobzin-38248760.html"
+        "https://www.stern.de/panorama/wissen/pflege--studie--pflegende-angehoerige-benoetigen-mehr-psychische-hilfe-38275544.html",
+        "https://www.stern.de/news/zahl-ueberschuldeter-menschen-steigt---alleinerziehende-besonders-betroffen-38270480.html",
+        "https://www.stern.de/lifestyle/leute/heidi-klum-feiert--heidifest----und-wartet-auf-die-stargaeste-38269408.html",
+        "https://www.stern.de/kultur/tv/robert-geiss--rtl-zwei-und-die-geissens-werden-sich-trennen-38250802.html"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "confusion",
       "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 5
-        },
         {
           "emotion": "confusion",
           "count": 4
         },
         {
-          "emotion": "realization",
+          "emotion": "sadness",
+          "count": 4
+        },
+        {
+          "emotion": "annoyance",
           "count": 3
         }
       ]
@@ -140,65 +140,32 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 79,
+      "article_count": 78,
       "sample_titles": [
-        "Prozessauftakt gegen Familienvater",
-        "Männer wollten Kinder mitnehmen",
-        "Wenn die Erbpacht um 1.900 Prozent steigt",
-        "Bilger will zurück zur Familienreservierung"
+        "Demos in NRW: Bündnis will 100 Milliarden Euro für Kitas und Schulen",
+        "\"Der Tag kommt, wo die mal ein Schulkind oder einen Rentner über den Haufen fahren\"",
+        "Urteil rechtskräftig: Apotheker bekommt wegen Steuerhinterziehung fünf Jahre Haft",
+        "Warum Schloss Gleina Künstlerinnen mit Kindern fördert"
       ],
       "urls": [
-        "https://www1.wdr.de/nrw/ruhrgebiet/ennepe-ruhr-kreis/witten-prozessauftakt-familienvater-100.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/duisburg/duisburg-jugendamt-betrug-kinder-100.html",
-        "https://www.tagesschau.de/wirtschaft/verbraucher/erbpacht-108.html",
-        "https://www.tagesschau.de/inland/gesellschaft/bilger-bahn-familienreservierung-100.html"
+        "https://www1.wdr.de/nrw/rheinland/Demonstration-NRW-Bildungswende-Schule-Bildung-100.html",
+        "https://www.mdr.de/nachrichten/sachsen/chemnitz/freiberg/verkehrsversuch-reinsberg-wilsdruff-anwohner-polizei,lkw-verbot-a4-100.html",
+        "https://www.sr.de/sr/home/nachrichten/panorama/urteil_rechtskraeftig_apotheker_steuerhinterziehung_100.html",
+        "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/burgenland/kunst-mutterschaft-kinder-kuenstlerin-mutter,residenz-gleina-kultur-news-100.html"
       ],
-      "dominant_emotion": "desire",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "desire",
-          "count": 4
+          "emotion": "optimism",
+          "count": 3
         },
         {
           "emotion": "approval",
           "count": 3
         },
         {
-          "emotion": "fear",
+          "emotion": "confusion",
           "count": 2
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 67,
-      "sample_titles": [
-        "„Hass extrem“ – wie Felix Götze unter dem Wechsel seines Bruders Mario zu den Bayern litt",
-        "Pensionen, Pflege, Jugendhilfe – in Hamburgs Haushalt fehlen 993 Millionen Euro",
-        "Ich bin 30 Jahre alt, in die USA ausgewandert und verdiene fast 200.000 Dollar im Jahr",
-        "Harry und Meghan nehmen ihre Kinder nach nur zwei Tagen von der Schule"
-      ],
-      "urls": [
-        "https://www.welt.de/sport/fussball/bundesliga/borussia-dortmund/article6aa9339b8191ba86095120bf/bvb-fc-bayern-hass-extrem-wie-felix-goetze-unter-dem-wechsel-seines-bruders-mario-litt.html",
-        "https://www.welt.de/regionales/hamburg/article6aa93d9e195f807c6ca853c1/haushaltsluecke-pensionen-pflege-jugendhilfe-in-hamburgs-haushalt-fehlen-993-millionen-euro.html",
-        "https://www.welt.de/vermischtes/plus6a9eb741721eb476650a2ac1/leben-in-new-york-ich-bin-30-jahre-alt-in-die-usa-ausgewandert-und-verdiene-fast-200-000-dollar-im-jahr.html",
-        "https://www.welt.de/vermischtes/article6aa876ee250f8ce245e4ce56/sicherheitsbedenken-harry-und-meghan-nehmen-ihre-kinder-nach-nur-zwei-tagen-von-der-schule.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 3
         }
       ]
     },
@@ -206,51 +173,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 67,
+      "article_count": 68,
       "sample_titles": [
-        "Prinz Harry und Herzogin Meghan: Kinder wechseln in Großbritannien die Schule – nach zwei Tagen",
-        "Dänemark: Prinzessin Isabella bekommt erstmals Besuch in der Kaserne",
-        "Mont Blanc: Neunjähriger besteigt mit seinem Vater den höchsten Gipfel der Alpen",
-        "Elterngeld-Kürzungen: Nächster Reformzoff – SPD-Frauen wollen Familienstartzeit einführen"
+        "Türkei: Warum sitzt Ferdi Soylu aus Ulm seit einem Monat in Ankara in Haft?",
+        "Robert F. Kennedy Jr.: Ruiniert Donald Trumps Gesundheitsminister das Erbe der Kennedys?",
+        "Katar: Scheich-Sohn am Flughafen München verhaftet",
+        "Türkei: Was steckt hinter Recep Tayyip Erdoğans Angriff auf die LGBTQ-Bewegung?"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/prinz-harry-und-herzogin-meghan-kinder-wechseln-in-grossbritannien-die-schule-nach-zwei-tagen-a-c9e14319-19b5-4a6d-90a6-7bbbbae120c2#ref=rss",
-        "https://www.spiegel.de/panorama/leute/daenemark-prinzessin-isabella-bekommt-erstmals-besuch-in-der-kaserne-a-a38cd7f1-5084-44f4-bddb-71876c8fb7e6#ref=rss",
-        "https://www.spiegel.de/sport/mont-blanc-neunjaehriger-besteigt-mit-seinem-vater-den-hoechsten-gipfel-der-alpen-a-0a40e831-0c50-442d-96f4-426683e5f2a0#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/elterngeld-kuerzungen-naechster-reformzoff-spd-frauen-wollen-familienstartzeit-einfuehren-a-90b9e054-8ac7-48ab-a542-2ee7f682c885#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 3
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 38,
-      "sample_titles": [
-        "Hebamme über Umgang mit Beschneidung: „Das notwendige Vertrauen entsteht durch Begleitung“",
-        "Kracht und Kitamura beim ilb: Schock und Jubel",
-        "Fotoarbeit zu Rassismus: „Es geht um den Platz am Tisch“",
-        "Shortlist zum Deutschen Buchpreis: Wo bleibt das Drama?"
-      ],
-      "urls": [
-        "https://taz.de/Hebamme-ueber-Umgang-mit-Beschneidung/!6152947/",
-        "https://taz.de/Kracht-und-Kitamura-beim-ilb/!6212739/",
-        "https://taz.de/Fotoarbeit-zu-Rassismus/!6206975/",
-        "https://taz.de/Shortlist-zum-Deutschen-Buchpreis/!6212288/"
+        "https://www.spiegel.de/panorama/justiz/tuerkei-warum-sitzt-ferdi-soylu-aus-ulm-seit-einem-monat-in-ankara-in-haft-a-23213add-ea82-4fb0-af58-17581f9cf952#ref=rss",
+        "https://www.spiegel.de/ausland/robert-f-kennedy-jr-ruiniert-donald-trumps-gesundheitsminister-das-erbe-der-kennedys-a-428120b8-fc8b-4d62-abe9-1336b33a618f#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/katar-scheich-sohn-am-flughafen-muenchen-verhaftet-a-a4fcea7b-85a1-4fde-8c99-579b854bd61b#ref=rss",
+        "https://www.spiegel.de/ausland/tuerkei-was-steckt-hinter-recep-tayyip-erdogans-angriff-auf-die-lgbtq-bewegung-a-42ee2164-3a25-4b24-b164-e101569d09dd#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -259,45 +193,78 @@
           "count": 4
         },
         {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 37,
-      "sample_titles": [
-        "News-Überblick: Das sind die Nachrichten des Tages",
-        "Familien-Newsletter: Nur sieben Wochen bis zu den Ferien!",
-        "Väter in Elternzeit: Wenn der Wickeltisch in der Damentoilette steht",
-        "Haushalt des Bundesfamilienministeriums: Eine Milliarde Euro weniger – und viele wütende Eltern"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3547498",
-        "https://www.sueddeutsche.de/leben/schulstart-erstklaessler-tipps-ferien-li.3524645",
-        "https://www.sueddeutsche.de/muenchen/freising/freising-wickeltische-herrentoiletten-elterngerechtigkeit-spd-li.3542346",
-        "https://www.sueddeutsche.de/politik/bundesregierung-kuerzungen-elterngeld-bildung-reformen-prien-li.3545301"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
+          "emotion": "annoyance",
           "count": 4
         },
         {
-          "emotion": "amusement",
+          "emotion": "sadness",
+          "count": 3
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 65,
+      "sample_titles": [
+        "„Das zeigt, wie tief die Gräben zwischen Dianas Bruder und der Königsfamilie sind“",
+        "„Deine Spuren bleiben“ – Bahn erinnert mit Gedenktafel an getöteten Zugbegleiter Serkan Çalar",
+        "Nur noch Miley, bitte!",
+        "„Habe Schande auf mich gebracht“ – Kabarettist zeigt sich selbst wegen Kindesmissbrauchs an"
+      ],
+      "urls": [
+        "https://www.welt.de/vermischtes/video6aad6d79708e760b5e063721/vorwuerfe-gegen-charles-iii-das-zeigt-wie-tief-die-graeben-zwischen-dianas-bruder-und-der-koenigsfamilie-sind.html",
+        "https://www.welt.de/vermischtes/kriminalitaet/article6aad5029b1857e86757a65b0/mannheimer-hauptbahnhof-deine-spuren-bleiben-bahn-erinnert-mit-gedenktafel-an-getoeteten-zugbegleiter-serkan-calar.html",
+        "https://www.welt.de/kultur/article6aabce57fc82e30f94af31cf/selbstbefreiung-nur-noch-miley-bitte.html",
+        "https://www.welt.de/vermischtes/kriminalitaet/article6aabdef13e0af7910e522ccc/guenther-paal-habe-schande-auf-mich-gebracht-kabarettist-zeigt-sich-selbst-wegen-kindesmissbrauchs-an.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
           "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "disapproval",
+          "count": 3
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 41,
+      "sample_titles": [
+        "Tagebuch aus der Ukraine: Wir waren doch eine ganz normale Familie",
+        "Olympisches Boxen: Dann muss es eben Nikita machen",
+        "EU-Plan für Social Media: Eltern sollen Kontakte von Teenagern vorher freigeben",
+        "Nach Einsturz-Tragödie in Gaza: Dutzende Menschen noch unter Trümmern gesucht"
+      ],
+      "urls": [
+        "https://taz.de/Tagebuch-aus-der-Ukraine/!6207628/",
+        "https://taz.de/Olympisches-Boxen/!6213922/",
+        "https://taz.de/EU-Plan-fuer-Social-Media/!6213938/",
+        "https://taz.de/Nach-Einsturz-Tragoedie-in-Gaza/!6213863/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "grief",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
         }
       ]
     },
@@ -305,18 +272,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 36,
+      "article_count": 35,
       "sample_titles": [
-        "Kommt die Familienreservierung in Fernzügen zurück?",
-        "Haushalt: Bildung, Familie, Senioren, Frauen und Jugend",
-        "Göttingen: Geburtshaus vor dem Aus?",
-        "Falsche Paketboten berauben Senior in Bad Soden"
+        "Warum sich Heidi Klum aufs Oktoberfest freut",
+        "Pop-Art-Künstler Peter Max gestorben",
+        "Hase/Volodin: \"Sind wieder auf Stand Null\"",
+        "Kommt die Familienreservierung in Fernzügen zurück?"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/deutschland/bahn-bilger-verkehrsminister-familienreservierung-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5231485",
-        "https://www.zdfheute.de/video/zdf-mittagsmagazin/geburtshaus-hebammen-goettingen-100.html",
-        "https://www.zdfheute.de/panorama/kriminalitaet/aktenzeichen-xy-september-2026-raub-falsche-paketboten-100.html"
+        "https://www.zdfheute.de/video/hallo-deutschland/heidi-klum-oktoberfest-heidifest-muenchen-100.html",
+        "https://www.zdfheute.de/video/zdfheute-xpress/peter-max-kuenstler-tot-video-100.html",
+        "https://www.zdfheute.de/video/zdf-morgenmagazin/eiskunstlauf-160.html",
+        "https://www.zdfheute.de/politik/deutschland/bahn-bilger-verkehrsminister-familienreservierung-100.html"
       ],
       "dominant_emotion": "grief",
       "top_emotions": [
@@ -338,32 +305,65 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 25,
+      "article_count": 34,
       "sample_titles": [
-        "Gastkommentar: Zwei Einkommen und kein Eigenheim: Drei konkrete Forderungen für mehr Eigentum",
-        "Luxus-Aktie: LVMH verliert Platz als wertvollstes Unternehmen Frankreichs",
-        "Union: Spahn entschuldigt sich in einem Brief: „Ich war zu feige“",
-        "Steuerskandal: Verurteilt im Cum-Ex-Skandal – doch Henry Gabay noch auf freiem Fuß"
+        "+++ USA +++: Trump verbietet CNN und anderen Medien Zugang zum Weißen Haus",
+        "Börse: Investor Petrus stellt sich nach Shortseller-Vorwürfen hinter RBI",
+        "Berkshire Hathaway: Warren Buffett tritt als Verwaltungsratschef zurück",
+        "+++ USA +++: Demokraten wollen nach der Wahl gegen Trump-Familie und Musk vorgehen"
       ],
       "urls": [
-        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-zwei-einkommen-kein-eigenheim-drei-forderungen-fuer-mehr-eigentum/100254437.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/aktien/luxus-aktie-lvmh-ist-nicht-mehr-das-wertvollste-unternehmen-frankreichs/100254624.html",
-        "https://www.handelsblatt.com/politik/deutschland/union-spahn-entschuldigt-sich-in-einem-brief-ich-war-zu-feige/100253479.html",
-        "https://www.handelsblatt.com/finanzen/banken-versicherungen/cum-ex/steuerskandal-verurteilt-im-cum-ex-skandal-doch-henry-gabay-noch-auf-freiem-fuss1234/100251878.html"
+        "https://www.handelsblatt.com/politik/international/usa-trump-verbietet-cnn-und-anderen-medien-zugang-zum-weissen-haus/29669594.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/boerse-investor-petrus-stellt-sich-nach-shortseller-vorwuerfen-hinter-rbi/100255699.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/berkshire-hathaway-warren-buffett-tritt-als-verwaltungsratschef-zurueck/100255644.html",
+        "https://www.handelsblatt.com/politik/international/usa-demokraten-wollen-nach-der-wahl-gegen-trump-familie-vorgehen/29669594.html"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 31,
+      "sample_titles": [
+        "Frankreich: Das Enfant terrible der Familie Le Pen kehrt zurück",
+        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Familien-Newsletter: Nur sieben Wochen bis zu den Ferien!",
+        "Väter in Elternzeit: Wenn der Wickeltisch in der Damentoilette steht"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/politik/frankreich-wahl-praesident-le-pen-marion-marechal-rassemblement-national-li.3548691",
+        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3547498",
+        "https://www.sueddeutsche.de/leben/schulstart-erstklaessler-tipps-ferien-li.3524645",
+        "https://www.sueddeutsche.de/muenchen/freising/freising-wickeltische-herrentoiletten-elterngerechtigkeit-spd-li.3542346"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 1
+          "count": 3
         },
         {
-          "emotion": "curiosity",
-          "count": 1
+          "emotion": "amusement",
+          "count": 3
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "optimism",
+          "count": 2
         }
       ]
     },
@@ -373,62 +373,29 @@
       "bias": "left-liberal",
       "article_count": 24,
       "sample_titles": [
+        "Mikrozensus: Knapp die Hälfte der Deutschen wohnen als Familie unter einem Dach",
+        "Feuer in Einfamilienhaus: Nach Explosion in Weimar – Suche nach Bewohner läuft weiter",
         "Finanzen von Eltern: Was ihr als werdende Eltern finanziell regeln müsst",
-        "LGBTQ-Gesetz in Ungarn: Ungarns Regierung will umstrittenes LGBTQ-Gesetz ändern",
-        "Kämpfe im Jemen: Tausende Menschen flüchten binnen eines Tages wegen Kämpfen im Jemen",
-        "Erfolg der AfD: Wie die AfD Liebe zur Strategie macht"
+        "LGBTQ-Gesetz in Ungarn: Ungarns Regierung will umstrittenes LGBTQ-Gesetz ändern"
       ],
       "urls": [
+        "https://www.zeit.de/gesellschaft/2026-09/familien-mikrozensus-2024-deutschland-familienformen-alleinerziehende",
+        "https://www.zeit.de/news/2026-09/16/nach-explosion-in-weimar-suche-nach-bewohner-laeuft-weiter",
         "https://www.zeit.de/geld/2026-09/finanzen-eltern-elterngeld-elternzeit-versicherung-heirat-baby",
-        "https://www.zeit.de/politik/ausland/2026-09/ungarn-lgbtq-kinderschutzgesetz-viktor-orban-eugh",
-        "https://www.zeit.de/politik/ausland/2026-09/kaempfe-jemen-tais-islamic-relief-flucht-dschibuti",
-        "https://www.zeit.de/familie/2026-09/erfolg-afd-waehlerschaft-emotionen-liebe-instrumentalisierung"
+        "https://www.zeit.de/politik/ausland/2026-09/ungarn-lgbtq-kinderschutzgesetz-viktor-orban-eugh"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "pride",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 17,
-      "sample_titles": [
-        "Ledig, verheiratet, ledig – auch der Bundesrat will den Zivilstand «geschieden» abschaffen",
-        "Die «Steuerhölle» Waadt stimmt über eine 12-prozentige Steuersenkung ab – und die bürgerliche Regierung ist dagegen",
-        "Treffen Zürcher besser als andere? Schlagen Mädchen die Knaben? Und was ist mit Familie Tell? Unnützes Halbwissen zum Showdown am Knabenschiessen",
-        "PODCAST «NZZ WEEKEND» - «Das Geld wird von der Klimapolitik weggenommen, um alles ins Militär fliessen zu lassen», sagt Grünen-Präsidentin Lisa Mazzone"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/ledig-verheiratet-ledig-auch-der-bundesrat-will-den-zivilstand-geschieden-abschaffen-ld.10023671",
-        "https://www.nzz.ch/schweiz/die-steuerhoelle-waadt-stimmt-ueber-eine-12-prozentige-steuersenkung-ab-und-die-buergerliche-regierung-ist-dagegen-ld.10023386",
-        "https://www.nzz.ch/zuerich/statistiken-zum-knabenschiessen-wer-hat-die-besten-nerven-ld.10023141",
-        "https://www.nzz.ch/podcast/das-geld-wird-von-der-klimapolitik-weggenommen-um-alles-ins-militaer-fliessen-zu-lassen-sagt-gruenen-praesidentin-lisa-mazzone-ld.10023076"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
           "count": 2
         },
         {
-          "emotion": "surprise",
+          "emotion": "desire",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -437,27 +404,60 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 16,
+      "article_count": 20,
       "sample_titles": [
-        "Türkei geht mit Großrazzia gegen LGBTQ-Netzwerke vor",
-        "Bei Miosga der dauernde Nazi-Vergleich",
-        "Familiennachzug für Polygamisten: Es ist doch nicht alles erlaubt",
-        "Das aktuelle PISA-Ergebnis ist auch ein Merkel-Ergebnis"
+        "Über 1.000 Opferfamilien: Die bittere Wahrheit über unsere Sicherheit",
+        "Frau Prien und ihre stumpfe Schere",
+        "Weltmeisterin zerlegt CDU in ihrem Ortsrat",
+        "EU und EZB drängen auf Kapitalmarktunion zur Steuerung privater Vermögen"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/tuerkei-grossrazzia-lgbtq-netzwerke/",
-        "https://www.tichyseinblick.de/feuilleton/medien/miosga-rehlinger-prien/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/familiennachzug-polygamisten-verbot-gerichtshof-menschenrechte/",
-        "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/pisa-ergebnis-merkel/"
+        "https://www.tichyseinblick.de/video/interview/michael-kyrath-trauerwache-deutschland/",
+        "https://www.tichyseinblick.de/meinungen/prien-schule/",
+        "https://www.tichyseinblick.de/daili-es-sentials/weltmeisterin-zerlegt-cdu-in-ihrem-ortsrat/",
+        "https://www.tichyseinblick.de/wirtschaft/eu-ezb-kapitalmarktunion-steuerung-privater-vermoegen/"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 18,
+      "sample_titles": [
+        "Messerattacke von Oerlikon: Das Bezirksgericht verurteilt chinesischen Studenten wegen mehrfachen versuchten Mordes zu 15 Jahren Freiheitsstrafe",
+        "Messerattacke von Oerlikon: «Dass unser Sohn noch bei uns ist, gleicht einem Wunder», sagen die Eltern eines Opfers",
+        "Razzien und Festnahmen: Ankara erhöht Druck auf LGBTQ-Szene",
+        "Ledig, verheiratet, ledig – auch der Bundesrat will den Zivilstand «geschieden» abschaffen"
+      ],
+      "urls": [
+        "https://www.nzz.ch/zuerich/messerattacke-oerlikon-chinese-zu-15-jahren-freiheitsstrafe-verurteilt-ld.10024179",
+        "https://www.nzz.ch/zuerich/messerattacke-oerlikon-eltern-eines-opfers-melden-sich-zu-wort-ld.10024179",
+        "https://www.nzz.ch/international/razzien-und-festnahmen-ankara-erhoeht-druck-auf-lgbtq-szene-ld.10024218",
+        "https://www.nzz.ch/schweiz/ledig-verheiratet-ledig-auch-der-bundesrat-will-den-zivilstand-geschieden-abschaffen-ld.10023671"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "grief",
+          "count": 1
+        }
+      ]
     },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 13,
+      "article_count": 12,
       "sample_titles": [
         "Adoptionsrecht So bunt wird Ungarn unter Péter Magyar",
         "„Polizistin“ vor Gericht Transfrau soll 15jährige vergewaltigt und Kinderpornos gehortet haben",
@@ -482,55 +482,44 @@
         }
       ]
     },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "New Yorks Bürgermeister Mamdani stoppt KI-Einsatz an Schulen",
-        "Israel sendet Soldaten zum Schutz in palästinensische Häuser",
-        "Trump-\"Sprachrohr\" Leavitt zieht sich zurück"
-      ],
-      "urls": [
-        "https://www.dw.com/de/new-yorks-bürgermeister-mamdani-stoppt-ki-einsatz-an-schulen/a-78854462?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/israel-sendet-soldaten-zum-schutz-in-palästinensische-häuser/a-78362697?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/trump-sprachrohr-leavitt-zieht-sich-zurück/a-78348500?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Pfau stirbt nach „unsachgemäßer Behandlung“ durch Schulkinder",
-        "Separatisten-Prozess: Leidet das Gericht unter akuter Befangenheit?"
+        "2,50 Euro pro Liter für den Greta-Wahn"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/pfau_stirbt_nach_unsachgemaesser_behandlung_durch_schulkinder",
-        "https://www.achgut.com/artikel/separatisten_prozess_leidet_das_gericht_unter_akuter_befangenheit"
+        "https://www.achgut.com/artikel/2_50_euro_pro_liter_fuer_den_greta_wahn"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 1,
+      "sample_titles": [
+        "New Yorks Bürgermeister Mamdani stoppt KI-Einsatz an Schulen"
+      ],
+      "urls": [
+        "https://www.dw.com/de/new-yorks-bürgermeister-mamdani-stoppt-ki-einsatz-an-schulen/a-78854462?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "neutral": 118,
-    "far-right": 31,
-    "populist-mixed": 102,
-    "right-conservative": 156,
-    "economic-liberal": 25,
-    "conservative-liberal": 117,
-    "left-liberal": 213,
-    "left": 38
+    "left-liberal": 205,
+    "right-conservative": 157,
+    "economic-liberal": 34,
+    "conservative-liberal": 121,
+    "neutral": 114,
+    "far-right": 33,
+    "left": 41,
+    "populist-mixed": 95
   },
   "statements": {
     "de": {
@@ -542,5 +531,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-09-16T09:46:39.534006"
+  "cached_at": "2026-09-19T09:24:46.240546"
 }

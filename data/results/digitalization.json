@@ -8,32 +8,32 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 124,
+      "article_count": 128,
       "sample_titles": [
-        "„Das Boot“-Schauspieler gestorben: Er verkörperte die raue und schöne Seele des Ruhrgebiets",
-        "Wettbewerb mit USA: Warum China die KI nicht bremst",
-        "Teenager über AfD-Wähler: „Weil sie wollen, dass Deutschland noch da ist“",
-        "Fünf Verletzte: Eltern prügeln sich auf Spielplatz wegen ihrer Kinder"
+        "Business-Ticker: Googles KI Gemini hackte ebenfalls andere Unternehmen",
+        "Hohe Energiekosten: Warum der Ölpreis die Börsen mehr beunruhigt als KI",
+        "Landtag in Magdeburg: Die Angst der AfD vor dem Kompromiss",
+        "Wildberger über KI: „Wir müssen imstande sein, diese Systeme wenn nötig zu stoppen“"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/schauspieler-ralf-richter-tot-201230186.html",
-        "https://www.faz.net/aktuell/wirtschaft/china-und-ki-warum-peking-auf-die-bremse-verzichtet-201229152.html",
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/schlaflos/jugendliche-ueber-den-wahlerfolg-der-afd-201209239.html",
-        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/pruegelei-zwischen-eltern-auf-spielplatz-in-stadthagen-polizei-setzt-pfefferspray-ein-201230608.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-buffett-zieht-sich-bei-berkshire-weiter-zurueck-faz-200452404.html",
+        "https://www.faz.net/aktuell/finanzen/boersenwoche-robert-greil-warnt-vor-konjunkturdaempfer-201239521.html",
+        "https://www.faz.net/aktuell/politik/wahl-in-sachsen-anhalt/die-angst-der-afd-vor-dem-kompromiss-201240302.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/ki-konferenz-all-in-in-montreal-sicherheit-im-fokus-201238736.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 7
+          "count": 10
         },
         {
           "emotion": "realization",
           "count": 5
         },
         {
-          "emotion": "curiosity",
-          "count": 4
+          "emotion": "optimism",
+          "count": 5
         }
       ]
     },
@@ -41,32 +41,65 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 98,
+      "article_count": 94,
       "sample_titles": [
-        "Killer-Krankenschwester Lucy Letby - 3 von 7 ermordeten Babys könnten noch leben",
-        "Nicht mehr nur Zukowski - Darum ist Magdeburg so unberechenbar",
-        "Es ging um Patriotismus - Klopps Deutschland-Botschaft an DFB-Mitarbeiter",
-        "Jetzt sprechen Opfer der Priester - Ich wurde im Dom von Paderborn missbraucht"
+        "Vom 14.9. bis 20.9.2026 - Das Wochenhoroskop für Löwe",
+        "Europas lustigster Raumfahrer - Dieser Pikachu lebte 67 Tage lang im All",
+        "Schüsse auf Kölner Pizzeria - Querschläger landet im Kinderzimmer",
+        "Am Set seines neuen Kinofilms - Tom Cruise peitscht Maskenbildner mit Stoppuhr an"
       ],
       "urls": [
-        "https://www.bild.de/news/ausland/killer-krankenschwester-lucy-letby-drei-von-sieben-babys-koennten-noch-leben-6aa9cf0fa3450cf42e453471",
-        "https://www.bild.de/sport/fussball/1-fc-magdeburg-fuenf-torschuetzen-machen-den-fcm-unberechenbar-6aa7a696240b302c8a843f49",
-        "https://www.bild.de/sport/fussball/kimmich-rolle-abwehr-wir-gefuehl-klopp-baut-beim-dfb-um-6aa94489176f7c20b935dc2c",
-        "https://www.bild.de/regional/nordrhein-westfalen/missbrauch-im-bistum-paderborn-ich-habe-mir-gewuenscht-ich-koennte-sterben-69d6605c463e9a2d40d16bcb"
+        "https://www.bild.de/leben-wissen/horoskop/horoskop-loewe-vom-14-09-20-09-neue-chancen-warten-auf-sie-6aa148087864931663e71ee1",
+        "https://www.bild.de/leben-wissen/wissenschaft/pikachu-im-all-pokemon-fliegt-67-tage-mit-astronauten-auf-der-iss-6aabd06f3e0af7910e522ad8",
+        "https://www.bild.de/regional/koeln/schuesse-auf-koelner-pizzeria-querschlaeger-landet-im-kinderzimmer-6aad7e8fb1857e86757a68a3",
+        "https://www.bild.de/unterhaltung/stars-und-leute/tom-cruise-peitscht-sein-maskenteam-mit-stoppuhr-an-6aad5ab4b1857e86757a667c"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 6
+          "count": 8
         },
         {
-          "emotion": "excitement",
-          "count": 6
+          "emotion": "annoyance",
+          "count": 4
         },
+        {
+          "emotion": "amusement",
+          "count": 3
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 82,
+      "sample_titles": [
+        "Die Macht der Islamisten im Netz",
+        "Regionalliga Südwest: Kickers Offenbach gewinnt in Trier, FSV Frankfurt unterliegt Stuttgarter Kickers",
+        "Demos in NRW: Bündnis will 100 Milliarden Euro für Kitas und Schulen",
+        "Tote bei Anschlag in Pakistan"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/inland/gesellschaft/islamismus-radikalisierung-social-media-gaming-100.html",
+        "https://www.hessenschau.de/sport/fussball/regionalliga/regionalliga-suedwest-kickers-offenbach-gewinnt-in-trier-fsv-frankfurt-unterliegt-stuttgarter-kickers-v1,regio-freitag-124.html",
+        "https://www1.wdr.de/nrw/rheinland/Demonstration-NRW-Bildungswende-Schule-Bildung-100.html",
+        "https://www.tagesschau.de/ausland/asien/pakistan-anschlag-134.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 4
+          "count": 5
+        },
+        {
+          "emotion": "fear",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
         }
       ]
     },
@@ -74,32 +107,32 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 75,
+      "article_count": 72,
       "sample_titles": [
-        "\"Kann uns alle töten\": Ehemaliger Google-Mitarbeiter sieht KI als Gefahr für die Menschheit",
-        "Trauer um George Chuvalo: Das härteste Kinn des Boxens ist tot",
-        "Deutschland unter EU-Schnitt: Zahl und Anteil der Kinder steigt im Zehn-Jahres-Vergleich",
-        "\"Persönliche Gründe\": Sohn Maddox legt Brad Pitts Nachnamen ab"
+        "Zinswoche muss verdaut werden: Wall Street geht erschöpft ins Wochenende",
+        "Notschalter bei Gefahr: Kalifornien plant \"kill switch\" für künstliche Intelligenz",
+        "Rund 80 Morde gestanden: Polizei in Brasilien fasst als Frau verkleideten Serienkiller",
+        "Er wollte die Tat live streamen: 13-Jähriger in Rom attackiert Lehrerin mit Messer"
       ],
       "urls": [
-        "https://www.n-tv.de/panorama/Ehemaliger-Google-Mitarbeiter-sieht-KI-als-Gefahr-fuer-die-Menschheit-id31309906.html",
-        "https://www.n-tv.de/sport/Das-haerteste-Kinn-des-Boxens-ist-tot-id31309187.html",
-        "https://www.n-tv.de/panorama/Zahl-und-Anteil-der-Kinder-steigt-im-Zehn-Jahres-Vergleich-id31307844.html",
-        "https://www.n-tv.de/leute/Sohn-Maddox-legt-Brad-Pitts-Nachnamen-ab-id31308669.html"
+        "https://www.n-tv.de/wirtschaft/Wall-Street-geht-erschoepft-ins-Wochenende-id31323498.html",
+        "https://www.n-tv.de/politik/Kalifornien-plant-kill-switch-fuer-kuenstliche-Intelligenz-id31323184.html",
+        "https://www.n-tv.de/panorama/Polizei-in-Brasilien-fasst-als-Frau-verkleideten-Serienkiller-id31323268.html",
+        "https://www.n-tv.de/panorama/13-Jaehriger-in-Rom-attackiert-Lehrerin-mit-Messer-id31321266.html"
       ],
-      "dominant_emotion": "grief",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "grief",
-          "count": 3
+          "emotion": "sadness",
+          "count": 6
         },
         {
-          "emotion": "realization",
-          "count": 3
+          "emotion": "admiration",
+          "count": 4
         },
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -109,63 +142,30 @@
       "bias": "left-liberal",
       "article_count": 71,
       "sample_titles": [
-        "Nahost: Die Huthis kontrollieren eine Meerenge - und sind mit Iran verbündet",
-        "Künstliche Intelligenz: Ex-Google-Mitarbeiter warnt vor Gefahren",
-        "Michael J. Fox: Schauspieler spricht bei den Emmys über sein Leben mit Parkinson",
-        "Friedrich Merz: Was für und gegen Wüst, Söder, Dobrindt und Rhein als Kanzler spricht"
+        "Stromnetz auf Kuba bricht erneut zusammen",
+        "USA: Trump kippt CO₂-Regeln und befeuert Boom schmutziger KI-Gaskraftwerke",
+        "Homer: 1700 Jahre altes Fragment der Odyssee in Utrecht gefunden",
+        "Upskirting beim Oktoberfest: Warum das »Teufelsrad« für Frauen gefährlich ist"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/nahost-die-huthis-kontrollieren-eine-meerenge-und-sind-mit-iran-verbuendet-a-935c0f04-dec7-44f8-92d9-39c311e20189#ref=rss",
-        "https://www.spiegel.de/netzwelt/kuenstliche-intelligenz-ex-google-mitarbeiter-warnt-vor-gefahren-a-0c41091b-83d5-4fcd-8f5d-db579a61a1c7#ref=rss",
-        "https://www.spiegel.de/kultur/tv/michael-j-fox-schauspieler-spricht-bei-den-emmys-ueber-sein-leben-mit-parkinson-a-19c7273b-4a6a-4b17-a27a-738a42877928#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/friedrich-merz-was-fuer-und-gegen-wuest-soeder-dobrindt-und-rhein-als-kanzler-spricht-a-4f225f9d-c24e-46b0-89e3-5011671d8f15#ref=rss"
+        "https://www.spiegel.de/ausland/stromnetz-auf-kuba-bricht-erneut-zusammen-a-37ad78b5-f0cc-47c9-98ac-0651b5e9f3ac#ref=rss",
+        "https://www.spiegel.de/wissenschaft/mensch/usa-trump-kippt-co-regeln-und-befeuert-boom-schmutziger-ki-gaskraftwerke-a-66026553-1c6f-48e0-94fe-8918e33c60fc#ref=rss",
+        "https://www.spiegel.de/wissenschaft/mensch/homer-1700-jahre-altes-fragment-der-odyssee-in-utrecht-gefunden-a-9792cde1-888e-4e43-b4aa-258480ec4185#ref=rss",
+        "https://www.spiegel.de/netzwelt/upskirting-beim-oktoberfest-warum-das-teufelsrad-fuer-frauen-gefaehrlich-ist-a-bfc18c2a-d7a3-437c-bed4-1c0f286bee84#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 7
+          "count": 6
         },
         {
-          "emotion": "fear",
-          "count": 3
-        },
-        {
-          "emotion": "realization",
+          "emotion": "admiration",
           "count": 2
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 70,
-      "sample_titles": [
-        "Warum weniger Besucher bei der Kirmes waren",
-        "Lebensmittelrettung: \"Teilweise habe ich 500 Kilogramm die Woche gerettet\"",
-        "Mann rast unter Drogen mit Tempo 80 auf getuntem E-Scooter durch Mannheim",
-        "Männer wollten Kinder mitnehmen"
-      ],
-      "urls": [
-        "https://www1.wdr.de/nrw/rheinland/bonn/puetzchens-markt-bonn-2026-bilanz-100.html",
-        "https://www1.wdr.de/nrw/duesseldorf/nachhaltigkeit-gegen-lebensmittelverschwendung-duesseldorf-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/mann-rast-mit-80-kmh-auf-e-scooter-durch-mannheim-100.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/duisburg/duisburg-jugendamt-betrug-kinder-100.html"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 5
         },
         {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "amusement",
-          "count": 3
+          "emotion": "confusion",
+          "count": 2
         }
       ]
     },
@@ -173,31 +173,64 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 67,
+      "article_count": 62,
       "sample_titles": [
-        "KI als Massenvernichtungswaffe? Die beunruhigende Parallelwelt im Herzen des Silicon Valley",
-        "„Europa besonders bedroht“ – Lauterbach fordert weltweite Regulierung von KI",
-        "„Müssen das Tempo drosseln“ – Bannon und Sanders warnen vor KI-Gefahren",
-        "Kim Kardashian erhält einen Euro Entschädigung nach Raubüberfall"
+        "Die heimlichen und gefährlichen Helfer",
+        "Googles Gemini hackte andere Unternehmen – Internetkonzern hielt Vorfälle zunächst geheim",
+        "PR-Coup – Grimme-Preisträger unterschreibt bei Berliner Viertligaverein",
+        "KI-Experte entdeckt zehntausende intime Aufnahmen von Frauen auf dem Fahrgeschäft „Teufelsrad“"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/plus6aa9ddb3a3450cf42e453482/dreamforce-konferenz-ki-als-massenvernichtungswaffe-die-beunruhigende-parallelwelt-im-herzen-des-silicon-valley.html",
-        "https://www.welt.de/politik/article6aa9d0169cfc210a32c4abe8/sicherheit-europa-besonders-bedroht-lauterbach-fordert-weltweite-regulierung-von-ki.html",
-        "https://www.welt.de/politik/ausland/article6aa9cd1ea3450cf42e45346b/ungewoehnliche-allianz-muessen-das-tempo-drosseln-bannon-und-sanders-warnen-vor-ki-gefahren.html",
-        "https://www.welt.de/vermischtes/article6aa9a533a3450cf42e4533a2/opa-raeuber-kim-kardashian-erhaelt-einen-euro-entschaedigung-nach-raubueberfall.html"
+        "https://www.welt.de/wirtschaft/article6aad333c708e760b5e06327a/schatten-ki-diese-studie-zeigt-das-ausmass-der-gefahr-fuer-firmen.html",
+        "https://www.welt.de/vermischtes/article6aadebc4b1857e86757a6c0c/kuenstliche-intelligenz-googles-gemini-hackte-andere-unternehmen-internetkonzern-hielt-vorfaelle-zunaechst-geheim.html",
+        "https://www.welt.de/sport/article6aad65944453e0520be1a203/viele-tore-pr-coup-grimme-preistraeger-unterschreibt-bei-berliner-viertligaverein.html",
+        "https://www.welt.de/vermischtes/article6aad3996b1857e86757a6376/muenchner-oktoberfest-ki-experte-entdeckt-zehntausende-intime-aufnahmen-von-frauen-auf-dem-fahrgeschaeft-teufelsrad.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 4
-        },
-        {
-          "emotion": "disapproval",
           "count": 3
         },
         {
           "emotion": "grief",
+          "count": 3
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 50,
+      "sample_titles": [
+        "KI-Sicherheut: Google-KI Gemini hackte bei Test drei Unternehmen",
+        "Verteidigung: China, Pakistan, Türkei – wer von Trumps F-35-Export an Riad noch profitieren könnte",
+        "+++ Iran-Krieg +++: Italien geleitet Handelsschiff mit Fregatte durch Meerenge ins Rote Meer",
+        "Geldanlage: Depot vererben – so machen Sie es Ihren Kindern einfach"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/technik/ki/ki-sicherheut-google-ki-gemini-hackte-bei-test-drei-unternehmen/100255773.html",
+        "https://www.handelsblatt.com/politik/international/verteidigung-wer-von-trumps-f-35-export-an-riad-noch-profitieren-koennte/100255575.html",
+        "https://www.handelsblatt.com/politik/international/iran-krieg-italien-geleitet-handelsschiff-mit-fregatte-durch-meerenge-ins-rote-meer/100136895.html",
+        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/geldanlage-depot-vererben-so-machen-sie-es-ihren-kindern-einfach/100252853.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -206,98 +239,32 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 53,
+      "article_count": 47,
       "sample_titles": [
-        "Zauberer feiert Geburtstag: „Glaube mehr denn je an Magie“: David Copperfield wird 70",
-        "Nachruf auf Ralf Richter: „Dat ist Freiheit“ – Kalle Grabowski bleibt",
-        "Migräne und Co.: Kopfschmerzen ohne Medikamente loswerden: So klappt´s!",
-        "EU-Vorrecht: Kommt jetzt das Social-Media-Verbot für Kinder?"
+        "Fraktionsklausur: CSU will mehr KI-Befugnisse für Verfassungsschutz",
+        "Bitcoin und Co.: Scharfer Wettbewerb: Volksbanken öffnen sich für Krypto",
+        "Wahlen: FDP-Vorsitzender Kubicki gibt sich kämpferisch vor der Wahl",
+        "Weltkindertag in Thüringen: Junge Union will neuen Feiertag wieder abschaffen"
       ],
       "urls": [
-        "https://www.stern.de/lifestyle/leute/zauberer-feiert-geburtstag---glaube-mehr-denn-je-an-magie---david-copperfield-wird-70-38259070.html",
-        "https://www.stern.de/kultur/ralf-richter---dat-ist-freiheit----kalle-grabowski-bleibt-38258070.html",
-        "https://www.stern.de/gesundheit/migraene--kopfschmerzen-ohne-medikamente-loswerden---so-klappt-s--37431774.html",
-        "https://www.stern.de/panorama/online--kommt-ein-social-media-verbot-fuer-kinder--antworten-erwartet-38258972.html"
+        "https://www.stern.de/gesellschaft/regional/bayern/fraktionsklausur--csu-will-mehr-ki-befugnisse-fuer-verfassungsschutz-38275516.html",
+        "https://www.stern.de/wirtschaft/news/bitcoin-und-co---scharfer-wettbewerb--volksbanken-oeffnen-sich-fuer-krypto-38275618.html",
+        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/wahlen--fdp-vorsitzender-kubicki-gibt-sich-kaempferisch-vor-der-wahl-38274712.html",
+        "https://www.stern.de/gesellschaft/regional/thueringen/weltkindertag-in-thueringen--junge-union-will-neuen-feiertag-wieder-abschaffen-38273172.html"
       ],
-      "dominant_emotion": "amusement",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 4
+        },
         {
           "emotion": "amusement",
           "count": 3
         },
         {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
-          "count": 3
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 40,
-      "sample_titles": [
-        "Schule in der Ukraine: Schulstart in Irpin mit KI und Schutzraum",
-        "China und künstliche Intelligenz: Keine Macht für niemand",
-        "Welthandel: EU will lernen, China entgegenzutreten",
-        "Helsinkis Verkehrswende: Der Radweg des geringsten Widerstandes"
-      ],
-      "urls": [
-        "https://taz.de/Schule-in-der-Ukraine/!6213130/",
-        "https://taz.de/China-und-kuenstliche-Intelligenz/!6213255/",
-        "https://taz.de/Europas-Stellung-im-Welthandel/!6213101/",
-        "https://taz.de/Helsinkis-Verkehrswende/!6208055/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
+          "emotion": "excitement",
           "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 2
-        }
-      ]
-    },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 37,
-      "sample_titles": [
-        "Steuerberatung: Investments in Steuer-Start-ups: Reid Hoffman und Christian Lindner entdecken die Steuerbranche",
-        "Künstliche Intelligenz: KI-Start-up Langdock verlegt Hauptsitz von den USA nach Deutschland",
-        "Dax aktuell: Dax macht frühe Verluste wett und schließt nahezu unverändert – KI-Sorgen bleiben Thema",
-        "Dax aktuell: Dax erholt sich von Verlusten – Bank-Aktien fallen"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/start-ups-reid-hoffman-und-christian-lindner-entdecken-die-steuerbranche/100254430.html",
-        "https://www.handelsblatt.com/technik/ki/ki-start-up-langdock-verlegt-hauptsitz-von-den-usa-nach-deutschland/100254184.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-nahezu-unveraendert-ki-sorgen-bleiben-thema/100254567.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-erholt-sich-von-verlusten-bank-aktien-fallen/100254567.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "desire",
-          "count": 1
         }
       ]
     },
@@ -307,29 +274,62 @@
       "bias": "neutral",
       "article_count": 37,
       "sample_titles": [
-        "Klicks um jeden Preis",
-        "Merz: Deutschland interessiert an starkem, gedeihenden Irak",
-        "Entscheidung über Merz' Zukunft schon am Sonntag?",
-        "Gleise blockiert: Bahnverkehr in den Niederlanden gestört"
+        "Maß Bier und KI-Kameras: Die Wiesn 2026 beginnt",
+        "Tote und Verletzte bei Selbstmordanschlag in Pakistan",
+        "Tusk warnt vor hybriden Angriffen auf Ukraine-Verbündete",
+        "Medien- und KI-Kompetenz: So stärken Eltern ihre Kinder"
       ],
       "urls": [
-        "https://www.zdf.de/video/reportagen/37-grad-104/37-klicks-um-jeden-preis-100",
-        "https://www.phoenix.de/merz-trifft-ali-al-saidi-a-5232853.html",
-        "https://www.zdfheute.de/politik/deutschland/merz-cdu-kritik-vertrauensfrage-wahlen-reformen-100.html",
-        "https://www.zdfheute.de/politik/ausland/niederlande-sabotage-zugverkehr-bahn-gleise-100.html"
+        "https://www.zdfheute.de/panorama/oktoberfest-wiesn-muenchen-2026-bier-preis-sicherheit-100.html",
+        "https://www.zdfheute.de/politik/ausland/pakistan-anschlag-polizei-tote-100.html",
+        "https://www.zdfheute.de/politik/ausland/polen-tusk-warnung-hybride-angriffe-ukraine-verbuendete-100.html",
+        "https://www.zdfheute.de/ratgeber/ki-social-media-internet-kinder-familie-eltern-kompetenz-100.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
           "count": 2
         },
         {
-          "emotion": "disappointment",
+          "emotion": "curiosity",
           "count": 2
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 36,
+      "sample_titles": [
+        "Brandanschlag auf Synagoge: Wuppertaler Polizei geht von Alleintäter aus",
+        "Terror im Nordwesten Pakistans: Mindestens 16 Tote bei Anschlag mit Autobombe",
+        "Sport und Regime und Russland: Ihr müsst das nicht tun",
+        "Explodierender Ölpreis: Selbst Polens Konservative wollen Übergewinnsteuer"
+      ],
+      "urls": [
+        "https://taz.de/Brandanschlag-auf-Synagoge/!6214242/",
+        "https://taz.de/Mindestens-16-Tote-bei-Anschlag-mit-Autobombe-in-Pakistan/!6214388/",
+        "https://taz.de/Sport-und-Regime-und-Russland/!6213908/",
+        "https://taz.de/Explodierender-Oelpreis/!6213919/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
         },
         {
-          "emotion": "amusement",
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -338,31 +338,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 33,
+      "article_count": 26,
       "sample_titles": [
-        "TSV 1860 München: Überlegene Löwen wieder nur remis in Fürth",
-        "USA-Newsblog: Kennedy Center wird laut Trump umgehend geschlossen",
-        "Hallenbad Kirchseeon: Noch läuft der Rettungsversuch",
-        "Glosse: Das Streiflicht"
+        "Newsblog zu KI: Googles KI Gemini hackte ebenfalls andere Unternehmen",
+        "„Zu verschenken“: Abschiedszeremonie am Straßenrand",
+        "Generation KI: Buch von Gloria-Sophie Burkandt: Söders Tochter und wie sie die Welt sieht",
+        "News-Überblick: Das sind die Nachrichten des Tages"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/sport/fussball-regionalliga-1860-muenchen-spvgg-fuerth-ii-remis-li.3548139",
-        "https://www.sueddeutsche.de/politik/usa-news-liveblog-kennedy-center-geschlossen-li.3530667",
-        "https://www.sueddeutsche.de/muenchen/ebersberg/kirchseeon-hallenbad-rettungsversuch-interkommunale-arbeitsgruppe-li.3545645",
-        "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3547801"
+        "https://www.sueddeutsche.de/politik/ki-newsblog-europa-sicherheit-google-gemini-probleme-zwischenfaelle-li.3547133",
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/region-muenchen-zu-verschenken-strassenrand-kolumne-kreis-und-quer-li.3536133",
+        "https://www.sueddeutsche.de/bayern/soeder-tochter-gloria-sophie-burkandt-buch-generation-ki-li.3547784",
+        "https://www.sueddeutsche.de/muenchen/muenchen-nachrichten-meldungen-freizeittipps-li.3549586"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
           "emotion": "confusion",
-          "count": 4
+          "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -371,32 +371,32 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 32,
+      "article_count": 25,
       "sample_titles": [
-        "KOMMENTAR - KI-Firmen können sich die Angstmacherei mit dem Ende der Menschheit sparen",
-        "DIE NEUESTEN ENTWICKLUNGEN - Gerät die KI «ausser Kontrolle»? Die wichtigsten Fragen und Antworten zur Debatte um die Sicherheit der künstlichen Intelligenz",
-        "Trump kündigte gestern den Energiefrieden zwischen Russland und der Ukraine an. Doch diese Nacht deutet auf das Gegenteil hin",
-        "Fidel Castro sprach einst vom «sichersten Land der Welt»  – nun trauen sich die Kubaner kaum mehr aus dem Haus"
+        "Messerattacke von Oerlikon: Das Bezirksgericht verurteilt chinesischen Studenten wegen mehrfachen versuchten Mordes zu 15 Jahren Freiheitsstrafe",
+        "Kylian Mbappé kooperiert mit On: Die Schweizer Firma will mit dem Superstar den umkämpften Fussballmarkt erobern",
+        "Kampf um Strom und Wasser: Ein Schweizer Weltmarktführer zeigt das grosse Paradox beim Siegeszug von KI",
+        "INTERVIEW - «Wir beziehen Stellung, wenn Politiker das faktenbasierte Wissen ignorieren», sagt die Chefredaktorin des Wissenschaftsjournals «Nature»"
       ],
       "urls": [
-        "https://www.nzz.ch/meinung/ki-firmen-koennen-sich-die-angstmacherei-mit-dem-ende-der-menschheit-sparen-ld.10023808",
-        "https://www.nzz.ch/panorama/geraet-die-ki-ausser-kontrolle-die-wichtigsten-fragen-und-antworten-zur-debatte-um-die-sicherheit-der-kuenstlichen-intelligenz-ld.10023872",
-        "https://www.nzz.ch/international/trotz-trumps-ankuendigung-ist-ein-energiefriede-zwischen-russland-und-der-ukraine-in-weiter-ferne-ld.10023792",
-        "https://www.nzz.ch/international/sicherheitskrise-warum-sich-kubaner-kaum-noch-aus-dem-haus-trauen-ld.10022279"
+        "https://www.nzz.ch/zuerich/messerattacke-oerlikon-chinese-zu-15-jahren-freiheitsstrafe-verurteilt-ld.10024179",
+        "https://www.nzz.ch/sport/fussball/on-steigt-mit-kylian-mbappe-an-der-seite-ins-fussball-geschaeft-ein-ld.10024467",
+        "https://www.nzz.ch/wirtschaft/datenzentren-auch-effizientere-ki-braucht-mehr-strom-und-wasser-ld.10023506",
+        "https://www.nzz.ch/wissenschaft/nature-chefin-magdalena-skipper-ueber-ki-diversitaet-und-macht-ld.10023881"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 5
+          "emotion": "realization",
+          "count": 3
         },
         {
-          "emotion": "realization",
+          "emotion": "admiration",
           "count": 2
         },
         {
-          "emotion": "fear",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -404,31 +404,31 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 29,
+      "article_count": 21,
       "sample_titles": [
-        "Es ging um einen Ball: Eltern eskalieren Streit ihrer Kinder - fünf Verletzte",
-        "Künstliche Intelligenz: KI‑Konzerne OpenAI, Anthropic und Google wollen sich selbst regulieren",
-        "Social-Media-Verbot für Kinder: Wie das Social-Media-Verbot für Kinder in der EU aussehen könnte",
-        "Organisierte Kriminalität: Jung, brutal, digital"
+        "Künstliche Intelligenz: UN-Generalsekretär fordert KI-Gespräch zwischen USA, China und EU",
+        "Künstliche Intelligenz: Auch Google meldet Cyberattacke seines KI-Modells Gemini",
+        "Bitcoin und Co.: Scharfer Wettbewerb: Volksbanken öffnen sich für Krypto",
+        "Regulierung von künstlicher Intelligenz: Wie sich KI sicherer machen lässt"
       ],
       "urls": [
-        "https://www.zeit.de/news/2026-09/15/eltern-eskalieren-streit-ihrer-kinder-fuenf-verletzte",
-        "https://www.zeit.de/digital/2026-09/selbstregulierung-ki-openai-anthropic-google-dario-amodei-sam-altman-donald-trump-china",
-        "https://www.zeit.de/politik/ausland/2026-09/social-media-verbot-kinder-eu-unter-13-ursula-von-der-leyen-jugendschutz",
-        "https://www.zeit.de/politik/2026-09/organisierte-kriminalitaet-drogen-minderjaehrige-nachrichtenpodcast"
+        "https://www.zeit.de/digital/internet/2026-09/ki-sicherheit-antonio-guterres-usa-china-europa-un",
+        "https://www.zeit.de/digital/internet/2026-09/google-gemini-ki-hacker-angriff-cybersicherheit",
+        "https://www.zeit.de/news/2026-09/19/scharfer-wettbewerb-volksbanken-oeffnen-sich-fuer-krypto",
+        "https://www.zeit.de/digital/internet/2026-09/regulierung-kuenstliche-intelligenz-internationale-ki-aufsicht-kontrolle"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
           "count": 1
         },
         {
           "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -437,24 +437,28 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 17,
+      "article_count": 20,
       "sample_titles": [
-        "Innere Sicherheit: Zumindest die Kriminalität wird immer organisierter",
-        "Kommt die AI-pocalypse? | Tichys Börsenwecker am 15. September 2026",
-        "Türkei geht mit Großrazzia gegen LGBTQ-Netzwerke vor",
-        "Was ist mit sozialer Gerechtigkeit für Leistungsträger?"
+        "Wie die Church of England den Preis an einen Bin-Laden-Fan zurücknehmen musste",
+        "Marsch für das Leben in Berlin und Köln: „Eine Stimme für die, die noch keine haben“",
+        "Wenn Trump die Midterms verliert: Die Folgen für Crypto, KI und Energie | Tichys Börsenwecker am 18. September 2026",
+        "Wie hart bleibt Péter Magyar in der Migrationspolitik?"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/meinungen/organisierte-kriminalitaet-nimmt-zu/",
-        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-15-september-2026/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/tuerkei-grossrazzia-lgbtq-netzwerke/",
-        "https://www.tichyseinblick.de/meinungen/soziale-gerechtigkeit-fuer-leistungstraeger/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/church-of-england-muss-preis-an-bin-laden-fan-zuruecknehmen/",
+        "https://www.tichyseinblick.de/daili-es-sentials/marsch-fuer-das-leben-linksradikale-gegendemonstranten/",
+        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-18-september-2026/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/ungarn-magyar-migrationspolitik/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 3
+        },
+        {
+          "emotion": "realization",
+          "count": 1
         },
         {
           "emotion": "optimism",
@@ -466,23 +470,23 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 8,
+      "article_count": 18,
       "sample_titles": [
-        "Adoptionsrecht So bunt wird Ungarn unter Péter Magyar",
-        "„Polizistin“ vor Gericht Transfrau soll 15jährige vergewaltigt und Kinderpornos gehortet haben",
-        "Nach Petition Die AfD darf im ZDF-Kinderkanal nur noch betreut sprechen",
-        "Coesfelder Liste Gegen fast jeden zweiten Migranten in Kölns Bleiberechtsprogramm wird ermittelt"
+        "Linkspartei-Abgeordneter lud ein Schwuler Rapper sorgt mit obszönem Video im Bundestag für Aufsehen",
+        "Sarah Mullally Anglikanische Kirche zieht Ehrenpreis für Christenhasser zurück",
+        "Wuppertal Brandanschlag auf Synagoge: Polizei fasst polizeibekannten Afghanen",
+        "„Marsch für das Leben“ Der Protest für Lebensschutz verstummt"
       ],
       "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/so-bunt-wird-ungarn-unter-peter-magyar/",
-        "https://jungefreiheit.de/politik/deutschland/2026/transfrau-soll-15jaehrige-vergewaltigt-und-kinderpornos-gehortet-haben/",
-        "https://jungefreiheit.de/kultur/medien/2026/die-afd-darf-im-zdf-kinderkanal-nur-noch-betreut-sprechen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/gegen-fast-jeden-zweiten-migranten-in-koelns-bleiberechtsprogramm-wird-ermittelt/"
+        "https://jungefreiheit.de/politik/deutschland/2026/schwuler-rapper-sorgt-mit-obszoenen-video-im-bundestag-fuer-aufsehen/",
+        "https://jungefreiheit.de/politik/ausland/2026/anglikanische-kirche-zieht-ehrenpreis-fuer-christenhasser-zurueck/",
+        "https://jungefreiheit.de/politik/deutschland/2026/brandanschlag-auf-synagoge-polizei-fasst-polizeibekannten-afghanen/",
+        "https://jungefreiheit.de/kultur/2026/der-protest-fuer-lebensschutz-verstummt/"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -491,23 +495,27 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 5,
+      "article_count": 7,
       "sample_titles": [
-        "Zur Erinnerung an Oriana Fallaci",
-        "Der Ukraine Poker und die Grenzen der Annäherung",
-        "Nach AfD-Interview bei KiKA: Schüler und Lehrer fordern Konsequenzen",
-        "Kann KI mit Tieren sprechen?"
+        "Bald Palästinafahnen am Roten Rasthaus?",
+        "Ursulas Aussichten auf den Ausnahmezustand",
+        "Wie türkische Fake-News auch Deutschland beeinflussen",
+        "„Ich war voller Tatendrang und wollte auf der Stelle die Revolution“"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/zur_erinnerung_an_oriana_fallaci",
-        "https://www.achgut.com/artikel/der_ukraine_poker_und_die_grenzen_der_annaeherung",
-        "https://www.achgut.com/artikel/nach_afd_interview_bei_kika_schueler_und_lehrer_fordern_konsequenzen",
-        "https://www.achgut.com/artikel/kann_ki_mit_tieren_sprechen"
+        "https://www.achgut.com/artikel/bald_palaestina_fahnen_am_roten_rathaus",
+        "https://www.achgut.com/artikel/ursulas_aussichten_auf_den_ausnahmezustand",
+        "https://www.achgut.com/artikel/Wie_tuerkische_Fake_News_auch_Deutschland_beeinflussen",
+        "https://www.achgut.com/artikel/ich_war_voller_tatendrang_und_wollte_auf_der_stelle_die_revolution"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "sadness",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -518,22 +526,17 @@
       "bias": "neutral",
       "article_count": 3,
       "sample_titles": [
-        "China verschärft Ausreisesperren für Bürger",
-        "Fußball: Gladbach trennt sich von Trainer Eugen Polanski",
-        "KI-Bosse in den USA wollen runter vom Tempo"
+        "EU-Kommission will soziale Medien für Kinder stark begrenzen",
+        "OpenAI meldet weitere Fälle unerwarteten KI-Verhaltens",
+        "China verschärft Ausreisesperren für Bürger"
       ],
       "urls": [
-        "https://www.dw.com/de/china-verschärft-ausreisesperren-für-bürger/a-79270235?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/fußball-gladbach-trennt-sich-von-trainer-eugen-polanski/a-79250451?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/ki-bosse-in-den-usa-wollen-runter-vom-tempo/a-79248776?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/eu-kommission-will-soziale-medien-für-kinder-stark-begrenzen/a-79310007?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/openai-meldet-weitere-fälle-unerwarteten-ki-verhaltens/a-79303849?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/china-verschärft-ausreisesperren-für-bürger/a-79270235?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "cicero": {
       "source_id": "cicero",
@@ -541,34 +544,34 @@
       "bias": "conservative-liberal",
       "article_count": 1,
       "sample_titles": [
-        "Wenn künstliche Intelligenz außer Kontrolle gerät - Der menschliche Makel"
+        "Zustand der FDP - Schafft Kubicki die Rettung der Partei?"
       ],
       "urls": [
-        "https://www.cicero.de/kultur/wenn-kunstliche-intelligenz-ausser-kontrolle-gerat-der-menschliche-makel"
+        "https://www.cicero.de/innenpolitik/fdp-wolfgang-kubicki-rettung-der-partei"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "populist-mixed": 98,
-    "right-conservative": 142,
-    "economic-liberal": 37,
-    "left-liberal": 186,
-    "neutral": 110,
-    "far-right": 30,
-    "conservative-liberal": 157,
-    "left": 40
+    "populist-mixed": 94,
+    "right-conservative": 134,
+    "economic-liberal": 50,
+    "conservative-liberal": 154,
+    "left-liberal": 165,
+    "neutral": 122,
+    "far-right": 45,
+    "left": 36
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird KI gleichzeitig als strategische Wachstumschance für die Wirtschaft und als potenzielles Sicherheitsrisiko dargestellt, wobei sowohl liberale als auch konservative Beiträge die Notwendigkeit einer staatlich gesteuerten Regulierung betonen, um Wettbewerbsfähigkeit zu sichern und gleichzeitig Missbrauch zu verhindern; zugleich finden sich in nahezu allen redaktionellen Ausrichtungen einheitliche Forderungen nach einem beschleunigten Breitbandausbau und einer stärkeren Digitalisierung der Verwaltung, um die digitale Souveränität Deutschlands gegenüber den USA und China zu stärken.",
-      "controversial_points": "Der Staat will KI regulieren, die Wirtschaft fordert schnelle Innovationsfreiheit. Datenschutzverbände betonen Bürgerrechte, während Unternehmen auf Datenflüsse für Wettbewerbsfähigkeit pochen. Die EU AI Act erzeugt Spannungen zwischen nationaler Souveränität und europäischer Harmonisierung. Fachkräfteknappheit lässt Bildungspolitik und Wirtschaft um Investitionen in digitale Ausbildung streiten."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein klarer Konsens über die wachsende Bedrohung durch Sicherheitslücken in KI‑Systemen, insbesondere die wiederholte Meldung von Hacks des Gemini‑Modells, als zentrales Risiko betont. Gleichzeitig fordern sowohl konservative als auch linke Akteure einheitliche regulatorische Rahmenbedingungen, die ausdrücklich die Möglichkeit eines Not‑Stopps für gefährliche KI‑Anwendungen vorsehen. Darüber hinaus besteht ein breiter Übereinstimmungs‑ und Handlungsdruck, den Ausbau von Breitband‑ und Cloud‑Infrastruktur zu beschleunigen, um Deutschlands Wettbewerbsfähigkeit in der europäischen KI‑Strategie zu sichern.",
+      "controversial_points": "Der Staat will KI regulieren, die Wirtschaft fordert weniger Bürokratie. Datenschützer betonen Grundrechte, Unternehmen betonen Innovationsdruck. Union und AfD streiten um digitale Souveränität, während Grüne fordern ökologische Standards. EU AI Act erzeugt Spannungen zwischen nationaler Wettbewerbsfähigkeit und europäischer Wertepolitik."
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum agree that artificial‑intelligence technologies constitute a strategic priority for national competitiveness and therefore require accelerated public investment in broadband, digital skills and research infrastructure. At the same time there is a broad consensus that the rapid deployment of AI creates concrete security and societal risks, prompting calls for a robust regulatory framework such as the EU AI Act and stronger oversight by agencies like the BSI. Finally, most outlets, from liberal business papers to conservative commentaries, stress that unchecked automation could reshape the labour market and that coordinated policy measures are needed to protect vulnerable workers while harnessing the economic potential of digital transformation.",
-      "controversial_points": "A tension exists between economic liberal calls for rapid AI adoption and conservative fears of security and sovereignty loss. Data protection advocates clash with business interests over strict EU AI Act implementation versus market flexibility. Labor unions dispute automation benefits, highlighting job displacement while tech media promote productivity gains. Left‑leaning outlets emphasize ethical AI and digital education, whereas right‑wing voices stress cultural threat and national identity erosion."
+      "shared_perspectives": "German media across the spectrum repeatedly stress that AI systems such as Google’s Gemini pose concrete security threats, prompting a shared call for stronger oversight, mandatory “kill‑switch” mechanisms and expanded powers for intelligence agencies to monitor and intervene in risky deployments. At the same time, all outlets acknowledge a consensus that Germany and the EU must accelerate digital infrastructure—broadband expansion, digital education and skilled‑labour programmes—to preserve competitiveness while safeguarding data protection and cyber‑resilience. Finally, the coverage uniformly frames the EU AI Act as a pivotal, albeit contested, instrument for establishing a common regulatory baseline that balances innovation incentives with societal risk mitigation.",
+      "controversial_points": "The debate pits economic growth ambitions against data‑privacy and civil‑rights concerns. Government‑industry alliances clash with civil‑society demands for stronger AI regulation. Regional disparities in broadband access fuel north‑south political tensions over EU funding. Labor unions confront tech firms over automation risks, highlighting class‑based conflict over future employment."
     }
   },
-  "cached_at": "2026-09-16T09:36:36.329397"
+  "cached_at": "2026-09-19T09:14:45.917565"
 }
