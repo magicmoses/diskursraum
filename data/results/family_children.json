@@ -4,55 +4,22 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 101,
-      "sample_titles": [
-        "Hessischer Gesetzentwurf: Justizminister fordert Vertrauensperson in Familienverfahren",
-        "Deutscher Buchpreis: Wer hat den besten Roman?",
-        "Villa Certosa: Berlusconis Familie verkauft legendäres Anwesen auf Sardinien",
-        "Brille mit Gefühl: Vahnsinn, diese KI!"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hessen-will-gewaltopfer-besser-vor-familiengericht-unterstuetzen-201272666.html",
-        "https://www.faz.net/aktuell/rhein-main/kultur/deutscher-buchpreis-2026-wer-hat-den-besten-roman-lesung-in-frankfurt-201267853.html",
-        "https://www.faz.net/aktuell/gesellschaft/menschen/silvio-berlusconis-villa-an-emir-von-qatar-verkauft-accg-201268614.html",
-        "https://www.faz.net/aktuell/sport/mehr-sport/intelligente-brille-verhindert-gefuehlsausbruch-201262707.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 7
-        },
-        {
-          "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "confusion",
-          "count": 5
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 98,
+      "article_count": 100,
       "sample_titles": [
-        "\"Sparmaßnahme nochmal prüfen\": Familienministerin Prien rüttelt an ihrer eigenen Elterngeld-Kürzung",
-        "Viel Nachholbedarf: OECD bescheinigt Deutschland teils Top-Positionen im Bildungsbereich",
-        "Dauer-Erbrechen im Urlaub: Deutsche Staatsanwältin stirbt in Istanbul - Behörden ermitteln",
-        "Großangriff im Westjordanland: Radikale Siedler durchkreuzen Rückkehr-Aktion der israelischen Armee"
+        "Heino statt Familienurlaub: Heikles K-Thema brennt sich in Klopps Gedanken",
+        "Vergleichsportal rechnet vor: Iran-Krieg könnte Gaspreis um bis zu 20 Prozent treiben",
+        "Forderung nach Schadenersatz: Von ICE getötet: Familie von Renee Good klagt gegen Trump-Vertraute",
+        "Täterin droht lebenslange Haft: Anklage wegen Mordversuchs nach Schüssen auf Rihannas Haus"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Familienministerin-Prien-ruettelt-an-ihrer-eigenen-Elterngeld-Kuerzung-id31362944.html",
-        "https://www.n-tv.de/panorama/OECD-Bildungsbericht-Licht-und-Schatten-im-deutschen-Bildungsbereich-Prien-Wir-sind-nicht-effektiv-id31361539.html",
-        "https://www.n-tv.de/panorama/Deutsche-Staatsanwaeltin-stirbt-in-Istanbul-Behoerden-ermitteln-id31361916.html",
-        "https://www.n-tv.de/politik/Radikale-Siedler-durchkreuzen-Rueckkehr-Aktion-der-israelischen-Armee-id31361146.html"
+        "https://www.n-tv.de/sport/fussball/Heikles-K-Thema-brennt-sich-in-Klopps-Gedanken-id31374939.html",
+        "https://www.n-tv.de/wirtschaft/Iran-Krieg-koennte-Gaspreis-um-bis-zu-20-Prozent-treiben-id31372214.html",
+        "https://www.n-tv.de/politik/Von-ICE-getoetet-Familie-von-Renee-Good-klagt-gegen-Trump-Vertraute-id31370992.html",
+        "https://www.n-tv.de/leute/Anklage-wegen-Mordversuchs-nach-Schuessen-auf-Rihannas-Haus-id31368071.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -65,7 +32,40 @@
           "count": 5
         },
         {
-          "emotion": "excitement",
+          "emotion": "annoyance",
+          "count": 4
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 96,
+      "sample_titles": [
+        "Olivenernte im Westjordanland: Palästinenser von Siedlern und Soldaten beschossen",
+        "Max Lindemann: In den eigenen Abgrund blicken",
+        "Elterngeld-Kürzung: Prioritätenfrage, neu gestellt",
+        "Alleinerziehende: „Ich bin geschieden. Wie soll ich jetzt sparen?“"
+      ],
+      "urls": [
+        "https://www.faz.net/video/westjordanland-siedler-und-soldaten-schiessen-auf-palaestinenser-201284106.html",
+        "https://www.faz.net/aktuell/rhein-main/kultur/max-lindemann-inszeniert-eines-langen-tages-reise-in-die-nacht-am-schauspiel-frankfurt-201275829.html",
+        "https://www.faz.net/aktuell/politik/inland/beim-elterngeld-stellt-prien-die-prioritaetenfrage-neu-201276224.html",
+        "https://www.faz.net/aktuell/finanzen/katharina-sandner-sparen-nach-der-scheidung-mit-etf-accg-201247554.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 7
+        },
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
           "count": 5
         }
       ]
@@ -74,18 +74,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 88,
+      "article_count": 90,
       "sample_titles": [
-        "„Tagtäglich Angriffe auf den Verein“ - Wie Gerber über Aufstieg mit Rot-Weiß Erfurt denkt",
-        "„Freibier“-Attacke aus dem Norden - Länder rechnen in Kneipen-Jargon mit Bund ab",
-        "Sein Vater ist Weltmeister - DFB-Neuling erklärt seine sportverrückte Familie",
-        "Erfolgskomponist nach Reha wieder zu Hause - Ralph Siegel isst schon wieder Sushi"
+        "Opfer-Familie tobt nach Hinrichtungs-Panne - „Sie haben Scheiße gebaut!“",
+        "Gedanken zum 3. Oktober - Wir Deutschen sind halt eine typische Familie",
+        "Bundestrainer suchte seine Familie - Was Sie beim Klopp-Sieg im TV nicht sahen",
+        "Familie brüllt ihn aus dem Auto - Bär klaut Steaks und Bier"
       ],
       "urls": [
-        "https://www.bild.de/sport/fussball/fc-rot-weiss-erfurt-gibt-tagtaeglich-angriffe-auf-den-verein-wie-gerber-ueber-aufstieg-denkt-6aba5dadd72162f22c33f591",
-        "https://www.bild.de/politik/inland/kita-gesetz-tschentscher-attackiert-berlin-mit-freibier-vergleich-6abbbd0e2660ba1a21b0692e",
-        "https://www.bild.de/sport/fussball/sein-vater-ist-weltmeister-dfb-neuling-erklaert-seine-sportverrueckte-familie-6abb983b7efe762b03ba1d79",
-        "https://www.bild.de/unterhaltung/musik/ralph-siegel-nach-reha-wieder-zu-hause-hit-komponist-mischt-sogar-beim-esc-2027-mit-6ab9293ba8b3f6fdb1edd08c"
+        "https://www.bild.de/news/ausland/christa-pike-eltern-von-mord-opfer-colleen-slemmer-toben-nach-hinrichtungs-panne-6ac0356185d64113fb06d5f2",
+        "https://www.bild.de/politik/inland/gedanken-zum-3-oktober-wir-deutschen-sind-halt-eine-typische-familie-6abfe3f785d64113fb06d3e3",
+        "https://www.bild.de/sport/fussball/dfb-was-sie-beim-deutschland-spiel-gegen-serbien-nicht-im-tv-sahen-6abee8fc85d64113fb06c395",
+        "https://www.bild.de/leben-wissen/baer-klaut-steaks-und-bier-erst-schlaegt-die-familie-ihn-in-die-flucht-dann-soll-er-wiederkommen-6abcbd320f65d43326f6987a"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -99,7 +99,40 @@
         },
         {
           "emotion": "excitement",
-          "count": 6
+          "count": 5
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 81,
+      "sample_titles": [
+        "Verbindliches kostenfreies letztes Kita-Jahr wohl vor dem Aus",
+        "Verbindliches kostenfreies letztes Kita-Jahr wohl vor dem Aus: Zentrales Wahlversprechen könnte kippen",
+        "Diese Tipps gibt es für die Herbstferien in RLP",
+        "Melsungen-Star Johannes Golla will zurück nach Flensburg - wegen der Familie"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/pflicht-und-kostenfreies-kita-jahr-vor-dem-aus-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/kein-kostenfreies-kita-jahr-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/tipps-2026-fuer-die-herbstferien-100.html",
+        "https://www.hessenschau.de/sport/handball/mt-melsungen/melsungen-star-johannes-golla-will-zurueck-nach-flensburg---wegen-der-familie-v1,melsungen-golla-108.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "desire",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 3
         }
       ]
     },
@@ -109,16 +142,16 @@
       "bias": "left-liberal",
       "article_count": 81,
       "sample_titles": [
+        "Türkei: Unabhängiges Onlineportal muss wegen angeblicher »LGBT-Propaganda« schließen",
+        "Karin Prien: Familienministerin »offen« für Beibehaltung von 14 Monaten Elterngeld",
         "Rechtsanspruch auf Ganztagsbetreuung: Schulleitungen sehen große Umsetzungsprobleme",
-        "USA: Kleinkind bringt geladene Waffe mit in den Kindergarten",
-        "Zarenfamilie Romanow: Das legendäre Leben der (angeblichen) Zarentochter Anastasia",
-        "Die Linke: Auch Barbakh-Clan besuchte die Neuköllner Wahlparty – wer sie sind"
+        "USA: Kleinkind bringt geladene Waffe mit in den Kindergarten"
       ],
       "urls": [
+        "https://www.spiegel.de/ausland/tuerkei-unabhaengiges-onlineportal-muss-wegen-angeblicher-lgbt-propaganda-schliessen-a-1d710ed2-9c1e-4f4d-84eb-333c8bf4718f#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/elterngeld-karin-prien-offen-fuer-beibehaltung-von-14-monaten-a-449a3a06-3dac-4755-8ec6-b5143e5e7199#ref=rss",
         "https://www.spiegel.de/panorama/bildung/rechtsanspruch-auf-ganztagsbetreuung-schulleitungen-sehen-grosse-umsetzungsprobleme-a-2e19d0df-4d3f-4903-bd82-3564590813bf#ref=rss",
-        "https://www.spiegel.de/panorama/usa-kleinkind-bringt-geladene-waffe-mit-in-den-kindergarten-a-771e2577-a0ca-4b1f-9eb9-68ef7770778f#ref=rss",
-        "https://www.spiegel.de/geschichte/das-ende-der-romanows-ein-leben-als-legende-a-671da169-de9d-43f2-aaa9-a777756094f9#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/die-linke-auch-barbakh-clan-besuchte-die-neukoellner-wahlparty-wer-sie-sind-a-6c91dd63-c117-4fd2-bbb9-eb0438d7b9f7#ref=rss"
+        "https://www.spiegel.de/panorama/usa-kleinkind-bringt-geladene-waffe-mit-in-den-kindergarten-a-771e2577-a0ca-4b1f-9eb9-68ef7770778f#ref=rss"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -136,55 +169,22 @@
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 78,
-      "sample_titles": [
-        "Gibt es eine Kehrtwende beim Elterngeld?",
-        "Siedler verhindern Rückkehr vertriebener Palästinenser",
-        "Kind in Taxi gezerrt? Warum der Polizeieinsatz für eine Familie jetzt teuer werden könnte",
-        "\"Flamingo-Proteste\": Albaner in Hessen gegen Bauprojekt der Trump-Familie"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/prien-kuerzungen-elterngeld-100.html",
-        "https://www.tagesschau.de/ausland/siedlergewalt-westjordanland-israel-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/mutmassliche-kindesentfuehrung-in-gemmingen-rechnung-fuer-familie-100.html",
-        "https://www.hessenschau.de/gesellschaft/flamingo-proteste-albaner-in-hessen-gegen-bauprojekt-der-trump-familie-v1,albanien-proteste-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "approval",
-          "count": 3
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 78,
+      "article_count": 75,
       "sample_titles": [
-        "Vorschau: TV-Tipps am Dienstag",
-        "Brände: Explosion bei Unfall mit Gasflaschen: Mann schwer verletzt",
-        "Mutterschaft: Franca Lehfeldt kritisiert Rollenbilder und „Momfluencer“",
-        "Schwere Vorwürfe: Eigener Cousin schießt gegen Ed Sheeran: „Er hat gelogen“"
+        "Familiennachwuchs: Götz Otto freut sich über erstes Enkelkind",
+        "Polizei ermittelt: Vater und Sohn am Bahnhof Weimar mit Steinen beworfen",
+        "Von ICE-Mitarbeiter getötet: Familie von Renee Good verklagt Trump-Regierung",
+        "Mit Schulkindern im Bus: Bus wendet und verletzt 66-jährigen Motorradfahrer"
       ],
       "urls": [
-        "https://www.stern.de/kultur/vorschau--tv-tipps-am-dienstag-38322350.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/braende--explosion-bei-unfall-mit-gasflaschen--mann-schwer-verletzt-38322214.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/mutterschaft--franca-lehfeldt-kritisiert-rollenbilder-und--momfluencer--38321776.html",
-        "https://www.stern.de/panorama/eigener-cousin-schiesst-gegen-ed-sheeran---er-hat-gelogen--38318452.html"
+        "https://www.stern.de/gesellschaft/regional/bayern/familiennachwuchs--goetz-otto-freut-sich-ueber-erstes-enkelkind-38343234.html",
+        "https://www.stern.de/gesellschaft/regional/thueringen/polizei-ermittelt--vater-und-sohn-am-bahnhof-weimar-mit-steinen-beworfen-38341254.html",
+        "https://www.stern.de/news/von-ice-mitarbeiter-getoetet--familie-von-renee-good-verklagt-trump-regierung-38337568.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/mit-schulkindern-im-bus--bus-wendet-und-verletzt-66-jaehrigen-motorradfahrer-38336162.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -193,11 +193,11 @@
           "count": 5
         },
         {
-          "emotion": "fear",
+          "emotion": "annoyance",
           "count": 3
         },
         {
-          "emotion": "annoyance",
+          "emotion": "confusion",
           "count": 3
         }
       ]
@@ -206,24 +206,24 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 57,
+      "article_count": 51,
       "sample_titles": [
+        "„Schon komisch, die Scheibchentaktik – jeden Tag kommt was Neues raus“",
         "„Wer bestellt, bezahlt auch“ – Länder wehren sich gegen Sparpläne des Bundes",
         "„Strukturreform heißt, dass wir wieder die Familie aktivieren müssen“",
-        "„Ein zu großes Haus ist eine Plage“ – die neue Liebe der Deutschen zum Bungalow",
-        "„Die Spritze war der Gamechanger“ – Theas Weg in ein normales Leben"
+        "„Ein zu großes Haus ist eine Plage“ – die neue Liebe der Deutschen zum Bungalow"
       ],
       "urls": [
+        "https://www.welt.de/politik/deutschland/video6abf7bb1d4d0c24ec26d1412/vorwuerfe-gegen-kocak-schon-komisch-die-scheibchentaktik-jeden-tag-kommt-was-neues-raus.html",
         "https://www.welt.de/regionales/hamburg/article6abbd429075de12d78a8de54/kita-finanzierung-wer-bestellt-bezahlt-auch-laender-wehren-sich-gegen-sparplaene-des-bundes.html",
         "https://www.welt.de/politik/deutschland/video6abb9f977b7bae3cae23fe2b/streit-um-pflege-strukturreform-heisst-dass-wir-wieder-die-familie-aktivieren-muessen.html",
-        "https://www.welt.de/wirtschaft/plus6aae7f48708e760b5e0641f1/bungalow-comeback-die-neuen-vorteile-des-lebens-auf-einer-ebene.html",
-        "https://www.welt.de/gesundheit/plus6ab21e25708e760b5e0672f9/mit-drei-jahren-wog-thea-nur-neun-kilo-dann-trafen-ihre-eltern-eine-riskante-entscheidung.html"
+        "https://www.welt.de/wirtschaft/plus6aae7f48708e760b5e0641f1/bungalow-comeback-die-neuen-vorteile-des-lebens-auf-einer-ebene.html"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
         {
           "emotion": "anger",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "grief",
@@ -239,32 +239,32 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 47,
+      "article_count": 50,
       "sample_titles": [
-        "Gedanken einer alleinerziehenden Mutter: Warum ich als SPD-Mitglied zum ersten Mal die Linken wählte",
-        "Regisseur Visar Morina im Gespräch: „Wir sollten mehr über Geld und Geldpolitik sprechen“",
-        "Versicherungen im Familienbetrieb: Ein sehr persönliches Geschäft",
-        "Parlamentswahl in Marokko: Des Königs müde Untertanen"
+        "Berliner Remmo-Familie: Der Kriminelle als neutrale Quelle",
+        "Kehrtwende bei der CDU: Plötzlich keine Lust mehr auf Kürzen",
+        "Massaker-Opfer in Iran: Der Widerspruch der Väter",
+        "Netflix-Serie „East of Eden“: Steinbecks Familienopus in woke"
       ],
       "urls": [
-        "https://taz.de/Gedanken-einer-alleinerziehenden-Mutter/!6215937/",
-        "https://taz.de/Regisseur-Visar-Morina-im-Gespraech/!6215903/",
-        "https://taz.de/Versicherungen-im-Familienbetrieb/!6211203/",
-        "https://taz.de/Parlamentswahl-in-Marokko/!6216013/"
+        "https://taz.de/Berliner-Remmo-Familie/!6210146/",
+        "https://taz.de/Kehrtwende-bei-der-CDU/!6214486/",
+        "https://taz.de/Massaker-Opfer-in-Iran/!6217987/",
+        "https://taz.de/Netflix-Serie-East-of-Eden/!6218076/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "grief",
       "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
         {
           "emotion": "grief",
           "count": 4
         },
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
+          "count": 3
         }
       ]
     },
@@ -274,16 +274,16 @@
       "bias": "neutral",
       "article_count": 40,
       "sample_titles": [
+        "Elterngeld: Prien will Reform noch einmal prüfen",
         "Wie viel KI verträgt die Seelsorge?",
         "\"Grüffelo-Oma\" setzt berühmte Kinderbuch-Reihe fort",
-        "Frühdemenz: \"Ich werde meine Freunde und Kinder verlieren\"",
-        "Dynastien"
+        "Frühdemenz: \"Ich werde meine Freunde und Kinder verlieren\""
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/elterngeld-reform-prien-14-monate-bezugsdauer-100.html",
         "https://www.zdfheute.de/panorama/bischofsvollversammlung-fulda-kuenstliche-intelligenz-100.html",
         "https://www.zdfheute.de/panorama/grueffelo-neues-buch-grueffelo-oma-100.html",
-        "https://www.zdfheute.de/panorama/fruehdemenz-demenz-alzheimer-diagnose-vergessen-100.html",
-        "https://www.zdf.de/video/dokus/zdfinfo-die-welt-der-superreichen-100/zdfinfo-die-welt-der-superreichen-dynastien-100"
+        "https://www.zdfheute.de/panorama/fruehdemenz-demenz-alzheimer-diagnose-vergessen-100.html"
       ],
       "dominant_emotion": "grief",
       "top_emotions": [
@@ -305,7 +305,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 32,
+      "article_count": 29,
       "sample_titles": [
         "KI-Pionier: „Diese KIs betrügen, obwohl sie es nicht dürfen“",
         "Spritpreise: Drei Monate Entlastung: Bundestag und Bundesrat billigen erneuten Tankrabatt ab 1. Oktober",
@@ -338,32 +338,61 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 23,
+      "article_count": 27,
       "sample_titles": [
-        "Oktoberfest: Was hinter der Revolte der Schankkellner im Paulaner-Zelt steckt",
-        "Familien-Newsletter: Tun Eltern genug für die Bildung ihrer Kinder?",
-        "SZ Weekender: Lange Liebe, prähistorische Pfeile und ehrliche Erziehung",
-        "Leute: Das verflixte vierte Jahr"
+        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Prozessauftakt in München: Erzieherin soll Kleinkinder gedemütigt, geschlagen und bedroht haben",
+        "Autoindustrie: Die VW-Chefs sollten der Belegschaft vorleben, wie Verzicht geht",
+        "Autoscooter auf dem Oktoberfest: Was ist so toll daran, in einem winzigen Auto im Kreis zu fahren?"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/muenchen/muenchen-paulaner-festzelt-schankkellner-aufstand-li.3555522",
-        "https://www.sueddeutsche.de/leben/pisa-studie-schule-eltern-bildung-li.3548455",
-        "https://www.sueddeutsche.de/projekte/artikel/gesellschaft/sz-weekender-lesegeschichten-e443400/",
-        "https://www.sueddeutsche.de/panorama/promis-elyas-m-barek-trennung-jessica-riso-li.3553166"
+        "https://www.sueddeutsche.de/muenchen/muenchen-oktoberfest-kita-missbrauch-immobilien-li.3557705",
+        "https://www.sueddeutsche.de/muenchen/muenchen-kita-erzieherin-kindesmisshandlung-prozess-li.3550061",
+        "https://www.sueddeutsche.de/meinung/vw-sparprogramm-tarifvertrag-kuendigung-kommentar-li.3556703",
+        "https://www.sueddeutsche.de/muenchen/oktoberfest-2026-autoscooter-wiesn-muenchen-fahrgeschaefte-li.3548488"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
         {
           "emotion": "curiosity",
           "count": 2
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 22,
+      "sample_titles": [
+        "„Ein Versagen deutscher Medien“",
+        "Ferat Koçak und eine Serie der Ahnungslosigkeit",
+        "Clans unterwandern Berlin – Interview mit Frank Henkel",
+        "Kuriositäten im Erbrecht: Man sollte den Raub von Familienersparnissen beenden"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/meinungen/ein-versagen-deutscher-medien/",
+        "https://www.tichyseinblick.de/daili-es-sentials/ferat-kocak-remmo/",
+        "https://www.tichyseinblick.de/video/interview/interview-frank-henkel/",
+        "https://www.tichyseinblick.de/wirtschaft/kuriositaeten-erbrecht/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
         },
         {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 1
         }
       ]
     },
@@ -373,16 +402,16 @@
       "bias": "left-liberal",
       "article_count": 22,
       "sample_titles": [
+        "Linkspartei: Ferat Koçak gibt Sitz im Innenausschuss des Bundestags ab",
         "Kinderkrankentage: SPD kritisiert Linnemanns Vorstoß zur Kürzung von Kinderkrankentagen",
         "Kommunikation in der Beziehung: »Meine Frau ist wie ein Terrier. Die beißt sich fest«",
-        "Umsetzung der Asylreform Geas: »Halten Sie sich ab 04:30 bis 07:30 Uhr zur Abholung bereit«",
-        "Feuer in Mehrfamilienhaus: Schwere Brandstiftung - Polizei nimmt Verdächtigen fest"
+        "Umsetzung der Asylreform Geas: »Halten Sie sich ab 04:30 bis 07:30 Uhr zur Abholung bereit«"
       ],
       "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-09/linkspartei-berlin-ferat-kocak-innenausschuss-bundestag-gxe",
         "https://www.zeit.de/politik/deutschland/2026-09/kinderkrankentage-carsten-linnemann-gesetz-kuerzung-spd",
         "https://www.zeit.de/zeit-magazin/leben/2026-09/kommunikation-beziehung-affaere-arbeitsteilung-kinder",
-        "https://www.zeit.de/politik/deutschland/2026-09/abschiebung-italien-asylreform-dublin-abkommen-somalia-gxe",
-        "https://www.zeit.de/news/2026-09/21/schwere-brandstiftung-polizei-nimmt-verdaechtigen-fest"
+        "https://www.zeit.de/politik/deutschland/2026-09/abschiebung-italien-asylreform-dublin-abkommen-somalia-gxe"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -400,51 +429,22 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 20,
-      "sample_titles": [
-        "Clans unterwandern Berlin – Interview mit Frank Henkel",
-        "Kuriositäten im Erbrecht: Man sollte den Raub von Familienersparnissen beenden",
-        "Weiße Engel, violetter Lamborghini – Düsseldorfs unfassbarer Pflegeskandal",
-        "An deutscher Ideologie zerschellen selbst robuste Traditionsbetriebe"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/video/interview/interview-frank-henkel/",
-        "https://www.tichyseinblick.de/wirtschaft/kuriositaeten-erbrecht/",
-        "https://www.tichyseinblick.de/daili-es-sentials/duesseldorfs-unfassbarer-pflegeskandal/",
-        "https://www.tichyseinblick.de/wirtschaft/deutsche-ideologie-traditionsbetriebe-zerschellen/"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
       "article_count": 17,
       "sample_titles": [
+        "VIDEO - Der Bolsonaro-Clan – eine ganze Familie betreibt Präsidentschaftswahlkampf in Brasilien",
         "Die Krankenkassenprämien fürs Jahr 2027 steigen um 5 Prozent. So sieht es in Ihrem Kanton aus",
         "INTERVIEW - Zürichs Hochhauskritiker sagt: «Wenn ich aus dem Fenster schaue, sehe ich den Prime Tower und all diese Stoppeln. Das ist keine gute europäische Stadt, das ist eine Art Wuhan»",
-        "Messerattacke von Oerlikon: Das Bezirksgericht verurteilt chinesischen Studenten wegen mehrfachen versuchten Mordes zu 15 Jahren Freiheitsstrafe",
-        "Messerattacke von Oerlikon: «Dass unser Sohn noch bei uns ist, gleicht einem Wunder», sagen die Eltern eines Opfers"
+        "Messerattacke von Oerlikon: Das Bezirksgericht verurteilt chinesischen Studenten wegen mehrfachen versuchten Mordes zu 15 Jahren Freiheitsstrafe"
       ],
       "urls": [
+        "https://www.nzz.ch/video/bolsonaro-clan-eine-ganze-familie-betreibt-praesidentschaftswahlkampf-in-brasilien-ld.10026330",
         "https://www.nzz.ch/schweiz/die-krankenkassenpraemien-fuers-jahr-2027-steigen-um-5-prozent-so-sieht-es-in-ihrem-kanton-aus-ld.10025728",
         "https://www.nzz.ch/zuerich/hochhauskritik-in-zuerich-heinz-oeschger-fordert-staedtebauliche-wuerde-ld.10025813",
-        "https://www.nzz.ch/zuerich/messerattacke-oerlikon-chinese-zu-15-jahren-freiheitsstrafe-verurteilt-ld.10024179",
-        "https://www.nzz.ch/zuerich/messerattacke-oerlikon-eltern-eines-opfers-melden-sich-zu-wort-ld.10024179"
+        "https://www.nzz.ch/zuerich/messerattacke-oerlikon-chinese-zu-15-jahren-freiheitsstrafe-verurteilt-ld.10024179"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -466,18 +466,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 16,
       "sample_titles": [
+        "JF-Exklusiv Wiener Lehrerin über Kopftuchverbot: „Und der Bruder hat ein Messer dabei und sticht mich ab?“",
         "Barbakh-Großfamilie Jetzt soll noch ein Clan die Linkspartei-Wahlparty besucht haben",
         "Nach milderem Urteil Syrischer Messerstecher will seine Familie nach Deutschland holen",
-        "Black Lives Matter Was wurde eigentlich aus der Georgia Freedom Initiative?",
-        "Nach der Berlin-Wahl Die Islamo-Linken und die ehrenwerte Familie"
+        "Black Lives Matter Was wurde eigentlich aus der Georgia Freedom Initiative?"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/ausland/2026/wiener-lehrerin-ueber-kopftuchverbot-und-der-bruder-hat-ein-messer-dabei-und-sticht-mich-ab/",
         "https://jungefreiheit.de/politik/deutschland/2026/jetzt-soll-noch-ein-clan-die-linkspartei-wahlparty-besucht-haben/",
         "https://jungefreiheit.de/politik/deutschland/2026/syrischer-messerstecher-will-seine-familie-nach-deutschland-holen/",
-        "https://jungefreiheit.de/politik/ausland/2026/was-wurde-eigentlich-aus-der-georgia-freedom-initiative/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/die-islamo-linken-und-die-ehrenwerte-familie/"
+        "https://jungefreiheit.de/politik/ausland/2026/was-wurde-eigentlich-aus-der-georgia-freedom-initiative/"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -527,14 +527,14 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 88,
-    "right-conservative": 155,
-    "left-liberal": 204,
-    "neutral": 120,
-    "far-right": 36,
-    "conservative-liberal": 118,
-    "left": 47,
-    "economic-liberal": 32
+    "populist-mixed": 90,
+    "left-liberal": 205,
+    "right-conservative": 151,
+    "conservative-liberal": 113,
+    "neutral": 123,
+    "far-right": 39,
+    "left": 50,
+    "economic-liberal": 29
   },
   "statements": {
     "de": {
@@ -546,5 +546,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-09-30T11:04:22.421111"
+  "cached_at": "2026-10-03T10:26:02.859548"
 }
