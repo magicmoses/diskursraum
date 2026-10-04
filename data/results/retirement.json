@@ -1,14 +1,14 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 584,
-  "candidate_count": 584,
+  "article_count": 553,
+  "candidate_count": 553,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 91,
+      "article_count": 86,
       "sample_titles": [
         "Rechnungshof Alarmiert: Die Rente saugt den Bundeshaushalt aus",
         "Finanzbranche: Keinen neuen Merkel-Moment riskieren",
@@ -25,7 +25,7 @@
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 8
+          "count": 7
         },
         {
           "emotion": "curiosity",
@@ -41,7 +41,7 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 78,
+      "article_count": 75,
       "sample_titles": [
         "Reform steigert Kosten: Rechnungshof: Rente frisst bald fast 46 Prozent der Steuereinnahmen auf",
         "Blockade angedroht: Union drängt Bas beim Rentengesetz zur Eile",
@@ -67,39 +67,6 @@
         {
           "emotion": "confusion",
           "count": 3
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 65,
-      "sample_titles": [
-        "Union droht Bas mit Blockade von Steuerreform – Steinmeier schaltete sich in Koalitionsstreit ein",
-        "Union droht Bas mit Blockade von Steuerreform – Steinmeier schaltete sich in Koalitionsstreit ein",
-        "Die brisante Frage nach der Gerechtigkeit der Ukraine-Hilfen",
-        "„Andernfalls fällt das gesamte Konzept zusammen“ – 46 Top-Ökonomen sprechen Renten-Warnung aus"
-      ],
-      "urls": [
-        "https://www.welt.de/videos/video6abf2dd6863d7086e2272f3a/streit-in-der-koalition-union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html",
-        "https://www.welt.de/politik/deutschland/article6abe9efe3e84d8c745a1a2ea/union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html",
-        "https://www.welt.de/debatte/plus6ab36fdd174ceb992b6e6faa/erfolg-von-afd-und-bsw-die-brisante-frage-nach-der-gerechtigkeit-der-ukraine-hilfen.html",
-        "https://www.welt.de/politik/deutschland/article6abb9eb67b7bae3cae23fdff/rente-die-regierung-sollte-diese-chance-nicht-verspielen-46-top-oekonomen-sprechen-deutliche-warnung-aus.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "desire",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
         }
       ]
     },
@@ -136,11 +103,44 @@
         }
       ]
     },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 54,
+      "sample_titles": [
+        "Union droht Bas mit Blockade von Steuerreform – Steinmeier schaltete sich in Koalitionsstreit ein",
+        "Union droht Bas mit Blockade von Steuerreform – Steinmeier schaltete sich in Koalitionsstreit ein",
+        "Die brisante Frage nach der Gerechtigkeit der Ukraine-Hilfen",
+        "„Andernfalls fällt das gesamte Konzept zusammen“ – 46 Top-Ökonomen sprechen Renten-Warnung aus"
+      ],
+      "urls": [
+        "https://www.welt.de/videos/video6abf2dd6863d7086e2272f3a/streit-in-der-koalition-union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html",
+        "https://www.welt.de/politik/deutschland/article6abe9efe3e84d8c745a1a2ea/union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html",
+        "https://www.welt.de/debatte/plus6ab36fdd174ceb992b6e6faa/erfolg-von-afd-und-bsw-die-brisante-frage-nach-der-gerechtigkeit-der-ukraine-hilfen.html",
+        "https://www.welt.de/politik/deutschland/article6abb9eb67b7bae3cae23fdff/rente-die-regierung-sollte-diese-chance-nicht-verspielen-46-top-oekonomen-sprechen-deutliche-warnung-aus.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "desire",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        }
+      ]
+    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 45,
+      "article_count": 42,
       "sample_titles": [
         "Rente: Rechnungshof warnt vor wachsender Belastung des Bundeshaushalts",
         "Platzt jetzt die Koalition? Was Sie über die Regierungskrise wissen müssen",
@@ -164,8 +164,8 @@
           "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "amusement",
+          "count": 1
         }
       ]
     },
@@ -173,7 +173,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 43,
+      "article_count": 41,
       "sample_titles": [
         "Mitten in der Regierungskrise - Das hat Merz plötzlich richtig gemacht",
         "Warnung vom Rechnungshof - Bald fließt jeder zweiter Steuer-Euro in die Rente",
@@ -193,11 +193,11 @@
           "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 3
+          "emotion": "realization",
+          "count": 2
         },
         {
-          "emotion": "realization",
+          "emotion": "excitement",
           "count": 2
         }
       ]
@@ -206,7 +206,7 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 38,
+      "article_count": 35,
       "sample_titles": [
         "Warum es in der schwarz-roten Koalition knirscht",
         "Nikes Schwäche nutzt Konkurrenten",
@@ -272,7 +272,7 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 32,
+      "article_count": 31,
       "sample_titles": [
         "Ruhestands-Ranking: In diesen Ländern geht es Rentnern am besten",
         "US-Richterin billigt Übernahme von Warner Bros. durch Paramount",
@@ -292,11 +292,11 @@
           "count": 2
         },
         {
-          "emotion": "excitement",
-          "count": 2
+          "emotion": "confusion",
+          "count": 1
         },
         {
-          "emotion": "confusion",
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -305,7 +305,7 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 22,
+      "article_count": 21,
       "sample_titles": [
         "Reformpolitik: Wissenschaftler fordern volle Umsetzung des Rentenpakets",
         "Reformen: Die SPD hat sich bei der Rente mit 63 ideologisch verheddert",
@@ -318,18 +318,18 @@
         "https://www.sueddeutsche.de/sport/olympia-kandidat-muenchen-koeln-nrw-entscheidung-li.3554274",
         "https://www.sueddeutsche.de/medien/weisses-haus-cnn-politico-klagen-trump-li.3551745"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "excitement",
       "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
         {
           "emotion": "excitement",
           "count": 1
         },
         {
           "emotion": "love",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -367,39 +367,6 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 16,
-      "sample_titles": [
-        "Bundesrechnungshof: Rentenzahlungen verbrauchen immer mehr Steuereinnahmen",
-        "Rentenreform: Gesetzesentwurf entschärft Empfehlungen der Rentenkommission",
-        "TV-Runde vor MV-Wahl: Lehrer aus der Rente holen? Bildung eröffnet TV-Debatte",
-        "Steuerreform: CDU-Arbeitnehmerflügel fordert größere Entlastung bei Steuerreform"
-      ],
-      "urls": [
-        "https://www.zeit.de/wirtschaft/2026-10/bundesrechnungshof-rentenversicherung-zahlungen-bundeshaushalt-2040",
-        "https://www.zeit.de/wirtschaft/2026-09/rentenreform-rentenalter-lebenserwartung-abschlagsfreie-rente-arbeitsministerium",
-        "https://www.zeit.de/news/2026-09/15/lehrer-aus-der-rente-holen-bildung-eroeffnet-tv-debatte",
-        "https://www.zeit.de/politik/deutschland/2026-09/einkommensteuerreform-nordrhein-westfalen-dennis-radtke-cda-entlastung-subventionsabbau"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
@@ -429,6 +396,39 @@
         },
         {
           "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 15,
+      "sample_titles": [
+        "Bundesrechnungshof: Rentenzahlungen verbrauchen immer mehr Steuereinnahmen",
+        "Rentenreform: Gesetzesentwurf entschärft Empfehlungen der Rentenkommission",
+        "TV-Runde vor MV-Wahl: Lehrer aus der Rente holen? Bildung eröffnet TV-Debatte",
+        "Steuerreform: CDU-Arbeitnehmerflügel fordert größere Entlastung bei Steuerreform"
+      ],
+      "urls": [
+        "https://www.zeit.de/wirtschaft/2026-10/bundesrechnungshof-rentenversicherung-zahlungen-bundeshaushalt-2040",
+        "https://www.zeit.de/wirtschaft/2026-09/rentenreform-rentenalter-lebenserwartung-abschlagsfreie-rente-arbeitsministerium",
+        "https://www.zeit.de/news/2026-09/15/lehrer-aus-der-rente-holen-bildung-eroeffnet-tv-debatte",
+        "https://www.zeit.de/politik/deutschland/2026-09/einkommensteuerreform-nordrhein-westfalen-dennis-radtke-cda-entlastung-subventionsabbau"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
           "count": 1
         }
       ]
@@ -470,7 +470,7 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 10,
+      "article_count": 9,
       "sample_titles": [
         "Kerkelings schwächster Auftritt AfD-Verbotsfarce mit mehr als einem Clown",
         "Sozialpolitik Klingbeil will Selbstständige und Beamte in der gesetzlichen Rentenkasse",
@@ -522,24 +522,24 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 143,
-    "conservative-liberal": 107,
-    "left-liberal": 115,
-    "neutral": 72,
-    "far-right": 29,
-    "populist-mixed": 43,
+    "right-conservative": 129,
+    "conservative-liberal": 102,
+    "left-liberal": 109,
+    "neutral": 69,
+    "far-right": 28,
+    "populist-mixed": 41,
     "economic-liberal": 61,
     "left": 14
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird von allen politischen Lagern die zunehmende finanzielle Belastung der gesetzlichen Rentenversicherung durch den demografischen Wandel betont, wobei der Rechnungshof als gemeinsamer Referenzpunkt für die Warnung vor einer immer größeren Haushaltsquote dient. Gleichzeitig besteht ein breiter Konsens darüber, dass das aktuelle Renteneintrittsalter – ob 63, 65 oder 67 Jahre – einer grundlegenden Reform bedarf, um Generationengerechtigkeit zu wahren und die langfristige Finanzierbarkeit zu sichern. Schließlich wird in nahezu allen Artikeln die Notwendigkeit ergänzender privater oder betrieblicher Vorsorgemodelle hervorgehoben, um Rentenlücken zu schließen und die Abhängigkeit vom umlagefinanzierten System zu reduzieren.",
-      "controversial_points": "Die Finanzierung der gesetzlichen Rente steht im Fokus, weil der Rechnungshof steigende Belastungen des Bundeshaushalts meldet. Konservative Medien betonen Generationengerechtigkeit und fordern höhere Beiträge oder spätere Rentenalter, während linke Stimmen Altersarmut und soziale Absicherung priorisieren. Liberale Wirtschaftspresse propagiert kapitalgedeckte Modelle wie Riester oder Aktienrente, kritisiert staatliche Umlage als ineffizient. Populistische und rechtspopulistische Titel nutzen Rentendebatte, um generelle Unzufriedenheit mit der Koalition zu schüren und Schuldzuweisungen zu erzeugen."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg die zunehmende finanzielle Belastung der gesetzlichen Rentenversicherung durch den demografischen Wandel betont, wobei der Rechnungshof häufig als Autorität für die Warnung vor steigenden Ausgaben zitiert wird. Gleichzeitig besteht ein breiter Konsens darüber, dass das aktuelle Renteneintrittsalter und die Möglichkeit einer abschlagsfreien Frührente einer grundlegenden Reform bedürfen, um Generationengerechtigkeit und die Vermeidung von Altersarmut zu sichern. Darüber hinaus wird in nahezu allen Beiträgen die Notwendigkeit einer stärkeren kapitalgedeckten Vorsorge, etwa durch betriebliche oder private Altersvorsorgeprodukte, als ergänzende Lösung zur Stabilisierung des Gesamtsystems hervorgehoben.",
+      "controversial_points": "Das Rentenalter wird zum Kernkonflikt zwischen Generationengerechtigkeit und Finanzierbarkeit des Sozialstaats. Konservative Medien betonen steigende Belastung des Bundeshaushalts und fordern höhere Beiträge oder spätere Rente. Linke und linksliberale Stimmen warnen vor Altersarmut und fordern kapitalgedeckte Optionen sowie stärkere Grundsicherung. Wirtschaftsliberale Akteure pushen private Vorsorgeprodukte und kritisieren staatliche Umlage als Innovationsbremse."
     },
     "en": {
-      "shared_perspectives": "Across the political spectrum German media repeatedly stress that the statutory pension is becoming a fiscal burden, with the Rechnungshof’s warnings that pension outlays will soon consume a large share of the federal budget.  All outlets agree that demographic ageing makes the pay‑as‑you‑go system unsustainable, prompting calls for structural reforms such as a higher statutory retirement age or a stronger role for private, capital‑funded pillars.  Even the most divergent voices converge on the view that early‑retirement schemes like a pension at 63 create intergenerational inequities and raise the risk of old‑age poverty, so any reform must address fairness between generations.",
-      "controversial_points": "The debate pits fiscal sustainability against intergenerational equity, with the state budget versus future retirees' rights. Conservatives frame pensions as a fiscal burden demanding age hikes, while left‑liberals stress poverty risk and social justice. The private capital model creates a clash between market‑oriented reforms and concerns over wealth inequality and security. Regional media amplify the tension by linking demographic decline to immigration debates, turning pension policy into a cultural identity battleground."
+      "shared_perspectives": "Synthesis not available.",
+      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability, with the left demanding early retirement and the right demanding budget protection. Conservatives frame pensions as a looming tax burden, while liberals stress market‑based private solutions to reduce state liability. The retirement‑age question creates a clash between demographic realism and political promises of social security. Media narratives also polarize the role of capital‑funded schemes, with the right warning of profiteering and the left fearing inequality."
     }
   },
-  "cached_at": "2026-10-03T10:11:58.313327"
+  "cached_at": "2026-10-04T10:42:59.838925"
 }
