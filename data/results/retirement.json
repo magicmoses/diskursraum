@@ -1,25 +1,58 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 517,
-  "candidate_count": 517,
+  "article_count": 538,
+  "candidate_count": 538,
   "outlets": {
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 84,
+      "sample_titles": [
+        "\"Brauchen Entscheidungen\": Neuer Arbeitsminister Schweitzer knüpft Rentengesetz an Bedingung",
+        "Aufgaben für Schweitzer: Diese drei Empfehlungen bei der Rentenreform sind noch umstritten",
+        "Kanzler verteidigt Reformpläne: Merz: \"Habe nicht die Absicht, Liebling der Nation zu werden\"",
+        "Verschärfter Preiskampf : Altersvorsorgedepot: Trade Republic will's teilweise umsonst machen"
+      ],
+      "urls": [
+        "https://www.n-tv.de/politik/Neuer-Arbeitsminister-Schweitzer-knuepft-Rentengesetz-an-Bedingung-id31413486.html",
+        "https://www.n-tv.de/politik/Diese-drei-Empfehlungen-bei-der-Rentenreform-sind-noch-umstritten-id31412148.html",
+        "https://www.n-tv.de/politik/Merz-Habe-nicht-die-Absicht-Liebling-der-Nation-zu-werden-id31411850.html",
+        "https://www.n-tv.de/ratgeber/Altersvorsorgedepot-Trade-Republic-will-s-teilweise-umsonst-machen-id31412461.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "excitement",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 83,
+      "article_count": 84,
       "sample_titles": [
-        "Tietz und Becker: Zwei Mainzer Stürmer, die Spaß haben und machen",
-        "Verbraucherschützer warnen: Was Sie über „Deutschland macht Rente“ wissen sollten",
-        "1:0 für Lewandowski: Müller verliert erstes MLS-Duell mit ehemaligem Bayern-Kumpel",
-        "Aktienrente: Wie geht es Ihnen mit der Schwedenrente, Herr Larsson?"
+        "Arbeitgebertag in Berlin: Merz will Rentenreform noch 2026 beschließen",
+        "Lufthansa mustert aus: 346 in Rente",
+        "Alexander Schweitzer: Der neue Minister bebt vor Ehrgeiz",
+        "F.A.Z. Frühdenker: Kommt die Entlastung beim Strompreis doch noch?"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/sport/rhein-main-sport/mainz-05/mainz-05-tietz-und-becker-zwei-mainzer-stuermer-die-spass-haben-und-machen-201302126.html",
-        "https://www.faz.net/aktuell/finanzen/finanzvertriebe-und-die-neue-rente-goldgraeberstimmung-accg-201277196.html",
-        "https://www.faz.net/aktuell/sport/fussball/thomas-mueller-verliert-mls-duell-gegen-robert-lewandowski-accg-201295629.html",
-        "https://www.faz.net/aktuell/finanzen/schwedenrente-roland-larsson-ueber-das-modell-fuer-deutschland-accg-201161610.html"
+        "https://www.faz.net/video/merz-will-rentenreform-noch-2026-beschliessen-201314480.html",
+        "https://www.faz.net/aktuell/technik-motor/lufthansa-mustert-aus-der-letzte-a340-600-landet-201290974.html",
+        "https://www.faz.net/aktuell/politik/inland/alexander-schweitzer-der-neue-starke-mann-der-spd-accg-201309509.html",
+        "https://www.faz.net/podcasts/f-a-z-podcast-fruehdenker/stromsteuer-senkt-merz-sie-jetzt-auch-fuer-privathaushalte-faz-fruehdenker-accg-201312038.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -29,44 +62,11 @@
         },
         {
           "emotion": "optimism",
-          "count": 7
+          "count": 6
         },
         {
-          "emotion": "fear",
+          "emotion": "admiration",
           "count": 3
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 79,
-      "sample_titles": [
-        "\"Rente verbannen\": Judi Dench will in ihrer Garderobe sterben",
-        "Zugeständnisse erwartet: Insider: BASF hat Evonik-Übernahme längst nicht abgeschrieben",
-        "Streit um Rente mit 63: Bericht: Merz rechnet mit Rentenreform-Beschluss erst im Frühjahr",
-        "Bis zu 30 Prozent sparen: Das sind die günstigsten Stromtarife für die Wärmepumpe"
-      ],
-      "urls": [
-        "https://www.n-tv.de/leute/Judi-Dench-will-in-ihrer-Garderobe-sterben-id31404112.html",
-        "https://www.n-tv.de/wirtschaft/Insider-BASF-hat-Evonik-Uebernahme-laengst-nicht-abgeschrieben-id31401648.html",
-        "https://www.n-tv.de/politik/Bericht-Merz-rechnet-mit-Rentenreform-Beschluss-erst-im-Fruehjahr-id31398606.html",
-        "https://www.n-tv.de/ratgeber/Das-sind-die-guenstigsten-Stromtarife-fuer-die-Waermepumpe-id31395171.html"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 5
-        },
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
         }
       ]
     },
@@ -74,24 +74,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 53,
+      "article_count": 54,
       "sample_titles": [
-        "Analyse: Plötzlich wieder relevant: Wie die Grünen sich auf eine Regierungsbeteiligung vorbereiten",
-        "Deutsche Bahn: Fernverkehrsbeschluss der Netzagentur rechtswidrig",
-        "Deutschland-Gipfel: Merz entsetzt: „Der Extremismus dringt mit aller Wucht in unsere Parlamente ein“",
-        "Isar Aerospace: Der 100-Milliarden-Euro-Plan: Drei Münchener wagen, woran Deutschland seit Jahren scheitert"
+        "Bundesregierung: „Das ist mir schon zu lange“: Kanzler Friedrich Merz erhöht den Druck auf die SPD",
+        "Kommentar: Deutschland droht ein Frühjahr der Nicht-Reformen",
+        "Bundespolitik: Pistorius will nicht als SPD-Chef antreten",
+        "Baumarkt: Obi verliert überraschend den Chef an einen Konkurrenten"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/analyse-wie-die-gruenen-sich-auf-eine-regierungsbeteiligung-vorbereiten/100259729.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/deutsche-bahn-fernverkehrsbeschluss-der-netzagentur-rechtswidrig/100260711.html",
-        "https://www.handelsblatt.com/politik/deutschland/friedrich-merz-extremismus-dringt-mit-wucht-in-unsere-parlamente-ein/100258688.html",
-        "https://www.handelsblatt.com/technik/forschung-innovation/weltraum-isar-aerospace-der-100-milliarden-plan-der-raketenfirma/100254628.html"
+        "https://www.handelsblatt.com/politik/deutschland/bundesregierung-das-ist-mir-schon-zu-lange-merz-erhoeht-druck-auf-die-spd/100261522.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-deutschland-droht-ein-fruehjahr-der-nicht-reformen/100261768.html",
+        "https://www.handelsblatt.com/politik/deutschland/bundespolitik-pistorius-will-nicht-als-spd-chef-antreten/100137034.html",
+        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/baumarkt-obi-verliert-ueberraschend-den-chef-an-einen-konkurrenten/100261689.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "excitement",
@@ -107,21 +107,25 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 43,
+      "article_count": 47,
       "sample_titles": [
-        "Unbekannt, lukrativ, legal – dieser verblüffende Trick erhöht Ihre Rente",
-        "Diese 6 Konkurrenten hat München für die Sommerspiele 2036",
-        "Union droht Bas mit Blockade von Steuerreform – Steinmeier schaltete sich in Koalitionsstreit ein",
-        "Union droht Bas mit Blockade von Steuerreform – Steinmeier schaltete sich in Koalitionsstreit ein"
+        "„Ich werde einen Teufel tun, einfach zu sagen, das ist alles super, das gilt jetzt“",
+        "„Wenn sich die Methode Schwesig durchsetzt, dann gebe ich der Koalition keine zwei Jahre mehr“",
+        "„Wir brauchen diese Reformen und wir brauchen sie schnell“",
+        "Null Gebühren, 51 ETFs – so gut ist die Gratis-Rente von Trade Republic wirklich"
       ],
       "urls": [
-        "https://www.welt.de/finanzen/plus6ac752c017f673310de4c10b/optimierte-rente-unbekannt-lukrativ-legal-dieser-verblueffende-trick-erhoeht-ihre-bezuege.html",
-        "https://www.welt.de/sport/olympia/article6ac4c9286a0860be6e208008/olympia-ioc-bestaetigung-diese-6-konkurrenten-hat-muenchen-fuer-die-sommerspiele-2036.html",
-        "https://www.welt.de/videos/video6abf2dd6863d7086e2272f3a/streit-in-der-koalition-union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html",
-        "https://www.welt.de/politik/deutschland/article6abe9efe3e84d8c745a1a2ea/union-droht-bas-mit-blockade-von-steuerreform-steinmeier-schaltete-sich-in-koalitionsstreit-ein.html"
+        "https://www.welt.de/politik/deutschland/video6ace66b532c9e7b96d75079f/streit-um-rentenreform-ich-werde-einen-teufel-tun-einfach-zu-sagen-das-ist-alles-super-das-gilt-jetzt.html",
+        "https://www.welt.de/politik/deutschland/video6ace165a92e78e2df300c218/wolfgang-bosbach-wenn-sich-die-methode-schwesig-durchsetzt-dann-gebe-ich-der-koalition-keine-zwei-jahre-mehr.html",
+        "https://www.welt.de/wirtschaft/video6ace143f8776d79fbd9cb64c/arbeitgebertag-in-berlin-wir-brauchen-diese-reformen-und-wir-brauchen-sie-schnell.html",
+        "https://www.welt.de/finanzen/plus6acd1a948776d79fbd9caa4e/altersvorsorgedepot-null-gebuehren-51-etfs-so-gut-ist-die-gratis-rente-von-trade-republic.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "desire",
       "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 2
+        },
         {
           "emotion": "optimism",
           "count": 2
@@ -129,10 +133,39 @@
         {
           "emotion": "disapproval",
           "count": 1
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 43,
+      "sample_titles": [
+        "Rente: Kontenklärung bringt oft mehr Rente – ohne zusätzliche Kosten",
+        "Rentenpunkte kaufen: So können Sie früher in Rente – ohne Abschläge",
+        "News des Tages: Friedrich Merz beim BDA, CDU will Ulrich Siegmund nicht wählen, Fussballer Vinicius Souza",
+        "Rente: Friedrich Merz gibt Versäumnisse in der Rentenpolitik zu"
+      ],
+      "urls": [
+        "https://www.spiegel.de/wirtschaft/service/rente-kontenklaerung-bringt-oft-mehr-rente-ohne-zusaetzliche-kosten-a-158e9cea-bc36-4462-8d67-15b0ebffec45#ref=rss",
+        "https://www.spiegel.de/wirtschaft/rentenpunkte-kaufen-so-koennen-sie-frueher-in-rente-ohne-abschlaege-a-ead29a48-c042-4254-abae-0cceeb009788#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/news-des-tages-friedrich-merz-beim-bda-cdu-will-ulrich-siegmund-nicht-waehlen-fussballer-vinicius-souza-a-78cd324d-658b-4411-8d07-aa99e21498be#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/rente-friedrich-merz-gibt-versaeumnisse-in-der-rentenpolitik-zu-a-ae326ca1-d189-4194-9612-ae744c5227de#ref=rss"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 4
         },
         {
-          "emotion": "approval",
-          "count": 1
+          "emotion": "confusion",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
         }
       ]
     },
@@ -140,18 +173,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 41,
+      "article_count": 43,
       "sample_titles": [
+        "Reformen zu langsam - Merz tritt noch einmal gegen Bas nach",
+        "Wegen neuer Rente - Trade-Republic-Chef greift Banken und Versicherer an",
         "Christian Sewing im BILD-Gespräch - „Einen hohen Betrag monatlich mehr an Rente!“",
-        "JU-Chef Winkel erhöht Druck auf Merz - Kanzler muss „beweisen“, dass er noch der Richtige ist",
-        "Erster BILD-Finanzgipfel - So ist unsere Rente noch zu retten",
-        "Finanzgipfel - Reicht Ihre Rente? Hier finden Sie es schnell heraus"
+        "JU-Chef Winkel erhöht Druck auf Merz - Kanzler muss „beweisen“, dass er noch der Richtige ist"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/reformen-zu-langsam-merz-tritt-noch-einmal-gegen-bas-nach-6acdf4398776d79fbd9cb267",
+        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/riester-nachfolger-darum-warnt-trade-republic-vor-den-banken-6acd01181c1b22b7c031bbc9",
         "https://www.bild.de/politik/inland/deutsche-bank-chef-sewing-wir-muessen-an-den-kuendigungsschutz-ran-6ac896106e0a564ee52ea035",
-        "https://www.bild.de/politik/inland/friedrich-merz-unter-druck-das-muss-er-jetzt-beweisen-6ac7d243875184c8758942cb",
-        "https://www.bild.de/leben-wissen/events/bild-finanzgipfel-so-gelingt-die-altersvorsorge-mit-aktien-und-etfs-6ac613e2b7b9a5fe2bbb24e5",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/ruhestand-planen-reicht-meine-rente-so-finden-sie-es-heraus-6ac359da95c283447e8628fa"
+        "https://www.bild.de/politik/inland/friedrich-merz-unter-druck-das-muss-er-jetzt-beweisen-6ac7d243875184c8758942cb"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -169,55 +202,22 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 37,
-      "sample_titles": [
-        "Olympia: Das sind Münchens sechs Konkurrenten",
-        "Rente: Rechnungshof warnt vor wachsender Belastung des Bundeshaushalts",
-        "Platzt jetzt die Koalition? Was Sie über die Regierungskrise wissen müssen",
-        "Rentenreform: Ökonomen-Allianz drängt auf vollständige Umsetzung und warnt vor Flickwerk"
-      ],
-      "urls": [
-        "https://www.spiegel.de/sport/olympia/olympia-das-sind-muenchens-sechs-konkurrenten-a-2600e2ae-ebd6-4c3d-a084-f7db6df8ae35#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/rente-rechnungshof-warnt-vor-wachsender-belastung-des-bundeshaushalts-a-078e77e8-7152-4158-8fba-dd68fca2779d#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/platzt-jetzt-die-koalition-was-sie-ueber-die-regierungskrise-wissen-muessen-a-914f55ef-7620-4779-8a22-26f00990c126#ref=rss",
-        "https://www.spiegel.de/wirtschaft/rentenreform-oekonomen-allianz-draengt-auf-vollstaendige-umsetzung-und-warnt-vor-flickwerk-a-f20be1fb-6195-4e81-a597-62a51ee1cb5a#ref=rss"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 35,
+      "article_count": 36,
       "sample_titles": [
-        "Stiftung Warentest: Rapsöl im Test",
-        "Das sind die Konkurrenten für die deutsche Olympia-Bewerbung",
-        "Miersch: SPD lässt sich \"nicht drohen\"",
-        "Jung gegen Alt: Wer trägt hier zu viel?"
+        "Setzt Schweitzer seine Ankündigungen bei der Rente um?",
+        "Merz: \"Habe nicht die Absicht, Liebling der Nation zu werden\"",
+        "Merz kritisiert Bas' Arbeit, Grüne finden das \"unmöglich\"",
+        "Reform ab 2027: Was passiert mit Riester-Verträgen?"
       ],
       "urls": [
-        "https://www.zdfheute.de/video/zdf-mittagsmagazin/rapsoel-stiftung-warentest-106.html",
-        "https://www.zdfheute.de/sport/olympische-spiele-laender-bewerbung-olympia-2036-muenchen-100.html",
-        "https://www.zdfheute.de/politik/deutschland/miersch-spd-koalition-reformen-pflege-rente-streit-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rente-generationen-vertrag-am-puls-100.html"
+        "https://www.zdfheute.de/politik/deutschland/schweitzer-arbeitsminister--spd-rente-reform-koalition-100.html",
+        "https://www.zdfheute.de/wirtschaft/merz-wirtschaft-arbeitgebertag-100.html",
+        "https://www.zdfheute.de/politik/merz-arbeitgebertag-bas-gruene-kritik-100.html",
+        "https://www.zdfheute.de/wirtschaft/riester-rente-altersvorsorge-reform-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -227,7 +227,7 @@
         },
         {
           "emotion": "confusion",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "admiration",
@@ -239,18 +239,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 33,
+      "article_count": 31,
       "sample_titles": [
+        "Bei diesen drei Themen stockt die Rentenreform",
+        "Was Schweitzer als Arbeitsminister erwartet",
         "Deutschland hat Nachholbedarf bei Betriebsrenten",
-        "Warum es in der schwarz-roten Koalition knirscht",
-        "Nikes Schwäche nutzt Konkurrenten",
-        "Nach 54 Jahren geht \"Pommes-Omi\" in Rente"
+        "Warum es in der schwarz-roten Koalition knirscht"
       ],
       "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/rentenreform-empfehlungen-knackpunkte-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/schweitzer-arbeitsminister-reformen-rente-100.html",
         "https://www.tagesschau.de/wirtschaft/finanzen/betriebsrente-deutschland-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/pflege-zucker-koalition-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-nike-adidas-dax-100.html",
-        "https://www1.wdr.de/nrw/ruhrgebiet/bochum/letzter-tag-imbiss-weitmar-bochum-100.html"
+        "https://www.tagesschau.de/inland/innenpolitik/pflege-zucker-koalition-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -259,11 +259,11 @@
           "count": 4
         },
         {
-          "emotion": "confusion",
-          "count": 3
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "confusion",
           "count": 2
         }
       ]
@@ -272,18 +272,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 27,
+      "article_count": 28,
       "sample_titles": [
+        "Nach Rücktritt: Klingbeil verteidigt Bas: Rentenreform im Zeitplan",
         "CDU unter Druck: Klausurtagung soll Streitthemen ausräumen",
         "Rentenberater: „Es wird oft überschätzt, wie viel Geld man im Ruhestand wirklich braucht“",
-        "Rentenstart: Deutsche flüchten in die Frührente: „Koste es, was es wolle“",
-        "Geldanlage: Ist das der perfekte ETF fürs Altersvorsorgedepot?"
+        "Rentenstart: Deutsche flüchten in die Frührente: „Koste es, was es wolle“"
       ],
       "urls": [
+        "https://www.stern.de/politik/deutschland/nach-ruecktritt--klingbeil-verteidigt-bas--rentenreform-im-zeitplan-38386656.html",
         "https://www.stern.de/news/cdu-unter-druck--klausurtagung-soll-streitthemen-ausraeumen-38370760.html",
         "https://www.stern.de/capital/rentenberater--leute-ueberschaetzen--wie-viel-geld-sie-in-rente-brauchen-38368220.html",
-        "https://www.stern.de/capital/frueher-in-rente--so-teuer-sind-die-abschlaege-mit-63--65-und-67-38368078.html",
-        "https://www.stern.de/capital/vanguard-etf--ist-der-global-all-cap-ideal-fuers-altersvorsorgedepot--38368114.html"
+        "https://www.stern.de/capital/frueher-in-rente--so-teuer-sind-die-abschlaege-mit-63--65-und-67-38368078.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -301,55 +301,22 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Nach dem Ja zur 13. AHV-Rente droht am 29. November ein Nein zur Finanzierung",
-        "PODCAST «NZZ WEEKEND» - Coop-CEO Philipp Wyss: «Der Unterbietungswettbewerb stoppt nie»",
-        "Ein neuer Megakonzern soll die deutsche Chemieindustrie aus der Krise führen. Kritiker befürchten jedoch einen «Ausverkauf des Ruhrgebiets»",
-        "Zusatzfinanzierung der 13. AHV-Rente: «Ein Nein hätte schwerwiegende Folgen», mahnt Gesundheitsministerin Baume-Schneider"
-      ],
-      "urls": [
-        "https://www.nzz.ch/schweiz/nach-dem-ja-zur-13-ahv-rente-droht-am-29-november-ein-nein-zur-finanzierung-ld.10029191",
-        "https://www.nzz.ch/podcast/coop-ceo-philipp-wyss-der-unterbietungswettbewerb-stoppt-nie-ld.10028048",
-        "https://www.nzz.ch/wirtschaft/ein-neuer-megakonzern-soll-die-deutsche-chemieindustrie-aus-der-krise-fuehren-kritiker-befuerchten-jedoch-einen-ausverkauf-des-ruhrgebiets-ld.10026805",
-        "https://www.nzz.ch/wirtschaft/finanzierung-der-13-ahv-rente-ein-nein-haette-schwerwiegende-folgen-mahnt-gesundheitsministerin-baume-schneider-ld.10026756"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 19,
+      "article_count": 21,
       "sample_titles": [
-        "Altersvorsorge: „Der Abschied vom öffentlichen Standarddepot wäre ein Desaster für alle Sparer“",
-        "Reformpolitik: Wissenschaftler fordern volle Umsetzung des Rentenpakets",
-        "Reformen: Die SPD hat sich bei der Rente mit 63 ideologisch verheddert",
-        "DOSB-Entscheidung: München ist der deutsche Olympia-Bewerber"
+        "Newsblog zu KI: Streit um Datenschutz: Apple bringt neues Smarthome-Display nicht in die EU",
+        "Altersvorsorge: Ein Depot umsonst – kann das wirklich sein?",
+        "Newsblog zur Bundespolitik: Klingbeil und Söder bekennen sich zu den Plänen der Rentenreform",
+        "Altersvorsorge: „Der Abschied vom öffentlichen Standarddepot wäre ein Desaster für alle Sparer“"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/altersvorsorge-standarddepot-verzoegerung-kritik-li.3560926",
-        "https://www.sueddeutsche.de/politik/rente-reform-ohne-abstriche-erklaerung-wirtschafts-wissenschaftler-li.3555773",
-        "https://www.sueddeutsche.de/meinung/spd-rente-mit-63-reform-kritik-gerechtigkeit-kommentar-li.3554972",
-        "https://www.sueddeutsche.de/sport/olympia-kandidat-muenchen-koeln-nrw-entscheidung-li.3554274"
+        "https://www.sueddeutsche.de/politik/ki-newsblog-usa-apple-homeview-eu-kommission-datenschutz-streit-li.3547133",
+        "https://www.sueddeutsche.de/wirtschaft/altersvorsorgedepot-trade-republic-gebuehren-etf-altersvorsorge-li.3560560",
+        "https://www.sueddeutsche.de/politik/bundesregierung-news-liveblog-bas-ruecktritt-klingbeil-soeder-rentenreform-li.3529564",
+        "https://www.sueddeutsche.de/politik/altersvorsorge-standarddepot-verzoegerung-kritik-li.3560926"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -363,6 +330,39 @@
         },
         {
           "emotion": "confusion",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 19,
+      "sample_titles": [
+        "Die AHV-Allianz mobilisiert: wie die SP mit der Mitte-Partei die 13. Rente finanzieren will und den nächsten Sozialausbau plant",
+        "Nach dem Ja zur 13. AHV-Rente droht am 29. November ein Nein zur Finanzierung",
+        "PODCAST «NZZ WEEKEND» - Coop-CEO Philipp Wyss: «Der Unterbietungswettbewerb stoppt nie»",
+        "Ein neuer Megakonzern soll die deutsche Chemieindustrie aus der Krise führen. Kritiker befürchten jedoch einen «Ausverkauf des Ruhrgebiets»"
+      ],
+      "urls": [
+        "https://www.nzz.ch/schweiz/die-ahv-allianz-mobilisiert-wie-die-sp-gemeinsam-mit-der-mitte-partei-die-13-rente-finanzieren-will-und-bereits-den-naechsten-sozialausbau-plant-ld.10031517",
+        "https://www.nzz.ch/schweiz/nach-dem-ja-zur-13-ahv-rente-droht-am-29-november-ein-nein-zur-finanzierung-ld.10029191",
+        "https://www.nzz.ch/podcast/coop-ceo-philipp-wyss-der-unterbietungswettbewerb-stoppt-nie-ld.10028048",
+        "https://www.nzz.ch/wirtschaft/ein-neuer-megakonzern-soll-die-deutsche-chemieindustrie-aus-der-krise-fuehren-kritiker-befuerchten-jedoch-einen-ausverkauf-des-ruhrgebiets-ld.10026805"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -404,31 +404,31 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 11,
+      "article_count": 14,
       "sample_titles": [
-        "Bahnverkehr: Bahn muss laut Gericht keine Kapazitäten für Konkurrenz freihalten",
-        "Bundesrechnungshof: Rentenzahlungen verbrauchen immer mehr Steuereinnahmen",
-        "Rentenreform: Gesetzesentwurf entschärft Empfehlungen der Rentenkommission",
-        "TV-Runde vor MV-Wahl: Lehrer aus der Rente holen? Bildung eröffnet TV-Debatte"
+        "Altersvorsorge: So fangt ihr an, mit ETFs zu sparen",
+        "Rente: Gordon Schnieder lehnt Beratungsvorschlag der SPD zur Rente ab",
+        "Rentenreform: Unionsfraktionsvize weist Renten-Vorstoß von Matthias Miersch zurück",
+        "Bahnverkehr: Bahn muss laut Gericht keine Kapazitäten für Konkurrenz freihalten"
       ],
       "urls": [
-        "https://www.zeit.de/mobilitaet/2026-10/deutsche-bahn-fernverkehr-bundesnetzagentur-wettbewerb-verwaltungsgericht-koeln-gxe",
-        "https://www.zeit.de/wirtschaft/2026-10/bundesrechnungshof-rentenversicherung-zahlungen-bundeshaushalt-2040",
-        "https://www.zeit.de/wirtschaft/2026-09/rentenreform-rentenalter-lebenserwartung-abschlagsfreie-rente-arbeitsministerium",
-        "https://www.zeit.de/news/2026-09/15/lehrer-aus-der-rente-holen-bildung-eroeffnet-tv-debatte"
+        "https://www.zeit.de/geld/2026-10/altersvorsorge-etfs-sparen-geldanlage-tipps",
+        "https://www.zeit.de/politik/deutschland/2026-10/rentenreform-spd-matthias-miersch-ministerpraesidenten-cdu-norbert-schnieder-abschlagsfreie-rente",
+        "https://www.zeit.de/politik/deutschland/2026-10/rentenreform-spd-cdu-johannes-winkel-matthias-miersch",
+        "https://www.zeit.de/mobilitaet/2026-10/deutsche-bahn-fernverkehr-bundesnetzagentur-wettbewerb-verwaltungsgericht-koeln-gxe"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 1
+        },
         {
           "emotion": "optimism",
           "count": 1
         },
         {
           "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
           "count": 1
         }
       ]
@@ -439,25 +439,25 @@
       "bias": "left",
       "article_count": 11,
       "sample_titles": [
+        "Sieben Probleme der Koalition: Wo die Regierung noch nach Lösungen sucht",
+        "Bärbel Bas wirft hin: Der Versuch eines sozialpolitischen Korrektivs",
         "Rente mit 63: Eine Frage der Gerechtigkeit",
-        "Umbau des Sozialstaats: Kommen jetzt gerechte Reformen?",
-        "Chinas Aufstieg seit 2001: Von der Goldgrube zum Konkurrenten",
-        "Krankenkassen vor Milliardenverlust: Kapitalismus ist krank"
+        "Umbau des Sozialstaats: Kommen jetzt gerechte Reformen?"
       ],
       "urls": [
+        "https://taz.de/Sieben-Probleme-der-Koalition/!6221296/",
+        "https://taz.de/Ruecktritt-von-Baerbel-Bas/!6220952/",
         "https://taz.de/Rente-mit-63/!6216936/",
-        "https://taz.de/Umbau-des-Sozialstaats/!6211112/",
-        "https://taz.de/Chinas-Aufstieg-seit-2001/!6208883/",
-        "https://taz.de/Krankenkassen-vor-Milliardenverlust/!6212223/"
+        "https://taz.de/Umbau-des-Sozialstaats/!6211112/"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "disgust",
       "top_emotions": [
         {
-          "emotion": "disapproval",
-          "count": 1
+          "emotion": "disgust",
+          "count": 2
         },
         {
-          "emotion": "disgust",
+          "emotion": "disapproval",
           "count": 1
         },
         {
@@ -470,7 +470,7 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 8,
+      "article_count": 6,
       "sample_titles": [
         "Kerkelings schwächster Auftritt AfD-Verbotsfarce mit mehr als einem Clown",
         "Sozialpolitik Klingbeil will Selbstständige und Beamte in der gesetzlichen Rentenkasse",
@@ -530,24 +530,24 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 41,
-    "right-conservative": 122,
-    "far-right": 24,
     "conservative-liberal": 104,
-    "left-liberal": 94,
-    "neutral": 68,
-    "economic-liberal": 53,
-    "left": 11
+    "left-liberal": 106,
+    "right-conservative": 131,
+    "neutral": 67,
+    "populist-mixed": 43,
+    "economic-liberal": 54,
+    "left": 11,
+    "far-right": 22
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich die Finanzierbarkeit der gesetzlichen Rente angesichts des demografischen Wandels betont, wobei alle Seiten die Gefahr von Rentenlücken und Altersarmut hervorheben. Gleichzeitig konvergieren die Beiträge darin, dass ein früherer Renteneintritt mit 63 als problematisch für die Generationengerechtigkeit angesehen wird und deshalb entweder restriktiver gestaltet oder durch zusätzliche private, kapitalgedeckte Vorsorgeprodukte kompensiert werden muss. Schließlich wird in fast allen Artikeln die Forderung nach höheren monatlichen Rentenleistungen als zentrales Wahlversprechen genannt, wobei die Diskussion um konkrete Maßnahmen – von Reformen des Renteneintrittsalters bis zu stärkeren Anreizen für betriebliche und private Altersvorsorge – den gemeinsamen Kern des Diskurses bildet.",
-      "controversial_points": "Das Renteneintrittsalter spaltet links‑konservative von rechts‑populistischen Medien, weil es Generation"
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber deutlich, dass der demografische Wandel die Finanzierbarkeit der gesetzlichen Rentenversicherung langfristig gefährdet und deshalb strukturelle Reformen unverzichtbar sind, wobei die meisten Beiträge die Notwendigkeit einer Kombination aus Beitrags‑ und kapitalgedeckten Elementen betonen. Gleichzeitig zeigen fast alle Berichte, dass die aktuelle Reformstau‑Situation und die Uneinigkeit über das Renteneintrittsalter – sei es 63, 67 oder 70 Jahre – als zentrales Hindernis für eine stabile Altersvorsorge wahrgenommen werden, was zu wiederholten Forderungen nach schnellerer Gesetzgebung und klareren Generationengerechtigkeitsprinzipien führt. Schließlich wird in den meisten Analysen die Gefahr von Altersarmut hervorgehoben und die Erwartung geäußert, dass sowohl staatliche Maßnahmen als auch private Vorsorgemodelle stärker koordiniert werden müssen, um Versorgungslücken zu schließen.",
+      "controversial_points": "Das Renteneintrittsalter spaltet konservative und linke Medien zwischen Generationengerechtigkeit und sozialer Absicherung. Kapitalgedeckte Modelle werden von Wirtschaftsliberalen als Lösung für demografischen Wandel präsentiert, während Sozialdemokraten sie als Risiko für Altersarmut kritisieren. Die Riester-Rente gilt im rechten Spektrum als Symbol für staatliche Fehlsteuerung, im linken Diskurs als notwendige Grundabsicherung."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media uniformly stress that demographic ageing makes the statutory pension system financially unsustainable without reforms and they all highlight the growing risk of poverty among retirees, especially low‑income cohorts. Simultaneously there is a broad consensus that any viable solution must involve a stronger role for private or capital‑based retirement products, such as Riester plans or diversified ETFs, to close the pension gap and preserve intergenerational equity.",
-      "controversial_points": "A clash between intergenerational equity and fiscal sustainability dominates the debate. Conservatives push for higher retirement age and private capital solutions, framing pensions as personal responsibility. Left‑leaning outlets demand stronger public guarantees and warn that market‑based reforms deepen old‑age poverty. Populist media amplify individual hardship stories to pressure politicians, linking pension cuts to broader anti‑establishment sentiment."
+      "shared_perspectives": "Across the German press, regardless of political orientation, there is a clear consensus that demographic ageing is eroding the fiscal balance of the statutory pension system and that reform is therefore unavoidable. The coverage uniformly agrees that viable reforms will have to combine adjustments to the retirement age or contribution rates with the promotion of supplemental private savings, while rejecting a return to a fully capital‑funded model as a sufficient solution.",
+      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability of the pay‑as‑you‑go system. Conservatives demand higher retirement age and private capital solutions, while left parties defend early retirement and universal coverage. The Riester and private pension market becomes a battleground over state subsidies versus market competition. Media frames the issue as a clash between social solidarity values and neoliberal efficiency narratives."
     }
   },
-  "cached_at": "2026-10-11T10:56:18.132997"
+  "cached_at": "2026-10-14T09:45:23.472082"
 }

@@ -1,58 +1,25 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 744,
-  "candidate_count": 744,
+  "article_count": 720,
+  "candidate_count": 720,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 93,
-      "sample_titles": [
-        "Liveblog Irankrieg: Tödlicher Raketenangriff auf Saudi-Arabiens Hauptstadtflughafen",
-        "Liveblog Irankrieg: Iran: Haben Flüssiggastanker in Straße von Hormus beschossen",
-        "Liveblog Ukrainekrieg: Selenskyj: Russen beschädigten  Stromnetz der Ukraine „erheblich“",
-        "Photovoltaik-boom: Solarneid am Gartenzaun"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-toedlicher-raketenangriff-auf-saudi-arabiens-hauptstadtflughafen-faz-200583539.html",
-        "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-iran-haben-fluessiggastanker-in-strasse-von-hormus-beschossen-faz-200583539.html",
-        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-russen-beschaedigten-stromnetz-der-ukraine-erheblich-faz-110683325.html",
-        "https://www.faz.net/aktuell/wissen/erde-klima/eine-solaranlage-und-die-nachbarn-installieren-auch-eine-accg-201272448.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
-        },
-        {
-          "emotion": "curiosity",
-          "count": 6
-        },
-        {
-          "emotion": "fear",
-          "count": 3
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 87,
+      "article_count": 86,
       "sample_titles": [
+        "Castor-Protest sorgt für Autobahnsperrung",
+        "Windräder dürfen vor Naturmonument gebaut werden",
         "Streit um Energiegesetze: Was den Ausbau in SH bremsen kann",
-        "Bekommt Mannheim ein Gaskraftwerk?",
-        "Solaranlagen: Wie kritisch war die Sungrow-Sicherheitslücke?",
-        "Solaranlagen: Wie kritisch war die Sungrow-Sicherheitslücke?"
+        "Bekommt Mannheim ein Gaskraftwerk?"
       ],
       "urls": [
+        "https://www1.wdr.de/nrw/ruhrgebiet/kreis-recklinghausen/aktionsbuendnis-autobahnblockade-dorsten-100.html",
+        "https://www1.wdr.de/nrw/sauerland-siegerland/hochsauerlandkreis/windrad-bruchhauser-steine-olsberg-klage-100.html",
         "https://www.ndr.de/nachrichten/schleswig-holstein/streit-um-energiegesetze-was-ausbau-in-sh-bremsen-kann,netzpaket-102.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/neues-gaskraftwerk-in-mannheim-geplant-100.html",
-        "https://www.hessenschau.de/wirtschaft/solaranlagen-wie-kritisch-war-die-sungrow-sicherheitsluecke-v4,sicherheitsluecke-solarbranche-100.html",
-        "https://www.hessenschau.de/wirtschaft/solaranlagen-wie-kritisch-war-die-sungrow-sicherheitsluecke-v3,sicherheitsluecke-solarbranche-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/neues-gaskraftwerk-in-mannheim-geplant-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -70,22 +37,55 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 81,
+      "sample_titles": [
+        "Liveblog Irankrieg: Tödlicher Raketenangriff auf Saudi-Arabiens Hauptstadtflughafen",
+        "Liveblog Irankrieg: Iran: Haben Flüssiggastanker in Straße von Hormus beschossen",
+        "Liveblog Ukrainekrieg: Selenskyj: Russen beschädigten  Stromnetz der Ukraine „erheblich“",
+        "Photovoltaik-boom: Solarneid am Gartenzaun"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-toedlicher-raketenangriff-auf-saudi-arabiens-hauptstadtflughafen-faz-200583539.html",
+        "https://www.faz.net/aktuell/politik/ausland/liveblog-irankrieg-iran-haben-fluessiggastanker-in-strasse-von-hormus-beschossen-faz-200583539.html",
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-russen-beschaedigten-stromnetz-der-ukraine-erheblich-faz-110683325.html",
+        "https://www.faz.net/aktuell/wissen/erde-klima/eine-solaranlage-und-die-nachbarn-installieren-auch-eine-accg-201272448.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 6
+        },
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
+        {
+          "emotion": "fear",
+          "count": 3
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 78,
+      "article_count": 80,
       "sample_titles": [
-        "Der nächste harte Winter: Wie Russland das ukrainische Gesundheitssystem ins Visier nimmt",
-        "Bis zu 30 Prozent sparen: Das sind die günstigsten Stromtarife für die Wärmepumpe",
-        "\"Mut und die Stärke\": Rubio wirbt in Athen für engere Zusammenarbeit des Westens",
-        "Neuwahlen \"keine Alternative\": Reiche nennt Kritik an ihrer Energiewende-Politik \"Unsinn\""
+        "Havarie bei Ludwigshöhe: Tanker mit 250 Tonnen Wasserstoff sitzt im Rhein fest",
+        "Aus grünem Wasserstoff und CO2: Klimaneutral Fliegen? Alkohol könnte ein Ausweg sein",
+        "Franzosen wenden sich ab: Macrons Beliebtheitswert sackt in den Keller",
+        "Der nächste harte Winter: Wie Russland das ukrainische Gesundheitssystem ins Visier nimmt"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Wie-Russland-das-ukrainische-Gesundheitssystem-ins-Visier-nimmt-id31399796.html",
-        "https://www.n-tv.de/ratgeber/Das-sind-die-guenstigsten-Stromtarife-fuer-die-Waermepumpe-id31395171.html",
-        "https://www.n-tv.de/politik/Rubio-wirbt-in-Athen-fuer-engere-Zusammenarbeit-des-Westens-id31393737.html",
-        "https://www.n-tv.de/politik/Reiche-nennt-Kritik-an-ihrer-Energiewende-Politik-Unsinn-id31389466.html"
+        "https://www.n-tv.de/wirtschaft/Tanker-mit-250-Tonnen-Wasserstoff-sitzt-im-Rhein-fest-id31405136.html",
+        "https://www.n-tv.de/wissen/Klimaneutral-Fliegen-Alkohol-koennte-ein-Ausweg-sein-id31396968.html",
+        "https://www.n-tv.de/politik/Macrons-Beliebtheitswert-sackt-in-den-Keller-id31404606.html",
+        "https://www.n-tv.de/politik/Wie-Russland-das-ukrainische-Gesundheitssystem-ins-Visier-nimmt-id31399796.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -95,7 +95,7 @@
         },
         {
           "emotion": "curiosity",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "approval",
@@ -107,18 +107,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 69,
+      "article_count": 67,
       "sample_titles": [
+        "Stromsteuer: Was die Pläne von Friedrich Merz für Verbraucher bringen",
+        "CDU: Friedrich Merz will Strompreise für alle Haushalte senken",
         "Öl- und Gaspreise ziehen deutlich an – Sorge vor neuen US-Angriffen in Iran",
-        "Jochen Flasbarth wird Chef von einflussreicher Klimastiftung",
-        "News: Woche der Nobelpreise, Französische Schulden, Energiekostenrechner",
-        "Das E-Auto als Powerbank – jetzt geht es richtig los"
+        "Jochen Flasbarth wird Chef von einflussreicher Klimastiftung"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/service/stromsteuer-was-die-plaene-von-friedrich-merz-fuer-verbraucher-bringen-a-443f60ba-71ac-436b-916e-c05d26a8aadd#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/cdu-friedrich-merz-will-strompreise-fuer-alle-haushalte-senken-a-d03b9498-3d41-4141-adce-c5ab8404cea2#ref=rss",
         "https://www.spiegel.de/wirtschaft/service/oel-und-gaspreise-ziehen-deutlich-an-sorge-vor-neuen-us-angriffen-in-iran-a-40573746-dafe-4d94-8103-ba438e12fda6#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/jochen-flasbarth-wird-chef-von-einflussreicher-klimastiftung-a-1b25a786-3e52-45f8-a899-8d9370319ce7#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/news-woche-der-nobelpreise-franzoesische-schulden-energiekostenrechner-a-747c79c3-b777-43a5-b568-369b5e993901#ref=rss",
-        "https://www.spiegel.de/mobilitaet/auto/das-e-auto-als-powerbank-jetzt-geht-es-richtig-los-a-56a73077-1e6a-40d1-a3bc-8c16082c9530#ref=rss"
+        "https://www.spiegel.de/politik/deutschland/jochen-flasbarth-wird-chef-von-einflussreicher-klimastiftung-a-1b25a786-3e52-45f8-a899-8d9370319ce7#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -140,31 +140,31 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 68,
+      "article_count": 64,
       "sample_titles": [
-        "Lobbycontrol-Chefin zu Heiner Flasblarth: „Wir fordern eine Karenzzeit für beamtete Staatssekretäre“",
-        "Reiches umstrittene Energiegesetze: Demo für die Energiewende",
-        "Investorenklagen gegen Staaten: Wie russische Oligarchen Staaten verklagen",
-        "Reform der Energiewende: Bundestag verhandelt über Zukunft der Erneuerbaren"
+        "Erneuerbare Energien: Reiches Rollback",
+        "Lebkuchen in der Weihnachtszeit: Produktion sinkt, Nachfrage im Ausland steigt",
+        "Klimaschutz in Unternehmen: Thermomix schaltet auf Ökomodus",
+        "Lobbycontrol-Chefin zu Heiner Flasblarth: „Wir fordern eine Karenzzeit für beamtete Staatssekretäre“"
       ],
       "urls": [
-        "https://taz.de/Lobbycontrol-Chefin-Wir-fordern-eine-Karenzzeit-fuer-beamtete-Staatssekretaere/!6219945/",
-        "https://taz.de/Reiches-umstrittene-Energiegesetze/!6219703/",
-        "https://taz.de/Investitionsschutz-Wie-russische-Oligarchen-Staaten-verklagen/!6219588/",
-        "https://taz.de/Reform-der-Energiewende/!6218854/"
+        "https://taz.de/Erneuerbare-Energien/!6216523/",
+        "https://taz.de/Produktion-von-Lebkuchen-in-Deutschland-deutlich-gesunken/!6221310/",
+        "https://taz.de/Klimaschutz-in-Unternehmen/!6219899/",
+        "https://taz.de/Lobbycontrol-Chefin-Wir-fordern-eine-Karenzzeit-fuer-beamtete-Staatssekretaere/!6219945/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 11
-        },
-        {
-          "emotion": "realization",
-          "count": 3
+          "count": 9
         },
         {
           "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "realization",
           "count": 3
         }
       ]
@@ -173,18 +173,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 64,
+      "article_count": 57,
       "sample_titles": [
+        "Cybersecurity: „Kein abstraktes Szenario“ – EU-Bericht warnt vor Angriffsrisiko auf Europas Solaranlagen",
         "Energie: „Macht mich fassungslos“ – Streit um Kosten der Erneuerbaren",
         "Kommentar: Wie die Politik beim Thema Wasserstoff versagt",
-        "Energie: Gegen den Trend: EWE und Verbund planen Wasserstoff-Elektrolyseur in industrieller Dimension",
-        "Energieversorgung: Wegen Tankrabatt und Niedrigwasser: Ersten Tankstellen geht der Sprit aus"
+        "Energie: Gegen den Trend: EWE und Verbund planen Wasserstoff-Elektrolyseur in industrieller Dimension"
       ],
       "urls": [
+        "https://www.handelsblatt.com/unternehmen/energie/cybersecurity-eu-bericht-warnt-vor-sicherheitsluecken-in-solaranlagen/100261076.html",
         "https://www.handelsblatt.com/unternehmen/energie/energie-macht-mich-fassungslos-streit-um-kosten-der-erneuerbaren/100259887.html",
         "https://www.handelsblatt.com/meinung/kommentare/kommentar-wie-die-politik-beim-thema-wasserstoff-versagt/100260626.html",
-        "https://www.handelsblatt.com/politik/deutschland/energie-gegen-den-trend-ewe-und-verbund-planen-wasserstoff-elektrolyseur/100260479.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/spritpreise-drohen-benzin-und-diesel-engpaesse-an-den-zapfsaeulen/100260058.html"
+        "https://www.handelsblatt.com/politik/deutschland/energie-gegen-den-trend-ewe-und-verbund-planen-wasserstoff-elektrolyseur/100260479.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -206,18 +206,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 47,
+      "article_count": 49,
       "sample_titles": [
+        "Die Billionenlast der deutschen Klimaneutralität",
+        "Trump wettert gegen deutsche Energiewende – „Zwei Tage von Auslöschung entfernt“",
         "Tausende demonstrieren in Berlin gegen Energiepolitik von Wirtschaftsministerin Reiche",
-        "Jetzt droht die Energiewende am eigenen Erfolg förmlich zu ersticken",
-        "Der Wechsel dieses Staatssekretärs wirft unangenehme Fragen auf",
-        "Die letzte Schlacht ums EEG"
+        "Jetzt droht die Energiewende am eigenen Erfolg förmlich zu ersticken"
       ],
       "urls": [
+        "https://www.welt.de/wirtschaft/plus6accb408917c96cff556d8ae/kfw-studie-die-billionenlast-der-deutschen-klimaneutralitaet.html",
+        "https://www.welt.de/politik/ausland/article6acb798c1457a7873ffae575/rede-des-us-praesidenten-trump-wettert-gegen-deutsche-energiewende-zwei-tage-von-ausloeschung-entfernt.html",
         "https://www.welt.de/politik/deutschland/article6ac9123e9ebc37bdca151305/streit-um-energiewende-tausende-demonstrieren-in-berlin-gegen-energiepolitik-von-wirtschaftsministerin-reiche.html",
-        "https://www.welt.de/wirtschaft/plus6ac7520175caf261c519d5c9/netzanschluesse-jetzt-droht-die-energiewende-am-eigenen-erfolg-foermlich-zu-ersticken.html",
-        "https://www.welt.de/debatte/plus6ac4a13b8b65780eaf1349e8/energiewende-aktivist-der-wechsel-dieses-staatssekretaers-wirft-unangenehme-fragen-auf.html",
-        "https://www.welt.de/wirtschaft/plus6ac3782afde19fde7c1c51d8/energiepolitik-die-letzte-schlacht-ums-eeg.html"
+        "https://www.welt.de/wirtschaft/plus6ac7520175caf261c519d5c9/netzanschluesse-jetzt-droht-die-energiewende-am-eigenen-erfolg-foermlich-zu-ersticken.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -239,18 +239,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 44,
+      "article_count": 45,
       "sample_titles": [
+        "Gasversorgung: Ministerium bringt Gasreserve auf den Weg -Umlage geplant",
+        "Vor Regierungsbildung in MV: Wirtschaft beklagt lange Verfahren und Unzahl an Formularen",
         "Energiewende: EWE plant weitere große Wasserstoffproduktion im Nordwesten",
-        "Selenskyj: „Erhebliche Schäden“ am Stromnetz der Ukraine durch russische Angriffe",
-        "Erneuerbare Energie: Gescheiterte Auktion - Behörde passt See-Windparkflächen an",
-        "Wadephul betont Bedeutung von Klimaschutz für die Sicherheit"
+        "Selenskyj: „Erhebliche Schäden“ am Stromnetz der Ukraine durch russische Angriffe"
       ],
       "urls": [
+        "https://www.stern.de/wirtschaft/news/gasversorgung--ministerium-bringt-gasreserve-auf-den-weg--umlage-geplant-38390398.html",
+        "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/vor-regierungsbildung-in-mv--wirtschaft-beklagt-lange-verfahren-und-unzahl-an-formularen-38382142.html",
         "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/energiewende--ewe-plant-weitere-grosse-wasserstoffproduktion-im-nordwesten-38372992.html",
-        "https://www.stern.de/news/selenskyj---erhebliche-schaeden--am-stromnetz-der-ukraine-durch-russische-angriffe-38372936.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/erneuerbare-energie--gescheiterte-auktion---behoerde-passt-see-windparkflaechen-an-38366612.html",
-        "https://www.stern.de/news/wadephul-betont-bedeutung-von-klimaschutz-fuer-die-sicherheit-38353942.html"
+        "https://www.stern.de/news/selenskyj---erhebliche-schaeden--am-stromnetz-der-ukraine-durch-russische-angriffe-38372936.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -272,18 +272,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 41,
+      "article_count": 42,
       "sample_titles": [
-        "SPD und Grüne unter einer Decke mit SED-Linken und Islamisten – TE-Wecker am 9. Oktober 2026",
-        "Ex-BND-Chef Hanning in Haft – Maaßen wirft Justiz Rechtsbruch vor – TE-Wecker am 8. Oktober 2026",
-        "Das ABC von Energiewende und Grünsprech 118 – Solar-Day",
-        "Preisschub erwartet: Strom bereits 20 Prozent teurer – Gaspreise ziehen nach"
+        "Brandmauer bekommt Beine – CDU will Siegmund-Wahl boykottieren – TE-Wecker am 14. Oktober 2026",
+        "G7 geben Ölreserven frei – Russland kehrt auf den Weltmarkt zurück",
+        "Diesel-Deal mit Putin: Trump macht Druck auf Selenskyj – TE-Wecker am 12. Oktober 2026",
+        "Isar 2: Alle Welt baut Kernkraftwerke, Deutschland reißt sie ab"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/podcast/wecker-am-9-oktober-2026/",
-        "https://www.tichyseinblick.de/podcast/wecker-am-8-oktober-2026/",
-        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/energiewende-gruensprech-solar-day/",
-        "https://www.tichyseinblick.de/daili-es-sentials/preisschub-strom-gas-energie/"
+        "https://www.tichyseinblick.de/podcast/wecker-am-14-oktober-2026/",
+        "https://www.tichyseinblick.de/wirtschaft/oelreserven-frei-russland-zurueck-am-weltmarkt/",
+        "https://www.tichyseinblick.de/podcast/wecker-am-12-oktober-2026/",
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/kkw-isar-2-abriss/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -305,7 +305,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 32,
+      "article_count": 30,
       "sample_titles": [
         "Proteste in Berlin: Tausende demonstrieren in Berlin gegen Energiepolitik der Regierung",
         "G7-Staaten: Reiche sieht Energiereserve auch nach G7-Freigabe ausreichend gedeckt",
@@ -338,18 +338,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 29,
+      "article_count": 28,
       "sample_titles": [
+        "Warum Deutschlands Offshore-Ausbau stockt",
         "Bundeskanzler Merz besucht Kiew",
         "Warum Hamburgs Stromnetz an seine Grenzen gerät",
-        "Höchstes Windrad der Welt in der Lausitz",
-        "Was das langfristige Speichern von Strom schwierig macht"
+        "Höchstes Windrad der Welt in der Lausitz"
       ],
       "urls": [
+        "https://www.zdfheute.de/wirtschaft/offshore-ausbau-windkraft-stockt-gruener-strom-100.html",
         "https://www.zdfheute.de/politik/ausland/merz-reiche-kiew-besuch-100.html",
         "https://www.zdfheute.de/politik/deutschland/hamburg-strom-stromnetz-energie-kapazitaeten-netzausbau-industrie-100.html",
-        "https://www.zdfheute.de/panorama/rekord-hoechstes-windrad-schipkau-brandenburg-100.html",
-        "https://www.zdfheute.de/wirtschaft/strom-batteriespeicher-erneuerbare-energien-langzeitspeicher-100.html"
+        "https://www.zdfheute.de/panorama/rekord-hoechstes-windrad-schipkau-brandenburg-100.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -358,11 +358,11 @@
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "amusement",
+          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -371,7 +371,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 27,
+      "article_count": 25,
       "sample_titles": [
         "Zwei Unternehmen betroffen - Deutscher Solar-Pionier meldet Insolvenz an",
         "15 Standorte betroffen - 45.000 Solaranlagen installiert, dann pleite",
@@ -396,6 +396,39 @@
         },
         {
           "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 18,
+      "sample_titles": [
+        "Energiewende: „Ich will die Leute von der Photovoltaik begeistern“",
+        "Nachhaltigkeit: Warum die Münchner Stadtwerke ihre Klimaziele neu formuliert haben",
+        "„Caren Miosga“: Der Beobachter vom Nordpol",
+        "Nach Flucht bei Ausgang: Windkraftbetrüger Holt in Dubai gefasst"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/muenchen/dachau/photovoltaik-muenchen-balkonkraftwerke-energiewende-li.3552759",
+        "https://www.sueddeutsche.de/muenchen/muenchen-stadtwerke-empco-nachhaltigkeit-li.3555591",
+        "https://www.sueddeutsche.de/medien/tv-kritik-robert-habeck-caren-miosga-waermepumpe-li.3554055",
+        "https://www.sueddeutsche.de/panorama/holt-windkraftbetrueger-dubai-gefasst-li.3553005"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -433,44 +466,11 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 17,
-      "sample_titles": [
-        "Nachhaltigkeit: Warum die Münchner Stadtwerke ihre Klimaziele neu formuliert haben",
-        "„Caren Miosga“: Der Beobachter vom Nordpol",
-        "Nach Flucht bei Ausgang: Windkraftbetrüger Holt in Dubai gefasst",
-        "Newsblog zum Nahost-Krieg: Irans Präsident: Werden zivile Atomenergie nicht aufgeben"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/muenchen/muenchen-stadtwerke-empco-nachhaltigkeit-li.3555591",
-        "https://www.sueddeutsche.de/medien/tv-kritik-robert-habeck-caren-miosga-waermepumpe-li.3554055",
-        "https://www.sueddeutsche.de/panorama/holt-windkraftbetrueger-dubai-gefasst-li.3553005",
-        "https://www.sueddeutsche.de/politik/iran-fluege-region-nahost-blog-iran-li.3530668"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 16,
+      "article_count": 14,
       "sample_titles": [
         "Porzellanmanufaktur insolvent Der Tod eines Traditionsunternehmens und der Zynismus der Schreibtischtäter",
         "Wahnsinn der Strompreise Die Energiewende scheitert beim Hitzetest",
@@ -503,18 +503,18 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 11,
+      "article_count": 12,
       "sample_titles": [
+        "Glasfasernetzausbau: Swisscom gewinnt Streit vor Bundesverwaltungsgericht",
         "Ein Wiedereinstieg in die Kernenergie würde den Strom in Deutschland billiger und sauberer machen",
         "Der Stromhunger von Amazon, Google und Microsoft für Rechenzentren forciert den Bau von Mini-Atomkraftwerken in den USA",
-        "200 Milliarden Dollar: Donald Trump kündigt hohe Investitionen Südkoreas an",
-        "Der Fall des «Windkraft-Betrügers»: Hendrik Holt erschwindelt Millionen und flüchtet dann aus dem offenen Vollzug"
+        "200 Milliarden Dollar: Donald Trump kündigt hohe Investitionen Südkoreas an"
       ],
       "urls": [
+        "https://www.nzz.ch/wirtschaft/glasfasernetz-ausbau-swisscom-gewinnt-streit-vor-bundesverwaltungsgericht-ld.10033013",
         "https://www.nzz.ch/wirtschaft/ein-wiedereinstieg-in-die-kernenergie-wuerde-den-strom-in-deutschland-billiger-und-sauberer-machen-ld.10028513",
         "https://www.nzz.ch/wirtschaft/der-stromhunger-von-amazon-google-und-microsoft-fuer-rechenzentren-forciert-den-bau-von-mini-atomkraftwerken-in-den-usa-ld.10023917",
-        "https://www.nzz.ch/wirtschaft/200-milliarden-dollar-donald-trump-kuendigt-hohe-investitionen-suedkoreas-an-ld.10026329",
-        "https://www.nzz.ch/panorama/der-fall-des-windkraft-betruegers-hendrik-holt-erschwindelt-millionen-und-fluechtet-dann-aus-dem-offenen-vollzug-ld.10025281"
+        "https://www.nzz.ch/wirtschaft/200-milliarden-dollar-donald-trump-kuendigt-hohe-investitionen-suedkoreas-an-ld.10026329"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -532,16 +532,18 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 3,
+      "article_count": 4,
       "sample_titles": [
+        "Klimaziel: Deutschland muss Billionen investieren",
+        "Klimaziel kostet Deutschland laut Studie Billionen",
         "Weiteres Umspannwerk attackiert: Sabotage in Serie?",
-        "Sprengvorrichtungen an Umspannwerk in Brandenburg entdeckt",
-        "Niedrigwasser: Rumänien fährt sein Atomkraftwerk herunter"
+        "Sprengvorrichtungen an Umspannwerk in Brandenburg entdeckt"
       ],
       "urls": [
+        "https://www.dw.com/de/klimaziel-deutschland-muss-billionen-investieren/a-79641448?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/klimaziel-kostet-deutschland-laut-studie-billionen/a-79641448?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/weiteres-umspannwerk-attackiert-sabotage-in-serie/a-78755462?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/sprengvorrichtungen-an-umspannwerk-in-brandenburg-entdeckt/a-78619084?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/niedrigwasser-rumänien-fährt-sein-atomkraftwerk-herunter/a-78349374?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/sprengvorrichtungen-an-umspannwerk-in-brandenburg-entdeckt/a-78619084?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -562,24 +564,24 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 105,
-    "right-conservative": 125,
-    "populist-mixed": 27,
-    "far-right": 74,
-    "left-liberal": 162,
-    "neutral": 119,
-    "economic-liberal": 64,
-    "left": 68
+    "far-right": 73,
+    "neutral": 118,
+    "conservative-liberal": 94,
+    "economic-liberal": 57,
+    "left": 64,
+    "left-liberal": 160,
+    "right-conservative": 129,
+    "populist-mixed": 25
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Alle Medien betonen, dass die steigenden Strompreise die Versorgungssicherheit gefährden und dass die aktuelle Energiepolitik dringend strukturelle Reformen benötigt, um die Belastungen für Verbraucher und Wirtschaft zu reduzieren. Gleichzeitig wird in nahezu allen Berichten der Ausbau von Wind‑ und Solarenergie als zentrales Hindernis identifiziert, weil Genehmigungsverzögerungen, Netzengpässe und Insolvenzen von Unternehmen den Fortschritt behindern. Darüber hinaus wird Wasserstoff als potenzielle Ergänzung zum Energiemix diskutiert, wobei jedoch ein breiter Konsens besteht, dass die staatliche Förderung zu langsam und unkoordiniert sei.",
-      "controversial_points": "Der Streit um den Energiemix spaltet zwischen Befürwortern von Kernenergie als preisgünstiger Brückentechnologie und Verfechtern reiner Erneuerbarer. Die Frage nach Versorgungssicherheit verknüpft sich mit Ängsten vor Netzengpässen und hohen Strompreisen. Klimaziele kollidieren mit industriellen Interessen, die vor Wettbewerbsnachteilen durch teure Dekarbonisierung warnen. Die Debatte über Wasserstoff und staatliche Subventionen offenbart ein Spannungsfeld zwischen Innovationsförderung und Kritik an Finanzierbarkeit."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird von allen politischen Lagern betont, dass die Erreichung der Klimaneutralität ein finanzieller Aufwand in Milliardenhöhe für Staat und Verbraucher bedeutet. Gleichzeitig wird einheitlich auf strukturelle Hemmnisse wie langwierige Genehmigungsverfahren, Engpässe im Stromnetz und die Sorge um Versorgungssicherheit verwiesen, die den Ausbau von Wind‑ und Solarenergie bremsen. Schließlich fordern Vertreter unterschiedlicher Ausrichtungen eine realistische Energiemischung, bei der Kernenergie oder Wasserstoff als Übergangslösungen eingesetzt werden, um die Strompreise für die Bevölkerung zu stabilisieren.",
+      "controversial_points": "Der Streit um den Energiemix spaltet zwischen Befürwortern von Kernenergie und Verfechtern erneuerbarer Quellen. Die Kostenfrage erzeugt Konflikte zwischen wirtschaftsliberalen Medien, die niedrige Preise fordern, und sozialorientierten Stimmen, die soziale Gerechtigkeit betonen. Die Versorgungssicherheit wird von konservativen Kommentaren als Risiko des schnellen Ausstiegs dargestellt, während Umweltjournalisten den Klimaschutz priorisieren. Der Wasserstoffdebatte liegt ein struktureller Machtkampf zwischen Industrieverbänden, die Fördergelder sichern wollen, und kritischen Analysten, die Effizienzzweifel äußern, zugrunde."
     },
     "en": {
-      "shared_perspectives": "Synthesis not available.",
-      "controversial_points": "The core clash pits market‑driven liberalism against state‑led climate ambition. Nuclear revival advocates argue cheaper, reliable power, while green parties view it as a betrayal of decarbonisation. Coal exit timelines collide with regional employment concerns, creating a north‑south divide over economic justice. Rising electricity prices fuel populist narratives of elite failure, while economists stress cost of transition and investment gaps."
+      "shared_perspectives": "Across the spectrum German media repeatedly stress that the energy transition will cost the state and consumers trillions of euros, making financing and the impact on electricity prices a central political issue. At the same time there is broad agreement that regulatory bottlenecks and grid constraints are slowing the deployment of wind and solar, prompting calls for streamlined procedures regardless of party. Most outlets, from liberal to conservative, also acknowledge that a reliable supply mix – whether through expanded renewables, large‑scale hydrogen projects or a limited nuclear re‑entry – must be secured to avoid future shortages.",
+      "controversial_points": "The clash between nuclear proponents and anti‑nuclear forces defines the core energy‑mix debate. Renewable expansion meets resistance from regional interests, environmental NGOs, and cost‑concerned conservatives. Coal phase‑out creates tension between climate activists demanding speed and industrial lobbies fearing job losses. Funding the climate target pits fiscal conservatives against left‑leaning parties over billion‑euro allocations and tax impacts."
     }
   },
-  "cached_at": "2026-10-11T10:53:18.868921"
+  "cached_at": "2026-10-14T09:42:19.820154"
 }
