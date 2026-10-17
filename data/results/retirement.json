@@ -1,31 +1,64 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 538,
-  "candidate_count": 538,
+  "article_count": 571,
+  "candidate_count": 571,
   "outlets": {
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 84,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 88,
       "sample_titles": [
-        "\"Brauchen Entscheidungen\": Neuer Arbeitsminister Schweitzer knüpft Rentengesetz an Bedingung",
-        "Aufgaben für Schweitzer: Diese drei Empfehlungen bei der Rentenreform sind noch umstritten",
-        "Kanzler verteidigt Reformpläne: Merz: \"Habe nicht die Absicht, Liebling der Nation zu werden\"",
-        "Verschärfter Preiskampf : Altersvorsorgedepot: Trade Republic will's teilweise umsonst machen"
+        "Deutschland Liveblog: Schweitzer will Kompromiss zu „Rente mit 63“ finden",
+        "Frühstartrente: Ein Zückerchen für die junge Generation",
+        "„Das wird lange wirken.“: Bundestag beschließt Frühstartrente",
+        "Einstige Zwangsarbeiter: „Sie warten darauf, dass wir sterben“"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Neuer-Arbeitsminister-Schweitzer-knuepft-Rentengesetz-an-Bedingung-id31413486.html",
-        "https://www.n-tv.de/politik/Diese-drei-Empfehlungen-bei-der-Rentenreform-sind-noch-umstritten-id31412148.html",
-        "https://www.n-tv.de/politik/Merz-Habe-nicht-die-Absicht-Liebling-der-Nation-zu-werden-id31411850.html",
-        "https://www.n-tv.de/ratgeber/Altersvorsorgedepot-Trade-Republic-will-s-teilweise-umsonst-machen-id31412461.html"
+        "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-schweitzer-will-kompromiss-zu-rente-mit-63-finden-faz-110093143.html",
+        "https://www.faz.net/aktuell/politik/inland/fruehstarterrente-ein-zueckerchen-fuer-die-junge-generation-201528653.html",
+        "https://www.faz.net/video/bundestag-beschliesst-fruehstartrente-201529977.html",
+        "https://www.faz.net/aktuell/politik/ausland/sie-warten-darauf-dass-wir-sterben-kein-geld-im-haushalt-fuer-fruehere-polnische-zwangsarbeiter-201291585.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 7
+        },
+        {
+          "emotion": "curiosity",
+          "count": 6
+        },
+        {
+          "emotion": "fear",
+          "count": 4
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 86,
+      "sample_titles": [
+        "Mit 300.000 Euro im Ruhestand?: Das muss man jetzt zur Frühstartrente wissen",
+        "Mit zehn Euro im Monat : Union und SPD setzen Frühstartrente aufs Gleis",
+        "Nachfolger für Riester-Rente: Das Altersvorsorgedepot gibt es von kostenlos bis 1,5 Prozent im Jahr",
+        "Airline übernimmt großen Anteil: Lufthansa sticht Konkurrenten aus und steigt bei Portugals Tap ein"
+      ],
+      "urls": [
+        "https://www.n-tv.de/ratgeber/Das-muss-man-jetzt-zur-Fruehstartrente-wissen-id31413127.html",
+        "https://www.n-tv.de/politik/Union-und-SPD-setzen-Fruehstartrente-aufs-Gleis-id31424957.html",
+        "https://www.n-tv.de/ratgeber/Das-Altersvorsorgedepot-gibt-es-von-kostenlos-bis-1-5-Prozent-im-Jahr-id31417057.html",
+        "https://www.n-tv.de/wirtschaft/Lufthansa-sticht-Konkurrenten-aus-und-steigt-bei-Portugals-Tap-ein-id31417238.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 6
         },
         {
           "emotion": "excitement",
@@ -37,55 +70,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 84,
-      "sample_titles": [
-        "Arbeitgebertag in Berlin: Merz will Rentenreform noch 2026 beschließen",
-        "Lufthansa mustert aus: 346 in Rente",
-        "Alexander Schweitzer: Der neue Minister bebt vor Ehrgeiz",
-        "F.A.Z. Frühdenker: Kommt die Entlastung beim Strompreis doch noch?"
-      ],
-      "urls": [
-        "https://www.faz.net/video/merz-will-rentenreform-noch-2026-beschliessen-201314480.html",
-        "https://www.faz.net/aktuell/technik-motor/lufthansa-mustert-aus-der-letzte-a340-600-landet-201290974.html",
-        "https://www.faz.net/aktuell/politik/inland/alexander-schweitzer-der-neue-starke-mann-der-spd-accg-201309509.html",
-        "https://www.faz.net/podcasts/f-a-z-podcast-fruehdenker/stromsteuer-senkt-merz-sie-jetzt-auch-fuer-privathaushalte-faz-fruehdenker-accg-201312038.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 7
-        },
-        {
-          "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "admiration",
-          "count": 3
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
       "article_count": 54,
       "sample_titles": [
+        "Kommentar: Die Frühstartrente hat einen großen Konstruktionsfehler",
+        "Autobauer: Teils 650.000 Euro und vergünstigte Autos: Internes Dokument zeigt Details zum Abfindungspaket bei BMW",
         "Bundesregierung: „Das ist mir schon zu lange“: Kanzler Friedrich Merz erhöht den Druck auf die SPD",
-        "Kommentar: Deutschland droht ein Frühjahr der Nicht-Reformen",
-        "Bundespolitik: Pistorius will nicht als SPD-Chef antreten",
-        "Baumarkt: Obi verliert überraschend den Chef an einen Konkurrenten"
+        "Kommentar: Deutschland droht ein Frühjahr der Nicht-Reformen"
       ],
       "urls": [
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-die-fruehstartrente-hat-einen-grossen-konstruktionsfehler/100262812.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/bmw-internes-dokument-zeigt-details-zum-abfindungspaket/100262652.html",
         "https://www.handelsblatt.com/politik/deutschland/bundesregierung-das-ist-mir-schon-zu-lange-merz-erhoeht-druck-auf-die-spd/100261522.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-deutschland-droht-ein-fruehjahr-der-nicht-reformen/100261768.html",
-        "https://www.handelsblatt.com/politik/deutschland/bundespolitik-pistorius-will-nicht-als-spd-chef-antreten/100137034.html",
-        "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/baumarkt-obi-verliert-ueberraschend-den-chef-an-einen-konkurrenten/100261689.html"
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-deutschland-droht-ein-fruehjahr-der-nicht-reformen/100261768.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -107,18 +107,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 47,
+      "article_count": 50,
       "sample_titles": [
-        "„Ich werde einen Teufel tun, einfach zu sagen, das ist alles super, das gilt jetzt“",
-        "„Wenn sich die Methode Schwesig durchsetzt, dann gebe ich der Koalition keine zwei Jahre mehr“",
-        "„Wir brauchen diese Reformen und wir brauchen sie schnell“",
-        "Null Gebühren, 51 ETFs – so gut ist die Gratis-Rente von Trade Republic wirklich"
+        "10 Euro jeden Monat vom Staat fürs Kind – Bundestag beschließt „Frühstartrente“",
+        "10 Euro jeden Monat vom Staat fürs Kind – Bundestag beschließt „Frühstartrente“",
+        "Möglicher Reform-Kompromiss – Madsen fordert Rentenausgleich durch festen Staatsbeitrag",
+        "„Alexander Schweitzer weiß sehr gut, dass es dringend ist, dass wir die Rentenreform umsetzen“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/video6ace66b532c9e7b96d75079f/streit-um-rentenreform-ich-werde-einen-teufel-tun-einfach-zu-sagen-das-ist-alles-super-das-gilt-jetzt.html",
-        "https://www.welt.de/politik/deutschland/video6ace165a92e78e2df300c218/wolfgang-bosbach-wenn-sich-die-methode-schwesig-durchsetzt-dann-gebe-ich-der-koalition-keine-zwei-jahre-mehr.html",
-        "https://www.welt.de/wirtschaft/video6ace143f8776d79fbd9cb64c/arbeitgebertag-in-berlin-wir-brauchen-diese-reformen-und-wir-brauchen-sie-schnell.html",
-        "https://www.welt.de/finanzen/plus6acd1a948776d79fbd9caa4e/altersvorsorgedepot-null-gebuehren-51-etfs-so-gut-ist-die-gratis-rente-von-trade-republic.html"
+        "https://www.welt.de/politik/deutschland/video6ad1e8cb51e5094f7a56e631/altersvorsorge-10-euro-jeden-monat-vom-staat-fuers-kind-bundestag-beschliesst-fruehstartrente.html",
+        "https://www.welt.de/politik/deutschland/article6ad1dd1d51e5094f7a56e4e8/altersvorsorge-10-euro-jeden-monat-vom-staat-fuers-kind-bundestag-beschliesst-fruehstartrente.html",
+        "https://www.welt.de/politik/deutschland/article6ad149aa51e5094f7a56dfcf/vorschlag-aus-schleswig-holstein-moeglicher-reform-kompromiss-madsen-fordert-rentenausgleich-durch-festen-staatsbeitrag.html",
+        "https://www.welt.de/politik/deutschland/video6acfba0785ec8093bcfbe5bf/thorsten-frei-alexander-schweitzer-weiss-sehr-gut-dass-es-dringend-ist-dass-wir-die-rentenreform-umsetzen.html"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -140,24 +140,24 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 43,
+      "article_count": 45,
       "sample_titles": [
-        "Rente: Kontenklärung bringt oft mehr Rente – ohne zusätzliche Kosten",
-        "Rentenpunkte kaufen: So können Sie früher in Rente – ohne Abschläge",
-        "News des Tages: Friedrich Merz beim BDA, CDU will Ulrich Siegmund nicht wählen, Fussballer Vinicius Souza",
-        "Rente: Friedrich Merz gibt Versäumnisse in der Rentenpolitik zu"
+        "»Rente mit 63«: Arbeitsminister Alexander Schweitzer plädiert für Kompromiss",
+        "Deutschlandtag der Jungen Union: Jetzt hat Friedrich Merz schon wieder ein JU-Problem",
+        "»Rosenheim-Cops«: Alexander Duda hört auf, »Gert Achtziger« geht in Rente",
+        "Frühstartrente: So soll aus 10 Euro im Monat eine Rente von 50.000 Euro werden"
       ],
       "urls": [
-        "https://www.spiegel.de/wirtschaft/service/rente-kontenklaerung-bringt-oft-mehr-rente-ohne-zusaetzliche-kosten-a-158e9cea-bc36-4462-8d67-15b0ebffec45#ref=rss",
-        "https://www.spiegel.de/wirtschaft/rentenpunkte-kaufen-so-koennen-sie-frueher-in-rente-ohne-abschlaege-a-ead29a48-c042-4254-abae-0cceeb009788#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/news-des-tages-friedrich-merz-beim-bda-cdu-will-ulrich-siegmund-nicht-waehlen-fussballer-vinicius-souza-a-78cd324d-658b-4411-8d07-aa99e21498be#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/rente-friedrich-merz-gibt-versaeumnisse-in-der-rentenpolitik-zu-a-ae326ca1-d189-4194-9612-ae744c5227de#ref=rss"
+        "https://www.spiegel.de/politik/rente-mit-63-arbeitsminister-alexander-schweitzer-plaediert-fuer-kompromiss-a-9ba88d89-30ba-49e9-9132-1f0e6afe8a4e#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/deutschlandtag-der-jungen-union-jetzt-hat-friedrich-merz-schon-wieder-ein-ju-problem-a-ca82a0ca-038b-4e5c-a9da-aeedc09067ef#ref=rss",
+        "https://www.spiegel.de/kultur/tv/rosenheim-cops-alexander-duda-hoert-auf-gert-achtziger-geht-in-rente-a-7ca3db90-d3d3-4640-8fd5-631b7330f0c9#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/fruehstartrente-so-soll-aus-10-euro-im-monat-eine-rente-von-50-000-euro-werden-a-4bf67846-d9d8-41d4-a469-799845f4dae2#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
+          "count": 5
         },
         {
           "emotion": "confusion",
@@ -169,22 +169,55 @@
         }
       ]
     },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 45,
+      "sample_titles": [
+        "Rente für Kinder und KI für Deutschland",
+        "SPD-Meinungswechsel zu Rente mit 63: \"Nicht unser Problem\"",
+        "Frühstartrente: Manifestiert bestehende Ungleichheiten",
+        "Gerechtigkeit für wen? Streit um Rente, Pflege, Krankenkasse"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/briefing/fruehstartrente-nvidia-midterms-zdfheute-update-100.html",
+        "https://www.zdfheute.de/politik/deutschland/junge-union-deutschlandtag-reddig-rentenreform-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-live---103-sitzung-des-a-5233306.html",
+        "https://www.zdfheute.de/video/drotschmann-xplained-krankenkasse-gerechtigkeit-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 43,
+      "article_count": 41,
       "sample_titles": [
+        "JU-Chef Winkel kontert Schwesig - „Fata Morgana der unmenschlichen Angriffe“",
         "Reformen zu langsam - Merz tritt noch einmal gegen Bas nach",
         "Wegen neuer Rente - Trade-Republic-Chef greift Banken und Versicherer an",
-        "Christian Sewing im BILD-Gespräch - „Einen hohen Betrag monatlich mehr an Rente!“",
-        "JU-Chef Winkel erhöht Druck auf Merz - Kanzler muss „beweisen“, dass er noch der Richtige ist"
+        "Christian Sewing im BILD-Gespräch - „Einen hohen Betrag monatlich mehr an Rente!“"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/johannes-winkel-gegen-schwesig-rentenrebellin-ohne-argumente-6ad26ac05bcdc521aa580391",
         "https://www.bild.de/politik/inland/reformen-zu-langsam-merz-tritt-noch-einmal-gegen-bas-nach-6acdf4398776d79fbd9cb267",
         "https://www.bild.de/leben-wissen/mein-geld-finanzportal/riester-nachfolger-darum-warnt-trade-republic-vor-den-banken-6acd01181c1b22b7c031bbc9",
-        "https://www.bild.de/politik/inland/deutsche-bank-chef-sewing-wir-muessen-an-den-kuendigungsschutz-ran-6ac896106e0a564ee52ea035",
-        "https://www.bild.de/politik/inland/friedrich-merz-unter-druck-das-muss-er-jetzt-beweisen-6ac7d243875184c8758942cb"
+        "https://www.bild.de/politik/inland/deutsche-bank-chef-sewing-wir-muessen-an-den-kuendigungsschutz-ran-6ac896106e0a564ee52ea035"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -202,55 +235,22 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 36,
-      "sample_titles": [
-        "Setzt Schweitzer seine Ankündigungen bei der Rente um?",
-        "Merz: \"Habe nicht die Absicht, Liebling der Nation zu werden\"",
-        "Merz kritisiert Bas' Arbeit, Grüne finden das \"unmöglich\"",
-        "Reform ab 2027: Was passiert mit Riester-Verträgen?"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/schweitzer-arbeitsminister--spd-rente-reform-koalition-100.html",
-        "https://www.zdfheute.de/wirtschaft/merz-wirtschaft-arbeitgebertag-100.html",
-        "https://www.zdfheute.de/politik/merz-arbeitgebertag-bas-gruene-kritik-100.html",
-        "https://www.zdfheute.de/wirtschaft/riester-rente-altersvorsorge-reform-100.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 5
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 31,
+      "article_count": 32,
       "sample_titles": [
-        "Bei diesen drei Themen stockt die Rentenreform",
-        "Was Schweitzer als Arbeitsminister erwartet",
-        "Deutschland hat Nachholbedarf bei Betriebsrenten",
-        "Warum es in der schwarz-roten Koalition knirscht"
+        "Schweitzer fordert Kompromiss bei der Rentenreform",
+        "Bundestag beschließt die Frühstartrente",
+        "Wie das mit der \"Frühstartrente\" laufen soll",
+        "Bei diesen drei Themen stockt die Rentenreform"
       ],
       "urls": [
-        "https://www.tagesschau.de/inland/innenpolitik/rentenreform-empfehlungen-knackpunkte-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/schweitzer-arbeitsminister-reformen-rente-100.html",
-        "https://www.tagesschau.de/wirtschaft/finanzen/betriebsrente-deutschland-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/pflege-zucker-koalition-100.html"
+        "https://www.tagesschau.de/inland/schweitzer-rente-kompromiss-100.html",
+        "https://www1.wdr.de/wirtschaft/rente-kinder-fruehstartrente-bundestag-aktien-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/faq-fruehstartrente-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/rentenreform-empfehlungen-knackpunkte-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -259,12 +259,12 @@
           "count": 4
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "disapproval",
+          "count": 3
         },
         {
           "emotion": "confusion",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -272,18 +272,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 28,
+      "article_count": 32,
       "sample_titles": [
-        "Nach Rücktritt: Klingbeil verteidigt Bas: Rentenreform im Zeitplan",
-        "CDU unter Druck: Klausurtagung soll Streitthemen ausräumen",
-        "Rentenberater: „Es wird oft überschätzt, wie viel Geld man im Ruhestand wirklich braucht“",
-        "Rentenstart: Deutsche flüchten in die Frührente: „Koste es, was es wolle“"
+        "Altersvorsorge schon im Kindesalter: Bundestag beschließt Frühstartrente",
+        "Altersvorsorge: Schon als Kind fürs Alter vorsorgen - die Frühstartrente",
+        "Bundestag entscheidet über Frühstartrente",
+        "Ministerpräsident: Schnieder: Schweitzer bringt Rentenreform auf den Weg"
       ],
       "urls": [
-        "https://www.stern.de/politik/deutschland/nach-ruecktritt--klingbeil-verteidigt-bas--rentenreform-im-zeitplan-38386656.html",
-        "https://www.stern.de/news/cdu-unter-druck--klausurtagung-soll-streitthemen-ausraeumen-38370760.html",
-        "https://www.stern.de/capital/rentenberater--leute-ueberschaetzen--wie-viel-geld-sie-in-rente-brauchen-38368220.html",
-        "https://www.stern.de/capital/frueher-in-rente--so-teuer-sind-die-abschlaege-mit-63--65-und-67-38368078.html"
+        "https://www.stern.de/news/altersvorsorge-schon-im-kindesalter--bundestag-beschliesst-fruehstartrente-38406508.html",
+        "https://www.stern.de/politik/deutschland/altersvorsorge--schon-als-kind-fuers-alter-vorsorgen---die-fruehstartrente-38405176.html",
+        "https://www.stern.de/news/bundestag-entscheidet-ueber-fruehstartrente-38405108.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/ministerpraesident--schnieder--schweitzer-bringt-rentenreform-auf-den-weg-38399278.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -305,31 +305,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 21,
+      "article_count": 23,
       "sample_titles": [
-        "Newsblog zu KI: Streit um Datenschutz: Apple bringt neues Smarthome-Display nicht in die EU",
-        "Altersvorsorge: Ein Depot umsonst – kann das wirklich sein?",
-        "Newsblog zur Bundespolitik: Klingbeil und Söder bekennen sich zu den Plänen der Rentenreform",
-        "Altersvorsorge: „Der Abschied vom öffentlichen Standarddepot wäre ein Desaster für alle Sparer“"
+        "Podcast „Auf den Punkt“: Wie gerecht ist die Rente mit 63?",
+        "Reformdebatte: Eine Einladung zur Frührente",
+        "Deutsche Post: Regierung kippt Steuerprivileg der Post bei Geschäftsbriefen",
+        "Newsblog zu KI: Streit um Datenschutz: Apple bringt neues Smarthome-Display nicht in die EU"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/ki-newsblog-usa-apple-homeview-eu-kommission-datenschutz-streit-li.3547133",
-        "https://www.sueddeutsche.de/wirtschaft/altersvorsorgedepot-trade-republic-gebuehren-etf-altersvorsorge-li.3560560",
-        "https://www.sueddeutsche.de/politik/bundesregierung-news-liveblog-bas-ruecktritt-klingbeil-soeder-rentenreform-li.3529564",
-        "https://www.sueddeutsche.de/politik/altersvorsorge-standarddepot-verzoegerung-kritik-li.3560926"
+        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-rente-sozialpolitik-rentenreform-li.3564493",
+        "https://www.sueddeutsche.de/wirtschaft/bundesregierung-reformen-rente-fruehrente-li.3563519",
+        "https://www.sueddeutsche.de/wirtschaft/deutsche-post-steuerprivileg-geschaeftsbriefe-umsatzsteuer-bundesregierung-li.3563742",
+        "https://www.sueddeutsche.de/politik/ki-newsblog-usa-apple-homeview-eu-kommission-datenschutz-streit-li.3547133"
       ],
-      "dominant_emotion": "excitement",
+      "dominant_emotion": "confusion",
       "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
         {
           "emotion": "excitement",
           "count": 1
         },
         {
           "emotion": "love",
-          "count": 1
-        },
-        {
-          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -367,68 +367,35 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 15,
-      "sample_titles": [
-        "Statt Herbst der Reformen – Frühling der Reformen oder Winter des Rücktritts?",
-        "503 Tage Polit-Pflegefall Merz",
-        "Alles kreist um die Rente – mit 63 oder 65 oder 67",
-        "Die Staatsparteien im Rentenalter klammern sich an Weiterbeschäftigung"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/reformen-merz-cdu/",
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/rente-pflege-steuern-merz/",
-        "https://www.tichyseinblick.de/daili-es-sentials/rente-63-cdu-csu-spd/",
-        "https://www.tichyseinblick.de/daili-es-sentials/parteienstaat-afd-verbot/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 14,
+      "article_count": 18,
       "sample_titles": [
-        "Altersvorsorge: So fangt ihr an, mit ETFs zu sparen",
-        "Rente: Gordon Schnieder lehnt Beratungsvorschlag der SPD zur Rente ab",
-        "Rentenreform: Unionsfraktionsvize weist Renten-Vorstoß von Matthias Miersch zurück",
-        "Bahnverkehr: Bahn muss laut Gericht keine Kapazitäten für Konkurrenz freihalten"
+        "Altersvorsorge: Schon als Kind fürs Alter vorsorgen - die Frühstartrente",
+        "Verbrenner-Aus: Verbrenner aus, Verbrenner an",
+        "Migration und Sozialstaat: Ja, Migranten zahlen Ihre Rente",
+        "Jugendorganisation der Union: Junge Union beginnt dreitägigen  »Deutschlandtag« in Bonn"
       ],
       "urls": [
-        "https://www.zeit.de/geld/2026-10/altersvorsorge-etfs-sparen-geldanlage-tipps",
-        "https://www.zeit.de/politik/deutschland/2026-10/rentenreform-spd-matthias-miersch-ministerpraesidenten-cdu-norbert-schnieder-abschlagsfreie-rente",
-        "https://www.zeit.de/politik/deutschland/2026-10/rentenreform-spd-cdu-johannes-winkel-matthias-miersch",
-        "https://www.zeit.de/mobilitaet/2026-10/deutsche-bahn-fernverkehr-bundesnetzagentur-wettbewerb-verwaltungsgericht-koeln-gxe"
+        "https://www.zeit.de/news/2026-10/16/schon-als-kind-fuers-alter-vorsorgen-die-fruehstartrente",
+        "https://www.zeit.de/politik/2026-10/verbrenner-aus-einigung-autoindustrie-nachrichtenpodcast",
+        "https://www.zeit.de/wirtschaft/2026-10/migration-sozialstaat-zuwanderung-rente-pflege",
+        "https://www.zeit.de/politik/deutschland/2026-10/junge-union-deutschlandtag-bonn-friedrich-merz-hendrik-wuest-markus-soeder"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
         {
           "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         },
         {
           "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -437,18 +404,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 11,
+      "article_count": 14,
       "sample_titles": [
-        "Sieben Probleme der Koalition: Wo die Regierung noch nach Lösungen sucht",
-        "Bärbel Bas wirft hin: Der Versuch eines sozialpolitischen Korrektivs",
-        "Rente mit 63: Eine Frage der Gerechtigkeit",
-        "Umbau des Sozialstaats: Kommen jetzt gerechte Reformen?"
+        "Frühstartrente beschlossen: Kinder am Kapitalmarkt",
+        "Ex-Bürgermeisterin von Barcelona: Die Rückkehr der Mietenkämpferin",
+        "Geflüchtetenunterkunft in Berlin: Zuflucht bei der Rentenversicherung",
+        "Sieben Probleme der Koalition: Wo die Regierung noch nach Lösungen sucht"
       ],
       "urls": [
-        "https://taz.de/Sieben-Probleme-der-Koalition/!6221296/",
-        "https://taz.de/Ruecktritt-von-Baerbel-Bas/!6220952/",
-        "https://taz.de/Rente-mit-63/!6216936/",
-        "https://taz.de/Umbau-des-Sozialstaats/!6211112/"
+        "https://taz.de/Fruehstartrente-beschlossen/!6222209/",
+        "https://taz.de/Ex-Buergermeisterin-von-Barcelona/!6221689/",
+        "https://taz.de/Gefluechtetenunterkunft-in-Berlin/!6216649/",
+        "https://taz.de/Sieben-Probleme-der-Koalition/!6221296/"
       ],
       "dominant_emotion": "disgust",
       "top_emotions": [
@@ -466,22 +433,55 @@
         }
       ]
     },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 14,
+      "sample_titles": [
+        "Lungenkrebs:  Papst Leo XIV. 90 Minuten operiert",
+        "Statt Herbst der Reformen – Frühling der Reformen oder Winter des Rücktritts?",
+        "503 Tage Polit-Pflegefall Merz",
+        "Alles kreist um die Rente – mit 63 oder 65 oder 67"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/der-papst-hat-krebs/",
+        "https://www.tichyseinblick.de/kolumnen/goergens-feder/reformen-merz-cdu/",
+        "https://www.tichyseinblick.de/kolumnen/goergens-feder/rente-pflege-steuern-merz/",
+        "https://www.tichyseinblick.de/daili-es-sentials/rente-63-cdu-csu-spd/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 6,
+      "article_count": 8,
       "sample_titles": [
+        "Migrationspolitik Fratzscher ignoriert Milliardenkosten beim Bürgergeld und feiert Migranten als Rentenretter",
+        "„Braune Scheiße zu brauner Scheiße“ Linksextreme kippen bundesweit Pferdemist vor CDU-Büros ab",
         "Kerkelings schwächster Auftritt AfD-Verbotsfarce mit mehr als einem Clown",
-        "Sozialpolitik Klingbeil will Selbstständige und Beamte in der gesetzlichen Rentenkasse",
-        "Sozialpolitik Regierung diskutiert über Ende der abschlagsfreien Rente nach 45 Jahren",
-        "Altersvorsorge Wie Versorgungswerke Milliarden an Rentengeldern verzocken"
+        "Sozialpolitik Klingbeil will Selbstständige und Beamte in der gesetzlichen Rentenkasse"
       ],
       "urls": [
+        "https://jungefreiheit.de/politik/deutschland/2026/fratzscher-ignoriert-milliardenkosten-beim-buergergeld-und-feiert-migranten-als-rentenretter/",
+        "https://jungefreiheit.de/politik/deutschland/2026/linksextreme-kippen-bundesweit-pferdemist-vor-cdu-bueros-ab/",
         "https://jungefreiheit.de/debatte/kommentar/2026/afd-verbotsfarce-mit-mehr-als-einem-clown/",
-        "https://jungefreiheit.de/politik/deutschland/2026/klingbeil-will-selbststaendige-und-beamte-in-der-gesetzlichen-rentenkasse/",
-        "https://jungefreiheit.de/politik/deutschland/2026/regierung-diskutiert-ueber-ende-der-abschlagsfreien-rente-nach-45-jahren/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wie-versorgungswerke-milliarden-an-rentengeldern-verzocken/"
+        "https://jungefreiheit.de/politik/deutschland/2026/klingbeil-will-selbststaendige-und-beamte-in-der-gesetzlichen-rentenkasse/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -530,24 +530,24 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 104,
-    "left-liberal": 106,
-    "right-conservative": 131,
-    "neutral": 67,
-    "populist-mixed": 43,
+    "conservative-liberal": 108,
+    "left-liberal": 118,
+    "neutral": 77,
+    "far-right": 23,
+    "populist-mixed": 41,
     "economic-liberal": 54,
-    "left": 11,
-    "far-right": 22
+    "left": 14,
+    "right-conservative": 136
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber deutlich, dass der demografische Wandel die Finanzierbarkeit der gesetzlichen Rentenversicherung langfristig gefährdet und deshalb strukturelle Reformen unverzichtbar sind, wobei die meisten Beiträge die Notwendigkeit einer Kombination aus Beitrags‑ und kapitalgedeckten Elementen betonen. Gleichzeitig zeigen fast alle Berichte, dass die aktuelle Reformstau‑Situation und die Uneinigkeit über das Renteneintrittsalter – sei es 63, 67 oder 70 Jahre – als zentrales Hindernis für eine stabile Altersvorsorge wahrgenommen werden, was zu wiederholten Forderungen nach schnellerer Gesetzgebung und klareren Generationengerechtigkeitsprinzipien führt. Schließlich wird in den meisten Analysen die Gefahr von Altersarmut hervorgehoben und die Erwartung geäußert, dass sowohl staatliche Maßnahmen als auch private Vorsorgemodelle stärker koordiniert werden müssen, um Versorgungslücken zu schließen.",
-      "controversial_points": "Das Renteneintrittsalter spaltet konservative und linke Medien zwischen Generationengerechtigkeit und sozialer Absicherung. Kapitalgedeckte Modelle werden von Wirtschaftsliberalen als Lösung für demografischen Wandel präsentiert, während Sozialdemokraten sie als Risiko für Altersarmut kritisieren. Die Riester-Rente gilt im rechten Spektrum als Symbol für staatliche Fehlsteuerung, im linken Diskurs als notwendige Grundabsicherung."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber deutlich, dass der demografische Wandel die Finanzierbarkeit der gesetzlichen Rente langfristig gefährdet und deshalb eine Reform unvermeidlich ist, wobei sowohl konservative als auch linke Beiträge die Notwendigkeit eines strukturellen Ausgleichs zwischen Beitragszahlern und Rentnern betonen. Gleichzeitig zeigen fast alle Berichte, dass die Frühstartrente als umstrittenes Instrument gilt, das zwar kurzfristig soziale Entlastung bietet, aber von vielen Seiten als potenzielle Belastung für nachfolgende Generationen kritisiert wird. Schließlich wird in den meisten Artikeln die politische Spannung innerhalb der Regierungskoalition hervorgehoben, weil sowohl SPD als auch Union unter öffentlichem Druck stehen, einen Kompromiss zu finden, der sowohl die Generationengerechtigkeit als auch die finanzielle Stabilität gewährleistet.",
+      "controversial_points": "Die Finanzierung der gesetzlichen Rente steht zwischen demografischem Wandel und wachsendem Sozialstaatdruck. Konservative Medien betonen Generationengerechtigkeit durch spätere Renten und private Vorsorge. Linke Publikationen fordern höhere Staatsleistungen, kritisieren Frühstartrente als Armutsverschärfung. Wirtschaftsliberale Stimmen warnen vor Kostenexplosion, fordern kapitalgedeckte Modelle und Beitragsdeckel."
     },
     "en": {
-      "shared_perspectives": "Across the German press, regardless of political orientation, there is a clear consensus that demographic ageing is eroding the fiscal balance of the statutory pension system and that reform is therefore unavoidable. The coverage uniformly agrees that viable reforms will have to combine adjustments to the retirement age or contribution rates with the promotion of supplemental private savings, while rejecting a return to a fully capital‑funded model as a sufficient solution.",
-      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability of the pay‑as‑you‑go system. Conservatives demand higher retirement age and private capital solutions, while left parties defend early retirement and universal coverage. The Riester and private pension market becomes a battleground over state subsidies versus market competition. Media frames the issue as a clash between social solidarity values and neoliberal efficiency narratives."
+      "shared_perspectives": "Across the spectrum German media uniformly acknowledge that demographic ageing is eroding the fiscal balance of the statutory pension scheme and that some form of reform is unavoidable. At the same time there is broad consensus that the newly introduced Frühstartrente, while politically popular, deepens inter‑generational inequities and risks widening the pension gap for low‑income earners. Most outlets, irrespective of orientation, agree that any sustainable solution must combine a modest state contribution with incentives for private capital‑based savings rather than relying solely on generous early‑retirement allowances.",
+      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability of the pay‑as‑you‑go system. Conservatives demand early retirement incentives while left parties stress poverty risk for low‑income seniors. Economic liberals push for capital‑funded private pillars, clashing with social‑democratic calls for universal solidarity. Populist outlets frame pension reforms as elite betrayal, linking migration and welfare costs to pension burdens."
     }
   },
-  "cached_at": "2026-10-14T09:45:23.472082"
+  "cached_at": "2026-10-17T08:51:42.852777"
 }
