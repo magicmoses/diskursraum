@@ -4,55 +4,22 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 114,
-      "sample_titles": [
-        "USA unter Trump: Trump will Ozean umbenennen – Google stellt sich angeblich quer",
-        "USA unter Trump: Katie Zacharia gibt Amt als Pressesprecherin nach wenigen Tagen auf",
-        "F.A.Z. PODCAST FÜR DEUTSCHLAND: Militärexperte Lange: „Situation im Schwarzen Meer dramatisch“",
-        "Schutz vor Spionage: Forschungssicherheit bedeutet nicht Abschottung"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-will-ozean-umbenennen-google-stellt-sich-angeblich-quer-faz-19444916.html",
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-zacharia-gibt-amt-als-pressesprecherin-auf-faz-19444916.html",
-        "https://www.faz.net/podcasts/f-a-z-podcast-fuer-deutschland/militaerexperte-lange-situation-im-schwarzen-meer-dramatisch-201539806.html",
-        "https://www.faz.net/aktuell/politik/inland/neue-plattform-forschungssicherheit-bedeutet-nicht-abschottung-201528956.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 4
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 112,
+      "article_count": 111,
       "sample_titles": [
-        "Wie stark ist Putins Armee?: US-General: Nato wäre Russland \"im echten Krieg\" überlegen",
-        "Wer steckte dahinter?: Republikaner fordern Untersuchung wegen Starlink-Drosselung",
-        "Sexuelle Übergriffe in Weißenfels?: Wehrbeauftragter fordert Aufklärung bei Sanitätsregiment",
-        "\"Das derzeit tödlichste Meer\": Wieder Angriffe auf Tanker vor Rumänien - Nato beschuldigt Kreml"
+        "Raketen aus dem Jemen: Saudi-Arabien wehrt Angriffe der Huthi ab",
+        "Vorfall über Schwarzem Meer: Rumänische Armee schießt russische Geran-Drohnen ab",
+        "Warmschießen für Real: FC Barcelona feiert Schützenfest gegen Verfolger",
+        "Iran intensiviert Angriffe: Behörde meldet Tankerbeschuss weit von Hormus-Passage entfernt"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/US-General-Nato-waere-Russland-im-echten-Krieg-ueberlegen-id31424413.html",
-        "https://www.n-tv.de/politik/Republikaner-fordern-Untersuchung-wegen-Starlink-Drosselung-id31425337.html",
-        "https://www.n-tv.de/politik/Wehrbeauftragter-fordert-Aufklaerung-bei-Sanitaetsregiment-id31425038.html",
-        "https://www.n-tv.de/politik/Wieder-Angriffe-auf-Tanker-vor-Rumaenien-Nato-beschuldigt-Kreml-id31424222.html"
+        "https://www.n-tv.de/politik/Saudi-Arabien-wehrt-Angriffe-der-Huthi-ab-id31430207.html",
+        "https://www.n-tv.de/politik/Rumaenische-Armee-schiesst-russische-Geran-Drohnen-ab-id31430168.html",
+        "https://www.n-tv.de/sport/fussball/FC-Barcelona-feiert-Schuetzenfest-gegen-Verfolger-id31429989.html",
+        "https://www.n-tv.de/politik/Behoerde-meldet-Tankerbeschuss-weit-von-Hormus-Passage-entfernt-id31429029.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -70,29 +37,58 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 110,
+      "sample_titles": [
+        "Grüne und Pazifismus: Wie wir Grünen uns vom Fundamentalpazifismus lossagten",
+        "USA unter Trump: Trump will Ozean umbenennen – Google stellt sich angeblich quer",
+        "USA unter Trump: Katie Zacharia gibt Amt als Pressesprecherin nach wenigen Tagen auf",
+        "F.A.Z. PODCAST FÜR DEUTSCHLAND: Militärexperte Lange: „Situation im Schwarzen Meer dramatisch“"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/inland/wie-die-gruenen-vom-radikalpazifismus-zur-verteidigung-kamen-accg-201259677.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-will-ozean-umbenennen-google-stellt-sich-angeblich-quer-faz-19444916.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-zacharia-gibt-amt-als-pressesprecherin-auf-faz-19444916.html",
+        "https://www.faz.net/podcasts/f-a-z-podcast-fuer-deutschland/militaerexperte-lange-situation-im-schwarzen-meer-dramatisch-201539806.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "approval",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
+          "count": 4
+        }
+      ]
+    },
     "welt": {
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 86,
+      "article_count": 84,
       "sample_titles": [
-        "Musk selbst soll Trump Starshield-Einschränkungen für Kiew vorgeschlagen haben",
-        "Selenskyj weist Kritik von Trump zurück – und bittet EU um 70 Milliarden Euro",
-        "„Viva, viva, Palästina“ – Schüler protestierten vor Berliner Gymnasien",
-        "US-Regierung hat laut Insidern Starlink-Drosselung für Ukraine angeordnet"
+        "„Dammbruch“ – CDU warnt vor „verheerenden Folgen“ für Berlin",
+        "Drei Millionen Euro Beute, nur 10.000 Euro Anteil – dann packte der Komplize aus",
+        "Hightech im Gefecht – Wie Bodendrohnen den Ukraine-Krieg verändern",
+        "Musk selbst soll Trump Starshield-Einschränkungen für Kiew vorgeschlagen haben"
       ],
       "urls": [
-        "https://www.welt.de/politik/ausland/article6ad2758f199dc15f1abd6cf2/folgen-fuer-kiews-abwehr-musk-selbst-soll-trump-starshield-einschraenkungen-fuer-kiew-vorgeschlagen-haben.html",
-        "https://www.welt.de/politik/ausland/article6ad21ee5d2eabbd56ed6a10f/ukraine-krieg-selenskyj-weist-kritik-von-trump-zurueck-und-bittet-eu-um-70-milliarden-euro.html",
-        "https://www.welt.de/vermischtes/article6ad1ee4c51e5094f7a56e6e9/berlin-viva-viva-palaestina-schueler-blockieren-gymnasien.html",
-        "https://www.welt.de/politik/ausland/article6ad1dbc80e64c69ce0e15620/ukraine-krieg-us-regierung-hat-laut-insidern-einschraenkung-von-starshield-fuer-ukraine-angeordnet.html"
+        "https://www.welt.de/politik/deutschland/article6ad3af6a5784be99e043c663/rot-gruen-rote-einigung-dammbruch-cdu-warnt-vor-verheerenden-folgen-fuer-berlin.html",
+        "https://www.welt.de/politik/deutschland/plus6ad325608bebffb7f8cb4d3c/sparkassen-einbruch-drei-millionen-euro-beute-nur-10-000-euro-anteil-dann-packte-der-komplize-aus.html",
+        "https://www.welt.de/videos/video6ad3040f199dc15f1abd6ff0/putins-krieg-hightech-im-gefecht-wie-bodendrohnen-den-ukraine-krieg-veraendern.html",
+        "https://www.welt.de/politik/ausland/article6ad2758f199dc15f1abd6cf2/folgen-fuer-kiews-abwehr-musk-selbst-soll-trump-starshield-einschraenkungen-fuer-kiew-vorgeschlagen-haben.html"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "anger",
       "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
         {
           "emotion": "anger",
           "count": 2
@@ -100,6 +96,10 @@
         {
           "emotion": "sadness",
           "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
         }
       ]
     },
@@ -107,18 +107,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 83,
+      "article_count": 82,
       "sample_titles": [
+        "Oberstdorf: Feuerwehrmann stirbt bei Lauf an Skiflugschanze im Oberallgäu",
+        "Ukraine: Wolodymyr Selenskyj beklagt anhaltende Drosselung von Starlink in der Ukraine",
         "EU-Gipfel: Bröckelt jetzt die Unterstützung für die Ukraine?",
-        "Kanaren: Warum auf La Palma nun diese vier Riesenspiegel stehen",
-        "Ukraine: Weißes Haus soll Starshield-Einsatz für Kyjiw begrenzt haben",
-        "Alexus Grynkewich: Nato-Oberbefehlshaber über Kriegsszenarien mit Russland"
+        "Kanaren: Warum auf La Palma nun diese vier Riesenspiegel stehen"
       ],
       "urls": [
+        "https://www.spiegel.de/panorama/oberstdorf-feuerwehrmann-stirbt-bei-lauf-an-skiflugschanze-im-oberallgaeu-a-9ff79f97-fb44-49a0-b6ce-530cf61261e4#ref=rss",
+        "https://www.spiegel.de/ausland/urkaine-wolodymyr-selenskyj-beklagt-anhaltende-drosselung-von-starlink-in-der-ukraine-a-8e43cbbd-11bc-4a8a-a33c-1a6a24b6e981#ref=rss",
         "https://www.spiegel.de/politik/deutschland/eu-gipfel-broeckelt-jetzt-die-unterstuetzung-fuer-die-ukraine-a-c0bbe93c-b8ee-48c0-a6a9-e4c83304e644#ref=rss",
-        "https://www.spiegel.de/wissenschaft/technik/kanaren-warum-auf-la-palma-nun-diese-vier-riesenspiegel-stehen-a-4a5a4e07-3552-40f5-a042-1753eebb348f#ref=rss",
-        "https://www.spiegel.de/politik/ukraine-krieg-weisses-haus-soll-starshield-einsatz-begrenzt-haben-a-202e59ca-08b8-4fd9-8907-9dc8d063e3e5#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/alexus-grynkewich-nato-oberbefehlshaber-ueber-kriegsszenarien-mit-russland-a-d42d7e7b-cfd9-4200-bc98-0d5cd808f84c#ref=rss"
+        "https://www.spiegel.de/wissenschaft/technik/kanaren-warum-auf-la-palma-nun-diese-vier-riesenspiegel-stehen-a-4a5a4e07-3552-40f5-a042-1753eebb348f#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -136,55 +136,22 @@
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 58,
-      "sample_titles": [
-        "Eine Kultur des Wegsehens bei der Bundeswehr?",
-        "Panzerbauer KNDS bald Staatskonzern? Unternehmen widerspricht Berichten",
-        "Reservedienst soll verpflichtend werden",
-        "Slowakei erneuert Militärkontakte mit Russland"
-      ],
-      "urls": [
-        "https://www.tagesschau.de/inland/bundeswehr-sexuelles-fehlverhalten-100.html",
-        "https://www.hessenschau.de/wirtschaft/panzerbauer-knds-bald-staatskonzern-unternehmen-widerspricht-berichten-v2,knds-kassel-staatskonzern-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-reservestaerkungsgesetz-100.html",
-        "https://www.tagesschau.de/ausland/europa/slowakei-fico-russland-102.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 1
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 57,
+      "article_count": 56,
       "sample_titles": [
+        "+++ Iran-Krieg +++: Iran – Erneut Explosion an Supertanker in der Straße von Hormus",
+        "+++ Iran-Krieg +++: Iran: Supertanker fährt in Straße von Hormus auf Seemine",
         "+++ USA +++: Trumps neue Sprecherin verliert Job in der ersten Woche im Amt",
-        "Ukraine-Krieg: Russland greift immer mehr Frachtschiffe im Schwarzen Meer an",
-        "Militär: Nato-General hält die Allianz im Konflikt mit Russland für klar überlegen",
-        "+++ USA +++: Trumps neue Sprecherin ist bei Anwaltsprüfung durchgefallen"
+        "Ukraine-Krieg: Russland greift immer mehr Frachtschiffe im Schwarzen Meer an"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/international/iran-krieg-iran-erneut-explosion-an-supertanker-in-strasse-von-hormus/100136895.html",
+        "https://www.handelsblatt.com/politik/international/iran-krieg-iran-supertanker-faehrt-in-strasse-von-hormus-auf-seemine/100136895.html",
         "https://www.handelsblatt.com/politik/international/usa-trumps-neue-sprecherin-verliert-job-in-der-ersten-woche-im-amt/29669594.html",
-        "https://www.handelsblatt.com/politik/international/ukraine-krieg-russland-greift-immer-mehr-frachtschiffe-im-schwarzen-meer-an/100262748.html",
-        "https://www.handelsblatt.com/politik/international/konflikt-mit-russland-general-haelt-die-nato-fuer-klar-ueberlegen/100262779.html",
-        "https://www.handelsblatt.com/politik/international/usa-trumps-neue-sprecherin-ist-bei-anwaltspruefung-durchgefallen/29669594.html"
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-russland-greift-immer-mehr-frachtschiffe-im-schwarzen-meer-an/100262748.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -206,31 +173,64 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 49,
+      "article_count": 54,
       "sample_titles": [
-        "Angreifer von Fort Hood: Trump sagt Liveübertragung der Hinrichtung ab",
-        "Nach erneuten Vorfällen: Nato will über Drohnenangriffe im Schwarzen Meer beraten",
-        "Militär-Erschießung: Trump sagt Live-Übertragung von Hinrichtung ab",
-        "Umrüstung der Busflotten: Weniger Geld für E-Busse - Branche warnt vor Folgen"
+        "„Ernsthafter Zwischenfall“: Tote und Verletzte bei Vorfall auf Militärbasis in Kanada",
+        "Bundeswehr an der Küste: Wo die Marine stationiert ist - und wo sie investieren will",
+        "Bundeswehr an der Küste: Kieler Verhandlungen zum Marinegelände dauern länger",
+        "Lula und Bolsonaro liefern sich Fernsehduell vor Stichwahl"
       ],
       "urls": [
-        "https://www.stern.de/news/angreifer-von-fort-hood--trump-sagt-liveuebertragung-der-hinrichtung-ab-38403554.html",
-        "https://www.stern.de/news/nach-erneuten-vorfaellen--nato-will-ueber-drohnenangriffe-im-schwarzen-meer-beraten-38404060.html",
-        "https://www.stern.de/politik/ausland/militaer-erschiessung--trump-sagt-live-uebertragung-von-hinrichtung-ab-38403308.html",
-        "https://www.stern.de/wirtschaft/news/umruestung-der-busflotten--weniger-geld-fuer-e-busse---branche-warnt-vor-folgen-38399286.html"
+        "https://www.stern.de/politik/ausland/-ernsthafter-zwischenfall---tote-und-verletzte-bei-vorfall-auf-militaerbasis-in-kanada-38413576.html",
+        "https://www.stern.de/politik/deutschland/bundeswehr-an-der-kueste--wo-die-marine-stationiert-ist---und-wo-sie-investieren-will-38413568.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/bundeswehr-an-der-kueste--kieler-verhandlungen-zum-marinegelaende-dauern-laenger-38413518.html",
+        "https://www.stern.de/news/lula-und-bolsonaro-liefern-sich-fernsehduell-vor-stichwahl-38413490.html"
       ],
-      "dominant_emotion": "disapproval",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
         {
           "emotion": "disapproval",
           "count": 2
         },
         {
-          "emotion": "optimism",
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 54,
+      "sample_titles": [
+        "Tote und Verletzte auf kanadischem Militärstützpunkt",
+        "Eine Kultur des Wegsehens bei der Bundeswehr?",
+        "Panzerbauer KNDS bald Staatskonzern? Unternehmen widerspricht Berichten",
+        "Reservedienst soll verpflichtend werden"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/ausland/amerika/zwischenfall-militaerstutzpunkt-kanada-100.html",
+        "https://www.tagesschau.de/inland/bundeswehr-sexuelles-fehlverhalten-100.html",
+        "https://www.hessenschau.de/wirtschaft/panzerbauer-knds-bald-staatskonzern-unternehmen-widerspricht-berichten-v2,knds-kassel-staatskonzern-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-reservestaerkungsgesetz-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "grief",
           "count": 1
         },
         {
-          "emotion": "desire",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -241,16 +241,16 @@
       "bias": "left",
       "article_count": 42,
       "sample_titles": [
+        "Schulblockaden in Berlin: Protest statt Physiktest",
         "Herbstgipfel der EU: Die EU gibt es nur mit einer sicheren Ukraine",
         "Einstieg bei Rüstungskonzern: Staat will bald Bundes-Panzer bauen",
-        "Israelische Doku „Naza“: Sie sind Helden",
-        "Kunstsammlung der NVA zu sehen: Bekenntnisse unterm Hochdruckreiniger"
+        "Israelische Doku „Naza“: Sie sind Helden"
       ],
       "urls": [
+        "https://taz.de/Schulblockaden-in-Berlin/!6222186/",
         "https://taz.de/Herbstgipfel-der-EU/!6218242/",
         "https://taz.de/Einstieg-bei-Ruestungskonzern/!6221834/",
-        "https://taz.de/Israelische-Doku-Naza/!6220764/",
-        "https://taz.de/Kunstsammlung-der-NVA-zu-sehen/!6221485/"
+        "https://taz.de/Israelische-Doku-Naza/!6220764/"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -272,21 +272,25 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 40,
+      "article_count": 41,
       "sample_titles": [
-        "Von Starlink-System der Ukraine - Musk soll Trump Drosselung vorgeschlagen haben",
-        "Pistorius: „Entsetzlich“ - Bundeswehr ermittelt gegen zehn Soldaten",
-        "BILD-Lagezentrum - Horror-Nacht in Kiew! Was Trump damit zu tun hat",
-        "Gegen Ukraine-Hilfen - AfD und BSW beschließen ersten gemeinsamen Antrag"
+        "Alarm über Rumänien - Nato-Jets schießen zwei Drohnen ab",
+        "Wadephul zur Ukraine-Hilfe - Deutschland zahlt bis zum Frieden",
+        "Trotzdem darf er bei Luftwaffe arbeiten - Bundeswehr-Offizier filmte Stieftöchter beim Duschen",
+        "Von Starlink-System der Ukraine - Musk soll Trump Drosselung vorgeschlagen haben"
       ],
       "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/musk-soll-trump-starshield-bremse-fuer-ukraine-vorgeschlagen-haben-6ad2705d5762b122df9858e4",
-        "https://www.bild.de/politik/inland/pistorius-spricht-widerwaertigen-vorwuerfen-bundeswehr-ermittelt-gegen-zehn-soldaten-6acfcd1655255c71b7f208dd",
-        "https://www.bild.de/politik/ausland-und-internationales/bild-lagezentrum-horror-nacht-in-kiew-was-trump-damit-zu-tun-hat-6acf694685ec8093bcfbddf6",
-        "https://www.bild.de/politik/inland/afd-und-bsw-beschliessen-erstmals-gemeinsamen-antrag-gegen-ukraine-hilfen-6acf907e77d7df6c69d6c2b3"
+        "https://www.bild.de/politik/ausland-und-internationales/nato-kampfjets-im-einsatz-rumaenien-schiesst-zwei-drohnen-ab-6ad39bcd51e5094f7a56fe6c",
+        "https://www.bild.de/politik/ausland-und-internationales/ukraine-hilfe-was-merz-kein-euro-fehlt-wirklich-bedeutet-6ad333e8992af73088da2538",
+        "https://www.bild.de/regional/berlin/oberstleutnant-darf-trotzdem-weiterarbeiten-bundeswehr-offizier-filmte-stieftoechter-beim-duschen-6ad2ff7b51e5094f7a56f586",
+        "https://www.bild.de/politik/ausland-und-internationales/musk-soll-trump-starshield-bremse-fuer-ukraine-vorgeschlagen-haben-6ad2705d5762b122df9858e4"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
         {
           "emotion": "fear",
           "count": 2
@@ -294,10 +298,6 @@
         {
           "emotion": "curiosity",
           "count": 2
-        },
-        {
-          "emotion": "anger",
-          "count": 1
         }
       ]
     },
@@ -305,31 +305,31 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 35,
+      "article_count": 34,
       "sample_titles": [
+        "Welche Drohnen Satelliteninternet brauchen",
         "Nato-General: Russland ist uns militärisch klar unterlegen",
         "Alkohol und Zigaretten",
-        "Bundeswehr bestätigt Ermittlungen gegen zehn Personen",
-        "Debatte zum Bundeswehreinsatz im Roten Meer"
+        "Bundeswehr bestätigt Ermittlungen gegen zehn Personen"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/ausland/drohnen-starlink-satellitenverbindung-ukraine-krieg-russland-100.html",
         "https://www.zdfheute.de/politik/ausland/nato-general-russland-militaerisch-unterlegen-100.html",
         "https://www.zdfheute.de/briefing/alkoholverbot-tabaksteuer-bundeswehr-zdfheute-update-100.html",
-        "https://www.zdfheute.de/politik/deutschland/bundeswehr-sexuelles-fehlverhalten-soldaten-spiegel-weissenfels-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5240288"
+        "https://www.zdfheute.de/politik/deutschland/bundeswehr-sexuelles-fehlverhalten-soldaten-spiegel-weissenfels-100.html"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
         {
           "emotion": "approval",
           "count": 1
         },
         {
           "emotion": "joy",
-          "count": 1
-        },
-        {
-          "emotion": "fear",
           "count": 1
         }
       ]
@@ -338,18 +338,18 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 31,
+      "article_count": 32,
       "sample_titles": [
+        "DER ANDERE BLICK MIT DATEN - Deutschland rechnet die Ukraine-Hilfe schön. Mehr als ein Drittel fliesst in Sozialleistungen für Flüchtlinge",
+        "Der Nato-Siegesplan, der eine Niederlage überspielt",
         "Le Pen und Weidel wollen die Ukraine-Hilfe stoppen – gerade als Selenski in Brüssel um zusätzliche 70 Milliarden Euro bittet",
-        "Geblitzt wird auch aus der Luft: Mit Drohnen überwacht die Polizei Autofahrer unbemerkt von oben",
-        "KOMMENTAR - Trump macht sich zum Werkzeug des Kremls",
-        "KOMMENTAR - Militärische Schlagkraft und Diplomatie: Damit kann Saudiarabien die Huthi-Rebellen zügeln"
+        "Geblitzt wird auch aus der Luft: Mit Drohnen überwacht die Polizei Autofahrer unbemerkt von oben"
       ],
       "urls": [
+        "https://www.nzz.ch/der-andere-blick/deutschland-rechnet-die-ukraine-hilfe-schoen-mehr-als-ein-drittel-fliesst-in-sozialleistungen-fuer-fluechtlinge-ld.10032761",
+        "https://www.nzz.ch/pro/der-nato-siegesplan-der-eine-niederlage-ueberspielt-ld.10033585",
         "https://www.nzz.ch/international/le-pen-und-weidel-wollen-ukraine-hilfe-stoppen-selenski-wirbt-um-mehr-geld-ld.10035589",
-        "https://www.nzz.ch/schweiz/geblitzt-wird-auch-aus-der-luft-mit-drohnen-ueberwacht-die-polizei-autofahrer-unbemerkt-von-oben-ld.10035694",
-        "https://www.nzz.ch/meinung/starklink-einschraenkung-und-weiterer-druck-auf-die-ukraine-trump-als-werkzeug-des-kremls-ld.10034748",
-        "https://www.nzz.ch/meinung/militaerische-schlagkraft-und-diplomatie-damit-kann-saudiarabien-die-huthi-rebellen-zuegeln-ld.10032661"
+        "https://www.nzz.ch/schweiz/geblitzt-wird-auch-aus-der-luft-mit-drohnen-ueberwacht-die-polizei-autofahrer-unbemerkt-von-oben-ld.10035694"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -371,18 +371,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 30,
+      "article_count": 31,
       "sample_titles": [
+        "Krieg in Nahost: Saudi-Arabien fängt ballistische Raketen und Drohnen aus Jemen ab",
         "Krieg in der Ukraine: US-Senatoren verlangen Klarheit über Starlink-Drosselung in der Ukraine",
         "Nordkorea: Marschflugkörper vom U-Boot aus getestet",
-        "Prozess um PKW-Maut: „Sie müssen etwas für Deutschland tun“",
-        "ÖPNV: Smarte Ampeln für pünktliche Busse"
+        "Prozess um PKW-Maut: „Sie müssen etwas für Deutschland tun“"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/liveblog-nahost-news-huthi-saudi-arabien-drohnen-raketen-li.3560260",
         "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-usa-starlink-senatoren-aufklaerung-li.3563283",
         "https://www.sueddeutsche.de/politik/raketen-tests-suedkorea-japan-li.3563834",
-        "https://www.sueddeutsche.de/politik/andreas-scheuer-pkw-maut-prozess-falschaussage-verteidigung-li.3563364",
-        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/unterhaching-ampeln-busse-oepnv-pilotprojekt-li.3560757"
+        "https://www.sueddeutsche.de/politik/andreas-scheuer-pkw-maut-prozess-falschaussage-verteidigung-li.3563364"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -404,18 +404,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 26,
+      "article_count": 29,
       "sample_titles": [
-        "Wolodymyr Selenskyj in Brüssel: Selenskyj warnt vor Lockerung der Sanktionen gegen Russland",
-        "Starlink: US-Senatoren verlangen Klarheit zu Starlink-Drosselung",
-        "Schulproteste in Frankreich als Vorbild: Schüler in Berlin und Hamburg blockieren Schulen",
-        "Starlink in der Ukraine: Gedrosselte Drohnen – Streit um Starlink"
+        "US-Sanktionen gegen Russland: Republikaner kritisieren Trump wegen Aussetzung von Russlandsanktionen",
+        "«Ernsthafter Zwischenfall»: Tote und Verletzte bei Vorfall auf Militärbasis in Kanada",
+        "Gesundheitsversorgung im Krieg: Die Verletzten kommen in die Tiefgarage",
+        "Wolodymyr Selenskyj in Brüssel: Selenskyj warnt vor Lockerung der Sanktionen gegen Russland"
       ],
       "urls": [
-        "https://www.zeit.de/politik/ausland/2026-10/wolodymyr-selenskyj-bruessel-ukraine-eu-gipfel-unterstuetzung",
-        "https://www.zeit.de/politik/ausland/2026-10/starlink-ukraine-pentagon-spacex-elon-musk",
-        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-10/schulproteste-berlin-hamburg-frankreich-solidaritaet",
-        "https://www.zeit.de/politik/2026-10/starlink-ukraine-us-geheimdienst-nachrichtenpodcast"
+        "https://www.zeit.de/politik/ausland/2026-10/russland-sanktionen-usa-donald-trump-kongress-wladimir-putin",
+        "https://www.zeit.de/news/2026-10/18/tote-und-verletzte-bei-vorfall-auf-militaerbasis-in-kanada",
+        "https://www.zeit.de/politik/deutschland/2026-10/gesundheitsversorgung-krieg-bundeswehr-krankenhaeuser-notaufnahme-hamburg",
+        "https://www.zeit.de/politik/ausland/2026-10/wolodymyr-selenskyj-bruessel-ukraine-eu-gipfel-unterstuetzung"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -433,18 +433,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 17,
+      "article_count": 18,
       "sample_titles": [
+        "Russen-Bots und die Desinformatoren aus Fleisch und Blut",
         "156 Flaschen Bier und „simply facts“ am EU-Gipfel",
         "Wer trägt die Verantwortung für den Krieg?",
-        "Russland nun doch keine akute Bedrohung – das sagt Mark Rutte",
-        "Vor Raketenangriff auf Kiew drosselt SpaceX militärisches Starlink"
+        "Russland nun doch keine akute Bedrohung – das sagt Mark Rutte"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/russen-bots-desinformatoren/",
         "https://www.tichyseinblick.de/daili-es-sentials/156-flaschen-bier-am-eu-gipfel/",
         "https://www.tichyseinblick.de/gastbeitrag/wer-traegt-die-verantwortung-fuer-den-krieg/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/russland-doch-keine-akute-bedrohung/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/spacex-drosselt-starlink/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/russland-doch-keine-akute-bedrohung/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -462,18 +462,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 11,
+      "article_count": 13,
       "sample_titles": [
+        "Debatte um Sicherheitspolitik Alice Weidel, Giorgia Meloni und Frieden in der Ukraine",
+        "Politisches Druckmittel Starshield: Wer Satelliteninternet hat, beherrscht das Schlachtfeld",
         "Ukraine-Krieg Trump nennt ukrainische Angriffe „Schande“ und erhöht Druck auf Selenskyj",
-        "Nach MCC-Schließung Neue Denkfabrik will positive rechte Vision in Europa aufbauen",
-        "Spionageabwehr Wie sich der Heimatschutz für den Fall der Fälle wappnet",
-        "Verteidigungsminister attackiert AfD Zeigen Sie gefälligst Respekt für Ihre Soldaten, Herr Pistorius!"
+        "Nach MCC-Schließung Neue Denkfabrik will positive rechte Vision in Europa aufbauen"
       ],
       "urls": [
+        "https://jungefreiheit.de/debatte/kommentar/2026/alice-weidel-giorgia-meloni-und-frieden-in-der-ukraine/",
+        "https://jungefreiheit.de/politik/ausland/2026/starshield-wer-satteliteninternet-hat-beherrscht-das-schlachtfeld/",
         "https://jungefreiheit.de/politik/ausland/2026/trump-nennt-ukrainische-angriffe-schande-und-erhoeht-druck-auf-selenskyj/",
-        "https://jungefreiheit.de/politik/ausland/2026/neue-denkfabrik-will-positive-rechte-vision-in-europa-aufbauen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/wie-sich-der-heimatschutz-fuer-den-fall-der-faelle-wappnet/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/zeigen-sie-gefaelligst-respekt-fuer-ihre-soldaten-herr-pistorius/"
+        "https://jungefreiheit.de/politik/ausland/2026/neue-denkfabrik-will-positive-rechte-vision-in-europa-aufbauen/"
       ],
       "dominant_emotion": "realization",
       "top_emotions": [
@@ -489,16 +489,16 @@
       "bias": "neutral",
       "article_count": 5,
       "sample_titles": [
+        "Trump zu Starlink-Drosselung: \"Das habe ich nicht getan\"",
         "Trump kündigt Erschließung von Rohstoffen in Grönland an",
         "Wohl Tote bei Drohnenattacke auf Schiffe vor Bulgarien",
-        "Huthi-Angriffe: Türkei und Pakistan verlegen Truppen",
-        "Ukraine: Russland greift Brücken an - Verkehrschaos in Kyjiw"
+        "Huthi-Angriffe: Türkei und Pakistan verlegen Truppen"
       ],
       "urls": [
+        "https://www.dw.com/de/trump-zu-starlink-drosselung-das-habe-ich-nicht-getan/a-79685991?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/trump-kündigt-erschließung-von-rohstoffen-in-grönland-an/a-79657712?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/wohl-tote-bei-drohnenattacke-auf-schiffe-vor-bulgarien/a-79649500?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/huthi-angriffe-türkei-und-pakistan-verlegen-truppen/a-79559254?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/ukraine-russland-greift-brücken-an-verkehrschaos-in-kyjiw/a-79520557?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/huthi-angriffe-türkei-und-pakistan-verlegen-truppen/a-79559254?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -542,24 +542,24 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 147,
-    "far-right": 30,
-    "populist-mixed": 40,
-    "right-conservative": 198,
-    "economic-liberal": 57,
-    "left": 42,
-    "left-liberal": 188,
-    "neutral": 98
+    "far-right": 33,
+    "right-conservative": 195,
+    "left-liberal": 196,
+    "neutral": 93,
+    "populist-mixed": 41,
+    "economic-liberal": 56,
+    "conservative-liberal": 144,
+    "left": 42
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz ideologischer Unterschiede einen breiten Konsens darüber, dass die Bundeswehr ihre Verteidigungsausgaben deutlich erhöhen muss, um das NATO‑Zwei‑Prozent‑Ziel zu erreichen und die wachsende Bedrohung durch Russland im Schwarzen Meer zu kompensieren. Gleichzeitig wird in nahezu allen Medienberichten die Notwendigkeit betont, strukturelle Schwächen der Bundeswehr, insbesondere im Bereich Personal, Aufklärung und Cyberabwehr, zu beheben, weil diese als zentrale Schwachstellen für die Einsatzfähigkeit gelten. Ein weiterer gemeinsamer Punkt ist die Forderung nach einer klareren rechtlichen und politischen Regelung des Artikel‑5‑Beistandsfalls, um die Bündnisverteidigung verlässlicher zu machen.",
-      "controversial_points": "Die Debatte um das NATO‑Zwei‑Prozent‑Ziel spaltet konservative Wirtschaftsliberale, die höhere Ausgaben fordern, und linke Parteien, die Priorität auf Sozialausgaben legen. Die Rückkehr der Wehrpflicht wird von Sicherheits‑Experten als notwendige Resilienz gesehen, während Friedens‑ und Bürgerrechtsbewegungen sie als Militarisierung kritisieren. Rüstungsexporte lösen Konflikt zwischen Exporteuren, die Wirtschaftswachstum betonen, und NGOs, die Menschenrechtsverletzungen anprangern. Auslandseinsätze der Bundeswehr erzeugen Spannungen zwischen Regierungsvertretern, die Bündnisverpflichtungen betonen, und Parlamentariern, die Transparenz und Mandat fordern."
+      "shared_perspectives": "Im deutschen Mediendiskurs besteht überparteiliche Einigkeit darüber, dass die Bundeswehr strukturelle Schwächen aufweist und eine umfassende Modernisierung, insbesondere im Bereich Cyber‑ und Luftabwehr, dringend nötig ist. Gleichzeitig wird von allen Lagern die Erfüllung des NATO‑Zwei‑Prozent‑Ziels sowie die konsequente Unterstützung der Ukraine als zentrale Verpflichtung der Bündnisverteidigung betont. Darüber hinaus wird der wachsende Einfluss privater Satelliten‑Internet‑Anbieter auf die Kriegsführung als sicherheitspolitisches Risiko erkannt und kritisch diskutiert.",
+      "controversial_points": "Die Debatte um die Erhöhung der Rüstungsausgaben spaltet konservative Parteien, die Sicherheit betonen, und linke Kräfte, die Sozialausgaben priorisieren. Die Frage nach einer Rückkehr der Wehrpflicht löst Konflikte zwischen Befürwortern einer breiten Bürgerbeteiligung und Gegnern, die Professionalität fordern."
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum agree that Russia’s aggressive actions, especially the recent attacks on shipping in the Black Sea, constitute a concrete security threat that justifies a robust NATO response and reinforces the perception of NATO’s military superiority over Moscow. At the same time there is a shared conviction that the Bundeswehr’s internal scandals and structural deficiencies demand urgent reform, tighter civilian oversight and a clear path toward meeting the NATO 2 percent defence‑spending target. Finally, virtually all outlets stress that the war in Ukraine has accelerated the need for stronger cyber‑defence and a more coordinated civil‑protection framework within Germany’s overall security policy.",
-      "controversial_points": "German media split between proponents of higher NATO spending and critics demanding social program protection. Debate over reinstating conscription pits national security arguments against concerns about militarization of youth. Arms export discussions clash between economic interests and ethical opposition to supplying weapons to conflict zones. Cyber and civil protection policies reveal tension between expanding state surveillance and preserving individual privacy rights."
+      "shared_perspectives": "Synthesis not available.",
+      "controversial_points": "German media split between a security‑first narrative demanding higher NATO spending and a social‑budget narrative protecting welfare funds. Conservatives push conscription revival as national resilience, while liberals view it as a threat to individual freedom. The arms‑export debate pits economic interests against human‑rights concerns, exposing a clash between industry lobbying and pacifist values. Cyber‑defence initiatives create tension between state security priorities and civil‑liberties advocates demanding data protection."
     }
   },
-  "cached_at": "2026-10-17T09:03:49.247747"
+  "cached_at": "2026-10-18T09:05:56.392461"
 }

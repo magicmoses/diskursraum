@@ -10,16 +10,16 @@
       "bias": "right-conservative",
       "article_count": 130,
       "sample_titles": [
+        "Flucht, Integration, Gewalt – die Geschichte des Angeklagten im Bonner Mordprozess",
+        "BAMF entzieht Tausenden den Schutzstatus – Abschiebungen bleiben dennoch schwierig",
         "Merz nennt Migration eines der größten EU-Probleme – nun steht das Asylrecht zur Debatte",
-        "Maskierte Bewaffnete dringen in Lettland ein – Journalist spricht von neuen „grünen Männchen“",
-        "Mit fremdem Kind vor Zug gesprungen – Abschiebung von psychisch krankem Angreifer",
-        "Grünen-Abgeordneter wirft AfD Pläne zur „millionenfachen Deportation“ vor – und kassiert Rüge"
+        "Maskierte Bewaffnete dringen in Lettland ein – Journalist spricht von neuen „grünen Männchen“"
       ],
       "urls": [
+        "https://www.welt.de/regionales/nrw/article6a6a01a695262dd162784b55/mordprozess-seine-eigene-frau-getoetet-zerlegt-verstreut.html",
+        "https://www.welt.de/videos/video6ad31ff48bebffb7f8cb4d03/syrer-in-deutschland-bamf-entzieht-tausenden-den-schutzstatus-abschiebungen-bleiben-dennoch-schwierig.html",
         "https://www.welt.de/politik/article6ad275a7199dc15f1abd6cf6/streit-beim-eu-gipfel-merz-nennt-migration-eines-der-groessten-eu-probleme-nun-steht-das-asylrecht-zur-debatte.html",
-        "https://www.welt.de/politik/ausland/article6ad1bb170e64c69ce0e15415/nato-ostflanke-maskierte-bewaffnete-dringen-in-lettland-ein-journalist-spricht-von-neuen-gruenen-maennchen.html",
-        "https://www.welt.de/vermischtes/kriminalitaet/article6ad1d8c7d2eabbd56ed69880/wuppertal-mit-fremdem-kind-vor-zug-gesprungen-abschiebung-von-psychisch-krankem-angreifer.html",
-        "https://www.welt.de/politik/deutschland/article6ad0f2540aea524a0240b65a/eklat-im-bundestag-gruenen-abgeordneter-wirft-afd-plaene-zur-millionenfachen-deportation-vor-und-kassiert-ruege.html"
+        "https://www.welt.de/politik/ausland/article6ad1bb170e64c69ce0e15415/nato-ostflanke-maskierte-bewaffnete-dringen-in-lettland-ein-journalist-spricht-von-neuen-gruenen-maennchen.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -32,7 +32,7 @@
           "count": 4
         },
         {
-          "emotion": "admiration",
+          "emotion": "sadness",
           "count": 3
         }
       ]
@@ -74,7 +74,7 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 81,
+      "article_count": 79,
       "sample_titles": [
         "Nach Ceuta-Ansturm: Italien und Spanien wollen Grenzkontrollen beenden",
         "Unbeliebte Bezahlkarte: Die Wirkung ist verpufft",
@@ -100,6 +100,39 @@
         {
           "emotion": "anger",
           "count": 3
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 62,
+      "sample_titles": [
+        "Schläge und Tritte gegen den Kopf: Migrantenbande misshandelt 14-jährigen Schüler",
+        "TE-exklusiv: Bundesregierung erklärt Familiennachzug zur Verschlusssache",
+        "Meloni und Frederiksen: „Die Anreize für irreguläre Migration müssen reduziert werden“",
+        "Heute vor 10 Jahren wurde Maria Ladenburger ermordet"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/frankfurt-oder-bande-misshandelt-schueler/",
+        "https://www.tichyseinblick.de/daili-es-sentials/bundesregierung-familiennachzug-verschlusssache/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/meloni-frederiksen-anreize-irregulaere-migration-reduzien/",
+        "https://www.tichyseinblick.de/meinungen/todestag-maria-ladenburger/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
         }
       ]
     },
@@ -136,55 +169,22 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 61,
-      "sample_titles": [
-        "Heute vor 10 Jahren wurde Maria Ladenburger ermordet",
-        "Der Asylkomplex leibt, lebt und floriert – eine Wende ist nicht in Sicht",
-        "Die Akte Ilhan Omar wird immer brisanter",
-        "Der EU geht das Geld aus: Abschiebe-Projekt von Frontex gestoppt"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/meinungen/todestag-maria-ladenburger/",
-        "https://www.tichyseinblick.de/daili-es-sentials/asylkomplex-keine-wende-in-sicht/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/usa-die-akte-ilhan-omar/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/abschiebe-projekt-von-frontex-gestoppt/"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "realization",
-          "count": 2
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
       "article_count": 60,
       "sample_titles": [
+        "Trumps Migrationspolitik verunsichert Unternehmen",
         "Gericht stoppt Abschiebung von Baby ohne seine Eltern - scharfe Kritik am BAMF",
         "In New Yorks \"Little Haiti\" geht die Angst um",
-        "Gericht stoppt Abschiebung von drei Monate altem Baby - scharfe Kritik am BAMF",
-        "Warum nun mehr Menschen ausreisen müssen"
+        "Gericht stoppt Abschiebung von drei Monate altem Baby - scharfe Kritik am BAMF"
       ],
       "urls": [
+        "https://www.tagesschau.de/ausland/amerika/usa-midterms-trump-migration-100.html",
         "https://www.hessenschau.de/gesellschaft/gericht-stoppt-abschiebung-von-baby-ohne-seine-eltern---scharfe-kritik-am-bamf-v4,abschiebung-gestoppt-100.html",
         "https://www.tagesschau.de/ausland/amerika/usa-haitianer-angst-abschiebung-100.html",
-        "https://www.hessenschau.de/gesellschaft/gericht-stoppt-abschiebung-von-drei-monate-altem-baby---scharfe-kritik-am-bamf-v3,abschiebung-gestoppt-100.html",
-        "https://www1.wdr.de/nrw/bergisches-land/wuppertal/wuppertal-remscheid-abschiebungsquoten-nrw-100.html"
+        "https://www.hessenschau.de/gesellschaft/gericht-stoppt-abschiebung-von-drei-monate-altem-baby---scharfe-kritik-am-bamf-v3,abschiebung-gestoppt-100.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -206,24 +206,24 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 53,
+      "article_count": 54,
       "sample_titles": [
+        "Ukrainer in Spanien: Menschen für Menschen",
+        "Ukrainer in Spanien: Für immer im Land bleiben",
         "Geas-Reform am Flughafen: Gericht entlässt Familie aus Grenzverfahren",
-        "Gewaltsame Festnahmen in USA: Die Tricks der Abschiebepolizei, um Widerstand zu vermeiden",
-        "Geflüchtetenunterkunft in Berlin: Zuflucht bei der Rentenversicherung",
-        "Flüchtlingskatastrophe am Roten Meer: Mehr als 100 Flüchtlinge vor Dschibuti ertrunken"
+        "Gewaltsame Festnahmen in USA: Die Tricks der Abschiebepolizei, um Widerstand zu vermeiden"
       ],
       "urls": [
+        "https://taz.de/Ukrainer-in-Spanien/!6184845/",
+        "https://taz.de/Ukrainer-in-Spanien/!6209056/",
         "https://taz.de/Geas-Reform-am-Flughafen/!6222208/",
-        "https://taz.de/Gewalt-der-US-Abschiebepolizei/!6221488/",
-        "https://taz.de/Gefluechtetenunterkunft-in-Berlin/!6216649/",
-        "https://taz.de/Fluechtlingskatastrophe-am-Roten-Meer/!6220669/"
+        "https://taz.de/Gewalt-der-US-Abschiebepolizei/!6221488/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "curiosity",
@@ -239,7 +239,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 42,
+      "article_count": 41,
       "sample_titles": [
         "EU-Gipfel in Brüssel: Mitgliedsstaaten sind sich bei EU-Haushalt nicht einig",
         "Migration und Sozialstaat: Ja, Migranten zahlen Ihre Rente",
@@ -272,7 +272,7 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 41,
+      "article_count": 40,
       "sample_titles": [
         "Zuwanderung: Arbeitsagentur warnt vor Kürzung der Migration aus dem Westbalkan",
         "SPD: Doris Schröder-Köpf hört auf",
@@ -307,16 +307,16 @@
       "bias": "conservative-liberal",
       "article_count": 39,
       "sample_titles": [
+        "DER ANDERE BLICK MIT DATEN - Deutschland rechnet die Ukraine-Hilfe schön. Mehr als ein Drittel fliesst in Sozialleistungen für Flüchtlinge",
         "Le Pen und Weidel wollen die Ukraine-Hilfe stoppen – gerade als Selenski in Brüssel um zusätzliche 70 Milliarden Euro bittet",
         "Spaniens König besucht Ceuta – und wird ungewöhnlich deutlich",
-        "Jans will den Zugang zum Asylverfahren erschweren – doch werden die Erwartungen wieder einmal zu hoch hinaufgeschraubt?",
-        "«Es ist, als ob ein Schweizer Gericht sagte: ‹Du hast einen Migrationshintergrund, du kannst nicht wählen›»"
+        "Jans will den Zugang zum Asylverfahren erschweren – doch werden die Erwartungen wieder einmal zu hoch hinaufgeschraubt?"
       ],
       "urls": [
+        "https://www.nzz.ch/der-andere-blick/deutschland-rechnet-die-ukraine-hilfe-schoen-mehr-als-ein-drittel-fliesst-in-sozialleistungen-fuer-fluechtlinge-ld.10032761",
         "https://www.nzz.ch/international/le-pen-und-weidel-wollen-ukraine-hilfe-stoppen-selenski-wirbt-um-mehr-geld-ld.10035589",
         "https://www.nzz.ch/international/spaniens-koenig-besucht-ceuta-und-wird-ungewoehnlich-deutlich-ld.10034104",
-        "https://www.nzz.ch/schweiz/jans-will-den-zugang-zum-asylverfahren-erschweren-doch-werden-die-erfahrungen-wieder-einmal-zu-hoch-geschraubt-ld.10026965",
-        "https://www.nzz.ch/schweiz/es-ist-als-ob-ein-schweizer-gericht-sagte-du-hast-einen-migrationshintergrund-du-kannst-nicht-waehlen-ld.10025951"
+        "https://www.nzz.ch/schweiz/jans-will-den-zugang-zum-asylverfahren-erschweren-doch-werden-die-erfahrungen-wieder-einmal-zu-hoch-geschraubt-ld.10026965"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -340,16 +340,16 @@
       "bias": "left-liberal",
       "article_count": 38,
       "sample_titles": [
+        "Vance macht Einwanderung für Ausschreitungen in Frankreich verantwortlich",
         "Zahlen der Bundespolizei: Deutlich weniger unerlaubte Einreisen nach Bayern",
         "Trump führt Schülerproteste in Frankreich auf „Massenmigration“ und Islam zurück",
-        "Migration: Stetig weniger neue Asylsuchende in Sachsen-Anhalt",
-        "Leistungen für Asylbewerber: Langes warten auf Leistungen für Asylbewerber"
+        "Migration: Stetig weniger neue Asylsuchende in Sachsen-Anhalt"
       ],
       "urls": [
+        "https://www.stern.de/news/vance-macht-einwanderung-fuer-ausschreitungen-in-frankreich-verantwortlich-38413608.html",
         "https://www.stern.de/gesellschaft/regional/bayern/zahlen-der-bundespolizei--deutlich-weniger-unerlaubte-einreisen-nach-bayern-38410450.html",
         "https://www.stern.de/news/trump-fuehrt-schuelerproteste-in-frankreich-auf--massenmigration--und-islam-zurueck-38358084.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/migration--stetig-weniger-neue-asylsuchende-in-sachsen-anhalt-38346146.html",
-        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/leistungen-fuer-asylbewerber--langes-warten-auf-leistungen-fuer-asylbewerber-38345552.html"
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/migration--stetig-weniger-neue-asylsuchende-in-sachsen-anhalt-38346146.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -437,18 +437,18 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 16,
       "sample_titles": [
+        "Haupt-, Neben- und Hohlsatz",
         "Die Angst vor der Migrations-Bilanz",
         "Die Hauptstadt der unerfüllbaren Versprechen",
-        "„Der Asylkomplex“: Das Geschäft mit der Migration",
-        "Verfassungsfeind? Sachsens Innenminister will Grundrecht streichen"
+        "„Der Asylkomplex“: Das Geschäft mit der Migration"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/haupt_neben_und_hohlsatz",
         "https://www.achgut.com/artikel/die_angst_vor_der_migrations_bilanz",
         "https://www.achgut.com/artikel/die_hauptstadt_der_unerfuellbaren_versprechen",
-        "https://www.achgut.com/artikel/der_asylkomplex_das_geschaeft_mit_der_migration",
-        "https://www.achgut.com/artikel/verfassungsfeind_sachsens_innenminister_will_grundrecht_streichen"
+        "https://www.achgut.com/artikel/der_asylkomplex_das_geschaeft_mit_der_migration"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -503,18 +503,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 8,
+      "article_count": 9,
       "sample_titles": [
+        "Zahlen der Bundespolizei: Deutlich weniger unerlaubte Einreisen nach Bayern",
         "Flüchtlingsunterbringung: Innenminister stoppt Bau einer Asylunterkunft in Markt Schwaben",
         "Asylverfahren: Abschiebung von Baby angedroht: Bundesamt weist Kritik zurück",
-        "Schiffsunglück: 109 Migranten sterben vor der Küste Dschibutis auf dem Weg nach Jemen",
-        "Fußball in Israel: Geflüchtete im eigenen Land"
+        "Schiffsunglück: 109 Migranten sterben vor der Küste Dschibutis auf dem Weg nach Jemen"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/bayern/bayern-unerlaubte-einreisen-bundespolizei-migration-2026-li.3564954",
         "https://www.sueddeutsche.de/muenchen/ebersberg/markt-schwaben-asylunterkunft-joachim-herrmann-innenminister-bayern-li.3564509",
         "https://www.sueddeutsche.de/politik/abschiebung-baby-kritik-li.3564573",
-        "https://www.sueddeutsche.de/politik/dschibuti-schiffsunglueck-migranten-jemen-bab-al-mandab-li.3561807",
-        "https://www.sueddeutsche.de/sport/fussball-israel-hapoel-exil-fans-li.3558310"
+        "https://www.sueddeutsche.de/politik/dschibuti-schiffsunglueck-migranten-jemen-bab-al-mandab-li.3561807"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -575,24 +575,24 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 129,
-    "far-right": 160,
+    "left-liberal": 128,
+    "neutral": 94,
+    "far-right": 162,
     "right-conservative": 192,
+    "left": 54,
+    "conservative-liberal": 124,
     "economic-liberal": 12,
-    "left": 53,
-    "conservative-liberal": 126,
-    "populist-mixed": 34,
-    "neutral": 94
+    "populist-mixed": 34
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung immer wieder dieselbe Reihe konkreter Asyl‑ und Abschiebungsfälle – etwa das Baby‑Fall oder der Migrant, der mit einem fremden Kind vor einen Zug sprang – als Symbol für die Spannungen zwischen humanitären Vorgaben und administrativen Hürden genannt. Gleichzeitig wird in nahezu allen Berichten betont, dass Migration unmittelbar mit dem deutschen Sozial‑ und Arbeitsmarkt verknüpft ist, wobei die einen die finanziellen Belastungen hervorheben und die anderen die potenziellen Wachstums‑ und Rentenbeiträge betonen. Schließlich wird einheitlich darauf hingewiesen, dass Entscheidungen auf EU‑Ebene, etwa Haushalts‑ oder Grenz‑ und Asylrechts‑Debatten, die nationale Migrationspolitik maßgeblich bestimmen.",
-      "controversial_points": "Im Diskurs prallen humanitäre Asylrechte gegen sicherheitsorientierte Abschiebungsforderungen. Linke Medien betonen Integrationschancen und Sozialstaatspflicht, während rechte Blätter Kosten und Kriminalität hervorheben."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird von allen politischen Lagern die Funktionsstörung des Asylsystems betont: Gerichte blockieren Abschiebungen, das BAMF wird für langsame Verfahren kritisiert und die Behörden berichten von deutlich geringeren unerlaubten Einreisen, was die Diskrepanz zwischen Nachfrage und administrativer Kapazität verdeutlicht. Gleichzeitig verknüpfen zahlreiche Beiträge, unabhängig von ihrer Ausrichtung, Migration mit Sicherheitsrisiken, indem sie wiederholt auf Gewalttaten von Migranten verweisen und damit den Ruf nach strengeren Grenzkontrollen und Abschiebungsmechanismen unterstützen.",
+      "controversial_points": "Im Diskurs prallen humanitäre Verpflichtungen auf sicherheitsorientierte Ressourcendebatten. Linke Medien betonen Integrationschancen, während rechte Stimmen Kosten und Kriminalität hervorheben. Das Asylrecht wird zwischen EU‑Verpflichtungen und nationaler Souveränität zerrissen. Abschiebungen erzeugen juristische Spannungen zwischen Gerichten, Behörden und politischen Forderungen."
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum treat migration as a systemic strain on the asylum apparatus, repeatedly highlighting court rulings that block individual deportations and calling for procedural reforms to improve efficiency. At the same time, there is a shared portrayal of migrants as both a security issue, with frequent references to violent incidents linked to newcomers, and an economic factor, with regular mentions of their contributions to the pension and social‑security system.",
-      "controversial_points": "Synthesis not available."
+      "shared_perspectives": "German media, from left‑liberal to conservative, consistently portray the asylum system as bureaucratically clogged, emphasizing court interventions, delayed deportations and the difficulty of enforcing removal orders. At the same time, outlets across the spectrum highlight security and public‑order risks associated with irregular migration, repeatedly linking criminal incidents or violent episodes to calls for tighter border controls. Finally, despite divergent framing, most reports acknowledge that Germany’s demographic decline and labour shortages create a pragmatic argument for maintaining a controlled inflow of migrants as an economic necessity.",
+      "controversial_points": "The left frames migration as a humanitarian duty, while the far‑right treats it as a security threat. Conservatives focus on rule of law and integration costs, demanding stricter controls and efficient deportations. Liberals emphasize EU solidarity and burden‑sharing, clashing with nationalist calls for closed borders and national sovereignty. Media narratives polarize around the tension between humanitarian values and perceived economic or cultural risks."
     }
   },
-  "cached_at": "2026-10-17T08:45:02.657747"
+  "cached_at": "2026-10-18T08:47:10.387614"
 }
