@@ -8,18 +8,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 113,
+      "article_count": 112,
       "sample_titles": [
-        "Explosion in Mehrfamilienhaus: Mann in Kaiserslautern schwer verletzt",
-        "„Next to Normal – Fast Normal“: Musical thematisiert bipolare Störung",
-        "\"Familienbande\": Ausstellung in Frankfurt stellt traditionelle Familienbilder infrage",
-        "Museum für Kommunikation: \"Familienbande\" - Ausstellung über Familien"
+        "Flávio Bolsonaro - der Kandidat des Vaters",
+        "Amerikanischer Traum in weiter Ferne",
+        "Wie der Fachkräftemangel in saarländischen Kitas angegangen werden soll",
+        "Familie Rouf aus Leverkusen: Sohn Ruhaim spricht erstmals über Abschiebung"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/mann-nach-explosion-in-kaiserslautern-schwer-verletzt-100.html",
-        "https://www.sr.de/sr/srkultur/home/aktuelles/musical_next_to_normal_voelkingen_bipolare_stoerung100.html",
-        "https://www.hessenschau.de/kultur/familienbande-ausstellung-in-frankfurt-stellt-traditionelle-familienbilder-infrage-v1,familienbande-mfk-104.html",
-        "https://www.hessenschau.de/kultur/museum-fuer-kommunikation-familienbande---ausstellung-ueber-familien-v1,familienbande-mfk-104.html"
+        "https://www.tagesschau.de/ausland/amerika/brasilien-wahl-bolsonaro-106.html",
+        "https://www.tagesschau.de/ausland/amerika/usa-midterms-junge-waehler-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/kita_fachkraefte_kampagne_bildungsministerium_100.html",
+        "https://www1.wdr.de/nrw/rheinland/leverkusen/abschiebung-familie-rouf-leverkusen-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -37,22 +37,55 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 102,
+      "sample_titles": [
+        "Going high, riding low: Wo Autos hoppen",
+        "„Die Mütter von Cherson“: Das Kriegsverbrechen auf der Opernbühne",
+        "Leistungsprinzip: Warum Chancengleichheit nicht für Gerechtigkeit sorgt",
+        "Bildung und Kinderarmut: In den Schulen das Gold der Kinder schürfen"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/besser-leben/stil/lowrider-in-los-angeles-201300786.html",
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/oper-die-muetter-von-cherson-bei-arte-201614301.html",
+        "https://www.faz.net/aktuell/wissen/geist-soziales/studie-aus-den-usa-wo-das-leistungsprinzip-an-grenzen-stoesst-accg-201317650.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bildung-heisst-auch-in-kluge-koepfe-zu-investieren-accg-201612105.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 8
+        },
+        {
+          "emotion": "confusion",
+          "count": 7
+        },
+        {
+          "emotion": "joy",
+          "count": 4
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 102,
+      "article_count": 101,
       "sample_titles": [
+        "Palästinenser bitten um Hilfe: Israels Armee startet Großeinsatz in Hebron",
         "Zweimal von Nazis festgenommen: Französische Widerstandskämpferin stirbt mit 105 Jahren",
         "Korb für Harry: Prinz William will keine Versöhnung",
-        "Bruch mit Familientradition: Bushs Bruder Neil wählt Demokraten in Texas",
-        "Bayern-Duo fürs DFB-Team?: \"Pietätlose\" Frage zu Kimmichs Rolle geht Klopp gegen den Strich"
+        "Bruch mit Familientradition: Bushs Bruder Neil wählt Demokraten in Texas"
       ],
       "urls": [
+        "https://www.n-tv.de/politik/Israels-Armee-startet-Grosseinsatz-in-Hebron-id31454246.html",
         "https://www.n-tv.de/panorama/Franzoesische-Widerstandskaempferin-stirbt-mit-105-Jahren-id31448816.html",
         "https://www.n-tv.de/leute/Prinz-William-will-keine-Versoehnung-id31447390.html",
-        "https://www.n-tv.de/politik/Bushs-Bruder-Neil-waehlt-Demokraten-in-Texas-id31444989.html",
-        "https://www.n-tv.de/sport/fussball/Pietaetlose-Frage-zu-Kimmichs-Rolle-geht-Klopp-gegen-den-Strich-id31444917.html"
+        "https://www.n-tv.de/politik/Bushs-Bruder-Neil-waehlt-Demokraten-in-Texas-id31444989.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -66,39 +99,6 @@
         },
         {
           "emotion": "sadness",
-          "count": 5
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 100,
-      "sample_titles": [
-        "Ebow in Frankfurt: Rapperin jenseits der Klischees",
-        "Wahlkampfclip in Ohio: Die Mutter, von der sie das Jugendamt damals wegholte",
-        "Kindererziehung: Machen die Schweden sich eigentlich solche Gedanken?",
-        "Millionensumme: Viessmann kauft Anteile beim FC Bayern"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/rhein-main/kultur/rapperin-ohne-klischees-ebow-kommt-ins-zoom-nach-frankfurt-201610767.html",
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/us-midterms-2026-republikaner-empoert-ueber-wahlkampfvideo-trump-nicht-accg-201613640.html",
-        "https://www.faz.net/aktuell/besser-leben/familie/sind-wir-deutschen-zu-perfektionistisch-was-kinderziehung-in-anderen-laendern-ausmacht-accg-201268948.html",
-        "https://www.faz.net/aktuell/sport/fussball/bundesliga/viessmann-kauft-anteile-beim-fc-bayern-fuer-millionensumme-accg-201611341.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 9
-        },
-        {
-          "emotion": "confusion",
-          "count": 7
-        },
-        {
-          "emotion": "joy",
           "count": 4
         }
       ]
@@ -107,32 +107,32 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 91,
+      "article_count": 92,
       "sample_titles": [
-        "Kim Kardashians geheime Familienwelt - 24 Angestellte und Codewort „Lockdown“ wegen Kanye",
-        "Kommentar zu Klingbeil - „Anstiftung zur Steuerhinterziehung“",
-        "Kugelhagel auf Familien-Auto - Hier beschützt ein Vater seine Liebsten",
-        "120 Mitarbeiter betroffen - Bäckerei-Kette mit 10 Filialen gibt auf"
+        "Schwere Vorwürfe gegen Thomas Markle Sr. - Meghans Vater-Hölle",
+        "Camping-Krach statt Familien-Idylle - Katzenberger erlebt Urlaubs-Desaster am Gardasee",
+        "Bayern-Familie hält zusammen - Hoeneß bringt Kompany Essen ins Krankenhaus",
+        "Kim Kardashians geheime Familienwelt - 24 Angestellte und Codewort „Lockdown“ wegen Kanye"
       ],
       "urls": [
-        "https://www.bild.de/unterhaltung/stars-und-leute/kim-kardashians-familienwelt-24-angestellte-und-das-codewort-lockdown-6ad9d12ed76437b82f93503d",
-        "https://www.bild.de/politik/kommentar-von-bild-politikchef-jan-schaefer-dieser-dilettantismus-darf-klingbeil-nicht-durchgehen-6adb4b8fd8be1e987154e7d3",
-        "https://www.bild.de/news/kugelhagel-auf-familien-auto-hier-beschuetzt-ein-vater-seine-liebsten-6ada5a6a7d7d59c2a19eeb73",
-        "https://www.bild.de/regional/niedersachsen/baeckerei-kette-mit-10-filialen-gibt-auf-120-mitarbeiter-betroffen-6ad9d37d2fff891606115a36"
+        "https://www.bild.de/unterhaltung/royals-adel/meghan-markle-schwere-vorwuerfe-gegen-vater-thomas-markle-6adcc4e9247c1fa20130575e",
+        "https://www.bild.de/unterhaltung/tv-fernsehformate/daniela-katzenbergers-gardasee-urlaub-eskaliert-6adb974c9fbb7e8e310ddb37",
+        "https://www.bild.de/sport/fussball/uli-hoeness-bringt-vincent-kompany-essen-ins-krankenhaus-6adc74b02fdeb2201fba958e",
+        "https://www.bild.de/unterhaltung/stars-und-leute/kim-kardashians-familienwelt-24-angestellte-und-das-codewort-lockdown-6ad9d12ed76437b82f93503d"
       ],
-      "dominant_emotion": "amusement",
+      "dominant_emotion": "realization",
       "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 5
+        },
         {
           "emotion": "amusement",
           "count": 4
         },
         {
-          "emotion": "realization",
-          "count": 4
-        },
-        {
-          "emotion": "grief",
-          "count": 4
+          "emotion": "excitement",
+          "count": 3
         }
       ]
     },
@@ -140,32 +140,32 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 76,
+      "article_count": 78,
       "sample_titles": [
-        "Spotify: So will der Streamingdienst sicherstellen, dass nur Familien die billigen Familienaccounts nutzen",
-        "Virginia: US-Senatorin wegen Drogenhandel und Geldwäsche angeklagt",
-        "Jürgen Klopp: Einblicke ins Familienleben bei DFB-Aktion »Der beste Tag«",
-        "Ellwangen: Eltern wegen schweren Missbrauchs ihrer Tochter vor Gericht"
+        "Hendrik Wüst: Warum der NRW-Ministerpräsident manchmal auf der Couch schläft",
+        "Südtirol: Das zerrissene Land – Podcastserie",
+        "Mehrsprachige Erziehung: »Lern Deutsch!« – wenn Sprache zur Belastung wird",
+        "Auswandern nach Kanada: Eine deutsche Familie zieht nach sechs Jahren ein Fazit"
       ],
       "urls": [
-        "https://www.spiegel.de/netzwelt/apps/spotify-so-will-der-streamingdienst-sicherstellen-dass-nur-familien-die-billigen-familienaccounts-nutzen-a-57aede76-feab-42c3-9770-6cf5ad29b5da#ref=rss",
-        "https://www.spiegel.de/ausland/virginia-us-senatorin-wegen-drogenhandel-und-geldwaesche-angeklagt-a-7db2d0d6-c7fe-454f-a999-7407a65c3745#ref=rss",
-        "https://www.spiegel.de/panorama/leute/juergen-klopp-einblicke-ins-familienleben-bei-dfb-aktion-der-beste-tag-a-5449ec3d-4821-44e1-8467-e2d11c259b95#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/ellwangen-eltern-wegen-schweren-missbrauchs-ihrer-tochter-vor-gericht-a-8d75a7d1-1409-49a1-9f74-4c931eb55cd4#ref=rss"
+        "https://www.spiegel.de/panorama/hendrik-wuest-warum-der-nrw-ministerpraesident-manchmal-auf-der-couch-schlaeft-a-b8b3f046-4efd-4dde-99fb-c8be9ba0f948#ref=rss",
+        "https://www.spiegel.de/ausland/suedtirol-das-zerrissene-land-podcastserie-a-a622a53f-25a4-4300-996b-19ff1d86e133#ref=rss",
+        "https://www.spiegel.de/panorama/mehrsprachige-erziehung-lern-deutsch-wenn-sprache-zur-belastung-wird-a-0611ec48-316a-4c4c-bcab-fc387623a3f5#ref=rss",
+        "https://www.spiegel.de/karriere/auswandern-nach-kanada-eine-deutsche-familie-zieht-nach-sechs-jahren-ein-fazit-a-660a768d-95a2-4c03-90d5-18f769adfc1d#ref=rss"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "admiration",
+          "emotion": "realization",
           "count": 4
         },
         {
-          "emotion": "amusement",
-          "count": 3
+          "emotion": "curiosity",
+          "count": 4
         },
         {
-          "emotion": "sadness",
-          "count": 3
+          "emotion": "admiration",
+          "count": 4
         }
       ]
     },
@@ -173,18 +173,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 66,
+      "article_count": 67,
       "sample_titles": [
+        "Halloween: Gruseltipps für Halloween: Wo spukt es in Niedersachsen?",
+        "Reinickendorf: Leiche bei Brand in Berliner Kellerwohnung gefunden",
         "Kristen Bell weint „jede Woche“: Ehrliche Worte über Erziehung ihrer Töchter",
-        "Hitze: Grüne warnen vor Zweiklassensystem bei Ganztagsbetreuung",
-        "Joshua Kimmich: DFB-Kapitän trauert um seinen Vater",
-        "Prinz Harry will „Schlussstrich“ unter Streit mit seiner Familie ziehen"
+        "Hitze: Grüne warnen vor Zweiklassensystem bei Ganztagsbetreuung"
       ],
       "urls": [
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/halloween--gruseltipps-fuer-halloween--wo-spukt-es-in-niedersachsen--38447554.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/reinickendorf--leiche-bei-brand-in-berliner-kellerwohnung-gefunden-38447184.html",
         "https://www.stern.de/lifestyle/leute/kristen-bell-weint--jede-woche---ehrliche-worte-ueber-erziehung-ihrer-toechter-38444162.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/hitze--gruene-warnen-vor-zweiklassensystem-bei-ganztagsbetreuung-38436082.html",
-        "https://www.stern.de/lifestyle/leute/joshua-kimmich--dfb-kapitaen-trauert-um-seinen-vater-38430398.html",
-        "https://www.stern.de/news/prinz-harry-will--schlussstrich--unter-streit-mit-seiner-familie-ziehen-38426754.html"
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/hitze--gruene-warnen-vor-zweiklassensystem-bei-ganztagsbetreuung-38436082.html"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -193,11 +193,11 @@
           "count": 5
         },
         {
-          "emotion": "sadness",
-          "count": 3
+          "emotion": "annoyance",
+          "count": 4
         },
         {
-          "emotion": "annoyance",
+          "emotion": "sadness",
           "count": 3
         }
       ]
@@ -206,31 +206,31 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 51,
+      "article_count": 50,
       "sample_titles": [
+        "„Dass diese Riesenaufrüstung vielen in Frankreich Angst macht, hat in Deutschland keiner verstanden“",
         "Auch eine Klobürste schützt nicht vor Theaterschlaf",
         "Früchtetee löst Großeinsatz in Kiel aus",
-        "25 bekannte Tatverdächtige und eine Stadt in Angst",
-        "Freiheit muss man leben"
+        "25 bekannte Tatverdächtige und eine Stadt in Angst"
       ],
       "urls": [
+        "https://www.welt.de/kultur/article6adb501f400ffbb8e251b941/militaerstrategin-florence-gaub-dass-diese-riesenaufruestung-vielen-in-frankreich-angst-macht-hat-in-deutschland-keiner-verstanden.html",
         "https://www.welt.de/kultur/article6adb2d76400ffbb8e251b501/koenig-ubu-am-burgtheater-auch-eine-klobuerste-schuetzt-nicht-vor-theaterschlaf.html",
         "https://www.welt.de/regionales/hamburg/article6adb22fd9fbb7e8e310dd06f/verdaechtiges-paket-fruechtetee-loest-grosseinsatz-in-kiel-aus.html",
-        "https://www.welt.de/politik/deutschland/plus6ad33d75992af73088da25bc/jugendgewalt-in-potsdam-25-bekannte-tatverdaechtige-und-eine-stadt-in-angst.html",
-        "https://www.welt.de/debatte/article6ab37157a15a9fecb668c5c7/leslie-mandoki-freiheit-muss-man-leben.html"
+        "https://www.welt.de/politik/deutschland/plus6ad33d75992af73088da25bc/jugendgewalt-in-potsdam-25-bekannte-tatverdaechtige-und-eine-stadt-in-angst.html"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 4
+        },
         {
           "emotion": "sadness",
           "count": 4
         },
         {
           "emotion": "grief",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
           "count": 3
         }
       ]
@@ -239,7 +239,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 40,
+      "article_count": 39,
       "sample_titles": [
         "Rente und Mütter: Komplett verblödete Idee",
         "Deportation von Kindern nach Russland: Der Kreml will „kleine Russen“ aus ihnen machen",
@@ -263,8 +263,8 @@
           "count": 3
         },
         {
-          "emotion": "grief",
-          "count": 3
+          "emotion": "anger",
+          "count": 2
         }
       ]
     },
@@ -272,7 +272,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 34,
+      "article_count": 33,
       "sample_titles": [
         "Fußball: Viessmann beteiligt sich am FC Bayern",
         "Schifffahrt: Griechische Reeder entdecken die Athener Börse – Finanzplatz gewinnt an Bedeutung",
@@ -301,55 +301,22 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 25,
-      "sample_titles": [
-        "Prinz Harry hofft auf Versöhnung mit Familie",
-        "Wenn jeder Cent zählt, \"dass wir überhaupt durchkommen\"",
-        "Los Angeles feiert Ozzy Osbournes Vermächtnis",
-        "Mit Pilz-Myzel \"Lebensmittel vor Ort herstellen\""
-      ],
-      "urls": [
-        "https://www.zdfheute.de/video/panorama-prinz-harry-streit-100.html",
-        "https://www.zdfheute.de/panorama/armut-armutsgefaehrdet-existenzminimum-alleinerziehend-arm-trotz-arbeit-100.html",
-        "https://www.zdfheute.de/video/hallo-deutschland/ozzy-osbourne-black-sabbath-film-100.html",
-        "https://www.zdfheute.de/wissen/myzel-ernaehrung-pilze-sicherheit-lieferketten-start-up-100.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 3
-        },
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 25,
+      "article_count": 26,
       "sample_titles": [
+        "Ausschuss für Jugend und Familie: Streit um Beratung für junge Missbrauchsopfer",
         "Starnberg: Einbruch in Einfamilienhaus",
         "Prozess in Memmingen: Angeklagter bestreitet Doppelmord an Ex-Schwiegereltern",
-        "Nächtlicher Brand in Rosenheim: Ein Toter bei Brand in Mehrfamilienhaus – 35 Menschen evakuiert",
-        "News-Überblick: Das sind die Nachrichten des Tages"
+        "Nächtlicher Brand in Rosenheim: Ein Toter bei Brand in Mehrfamilienhaus – 35 Menschen evakuiert"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/muenchen/wolfratshausen/bad-toelz-wolfratshausen-missbrauchsopfer-beratungsangebot-f-e-l-s-jugendamt-li.3566985",
         "https://www.sueddeutsche.de/muenchen/starnberg/starnberg-percha-einbruch-einfamilienhaus-polizei-schmuck-li.3566450",
         "https://www.sueddeutsche.de/bayern/memmingen-doppelmord-prozess-schwiegereltern-li.3565880",
-        "https://www.sueddeutsche.de/bayern/rosenheim-brand-mehrfamilienhaus-toter-evakuierung-li.3564971",
-        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3564777"
+        "https://www.sueddeutsche.de/bayern/rosenheim-brand-mehrfamilienhaus-toter-evakuierung-li.3564971"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -367,22 +334,55 @@
         }
       ]
     },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 24,
+      "sample_titles": [
+        "Vor der Wahl in Israel wächst die Gewalt",
+        "Prinz Harry hofft auf Versöhnung mit Familie",
+        "Wenn jeder Cent zählt, \"dass wir überhaupt durchkommen\"",
+        "Los Angeles feiert Ozzy Osbournes Vermächtnis"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/video/politik-israel-militareinsatz-100.html",
+        "https://www.zdfheute.de/video/panorama-prinz-harry-streit-100.html",
+        "https://www.zdfheute.de/panorama/armut-armutsgefaehrdet-existenzminimum-alleinerziehend-arm-trotz-arbeit-100.html",
+        "https://www.zdfheute.de/video/hallo-deutschland/ozzy-osbourne-black-sabbath-film-100.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 3
+        },
+        {
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 24,
+      "article_count": 23,
       "sample_titles": [
+        "Spiritualität jenseits von Politik, Ethik und Geld",
         "Erneute Eskalation in Nahost – damit droht der nächste Preisschock",
         "Trumps Gold Card oder Golden Visa: wer rettet im Krisenfall?",
-        "TE-exklusiv: Bundesregierung erklärt Familiennachzug zur Verschlusssache",
-        "Von der EU-Sanktion zur Kontaktschuld"
+        "TE-exklusiv: Bundesregierung erklärt Familiennachzug zur Verschlusssache"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/vorwort-zum-sonntag/spiritualitaet-jenseits-von-politik-ethik-geld/",
         "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eskalation-in-nahost/",
         "https://www.tichyseinblick.de/unternehmen/trumps-gold-card-oder-golden-visa-wer-rettet-im-krisenfall/",
-        "https://www.tichyseinblick.de/daili-es-sentials/bundesregierung-familiennachzug-verschlusssache/",
-        "https://www.tichyseinblick.de/daili-es-sentials/debanking-eu-sanktion-kontaktschuld/"
+        "https://www.tichyseinblick.de/daili-es-sentials/bundesregierung-familiennachzug-verschlusssache/"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -542,14 +542,14 @@
     }
   },
   "bias_distribution": {
-    "populist-mixed": 91,
-    "left-liberal": 182,
-    "neutral": 140,
-    "right-conservative": 153,
-    "conservative-liberal": 116,
-    "far-right": 44,
-    "economic-liberal": 34,
-    "left": 40
+    "left-liberal": 186,
+    "far-right": 43,
+    "populist-mixed": 92,
+    "conservative-liberal": 118,
+    "neutral": 138,
+    "right-conservative": 151,
+    "economic-liberal": 33,
+    "left": 39
   },
   "statements": {
     "de": {
@@ -561,5 +561,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-10-24T09:23:59.232814"
+  "cached_at": "2026-10-25T09:31:35.191813"
 }
