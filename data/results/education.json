@@ -8,32 +8,32 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 136,
+      "article_count": 128,
       "sample_titles": [
-        "Krise der Schulen: Bildung? Uns doch egal!",
-        "Bildung und Kinderarmut: In den Schulen das Gold der Kinder schürfen",
-        "Forschungserfolg: Impfstoff senkt Sterberisiko bei schwarzem Hautkrebs",
-        "Folgen des KI-Umbruchs: Wie verändert KI den Wissenschaftsjournalismus?"
+        "Rechte Kulturpolitik: Die AfD weiß, was sie mit der Kultur vorhat",
+        "Pharmaforschung: Neues Tempo unterm Bayer-Kreuz",
+        "Fast 17 Jahre: Dauerkranke Lehrerin wegen Betrugs angeklagt",
+        "Bilbao: Krawalle bei Protesten gegen rechten Influencer"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/deutschlands-bildungsmisere-warum-kaum-jemand-aufbegehrt-accg-201231694.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bildung-heisst-auch-in-kluge-koepfe-zu-investieren-accg-201612105.html",
-        "https://www.faz.net/aktuell/gesellschaft/gesundheit/forschungserfolg-impfstoff-senkt-sterberisiko-bei-schwarzem-hautkrebs-201615827.html",
-        "https://www.faz.net/podcasts/f-a-z-wissen-der-podcast/wie-veraendert-ki-den-wissenschaftsjournalismus-201616386.html"
+        "https://www.faz.net/aktuell/feuilleton/debatten/afd-kulturpolitik-was-matthias-helferich-in-duesseldorf-vorhat-201624613.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bayers-neues-organisationsmodell-schneller-in-der-pharmaforschung-201622484.html",
+        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/dauerkranke-lehrerin-in-duisburg-wegen-betrugs-angeklagt-201626687.html",
+        "https://www.faz.net/video/krawalle-bei-protesten-in-bilbao-201626204.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 10
-        },
-        {
           "emotion": "optimism",
-          "count": 10
+          "count": 12
         },
         {
-          "emotion": "sadness",
-          "count": 6
+          "emotion": "curiosity",
+          "count": 8
+        },
+        {
+          "emotion": "admiration",
+          "count": 5
         }
       ]
     },
@@ -41,18 +41,51 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 103,
+      "article_count": 97,
       "sample_titles": [
-        "Berliner CDU mit Grünen und SPD sprechen",
-        "Neues Herzenssache-Mobil an Kirchbergschule in Schwalbach enthüllt",
-        "Nachwuchs für den Zoll - Rostocks neue Hochschule bildet ihn aus",
-        "Wissenschaftler wirft Merz Populismus vor"
+        "Strafverfahren gegen Lehrer aus Hessen wegen israelkritischer Posts eingestellt",
+        "Startchancen-Programm: Bisher kaum Gelder für Bauprojekte an Saar-Schulen abgerufen",
+        "Vom Klassenzimmer ins Weltall: Mainzer Schüler programmieren Botschaften für Raumstation ISS",
+        "Strafverfahren gegen hessischen Lehrer wegen israelkritischer Posts eingestellt"
       ],
       "urls": [
-        "https://www.rbb24.de/politik/beitrag/2026/10/berlin-wahl-cdu-spd-gruene-linke.html",
-        "https://www.sr.de/sr/sr3/themen/sr_3-land/neues_herzenssache_mobil_enthuellt_100.html",
-        "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/nachwuchs-fuer-zoll-rostocks-neue-hochschule-bildet-ihn-aus,hochschule-130.html",
-        "https://www1.wdr.de/politik/gesundheitsoekonom-krankenversicherung-reform-ungleichheit-merz-100.html"
+        "https://www.hessenschau.de/panorama/strafverfahren-gegen-lehrer-aus-hessen-wegen-israelkritischer-posts-eingestellt-v1,lehrer-israel-kritik-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/bilanz_kaum_gelder_aus_startchancenprogramm_abgerufen_100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/schlossgymnasium-schueler-programmieren-fuer-raumstation-iss-100.html",
+        "https://www.hessenschau.de/panorama/strafverfahren-gegen-hessischen-lehrer-wegen-israelkritischer-posts-eingestellt-v1,lehrer-israel-kritik-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 6
+        },
+        {
+          "emotion": "annoyance",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 74,
+      "sample_titles": [
+        "USA vor den Midterms: Abdul El-Sayed und James Talarico – neue Hoffnungsträger der Demokraten",
+        "News des Tages: Endlager für Atommüll gesucht, Wahl in Israel, 16 Jahre krankgeschriebene Lehrerin angeklagt",
+        "Nordrhein-Westfalen: Lehrerin nach 16 Jahren Krankmeldung wegen Betrugs angeklagt",
+        "Duisburg: Justiz klagt dauerkranke Lehrerin an"
+      ],
+      "urls": [
+        "https://www.spiegel.de/ausland/midterms-in-den-usa-kommt-jetzt-die-blaue-welle-a-7a34c674-5be5-4079-9b2e-40e9a8b575ef#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/news-des-tages-endlager-fuer-atommuell-gesucht-wahl-in-israel-16-jahre-krankgeschriebene-lehrerin-angeklagt-a-bdeecd8d-d879-45a5-bf09-4443b797eb9e#ref=rss",
+        "https://www.spiegel.de/panorama/bildung/nordrhein-westfalen-lehrerin-nach-16-jahren-krankmeldung-wegen-betrugs-angeklagt-a-d6fbe0c0-fbab-49a9-b1ea-7c3ac7e88a62#ref=rss",
+        "https://www.spiegel.de/panorama/duisburg-justiz-klagt-dauerkranke-lehrerin-an-a-fa5ee2d9-9795-4b87-a7bf-f26736f8e1d1#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -61,12 +94,45 @@
           "count": 5
         },
         {
-          "emotion": "annoyance",
+          "emotion": "realization",
           "count": 5
         },
         {
-          "emotion": "confusion",
+          "emotion": "annoyance",
+          "count": 3
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 73,
+      "sample_titles": [
+        "Nach knappem Wahlausgang in Israel beanspruchen beide Blöcke die Regierungsbildung",
+        "Demonstration am Mittag: Medizinstudierende fordern Reform des Studiums",
+        "Gewaltattacken Jugendlicher: Gewaltattacke vor Schule: OB ruft zu Zivilcourage auf",
+        "Anklage gegen Lehrerin: Dauerkranke Lehrerin aus NRW nun wegen Betrugs angeklagt"
+      ],
+      "urls": [
+        "https://www.stern.de/news/nach-knappem-wahlausgang-in-israel-beanspruchen-beide-bloecke-die-regierungsbildung-38461420.html",
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/demonstration-am-mittag--medizinstudierende-fordern-reform-des-studiums-38461600.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/gewaltattacken-jugendlicher--gewaltattacke-vor-schule--ob-ruft-zu-zivilcourage-auf-38456036.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/anklage-gegen-lehrerin--dauerkranke-lehrerin-aus-nrw-nun-wegen-betrugs-angeklagt-38458396.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
           "count": 4
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
+          "count": 2
         }
       ]
     },
@@ -74,18 +140,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 72,
+      "article_count": 70,
       "sample_titles": [
-        "Was ich meinem Vater verdanke",
-        "„Trump steckt mit unseren Feinden unter einer Decke“",
-        "„Migranten sind diejenigen, deren Läden zerstört wurden“",
-        "„Das Eskalationspotenzial ist deswegen deutlich höher als in Deutschland“"
+        "„Ich hätte da Angst, einzugreifen“, sagt der Jugendliche nach dem Gewaltexzess",
+        "Lehrerin soll Staat um 248.000 Euro betrogen haben",
+        "Das Auswahldilemma – Wie Sie in drei Schritten klare Entscheidungen treffen",
+        "Nach israelkritischen Social-Media-Posts – Strafverfahren gegen Lehrer eingestellt"
       ],
       "urls": [
-        "https://www.welt.de/debatte/article6ad7ac9f51e5094f7a57368e/familiengeschichte-was-ich-meinem-vater-verdanke.html",
-        "https://www.welt.de/politik/ausland/plus6adb2653400ffbb8e251b436/kaum-noch-hilfe-fuer-ukraine-trump-steckt-mit-unseren-feinden-unter-einer-decke.html",
-        "https://www.welt.de/politik/deutschland/plus6ad8d111199dc15f1abdc1e0/gewalt-in-frankreich-migranten-sind-diejenigen-deren-laeden-zerstoert-wurden.html",
-        "https://www.welt.de/politik/deutschland/plus6ad8d111199dc15f1abdc1e0/gewalt-in-frankreich-das-eskalationspotenzial-ist-deswegen-deutlich-hoeher-als-in-deutschland.html"
+        "https://www.welt.de/politik/deutschland/plus6ae05a7816ed143d64a1ddae/migrantische-jugendgewalt-ich-haette-da-angst-einzugreifen-sagt-der-jugendliche-nach-dem-gewaltexzess.html",
+        "https://www.welt.de/vermischtes/video6ae0c05ddcd605c8d4ceaa3b/17-jahre-krankgeschrieben-lehrerin-soll-staat-um-248-000-euro-betrogen-haben.html",
+        "https://www.welt.de/gesundheit/plus6acf775085ec8093bcfbdfbd/psychologie-das-auswahldilemma-wie-sie-in-drei-schritten-klare-entscheidungen-treffen.html",
+        "https://www.welt.de/politik/deutschland/article6adf611a44ab625f2110c4aa/hessen-nach-israelkritischen-social-media-posts-strafverfahren-gegen-lehrer-eingestellt.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -103,101 +169,35 @@
         }
       ]
     },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 72,
-      "sample_titles": [
-        "Generativität: Wer Weisheit schenkt, findet Sinn im Leben",
-        "Trotz Sondierungen mit Linken: Grüne und SPD in Berlin treffen sich mit CDU",
-        "Deutsche Meisterschaft: Acht Forschende beim Science Slam Finale in Berlin",
-        "Midterms 2026: Milliardärssteuer, Abtreibung, Schulessen: Darüber stimmen die Amerikaner ab"
-      ],
-      "urls": [
-        "https://www.stern.de/geo/generativitaet--wer-weisheit-schenkt--findet-sinn-im-leben-38440476.html",
-        "https://www.stern.de/news/trotz-sondierungen-mit-linken--gruene-und-spd-in-berlin-treffen-sich-mit-cdu-38443574.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/deutsche-meisterschaft--acht-forschende-beim-science-slam-finale-in-berlin-38439106.html",
-        "https://www.stern.de/politik/ausland/midterms-2026--darueber-stimmen-die-amerikaner-noch-ab-38435674.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "approval",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
-          "count": 3
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 67,
-      "sample_titles": [
-        "Italien, Albanien: Tausende demonstrieren gegen hohe Preise und Bildungsnotstand",
-        "Islamistischer Terror: 21-jähriger Deutscher soll IS-Ausbildung geplant haben",
-        "US-Midterms: Wie dubiose Umfrageinstitute mit Fake-Daten den Demokraten schaden wollen",
-        "Berlin: SPD-Mann Wolfgang Thierse rät zu unabhängigem Regierungschef"
-      ],
-      "urls": [
-        "https://www.spiegel.de/ausland/italien-albanien-tausende-demonstrieren-gegen-hohe-preise-und-bildungsnotstand-a-87b72fb6-b93c-48e0-8c04-61c1f3450026#ref=rss",
-        "https://www.spiegel.de/panorama/islamistischer-terror-21-jaehriger-deutscher-soll-is-ausbildung-geplant-haben-a-ac07e4b3-45db-426e-8a7a-8c84681e8716#ref=rss",
-        "https://www.spiegel.de/ausland/us-midterms-wie-dubiose-umfrageinstitute-mit-fake-daten-den-demokraten-schaden-wollen-a-a1a73e75-e004-4b8c-98cf-1b5f94878f00#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/wolfgang-thierse-ex-bundestagspraesident-von-der-spd-raet-zu-unabhaengigem-regierungschef-in-berlin-a-78d4f98f-e83d-49bb-9e8c-a3e1beb9b50e#ref=rss"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 5
-        },
-        {
-          "emotion": "realization",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
-          "count": 3
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 58,
+      "article_count": 59,
       "sample_titles": [
-        "Nach Flugschul-Insolvenz : Mette-Marits Bruder wird verklagt",
-        "Wissenschaft gegen Netanjahu: \"Wir wählen gegen die Kultur der Zerstörung\"",
-        "Schauspieler starb mit 93: \"Top Gun\"-Star Tom Skerritt ist tot",
-        "62.500 Beschäftigte betroffen: Bosch stellt sich neu auf - zentrale Bereiche werden ausgegliedert"
+        "Netanjahu-Partei leicht vorn: Bei der Parlamentswahl in Israel zeichnet sich ein Patt ab",
+        "Anti-Aging im Labor: Bonner Forscher lassen alte Zellen wieder jung werden",
+        "Bescheinigungen gefälscht?: 17 Jahre lang krankgemeldet - Lehrerin droht Haftstrafe",
+        "Regierungswechsel ungewiss: Schicksalswahl in Israel hat begonnen"
       ],
       "urls": [
-        "https://www.n-tv.de/leute/Mette-Marits-Bruder-wird-verklagt-id31455029.html",
-        "https://www.n-tv.de/politik/Wissenschaftler-gegen-Netanjahus-Wiederwahl-in-Israel-Wir-waehlen-gegen-die-Kultur-der-Zerstoerung-id31431635.html",
-        "https://www.n-tv.de/leute/Top-Gun-Star-Tom-Skerritt-ist-tot-id31449093.html",
-        "https://www.n-tv.de/wirtschaft/Bosch-stellt-sich-neu-auf-zentrale-Bereiche-werden-ausgegliedert-id31447267.html"
+        "https://www.n-tv.de/politik/Bei-der-Parlamentswahl-in-Israel-zeichnet-sich-ein-Patt-ab-id31465131.html",
+        "https://www.n-tv.de/wissen/Bonner-Forscher-lassen-alte-Zellen-wieder-jung-werden-id31462081.html",
+        "https://www.n-tv.de/panorama/17-Jahre-lang-krankgemeldet-Lehrerin-droht-Haftstrafe-id31463150.html",
+        "https://www.n-tv.de/politik/Schicksalswahl-in-Israel-hat-begonnen-id31461606.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 5
+          "count": 4
         },
         {
           "emotion": "sadness",
           "count": 3
         },
         {
-          "emotion": "annoyance",
+          "emotion": "amusement",
           "count": 3
         }
       ]
@@ -208,63 +208,30 @@
       "bias": "left",
       "article_count": 51,
       "sample_titles": [
-        "Leseschwächen in Deutschland: Wie gut, dass es keine Pisa-Studie für Erwachsene gibt",
-        "Proteste gegen Sparkurs an Unis: Genies ohne Geld",
-        "Tagebuch aus Aserbaidschan: Der Kampf geht auf die Köpfe los",
-        "Offener Brief für Vergesellschaftung: „Ein Sperrgesetz ist verfassungswidrig“"
+        "Proteste in Frankreich: Es riecht nach einem faulen Kompromiss",
+        "Israel wählt: Fünf Szenarien für die Regierungsbildung",
+        "Proteste in Frankreich: Schü­le­r:in­nen wollen keine „faulen Kompromisse“",
+        "Jurist über Diversität in Wissenschaft: „Damals waren die Hörsäle weniger bunt“"
       ],
       "urls": [
-        "https://taz.de/Leseschwaechen-in-Deutschland/!6221563/",
-        "https://taz.de/Proteste-gegen-Sparkurs-an-Unis/!6224062/",
-        "https://taz.de/Tagebuch-aus-Aserbaidschan/!6223090/",
-        "https://taz.de/Offener-Brief-fuer-Vergesellschaftungen/!6223442/"
+        "https://taz.de/Proteste-in-Frankreich/!6225413/",
+        "https://taz.de/Israel-waehlt/!6224719/",
+        "https://taz.de/Proteste-in-Frankreich/!6225097/",
+        "https://taz.de/Jurist-ueber-Diversitaet-in-Wissenschaft/!6222814/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 7
+          "count": 6
         },
         {
           "emotion": "admiration",
           "count": 3
         },
         {
-          "emotion": "optimism",
+          "emotion": "annoyance",
           "count": 2
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 36,
-      "sample_titles": [
-        "Bildungsproteste am 31. Oktober: Bundesschülerkonferenz unterstützt Protestaufrufe für bessere Bildung",
-        "Regierungsbildung in Berlin: Berliner SPD stimmt für Koalitionsverhandlungen mit Linken und Grünen",
-        "Methangas im Klassenraum?: Gasleck in Schule: Unterricht für alle beendet",
-        "Regierungsbildung in Berlin: Juso-Chef Philipp Türmer verteidigt Rot-Grün-Rot in Berlin"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-10/bildungsproteste-31-oktober-genz-regelt-bundesschuelerkonferenz",
-        "https://www.zeit.de/politik/deutschland/2026-10/berliner-spd-stimmt-fuer-koalitionsverhandlungen-mit-linken-und-gruenen",
-        "https://www.zeit.de/news/2026-10/19/gasleck-in-schule-unterricht-fuer-alle-beendet",
-        "https://www.zeit.de/politik/deutschland/2026-10/philipp-tuermer-jusos-rot-gruen-rote-koalition-berlin-spd"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "embarrassment",
-          "count": 1
         }
       ]
     },
@@ -272,18 +239,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 33,
+      "article_count": 39,
       "sample_titles": [
-        "Wachsende Wut - was treibt die Jugend auf die Straße?",
-        "Unsere Klasse: Chaos und Chancen in der 1d",
-        "Warum Deutschlands Unis verfallen",
-        "Hier bröckelt der Forschungsstandort Deutschland"
+        "Patt zwischen Netanjahu und Eisenkot - Regierungsbildung offen",
+        "Proteste in Europa: Was fordern die Menschen?",
+        "Schulprotest zeigt Wirkung: Frankreichs Regierung gibt nach",
+        "Banaszak: Linke muss Probleme in den eigenen Reihen lösen"
       ],
       "urls": [
-        "https://www.phoenix.de/sendungen/gespraeche/phoenix-runde/wachsende-wut---was-treib-a-5233699.html",
-        "https://www.zdf.de/video/reportagen/37-grad-104/37-unsere-klasse-chaos-und-chancen-in-der-1d-100",
-        "https://www.zdfheute.de/video/frontal/kaputtgespart-universitaeten-marode-gebaeude-100.html",
-        "https://www.zdfheute.de/politik/deutschland/hochschulen-sanierungsstau-forschung-lehre-100.html"
+        "https://www.zdfheute.de/politik/ausland/israel-parlamentswahl-netanjahu-eisenkot-100.html",
+        "https://www.zdfheute.de/video/volle-kanne/protestwelle-europa-hintergruende-100.html",
+        "https://www.zdfheute.de/politik/ausland/frankreich-proteste-schueler-regierung-forderungen-100.html",
+        "https://www.zdfheute.de/politik/deutschland/banaszak-gruene-extremismus-interview-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -301,11 +268,77 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 37,
+      "sample_titles": [
+        "Gewaltattacken Jugendlicher: Gewaltattacke vor Schule: OB ruft zu Zivilcourage auf",
+        "Anklage gegen Lehrerin: Dauerkranke Lehrerin aus NRW nun wegen Betrugs angeklagt",
+        "Schülerproteste in Frankreich: Regierungschef Sébastien Lecornu will mit Schülern sprechen",
+        "Protesttag: Rund 1.000 Festnahmen in Frankreich - Demos auch in anderen Ländern"
+      ],
+      "urls": [
+        "https://www.zeit.de/news/2026-10/27/oderstadt-frankfurt-sucht-nach-wegen-gegen-jugendgewalt",
+        "https://www.zeit.de/news/2026-10/27/dauerkranke-lehrerin-aus-nrw-nun-wegen-betrugs-angeklagt",
+        "https://www.zeit.de/politik/ausland/2026-10/schuelerproteste-frankreich-paris-lebenshaltungskosten-bildungssystem-sebastien-lecornu",
+        "https://www.zeit.de/video/2026-10/protesttag-rund-1-000-festnahmen-in-frankreich-demos-auch-in-anderen-laendern"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 29,
+      "sample_titles": [
+        "Falsche Versprechen, Druck von Lehrern - Jetzt lockt Putin Studenten in die Kriegsfalle",
+        "Milliarden und neue Lehrer - Wochenlange Krawalle! Frankreichs Regierung gibt nach",
+        "Festnahme in Frankfurt - Deutscher (21) plante Kampf-Ausbildung beim IS",
+        "Handball-Trainer mit Doppel-Job - Wiegert gegen Erdkunde-Lehrer"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/ausland-und-internationales/putin-lockt-studenten-mit-falschen-versprechen-und-druck-von-lehrern-in-den-krieg-6ae0460f16ed143d64a1dbf4",
+        "https://www.bild.de/politik/ausland-und-internationales/milliarden-und-neue-lehrer-nach-schueler-wut-frankreichs-regierung-knickt-nach-krawallen-ein-6adfa4267846c6ec50e709f2",
+        "https://www.bild.de/regional/baden-wuerttemberg/festnahme-bei-einreise-deutscher-21-plante-kampf-ausbildung-beim-is-6adf0f5dba080c37bf6d1a9e",
+        "https://www.bild.de/sport/mehr-sport/handball-trainer-mit-doppel-job-wiegert-gegen-erdkunde-lehrer-6adb5282400ffbb8e251b98b"
+      ],
+      "dominant_emotion": "anger",
+      "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 2
+        },
+        {
+          "emotion": "grief",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 32,
+      "article_count": 29,
       "sample_titles": [
         "Im Clásico zwischen Barcelona und Real Madrid spielt Spanien für die Katalanen",
         "Wegen eines zu geringen Frauenanteils: Bund entzieht privater Uni die Akkreditierung",
@@ -334,55 +367,22 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 30,
-      "sample_titles": [
-        "Handball-Trainer mit Doppel-Job - Wiegert gegen Erdkunde-Lehrer",
-        "Ex-Wirtschaftsminister bei „Hart aber fair“ - Brüderle wütet gegen die „unfähige Mitte“",
-        "Autos weggespült, Schulen geschlossen - Heftige Unwetter in Spanien und Italien",
-        "Gewalt in Frankreich - Das absurde Gerede vom „Bildungsprotest“"
-      ],
-      "urls": [
-        "https://www.bild.de/sport/mehr-sport/handball-trainer-mit-doppel-job-wiegert-gegen-erdkunde-lehrer-6adb5282400ffbb8e251b98b",
-        "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/rainer-bruederle-bei-hart-aber-fair-die-mitte-ist-nicht-reformfaehig-6ad6a15151e5094f7a5724a4",
-        "https://www.bild.de/news/autos-weggespuelt-schulen-geschlossen-heftige-unwetter-in-spanien-und-italien-6ad62a42843996518cba62df",
-        "https://www.bild.de/politik/ausland-und-internationales/frankreich-krawalle-das-absurde-gerede-vom-bildungsprotest-6ad61f72de9d7a845942b9b3"
-      ],
-      "dominant_emotion": "anger",
-      "top_emotions": [
-        {
-          "emotion": "anger",
-          "count": 2
-        },
-        {
-          "emotion": "grief",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        }
-      ]
-    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 27,
+      "article_count": 28,
       "sample_titles": [
-        "Angriff auf die französische Zivilisation",
-        "„Gen Z steht auf“ zu Protesten am 31. Oktober und „Gen Z Mafia“",
-        "US-Wahlkampf: Erfundene Umfragen bringen Demokraten in Bedrängnis",
-        "Union und AfD: Von wegen Abstand verkürzt, er klettert kontinuierlich"
+        "Italien: Mutmaßlicher Drahtzieher hinter den Mailänder Ausschreitungen festgenommen",
+        "Neubeginn nach Vučić: Studenten-Liste gewinnt die Wahl in Serbien",
+        "Krisenzeichen an der Wand",
+        "Angriff auf die französische Zivilisation"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/angriff-auf-franzoesische-zivilisation/",
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/gen-z-mafia-proteste/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/usa-wahlkampf-midterms-fake-umfragen/",
-        "https://www.tichyseinblick.de/meinungen/cdu-afd-forschungsgruppe/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/italien-mutmasslicher-drahtzieher-mailand/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/studenten-liste-gewinnt-in-serbien/",
+        "https://www.tichyseinblick.de/tichys-einblick/deutschland-krisenzeichen-an-der-wand/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/angriff-auf-franzoesische-zivilisation/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -395,7 +395,7 @@
           "count": 2
         },
         {
-          "emotion": "disapproval",
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -404,24 +404,24 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 22,
+      "article_count": 24,
       "sample_titles": [
-        "Regierungsbildung in Berlin Von der SED zur TikTok-Intifada",
-        "Günter Scholdt Die hässlichen Masken des Guten",
-        "Arabisch im Abitur? Grüne Ideologie sägt am Bildungsstandard",
-        "Migrationspolitik Gericht macht klar: Gute Integration schützt nicht vor Abschiebung"
+        "JF-Dokumentation Hans-Werner Sinns fulminante Abrechnung mit Deutschlands Wirtschaftspolitik im Wortlaut",
+        "Migrationspolitik Experte fordert Brandmauer gegen den Islam an Schulen",
+        "Mecklenburg-Vorpommern Grüne Landtagsvizepräsidentin zog als Lehrerin über AfD-freundliche Schüler her",
+        "Regierungsbildung in Berlin Von der SED zur TikTok-Intifada"
       ],
       "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/von-der-sed-zur-tiktok-intifada/",
-        "https://jungefreiheit.de/kultur/literatur/2026/das-haesslichen-masken-des-guten/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/gruene-ideologie-saegt-am-bildungsstandard/",
-        "https://jungefreiheit.de/politik/deutschland/2026/gericht-macht-klar-gute-integration-schuetzt-nicht-vor-abschiebung/"
+        "https://jungefreiheit.de/wirtschaft/2026/hans-werner-sinns-fulminante-abrechnung-mit-deutschlands-wirtschaftspolitik-im-wortlaut/",
+        "https://jungefreiheit.de/politik/deutschland/2026/experte-fordert-brandmauer-gegen-den-islam-an-schulen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/gruene-landtagsvizepraesidentin-zog-als-lehrerin-ueber-afd-freundliche-schueler-her/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/von-der-sed-zur-tiktok-intifada/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "annoyance",
@@ -433,55 +433,22 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 21,
-      "sample_titles": [
-        "Cybersicherheit: Wer muss jetzt dringend handeln? Die wichtigsten Fragen und Antworten zur PHP-Sicherheitslücke",
-        "Cybersicherheit: Die wichtigsten Fragen und Antworten zur PHP-Sicherheitslücke",
-        "Hightech-Agenda: Drei Viertel der Gelder für Bayern? Bärs Wettbewerb für Quantencomputer sorgt für Ärger",
-        "Gastkommentar: Deutschland braucht einen Bildungs-Staatsvertrag"
-      ],
-      "urls": [
-        "https://www.handelsblatt.com/unternehmen/dienstleister/cybersicherheit-wie-gross-ist-die-bedrohung-durch-die-php-sicherheitsluecke/100264121.html",
-        "https://www.handelsblatt.com/unternehmen/dienstleister/sicherheitsluecke-wie-gross-ist-die-php-bedrohung-und-was-hat-ki-damit-zu-tun/100264121.html",
-        "https://www.handelsblatt.com/politik/deutschland/hightech-agenda-baers-wettbewerb-fuer-quantencomputer-sorgt-fuer-aerger/100262887.html",
-        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-deutschland-braucht-einen-bildungs-staatsvertrag/100260519.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        }
-      ]
-    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 20,
+      "article_count": 23,
       "sample_titles": [
-        "Militärforschung in Erding: Versuchslabor für Drohnen und KI",
-        "Erdwärmenutzung: Geothermie-Forschung am Straßenrand",
-        "Archäologie: Zwischen Palast und Bauernhof: Was Burgen wirklich waren",
-        "Studie zu Rekordsommer: Mehr als 50 000 Hitzetote in Europa"
+        "News-Überblick: Das sind die Nachrichten des Tages",
+        "Alternative Wärmeversorgung: Zwei Vorträge zu Wärmepumpen",
+        "Proteste in Frankreich: Frankreichs Premier macht erste Zugeständnisse – doch die Schüler wollen mehr",
+        "Forschung: Und nun zum Wetter in einem Monat"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/muenchen/erding/defense-lab-erding-fliegerhorst-erding-bundeswehr-drohnen-kuenstliche-intelligenz-li.3567921",
-        "https://www.sueddeutsche.de/muenchen/dachau/karlsfeld-giga-m-geothermie-erkundung-vibro-truck-li.3564728",
-        "https://www.sueddeutsche.de/projekte/artikel/wissen/burgenforschung-tuebingen-mittelalter-greifenstein-archaeologie-e158458/",
-        "https://www.sueddeutsche.de/politik/hitze-temperaturen-klimawandel-medizin-gesundheit-li.3567793"
+        "https://www.sueddeutsche.de/muenchen/muenchen-heute-aktuell-news-li.3570068",
+        "https://www.sueddeutsche.de/muenchen/freising/waermepumpen-freising-volkshochschule-altbau-heizkosten-li.3569715",
+        "https://www.sueddeutsche.de/politik/frankreich-schuelerproteste-sebastien-lecornu-bildungspolitik-zugestaendnisse-li.3569506",
+        "https://www.sueddeutsche.de/wissen/wettervorhersage-ki-meteorologie-subsaisonale-vorhersage-mit-microsoft-li.3562922"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -490,11 +457,44 @@
           "count": 3
         },
         {
-          "emotion": "excitement",
+          "emotion": "optimism",
           "count": 1
         },
         {
-          "emotion": "approval",
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "Gastkommentar: Bessere Bildung: Nicht nur meckern, sondern machen",
+        "Brustkrebsforschung: Biontech prüft nach Rückschlag weiteres Vorgehen bei Krebsmittel",
+        "Cybersicherheit: Wer muss jetzt dringend handeln? Die wichtigsten Fragen und Antworten zur PHP-Sicherheitslücke",
+        "Cybersicherheit: Die wichtigsten Fragen und Antworten zur PHP-Sicherheitslücke"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-bessere-bildung-nicht-nur-meckern-sondern-machen/100261980.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/brustkrebsforschung-biontech-prueft-nach-rueckschlag-weiteres-vorgehen-bei-krebsmittel/100264968.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/cybersicherheit-wie-gross-ist-die-bedrohung-durch-die-php-sicherheitsluecke/100264121.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/sicherheitsluecke-wie-gross-ist-die-php-bedrohung-und-was-hat-ki-damit-zu-tun/100264121.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -505,19 +505,23 @@
       "bias": "far-right",
       "article_count": 10,
       "sample_titles": [
+        "Der lange Marsch des Unsinns durch die Universitäten",
         "Fundstück: Ampel-Dialog in Beer Sheva",
         "Das komprimierte Elend der deutschen Migrationsforschung",
-        "Haupt-, Neben- und Hohlsatz",
-        "Klimaskepsis wird zum Massenphänomen"
+        "Haupt-, Neben- und Hohlsatz"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/der_lange_marsch_des_unsinns-durch_die_universitaeten",
         "https://www.achgut.com/artikel/fundstueck_ampel_dialog_in_beer_sheva",
         "https://www.achgut.com/artikel/das_komprimierte_elend_der_deutschen_migrationsforschung",
-        "https://www.achgut.com/artikel/haupt_neben_und_hohlsatz",
-        "https://www.achgut.com/artikel/klimaskepsis_wird_zum_massenphaenomen"
+        "https://www.achgut.com/artikel/haupt_neben_und_hohlsatz"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "admiration",
       "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
         {
           "emotion": "annoyance",
           "count": 1
@@ -528,7 +532,7 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 7,
+      "article_count": 6,
       "sample_titles": [
         "News kompakt: Mexiko sperrt Seen wegen hirnfressender Amöbe",
         "Pakistan: Einstürzendes Schuldach erschlägt Kinder",
@@ -541,13 +545,8 @@
         "https://www.dw.com/de/wirtschafts-nobelpreis-für-zwei-us-ökonomen/a-79639274?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/news-kompakt-frankreich-geht-auf-schüler-forderungen-ein/a-79607198?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     },
     "cicero": {
       "source_id": "cicero",
@@ -574,14 +573,14 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 130,
-    "far-right": 59,
-    "populist-mixed": 30,
-    "left-liberal": 195,
+    "economic-liberal": 20,
+    "left-liberal": 207,
+    "right-conservative": 129,
+    "conservative-liberal": 160,
+    "neutral": 142,
+    "far-right": 62,
     "left": 51,
-    "conservative-liberal": 171,
-    "neutral": 143,
-    "economic-liberal": 21
+    "populist-mixed": 29
   },
   "statements": {
     "de": {
@@ -593,5 +592,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-10-25T09:31:41.649242"
+  "cached_at": "2026-10-28T11:04:32.640407"
 }

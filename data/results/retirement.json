@@ -1,47 +1,14 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 572,
-  "candidate_count": 572,
+  "article_count": 557,
+  "candidate_count": 557,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 92,
-      "sample_titles": [
-        "Immobilienkrise: Wenn die Babyboomer einfach wohnen bleiben",
-        "Business-Ticker: Verdi ruft zu bundesweiten Warnstreiks bei privaten Banken auf",
-        "Tour de France 2027: Kann man Pogačar so das Leben schwerer machen?",
-        "Altersvorsorge: Wie genau funktioniert die Schwedenrente, Herr Bergström?"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/finanzen/immobilienkrise-wenn-die-babyboomer-einfach-wohnen-bleiben-accg-201608381.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-verdi-ruft-zu-bundesweiten-warnstreiks-bei-privaten-banken-auf-faz-200452404.html",
-        "https://www.faz.net/aktuell/sport/mehr-sport/tour-de-france-2027-kann-die-neue-route-pogaar-stoppen-201611605.html",
-        "https://www.faz.net/aktuell/finanzen/altersvorsorge-so-werden-rentner-durch-die-schwedenrente-reicher-accg-201272582.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 8
-        },
-        {
-          "emotion": "curiosity",
-          "count": 7
-        },
-        {
-          "emotion": "admiration",
-          "count": 4
-        }
-      ]
-    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 92,
+      "article_count": 88,
       "sample_titles": [
         "Vorschlag der Rentenkommission: SPD pocht auf Rentenbeiträge für Abgeordnete",
         "\"Also muss ich weiterkämpfen\": Jetzt hat Lewis Hamilton noch ein zweites großes Ziel bis zur F1-Rente",
@@ -62,7 +29,7 @@
         },
         {
           "emotion": "excitement",
-          "count": 6
+          "count": 5
         },
         {
           "emotion": "confusion",
@@ -70,69 +37,36 @@
         }
       ]
     },
-    "handelsblatt": {
-      "source_id": "handelsblatt",
-      "source": "Handelsblatt",
-      "bias": "economic-liberal",
-      "article_count": 47,
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 86,
       "sample_titles": [
-        "Chemie: BASF erhöht Übernahmeangebot für Evonik auf mehr als elf Milliarden Euro",
-        "Geld. Leben. Looman.: Junge Leute wollen für die Rente sparen: Sorry, aber es gibt erst mal Wichtigeres!",
-        "Alterssicherung: Koalitions-Fraktionschefs für Rentenreform – aber unterschiedliche Zeitvorstellungen",
-        "Kommentar: Die Frühstartrente hat einen großen Konstruktionsfehler"
+        "Vermögen Aufbauen: „Mit 40 oder 50 ist es nicht zu spät, sich um seine Finanzen zu kümmern“",
+        "Immobilienkrise: Wenn die Babyboomer einfach wohnen bleiben",
+        "Business-Ticker: Verdi ruft zu bundesweiten Warnstreiks bei privaten Banken auf",
+        "Tour de France 2027: Kann man Pogačar so das Leben schwerer machen?"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-basf-bietet-jetzt-mehr-als-elf-milliarden-euro-fuer-evonik/100264522.html",
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/vermoegen-lohnt-es-sich-wirklich-mit-mitte-20-fuer-die-rente-zu-sparen/100263941.html",
-        "https://www.handelsblatt.com/politik/deutschland/alterssicherung-koalitions-fraktionschefs-fuer-rentenreform-aber-unterschiedliche-zeitvorstellungen/100263118.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-die-fruehstartrente-hat-einen-grossen-konstruktionsfehler/100262812.html"
+        "https://www.faz.net/premium/meine-finanzen/vorsorge/mit-40-noch-nicht-zu-spaet-so-ordnen-sie-jetzt-ihre-finanzen-accg-201596742.html",
+        "https://www.faz.net/aktuell/finanzen/immobilienkrise-wenn-die-babyboomer-einfach-wohnen-bleiben-accg-201608381.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-verdi-ruft-zu-bundesweiten-warnstreiks-bei-privaten-banken-auf-faz-200452404.html",
+        "https://www.faz.net/aktuell/sport/mehr-sport/tour-de-france-2027-kann-die-neue-route-pogaar-stoppen-201611605.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "curiosity",
           "count": 6
         },
         {
           "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 47,
-      "sample_titles": [
-        "33-mal billiger – China lockt deutsche Entwickler in die KI-Abhängigkeit",
-        "„Arbeitsjahre statt Beitragsjahre“, sagt Connemann",
-        "ETF-Strategie bis zur Rente – diese 4 Produkte liefern Rendite bei wenig Risiko",
-        "Schweitzer stellt sich gegen Rentenkommission – auch in der CDU regt sich Widerstand"
-      ],
-      "urls": [
-        "https://www.welt.de/wirtschaft/plus6ad8511051e5094f7a573b1e/kuenstliche-intelligenz-33-mal-billiger-china-lockt-deutsche-entwickler-in-die-ki-abhaengigkeit.html",
-        "https://www.welt.de/videos/video6ad72a651935debc092ab56f/rente-mit-63-arbeitsjahre-statt-beitragsjahre-sagt-connemann.html",
-        "https://www.welt.de/finanzen/plus6accf00db52dabc39e80e296/etf-strategie-bis-zur-rente-diese-4-produkte-liefern-rendite-bei-wenig-risiko.html",
-        "https://www.welt.de/videos/video6ad3639c51e5094f7a56faa9/streit-um-rente-mit-63-schweitzer-stellt-sich-gegen-rentenkommission-auch-in-der-cdu-regt-sich-widerstand.html"
-      ],
-      "dominant_emotion": "desire",
-      "top_emotions": [
-        {
-          "emotion": "desire",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -140,18 +74,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 46,
+      "article_count": 48,
       "sample_titles": [
+        "Brandmauer fällt - Renten-Rebell für AfD-Wahl durch Berliner CDU",
+        "Vorschlag der Bundesbank - Wer mit 63 in Rente geht, soll weniger Geld bekommen",
         "Drei Reformen für drei Generationen - Mehr Geld im Alter: Was für Sie drin ist",
-        "Airbus A340-600 - Lufthansa schickt Kultflieger in Rente",
-        "Airbus A340-600 - Lufthansa schickt Kultflieger in Rente",
-        "Airbus A340-600 - Ende Legende! Lufthansa schickt Kultflieger in Rente"
+        "Airbus A340-600 - Lufthansa schickt Kultflieger in Rente"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/brandmauer-faellt-berliner-renten-rebell-fuer-afd-wahl-6addfd8aa6a5d701acbcecff",
+        "https://www.bild.de/politik/inland/rente-mit-63-bundesbank-schlaegt-hoehere-abschlaege-vor-auf-822-euro-6ad9fe09d6da4afc1480064b",
         "https://www.bild.de/politik/inland/fruehstart-rente-aktivrente-vorsorgedepot-was-fuer-sie-drin-ist-6ad1d77751e5094f7a56e465",
-        "https://www.bild.de/leben-wissen/reisen/lufthansa-schickt-kultflieger-airbus-a340-600-in-rente-6ad6429b48103a84a8f17982",
-        "https://www.bild.de/leben-wissen/reisen/airbus-a340-600-lufthansa-schickt-kultflieger-in-rente-6ad6429b48103a84a8f17982",
-        "https://www.bild.de/leben-wissen/reisen/lufthansa-a340-600-abschied-vom-fliegenden-bleistift-6acb44fc68ee659be9d0a2c0"
+        "https://www.bild.de/leben-wissen/reisen/lufthansa-schickt-kultflieger-airbus-a340-600-in-rente-6ad6429b48103a84a8f17982"
       ],
       "dominant_emotion": "desire",
       "top_emotions": [
@@ -169,11 +103,77 @@
         }
       ]
     },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 46,
+      "sample_titles": [
+        "Der geheime Faktor – Hier haben Rentner die höchste Kaufkraft",
+        "„In Deutschland empfängt jeder neunzehnte Bürgergeld, bei den Einwanderern ist es jeder fünfte“",
+        "33-mal billiger – China lockt deutsche Entwickler in die KI-Abhängigkeit",
+        "„Arbeitsjahre statt Beitragsjahre“, sagt Connemann"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/article6adf682e44ab625f2110c579/ruhestand-der-geheime-faktor-hier-haben-rentner-die-hoechste-kaufkraft.html",
+        "https://www.welt.de/wirtschaft/video6adf37bc7846c6ec50e70119/die-stimme-der-wirtschaft-in-deutschland-empfaengt-jeder-neunzehnte-buergergeld-bei-den-einwanderern-ist-es-jeder-fuenfte.html",
+        "https://www.welt.de/wirtschaft/plus6ad8511051e5094f7a573b1e/kuenstliche-intelligenz-33-mal-billiger-china-lockt-deutsche-entwickler-in-die-ki-abhaengigkeit.html",
+        "https://www.welt.de/videos/video6ad72a651935debc092ab56f/rente-mit-63-arbeitsjahre-statt-beitragsjahre-sagt-connemann.html"
+      ],
+      "dominant_emotion": "desire",
+      "top_emotions": [
+        {
+          "emotion": "desire",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
+    "handelsblatt": {
+      "source_id": "handelsblatt",
+      "source": "Handelsblatt",
+      "bias": "economic-liberal",
+      "article_count": 45,
+      "sample_titles": [
+        "Geldanlage: Boom ohne Ende? Altersvorsorgedepot dürfte Nachfrage nach aktiven ETFs treiben",
+        "Altersvorsorge: Muss jetzt die Bafin bei den Versorgungswerken eingreifen?",
+        "ING: Privatkundenchefin erklärt Altersvorsorgedepot zur Top-Priorität in diesem Jahr",
+        "Rating 2026: Diese Lebensversicherer überzeugen im Qualitätsvergleich"
+      ],
+      "urls": [
+        "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-altersvorsorgedepot-duerfte-nachfrage-nach-aktiven-etfs-treiben/100263369.html",
+        "https://www.handelsblatt.com/finanzen/vorsorge/versorgungswerke-muss-jetzt-die-bafin-eingreifen/100265050.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/ing-privatkundenchefin-erklaert-altersvorsorgedepot-zur-top-prioritaet/100264553.html",
+        "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/rating-2026-diese-lebensversicherer-ueberzeugen-im-qualitaetsvergleich/100246775.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 44,
+      "article_count": 42,
       "sample_titles": [
         "ZDF-»Politbarometer«: Überwältigende Mehrheit möchte an »Rente mit 63« festhalten",
         "Ökonom Georg Cremer über Gerechtigkeit: »Wir sind doch nicht die Kunden eines Lieferando-Staats«",
@@ -206,18 +206,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 42,
+      "article_count": 39,
       "sample_titles": [
+        "Rente mit 63: Verdi macht Druck auf Schweitzer",
         "Renten-Diskussion zwischen Jung und Alt \"fataler Weg\"",
         "Toll! Jugend verschMerzt",
-        "Toll! Jugend verschMerzt",
-        "Wie eine Lösung bei der \"Rente mit 63\" aussehen könnte"
+        "Toll! Jugend verschMerzt"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/deutschland/rente-reform-fruehrente-verdi-schweitzer-100.html",
         "https://www.zdfheute.de/video/rente-fehler-olaf-lies-lanz-100.html",
         "https://www.zdfheute.de/video/frontal/merz-junge-union-102.html",
-        "https://www.zdf.de/video/magazine/frontal-toll-satire-von-doye-und-wiemers-100/merz-junge-union-102",
-        "https://www.zdfheute.de/politik/rente-mit-63-cdu-spd-koalition-100.html"
+        "https://www.zdf.de/video/magazine/frontal-toll-satire-von-doye-und-wiemers-100/merz-junge-union-102"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -226,11 +226,11 @@
           "count": 3
         },
         {
-          "emotion": "optimism",
-          "count": 3
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -241,16 +241,16 @@
       "bias": "neutral",
       "article_count": 34,
       "sample_titles": [
+        "Wuppertaler Elefantenpfleger darf trotz Rente bleiben",
+        "Wuppertaler Elefantenpfleger darf trotz Rente bleiben",
         "Was beim Altersvorsorgedepot zu beachten ist",
-        "Befreiungsschlag für die Rente oder Risiko?",
-        "Schufa muss in bestimmten Fällen transparenter werden",
-        "Wann kommt der Gesetzentwurf für die Rentenreform?"
+        "Befreiungsschlag für die Rente oder Risiko?"
       ],
       "urls": [
+        "https://www1.wdr.de/freizeit/tiere/elefantenpfleger-rente-wohnt-zoo-wuppertal-elefanten-tierpfleger-100.html",
+        "https://www1.wdr.de/nrw/bergisches-land/wuppertal/elefantenpfleger-rente-wohnt-zoo-wuppertal-elefanten-tierpfleger-100.html",
         "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/renten-reform-kapitalrente-100.html",
-        "https://www.tagesschau.de/wirtschaft/verbraucher/bgh-urteil-schufa-114.html",
-        "https://www.tagesschau.de/inland/innenpolitik/rentenreform-zeitplan-miersch-frei-100.html"
+        "https://www.tagesschau.de/inland/innenpolitik/renten-reform-kapitalrente-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -274,16 +274,16 @@
       "bias": "left-liberal",
       "article_count": 32,
       "sample_titles": [
+        "Kassensturz zur Rente: Altersvorsorge: „Als erstes kündigte ich eine private Rentenversicherung“",
         "Immobilienpreise: Wo der erhoffte Preisrutsch für junge Käufer ausbleibt",
         "Umstrittene Reform: Was sich bei der Rente mit 63 für Sie ändern könnte",
-        "Witwenrente: Rente nach Todesfällen – so viel Geld können Hinterbliebene erhalten",
-        "Feldbesuche in Südhessen: Saisonarbeit: DGB verlangt transparentere Arbeitszeit"
+        "Witwenrente: Rente nach Todesfällen – so viel Geld können Hinterbliebene erhalten"
       ],
       "urls": [
+        "https://www.stern.de/wirtschaft/rente-im-check--sie-setzt-auf-selbststaendigkeit-statt-sparplan-38272538.html",
         "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/immobilienpreise--wo-der-erhoffte-preisrutsch-fuer-junge-kaeufer-ausbleibt-38433660.html",
         "https://www.stern.de/politik/deutschland/rente-mit-63--welcher-kompromiss-diskutiert-wird-und-wen-er-betraefe-38423336.html",
-        "https://www.stern.de/wirtschaft/geld/witwenrente--diese-betraege-stehen-angehoerigen-zu-38071496.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/feldbesuche-in-suedhessen--saisonarbeit--dgb-verlangt-transparentere-arbeitszeit-38424650.html"
+        "https://www.stern.de/wirtschaft/geld/witwenrente--diese-betraege-stehen-angehoerigen-zu-38071496.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -301,88 +301,22 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Caren Miosga: Wer wird denn gleich unmenschlich werden",
-        "Podcast „Auf den Punkt“: Wie gerecht ist die Rente mit 63?",
-        "Reformdebatte: Eine Einladung zur Frührente",
-        "Deutsche Post: Regierung kippt Steuerprivileg der Post bei Geschäftsbriefen"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/medien/caren-miosga-rentenreform-thorsten-frei-matthias-miersch-tv-kritik-li.3564791",
-        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-rente-sozialpolitik-rentenreform-li.3564493",
-        "https://www.sueddeutsche.de/wirtschaft/bundesregierung-reformen-rente-fruehrente-li.3563519",
-        "https://www.sueddeutsche.de/wirtschaft/deutsche-post-steuerprivileg-geschaeftsbriefe-umsatzsteuer-bundesregierung-li.3563742"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        },
-        {
-          "emotion": "love",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 19,
-      "sample_titles": [
-        "Massendemonstrationen: Tausende demonstrieren in Belgien, Italien, Spanien und Albanien",
-        "Altersvorsorge: Schon als Kind fürs Alter vorsorgen - die Frühstartrente",
-        "Verbrenner-Aus: Verbrenner aus, Verbrenner an",
-        "Migration und Sozialstaat: Ja, Migranten zahlen Ihre Rente"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/ausland/2026-10/proteste-europa-spanien-italien-serbien-albanien-belgien",
-        "https://www.zeit.de/news/2026-10/16/schon-als-kind-fuers-alter-vorsorgen-die-fruehstartrente",
-        "https://www.zeit.de/politik/2026-10/verbrenner-aus-einigung-autoindustrie-nachrichtenpodcast",
-        "https://www.zeit.de/wirtschaft/2026-10/migration-sozialstaat-zuwanderung-rente-pflege"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 3
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 19,
+      "article_count": 20,
       "sample_titles": [
+        "Wie Lula die verloren geglaubte Wahl doch noch drehte",
         "Selbständige statt Angestellte: Just Eat stellt das soziale Versprechen der Migros auf die Probe",
         "DER ANDERE BLICK - Deutschland soll zum Land der Investoren werden. Das Ende der irrationalen Angst vor Aktien ist überfällig",
-        "Elisabeth Baume-Schneider am SP-Parteitag: «Die Kritik an der höheren Mehrwertsteuer ist eine Nebelpetarde»",
-        "KOMMENTAR - Das Land braucht einen heilsamen Schock: Lasst die AHV-Finanzierung platzen!"
+        "Elisabeth Baume-Schneider am SP-Parteitag: «Die Kritik an der höheren Mehrwertsteuer ist eine Nebelpetarde»"
       ],
       "urls": [
+        "https://www.nzz.ch/international/wie-lula-die-verloren-geglaubte-wahl-doch-noch-drehte-ld.10046214",
         "https://www.nzz.ch/wirtschaft/selbstaendige-statt-angestellte-just-eat-stellt-das-soziale-versprechen-der-migros-auf-die-probe-ld.10042272",
         "https://www.nzz.ch/der-andere-blick/deutschland-soll-zum-land-der-investoren-werden-das-ende-der-irrationalen-angst-vor-aktien-ist-ueberfaellig-ld.10039719",
-        "https://www.nzz.ch/schweiz/elisabeth-baume-schneider-am-sp-parteitag-die-kritik-an-der-hoeheren-mehrwertsteuer-ist-eine-nebelpetarde-ld.10037369",
-        "https://www.nzz.ch/meinung/das-land-braucht-einen-heilsamen-schock-lasst-die-ahv-finanzierung-platzen-ld.10034954"
+        "https://www.nzz.ch/schweiz/elisabeth-baume-schneider-am-sp-parteitag-die-kritik-an-der-hoeheren-mehrwertsteuer-ist-eine-nebelpetarde-ld.10037369"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -400,22 +334,88 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 19,
+      "sample_titles": [
+        "Versicherungsmathematiker: Das neue Altersvorsorgedepot kann teuer werden",
+        "Caren Miosga: Wer wird denn gleich unmenschlich werden",
+        "Podcast „Auf den Punkt“: Wie gerecht ist die Rente mit 63?",
+        "Reformdebatte: Eine Einladung zur Frührente"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/altersvorsorgedepot-lebensversicherung-riester-rente-kosten-li.3569950",
+        "https://www.sueddeutsche.de/medien/caren-miosga-rentenreform-thorsten-frei-matthias-miersch-tv-kritik-li.3564791",
+        "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-rente-sozialpolitik-rentenreform-li.3564493",
+        "https://www.sueddeutsche.de/wirtschaft/bundesregierung-reformen-rente-fruehrente-li.3563519"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 19,
+      "sample_titles": [
+        "Beziehung in der Rente: Wer kümmert sich bei Ihnen im Rentenalter um den Haushalt?",
+        "Massendemonstrationen: Tausende demonstrieren in Belgien, Italien, Spanien und Albanien",
+        "Altersvorsorge: Schon als Kind fürs Alter vorsorgen - die Frühstartrente",
+        "Verbrenner-Aus: Verbrenner aus, Verbrenner an"
+      ],
+      "urls": [
+        "https://www.zeit.de/familie/2026-10/beziehung-rente-haushalt-ungleichgewicht-aufgaben",
+        "https://www.zeit.de/politik/ausland/2026-10/proteste-europa-spanien-italien-serbien-albanien-belgien",
+        "https://www.zeit.de/news/2026-10/16/schon-als-kind-fuers-alter-vorsorgen-die-fruehstartrente",
+        "https://www.zeit.de/politik/2026-10/verbrenner-aus-einigung-autoindustrie-nachrichtenpodcast"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 16,
+      "article_count": 17,
       "sample_titles": [
+        "Mülleimer wuchten: „Ich hoffe, dass ich bis zur Rente bleibe“",
+        "„Frühstartrente“ der Bundesregierung: Kapitalmarktschulung für Kleinkinder",
         "Urteil des Bundesgerichtshofs: Schufa muss transparenter werden",
-        "Rente und Mütter: Komplett verblödete Idee",
-        "Streit um abschlagsfreie Rente: Trifft es am Ende die Frauen?",
-        "Neuwahlen in Spanien: Linkes Wahlbündnis ohne Podemos"
+        "Rente und Mütter: Komplett verblödete Idee"
       ],
       "urls": [
+        "https://taz.de/Mitarbeiterin-der-Bremer-Strassenreinigung-Ich-bin-eher-ein-schlampiger-Mensch/!6209486/",
+        "https://taz.de/Fruehstartrente-der-Bundesregierung/!6225089/",
         "https://taz.de/Urteil-des-Bundesgerichtshofs/!6223372/",
-        "https://taz.de/Rente-und-Muetter/!6222954/",
-        "https://taz.de/Koalition-streitet-ueber-abschlagsfreie-Rente-Trifft-es-am-Ende-die-Frauen/!6222606/",
-        "https://taz.de/Neuwahlen-in-Spanien/!6222349/"
+        "https://taz.de/Rente-und-Muetter/!6222954/"
       ],
       "dominant_emotion": "disgust",
       "top_emotions": [
@@ -424,11 +424,11 @@
           "count": 2
         },
         {
-          "emotion": "excitement",
+          "emotion": "desire",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -526,24 +526,24 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 115,
-    "far-right": 21,
-    "conservative-liberal": 112,
-    "right-conservative": 139,
-    "populist-mixed": 46,
-    "economic-liberal": 47,
-    "neutral": 76,
-    "left": 16
+    "right-conservative": 134,
+    "left-liberal": 112,
+    "conservative-liberal": 107,
+    "neutral": 73,
+    "left": 17,
+    "economic-liberal": 45,
+    "populist-mixed": 48,
+    "far-right": 21
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im gesamten deutschen Mediendiskurs wird die demografische Alterung als zentrale Belastung der gesetzlichen Rentenversicherung benannt, wobei alle Lager die langfristige Finanzierbarkeit in Frage stellen. Gleichzeitig besteht ein breiter Konsens, dass die Debatte um die „Rente mit 63“ nicht allein durch ein höheres Renteneintrittsalter gelöst werden kann, sondern ergänzende Maßnahmen wie mehr Transparenz bei privaten Vorsorgeprodukten und eine stärkere Generationengerechtigkeit erforderlich sind.",
-      "controversial_points": "Im Diskurs kollidiert das Prinzip der Generationengerechtigkeit mit dem demografischen Wandel. Linke Medien betonen soziale Sicherheit und fordern Rente mit 63, während konservative Stimmen die Finanzierbarkeit durch höhere Beiträge schützen wollen. Liberale Wirtschaftspresse propagiert kapitalgedeckte Modelle und kritisiert staatliche Lasten, was von Sozialdemokraten als Ungleichheit gesehen wird. Populäre Formate nutzen Angst vor Altersarmut, um politische Polarisierung zu verstärken und einfache Lösungspakete zu verkaufen."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass der demografische Wandel die Finanzierbarkeit der gesetzlichen Rente gefährdet und deshalb strukturelle Reformen unvermeidlich sind, wobei die Diskussion häufig um die Frage der Generationengerechtigkeit kreist. Gleichzeitig zeigen fast alle Beiträge, dass kapitalgedeckte Vorsorgeprodukte – etwa die Aktienrente oder das neue Altersvorsorgedepot – als notwendige Ergänzung zur gesetzlichen Rente wahrgenommen werden, wobei gleichzeitig Bedenken hinsichtlich Kosten, Risiko und Transparenz geäußert werden. Schließlich wird in den meisten Artikeln ein breiter gesellschaftlicher Konsens über die Popularität von „Rente mit 63“ hervorgehoben, was das Thema zu einem zentralen politischen Verhandlungsfeld macht.",
+      "controversial_points": ""
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media converge on the view that demographic ageing makes the current pay‑as‑you‑go pension system financially untenable, prompting calls for a gradual increase of the statutory retirement age and for higher contribution rates to preserve intergenerational equity. Simultaneously, there is broad agreement that the popular demand for a “Rente mit 63” cannot be met without either substantial tax subsidies or a shift toward capital‑funded components such as Riester‑type schemes, yet all sides warn that private savings alone will not close the projected pension gap. Coverage from left, centre and right uniformly highlights the impact of high housing costs on younger workers’ ability to accumulate retirement assets, framing affordable housing as a prerequisite for a sustainable pension outlook.",
-      "controversial_points": "The core conflict pits universal public pensions against market‑based private savings. Intergenerational fairness divides left‑leaning demand for early retirement from conservative calls for higher retirement age. Demographic decline fuels tension between solidarity‑oriented parties and economic liberals promoting contribution cuts and private capital. Migration debates intersect pension financing, with right‑wing media framing migrants as “rentenretter” and left media emphasizing social integration."
+      "shared_perspectives": "Across the spectrum German media agree that demographic ageing is eroding the fiscal balance of the statutory pension scheme and that any reform must confront inter‑generational equity, either by extending the retirement age or by supplementing the system with capital‑based products. They also converge on the view that the popular demand for a “Rente mit 63” is politically potent but financially unsustainable without higher contributions, benefit cuts, or a shift toward private savings, and that the current gap between pension income and living costs remains a source of poverty for many retirees.",
+      "controversial_points": "The core conflict pits universal public pensions against market‑based private savings. Intergenerational fairness divides older voters demanding higher benefits from younger citizens facing higher contributions. Demographic decline fuels debate over raising retirement age versus preserving early‑retirement options for low‑income groups. Migration narratives link immigrant labor to pension financing, creating cultural fault lines between conservatives and left‑leaning parties."
     }
   },
-  "cached_at": "2026-10-25T09:17:25.878437"
+  "cached_at": "2026-10-28T10:50:04.650732"
 }

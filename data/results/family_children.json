@@ -8,18 +8,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 112,
+      "article_count": 120,
       "sample_titles": [
-        "Flávio Bolsonaro - der Kandidat des Vaters",
-        "Amerikanischer Traum in weiter Ferne",
-        "Wie der Fachkräftemangel in saarländischen Kitas angegangen werden soll",
-        "Familie Rouf aus Leverkusen: Sohn Ruhaim spricht erstmals über Abschiebung"
+        "Karibik-Traum wurde zum Albtraum",
+        "Familie aus Köln darf Haus behalten",
+        "Kita-Finanzierung: Bremer Kinder bekommen gezieltere Unterstützung",
+        "Cyberangriff im Kreis Kaiserslautern: Verbandsgemeinde will sich besser schützen"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/amerika/brasilien-wahl-bolsonaro-106.html",
-        "https://www.tagesschau.de/ausland/amerika/usa-midterms-junge-waehler-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/kita_fachkraefte_kampagne_bildungsministerium_100.html",
-        "https://www1.wdr.de/nrw/rheinland/leverkusen/abschiebung-familie-rouf-leverkusen-100.html"
+        "https://www1.wdr.de/nrw/bergisches-land/auswanderung-aruba-abgebrochen-familie-manco-drillinge-zurueck-solingen-100.html",
+        "https://www1.wdr.de/nrw/koeln/koeln-familie-betrug-sozialleistungen-100.html",
+        "https://www.butenunbinnen.de/nachrichten/kitas-finanzierung-senat-bremen-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/kita-opfer-von-hackerangriff-westpfalz-otterbach-otterberg-besserer-schutz-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -28,44 +28,11 @@
           "count": 7
         },
         {
+          "emotion": "grief",
+          "count": 4
+        },
+        {
           "emotion": "desire",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 4
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 102,
-      "sample_titles": [
-        "Going high, riding low: Wo Autos hoppen",
-        "„Die Mütter von Cherson“: Das Kriegsverbrechen auf der Opernbühne",
-        "Leistungsprinzip: Warum Chancengleichheit nicht für Gerechtigkeit sorgt",
-        "Bildung und Kinderarmut: In den Schulen das Gold der Kinder schürfen"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/besser-leben/stil/lowrider-in-los-angeles-201300786.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/oper-die-muetter-von-cherson-bei-arte-201614301.html",
-        "https://www.faz.net/aktuell/wissen/geist-soziales/studie-aus-den-usa-wo-das-leistungsprinzip-an-grenzen-stoesst-accg-201317650.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bildung-heisst-auch-in-kluge-koepfe-zu-investieren-accg-201612105.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 8
-        },
-        {
-          "emotion": "confusion",
-          "count": 7
-        },
-        {
-          "emotion": "joy",
           "count": 4
         }
       ]
@@ -74,150 +41,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 101,
+      "article_count": 100,
       "sample_titles": [
-        "Palästinenser bitten um Hilfe: Israels Armee startet Großeinsatz in Hebron",
-        "Zweimal von Nazis festgenommen: Französische Widerstandskämpferin stirbt mit 105 Jahren",
-        "Korb für Harry: Prinz William will keine Versöhnung",
-        "Bruch mit Familientradition: Bushs Bruder Neil wählt Demokraten in Texas"
+        "Emmy-Gewinnerin stirbt mit 80: US-Schauspielerin Susan Saint James ist tot",
+        "Bruder von Laura: Wontorra übernimmt die neue Frauen-Bundesliga",
+        "Drittes Kind mit 45 Jahren: Natalie Portman schwärmt vom neuen Familienglück",
+        "Enkel von Antoinette Grimaldi: Mitglied der Fürstenfamilie von Monaco tot aufgefunden"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Israels-Armee-startet-Grosseinsatz-in-Hebron-id31454246.html",
-        "https://www.n-tv.de/panorama/Franzoesische-Widerstandskaempferin-stirbt-mit-105-Jahren-id31448816.html",
-        "https://www.n-tv.de/leute/Prinz-William-will-keine-Versoehnung-id31447390.html",
-        "https://www.n-tv.de/politik/Bushs-Bruder-Neil-waehlt-Demokraten-in-Texas-id31444989.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 5
-        },
-        {
-          "emotion": "grief",
-          "count": 5
-        },
-        {
-          "emotion": "sadness",
-          "count": 4
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 92,
-      "sample_titles": [
-        "Schwere Vorwürfe gegen Thomas Markle Sr. - Meghans Vater-Hölle",
-        "Camping-Krach statt Familien-Idylle - Katzenberger erlebt Urlaubs-Desaster am Gardasee",
-        "Bayern-Familie hält zusammen - Hoeneß bringt Kompany Essen ins Krankenhaus",
-        "Kim Kardashians geheime Familienwelt - 24 Angestellte und Codewort „Lockdown“ wegen Kanye"
-      ],
-      "urls": [
-        "https://www.bild.de/unterhaltung/royals-adel/meghan-markle-schwere-vorwuerfe-gegen-vater-thomas-markle-6adcc4e9247c1fa20130575e",
-        "https://www.bild.de/unterhaltung/tv-fernsehformate/daniela-katzenbergers-gardasee-urlaub-eskaliert-6adb974c9fbb7e8e310ddb37",
-        "https://www.bild.de/sport/fussball/uli-hoeness-bringt-vincent-kompany-essen-ins-krankenhaus-6adc74b02fdeb2201fba958e",
-        "https://www.bild.de/unterhaltung/stars-und-leute/kim-kardashians-familienwelt-24-angestellte-und-das-codewort-lockdown-6ad9d12ed76437b82f93503d"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 5
-        },
-        {
-          "emotion": "amusement",
-          "count": 4
-        },
-        {
-          "emotion": "excitement",
-          "count": 3
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 78,
-      "sample_titles": [
-        "Hendrik Wüst: Warum der NRW-Ministerpräsident manchmal auf der Couch schläft",
-        "Südtirol: Das zerrissene Land – Podcastserie",
-        "Mehrsprachige Erziehung: »Lern Deutsch!« – wenn Sprache zur Belastung wird",
-        "Auswandern nach Kanada: Eine deutsche Familie zieht nach sechs Jahren ein Fazit"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/hendrik-wuest-warum-der-nrw-ministerpraesident-manchmal-auf-der-couch-schlaeft-a-b8b3f046-4efd-4dde-99fb-c8be9ba0f948#ref=rss",
-        "https://www.spiegel.de/ausland/suedtirol-das-zerrissene-land-podcastserie-a-a622a53f-25a4-4300-996b-19ff1d86e133#ref=rss",
-        "https://www.spiegel.de/panorama/mehrsprachige-erziehung-lern-deutsch-wenn-sprache-zur-belastung-wird-a-0611ec48-316a-4c4c-bcab-fc387623a3f5#ref=rss",
-        "https://www.spiegel.de/karriere/auswandern-nach-kanada-eine-deutsche-familie-zieht-nach-sechs-jahren-ein-fazit-a-660a768d-95a2-4c03-90d5-18f769adfc1d#ref=rss"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 4
-        },
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 4
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 67,
-      "sample_titles": [
-        "Halloween: Gruseltipps für Halloween: Wo spukt es in Niedersachsen?",
-        "Reinickendorf: Leiche bei Brand in Berliner Kellerwohnung gefunden",
-        "Kristen Bell weint „jede Woche“: Ehrliche Worte über Erziehung ihrer Töchter",
-        "Hitze: Grüne warnen vor Zweiklassensystem bei Ganztagsbetreuung"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/halloween--gruseltipps-fuer-halloween--wo-spukt-es-in-niedersachsen--38447554.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/reinickendorf--leiche-bei-brand-in-berliner-kellerwohnung-gefunden-38447184.html",
-        "https://www.stern.de/lifestyle/leute/kristen-bell-weint--jede-woche---ehrliche-worte-ueber-erziehung-ihrer-toechter-38444162.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/hitze--gruene-warnen-vor-zweiklassensystem-bei-ganztagsbetreuung-38436082.html"
-      ],
-      "dominant_emotion": "excitement",
-      "top_emotions": [
-        {
-          "emotion": "excitement",
-          "count": 5
-        },
-        {
-          "emotion": "annoyance",
-          "count": 4
-        },
-        {
-          "emotion": "sadness",
-          "count": 3
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 50,
-      "sample_titles": [
-        "„Dass diese Riesenaufrüstung vielen in Frankreich Angst macht, hat in Deutschland keiner verstanden“",
-        "Auch eine Klobürste schützt nicht vor Theaterschlaf",
-        "Früchtetee löst Großeinsatz in Kiel aus",
-        "25 bekannte Tatverdächtige und eine Stadt in Angst"
-      ],
-      "urls": [
-        "https://www.welt.de/kultur/article6adb501f400ffbb8e251b941/militaerstrategin-florence-gaub-dass-diese-riesenaufruestung-vielen-in-frankreich-angst-macht-hat-in-deutschland-keiner-verstanden.html",
-        "https://www.welt.de/kultur/article6adb2d76400ffbb8e251b501/koenig-ubu-am-burgtheater-auch-eine-klobuerste-schuetzt-nicht-vor-theaterschlaf.html",
-        "https://www.welt.de/regionales/hamburg/article6adb22fd9fbb7e8e310dd06f/verdaechtiges-paket-fruechtetee-loest-grosseinsatz-in-kiel-aus.html",
-        "https://www.welt.de/politik/deutschland/plus6ad33d75992af73088da25bc/jugendgewalt-in-potsdam-25-bekannte-tatverdaechtige-und-eine-stadt-in-angst.html"
+        "https://www.n-tv.de/leute/US-Schauspielerin-Susan-Saint-James-ist-tot-id31464795.html",
+        "https://www.n-tv.de/sport/fussball/Wontorra-uebernimmt-die-neue-Frauen-Bundesliga-id31463226.html",
+        "https://www.n-tv.de/leute/Natalie-Portman-schwaermt-vom-neuen-Familienglueck-id31460687.html",
+        "https://www.n-tv.de/leute/Mitglied-der-Fuerstenfamilie-von-Monaco-tot-aufgefunden-id31461058.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -230,8 +65,173 @@
           "count": 4
         },
         {
+          "emotion": "annoyance",
+          "count": 4
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 99,
+      "sample_titles": [
+        "Familie Angeklagt: Sie sollen die junge Frau mit Zangen und Nägeln gefoltert haben",
+        "Antoine de Massy: Mitglied der Fürstenfamilie von Monaco tot aufgefunden",
+        "Muslimisch-jüdische Kolumne: Vor der Wahl in Israel: Ein Land im Ausnahmezustand",
+        "Going high, riding low: Wo Autos hoppen"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/folterprozess-in-braunschweig-familie-quaelte-junge-frau-ueber-jahre-201626356.html",
+        "https://www.faz.net/aktuell/gesellschaft/menschen/antoine-de-massy-mitglied-der-fuerstenfamilie-von-monaco-tot-aufgefunden-accg-201624461.html",
+        "https://www.faz.net/aktuell/feuilleton/kolumnen/muslimisch-juedisches-abendbrot/wahl-in-israel-hoffnung-und-erschoepfung-im-ausnahmezustand-accg-201617672.html",
+        "https://www.faz.net/aktuell/besser-leben/stil/lowrider-in-los-angeles-201300786.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 8
+        },
+        {
+          "emotion": "confusion",
+          "count": 6
+        },
+        {
+          "emotion": "optimism",
+          "count": 4
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 89,
+      "sample_titles": [
+        "Drama in Buenos Aires - Fallende Avocado tötet Baby vor Kita",
+        "Familiendrama um Albert und Charlène - Cousin des Fürsten (†29) tot aufgefunden",
+        "480 Mitarbeiter betroffen - Große Bäckerei-Kette mit 59 Filialen insolvent",
+        "Schwere Vorwürfe gegen Thomas Markle Sr. - Meghans Vater-Hölle"
+      ],
+      "urls": [
+        "https://www.bild.de/news/ausland/avocado-erschlaegt-baby-lucas-12-mutter-erhebt-vorwuerfe-6ae0f61067fc5d0d0ce67ae6",
+        "https://www.bild.de/unterhaltung/stars-und-leute/fuerst-albert-ii-und-charlene-antoine-de-massy-tot-aufgefunden-6adf7c658e175153b6ac01c8",
+        "https://www.bild.de/regional/hessen/grosse-baeckerei-kette-mit-59-filialen-und-480-mitarbeitern-insolvent-6adc78aa9fbb7e8e310de2f0",
+        "https://www.bild.de/unterhaltung/royals-adel/meghan-markle-schwere-vorwuerfe-gegen-vater-thomas-markle-6adcc4e9247c1fa20130575e"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 5
+        },
+        {
+          "emotion": "amusement",
+          "count": 4
+        },
+        {
           "emotion": "grief",
           "count": 3
+        }
+      ]
+    },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 76,
+      "sample_titles": [
+        "Sardinien: Restaurants verbieten Familien, Handys am Tisch zu benutzen",
+        "Schortens: Bürgermeister Böhling richtet Halteverbot an Privatgrundstück ein",
+        "Sparen: Deutsche liegen bei der Sparquote in Europa weit vorn",
+        "Brasilien: Donald Trump nennt Ergebnisse der Präsidentschaftswahl »manipuliert«"
+      ],
+      "urls": [
+        "https://www.spiegel.de/panorama/sardinien-restaurants-verbieten-familien-handys-am-tisch-zu-benutzen-a-31084d00-5e96-41e2-a527-fd3c60561bed#ref=rss",
+        "https://www.spiegel.de/mobilitaet/schortens-buergermeister-boehling-richtet-halteverbot-an-privatgrundstueck-ein-a-a5e11f90-0e22-47df-81a3-fe17c68ecc3d#ref=rss",
+        "https://www.spiegel.de/wirtschaft/service/sparen-deutsche-liegen-bei-der-sparquote-in-europa-weit-vorn-a-ee68f4f2-a713-4576-b20b-f6b4833ba8fb#ref=rss",
+        "https://www.spiegel.de/ausland/brasilien-donald-trump-nennt-ergebnisse-der-praesidentschaftswahl-manipuliert-a-5052d3d8-539c-44f9-ac7b-290c1dbcd624#ref=rss"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
+          "count": 4
+        },
+        {
+          "emotion": "anger",
+          "count": 3
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 69,
+      "sample_titles": [
+        "US-Beamter: Stellen Visum für Flávio Bolsonaro aus",
+        "US-Beamter: Stellen Visum für Flávio Bolsonaro aus",
+        "Regierungskreise: USA wollen Flávio Bolsonaro und seiner Familie Visa geben",
+        "Staatsanwaltschaft ermittelt: Monacos Fürstenhaus trauert: Antoine de Massy tot"
+      ],
+      "urls": [
+        "https://www.stern.de/news/--us-beamter--stellen-visum-fuer-fl%C3%A1vio-bolsonaro-aus-38461210.html",
+        "https://www.stern.de/politik/ausland/--us-beamter--stellen-visum-fuer-fl%C3%A1vio-bolsonaro-aus-38461212.html",
+        "https://www.stern.de/news/regierungskreise--usa-wollen-fl%C3%A1vio-bolsonaro-und-seiner-familie-visa-geben-38461216.html",
+        "https://www.stern.de/panorama/staatsanwaltschaft-ermittelt--monacos-fuerstenhaus-trauert--antoine-de-massy-tot-38458474.html"
+      ],
+      "dominant_emotion": "grief",
+      "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 4
+        },
+        {
+          "emotion": "excitement",
+          "count": 4
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 51,
+      "sample_titles": [
+        "Flucht in die USA – Die Implosion des Bolsonaro-Imperiums",
+        "Nach Hinweis von Zeugen – Polizei findet zwei Tote in Wohnhaus",
+        "„Das ist der Weg in den Untergang für die Union“",
+        "Vor Kanes Krönung rief Kompany aus dem Krankenhaus an"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/ausland/plus6ae160c5f74d161423be0dff/brasilien-flucht-in-die-usa-die-implosion-des-bolsonaro-imperiums.html",
+        "https://www.welt.de/vermischtes/article6ae0b2f267fc5d0d0ce6769a/in-dresden-nach-hinweis-von-zeugen-polizei-findet-zwei-tote-in-wohnhaus.html",
+        "https://www.welt.de/politik/deutschland/video6ae07fa0dcd605c8d4cea2ce/brandmauer-debatte-das-ist-der-weg-in-den-untergang-fuer-die-union.html",
+        "https://www.welt.de/sport/fussball/article6ae05d8fd394e9264bdfb2fe/harry-kane-am-morgen-vor-seiner-kroenung-rief-kompany-aus-dem-krankenhaus-an.html"
+      ],
+      "dominant_emotion": "grief",
+      "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 4
+        },
+        {
+          "emotion": "admiration",
+          "count": 4
+        },
+        {
+          "emotion": "sadness",
+          "count": 4
         }
       ]
     },
@@ -239,18 +239,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 39,
+      "article_count": 38,
       "sample_titles": [
+        "Deutsche Bahn: Familientickets nun im Dauerangebot",
+        "Wahl in Israel: „Wir können keine einzige Stimme verschwenden“",
         "Rente und Mütter: Komplett verblödete Idee",
-        "Deportation von Kindern nach Russland: Der Kreml will „kleine Russen“ aus ihnen machen",
-        "Asylpolitik in Deutschland: Hessen schiebt Eltern ohne ihre Kinder ab",
-        "Streit um abschlagsfreie Rente: Trifft es am Ende die Frauen?"
+        "Deportation von Kindern nach Russland: Der Kreml will „kleine Russen“ aus ihnen machen"
       ],
       "urls": [
+        "https://taz.de/Deutsche-Bahn/!6224967/",
+        "https://taz.de/Wahl-in-Israel/!6224717/",
         "https://taz.de/Rente-und-Muetter/!6222954/",
-        "https://taz.de/Deportation-von-Kindern-nach-Russland/!6222961/",
-        "https://taz.de/Asylpolitik-in-Deutschland/!6222573/",
-        "https://taz.de/Koalition-streitet-ueber-abschlagsfreie-Rente-Trifft-es-am-Ende-die-Frauen/!6222606/"
+        "https://taz.de/Deportation-von-Kindern-nach-Russland/!6222961/"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -272,18 +272,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 33,
+      "article_count": 31,
       "sample_titles": [
-        "Fußball: Viessmann beteiligt sich am FC Bayern",
-        "Schifffahrt: Griechische Reeder entdecken die Athener Börse – Finanzplatz gewinnt an Bedeutung",
-        "Steuerhinterziehung: Novum im Cum-Ex-Skandal: Verfahren gegen Ex-Banker nach Geldauflage eingestellt",
-        "Volkswagen: So ringt Piëchs Familie bis heute um das Erbe des Patriarchen"
+        "+++ USA +++: Iran-Krieg kostet bislang wohl mehr als 47 Mrd Dollar",
+        "Brasilien: Bolsonaro nach Wahlniederlage offenbar auf dem Weg in die USA",
+        "Midterms: Amerikaner „extrem besorgt“: Plötzlich könnten Korruptions-Vorwürfe Donald Trump Stimmen kosten",
+        "Deep Reed: Nimmt Deutschland Mütter zu wenig in die Arbeitspflicht?"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/dienstleister/fussball-viessmann-beteiligt-sich-am-fc-bayern/100264152.html",
-        "https://www.handelsblatt.com/finanzen/schifffahrt-griechische-reeder-entdecken-die-athener-boerse/100262646.html",
-        "https://www.handelsblatt.com/finanzen/banken-versicherungen/cum-ex/cum-ex-skandal-verfahren-gegen-ex-warburg-banker-nach-geldauflage-eingestellt/100263329.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-so-ringt-piechs-familie-um-das-erbe-des-frueheren-vw-patriarchen/100254644.html"
+        "https://www.handelsblatt.com/politik/international/usa-iran-krieg-kostet-bislang-wohl-mehr-als-47-mrd-dollar/29669594.html",
+        "https://www.handelsblatt.com/politik/international/brasilien-bolsonaro-nach-wahlniederlage-offenbar-auf-dem-weg-in-die-usa/100265385.html",
+        "https://www.handelsblatt.com/politik/international/midterms-ploetzlich-koennten-korruptions-vorwuerfe-donald-trump-stimmen-kosten/100264611.html",
+        "https://www.handelsblatt.com/politik/deutschland/geburt-nimmt-deutschland-muetter-zu-wenig-in-die-arbeitspflicht/100230798.html"
       ],
       "dominant_emotion": "joy",
       "top_emotions": [
@@ -305,18 +305,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 26,
+      "article_count": 30,
       "sample_titles": [
-        "Ausschuss für Jugend und Familie: Streit um Beratung für junge Missbrauchsopfer",
-        "Starnberg: Einbruch in Einfamilienhaus",
-        "Prozess in Memmingen: Angeklagter bestreitet Doppelmord an Ex-Schwiegereltern",
-        "Nächtlicher Brand in Rosenheim: Ein Toter bei Brand in Mehrfamilienhaus – 35 Menschen evakuiert"
+        "Präsidentschaftsrennen in Brasilien: Wahlverlierer Flávio Bolsonaro flieht in die USA",
+        "Nach Gefängnisurteil wegen Steuerhinterziehung: Masken-Millionärin Andrea Tandler fordert Schmerzensgeld",
+        "Nach Feuer am Ammersee: Brandopfer identifiziert",
+        "Prozess in Starnberg: Familienvater muss wegen Kinderpornos ins Gefängnis"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/muenchen/wolfratshausen/bad-toelz-wolfratshausen-missbrauchsopfer-beratungsangebot-f-e-l-s-jugendamt-li.3566985",
-        "https://www.sueddeutsche.de/muenchen/starnberg/starnberg-percha-einbruch-einfamilienhaus-polizei-schmuck-li.3566450",
-        "https://www.sueddeutsche.de/bayern/memmingen-doppelmord-prozess-schwiegereltern-li.3565880",
-        "https://www.sueddeutsche.de/bayern/rosenheim-brand-mehrfamilienhaus-toter-evakuierung-li.3564971"
+        "https://www.sueddeutsche.de/politik/wahlverlierer-flavio-bolsonaro-brasilien-korruptionsvorwuerfe-li.3569705",
+        "https://www.sueddeutsche.de/muenchen/muenchen-justizpalast-prozess-andrea-tandler-maskenaffaere-li.3569464",
+        "https://www.sueddeutsche.de/muenchen/starnberg/brand-ammersee-schondorf-landkreis-landsberg-am-lech-todesopfer-li.3570084",
+        "https://www.sueddeutsche.de/muenchen/starnberg/starnberg-kinderpornografie-amtsgericht-wiederholungstaeter-haftstrafe-li.3569498"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -338,18 +338,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 24,
+      "article_count": 25,
       "sample_titles": [
+        "Halloween-Haus in Biberach: Familie baut Mexikos Totenwelt",
+        "Bahn bietet Familienticket ab heute wieder an",
         "Vor der Wahl in Israel wächst die Gewalt",
-        "Prinz Harry hofft auf Versöhnung mit Familie",
-        "Wenn jeder Cent zählt, \"dass wir überhaupt durchkommen\"",
-        "Los Angeles feiert Ozzy Osbournes Vermächtnis"
+        "Prinz Harry hofft auf Versöhnung mit Familie"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/panorama-gruselhaus-biberach-100.html",
+        "https://www.zdfheute.de/panorama/familienticket-start-deutsche-bahn-100.html",
         "https://www.zdfheute.de/video/politik-israel-militareinsatz-100.html",
-        "https://www.zdfheute.de/video/panorama-prinz-harry-streit-100.html",
-        "https://www.zdfheute.de/panorama/armut-armutsgefaehrdet-existenzminimum-alleinerziehend-arm-trotz-arbeit-100.html",
-        "https://www.zdfheute.de/video/hallo-deutschland/ozzy-osbourne-black-sabbath-film-100.html"
+        "https://www.zdfheute.de/video/panorama-prinz-harry-streit-100.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -358,12 +358,12 @@
           "count": 3
         },
         {
-          "emotion": "realization",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "approval",
+          "count": 1
         }
       ]
     },
@@ -371,18 +371,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 23,
+      "article_count": 21,
       "sample_titles": [
+        "Schützende Hände kosten 11.600 Euro – aber „Nazischlampe“ erlaubt",
         "Spiritualität jenseits von Politik, Ethik und Geld",
         "Erneute Eskalation in Nahost – damit droht der nächste Preisschock",
-        "Trumps Gold Card oder Golden Visa: wer rettet im Krisenfall?",
-        "TE-exklusiv: Bundesregierung erklärt Familiennachzug zur Verschlusssache"
+        "Trumps Gold Card oder Golden Visa: wer rettet im Krisenfall?"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/urteil-schuetzende-haende-kosten/",
         "https://www.tichyseinblick.de/kolumnen/vorwort-zum-sonntag/spiritualitaet-jenseits-von-politik-ethik-geld/",
         "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/eskalation-in-nahost/",
-        "https://www.tichyseinblick.de/unternehmen/trumps-gold-card-oder-golden-visa-wer-rettet-im-krisenfall/",
-        "https://www.tichyseinblick.de/daili-es-sentials/bundesregierung-familiennachzug-verschlusssache/"
+        "https://www.tichyseinblick.de/unternehmen/trumps-gold-card-oder-golden-visa-wer-rettet-im-krisenfall/"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -400,35 +400,35 @@
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
       "article_count": 16,
       "sample_titles": [
-        "Ein schmutziger Wahlkampf eskaliert weiter: In Ohio hält Vivek Ramaswamy an einem kontroversen TV-Spot fest",
-        "Der Kanton Zürich wird keine Elternzeit-Initiative einreichen – Linke und Mitte-Parteien wurden sich nicht einig",
-        "INTERVIEW - Missbrauch in Kitas: «Eine schwarze Liste kann eine falsche Sicherheit suggerieren», sagt die Expertin",
-        "Albert Rösti reagiert auf Kritik und will Kinder und Jugendliche in sozialen Netzwerken nun doch besser schützen"
+        "Flávio Bolsonaro: USA wollen Flávio Bolsonaro und seiner Familie Visa erteilen",
+        "Erzieherin im Waldkindergarten: »Ich kann mir keinen schöneren Job vorstellen«",
+        "Tödliche Messerstecherei: Wir waren diese Jungs",
+        "Feuer in Mehrfamilienhaus: Zimmerbrand in Düsseldorf - Familie muss ins Krankenhaus"
       ],
       "urls": [
-        "https://www.nzz.ch/international/ein-schmutziger-wahlkampf-eskaliert-weiter-in-ohio-haelt-vivek-ramaswamy-an-einem-kontroversen-tv-spot-fest-ld.10041656",
-        "https://www.nzz.ch/zuerich/kanton-zuerich-keine-elternzeit-initiative-wegen-uneinigkeit-ld.10038256",
-        "https://www.nzz.ch/schweiz/missbrauch-in-kitas-eine-schwarze-liste-kann-eine-falsche-sicherheit-suggerieren-sagt-die-expertin-ld.10031604",
-        "https://www.nzz.ch/schweiz/der-bundesrat-will-social-media-und-suchmaschinen-regulieren-zumindest-ein-bisschen-ld.10033706"
+        "https://www.zeit.de/politik/ausland/2026-10/usa-wollen-fl-vio-bolsonaro-und-seiner-familie-visa-erteilen",
+        "https://www.zeit.de/arbeit/2026-10/erzieherin-waldkindergarten-kinder-gehalt-kontoauszug",
+        "https://www.zeit.de/zeit-verbrechen/2026/41/toedliche-messerstecherei-hamburg-strafe-leben",
+        "https://www.zeit.de/news/2026-10/18/zimmerbrand-in-duesseldorf-familie-muss-ins-krankenhaus"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "love",
       "top_emotions": [
         {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "approval",
+          "emotion": "love",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "anger",
+          "count": 1
+        },
+        {
+          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -466,35 +466,35 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 15,
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 14,
       "sample_titles": [
-        "Tödliche Messerstecherei: Wir waren diese Jungs",
-        "Feuer in Mehrfamilienhaus: Zimmerbrand in Düsseldorf - Familie muss ins Krankenhaus",
-        "Kindererziehung aufteilen: »Unsere Ehe lag völlig auf Eis, als die Kinder klein waren«",
-        "Belohnungen in der Erziehung: Warum Belohnungen in der Erziehung oft sinnvoll sind"
+        "«Keine Hängematte mehr»: Österreich kürzt Sozialhilfe für Grossfamilien und verschärft Regeln für Migranten",
+        "Ein schmutziger Wahlkampf eskaliert weiter: In Ohio hält Vivek Ramaswamy an einem kontroversen TV-Spot fest",
+        "Der Kanton Zürich wird keine Elternzeit-Initiative einreichen – Linke und Mitte-Parteien wurden sich nicht einig",
+        "INTERVIEW - Missbrauch in Kitas: «Eine schwarze Liste kann eine falsche Sicherheit suggerieren», sagt die Expertin"
       ],
       "urls": [
-        "https://www.zeit.de/zeit-verbrechen/2026/41/toedliche-messerstecherei-hamburg-strafe-leben",
-        "https://www.zeit.de/news/2026-10/18/zimmerbrand-in-duesseldorf-familie-muss-ins-krankenhaus",
-        "https://www.zeit.de/zeit-magazin/leben/2026-09/kindererziehung-betreeung-beruf-elternschaft-trennung",
-        "https://www.zeit.de/familie/2026-10/belohnungen-erziehung-kinder-verhalten-psychologie"
+        "https://www.nzz.ch/international/oesterreich-verschaerft-sozialhilfe-kuerzungen-fuer-migranten-und-grossfamilien-ld.10042401",
+        "https://www.nzz.ch/international/ein-schmutziger-wahlkampf-eskaliert-weiter-in-ohio-haelt-vivek-ramaswamy-an-einem-kontroversen-tv-spot-fest-ld.10041656",
+        "https://www.nzz.ch/zuerich/kanton-zuerich-keine-elternzeit-initiative-wegen-uneinigkeit-ld.10038256",
+        "https://www.nzz.ch/schweiz/missbrauch-in-kitas-eine-schwarze-liste-kann-eine-falsche-sicherheit-suggerieren-sagt-die-expertin-ld.10031604"
       ],
-      "dominant_emotion": "love",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "love",
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "anger",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
+          "emotion": "approval",
           "count": 1
         }
       ]
@@ -503,18 +503,16 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "Schafft die Tabaksteuer ab!",
         "Szenen eines Ehrenmordes",
-        "Der Arzt, der keiner war",
-        "2,50 Euro pro Liter für den Greta-Wahn"
+        "Der Arzt, der keiner war"
       ],
       "urls": [
         "https://www.achgut.com/artikel/schafft_die_tabaksteuer_ab",
         "https://www.achgut.com/artikel/szenen_eines_ehrenmordes",
-        "https://www.achgut.com/artikel/der_arzt_der_keiner_war",
-        "https://www.achgut.com/artikel/2_50_euro_pro_liter_fuer_den_greta_wahn"
+        "https://www.achgut.com/artikel/der_arzt_der_keiner_war"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -542,14 +540,14 @@
     }
   },
   "bias_distribution": {
-    "left-liberal": 186,
-    "far-right": 43,
-    "populist-mixed": 92,
-    "conservative-liberal": 118,
-    "neutral": 138,
     "right-conservative": 151,
-    "economic-liberal": 33,
-    "left": 39
+    "economic-liberal": 31,
+    "left-liberal": 191,
+    "populist-mixed": 89,
+    "neutral": 147,
+    "far-right": 40,
+    "conservative-liberal": 113,
+    "left": 38
   },
   "statements": {
     "de": {
@@ -561,5 +559,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-10-25T09:31:35.191813"
+  "cached_at": "2026-10-28T11:04:24.320371"
 }
