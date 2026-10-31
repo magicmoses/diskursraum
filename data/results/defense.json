@@ -4,22 +4,55 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 118,
+      "sample_titles": [
+        "USA unter Trump: US-Gericht verbietet Trumps Regierung Druck auf Wahlhelfer",
+        "Elektronischer Kampf: Der Feind funkt, die Bundeswehr horcht mit",
+        "USA unter Trump: Europäer wollen kein „Familienfoto“ mit russischem Außenminister",
+        "Drohnen für die Bundeswehr: Deutschland als „Taktgeber für Europas Verteidigungsfähigkeit“"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-us-gericht-verbietet-trumps-regierung-druck-auf-wahlhelfer-faz-19444916.html",
+        "https://www.faz.net/aktuell/politik/inland/bundeswehr-lauscht-in-litauen-russland-hat-grossen-vorsprung-accg-201632235.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-europaeer-wollen-kein-familienfoto-mit-russischem-aussenminister-faz-19444916.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/boris-pistorius-bei-helsing-lob-fuer-ruestungsindustrie-kamikazedrohnen-fuer-die-bundeswehr-201634498.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 117,
+      "article_count": 115,
       "sample_titles": [
-        "Auch ohne Mehrheit: Eisenkot will neue Regierung in Israel bilden",
-        "Washington gewährt Visum: Flavio Bolsonaro flieht aus Brasilien in die USA",
-        "Infrastruktur im Visier: Russland trifft wichtige Dnipro-Brücke im Süden Kiews",
-        "Verdächtiger scheitert mit Antrag: Gericht lehnt Einstellung des Nord-Stream-Prozesses ab"
+        "Kiew unzufrieden mit Lieferdatum: Pentagon genehmigt 500 Patriot-Raketen für die Ukraine",
+        "War es Musk? War es Trump?: Plötzlich war das Internet weg - und die Ukraine muss weiter zittern",
+        "Gewehre, Handgranaten, Munition: Riesiges Kriegswaffenarsenal - Kfz-Meister verurteilt",
+        "\"Versteckte Gefahren\": Chinas Kommunistische Partei wirft 33 ranghohe Funktionäre raus"
       ],
       "urls": [
-        "https://www.n-tv.de/politik/Eisenkot-will-neue-Regierung-in-Israel-bilden-id31465299.html",
-        "https://www.n-tv.de/politik/Flavio-Bolsonaro-flieht-aus-Brasilien-in-die-USA-id31464948.html",
-        "https://www.n-tv.de/politik/Russland-trifft-wichtige-Dnipro-Bruecke-im-Sueden-Kiews-id31461872.html",
-        "https://www.n-tv.de/politik/Gericht-lehnt-Einstellung-des-Nord-Stream-Prozesses-ab-id31463041.html"
+        "https://www.n-tv.de/politik/Pentagon-genehmigt-500-Patriot-Raketen-fuer-die-Ukraine-id31478763.html",
+        "https://www.n-tv.de/politik/Ploetzlich-war-das-Internet-weg-und-die-Ukraine-muss-weiter-zittern-id31477153.html",
+        "https://www.n-tv.de/panorama/Riesiges-Arsenal-an-Kriegswaffen-Hauptangeklagter-wegen-illegalem-Waffenhandel-verurteilt-id31477734.html",
+        "https://www.n-tv.de/politik/Chinas-Kommunistische-Partei-wirft-33-ranghohe-Funktionaere-raus-id31477438.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -28,44 +61,11 @@
           "count": 3
         },
         {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
           "emotion": "anger",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 112,
-      "sample_titles": [
-        "USA unter Trump: Trump will Wort „AI“ in US-Dokumenten verbieten",
-        "Vergeltungsschlag: Mehrere Tote bei jordanischen Angriffen in Syrien",
-        "USA unter Trump: Demokraten fordern Sonderermittler zu Trumps Epstein-Verbindungen",
-        "Hunderte Tote: Immer mehr Drohnentote in Sudan"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-will-bezeichnung-artificial-intelligence-in-dokumenten-verbieten-faz-19444916.html",
-        "https://www.faz.net/aktuell/politik/ausland/jordanien-greift-is-stellungen-in-syrien-an-mehrere-tote-accg-201625225.html",
-        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-demokraten-fordern-nach-neuem-epstein-bericht-sonderermittler-faz-19444916.html",
-        "https://www.faz.net/aktuell/politik/ausland/drohnenangriffe-in-sudan-fordern-immer-mehr-zivile-opfer-201621562.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
           "count": 2
         }
       ]
@@ -74,18 +74,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 92,
+      "article_count": 99,
       "sample_titles": [
-        "Iran-Krieg kostet Trump-Regierung bislang 47 Milliarden Dollar",
-        "Dieser Ex-General will Netanjahu ablösen",
-        "„Wenn Putin nicht gestoppt wird, geht es weiter Richtung Europa“, meint General a. D. Wolski",
-        "„Es muss unendlich viele Außerirdische geben“"
+        "Rheinmetall wehrt sich gegen Pistorius-Kritik",
+        "Verfahren gegen Bundeswehrsoldaten wegen Impfverweigerung geht weiter",
+        "Von Deutschland, Kanada und Norwegen finanziert – USA verkaufen Ukraine 500 Patriot-Raketen",
+        "„CDU pur ist nicht Wirtschaftspolitik“, sagt Merkel"
       ],
       "urls": [
-        "https://www.welt.de/politik/ausland/article6ae1463e9d8212885d528e45/teure-machtdemonstration-iran-krieg-kostet-trump-regierung-bislang-47-milliarden-dollar.html",
-        "https://www.welt.de/politik/ausland/video6ae0fa327645cbab4cf3fe18/israels-zukunft-dieser-ex-general-will-netanjahu-abloesen.html",
-        "https://www.welt.de/politik/deutschland/video6ae0ab88dcd605c8d4cea802/berliner-sicherheitskonferenz-wenn-putin-nicht-gestoppt-wird-geht-es-weiter-richtung-europa-meint-general-a-d-wolski.html",
-        "https://www.welt.de/vermischtes/video6ae07510dcd605c8d4cea191/aliens-pano-es-muss-unendlich-viele-ausserirdische-geben.html"
+        "https://www.welt.de/wirtschaft/article6ae4949a3620137294c247fd/ruestung-rheinmetall-wehrt-sich-gegen-pistorius-kritik.html",
+        "https://www.welt.de/vermischtes/video6ae4d82eaedea8cd9ffbe8ad/corona-impfung-verfahren-gegen-bundeswehrsoldaten-wegen-impfverweigerung-geht-weiter.html",
+        "https://www.welt.de/politik/ausland/article6ae4f24b05d4b831ea388f35/wert-von-2-1-milliarden-dollar-von-deutschland-kanada-und-norwegen-finanziert-usa-verkaufen-ukraine-500-patriot-raketen.html",
+        "https://www.welt.de/politik/deutschland/article6ae4a9edbfb85e617afeb3c6/altbundeskanzlerin-cdu-pur-ist-nicht-wirtschaftspolitik-sagt-merkel.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -107,18 +107,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 90,
+      "article_count": 84,
       "sample_titles": [
-        "Huthis wollen Vorstoß an der Meerenge Bab al-Mandab abgewehrt haben",
-        "Großbritannien: Britische Behörden klagen zwei Männer nach Vorfall am Militärstützpunkt Fairford an",
-        "Sudan: Tote bei Drohnenangriff auf Markt in sudanesischer Region Darfur",
-        "Bundeswehr: Weltraum-Kommandeur Michael Traut über außerirdisches Leben und Aliens"
+        "Fall Fabian: Am Ende des Prozesses holt Gina H. zum Rundumschlag aus",
+        "Fall Fabian: Verteidiger verlangen Freispruch für Angeklagte Gina H.",
+        "Italien: Gewerkschaften machen bei Protesten gegen Giorgia Meloni mobil",
+        "Rheinmetall – Kassel: Staatsschutz ermittelt nach mutmaßlicher Brandstiftung auf Baustelle"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/huthis-wollen-vorstoss-an-der-meerenge-bab-al-mandab-abgewehrt-haben-a-31e06f9d-3954-442e-a52c-8efbfc4f96cd#ref=rss",
-        "https://www.spiegel.de/ausland/grossbritannien-britische-behoerden-klagen-zwei-maenner-nach-vorfall-am-militaerstuetzpunkt-fairford-an-a-ea6a3cb7-6de5-4a9d-a6f5-23c7607a4e94#ref=rss",
-        "https://www.spiegel.de/ausland/sudan-tote-bei-drohnenangriff-auf-markt-in-sudanesischer-region-darfur-a-88529f0a-9a3c-4051-9f46-6d7dec7e0fde#ref=rss",
-        "https://www.spiegel.de/wissenschaft/weltall/bundeswehr-weltraum-kommandeur-michael-traut-ueber-ausserirdisches-leben-und-aliens-a-058e573d-b69d-4be7-9c1b-2fa70c7f8976#ref=rss"
+        "https://www.spiegel.de/panorama/justiz/fall-fabian-am-ende-des-prozesses-holt-gina-h-zum-rundumschlag-aus-a-40bf8de7-b24a-4a5f-b700-2c80872ebc38#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/fall-fabian-verteidiger-verlangen-freispruch-fuer-angeklagte-gina-h-a-a7957707-4977-4b78-81b0-643240fc8a0b#ref=rss",
+        "https://www.spiegel.de/ausland/italien-gewerkschaften-machen-bei-protesten-gegen-giorgia-meloni-mobil-a-af8f899e-a46c-4186-97b3-bbf0d61e02d9#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/rheinmetall-kassel-staatsschutz-ermittelt-nach-mutmasslicher-brandstiftung-auf-baustelle-a-7058d255-4c4c-431e-ac36-e695952ea271#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -127,11 +127,11 @@
           "count": 4
         },
         {
-          "emotion": "sadness",
-          "count": 3
+          "emotion": "disapproval",
+          "count": 2
         },
         {
-          "emotion": "approval",
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -140,18 +140,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 53,
+      "article_count": 51,
       "sample_titles": [
-        "+++ Iran-Krieg +++: Irans Präsident trifft den Emir von Katar – und danach Putin?",
-        "Verteidigung: Bedingt abwehrfähig – Mittelstand ist auf Ernstfall nicht ausreichend vorbereitet",
-        "Rüstung: Helsing steigt in den Wettbewerb deutscher Drohnenjäger ein – Testflüge in nächsten Tagen",
-        "Industrie: Camper und Bulli sind nicht genug – VW prüft Bau von Militär-Lkw in Hannover"
+        "Verteidigung: Bis zu 1000 Fehlermeldungen pro Tag – Störung bei der Bundeswehr bedroht die Einsatzbereitschaft",
+        "Logistik: Nato-Drehkreuz: Deutsche Bahn könnte milliardenschweres Militärprojekt in Bremerhaven verzögern",
+        "Verteidigung: Wie der Mangel an Patriot-Flugkörpern die Ukraine bedroht",
+        "Nahost: USA und Israel drohen den Mullahs – eskaliert Trump nach den Zwischenwahlen den Krieg?"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/iran-krieg-irans-praesident-trifft-den-emir-von-katar-und-danach-putin/100136895.html",
-        "https://www.handelsblatt.com/politik/deutschland/verteidigung-bedingt-abwehrfaehig-mittelstand-ist-auf-ernstfall-nicht-ausreichend-vorbereitet/100262570.html",
-        "https://www.handelsblatt.com/unternehmen/start-ups/ruestung-helsing-steigt-in-den-wettlauf-deutscher-drohnenjaeger-ein/100264960.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/industrie-vw-prueft-den-bau-von-militaer-lkw-in-hannover/100264463.html"
+        "https://www.handelsblatt.com/politik/deutschland/bundeswehr-stoerung-ersatzteil-stopp-bedroht-wohl-panzer-und-instandsetzer/100266161.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/logistik-bahn-bremst-milliarden-militaerprojekt-in-bremerhaven/100261874.html",
+        "https://www.handelsblatt.com/politik/international/verteidigung-wie-der-mangel-an-patriot-flugkoerpern-die-ukraine-bedroht/100265699.html",
+        "https://www.handelsblatt.com/politik/international/nahost-bombardiert-trump-nach-den-zwischenwahlen-den-iran/100265471.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -173,25 +173,21 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 48,
+      "article_count": 46,
       "sample_titles": [
-        "Angeklagter im Antifa-Ost-Prozess gestorben: Verteidigung erhebt schwere Vorwürfe gegen Dresdner Gericht",
-        "Wiederaufbau nach der Flut: Drohnen zeigen Zustand der Straßen",
-        "Musk wirft Ukraine Verstoß bei Starlink-Nutzung vor",
-        "\"Die ganze Stadt Hebron ist im Lockdown\""
+        "US-Regierung genehmigt Patriot-Lieferungen an Ukraine",
+        "Hunderttausende protestieren gegen Meloni-Regierung",
+        "Urteil im Remscheider Waffenprozess",
+        "Vier Tote bei Absturz von Militär-Hubschrauber"
       ],
       "urls": [
-        "https://www.mdr.de/nachrichten/sachsen/angeklagter-nach-suizid-verstorben,angeklagter-antifa-verfahren-olg-dresden-verstorben-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/drohnen-dokumentieren-wiederaufbau-ahrtal-100.html",
-        "https://www.tagesschau.de/ausland/amerika/musk-ukraine-starlink-100.html",
-        "https://www.tagesschau.de/ausland/israel-westjordanland-abriegelung-100.html"
+        "https://www.tagesschau.de/ausland/amerika/usa-ukraine-patriot-100.html",
+        "https://www.tagesschau.de/ausland/europa/italien-protest-meloni-100.html",
+        "https://www1.wdr.de/nrw/bergisches-land/wuppertal/urteil-haft-waffen-prozess-100.html",
+        "https://www.tagesschau.de/ausland/europa/hubschrauber-bosnien-absturz-100.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "optimism",
       "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
         {
           "emotion": "optimism",
           "count": 1
@@ -199,6 +195,43 @@
         {
           "emotion": "disappointment",
           "count": 1
+        },
+        {
+          "emotion": "grief",
+          "count": 1
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 42,
+      "sample_titles": [
+        "Hier starten Drohnen in den Kampf - BILD an Bord! Das Superschiff der Nato",
+        "Julia Klöckner bei Jüdischen Kulturtagen - „Verteidigung jüdischen Lebens geht uns alle an“",
+        "Von Gold-Kutsche bis gepanzertem Mercedes - Vatikan zeigt 100 Jahre „Papamobil“",
+        "TCG ANADOLU testet die Bayraktar TB3 - BILD auf dem ersten NATO-Drohnenträger"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/ausland-und-internationales/superschiff-nato-probt-den-kampf-ohne-eigene-stuetzpunkte-6ad8637a29754e92ee68e071",
+        "https://www.bild.de/unterhaltung/stars-und-leute/julia-kloeckner-die-verteidigung-juedischen-lebens-geht-uns-alle-an-6ae4a5073620137294c24a0d",
+        "https://www.bild.de/news/ausland/von-gold-kutsche-bis-gepanzertem-mercedes-vatikan-zeigt-100-jahre-papamobil-6ae2fd7f063ab7e38a99f9b2",
+        "https://www.bild.de/politik/tcg-anadolu-nato-trainiert-auf-dem-drohnentraeger-fuer-den-ernstfall-6adb6153ea9d017b539afebd"
+      ],
+      "dominant_emotion": "excitement",
+      "top_emotions": [
+        {
+          "emotion": "excitement",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "fear",
+          "count": 2
         }
       ]
     },
@@ -206,18 +239,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 46,
+      "article_count": 42,
       "sample_titles": [
-        "Knappe Wahl in Israel: Eisenkot: Will Netanjahu-Regierung ablösen",
-        "Huthis: Größte Ölraffinerie und Verteidigungsministerium in Saudi-Arabien angegriffen",
-        "Hamburger Prozess um Sprengung von Nord-Stream-Pipelines wird fortgesetzt",
-        "Jugendprotest: Demos nach französischem Vorbild in Leipzig und Dresden"
+        "Nach Rückkehr nach Venezuela: Machado dankt Trump für Sturz Maduros",
+        "US-Verteidigungsminister: Vorwurf: Geheimnisverrat – Hegseth feuert nächsten Topgeneral",
+        "Großeinsatz: Rauch über der Eifel – vermeintlicher Absturz war Übung",
+        "Vorfall in Schwaben: Bundeswehrhubschrauber mit Laserpointer geblendet"
       ],
       "urls": [
-        "https://www.stern.de/politik/ausland/knappe-wahl-in-israel--eisenkot--will-netanjahu-regierung-abloesen-38458518.html",
-        "https://www.stern.de/news/huthis--groesste-oelraffinerie-und-verteidigungsministerium-in-saudi-arabien-angegriffen-38460538.html",
-        "https://www.stern.de/news/hamburger-prozess-um-sprengung-von-nord-stream-pipelines-wird-fortgesetzt-38455982.html",
-        "https://www.stern.de/gesellschaft/regional/sachsen/jugendprotest--demos-nach-franzoesischem-vorbild-in-leipzig-und-dresden-38452978.html"
+        "https://www.stern.de/news/nach-rueckkehr-nach-venezuela--machado-dankt-trump-fuer-sturz-maduros-38473164.html",
+        "https://www.stern.de/politik/ausland/pete-hegseth-feuert-naechsten-topgeneral---vorwurf--geheimnisverrat-38473064.html",
+        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/grosseinsatz--rauch-ueber-der-eifel---vermeintlicher-absturz-war-uebung-38472576.html",
+        "https://www.stern.de/gesellschaft/regional/bayern/vorfall-in-schwaben--bundeswehrhubschrauber-mit-laserpointer-geblendet-38470306.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -226,12 +259,12 @@
           "count": 3
         },
         {
-          "emotion": "curiosity",
+          "emotion": "excitement",
           "count": 2
         },
         {
-          "emotion": "excitement",
-          "count": 1
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -239,31 +272,31 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 39,
+      "article_count": 36,
       "sample_titles": [
-        "Angriffe auf „Gen Z regelt“-Proteste: Gewalt ist nicht das Problem",
-        "Nord-Stream-Verfahren geht weiter: Schweigepflicht gilt nur für Deutsche",
-        "Nord-Stream-Prozess: 23 Stunden allein in der Zelle",
-        "Verteidigung der Literaturkritik: Für die Störung des Betriebsablaufs"
+        "Verteidigungsetat im Bundeshaushalt: So viel Geld",
+        "Bundeswehr und Corona: Interessen des Militärs nicht genug berücksichtigt",
+        "Neuer Angriff auf Iran in Vorbereitung: Trump bespricht sich mit ranghohem US-Militär",
+        "Schulstreiks gegen Wehrpflicht: Wo bleibt das Fridays-for-Future-Moment?"
       ],
       "urls": [
-        "https://taz.de/Angriffe-auf-Gen-Z-regelt-Proteste/!6225340/",
-        "https://taz.de/Nord-Stream-Verfahren-geht-weiter/!6225440/",
-        "https://taz.de/Nord-Stream-Prozess/!6225007/",
-        "https://taz.de/Warum-es-weiterhin-Literaturkritik-braucht/!6224988/"
+        "https://taz.de/Verteidigungsetat-im-Bundeshaushalt/!6223300/",
+        "https://taz.de/Freispruch-fuer-Soldaten-wegen-Impfverweigerung-aufgehoben/!6226288/",
+        "https://taz.de/Neuer-Angriff-auf-Iran-in-Vorbereitung/!6226235/",
+        "https://taz.de/Schulstreiks-gegen-Wehrpflicht-Eine-grosse-Oeffentlichkeit-hat-die-Bewegung-nicht-woran-liegt-das/!6223909/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 4
+          "count": 3
         },
         {
           "emotion": "approval",
           "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "disapproval",
           "count": 2
         }
       ]
@@ -272,24 +305,24 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 37,
+      "article_count": 34,
       "sample_titles": [
-        "Nach palästinensischem Terrorangriff im Westjordanland vertreibt Israel zweitausend Menschen",
-        "Die ukrainische Armee verlegt den Bewegungskrieg in den Untergrund",
-        "Bürgerlich, nichtbinär, Berufsaktivist: Benjamin Ball gehört zu den Organisatoren der Protestwelle in Frankreich",
-        "Verfolgungsjagd im All: Russischer Militärsatellit riskiert eine Kollision mit einem US-Satelliten"
+        "KOMMENTAR - Die Empörung deutscher Medien über den Audi-Chef ist heuchlerisch",
+        "Ein mysteriöser Vorfall bei der Militärbasis Fairford verunsicherte Grossbritannien – nun klärt sich, was wirklich geschah",
+        "KOMMENTAR - Massenentlassungen bei VW? Europas Industrie kann weit mehr als nur Autos bauen",
+        "Nach palästinensischem Terrorangriff im Westjordanland vertreibt Israel zweitausend Menschen"
       ],
       "urls": [
-        "https://www.nzz.ch/international/israel-vertreibt-hunderte-palaestinenser-nach-terrorangriff-in-hebron-ld.10044012",
-        "https://www.nzz.ch/pro/die-ukrainische-armee-verlegt-den-bewegungskrieg-in-den-untergrund-ld.10041556",
-        "https://www.nzz.ch/international/buergerlich-nichtbinaer-berufsaktivist-benjamin-ball-gehoert-zu-den-organisatoren-der-protestwelle-in-frankreich-ld.10042617",
-        "https://www.nzz.ch/visuals/russischer-satellit-verfolgt-us-satelliten-die-rekonstruktion-ld.10039194"
+        "https://www.nzz.ch/meinung/die-empoerung-deutscher-medien-ueber-den-audi-chef-ist-wohlfeil-ld.10046255",
+        "https://www.nzz.ch/international/ein-mysterioeser-vorfall-bei-der-militaerbasis-fairford-verunsicherte-grossbritannien-nun-klaert-sich-was-wirklich-geschah-ld.10047089",
+        "https://www.nzz.ch/meinung/trotz-stellenabbau-bei-vw-europas-industrie-umfasst-mehr-als-autos-ld.10041264",
+        "https://www.nzz.ch/international/israel-vertreibt-hunderte-palaestinenser-nach-terrorangriff-in-hebron-ld.10044012"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "approval",
@@ -301,35 +334,35 @@
         }
       ]
     },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 34,
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 31,
       "sample_titles": [
-        "Nach Flucht aus Brasilien - USA wollen Flavio Bolsonaro Visa ausstellen",
-        "Erster Anruf seit Kriegsbeginn - Nato-Zoff um Telefonat mit Putin",
-        "Putins Drohnen-Schwärme im Visier - Diese deutsche High-Tech-Waffe soll sie stoppen",
-        "Forderung aus Berlin-Mitte - JU will Bundeswehr gegen Schülerproteste einsetzen"
+        "Wie Trumps Nähe zu Putin die Zukunft der Ukraine beeinflusst",
+        "Warum Audi-Mitarbeiter bald Kampfdrohnen bauen sollen",
+        "Kampfdrohnen per Klick: Wie die Front den Drohnenmarkt prägt",
+        "Wie sich Deutschland für den Ernstfall aufstellt"
       ],
       "urls": [
-        "https://www.bild.de/politik/ausland-und-internationales/insider-er-sitzt-im-flieger-flavio-bolsonaro-soll-auf-der-flucht-in-die-usa-sein-6ae0e8d167fc5d0d0ce67a44",
-        "https://www.bild.de/politik/ausland-und-internationales/erster-anruf-seit-kriegsbeginn-nato-zoff-um-telefonat-mit-putin-6ae0c4e367fc5d0d0ce67804",
-        "https://www.bild.de/politik/ausland-und-internationales/helsing-contra-so-soll-russlands-drohnen-schwarm-gestoppt-werden-6adf21fd44ab625f2110bd7b",
-        "https://www.bild.de/news/inland/berliner-ju-will-bundeswehr-gegen-schuelerproteste-einsetzen-6adefa4e6e705194561751a5"
+        "https://www.zdfheute.de/politik/ausland/trump-putin-naehe-frieden-ukraine-krieg-russland-100.html",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/audi-beschaeftigte-verleih-ruestungsindustrie-100.html",
+        "https://www.zdfheute.de/politik/ausland/drohnen-online-markt--moelling-ukraine-krieg-russland-100.html",
+        "https://www.zdfheute.de/politik/deutschland/drk-hilfe-katastrophenschutz-bevoelkerungsschutz-zivilschutz-100.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "approval",
           "count": 2
         },
         {
-          "emotion": "amusement",
+          "emotion": "confusion",
           "count": 1
         }
       ]
@@ -338,7 +371,7 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 30,
+      "article_count": 29,
       "sample_titles": [
         "Jordanien: Jordanien greift Ziele in Syrien an",
         "Krieg in der Ukraine: Musk wirft Ukraine Nutzung von Starlink für Offensivangriffe vor",
@@ -367,35 +400,35 @@
         }
       ]
     },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 30,
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 22,
       "sample_titles": [
-        "Kiew bestätigt: Satelliteninternet Starlink läuft normal",
-        "KI und Krieg: Behält der Mensch die Kontrolle?",
-        "Mutmaßlicher Russland-Spion festgenommen",
-        "nachgehakt: Drohnenangriff Flughafen Leipzig"
+        "Enttäuschung in Europa: Israelis haben „Kriegspolitiker“ Netanjahu nicht vom Hof gejagt",
+        "Putin: „Wenn das zu weit geht, wird es keine Sieger geben“",
+        "Feministische Halloween-Demo und Gen-Z-Proteste am Samstag",
+        "TE-exklusiv: Krachende Niederlage für Roderich Kiesewetter"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/ausland/usa-starlink-elon-musk-ukraine-krieg-russland-100.html",
-        "https://www.zdfheute.de/politik/deutschland/ki-krieg-bundeswehr-drohnen-soldaten-100.html",
-        "https://www.zdfheute.de/politik/deutschland/russland-spion-brandenburg-festnahme-100.html",
-        "https://www.zdfheute.de/video/frontal/nachgehakt-drohnenangriff-flughafen-leipzig-halle-spur-nach-riga-100.html"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/nach-der-wahl-in-israel/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/putin-wenn-das-zu-weit-geht-wird-es-keine-sieger-geben/",
+        "https://www.tichyseinblick.de/daili-es-sentials/gen-z-proteste/",
+        "https://www.tichyseinblick.de/daili-es-sentials/niederlage-roderich-kiesewetter/"
       ],
-      "dominant_emotion": "approval",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "approval",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "grief",
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -404,18 +437,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 25,
+      "article_count": 22,
       "sample_titles": [
+        "Mordfall in Güstrow: Fall Fabian: Verteidiger kündigt Antrag auf Freispruch an",
+        "Nach Militärübung in Erding: Lebenslang entstellt: Verletzter Soldat will Beschwerde einlegen",
         "Krieg in der Ukraine: Hilfsaktion für Frontstadt Oleschky läuft an",
-        "Sicherheit: Deutschlands Nachbarn sehen die Aufrüstung der Bundeswehr positiv",
-        "Elon Musk: Ein Privatmann, der nach Lust und Laune große Politik machen darf",
-        "Militärforschung in Erding: Versuchslabor für Drohnen und KI"
+        "Sicherheit: Deutschlands Nachbarn sehen die Aufrüstung der Bundeswehr positiv"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/panorama/fabian-mordfall-mordprozess-guestrow-angeklagte-gina-h-li.3571641",
+        "https://www.sueddeutsche.de/bayern/erding-bundeswehr-uebung-polizei-schuesse-ermittlungen-li.3570372",
         "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-oleschky-hilfsgueter-feuerpause-hilfslieferungen-minen-li.3563283",
-        "https://www.sueddeutsche.de/politik/bundeswehr-aufruestung-europa-afd-umfrage-li.3568954",
-        "https://www.sueddeutsche.de/meinung/elon-musk-usa-ukraine-kommentar-donald-trump-li.3567060",
-        "https://www.sueddeutsche.de/muenchen/erding/defense-lab-erding-fliegerhorst-erding-bundeswehr-drohnen-kuenstliche-intelligenz-li.3567921"
+        "https://www.sueddeutsche.de/politik/bundeswehr-aufruestung-europa-afd-umfrage-li.3568954"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -424,36 +457,11 @@
           "count": 3
         },
         {
-          "emotion": "admiration",
+          "emotion": "disgust",
           "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 19,
-      "sample_titles": [
-        "„Gen-Z-/Schülerproteste“ am 31. Oktober mit unkalkulierbarem Risiko",
-        "Britischer Verteidigungsminister: „Kauft Notvorräte und Kurbelradios“",
-        "US-Armee testet Hitze-Waffe gegen illegale Migranten",
-        "„Gen Z steht auf“ zu Protesten am 31. Oktober und „Gen Z Mafia“"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/gen-z-schuelerproteste-am-31-oktober-mit-unkalkulierbarem-risiko/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/kauft-notvorraete/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/us-armee-testet-hitze-waffe-gegen-illegale-migranten/",
-        "https://www.tichyseinblick.de/kolumnen/goergens-feder/gen-z-mafia-proteste/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
         },
         {
-          "emotion": "fear",
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -462,18 +470,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 16,
+      "article_count": 18,
       "sample_titles": [
-        "Weltraumkommando Bundeswehr-Weltraumgeneral ist von der Existenz Außerirdischer überzeugt",
-        "Erbrechen bei drohender Vergewaltigung Frauenrechtlerinnen zerpflücken Selbstverteidigungstipps der Polizei",
-        "Amtshilfe für Polizei Junge Union fordert Bundeswehreinsatz bei Halloween-Protesten",
-        "„Free the Ulm 5“ Festnahmen beim Solidaritätsprotest für Linksextremisten in Stuttgart"
+        "Bundeswehr AfD-Verteidigungsexperte plädiert für Wehrpflicht",
+        "Krieg im Nahen Osten Trump lässt neue Angriffe auf den Iran prüfen",
+        "Bundeswehr Die Jagd auf „rechte“ Soldaten",
+        "JF-Exklusiv Bundesregierung bestreitet Linkskurs der Bundeswehr"
       ],
       "urls": [
-        "https://jungefreiheit.de/politik/deutschland/2026/bundeswehr-weltraumgeneral-ist-von-der-existenz-ausserirdischer-ueberzeugt/",
-        "https://jungefreiheit.de/politik/deutschland/2026/frauenrechtlerinnen-zerpfluecken-selbstverteidigungstipps-der-polizei/",
-        "https://jungefreiheit.de/politik/deutschland/2026/junge-union-fordert-bundeswehreinsatz-bei-halloween-protesten/",
-        "https://jungefreiheit.de/politik/deutschland/2026/festnahmen-beim-solidaritaetsprotest-fuer-linksextremisten-in-stuttgart/"
+        "https://jungefreiheit.de/politik/deutschland/2026/afd-verteidigungsexperte-plaediert-fuer-wehrpflicht/",
+        "https://jungefreiheit.de/politik/ausland/2026/trump-laesst-neue-angriffe-auf-den-iran-pruefen/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/die-jagd-auf-rechte-soldaten/",
+        "https://jungefreiheit.de/politik/deutschland/2026/bundesregierung-bestreitet-linkskurs-der-bundeswehr/"
       ],
       "dominant_emotion": "realization",
       "top_emotions": [
@@ -507,27 +515,21 @@
       "source_id": "cicero",
       "source": "Cicero",
       "bias": "conservative-liberal",
-      "article_count": 4,
+      "article_count": 3,
       "sample_titles": [
         "Neue Partner für Deutschlands Aufrüstung - Kampfjets bauen unter Freunden",
         "Lehren aus Frankreich - Schickt die Bundeswehr auf die Straßen!",
-        "Interview mit Militärexperte Ralph Thiele - Starshield und die militärischen Folgen einer Drosselung für die Ukraine",
-        "Verteidigungspolitik zwischen Rekordetat und Innovationsstau - Rüstungsausgaben: Stimmt die Rechnung für die Wähler?"
+        "Interview mit Militärexperte Ralph Thiele - Starshield und die militärischen Folgen einer Drosselung für die Ukraine"
       ],
       "urls": [
         "https://www.cicero.de/wirtschaft/neue-partner-fur-deutschlands-aufrustung-kampfjets-bauen-unter-freunden",
         "https://www.cicero.de/innenpolitik/bundeswehr-im-inneren-deutschland",
-        "https://www.cicero.de/aussenpolitik/militarexperte-ralph-thiele-starshield-drosselung-ukraine",
-        "https://www.cicero.de/innenpolitik/stimmt-die-rechnung-fur-den-wahler"
+        "https://www.cicero.de/aussenpolitik/militarexperte-ralph-thiele-starshield-drosselung-ukraine"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -550,24 +552,24 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 209,
-    "populist-mixed": 34,
-    "conservative-liberal": 153,
-    "left": 39,
-    "left-liberal": 191,
-    "economic-liberal": 53,
-    "far-right": 37,
-    "neutral": 84
+    "populist-mixed": 42,
+    "right-conservative": 214,
+    "conservative-liberal": 155,
+    "neutral": 83,
+    "far-right": 42,
+    "left": 36,
+    "left-liberal": 177,
+    "economic-liberal": 51
   },
   "statements": {
     "de": {
-      "shared_perspectives": "",
-      "controversial_points": "Die Debatte um das NATO‑Zwei‑Prozent‑Ziel spaltet konservative Medien, die höhere Ausgaben fordern, von linken Stimmen, die Priorität auf Sozialausgaben legen. Wehrpflicht‑Rückkehr wird von Sicherheits‑Experten als notwendige Resilienz dargestellt, während Friedens‑ und Jugendorganisationen sie als Militarisierung kritisieren."
+      "shared_perspectives": "Im deutschen Mediendiskurs gibt es trotz unterschiedlicher politischer Ausrichtung einen breiten Konsens darüber, dass die Bundeswehr dringend modernisiert werden muss, weil strukturelle Defizite die Einsatzbereitschaft gefährden, und dass die Erfüllung des NATO‑Zwei‑Prozent‑Ziels sowie die kontinuierliche Waffenlieferung an die Ukraine als zentrale Elemente der Sicherheitspolitik gelten. Gleichzeitig wird einheitlich betont, dass die Diskussion um die Wiedereinführung oder Reform der Wehrpflicht Teil einer umfassenden Strategie zur Stärkung der Gesamtverteidigungsfähigkeit ist.",
+      "controversial_points": "Die Debatte um die Wiederaufnahme der Wehrpflicht spaltet konservative Parteien, die Sicherheit betonen, und linke Kräfte, die Militarisierung ablehnen."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German outlets converge on the assessment that the war in Ukraine has turned the shortfall in NATO’s 2 % spending target into a political imperative, prompting calls for a rapid boost in the defence budget and for structural reforms such as a possible return to conscription. At the same time there is a shared emphasis on expanding indigenous high‑tech capabilities – especially drones, cyber‑defence and space – to reduce reliance on foreign suppliers and to meet NATO’s evolving security demands. Most reports, regardless of leaning, also agree that the Bundeswehr’s current readiness gaps require immediate investment in equipment and personnel while civil‑protection and resilience measures are framed as integral to the broader security strategy.",
-      "controversial_points": "German media split between NATO‑aligned security priorities and domestic budget limits. Conscription debate pits traditional civic duty against a professional, technology‑driven force. Arms‑export coverage contrasts economic benefits with ethical concerns over supplying conflict zones. Cyber‑defence discussions clash with privacy advocates over state surveillance powers. Use of troops for civil unrest highlights tension between law‑order narratives and democratic protest rights."
+      "shared_perspectives": "German media across the spectrum agree that the Bundeswehr’s current equipment shortfalls and procurement bottlenecks, especially in digital, cyber and drone capabilities, constitute a strategic vulnerability that must be remedied urgently. They also converge on the assessment that Germany’s NATO commitments, notably the 2 percent defence‑spending guideline and the supply of Patriot missiles to Ukraine, are non‑negotiable pillars of the country’s security policy after the war in Ukraine. Finally, there is a shared view that logistical and organisational reforms – from improving maintenance reporting to securing transport corridors for military projects – are prerequisite for any credible increase in Germany’s operational readiness.",
+      "controversial_points": "A core clash pits left‑wing anti‑militarism against right‑wing calls for expanded armed forces. Debates over the 2 % NATO target reveal tension between national sovereignty and alliance obligations. Conscription proposals expose a divide between security‑focused conservatives and liberal demands for civil liberty protection. Arms‑export discussions juxtapose economic interests with ethical criticism from peace‑oriented media."
     }
   },
-  "cached_at": "2026-10-28T11:02:18.273438"
+  "cached_at": "2026-10-31T10:51:13.364455"
 }
