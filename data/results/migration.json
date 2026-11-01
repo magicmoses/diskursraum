@@ -8,7 +8,7 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 126,
+      "article_count": 123,
       "sample_titles": [
         "„Morgen werde ich abgeschoben“ – Frankreich verweigert Martin Sellner die Einreise",
         "„Wenn es so viele sind, dann ist das Sozialsystem irgendwann überlastet“",
@@ -28,11 +28,11 @@
           "count": 3
         },
         {
-          "emotion": "admiration",
+          "emotion": "sadness",
           "count": 3
         },
         {
-          "emotion": "sadness",
+          "emotion": "approval",
           "count": 3
         }
       ]
@@ -74,18 +74,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 70,
+      "article_count": 69,
       "sample_titles": [
+        "Liveblog Ukrainekrieg: Oleschky-Flüchtlinge in der Ukraine angekommen",
+        "Liveblog Ukrainekrieg: Belarus: Flüchtlinge aus Oleschky angekommen",
         "ICE-Abschiebungen: „Wer nicht kooperiert, ist ein Schurkenstaat“",
-        "Migration: Macht endlich Politik für Deutschland!",
-        "Neues Frontex-Mandat: Mehr Abschiebungen, weniger Grundrechtekontrolle",
-        "Islamismus-Prävention: „Abschiebung löst das Gesamtproblem nicht“"
+        "Migration: Macht endlich Politik für Deutschland!"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-oleschky-fluechtlinge-in-der-ukraine-angekommen-faz-110683325.html",
+        "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-belarus-fluechtlinge-aus-oleschky-angekommen-faz-110683325.html",
         "https://www.faz.net/aktuell/politik/usa-unter-trump/midterms-2026-wie-das-vorgehen-der-ice-behoerde-amerika-spaltet-accg-201606045.html",
-        "https://www.faz.net/aktuell/politik/inland/berliner-sondierungen-macht-endlich-politik-fuer-deutschland-201611489.html",
-        "https://www.faz.net/aktuell/politik/ausland/frontex-mandat-mehr-abschiebungen-weniger-kontrolle-accg-201625005.html",
-        "https://www.faz.net/aktuell/feuilleton/debatten/islamismus-praevention-warum-abschiebung-nicht-genuegt-accg-201605116.html"
+        "https://www.faz.net/aktuell/politik/inland/berliner-sondierungen-macht-endlich-politik-fuer-deutschland-201611489.html"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -107,18 +107,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 66,
+      "article_count": 68,
       "sample_titles": [
+        "Die Abschiebe-Lüge",
+        "Sozialleistungsbetrug durch Roma – welche politischen Stellschrauben gibt es?",
         "Von der Leyens Frontex-Grenzschützer fahnden bald auch auf TikTok",
-        "Missbrauchte Freizügigkeit: Deutsche Stadtviertel verkommen, rumänische Dörfer blühen auf",
-        "Angriffe von Migrantenbanden in Deutschland",
-        "Brandmauer statt Freiheit: Der bizarre Rückzug des CDU-Wirtschaftsrats"
+        "Missbrauchte Freizügigkeit: Deutsche Stadtviertel verkommen, rumänische Dörfer blühen auf"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/meinungen/die-abschiebe-luege/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/mdr-dokumentation-sozialbetrug/",
         "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/frontex-fahndet-kuenftig-auch-auf-tiktok/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/missbrauchte-freizuegigkeit-rumaenien-kindergeld/",
-        "https://www.tichyseinblick.de/daili-es-sentials/migrantenbanden-in-deutschland/",
-        "https://www.tichyseinblick.de/meinungen/brandmauer-statt-freiheit-cdu/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/missbrauchte-freizuegigkeit-rumaenien-kindergeld/"
       ],
       "dominant_emotion": "realization",
       "top_emotions": [
@@ -127,11 +127,11 @@
           "count": 3
         },
         {
-          "emotion": "sadness",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "admiration",
+          "emotion": "sadness",
           "count": 2
         }
       ]
@@ -140,7 +140,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 62,
+      "article_count": 61,
       "sample_titles": [
         "VW-Betriebsrätin über Anwerbeabkommen: „Wir haben geschafft, was die Politik nicht mal versucht hat“",
         "Grenzverfahren für Geflüchtete: Vier Monate im Transitbereich",
@@ -157,7 +157,7 @@
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 6
+          "count": 5
         },
         {
           "emotion": "curiosity",
@@ -169,11 +169,44 @@
         }
       ]
     },
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 58,
+      "sample_titles": [
+        "Ukraine droht \"Horror-Winter\" wegen russischer Angriffe: Muss sich BW auf Flüchtlinge vorbereiten?",
+        "Von Flüchtlingskrise bis A49: Gießens Regierunsgpräsident Ullrich zieht Bilanz seiner Amtszeit",
+        "Bezahlkarte für Geflüchtete jetzt in allen hessischen Kommunen",
+        "Bolsonaros spektakuläre Flucht"
+      ],
+      "urls": [
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/ukraine-krieg-winter-mehr-fluechtlinge-100.html",
+        "https://www.hessenschau.de/politik/von-fluechtlingskrise-bis-a49-giessens-regierunsgpraesident-ullrich-zieht-bilanz-seiner-amtszeit-v1,regierungspraesident-giessen-ullrich-100.html",
+        "https://www.hessenschau.de/gesellschaft/bezahlkarte-fuer-gefluechtete-jetzt-in-allen-hessischen-kommunen-v1,bezahlkarte-hessen-106.html",
+        "https://www.tagesschau.de/ausland/amerika/bolsonaro-flucht-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        },
+        {
+          "emotion": "fear",
+          "count": 1
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 59,
+      "article_count": 58,
       "sample_titles": [
         "Brüssel legt Pläne vor: Frontex soll bald auch aus Nicht-EU-Ländern abschieben",
         "Mit Werkzug zur Grenze: Lettland: Belarus drängt illegale Migranten zu Sabotage",
@@ -199,39 +232,6 @@
         {
           "emotion": "disapproval",
           "count": 3
-        }
-      ]
-    },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 58,
-      "sample_titles": [
-        "Von Flüchtlingskrise bis A49: Gießens Regierunsgpräsident Ullrich zieht Bilanz seiner Amtszeit",
-        "Bezahlkarte für Geflüchtete jetzt in allen hessischen Kommunen",
-        "Bolsonaros spektakuläre Flucht",
-        "Polizei veröffentlicht Video nach Brandanschlag auf Unterkunft für Geflüchtete"
-      ],
-      "urls": [
-        "https://www.hessenschau.de/politik/von-fluechtlingskrise-bis-a49-giessens-regierunsgpraesident-ullrich-zieht-bilanz-seiner-amtszeit-v1,regierungspraesident-giessen-ullrich-100.html",
-        "https://www.hessenschau.de/gesellschaft/bezahlkarte-fuer-gefluechtete-jetzt-in-allen-hessischen-kommunen-v1,bezahlkarte-hessen-106.html",
-        "https://www.tagesschau.de/ausland/amerika/bolsonaro-flucht-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/weinstadt-schnait-brandanschlag-unterkunft-gefluechtete-polizei-zeugenaufruf-100.html"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        },
-        {
-          "emotion": "desire",
-          "count": 1
         }
       ]
     },
@@ -268,6 +268,39 @@
         }
       ]
     },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 40,
+      "sample_titles": [
+        "Niederlande: Küstenwache rettet 36 Migranten aus manövrierunfähigem Boot",
+        "Brasilien: Donald Trump gewährt Flávio Bolsonaro unbegrenztes Bleiberecht",
+        "Oleschky-Flüchtlinge sind wieder in der Ukraine",
+        "Kiel: Seenotretter bergen gekenterten Segler aus der Förde"
+      ],
+      "urls": [
+        "https://www.spiegel.de/ausland/niederlande-kuestenwache-rettet-36-migranten-aus-manoevrierunfaehigem-boot-a-dbd00dd6-ea48-4c2a-82e9-d173efe88549#ref=rss",
+        "https://www.spiegel.de/ausland/brasilien-donald-trump-gewaehrt-flavio-bolsonaro-unbegrenztes-bleiberecht-a-a214a183-4ca3-4ede-b2d1-02f92fb03bbe#ref=rss",
+        "https://www.spiegel.de/ausland/oleschky-fluechtlinge-sind-wieder-in-der-ukraine-a-84c2759e-6b0b-419a-87e9-ab0b2e5ff5a7#ref=rss",
+        "https://www.spiegel.de/panorama/kiel-seenotretter-bergen-gekenterten-segler-aus-der-foerde-a-192e7a25-bf9c-4f83-b6a1-52872e5228c5#ref=rss"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 4
+        },
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "realization",
+          "count": 1
+        }
+      ]
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
@@ -298,39 +331,6 @@
         {
           "emotion": "anger",
           "count": 2
-        }
-      ]
-    },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 39,
-      "sample_titles": [
-        "Kiel: Seenotretter bergen gekenterten Segler aus der Förde",
-        "USA: Latinos kehren Republikanern vor Kongresswahlen den Rücken",
-        "Abschiebungen: Hunderte demonstrieren an Flughäfen in Deutschland",
-        "Mehrsprachige Erziehung: »Lern Deutsch!« – wenn Sprache zur Belastung wird"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/kiel-seenotretter-bergen-gekenterten-segler-aus-der-foerde-a-192e7a25-bf9c-4f83-b6a1-52872e5228c5#ref=rss",
-        "https://www.spiegel.de/ausland/usa-latinos-kehren-republikanern-vor-kongresswahlen-den-ruecken-a-a3f752f1-243d-4bd5-bf0c-fe964d6c4925#ref=rss",
-        "https://www.spiegel.de/panorama/abschiebungen-hunderte-demonstrieren-an-flughaefen-in-deutschland-a-6cce2064-e091-4ec8-b72a-26832e1e815a#ref=rss",
-        "https://www.spiegel.de/panorama/mehrsprachige-erziehung-lern-deutsch-wenn-sprache-zur-belastung-wird-a-0611ec48-316a-4c4c-bcab-fc387623a3f5#ref=rss"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 4
-        },
-        {
-          "emotion": "confusion",
-          "count": 1
-        },
-        {
-          "emotion": "realization",
-          "count": 1
         }
       ]
     },
@@ -404,18 +404,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 24,
+      "article_count": 26,
       "sample_titles": [
+        "Ukrainische Flüchtlinge aus Oleschky treffen in Belarus ein",
+        "Erst Hoffnung, jetzt Frust: Trumps Problem mit den Latinos",
         "Hell's Border – Gangs und Gewalt der Karibik",
-        "Mehr Geld, mehr Einsatzkräfte: EU will Frontex ausbauen",
-        "Warum der Staat Migranten Bargeld auf die Heimreise mitgibt",
-        "Grünen-Jugend-Chef Bobga: \"Menschen per se nicht illegal\""
+        "Mehr Geld, mehr Einsatzkräfte: EU will Frontex ausbauen"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/ausland/oleschky-evakuierte-belarus-ukraine-krieg-russland-100.html",
+        "https://www.zdfheute.de/politik/ausland/trump-midterms-usa-latinos-texas-100.html",
         "https://www.zdf.de/video/dokus/zdf-info-100/hells-border-gangs-und-gewalt-der-karibik-100",
-        "https://www.zdfheute.de/politik/ausland/eu-frontex-grenzschutz-abschiebungen-100.html",
-        "https://www.zdfheute.de/politik/deutschland/abschiebung-ausreise-kosten-handgeld-zahlung-100.html",
-        "https://www.zdfheute.de/politik/deutschland/keine-talkshow-fleischhauer-bobga-migration-integration-debatte-100.html"
+        "https://www.zdfheute.de/politik/ausland/eu-frontex-grenzschutz-abschiebungen-100.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -428,7 +428,7 @@
           "count": 2
         },
         {
-          "emotion": "curiosity",
+          "emotion": "sadness",
           "count": 1
         }
       ]
@@ -503,18 +503,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 9,
+      "article_count": 10,
       "sample_titles": [
+        "+++ Ukraine-Krieg +++: Oleschky-Flüchtlinge in der Ukraine angekommen – Evakuierung von ukrainischer Frontstadt beendet",
         "USA: Warum Trump die Bolsonaro-Familie schützt",
         "Sozialkonflikte: Eskalationen in Frankreich – Vance sieht Einwanderungspolitik als Grund",
-        "EU-Gipfel: Europa will Asylrecht in Krisenfällen einschränken",
-        "Interview: Forscher: „Selbst wenn Meta nachts Instagram abschaltet, soll niemand glauben, dass die Pisa-Leistungen explodieren“"
+        "EU-Gipfel: Europa will Asylrecht in Krisenfällen einschränken"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/international/ukraine-oleschky-fluechtlinge-in-der-ukraine-angekommen/27982126.html",
         "https://www.handelsblatt.com/politik/international/usa-warum-trump-die-bolsonaro-familie-schuetzt/100265741.html",
         "https://www.handelsblatt.com/politik/international/sozialkonflikte-eskalationen-in-frankreich-vance-sieht-einwanderungspolitik-als-grund/100262971.html",
-        "https://www.handelsblatt.com/politik/international/eu-gipfel-europa-will-asylrecht-in-krisenfaellen-einschraenken/100260835.html",
-        "https://www.handelsblatt.com/politik/deutschland/bildung-es-kann-nicht-ziel-sein-dass-sich-alle-schueler-nur-wohlfuehlen/100255718.html"
+        "https://www.handelsblatt.com/politik/international/eu-gipfel-europa-will-asylrecht-in-krisenfaellen-einschraenken/100260835.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -579,24 +579,24 @@
     }
   },
   "bias_distribution": {
-    "far-right": 179,
-    "left": 62,
-    "neutral": 87,
+    "left-liberal": 131,
+    "far-right": 181,
+    "economic-liberal": 10,
+    "conservative-liberal": 114,
+    "neutral": 89,
+    "left": 61,
     "populist-mixed": 33,
-    "right-conservative": 185,
-    "left-liberal": 130,
-    "economic-liberal": 9,
-    "conservative-liberal": 115
+    "right-conservative": 181
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die bestehenden Asylverfahren zu langwierig und bürokratisch sind und einer strukturellen Reform bedürfen, um sowohl die Rechtsstaatlichkeit zu wahren als auch die Belastungen für Aufnahmeeinrichtungen zu reduzieren. Gleichzeitig finden sich in nahezu allen Berichterstattungen übereinstimmende Hinweise darauf, dass die Integration von Geflüchteten, insbesondere im Bildungsbereich, unzureichend organisiert ist und deshalb gezielte Förderprogramme sowie eine bessere Abstimmung zwischen Kommunen und Bundesbehörden erforderlich sind. Darüber hinaus wird von allen Seiten die Notwendigkeit einer stärkeren europäischen Koordination, insbesondere im Hinblick auf die Rolle von Frontex bei Grenzkontrollen und Abschiebungen, als zentraler Faktor für eine wirksame Migrationspolitik hervorgehoben.",
-      "controversial_points": "Die Debatte spaltet zwischen restriktiver Sicherheitslogik, die Abschiebungen fordert, und humanitärer Logik, die Schutz betont. Ein Konflikt entsteht zwischen föderaler Verantwortung der Länder und zentralem Druck der Bundesregierung, Asylverfahren zu beschleunigen. Gegensätze zeigen sich in der Medienberichterstattung: rechte Medien betonen Kriminalität von Migranten, linke Medien heben strukturelle Benachteiligungen hervor."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird Frontex von allen politischen Lagern als zentrale Institution für Abschiebungen dargestellt, wobei linksgerichtete Beiträge die Gefahr von Grundrechtsverletzungen betonen und konservative Stimmen die Notwendigkeit einer stärkeren Durchsetzung hervorheben. Gleichzeitig verweisen Medien quer über das politische Spektrum immer wieder auf die Belastung des deutschen Sozialsystems durch Asylbewerber, indem sie konkrete Beispiele von Leistungsbezug und Integrationsschwierigkeiten anführen. Ein weiteres verbindendes Element ist die Kritik an langen Asylverfahren und administrativen Hürden, wobei wiederholt auf mehrmonatige Bearbeitungszeiten und ineffiziente Transitregelungen verwiesen wird.",
+      "controversial_points": "Der Diskurs spaltet zwischen humanitärer Aufnahmepflicht und sicherheitsorientierter Abschiebepolitik. Linke Medien betonen Integrationsbedarf, während rechte Stimmen Kosten und Kriminalität hervorheben. Die Rolle von Frontex wird als Schutzinstrument von Konservativen und als Menschenrechtsverletzung von Liberalen dargestellt. Bundespolitische Entscheidungen werden als Kampf um Souveränität versus EU Koordination interpretiert."
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum agree that the current asylum system is dysfunctional and that faster, more coordinated processing – often framed around an expanded role for Frontex – is essential. They also converge on the view that unchecked migration creates measurable pressure on social‑benefit budgets and public‑order concerns, prompting calls for stricter entry controls. Finally, there is a shared narrative that integration, particularly in schools and local services, is lagging and must be improved to avoid long‑term societal costs.",
-      "controversial_points": "The core conflict pits national security concerns against humanitarian obligations. Right-wing outlets frame migrants as economic burdens and cultural threats. Left-leaning media emphasize integration benefits and criticize restrictive asylum laws. The debate over Frontex’s role exposes a clash between sovereignty and EU solidarity."
+      "shared_perspectives": "German media across the spectrum agree that the current asylum and deportation system is malfunctioning, prompting repeated calls for faster, more streamlined procedures and clearer legal criteria. At the same time, there is a broadly shared skepticism about the expanding role of Frontex, with reports highlighting the tension between increased removal capacities and the erosion of procedural safeguards. Finally, most outlets, from left‑liberal to conservative, stress that migration is straining integration structures such as schools and welfare services, leading to calls for stronger coordination and resource allocation.",
+      "controversial_points": "The left-liberal media frame migration as humanitarian duty and integration challenge, emphasizing rights and social inclusion. Far-right outlets portray migrants as security threats and economic burdens, demanding strict controls and deportations. Conservative-liberal and centrist media focus on procedural efficiency, border authority empowerment, and national sovereignty."
     }
   },
-  "cached_at": "2026-10-31T10:32:11.564093"
+  "cached_at": "2026-11-01T11:15:57.940281"
 }

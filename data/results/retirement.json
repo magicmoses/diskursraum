@@ -1,58 +1,25 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 551,
-  "candidate_count": 553,
+  "article_count": 547,
+  "candidate_count": 547,
   "outlets": {
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 84,
-      "sample_titles": [
-        "Bewegt von Klopp und Kompany: Frühes WM-Aus machte Altkanzlerin Merkel \"fast wütend\"",
-        "Erste Spiele in Afrika?: München bekommt im Olympia-Kampf neuen Konkurrenten",
-        "Vorschlag der Rentenkommission: SPD pocht auf Rentenbeiträge für Abgeordnete",
-        "\"Also muss ich weiterkämpfen\": Jetzt hat Lewis Hamilton noch ein zweites großes Ziel bis zur F1-Rente"
-      ],
-      "urls": [
-        "https://www.n-tv.de/sport/fussball/Fruehes-WM-Aus-machte-Altkanzlerin-Merkel-fast-wuetend-id31477612.html",
-        "https://www.n-tv.de/sport/Muenchen-bekommt-im-Olympia-Kampf-neuen-Konkurrenten-id31472912.html",
-        "https://www.n-tv.de/politik/SPD-pocht-auf-Rentenbeitraege-fuer-Abgeordnete-id31453714.html",
-        "https://www.n-tv.de/sport/formel1/Jetzt-hat-Lewis-Hamilton-noch-ein-zweites-grosses-Ziel-bis-zur-F1-Rente-id31449541.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
-        },
-        {
-          "emotion": "excitement",
-          "count": 6
-        },
-        {
-          "emotion": "confusion",
-          "count": 3
-        }
-      ]
-    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 83,
+      "article_count": 84,
       "sample_titles": [
+        "Formel 1 in Mexiko: Hamilton sichert Pole-Position – Antonelli klar geschlagen",
+        "Mit neuer App: Schüler simulieren ihre finanzielle Zukunft",
         "Roms Haushalt: Meloni lässt Steuersenkungen von den Banken bezahlen",
-        "Rechnungshof rügt: Bayerischem Rundfunk droht ein Hundert-Millionen-Loch",
-        "Vermögen Aufbauen: „Mit 40 oder 50 ist es nicht zu spät, sich um seine Finanzen zu kümmern“",
-        "Immobilienkrise: Wenn die Babyboomer einfach wohnen bleiben"
+        "Rechnungshof rügt: Bayerischem Rundfunk droht ein Hundert-Millionen-Loch"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/sport/formel-1/lewis-hamilton-auf-pole-position-bei-formel-1-rennen-in-mexiko-201640027.html",
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/seasn-app-so-simulieren-schueler-ihre-finanzielle-zukunft-accg-201629158.html",
         "https://www.faz.net/aktuell/wirtschaft/giorgia-meloni-italiens-banken-sollen-steuersenkungen-finanzieren-201633103.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/br-droht-ende-2028-finanzloch-von-100-millionen-euro-accg-201628679.html",
-        "https://www.faz.net/premium/meine-finanzen/vorsorge/mit-40-noch-nicht-zu-spaet-so-ordnen-sie-jetzt-ihre-finanzen-accg-201596742.html",
-        "https://www.faz.net/aktuell/finanzen/immobilienkrise-wenn-die-babyboomer-einfach-wohnen-bleiben-accg-201608381.html"
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/medienpolitik/br-droht-ende-2028-finanzloch-von-100-millionen-euro-accg-201628679.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -67,6 +34,39 @@
         {
           "emotion": "admiration",
           "count": 4
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 81,
+      "sample_titles": [
+        "Oktagon aus München im Liveblog: 40-jähriger Deiga-Scheck kommt mit Schlacht aus der Rente zurück",
+        "6,3 Milliarden Dollar weg: Rekord-Hack bei Binance alarmiert Kryptobranche",
+        "Bewegt von Klopp und Kompany: Frühes WM-Aus machte Altkanzlerin Merkel \"fast wütend\"",
+        "Erste Spiele in Afrika?: München bekommt im Olympia-Kampf neuen Konkurrenten"
+      ],
+      "urls": [
+        "https://www.n-tv.de/sport/mma/Oktagon-in-Muenchen-Lokalmatador-Brajshori-stoppt-Wandelnden-Toten-per-Knockout-id31479872.html",
+        "https://www.n-tv.de/wirtschaft/Rekord-Hack-bei-Binance-alarmiert-Kryptobranche-id31479065.html",
+        "https://www.n-tv.de/sport/fussball/Fruehes-WM-Aus-machte-Altkanzlerin-Merkel-fast-wuetend-id31477612.html",
+        "https://www.n-tv.de/sport/Muenchen-bekommt-im-Olympia-Kampf-neuen-Konkurrenten-id31472912.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "excitement",
+          "count": 6
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
         }
       ]
     },
@@ -107,18 +107,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 47,
+      "article_count": 46,
       "sample_titles": [
+        "Ferienimmobilien: Rente unter Palmen – Wo in Griechenland der Alterswohnsitz noch erschwinglich ist",
         "Alterssicherung: DGB fordert höhere Renten und lehnt späteres Rentenalter ab",
         "Kommentar: Der blinde Fleck der Debatte um die „Rente mit 63“",
-        "Chemie: BASF steigert Gewinn überraschend stark – Iran-Krieg treibt die Preise",
-        "Geldanlage: Boom ohne Ende? Altersvorsorgedepot dürfte Nachfrage nach aktiven ETFs treiben"
+        "Chemie: BASF steigert Gewinn überraschend stark – Iran-Krieg treibt die Preise"
       ],
       "urls": [
+        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-rente-unter-palmen-lohnt-sich-griechenland-als-alterswohnsitz/100264811.html",
         "https://www.handelsblatt.com/politik/deutschland/alterssicherung-dgb-fordert-hoehere-renten-und-lehnt-spaeteres-rentenalter-ab/100265565.html",
         "https://www.handelsblatt.com/meinung/kommentare/kommentar-der-blinde-fleck-der-debatte-um-die-rente-mit-63/100265287.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/basf-chemiekonzern-hebt-nach-ueberraschend-starkem-quartal-die-prognose-an/100261992.html",
-        "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-altersvorsorgedepot-duerfte-nachfrage-nach-aktiven-etfs-treiben/100263369.html"
+        "https://www.handelsblatt.com/unternehmen/industrie/basf-chemiekonzern-hebt-nach-ueberraschend-starkem-quartal-die-prognose-an/100261992.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -206,7 +206,7 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 38,
+      "article_count": 37,
       "sample_titles": [
         "Abschlagsfreie Rente: \"Frage der Leistungsgerechtigkeit und eine Frage des Respekts\"",
         "Rente mit 63: Verdi macht Druck auf Schweitzer",
@@ -226,12 +226,12 @@
           "count": 3
         },
         {
-          "emotion": "curiosity",
+          "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "optimism",
-          "count": 2
+          "emotion": "amusement",
+          "count": 1
         }
       ]
     },
@@ -241,16 +241,16 @@
       "bias": "neutral",
       "article_count": 33,
       "sample_titles": [
+        "Was Schwarz-Rot für die Jugend macht",
+        "Doppelter Sullivan - schmutziger Trick der Demokraten?",
         "Wuppertaler Elefantenpfleger darf trotz Rente bleiben",
-        "Wuppertaler Elefantenpfleger darf trotz Rente bleiben",
-        "Was beim Altersvorsorgedepot zu beachten ist",
-        "Befreiungsschlag für die Rente oder Risiko?"
+        "Wuppertaler Elefantenpfleger darf trotz Rente bleiben"
       ],
       "urls": [
+        "https://www.tagesschau.de/inland/innenpolitik/jugendproteste-bundesregierung-100.html",
+        "https://www.tagesschau.de/ausland/amerika/midterms-alaska-sullivan-100.html",
         "https://www1.wdr.de/freizeit/tiere/elefantenpfleger-rente-wohnt-zoo-wuppertal-elefanten-tierpfleger-100.html",
-        "https://www1.wdr.de/nrw/bergisches-land/wuppertal/elefantenpfleger-rente-wohnt-zoo-wuppertal-elefanten-tierpfleger-100.html",
-        "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-100.html",
-        "https://www.tagesschau.de/inland/innenpolitik/renten-reform-kapitalrente-100.html"
+        "https://www1.wdr.de/nrw/bergisches-land/wuppertal/elefantenpfleger-rente-wohnt-zoo-wuppertal-elefanten-tierpfleger-100.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -301,6 +301,39 @@
         }
       ]
     },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "VIDEO - Im konservativen Texas bahnt sich bei den Midterms eine Sensation an – auch dank Donald Trump",
+        "GASTBEITRAG - Mehrwertsteuererhöhung für die AHV: Nein zu diesem Angriff auf die Kaufkraft",
+        "Wie Lula die verloren geglaubte Wahl doch noch drehte",
+        "Selbständige statt Angestellte: Just Eat stellt das soziale Versprechen der Migros auf die Probe"
+      ],
+      "urls": [
+        "https://www.nzz.ch/video/im-konservativen-texas-bahnt-sich-bei-den-midterms-eine-sensation-an-auch-dank-donald-trump-ld.10050348",
+        "https://www.nzz.ch/meinung/mehrwertsteuererhoehung-fuer-die-ahv-nein-zu-diesem-angriff-auf-die-kaufkraft-ld.10045784",
+        "https://www.nzz.ch/international/wie-lula-die-verloren-geglaubte-wahl-doch-noch-drehte-ld.10046214",
+        "https://www.nzz.ch/wirtschaft/selbstaendige-statt-angestellte-just-eat-stellt-das-soziale-versprechen-der-migros-auf-die-probe-ld.10042272"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
+          "count": 1
+        }
+      ]
+    },
     "zeit": {
       "source_id": "zeit",
       "source": "Zeit Online",
@@ -330,39 +363,6 @@
         },
         {
           "emotion": "curiosity",
-          "count": 1
-        }
-      ]
-    },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "GASTBEITRAG - Mehrwertsteuererhöhung für die AHV: Nein zu diesem Angriff auf die Kaufkraft",
-        "Wie Lula die verloren geglaubte Wahl doch noch drehte",
-        "Selbständige statt Angestellte: Just Eat stellt das soziale Versprechen der Migros auf die Probe",
-        "DER ANDERE BLICK - Deutschland soll zum Land der Investoren werden. Das Ende der irrationalen Angst vor Aktien ist überfällig"
-      ],
-      "urls": [
-        "https://www.nzz.ch/meinung/mehrwertsteuererhoehung-fuer-die-ahv-nein-zu-diesem-angriff-auf-die-kaufkraft-ld.10045784",
-        "https://www.nzz.ch/international/wie-lula-die-verloren-geglaubte-wahl-doch-noch-drehte-ld.10046214",
-        "https://www.nzz.ch/wirtschaft/selbstaendige-statt-angestellte-just-eat-stellt-das-soziale-versprechen-der-migros-auf-die-probe-ld.10042272",
-        "https://www.nzz.ch/der-andere-blick/deutschland-soll-zum-land-der-investoren-werden-das-ende-der-irrationalen-angst-vor-aktien-ist-ueberfaellig-ld.10039719"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
           "count": 1
         }
       ]
@@ -437,7 +437,7 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 12,
+      "article_count": 11,
       "sample_titles": [
         "Kinder als Anlagerisiko? – Babypause soll bis zu 222.000 Euro kosten",
         "Frankreich im Würgegriff: Jetzt droht auch noch Benzinmangel",
@@ -470,18 +470,18 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 8,
+      "article_count": 9,
       "sample_titles": [
+        "Zweifelhafte Rechenregel Soll Deutschland die Rente an die Inflation koppeln?",
         "Private Altersvorsorge Jetzt sollte auch noch die Zehn-Jahres-Frist für steuerfreie Immobilienverkäufe fallen",
         "Migrationspolitik Fratzscher ignoriert Milliardenkosten beim Bürgergeld und feiert Migranten als Rentenretter",
-        "„Braune Scheiße zu brauner Scheiße“ Linksextreme kippen bundesweit Pferdemist vor CDU-Büros ab",
-        "Kerkelings schwächster Auftritt AfD-Verbotsfarce mit mehr als einem Clown"
+        "„Braune Scheiße zu brauner Scheiße“ Linksextreme kippen bundesweit Pferdemist vor CDU-Büros ab"
       ],
       "urls": [
+        "https://jungefreiheit.de/debatte/kommentar/2026/soll-deutschland-die-rente-an-die-inflation-koppeln/",
         "https://jungefreiheit.de/politik/deutschland/2026/jetzt-sollte-auch-noch-die-zehn-jahres-frist-fuer-steuerfreie-immobilienverkaeufe-fallen/",
         "https://jungefreiheit.de/politik/deutschland/2026/fratzscher-ignoriert-milliardenkosten-beim-buergergeld-und-feiert-migranten-als-rentenretter/",
-        "https://jungefreiheit.de/politik/deutschland/2026/linksextreme-kippen-bundesweit-pferdemist-vor-cdu-bueros-ab/",
-        "https://jungefreiheit.de/debatte/kommentar/2026/afd-verbotsfarce-mit-mehr-als-einem-clown/"
+        "https://jungefreiheit.de/politik/deutschland/2026/linksextreme-kippen-bundesweit-pferdemist-vor-cdu-bueros-ab/"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -526,24 +526,24 @@
     }
   },
   "bias_distribution": {
+    "conservative-liberal": 105,
+    "far-right": 21,
+    "right-conservative": 127,
+    "economic-liberal": 46,
+    "neutral": 70,
     "left": 18,
     "populist-mixed": 48,
-    "right-conservative": 130,
-    "left-liberal": 112,
-    "conservative-liberal": 104,
-    "economic-liberal": 47,
-    "neutral": 71,
-    "far-right": 21
+    "left-liberal": 112
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Alle Lager betonen, dass der demografische Wandel die Finanzierbarkeit der gesetzlichen Rente langfristig gefährdet, und dass eine Anhebung des Renteneintrittsalters oder eine Reduzierung der Leistungen für Frühverrentung als notwendige Gegenmaßnahmen diskutiert werden. Gleichzeitig wird in nahezu allen Beiträgen die Notwendigkeit einer stärkeren kapitalgedeckten Vorsorge, etwa durch die Aktienrente, hervorgehoben, wobei Kritik an unzureichender Aufklärung und an möglichen Ungleichheiten besteht. Schließlich gibt es einen breiten Konsens, dass die aktuelle Beitragsgeneration die steigende Belastung spürt und Generationengerechtigkeit deshalb zum zentralen Leitmotiv der Reformdebatte geworden ist.",
-      "controversial_points": "Das Rentenalter wird zum Kernkonflikt zwischen Generationengerechtigkeit und Finanzierbarkeit. Linke Medien fordern höhere Beiträge und niedriges Eintrittsalter, während konservative Stimmen das Rentenniveau schützen wollen. Kapitalgedeckte Modelle werden von Liberalen als Entlastung der Versicherung gesehen, von Sozialdemokraten als Risiko für Altersarmut. Der demografische Wandel verschärft die Debatte, weil sinkende Beitragszahler die Umlage belasten und Migration als Ausgleich diskutiert wird."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein gemeinsamer Fokus auf die Finanzierbarkeit der gesetzlichen Rente im Kontext des demografischen Wandels deutlich, wobei sowohl linke als auch rechte Beiträge die Gefahr einer wachsenden Rentenlücke und die Notwendigkeit von Reformen betonen. Gleichzeitig besteht ein breiter Konsens darüber, dass die Kaufkraft der Rentner geschützt werden muss – etwa durch eine Inflationskopplung oder durch Maßnahmen gegen die Abschmelzung von Rentenleistungen – und dass die aktuelle Debatte um die „Rente mit 63“ als zentrales Symbol für Generationengerechtigkeit und die Frage nach einem angemessenen Renteneintrittsalter dient. Schließlich wird in fast allen Medienformaten die Bedeutung einer besseren finanziellen Bildung und einer ergänzenden kapitalgedeckten Vorsorge hervorgehoben, um individuelle Rentenlücken zu schließen.",
+      "controversial_points": "Das Rentenalter wird zwischen Befürwortern einer Anhebung zur Sicherung der Finanzierung und Gegnern, die Generationengerechtigkeit fordern, polarisiert."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media agree that demographic ageing makes the pay‑as‑you‑go pension system financially unsustainable and that reforms must confront the rising risk of old‑age poverty. They also converge on the view that any lowering of the statutory retirement age, such as to 63, would have to be offset by reduced benefits or higher contributions, reflecting a shared concern for intergenerational equity. Finally, there is broad consensus that private, capital‑based retirement products are being promoted as a necessary supplement, yet their adequacy and fairness are widely questioned.",
-      "controversial_points": "The core conflict pits universal public pensions against market‑based private savings.  \nLeft‑leaning outlets frame reforms as social justice.  \nThey demand higher benefits and protection for low‑income retirees.  \nConservative media stress fiscal sustainability and a higher retirement age.  \nIntergenerational equity debates clash with demographic realities, exposing tension over younger workers’ tax burden versus older voters’ entitlements."
+      "shared_perspectives": "Across the German press, from conservative to left‑leaning outlets, there is a clear consensus that demographic ageing is rendering the pay‑as‑you‑go pension system financially unsustainable, which drives repeated calls for structural reforms such as raising the statutory retirement age or linking benefits more closely to contributions. All sides agree that any early‑retirement option, especially the “Rente mit 63”, must be offset by lower payouts or higher financing to preserve intergenerational fairness. At the same time, commentators across the spectrum stress the need for stronger financial education and a more effective private‑savings pillar, criticizing the limited impact of existing products like the Riester scheme.",
+      "controversial_points": "The debate pits intergenerational solidarity against market‑based individualism. Public pension sustainability clashes with calls for early retirement and higher benefits. Demographic pressure creates tension between raising the retirement age and protecting low‑income retirees. The role of private capital, such as Riester and ETFs, divides left‑leaning equity concerns from liberal profit motives."
     }
   },
-  "cached_at": "2026-10-31T10:39:01.513883"
+  "cached_at": "2026-11-01T11:22:37.133614"
 }
