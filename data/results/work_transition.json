@@ -8,31 +8,31 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 112,
+      "article_count": 114,
       "sample_titles": [
-        "Warnstreiks der IG Metall um Mitternacht angelaufen",
-        "IG Metall startet Warnstreiks kurz nach Mitternacht in Rheinland-Pfalz",
-        "Mindestlohnarbeit bringt im Saarland deutlich mehr Geld als Grundsicherung",
-        "Hunderttausende protestieren gegen Meloni-Regierung"
+        "Warnstreiks in ganz NRW: 3.000 Menschen streiken bei Ford in Köln",
+        "Rund 1.000 ZF-Beschäftigte in Saarbrücken und Neunkirchen demonstrieren",
+        "Autozulieferer Schaeffler schließt Standort in Berlin",
+        "IG Metall setzt Warnstreiks fort: Beschäftigte von Opel und Benteler in Eisenach legen Arbeit nieder"
       ],
       "urls": [
-        "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-warnstreiks-108.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/ig-metall-startet-warnstreiks-in-rheinland-pfalz-bei-thyssenkrupp-rasselstein-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/unterschied_mindestlohn_grundsicherung_100.html",
-        "https://www.tagesschau.de/ausland/europa/italien-protest-meloni-100.html"
+        "https://www1.wdr.de/nrw/streik-ford-siemens-koeln-essen-100.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/warnstreik_ig_metall_elektro_metallindustrie_zf_saarbruecken_tadano_john_deere_100.html",
+        "https://www.rbb24.de/wirtschaft/beitrag/2026/11/auto-zulieferer-schaeffler-schliesst-standort-berlin-einsparungen.html",
+        "https://www.mdr.de/nachrichten/thueringen/west-thueringen/wartburgkreis/opel-benteler,warnstreik-ig-metall-114.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "excitement",
       "top_emotions": [
         {
-          "emotion": "annoyance",
-          "count": 7
-        },
-        {
-          "emotion": "approval",
+          "emotion": "excitement",
           "count": 5
         },
         {
-          "emotion": "excitement",
+          "emotion": "annoyance",
+          "count": 5
+        },
+        {
+          "emotion": "approval",
           "count": 4
         }
       ]
@@ -41,18 +41,51 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 105,
+      "article_count": 107,
       "sample_titles": [
-        "F.A.Z.-Leser helfen: Mit Erdnussmus trotzen sie der Jugendarbeitslosigkeit",
-        "Rhein-Main-Feierabendbriefing: Preisverleihung an Schah-Sohn spaltet iranische Diaspora in Frankfurt",
-        "Arbeitsmarkt in Hessen: Wie ein Betrieb im Odenwald Lehrlinge findet",
-        "Demos und Streiks: Warum in Deutschland anders protestiert wird als in Frankreich"
+        "Protest Gegen Babiš: Der tschechische Rundfunk streikt",
+        "Burnout & Boreout: Nimmt KI der Arbeit ihren Sinn?",
+        "Deutschland Liveblog: Vorsitzender der Türkischen Gemeinde: Dobrindt sucht „Sündenböcke“",
+        "Business-Ticker: Binance-Kunden ziehen nach Milliarden-Diebstahl 3,6 Milliarden Dollar ab"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/tansania-pep-clubs-bekaempfen-die-jugendarbeitslosigkeit-201254959.html",
-        "https://www.faz.net/podcasts/rhein-main-feierabendbriefing/friedenspreis-preisverleihung-an-schah-sohn-spaltet-iranische-diaspora-in-frankfurt-201637956.html",
-        "https://www.faz.net/aktuell/rhein-main/wirtschaft/hessen-alarmierende-lage-bei-ausbildungsplaetzen-und-jugendarbeitslosigkeit-201634274.html",
-        "https://www.faz.net/aktuell/politik/inland/protestkultur-warum-wir-in-deutschland-anders-protestieren-als-in-frankreich-accg-201626144.html"
+        "https://www.faz.net/aktuell/politik/ausland/babis-plaene-warum-der-tschechische-rundfunk-streikt-201647361.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/macht-ki-die-arbeit-langweilig-oft-sitze-ich-da-und-denke-was-mache-ich-hier-201296926.html",
+        "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-vorsitzender-der-tuerkischen-gemeinde-dobrindt-sucht-suendenboecke-faz-110093143.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-binance-kunden-ziehen-nach-milliarden-diebstahl-3-6-milliarden-dollar-ab-faz-200452404.html"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 8
+        },
+        {
+          "emotion": "optimism",
+          "count": 5
+        },
+        {
+          "emotion": "anger",
+          "count": 2
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 88,
+      "sample_titles": [
+        "Tarifkonflikt mit IG Metall: Arbeitgeber sehen weitere 300.000 Jobs in Industrie in Gefahr",
+        "\"Toxische\" Arbeitssituationen: Betriebsrat beklagt Missstände bei Biontech",
+        "Urteil aus dem Arbeitsrecht: Sexuelle Belästigung? So muss der Arbeitgeber reagieren",
+        "In mehr als 2000 Betrieben: Warnstreiks in Metallindustrie nehmen bundesweit Fahrt auf"
+      ],
+      "urls": [
+        "https://www.n-tv.de/wirtschaft/Arbeitgeber-sehen-weitere-300-000-Jobs-in-Industrie-in-Gefahr-id31491828.html",
+        "https://www.n-tv.de/wirtschaft/Betriebsrat-beklagt-Missstaende-bei-Biontech-id31491525.html",
+        "https://www.n-tv.de/ratgeber/Sexuelle-Belaestigung-So-muss-der-Arbeitgeber-reagieren-id31489255.html",
+        "https://www.n-tv.de/wirtschaft/Warnstreiks-in-Metallindustrie-nehmen-bundesweit-Fahrt-auf-id31486026.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -65,40 +98,7 @@
           "count": 6
         },
         {
-          "emotion": "annoyance",
-          "count": 3
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 86,
-      "sample_titles": [
-        "Firmen brauchen weniger Personal: Zahl der Arbeitslosen steigt im Vergleich zum Vorjahr",
-        "\"Zu spät, zu niedrig\": IG Metall lehnt Angebot ab: Warnstreiks kommen",
-        "Bis zu 12.000 Arbeitsplätze: Schweizer Bankgewerkschaft fürchtet Job-Kahlschlag bei UBS",
-        "War im Homeoffice: Beamter erhielt angeblich volles Gehalt, ohne zu arbeiten"
-      ],
-      "urls": [
-        "https://www.n-tv.de/wirtschaft/Zahl-der-Arbeitslosen-steigt-im-Vergleich-zum-Vorjahr-id31475800.html",
-        "https://www.n-tv.de/wirtschaft/Arbeitgeber-machen-Angebot-IG-Metall-lehnt-ab-Warnstreiks-kommen-id31464312.html",
-        "https://www.n-tv.de/wirtschaft/Schweizerischer-Bankpersonalverband-12-000-Arbeitsplaetze-bei-UBS-koennten-wegfallen-id31456241.html",
-        "https://www.n-tv.de/panorama/Beamter-angeblich-volles-Gehalt-erhalten-ohne-zu-arbeiten-id31452511.html"
-      ],
-      "dominant_emotion": "confusion",
-      "top_emotions": [
-        {
-          "emotion": "confusion",
-          "count": 9
-        },
-        {
-          "emotion": "optimism",
-          "count": 6
-        },
-        {
-          "emotion": "annoyance",
+          "emotion": "disapproval",
           "count": 4
         }
       ]
@@ -107,18 +107,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 85,
+      "article_count": 83,
       "sample_titles": [
-        "Ende der Friedenspflicht – IG Metall läutet Warnstreiks ein",
-        "„Sollte es zu Straftaten kommen, wird die Polizei selbstverständlich mit voller Härte durchgreifen“",
-        "„Gen Z regelt? Wäre vielleicht besser, wenn Politik mal regeln würde“",
-        "Elif Eralp erhält auf Parteitag Personenschutz"
+        "„Es sind Chaoten“ – Dobrindt weist Kritik an seiner Wortwahl zurück und stellt sich hinter Polizei",
+        "„Man tanzt uns insbesondere aus dem migrantischen Milieu permanent auf der Nase rum“",
+        "„Vor allem junge Männer mit Migrationshintergrund, die ihren Gewaltfantasien freien Lauf lassen“",
+        "„Ich kann nicht von mir behaupten, dass ich zu jedem Zeitpunkt die beste Führungskraft war“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6ae689006a5ed9f213133faa/hildesheim-ende-der-friedenspflicht-ig-metall-laeutet-warnstreiks-ein.html",
-        "https://www.welt.de/politik/deutschland/video6ae5ead4f49d824606760c03/halloween-proteste-sollte-es-zu-straftaten-kommen-wird-die-polizei-selbstverstaendlich-mit-voller-haerte-durchgreifen.html",
-        "https://www.welt.de/vermischtes/video6ae4df2ce467df843590030f/halloween-proteste-gen-z-regelt-waere-vielleicht-besser-wenn-politik-mal-regeln-wuerde.html",
-        "https://www.welt.de/politik/deutschland/article6ae4a6ce3620137294c24a36/berliner-linke-elif-eralp-erhaelt-auf-parteitag-personenschutz.html"
+        "https://www.welt.de/politik/deutschland/article6ae9d03070820d59f9329d20/dobrindt-chaoten-aeusserung-sorgt-fuer-scharfe-kritik-jetzt-reagiert-der-innenminister.html",
+        "https://www.welt.de/politik/deutschland/video6ae8a3d6b3f0fa60211d65dc/krawalle-an-halloween-man-tanzt-uns-insbesondere-aus-dem-migrantischen-milieu-permanent-auf-der-nase-rum.html",
+        "https://www.welt.de/politik/deutschland/video6ae887841d5fd399fd461517/krawalle-in-berlin-vor-allem-junge-maenner-mit-migrationshintergrund-die-ihren-gewaltfantasien-freien-lauf-lassen.html",
+        "https://www.welt.de/wirtschaft/article6ae78767b03f141d4ad9b5ff/armedangels-ich-kann-nicht-von-mir-behaupten-dass-ich-zu-jedem-zeitpunkt-die-beste-fuehrungskraft-war.html"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -127,12 +127,12 @@
           "count": 4
         },
         {
-          "emotion": "disapproval",
+          "emotion": "annoyance",
           "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 3
+          "emotion": "disapproval",
+          "count": 2
         }
       ]
     },
@@ -140,18 +140,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 84,
+      "article_count": 81,
       "sample_titles": [
+        "Pharma: „Toxische Situation“: Biontech-Betriebsrat prangert Umgang mit Mitarbeitern an",
+        "Industrie: Erste Warnstreiks der Industrie: Das ist neben größeren Demonstrationen geplant",
         "Metall- und Elektroindustrie: Warnstreiks der IG Metall kurz nach Mitternacht gestartet",
-        "Arbeitsmarkt: Arbeitslosigkeit geht nur leicht zurück – Probleme auf dem Ausbildungsmarkt wachsen",
-        "Übernahme: Fusion der Telekom mit T-Mobile US in Gefahr",
-        "Übernahme: Fusion von Telekom mit T-Mobile US in Gefahr"
+        "Arbeitsmarkt: Arbeitslosigkeit geht nur leicht zurück – Probleme auf dem Ausbildungsmarkt wachsen"
       ],
       "urls": [
+        "https://www.handelsblatt.com/unternehmen/industrie/pharma-biontech-betriebsrat-prangert-umgang-mit-mitarbeitern-an/100267040.html",
+        "https://www.handelsblatt.com/politik/deutschland/industrie-erste-warnstreiks-der-industrie-groessere-demonstrationen-geplant/100266409.html",
         "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-warnstreiks-der-ig-metall-kurz-nach-mitternacht-gestartet/100266374.html",
-        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-arbeitslosigkeit-geht-nur-leicht-zurueck-herbstbelebung-schwach/100265828.html",
-        "https://www.handelsblatt.com/technik/it-internet/uebernahme-fusion-der-telekom-mit-t-mobile-us-in-gefahr/100265710.html",
-        "https://www.handelsblatt.com/unternehmen/dienstleister/uebernahme-fusion-von-telekom-mit-t-mobile-us-in-gefahr/100265710.html"
+        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-arbeitslosigkeit-geht-nur-leicht-zurueck-herbstbelebung-schwach/100265828.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -169,55 +169,22 @@
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 58,
-      "sample_titles": [
-        "Quiz zum Reformationstag: Wie gut kennen Sie den Feiertag und seine Geschichte?",
-        "Italien: Gewerkschaften machen bei Protesten gegen Giorgia Meloni mobil",
-        "Arbeitsmarkt: Zahl der Arbeitslosen sinkt im Oktober auf 2,95 Millionen",
-        "Condor einigt sich mit Piloten"
-      ],
-      "urls": [
-        "https://www.spiegel.de/panorama/gesellschaft/quiz-zum-reformationstag-wie-gut-kennen-sie-den-feiertag-und-seine-geschichte-a-de95147f-f61b-46e8-a3fd-1cf76d496050#ref=rss",
-        "https://www.spiegel.de/ausland/italien-gewerkschaften-machen-bei-protesten-gegen-giorgia-meloni-mobil-a-af8f899e-a46c-4186-97b3-bbf0d61e02d9#ref=rss",
-        "https://www.spiegel.de/wirtschaft/arbeitsmarkt-zahl-der-arbeitslosen-sinkt-im-oktober-auf-2-95-millionen-a-b7c98379-0fbd-4b82-bbae-bb21315098af#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/condor-einigt-sich-mit-piloten-a-99c1e7b2-b601-487e-96ed-c02d06c106c5#ref=rss"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "anger",
-          "count": 2
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
       "article_count": 53,
       "sample_titles": [
-        "Wolfsburg in Sorge: Chaostage bei Volkswagen",
-        "Fuhrpark: Polizeiwagen im Schnitt mit 120.000 Kilometern auf dem Tacho",
-        "Verkehr: GDL setzt Streik bei der Saarbahn fort",
-        "Tarifkonflikt: GDL setzt Streik bei Saarbahn weiter fort"
+        "Tausende demonstrieren gegen Rundfunkreform von Tschechiens rechter Regierung",
+        "Stahlarbeiter: Gewerkschaft fordert fünf Prozent mehr Lohn in Stahlbranche",
+        "IG Metall: Warnstreiks in mehr als 2000 Firmen - Arbeitgeber: „Nicht verantwortbar“",
+        "Wolfsburg in Sorge: Chaostage bei Volkswagen"
       ],
       "urls": [
-        "https://www.stern.de/capital/vw-in-der-krise---und-im-konzern-herrscht-das-chaos-38474528.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/fuhrpark--polizeiwagen-im-schnitt-mit-120-000-kilometern-auf-dem-tacho-38473696.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/verkehr--gdl-setzt-streik-bei-der-saarbahn-fort-38468182.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/tarifkonflikt--gdl-setzt-streik-bei-saarbahn-weiter-fort-38464246.html"
+        "https://www.stern.de/news/tausende-demonstrieren-gegen-rundfunkreform-von-tschechiens-rechter-regierung-38496652.html",
+        "https://www.stern.de/wirtschaft/news/stahlarbeiter--gewerkschaft-fordert-fuenf-prozent-mehr-lohn-in-stahlbranche-38490920.html",
+        "https://www.stern.de/news/ig-metall--warnstreiks-in-mehr-als-2000-firmen---arbeitgeber---nicht-verantwortbar--38490304.html",
+        "https://www.stern.de/capital/vw-in-der-krise---und-im-konzern-herrscht-das-chaos-38474528.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -235,22 +202,55 @@
         }
       ]
     },
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 51,
+      "sample_titles": [
+        "Friedrich Merz droht Randalierern mit der »Härte des Gesetzes«",
+        "Metall- und Elektroindustrie: Warnstreiks der IG Metall sind angelaufen",
+        "Quiz zum Reformationstag: Wie gut kennen Sie den Feiertag und seine Geschichte?",
+        "Italien: Gewerkschaften machen bei Protesten gegen Giorgia Meloni mobil"
+      ],
+      "urls": [
+        "https://www.spiegel.de/politik/deutschland/friedrich-merz-droht-randalierern-mit-der-haerte-des-gesetzes-a-abaa29bf-4d2d-4a7c-bf7e-68745518c8bc#ref=rss",
+        "https://www.spiegel.de/wirtschaft/metall-und-elektroindustrie-warnstreiks-der-ig-metall-sind-angelaufen-a-4e8ae251-bec3-4e9a-a09b-b32b0eca149c#ref=rss",
+        "https://www.spiegel.de/panorama/gesellschaft/quiz-zum-reformationstag-wie-gut-kennen-sie-den-feiertag-und-seine-geschichte-a-de95147f-f61b-46e8-a3fd-1cf76d496050#ref=rss",
+        "https://www.spiegel.de/ausland/italien-gewerkschaften-machen-bei-protesten-gegen-giorgia-meloni-mobil-a-af8f899e-a46c-4186-97b3-bbf0d61e02d9#ref=rss"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "excitement",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "taz": {
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
       "article_count": 50,
       "sample_titles": [
-        "Proteste in Italien: Gewerkschaften machen gegen Meloni mobil",
-        "VW-Betriebsrätin über Anwerbeabkommen: „Wir haben geschafft, was die Politik nicht mal versucht hat“",
-        "Schulstreiks gegen Wehrpflicht: Wo bleibt das Fridays-for-Future-Moment?",
-        "DGB macht Gegenvorschläge zur Regierung: Rentenreform einmal anders"
+        "Autoindustrie in der Krise: Kahlschlag bei Autozulieferer Schaeffler",
+        "Protestcamp in Spanien geräumt: Mit Tränengas in der tiefsten Nacht",
+        "Arbeitskampf in der Türkei: Berufliche Abwehrkräfte stärken",
+        "Folgen der neuen Grundsicherung: Bloß nicht für die Kinder sparen"
       ],
       "urls": [
-        "https://taz.de/Proteste-in-Italien/!6226264/",
-        "https://taz.de/VW-Betriebsraetin-ueber-Anwerbeabkommen/!6225974/",
-        "https://taz.de/Schulstreiks-gegen-Wehrpflicht-Eine-grosse-Oeffentlichkeit-hat-die-Bewegung-nicht-woran-liegt-das/!6223909/",
-        "https://taz.de/DGB-macht-Gegenvorschlaege-zur-Regierung/!6225680/"
+        "https://taz.de/Autoindustrie-in-der-Krise/!6226993/",
+        "https://taz.de/Protestcamp-in-Spanien-geraeumt/!6226972/",
+        "https://taz.de/Arbeitskampf-in-der-Tuerkei/!6201554/",
+        "https://taz.de/Folgen-der-neuen-Grundsicherung/!6226309/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -272,18 +272,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 29,
+      "article_count": 32,
       "sample_titles": [
-        "Lage auf dem Arbeitsmarkt leicht positiver",
-        "Rente mit 63: Verdi macht Druck auf Schweitzer",
-        "Frankreich bereitet sich auf Demos und Krawalle vor",
-        "Forderungen der VW-Beschäftigten"
+        "Dobrindt: \"Wir haben es mit Chaoten auf der Straße zu tun\"",
+        "Autozulieferer Schaeffler schließt vier deutsche Standorte",
+        "Krawalle: Polizeigewerkschaft stellt sich hinter Dobrindt",
+        "Dobrindt: \"Wir haben es mit Chaoten auf der Straße zu tun\""
       ],
       "urls": [
-        "https://www.zdfheute.de/wirtschaft/konjunktur-arbeitsmarkt-beschaeftigung-aussicht-100.html",
-        "https://www.zdfheute.de/politik/deutschland/rente-reform-fruehrente-verdi-schweitzer-100.html",
-        "https://www.zdfheute.de/politik/ausland/frankreich-demonstrationen-polizei-100.html",
-        "https://www.phoenix.de/volkswagen-a-5241712.html"
+        "https://www.phoenix.de/bundeskongress-a-5244714.html",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/schaeffler-stellenabbau-standortschliessungen-100.html",
+        "https://www.zdfheute.de/politik/deutschland/gewalt-jugendproteste-migranten-dobrindt-kritik-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5244857"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -293,7 +293,7 @@
         },
         {
           "emotion": "approval",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "amusement",
@@ -305,18 +305,18 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 28,
+      "article_count": 29,
       "sample_titles": [
+        "Ex-Fußballer im Steckbrief - Diese Stationen prägten Eike Immels Laufbahn",
+        "Unglaubliches Chaos in der 6. Liga - Spielerdemo gegen Ex-Bayern-Trainer",
         "BILD-Analyse der neuen Arbeitsmarktzahlen - 163.000 Industrie-Jobs weg!",
-        "Wegen unsicherer Strecken - Lokführer in Spanien wollten morgen streiken",
-        "300 Jobs in Gefahr - Autozulieferer insolvent! Jetzt droht Streik“",
-        "Nach Auftritt bei Trump-Show - VW-Betriebsratschefin rechnet mit Audi-Boss ab"
+        "Wegen unsicherer Strecken - Lokführer in Spanien wollten morgen streiken"
       ],
       "urls": [
+        "https://www.bild.de/unterhaltung/stars-und-leute/eike-immel-im-steckbrief-vom-ex-torwart-zur-reality-ikone-678a3b336f10d97bb391c6c6",
+        "https://www.bild.de/sport/fussball/unglaubliches-chaos-in-der-6-liga-spielerdemo-gegen-ex-bayern-trainer-6ae7ab1db51759a06e3f4ba6",
         "https://www.bild.de/politik/inland/deutschlands-wirtschaft-waechst-211-000-menschen-weniger-in-arbeit-6ae46f1c70e6cbfe1024fe6d",
-        "https://www.bild.de/news/ausland/spanien-lokfuehrer-wollten-morgen-wegen-unsicherer-strecken-streiken-6ae1fbdf8f0a4dd417a5efc1",
-        "https://www.bild.de/regional/saarland/deutscher-autozulieferer-insolvent-300-jobs-in-gefahr-jetzt-droht-streik-6adddc26a6a5d701acbcea12",
-        "https://www.bild.de/politik/inland/vor-scham-im-boden-versinken-betriebsratschefin-von-vw-rechnet-mit-boss-von-audi-ab-6adef360247c1fa201306f60"
+        "https://www.bild.de/news/ausland/spanien-lokfuehrer-wollten-morgen-wegen-unsicherer-strecken-streiken-6ae1fbdf8f0a4dd417a5efc1"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -334,22 +334,55 @@
         }
       ]
     },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 26,
+      "sample_titles": [
+        "Gewalt durch Linksextreme und Migranten: Polizeigewerkschaft wirft Pistorius Beschönigung vor",
+        "Sozialbeiträge steigen bis 2035 auf mehr als 49 Prozent – trotz Reformen",
+        "Nach Schock-Bildern: Demo-Verbot am 20. November möglich",
+        "ABB-Chef warnt vor Massenarbeitslosigkeit: Deutschlands Politik treibt Industrie aus dem Land"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/polizei-taeterbeschreibung-pistorius-beschoenigung-realitaetsverlust/",
+        "https://www.tichyseinblick.de/daili-es-sentials/sozialbeitraege-steigen-bis-2035-auf-mehr-als-49-prozent/",
+        "https://www.tichyseinblick.de/daili-es-sentials/demo-verbot-am-20-november-moeglich/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/schweiz-abb-morten-wierod/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
     "sz": {
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
       "article_count": 25,
       "sample_titles": [
+        "Metallindustrie: Warnstreik bei Audi – Kritik am Vorstand",
+        "Streiks: Mehr als 2 000 Metall-Beschäftigte legen Arbeit nieder",
         "Arbeitsmarkt: Warnstreiks der IG Metall angelaufen",
-        "Sagen Sie jetzt nichts: Auf welches Ritual schwören Sie im Studio, Paul Banks?",
-        "DDR-Vergangenheit: Polizeigewerkschafter tritt nach Misshandlungsvorwürfen zurück",
-        "Beamte: Die Karriere dieses DDR-Grenzoffiziers ist nun zu Ende"
+        "Sagen Sie jetzt nichts: Auf welches Ritual schwören Sie im Studio, Paul Banks?"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/audi-doellner-usa-lohn-mercedes-bmw-streik-li.3573364",
+        "https://www.sueddeutsche.de/wirtschaft/warnstreik-niedersachsen-ig-metall-metallindustrie-tarifkonflikt-li.3573276",
         "https://www.sueddeutsche.de/wirtschaft/ig-metall-warnstreiks-autobau-maschinenbau-elektronik-metall-li.3572277",
-        "https://www.sueddeutsche.de/projekte/artikel/magazin/interview-ohne-worte-sagen-sie-jetzt-nichts-rock-paul-banks-interpol-punk-berlin-usa-e752454/",
-        "https://www.sueddeutsche.de/politik/sven-hueber-ruecktritt-polizeigewerkschaft-gdp-afd-li.3537382",
-        "https://www.sueddeutsche.de/meinung/sven-hueber-ruecktritt-ddr-vorwuerfe-afd-debatte-deutschland-gdp-kommentar-li.3537693"
+        "https://www.sueddeutsche.de/projekte/artikel/magazin/interview-ohne-worte-sagen-sie-jetzt-nichts-rock-paul-banks-interpol-punk-berlin-usa-e752454/"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -358,77 +391,11 @@
           "count": 2
         },
         {
-          "emotion": "admiration",
+          "emotion": "approval",
           "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 25,
-      "sample_titles": [
-        "Schwache Herbstbelebung – 44.000 Arbeitslose mehr als im Vorjahr",
-        "Die Gewerkschaften sind Deutschlands größter Standortnachteil",
-        "Gesamtmetall präsentiert Schock-Umfrage",
-        "Kein Ende der Gewalt in Frankreich: Erneut 1000 Festnahmen"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/daili-es-sentials/oktober-44-000-arbeitslose-mehr-als-im-vorjahr/",
-        "https://www.tichyseinblick.de/wirtschaft/gewerkschaften-funktionaere-parteien/",
-        "https://www.tichyseinblick.de/wirtschaft/gesamtmetall-schock-umfrage/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/kein-ende-der-gewalt-in-frankreich/"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
         },
         {
           "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 19,
-      "sample_titles": [
-        "Zugunglück in Spanien: Spaniens Verkehrsminister schließt einen Rücktritt aus",
-        "Robotik in Südkorea: Dieser Kollege wird nie krank, nimmt keinen Urlaub, streikt nie",
-        "Lufthansa: Schlichtung bei Lufthansa und Pilotengewerkschaft endet ohne Einigung",
-        "Homeoffice: Bitte kommen Sie sofort in mein Büro!"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/ausland/2026-10/zugunglueck-spanien-oscar-puente-adif-gewerkschaften-ruecktritt",
-        "https://www.zeit.de/2026/46/robotik-suedkorea-job-verlust-gewerkschaften-hyundai",
-        "https://www.zeit.de/wirtschaft/unternehmen/2026-10/lufthansa-tarifstreit-schlichtung-piloten-vereinigung-cockpit-bodo-ramelow-roland-koch",
-        "https://www.zeit.de/arbeit/2026-10/home-office-praesenzpflicht-arbeitsplatz-produktivitaet-work-life-balance"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -437,18 +404,18 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 18,
+      "article_count": 20,
       "sample_titles": [
+        "DER ANDERE BLICK - Es war ein Fehler, den ukrainischen Flüchtlingen in Deutschland Bürgergeld zu geben",
+        "DER ANDERE BLICK - Die Lohnforderung der deutschen Gewerkschaft IG-Metall ist überzogen",
         "«Ich bin heute wieder als Versager aufgewacht, aber ich werde nie aufgeben»: Ein Akademiker auf Jobsuche geht viral",
-        "Gewerkschaft eilt UBS-Chef Ermotti zu Hilfe: Wegzug könnte bis zu 12 000 Banker ihre Jobs kosten",
-        "Der Schokoladenkönig Ernst Tanner spricht erstmals über die Krise von Lindt: «Es tut mir weh, unsere Produkte im Ausverkauf zu sehen»",
-        "Selbständige statt Angestellte: Just Eat stellt das soziale Versprechen der Migros auf die Probe"
+        "Gewerkschaft eilt UBS-Chef Ermotti zu Hilfe: Wegzug könnte bis zu 12 000 Banker ihre Jobs kosten"
       ],
       "urls": [
+        "https://www.nzz.ch/der-andere-blick/es-war-ein-fehler-den-ukrainischen-fluechtlingen-in-deutschland-buergergeld-zu-geben-ld.10052770",
+        "https://www.nzz.ch/der-andere-blick/die-lohnforderung-der-deutschen-gewerkschaft-ig-metall-ist-ueberzogen-ld.10052235",
         "https://www.nzz.ch/panorama/akademiker-ohne-job-oivi-redet-geht-auf-social-media-viral-ld.10046864",
-        "https://www.nzz.ch/wirtschaft/gewerkschaft-eilt-ubs-chef-ermotti-zu-hilfe-wegzug-koennte-bis-zu-12-000-banker-ihre-jobs-kosten-ld.10040118",
-        "https://www.nzz.ch/wirtschaft/der-schokoladenkoenig-ernst-tanner-spricht-erstmals-ueber-die-krise-von-lindt-es-tut-mir-weh-unsere-produkte-im-ausverkauf-zu-sehen-ld.10040266",
-        "https://www.nzz.ch/wirtschaft/selbstaendige-statt-angestellte-just-eat-stellt-das-soziale-versprechen-der-migros-auf-die-probe-ld.10042272"
+        "https://www.nzz.ch/wirtschaft/gewerkschaft-eilt-ubs-chef-ermotti-zu-hilfe-wegzug-koennte-bis-zu-12-000-banker-ihre-jobs-kosten-ld.10040118"
       ],
       "dominant_emotion": "amusement",
       "top_emotions": [
@@ -466,22 +433,55 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 18,
+      "sample_titles": [
+        "Gewerkschaft der Polizei: Polizeigewerkschaft warnt vor veränderter Arbeit unter AfD-Regierung",
+        "Zugunglück in Spanien: Spaniens Verkehrsminister schließt einen Rücktritt aus",
+        "Robotik in Südkorea: Dieser Kollege wird nie krank, nimmt keinen Urlaub, streikt nie",
+        "Lufthansa: Schlichtung bei Lufthansa und Pilotengewerkschaft endet ohne Einigung"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/deutschland/2026-11/gewerkschaft-polizei-afd-sachsen-anhalt-jochen-kopelke",
+        "https://www.zeit.de/politik/ausland/2026-10/zugunglueck-spanien-oscar-puente-adif-gewerkschaften-ruecktritt",
+        "https://www.zeit.de/2026/46/robotik-suedkorea-job-verlust-gewerkschaften-hyundai",
+        "https://www.zeit.de/wirtschaft/unternehmen/2026-10/lufthansa-tarifstreit-schlichtung-piloten-vereinigung-cockpit-bodo-ramelow-roland-koch"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
       "article_count": 17,
       "sample_titles": [
+        "Wachstum der Angst Wird der Irankrieg für Trump zum Wählerschreck?",
         "Wahlen und Generalstreik Spanien: Vox-Partei bekommt Konkurrenz von rechts",
         "Einwanderung in die Sozialsysteme Über zwei Drittel der Rumänen in Hagen leben von Grundsicherung",
-        "Polizeigewerkschafter Heiko Teggatz „Gruselige Linksextremisten oder Islamisten brauchen ohnehin keine Maske“",
-        "Aufrufe in sozialen Medien Polizeigewerkschaft warnt vor „Krawallmigranten“ bei Schülerprotesten"
+        "Polizeigewerkschafter Heiko Teggatz „Gruselige Linksextremisten oder Islamisten brauchen ohnehin keine Maske“"
       ],
       "urls": [
+        "https://jungefreiheit.de/wirtschaft/2026/wird-der-irankrieg-fuer-trump-zum-waehlerschreck/",
         "https://jungefreiheit.de/politik/ausland/2026/spanien-vox-partei-bekommt-konkurrenz-von-rechts/",
         "https://jungefreiheit.de/politik/deutschland/2026/ueber-zwei-drittel-der-rumaenen-in-hagen-leben-von-grundsicherung/",
-        "https://jungefreiheit.de/politik/deutschland/2026/gruselige-linksextremisten-oder-islamisten-brauchen-ohnehin-keine-maske/",
-        "https://jungefreiheit.de/politik/deutschland/2026/polizeigewerkschaft-warnt-vor-krawallmigranten-bei-schuelerprotesten/"
+        "https://jungefreiheit.de/politik/deutschland/2026/gruselige-linksextremisten-oder-islamisten-brauchen-ohnehin-keine-maske/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -499,41 +499,36 @@
         }
       ]
     },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 3,
-      "sample_titles": [
-        "Dann macht doch euren Dreck alleine",
-        "Die Amnesie der Union: Als Remigration noch CDU-Politik war",
-        "Das Wolfsburger Sterben auf Raten"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/dann_macht_doch_euren_dreck_alleine",
-        "https://www.achgut.com/artikel/die_amnesie_der_union_als_remigration_noch_cdu_politik_war",
-        "https://www.achgut.com/artikel/das_wolfsburger_sterben_auf_raten_"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
     "dw": {
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 2,
+      "article_count": 3,
       "sample_titles": [
+        "Streik bei öffentlich-rechtlichen Medien in Tschechien",
         "Flydubai-Copilot galt schon früher als Sicherheitsrisiko",
         "Monarchisten gewinnen Parlamentswahl in Marokko"
       ],
       "urls": [
+        "https://www.dw.com/de/streik-bei-öffentlich-rechtlichen-medien-in-tschechien/a-79839565?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/flydubai-copilot-galt-schon-früher-als-sicherheitsrisiko/a-79529327?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/monarchisten-gewinnen-parlamentswahl-in-marokko/a-79414099?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "Dann macht doch euren Dreck alleine",
+        "Die Amnesie der Union: Als Remigration noch CDU-Politik war"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/dann_macht_doch_euren_dreck_alleine",
+        "https://www.achgut.com/artikel/die_amnesie_der_union_als_remigration_noch_cdu_politik_war"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -555,23 +550,23 @@
   },
   "bias_distribution": {
     "right-conservative": 171,
-    "economic-liberal": 84,
-    "left-liberal": 155,
-    "neutral": 143,
-    "populist-mixed": 28,
-    "conservative-liberal": 124,
+    "economic-liberal": 81,
+    "conservative-liberal": 128,
+    "left-liberal": 147,
+    "neutral": 149,
+    "left": 50,
     "far-right": 45,
-    "left": 50
+    "populist-mixed": 29
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass der Fachkräftemangel und die fortschreitende Digitalisierung zentrale Treiber für strukturelle Veränderungen am Arbeitsmarkt sind und deshalb verstärkte Qualifizierungs‑ und Umschulungsprogramme gefordert werden, während gleichzeitig die Bedeutung des Mindestlohns als Instrument zur Sicherung von Existenz­minimum und zur Vermeidung von Lohndumping hervorgehoben wird; darüber hinaus besteht ein breiter Konsens darüber, dass die sinkende Tarifbindung die soziale Absicherung von Beschäftigten schwächt und daher politische Maßnahmen zur Stärkung von Kollektivverhandlungen und zur Erweiterung von Sozial‑ und Bürgergeld‑Leistungen als notwendig erachtet werden.",
-      "controversial_points": "Der Streit um den Mindestlohn spaltet liberale Wirtschaftskreise, die Abschreckung für Unternehmen befürchten, und linke Kräfte, die soziale Gerechtigkeit fordern. Tarifbindung wird als Schlüssel zur Lohnstabilität von Gewerkschaften gesehen, während Arbeitgeber auf Flexibilisierung und individuelle Verträge drängen. Fachkräftemangel löst Debatten über Einwanderung, Ausbildung und staatliche Förderprogramme aus, wobei Parteien unterschiedliche Prioritäten setzen. Digitalisierung und Plattformarbeit erzeugen Konflikte zwischen Schutzbedürftigen, die bessere Sozialabsicherung fordern, und Unternehmen, die Deregulierung bevorzugen."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird von allen politischen Lagern die aktuelle Welle von IG‑Metall‑Warnstreiks als konkretes Risiko für den Erhalt von Industrie‑ und Produktionsplätzen dargestellt, wodurch ein gemeinsamer Konsens entsteht, dass Arbeitskonflikte unmittelbar die Beschäftigungszahlen gefährden. Gleichzeitig betonen sämtliche Berichte den anhaltenden Fachkräftemangel in der Metall‑ und Technologiebranche und fordern verstärkte Qualifizierungs‑ und Weiterbildungsmaßnahmen sowie gezielte Zuwanderungsstrategien, um die Lücken zu schließen. Darüber hinaus wird in den Beiträgen einheitlich die Belastung des sozialen Sicherungssystems – etwa durch Diskussionen zu Bürgergeld, Hartz‑Reformen oder steigenden Sozialbeiträgen – hervorgehoben und die Notwendigkeit von Reformen zur Wahrung der Einkommenssicherheit im Kontext von Digitalisierung und flexiblen Arbeitsformen gefordert.",
+      "controversial_points": "Der Streit um den Mindestlohn spaltet Arbeitgeber, die höhere Kosten fürchten, und Gewerkschaften, die soziale Gerechtigkeit fordern. Tarifbindung wird zum politischen Frontkampf, weil Liberale Flexibilität betonen und linke Kräfte kollektive Macht stärken wollen. Die Digitalisierung erzeugt Spannungen zwischen Befürwortern von Plattformarbeit, die Innovation versprechen, und Kritikern, die prekäre Beschäftigung befürchten. Fachkräftemangel führt zu Debatten über Zuwanderung, wobei konservative Stimmen nationale Identität schützen wollen und linke Gruppen offene Arbeitsmarktpolitik fordern."
     },
     "en": {
-      "shared_perspectives": "German media, from right‑conservative to left‑liberal outlets, uniformly portray the IG Metall midnight strikes as a pivotal labour confrontation that threatens production in key industries and underscores the growing friction between unions and employers. At the same time, reports across the political spectrum agree that the statutory minimum wage now yields higher net earnings for low‑paid workers than the basic security benefits, signalling a consensus on its role in improving household income. Finally, there is a cross‑party consensus that Germany faces an acute skills shortage driven by automation and digitalisation, prompting widespread calls for expanded vocational training and systematic reskilling programmes.",
-      "controversial_points": "The core conflict pits trade‑union collectivism against market‑oriented deregulation. A second tension divides welfare expansion, such as higher minimum wage, from fiscal conservatism demanding cost containment. Digitalization and platform work create a clash between productivity gains and fears of precarious employment. Generational divides surface as younger workers demand flexible home‑office policies while older unions protect traditional labor protections."
+      "shared_perspectives": "Across the spectrum German outlets agree that the wave of warning strikes and collective‑bargaining disputes in the metal and automotive sectors threatens a sizable share of industrial jobs and reflects a deepening skills shortage that demands intensified vocational training and reskilling programmes. They also converge on the assessment that rising wage claims and expanding social‑security contributions are squeezing company finances, prompting calls for a calibrated reform of the minimum‑wage and basic‑income mechanisms to preserve competitiveness while safeguarding workers.",
+      "controversial_points": "The core conflict pits unions demanding higher wages and collective bargaining against employers and liberals promoting flexibility and cost control. Media frames automation as a threat to jobs for conservatives, while left‑leaning outlets stress reskilling and social safety nets. The debate over basic income and citizen benefits splits parties along welfare‑state versus market‑oriented ideologies. Platform work intensifies tension between calls for stronger works councils and employer arguments for deregulation and gig‑flexibility."
     }
   },
-  "cached_at": "2026-11-01T11:30:22.256258"
+  "cached_at": "2026-11-04T12:27:17.746821"
 }
