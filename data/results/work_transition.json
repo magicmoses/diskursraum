@@ -8,7 +8,7 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 123,
+      "article_count": 122,
       "sample_titles": [
         "\"Wo finde ich jetzt noch Arbeit?\" Enttäuschung und Frust bei Schaeffler in Morbach",
         "Keine Streiks auf Condor-Flügen - für mindestens zwei Jahre",
@@ -43,16 +43,16 @@
       "bias": "conservative-liberal",
       "article_count": 104,
       "sample_titles": [
+        "Kolumne „Mein UrteiL“: Als Geschäftsführer abberufen, als Arbeitnehmer geschützt?",
         "Frankreich: Die Massen protestieren weiter",
         "Streiktag in Frankreich: Gewerkschaften mobilisieren Hunderttausende",
-        "Hörspiel „Im Office“: Guck dir die Arme doch mal an!",
-        "Wirtschaftspodcast: Was eine Fabrikschließung über die deutsche Industrie verrät"
+        "Hörspiel „Im Office“: Guck dir die Arme doch mal an!"
       ],
       "urls": [
+        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/arbeitsrecht-wann-geschasste-geschaeftsfuehrer-kuendigungsschutz-geniessen-accg-201653221.html",
         "https://www.faz.net/aktuell/politik/ausland/massenproteste-in-frankreich-regierung-sucht-ausweg-ohne-geld-201656654.html",
         "https://www.faz.net/video/hunderttausende-bei-generalstreik-in-frankreich-201655697.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/hoerspiel-im-office-von-elisabeth-pape-bei-dlf-kultur-201636130.html",
-        "https://www.faz.net/podcasts/wirtschaftspodcast/was-eine-fabrikschliessung-ueber-die-deutsche-industrie-verraet-201652368.html"
+        "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/hoerspiel-im-office-von-elisabeth-pape-bei-dlf-kultur-201636130.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -65,7 +65,7 @@
           "count": 5
         },
         {
-          "emotion": "amusement",
+          "emotion": "disapproval",
           "count": 2
         }
       ]
@@ -173,7 +173,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 54,
+      "article_count": 53,
       "sample_titles": [
         "Generalstreik in Frankreich: Sie hoffen, dass das nur der Anfang ist",
         "Erster Migra-Streik in Halle: Täglich angefeindet",
@@ -199,39 +199,6 @@
         {
           "emotion": "anger",
           "count": 3
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 52,
-      "sample_titles": [
-        "Metallindustrie: IG Metall ruft Zehntausende zu Warnstreik auf",
-        "Erneute Demonstrationen: „Die Wut ist groß“: Proteste für höhere Löhne in Frankreich",
-        "Tausende demonstrieren gegen Rundfunkreform von Tschechiens rechter Regierung",
-        "Stahlarbeiter: Gewerkschaft fordert fünf Prozent mehr Lohn in Stahlbranche"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/bayern/metallindustrie--ig-metall-ruft-zehntausende-zu-warnstreik-auf-38507300.html",
-        "https://www.stern.de/politik/ausland/erneute-demonstrationen---die-wut-ist-gross---proteste-fuer-hoehere-loehne-in-frankreich-38506004.html",
-        "https://www.stern.de/news/tausende-demonstrieren-gegen-rundfunkreform-von-tschechiens-rechter-regierung-38496652.html",
-        "https://www.stern.de/wirtschaft/news/stahlarbeiter--gewerkschaft-fordert-fuenf-prozent-mehr-lohn-in-stahlbranche-38490920.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 3
-        },
-        {
-          "emotion": "confusion",
-          "count": 3
-        },
-        {
-          "emotion": "anger",
-          "count": 2
         }
       ]
     },
@@ -268,6 +235,72 @@
         }
       ]
     },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 51,
+      "sample_titles": [
+        "Metallindustrie: IG Metall ruft Zehntausende zu Warnstreik auf",
+        "Erneute Demonstrationen: „Die Wut ist groß“: Proteste für höhere Löhne in Frankreich",
+        "Tausende demonstrieren gegen Rundfunkreform von Tschechiens rechter Regierung",
+        "Stahlarbeiter: Gewerkschaft fordert fünf Prozent mehr Lohn in Stahlbranche"
+      ],
+      "urls": [
+        "https://www.stern.de/gesellschaft/regional/bayern/metallindustrie--ig-metall-ruft-zehntausende-zu-warnstreik-auf-38507300.html",
+        "https://www.stern.de/politik/ausland/erneute-demonstrationen---die-wut-ist-gross---proteste-fuer-hoehere-loehne-in-frankreich-38506004.html",
+        "https://www.stern.de/news/tausende-demonstrieren-gegen-rundfunkreform-von-tschechiens-rechter-regierung-38496652.html",
+        "https://www.stern.de/wirtschaft/news/stahlarbeiter--gewerkschaft-fordert-fuenf-prozent-mehr-lohn-in-stahlbranche-38490920.html"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "anger",
+          "count": 2
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 32,
+      "sample_titles": [
+        "Streit um Randale-Migranten - Polizei-Gewerkschaft geht auf  Pistorius los",
+        "Schon 413.000 Metaller auf der Straße - Arbeitgeber-Chefin: „Warnstreiks kosten Millionen“",
+        "Milliarden-Versprechen gebrochen - Jetzt wird die neue Stütze doch teurer",
+        "Läden bleiben dicht - Halles Migranten setzen Zeichen gegen Ausgrenzung"
+      ],
+      "urls": [
+        "https://www.bild.de/politik/inland/boris-pistorius-gdp-und-csu-greifen-ihn-im-krawall-streit-an-6aef2663bd9dc1882a99ed2f",
+        "https://www.bild.de/politik/inland/schon-413-000-metaller-auf-der-strasse-chefin-der-arbeitgeber-warnt-warnstreiks-kosten-millionen-6aedecf2a389bc337cfc833c",
+        "https://www.bild.de/politik/inland/grundsicherung-250-millionen-euro-teurer-statt-milliardenersparnis-6aed7e2a1d9d38d6d601ae0d",
+        "https://www.bild.de/regional/sachsen-anhalt/aus-protest-laeden-dicht-so-saehe-es-in-halles-laeden-ohne-migrantische-haendler-aus-6aec3408eca9cecdd5d475d4"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "excitement",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        }
+      ]
+    },
     "zdf": {
       "source_id": "zdf",
       "source": "ZDF heute",
@@ -298,39 +331,6 @@
         {
           "emotion": "amusement",
           "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 30,
-      "sample_titles": [
-        "Milliarden-Versprechen gebrochen - Jetzt wird die neue Stütze doch teurer",
-        "Läden bleiben dicht - Halles Migranten setzen Zeichen gegen Ausgrenzung",
-        "BILD fragt CDU/CSU-Fraktionschef - Müssen die Bürger 2027 den Gürtel enger schnallen? „Ja!“",
-        "Ex-Fußballer im Steckbrief - Diese Stationen prägten Eike Immels Laufbahn"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/inland/grundsicherung-250-millionen-euro-teurer-statt-milliardenersparnis-6aed7e2a1d9d38d6d601ae0d",
-        "https://www.bild.de/regional/sachsen-anhalt/aus-protest-laeden-dicht-so-saehe-es-in-halles-laeden-ohne-migrantische-haendler-aus-6aec3408eca9cecdd5d475d4",
-        "https://www.bild.de/politik/inland/thorsten-frei-buerger-muessen-guertel-enger-schnallen-6aeb5624eca9cecdd5d46b48",
-        "https://www.bild.de/unterhaltung/stars-und-leute/eike-immel-im-steckbrief-vom-ex-torwart-zur-reality-ikone-678a3b336f10d97bb391c6c6"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 3
-        },
-        {
-          "emotion": "excitement",
-          "count": 3
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
         }
       ]
     },
@@ -499,6 +499,26 @@
         }
       ]
     },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
+        "Streik bei öffentlich-rechtlichen Medien in Tschechien",
+        "Flydubai-Copilot galt schon früher als Sicherheitsrisiko",
+        "Monarchisten gewinnen Parlamentswahl in Marokko"
+      ],
+      "urls": [
+        "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-südafrika/a-79884765?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/streik-bei-öffentlich-rechtlichen-medien-in-tschechien/a-79839565?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/flydubai-copilot-galt-schon-früher-als-sicherheitsrisiko/a-79529327?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/monarchisten-gewinnen-parlamentswahl-in-marokko/a-79414099?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
@@ -518,45 +538,27 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "Streik bei öffentlich-rechtlichen Medien in Tschechien",
-        "Flydubai-Copilot galt schon früher als Sicherheitsrisiko",
-        "Monarchisten gewinnen Parlamentswahl in Marokko"
-      ],
-      "urls": [
-        "https://www.dw.com/de/streik-bei-öffentlich-rechtlichen-medien-in-tschechien/a-79839565?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/flydubai-copilot-galt-schon-früher-als-sicherheitsrisiko/a-79529327?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/monarchisten-gewinnen-parlamentswahl-in-marokko/a-79414099?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "right-conservative": 170,
-    "left": 54,
-    "economic-liberal": 74,
+    "populist-mixed": 32,
+    "conservative-liberal": 126,
     "neutral": 157,
+    "right-conservative": 170,
+    "left": 53,
+    "economic-liberal": 74,
     "far-right": 45,
-    "populist-mixed": 30,
-    "left-liberal": 144,
-    "conservative-liberal": 126
+    "left-liberal": 143
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird über Parteigrenzen hinweg einheitlich betont, dass der Fachkräftemangel ein zentrales Problem bleibt und deshalb verstärkte Qualifizierungs‑ und Umschulungsprogramme gefordert werden, weil die fortschreitende Automatisierung und Digitalisierung zahlreiche traditionelle Berufsbilder verändern. Gleichzeitig besteht ein breiter Konsens darüber, dass die sinkende Tarifbindung die soziale Absicherung von Beschäftigten schwächt und daher eine stärkere Bindung an Tarifverträge sowie eine Ausweitung von Mindestlöhnen als notwendige Gegenmaßnahmen angesehen werden. Darüber hinaus wird von allen Seiten anerkannt, dass Instrumente wie Kurzarbeit und das Bürgergeld während konjunktureller Abschwünge wichtige Pufferfunktionen übernehmen und deshalb langfristig in die Arbeitsmarktpolitik integriert werden sollten.",
-      "controversial_points": "Der Streit um den Mindestlohn spaltet Arbeitgeberverbände, die niedrige Kosten fordern, und Gewerkschaften, die soziale Gerechtigkeit betonen. Tarifbindung wird als Wettbewerbsnachteil von konservativen Medien dargestellt, während linke Titel sie als Schutz vor Prekarisierung preisen. Die Debatte über Plattformarbeit verbindet Kritik an Scheinselbstständigkeit mit liberalen Forderungen nach Flexibilisierung und Steuererleichterungen. Fachkräftemangel wird von Wirtschaftskreisen als Innovationsbremse gesehen, während Sozialverbände ihn als Folge von unzureichender Bildungspolitik interpretieren."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber beobachtet, dass der Fachkräftemangel und die fortschreitende Digitalisierung zentrale Risiken für die Wettbewerbsfähigkeit des Landes darstellen und deshalb verstärkte Qualifizierungs‑ und Umschulungsprogramme gefordert werden, wobei sowohl konservative als auch linke Medien die Notwendigkeit staatlicher Förderungen betonen. Gleichzeitig stimmen die meisten Beiträge überein, dass der Mindestlohn und die Tarifbindung als wichtige Instrumente zur Sicherung von Existenz­sicherheit und sozialer Gerechtigkeit gelten, wobei sie gleichzeitig vor den finanziellen Belastungen für kleine und mittlere Unternehmen warnen. Schließlich wird in nahezu allen Darstellungen die Kurzarbeit als bewährtes Instrument zur Beschäftigungssicherung in konjunkturellen Abschwüngen hervorgehoben und gleichzeitig die Notwendigkeit einer langfristigen Reform des sozialen Sicherungssystems gefordert, um die Folgen von Automatisierung und Plattformarbeit abzufedern.",
+      "controversial_points": "Der Streit um den Mindestlohn spaltet Arbeitgeberverbände, die höhere Kosten fürchten, und Gewerkschaften, die soziale Gerechtigkeit fordern. Die Tarifbindung wird von Liberalen als Wettbewerbsnachteil kritisiert, während linke Medien sie als Schutz vor Prekarisierung darstellen. Fachkräftemangel löst Debatten über Zuwanderungspolitik aus, wobei rechte Stimmen Migration als Belastung sehen und linke Stimmen Integration betonen. Digitalisierung und Plattformarbeit erzeugen Konflikte zwischen Forderungen nach stärkerer Regulierung zum Schutz von Selbstständigen und Argumenten für Flexibilität und Innovation."
     },
     "en": {
-      "shared_perspectives": "Across the political spectrum German media agree that a pronounced skills shortage in technical and industrial sectors is undermining competitiveness and that expanded vocational training and systematic reskilling programmes are urgently needed. They also uniformly report an escalation of collective‑bargaining activity, especially in the metal and electrical industries, portraying the wave of warning strikes as evidence that current wage structures and social‑security contributions are being tested. Finally, despite divergent framing, there is consensus that the acceleration of automation and platform work is reshaping employment conditions and that policy must balance productivity gains with safeguards such as a strengthened social safety net or adjusted minimum‑wage levels.",
-      "controversial_points": "The clash between market liberalism and collective bargaining defines the debate over minimum wage and wage floors. Unions demand stronger works councils while employers push for flexible digital contracts and platform work. Social security reforms pit basic income advocates against fiscal conservatives fearing budget deficits. Automation intensifies the skills shortage conflict, forcing education policy to choose between upskilling and cost‑cutting."
+      "shared_perspectives": "Across the spectrum German outlets agree that the wave of sectoral strikes and the pressure on the statutory minimum wage signal a broad consensus that collective bargaining must be reinforced to protect living standards. At the same time there is a shared recognition that the acute skills shortage and accelerating automation require a coordinated national reskilling programme and stronger state involvement in lifelong learning. Finally, despite divergent fiscal positions, most reports converge on the need to adapt social‑security instruments, including debates on a basic income or expanded unemployment benefits, to safeguard workers in the growing gig and home‑office economy.",
+      "controversial_points": "The media split between pro‑business liberalism demanding flexibility and unions defending collective bargaining and wage floors. A clash emerges over financing social security, pitting tax‑averse conservatives against advocates of expanded benefits. Digitalization and platform work create tension between calls for deregulation and demands for worker protection and data rights. The debate over a basic income and minimum‑wage levels reflects deeper ideological divide between solidarity‑oriented left and market‑driven right."
     }
   },
-  "cached_at": "2026-11-07T11:28:16.837344"
+  "cached_at": "2026-11-08T11:28:01.962455"
 }

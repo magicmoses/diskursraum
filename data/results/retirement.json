@@ -1,14 +1,14 @@
 {
   "topic_id": "retirement",
   "topic_label": "Rente & Altersvorsorge",
-  "article_count": 557,
-  "candidate_count": 557,
+  "article_count": 552,
+  "candidate_count": 552,
   "outlets": {
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 89,
+      "article_count": 87,
       "sample_titles": [
         "Hohe Ausgaben: Bundesagentur für Arbeit braucht 5 Milliarden Euro Notkredit",
         "Renten betroffen: Bankenkrise zwingt Paraguays Präsidenten zum Rücktritt",
@@ -74,7 +74,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 50,
+      "article_count": 49,
       "sample_titles": [
         "Mobilfunk: Telekom-Chef rechnet mit Musk als Netzbetreiber in den USA – Vorsprung von 200 Milliarden Dollar",
         "Telekommunikation: „Wettbewerbsumfeld hat sich verschärft“: Höttges rechnet mit Musk als Netzbetreiber in den USA",
@@ -173,7 +173,7 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 41,
+      "article_count": 39,
       "sample_titles": [
         "Klare Dementis klingen anders - Horten Schufa-Konkurrenten auch Millionen Altdaten?",
         "Rechner für 50 Großstädte - So stark frisst das Leben Ihre Rente auf",
@@ -197,8 +197,8 @@
           "count": 2
         },
         {
-          "emotion": "fear",
-          "count": 2
+          "emotion": "caring",
+          "count": 1
         }
       ]
     },
@@ -433,11 +433,36 @@
         }
       ]
     },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 10,
+      "sample_titles": [
+        "„Valor Voice“ Europa aus dem rechten Blickwinkel",
+        "Zweifelhafte Rechenregel Soll Deutschland die Rente an die Inflation koppeln?",
+        "Private Altersvorsorge Jetzt sollte auch noch die Zehn-Jahres-Frist für steuerfreie Immobilienverkäufe fallen",
+        "Migrationspolitik Fratzscher ignoriert Milliardenkosten beim Bürgergeld und feiert Migranten als Rentenretter"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/kultur/medien/2026/europa-auf-einen-blick/",
+        "https://jungefreiheit.de/debatte/kommentar/2026/soll-deutschland-die-rente-an-die-inflation-koppeln/",
+        "https://jungefreiheit.de/politik/deutschland/2026/jetzt-sollte-auch-noch-die-zehn-jahres-frist-fuer-steuerfreie-immobilienverkaeufe-fallen/",
+        "https://jungefreiheit.de/politik/deutschland/2026/fratzscher-ignoriert-milliardenkosten-beim-buergergeld-und-feiert-migranten-als-rentenretter/"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 11,
+      "article_count": 10,
       "sample_titles": [
         "Renten: Seit 70 Jahren über den Tisch gezogen",
         "Sozialbeiträge steigen bis 2035 auf mehr als 49 Prozent – trotz Reformen",
@@ -454,35 +479,10 @@
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 2
+          "count": 1
         },
         {
           "emotion": "annoyance",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 9,
-      "sample_titles": [
-        "Zweifelhafte Rechenregel Soll Deutschland die Rente an die Inflation koppeln?",
-        "Private Altersvorsorge Jetzt sollte auch noch die Zehn-Jahres-Frist für steuerfreie Immobilienverkäufe fallen",
-        "Migrationspolitik Fratzscher ignoriert Milliardenkosten beim Bürgergeld und feiert Migranten als Rentenretter",
-        "„Braune Scheiße zu brauner Scheiße“ Linksextreme kippen bundesweit Pferdemist vor CDU-Büros ab"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/debatte/kommentar/2026/soll-deutschland-die-rente-an-die-inflation-koppeln/",
-        "https://jungefreiheit.de/politik/deutschland/2026/jetzt-sollte-auch-noch-die-zehn-jahres-frist-fuer-steuerfreie-immobilienverkaeufe-fallen/",
-        "https://jungefreiheit.de/politik/deutschland/2026/fratzscher-ignoriert-milliardenkosten-beim-buergergeld-und-feiert-migranten-als-rentenretter/",
-        "https://jungefreiheit.de/politik/deutschland/2026/linksextreme-kippen-bundesweit-pferdemist-vor-cdu-bueros-ab/"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -517,24 +517,24 @@
     }
   },
   "bias_distribution": {
-    "right-conservative": 123,
-    "conservative-liberal": 116,
-    "left-liberal": 114,
-    "economic-liberal": 50,
-    "left": 21,
     "far-right": 21,
+    "right-conservative": 123,
+    "conservative-liberal": 114,
+    "left-liberal": 114,
+    "economic-liberal": 49,
+    "left": 21,
     "neutral": 71,
-    "populist-mixed": 41
+    "populist-mixed": 39
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im gesamten deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die gesetzliche Rente ab 2027 voraussichtlich um rund vier Prozent steigen wird, weil die demografische Entwicklung die Finanzierbarkeit des Umlageverfahrens zunehmend belastet. Gleichzeitig besteht ein breiter Konsens darüber, dass die geplante kapitalgedeckte Zusatzrente – die sogenannte Aktienrente – in den kommenden Jahren verzögert wird, weil die aktuelle Wirtschaftslage und die Unsicherheit über die langfristige Rendite die Umsetzung erschweren. Diese beiden Punkte werden von konservativen, liberalen und linken Medien gleichermaßen als zentrale Handlungsfelder für die Generationengerechtigkeit und die Stabilisierung des Rentensystems dargestellt.",
-      "controversial_points": "Synthese nicht verfügbar."
+      "shared_perspectives": "Synthese nicht verfügbar.",
+      "controversial_points": "Das Rentenalter wird zum Kernkonflikt zwischen Generationengerechtigkeit und Finanzierbarkeit der gesetzlichen Versicherung. Konservative Medien betonen Beitragsstabilität, linke Stimmen fordern stärkere Umverteilung und niedrigere Einstiegshürden. Kapitalgedeckte Modelle spalten Befürworter der Marktliberalisierung von Kritikern, die Altersarmut befürchten. Demografischer Wandel verschärft die Debatte, weil sinkende Beitragszahler die Rentenversicherung langfristig belasten."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German outlets agree that the statutory pension is set to rise by roughly four percent in 2027, signalling a modest baseline adjustment rather than a major boost. They also uniformly stress that demographic ageing makes the current pay‑as‑you‑go system unsustainable, creating a consensus that some form of capital‑based supplement—whether Riester, private funds or a new capital pension—must be expanded while early retirement at 63 should be linked to reduced benefits to preserve intergenerational equity. Finally, despite divergent political framing, there is a shared narrative that any reform must balance fiscal responsibility with protecting retirees from poverty, limiting social contribution rates to avoid an excessive burden on the working generation.",
-      "controversial_points": "The debate pits intergenerational equity against fiscal sustainability, with younger voters fearing higher contributions. Conservatives champion raising the retirement age to 70, arguing demographic pressure, while leftist parties demand stronger benefit guarantees. Market‑oriented media push for capital‑funded Riester alternatives, framing public pensions as outdated, whereas unions defend solidarity‑based schemes. Far‑right outlets exploit pension fears to attack immigration and EU policies, linking social spending to national decline."
+      "shared_perspectives": "German media, from far‑right to centrist outlets, uniformly report that the statutory pension will be adjusted upward by roughly four percent in 2027, signalling a broad consensus that the next legal increase is imminent and sizable. At the same time, all editorial strands stress that demographic ageing is pushing the system toward a mixed model in which capital‑funded components such as Riester or private ETFs become indispensable and early retirement at 63 must be linked to lower benefit levels to preserve intergenerational equity. Finally, there is a shared alarm that contribution rates are projected to climb toward or beyond 49 % of wages by 2035, a figure repeatedly cited as a warning sign of unsustainable financing.",
+      "controversial_points": "The debate pits intergenerational solidarity against individual capital accumulation. Conservatives defend a stable statutory pension funded by high contributions. Liberals push for market‑based private pensions and lower retirement ages. The far right frames reforms as elite betrayal and calls for drastic cuts."
     }
   },
-  "cached_at": "2026-11-07T11:20:13.886539"
+  "cached_at": "2026-11-08T11:19:56.094069"
 }

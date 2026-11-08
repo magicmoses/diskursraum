@@ -10,16 +10,16 @@
       "bias": "neutral",
       "article_count": 119,
       "sample_titles": [
-        "Vom Schicksalsschlag zu Schabernack: Klinikclown-Familie Hartmann bringt schwerkranken Kindern Leichtigkeit",
-        "Frankfurt: Beschlossene Kita-Zulage noch nicht ausgezahlt",
-        "Auto brennt auf Kita-Gelände in Wolfsburg aus: Polizei sucht Zeugen",
-        "Wohnungsbrand in Mehrfamilienhaus: Sieben Personen verletzt"
+        "Kaum Geld aus Sondervermögen in Bildung geflossen",
+        "Petersberg: Hoher Schaden und Verletzte bei Wohnungsbrand",
+        "Kind mit Magersucht: Was das für Eltern bedeutet",
+        "Vom Schicksalsschlag zu Schabernack: Klinikclown-Familie Hartmann bringt schwerkranken Kindern Leichtigkeit"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/familie-hartmann-seit-ueber-25-jahren-klinikclowns-fuer-schwer-kranke-kinder-100.html",
-        "https://www.hessenschau.de/gesellschaft/frankfurt-beschlossene-kita-zulage-noch-nicht-ausgezahlt-v1,zulagen-kita-frankfurt-100.html",
-        "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/auto-brennt-auf-kita-gelaende-in-wolfsburg-aus-polizei-sucht-zeugen,aktuellbraunschweig-4224.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/wohnungsbrand-in-mehrfamlienhaus-sieben-personen-verletzt-100.html"
+        "https://www.tagesschau.de/inland/innenpolitik/sondervermoegen-bildungsinfrastruktur-100.html",
+        "https://www.hessenschau.de/panorama/petersberg-hoher-schaden-und-verletzte-bei-wohnungsbrand-v2,brand-petersberg-verletzte-102.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/eltern-von-kindern-mit-anorexie-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/familie-hartmann-seit-ueber-25-jahren-klinikclowns-fuer-schwer-kranke-kinder-100.html"
       ],
       "dominant_emotion": "grief",
       "top_emotions": [
@@ -37,22 +37,55 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 102,
+      "sample_titles": [
+        "Antonio Tajani: Italiens Außenminister prangert Hacker-Angriffe gegen sich an",
+        "VW Tiguan 2.0 TDI 4motion: Ein Freund der Familie",
+        "Krawalle in Frankfurt: „Keine Ahnung, warum man das immer auf die Herkunft schieben muss“",
+        "Hauptbahnhof Frankfurt: Todesschütze bestreitet Blutrache"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/ausland/antonio-tajani-aussenminister-von-italien-ist-opfer-von-hacker-angriffen-201661958.html",
+        "https://www.faz.net/aktuell/technik-motor/motor/vw-tiguan-2-0-tdi-im-test-starkes-familien-suv-accg-201622948.html",
+        "https://www.faz.net/aktuell/gesellschaft/menschen/zeugen-der-halloween-krawalle-in-frankfurt-jugendliche-berichten-von-der-eskalation-accg-201654411.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/mord-im-hauptbahnhof-frankfurt-schuetze-bestreitet-blutrache-201653023.html"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 8
+        },
+        {
+          "emotion": "confusion",
+          "count": 5
+        },
+        {
+          "emotion": "admiration",
+          "count": 5
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 100,
+      "article_count": 99,
       "sample_titles": [
+        "\"Schön zum Italiener\": Merz schwänzt Weltklimagipfel für Geburtstagsessen",
+        "Tajani spricht von \"Bedrohungen\": Persönliche Daten von Italiens Außenminister landen im Darknet",
         "27.000 Männer untersucht: Studie: Schlechtere Spermaqualität bei Trägern enger Unterhosen",
-        "Haftunterbrechung verlängert: Krebskranker Alfons Schuhbeck bleibt weiterhin auf freiem Fuß",
-        "Plan für Millionencoup in Bochum: Gericht verurteilt \"Ausbrecherkönig\" zu 13 Jahren Haft",
-        "Familie vermietet an Konkurrenz: Peek und Cloppenburg droht der Verlust seiner besten Adressen"
+        "Haftunterbrechung verlängert: Krebskranker Alfons Schuhbeck bleibt weiterhin auf freiem Fuß"
       ],
       "urls": [
+        "https://www.n-tv.de/politik/Merz-schwaenzt-Weltklimagipfel-fuer-Geburtstagsessen-id31507557.html",
+        "https://www.n-tv.de/politik/Persoenliche-Daten-von-Italiens-Aussenminister-landen-im-Darknet-id31506816.html",
         "https://www.n-tv.de/wissen/Studie-Schlechtere-Spermaqualitaet-bei-Traegern-enger-Unterhosen-id31504001.html",
-        "https://www.n-tv.de/leute/Krebskranker-Alfons-Schuhbeck-bleibt-weiterhin-auf-freiem-Fuss-id31503137.html",
-        "https://www.n-tv.de/panorama/Gericht-verurteilt-Ausbrecherkoenig-zu-13-Jahren-Haft-id31500730.html",
-        "https://www.n-tv.de/wirtschaft/Peek-und-Cloppenburg-droht-der-Verlust-seiner-besten-Adressen-id31498006.html"
+        "https://www.n-tv.de/leute/Krebskranker-Alfons-Schuhbeck-bleibt-weiterhin-auf-freiem-Fuss-id31503137.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -70,55 +103,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 100,
-      "sample_titles": [
-        "Hauptbahnhof Frankfurt: Todesschütze bestreitet Blutrache",
-        "Immobilien vor Gericht: Aufgepasst bei der Beauftragung des Maklers",
-        "Nach den US-Midterms: Trumps Macht schwindet, seine Zölle bleiben",
-        "Schutz der Zahler: Die Koalition bricht ein zentrales Renten-Versprechen"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/mord-im-hauptbahnhof-frankfurt-schuetze-bestreitet-blutrache-201653023.html",
-        "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/maklerprovision-bundesgerichtshof-staerkt-rechte-des-maklers-accg-201313609.html",
-        "https://www.faz.net/aktuell/wirtschaft/donald-trump-nach-us-midterms-2026-seine-macht-schwindet-seine-zoelle-bleiben-201651531.html",
-        "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/koalition-bricht-rentenversprechen-beitragszahler-zahlen-die-zeche-201651116.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 8
-        },
-        {
-          "emotion": "admiration",
-          "count": 5
-        },
-        {
-          "emotion": "sadness",
-          "count": 5
-        }
-      ]
-    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 81,
+      "article_count": 80,
       "sample_titles": [
+        "Weil sie 1147,70 Euro Steuern nicht zahlt - Haus zwangsversteigert! Familie lebt auf Gehweg",
         "Wieder offen, dann das Drama - Jaguar rast durch Schaufenster von Familienbetrieb",
         "Er war nach einem Foul verstorben - Familie von Spanien-Profi (†30) meldet sich",
-        "Wieder offen, dann das Drama - Jaguar rast durch Schaufenster von Familienbetrieb",
-        "Empfänger fast verdreifacht! - Deutsches Kindergeld boomt im Ausland"
+        "Wieder offen, dann das Drama - Jaguar rast durch Schaufenster von Familienbetrieb"
       ],
       "urls": [
+        "https://www.bild.de/regional/dresden/weil-sie-1147-70-euro-steuern-nicht-zahlt-haus-zwangsversteigert-familie-lebt-auf-gehweg-6aec6226eca9cecdd5d47bfb",
         "https://www.bild.de/news/erst-neulich-wiedereroeffnet-jaguar-rast-durch-schaufenster-von-familienbetrieb-6aecbbe793d31cdb1e6cef16",
         "https://www.bild.de/sport/fussball/fussball-familie-von-spanien-profi-miguel-30-meldet-sich-6aed723e47b5fce02f879b17",
-        "https://www.bild.de/news/wieder-offen-dann-das-drama-jaguar-rast-durch-schaufenster-von-familienbetrieb-6aecbbe793d31cdb1e6cef16",
-        "https://www.bild.de/politik/zahl-der-kinder-fast-verdreifacht-deutsches-kindergeld-boomt-im-ausland-6aeb20961a1d431301d46af8"
+        "https://www.bild.de/news/wieder-offen-dann-das-drama-jaguar-rast-durch-schaufenster-von-familienbetrieb-6aecbbe793d31cdb1e6cef16"
       ],
       "dominant_emotion": "amusement",
       "top_emotions": [
@@ -173,18 +173,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 74,
+      "article_count": 75,
       "sample_titles": [
-        "»Kolchose« von Emmanuel Carrère: Familiensaga über historische Umbrüche",
-        "Johann Lafer: Drei Rezepte für ein besonderes Familienessen am Sonntag",
-        "KNDS: Bund einigt sich mit Eigentümerfamilien auf Einstieg beim Panzerbauer",
-        "Apotheke schließt nach 206 Jahren: »Mir standen die Tränen in den Augen«"
+        "Italien: Außenminister Antonio Tajani prangert Hacker-Angriffe an",
+        "Ernährung im Familienalltag: Was tun, wenn das Kind nur Nudeln und Süßes essen will? – Podcast",
+        "Jacinda Ardern führte Neuseeland durch Krisen, jetzt lehrt sie Führung",
+        "»Kolchose« von Emmanuel Carrère: Familiensaga über historische Umbrüche"
       ],
       "urls": [
-        "https://www.spiegel.de/kultur/literatur/kolchose-von-emmanuel-carrere-familiensaga-ueber-historische-umbrueche-a-a84bebc9-445b-4c1e-85f9-9b6750c87468#ref=rss",
-        "https://www.spiegel.de/effilee/johann-lafer-drei-rezepte-fuer-ein-besonderes-familienessen-am-sonntag-a-68a99ff1-25c4-4ea6-9a35-f96aa3d36372#ref=rss",
-        "https://www.spiegel.de/wirtschaft/unternehmen/knds-bund-einigt-sich-mit-eigentuemerfamilien-auf-einstieg-beim-panzerbauer-a-4f279626-2f96-4d48-b788-4f204a0a4094#ref=rss",
-        "https://www.spiegel.de/kultur/apotheke-schliesst-nach-206-jahren-mir-standen-die-traenen-in-den-augen-a-e23c0a8c-862a-4ff3-bc02-27fe9764f583#ref=rss"
+        "https://www.spiegel.de/ausland/italien-aussenminister-antonio-tajani-prangert-hacker-angriffe-an-a-cb655674-9ea2-4f6f-abf3-9d8fd660cd71#ref=rss",
+        "https://www.spiegel.de/psychologie/ernaehrung-im-familienalltag-was-tun-wenn-das-kind-nur-nudeln-und-suesses-essen-will-podcast-a-eab7b4c8-a9c9-441e-b0c4-bf06e94e18e8#ref=rss",
+        "https://www.spiegel.de/ausland/jacinda-ardern-fuehrte-neuseeland-durch-krisen-jetzt-lehrt-sie-fuehrung-a-6df97f06-340b-40e8-b320-664e85b31af3#ref=rss",
+        "https://www.spiegel.de/kultur/literatur/kolchose-von-emmanuel-carrere-familiensaga-ueber-historische-umbrueche-a-a84bebc9-445b-4c1e-85f9-9b6750c87468#ref=rss"
       ],
       "dominant_emotion": "realization",
       "top_emotions": [
@@ -197,8 +197,8 @@
           "count": 4
         },
         {
-          "emotion": "admiration",
-          "count": 4
+          "emotion": "amusement",
+          "count": 3
         }
       ]
     },
@@ -206,18 +206,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 59,
+      "article_count": 60,
       "sample_titles": [
+        "Underbergs Kampf gegen das Vergessen – Das Endspiel einer Kultmarke",
+        "„Haben gesehen, nicht alle wollen diese liberale, friedliche Gesellschaft. Das war ein Kulturschock“",
         "Linken-Abgeordnete fordert Gen Z auf, sich „die Straße zu nehmen“ – Ministerin Prien hält dagegen",
-        "Jetzt holt der Nanny-Staat die Peitsche heraus",
-        "Selbsternannte „Freie Familie“ zahlt keine Steuern – und sitzt jetzt seit Monaten auf der Straße",
-        "Wirbel um weitere Linken-Abgeordnete - „Großes Hindernis in diesen Koalitionsverhandlungen“"
+        "Jetzt holt der Nanny-Staat die Peitsche heraus"
       ],
       "urls": [
+        "https://www.welt.de/wirtschaft/plus6ae5ee35f49d824606760c47/underbergs-kampf-gegen-das-vergessen-das-endspiel-einer-kultmarke.html",
+        "https://www.welt.de/videos/video6aee22e5d3b9284356de127e/musikergrillen-mit-westbam-haben-gesehen-nicht-alle-wollen-diese-liberale-friedliche-gesellschaft-das-war-ein-kulturschock.html",
         "https://www.welt.de/politik/deutschland/video6aedf6e5a389bc337cfc843b/jugendproteste-linken-abgeordnete-fordert-gen-z-auf-sich-die-strasse-zu-nehmen-ministerin-prien-haelt-dagegen.html",
-        "https://www.welt.de/debatte/plus6aed877a320931eb80f5baf1/sozialleistungen-jetzt-holt-der-nanny-staat-die-peitsche-heraus.html",
-        "https://www.welt.de/vermischtes/article6aed9d6da389bc337cfc7a85/dresden-selbsternannte-freie-familie-zahlt-keine-steuern-und-sitzt-jetzt-seit-monaten-auf-der-strasse.html",
-        "https://www.welt.de/politik/deutschland/video6aedaf57a389bc337cfc7c96/katharina-marg-wirbel-um-weitere-linken-abgeordnete-grosses-hindernis-in-diesen-koalitionsverhandlungen.html"
+        "https://www.welt.de/debatte/plus6aed877a320931eb80f5baf1/sozialleistungen-jetzt-holt-der-nanny-staat-die-peitsche-heraus.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -227,7 +227,7 @@
         },
         {
           "emotion": "admiration",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "grief",
@@ -272,7 +272,7 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 29,
+      "article_count": 27,
       "sample_titles": [
         "Einzelhandel: Peek und Cloppenburg muss drei Top-Häuser räumen – Familie Cloppenburg vermietet an Konkurrenten",
         "Pfeifer & Langen: Die süßen Jahre sind vorbei – Wie Chio-Chips und Ültje eine Zuckerdynastie durch die Krise retten",
@@ -301,7 +301,7 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 28,
+      "article_count": 26,
       "sample_titles": [
         "Serie „The Greatest“ über Muhammad Ali: Legende ohne Pathos",
         "Bundeskongress der Linksjugend: Solid gegen Solid",
@@ -336,14 +336,14 @@
       "bias": "conservative-liberal",
       "article_count": 22,
       "sample_titles": [
-        "Tesla, SpaceX oder die Krypto-Industrie: Diese Firmen dürften sich die Demokraten jetzt vornehmen",
         "Eine Herzenssache: Wie das Kloster Muri zur ewigen Heimat der Habsburger wurde",
+        "Tesla, SpaceX oder die Krypto-Industrie: Diese Firmen dürften sich die Demokraten jetzt vornehmen",
         "Nach einem Unfall mit gefährlicher Säure bleiben einige Schulen und Kitas in Krefeld geschlossen",
         "ERKLÄRT - Wirrwarr oder Entlastung für Familien? Die Fairness-Initiative auf einen Blick"
       ],
       "urls": [
-        "https://www.nzz.ch/wirtschaft/tesla-spacex-oder-die-krypto-industrie-diese-firmen-duerften-sich-die-demokraten-jetzt-vornehmen-ld.10054664",
         "https://www.nzz.ch/schweiz/eine-herzenssache-wie-das-kloster-muri-zur-ewigen-heimat-der-habsburger-wurde-ld.10054969",
+        "https://www.nzz.ch/wirtschaft/tesla-spacex-oder-die-krypto-industrie-diese-firmen-duerften-sich-die-demokraten-jetzt-vornehmen-ld.10054664",
         "https://www.nzz.ch/panorama/nach-einem-unfall-mit-gefaehrlicher-saeure-bleiben-schulen-und-kitas-in-krefeld-geschlossen-ld.10056214",
         "https://www.nzz.ch/schweiz/wirrwarr-oder-entlastung-fuer-familien-die-fairness-initiative-auf-einen-blick-ld.10051861"
       ],
@@ -367,18 +367,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 20,
+      "article_count": 21,
       "sample_titles": [
+        "Gaza: Tausende Notzelte unbewohnbar, Hunderte Familien obdachlos",
+        "Trumps Deals: Lanz & Precht über Familien-Macht",
         "Bekämpfung von Steuerhinterziehungen an Kassen",
-        "Säure-Unfall: Mehrere Schulen und Kitas in Krefeld zu",
-        "Precht: \"Ich bin für eine Kindergartenpflicht\"",
-        "G20-Treffen: Eine schreckliche Familie"
+        "Säure-Unfall: Mehrere Schulen und Kitas in Krefeld zu"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/ausland/gaza-regenzeit-notunterkuenfte-ueberschwemmt-100.html",
+        "https://www.zdfheute.de/video/lanz-und-precht-trump-familie-video-100.html",
         "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5245850",
-        "https://www.zdfheute.de/panorama/krefeld-lastwagen-saeure-unfall-kitas-schulen-geschlossen-100.html",
-        "https://www.zdfheute.de/video/politik-kindergartenpflicht-sprache-100.html",
-        "https://www.zdfheute.de/politik/g20-atlanta-wadephul-lawrow-usa-russland-100.html"
+        "https://www.zdfheute.de/panorama/krefeld-lastwagen-saeure-unfall-kitas-schulen-geschlossen-100.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -433,18 +433,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 16,
       "sample_titles": [
+        "Der Sechsfachmord von Stade und die Fragen an Niedersachsens SPD",
         "528 Millionen Euro: Deutsches Kindergeld für 291.292 Kinder im Ausland",
         "Priens Kita-Reform: Wieder ein Schaufenstergesetz ohne praktischen Nährwert",
-        "Bei Illner: Elif Eralp hat Angst vor ihren eigenen Leuten",
-        "Wallah, Wallah, dass zum Zwecke Wasser fließe: Berlins Linke fürchtet die Geister, die sie rief"
+        "Bei Illner: Elif Eralp hat Angst vor ihren eigenen Leuten"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/meinungen/sechsfachmord-stade/",
         "https://www.tichyseinblick.de/daili-es-sentials/kindergeld-ausland-rekordauszahlung/",
         "https://www.tichyseinblick.de/kolumnen/josef-kraus-lernen-und-bildung/prien-kita-gesetz-sprachtests/",
-        "https://www.tichyseinblick.de/feuilleton/medien/bei-illner-elif-eralp-hat-angst-vor-ihren-eigenen-leuten/",
-        "https://www.tichyseinblick.de/meinungen/berlin-eralp-linke-hamas-islam/"
+        "https://www.tichyseinblick.de/feuilleton/medien/bei-illner-elif-eralp-hat-angst-vor-ihren-eigenen-leuten/"
       ],
       "dominant_emotion": "fear",
       "top_emotions": [
@@ -460,29 +460,29 @@
       "bias": "left-liberal",
       "article_count": 15,
       "sample_titles": [
+        "Erbschaftsstreit: »Erbe entscheidet, ob Sie ein Leben erster oder zweiter Klasse leben«",
         "Rüstungsunternehmen KNDS: Bund und KNDS-Eigentümerfamilien einigen sich offenbar auf Übernahme",
         "Rückkehr nach Deutschland: Sie fragt sich: Wann ist der Moment gekommen, um wirklich zu gehen?",
-        "Britische Königsfamilie: Skandal um Meghans Vater: Polizei lässt Vorgehen prüfen",
-        "Elif Eralp: Für ein Amt hat sich Elif Eralp unmöglich gemacht"
+        "Britische Königsfamilie: Skandal um Meghans Vater: Polizei lässt Vorgehen prüfen"
       ],
       "urls": [
+        "https://www.zeit.de/geld/2026-10/erbschaftsstreit-konflikte-familie-mediator-gerhart-flothow",
         "https://www.zeit.de/wirtschaft/unternehmen/2026-11/knds-bund-uebernahme-wegmann-boersengang",
         "https://www.zeit.de/politik/2026-10/usa-deutsche-staatsbuergerschaft-angst-donald-trump",
-        "https://www.zeit.de/news/2026-10/29/skandal-um-meghans-vater-polizei-laesst-vorgehen-pruefen",
-        "https://www.zeit.de/politik/deutschland/2026-10/elif-eralp-berlin-die-linke-regierungsamt"
+        "https://www.zeit.de/news/2026-10/29/skandal-um-meghans-vater-polizei-laesst-vorgehen-pruefen"
       ],
-      "dominant_emotion": "realization",
+      "dominant_emotion": "disgust",
       "top_emotions": [
+        {
+          "emotion": "disgust",
+          "count": 1
+        },
         {
           "emotion": "realization",
           "count": 1
         },
         {
           "emotion": "grief",
-          "count": 1
-        },
-        {
-          "emotion": "love",
           "count": 1
         }
       ]
@@ -533,14 +533,14 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 122,
-    "far-right": 38,
-    "populist-mixed": 81,
+    "left-liberal": 204,
+    "neutral": 141,
     "right-conservative": 159,
-    "left": 28,
-    "neutral": 140,
-    "left-liberal": 203,
-    "economic-liberal": 29
+    "conservative-liberal": 124,
+    "far-right": 39,
+    "populist-mixed": 80,
+    "left": 26,
+    "economic-liberal": 27
   },
   "statements": {
     "de": {
@@ -552,5 +552,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-11-07T11:35:53.534889"
+  "cached_at": "2026-11-08T11:34:33.799253"
 }
