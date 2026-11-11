@@ -8,18 +8,18 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 122,
+      "article_count": 119,
       "sample_titles": [
-        "\"Wo finde ich jetzt noch Arbeit?\" Enttäuschung und Frust bei Schaeffler in Morbach",
-        "Keine Streiks auf Condor-Flügen - für mindestens zwei Jahre",
-        "Unfall: Jäger durch eigenes Gewehr getötet, Metaller-Warnstreiks in RLP gehen weiter, Weiterer Soldat in Zweibrücken entlassen",
-        "Metall- und Elektroindustrie: Warnstreiks im Saarland gehen weiter"
+        "40 Stunden pro Woche arbeiten: \"Menschenfeindliches Konzept\" oder nicht lange genug?",
+        "Ruhr-Uni Bochum: Warum Studierende und Mitarbeitende der RUB protestieren",
+        "Klimastreik am 13. November: Hier sind Demos in Niedersachsen geplant",
+        "KI am Arbeitsmarkt: Was bedeutet das für Jobs im Saarland?"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/stimmung-bei-warnstreik-bei-schaeffler-in-morbach-vor-schliessung-100.html",
-        "https://www.hessenschau.de/wirtschaft/keine-streiks-auf-condor-fluegen---fuer-mindestens-zwei-jahre-v1,condor-tariffrieden-100.html",
-        "https://www.swr.de/swraktuell/rheinland-pfalz/jaeger-durch-eigenes-gewehr-getoetet-ig-metall-warnstreik-skandal-bundeswehr-soldat-entlassen-newsticker-rlp-2026-11-06-100.html",
-        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/warnstreiks_in_der_metall_und_elektroindustrie_werden_fortgesetzt_100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/40-stunden-woche-noch-aktuell-oder-ueberholt-100.html",
+        "https://www1.wdr.de/nrw/ruhrgebiet/bochum/bochum-rub-kuerzungen-proteste-102.html",
+        "https://www.ndr.de/nachrichten/niedersachsen/klimastreik-am-13-november-hier-sind-demos-in-niedersachsen-geplant-fridays-for-future,fridaysforfuture-144.html",
+        "https://www.sr.de/sr/home/nachrichten/politik_wirtschaft/ki_arbeitsmarkt_auswirkungen_100.html"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
@@ -41,31 +41,64 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 104,
+      "article_count": 106,
       "sample_titles": [
-        "Kolumne „Mein UrteiL“: Als Geschäftsführer abberufen, als Arbeitnehmer geschützt?",
-        "Frankreich: Die Massen protestieren weiter",
-        "Streiktag in Frankreich: Gewerkschaften mobilisieren Hunderttausende",
-        "Hörspiel „Im Office“: Guck dir die Arme doch mal an!"
+        "Business-Ticker: Microsoft will laut Insider Verbot chinesischer KI-Bauteile in USA verhindern",
+        "Business-Ticker: Thyssenkrupps Betriebsratschef wechselt die Seiten",
+        "Business-Ticker: Anthropic präsentiert vor dem Börsengang verbesserte KI-Modelle",
+        "Angst vor KI: Die KI macht Anfängern den Berufseinstieg schwer"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/karriere-hochschule/buero-co/arbeitsrecht-wann-geschasste-geschaeftsfuehrer-kuendigungsschutz-geniessen-accg-201653221.html",
-        "https://www.faz.net/aktuell/politik/ausland/massenproteste-in-frankreich-regierung-sucht-ausweg-ohne-geld-201656654.html",
-        "https://www.faz.net/video/hunderttausende-bei-generalstreik-in-frankreich-201655697.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/hoerspiel-im-office-von-elisabeth-pape-bei-dlf-kultur-201636130.html"
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-microsoft-will-laut-insider-verbot-chinesischer-ki-bauteile-in-usa-verhindern-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-thyssenkrupps-betriebsratschef-wechselt-die-seiten-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-fable-und-mythos-vor-dem-boersengang-verbessert-faz-200452404.html",
+        "https://www.faz.net/aktuell/wirtschaft/die-ki-macht-anfaengern-den-berufseinstieg-schwer-201666471.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
         {
           "emotion": "confusion",
-          "count": 8
+          "count": 7
         },
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 6
         },
         {
-          "emotion": "disapproval",
+          "emotion": "curiosity",
+          "count": 3
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 84,
+      "sample_titles": [
+        "„Strohfeuer der Konjunktur erlischt schon wieder“ – Jede dritte Firma rechnet 2027 mit Stellenabbau",
+        "„Haftstrafe ist die einzige Sprache, die solche Straftäter verstehen“",
+        "Der fatale KI-Effekt für Deutschlands Berufseinsteiger",
+        "Frankreich erhöht Mindestlohn nach Protesten – Gewerkschaften bleiben unzufrieden"
+      ],
+      "urls": [
+        "https://www.welt.de/wirtschaft/article6af302a442c2bfde5b9928b9/iw-umfrage-strohfeuer-der-konjunktur-erlischt-schon-wieder-jede-dritte-firma-rechnet-2027-mit-stellenabbau.html",
+        "https://www.welt.de/politik/deutschland/video6af2146239ea9ae342b207ac/pali-flagge-am-reichstag-haftstrafe-ist-die-einzige-sprache-die-solche-straftaeter-verstehen.html",
+        "https://www.welt.de/wirtschaft/plus6af1b81dd0fb1ac9ce0ec6c3/ifo-studie-der-fatale-ki-effekt-fuer-deutschlands-berufseinsteiger.html",
+        "https://www.welt.de/politik/ausland/article6af1f27479e1656222c37e2e/rund-24-euro-mehr-frankreich-erhoeht-mindestlohn-nach-protesten-gewerkschaften-bleiben-unzufrieden.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 4
+        },
+        {
+          "emotion": "annoyance",
+          "count": 3
+        },
+        {
+          "emotion": "sadness",
           "count": 2
         }
       ]
@@ -74,7 +107,7 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 86,
+      "article_count": 81,
       "sample_titles": [
         "Nasdaq legt zu: KI-Werte erholen sich vom Kursgemetzel",
         "Druck auf neuen Minister: Dulger fordert von Schweitzer Tempo bei Rentenreform",
@@ -95,44 +128,11 @@
         },
         {
           "emotion": "confusion",
-          "count": 7
+          "count": 6
         },
         {
           "emotion": "disapproval",
           "count": 4
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 84,
-      "sample_titles": [
-        "„Sie können sich vorstellen, dass das kein Berliner Polizist gern hört“",
-        "Selbsternannte „Freie Familie“ zahlt keine Steuern – und sitzt jetzt seit Monaten auf der Straße",
-        "„Wir haben einzelne Autos brennen sehen. Aber kein Vergleich mit dem Wochenende vom 17. Oktober“",
-        "Erneute Ausschreitungen in Frankreich – „An der Spitze ein aggressiver Pro-Palästina-Block“"
-      ],
-      "urls": [
-        "https://www.welt.de/politik/deutschland/video6aee140da389bc337cfc8602/gewaltvorwuerfe-der-linken-sie-koennen-sich-vorstellen-dass-das-kein-berliner-polizist-gern-hoert.html",
-        "https://www.welt.de/vermischtes/article6aed9d6da389bc337cfc7a85/dresden-selbsternannte-freie-familie-zahlt-keine-steuern-und-sitzt-jetzt-seit-monaten-auf-der-strasse.html",
-        "https://www.welt.de/politik/ausland/video6aedbcd1a389bc337cfc7e11/proteste-in-frankreich-wir-haben-einzelne-autos-brennen-sehen-aber-kein-vergleich-mit-dem-wochenende-vom-17-oktober.html",
-        "https://www.welt.de/politik/ausland/video6aecc663c7da7601aa4f918f/generalstreik-erneute-ausschreitungen-in-frankreich-an-der-spitze-ein-aggressiver-pro-palaestina-block.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
-          "count": 3
-        },
-        {
-          "emotion": "sadness",
-          "count": 2
         }
       ]
     },
@@ -140,31 +140,31 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 74,
+      "article_count": 76,
       "sample_titles": [
-        "Konjunktur: US-Arbeitsmarkt wächst überraschend stark",
-        "Banken: Unicredit-Chef streicht Anspruch auf Homeoffice – Sonderregelung in Deutschland",
-        "Pharma: „Toxische Situation“: Biontech-Betriebsrat prangert Umgang mit Mitarbeitern an",
-        "Industrie: Erste Warnstreiks der Industrie: Das ist neben größeren Demonstrationen geplant"
+        "Alterssicherung: Abschaffung der ,Rente mit 63‘ könnte bis zu 6,5 Milliarden Euro pro Jahr sparen",
+        "Finanzpolitik: 1840 Euro Pauschbetrag oder neue Arbeitstagepauschale – Bund und Länder planen Steuervereinfachung",
+        "Einzelhandel: C&A-Holding Cofra bekommt ersten familienfremden Chef",
+        "Arbeitsmarkt: „800.000 Jobs werden in Deutschland aufgrund von KI wegfallen“"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/international/konjunktur-us-arbeitsmarkt-waechst-ueberraschend-stark/100267936.html",
-        "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-chef-streicht-anspruch-auf-homeoffice/100267856.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/pharma-biontech-betriebsrat-prangert-umgang-mit-mitarbeitern-an/100267040.html",
-        "https://www.handelsblatt.com/politik/deutschland/industrie-erste-warnstreiks-der-industrie-groessere-demonstrationen-geplant/100266409.html"
+        "https://www.handelsblatt.com/politik/deutschland/alterssicherung-wie-viel-die-abschaffung-der-rente-mit-63-sparen-koennte/100267892.html",
+        "https://www.handelsblatt.com/politik/deutschland/finanzpolitik-bund-und-laender-planen-umfassende-steuervereinfachungen/100268541.html",
+        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/einzelhandel-ca-holding-cofra-bekommt-ersten-familienfremden-chef/100268274.html",
+        "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-800.000-jobs-werden-in-deutschland-aufgrund-von-ki-wegfallen-01/100264931.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 4
+          "count": 5
         },
         {
           "emotion": "annoyance",
           "count": 3
         },
         {
-          "emotion": "disapproval",
+          "emotion": "anger",
           "count": 2
         }
       ]
@@ -173,18 +173,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 53,
+      "article_count": 55,
       "sample_titles": [
-        "Generalstreik in Frankreich: Sie hoffen, dass das nur der Anfang ist",
-        "Erster Migra-Streik in Halle: Täglich angefeindet",
-        "Arbeitskämpfe in Bangladesch: Textilarbeiter fordern existenzsichernden Mindestlohn",
-        "LFI-Politikerin über Frankreichs Protest: „Bravo, Gen Z!“"
+        "Proteste in Frankreich: Mit fünf Euro mehr abgespeist",
+        "Gegengipfel zur COP31 in Antalya: Die Klimakonferenz der anderen",
+        "Gen-Z-Proteste in Deutschland: Unistreiks angekündigt",
+        "Generalstreik in Frankreich: Sie hoffen, dass das nur der Anfang ist"
       ],
       "urls": [
-        "https://taz.de/Generalstreik-in-Frankreich/!6224243/",
-        "https://taz.de/Erster-Migra-Streik-in-Halle/!6227722/",
-        "https://taz.de/Arbeitskaempfe-in-Bangladesch/!6227377/",
-        "https://taz.de/LFI-Politikerin-ueber-Frankreichs-Protest/!6227263/"
+        "https://taz.de/Proteste-in-Frankreich/!6228720/",
+        "https://taz.de/Gegengipfel-zur-COP31-in-Antalya/!6228385/",
+        "https://taz.de/Gen-Z-Proteste-in-Deutschland/!6228544/",
+        "https://taz.de/Generalstreik-in-Frankreich/!6224243/"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -193,11 +193,11 @@
           "count": 5
         },
         {
-          "emotion": "confusion",
-          "count": 3
+          "emotion": "anger",
+          "count": 4
         },
         {
-          "emotion": "anger",
+          "emotion": "confusion",
           "count": 3
         }
       ]
@@ -206,18 +206,18 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 51,
+      "article_count": 50,
       "sample_titles": [
+        "KI: Andrea Nahles rechnet mit Verlust von 800.000 Jobs",
+        "Arbeitsmarkt: KI hat laut Ifo-Auswertung Einfluss auf Berufschancen von Einsteigern",
         "Frankreich: Rund 600.000 Menschen gehen auf die Straße",
-        "Großbritannien will Gehaltsangaben in Stellenanzeigen vorschreiben",
-        "Dorothee Bär: Wechseljahre? Endometriose? Das ist keine Privatsache, sagt die Forschungsministerin",
-        "Friedrich Merz droht Randalierern mit der »Härte des Gesetzes«"
+        "Großbritannien will Gehaltsangaben in Stellenanzeigen vorschreiben"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/unternehmen/ki-andrea-nahles-rechnet-mit-verlust-von-800-000-jobs-a-64556960-bdcf-4d85-becc-93ef14bb937e#ref=rss",
+        "https://www.spiegel.de/start/arbeitsmarkt-ki-hat-laut-ifo-auswertung-einfluss-auf-berufschancen-von-einsteigern-a-8927700a-5037-4ca3-bcdb-57745dbf6a97#ref=rss",
         "https://www.spiegel.de/ausland/frankreich-rund-600-000-menschen-gehen-auf-die-strasse-a-2619f68b-6061-40c5-969d-3ec16f0bd6a1#ref=rss",
-        "https://www.spiegel.de/karriere/grossbritannien-will-gehaltsangaben-in-stellenanzeigen-vorschreiben-a-f3430f3e-df34-4747-bf6e-c68e968b94fd#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/dorothee-baer-wechseljahre-endometriose-das-ist-keine-privatsache-sagt-die-forschungsministerin-a-02185c44-55bc-41df-a9fd-b2ddaa6c3257#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/friedrich-merz-droht-randalierern-mit-der-haerte-des-gesetzes-a-abaa29bf-4d2d-4a7c-bf7e-68745518c8bc#ref=rss"
+        "https://www.spiegel.de/karriere/grossbritannien-will-gehaltsangaben-in-stellenanzeigen-vorschreiben-a-f3430f3e-df34-4747-bf6e-c68e968b94fd#ref=rss"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -239,18 +239,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 51,
+      "article_count": 48,
       "sample_titles": [
+        "Knapp drei Wochen vor Parlamentswahl: Generalstreik in Spanien wegen Wohnungskrise",
+        "Prinz Harry: Er tritt bei US-Firma kürzer",
         "Metallindustrie: IG Metall ruft Zehntausende zu Warnstreik auf",
-        "Erneute Demonstrationen: „Die Wut ist groß“: Proteste für höhere Löhne in Frankreich",
-        "Tausende demonstrieren gegen Rundfunkreform von Tschechiens rechter Regierung",
-        "Stahlarbeiter: Gewerkschaft fordert fünf Prozent mehr Lohn in Stahlbranche"
+        "Erneute Demonstrationen: „Die Wut ist groß“: Proteste für höhere Löhne in Frankreich"
       ],
       "urls": [
+        "https://www.stern.de/news/knapp-drei-wochen-vor-parlamentswahl--generalstreik-in-spanien-wegen-wohnungskrise-38531432.html",
+        "https://www.stern.de/lifestyle/leute/prinz-harry--er-tritt-bei-us-firma-kuerzer-38525510.html",
         "https://www.stern.de/gesellschaft/regional/bayern/metallindustrie--ig-metall-ruft-zehntausende-zu-warnstreik-auf-38507300.html",
-        "https://www.stern.de/politik/ausland/erneute-demonstrationen---die-wut-ist-gross---proteste-fuer-hoehere-loehne-in-frankreich-38506004.html",
-        "https://www.stern.de/news/tausende-demonstrieren-gegen-rundfunkreform-von-tschechiens-rechter-regierung-38496652.html",
-        "https://www.stern.de/wirtschaft/news/stahlarbeiter--gewerkschaft-fordert-fuenf-prozent-mehr-lohn-in-stahlbranche-38490920.html"
+        "https://www.stern.de/politik/ausland/erneute-demonstrationen---die-wut-ist-gross---proteste-fuer-hoehere-loehne-in-frankreich-38506004.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -263,7 +263,7 @@
           "count": 3
         },
         {
-          "emotion": "anger",
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -274,16 +274,16 @@
       "bias": "populist-mixed",
       "article_count": 32,
       "sample_titles": [
-        "Streit um Randale-Migranten - Polizei-Gewerkschaft geht auf  Pistorius los",
-        "Schon 413.000 Metaller auf der Straße - Arbeitgeber-Chefin: „Warnstreiks kosten Millionen“",
-        "Milliarden-Versprechen gebrochen - Jetzt wird die neue Stütze doch teurer",
-        "Läden bleiben dicht - Halles Migranten setzen Zeichen gegen Ausgrenzung"
+        "Polizei-Boss bei Lanz über Migranten-Gewalt - „In Deutschland kann ich mich austoben!“",
+        "Erste Zahlen zur neuen Stütze - Wie hart greifen die Jobcenter durch?",
+        "Keine Einsparungen, kaum Sanktionen - „Die neue Grundsicherung ist ein Flop“",
+        "Harte Worte bei Miosga - Gabriel: Heil hat SPD Sargnagel verpasst"
       ],
       "urls": [
-        "https://www.bild.de/politik/inland/boris-pistorius-gdp-und-csu-greifen-ihn-im-krawall-streit-an-6aef2663bd9dc1882a99ed2f",
-        "https://www.bild.de/politik/inland/schon-413-000-metaller-auf-der-strasse-chefin-der-arbeitgeber-warnt-warnstreiks-kosten-millionen-6aedecf2a389bc337cfc833c",
-        "https://www.bild.de/politik/inland/grundsicherung-250-millionen-euro-teurer-statt-milliardenersparnis-6aed7e2a1d9d38d6d601ae0d",
-        "https://www.bild.de/regional/sachsen-anhalt/aus-protest-laeden-dicht-so-saehe-es-in-halles-laeden-ohne-migrantische-haendler-aus-6aec3408eca9cecdd5d475d4"
+        "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/halloween-krawalle-kopelke-warnt-vor-unfassbar-viel-angst-6af3c92b42c2bfde5b9937a6",
+        "https://www.bild.de/politik/inland/zahlen-zur-neuen-stuetze-jobcenter-greifen-ploetzlich-haerter-durch-6af2dff87b39f8e546bbfd97",
+        "https://www.bild.de/politik/grundsicherung-erste-bilanz-ernuechternd-ausser-dem-namen-kaum-neues-6af2f32a42c2bfde5b9925d3",
+        "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/harte-worte-bei-miosga-gabriel-heil-hat-spd-sargnagel-verpasst-6af10f5da389bc337cfca98e"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -305,18 +305,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 31,
+      "article_count": 32,
       "sample_titles": [
+        "KI-Umbruch: 800.000 Jobs fallen weg - viele neue entstehen",
         "Frankreich: 600.000 Menschen demonstrieren für höhere Löhne",
         "Dobrindt: \"Wir haben es mit Chaoten auf der Straße zu tun\"",
-        "Autozulieferer Schaeffler schließt vier deutsche Standorte",
-        "Krawalle: Polizeigewerkschaft stellt sich hinter Dobrindt"
+        "Autozulieferer Schaeffler schließt vier deutsche Standorte"
       ],
       "urls": [
+        "https://www.zdfheute.de/wirtschaft/ki-jobs-stellenstreichungen-100.html",
         "https://www.zdfheute.de/politik/ausland/frankreich-proteste-loehne-ausschreitungen-100.html",
         "https://www.phoenix.de/bundeskongress-a-5244714.html",
-        "https://www.zdfheute.de/wirtschaft/unternehmen/schaeffler-stellenabbau-standortschliessungen-100.html",
-        "https://www.zdfheute.de/politik/deutschland/gewalt-jugendproteste-migranten-dobrindt-kritik-100.html"
+        "https://www.zdfheute.de/wirtschaft/unternehmen/schaeffler-stellenabbau-standortschliessungen-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -338,18 +338,18 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 24,
+      "article_count": 26,
       "sample_titles": [
-        "Proteste in Frankreich: „Macron, du bist erledigt – die Jugend ist auf der Straße“",
-        "Metallindustrie: Warnstreik bei Audi – Kritik am Vorstand",
-        "Streiks: Mehr als 2 000 Metall-Beschäftigte legen Arbeit nieder",
-        "Arbeitsmarkt: Warnstreiks der IG Metall angelaufen"
+        "Arbeitsmarkt: Zahl arbeitsloser Akademiker erreicht Höchststand",
+        "Bundesregierung: Schweitzer legt Reform des Arbeitsrechts vor",
+        "Bundeshaushalt für 2027: Regierung rechnet mit milliardenschweren Mehrausgaben",
+        "Proteste in Frankreich: „Macron, du bist erledigt – die Jugend ist auf der Straße“"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/proteste-frankreich-generalstreik-paris-gewerkschaften-li.3574706",
-        "https://www.sueddeutsche.de/wirtschaft/audi-doellner-usa-lohn-mercedes-bmw-streik-li.3573364",
-        "https://www.sueddeutsche.de/wirtschaft/warnstreik-niedersachsen-ig-metall-metallindustrie-tarifkonflikt-li.3573276",
-        "https://www.sueddeutsche.de/wirtschaft/ig-metall-warnstreiks-autobau-maschinenbau-elektronik-metall-li.3572277"
+        "https://www.sueddeutsche.de/politik/arbeitsagentur-lehrer-beruf-studium-berufsanfaenger-li.3578610",
+        "https://www.sueddeutsche.de/politik/schweitzer-reform-arbeitsrecht-li.3578176",
+        "https://www.sueddeutsche.de/politik/bundeshaushalt-kosten-ruestung-e-autos-zuckersteuer-li.3577961",
+        "https://www.sueddeutsche.de/politik/proteste-frankreich-generalstreik-paris-gewerkschaften-li.3574706"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -371,18 +371,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 23,
+      "article_count": 24,
       "sample_titles": [
+        "Fall für das Höchstgericht: Muslima verweigert Burger-Job",
+        "Graichen empört die Union – während die CDU weiterhin Habecks grünen Machtapparat absichert",
         "Neue Gewalt in Paris: 448 Festnahmen, 53 verletzte Polizisten",
-        "300.000 Stellen gefährdet: Gesamtmetall warnt vor weiterem Beschäftigungseinbruch",
-        "Gewalt durch Linksextreme und Migranten: Polizeigewerkschaft wirft Pistorius Beschönigung vor",
-        "Sozialbeiträge steigen bis 2035 auf mehr als 49 Prozent – trotz Reformen"
+        "300.000 Stellen gefährdet: Gesamtmetall warnt vor weiterem Beschäftigungseinbruch"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/muslima-verweigert-burger-job/",
+        "https://www.tichyseinblick.de/daili-es-sentials/cdu-spielt-opposition-graichen-habeck-mueller/",
         "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/neue-gewalt-in-paris-448-festnahmen/",
-        "https://www.tichyseinblick.de/wirtschaft/gesamtmetall-warnt-beschaeftigungseinbruch-300000-stellen/",
-        "https://www.tichyseinblick.de/daili-es-sentials/polizei-taeterbeschreibung-pistorius-beschoenigung-realitaetsverlust/",
-        "https://www.tichyseinblick.de/daili-es-sentials/sozialbeitraege-steigen-bis-2035-auf-mehr-als-49-prozent/"
+        "https://www.tichyseinblick.de/wirtschaft/gesamtmetall-warnt-beschaeftigungseinbruch-300000-stellen/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -439,29 +439,29 @@
       "bias": "far-right",
       "article_count": 18,
       "sample_titles": [
+        "60 Prozent des Bürgergeldes für Familien gehen an Ausländer",
         "„MigraStark“ Wer den Migranten-Streik in Sachsen-Anhalt unterstützt",
         "Arbeitgeberverband Gesamtmetall warnt Hunderttausende Arbeitsplätze in Metall- und Elektroindustrie bedroht",
-        "Wachstum der Angst Wird der Irankrieg für Trump zum Wählerschreck?",
-        "Wahlen und Generalstreik Spanien: Vox-Partei bekommt Konkurrenz von rechts"
+        "Wachstum der Angst Wird der Irankrieg für Trump zum Wählerschreck?"
       ],
       "urls": [
+        "https://jungefreiheit.de/deutschland/60-prozent-des-buergergeldes-fuer-familien-gehen-an-auslaender.html",
         "https://jungefreiheit.de/politik/deutschland/2026/wer-den-migranten-streik-in-sachsen-anhalt-unterstuetzt/",
         "https://jungefreiheit.de/wirtschaft/2026/hunderttausende-arbeitsplaetze-in-metall-und-elektroindustrie-bedroht/",
-        "https://jungefreiheit.de/wirtschaft/2026/wird-der-irankrieg-fuer-trump-zum-waehlerschreck/",
-        "https://jungefreiheit.de/politik/ausland/2026/spanien-vox-partei-bekommt-konkurrenz-von-rechts/"
+        "https://jungefreiheit.de/wirtschaft/2026/wird-der-irankrieg-fuer-trump-zum-waehlerschreck/"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "disapproval",
       "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
         {
           "emotion": "optimism",
           "count": 1
         },
         {
           "emotion": "realization",
-          "count": 1
-        },
-        {
-          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -472,16 +472,16 @@
       "bias": "left-liberal",
       "article_count": 17,
       "sample_titles": [
+        "Wohnungskrise: Spaniens größte Gewerkschaften rufen zu Generalstreik auf",
+        "Arbeitsleistung: Eine Kapsel Ritalin und der Wunsch, ein Highperformer zu sein",
         "Gewerkschaften in Frankreich: Liberté, Égalité, Protesté",
-        "Gewerkschaft der Polizei: Polizeigewerkschaft warnt vor veränderter Arbeit unter AfD-Regierung",
-        "Zugunglück in Spanien: Spaniens Verkehrsminister schließt einen Rücktritt aus",
-        "Robotik in Südkorea: Dieser Kollege wird nie krank, nimmt keinen Urlaub, streikt nie"
+        "Gewerkschaft der Polizei: Polizeigewerkschaft warnt vor veränderter Arbeit unter AfD-Regierung"
       ],
       "urls": [
+        "https://www.zeit.de/politik/ausland/2026-11/generalstreik-spanien-gewerkschaften-madrid-wohnungskrise",
+        "https://www.zeit.de/arbeit/2026-11/arbeitsleistung-ritalin-medikamente-wirkung-arbeitsplatz",
         "https://www.zeit.de/politik/2026-11/gewerkschaften-frankreich-protest-streik-forderungen-nachrichtenpodcast",
-        "https://www.zeit.de/politik/deutschland/2026-11/gewerkschaft-polizei-afd-sachsen-anhalt-jochen-kopelke",
-        "https://www.zeit.de/politik/ausland/2026-10/zugunglueck-spanien-oscar-puente-adif-gewerkschaften-ruecktritt",
-        "https://www.zeit.de/2026/46/robotik-suedkorea-job-verlust-gewerkschaften-hyundai"
+        "https://www.zeit.de/politik/deutschland/2026-11/gewerkschaft-polizei-afd-sachsen-anhalt-jochen-kopelke"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -503,21 +503,26 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 4,
+      "article_count": 5,
       "sample_titles": [
+        "KI wirbelt Arbeitsmarkt laut BA-Chefin durcheinander",
         "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
         "Streik bei öffentlich-rechtlichen Medien in Tschechien",
-        "Flydubai-Copilot galt schon früher als Sicherheitsrisiko",
-        "Monarchisten gewinnen Parlamentswahl in Marokko"
+        "Flydubai-Copilot galt schon früher als Sicherheitsrisiko"
       ],
       "urls": [
+        "https://www.dw.com/de/ki-wirbelt-arbeitsmarkt-laut-ba-chefin-durcheinander/a-79910561?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-südafrika/a-79884765?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/streik-bei-öffentlich-rechtlichen-medien-in-tschechien/a-79839565?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/flydubai-copilot-galt-schon-früher-als-sicherheitsrisiko/a-79529327?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/monarchisten-gewinnen-parlamentswahl-in-marokko/a-79414099?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/flydubai-copilot-galt-schon-früher-als-sicherheitsrisiko/a-79529327?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
     },
     "achgut": {
       "source_id": "achgut",
@@ -538,27 +543,41 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
+    },
+    "cicero": {
+      "source_id": "cicero",
+      "source": "Cicero",
+      "bias": "conservative-liberal",
+      "article_count": 1,
+      "sample_titles": [
+        "Koalition kämpft um Peanuts - Der Pseudostreit um die Grundsicherung vernebelt die Sozialstaatskrise"
+      ],
+      "urls": [
+        "https://www.cicero.de/innenpolitik/koalitionsstreit-grundsicherung"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
     "populist-mixed": 32,
-    "conservative-liberal": 126,
-    "neutral": 157,
-    "right-conservative": 170,
-    "left": 53,
-    "economic-liberal": 74,
-    "far-right": 45,
-    "left-liberal": 143
+    "conservative-liberal": 129,
+    "left-liberal": 141,
+    "neutral": 156,
+    "far-right": 46,
+    "economic-liberal": 76,
+    "right-conservative": 165,
+    "left": 55
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber beobachtet, dass der Fachkräftemangel und die fortschreitende Digitalisierung zentrale Risiken für die Wettbewerbsfähigkeit des Landes darstellen und deshalb verstärkte Qualifizierungs‑ und Umschulungsprogramme gefordert werden, wobei sowohl konservative als auch linke Medien die Notwendigkeit staatlicher Förderungen betonen. Gleichzeitig stimmen die meisten Beiträge überein, dass der Mindestlohn und die Tarifbindung als wichtige Instrumente zur Sicherung von Existenz­sicherheit und sozialer Gerechtigkeit gelten, wobei sie gleichzeitig vor den finanziellen Belastungen für kleine und mittlere Unternehmen warnen. Schließlich wird in nahezu allen Darstellungen die Kurzarbeit als bewährtes Instrument zur Beschäftigungssicherung in konjunkturellen Abschwüngen hervorgehoben und gleichzeitig die Notwendigkeit einer langfristigen Reform des sozialen Sicherungssystems gefordert, um die Folgen von Automatisierung und Plattformarbeit abzufedern.",
-      "controversial_points": "Der Streit um den Mindestlohn spaltet Arbeitgeberverbände, die höhere Kosten fürchten, und Gewerkschaften, die soziale Gerechtigkeit fordern. Die Tarifbindung wird von Liberalen als Wettbewerbsnachteil kritisiert, während linke Medien sie als Schutz vor Prekarisierung darstellen. Fachkräftemangel löst Debatten über Zuwanderungspolitik aus, wobei rechte Stimmen Migration als Belastung sehen und linke Stimmen Integration betonen. Digitalisierung und Plattformarbeit erzeugen Konflikte zwischen Forderungen nach stärkerer Regulierung zum Schutz von Selbstständigen und Argumenten für Flexibilität und Innovation."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die fortschreitende Digitalisierung und Künstliche Intelligenz erhebliche Arbeitsplatzverluste verursachen wird, gleichzeitig aber neue Berufsfelder entstehen und deshalb umfangreiche Qualifizierungs‑ und Umschulungsprogramme gefordert sind. Gleichzeitig besteht ein breiter Konsens darüber, dass die bestehende soziale Grundsicherung – insbesondere das Bürgergeld und die Grundsicherung – nicht ausreicht, um von Arbeitslosigkeit und prekären Beschäftigungsverhältnissen Betroffene zu schützen, und dass strukturelle Reformen nötig sind. Darüber hinaus wird von allen Seiten die Notwendigkeit einer stärkeren Tarifbindung und eines wirksamen Mindestlohns hervorgehoben, um Lohngleichheit zu sichern und die Ausbeutung von Plattform‑ und Scheinselbstständigen zu verhindern.",
+      "controversial_points": "Der Mindestlohn wird zwischen Gewerkschaften, die höhere Werte fordern, und Arbeitgeberverbänden, die Kosten fürchten, polarisiert. Tarifbindung kollidiert mit der wachsenden Plattformarbeit, weil Selbstständige oft außerhalb kollektiver Regelungen bleiben. Fachkräftemangel erzeugt Spannungen zwischen politischen Forderungen nach schneller Zuwanderung und gesellschaftlichen Ängsten vor Lohndumping. Die soziale Sicherung wird im Diskurs zwischen Befürwortern einer Ausweitung des Bürgergeldes und Kritikern, die Leistungsanreize schützen wollen, gespalten."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German outlets agree that the wave of sectoral strikes and the pressure on the statutory minimum wage signal a broad consensus that collective bargaining must be reinforced to protect living standards. At the same time there is a shared recognition that the acute skills shortage and accelerating automation require a coordinated national reskilling programme and stronger state involvement in lifelong learning. Finally, despite divergent fiscal positions, most reports converge on the need to adapt social‑security instruments, including debates on a basic income or expanded unemployment benefits, to safeguard workers in the growing gig and home‑office economy.",
-      "controversial_points": "The media split between pro‑business liberalism demanding flexibility and unions defending collective bargaining and wage floors. A clash emerges over financing social security, pitting tax‑averse conservatives against advocates of expanded benefits. Digitalization and platform work create tension between calls for deregulation and demands for worker protection and data rights. The debate over a basic income and minimum‑wage levels reflects deeper ideological divide between solidarity‑oriented left and market‑driven right."
+      "shared_perspectives": "Across German outlets, from left‑leaning to conservative, there is a shared emphasis that AI‑driven automation will eliminate a substantial number of jobs, especially for entry‑level workers, and that a coordinated policy of reskilling and digital education is presented as indispensable. At the same time, the media converge on the view that collective bargaining, works councils and a calibrated minimum wage constitute the core instruments for safeguarding living standards while the labour market adapts to these structural changes.",
+      "controversial_points": "The clash between market liberalism and social protection defines the debate over minimum wage and basic income. Unions and works councils confront employers over collective bargaining power and automation driven job losses. Digital platform work creates a legal grey zone that pits gig workers against traditional labor law frameworks. Fiscal conservatives pressure the state to cut social security spending while left‑leaning parties demand expanded welfare for reskilling."
     }
   },
-  "cached_at": "2026-11-08T11:28:01.962455"
+  "cached_at": "2026-11-11T12:24:03.283343"
 }
