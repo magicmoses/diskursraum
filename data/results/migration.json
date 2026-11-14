@@ -8,32 +8,32 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 127,
+      "article_count": 123,
       "sample_titles": [
-        "„Wir haben in Österreich eine Minus-Zuwanderung erreicht“",
-        "NRW führt Abschiebeflug mit nur einem Migranten durch",
-        "Messerangriff am Münchner Hauptbahnhof – Verdächtiger kommt in psychiatrische Klinik",
-        "Trump rudert bei Dana White zurück und nennt Massenabschiebungen „zu hart“"
+        "Trump-Regierung feiert sich für Rekord-Abschiebungen",
+        "„Streit eskaliert völlig“ – Migrantische Banden gehen aufeinander los",
+        "„Personen, die derartige Gewalttaten begehen, haben in Deutschland keinen Platz“",
+        "Jugendgangs gehen mit Eisenstangen aufeinander los – CDU-Politiker fordert mehr Abschiebungen"
       ],
       "urls": [
-        "https://www.welt.de/politik/ausland/plus6af2cc94575bd95f31f1eb33/oesterreichs-innenminister-wir-haben-in-oesterreich-eine-minus-zuwanderung-erreicht.html",
-        "https://www.welt.de/politik/deutschland/video6af1c55379e1656222c375ab/platz-fuer-189-passagiere-nrw-fuehrt-abschiebeflug-mit-nur-einem-migranten-durch.html",
-        "https://www.welt.de/vermischtes/article6af1cedd79e1656222c37a0b/muenchen-messerangriff-am-hauptbahnhof-verdaechtiger-kommt-in-psychiatrische-klinik.html",
-        "https://www.welt.de/politik/ausland/article6af12b16a389bc337cfca9c0/sinneswandel-trump-rudert-bei-dana-white-zurueck-und-nennt-massenabschiebungen-zu-hart.html"
+        "https://www.welt.de/politik/ausland/article6af658915a72dceba1d60d48/usa-trump-regierung-feiert-sich-fuer-rekord-abschiebungen.html",
+        "https://www.welt.de/videos/video6af5df6ec45061d752ba8a53/jugendkriminalitaet-streit-eskaliert-voellig-migrantische-banden-gehen-aufeinander-los.html",
+        "https://www.welt.de/politik/deutschland/video6af5ad31c45061d752ba829c/gewalt-in-tuttlingen-alexander-throm-fordert-bessere-integration-und-schnellere-abschiebungen.html",
+        "https://www.welt.de/vermischtes/article6af566a75596369bf0edc087/tuttlingen-schlimme-szenen-jugendgangs-gehen-mit-eisenstangen-los-cdu-politiker-fordert-mehr-abschiebungen.html"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "realization",
       "top_emotions": [
         {
-          "emotion": "sadness",
+          "emotion": "realization",
           "count": 3
         },
         {
-          "emotion": "disapproval",
-          "count": 2
+          "emotion": "anger",
+          "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 3
         }
       ]
     },
@@ -41,21 +41,25 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 96,
+      "article_count": 100,
       "sample_titles": [
-        "Sexualdelikte beim Oktoberfest: Urdeutsche Tradition?",
-        "Tausende Bootsmigranten kommen auf kleiner Insel an",
-        "Spanien Tausende Bootsmigranten kommen auf kleiner Insel an",
-        "Sitz des Deutschen Bundestages Palästina-Flagge vor dem Reichstag gehisst – drei Männer festgenommen"
+        "Deutschland auf Platz zwei bei Migration",
+        "Deshalb erklärt ein Gericht Deutschlands Grenzkontrollen für rechtswidrig",
+        "ARD traut sich in die Parallelgesellschaften",
+        "Syrer und Afghanen prügeln sich mit Eisenstangen"
       ],
       "urls": [
-        "https://jungefreiheit.de/deutschland/sexualdelikte-beim-oktoberfest-urdeutsche-tradition.html",
-        "https://jungefreiheit.de/ausland/tausende-bootsmigranten-kommen-auf-kleiner-insel-an.html",
-        "https://jungefreiheit.de/politik/ausland/2026/tausende-bootsmigranten-kommen-auf-kleiner-insel-an/",
-        "https://jungefreiheit.de/politik/deutschland/2026/palaestina-flagge-vor-dem-reichstag-gehisst-drei-maenner-festgenommen/"
+        "https://jungefreiheit.de/deutschland/deutschland-auf-platz-zwei-bei-migration.html",
+        "https://jungefreiheit.de/deutschland/deshalb-erklaert-ein-gericht-deutschlands-grenzkontrollen-fuer-rechtswidrig.html",
+        "https://jungefreiheit.de/presse/ard-traut-sich-in-die-parallelgesellschaften.html",
+        "https://jungefreiheit.de/deutschland/syrer-und-afghanen-pruegeln-sich-mit-eisenstangen.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "anger",
       "top_emotions": [
+        {
+          "emotion": "anger",
+          "count": 3
+        },
         {
           "emotion": "curiosity",
           "count": 3
@@ -63,9 +67,38 @@
         {
           "emotion": "annoyance",
           "count": 2
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 76,
+      "sample_titles": [
+        "F.A.Z. MACHTPROBE: Endstation Ruanda: Wie Europa sein Migrationsproblem lösen will",
+        "Rhein-Main-Liveblog: Razzia im Bahnhofsviertel: Sieben Personen in Abschiebehaft",
+        "USA unter Trump: US-Regierung meldet fast eine halbe Million Abschiebungen in einem Jahr",
+        "Migration: Was ist nur aus Multikulti geworden?"
+      ],
+      "urls": [
+        "https://www.faz.net/podcasts/f-a-z-podcast-machtprobe/ndstation-ruanda-wie-europa-sein-migrationsproblem-loesen-will-201682304.html",
+        "https://www.faz.net/aktuell/rhein-main/razzia-im-frankfurter-bahnhofsviertel-sieben-personen-in-abschiebehaft-aktuelle-nachrichten-aus-frankfurt-hessen-faz-19735361.html",
+        "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-us-regierung-meldet-fast-eine-halbe-million-abschiebungen-in-einem-jahr-faz-19444916.html",
+        "https://www.faz.net/aktuell/politik/inland/migration-und-gesellschaft-was-ist-aus-multikulti-geworden-201658198.html"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 3
         },
         {
-          "emotion": "anger",
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -74,18 +107,18 @@
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 76,
+      "article_count": 75,
       "sample_titles": [
-        "El Hierro im Notstand, Mallorca unter Druck – Sánchez lässt Invasoren mit Militärjets nach Madrid fliegen",
-        "Klima-Alarm auf Bestellung: Pünktlich zum Klima-Gipfel die passende Panik – TE Wecker am 10 11 2026TE-Wecker am 10. November 2026",
-        "Dobrindt feiert sinkende Asylzahlen – doch entscheidende Zahlen bleiben außen vor",
-        "Frankreichs Haushaltsdebakel: Am Ende stimmt selbst das Regierungslager gegen den eigenen Entwurf"
+        "Standort-Kahlschlag: jetzt zieht Mercedes-Benz den Stecker – TE-Wecker am 13. November 2026",
+        "Tichys Einblick 12-2026: Hass auf Deutschland",
+        "Unruhen in Frankfurt: 110 Strafanzeigen, Täter aus elf Nationen",
+        "Wie kluge Politik die Zahl der Asylbewerber reduziert"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/el-hierro-mallorca-spanien/",
-        "https://www.tichyseinblick.de/podcast/wecker-am-10-november-2026/",
-        "https://www.tichyseinblick.de/daili-es-sentials/asylzahlen-jubelmeldungen/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/frankreich-haushaltsdebakel/"
+        "https://www.tichyseinblick.de/podcast/wecker-am-13-november-2026/",
+        "https://www.tichyseinblick.de/daili-es-sentials/tichys-einblick-12-2026/",
+        "https://www.tichyseinblick.de/daili-es-sentials/frankfurt-110-strafanzeigen/",
+        "https://www.tichyseinblick.de/daili-es-sentials/wie-kluge-politik-die-zahl-der-asylbewerber-reduziert/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -103,55 +136,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 74,
-      "sample_titles": [
-        "Migration aus Afrika: Interpol deckt 41 Schleuserbanden auf",
-        "Krawalle in Frankfurt: Polizei nennt Herkunft der Tatverdächtigen",
-        "Europäische Asylpolitik: Brüssel zeigt Italien die gelbe Karte",
-        "Villenviertel Wiesbaden: Nächste Runde im Streit um Flüchtlingsheim"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/politik/ausland/migration-nach-europa-interpol-deckt-41-schleuserbanden-auf-accg-201669448.html",
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/frankfurt-polizei-nennt-herkunft-der-tatverdaechtigen-nach-ausschreitungen-201666995.html",
-        "https://www.faz.net/aktuell/politik/ausland/eu-kommission-verwarnt-italien-gelbe-karte-wegen-migrationspolitik-201665931.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/wiesbaden-streit-um-laerm-von-fluechtlingsunterkunft-im-villenviertel-201665144.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "fear",
-          "count": 2
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 57,
+      "article_count": 55,
       "sample_titles": [
-        "Nach Gen Z-Krawallen: Poseck verteidigt Aussagen zu Migrationshintergrund",
-        "Neue LEA in Weilimdorf nimmt nächsten Schritt, Anwohner stellen Fragen",
-        "Kahlschlag im Bereich Integration bringt massive Probleme für Betroffene und die Gesellschaft",
-        "Interview zu Toleranz und Streitkultur: \"Was mich beängstigt, ist die Entfremdung\""
+        "ICE meldet Rekord bei Abschiebungen",
+        "Transitbereich am Flughafen: Genitalverstümmelte Somalierinnen warten seit Monaten auf Asyl",
+        "Explosion vor internationalem Supermarkt in Lörrach: Kriminalpolizei ermittelt",
+        "Nach Gen Z-Krawallen: Poseck verteidigt Aussagen zu Migrationshintergrund"
       ],
       "urls": [
-        "https://www.hessenschau.de/politik/nach-gen-z-krawallen-poseck-verteidigt-aussagen-zu-migrationshintergrund--v1,poseck-innenausschuss-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/lea-weilimdorf-fluechtlinge-unterkunft-stuttgart-100.html",
-        "https://www.hessenschau.de/politik/kahlschlag-im-bereich-integration-bringt-massive-probleme-fuer-betroffene-und-die-gesellschaft-v1,kahlschlag-integrationspolitik-hessen-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/institut-integration-studien-religionen-demos-entfremdung-kamran-interview-100.html"
+        "https://www.tagesschau.de/ausland/amerika/ice-einwanderungsbehoerde-abschiedbungen-rekord-100.html",
+        "https://www.hessenschau.de/gesellschaft/transitbereich-am-flughafen-genitalverstuemmelte-somalierinnen-warten-seit-monaten-auf-asyl-v1,somalierinnen-100.html",
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/explosion-vor-loerracher-lebensmittelgeschaeft-100.html",
+        "https://www.hessenschau.de/politik/nach-gen-z-krawallen-poseck-verteidigt-aussagen-zu-migrationshintergrund--v2,poseck-innenausschuss-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -164,7 +164,40 @@
           "count": 2
         },
         {
-          "emotion": "excitement",
+          "emotion": "anger",
+          "count": 1
+        }
+      ]
+    },
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 54,
+      "sample_titles": [
+        "Zurück zum Klischee: Dallas auf Türkisch",
+        "Kirchenasyl in Deutschland: Willkommen im Pfarrhaus",
+        "Kürzungen im Haushalt 2027: Unabhängiger Asylberatung droht Kahlschlag",
+        "Schiffbruch vor Senegal: Auf hoher See in den Tod"
+      ],
+      "urls": [
+        "https://taz.de/Zurueck-zum-Klischee/!6228183/",
+        "https://taz.de/Kirchenasyl-in-Deutschland/!6223256/",
+        "https://taz.de/Kuerzungen-im-Haushalt-2027/!6229127/",
+        "https://taz.de/Schiffbruch-vor-Senegal/!6228922/"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 5
+        },
+        {
+          "emotion": "sadness",
+          "count": 2
+        },
+        {
+          "emotion": "surprise",
           "count": 1
         }
       ]
@@ -173,24 +206,24 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 53,
+      "article_count": 49,
       "sample_titles": [
+        "\"Wir als Einwandererland ...\": Deutsche Fußball-Nationalmannschaft soll neue Identität bekommen",
+        "Kosicke \"klärt alles\" mit Hoeneß: Kritisch beäugter Klopp-Kumpel verrät Plan für DFB-Team",
         "\"Wer arbeitet, darf bleiben\": SPD will Bleiberecht für arbeitende Geflüchtete",
-        "\"Vielleicht Asyl in Israel\": Trumps Leute fürchten angekündigte Ermittlungen",
-        "EU erkennt Verantwortung an: Deutschland muss wohl erneut keine zusätzlichen Flüchtlinge aufnehmen",
-        "Berlin Tag & Macht: Gen Z regelt: gratis Sneaker statt Bildungsgrade"
+        "\"Vielleicht Asyl in Israel\": Trumps Leute fürchten angekündigte Ermittlungen"
       ],
       "urls": [
+        "https://www.n-tv.de/sport/fussball/Marc-Kosicke-Juergen-Klopps-Vertrauter-verraet-grossen-Plan-fuers-DFB-Team-id31526748.html",
+        "https://www.n-tv.de/sport/fussball/Kritisch-beaeugter-Klopp-Kumpel-verraet-Plan-fuer-DFB-Team-id31526748.html",
         "https://www.n-tv.de/politik/SPD-will-Bleiberecht-fuer-arbeitende-Gefluechtete-id31518724.html",
-        "https://www.n-tv.de/politik/Trumps-Leute-fuerchten-angekuendigte-Ermittlungen-id31503242.html",
-        "https://www.n-tv.de/politik/Deutschland-muss-wohl-erneut-keine-zusaetzlichen-Fluechtlinge-aufnehmen-id31503432.html",
-        "https://www.n-tv.de/politik/Gen-Z-regelt-gratis-Sneaker-statt-Bildungsgrade-id31497375.html"
+        "https://www.n-tv.de/politik/Trumps-Leute-fuerchten-angekuendigte-Ermittlungen-id31503242.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "curiosity",
@@ -202,68 +235,35 @@
         }
       ]
     },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 51,
+    "spiegel": {
+      "source_id": "spiegel",
+      "source": "Spiegel Online",
+      "bias": "left-liberal",
+      "article_count": 46,
       "sample_titles": [
-        "Schiffbruch vor Senegal: Auf hoher See in den Tod",
-        "+++ Nachrichten im Nahost-Konflikt +++: Tote nach Regenfällen im Gazastreifen",
-        "„Spiegel“ skandalisiert Linke-Engagement: Linke pocht auf den Rechtsstaat",
-        "Pa­läs­ti­nen­se­r:in­nen in Deutschland: Die größte palästinensische Diaspora Europas"
+        "USA: Trumps Regierung prahlt mit angeblicher Rekordzahl an Abschiebungen",
+        "AfD: Und wieder verliert Tino Chrupalla gegen Alice Weidel",
+        "»Die Linke der Hort des Antisemitismus? Das ist doch absurd«– Güner Balci und Janine Wissler im Spitzengespräch",
+        "Autoritarismus-Studie: So sehr bröckelt die Überzeugung, Demokratie sei eine gute Idee"
       ],
       "urls": [
-        "https://taz.de/Schiffbruch-vor-Senegal/!6228922/",
-        "https://taz.de/-Nachrichten-im-Nahost-Konflikt-/!6228554/",
-        "https://taz.de/Spiegel-skandalisiert-Linke-Engagement/!6228217/",
-        "https://taz.de/Palaestinenserinnen-in-Deutschland/!6227936/"
+        "https://www.spiegel.de/ausland/usa-trumps-regierung-prahlt-mit-angeblicher-rekordzahl-an-abschiebungen-a-fcedd355-bad6-42e2-bd9a-1de4543fea8c#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/afd-und-wieder-verliert-tino-chrupalla-gegen-alice-weidel-a-9a3a1300-2e9a-4b20-8043-97b1d06e4149#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/die-linke-der-hort-des-antisemitismus-das-ist-doch-absurd-guener-balci-und-janine-wissler-im-spitzengespraech-a-d725b371-5965-40e9-8450-5617999e8dad#ref=rss",
+        "https://www.spiegel.de/panorama/gesellschaft/autoritarismus-studie-so-sehr-broeckelt-die-ueberzeugung-demokratie-sei-eine-gute-idee-a-85bd6c2b-e2b1-44f3-811a-7ff1085fd442#ref=rss"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "admiration",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "admiration",
           "count": 4
         },
         {
-          "emotion": "surprise",
+          "emotion": "anger",
           "count": 1
         },
         {
-          "emotion": "fear",
-          "count": 1
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 44,
-      "sample_titles": [
-        "Polizei-Boss bei Lanz über Migranten-Gewalt - „In Deutschland kann ich mich austoben!“",
-        "Tausende Flüchtlinge kommen mit Booten - „Kanareninsel wurde zum Hotspot einer Invasion“",
-        "Ukraine spaltet stärker als Migration - Jeder fünfte Deutsche ist prorussisch",
-        "Asylrecht - So können Syrer Abschiebung um 3,5 Jahre verzögern"
-      ],
-      "urls": [
-        "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/halloween-krawalle-kopelke-warnt-vor-unfassbar-viel-angst-6af3c92b42c2bfde5b9937a6",
-        "https://www.bild.de/news/tausende-fluechtlinge-kommen-mit-booten-kanareninsel-wurde-zum-hotspot-einer-invasion-6af3377542c2bfde5b9931d4",
-        "https://www.bild.de/politik/inland/bitter-fuer-die-ukraine-jeder-fuenfte-deutsche-ist-laut-umfrage-prorussisch-6af31c0db9cef129a20e0ff6",
-        "https://www.bild.de/politik/inland/asylrecht-mit-legalen-tricks-koennen-syrer-ihre-abschiebung-um-3-5-jahre-verzoegern-6aeb234db1907deb6c941961"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
-        {
-          "emotion": "fear",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
+          "emotion": "disgust",
           "count": 1
         }
       ]
@@ -274,16 +274,16 @@
       "bias": "conservative-liberal",
       "article_count": 44,
       "sample_titles": [
+        "Weniger Migranten, härtere Strafen, tieferes Rentenalter: Das möchten Le Pen und Bardella für Frankreich",
+        "BILDSTRECKE - Tausende von Migranten erreichen die Kanarischen Inseln – Bilder einer humanitären Krise",
         "VIDEO - Benzinpreise, Abschiebungen und Israel: Trump äussert sich beim CBS-Interview zur Wahlniederlage der Republikaner – die wichtigsten Punkte",
-        "Knapp 7000 Migranten in einer Woche: Die Kanarischen Inseln rufen den Notstand aus",
-        "DER ANDERE BLICK - Schluss mit dem Klein-Klein: Die Bundesregierung muss selber abschieben",
-        "Feuer im Bundesasylzentrum in Zürich ausgebrochen – vier Personen im Spital"
+        "Knapp 7000 Migranten in einer Woche: Die Kanarischen Inseln rufen den Notstand aus"
       ],
       "urls": [
+        "https://www.nzz.ch/international/frankreich-wahlen-2027-das-programm-von-le-pen-und-bardella-ld.10060676",
+        "https://www.nzz.ch/fotografie/tausende-von-migranten-erreichen-die-kanarischen-inseln-bilder-einer-humanitaeren-krise-ld.10060510",
         "https://www.nzz.ch/shorts/benzinpreise-abschiebungen-und-israel-trump-aeussert-sich-beim-cbs-interview-zur-wahlniederlage-der-republikaner-die-wichtigsten-punkte-ld.10060068",
-        "https://www.nzz.ch/international/knapp-7000-migranten-in-einer-woche-die-kanarischen-inseln-rufen-den-notstand-aus-ld.10058957",
-        "https://www.nzz.ch/der-andere-blick/schluss-mit-dem-klein-klein-die-bundesregierung-muss-selber-abschieben-ld.10058158",
-        "https://www.nzz.ch/zuerich/zuerich-brand-im-bundesasylzentrum-ld.10058950"
+        "https://www.nzz.ch/international/knapp-7000-migranten-in-einer-woche-die-kanarischen-inseln-rufen-den-notstand-aus-ld.10058957"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -292,77 +292,44 @@
           "count": 6
         },
         {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
           "emotion": "curiosity",
           "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 3
         }
       ]
     },
-    "spiegel": {
-      "source_id": "spiegel",
-      "source": "Spiegel Online",
-      "bias": "left-liberal",
-      "article_count": 42,
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 43,
       "sample_titles": [
-        "USA: Donald Trump räumt Fehler bei Abschiebepolitik ein – »war zu hart«",
-        "Seenotrettung: Das ist meine Nachbarin Wibke. Warum verlässt sie ihre Wohlstandsbubble, um Menschen im Mittelmeer zu retten?",
-        "USA: Bürgermeister von Houston schränkt Zusammenarbeit mit ICE an",
-        "»Gen Z regelt«: Woher kam die Gewalt? Ein Forscher hat Antworten"
+        "Brisante E-Mail-Umfrage bei Mitarbeitern - NRW will mehr Mitarbeiter mit Migrationshintergrund",
+        "Neue Zahlen zur Syrien-Migration - Schwarz-Rot schob bisher nur einen Gefährder ab",
+        "3. Asylheim in Stuttgarter Stadtteil - In dieses Bürohaus sollen 1800 Flüchtlinge ziehen",
+        "Polizei-Boss bei Lanz über Migranten-Gewalt - „In Deutschland kann ich mich austoben!“"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/usa-donald-trump-raeumt-fehler-bei-abschiebepolitik-ein-war-zu-hart-a-1639fc22-1bc7-4081-aae3-e45202f1b355#ref=rss",
-        "https://www.spiegel.de/panorama/seenotrettung-das-ist-meine-nachbarin-wibke-warum-verlaesst-sie-ihre-wohlstandsbubble-um-menschen-im-mittelmeer-zu-retten-a-3e472337-d152-496a-8672-0a5fb4122196#ref=rss",
-        "https://www.spiegel.de/ausland/usa-buergermeister-von-houston-schraenkt-zusammenarbeit-mit-ice-an-a-905e8f8f-0170-477d-8076-6ce5900f3cb6#ref=rss",
-        "https://www.spiegel.de/panorama/gesellschaft/gen-z-regelt-woher-kam-die-gewalt-ein-forscher-hat-antworten-a-ed9f79d7-1c9e-469a-9f36-b6822701ea56#ref=rss"
+        "https://www.bild.de/politik/inland/nrw-ministerien-beschaeftigte-sollen-einwanderungsgeschichte-ankreuzen-6af3306242c2bfde5b9930ed",
+        "https://www.bild.de/politik/inland/schwarz-rot-schob-bisher-nur-einen-von-ueber-50-gefaehrdern-aus-syrien-ab-6af604d450175c81de7a44e0",
+        "https://www.bild.de/regional/stuttgart/3-asylheim-in-stadtteil-entsteht-in-diesen-buerokomplex-sollen-1800-fluechtlinge-ziehen-6af1ece579e1656222c37da5",
+        "https://www.bild.de/politik/politik-talkshows-im-tv-talk-kritik/halloween-krawalle-kopelke-warnt-vor-unfassbar-viel-angst-6af3c92b42c2bfde5b9937a6"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "admiration",
-          "count": 4
+          "emotion": "curiosity",
+          "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "optimism",
           "count": 1
         },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 32,
-      "sample_titles": [
-        "Migration: SPD fordert verlässliches Bleiberecht für arbeitende Geflüchtete",
-        "Hilferuf von den Kanaren: Regionalpräsident schlägt Alarm wegen Migranten",
-        "Nach Regenfällen: Zeltstadt in Gaza unter Wasser",
-        "Klimawandel: UNHCR sieht knapp 90 Millionen Geflüchtete durch Klimawandel bedroht"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-11/bleiberecht-gefluechtete-spd-bundestag-arbeit-ausbildung-duldung",
-        "https://www.zeit.de/video/2026-11/hilferuf-von-den-kanaren-regionalpraesident-schlaegt-alarm-wegen-migranten",
-        "https://www.zeit.de/video/2026-11/nach-regenfaellen-zeltstadt-in-gaza-unter-wasser",
-        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/unhcr-fluechtlinge-klimawandel-klimagefahren-ostafrika"
-      ],
-      "dominant_emotion": "fear",
-      "top_emotions": [
         {
           "emotion": "fear",
-          "count": 2
-        },
-        {
-          "emotion": "confusion",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
           "count": 1
         }
       ]
@@ -371,18 +338,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 28,
+      "article_count": 31,
       "sample_titles": [
-        "CEUTA: Die Folgen für Europas Asylpolitik",
-        "Bedrohte Rüstungsfirmen | AfD-Schlammschlacht",
-        "Ceuta: Politischer Streit, menschliche Schicksale",
-        "Trump bezeichnet eigenen Abschiebekurs als \"zu hart\""
+        "Debatte über AfD-Antrag zur Migrationspolitik",
+        "Vorstellung des 15. Integrationsberichts mit Natalie Pawlik und Prof. Frank Kalter",
+        "Integration: 81 Prozent identifizieren sich mit Deutschland",
+        "CEUTA: Die Folgen für Europas Asylpolitik"
       ],
       "urls": [
-        "https://www.zdfheute.de/video/frontal/ceuta-und-die-folgen-fuer-europas-asylpolitik-100.html",
-        "https://www.zdf.de/video/magazine/frontal-das-magazin-100/frontal-vom-10-november-2026-100",
-        "https://www.zdfheute.de/politik/ausland/ceuta-massenflucht-streit-folgen-europa-100.html",
-        "https://www.zdfheute.de/politik/ausland/usa-trump-midterms-abschiebungen-einwanderung-ice-100.html"
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5247418",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5247157",
+        "https://www.zdfheute.de/politik/integration-integrationsbericht-migration-100.html",
+        "https://www.zdfheute.de/video/frontal/ceuta-und-die-folgen-fuer-europas-asylpolitik-100.html"
       ],
       "dominant_emotion": "anger",
       "top_emotions": [
@@ -400,22 +367,55 @@
         }
       ]
     },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 28,
+      "sample_titles": [
+        "Skandal um Nvidia: Nvidia war Jensen Huang – was wird Nvidia jetzt?",
+        "Migration: SPD fordert verlässliches Bleiberecht für arbeitende Geflüchtete",
+        "Hilferuf von den Kanaren: Regionalpräsident schlägt Alarm wegen Migranten",
+        "Nach Regenfällen: Zeltstadt in Gaza unter Wasser"
+      ],
+      "urls": [
+        "https://www.zeit.de/politik/2026-11/skandal-nvidia-affaeren-jensen-huang-nachrichtenpodcast",
+        "https://www.zeit.de/politik/deutschland/2026-11/bleiberecht-gefluechtete-spd-bundestag-arbeit-ausbildung-duldung",
+        "https://www.zeit.de/video/2026-11/hilferuf-von-den-kanaren-regionalpraesident-schlaegt-alarm-wegen-migranten",
+        "https://www.zeit.de/video/2026-11/nach-regenfaellen-zeltstadt-in-gaza-unter-wasser"
+      ],
+      "dominant_emotion": "fear",
+      "top_emotions": [
+        {
+          "emotion": "fear",
+          "count": 2
+        },
+        {
+          "emotion": "confusion",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
       "article_count": 26,
       "sample_titles": [
-        "Ausschreitungen in Frankfurt: Poseck verteidigt seine Aussagen zu Migrationshintergrund",
-        "Migrationspolitik: Bargeldobergrenze bei Bezahlkarte für Asylsuchende fällt",
-        "Nach Geheimdienstwarnung: Großeinsatz an Polens Grenze zu Kaliningrad",
-        "Nach Gewaltnacht: Migrantische Chaoten? Pistorius hinterfragt Dobrindt-Aussage"
+        "Stephen und Katie Miller: Das fieseste Powercouple Washingtons",
+        "Für abgelehnte Asylbewerber: Frederiksen: Rückkehrzentren rücken näher",
+        "Zahlen zur Migration: Eingewanderte Menschen häufiger erwerbstätig als früher",
+        "Ausschreitungen in Frankfurt: Poseck verteidigt seine Aussagen zu Migrationshintergrund"
       ],
       "urls": [
-        "https://www.stern.de/gesellschaft/regional/hessen/ausschreitungen-in-frankfurt--poseck-verteidigt-seine-aussagen-zu-migrationshintergrund-38530982.html",
-        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/migrationspolitik--bargeldobergrenze-bei-bezahlkarte-fuer-asylsuchende-faellt-38500106.html",
-        "https://www.stern.de/politik/ausland/polen--grosseinsatz-an-grenze-zu-kaliningrad-nach-geheimdienstwarnung-38495274.html",
-        "https://www.stern.de/gesellschaft/regional/hessen/nach-gewaltnacht--migrantische-chaoten--pistorius-hinterfragt-dobrindt-aussage-38486370.html"
+        "https://www.stern.de/politik/ausland/stephen-miller-und-katie--das-fieseste-paar-in-der-trump-regierung-38536644.html",
+        "https://www.stern.de/politik/ausland/fuer-abgelehnte-asylbewerber--frederiksen--rueckkehrzentren-ruecken-naeher-38540190.html",
+        "https://www.stern.de/wirtschaft/news/zahlen-zur-migration--eingewanderte-menschen-haeufiger-erwerbstaetig-als-frueher-38534080.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/ausschreitungen-in-frankfurt--poseck-verteidigt-seine-aussagen-zu-migrationshintergrund-38530982.html"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -437,24 +437,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 16,
+      "article_count": 18,
       "sample_titles": [
+        "Deep Read: Das Wunder von Polen: Hat der lange Boom seinen Höhepunkt erreicht?",
+        "Migration: Mehr Beschäftigte: Zuwanderung stabilisiert deutschen Arbeitsmarkt",
         "Midterms: US-Demokraten nehmen nach Wahlsieg Musk und Trump-Vertraute ins Visier",
-        "Migration: AfD-Chef Chrupalla geht überraschend auf Distanz zu Trumps Politik",
-        "+++ US-Midterms +++: Trump will Ermittlungen gegen Demokraten – „bedrohen viele Menschen“",
-        "Östliches Mittelmeer: Griechenland erwägt Asylstopp für Menschen aus Nordafrika – Setzen Türkei und Ostlibyen Migration als Hebel ein?"
+        "Migration: AfD-Chef Chrupalla geht überraschend auf Distanz zu Trumps Politik"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/international/polen-hat-polens-boom-seinen-hoehepunkt-ueberschritten/100264328.html",
+        "https://www.handelsblatt.com/politik/deutschland/migration-zuwanderung-stabilisiert-deutschen-arbeitsmarkt/100269023.html",
         "https://www.handelsblatt.com/politik/international/midterms-us-demokraten-nehmen-nach-wahlsieg-musk-und-trump-vertraute-ins-visier/100268255.html",
-        "https://www.handelsblatt.com/politik/deutschland/migration-afd-chef-chrupalla-geht-ueberraschend-auf-distanz-zu-trumps-politik/100268227.html",
-        "https://www.handelsblatt.com/politik/international/nach-us-midterms-trump-will-ermittlungen-gegen-demokraten-bedrohen-viele-menschen/29669594.html",
-        "https://www.handelsblatt.com/politik/international/migration-griechenland-erwaegt-asylstopp-fuer-migranten-aus-nordafrika/100267384.html"
+        "https://www.handelsblatt.com/politik/deutschland/migration-afd-chef-chrupalla-geht-ueberraschend-auf-distanz-zu-trumps-politik/100268227.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 2
+          "count": 4
         },
         {
           "emotion": "confusion",
@@ -503,7 +503,7 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 8,
+      "article_count": 7,
       "sample_titles": [
         "Die verdrängte Wahrheit über Europas Problemviertel",
         "Träumt hier einer vom Ausnahmezustand?",
@@ -525,10 +525,6 @@
         {
           "emotion": "fear",
           "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
         }
       ]
     },
@@ -538,16 +534,16 @@
       "bias": "conservative-liberal",
       "article_count": 6,
       "sample_titles": [
+        "Ausländeranteil am Bürgergeld - Der Sozial- und Einwanderungstaat institutionalisiert seine Überforderung",
         "Bundestag debattiert über die Generation Z - Die einen sehen Jugendproteste, die anderen Migrantengewalt",
         "Boris Pistorius (SPD) will von „migrantischen Gruppen“ nichts wissen - Wenn die eigene Sprachlosigkeit den Blick auf die Realität vernebelt",
-        "Leben in der Einwanderungsgesellschaft - „Menschen lassen ihre Geschichte nicht an der Grenze zurück“",
-        "Frankreich zwischen Linksextremismus und migrantischer Gewalt - „Eine Republik, die sich ihrer schämt, kann nicht verlangen, geliebt zu werden“"
+        "Leben in der Einwanderungsgesellschaft - „Menschen lassen ihre Geschichte nicht an der Grenze zurück“"
       ],
       "urls": [
+        "https://www.cicero.de/innenpolitik/auslanderanteil-burgergeld-grundsicherung",
         "https://www.cicero.de/innenpolitik/bundestag-debattiert-uber-die-generation-z-protest-und-krawall",
         "https://www.cicero.de/innenpolitik/boris-pistorius-spd-will-von-migrantischen-gruppen-nichts-wissen-wenn-die-eigene-sprachlosigkeit-den-blick-auf-die-realitat-vernebelt",
-        "https://www.cicero.de/kultur/menschen-lassen-ihre-geschichten-nicht-an-der-grenze-zuruck",
-        "https://www.cicero.de/aussenpolitik/frankreich-zwischen-linksextremismus-und-migrantischer-gewalt-eine-republik-die-sich-ihrer-schamt-kann-nicht-verlangen-geliebt-zu-werden"
+        "https://www.cicero.de/kultur/menschen-lassen-ihre-geschichten-nicht-an-der-grenze-zuruck"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -556,7 +552,7 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 5,
+      "article_count": 4,
       "sample_titles": [
         "Prien fordert nach Jugendprotesten Debatte über Integration in Deutschland",
         "2,6 Millionen Menschen mit türkischen Wurzeln in Deutschland",
@@ -569,34 +565,29 @@
         "https://www.dw.com/de/ice-beamter-schießt-in-new-york-auf-mann-im-auto/a-79608948?maca=de-rss-de-news-1089-xml-mrss",
         "https://www.dw.com/de/zahl-der-asylanträge-in-der-eu-um-fast-ein-viertel-gesunken/a-79536199?maca=de-rss-de-news-1089-xml-mrss"
       ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 1
-        }
-      ]
+      "dominant_emotion": "neutral",
+      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "populist-mixed": 44,
-    "right-conservative": 180,
+    "conservative-liberal": 126,
     "left-liberal": 115,
+    "far-right": 182,
+    "left": 54,
     "neutral": 90,
-    "far-right": 180,
-    "conservative-liberal": 124,
-    "left": 51,
-    "economic-liberal": 16
+    "right-conservative": 172,
+    "populist-mixed": 43,
+    "economic-liberal": 18
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird Migration häufig mit Fragen der öffentlichen Sicherheit verknüpft, wobei sowohl linke als auch rechte Beiträge wiederholt von Gewalttaten oder kriminellen Vorfällen mit Migrationshintergrund berichten und daraus Forderungen nach strengeren Kontrollen oder schnelleren Abschiebungsverfahren ableiten. Gleichzeitig finden sich in nahezu allen redaktionellen Lagern einheitliche Hinweise auf die Belastungen an den europäischen Außengrenzen – insbesondere die Situation auf den Kanarischen Inseln und im Mittelmeer – und die damit verbundene Notwendigkeit einer koordinierten EU‑Politik, die sowohl die Abschreckung von Schleusernetzwerken als auch die humanitäre Aufnahme reguliert. Darüber hinaus besteht ein breiter Konsens darüber, dass ein verlässliches Bleiberecht für erwerbstätige Geflüchtete als integratives Element betrachtet wird, das sowohl ökonomische Interessen als auch soziale Stabilität stärken soll.",
-      "controversial_points": ""
+      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung einheitlich betont, dass die steigende Zahl von Asylverfahren und Abschiebungen die bestehenden Verwaltungskapazitäten überfordert und dringliche Reformen im Asylsystem erforderlich macht, wobei sowohl konservative als auch linke Beiträge auf lange Bearbeitungszeiten und unklare Zuständigkeiten hinweisen. Gleichzeitig finden sich in nahezu allen Medienberichten übereinstimmende Hinweise darauf, dass Sicherheitsvorfälle, die mit Migranten in Verbindung gebracht werden, das öffentliche Vertrauen in die Integrationspolitik erschüttern und eine stärkere Kontrolle an den Grenzen sowie konsequentere Durchsetzung von Abschiebungen fordern. Darüber hinaus wird in den meisten Artikeln die demografische und wirtschaftliche Bedeutung von qualifizierten Zuwanderern hervorgehoben und ein breiter Konsens darüber geäußert, dass gezielte Fachkräftezuwanderung zur Stabilisierung des Arbeitsmarktes beitragen kann.",
+      "controversial_points": "Die Debatte spaltet zwischen sicherheitsorientierter Restriktion und humanitärer Öffnung. Rechtskonservative Medien betonen Abschiebungen, Grenzkontrollen und Belastungen für Sozialsysteme. Linke und progressive Stimmen fokussieren Integration, Antidiskriminierung und Verantwortung gegenüber internationalen Schutzverpflichtungen. Der Streit um Asylverfahren entsteht an der Schnittstelle von Rechtsstaatlichkeit, politischer Populismus und ökonomischen Interessen."
     },
     "en": {
-      "shared_perspectives": "German media, from left‑liberal to conservative, consistently portray the recent spikes in arrivals—particularly on the Canary Islands and at border points—as a pressing strain on housing, health and public‑order capacities that demands a coordinated state response. At the same time, outlets across the spectrum repeatedly link migration to public‑safety debates, foregrounding criminal incidents involving migrants as evidence for tightening asylum procedures and accelerating deportations. Finally, there is a broad consensus that the existing asylum framework is inefficient, prompting calls for clearer legal rules, faster processing and reliable bilateral return agreements to restore procedural predictability.",
-      "controversial_points": "The core conflict pits national security concerns against humanitarian obligations. Right-wing outlets link migration to crime and cultural erosion, while left-leaning media stress integration and anti‑racist narratives. The debate over legal status divides parties between restrictive asylum reforms and calls for guaranteed work‑based residency. Media framing of border incidents creates a tension between sovereignty demands and EU solidarity responsibilities."
+      "shared_perspectives": "German media, from left‑liberal to conservative, uniformly treat migration as a pressing political problem that combines security concerns with integration imperatives, repeatedly highlighting the strain on the asylum system through record‑high deportations and lengthy procedural backlogs. At the same time, they converge on the assessment that migrants are essential for stabilising the German labour market and that a large majority of newcomers already identify with Germany, underscoring a shared narrative that effective integration, not exclusion, is the pragmatic solution.",
+      "controversial_points": "The clash between national security concerns and humanitarian obligations defines the core debate. Conservative outlets link migration to crime and cultural erosion, while left‑leaning media emphasize integration benefits and anti‑racist solidarity. Legal disputes over border controls and deportation procedures expose tension between EU rule of law and domestic political pressure. Economic arguments about labor shortages clash with welfare costs, creating a divide between business‑friendly liberals and social‑democratic critics."
     }
   },
-  "cached_at": "2026-11-11T12:10:01.929547"
+  "cached_at": "2026-11-14T11:40:33.042292"
 }

@@ -1,31 +1,64 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 608,
-  "candidate_count": 608,
+  "article_count": 629,
+  "candidate_count": 629,
   "outlets": {
+    "tagesschau": {
+      "source_id": "tagesschau",
+      "source": "Tagesschau (ARD)",
+      "bias": "neutral",
+      "article_count": 77,
+      "sample_titles": [
+        "Die USA fehlen - sind aber dennoch präsent",
+        "Deutschland nur noch Mittelmaß",
+        "Feuer und Explosionen an der RWTH Aachen",
+        "Windpark als Ruine in der Eifel: Kommunen bleiben vorerst auf 700.000 Euro sitzen"
+      ],
+      "urls": [
+        "https://www.tagesschau.de/ausland/amerika/cop31-usa-tuerkei-100.html",
+        "https://www.tagesschau.de/inland/gesellschaft/klimaschutz-klimaziele-deutschland-100.html",
+        "https://www1.wdr.de/nrw/aachen-eifel/staedteregion-aachen/rwth-aachen-wissenschaftsnacht-experimente-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/windpark-ruine-in-der-eifel-kommunen-bleiben-vorerst-auf-kosten-sitzen-100.html"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 12
+        },
+        {
+          "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 3
+        }
+      ]
+    },
     "ntv": {
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 69,
+      "article_count": 67,
       "sample_titles": [
-        "Förderung neuer Gaskraftwerke: Reiche plant strengere Vorgaben für Kohle-Umrüstung",
-        "Geberkonferenz in Frankreich: Millionenhilfe für Tschernobyl-Schutzhülle nach Drohneneinschlag",
-        "Kohlestrom ohne Ausstiegsplan: Türken machen vor Weltklimagipfel mobil gegen \"Grube der Hölle\"",
-        "\"Risiko nicht eingehen\": Experten sehen Versorgungssicherheit in NRW durch Kohleausstieg gefährdet"
+        "Uran für britische Atom-U-Boote?: Militärisch wichtig: Bund plant Einstieg bei Atomfirma Urenco",
+        "War in Sperrbereich geklettert: Störer einer AKW-Sprengung muss Schadensersatz zahlen",
+        "\"Enorme Chance\": Deutschland belegt Platz zwei bei Klimatechnik-Exporten",
+        "Förderung neuer Gaskraftwerke: Reiche plant strengere Vorgaben für Kohle-Umrüstung"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Reiche-plant-strengere-Vorgaben-fuer-Kohle-Umruestung-id31519313.html",
-        "https://www.n-tv.de/politik/Millionenhilfe-fuer-Tschernobyl-Schutzhuelle-nach-Drohneneinschlag-id31518493.html",
-        "https://www.n-tv.de/politik/Tuerken-machen-vor-Weltklimagipfel-mobil-gegen-Grube-der-Hoelle-id31508042.html",
-        "https://www.n-tv.de/wirtschaft/Experten-sehen-Versorgungssicherheit-in-NRW-durch-Kohleausstieg-gefaehrdet-id31507021.html"
+        "https://www.n-tv.de/politik/Militaerisch-wichtig-Bund-plant-Einstieg-bei-Atomfirma-Urenco-id31531787.html",
+        "https://www.n-tv.de/panorama/Stoerer-einer-AKW-Sprengung-muss-Schadensersatz-zahlen-id31525392.html",
+        "https://www.n-tv.de/wirtschaft/Deutschland-ist-weltweit-zweitwichtigster-Exporteur-von-Klimatechnologien-id31519951.html",
+        "https://www.n-tv.de/wirtschaft/Reiche-plant-strengere-Vorgaben-fuer-Kohle-Umruestung-id31519313.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "annoyance",
@@ -37,68 +70,35 @@
         }
       ]
     },
-    "tagesschau": {
-      "source_id": "tagesschau",
-      "source": "Tagesschau (ARD)",
-      "bias": "neutral",
-      "article_count": 69,
-      "sample_titles": [
-        "Wie Windräder Erdbebenmessstationen in der Eifel stören könnten",
-        "Wärmepumpen können sich auch für ältere Häuser lohnen",
-        "FAQ: Wo kann Berlin seine Windräder aufstellen?",
-        "Wie gefährlich ist Rheinwasser für Tagebauseen?"
-      ],
-      "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/trier/wie-windraeder-erdbebenmessstationen-in-der-vulkaneifel-beeintraechtigen-koennten-100.html",
-        "https://www.rbb24.de/wirtschaft/beitrag/2026/11/waermepumpen-auch-in-aelteren-haeusern.html",
-        "https://www.rbb24.de/politik/beitrag/2026/11/berlin-windenergie-windraeder-flaechen-beteiligung-pankow-koepenick-spandau-faq.html",
-        "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/tagebau-see-rheinwasser-chemikalien-100.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 10
-        },
-        {
-          "emotion": "optimism",
-          "count": 4
-        },
-        {
-          "emotion": "approval",
-          "count": 3
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 62,
+      "article_count": 65,
       "sample_titles": [
-        "Asien: Chinesische Firmen halten an Deutschland fest",
-        "Energiewende: Neue Kraftwerksausschreibung: Reiche präzisiert Regeln für Kohlekraftwerke",
-        "Energiewende: Rüge für Reiche: Kartellamt kritisiert Vergabe von Back-up-Kraftwerken",
-        "Klimaschutz: CO₂‑Emissionen aus fossilen Brennstoffen sinken leicht"
+        "Energiepolitik: Bund steigt bei britischem Brennelemente-Hersteller ein",
+        "Kommentar: Ohne Kohle und Atom sitzt Deutschland in der Sackgasse",
+        "Energiepolitik: Verheißung Kernkraft: Neue Debatte über Atomenergie entbrannt",
+        "Energiewende: Strafen für Netzbetreiber? So soll der Ausbau schneller werden"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/asien-chinesische-firmen-halten-an-deutschland-fest/100268923.html",
-        "https://www.handelsblatt.com/politik/deutschland/energiewende-neue-kraftwerksausschreibung-reiche-praezisiert-regeln-fuer-kohlekraftwerke/100268900.html",
-        "https://www.handelsblatt.com/politik/deutschland/energiewende-kartellamt-kritisiert-vergabe-von-back-up-kraftwerken/100268781.html",
-        "https://www.handelsblatt.com/politik/deutschland/klimaschutz-coemissionen-aus-fossilen-brennstoffen-sinken-leicht/100267030.html"
+        "https://www.handelsblatt.com/politik/deutschland/energiepolitik-bund-steigt-bei-britischem-brennelemente-hersteller-ein/100269531.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-ohne-kohle-und-atom-sitzt-deutschland-in-der-sackgasse/100269206.html",
+        "https://www.handelsblatt.com/politik/deutschland/energiepolitik-neue-debatte-ueber-atomenergie-entbrannt/100268806.html",
+        "https://www.handelsblatt.com/politik/deutschland/energiewende-strafen-fuer-netzbetreiber-so-soll-der-ausbau-schneller-werden/100268508.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 10
+          "count": 9
         },
         {
-          "emotion": "fear",
+          "emotion": "confusion",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "fear",
           "count": 1
         }
       ]
@@ -107,18 +107,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 57,
+      "article_count": 61,
       "sample_titles": [
-        "+++ Nachrichten im Ukraine-Krieg +++: Kraftwerk läuft mit Notstrom",
-        "Klimapolitik vor der COP31: Rechte Regierungen machen Rolle rückwärts",
-        "Kreislaufwirtschaft: Klimaneutral, kinderneutral, demokratieneutral",
-        "Die Klima-News der Woche: Braucht die Energiewende wirklich neue Gaskraftwerke?"
+        "UN-Generalsekretär Guterres teilt aus: Milliardengewinne „moralisch inakzeptabel“",
+        "Ausstieg aus dem Atomausstieg: Bund will sich an Atomfirma Urenco beteiligen",
+        "Berechnungen von Climate Action Tracker: Dem Planeten drohen 2,7 Grad",
+        "Zuschüsse für Stromnetze: Milliarden für die Betreiber"
       ],
       "urls": [
-        "https://taz.de/-Nachrichten-im-Ukraine-Krieg-/!6228502/",
-        "https://taz.de/Klimapolitik-vor-der-COP31/!6227177/",
-        "https://taz.de/Kreislaufwirtschaft/!6216561/",
-        "https://taz.de/Die-Klima-News-der-Woche/!6172016/"
+        "https://taz.de/UN-Generalsekretaer-Guterres-teilt-aus/!6229778/",
+        "https://taz.de/Austieg-aus-dem-Atomausstieg/!6229823/",
+        "https://taz.de/Berechnungen-von-Climate-Action-Tracker/!6229491/",
+        "https://taz.de/Zuschuesse-fuer-Stromnetze/!6229526/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -136,88 +136,22 @@
         }
       ]
     },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 55,
-      "sample_titles": [
-        "Kritik aus der Chemie: Deutschlands Öko-Korporatismus gerät ins Wanken",
-        "Mélenchon präsentiert Agenda: Raus aus der Atomkraft, rein in sozialistisches Elend",
-        "Graichen empört die Union – während die CDU weiterhin Habecks grünen Machtapparat absichert",
-        "Neue Gasleitung fast fertig: Die neue Abhängigkeit am Neckar"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/kritik-chemie-deutschlands-oeko-korporatismus-wankt/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/melenchon-praesentiert-sozialistisches-elend/",
-        "https://www.tichyseinblick.de/daili-es-sentials/cdu-spielt-opposition-graichen-habeck-mueller/",
-        "https://www.tichyseinblick.de/meinungen/neue-gasleitung-am-neckar/"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 2
-        }
-      ]
-    },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 55,
-      "sample_titles": [
-        "Weltklimakonferenz: Die Union sollte der SPD nicht die Klimakonferenz überlassen",
-        "Frankreich Speerspitze: Finanzkonzerne treiben die Nachhaltigkeit voran",
-        "Energieversorgung: Deutschlands riskante Erdgas-Wette",
-        "Energieerzeugung: Wie China es schafft, weniger CO₂ auszustoßen"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/cop31-in-antalya-warum-deutschlands-schwache-praesenz-ein-fehler-ist-201663163.html",
-        "https://www.faz.net/aktuell/wirtschaft/frankreich-bei-nachhaltigkeit-vorn-warum-esg-ratings-ueberraschen-accg-201654225.html",
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-und-die-leeren-gasspeicher-deutschlands-riskante-wette-201646419.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/wie-china-es-schafft-weniger-co-auszustossen-accg-201657271.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 9
-        },
-        {
-          "emotion": "curiosity",
-          "count": 4
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
     "stern": {
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 54,
+      "article_count": 57,
       "sample_titles": [
-        "Gasversorgung: Was bringt eine Gasreserve? Kabinettsbeschluss erwartet",
-        "Mehr als 300 Millionen Euro für Reparatur von Tschernobyl-Schutzhülle zugesagt",
-        "Tabakwaren: Zigaretten-Freimenge aus EU-Ausland könnte deutlich sinken",
-        "Strom aus 4000 Metern Höhe?: China testet Windkraft-Zeppelin über Millionenstadt"
+        "Energiewende: Produktion von Sonnenstrom steuert auf Rekord zu",
+        "Kommunalfinanzen: BSW beantragt zinsgünstige Kredite für Sachsens Kommunen",
+        "Guterres nennt Milliarden-Gewinne von Energiekonzernen „moralisch inakzeptabel“",
+        "Führerschein weg: Lkw kracht in Zaun: Flüssiggastank knapp verfehlt"
       ],
       "urls": [
-        "https://www.stern.de/wirtschaft/news/gasversorgung--was-bringt-eine-gasreserve--kabinettsbeschluss-erwartet-38531504.html",
-        "https://www.stern.de/news/mehr-als-300-millionen-euro-fuer-reparatur-von-tschernobyl-schutzhuelle-zugesagt-38530766.html",
-        "https://www.stern.de/wirtschaft/news/tabakwaren--zigaretten-freimenge-aus-eu-ausland-koennte-deutlich-sinken-38519604.html",
-        "https://www.stern.de/wirtschaft/news/china-testet-windkraft-zeppelin-ueber-millionenstadt---4000-meter-hoch-38514758.html"
+        "https://www.stern.de/wirtschaft/news/energiewende--produktion-von-sonnenstrom-steuert-auf-rekord-zu-38550120.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen/kommunalfinanzen--bsw-beantragt-zinsguenstige-kredite-fuer-sachsens-kommunen-38547086.html",
+        "https://www.stern.de/news/guterres-nennt-milliarden-gewinne-von-energiekonzernen--moralisch-inakzeptabel--38543618.html",
+        "https://www.stern.de/gesellschaft/regional/hessen/fuehrerschein-weg--lkw-kracht-in-zaun--fluessiggastank-knapp-verfehlt-38537000.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -235,22 +169,88 @@
         }
       ]
     },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 57,
+      "sample_titles": [
+        "Energiegesetz geändert: Aus für Windräder im Taunus",
+        "Erhöhung für 2027: Mainova kündigt höhere Strompreise an",
+        "Deutschland Liveblog: CSU und Freie Wähler schwächen bayerisches Klimagesetz ab",
+        "Neue Kraftwerke: Peinliche Erdgas-Flickschusterei"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hessen-aendert-energiegesetz-aus-fuer-windraeder-im-taunus-accg-201681253.html",
+        "https://www.faz.net/aktuell/rhein-main/frankfurt/mainova-erhoeht-2027-den-strompreis-gastarife-steigen-fuer-viele-noch-staerker-201676973.html",
+        "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-csu-und-freie-waehler-schwaechen-bayerisches-klimagesetz-ab-faz-110093143.html",
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/kraftwerksstrategie-peinliche-schlamperei-im-ministerium-von-katherina-reiche-201672918.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 9
+        },
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 54,
+      "sample_titles": [
+        "Die neueste grüne Energiewende-Idee: Quoten für Windräder",
+        "EuGH weist Polens Klimaklagen ab – Merz hält am CO2-Preis für Heizen und Tanken fest",
+        "Dunkelflaute treibt Preise über 650 Euro – Europas Stromversorgung unter Druck",
+        "Die Energiewender gehen an ihren Stromsteuern zugrunde"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/daili-es-sentials/gruene-energiewende-idee-quoten-windraeder/",
+        "https://www.tichyseinblick.de/daili-es-sentials/eugh-weist-polens-klimaklagen-ab/",
+        "https://www.tichyseinblick.de/kolumnen/lichtblicke-kolumnen/strompreise-deunkelflaute/",
+        "https://www.tichyseinblick.de/daili-es-sentials/strom-sprit-cdu-spd/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "spiegel": {
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 37,
+      "article_count": 36,
       "sample_titles": [
+        "Urenco: Bund offenbar an Beteiligung an Atomfirma interessiert",
+        "Russlands LNG-Exporte: EU zahlte 2026 schon rund 8,7 Milliarden Euro",
         "Bundeshaushalt 2027: Union will Gegenfinanzierung für Stromsteuersenkung gefunden haben",
-        "Ukraine: Toter bei Drohnenangriff auf AKW Saporischschja",
-        "Mars: Raumsonde entdeckt Chlorwasserstoff nahe uraltem Vulkan",
-        "Sabotageprozess in Hamburg: Nord-Stream-Anschläge hatten offenbar geringen Einfluss auf Deutschlands Gasversorgung"
+        "Ukraine: Toter bei Drohnenangriff auf AKW Saporischschja"
       ],
       "urls": [
+        "https://www.spiegel.de/wirtschaft/urenco-bund-offenbar-an-beteiligung-an-atomfirma-interessiert-a-28840dc3-d226-4424-bd1b-d250f20efd0d#ref=rss",
+        "https://www.spiegel.de/wirtschaft/soziales/russlands-lng-exporte-eu-zahlte-2026-schon-rund-8-7-milliarden-euro-a-7dad7d60-31c6-4076-aa1b-3583b472013c#ref=rss",
         "https://www.spiegel.de/wirtschaft/soziales/bundeshaushalt-2027-union-gegenfinanzierung-fuer-die-stromsteuersenkung-gefunden-haben-a-84521b50-da4c-471c-b043-a833f3d85180#ref=rss",
-        "https://www.spiegel.de/ausland/ukraine-toter-bei-drohnenangriff-auf-akw-saporischschja-a-caee7885-fe31-4813-a2a3-8c99311887a2#ref=rss",
-        "https://www.spiegel.de/wissenschaft/weltall/mars-raumsonde-entdeckt-chlorwasserstoff-nahe-uraltem-vulkan-a-7c5d1a8e-5851-40d2-85ab-21c652653d87#ref=rss",
-        "https://www.spiegel.de/panorama/justiz/sabotageprozess-in-hamburg-nord-stream-anschlaege-hatten-offenbar-geringen-einfluss-auf-deutschlands-gasversorgung-a-f09c6b35-6572-4a02-9df6-1384ce005297#ref=rss"
+        "https://www.spiegel.de/ausland/ukraine-toter-bei-drohnenangriff-auf-akw-saporischschja-a-caee7885-fe31-4813-a2a3-8c99311887a2#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -272,23 +272,27 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 27,
+      "article_count": 29,
       "sample_titles": [
-        "Der globale Energiewende-Boom entlarvt einen Irrtum der Klimapolitik",
-        "Windflaute treibt Strompreise auf bis zu 600 Euro je Megawattstunde",
-        "Habeck und Graichen haben die Interessen des eigenen Landes verraten",
-        "„Ich vertrete deutsche Interessen – dazu zählt, die Erderwärmung zu begrenzen“"
+        "„Diese Gasstände, die historisch niedrig sind, für alles andere als unproblematisch“",
+        "Schwarze Liste für Energiewende-Kritiker? Ein Offenbarungseid für die CDU",
+        "„In den Sack zu hauen, ist keine Option“ – Fegebank will trotz aller Probleme Kurs halten",
+        "„Außergewöhnliche Führungsstärke“ – Wo erneuerbare Energien das Leben verändern"
       ],
       "urls": [
-        "https://www.welt.de/wirtschaft/plus6af1bb2fd0fb1ac9ce0ec719/ausbau-extrem-beschleunigt-der-globale-energiewende-boom-entlarvt-einen-irrtum-der-klimapolitik.html",
-        "https://www.welt.de/wirtschaft/article6af1ad0f79e1656222c37279/erneuerbare-energien-windflaute-treibt-strompreise-auf-bis-zu-600-euro-je-megawattstunde.html",
-        "https://www.welt.de/debatte/plus6aede3941d9d38d6d601b75f/atomausstieg-habeck-und-graichen-haben-die-interessen-des-eigenen-landes-verraten.html",
-        "https://www.welt.de/wissenschaft/plus6ae2f74e063ab7e38a99f936/umweltminister-schneider-ich-vertrete-deutsche-interessen-dazu-zaehlt-die-erderwaermung-zu-begrenzen.html"
+        "https://www.welt.de/wirtschaft/video6af75ab29849eea0701e2114/experte-warnt-diese-gasstaende-die-historisch-niedrig-sind-fuer-alles-andere-als-unproblematisch.html",
+        "https://www.welt.de/debatte/plus6af56d5c50175c81de7a2772/desinformation-schwarze-liste-fuer-energiewende-kritiker-ein-offenbarungseid-fuer-die-cdu.html",
+        "https://www.welt.de/regionales/hamburg/article6af48403db4e2fa8f6eb7a65/klimaneutralitaet-in-den-sack-zu-hauen-ist-keine-option-fegebank-will-trotz-aller-probleme-kurs-halten.html",
+        "https://www.welt.de/politik/ausland/article6af18328eaa675c45847c379/stromversorgung-aussergewoehnliche-fuehrungsstaerke-wo-erneuerbare-energien-das-leben-veraendern.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
           "count": 1
         },
         {
@@ -301,18 +305,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 20,
+      "article_count": 23,
       "sample_titles": [
-        "Daten zum Klimawandel im Überblick",
-        "Pantisano: Klimapolitik der Bundesregierung grenzt an Klimaleugnung",
-        "Warum Indien trotz Solarboom auf Kohle setzt",
-        "Protest, Sabotage, Gewalt"
+        "Debatte zum Erneuerbare-Energien-Gesetz",
+        "Deutschland fällt beim Klimaschutz weiter zurück",
+        "Klimaschutz-Index: Deutschland fällt auf Platz 25",
+        "Daten zum Klimawandel im Überblick"
       ],
       "urls": [
-        "https://www.zdfheute.de/politik/klimawandel-deutschland-welt-folgen-daten-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5246516",
-        "https://www.zdfheute.de/politik/ausland/indien-photovoltaik-solar-boom-erneuerbare-energien-kohle-100.html",
-        "https://www.zdf.de/video/dokus/zdf-info-100/zdfinfo-inside-linksextrem-protest-sabotage-gewalt-100"
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5247315",
+        "https://www.zdfheute.de/video/wissen-klimaschutz-index-deutschland-video-100.html",
+        "https://www.zdfheute.de/wissen/klimaschutz-index-deutschland-vergleich-erneuerbare-energien-energieverbrauch-100.html",
+        "https://www.zdfheute.de/politik/klimawandel-deutschland-welt-folgen-daten-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -326,11 +330,44 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 20,
+      "sample_titles": [
+        "Energieversorgung in Bayern: Gasspeicher so schlecht gefüllt wie nie",
+        "Energiepolitik: Reiche konkretisiert Plan für Gaskraftwerke – heftige Kritik aus dem Süden",
+        "Energiepolitik: Klingbeil lehnt Reiches Spritpreisdeckel als unwirksam ab",
+        "Klimakrise: Allianz: Deutschland und die Welt verpassen Klimaziele"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/bayern/gasspeicher-bayern-fuellstand-leer-winter-heizen-li.3579567",
+        "https://www.sueddeutsche.de/wirtschaft/reiche-gaskraftwerke-ausschreibung-kohle-gas-soeder-oezdemir-li.3578915",
+        "https://www.sueddeutsche.de/politik/spritpreisdeckel-lars-klingbeil-katherina-reiche-energiepolitik-benzinpreis-li.3574952",
+        "https://www.sueddeutsche.de/wissen/allianz-klimaziele-studie-green-transition-tracker-li.3574640"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
     "junge_freiheit": {
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 18,
+      "article_count": 17,
       "sample_titles": [
         "Dunkelflaute treibt Strompreise auf mehr als 600 Euro",
         "„Sicherheitsplattform Strom“ Die Bundesnetzagentur und der Wahnsinn der Energiewende",
@@ -359,77 +396,11 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 18,
-      "sample_titles": [
-        "Energiepolitik: Klingbeil lehnt Reiches Spritpreisdeckel als unwirksam ab",
-        "Klimakrise: Allianz: Deutschland und die Welt verpassen Klimaziele",
-        "Alternative Wärmeversorgung: Zwei Vorträge zu Wärmepumpen",
-        "Energiewende: Windpark in der Förderflaute"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/spritpreisdeckel-lars-klingbeil-katherina-reiche-energiepolitik-benzinpreis-li.3574952",
-        "https://www.sueddeutsche.de/wissen/allianz-klimaziele-studie-green-transition-tracker-li.3574640",
-        "https://www.sueddeutsche.de/muenchen/freising/waermepumpen-freising-volkshochschule-altbau-heizkosten-li.3569715",
-        "https://www.sueddeutsche.de/muenchen/dachau/landkreis-dachau-windkraft-roehrmoos-windpark-vierkirchen-li.3569229"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 18,
-      "sample_titles": [
-        "Woher kommt der Strom? 43. Analysewoche 2026 – verschenkter Strom",
-        "Woher kommt der Strom? 42. Analysewoche 2026 – Trotz Windbuckel Stromimport",
-        "Totaler Blackout im Berliner Lager für radioaktive Abfälle",
-        "Attentäter gefährden kritische Infrastruktur – und der Amtsschimmel wiehert dazu"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/woher_kommt_der_strom_43_analysewoche_2026_versschenkter_strom",
-        "https://www.achgut.com/artikel/woher_kommt_der_strom_42_analysewoche_2026_trotz_windbuckel_stromimport",
-        "https://www.achgut.com/artikel/totaler_blackout_im_berliner_lager_fuer_radioaktive_abfaelle",
-        "https://www.achgut.com/artikel/attentaeter_gefaehrden_deutschlands_kritische_infrastruktur_und_der_amtsschimmel_wiehert_dazu"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 4
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 17,
+      "article_count": 16,
       "sample_titles": [
         "Ganzes Dorf leidet unter Plage - Tauben kacken Solaranlagen kaputt",
         "Bekommen Neukunden wirklich bessere Tarife? - Strompreise auf dem Prüfstand",
@@ -462,18 +433,18 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 13,
+      "article_count": 15,
       "sample_titles": [
+        "KOMMENTAR - Die Grünen wollen Hausbesitzer zur Solaranlage zwingen. Doch die Energiewende mit der Brechstange funktioniert nicht",
+        "Die Grünen wollen die Solarpflicht auf alle Gebäude im Land ausweiten, der Bundesrat ist dagegen und verweist auf die Kantone",
         "Energiesicherheit verdrängt den Klimaschutz als politische Priorität – und die Erneuerbaren boomen",
-        "KOMMENTAR - Europa braucht neue Prioritäten in der Klimapolitik",
-        "Politische Nebenwirkung – Jodtabletten erhöhen die Skepsis gegenüber AKW",
-        "Weniger Strafzahlungen, mehr Zeit für die Klimaziele: Bundesrat Rösti kommt der Autobranche entgegen"
+        "KOMMENTAR - Europa braucht neue Prioritäten in der Klimapolitik"
       ],
       "urls": [
+        "https://www.nzz.ch/meinung/die-gruenen-wollen-hausbesitzer-zur-solaranlage-zwingen-doch-die-energiewende-mit-der-brechstange-funktioniert-nicht-ld.10061067",
+        "https://www.nzz.ch/schweiz/die-gruenen-wollen-die-solarpflicht-auf-alle-gebaeude-im-land-ausweiten-der-bundesrat-ist-dagegen-und-verweist-auf-die-kantone-ld.10060881",
         "https://www.nzz.ch/international/energiesicherheit-verdraengt-den-klimaschutz-als-politische-prioritaet-und-die-erneuerbaren-boomen-ld.10056502",
-        "https://www.nzz.ch/meinung/europa-braucht-mehr-sicherheit-und-wirtschaftlichkeit-in-der-energieversorgung-ld.10052897",
-        "https://www.nzz.ch/schweiz/politische-nebenwirkung-jodtabletten-erhoehen-die-skepsis-gegen-akw-ld.10052841",
-        "https://www.nzz.ch/schweiz/weniger-strafzahlungen-mehr-zeit-fuer-die-klimaziele-bundesrat-roesti-kommt-der-autobranche-entgegen-ld.10054318"
+        "https://www.nzz.ch/meinung/europa-braucht-mehr-sicherheit-und-wirtschaftlichkeit-in-der-energieversorgung-ld.10052897"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -482,11 +453,44 @@
           "count": 3
         },
         {
-          "emotion": "admiration",
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "anger",
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 15,
+      "sample_titles": [
+        "Woher kommt der Strom? 43. Analysewoche 2026 – verschenkter Strom",
+        "Woher kommt der Strom? 42. Analysewoche 2026 – Trotz Windbuckel Stromimport",
+        "Totaler Blackout im Berliner Lager für radioaktive Abfälle",
+        "Attentäter gefährden kritische Infrastruktur – und der Amtsschimmel wiehert dazu"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/woher_kommt_der_strom_43_analysewoche_2026_versschenkter_strom",
+        "https://www.achgut.com/artikel/woher_kommt_der_strom_42_analysewoche_2026_trotz_windbuckel_stromimport",
+        "https://www.achgut.com/artikel/totaler_blackout_im_berliner_lager_fuer_radioaktive_abfaelle",
+        "https://www.achgut.com/artikel/attentaeter_gefaehrden_deutschlands_kritische_infrastruktur_und_der_amtsschimmel_wiehert_dazu"
+      ],
+      "dominant_emotion": "approval",
+      "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -520,6 +524,26 @@
         }
       ]
     },
+    "dw": {
+      "source_id": "dw",
+      "source": "Deutsche Welle",
+      "bias": "neutral",
+      "article_count": 4,
+      "sample_titles": [
+        "Iran blockiert Inspektion von Atomanlagen - IAEA besorgt",
+        "Ukraine: AKW Saporischschja wieder vom Strom abgetrennt",
+        "Klimaziel: Deutschland muss Billionen investieren",
+        "Klimaziel kostet Deutschland laut Studie Billionen"
+      ],
+      "urls": [
+        "https://www.dw.com/de/iran-blockiert-inspektion-von-atomanlagen-iaea-besorgt/a-79938196?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/ukraine-akw-saporischschja-wieder-vom-strom-abgetrennt/a-79890404?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/klimaziel-deutschland-muss-billionen-investieren/a-79641448?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/klimaziel-kostet-deutschland-laut-studie-billionen/a-79641448?maca=de-rss-de-news-1089-xml-mrss"
+      ],
+      "dominant_emotion": "neutral",
+      "top_emotions": []
+    },
     "cicero": {
       "source_id": "cicero",
       "source": "Cicero",
@@ -537,45 +561,27 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "dw": {
-      "source_id": "dw",
-      "source": "Deutsche Welle",
-      "bias": "neutral",
-      "article_count": 3,
-      "sample_titles": [
-        "Ukraine: AKW Saporischschja wieder vom Strom abgetrennt",
-        "Klimaziel: Deutschland muss Billionen investieren",
-        "Klimaziel kostet Deutschland laut Studie Billionen"
-      ],
-      "urls": [
-        "https://www.dw.com/de/ukraine-akw-saporischschja-wieder-vom-strom-abgetrennt/a-79890404?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/klimaziel-deutschland-muss-billionen-investieren/a-79641448?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/klimaziel-kostet-deutschland-laut-studie-billionen/a-79641448?maca=de-rss-de-news-1089-xml-mrss"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
+    "left-liberal": 126,
+    "neutral": 104,
     "right-conservative": 96,
-    "economic-liberal": 62,
-    "left-liberal": 122,
-    "far-right": 91,
-    "populist-mixed": 17,
-    "neutral": 92,
-    "conservative-liberal": 71,
-    "left": 57
+    "conservative-liberal": 75,
+    "far-right": 86,
+    "left": 61,
+    "economic-liberal": 65,
+    "populist-mixed": 16
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung betonen fast alle deutschen Medien, dass die Sicherstellung einer zuverlässigen Stromversorgung die zentrale Voraussetzung für jede weitere Ausweitung erneuerbarer Energien ist, und dass dafür in der Übergangsphase zusätzliche Backup‑Kapazitäten – etwa Gaskraftwerke oder ein begrenzter Kernenergieanteil – unverzichtbar bleiben. Gleichzeitig wird ein breiter Konsens darüber berichtet, dass der rasche Ausbau von Wind‑ und Solaranlagen die Strompreise deutlich nach oben treibt und damit soziale und wirtschaftliche Belastungen erzeugt, die politisch ausgeglichen werden müssen. Schließlich wird in nahezu allen Beiträgen die Notwendigkeit hervorgehoben, den Kohle‑ und Atomausstieg mit klaren Zeitplänen und finanziellen Mechanismen zu verknüpfen, um die Klimaziele zu erreichen, ohne die Versorgungssicherheit zu gefährden.",
-      "controversial_points": "Der Streit zwischen Versorgungssicherheit und Klimazielen spaltet konservative und liberale Medien. Atomkraft wird von rechten Stimmen als notwendige Brückentechnologie verteidigt, während linke Medien den Ausstieg fordern. Der Ausbau erneuerbarer Energien kollidiert mit regionalen Widerständen gegen Windanlagen und steigenden Strompreisen. Wirtschaftsliberale betonen Kosten und Marktmechanismen, während populistische Akteure die Energiewende als Eliteprojekt brandmarken."
+      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg betont, dass die aktuelle Energiekrise die Versorgungssicherheit gefährdet und die Strom‑ und Gaspreise für Verbraucher stark ansteigen lässt, wodurch ein wachsender sozialer Druck entsteht. Gleichzeitig kritisieren sowohl linke als auch rechte Stimmen staatliche Förderungen und Regulierungen, die ihrer Meinung nach den Wettbewerb verzerren und Investitionen in effiziente Technologien behindern. Infolgedessen besteht ein breiter Konsens darüber, dass ein ausgewogener Energiemix – der sowohl erneuerbare Quellen als auch, zumindest kurzfristig, konventionelle Kraftwerke einbezieht – notwendig ist, um die Klimaziele zu erreichen, ohne die wirtschaftliche Stabilität zu gefährden.",
+      "controversial_points": "Der Streit um den Energiemix spaltet links‑liberale Befürworter erneuerbarer Energien und konservative Befürworter von Kern‑ und Gasenergie. Die Frage nach Kostenverteilung belastet Kommunen, weil Solar‑ und Windprojekte hohe Anfangsinvestitionen erfordern. Klimaziele kollidieren mit Versorgungssicherheit, wenn Dunkelflauten Preise in die Höhe treiben. Der Atomausstieg wird als moralisches Prinzip gegen wirtschaftliche Interessen von Atomfirmen und Industrie ausgetragen."
     },
     "en": {
-      "shared_perspectives": "Synthesis not available.",
-      "controversial_points": "The core conflict pits energy security against climate ambition, dividing parties over coal and gas reliance versus rapid decarbonisation. Renewable expansion collides with cost concerns, as high electricity prices fuel criticism of subsidies and grid bottlenecks. Nuclear policy creates a divide between proponents demanding a 40% baseload share and opponents citing safety and waste fears."
+      "shared_perspectives": "Across the spectrum German media agree that the Energiewende is being undermined by soaring electricity prices and a fragile supply situation, highlighted by historically low gas‑storage levels and the threat of prolonged dark doldrums. They also converge on the assessment that the planned phase‑out of coal and nuclear leaves a gap that can only be bridged by a pragmatic energy mix that retains some nuclear or transitional gas capacity, a point echoed from left‑liberal to far‑right outlets. Finally, there is a shared criticism that the financing of renewable expansion, especially wind projects, imposes heavy burdens on municipalities and jeopardises the economic sustainability of the transition.",
+      "controversial_points": "The left‑liberal press frames the transition as a climate‑justice imperative, demanding rapid renewable expansion and state intervention. Conservative outlets prioritize energy security and affordability, defending nuclear and gas as necessary bridges to decarbonisation. Liberal‑economic media stress market mechanisms and cost‑recovery, opposing subsidies and mandatory solar mandates as distortions. Populist voices amplify regional grievances, linking high electricity prices to elite policies and threatening social cohesion."
     }
   },
-  "cached_at": "2026-11-11T12:13:07.151799"
+  "cached_at": "2026-11-14T11:43:52.317692"
 }

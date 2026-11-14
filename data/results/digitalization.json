@@ -4,69 +4,102 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 104,
-      "sample_titles": [
-        "Business-Ticker: Microsoft will laut Insider Verbot chinesischer KI-Bauteile in USA verhindern",
-        "filmfestival cottbus: Eine neue Frühphase des Kinos hat begonnen",
-        "Brief aus dem Irankrieg: Das Gefühl, verboten zu sein",
-        "Soziale Medien: Spanien erhöht den Druck auf Tiktok"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-microsoft-will-laut-insider-verbot-chinesischer-ki-bauteile-in-usa-verhindern-faz-200452404.html",
-        "https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/ki-film-auf-filmfest-cottbus-201662729.html",
-        "https://www.faz.net/aktuell/feuilleton/kolumnen/unsere-iranische-autorin-schreibt-unter-pseudonym-einen-brief-201668074.html",
-        "https://www.faz.net/aktuell/gesellschaft/trends-nischen/spanien-erhoeht-den-druck-auf-tiktok-accg-201666435.html"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 10
-        },
-        {
-          "emotion": "approval",
-          "count": 5
-        },
-        {
-          "emotion": "admiration",
-          "count": 5
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 90,
+      "article_count": 111,
       "sample_titles": [
-        "Wadephul warnt Iran vor hybriden Angriffen",
-        "Anthropic plant Börsengang mit Billionen-Bewertung",
-        "Zukunft des Krankenhauses gesichert",
-        "Cyberangriff auf die Uni Tübingen: 3.900 Datensätze abgegriffen"
+        "Wehrdienst, Rente, Social Media: Jugendliche fragen bei Politikern nach",
+        "Leben für den FC Köln: Rudi Faus ist Euskirchens wohl verrücktester Fan",
+        "Ermittlungen gegen britischen Kinderbuchautor Walliams",
+        "Unbekannte attackieren Auto von Marburger AfD-Politiker"
       ],
       "urls": [
-        "https://www.tagesschau.de/ausland/wadephul-iran-102.html",
-        "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-boerse-kuenstliche-intelligenz-100.html",
-        "https://www1.wdr.de/nrw/bergisches-land/rheinisch-bergischer-kreis/wermelskirchen-krankenhaus-zukunft-gesichert-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/tuebingen/cyberangriff-auf-uni-tuebingen-100.html"
+        "https://www.swr.de/swraktuell/baden-wuerttemberg/wehrpflicht-krieg-rente-jugend-fragt-politik-100.html",
+        "https://www1.wdr.de/nrw/aachen-eifel/kreis-euskirchen/euskirchen-verrueckter-fc-koeln-fan-100.html",
+        "https://www.tagesschau.de/ausland/europa/ermittlungen-gb-walliams-100.html",
+        "https://www.hessenschau.de/panorama/unbekannte-attackieren-auto-von-marburger-afd-politiker-v1,angriff-auto-afd-politiker-100.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "approval",
+          "count": 4
+        },
+        {
+          "emotion": "fear",
+          "count": 3
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 100,
+      "sample_titles": [
+        "Chips Nach China: Die Nvidia-Affäre wird zur Regierungskrise",
+        "Business-Ticker: Von der Leyen: Europa braucht 500 Milliarden Euro Investitionen für KI",
+        "KI im Büro: Die 20 besten Prompts, um Microsoft Copilot optimal zu nutzen",
+        "HackerANGRIFF: Rüstungsbranche im Visier von Cyberkriminellen"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bessent-gegen-lutnick-nvidia-wird-zur-us-regierungskrise-201681651.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-von-der-leyen-europa-braucht-500-milliarden-euro-investitionen-fuer-ki-faz-200452404.html",
+        "https://www.faz.net/premium/digitalwirtschaft/ki-akademie/ki-im-buero-die-20-besten-prompts-fuer-die-optimale-nutzung-von-microsoft-copilot-accg-201665213.html",
+        "https://www.faz.net/aktuell/wirtschaft/unternehmen/hackerangriff-auf-quantum-systems-bundeswehr-groundet-drohnen-201680381.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
+          "count": 8
+        },
+        {
+          "emotion": "realization",
           "count": 5
         },
         {
-          "emotion": "optimism",
+          "emotion": "fear",
           "count": 4
+        }
+      ]
+    },
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 90,
+      "sample_titles": [
+        "Witwer Harald (89) testet „Wuschel“ - Früher kuschelte er mit meiner Frau, heute mit KI",
+        "Direkt an der Skipiste - Hütten-Traum in den bayerischen Alpen wird verkauft",
+        "Karriere nach der Bayern-Zeit? - Football-Star wünscht sich Kane als NFL-Kicker!",
+        "10-Jährige ohne Schule und Dokumente - Wie die Bürokratie bei diesem Kind versagte"
+      ],
+      "urls": [
+        "https://www.bild.de/regional/hamburg/ki-witwer-harald-89-kuschelt-jetzt-mit-pluesch-roboter-wuschel-6ac797d154d8fdab87760a1b",
+        "https://www.bild.de/regional/bayern/direkt-an-der-skipiste-beliebte-berghuette-steht-zum-verkauf-6af2f68742c2bfde5b99270a",
+        "https://www.bild.de/sport/fussball/fc-bayern-harry-kane-als-nfl-kicker-patriots-quarterback-drake-maye-wuenscht-sich-das-6af6bffe559aca3d9f992709",
+        "https://www.bild.de/regional/dresden/10-jaehrige-ohne-dokumente-wie-die-buerokratie-bei-diesem-kind-versagte-6af6413650175c81de7a47af"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 5
         },
         {
-          "emotion": "admiration",
-          "count": 4
+          "emotion": "realization",
+          "count": 5
+        },
+        {
+          "emotion": "fear",
+          "count": 5
         }
       ]
     },
@@ -74,31 +107,31 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 87,
+      "article_count": 78,
       "sample_titles": [
-        "Sorgerechtsstreit verschärft sich: Halle Berrys Ex-Mann fordert mehr Kindesunterhalt",
-        "Neuer Ärger mit der Justiz : Meghans Vater schneidet Fußfessel ab - und muss nun in Haft",
-        "Paris sieht Iran als Drahtzieher: Grüne verlangen von Dobrindt Aufklärung zu Kühlattacken",
-        "Zinserhöhung im Dezember?: Inflationssorgen dämpfen Stimmung an der Wall Street"
+        "Dow tritt auf der Stelle: Chip-Werte kommen unter die Räder",
+        "Unter Vier-Billionen-Marke: Nvidias Börsenwert fällt um 650 Milliarden Dollar - in einer Woche",
+        "Deutschland soll dabei sein: EU-Verhandlungsteam für Gespräche mit Russland steht",
+        "Nach Rücktritt von Jensen Huang: Chinas KI-Chip-Schmuggel läuft auf Hochtouren"
       ],
       "urls": [
-        "https://www.n-tv.de/leute/Halle-Berrys-Ex-Mann-fordert-mehr-Kindesunterhalt-id31519191.html",
-        "https://www.n-tv.de/leute/Vater-von-Meghan-Markle-schneidet-Fussfessel-ab-und-muss-nun-in-Haft-id31519210.html",
-        "https://www.n-tv.de/politik/Gruene-verlangen-von-Dobrindt-Aufklaerung-zu-Kuehlattacken-id31519168.html",
-        "https://www.n-tv.de/wirtschaft/Inflationssorgen-daempfen-Stimmung-an-der-Wall-Street-id31519146.html"
+        "https://www.n-tv.de/wirtschaft/Chip-Werte-kommen-unter-die-Raeder-id31533210.html",
+        "https://www.n-tv.de/wirtschaft/Nvidias-Boersenwert-faellt-um-650-Milliarden-Dollar-in-einer-Woche-id31532436.html",
+        "https://www.n-tv.de/politik/EU-Verhandlungsteam-fuer-Gespraeche-mit-Russland-steht-id31532517.html",
+        "https://www.n-tv.de/wirtschaft/Chinas-KI-Chip-Schmuggel-laeuft-auf-Hochtouren-id31531580.html"
       ],
-      "dominant_emotion": "amusement",
+      "dominant_emotion": "sadness",
       "top_emotions": [
         {
-          "emotion": "amusement",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
           "emotion": "sadness",
+          "count": 4
+        },
+        {
+          "emotion": "optimism",
+          "count": 4
+        },
+        {
+          "emotion": "amusement",
           "count": 2
         }
       ]
@@ -107,130 +140,31 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 77,
+      "article_count": 74,
       "sample_titles": [
-        "Portugal: Höchste Unwetterwarnstufe im Süden wegen Sturm »Charles«",
-        "Israel - erste Knesset-Sitzung: Naftali Bennett attackiert Premier Benjamin Netanyahu",
-        "Thomas Markle nach Entfernen von Fußfessel erneut festgenommen",
-        "Helsinki, Finnland: Ist das die schönste Straßenbahnstrecke der Welt?"
+        "Präsident Miguel Díaz-Canel: Kubas Führung bereitet sich auf Angriff der USA vor",
+        "Papst Leo XIV.: Eine halbe Million Menschen feiert den Papstbesuch an seiner alten Wirkungsstätte in Peru",
+        "Sylvie Meis über »Die Friesenjunkies«: »Alle Genitalien waren abgeklebt und auch beim Masturbieren bewegt sich nur meine Schulter«",
+        "Thélyson Orélien: Rowohlt nimmt wegen KI-Vorwürfen Abstand"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/portugal-hoechste-unwetterwarnstufe-im-sueden-wegen-sturm-charles-a-cd98fce4-7de9-4901-bd42-084bf2157939#ref=rss",
-        "https://www.spiegel.de/ausland/israel-erste-knesset-sitzung-naftali-bennett-attackiert-premier-benjamin-netanyahu-a-da1ec0a6-c3b4-4e9a-9903-ef42d2a5bd54#ref=rss",
-        "https://www.spiegel.de/panorama/thomas-markle-nach-entfernen-von-fussfessel-erneut-festgenommen-a-2073c681-7932-49dc-9307-d7c866cf2dab#ref=rss",
-        "https://www.spiegel.de/mobilitaet/bus-bahn/helsinki-finnland-ist-das-die-schoenste-strassenbahnstrecke-der-welt-a-a3c12488-9112-489d-b472-79c44e8838e3#ref=rss"
+        "https://www.spiegel.de/ausland/praesident-miguel-diaz-canel-kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor-a-2cb35593-82c2-4d9c-b358-cbc40bff928e#ref=rss",
+        "https://www.spiegel.de/ausland/papst-leo-xiv-eine-halbe-million-menschen-feiert-den-papstbesuch-an-seiner-alten-wirkungsstaette-in-peru-a-f9842331-d086-4295-a426-897b90139110#ref=rss",
+        "https://www.spiegel.de/kultur/sylvie-meis-ueber-die-friesenjunkies-alle-genitalien-waren-abgeklebt-und-auch-beim-masturbieren-bewegt-sich-nur-meine-schulter-a-91f7a1e9-6dff-4b19-93b4-c63728e52596#ref=rss",
+        "https://www.spiegel.de/kultur/literatur/thelyson-orelien-rowohlt-nimmt-wegen-ki-vorwuerfen-abstand-a-116d41f2-1f7d-4b06-ac86-8595e70e6294#ref=rss"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 8
-        },
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "sadness",
-          "count": 2
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 75,
-      "sample_titles": [
-        "Lotto 6aus49 - BILD-KI erstellt Ihnen clevere Lottozahlen",
-        "Riskante Wette - Darum wird Anthropic jetzt zum Börsen-Zocker",
-        "Thomas Markle entfernte seine Fußfessel - Vater von Meghan wieder festgenommen",
-        "Undav abgeschlagen! Wie er Füllkrug sieht! - Geheimes Stürmer-Ranking von Klopp enthüllt"
-      ],
-      "urls": [
-        "https://www.bild.de/leben-wissen/mein-recht-verbraucherportal/lotto-6aus49-spielen-diese-formel-erstellt-ihnen-clevere-zahlen-6a4e2dd243b7fd518500207f",
-        "https://www.bild.de/leben-wissen/mein-geld-finanzportal/darum-wackelt-der-billionen-traum-von-anthropic-6af2e2cfd7afd5ab8c04ff33",
-        "https://www.bild.de/unterhaltung/royals-adel/thomas-markle-fussfessel-entfernt-erneut-festgenommen-6af39e0b42c2bfde5b993748",
-        "https://www.bild.de/sport/fussball/dfb-geheimes-stuermerranking-von-bundestrainer-juergen-klopp-enthuellt-6af208c779e1656222c3800e"
-      ],
-      "dominant_emotion": "surprise",
-      "top_emotions": [
-        {
-          "emotion": "surprise",
           "count": 4
-        },
-        {
-          "emotion": "admiration",
-          "count": 3
-        },
-        {
-          "emotion": "fear",
-          "count": 3
-        }
-      ]
-    },
-    "welt": {
-      "source_id": "welt",
-      "source": "Die Welt",
-      "bias": "right-conservative",
-      "article_count": 57,
-      "sample_titles": [
-        "Fußfessel abgeschnitten – Meghans Vater muss nun doch ins Gefängnis",
-        "Das sind die Gewinner des Goldenen Lenkrads 2026",
-        "Willkommen in der Realität! Die Linke kassiert jetzt schon ihr Mieten-Versprechen",
-        "WM-Gürtel, Skianzug, Gitarre – der Nachlass des „schönen René“ kommt unter den Hammer"
-      ],
-      "urls": [
-        "https://www.welt.de/vermischtes/article6af3a2f0f0b67a4b24664ed8/thomas-markle-fussfessel-abgeschnitten-meghans-vater-muss-nun-doch-ins-gefaengnis.html",
-        "https://www.welt.de/wirtschaft/article6af3945df0b67a4b24664e83/50-jubilaeum-das-sind-die-gewinner-des-goldenen-lenkrads-2026.html",
-        "https://www.welt.de/finanzen/plus6af3104942c2bfde5b992a84/willkommen-in-der-realitaet-die-linke-gibt-jetzt-zu-dass-mieten-steigen-muessen.html",
-        "https://www.welt.de/sport/boxen/article6af310b4d7afd5ab8c051f0c/rene-weller-69-wm-guertel-skianzug-gitarre-der-nachlass-des-schoenen-rene-kommt-unter-den-hammer.html"
-      ],
-      "dominant_emotion": "admiration",
-      "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 5
         },
         {
           "emotion": "amusement",
-          "count": 4
-        },
-        {
-          "emotion": "realization",
-          "count": 2
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 54,
-      "sample_titles": [
-        "Gesundheitsrisiken vorbeugen: Landesminister: Bund soll Zuckersteuer schnell beschließen",
-        "Notfälle: Aggressives Verhalten - Autofahrer behindert Rettungseinsatz",
-        "Künstliche Intelligenz: Philosoph Precht: KI bedroht die Neugier der Kinder",
-        "Daten abgegriffen: Cyberangriff an Uni Tübingen - tausende Datensätze betroffen"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/gesundheitsrisiken-vorbeugen--landesminister--bund-soll-zuckersteuer-schnell-beschliessen-38531514.html",
-        "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/notfaelle--aggressives-verhalten---autofahrer-behindert-rettungseinsatz-38530882.html",
-        "https://www.stern.de/gesellschaft/regional/bayern/kuenstliche-intelligenz--philosoph-precht--ki-bedroht-die-neugier-der-kinder-38530902.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/daten-abgegriffen--cyberangriff-an-uni-tuebingen---tausende-datensaetze-betroffen-38530718.html"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
           "count": 3
         },
         {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
           "count": 2
         }
       ]
@@ -239,65 +173,65 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 51,
+      "article_count": 52,
       "sample_titles": [
-        "Deloitte-Studie: „Pflegefinanzen unter Druck“: Milliardenpotenzial durch KI und Robotik in der Pflege",
-        "Künstliche Intelligenz: Microsoft will offenbar Verbot chinesischer KI-Bauteile in USA verhindern",
-        "Nikkei, Yen, Hang Seng: Japans Börsen im Aufwind – Chip-Nachfrage treibt Kurse",
-        "Mittelstand: Wenn KI die Lieferantenpreise herunterhandelt"
+        "Börsengang: Anthropics 64-Milliarden-Dollar-Wette: Das sagt Amodei zu Chancen, Profit und KI-Sicherheit",
+        "Geldanlage: Privatanleger können sich am Mega-Börsengang von Anthropic beteiligen – sollten sie es auch?",
+        "Kommentar: Endlich Ruhe im KI-Theater – warum die neue Nvidia-Chefin der Branche guttut",
+        "Ukraine-Krieg: Wieder Störung an Starlink – Kiew nutzt Alternative aus Israel"
       ],
       "urls": [
-        "https://www.handelsblatt.com/politik/deutschland/deloitte-studie-milliardenpotenzial-durch-ki-und-robotik-in-der-pflege/100268426.html",
-        "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-microsoft-will-offenbar-verbot-chinesischer-ki-bauteile-in-usa-verhindern/100268916.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-japans-boersen-im-aufwind-chip-nachfrage-treibt-kurse/100268928.html",
-        "https://www.handelsblatt.com/unternehmen/mittelstand/mittelstand-wenn-ki-die-lieferantenpreise-herunterhandelt/100266920.html"
+        "https://www.handelsblatt.com/technik/it-internet/anthropic-chef-dario-amodei-spricht-ueber-chancen-profit-und-ki-sicherheit/100269790.html",
+        "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-privatanleger-koennen-die-anthropic-aktie-zeichnen-sollten-sie-es-auch/100269156.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-mit-der-neuen-nvidia-chefin-kehrt-endlich-ruhe-im-ki-theater-ein/100269648.html",
+        "https://www.handelsblatt.com/politik/international/ukraine-krieg-wieder-stoerung-an-starlink-kiew-nutzt-alternative-aus-israel/100269609.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 3
         },
         {
-          "emotion": "anger",
+          "emotion": "annoyance",
           "count": 1
         },
         {
-          "emotion": "surprise",
+          "emotion": "gratitude",
           "count": 1
         }
       ]
     },
-    "nzz": {
-      "source_id": "nzz",
-      "source": "Neue Zürcher Zeitung",
-      "bias": "conservative-liberal",
-      "article_count": 42,
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 51,
       "sample_titles": [
-        "Iran soll hinter den Kühlregal-Hacks in Frankreich stehen. Europa muss eine Antwort auf diese Angriffe finden",
-        "PODCAST «NZZ AKZENT» - «Honigfalle» im Silicon Valley: Wie eine mutmassliche Agentin den Nvidia-Chef umgarnte",
-        "Testlauf für die KI-Branche: Anthropic drängt an die Börse – mit einer niedrigeren Bewertung",
-        "Frankreich macht Iran für Cyberangriff auf Supermärkte verantwortlich und droht mit scharfen Massnahmen"
+        "Manipulierte E-Scooter: Per App auf Tempo 100 - Probleme mit E-Scooter-Tuning",
+        "Kibum: Oldenburger Kinder- und Jugendbuchmesse - was Gäste erwartet",
+        "Festnahme: Wilde Flucht vor Polizei endet in Mannheim",
+        "New Orleans: Kreuzfahrtschiff kippt nach Crash mit Tanker um – 130 Gäste an Bord"
       ],
       "urls": [
-        "https://www.nzz.ch/meinung/iran-soll-hinter-den-kuehlregal-hacks-in-frankreich-stehen-europa-muss-eine-antwort-auf-diese-angriffe-finden-ld.10059128",
-        "https://www.nzz.ch/podcast/honigfalle-im-silicon-valley-wie-eine-mutmassliche-agentin-den-nvidia-chef-umgarnte-ld.10060025",
-        "https://www.nzz.ch/wirtschaft/anthropic-will-an-die-boerse-mit-einer-bewertung-von-bis-zu-14-billionen-dollar-ld.10059797",
-        "https://www.nzz.ch/international/cyberattacke-auf-supermaerkte-paris-droht-iran-mit-harter-antwort-ld.10059822"
+        "https://www.stern.de/gesellschaft/regional/bayern/manipulierte-e-scooter--per-app-auf-tempo-100---probleme-mit-e-scooter-tuning-38550072.html",
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/kibum--oldenburger-kinder--und-jugendbuchmesse---was-gaeste-erwartet-38550084.html",
+        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/festnahme--wilde-flucht-vor-polizei-endet-in-mannheim-38549394.html",
+        "https://www.stern.de/panorama/new-orleans--kreuzfahrtschiff-kippt-nach-crash-mit-tanker-um-38549364.html"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
         {
-          "emotion": "curiosity",
-          "count": 3
+          "emotion": "annoyance",
+          "count": 2
         },
         {
-          "emotion": "admiration",
-          "count": 3
+          "emotion": "grief",
+          "count": 2
         },
         {
-          "emotion": "anger",
-          "count": 1
+          "emotion": "realization",
+          "count": 2
         }
       ]
     },
@@ -305,31 +239,64 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 34,
+      "article_count": 42,
       "sample_titles": [
-        "Fußfessel selbst entfernt: Thomas Markle erneut festgenommen",
-        "Streit um EU-Hilfen für Ukraine: Fico kritisiert Merz scharf",
-        "\"KI hat viele Chancen, den Energieverbrauch zu reduzieren\"",
-        "Panne bei Anthropic: Sensibles Dokument zu früh verschickt"
+        "Frachter rammt Kreuzfahrtschiff",
+        "Genossenschaft rettet Dorfkneipe in Thüringen",
+        "Jugendspiele haben \"gezeigt, wozu Afrika fähig ist\"",
+        "\"Mist, Microsoft ist aus - wir sollten heimgehen\""
       ],
       "urls": [
-        "https://www.zdfheute.de/panorama/kriminalitaet/thomas-markle-fussfessel-kindesmissbrauch-verdacht-meghan-100.html",
-        "https://www.zdfheute.de/politik/ausland/eu-ukraine-finanzierung-streit-fico-merz-100.html",
-        "https://www.zdfheute.de/politik/ausland/ki-boom-energieverbrauch-reduzieren-experte-100.html",
-        "https://www.zdfheute.de/wirtschaft/anthropic-boersengang-panne-100.html"
+        "https://www.zdfheute.de/video/panorama-kreuzfahrtschiff-tanker-video-100.html",
+        "https://www.zdfheute.de/video/panorama-kneipen-sterben-corona-video-100.html",
+        "https://www.zdfheute.de/sport/youth-olympic-games-dakar-abschlussfeier-100.html",
+        "https://www.zdfheute.de/panorama/microsoft-ausfaelle-jubel-netz-100.html"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "annoyance",
+          "emotion": "optimism",
           "count": 3
         },
         {
-          "emotion": "realization",
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        }
+      ]
+    },
+    "welt": {
+      "source_id": "welt",
+      "source": "Die Welt",
+      "bias": "right-conservative",
+      "article_count": 41,
+      "sample_titles": [
+        "Thunberg rechtfertigt Lach-Video und attestiert Deutschland „rassistische Verhaltensmuster“",
+        "„Wir haben Arbeitsfähigkeit in die Hand eines einzelnen Anbieters gelegt“",
+        "„Haben keine Zeit zu verlieren“ – EU‑Kommission veranschlagt halbe Billion Euro für KI-Investitionen",
+        "Serbien setzt 5000 Kinder in den Regen"
+      ],
+      "urls": [
+        "https://www.welt.de/politik/deutschland/article6af784e77f8bbad09ea62e9f/aktivistin-thunberg-rechtfertigt-lach-video-und-attestiert-deutschland-rassistische-verhaltensmuster.html",
+        "https://www.welt.de/videos/video6af74ef027adfb0b7bb2d81e/nach-globalem-cloud-chaos-wir-haben-arbeitsfaehigkeit-in-die-hand-eines-einzelnen-anbieters-gelegt.html",
+        "https://www.welt.de/wirtschaft/article6af76f157f8bbad09ea62d26/gipfeltreffen-in-dublin-haben-keine-zeit-zu-verlieren-eukommission-veranschlagt-halbe-billion-euro-fuer-ki-investitionen.html",
+        "https://www.welt.de/sport/fussball/article6af76332aa0d1596fb27e584/geisterspiel-gegen-deutschland-serbien-setzt-5000-kinder-in-den-regen.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "optimism",
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -338,23 +305,23 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 34,
+      "article_count": 39,
       "sample_titles": [
-        "Deutschland und Ungarn: Immer noch kein einfacher Partner",
-        "Restaurierter Film von Ken Russell: „Die Teufel“ von Berlin",
-        "Verdächtiger im Fall Lisa T.: Schon früher im Visier der Ermittler",
-        "Sanierung des Schienennetzes: Deutsche Bahn wird immer langsamer beim Ausbau"
+        "„Friesenjunkies“: Glamour in der Suchtklinik",
+        "Spionage-Affäre bei Nvidia: Was Jensen Huangs Absturz für China bedeutet",
+        "Doku über Kinderdoping: Grausame Ohnmacht",
+        "Wissenschaftsbarometer 2026: Gerne befragt, aber wenig vertraut"
       ],
       "urls": [
-        "https://taz.de/Deutschland-und-Ungarn/!6229020/",
-        "https://taz.de/Ken-Russells-Film-Die-Teufel-restauriert-Hexenverfolgungen-sind-wieder-in---gerade-in-Berlin/!6228841/",
-        "https://taz.de/Verdaechtiger-im-Fall-Lisa-T/!6228840/",
-        "https://taz.de/Sanierung-des-Schienennetzes/!6228863/"
+        "https://taz.de/Friesenjunkies/!6224385/",
+        "https://taz.de/Spionage-Affaere-bei-Nvidia/!6229847/",
+        "https://taz.de/Doku-ueber-Kinderdoping/!6229766/",
+        "https://taz.de/Wissenschaftsbarometer-2026/!6229507/"
       ],
-      "dominant_emotion": "curiosity",
+      "dominant_emotion": "fear",
       "top_emotions": [
         {
-          "emotion": "curiosity",
+          "emotion": "fear",
           "count": 2
         },
         {
@@ -362,7 +329,40 @@
           "count": 2
         },
         {
-          "emotion": "approval",
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "nzz": {
+      "source_id": "nzz",
+      "source": "Neue Zürcher Zeitung",
+      "bias": "conservative-liberal",
+      "article_count": 31,
+      "sample_titles": [
+        "INTERVIEW - Cyberattacken erschüttern Europa. Der Experte Fredrik Blix sagt: «Die Wahrscheinlichkeit, dass wir in Schwierigkeiten stecken, liegt bei 100 Prozent»",
+        "Die neue Parkkarte wird für die Stadt Zürich zu einem juristischen Albtraum: Jetzt wird sie gleich durch zwei Rechtsverfahren blockiert",
+        "KOMMENTAR - SP und SVP blockieren das Bundesbudget: Sie gefährden damit das Schweizer Erfolgsmodell und zeigen, dass sie das Volk offenbar für sehr naiv halten",
+        "PODCAST «NZZ WEEKEND» - «Ich bin etwas paranoid, weil mal eine Schadsoftware auf meinem iPhone gefunden wurde», sagt Thomas Süssli"
+      ],
+      "urls": [
+        "https://www.nzz.ch/international/cybersicherheit-in-europa-experte-fredrik-blix-schlaegt-alarm-ld.10062330",
+        "https://www.nzz.ch/zuerich/noch-ein-rekurs-neue-parkkarte-in-der-stadt-zuerich-rueckt-in-weite-ferne-ld.10063295",
+        "https://www.nzz.ch/meinung/sp-und-svp-blockieren-das-bundesbudget-sie-gefaehrden-damit-das-schweizer-erfolgsmodell-und-zeigen-dass-sie-das-volk-offenbar-fuer-sehr-naiv-halten-ld.10062920",
+        "https://www.nzz.ch/podcast/ich-bin-etwas-paranoid-weil-mal-eine-schadsoftware-auf-meinem-iphone-gefunden-wurde-sagt-thomas-suessli-ld.10057264"
+      ],
+      "dominant_emotion": "realization",
+      "top_emotions": [
+        {
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -373,115 +373,16 @@
       "bias": "left-liberal",
       "article_count": 27,
       "sample_titles": [
-        "Arbeitsmarkt: Zahl arbeitsloser Akademiker erreicht Höchststand",
-        "USA: Die Republikaner retten Hegseth vorerst",
-        "Türkei: Spionage-Vorwurf: Mitarbeiterin der Böll-Stiftung festgenommen",
-        "Digitalminister Karsten Wildberger: „Papiere zu machen allein hilft nicht“"
+        "DFB-Team in der Einzelkritik: Serbien hält Gruda beim Torschuss den Regenschirm",
+        "Morde in Stade: Mutter beschimpfte wohl tödlich verletzte Mitarbeiterin",
+        "Medienrecht: Dürfen die das?",
+        "Advent 2026: Die schönsten Münchner Weihnachtsmärkte"
       ],
       "urls": [
-        "https://www.sueddeutsche.de/politik/arbeitsagentur-lehrer-beruf-studium-berufsanfaenger-li.3578610",
-        "https://www.sueddeutsche.de/politik/trump-hegseth-amtsenthebungsverfahren-midterms-kongress-republikaner-demokraten-li.3578586",
-        "https://www.sueddeutsche.de/politik/tuerkei-heinrich-boell-stiftung-spionage-lgbtq-yonca-verdioglu-sik-li.3578548",
-        "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/wildberger-digitalisierung-e274661/"
-      ],
-      "dominant_emotion": "amusement",
-      "top_emotions": [
-        {
-          "emotion": "amusement",
-          "count": 2
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
-        {
-          "emotion": "anger",
-          "count": 1
-        }
-      ]
-    },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 23,
-      "sample_titles": [
-        "Künstliche Intelligenz: Philosoph Precht: KI bedroht die Neugier der Kinder",
-        "Urteil im Fall Fabian: Sogar die Aufmerksamkeit, die das tote Kind bekam, störte sie",
-        "Yonca Verdioglu Sik: Mitarbeiterin der Heinrich-Böll-Stiftung in Türkei festgenommen",
-        "Daten abgegriffen: Cyberangriff an Uni Tübingen - tausende Datensätze betroffen"
-      ],
-      "urls": [
-        "https://www.zeit.de/news/2026-11/10/philosoph-precht-ki-bedroht-die-neugier-der-kinder",
-        "https://www.zeit.de/politik/deutschland/2026-11/urteil-fall-fabian-guestrow-mord-haftstrafe",
-        "https://www.zeit.de/politik/ausland/2026-11/yonca-verdioglu-sik-heinrich-boell-stiftung-tuerkei-ahmet-sik-spionage",
-        "https://www.zeit.de/news/2026-11/10/cyberangriff-an-uni-tuebingen-tausende-datensaetze-betroffen"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 20,
-      "sample_titles": [
-        "Merz’ CO₂-Kurs killt die Industrie – TE-Wecker am 11. November 2026",
-        "Chinas Botschafter in Brüssel warnt die EU vor Protektionismus",
-        "Ukraine-Hilfe: Merz droht mit EU-Haushaltsblockade – Fico spricht von „Erpressung“",
-        "Maschinenbauer schimpfen Bundesregierung: „Wir sind fassungslos“"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/podcast/wecker-am-11-november-2026/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/china-warnt-eu-vor-protektionismus/",
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/fico-merz-ukraine-hilfen-vorwurf-erpressung/",
-        "https://www.tichyseinblick.de/wirtschaft/vdma-maschinenbauer-bundesregierung/"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 1
-        },
-        {
-          "emotion": "approval",
-          "count": 1
-        }
-      ]
-    },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 16,
-      "sample_titles": [
-        "E-Mail-Leaks: Jetzt ermittelt die Staatsanwaltschaft – gegen die AfD",
-        "Merz erwartet von Aigner „Härte“, um einen AfD-Kanzler zu verhindern",
-        "60 Prozent des Bürgergeldes für Familien gehen an Ausländer",
-        "EKD grenzt sich weiter von der AfD ab"
-      ],
-      "urls": [
-        "https://jungefreiheit.de/deutschland/e-mail-leaks-jetzt-ermittelt-die-staatsanwaltschaft-gegen-die-afd.html",
-        "https://jungefreiheit.de/deutschland/merz-erwartet-von-aigner-haerte-um-einen-afd-kanzler-zu-verhindern.html",
-        "https://jungefreiheit.de/deutschland/60-prozent-des-buergergeldes-fuer-familien-gehen-an-auslaender.html",
-        "https://jungefreiheit.de/deutschland/ekd-grenzt-sich-weiter-von-der-afd-ab.html"
+        "https://www.sueddeutsche.de/sport/deutschland-serbien-einzelkritik-li.3580324",
+        "https://www.sueddeutsche.de/panorama/stade-morde-anklage-mutter-kind-einrichtung-staatsanwaltschaft-li.3579945",
+        "https://www.sueddeutsche.de/medien/christian-lindner-titanic-satire-pressefreiheit-persoenlichkeitsrecht-li.3578704",
+        "https://www.sueddeutsche.de/muenchen/muenchen-weihnachtsmaerkte-christkindlmaerkte-oeffnungszeiten-2026-1.5698518"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -490,7 +391,110 @@
           "count": 2
         },
         {
+          "emotion": "excitement",
+          "count": 1
+        },
+        {
+          "emotion": "sadness",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 22,
+      "sample_titles": [
+        "Polen fordern mehr Souveränität von der EU",
+        "Die Gewalt gegen kritische Journalisten eskaliert",
+        "Kinderzuschlag kostet 3,28 Milliarden Euro – Ausgaben seit 2015 verzehnfacht",
+        "Löst Nvidia einen Crash aus? | Tichys Börsenwecker am 13. November 2026"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-fordern-mehr-souveraenitaet-von-der-eu/",
+        "https://www.tichyseinblick.de/meinungen/brandanschlag-reichelt-gewalt-kritische-journalisten/",
+        "https://www.tichyseinblick.de/daili-es-sentials/kinderzuschlag-ausgaben-verzehnfacht/",
+        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-13-november-2026/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 21,
+      "sample_titles": [
+        "Störung bei Microsoft: Microsoft führt Störung auf Netzwerk-Upgrade zurück",
+        "Jensen Huang: Geht KI ohne ihn?",
+        "Wintersport: Auch Schweden will russischen Sportlern die Einreise verweigern",
+        "Nvidia-Chef: Der tiefe Fall des Jensen Huang"
+      ],
+      "urls": [
+        "https://www.zeit.de/digital/2026-11/microsoft-stoerung-online-dienste-outlook-365-teams",
+        "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-affaere-spionage-kuenstliche-intelligenz-nachfolge",
+        "https://www.zeit.de/sport/2026-11/russische-athleten-schweden-einreiseverbot-sport-wettkaempfe-jakob-forssmed",
+        "https://www.zeit.de/wirtschaft/2026-11/nvidia-chef-ruecktritt-jensen-huang-affaere-spionage-wall-street"
+      ],
+      "dominant_emotion": "annoyance",
+      "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 2
+        },
+        {
+          "emotion": "realization",
+          "count": 2
+        },
+        {
+          "emotion": "pride",
+          "count": 1
+        }
+      ]
+    },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 11,
+      "sample_titles": [
+        "Südkorea und der Preis der Kinder",
+        "Bundesfinanzhof erleichtert arbeitslosen EU-Ausländern Zugang zum deutschen Kindergeld",
+        "Sexuelle Spiele in einer Kita: Täuscht die Stadt Bielefeld die Öffentlichkeit?",
+        "SPD stellt sich nach Erpressungsvorwurf hinter Merz"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/ausland/suedkorea-und-der-preis-der-kinder.html",
+        "https://jungefreiheit.de/deutschland/bundesfinanzhof-erleichtert-arbeitslosen-eu-auslaendern-zugang-zum-deutschen-kindergeld.html",
+        "https://jungefreiheit.de/gesellschaft/sexuelle-spiele-in-einer-kita-taeuscht-die-stadt-bielefeld-die-oeffentlichkeit.html",
+        "https://jungefreiheit.de/deutschland/spd-stellt-sich-nach-erpressungsvorwurf-hinter-merz.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
           "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "relief",
+          "count": 1
+        },
+        {
+          "emotion": "curiosity",
           "count": 1
         }
       ]
@@ -499,18 +503,18 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 5,
+      "article_count": 7,
       "sample_titles": [
-        "KI wirbelt Arbeitsmarkt laut BA-Chefin durcheinander",
-        "News kompakt: Ukraine-Gespräche starten in Abu Dhabi",
-        "Nvidia-Chef Huang wegen Spionageverdachts unter Druck",
-        "Reise mit Strapazen: Papst Leo XIV. ist in Südamerika zurück"
+        "Iran blockiert Inspektion von Atomanlagen - IAEA besorgt",
+        "US-Senat lädt Handelsminister und Ex-Nvidia-Chef Huang vor",
+        "Nvidia-Chef Jensen Huang tritt nach Affären zurück",
+        "Drei Verdächtige sollen iranischen Terror unterstützt haben"
       ],
       "urls": [
-        "https://www.dw.com/de/ki-wirbelt-arbeitsmarkt-laut-ba-chefin-durcheinander/a-79910561?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/news-kompakt-ukraine-gespräche-starten-in-abu-dhabi/a-79906107?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/nvidia-chef-huang-wegen-spionageverdachts-unter-druck/a-79895905?maca=de-rss-de-news-1089-xml-mrss",
-        "https://www.dw.com/de/reise-mit-strapazen-papst-leo-xiv-ist-in-südamerika-zurück/a-79885738?maca=de-rss-de-news-1089-xml-mrss"
+        "https://www.dw.com/de/iran-blockiert-inspektion-von-atomanlagen-iaea-besorgt/a-79938196?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/us-senat-lädt-handelsminister-und-ex-nvidia-chef-huang-vor/a-79937955?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/nvidia-chef-jensen-huang-tritt-nach-affären-zurück/a-79932950?maca=de-rss-de-news-1089-xml-mrss",
+        "https://www.dw.com/de/drei-verdächtige-sollen-iranischen-terror-unterstützt-haben/a-79917360?maca=de-rss-de-news-1089-xml-mrss"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
@@ -530,12 +534,12 @@
       "bias": "conservative-liberal",
       "article_count": 2,
       "sample_titles": [
-        "Spionage im globalen Wettlauf um KI - „Auch aus Deutschland sind zahlreiche Informationen abgeflossen“",
-        "Zukunft des deutschen Staates - „KI-Politik ist die Wohlstandspolitik des 21. Jahrhunderts“"
+        "Verhandlungen in Abu Dhabi - Putin ist an einem Kompromiss mit Kiew nicht interessiert",
+        "Spionage im globalen Wettlauf um KI - „Auch aus Deutschland sind zahlreiche Informationen abgeflossen“"
       ],
       "urls": [
-        "https://www.cicero.de/wirtschaft/interview-weber-dgap-spionage-ki-nvidia",
-        "https://www.cicero.de/innenpolitik/zukunft-des-deutschen-staates-ki-politik-ist-die-wohlstandspolitik-des-21jahrhunderts"
+        "https://www.cicero.de/aussenpolitik/verhandlungen-in-abu-dhabi-ukraine",
+        "https://www.cicero.de/wirtschaft/interview-weber-dgap-spionage-ki-nvidia"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
@@ -544,38 +548,36 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 2,
+      "article_count": 1,
       "sample_titles": [
-        "Die Palästinafahne vor dem Reichstag ist ein Alarmzeichen",
-        "Tschernobyl durch die heiße Kühltheke"
+        "Die Palästinafahne vor dem Reichstag ist ein Alarmzeichen"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/die_palaestinafahne_vor_dem_reichstag_ist_ein_alarmzeichen",
-        "https://www.achgut.com/artikel/tschernobyl_durch_die_heisse_kuehltheke"
+        "https://www.achgut.com/artikel/die_palaestinafahne_vor_dem_reichstag_ist_ein_alarmzeichen"
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
     }
   },
   "bias_distribution": {
-    "far-right": 38,
-    "populist-mixed": 75,
-    "right-conservative": 144,
-    "economic-liberal": 51,
-    "conservative-liberal": 148,
-    "left-liberal": 181,
-    "neutral": 129,
-    "left": 34
+    "populist-mixed": 90,
+    "right-conservative": 119,
+    "conservative-liberal": 133,
+    "left-liberal": 173,
+    "neutral": 160,
+    "far-right": 34,
+    "economic-liberal": 52,
+    "left": 39
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird trotz unterschiedlicher politischer Ausrichtung ein breiter Konsens darüber beobachtet, dass die digitale Transformation und Künstliche Intelligenz zentrale Treiber für die Wettbewerbsfähigkeit der deutschen Wirtschaft sind und deshalb massive Investitionen in Breitband, digitale Infrastruktur und digitale Bildung gefordert werden, weil sonst die Innovationskraft des Landes gefährdet wäre. Gleichzeitig betonen fast alle Medien die Notwendigkeit einer klaren regulatorischen Rahmen­politik, insbesondere durch den EU‑AI‑Act, um Datenschutz, Cybersicherheit und ethische Risiken von KI zu adressieren und gleichzeitig faire Wettbewerbsbedingungen zu sichern. Schließlich wird in nahezu allen Berichterstattungen die Erwartung geäußert, dass KI‑Anwendungen den Arbeitsmarkt tiefgreifend verändern werden, wobei sowohl Chancen für neue Berufsbilder als auch Risiken für Beschäftigte in traditionellen Sektoren hervorgehoben werden.",
-      "controversial_points": "Im Diskurs kollidieren wirtschaftsliberale Forderungen nach schneller KI‑Förderung mit datenschutzorientierten Bedenken der Linken. Die Union betont Wettbewerbsfähigkeit und Infrastruktur, während Grüne den EU‑AI‑Act als notwendige Ethik‑Schranke sehen. Fachverbände fordern staatliche Investitionen in Breitband, doch Sozialverbände warnen vor digitaler Spaltung und Jobverlusten. Sicherheitsbehörden pushen strengere Cyber‑Gesetze, während Libertäre die Gefahr einer Überwachungsgesellschaft betonen."
+      "shared_perspectives": "Synthese nicht verfügbar.",
+      "controversial_points": "Der Staat will KI regulieren, während die Industrie nach weniger Bürokratie drängt. Datenschützer fordern strenge Vorgaben, Unternehmen betonen Wettbewerbsfähigkeit und Innovationsdruck. Die digitale Verwaltung kollidiert mit Fachkräftemangel, weil Behörden langsame Modernisierung und fehlende IT‑Talente haben. EU‑AI‑Act spaltet Befürworter des europäischen Werte‑Modells und Befürworter eines marktorientierten Ansatzes."
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum agree that artificial‑intelligence technologies are poised to reshape the labour market, with reports from the Federal Employment Agency, Deloitte and academic commentators all stressing both productivity gains and the risk of displacing workers, especially in sectors such as care and manufacturing. At the same time there is a shared conviction that Europe must secure a coordinated regulatory framework – the EU AI Act – and invest heavily in digital infrastructure, because without broadband expansion, data‑security standards and clear rules on high‑risk AI, German competitiveness will lag behind the United States and China. Finally, commentators from the left, centre and economic‑liberal outlets converge on the view that AI can contribute to climate goals, citing its potential to cut energy consumption while warning that unchecked deployment could undermine societal values such as privacy and critical thinking.",
-      "controversial_points": "The debate pits economic liberal calls for AI deregulation against left‑liberal demands for strong social safeguards. Conservatives stress national security and data sovereignty, while the far‑right frames digital tools as tools for cultural control. The EU AI Act creates tension between pro‑European regulation and German industry’s fear of losing global competitiveness. Digital education advocates clash with labor unions over automation’s impact on job security and skill upgrading. Broadband expansion debates reveal a divide between urban investment priorities and rural demands for equal digital access."
+      "shared_perspectives": "German media across the spectrum agree that the state must fund a large‑scale digital overhaul, stressing that billions of euros are needed for broadband, cloud services and AI research to keep Germany competitive in Europe. They also converge on the view that reliance on foreign chip and cloud providers creates a strategic vulnerability, prompting calls for stronger cybersecurity measures and a European supply chain. Finally, there is a shared emphasis on pairing the EU AI Act with concrete up‑skilling programmes, arguing that regulation should protect data and fundamental rights while preparing workers for automation‑driven job changes.",
+      "controversial_points": "German media frame AI as a clash between strict data protection and rapid technological innovation. Federal authorities and industry dispute who should fund and control the digital infrastructure rollout. Labor unions fear automation will erode jobs while business circles demand competitiveness. The EU AI Act creates tension between national sovereignty and supranational regulatory standards."
     }
   },
-  "cached_at": "2026-11-11T12:20:02.621666"
+  "cached_at": "2026-11-14T11:50:52.336261"
 }
