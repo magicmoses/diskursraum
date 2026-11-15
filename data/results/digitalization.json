@@ -4,22 +4,55 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
+    "bild": {
+      "source_id": "bild",
+      "source": "BILD",
+      "bias": "populist-mixed",
+      "article_count": 104,
+      "sample_titles": [
+        "Müller lebte zeitweise  im Wald - Unser Eishockey-Star spricht über seine schwere Kindheit",
+        "„Karl, der kleine Ottifant“ - Otto Walkes präsentiert erstes Kinderbuch",
+        "Krajewski prägte eine Ära - Special-Olympics-Präsidentin hört auf",
+        "Tödlicher Unfall in Berlin - Das sagt die Polizei zum Tod des Kindes"
+      ],
+      "urls": [
+        "https://www.bild.de/sport/mehr-sport/interview-mit-rekordspieler-moritz-mueller-zum-1200-liga-einsatz-6af2ec0ad7afd5ab8c050a2e",
+        "https://www.bild.de/news/inland/karl-der-kleine-ottifant-otto-walkes-praesentiert-erstes-kinderbuch-6af8cd044495f9bd85b803fd",
+        "https://www.bild.de/sport/olympia/special-olympics-praesidentin-krajewski-hoert-auf-6af8c1864495f9bd85b80383",
+        "https://www.bild.de/news/berlin-tiergarten-kind-stirbt-nach-fahrradsturz-unter-bus-6af8b75d9849eea0701e307f"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 6
+        },
+        {
+          "emotion": "surprise",
+          "count": 5
+        },
+        {
+          "emotion": "realization",
+          "count": 5
+        }
+      ]
+    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 111,
+      "article_count": 104,
       "sample_titles": [
-        "Wehrdienst, Rente, Social Media: Jugendliche fragen bei Politikern nach",
-        "Leben für den FC Köln: Rudi Faus ist Euskirchens wohl verrücktester Fan",
-        "Ermittlungen gegen britischen Kinderbuchautor Walliams",
-        "Unbekannte attackieren Auto von Marburger AfD-Politiker"
+        "\"Hohe Belastung\": Frühchen-Station sucht dringend Pflegekräfte",
+        "Diabetes Typ 1: Wie eine App Kindern das Leben erleichtert",
+        "Kampf gegen Missbrauch: Dieser Ex-Pfarrer tritt der evangelischen Kirche in den Hintern",
+        "Berlin-Mitte: Kind bei Verkehrsunfall mit Bus tödlich verletzt"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/wehrpflicht-krieg-rente-jugend-fragt-politik-100.html",
-        "https://www1.wdr.de/nrw/aachen-eifel/kreis-euskirchen/euskirchen-verrueckter-fc-koeln-fan-100.html",
-        "https://www.tagesschau.de/ausland/europa/ermittlungen-gb-walliams-100.html",
-        "https://www.hessenschau.de/panorama/unbekannte-attackieren-auto-von-marburger-afd-politiker-v1,angriff-auto-afd-politiker-100.html"
+        "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-siegen-wittgenstein/fruehchenstation-pflegekraefte-drk-kinderklinik-siegen-100.html",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/ernaehrung-app-hilft-diabetiker-100.html",
+        "https://www.hessenschau.de/gesellschaft/kampf-gegen-missbrauch-dieser-ex-pfarrer-tritt-der-evangelischen-kirche-in-den-hintern-v1,missbrauch-evangelische-kirche-100.html",
+        "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-tiergarten-unfall-kind-stirbt-bus-bvg.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -41,18 +74,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 100,
+      "article_count": 97,
       "sample_titles": [
-        "Chips Nach China: Die Nvidia-Affäre wird zur Regierungskrise",
-        "Business-Ticker: Von der Leyen: Europa braucht 500 Milliarden Euro Investitionen für KI",
-        "KI im Büro: Die 20 besten Prompts, um Microsoft Copilot optimal zu nutzen",
-        "HackerANGRIFF: Rüstungsbranche im Visier von Cyberkriminellen"
+        "Bücher-Podcast: Warum werden wir nicht dauernd gewalttätig?",
+        "Streit um Datenschutz: Warum die Europäer Apples „Home View“ nicht kaufen dürfen",
+        "Film und Gesellschaft: Wie philosophisch sind Kino-Blockbuster?",
+        "Heinrich Wiepking: Der Landschaftsarchitekt der Nazis"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bessent-gegen-lutnick-nvidia-wird-zur-us-regierungskrise-201681651.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-von-der-leyen-europa-braucht-500-milliarden-euro-investitionen-fuer-ki-faz-200452404.html",
-        "https://www.faz.net/premium/digitalwirtschaft/ki-akademie/ki-im-buero-die-20-besten-prompts-fuer-die-optimale-nutzung-von-microsoft-copilot-accg-201665213.html",
-        "https://www.faz.net/aktuell/wirtschaft/unternehmen/hackerangriff-auf-quantum-systems-bundeswehr-groundet-drohnen-201680381.html"
+        "https://www.faz.net/podcasts/f-a-z-buecher-podcast/warum-werden-wir-nicht-dauernd-gewalttaetig-benjamin-knull-im-buecher-podcast-201673398.html",
+        "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/warum-apple-das-home-view-geraet-nicht-in-deutschland-verkauft-accg-201678715.html",
+        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/was-kino-und-philosophie-verbindet-201236170.html",
+        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/heinrich-wiepking-war-der-landschaftsarchitekt-der-nazis-201137327.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -65,41 +98,8 @@
           "count": 5
         },
         {
-          "emotion": "fear",
+          "emotion": "annoyance",
           "count": 4
-        }
-      ]
-    },
-    "bild": {
-      "source_id": "bild",
-      "source": "BILD",
-      "bias": "populist-mixed",
-      "article_count": 90,
-      "sample_titles": [
-        "Witwer Harald (89) testet „Wuschel“ - Früher kuschelte er mit meiner Frau, heute mit KI",
-        "Direkt an der Skipiste - Hütten-Traum in den bayerischen Alpen wird verkauft",
-        "Karriere nach der Bayern-Zeit? - Football-Star wünscht sich Kane als NFL-Kicker!",
-        "10-Jährige ohne Schule und Dokumente - Wie die Bürokratie bei diesem Kind versagte"
-      ],
-      "urls": [
-        "https://www.bild.de/regional/hamburg/ki-witwer-harald-89-kuschelt-jetzt-mit-pluesch-roboter-wuschel-6ac797d154d8fdab87760a1b",
-        "https://www.bild.de/regional/bayern/direkt-an-der-skipiste-beliebte-berghuette-steht-zum-verkauf-6af2f68742c2bfde5b99270a",
-        "https://www.bild.de/sport/fussball/fc-bayern-harry-kane-als-nfl-kicker-patriots-quarterback-drake-maye-wuenscht-sich-das-6af6bffe559aca3d9f992709",
-        "https://www.bild.de/regional/dresden/10-jaehrige-ohne-dokumente-wie-die-buerokratie-bei-diesem-kind-versagte-6af6413650175c81de7a47af"
-      ],
-      "dominant_emotion": "surprise",
-      "top_emotions": [
-        {
-          "emotion": "surprise",
-          "count": 5
-        },
-        {
-          "emotion": "realization",
-          "count": 5
-        },
-        {
-          "emotion": "fear",
-          "count": 5
         }
       ]
     },
@@ -107,31 +107,31 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 78,
+      "article_count": 75,
       "sample_titles": [
-        "Dow tritt auf der Stelle: Chip-Werte kommen unter die Räder",
-        "Unter Vier-Billionen-Marke: Nvidias Börsenwert fällt um 650 Milliarden Dollar - in einer Woche",
-        "Deutschland soll dabei sein: EU-Verhandlungsteam für Gespräche mit Russland steht",
-        "Nach Rücktritt von Jensen Huang: Chinas KI-Chip-Schmuggel läuft auf Hochtouren"
+        "Tödlicher Unfall in Berlin: Kind wird nach Fahrradsturz von Bus überrollt",
+        "Tiefrot ins Nasdaq-Debüt: Geht Anthropics riskante Börsenwette auf?",
+        "51 Prozent der Stimmen: Alaska bekommt erstmals seit 28 Jahren demokratischen Gouverneur",
+        "Torhüter zieht THW den Zahn: Füchse Berlin versetzen Spitzenreiter Kiel einen deftigen Dämpfer"
       ],
       "urls": [
-        "https://www.n-tv.de/wirtschaft/Chip-Werte-kommen-unter-die-Raeder-id31533210.html",
-        "https://www.n-tv.de/wirtschaft/Nvidias-Boersenwert-faellt-um-650-Milliarden-Dollar-in-einer-Woche-id31532436.html",
-        "https://www.n-tv.de/politik/EU-Verhandlungsteam-fuer-Gespraeche-mit-Russland-steht-id31532517.html",
-        "https://www.n-tv.de/wirtschaft/Chinas-KI-Chip-Schmuggel-laeuft-auf-Hochtouren-id31531580.html"
+        "https://www.n-tv.de/panorama/Kind-wird-nach-Fahrradsturz-von-Bus-ueberrollt-id31534779.html",
+        "https://www.n-tv.de/wirtschaft/Geht-Anthropics-riskante-Boersenwette-auf-id31531417.html",
+        "https://www.n-tv.de/politik/Alaska-bekommt-erstmals-seit-28-Jahren-demokratischen-Gouverneur-id31534628.html",
+        "https://www.n-tv.de/sport/handball/Fuechse-Berlin-versetzen-Spitzenreiter-Kiel-einen-deftigen-Daempfer-id31534675.html"
       ],
-      "dominant_emotion": "sadness",
+      "dominant_emotion": "optimism",
       "top_emotions": [
         {
-          "emotion": "sadness",
-          "count": 4
-        },
-        {
           "emotion": "optimism",
-          "count": 4
+          "count": 5
         },
         {
-          "emotion": "amusement",
+          "emotion": "sadness",
+          "count": 3
+        },
+        {
+          "emotion": "disgust",
           "count": 2
         }
       ]
@@ -140,31 +140,64 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 74,
+      "article_count": 72,
       "sample_titles": [
-        "Präsident Miguel Díaz-Canel: Kubas Führung bereitet sich auf Angriff der USA vor",
-        "Papst Leo XIV.: Eine halbe Million Menschen feiert den Papstbesuch an seiner alten Wirkungsstätte in Peru",
-        "Sylvie Meis über »Die Friesenjunkies«: »Alle Genitalien waren abgeklebt und auch beim Masturbieren bewegt sich nur meine Schulter«",
-        "Thélyson Orélien: Rowohlt nimmt wegen KI-Vorwürfen Abstand"
+        "Midterms in den USA: Demokrat Jonathan Kreiss-Tomkins gewinnt Gouverneurswahl in Alaska",
+        "Kroatien: Auswanderer wagt mit 61 den Neustart auf der Insel Brac",
+        "Ski alpin: Emma Aicher feiert ersten Slalom-Weltcupsieg in Levi",
+        "Eurovision Song Contest Asia: Wie soll der ESC in Asien funktionieren?"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/praesident-miguel-diaz-canel-kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor-a-2cb35593-82c2-4d9c-b358-cbc40bff928e#ref=rss",
-        "https://www.spiegel.de/ausland/papst-leo-xiv-eine-halbe-million-menschen-feiert-den-papstbesuch-an-seiner-alten-wirkungsstaette-in-peru-a-f9842331-d086-4295-a426-897b90139110#ref=rss",
-        "https://www.spiegel.de/kultur/sylvie-meis-ueber-die-friesenjunkies-alle-genitalien-waren-abgeklebt-und-auch-beim-masturbieren-bewegt-sich-nur-meine-schulter-a-91f7a1e9-6dff-4b19-93b4-c63728e52596#ref=rss",
-        "https://www.spiegel.de/kultur/literatur/thelyson-orelien-rowohlt-nimmt-wegen-ki-vorwuerfen-abstand-a-116d41f2-1f7d-4b06-ac86-8595e70e6294#ref=rss"
+        "https://www.spiegel.de/ausland/midterms-in-den-usa-demokrat-jonathan-kreiss-tomkins-gewinnt-gouverneurswahl-in-alaska-a-fb2cad4c-5ecc-438a-b9dd-76812d0a333d#ref=rss",
+        "https://www.spiegel.de/karriere/kroatien-auswanderer-wagt-mit-61-den-neustart-auf-der-insel-brac-a-f5c4961a-e132-48a6-bdda-e0f897383d77#ref=rss",
+        "https://www.spiegel.de/sport/wintersport/ski-alpin-emma-aicher-feiert-ersten-slalom-weltcupsieg-in-levi-a-b31fbbbc-499d-4d7b-bc71-e27b4850d4d8#ref=rss",
+        "https://www.spiegel.de/kultur/tv/eurovision-song-contest-asia-wie-soll-der-esc-in-asien-funktionieren-a-5f85f10e-3060-4216-a3b2-766d6d473153#ref=rss"
       ],
       "dominant_emotion": "admiration",
       "top_emotions": [
         {
           "emotion": "admiration",
-          "count": 4
+          "count": 5
         },
         {
           "emotion": "amusement",
           "count": 3
         },
         {
-          "emotion": "optimism",
+          "emotion": "confusion",
+          "count": 2
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 56,
+      "sample_titles": [
+        "Neuanfang : Die Ärztin sagte: „Wärst du meine Tochter, würde ich dir die Amputation verbieten“",
+        "Ecuador: Wandern auf dem Cotopaxi: Meine Lektion am Eisvulkan",
+        "Jonathan Kreiss-Tomkins: Demokrat gewinnt Gouverneurswahl in Alaska – erstmals seit 1998",
+        "Handball-Bundesliga: Füchse Berlin gewinnen Spitzenspiel gegen den THW Kiel"
+      ],
+      "urls": [
+        "https://www.stern.de/gesundheit/amputation-wegen-keimen-im-knie---viele-menschen-danken-mir-dafuer--38528396.html",
+        "https://www.stern.de/geo/wandern-auf-dem-cotopaxi--meine-lektion-am-eisvulkan-38489814.html",
+        "https://www.stern.de/politik/ausland/alaska--demokrat-gewinnt-gouverneurswahl---erstmals-seit-1998-38551866.html",
+        "https://www.stern.de/gesellschaft/regional/berlin-brandenburg/handball-bundesliga--fuechse-berlin-gewinnen-spitzenspiel-gegen-den-thw-kiel-38551938.html"
+      ],
+      "dominant_emotion": "grief",
+      "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 3
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
+        },
+        {
+          "emotion": "curiosity",
           "count": 2
         }
       ]
@@ -173,65 +206,32 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 52,
+      "article_count": 46,
       "sample_titles": [
-        "Börsengang: Anthropics 64-Milliarden-Dollar-Wette: Das sagt Amodei zu Chancen, Profit und KI-Sicherheit",
-        "Geldanlage: Privatanleger können sich am Mega-Börsengang von Anthropic beteiligen – sollten sie es auch?",
-        "Kommentar: Endlich Ruhe im KI-Theater – warum die neue Nvidia-Chefin der Branche guttut",
-        "Ukraine-Krieg: Wieder Störung an Starlink – Kiew nutzt Alternative aus Israel"
+        "Todesfall: Bayern trauert um Hubert Aiwanger",
+        "Insight Innovation: Besser als der Mensch? So verändern KI-Influencer den Werbemarkt",
+        "Touristik: Stärkung der eigenen Marken – Mit dieser Strategie kämpft Tui um seine Kunden",
+        "Börsengang: Anthropics 64-Milliarden-Dollar-Wette: Das sagt Amodei zu Chancen, Profit und KI-Sicherheit"
       ],
       "urls": [
-        "https://www.handelsblatt.com/technik/it-internet/anthropic-chef-dario-amodei-spricht-ueber-chancen-profit-und-ki-sicherheit/100269790.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-privatanleger-koennen-die-anthropic-aktie-zeichnen-sollten-sie-es-auch/100269156.html",
-        "https://www.handelsblatt.com/meinung/kommentare/kommentar-mit-der-neuen-nvidia-chefin-kehrt-endlich-ruhe-im-ki-theater-ein/100269648.html",
-        "https://www.handelsblatt.com/politik/international/ukraine-krieg-wieder-stoerung-an-starlink-kiew-nutzt-alternative-aus-israel/100269609.html"
+        "https://www.handelsblatt.com/politik/deutschland/todesfall-bayern-trauert-um-hubert-aiwanger/100269895.html",
+        "https://www.handelsblatt.com/unternehmen/start-ups/unternehmen-werbung-und-vertrieb-so-setzen-firmen-ki-influencer-ein/100258611.html",
+        "https://www.handelsblatt.com/unternehmen/dienstleister/touristik-mit-dieser-strategie-kaempft-tui-um-seine-kunden/100266709.html",
+        "https://www.handelsblatt.com/technik/it-internet/anthropic-chef-dario-amodei-spricht-ueber-chancen-profit-und-ki-sicherheit/100269790.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "gratitude",
-          "count": 1
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 51,
-      "sample_titles": [
-        "Manipulierte E-Scooter: Per App auf Tempo 100 - Probleme mit E-Scooter-Tuning",
-        "Kibum: Oldenburger Kinder- und Jugendbuchmesse - was Gäste erwartet",
-        "Festnahme: Wilde Flucht vor Polizei endet in Mannheim",
-        "New Orleans: Kreuzfahrtschiff kippt nach Crash mit Tanker um – 130 Gäste an Bord"
-      ],
-      "urls": [
-        "https://www.stern.de/gesellschaft/regional/bayern/manipulierte-e-scooter--per-app-auf-tempo-100---probleme-mit-e-scooter-tuning-38550072.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/kibum--oldenburger-kinder--und-jugendbuchmesse---was-gaeste-erwartet-38550084.html",
-        "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/festnahme--wilde-flucht-vor-polizei-endet-in-mannheim-38549394.html",
-        "https://www.stern.de/panorama/new-orleans--kreuzfahrtschiff-kippt-nach-crash-mit-tanker-um-38549364.html"
-      ],
-      "dominant_emotion": "annoyance",
-      "top_emotions": [
-        {
-          "emotion": "annoyance",
           "count": 2
         },
         {
           "emotion": "grief",
-          "count": 2
+          "count": 1
         },
         {
-          "emotion": "realization",
-          "count": 2
+          "emotion": "annoyance",
+          "count": 1
         }
       ]
     },
@@ -239,32 +239,32 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 42,
+      "article_count": 44,
       "sample_titles": [
-        "Frachter rammt Kreuzfahrtschiff",
-        "Genossenschaft rettet Dorfkneipe in Thüringen",
-        "Jugendspiele haben \"gezeigt, wozu Afrika fähig ist\"",
-        "\"Mist, Microsoft ist aus - wir sollten heimgehen\""
+        "Helen Mirren: Endlich gute Frauenrollen",
+        "Türkei: Tausende demonstrieren für Klima und Menschenrechte",
+        "Die Liebesfalle als Waffe der Geheimdienste",
+        "Helen Mirren: Endlich gute Frauenrollen"
       ],
       "urls": [
-        "https://www.zdfheute.de/video/panorama-kreuzfahrtschiff-tanker-video-100.html",
-        "https://www.zdfheute.de/video/panorama-kneipen-sterben-corona-video-100.html",
-        "https://www.zdfheute.de/sport/youth-olympic-games-dakar-abschlussfeier-100.html",
-        "https://www.zdfheute.de/panorama/microsoft-ausfaelle-jubel-netz-100.html"
+        "https://www.zdfheute.de/video/hallo-deutschland/helen-mirren-talent-for-murder-100.html",
+        "https://www.zdfheute.de/politik/ausland/tuerkei-antalya-demo-klimaschutz-menschenrechte-100.html",
+        "https://www.zdfheute.de/panorama/kriminalitaet/spionage-nvidia-huang-liebesfalle-historisch-100.html",
+        "https://www.zdfheute.de/video/hallo-deutschland/videos/helen-mirren-talent-for-murder-100.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "desire",
       "top_emotions": [
         {
-          "emotion": "optimism",
+          "emotion": "desire",
           "count": 3
         },
         {
-          "emotion": "annoyance",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 3
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "admiration",
+          "count": 3
         }
       ]
     },
@@ -272,31 +272,31 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 41,
+      "article_count": 43,
       "sample_titles": [
-        "Thunberg rechtfertigt Lach-Video und attestiert Deutschland „rassistische Verhaltensmuster“",
-        "„Wir haben Arbeitsfähigkeit in die Hand eines einzelnen Anbieters gelegt“",
-        "„Haben keine Zeit zu verlieren“ – EU‑Kommission veranschlagt halbe Billion Euro für KI-Investitionen",
-        "Serbien setzt 5000 Kinder in den Regen"
+        "Im Beisein der Mutter – Kind auf Fahrrad wird von Bus überrollt und stirbt",
+        "Erstmals seit 28 Jahren – Demokrat gewinnt Gouverneurswahl in Alaska",
+        "„Wie ein alles sehender Gott“ – Die neue KI-Waffe, mit der die Ukraine den Kriegsverlauf drehen will",
+        "Angeklagt: Die Meinungsfreiheit"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/article6af784e77f8bbad09ea62e9f/aktivistin-thunberg-rechtfertigt-lach-video-und-attestiert-deutschland-rassistische-verhaltensmuster.html",
-        "https://www.welt.de/videos/video6af74ef027adfb0b7bb2d81e/nach-globalem-cloud-chaos-wir-haben-arbeitsfaehigkeit-in-die-hand-eines-einzelnen-anbieters-gelegt.html",
-        "https://www.welt.de/wirtschaft/article6af76f157f8bbad09ea62d26/gipfeltreffen-in-dublin-haben-keine-zeit-zu-verlieren-eukommission-veranschlagt-halbe-billion-euro-fuer-ki-investitionen.html",
-        "https://www.welt.de/sport/fussball/article6af76332aa0d1596fb27e584/geisterspiel-gegen-deutschland-serbien-setzt-5000-kinder-in-den-regen.html"
+        "https://www.welt.de/vermischtes/article6af89cbf2ca8b97036af77b7/berlin-im-beisein-der-mutter-kind-auf-fahrrad-wird-von-bus-ueberrollt-und-stirbt.html",
+        "https://www.welt.de/politik/ausland/article6af886614495f9bd85b80058/usa-erstmals-seit-28-jahren-demokrat-gewinnt-gouverneurswahl-in-alaska.html",
+        "https://www.welt.de/politik/ausland/plus6af6f0ea9849eea0701e1740/russischer-angriffskrieg-wie-ein-alles-sehender-gott-die-neue-ki-waffe-mit-der-die-ukraine-den-kriegsverlauf-drehen-will.html",
+        "https://www.welt.de/debatte/plus6af5f85bc45061d752ba8cfb/der-fall-houellebecq-angeklagt-die-meinungsfreiheit.html"
       ],
-      "dominant_emotion": "optimism",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 2
+        },
         {
           "emotion": "optimism",
           "count": 2
         },
         {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
+          "emotion": "grief",
           "count": 1
         }
       ]
@@ -305,27 +305,27 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 39,
+      "article_count": 33,
       "sample_titles": [
+        "Der Hausbesuch: Das Gestrickte ist politisch",
+        "Börsengang des KI-Unternehmens Anthropic: Ganz schön viele Risiken",
         "„Friesenjunkies“: Glamour in der Suchtklinik",
-        "Spionage-Affäre bei Nvidia: Was Jensen Huangs Absturz für China bedeutet",
-        "Doku über Kinderdoping: Grausame Ohnmacht",
-        "Wissenschaftsbarometer 2026: Gerne befragt, aber wenig vertraut"
+        "Spionage-Affäre bei Nvidia: Was Jensen Huangs Absturz für China bedeutet"
       ],
       "urls": [
+        "https://taz.de/Der-Hausbesuch/!6224387/",
+        "https://taz.de/Boersengang-des-KI-Unternehmens-Anthropic/!6224447/",
         "https://taz.de/Friesenjunkies/!6224385/",
-        "https://taz.de/Spionage-Affaere-bei-Nvidia/!6229847/",
-        "https://taz.de/Doku-ueber-Kinderdoping/!6229766/",
-        "https://taz.de/Wissenschaftsbarometer-2026/!6229507/"
+        "https://taz.de/Spionage-Affaere-bei-Nvidia/!6229847/"
       ],
-      "dominant_emotion": "fear",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
         {
-          "emotion": "fear",
+          "emotion": "curiosity",
           "count": 2
         },
         {
-          "emotion": "disappointment",
+          "emotion": "fear",
           "count": 2
         },
         {
@@ -338,84 +338,18 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 31,
+      "article_count": 32,
       "sample_titles": [
-        "INTERVIEW - Cyberattacken erschüttern Europa. Der Experte Fredrik Blix sagt: «Die Wahrscheinlichkeit, dass wir in Schwierigkeiten stecken, liegt bei 100 Prozent»",
-        "Die neue Parkkarte wird für die Stadt Zürich zu einem juristischen Albtraum: Jetzt wird sie gleich durch zwei Rechtsverfahren blockiert",
-        "KOMMENTAR - SP und SVP blockieren das Bundesbudget: Sie gefährden damit das Schweizer Erfolgsmodell und zeigen, dass sie das Volk offenbar für sehr naiv halten",
-        "PODCAST «NZZ WEEKEND» - «Ich bin etwas paranoid, weil mal eine Schadsoftware auf meinem iPhone gefunden wurde», sagt Thomas Süssli"
+        "Die Schweizer Fussballer erfüllen die Pflicht souverän. Aber Murat Yakin hat eine grosse Chance verpasst",
+        "Darüber spricht Villaverde de Pontones: Der Wahnsinn kommt in Form einer künstlichen Welle",
+        "Im Visier von ausländischen Agenten: Wenn der chinesische Panda-Zug plötzlich aussieht wie die Kiss-Züge von Stadler",
+        "Von China-Drohnen, Agenten mit Diplomatenpass und «intellectual traps»: Was treiben Pekings Spione in der Schweiz?"
       ],
       "urls": [
-        "https://www.nzz.ch/international/cybersicherheit-in-europa-experte-fredrik-blix-schlaegt-alarm-ld.10062330",
-        "https://www.nzz.ch/zuerich/noch-ein-rekurs-neue-parkkarte-in-der-stadt-zuerich-rueckt-in-weite-ferne-ld.10063295",
-        "https://www.nzz.ch/meinung/sp-und-svp-blockieren-das-bundesbudget-sie-gefaehrden-damit-das-schweizer-erfolgsmodell-und-zeigen-dass-sie-das-volk-offenbar-fuer-sehr-naiv-halten-ld.10062920",
-        "https://www.nzz.ch/podcast/ich-bin-etwas-paranoid-weil-mal-eine-schadsoftware-auf-meinem-iphone-gefunden-wurde-sagt-thomas-suessli-ld.10057264"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "admiration",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 27,
-      "sample_titles": [
-        "DFB-Team in der Einzelkritik: Serbien hält Gruda beim Torschuss den Regenschirm",
-        "Morde in Stade: Mutter beschimpfte wohl tödlich verletzte Mitarbeiterin",
-        "Medienrecht: Dürfen die das?",
-        "Advent 2026: Die schönsten Münchner Weihnachtsmärkte"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/sport/deutschland-serbien-einzelkritik-li.3580324",
-        "https://www.sueddeutsche.de/panorama/stade-morde-anklage-mutter-kind-einrichtung-staatsanwaltschaft-li.3579945",
-        "https://www.sueddeutsche.de/medien/christian-lindner-titanic-satire-pressefreiheit-persoenlichkeitsrecht-li.3578704",
-        "https://www.sueddeutsche.de/muenchen/muenchen-weihnachtsmaerkte-christkindlmaerkte-oeffnungszeiten-2026-1.5698518"
-      ],
-      "dominant_emotion": "curiosity",
-      "top_emotions": [
-        {
-          "emotion": "curiosity",
-          "count": 2
-        },
-        {
-          "emotion": "excitement",
-          "count": 1
-        },
-        {
-          "emotion": "sadness",
-          "count": 1
-        }
-      ]
-    },
-    "tichys": {
-      "source_id": "tichys",
-      "source": "Tichys Einblick",
-      "bias": "far-right",
-      "article_count": 22,
-      "sample_titles": [
-        "Polen fordern mehr Souveränität von der EU",
-        "Die Gewalt gegen kritische Journalisten eskaliert",
-        "Kinderzuschlag kostet 3,28 Milliarden Euro – Ausgaben seit 2015 verzehnfacht",
-        "Löst Nvidia einen Crash aus? | Tichys Börsenwecker am 13. November 2026"
-      ],
-      "urls": [
-        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-fordern-mehr-souveraenitaet-von-der-eu/",
-        "https://www.tichyseinblick.de/meinungen/brandanschlag-reichelt-gewalt-kritische-journalisten/",
-        "https://www.tichyseinblick.de/daili-es-sentials/kinderzuschlag-ausgaben-verzehnfacht/",
-        "https://www.tichyseinblick.de/podcast/tichys-boersenwecker-am-13-november-2026/"
+        "https://www.nzz.ch/sport/fussball/die-schweizer-fussballer-erfuellen-die-pflicht-souveraen-aber-murat-yakin-hat-eine-grosse-chance-verpasst-ld.10061877",
+        "https://www.nzz.ch/international/darueber-spricht-villaverde-de-pontones-der-wahnsinn-kommt-in-form-einer-kuenstlichen-welle-ld.10062907",
+        "https://www.nzz.ch/wirtschaft/im-visier-von-auslaendischen-agenten-wenn-der-chinesische-panda-zug-ploetzlich-aussieht-wie-die-kiss-zuege-von-stadler-ld.10063027",
+        "https://www.nzz.ch/schweiz/von-aushorch-drohnen-scheindiplomaten-und-intellectual-traps-was-treiben-chinas-spione-in-der-schweiz-ld.10061805"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -424,11 +358,44 @@
           "count": 3
         },
         {
-          "emotion": "optimism",
+          "emotion": "admiration",
           "count": 2
         },
         {
-          "emotion": "amusement",
+          "emotion": "realization",
+          "count": 2
+        }
+      ]
+    },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 30,
+      "sample_titles": [
+        "Italien: Meta muss 805 Millionen Euro Strafe zahlen",
+        "US-Midterms: 37-jähriger Demokrat gewinnt Gouverneurswahl in Alaska",
+        "Ski alpin: Emma Aicher holt Slalom-Sieg in Finnland",
+        "3:1 der DFB-Elf in Belgrad: Skurriles Tiki-Taka im Schlamm"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/wirtschaft/meta-facebook-datenschutz-italien-strafe-li.3580557",
+        "https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-alaska-kreiss-tomkins-li.3578585",
+        "https://www.sueddeutsche.de/sport/ski-alpin-levi-emma-aicher-li.3580526",
+        "https://www.sueddeutsche.de/sport/deutschland-serbien-nations-league-li.3580419"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "grief",
           "count": 1
         }
       ]
@@ -437,18 +404,18 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 21,
+      "article_count": 23,
       "sample_titles": [
-        "Störung bei Microsoft: Microsoft führt Störung auf Netzwerk-Upgrade zurück",
-        "Jensen Huang: Geht KI ohne ihn?",
-        "Wintersport: Auch Schweden will russischen Sportlern die Einreise verweigern",
-        "Nvidia-Chef: Der tiefe Fall des Jensen Huang"
+        "Belarussische Künstler im Exil: Rütteln an der Diktatur",
+        "Jensen Huang: Nvidia-Skandal könnte Chinas Chipindustrie schneller unabhängig machen",
+        "Herbstsynode in Dessau: Evangelische Landeskirche Anhalts zieht Fusion in Betracht",
+        "Datenschutz: Italien verhängt 805 Millionen Euro Strafe gegen Meta"
       ],
       "urls": [
-        "https://www.zeit.de/digital/2026-11/microsoft-stoerung-online-dienste-outlook-365-teams",
-        "https://www.zeit.de/digital/internet/2026-11/jensen-huang-nvidia-affaere-spionage-kuenstliche-intelligenz-nachfolge",
-        "https://www.zeit.de/sport/2026-11/russische-athleten-schweden-einreiseverbot-sport-wettkaempfe-jakob-forssmed",
-        "https://www.zeit.de/wirtschaft/2026-11/nvidia-chef-ruecktritt-jensen-huang-affaere-spionage-wall-street"
+        "https://www.zeit.de/2026/49/belarussische-kuenstler-exil-salzburg-maria-kalesnikava-maryna-yakubovich",
+        "https://www.zeit.de/wirtschaft/2026-11/jensen-huang-nvidia-china-halbleiter-lieferkette",
+        "https://www.zeit.de/news/2026-11/14/evangelische-landeskirche-anhalt-zieht-fusion-in-betracht",
+        "https://www.zeit.de/politik/ausland/2026-11/meta-strafe-italien-datenschutz-facebook-app-garante"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
@@ -461,7 +428,40 @@
           "count": 2
         },
         {
-          "emotion": "pride",
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "tichys": {
+      "source_id": "tichys",
+      "source": "Tichys Einblick",
+      "bias": "far-right",
+      "article_count": 20,
+      "sample_titles": [
+        "Die evangelische Kirche auf dem Weg in ihre heldische Selbstauslöschung",
+        "Polen fordern mehr Souveränität von der EU",
+        "Die Gewalt gegen kritische Journalisten eskaliert",
+        "Kinderzuschlag kostet 3,28 Milliarden Euro – Ausgaben seit 2015 verzehnfacht"
+      ],
+      "urls": [
+        "https://www.tichyseinblick.de/kolumnen/vorwort-zum-sonntag/evangelische-kirche-selbstausloeschung/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-fordern-mehr-souveraenitaet-von-der-eu/",
+        "https://www.tichyseinblick.de/meinungen/brandanschlag-reichelt-gewalt-kritische-journalisten/",
+        "https://www.tichyseinblick.de/daili-es-sentials/kinderzuschlag-ausgaben-verzehnfacht/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "amusement",
           "count": 1
         }
       ]
@@ -472,16 +472,16 @@
       "bias": "far-right",
       "article_count": 11,
       "sample_titles": [
+        "Was die Wikinger wirklich trieben",
         "Südkorea und der Preis der Kinder",
         "Bundesfinanzhof erleichtert arbeitslosen EU-Ausländern Zugang zum deutschen Kindergeld",
-        "Sexuelle Spiele in einer Kita: Täuscht die Stadt Bielefeld die Öffentlichkeit?",
-        "SPD stellt sich nach Erpressungsvorwurf hinter Merz"
+        "Sexuelle Spiele in einer Kita: Täuscht die Stadt Bielefeld die Öffentlichkeit?"
       ],
       "urls": [
+        "https://jungefreiheit.de/kultur/was-die-wikinger-wirklich-trieben.html",
         "https://jungefreiheit.de/ausland/suedkorea-und-der-preis-der-kinder.html",
         "https://jungefreiheit.de/deutschland/bundesfinanzhof-erleichtert-arbeitslosen-eu-auslaendern-zugang-zum-deutschen-kindergeld.html",
-        "https://jungefreiheit.de/gesellschaft/sexuelle-spiele-in-einer-kita-taeuscht-die-stadt-bielefeld-die-oeffentlichkeit.html",
-        "https://jungefreiheit.de/deutschland/spd-stellt-sich-nach-erpressungsvorwurf-hinter-merz.html"
+        "https://jungefreiheit.de/gesellschaft/sexuelle-spiele-in-einer-kita-taeuscht-die-stadt-bielefeld-die-oeffentlichkeit.html"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -490,11 +490,11 @@
           "count": 2
         },
         {
-          "emotion": "relief",
+          "emotion": "admiration",
           "count": 1
         },
         {
-          "emotion": "curiosity",
+          "emotion": "relief",
           "count": 1
         }
       ]
@@ -503,7 +503,7 @@
       "source_id": "dw",
       "source": "Deutsche Welle",
       "bias": "neutral",
-      "article_count": 7,
+      "article_count": 6,
       "sample_titles": [
         "Iran blockiert Inspektion von Atomanlagen - IAEA besorgt",
         "US-Senat lädt Handelsminister und Ex-Nvidia-Chef Huang vor",
@@ -528,6 +528,27 @@
         }
       ]
     },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 2,
+      "sample_titles": [
+        "Die KI kann reden. Das Kind hat etwas zu sagen.",
+        "Die Palästinafahne vor dem Reichstag ist ein Alarmzeichen"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/die_ki_kann_reden_das_kind_hat_etwas_zu_sagen",
+        "https://www.achgut.com/artikel/die_palaestinafahne_vor_dem_reichstag_ist_ein_alarmzeichen"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
     "cicero": {
       "source_id": "cicero",
       "source": "Cicero",
@@ -543,41 +564,27 @@
       ],
       "dominant_emotion": "neutral",
       "top_emotions": []
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 1,
-      "sample_titles": [
-        "Die Palästinafahne vor dem Reichstag ist ein Alarmzeichen"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/die_palaestinafahne_vor_dem_reichstag_ist_ein_alarmzeichen"
-      ],
-      "dominant_emotion": "neutral",
-      "top_emotions": []
     }
   },
   "bias_distribution": {
-    "populist-mixed": 90,
-    "right-conservative": 119,
-    "conservative-liberal": 133,
-    "left-liberal": 173,
-    "neutral": 160,
-    "far-right": 34,
-    "economic-liberal": 52,
-    "left": 39
+    "populist-mixed": 104,
+    "conservative-liberal": 131,
+    "neutral": 154,
+    "far-right": 33,
+    "right-conservative": 118,
+    "left": 33,
+    "left-liberal": 181,
+    "economic-liberal": 46
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Synthese nicht verfügbar.",
-      "controversial_points": "Der Staat will KI regulieren, während die Industrie nach weniger Bürokratie drängt. Datenschützer fordern strenge Vorgaben, Unternehmen betonen Wettbewerbsfähigkeit und Innovationsdruck. Die digitale Verwaltung kollidiert mit Fachkräftemangel, weil Behörden langsame Modernisierung und fehlende IT‑Talente haben. EU‑AI‑Act spaltet Befürworter des europäischen Werte‑Modells und Befürworter eines marktorientierten Ansatzes."
+      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung betonen fast alle Medien die Notwendigkeit einer klaren regulatorischen Rahmen­politik für Künstliche Intelligenz, wobei sie einerseits die Chancen für Wirtschaft und Forschung hervorheben und andererseits die Risiken für Datenschutz, Cybersicherheit und den Arbeitsmarkt betonen; diese Doppelperspektive findet sich sowohl in liberal‑wirtschaftlichen Analysen zu KI‑Börsengängen als auch in linken Beiträgen zu ethischen und gesellschaftlichen Folgen. Gleichzeitig wird in nahezu allen Diskursen der Ausbau digitaler Infrastruktur – insbesondere Breitband und digitale Verwaltung – als Grundvoraussetzung für die Wettbewerbsfähigkeit Deutschlands und Europas dargestellt, wobei die Diskussion über staatliche Förderungen und EU‑Initiativen wie den AI Act über das gesamte politische Spektrum hinweg präsent ist. Schließlich zeigen die Berichte ein gemeinsames Bild von ambivalenter Haltung gegenüber KI‑Anwendungen: Sie werden als Innovationsmotor und Wachstumsfaktor gesehen, gleichzeitig aber als potenzielle Quelle von Arbeitsplatzverlusten und sozialer Ungleichheit, was zu breiten Forderungen nach Qualifizierungs‑ und Weiterbildungsprogrammen führt.",
+      "controversial_points": ""
     },
     "en": {
-      "shared_perspectives": "German media across the spectrum agree that the state must fund a large‑scale digital overhaul, stressing that billions of euros are needed for broadband, cloud services and AI research to keep Germany competitive in Europe. They also converge on the view that reliance on foreign chip and cloud providers creates a strategic vulnerability, prompting calls for stronger cybersecurity measures and a European supply chain. Finally, there is a shared emphasis on pairing the EU AI Act with concrete up‑skilling programmes, arguing that regulation should protect data and fundamental rights while preparing workers for automation‑driven job changes.",
-      "controversial_points": "German media frame AI as a clash between strict data protection and rapid technological innovation. Federal authorities and industry dispute who should fund and control the digital infrastructure rollout. Labor unions fear automation will erode jobs while business circles demand competitiveness. The EU AI Act creates tension between national sovereignty and supranational regulatory standards."
+      "shared_perspectives": "German media across the spectrum agree that the EU’s forthcoming AI Act will become the central regulatory framework shaping both corporate investment and public trust in artificial‑intelligence systems, and that robust data‑protection and cybersecurity measures must accompany any acceleration of digital transformation. They also converge on the view that expanding high‑speed broadband and fostering digital skills in schools are essential preconditions for Germany to remain competitive while mitigating the employment risks posed by automation. Finally, there is a shared emphasis on the need for coordinated public‑private funding to support responsible AI research and to ensure that European standards, rather than foreign tech giants, drive the country’s digital future.",
+      "controversial_points": "Tension between market-driven AI innovation and strict data protection regulations. Conflict over state-led digital infrastructure funding versus fiscal conservatism limiting public spending. Divergence between tech‑industry calls for flexible AI rules and left‑leaning demands for robust ethical oversight. Debate pits automation‑driven productivity gains against labor unions’ fear of job losses and wage pressure."
     }
   },
-  "cached_at": "2026-11-14T11:50:52.336261"
+  "cached_at": "2026-11-15T12:08:07.564637"
 }
