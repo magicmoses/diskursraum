@@ -8,32 +8,65 @@
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 120,
+      "article_count": 128,
       "sample_titles": [
-        "Jugendhilfe in Berlin: Immer mehr 18-Jährige verlieren frühzeitig Unterstützung",
-        "Väter lernen, ihren Kindern Zöpfe zu flechten",
-        "Kita-Gesetz des Bundes: Özdemir kündigt Widerstand an - Kommunen erleichtert",
-        "Familie kann sich selbst retten: Kinderzimmer in Werl brennt aus"
+        "WDR-Kinderrechtepreis geht nach Wiehl: Verein hilft Kindern suchtkranker Eltern",
+        "WDR Kinderrechtepreis für Rurtal Schule Heinsberg: Hammer gegen Fake News",
+        "\"Es gibt keinen Anspruch auf Dauerförderung\"",
+        "Familie und Freunde verloren: Junge Leute verarbeiten Trauer beim Pilgern"
       ],
       "urls": [
-        "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-jugendhilfe-jugendaemter-bezirke-18-jaehrige-unterstuetzung.html",
-        "https://www1.wdr.de/nrw/rheinland/bonn/papas-lernen-zoepfe-flechten-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/ministerpraesident-oezdemir-wir-muessen-alle-verlaesslich-sein-das-gilt-auch-fuer-den-bund-100.html",
-        "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-soest/kinderzimmer-brand-werl-feuerwehr-112.html"
+        "https://www1.wdr.de/nrw/bergisches-land/oberbergischer-kreis/wiehl-kinderrechtepreis-wdr-lebensfarben-100.html",
+        "https://www1.wdr.de/nrw/aachen-eifel/kreis-heinsberg/wdr-kinderrechtepreis-hammer-rurtal-schule-heinsberg-100.html",
+        "https://www.tagesschau.de/inland/innenpolitik/prien-demokratiefoerderung-100.html",
+        "https://www1.wdr.de/nrw/sauerland-siegerland/kreis-soest/erwitte-pilgern-santiago-film-100.html"
       ],
       "dominant_emotion": "grief",
       "top_emotions": [
         {
           "emotion": "grief",
+          "count": 5
+        },
+        {
+          "emotion": "realization",
+          "count": 3
+        },
+        {
+          "emotion": "sadness",
+          "count": 3
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 92,
+      "sample_titles": [
+        "Wagen auf A27 von LKW gerammt : Tanja Szewczenko nach Familienunfall unter Schock",
+        "Ärger über Finanzierung: Länder halten schwarz-rotes Kita-Gesetz auf",
+        "Falsche Art der Männerkritik?: Karin Prien warnt vor Vernachlässigung männlicher Probleme",
+        "Tochter Joelina gibt Einblicke: Familie würde Jürgen Drews \"nicht in ein Heim geben\""
+      ],
+      "urls": [
+        "https://www.n-tv.de/leute/Tanja-Szewczenko-nach-Familienunfall-unter-Schock-id31560966.html",
+        "https://www.n-tv.de/politik/Laender-halten-schwarz-rotes-Kita-Gesetz-auf-id31558592.html",
+        "https://www.n-tv.de/politik/Ministerin-Prien-kritisiert-Debatte-ueber-toxische-Maennlichkeit-id31553811.html",
+        "https://www.n-tv.de/leute/Familie-wuerde-Juergen-Drews-nicht-in-ein-Heim-geben-id31552812.html"
+      ],
+      "dominant_emotion": "sadness",
+      "top_emotions": [
+        {
+          "emotion": "sadness",
+          "count": 6
+        },
+        {
+          "emotion": "disapproval",
+          "count": 5
+        },
+        {
+          "emotion": "annoyance",
           "count": 4
-        },
-        {
-          "emotion": "desire",
-          "count": 3
-        },
-        {
-          "emotion": "fear",
-          "count": 3
         }
       ]
     },
@@ -41,18 +74,18 @@
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 94,
+      "article_count": 87,
       "sample_titles": [
-        "Reform vor Beschluss: Kein Umgangsrecht mehr für gewalttätigen Elternteil",
-        "Jugendproteste: Können Kinder von Krawallen lernen?",
-        "Frauen als Coaches: Oben wird die Luft dünn",
-        "POdcast-Kolumne: Reality-Show für die Ohren"
+        "Bildung in Kitas: Priens wichtigstes Projekt scheitert vorerst im Bundesrat",
+        "Konferenz in Berlin: Prien will Gleichstellungspolitik für Jungen und Männer",
+        "Familie des Soziologen: Gab's bei den Luhmanns nie Familienkrach?",
+        "Brief aus Istanbul: Wir fliegen zum Mond und finden Öl"
       ],
       "urls": [
-        "https://www.faz.net/aktuell/politik/inland/reform-des-umgangsrechts-bundesregierung-will-kinder-besser-schuetzen-accg-201693039.html",
-        "https://www.faz.net/aktuell/gesellschaft/menschen/kinder-im-kapitalismus-was-eltern-wirklich-lehren-koennen-201686334.html",
-        "https://www.faz.net/aktuell/sport/mehr-sport/familie-und-job-warum-gibt-es-so-wenige-frauen-als-trainerinnen-201684381.html",
-        "https://www.faz.net/aktuell/feuilleton/buecher/hoerbuch/der-podcast-hollywood-mom-mit-drag-queen-candy-crash-201659284.html"
+        "https://www.faz.net/aktuell/politik/inland/bundesrat-stoppt-startchancen-und-qualitaetsentwicklungsgesetz-accg-201701241.html",
+        "https://www.faz.net/aktuell/politik/inland/karin-prien-fordert-gleichstellungspolitik-fuer-jungen-und-maenner-accg-201701120.html",
+        "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/niklas-luhmann-als-vater-familie-ganz-ohne-familienkrach-201687431.html",
+        "https://www.faz.net/aktuell/feuilleton/kolumnen/brief-aus-istanbul/brief-aus-istanbul-fonds-skandal-macht-erdogan-zu-schaffen-accg-201692307.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -65,41 +98,8 @@
           "count": 7
         },
         {
-          "emotion": "amusement",
-          "count": 4
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 93,
-      "sample_titles": [
-        "Auf Konfrontationskurs mit Bund: Schwesig stellt sich gegen Kürzung von Kita-Geldern",
-        "\"Milliarden müssen drin sein\": Söder erklärt Mütterrente für unantastbar",
-        "Staat steigt aus: Weltgrößte Reederei MSC will offenbar Meyer Werft kaufen",
-        "Linke Kritik an Christdemokraten: Besuch von Issa Remmo im Europaparlament sorgt für Wirbel"
-      ],
-      "urls": [
-        "https://www.n-tv.de/politik/Manuela-Schwesig-stellt-sich-gegen-Kuerzung-von-Kita-Geldern-id31545101.html",
-        "https://www.n-tv.de/politik/Soeder-erklaert-Muetterrente-fuer-unantastbar-id31536606.html",
-        "https://www.n-tv.de/wirtschaft/Weltgroesste-Reederei-MSC-will-offenbar-Meyer-Werft-kaufen-id31534236.html",
-        "https://www.n-tv.de/politik/Besuch-von-Issa-Remmo-im-Europaparlament-sorgt-fuer-Wirbel-id31532140.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 7
-        },
-        {
-          "emotion": "disapproval",
-          "count": 5
-        },
-        {
-          "emotion": "grief",
-          "count": 3
+          "emotion": "admiration",
+          "count": 6
         }
       ]
     },
@@ -109,19 +109,23 @@
       "bias": "left-liberal",
       "article_count": 86,
       "sample_titles": [
-        "Lisa T. aus Berlin: Staatsanwalt erklärt Probleme bei Verfahren zu Missbrauchsbildern",
-        "Mütterrente: Sie ist ein Irrweg, die Bürger brauchen Entlastung an anderer Stelle",
-        "News: Friedrich Merz besucht CSU, Hubertus Heil will Lars Klingbeil ablösen, Anthropic geht an die Börse",
-        "Sabrina Hoffmann: »Mütter sollen Chefinnen sein, aber dennoch dauerpräsent und verfügbar sein«"
+        "IT-Pannen in den USA: Konsumenten machen Hamsterkäufe und horten Cash",
+        "Bundesrat bremst Kita-Startchancengesetz aus",
+        "Nürnberg: Kitamitarbeiter muss wegen Missbrauchs sechseinhalb Jahre in Haft",
+        "Jürgen Chrobog: Ex-Diplomat ist tot"
       ],
       "urls": [
-        "https://www.spiegel.de/panorama/justiz/lisa-t-aus-berlin-staatsanwalt-erklaert-probleme-bei-verfahren-zu-missbrauchsbildern-a-38a61996-bf3f-4477-b8f2-78c18908a6e0#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/muetterrente-sie-ist-ein-irrweg-die-buerger-brauchen-entlastung-an-anderer-stelle-a-f9d05239-b66f-4873-8bc3-4c79db11e36c#ref=rss",
-        "https://www.spiegel.de/politik/deutschland/news-friedrich-merz-besucht-csu-hubertus-heil-will-lars-klingbeil-abloesen-anthropic-geht-an-die-boerse-a-1e22ff34-6373-4a3f-a6f3-aec46134b9ea#ref=rss",
-        "https://www.spiegel.de/kultur/sabrina-hoffmann-muetter-sollen-chefinnen-sein-aber-dennoch-dauerpraesent-und-verfuegbar-sein-a-fc3ee322-d9ab-48db-9165-b5aa09215720#ref=rss"
+        "https://www.spiegel.de/wirtschaft/it-pannen-in-den-usa-konsumenten-machen-hamsterkaeufe-und-horten-cash-a-22195e2e-401b-44e2-bd8d-8780bf9bb0c9#ref=rss",
+        "https://www.spiegel.de/politik/bundesrat-bremst-kita-startchancengesetz-aus-a-72acea8a-58a8-422b-a41e-c627d7af1acd#ref=rss",
+        "https://www.spiegel.de/panorama/justiz/nuernberg-kita-mitarbeiter-muss-wegen-missbrauchs-sechseinhalb-jahre-in-haft-a-5dd8a7c3-8cdb-450c-867b-659f17d27957#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/juergen-chrobog-ex-diplomat-ist-tot-a-47ab9194-2d87-47d6-b944-49c48ce7d098#ref=rss"
       ],
-      "dominant_emotion": "annoyance",
+      "dominant_emotion": "grief",
       "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 5
+        },
         {
           "emotion": "annoyance",
           "count": 5
@@ -129,43 +133,6 @@
         {
           "emotion": "sadness",
           "count": 5
-        },
-        {
-          "emotion": "realization",
-          "count": 4
-        }
-      ]
-    },
-    "stern": {
-      "source_id": "stern",
-      "source": "Stern",
-      "bias": "left-liberal",
-      "article_count": 79,
-      "sample_titles": [
-        "Hayden Panettiere: Mutter erklärt ihr Fehlen bei der Trauerfeier",
-        "Rufe nach Stromsteuersenkung vor Sitzung des Koalitionsausschusses",
-        "Forsa-Umfrage: Mehrheit der Deutschen ist grundsätzlich für die Mütterrente",
-        "Britische Royals: Prinz Willam erinnert sich an „unser erstes Zuhause als Familie“"
-      ],
-      "urls": [
-        "https://www.stern.de/lifestyle/leute/hayden-panettiere--mutter-erklaert-ihr-fehlen-bei-der-trauerfeier-38564604.html",
-        "https://www.stern.de/news/rufe-nach-stromsteuersenkung-vor-sitzung-des-koalitionsausschusses-38560960.html",
-        "https://www.stern.de/politik/deutschland/muetterrente--80-prozent-der-deutschen-wollen-sie-beibehalten-38557060.html",
-        "https://www.stern.de/lifestyle/leute/prinz-william-erinnert-sich-an--unser-erstes-zuhause-als-familie--38557190.html"
-      ],
-      "dominant_emotion": "grief",
-      "top_emotions": [
-        {
-          "emotion": "grief",
-          "count": 7
-        },
-        {
-          "emotion": "amusement",
-          "count": 4
-        },
-        {
-          "emotion": "fear",
-          "count": 3
         }
       ]
     },
@@ -175,16 +142,16 @@
       "bias": "populist-mixed",
       "article_count": 75,
       "sample_titles": [
-        "Zoff um Dönerbude eskaliert - Familienvater (41) in Auto erschossen",
-        "Jetzt mit BILDplus - Gewinnen Sie Tickets für den Christmas Garden!",
-        "Nach DSDS-Sieg brach er den Kontakt ab - Diese Nachricht versöhnte Pietro mit seiner Familie",
-        "Die Opfer seines Hasses - Elphi-Killer zerstörte seine eigene Familie"
+        "Schauspieler im Steckbrief - Die vielen Facetten des GZSZ-Stars Jan Kittmann",
+        "Lkw drückt Auto gegen Leitplanke - Tanja Szewczenkos Familie hat Horror-Crash",
+        "Die Mütter wussten nichts voneinander - Brasilien-Torwart wird Vater – mit zwei Frauen",
+        "Victoria Swarovski im Steckbrief - Sie machte sich abseits ihrer Familie einen Namen"
       ],
       "urls": [
-        "https://www.bild.de/regional/nordrhein-westfalen/aachen-mord-nach-streit-um-doener-lokal-6af9ba754495f9bd85b80fb9",
-        "https://www.bild.de/sonstiges/bildplus-gewinnspiele-aktionen/christmas-garden-family-friends-tickets-gewinnen-6af4baf550175c81de7a21ad",
-        "https://www.bild.de/unterhaltung/stars-und-leute/pietro-lombardi-diese-instagram-nachricht-fuehrte-ihn-zurueck-zur-familie-6af9585f4495f9bd85b8070e",
-        "https://www.bild.de/regional/hamburg/familienstreit-um-firma-vor-bluttat-an-der-elbphilharmonie-in-hamburg-6af6f8f984c7128d8f27e1eb"
+        "https://www.bild.de/unterhaltung/stars-und-leute/jan-kittmann-im-steckbrief-wie-tickt-der-gzsz-frauenschwarm-698d917ff4d0b8d94ca19ad4",
+        "https://www.bild.de/unterhaltung/stars-und-leute/schock-fuer-awz-star-tanja-szewczenkos-familie-hat-horror-crash-6b006e8bb237b5b41c9a2ee6",
+        "https://www.bild.de/sport/fussball/die-muetter-wussten-nichts-voneinander-brasilien-torwart-wird-vater-mit-zwei-frauen-6affe99e7ef35303aaaae7b9",
+        "https://www.bild.de/unterhaltung/stars-und-leute/victoria-swarovski-im-steckbrief-so-machte-sie-sich-abseits-ihrer-familie-einen-namen-63b44c06265718004534d59c"
       ],
       "dominant_emotion": "amusement",
       "top_emotions": [
@@ -193,11 +160,44 @@
           "count": 6
         },
         {
+          "emotion": "grief",
+          "count": 5
+        },
+        {
           "emotion": "sadness",
+          "count": 4
+        }
+      ]
+    },
+    "stern": {
+      "source_id": "stern",
+      "source": "Stern",
+      "bias": "left-liberal",
+      "article_count": 74,
+      "sample_titles": [
+        "Neue Single: Zartmann singt über politische Konflikte in der Familie",
+        "Unfälle: A71 bei Suhl: Kleinkind bei Unfall schwer verletzt",
+        "Feuerwehreinsatz: Nach Brand in Mehrfamilienhaus - Gebäude derzeit unbewohnbar",
+        "Hayden Panettiere: Mutter erklärt ihr Fehlen bei der Trauerfeier"
+      ],
+      "urls": [
+        "https://www.stern.de/lifestyle/neue-single--zartmann-singt-ueber-politische-konflikte-in-der-familie-38580838.html",
+        "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/unfaelle--a71-bei-suhl--kleinkind-bei-unfall-schwer-verletzt-38573864.html",
+        "https://www.stern.de/gesellschaft/regional/nordrhein-westfalen/feuerwehreinsatz--nach-brand-in-mehrfamilienhaus---gebaeude-derzeit-unbewohnbar-38573680.html",
+        "https://www.stern.de/lifestyle/leute/hayden-panettiere--mutter-erklaert-ihr-fehlen-bei-der-trauerfeier-38564604.html"
+      ],
+      "dominant_emotion": "grief",
+      "top_emotions": [
+        {
+          "emotion": "grief",
+          "count": 7
+        },
+        {
+          "emotion": "fear",
           "count": 4
         },
         {
-          "emotion": "grief",
+          "emotion": "amusement",
           "count": 4
         }
       ]
@@ -206,18 +206,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 61,
+      "article_count": 64,
       "sample_titles": [
-        "„860.000 Kinder haben hier keine Lobby“",
-        "Gutachten erhebt schwere Vorwürfe gegen deutsche Ermittlungsbehörden",
-        "Mein Kleinkrieg gegen die Kita-Keime – und das Manöver, mit dem ich ihn gewann",
-        "Brand in Hamburger Mehrfamilienhaus – Leiche gefunden"
+        "Pädokrimineller Kita-Erzieher bekommt mildere Strafe – weil Opfern Aussage erspart bleibt",
+        "Die wahre Macht der Familien – Brüssel regiert an 98 Prozent der Wirtschaft vorbei",
+        "Dann streiten sich der Pädokriminelle und der Richter über die Zahl der sexuellen Übergriffe",
+        "„860.000 Kinder haben hier keine Lobby“"
       ],
       "urls": [
-        "https://www.welt.de/politik/deutschland/video6afc77fabf787977ad3db98b/katharina-beck-zum-unterhaltsvorschuss-gruenen-politikerin-warnt-vor-folgen-fuer-alleinerziehende.html",
-        "https://www.welt.de/politik/plus6afc2ee2eb4daf2a62156fd6/fall-usmanow-gutachten-erhebt-schwere-vorwuerfe-gegen-deutsche-ermittlungsbehoerden.html",
-        "https://www.welt.de/kultur/plus6af5ac3e5596369bf0edcffb/kinderkrank-mein-kleinkrieg-gegen-die-kita-keime-und-das-manoever-mit-dem-ich-ihn-gewann.html",
-        "https://www.welt.de/regionales/hamburg/article6afb2bfe028f6e41ab3f1607/feuerwehreinsatz-brand-in-hamburger-mehrfamilienhaus-leiche-gefunden.html"
+        "https://www.welt.de/politik/deutschland/plus6aff274fee91e990acae7291/urteil-in-nuernberg-paedokrimineller-kita-erzieher-bekommt-mildere-strafe-weil-opfern-aussage-erspart-bleibt.html",
+        "https://www.welt.de/wirtschaft/plus6aff35cee79e7594eb9b63cf/familienunternehmen-dieser-report-zeigt-europas-vergessene-wirtschaftsmacht.html",
+        "https://www.welt.de/politik/deutschland/plus6afc03739893cadb7bd15787/prozess-in-muenchen-dann-streiten-sich-der-paedokriminelle-und-der-richter-ueber-die-zahl-der-sexuellen-uebergriffe.html",
+        "https://www.welt.de/politik/deutschland/video6afc77fabf787977ad3db98b/katharina-beck-zum-unterhaltsvorschuss-gruenen-politikerin-warnt-vor-folgen-fuer-alleinerziehende.html"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -239,97 +239,31 @@
       "source_id": "sz",
       "source": "Süddeutsche Zeitung",
       "bias": "left-liberal",
-      "article_count": 31,
+      "article_count": 30,
       "sample_titles": [
+        "Gen-Z-Proteste: Wie die Jugend versucht, aus Demos eine Bewegung zu machen",
+        "Glosse: Das Streiflicht",
         "Kreisbildungswerk Freising: Vererben in Patchworkfamilien",
-        "Urteil zur Mietpreisbremse: Miete zu hoch: Münchnerin bekommt fast 60 000 Euro zurück",
-        "Brand im Münchner Osten: Mehrfamilienhaus nach Feuer unbewohnbar",
-        "Etat 2027: Was auf die Bürger mit dem 560-Milliarden-Haushalt zukommt"
+        "Urteil zur Mietpreisbremse: Miete zu hoch: Münchnerin bekommt fast 60 000 Euro zurück"
       ],
       "urls": [
+        "https://www.sueddeutsche.de/politik/gen-z-proteste-schueler-studierende-frankfurt-berlin-ausschreitungen-gewerkschaften-li.3582673",
+        "https://www.sueddeutsche.de/politik/glosse-das-streiflicht-li.3582337",
         "https://www.sueddeutsche.de/muenchen/freising/patchworkfamilien-vererben-freising-erbrecht-vortrag-li.3582070",
-        "https://www.sueddeutsche.de/muenchen/muenchen-mietpreisbremse-urteil-brandl-li.3581847",
-        "https://www.sueddeutsche.de/muenchen/brand-muenchen-ramersdorf-perlach-mehrfamilienhaus-feuerwehr-li.3580446",
-        "https://www.sueddeutsche.de/politik/bundeshaushalt-2027-stromsteuer-kitas-wohngeld-elterngeld-li.3579506"
+        "https://www.sueddeutsche.de/muenchen/muenchen-mietpreisbremse-urteil-brandl-li.3581847"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "optimism",
       "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
         {
           "emotion": "confusion",
           "count": 2
         },
         {
           "emotion": "excitement",
-          "count": 2
-        },
-        {
-          "emotion": "sadness",
-          "count": 2
-        }
-      ]
-    },
-    "zdf": {
-      "source_id": "zdf",
-      "source": "ZDF heute",
-      "bias": "neutral",
-      "article_count": 28,
-      "sample_titles": [
-        "Elterngeld-Reform könnte Familien Geld kosten",
-        "Elterngeldreform: Das soll sich ändern",
-        "Chile: Mutter sieht ihre Söhne nach 40 Jahren wieder",
-        "Erste Frau schafft Ultramarathon in Antarktis"
-      ],
-      "urls": [
-        "https://www.zdfheute.de/politik/deutschland/elterngeld-zew-reform-100.html",
-        "https://www.zdfheute.de/politik/deutschland/elterngeldreform-bundeskabinett-100.html",
-        "https://www.zdfheute.de/video/panorama-wiedersehen-nach-40-jahren-100.html",
-        "https://www.zdfheute.de/sport/video/erste-frau-beim-ultramarathon-in-antarktis-100.html"
-      ],
-      "dominant_emotion": "sadness",
-      "top_emotions": [
-        {
-          "emotion": "sadness",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        }
-      ]
-    },
-    "taz": {
-      "source_id": "taz",
-      "source": "taz",
-      "bias": "left",
-      "article_count": 28,
-      "sample_titles": [
-        "Kürzungen bei „Demokratie leben“: Prien wirft etablierte Träger raus",
-        "Roman „Die letzten zehn Sekunden“: Eine Familie wie ein Algorithmus",
-        "Nu-Metal-Band Korn auf Tour: 30 Jahre alte Träume von Sex",
-        "Tagebuch aus Armenien: Wer kann da noch wohnen?"
-      ],
-      "urls": [
-        "https://taz.de/Exklusiv-CDU-Staatssekretaer-Behnel-strich-persoenlich-Projekt-von-der-Foerderliste/!6230619/",
-        "https://taz.de/Roman-Die-letzten-zehn-Sekunden/!6224463/",
-        "https://taz.de/Nu-Metal-Band-Korn-auf-Tour/!6230078/",
-        "https://taz.de/Tagebuch-aus-Armenien/!6225355/"
-      ],
-      "dominant_emotion": "disapproval",
-      "top_emotions": [
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "amusement",
-          "count": 2
-        },
-        {
-          "emotion": "sadness",
           "count": 2
         }
       ]
@@ -338,18 +272,18 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 27,
+      "article_count": 29,
       "sample_titles": [
-        "Schiffbau: Einstieg von MSC bei der Meyer Werft rückt näher – auch die Familie könnte profitieren",
-        "Berkshire Hathaway: Buffett schenkt Familienstiftungen Aktien im Wert von 5,5 Milliarden Dollar",
-        "Familienunternehmen: Was der deutsche Verlag Bastei Lübbe gegen das schwierige Jahr nach seinem Welterfolg unternimmt",
-        "Immobilien: Wie Sie ein Mehrfamilienhaus bis zu 50 Prozent teurer verkaufen"
+        "Börse: Schwere Vorwürfe: AMD-Aktie verliert nach Shortseller-Bericht zeitweise zweistellig",
+        "Koalitionsausschuss: Bis zu 552 Euro für Familien: So stark werden die Steuerzahler 2027 entlastet",
+        "FFG-Übernahme: Deutz prüft Vorwürfe nach Shortseller-Attacke – Aktie bricht ein",
+        "Kommentar: Gesenkte Stromsteuer – warum drei Currywürste im Monat die Koalition retten"
       ],
       "urls": [
-        "https://www.handelsblatt.com/unternehmen/industrie/schiffbau-einstieg-von-msc-bei-der-meyer-werft-rueckt-naeher/100270248.html",
-        "https://www.handelsblatt.com/finanzen/maerkte/berkshire-hathaway-buffett-verschenkt-fuer-55-milliarden-dollar-aktien/100270318.html",
-        "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/buecher-bastei-luebbe-und-das-schwierige-jahr-nach-maxton-hall/100263302.html",
-        "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-sie-ein-mehrfamilienhaus-bis-zu-50-prozent-teurer-verkaufen/100260999.html"
+        "https://www.handelsblatt.com/technik/it-internet/boerse-amd-aktie-verliert-nach-shortseller-bericht-deutlich/100271363.html",
+        "https://www.handelsblatt.com/politik/deutschland/steuern-kompromiss-der-koalition-bringt-familien-bis-zu-552-euro-entlastung/100270934.html",
+        "https://www.handelsblatt.com/unternehmen/industrie/shortseller-attacke-deutz-prueft-vorwuerfe-zu-ffg-uebernahme/100270958.html",
+        "https://www.handelsblatt.com/meinung/kommentare/kommentar-stromsteuersenkung-drei-currywuerste-im-monat-retten-koalition/100270730.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -363,35 +297,68 @@
         }
       ]
     },
-    "junge_freiheit": {
-      "source_id": "junge_freiheit",
-      "source": "Junge Freiheit",
-      "bias": "far-right",
-      "article_count": 22,
+    "taz": {
+      "source_id": "taz",
+      "source": "taz",
+      "bias": "left",
+      "article_count": 28,
       "sample_titles": [
-        "Deutschland zahlt für 300.000 Kinder im Ausland Kindergeld",
-        "Bundesfinanzhof erleichtert arbeitslosen EU-Ausländern Zugang zum deutschen Kindergeld",
-        "Auto von Julian Reichelt bei Brandanschlag zerstört",
-        "Mordanklage gegen Lebensgefährtin des Sechsfachmörders von Stade"
+        "Karin Prien kippt weiteres Programm: Menschen schwächen Menschen",
+        "Landtagssitzung in Sachsen-Anhalt: Mehrheit ohne Regierungswillen",
+        "Reform des Sorgerechts: Kein Umgangsrecht mehr für gewalttätigen Elternteil",
+        "Kürzungen bei „Demokratie leben“: Prien wirft etablierte Träger raus"
       ],
       "urls": [
-        "https://jungefreiheit.de/deutschland/deutschland-zahlt-fuer-300000-kinder-im-ausland-kindergeld.html",
-        "https://jungefreiheit.de/deutschland/bundesfinanzhof-erleichtert-arbeitslosen-eu-auslaendern-zugang-zum-deutschen-kindergeld.html",
-        "https://jungefreiheit.de/deutschland/auto-von-julian-reichelt-bei-brandanschlag-zerstoert.html",
-        "https://jungefreiheit.de/deutschland/mordanklage-gegen-lebensgefaehrtin-des-sechsfachmoerders-von-stade.html"
+        "https://taz.de/Karin-Prien-kippt-weiteres-Programm/!6231775/",
+        "https://taz.de/Landtagssitzung-in-Sachsen-Anhalt/!6231167/",
+        "https://taz.de/Reform-des-Sorgerechts/!6231148/",
+        "https://taz.de/Exklusiv-CDU-Staatssekretaer-Behnel-strich-persoenlich-Projekt-von-der-Foerderliste/!6230619/"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
         {
           "emotion": "disapproval",
-          "count": 3
+          "count": 2
         },
         {
-          "emotion": "relief",
+          "emotion": "amusement",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 1
+        }
+      ]
+    },
+    "zdf": {
+      "source_id": "zdf",
+      "source": "ZDF heute",
+      "bias": "neutral",
+      "article_count": 27,
+      "sample_titles": [
+        "Vorlesen, damit \"Kinder Superkraft Lesen entdecken können\"",
+        "Familie bedroht und beraubt: Überfall in Frankfurt am Main",
+        "Sexualisierte Gewalt im Netz - Neue Zahlen, neue Bundeskampagne",
+        "Elterngeld-Reform könnte Familien Geld kosten"
+      ],
+      "urls": [
+        "https://www.zdfheute.de/panorama/vorlesen-grundschule-kinder-ehrenamt-100.html",
+        "https://www.zdfheute.de/panorama/kriminalitaet/aktenzeichen-xy-november-2026-ueberfall-wohnung-frankfurt-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-bundespressekonferenz-a-5241399.html",
+        "https://www.zdfheute.de/politik/deutschland/elterngeld-zew-reform-100.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
           "count": 1
         },
         {
-          "emotion": "admiration",
+          "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "joy",
           "count": 1
         }
       ]
@@ -400,18 +367,18 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 21,
+      "article_count": 22,
       "sample_titles": [
-        "DER ANDERE BLICK - Das Elterngeld ist eine teure Umverteilung mit einer ernüchternden Bilanz",
+        "«Fisch, Familie, Freiheit»: Die Demokratin Mary Peltola gewinnt die Senatswahl in Alaska",
         "Sie leben für die Berge – bis der Traumjob zur Belastung wird: Warum Bergsteiger ihrem Beruf den Rücken kehren",
-        "INTERVIEW - «Ohne die reichen Leute könnten die Schweizer nicht so gut leben, wie sie es heute tun», sagt Samih Sawiris, der Ägypter, der einen Schweizer Skiort neu erfindet",
-        "Indonesiens Vizepräsident tritt zurück – und Präsident Prabowo festigt seine Macht"
+        "DER ANDERE BLICK - Das Elterngeld ist eine teure Umverteilung mit einer ernüchternden Bilanz",
+        "INTERVIEW - «Ohne die reichen Leute könnten die Schweizer nicht so gut leben, wie sie es heute tun», sagt Samih Sawiris, der Ägypter, der einen Schweizer Skiort neu erfindet"
       ],
       "urls": [
-        "https://www.nzz.ch/der-andere-blick/das-elterngeld-hat-traditionelle-rollen-nicht-veraendert-nur-subventioniert-ld.10066254",
+        "https://www.nzz.ch/international/senatswahl-in-alaska-mary-peltola-triumphiert-mit-fisch-familie-freiheit-ld.10067763",
         "https://www.nzz.ch/sport/alpinismus/warum-profi-bergsteiger-aussteigen-wenn-der-traumjob-zur-belastung-wird-ld.10062968",
-        "https://www.nzz.ch/schweiz/ohne-die-reichen-leute-koennten-die-schweizer-nicht-so-gut-leben-wie-sie-es-heute-tun-sagt-samih-sawiris-der-aegypter-der-einen-schweizer-skiort-neu-erfindet-ld.10045975",
-        "https://www.nzz.ch/international/indonesiens-vizepraesident-tritt-zurueck-und-prabowo-festigt-seine-macht-ld.10062918"
+        "https://www.nzz.ch/der-andere-blick/das-elterngeld-hat-traditionelle-rollen-nicht-veraendert-nur-subventioniert-ld.10066254",
+        "https://www.nzz.ch/schweiz/ohne-die-reichen-leute-koennten-die-schweizer-nicht-so-gut-leben-wie-sie-es-heute-tun-sagt-samih-sawiris-der-aegypter-der-einen-schweizer-skiort-neu-erfindet-ld.10045975"
       ],
       "dominant_emotion": "sadness",
       "top_emotions": [
@@ -429,11 +396,77 @@
         }
       ]
     },
+    "junge_freiheit": {
+      "source_id": "junge_freiheit",
+      "source": "Junge Freiheit",
+      "bias": "far-right",
+      "article_count": 22,
+      "sample_titles": [
+        "Giffey lehnt Kandidatur für SPD-Vorsitz ab",
+        "Deutschland zahlt für 300.000 Kinder im Ausland Kindergeld",
+        "Bundesfinanzhof erleichtert arbeitslosen EU-Ausländern Zugang zum deutschen Kindergeld",
+        "Auto von Julian Reichelt bei Brandanschlag zerstört"
+      ],
+      "urls": [
+        "https://jungefreiheit.de/deutschland/giffey-lehnt-kandidatur-fuer-spd-vorsitz-ab.html",
+        "https://jungefreiheit.de/deutschland/deutschland-zahlt-fuer-300000-kinder-im-ausland-kindergeld.html",
+        "https://jungefreiheit.de/deutschland/bundesfinanzhof-erleichtert-arbeitslosen-eu-auslaendern-zugang-zum-deutschen-kindergeld.html",
+        "https://jungefreiheit.de/deutschland/auto-von-julian-reichelt-bei-brandanschlag-zerstoert.html"
+      ],
+      "dominant_emotion": "disapproval",
+      "top_emotions": [
+        {
+          "emotion": "disapproval",
+          "count": 3
+        },
+        {
+          "emotion": "relief",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
+          "count": 1
+        }
+      ]
+    },
+    "zeit": {
+      "source_id": "zeit",
+      "source": "Zeit Online",
+      "bias": "left-liberal",
+      "article_count": 17,
+      "sample_titles": [
+        "Karin Prien: Sollten junge Männer eher so werden wie Frauen, Frau Prien?",
+        "Zahlreiche Fälle: Missbrauch von Kindern - Kita-Mitarbeiter muss in Haft",
+        "Mental Load: Jetzt haben auch Männer Mental Load – oder ist das ein Mythos?",
+        "Haushaltsentwurf: Söder will Stromsteuersenkung ohne Kürzung der Mütterrente"
+      ],
+      "urls": [
+        "https://www.zeit.de/2026/50/karin-prien-maenner-gleichstellungspolitik",
+        "https://www.zeit.de/news/2026-11/19/missbrauch-von-kindern-kita-mitarbeiter-muss-in-haft",
+        "https://www.zeit.de/familie/2026-11/mental-load-psyche-alltag-haushalt-mann",
+        "https://www.zeit.de/politik/deutschland/2026-11/muetterrente-csu-markus-soeder-stromsteuer"
+      ],
+      "dominant_emotion": "confusion",
+      "top_emotions": [
+        {
+          "emotion": "confusion",
+          "count": 1
+        },
+        {
+          "emotion": "approval",
+          "count": 1
+        },
+        {
+          "emotion": "joy",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 17,
+      "article_count": 16,
       "sample_titles": [
         "Die ehrenwerte Gesellschaft: Clan-Chef Remmo im EU-Parlament",
         "Polen fordern mehr Souveränität von der EU",
@@ -462,53 +495,20 @@
         }
       ]
     },
-    "zeit": {
-      "source_id": "zeit",
-      "source": "Zeit Online",
-      "bias": "left-liberal",
-      "article_count": 15,
-      "sample_titles": [
-        "Haushaltsentwurf: Söder will Stromsteuersenkung ohne Kürzung der Mütterrente",
-        "Unterhaltsvorschuss: Alleinerziehende müssen jetzt arm genug sein",
-        "Schüsse in Jugendhilfeeinrichtung in Stade: Anklage gegen zwei Frauen nach Sechsfachmord in Stade",
-        "Mutterschutzgesetz: Bundesregierung will Arbeitsverbote für Mütter kürzen"
-      ],
-      "urls": [
-        "https://www.zeit.de/politik/deutschland/2026-11/muetterrente-csu-markus-soeder-stromsteuer",
-        "https://www.zeit.de/familie/2026-11/unterhaltsvorschuss-alleinerziehende-kuerzung-familie",
-        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/schuesse-stade-jugendhilfeeinrichtung-mord-anklage-gxe",
-        "https://www.zeit.de/politik/deutschland/2026-11/mutterschutzgesetz-aenderung-beschaeftigungsverbot-stillen-fehlgeburt"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 1
-        },
-        {
-          "emotion": "joy",
-          "count": 1
-        },
-        {
-          "emotion": "disgust",
-          "count": 1
-        }
-      ]
-    },
     "achgut": {
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
       "article_count": 3,
       "sample_titles": [
+        "„Digital Fairness Act“: Wenn Brüssel Fairness sagt, ist Kontrolle gemeint",
         "Wer hat’s gesagt? „Wir können nicht zulassen, daß Informationsüberflutung die Privatheit der Familie zerstört” (Auflösung)",
-        "Wer hat’s gesagt? „Wir können nicht zulassen, daß Informationsüberflutung die Privatheit der Familie zerstört”",
-        "Schafft die Tabaksteuer ab!"
+        "Wer hat’s gesagt? „Wir können nicht zulassen, daß Informationsüberflutung die Privatheit der Familie zerstört”"
       ],
       "urls": [
+        "https://www.achgut.com/artikel/digital_fairness_act_wenn_bruessel_fairness_sagt_ist_kontrolle_gemeint",
         "https://www.achgut.com/artikel/wer_hats_gesagt_aufloesung_01_11_2026__wir_konnen_nicht_zulassen_dass_informationsueberflutung_die_privatheit_der_amilie_zerstoert",
-        "https://www.achgut.com/artikel/wer_hats_gesagt_01_11_2026_wir_konnen_nicht_zulassen_dass_informationsueberflutung_die_privatheit_der_amilie_zerstoert",
-        "https://www.achgut.com/artikel/schafft_die_tabaksteuer_ab"
+        "https://www.achgut.com/artikel/wer_hats_gesagt_01_11_2026_wir_konnen_nicht_zulassen_dass_informationsueberflutung_die_privatheit_der_amilie_zerstoert"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -520,14 +520,14 @@
     }
   },
   "bias_distribution": {
-    "conservative-liberal": 115,
-    "neutral": 148,
+    "right-conservative": 156,
+    "neutral": 155,
     "populist-mixed": 75,
-    "right-conservative": 154,
-    "economic-liberal": 27,
-    "left-liberal": 211,
     "left": 28,
-    "far-right": 42
+    "left-liberal": 207,
+    "far-right": 41,
+    "conservative-liberal": 109,
+    "economic-liberal": 29
   },
   "statements": {
     "de": {
@@ -539,5 +539,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-11-18T13:23:50.557737"
+  "cached_at": "2026-11-21T12:49:40.869762"
 }

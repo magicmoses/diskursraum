@@ -4,55 +4,22 @@
   "article_count": 800,
   "candidate_count": 800,
   "outlets": {
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 125,
-      "sample_titles": [
-        "GTA 6: Wenn das Computerspiel zur Sucht wird",
-        "Arabische Parteien: „Wir hassen Netanjahu mehr als Eisenkot“",
-        "Soziologie: Die Badewanne ist nicht das Problem",
-        "Antwort auf Götz Aly: Der Holocaust als Goldsuche?"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/rhein-main/frankfurt/gta-6-und-suchtgefahr-was-eltern-und-lehrer-jetzt-wissen-muessen-accg-201692994.html",
-        "https://www.faz.net/aktuell/politik/ausland/wir-hassen-netanjahu-mehr-als-eisenkot-israels-arabische-parteien-koennten-zentral-sein-fuer-die-regierungsbildung-201684941.html",
-        "https://www.faz.net/aktuell/karriere-hochschule/hoersaal/debatte-ueber-die-lage-der-soziologie-201654630.html",
-        "https://www.faz.net/aktuell/wissen/geist-soziales/stephan-malinowski-antwortet-auf-goetz-aly-201651070.html"
-      ],
-      "dominant_emotion": "realization",
-      "top_emotions": [
-        {
-          "emotion": "realization",
-          "count": 7
-        },
-        {
-          "emotion": "admiration",
-          "count": 7
-        },
-        {
-          "emotion": "curiosity",
-          "count": 6
-        }
-      ]
-    },
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 117,
+      "article_count": 124,
       "sample_titles": [
-        "Ist das Studium in Zweibrücken eine Lösung gegen den Ärztemangel in RLP?",
-        "Statt Lehrer zu werden: Kickpunchpow aus Jena setzt auf die Musik",
-        "Auszeichnung in Aachen: 22 VHS-Schüler für ihren Zusammenhalt geehrt",
-        "Baden-Württembergs Landesregierung will gegen Schulschwänzen vorgehen"
+        "WDR Kinderrechtepreis für Rurtal Schule Heinsberg: Hammer gegen Fake News",
+        "Schule in Kamp-Lintfort mal anders: Wenn das Klassenzimmer unter Tage liegt",
+        "Neuer Leibniz-Forschungsbau: Gefrorene Bärtierchen und Okapi-DNA",
+        "Frühere Präsidentin der Saar-Uni Margret Wintermantel gestorben"
       ],
       "urls": [
-        "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/physician-assistant-studium-zweibruecken-aufgaben-patienten-100.html",
-        "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/jena/kickpunchpow-100.html",
-        "https://www1.wdr.de/nrw/aachen-eifel/staedteregion-aachen/erwachsene-schulabschluss-volkshochschule-aachen-preis-100.html",
-        "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-will-gegen-schulschwaenzen-vorgehen-ministerpraesident-oezdemir-ich-war-selbst-einer-der-ab-und-zu-in-der-schule-gefehlt-hat-100.html"
+        "https://www1.wdr.de/nrw/aachen-eifel/kreis-heinsberg/wdr-kinderrechtepreis-hammer-rurtal-schule-heinsberg-100.html",
+        "https://www1.wdr.de/nrw/niederrhein/kreis-wesel/vorlesetag-bergbau-kamp-lintfort-100.html",
+        "https://www1.wdr.de/nrw/rheinland/bonn/leibniz-institut-forschungsgebauede-poppelsdorf-100.html",
+        "https://www.sr.de/sr/home/nachrichten/panorama/fruehere_uni-praesidentin_margret_wintermantel_gestorben_100.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -62,11 +29,44 @@
         },
         {
           "emotion": "curiosity",
-          "count": 5
+          "count": 7
         },
         {
-          "emotion": "annoyance",
-          "count": 4
+          "emotion": "anger",
+          "count": 3
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 119,
+      "sample_titles": [
+        "Hermann Heller und die Nation: Kein Künder des Sozialgermanismus",
+        "Deutsch-israelische Wissenschaftsbeziehungen: Partner in schwieriger Zeit",
+        "Gipfeltreffen: EU und London einigen sich – und streiten doch weiter",
+        "EU-streit mit London: Warum die britischen Studiengebühren so heikel sind"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/wissen/geist-soziales/beruft-sich-die-neue-rechte-mit-recht-auf-hermann-heller-200892279.html",
+        "https://www.faz.net/aktuell/karriere-hochschule/bilanz-der-deutsch-israelischen-wissenschaftsbeziehungen-201672515.html",
+        "https://www.faz.net/aktuell/politik/ausland/eu-und-grossbritannien-schliessen-abkommen-und-streiten-weiter-201701624.html",
+        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-streit-mit-london-britische-studiengebuehren-bleiben-heikel-201703264.html"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 8
+        },
+        {
+          "emotion": "curiosity",
+          "count": 7
+        },
+        {
+          "emotion": "realization",
+          "count": 7
         }
       ]
     },
@@ -74,24 +74,24 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 94,
+      "article_count": 97,
       "sample_titles": [
-        "Vertrauter von Eisenkot: Israels Opposition übernimmt Parlamentsvorsitz",
-        "Hyrox: Was Sie von dem Ausdauer-Kraft-Wettkampf lernen können",
-        "Fitness: So wird Ihr Rücken wieder gerade (und schmerzfrei)",
-        "Ukraine-Krieg: Zahl der Toten nach Luftangriff bei Saporischschja steigt auf 72"
+        "Gen Z regelt: Jugendliche protestieren für Bildung, Klima und bezahlbares Leben",
+        "Manuela Schwesig wird an der Galle operiert",
+        "Italien: Gewerkschaften und Studenten protestieren gegen Regierung von Giorgia Meloni",
+        "Führerschein-Reform beschlossen: So sollen Fahrschüler sparen"
       ],
       "urls": [
-        "https://www.spiegel.de/ausland/vertrauter-von-eisenkot-israels-opposition-uebernimmt-parlamentsvorsitz-a-4c2a71d7-9f3b-4447-95bc-80236caf905e#ref=rss",
-        "https://www.spiegel.de/fitness/hyrox-was-sie-von-dem-ausdauer-kraft-wettkampf-lernen-koennen-a-21e87206-d728-4d81-a031-5e2a622007d5#ref=rss",
-        "https://www.spiegel.de/fitness/fitness-so-wird-ihr-ruecken-wieder-gerade-und-schmerzfrei-a-d2e95255-cf0e-4f6b-9f58-cb4d9e4ebc38#ref=rss",
-        "https://www.spiegel.de/ausland/ukraine-krieg-zahl-der-toten-nach-luftangriff-bei-saporischschja-steigt-auf-72-a-704dd230-ca93-47b5-a667-eedff30bc9a8#ref=rss"
+        "https://www.spiegel.de/politik/deutschland/gen-z-regelt-jugendliche-protestieren-fuer-bildung-klima-und-bezahlbares-leben-a-e88fe963-e880-4004-9043-c7d84ca70e6e#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/manuela-schwesig-wird-an-der-galle-operiert-a-9b402c57-fbbd-426f-8fda-ea2a869fdc60#ref=rss",
+        "https://www.spiegel.de/ausland/italien-gewerkschaften-und-studenten-protestieren-gegen-regierung-von-giorgia-meloni-a-494b6790-b5fd-4850-846a-4d1733098ebc#ref=rss",
+        "https://www.spiegel.de/mobilitaet/auto/fuehrerschein-reform-beschlossen-so-sollen-fahrschueler-sparen-a-f2dc9706-e233-430d-94f5-bc83a0c54c5c#ref=rss"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 3
+          "count": 4
         },
         {
           "emotion": "sadness",
@@ -107,18 +107,18 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 66,
+      "article_count": 65,
       "sample_titles": [
-        "Hamburg investiert Millionen in Bildungschancen – was davon an den Schulen ankommt",
-        "„Das ist ein hoher Ansehensverlust für Russland und Putin“",
-        "„Vielen Dank für Ihre Spende!“ – Kulturkohle für die AfD",
-        "„Ein Bündnis, das aus der Notwendigkeit heraus zusammengehalten wird“"
+        "EU und Großbritannien einigen sich auf Projekte für Annäherung – eine Streitfrage ist ungelöst",
+        "„Es ist eine Arbeitslosenverwaltung, keine ‑vermittlung“ – Maschmeyer legt gegen Chefin Nahles nach",
+        "„Es sind keine großen Durchbrüche zu erwarten“",
+        "Archäologie-Studentin findet römischen Goldschatz am ersten Ausbildungstag"
       ],
       "urls": [
-        "https://www.welt.de/regionales/hamburg/article6afc5845cdc4b5009f0a8d76/bildungspolitik-hamburg-investiert-millionen-in-bildungschancen-was-davon-an-den-schulen-ankommt.html",
-        "https://www.welt.de/videos/video6afc948abf787977ad3dbb98/angriff-auf-krim-bruecke-das-ist-ein-hoher-ansehensverlust-fuer-russland-und-putin.html",
-        "https://www.welt.de/kultur/article6afb1d07028f6e41ab3f144e/staatstheater-kassel-vielen-dank-fuer-ihre-spende-kulturkohle-fuer-die-afd.html",
-        "https://www.welt.de/politik/video6afc5cf1bb7e7a6679f91657/volker-kronenberg-ein-buendnis-das-aus-der-notwendigkeit-heraus-zusammengehalten-wird.html"
+        "https://www.welt.de/politik/ausland/article6b00169239a3e8110f0e38a8/gipfel-in-bruessel-eu-und-grossbritannien-einigen-sich-auf-projekte-fuer-annaeherung-eine-streitfrage-ist-ungeloest.html",
+        "https://www.welt.de/politik/deutschland/article6b0030a339a3e8110f0e3d9b/bundesagentur-fuer-arbeit-es-ist-eine-arbeitslosenverwaltung-keine-vermittlung-maschmeyer-legt-gegen-chefin-nahles-nach.html",
+        "https://www.welt.de/politik/ausland/video6b0030d85842ff528b9e18ea/weltklimakonferenz-es-sind-keine-grossen-durchbrueche-zu-erwarten.html",
+        "https://www.welt.de/wissenschaft/article6afecc59ed542f4c39177294/roemer-studentin-findet-bemerkenswerten-roemischen-goldschatz-am-ersten-ausbildungstag.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -140,18 +140,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 64,
+      "article_count": 61,
       "sample_titles": [
-        "Hunderttausende setzen Proteste in Frankreich fort",
-        "Windeln in der zweiten Klasse: Warum Grundschüler nicht trocken werden",
-        "Nach der Landtagswahl: Klüssendorf fordert gemeinsame Kandidatur in Sachsen-Anhalt",
-        "Wissenschaft unter Druck: Angriff auf die Fakten – Klimaforschung unter Beschuss"
+        "Demonstrationen: Hunderte bei erneuten Jugendprotesten auf der Straße",
+        "Nachhaltiges Bauen: Suhl bekommt Forschungshalle für Holz aus der Region",
+        "Quereinsteiger: Wie mein Alltag an der Grundschule zur Hölle wurde",
+        "Dreiergipfel mit Putin und Xi: Trump kann sich Seitenhieb gegen „alte Schule“ nicht verkneifen"
       ],
       "urls": [
-        "https://www.stern.de/news/hunderttausende-setzen-proteste-in-frankreich-fort-38565136.html",
-        "https://www.stern.de/familie/grundschueler--die-noch-windeln-brauchen---experten-ordnen-ein-37177398.html",
-        "https://www.stern.de/politik/deutschland/nach-der-landtagswahl--kluessendorf-fordert-gemeinsame-kandidatur-in-sachsen-anhalt-38560282.html",
-        "https://www.stern.de/politik/ausland/wissenschaft-unter-druck--angriff-auf-die-fakten---klimaforschung-unter-beschuss-38558284.html"
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/demonstrationen--hunderte-bei-erneuten-jugendprotesten-auf-der-strasse-38585520.html",
+        "https://www.stern.de/gesellschaft/regional/thueringen/nachhaltiges-bauen--suhl-bekommt-forschungshalle-fuer-holz-aus-der-region-38584236.html",
+        "https://www.stern.de/gesellschaft/lehrer-packt-aus--wie-mein-alltag-an-der-grundschule-zur-hoelle-wurde-34692522.html",
+        "https://www.stern.de/politik/trump-kann-sich-seitenhieb-gegen--alte-schule--nicht-verkneifen-38578486.html"
       ],
       "dominant_emotion": "confusion",
       "top_emotions": [
@@ -164,8 +164,8 @@
           "count": 2
         },
         {
-          "emotion": "curiosity",
-          "count": 2
+          "emotion": "approval",
+          "count": 1
         }
       ]
     },
@@ -175,16 +175,49 @@
       "bias": "left",
       "article_count": 56,
       "sample_titles": [
-        "Deutsches Abschiebezentrum in Ruanda: Wie die Flüchtlingsaufnahme Ruanda nutzen soll",
-        "Weltklimakonferenz in Antalya: Der Kampf um die Klimawahrheit",
-        "Botanische Forschung: Mit Pflanzen musizieren",
-        "Urs Niggli über Agrarökologie: „Bio kann nicht die Welt ernähren“"
+        "Gipfeltreffen in Brüssel: Großbritannien und EU wagen Neustart",
+        "Forschungsreise in die Antarktis: Frostige Klimaversprechen",
+        "Meinungsfreiheit in Italien: Umstrittenes Gesetz gegen Antisemitismus beschlossen",
+        "Landtagswahl in Schleswig-Holstein: Platzhirsch vor schwieriger Regierungsbildung"
       ],
       "urls": [
-        "https://taz.de/Deutsches-Abschiebezentrum-in-Ruanda/!6230916/",
-        "https://taz.de/Weltklimakonferenz-in-Antalya/!6230865/",
-        "https://taz.de/Botanische-Forschung/!6224453/",
-        "https://taz.de/Urs-Niggli-ueber-Agraroekologie/!6224391/"
+        "https://taz.de/Gipfeltreffen-in-Bruessel/!6231809/",
+        "https://taz.de/Forschungsreise-in-die-Antarktis/!6231368/",
+        "https://taz.de/Meinungsfreiheit-in-Italien/!6231343/",
+        "https://taz.de/Landtagswahl-in-Schleswig-Holstein/!6230855/"
+      ],
+      "dominant_emotion": "curiosity",
+      "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 5
+        },
+        {
+          "emotion": "approval",
+          "count": 5
+        },
+        {
+          "emotion": "confusion",
+          "count": 3
+        }
+      ]
+    },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 54,
+      "sample_titles": [
+        "Einblicke in ihr neues Leben: Prinz Harry: Kinder seit Umzug nach England \"selbstbewusster\"",
+        "Verwehrt die Präsidentschaft: Türkische Opposition kritisiert Urteil gegen Imamoglu als \"feige\"",
+        "Neue Spuren aus Südchina: Urzeit-Mensch trotzte dem Aussterben länger als gedacht",
+        "Ärger über Finanzierung: Länder halten schwarz-rotes Kita-Gesetz auf"
+      ],
+      "urls": [
+        "https://www.n-tv.de/leute/Prinz-Harry-Kinder-seit-Umzug-nach-England-selbstbewusster-id31560920.html",
+        "https://www.n-tv.de/politik/Tuerkische-Opposition-kritisiert-Urteil-gegen-Imamoglu-als-feige-id31559858.html",
+        "https://www.n-tv.de/wissen/Urzeit-Mensch-trotzte-dem-Aussterben-laenger-als-gedacht-id31558102.html",
+        "https://www.n-tv.de/politik/Laender-halten-schwarz-rotes-Kita-Gesetz-auf-id31558592.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -193,45 +226,12 @@
           "count": 6
         },
         {
-          "emotion": "approval",
-          "count": 6
-        },
-        {
-          "emotion": "confusion",
-          "count": 4
-        }
-      ]
-    },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 55,
-      "sample_titles": [
-        "Kunden haben entschieden : Der Deutsche Bildungs-Award 2026/2027 geht an …",
-        "Vertrauter von Gadi Eisenkot: Oppositionspolitiker übernimmt israelischen Parlamentsvorsitz",
-        "Regierungsbildung in Berlin: Linke-Fraktionsspitze beantragt Ausschluss von Vanessa Emde",
-        "Auf Konfrontationskurs mit Bund: Schwesig stellt sich gegen Kürzung von Kita-Geldern"
-      ],
-      "urls": [
-        "https://www.n-tv.de/ratgeber/Der-Deutsche-Bildungs-Award-2026-2027-geht-an-id31542239.html",
-        "https://www.n-tv.de/politik/Oppositionspolitiker-uebernimmt-israelischen-Parlamentsvorsitz-id31545819.html",
-        "https://www.n-tv.de/politik/Linke-Fraktionsspitze-beantragt-Ausschluss-von-Vanessa-Emde-id31545189.html",
-        "https://www.n-tv.de/politik/Manuela-Schwesig-stellt-sich-gegen-Kuerzung-von-Kita-Geldern-id31545101.html"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 5
-        },
-        {
-          "emotion": "curiosity",
-          "count": 5
-        },
-        {
           "emotion": "optimism",
-          "count": 5
+          "count": 4
+        },
+        {
+          "emotion": "approval",
+          "count": 3
         }
       ]
     },
@@ -239,18 +239,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 40,
+      "article_count": 38,
       "sample_titles": [
-        "Faas: \"Schwierige Situation für die Union\"",
-        "Wie Schulen beim Aufwachsen mit Algorithmen helfen sollen",
-        "\"Wenn du das jetzt richtig machst, dann knutsche ich dich\"",
-        "Bombendrohungen an Tausenden Schulen in Europa wohl falsch"
+        "Wo heute neue Proteste von \"Gen Z regelt\" stattfinden",
+        "Forderungen zum Bildungsprotest",
+        "\"Du musst sterben\": Schüler berichten von religiösem Mobbing",
+        "Sexualisierte Gewalt im Netz - Neue Zahlen, neue Bundeskampagne"
       ],
       "urls": [
-        "https://www.zdfheute.de/video/heute-journal/gellinek-faas-schaltgespraech-100.html",
-        "https://www.zdfheute.de/politik/deutschland/schule-social-media-informatik-jugendmedientag-100.html",
-        "https://www.zdfheute.de/politik/fahrschule-fahrlehrer-missbrauch-uebergriffe-100.html",
-        "https://www.zdfheute.de/politik/ausland/bomben-drohung-italien-nordirland-schottland-100.html"
+        "https://www.zdfheute.de/politik/deutschland/gen-z-regelt-neue-proteste-freitag-100.html",
+        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5249194",
+        "https://www.zdfheute.de/panorama/mobbing-religion-schule-100.html",
+        "https://www.phoenix.de/sendungen/ereignisse/phoenix-vor-ort/ua-bundespressekonferenz-a-5241399.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -263,8 +263,8 @@
           "count": 2
         },
         {
-          "emotion": "surprise",
-          "count": 2
+          "emotion": "curiosity",
+          "count": 1
         }
       ]
     },
@@ -272,31 +272,31 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 35,
+      "article_count": 33,
       "sample_titles": [
+        "Israel: Gadi Eisenkot erwägt Bildung von Minderheitsregierung",
+        "Jugendproteste: Schülerkonferenz wirft Bundesregierung falsche Prioritäten vor",
         "Neue Landesregierung: MV stellt sich im Bundesrat gegen Kürzungen bei Bildung",
-        "USA: Zahl ausländischer Studierender an US-Hochschulen geht zurück",
-        "Zwillingsforschung: Vegetarismus ist zu 77 Prozent erblich. Wie kann das sein?",
-        "Sexueller Missbrauch: Der Tanzlehrer"
+        "USA: Zahl ausländischer Studierender an US-Hochschulen geht zurück"
       ],
       "urls": [
+        "https://www.zeit.de/politik/ausland/2026-11/regierungsbildung-israel-gadi-eisenkot-minderheitsregierung-arabische-parteien",
+        "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/bundesschuelerkonferenz-bildungspolitik-demonstration-berlin-genz-regelt",
         "https://www.zeit.de/news/2026-11/17/mv-stellt-sich-im-bundesrat-gegen-kuerzungen-bei-bildung",
-        "https://www.zeit.de/politik/ausland/2026-11/internationale-studierende-usa-universitaeten-einwanderung-donald-trump",
-        "https://www.zeit.de/wissenschaft/2026-11/zwillingsforschung-ernaehrung-politik-dna-erziehung-wissen-podcast",
-        "https://www.zeit.de/zeit-verbrechen/2026/41/sexueller-missbrauch-tanzschule-lehrer-dortmund"
+        "https://www.zeit.de/politik/ausland/2026-11/internationale-studierende-usa-universitaeten-einwanderung-donald-trump"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "approval",
       "top_emotions": [
+        {
+          "emotion": "approval",
+          "count": 3
+        },
         {
           "emotion": "confusion",
           "count": 3
         },
         {
           "emotion": "realization",
-          "count": 2
-        },
-        {
-          "emotion": "anger",
           "count": 2
         }
       ]
@@ -305,24 +305,24 @@
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 28,
+      "article_count": 32,
       "sample_titles": [
-        "Unter strengen Vorschriften - Für „GTA 6“ gibt es bezahlten Bildungsurlaub",
-        "Missbrauchsfall in Australien - Lehrerin bekommt Kind von ihrem Schüler (13)",
         "Vom 16.11. bis 22.11.2026 - Das Wochenhoroskop für Fische",
+        "14.300 Euro für Make-up-Kurs - Jobcenter fördern Schmink-, Yoga- und Tattoo-Kurse",
+        "Gesetzentwurf soll Grund sein - Fahrschul-Kette mit 9 Standorten insolvent",
         "Vom 16.11. bis 22.11.2026 - Das Wochenhoroskop für Fische"
       ],
       "urls": [
-        "https://www.bild.de/unterhaltung/bildgg/gta-6-release-mit-bildungsurlaub-so-koennen-sie-spielen-statt-zu-arbeiten-6ae9e4cc36ba9db5f4e97598",
-        "https://www.bild.de/news/ausland/australien-lehrerin-missbraucht-schueler-13-und-bekommt-kind-von-ihm-6afc39699e0813f450afb0b8",
-        "https://www.bild.de/leben-wissen/horoskop/horoskop-fische-vom-16-11-22-11-2026-wenn-intuition-neue-wege-oeffnet-6af4404cdb4e2fa8f6eb7255",
-        "https://www.bild.de/leben-wissen/horoskop/horoskop-fische-vom-16-11-22-11-2026-kleine-momente-zaehlen-6af4404cdb4e2fa8f6eb7255"
+        "https://www.bild.de/leben-wissen/horoskop/horoskop-fische-vom-16-11-22-11-2026-innere-ruhe-und-erfuellung-6af4404cdb4e2fa8f6eb7255",
+        "https://www.bild.de/politik/inland/arbeitsagentur-yoga-schmink-und-tattoo-kurse-fuer-arbeitslose-6b0046d6be487c5437747367",
+        "https://www.bild.de/politik/inland/fahrschul-kette-mit-9-standorten-insolvent-gesetzentwurf-soll-grund-sein-6afec31ce9561dcc48a02e25",
+        "https://www.bild.de/leben-wissen/horoskop/horoskop-fische-vom-16-11-22-11-2026-lernen-zahlt-sich-jetzt-aus-6af4404cdb4e2fa8f6eb7255"
       ],
       "dominant_emotion": "excitement",
       "top_emotions": [
         {
           "emotion": "excitement",
-          "count": 3
+          "count": 2
         },
         {
           "emotion": "fear",
@@ -338,64 +338,31 @@
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 27,
+      "article_count": 30,
       "sample_titles": [
-        "Nach dem Wahlsieg in Serbien: Studentenbewegung nimmt Arbeit im Parlament auf",
-        "MELDUNGEN ZÜRICH - Zürcher Eltern, die ihre Kinder später einschulen wollen, müssen eine Förderberatung besuchen +++ Stadtpolizei will 150 Anti-Terror-Sperren für Grossveranstaltungen beschaffen",
-        "Ein Zürcher Ehepaar will die Primarschule seiner Töchter durchleuchten, weil es an der Qualität des Unterrichts zweifelt",
-        "Die Bundeswehr rüstet auf. Das ist dringend notwendig. Aber was geschieht, wenn die AfD an die Macht kommt?"
+        "Psychologisches Gutachten vor Waffenkauf: Die Schweiz schaut auf das Modell Österreich",
+        "KOMMENTAR - Schweizer Abstimmungen: Chat-GPT taugt nicht für die Meinungsbildung",
+        "BILDSTRECKE - Tausende Junge protestieren in Europa – die Bilder",
+        "Nach dem Wahlsieg in Serbien: Studentenbewegung nimmt Arbeit im Parlament auf"
       ],
       "urls": [
-        "https://www.nzz.ch/international/nach-dem-wahlsieg-in-serbien-studentenbewegung-nimmt-arbeit-im-parlament-auf-ld.10063246",
-        "https://www.nzz.ch/zuerich/zuerich-foerderberatung-fuer-eltern-die-kinder-spaeter-einschulen-wollen-ld.10038407",
-        "https://www.nzz.ch/zuerich/ein-zuercher-ehepaar-will-die-primarschule-seiner-toechter-durchleuchten-weil-es-an-der-qualitaet-des-unterrichts-zweifelt-ld.10064430",
-        "https://www.nzz.ch/feuilleton/die-bundeswehr-ruestet-auf-das-ist-dringend-notwendig-aber-was-geschieht-wenn-die-afd-an-die-macht-kommt-ld.10062956"
+        "https://www.nzz.ch/schweiz/psychologisches-gutachten-vor-waffenkauf-die-schweiz-schaut-auf-das-modell-oesterreich-ld.10065319",
+        "https://www.nzz.ch/meinung/schweizer-abstimmungen-chat-gpt-taugt-nicht-fuer-die-meinungsbildung-ld.10069897",
+        "https://www.nzz.ch/international/tausende-junge-protestieren-in-europa-die-bilder-ld.10070000",
+        "https://www.nzz.ch/international/nach-dem-wahlsieg-in-serbien-studentenbewegung-nimmt-arbeit-im-parlament-auf-ld.10063246"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "curiosity",
       "top_emotions": [
+        {
+          "emotion": "curiosity",
+          "count": 4
+        },
         {
           "emotion": "admiration",
           "count": 4
         },
         {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "realization",
-          "count": 1
-        }
-      ]
-    },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 26,
-      "sample_titles": [
-        "Newsblog zu Nahost: Israels Opposition übernimmt den Parlamentsvorsitz",
-        "Wahl des neuen Bildungsdezernenten: Posten-Problem in Rosenheim",
-        "Kreisbildungswerk Freising: Vererben in Patchworkfamilien",
-        "Shakespeare Institute: „Ich kann die Torheit dieser Entscheidung nicht in höflichen Worten beschreiben“"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/politik/liveblog-nahost-knesset-parlamentspraesident-opposition-eisenkot-li.3579157",
-        "https://www.sueddeutsche.de/bayern/rosenheim-bildungsdezernent-florian-ludwig-csu-li.3581949",
-        "https://www.sueddeutsche.de/muenchen/freising/patchworkfamilien-vererben-freising-erbrecht-vortrag-li.3582070",
-        "https://www.sueddeutsche.de/kultur/shakespeare-institute-birmingham-stratford-upon-avon-royal-shakespeare-company-universitaet-birmingham-li.3581084"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "surprise",
-          "count": 2
-        },
-        {
-          "emotion": "curiosity",
+          "emotion": "disapproval",
           "count": 1
         }
       ]
@@ -406,16 +373,16 @@
       "bias": "economic-liberal",
       "article_count": 25,
       "sample_titles": [
+        "Demonstrationen: Jugendproteste verlaufen weitgehend friedlich",
+        "Morning Briefing: Was wirklich hinter den vielen IT-Pannen steckt",
         "Großbritannien: „Arbeit statt Sozialhilfe“ für die Jugend – Wie Andy Burnham den Sozialstaat umbauen will",
-        "WHU-Umzug: Wie Vallendar seine Hochschule verloren hat",
-        "Haushalt: Forschungsinstitute müssen mehr als eine Milliarde Euro an Rücklagen auflösen",
-        "Kriminalität: „Zeitalter der Unsicherheit“ – Italien rätselt über Welle an Bombendrohungen gegen Schulen"
+        "WHU-Umzug: Wie Vallendar seine Hochschule verloren hat"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/demonstrationen-jugendproteste-verlaufen-weitgehend-friedlich/100271709.html",
+        "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-was-wirklich-hinter-den-vielen-it-pannen-steckt/100271066.html",
         "https://www.handelsblatt.com/politik/international/grossbritannien-wie-andy-burnham-den-sozialstaat-fuer-jugendliche-umbauen-will/100269741.html",
-        "https://www.handelsblatt.com/wochenende/whu-umzug-wie-vallendar-seine-hochschule-verlor/100267632.html",
-        "https://www.handelsblatt.com/politik/deutschland/haushalt-forschungsinstitute-muessen-ueber-eine-milliarde-an-ruecklagen-aufloesen/100269477.html",
-        "https://www.handelsblatt.com/politik/international/sicherheit-italien-raetselt-ueber-welle-an-bombendrohungen-gegen-schulen/100269330.html"
+        "https://www.handelsblatt.com/wochenende/whu-umzug-wie-vallendar-seine-hochschule-verlor/100267632.html"
       ],
       "dominant_emotion": "approval",
       "top_emotions": [
@@ -433,22 +400,55 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 25,
+      "sample_titles": [
+        "Europaweite Aktionen: Proteste von „Gen Z regelt“: Hunderte Menschen demonstrieren in München",
+        "Bundespolitik: Prien zu Jugendprotesten: „Wir dürfen das nicht kleinreden“",
+        "Vortrag in Freising: Ist eine naturverträgliche Energiewende möglich?",
+        "Newsblog zu Nahost: Israels Opposition übernimmt den Parlamentsvorsitz"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/muenchen/muenchen-gen-z-regelt-demo-protest-koenigsplatz-li.3581103",
+        "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-koalitionsausschuss-stromsteuer-spritpreisdeckel-gen-z-regelt-li.3580621",
+        "https://www.sueddeutsche.de/muenchen/freising/freising-energiewende-klimaschutz-naturschutz-vortrag-li.3583180",
+        "https://www.sueddeutsche.de/politik/liveblog-nahost-knesset-parlamentspraesident-opposition-eisenkot-li.3579157"
+      ],
+      "dominant_emotion": "surprise",
+      "top_emotions": [
+        {
+          "emotion": "surprise",
+          "count": 2
+        },
+        {
+          "emotion": "optimism",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 1
+        }
+      ]
+    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 17,
+      "article_count": 16,
       "sample_titles": [
+        "Verpönte deutsche Kernkraft-Technologie liefert künftig in Texas Strom",
+        "Berlin schickt die Schulsekretärin ins Homeoffice",
         "Jobverlust-Report Oktober",
-        "Die CDU bastelt an einem Pranger für Bürger mit abweichenden Meinungen",
-        "Meinungsfreiheit im Bundestag: Wer entscheidet, was gesagt werden darf?",
-        "83 Prozent Spenden-Macht: Wie die WHO Notstandsgesetze veranlassen kann"
+        "Die CDU bastelt an einem Pranger für Bürger mit abweichenden Meinungen"
       ],
       "urls": [
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/deutsche-kernkraft-liefert-strom-in-texas/",
+        "https://www.tichyseinblick.de/meinungen/berlin-schulsekretaerin-homeoffice/",
         "https://www.tichyseinblick.de/wirtschaft/jobverlust-report-oktober/",
-        "https://www.tichyseinblick.de/meinungen/cdu-bastelt-an-pranger-fuer-buerger-mit-abweichenden-meinungen/",
-        "https://www.tichyseinblick.de/feuilleton/medien/meinungsfreiheit-bundestag-hateaid-meyen-dsa/",
-        "https://www.tichyseinblick.de/video/kommentar/who-notstandsgesetze-rechtsstaat/"
+        "https://www.tichyseinblick.de/meinungen/cdu-bastelt-an-pranger-fuer-buerger-mit-abweichenden-meinungen/"
       ],
       "dominant_emotion": "disapproval",
       "top_emotions": [
@@ -470,21 +470,25 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 15,
+      "article_count": 13,
       "sample_titles": [
+        "NRW will Verschleierung an Schulen verbieten",
         "Waren die „ersten Deutschen“ schwarz?",
         "„Gen Z regelt“ fordert 50 Milliarden Euro fürs BAföG",
-        "SPD will Hunderttausenden Migranten neues Bleiberecht ermöglichen",
-        "Wenn linke „Haltung“ Schule macht"
+        "SPD will Hunderttausenden Migranten neues Bleiberecht ermöglichen"
       ],
       "urls": [
+        "https://jungefreiheit.de/deutschland/nrw-will-verschleierung-an-schulen-verbieten.html",
         "https://jungefreiheit.de/kultur/waren-die-ersten-deutschen-schwarz.html",
         "https://jungefreiheit.de/deutschland/gen-z-regelt-fordert-50-milliarden-euro-fuers-bafoeg.html",
-        "https://jungefreiheit.de/deutschland/spd-will-hunderttausenden-migranten-neues-bleiberecht-ermoeglichen.html",
-        "https://jungefreiheit.de/politik/wenn-linke-haltung-schule-macht.html"
+        "https://jungefreiheit.de/deutschland/spd-will-hunderttausenden-migranten-neues-bleiberecht-ermoeglichen.html"
       ],
-      "dominant_emotion": "confusion",
+      "dominant_emotion": "annoyance",
       "top_emotions": [
+        {
+          "emotion": "annoyance",
+          "count": 1
+        },
         {
           "emotion": "confusion",
           "count": 1
@@ -495,31 +499,31 @@
       "source_id": "achgut",
       "source": "Achse des Guten",
       "bias": "far-right",
-      "article_count": 8,
+      "article_count": 10,
       "sample_titles": [
-        "„Die westlichen Errungenschaften wurden meistens gegen die Herrschaft erbracht.“",
-        "Gießen: Mit Stalin gegen Israel",
-        "Für die „taz“ ist Israel an allem schuld",
-        "Das Kopftuch spaltet die Türkei und Aserbaidschan"
+        "Wenn Intelligenz zur unerwünschten Eigenschaft wird",
+        "Studie: Jüdische Studenten leiden deutlich häufiger unter Angst",
+        "„Pro Asyl“ fordert, die anderen bezahlen",
+        "„Die westlichen Errungenschaften wurden meistens gegen die Herrschaft erbracht.“"
       ],
       "urls": [
-        "https://www.achgut.com/artikel/die_westlichen_errungenschaften_wurden_meistens_gegen_die_herrschaft_erbracht",
-        "https://www.achgut.com/artikel/giessen_mit_stalin_gegen_israel",
-        "https://www.achgut.com/artikel/fuer_die_taz_israel_ist_an_allem_schuld",
-        "https://www.achgut.com/artikel/das_kopftuch_spaltet_die_tuerkei_und_aserbaidschan"
+        "https://www.achgut.com/artikel/wenn_intelligenz_zur_unerwuenschten_eigenschaft_wird",
+        "https://www.achgut.com/artikel/studie_juedische_studenten_leiden_deutlich_haeufiger_unter_angst",
+        "https://www.achgut.com/artikel/pro_asylfordert_die_anderen_bezahlen",
+        "https://www.achgut.com/artikel/die_westlichen_errungenschaften_wurden_meistens_gegen_die_herrschaft_erbracht"
       ],
-      "dominant_emotion": "admiration",
+      "dominant_emotion": "approval",
       "top_emotions": [
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
         {
           "emotion": "approval",
           "count": 1
         },
         {
           "emotion": "annoyance",
+          "count": 1
+        },
+        {
+          "emotion": "admiration",
           "count": 1
         }
       ]
@@ -542,14 +546,14 @@
     }
   },
   "bias_distribution": {
-    "far-right": 40,
-    "right-conservative": 121,
-    "conservative-liberal": 152,
-    "left-liberal": 219,
-    "neutral": 159,
-    "populist-mixed": 28,
+    "populist-mixed": 32,
+    "right-conservative": 119,
+    "economic-liberal": 25,
+    "conservative-liberal": 149,
+    "left-liberal": 216,
+    "neutral": 164,
     "left": 56,
-    "economic-liberal": 25
+    "far-right": 39
   },
   "statements": {
     "de": {
@@ -561,5 +565,5 @@
       "controversial_points": "Synthesis not available."
     }
   },
-  "cached_at": "2026-11-18T13:23:58.847121"
+  "cached_at": "2026-11-21T12:49:47.005579"
 }

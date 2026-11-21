@@ -1,39 +1,72 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 649,
-  "candidate_count": 649,
+  "article_count": 663,
+  "candidate_count": 663,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
       "source": "Tagesschau (ARD)",
       "bias": "neutral",
-      "article_count": 77,
+      "article_count": 80,
       "sample_titles": [
-        "Welche Fortschritte beim Klimaschutz erreicht wurden",
-        "Schneider für schnellen Ausbau Erneuerbarer Energien",
-        "Antrag zurückgezogen: Windpark in Wald bei Teupitz wird doch nicht gebaut",
-        "Stahlproduktion in NRW: Grüner Stahl aus NRW - Wunsch und Wirklichkeit"
+        "Sind Höhenwindräder die Zukunft?",
+        "VGH entscheidet: Windräder im Reinhardswald dürfen sich vorerst weiter drehen",
+        "Baubeginn in Lichtenau: ''Schlafender Riese'' macht aus Strom Wasserstoff",
+        "Erstmals mehr Energie zum Kühlen als zum Heizen verbraucht"
       ],
       "urls": [
-        "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
-        "https://www.tagesschau.de/ausland/europa/klimakonferent-schneider-rede-100.html",
-        "https://www.rbb24.de/wirtschaft/beitrag/2026/11/teupitz-halbe-windkraft-energie-windpark-abgesagt-energiequelle.html",
-        "https://www1.wdr.de/wirtschaft/gruener-stahl-aus-nwr-100.html"
+        "https://www.tagesschau.de/wirtschaft/energie/groesstes-windrad-lausitz-100.html",
+        "https://www.hessenschau.de/wirtschaft/vgh-entscheidet-windraeder-im-reinhardswald-duerfen-sich-vorerst-weiter-drehen-v1,vgh-kassel-windpark-reinhardswald-100.html",
+        "https://www1.wdr.de/nrw/ostwestfalen-lippe/kreis-paderborn/spatenstich-lichtenau-schlafender-riese-windenergie-elektrolyse-100.html",
+        "https://www.tagesschau.de/wirtschaft/verbraucher/energieverbrauch-weltweit-heizen-kuehlen-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
         {
           "emotion": "curiosity",
-          "count": 12
+          "count": 11
         },
         {
-          "emotion": "desire",
+          "emotion": "optimism",
           "count": 4
         },
         {
-          "emotion": "approval",
+          "emotion": "confusion",
           "count": 3
+        }
+      ]
+    },
+    "faz": {
+      "source_id": "faz",
+      "source": "FAZ",
+      "bias": "conservative-liberal",
+      "article_count": 67,
+      "sample_titles": [
+        "Nordrhein-Westfalen: 1000 Windräder für ein Abschiebegefängnis",
+        "Milliardenprojekt: Eine neue Gigafactory für Solarzellen – in Frankreich",
+        "Milliardenprojekt in Frankreich: Eine neue Gigafactory für Solarzellen – im Elsass",
+        "Lausitz: Höchstes Windrad der Welt soll in Betrieb gehen"
+      ],
+      "urls": [
+        "https://www.faz.net/aktuell/politik/inland/gruene-in-nrw-zwischen-gruen-pur-und-pragmatischem-regieren-201691236.html",
+        "https://www.faz.net/aktuell/wirtschaft/solar-gigafactory-in-frankreich-wie-europa-unabhaengiger-von-china-werden-will-accg-201668873.html",
+        "https://www.faz.net/aktuell/wirtschaft/holosolis-neue-solar-gigafactory-im-elsass-soll-europa-unabhaengiger-von-china-machen-accg-201668873.html",
+        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/hoechstes-windrad-der-welt-gicon-nimmt-anlage-in-der-lausitz-in-betrieb-201697941.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 10
+        },
+        {
+          "emotion": "approval",
+          "count": 2
+        },
+        {
+          "emotion": "curiosity",
+          "count": 2
         }
       ]
     },
@@ -41,18 +74,18 @@
       "source_id": "ntv",
       "source": "n-tv",
       "bias": "right-conservative",
-      "article_count": 68,
+      "article_count": 66,
       "sample_titles": [
+        "Grüne fordern mehr Erneuerbare: Teures Gas könnte Strompreis im Winter um mehr als 60 Prozent verteuern",
+        "\"Dem Kreml geben, was er will\": Scharfe Kritik an möglichem IAEA-Chefposten für Top-Beamten Putins",
         "\"Dubai bestraft nicht so streng\": Windkraftbetrüger Hendrik Holt: Bin wieder auf freiem Fuß",
-        "Konzerngeschwister im Vergleich: Kia EV4 versus Kia K4 - schlägt das E-Auto den Benziner?",
-        "Nicht nur Energiefresser: Wie KI beim Kampf gegen die Klimakrise helfen kann",
-        "Missbrauch der Marktmacht: Studie: Konzerne nutzten Energiekrise für zusätzliche Milliardeneinnahmen"
+        "Konzerngeschwister im Vergleich: Kia EV4 versus Kia K4 - schlägt das E-Auto den Benziner?"
       ],
       "urls": [
+        "https://www.n-tv.de/wirtschaft/Teures-Gas-koennte-Strompreis-im-Winter-um-mehr-als-60-Prozent-verteuern-id31555248.html",
+        "https://www.n-tv.de/politik/Scharfe-Kritik-an-moeglichem-IAEA-Chefposten-fuer-Top-Beamten-Putins-id31547923.html",
         "https://www.n-tv.de/panorama/Windkraftbetrueger-Hendrik-Holt-in-Dubai-auf-freiem-Fuss-id31545065.html",
-        "https://www.n-tv.de/auto/Kia-EV4-versus-Kia-K4-schlaegt-das-E-Auto-den-Benziner-id31524815.html",
-        "https://www.n-tv.de/wissen/Wie-KI-beim-Kampf-gegen-die-Klimakrise-helfen-kann-id31537818.html",
-        "https://www.n-tv.de/wirtschaft/Studie-Konzerne-nutzten-Energiekrise-fuer-zusaetzliche-Milliardeneinnahmen-id31538030.html"
+        "https://www.n-tv.de/auto/Kia-EV4-versus-Kia-K4-schlaegt-das-E-Auto-den-Benziner-id31524815.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -74,24 +107,24 @@
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 65,
+      "article_count": 60,
       "sample_titles": [
+        "Erneuerbare Energien: Grüner Wasserstoff aus der Nordsee: Politik deckelt die Zukunft",
         "Energie: Stromnetz am Limit – Städte müssen Industrieprojekte abweisen",
         "Energie: Ein Stromkabel für 15 Milliarden Euro: Griechenland will grünen Strom nach Deutschland exportieren",
-        "Daniel Stelter: Atomausstieg – der teure Irrtum, den keiner zugeben will",
-        "Seefahrt: Kontroverse Debatte: Deutsche Häfen bereiten sich auf Atomantrieb vor"
+        "Daniel Stelter: Atomausstieg – der teure Irrtum, den keiner zugeben will"
       ],
       "urls": [
+        "https://www.handelsblatt.com/politik/deutschland/erneuerbare-energien-chancen-fuer-wasserstoff-aus-dem-meer-schwinden/100270322.html",
         "https://www.handelsblatt.com/unternehmen/energie/energie-stromnetz-am-limit-staedte-muessen-industrieprojekte-abweisen/100266738.html",
         "https://www.handelsblatt.com/politik/international/energie-griechenland-will-gruenen-strom-nach-deutschland-exportieren/100269110.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-atomausstieg-der-teure-irrtum-den-keiner-zugeben-will/100269675.html",
-        "https://www.handelsblatt.com/unternehmen/industrie/logistik-deutsche-haefen-bereiten-sich-auf-atomantrieb-vor/100269158.html"
+        "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-atomausstieg-der-teure-irrtum-den-keiner-zugeben-will/100269675.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 8
+          "count": 6
         },
         {
           "emotion": "desire",
@@ -103,55 +136,22 @@
         }
       ]
     },
-    "faz": {
-      "source_id": "faz",
-      "source": "FAZ",
-      "bias": "conservative-liberal",
-      "article_count": 63,
-      "sample_titles": [
-        "EU-Einigung: Ausbau der Stromnetze in Europa soll schneller werden",
-        "Streit über Hohe Wurzel: Eswe will Windräder weiterhin bauen",
-        "Windkraftbetrüger: Hendrik Holt ist nach eigenen Angaben in Dubai auf freiem Fuß",
-        "Solar und Biogas: Kungelei um Energiepolitik"
-      ],
-      "urls": [
-        "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-einigt-sich-auf-schnelleren-ausbau-der-stromnetze-in-europa-accg-201693038.html",
-        "https://www.faz.net/aktuell/rhein-main/region-und-hessen/hohe-wurzel-energieversorger-haelt-an-bau-von-windraedern-fest-201691344.html",
-        "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/hendrik-holt-ist-offenbar-in-dubai-auf-freiem-fuss-201692214.html",
-        "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/energiewende-wie-union-und-spd-ihre-klientel-bedienen-201687322.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 10
-        },
-        {
-          "emotion": "curiosity",
-          "count": 3
-        },
-        {
-          "emotion": "approval",
-          "count": 2
-        }
-      ]
-    },
     "tichys": {
       "source_id": "tichys",
       "source": "Tichys Einblick",
       "bias": "far-right",
-      "article_count": 58,
+      "article_count": 60,
       "sample_titles": [
-        "Strom erst 2036: Deutschland hat sich als Industriestandort abgeschafft",
-        "Kanzler Merzens Achterbahnfahrt – Bürgergeld für den Attentäter – TE-Wecker am 17. November 2026",
-        "Stahlgipfel der Verzweiflung: Die Fünf-Cent-Illusion – TE-Wecker am 16. November 2026",
-        "Vor dem Stahlgipfel: Fröhliches Halali auf die Fördermittel"
+        "Atomkraft: Belgiens Grüne vollziehen Wende von der Kehrtwende",
+        "4,7 Millionen Menschen in Deutschland kämpfen mit Heizkosten",
+        "Das nächste große Problem für Selenskyj – und halb Europa",
+        "Verpönte deutsche Kernkraft-Technologie liefert künftig in Texas Strom"
       ],
       "urls": [
-        "https://www.tichyseinblick.de/wirtschaft/deutschland-hat-sich-als-industriestandort-abgeschafft/",
-        "https://www.tichyseinblick.de/podcast/wecker-am-17-november-2026/",
-        "https://www.tichyseinblick.de/podcast/wecker-am-16-november-2026/",
-        "https://www.tichyseinblick.de/wirtschaft/vor-stahlgipfel-halali-auf-foerdermittel/"
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/belgien-atomkraft/",
+        "https://www.tichyseinblick.de/daili-es-sentials/wohnungen-bleiben-kalt-heizkosten/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/stromausfaelle-in-akw-der-ukraine/",
+        "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/deutsche-kernkraft-liefert-strom-in-texas/"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -164,7 +164,7 @@
           "count": 2
         },
         {
-          "emotion": "annoyance",
+          "emotion": "optimism",
           "count": 2
         }
       ]
@@ -173,28 +173,28 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 58,
+      "article_count": 59,
       "sample_titles": [
-        "Weltklimakonferenz in Antalya: Der Kampf um die Klimawahrheit",
-        "Bundesregierung ringt um Energiewende: Immer noch kein Kompromiss bei Energiegesetzen",
-        "UN-Generalsekretär Guterres teilt aus: Milliardengewinne „moralisch inakzeptabel“",
-        "Ausstieg aus dem Atomausstieg: Bund will sich an Atomfirma Urenco beteiligen"
+        "Energiewende in der Lausitz: Das höchste Windrad der Welt",
+        "Hohe Energiepreise: Wie in EU-Ländern der Preiswucher bekämpft wird",
+        "Einigung im Koalitionsausschuss: Linke Tasche, rechte Tasche",
+        "Weltklimakonferenz in Antalya: Der Kampf um die Klimawahrheit"
       ],
       "urls": [
-        "https://taz.de/Weltklimakonferenz-in-Antalya/!6230865/",
-        "https://taz.de/Bundesregierung-ringt-um-Energiewende/!6230526/",
-        "https://taz.de/UN-Generalsekretaer-Guterres-teilt-aus/!6229778/",
-        "https://taz.de/Austieg-aus-dem-Atomausstieg/!6229823/"
+        "https://taz.de/Energiewende-in-der-Lausitz/!6231786/",
+        "https://taz.de/Hohe-Energiepreise/!6231106/",
+        "https://taz.de/Einigung-im-Koalitionsausschuss/!6231102/",
+        "https://taz.de/Weltklimakonferenz-in-Antalya/!6230865/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 8
+          "count": 7
         },
         {
           "emotion": "annoyance",
-          "count": 4
+          "count": 5
         },
         {
           "emotion": "confusion",
@@ -206,18 +206,18 @@
       "source_id": "stern",
       "source": "Stern",
       "bias": "left-liberal",
-      "article_count": 55,
+      "article_count": 56,
       "sample_titles": [
+        "Karte Energiekosten: Die Stromsteuer sinkt, doch Ihre Rechnung wird trotzdem steigen",
+        "Energiewende: Mühlenbeck wird zum Strom-Drehkreuz im Norden",
         "Nach eigenen Angaben: Windkraftbetrüger Holt offenbar in Dubai auf freiem Fuß",
-        "LNG-Terminal Stade: Erstes Gas soll in Stader LNG-Terminal fließen",
-        "Energiepolitik: Solarförderung für kleine Anlagen soll bleiben",
-        "Energiewende: Produktion von Sonnenstrom steuert auf Rekord zu"
+        "LNG-Terminal Stade: Erstes Gas soll in Stader LNG-Terminal fließen"
       ],
       "urls": [
+        "https://www.stern.de/wirtschaft/strom--und-gaspreise--hoehere-tarife-fressen-entlastung-auf-38583688.html",
+        "https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/energiewende--muehlenbeck-wird-zum-strom-drehkreuz-im-norden-38584444.html",
         "https://www.stern.de/panorama/verbrechen/windkraftbetrueger-hendrik-holt-offenbar-in-dubai-auf-freiem-fuss-38565482.html",
-        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/lng-terminal-stade--erstes-gas-soll-in-stader-lng-terminal-fliessen-38555392.html",
-        "https://www.stern.de/wirtschaft/news/energiepolitik--solarfoerderung-fuer-kleine-anlagen-soll-bleiben-38551854.html",
-        "https://www.stern.de/wirtschaft/news/energiewende--produktion-von-sonnenstrom-steuert-auf-rekord-zu-38550120.html"
+        "https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/lng-terminal-stade--erstes-gas-soll-in-stader-lng-terminal-fliessen-38555392.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -239,24 +239,24 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 33,
+      "article_count": 39,
       "sample_titles": [
-        "Greenpeace: Aktivisten könnten versehentlich Bau eines Offshore-Windparks behindert haben",
-        "Energiewende: Solarförderung für kleine Anlagen soll offenbar doch bleiben",
-        "Ukraine-Krieg: Wenn der Strom anspringt, läuft jedes Familienmitglied im Hause Babytsch los",
-        "Urenco: Bund offenbar an Beteiligung an Atomfirma interessiert"
+        "Windenergie in Brandenburg: Höchstes Windrad der Welt geht in Betrieb",
+        "Gaspreise: Deutschland droht im Winter ein Energiepreisschock",
+        "Klimapolitik: So sabotieren Saudi-Arabien und Indien den Weltklimarat",
+        "Hendrik Holt: Windkraftbetrüger ist offenbar in Dubai wieder auf freiem Fuß"
       ],
       "urls": [
-        "https://www.spiegel.de/wissenschaft/greenpeace-aktivisten-koennten-versehentlich-bau-eines-offshore-windparks-behindert-haben-a-bf64c246-5b5c-4acf-abed-7584fe1d8150#ref=rss",
-        "https://www.spiegel.de/wirtschaft/service/solarfoerderung-fuer-kleine-anlagen-soll-offenbar-doch-bleiben-a-6b026b8d-e1f0-4e89-83f5-cc7d948a60c1#ref=rss",
-        "https://www.spiegel.de/ausland/ukraine-krieg-wenn-der-strom-anspringt-laeuft-jedes-familienmitglied-im-hause-babytsch-los-a-69cee47c-930f-4e3a-8c80-3b28ae753ea7#ref=rss",
-        "https://www.spiegel.de/wirtschaft/urenco-bund-offenbar-an-beteiligung-an-atomfirma-interessiert-a-28840dc3-d226-4424-bd1b-d250f20efd0d#ref=rss"
+        "https://www.spiegel.de/wirtschaft/windenergie-in-brandenburg-hoechstes-windrad-der-welt-geht-in-betrieb-a-eddc2afd-3bd5-4bde-9528-71b3d7c10c92#ref=rss",
+        "https://www.spiegel.de/politik/deutschland/gaspreise-deutschland-droht-im-winter-ein-energiepreisschock-a-3a10d30e-8bb6-4568-8b9d-ff6b984a3d05#ref=rss",
+        "https://www.spiegel.de/geschichte/klimapolitik-so-sabotieren-saudi-arabien-und-indien-den-weltklimarat-a-a52879e7-acba-46dd-bdb9-a0f18d7aca77#ref=rss",
+        "https://www.spiegel.de/panorama/hendrik-holt-windkraftbetrueger-ist-offenbar-in-dubai-wieder-auf-freiem-fuss-a-2c40533e-c1e2-421d-a87f-0061f9d1b698#ref=rss"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "sadness",
@@ -274,16 +274,16 @@
       "bias": "right-conservative",
       "article_count": 32,
       "sample_titles": [
+        "„Wir sind auf dem absoluten Holzweg. Das haben wir unter anderem Trittin und Habeck zu verdanken“",
         "„Zwei Lieblingsprojekte der Grünen kosten uns Billionen – Energiewende und Migration“",
         "„Zeigt, wie schnell Deutschland handeln kann“ – LNG‑Terminal in Stade ist in Betrieb gegangen",
-        "„Fünf Cent wären nötig“: Unternehmer Brockhaus fordert deutlich niedrigere Strompreise",
-        "Mecklenburg-Vorpommern bekommt erstmals Rot-Rot-Grün"
+        "„Fünf Cent wären nötig“: Unternehmer Brockhaus fordert deutlich niedrigere Strompreise"
       ],
       "urls": [
+        "https://www.welt.de/mediathek/talk/meine-welt-meine-meinung/video6b00824b39a3e8110f0e47df/teure-energiewende-wir-sind-auf-dem-absoluten-holzweg-das-haben-wir-unter-anderem-trittin-und-habeck-zu-verdanken.html",
         "https://www.welt.de/mediathek/talk/meinungsfreiheit/video6afc78bfcdc4b5009f0a9226/ulf-poschardt-kritisiert-in-meinungsfreiheit-gruene-debatte-mit-katharina-beck-und-philipp-burger.html",
         "https://www.welt.de/wirtschaft/article6afb37cb8c74195fa20c36f0/energiepolitik-zeigt-wie-schnell-deutschland-handeln-kann-lngterminal-in-stade-ist-in-betrieb-gegangen.html",
-        "https://www.welt.de/politik/deutschland/video6afaf3d504d5cec509c6cc01/standort-unter-druck-unternehmer-casper-brockhaus-fordert-deutlich-niedrigere-strompreise.html",
-        "https://www.welt.de/politik/deutschland/article6af8565f9849eea0701e2b81/landesregierung-mecklenburg-vorpommern-bekommt-erstmals-rot-rot-gruen.html"
+        "https://www.welt.de/politik/deutschland/video6afaf3d504d5cec509c6cc01/standort-unter-druck-unternehmer-casper-brockhaus-fordert-deutlich-niedrigere-strompreise.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -305,18 +305,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 23,
+      "article_count": 25,
       "sample_titles": [
+        "Trump, Putin und Xi wollen Dialog über atomare Risiken",
+        "Iran-Krieg: Preiskrise drängt zu Tempo bei Energiewende",
         "Stahlgipfel: Zwischen teurer Produktion und billigen Importen",
-        "Energiewende oder keine Energiewende - was ist teurer?",
-        "Die \"Action Agenda\": Das freiwillige zweite Gleis",
-        "Debatte zum Erneuerbare-Energien-Gesetz"
+        "Energiewende oder keine Energiewende - was ist teurer?"
       ],
       "urls": [
+        "https://www.zdfheute.de/politik/ausland/xi-trump-putin-friedenserklaerung-100.html",
+        "https://www.zdfheute.de/wirtschaft/iran-krieg-energiewende-cop31-erneuerbare-energien-100.html",
         "https://www.zdfheute.de/wirtschaft/stahl-industrie-gipfel-salzgitter-100.html",
-        "https://www.zdfheute.de/wirtschaft/energiewende-erneuerbare-energien-klimawandel-kosten-deutschland-100.html",
-        "https://www.zdfheute.de/politik/ausland/klimakonferenz-antalya-action-agenda-100.html",
-        "https://www.phoenix.de/php/mediaplayer/vod_embed.php?cmsid=5247315"
+        "https://www.zdfheute.de/wirtschaft/energiewende-erneuerbare-energien-klimawandel-kosten-deutschland-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -325,11 +325,44 @@
           "count": 2
         },
         {
-          "emotion": "optimism",
+          "emotion": "anger",
           "count": 1
         },
         {
-          "emotion": "disapproval",
+          "emotion": "optimism",
+          "count": 1
+        }
+      ]
+    },
+    "achgut": {
+      "source_id": "achgut",
+      "source": "Achse des Guten",
+      "bias": "far-right",
+      "article_count": 21,
+      "sample_titles": [
+        "Die Maulheldin am Samstag - Bibelfeste Politik",
+        "Die Brüsseler Kommission versucht, Frankreich zu erpressen, um den „Green Deal“ zu retten.",
+        "Der gläserne Bürger und der blinde Staat",
+        "Kohleausstieg: Berliner Firma macht Milliarden mit Kohlehandel – im Ausland"
+      ],
+      "urls": [
+        "https://www.achgut.com/artikel/die_maulheldin_am_samstag_26_11_21_bibelfeste_politik",
+        "https://www.achgut.com/artikel/die_bruesseler_kommission_versucht_frankreich_zu_erpressen_um_den_green_deal_zu_retten",
+        "https://www.achgut.com/artikel/der_glaeserne_buerger_und_der_blinde_staat",
+        "https://www.achgut.com/artikel/kohleausstieg_berliner_firma_macht_milliarden_mit_kohlehandel_im_ausland"
+      ],
+      "dominant_emotion": "admiration",
+      "top_emotions": [
+        {
+          "emotion": "admiration",
+          "count": 3
+        },
+        {
+          "emotion": "approval",
+          "count": 3
+        },
+        {
+          "emotion": "optimism",
           "count": 1
         }
       ]
@@ -338,7 +371,7 @@
       "source_id": "junge_freiheit",
       "source": "Junge Freiheit",
       "bias": "far-right",
-      "article_count": 21,
+      "article_count": 20,
       "sample_titles": [
         "Deutschland droht ein Jahrzehnt Stillstand wegen überlasteter Stromnetze",
         "Die CDU und der Klima-Pranger",
@@ -367,88 +400,22 @@
         }
       ]
     },
-    "sz": {
-      "source_id": "sz",
-      "source": "Süddeutsche Zeitung",
-      "bias": "left-liberal",
-      "article_count": 20,
-      "sample_titles": [
-        "Solarpark-Boom in Bayern: Zerstört die Energiewende die Landschaft?",
-        "Energieversorgung in Bayern: Gasspeicher so schlecht gefüllt wie nie",
-        "Energiepolitik: Reiche konkretisiert Plan für Gaskraftwerke – heftige Kritik aus dem Süden",
-        "Energiepolitik: Klingbeil lehnt Reiches Spritpreisdeckel als unwirksam ab"
-      ],
-      "urls": [
-        "https://www.sueddeutsche.de/bayern/solarparks-bayern-energiewende-landschaftsschutz-photovoltaik-li.3564688",
-        "https://www.sueddeutsche.de/bayern/gasspeicher-bayern-fuellstand-leer-winter-heizen-li.3579567",
-        "https://www.sueddeutsche.de/wirtschaft/reiche-gaskraftwerke-ausschreibung-kohle-gas-soeder-oezdemir-li.3578915",
-        "https://www.sueddeutsche.de/politik/spritpreisdeckel-lars-klingbeil-katherina-reiche-energiepolitik-benzinpreis-li.3574952"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 3
-        },
-        {
-          "emotion": "disapproval",
-          "count": 1
-        },
-        {
-          "emotion": "amusement",
-          "count": 1
-        }
-      ]
-    },
-    "achgut": {
-      "source_id": "achgut",
-      "source": "Achse des Guten",
-      "bias": "far-right",
-      "article_count": 18,
-      "sample_titles": [
-        "Kohleausstieg: Berliner Firma macht Milliarden mit Kohlehandel – im Ausland",
-        "Vom Naturschutz zum Regierungsschutz",
-        "Erst schweigen, dann schließen",
-        "Schafft die Bundesnetzagentur ab!"
-      ],
-      "urls": [
-        "https://www.achgut.com/artikel/kohleausstieg_berliner_firma_macht_milliarden_mit_kohlehandel_im_ausland",
-        "https://www.achgut.com/artikel/vom_naturschutz_zum_regierungsschutz",
-        "https://www.achgut.com/artikel/erst_schweigen_dann_schliessen",
-        "https://www.achgut.com/artikel/schafft_die_bundesnetzagentur_ab"
-      ],
-      "dominant_emotion": "approval",
-      "top_emotions": [
-        {
-          "emotion": "approval",
-          "count": 3
-        },
-        {
-          "emotion": "admiration",
-          "count": 2
-        },
-        {
-          "emotion": "optimism",
-          "count": 1
-        }
-      ]
-    },
     "bild": {
       "source_id": "bild",
       "source": "BILD",
       "bias": "populist-mixed",
-      "article_count": 18,
+      "article_count": 19,
       "sample_titles": [
+        "Experten warnen - Deutschland wird Energiewende „nicht überleben“",
         "Koalitionsausschuss tagt - Jetzt geht’s um Ihre Stromrechnung",
         "Gegen Kaution durfte er gehen - Nach Flucht aus JVA! Windpark-Betrüger Holt frei!",
-        "15 Tonnen Steine in Nordsee geworfen - Greenpeace legt aus Versehen Mega-Windpark lahm",
-        "Ganzes Dorf leidet unter Plage - Tauben kacken Solaranlagen kaputt"
+        "15 Tonnen Steine in Nordsee geworfen - Greenpeace legt aus Versehen Mega-Windpark lahm"
       ],
       "urls": [
+        "https://www.bild.de/politik/inland/exklusiv-deutschland-wird-energiewende-nicht-ueberleben-6afec00aa3767a11a0be9dcd",
         "https://www.bild.de/politik/inland/stromsteuersenkung-zwei-milliarden-euro-fehlen-noch-fuer-entlastung-6afc8a44bb7e7a6679f91c29",
         "https://www.bild.de/news/inland/auslieferung-gefordert-windpark-betrueger-hendrik-holt-auf-freiem-fuss-6afc6bc8bb7e7a6679f91874",
-        "https://www.bild.de/news/ausland/steinwurf-aktion-in-der-nordsee-greenpeace-legt-aus-versehen-mega-windpark-lahm-6afabf52629e93479f6dc667",
-        "https://www.bild.de/regional/bayern/ganzes-dorf-leidet-unter-plage-tauben-kacken-uns-den-strom-weg-6aef448e84aece490c6498dc"
+        "https://www.bild.de/news/ausland/steinwurf-aktion-in-der-nordsee-greenpeace-legt-aus-versehen-mega-windpark-lahm-6afabf52629e93479f6dc667"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -466,22 +433,55 @@
         }
       ]
     },
+    "sz": {
+      "source_id": "sz",
+      "source": "Süddeutsche Zeitung",
+      "bias": "left-liberal",
+      "article_count": 19,
+      "sample_titles": [
+        "Erneuerbare Energie: Pullach startet Bohrungen für zweites Erdwärme-Heizwerk",
+        "Vortrag in Freising: Ist eine naturverträgliche Energiewende möglich?",
+        "Solarpark-Boom in Bayern: Zerstört die Energiewende die Landschaft?",
+        "Energieversorgung in Bayern: Gasspeicher so schlecht gefüllt wie nie"
+      ],
+      "urls": [
+        "https://www.sueddeutsche.de/muenchen/landkreismuenchen/pullach-tiefengeothermie-fernwaerme-muenchen-li.3582468",
+        "https://www.sueddeutsche.de/muenchen/freising/freising-energiewende-klimaschutz-naturschutz-vortrag-li.3583180",
+        "https://www.sueddeutsche.de/bayern/solarparks-bayern-energiewende-landschaftsschutz-photovoltaik-li.3564688",
+        "https://www.sueddeutsche.de/bayern/gasspeicher-bayern-fuellstand-leer-winter-heizen-li.3579567"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 3
+        },
+        {
+          "emotion": "disapproval",
+          "count": 1
+        },
+        {
+          "emotion": "amusement",
+          "count": 1
+        }
+      ]
+    },
     "nzz": {
       "source_id": "nzz",
       "source": "Neue Zürcher Zeitung",
       "bias": "conservative-liberal",
-      "article_count": 17,
+      "article_count": 18,
       "sample_titles": [
+        "DER ANDERE BLICK - Deutschland präsentiert sich als leuchtendes Vorbild in der Welt. Doch seine Klimapolitik ist gescheitert",
         "INTERVIEW - Dänischer AKW-Hersteller: «Unser Reaktor könnte Schweizer Atommüll zur Energiequelle machen»",
         "Der Nuklearingenieur Hans-Rudolf Zulliger war einst der grösste Atom-Aficionado. Jetzt spendet er eine Million – gegen neue AKW",
-        "KOMMENTAR - Die Grünen wollen Hausbesitzer zur Solaranlage zwingen. Doch die Energiewende mit der Brechstange funktioniert nicht",
-        "Die Grünen wollen die Solarpflicht auf alle Gebäude im Land ausweiten, der Bundesrat ist dagegen und verweist auf die Kantone"
+        "KOMMENTAR - Die Grünen wollen Hausbesitzer zur Solaranlage zwingen. Doch die Energiewende mit der Brechstange funktioniert nicht"
       ],
       "urls": [
+        "https://www.nzz.ch/der-andere-blick/deutschland-praesentiert-sich-als-leuchtendes-vorbild-in-der-welt-doch-seine-klimapolitik-ist-gescheitert-ld.10068518",
         "https://www.nzz.ch/schweiz/daenischer-akw-hersteller-unser-reaktor-koennte-schweizer-atommuell-zur-energiequelle-machen-ld.10066177",
         "https://www.nzz.ch/schweiz/der-nuklearingenieur-hans-rudolf-zulliger-war-einst-der-groesste-atom-aficionado-jetzt-spendet-er-eine-million-gegen-neue-akw-ld.10065009",
-        "https://www.nzz.ch/meinung/die-gruenen-wollen-hausbesitzer-zur-solaranlage-zwingen-doch-die-energiewende-mit-der-brechstange-funktioniert-nicht-ld.10061067",
-        "https://www.nzz.ch/schweiz/die-gruenen-wollen-die-solarpflicht-auf-alle-gebaeude-im-land-ausweiten-der-bundesrat-ist-dagegen-und-verweist-auf-die-kantone-ld.10060881"
+        "https://www.nzz.ch/meinung/die-gruenen-wollen-hausbesitzer-zur-solaranlage-zwingen-doch-die-energiewende-mit-der-brechstange-funktioniert-nicht-ld.10061067"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -503,27 +503,23 @@
       "source_id": "zeit",
       "source": "Zeit Online",
       "bias": "left-liberal",
-      "article_count": 16,
+      "article_count": 15,
       "sample_titles": [
+        "Nordkoreas Atomprogramm: Nordkorea baut Anlage zur Urananreicherung offenbar weiter aus",
         "Energienetze in der EU: EU will Genehmigungen für Stromnetze und Speicher beschleunigen",
         "Klimawandel: US-Rechenzentren stoßen so viele Treibhausgase aus wie Dänemark",
-        "Pläne in den Niederlanden: Ein AKW an der Emsmündung? Protest in der Grenzregion",
-        "Erneuerbare Energie Gesetz: Union und SPD weiter uneins bei Reform der Ökostromförderung"
+        "Pläne in den Niederlanden: Ein AKW an der Emsmündung? Protest in der Grenzregion"
       ],
       "urls": [
+        "https://www.zeit.de/politik/ausland/2026-11/nordkorea-urananreicherung-yongbyon-atomkomplex-iaeo-gxe",
         "https://www.zeit.de/politik/ausland/2026-11/eu-energienetze-stromnetze-oekostrom-genehmigungen-ausbau",
         "https://www.zeit.de/wissenschaft/umwelt/2026-11/rechenzentren-usa-stromverbrauch-co2-klimawandel-harvard-studie",
-        "https://www.zeit.de/news/2026-11/15/ein-akw-an-der-emsmuendung-protest-in-der-grenzregion",
-        "https://www.zeit.de/politik/deutschland/2026-11/eeg-reform-einspeiseverguetung-solaranlagen-netzpaket-spd-cdu-gxe"
+        "https://www.zeit.de/news/2026-11/15/ein-akw-an-der-emsmuendung-protest-in-der-grenzregion"
       ],
       "dominant_emotion": "annoyance",
       "top_emotions": [
         {
           "emotion": "annoyance",
-          "count": 1
-        },
-        {
-          "emotion": "caring",
           "count": 1
         }
       ]
@@ -568,24 +564,24 @@
     }
   },
   "bias_distribution": {
-    "far-right": 97,
-    "conservative-liberal": 83,
-    "left-liberal": 124,
-    "neutral": 104,
-    "populist-mixed": 18,
-    "right-conservative": 100,
-    "left": 58,
-    "economic-liberal": 65
+    "far-right": 101,
+    "left-liberal": 129,
+    "right-conservative": 98,
+    "conservative-liberal": 88,
+    "neutral": 109,
+    "left": 59,
+    "populist-mixed": 19,
+    "economic-liberal": 60
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Im deutschen Mediendiskurs wird über alle politischen Lager hinweg einheitlich betont, dass die schleppende Netzaus‑ und Speicher‑Expansion die Kosten für Strom für Verbraucher und Industrie in die Höhe treibt und damit die Wettbewerbsfähigkeit des Standorts gefährdet. Gleichzeitig besteht ein breiter Konsens darüber, dass die aktuelle Verzögerung beim Ausbau erneuerbarer Energien und beim Kohle‑ bzw. Atomausstieg Deutschland stärker von fossilen Importen wie LNG abhängig macht und damit die Versorgungssicherheit unter Druck setzt. Schließlich wird in nahezu allen Berichterstattungen die Gefahr hervorgehoben, dass Marktakteure die Energiekrise für überhöhte Gewinne nutzen, was zu Forderungen nach stärkerer Regulierung und Transparenz führt.",
-      "controversial_points": "Der Konflikt zwischen Klimazielen und Industrieinteressen spiegelt sich in Debatten über Strompreise und Wettbewerbsfähigkeit wider. Atomkraftbefürworter fordern Versorgungssicherheit, während Klimaschutzverbände den Atomausstieg als unverzichtbar ansehen. Der Ausbau erneuerbarer Energien kollidiert mit regionalen Widerständen gegen Wind- und Solarprojekte und Netzengpässen. Finanzielle Belastungen durch Förderprogramme und LNG-Importe erzeugen Spannungen zwischen Sozialdemokraten, die Verbraucher schützen wollen, und Liberalen, die Markteffizienz betonen."
+      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung betonen fast alle Beiträge die drohende Belastung der privaten Haushalte durch steigende Strom‑ und Heizkosten und fordern deshalb eine raschere Entlastung oder Preisstabilisierung. Gleichzeitig wird ein breiter Konsens darüber artikuliert, dass die aktuelle Geschwindigkeit beim Ausbau von Wind‑ und Solaranlagen sowie bei der Integration von Wasserstofftechnologien nicht ausreicht, um die Klimaziele und die Versorgungssicherheit zu gewährleisten. Schließlich finden sich in nahezu allen Diskursen kritische Verweise auf die langwierige Umsetzung von Kernenergie‑ und Kohleausstiegspolitiken, wobei sowohl linke als auch rechte Medien die Notwendigkeit einer pragmatischen Energiemisch‑Strategie betonen.",
+      "controversial_points": "Der Streit um den Energiemix spaltet Befürworter von Kernenergie von Befürwortern erneuerbarer Quellen. Die Kostenfrage verknüpft steigende Strompreise mit sozialer Gerechtigkeit und Belastung von Haushalten. Der Kohleausstieg kollidiert mit regionalen Arbeitsplätzen und dem Druck, Energieversorgungssicherheit zu garantieren. Wasserstoffstrategien erzeugen Konflikte zwischen Industrieinteressen, staatlicher Förderpolitik und Umweltkritik an Ressourcenverbrauch."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum, German outlets agree that the current electricity grid is a bottleneck and that accelerated expansion of transmission lines and storage capacity is essential for any further renewable rollout. They also converge on the view that the transition is driving higher electricity prices and that, without supplemental measures such as LNG imports or hydrogen, energy security will be jeopardised. Finally, there is a shared perception that a balanced energy mix, retaining some firm generation capacity, is necessary to meet climate targets while protecting industrial competitiveness.",
-      "controversial_points": "The core conflict pits the urgency of climate targets against concerns over industrial competitiveness and energy costs. A second line divides supporters of rapid renewable expansion from advocates of nuclear and fossil backup for supply security. A third tension separates market‑oriented liberal voices demanding cost‑effective grid investment from environmental groups demanding strict climate justice. Finally, regional and social equity debates clash with national policy narratives about who bears the transition burden."
+      "shared_perspectives": "Across the spectrum German media agree that electricity and heating costs are soaring and have become a pressing political problem for households. They also converge on the view that the current pace of renewable expansion and grid reinforcement is insufficient to guarantee supply security after the nuclear and coal phase‑out, prompting calls for accelerated investment in wind, solar and hydrogen infrastructure. Finally, despite divergent ideological framing, there is a shared recognition that the energy transition will require substantial public financing and that cost overruns are a central criticism of the present policy.",
+      "controversial_points": "The debate pits market‑driven cost efficiency against state‑led climate ambition. Renewable expansion clashes with regional opposition over landscape and property rights. Nuclear phase‑out creates a divide between security‑focused conservatives and green‑energy advocates. Coal exit fuels tension between social justice demands for job protection and climate‑target urgency."
     }
   },
-  "cached_at": "2026-11-18T13:05:56.788765"
+  "cached_at": "2026-11-21T12:32:01.743261"
 }
