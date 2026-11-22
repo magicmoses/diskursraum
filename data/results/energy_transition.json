@@ -1,8 +1,8 @@
 {
   "topic_id": "energy_transition",
   "topic_label": "Energiewende",
-  "article_count": 663,
-  "candidate_count": 663,
+  "article_count": 660,
+  "candidate_count": 660,
   "outlets": {
     "tagesschau": {
       "source_id": "tagesschau",
@@ -37,11 +37,44 @@
         }
       ]
     },
+    "ntv": {
+      "source_id": "ntv",
+      "source": "n-tv",
+      "bias": "right-conservative",
+      "article_count": 66,
+      "sample_titles": [
+        "Jackery Explorer 1000 Plus v2: Diese Powerstation ist gut, günstig und ausbaufähig",
+        "Grüne fordern mehr Erneuerbare: Teures Gas könnte Strompreis im Winter um mehr als 60 Prozent verteuern",
+        "\"Dem Kreml geben, was er will\": Scharfe Kritik an möglichem IAEA-Chefposten für Top-Beamten Putins",
+        "\"Dubai bestraft nicht so streng\": Windkraftbetrüger Hendrik Holt: Bin wieder auf freiem Fuß"
+      ],
+      "urls": [
+        "https://www.n-tv.de/technik/Diese-Powerstation-ist-gut-guenstig-und-ausbaufaehig-id31557259.html",
+        "https://www.n-tv.de/wirtschaft/Teures-Gas-koennte-Strompreis-im-Winter-um-mehr-als-60-Prozent-verteuern-id31555248.html",
+        "https://www.n-tv.de/politik/Scharfe-Kritik-an-moeglichem-IAEA-Chefposten-fuer-Top-Beamten-Putins-id31547923.html",
+        "https://www.n-tv.de/panorama/Windkraftbetrueger-Hendrik-Holt-in-Dubai-auf-freiem-Fuss-id31545065.html"
+      ],
+      "dominant_emotion": "optimism",
+      "top_emotions": [
+        {
+          "emotion": "optimism",
+          "count": 7
+        },
+        {
+          "emotion": "disapproval",
+          "count": 2
+        },
+        {
+          "emotion": "annoyance",
+          "count": 2
+        }
+      ]
+    },
     "faz": {
       "source_id": "faz",
       "source": "FAZ",
       "bias": "conservative-liberal",
-      "article_count": 67,
+      "article_count": 64,
       "sample_titles": [
         "Nordrhein-Westfalen: 1000 Windräder für ein Abschiebegefängnis",
         "Milliardenprojekt: Eine neue Gigafactory für Solarzellen – in Frankreich",
@@ -70,55 +103,22 @@
         }
       ]
     },
-    "ntv": {
-      "source_id": "ntv",
-      "source": "n-tv",
-      "bias": "right-conservative",
-      "article_count": 66,
-      "sample_titles": [
-        "Grüne fordern mehr Erneuerbare: Teures Gas könnte Strompreis im Winter um mehr als 60 Prozent verteuern",
-        "\"Dem Kreml geben, was er will\": Scharfe Kritik an möglichem IAEA-Chefposten für Top-Beamten Putins",
-        "\"Dubai bestraft nicht so streng\": Windkraftbetrüger Hendrik Holt: Bin wieder auf freiem Fuß",
-        "Konzerngeschwister im Vergleich: Kia EV4 versus Kia K4 - schlägt das E-Auto den Benziner?"
-      ],
-      "urls": [
-        "https://www.n-tv.de/wirtschaft/Teures-Gas-koennte-Strompreis-im-Winter-um-mehr-als-60-Prozent-verteuern-id31555248.html",
-        "https://www.n-tv.de/politik/Scharfe-Kritik-an-moeglichem-IAEA-Chefposten-fuer-Top-Beamten-Putins-id31547923.html",
-        "https://www.n-tv.de/panorama/Windkraftbetrueger-Hendrik-Holt-in-Dubai-auf-freiem-Fuss-id31545065.html",
-        "https://www.n-tv.de/auto/Kia-EV4-versus-Kia-K4-schlaegt-das-E-Auto-den-Benziner-id31524815.html"
-      ],
-      "dominant_emotion": "optimism",
-      "top_emotions": [
-        {
-          "emotion": "optimism",
-          "count": 7
-        },
-        {
-          "emotion": "disapproval",
-          "count": 2
-        },
-        {
-          "emotion": "annoyance",
-          "count": 2
-        }
-      ]
-    },
     "handelsblatt": {
       "source_id": "handelsblatt",
       "source": "Handelsblatt",
       "bias": "economic-liberal",
-      "article_count": 60,
+      "article_count": 61,
       "sample_titles": [
+        "Interaktiver Rechner: 333 Gasanbieter erhöhen zum 1. Januar ihr Tarife – so viel teurer kann es für Sie werden",
         "Erneuerbare Energien: Grüner Wasserstoff aus der Nordsee: Politik deckelt die Zukunft",
         "Energie: Stromnetz am Limit – Städte müssen Industrieprojekte abweisen",
-        "Energie: Ein Stromkabel für 15 Milliarden Euro: Griechenland will grünen Strom nach Deutschland exportieren",
-        "Daniel Stelter: Atomausstieg – der teure Irrtum, den keiner zugeben will"
+        "Energie: Ein Stromkabel für 15 Milliarden Euro: Griechenland will grünen Strom nach Deutschland exportieren"
       ],
       "urls": [
+        "https://www.handelsblatt.com/unternehmen/energie/heizen-333-gasanbieter-erhoehen-zum-1.-januar-tarife-wie-teuer-es-wird/100270528.html",
         "https://www.handelsblatt.com/politik/deutschland/erneuerbare-energien-chancen-fuer-wasserstoff-aus-dem-meer-schwinden/100270322.html",
         "https://www.handelsblatt.com/unternehmen/energie/energie-stromnetz-am-limit-staedte-muessen-industrieprojekte-abweisen/100266738.html",
-        "https://www.handelsblatt.com/politik/international/energie-griechenland-will-gruenen-strom-nach-deutschland-exportieren/100269110.html",
-        "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-atomausstieg-der-teure-irrtum-den-keiner-zugeben-will/100269675.html"
+        "https://www.handelsblatt.com/politik/international/energie-griechenland-will-gruenen-strom-nach-deutschland-exportieren/100269110.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -173,18 +173,18 @@
       "source_id": "taz",
       "source": "taz",
       "bias": "left",
-      "article_count": 59,
+      "article_count": 57,
       "sample_titles": [
+        "Erneuerbare boomen, Kohle boomt auch: Indiens doppeltes Klimaspiel",
         "Energiewende in der Lausitz: Das höchste Windrad der Welt",
         "Hohe Energiepreise: Wie in EU-Ländern der Preiswucher bekämpft wird",
-        "Einigung im Koalitionsausschuss: Linke Tasche, rechte Tasche",
-        "Weltklimakonferenz in Antalya: Der Kampf um die Klimawahrheit"
+        "Einigung im Koalitionsausschuss: Linke Tasche, rechte Tasche"
       ],
       "urls": [
+        "https://taz.de/Erneuerbare-boomen-Kohle-boomt-auch/!6231783/",
         "https://taz.de/Energiewende-in-der-Lausitz/!6231786/",
         "https://taz.de/Hohe-Energiepreise/!6231106/",
-        "https://taz.de/Einigung-im-Koalitionsausschuss/!6231102/",
-        "https://taz.de/Weltklimakonferenz-in-Antalya/!6230865/"
+        "https://taz.de/Einigung-im-Koalitionsausschuss/!6231102/"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
@@ -194,7 +194,7 @@
         },
         {
           "emotion": "annoyance",
-          "count": 5
+          "count": 6
         },
         {
           "emotion": "confusion",
@@ -239,7 +239,7 @@
       "source_id": "spiegel",
       "source": "Spiegel Online",
       "bias": "left-liberal",
-      "article_count": 39,
+      "article_count": 38,
       "sample_titles": [
         "Windenergie in Brandenburg: Höchstes Windrad der Welt geht in Betrieb",
         "Gaspreise: Deutschland droht im Winter ein Energiepreisschock",
@@ -272,24 +272,24 @@
       "source_id": "welt",
       "source": "Die Welt",
       "bias": "right-conservative",
-      "article_count": 32,
+      "article_count": 33,
       "sample_titles": [
+        "E-Auto, KI, Wärmepumpe? Den größten Stromfresser hat noch keiner auf der Rechnung",
         "„Wir sind auf dem absoluten Holzweg. Das haben wir unter anderem Trittin und Habeck zu verdanken“",
         "„Zwei Lieblingsprojekte der Grünen kosten uns Billionen – Energiewende und Migration“",
-        "„Zeigt, wie schnell Deutschland handeln kann“ – LNG‑Terminal in Stade ist in Betrieb gegangen",
-        "„Fünf Cent wären nötig“: Unternehmer Brockhaus fordert deutlich niedrigere Strompreise"
+        "„Zeigt, wie schnell Deutschland handeln kann“ – LNG‑Terminal in Stade ist in Betrieb gegangen"
       ],
       "urls": [
+        "https://www.welt.de/wirtschaft/plus6b003141b237b5b41c9a2710/world-energy-outlook-e-auto-ki-waermepumpe-den-groessten-stromfresser-hat-noch-keiner-auf-der-rechnung.html",
         "https://www.welt.de/mediathek/talk/meine-welt-meine-meinung/video6b00824b39a3e8110f0e47df/teure-energiewende-wir-sind-auf-dem-absoluten-holzweg-das-haben-wir-unter-anderem-trittin-und-habeck-zu-verdanken.html",
         "https://www.welt.de/mediathek/talk/meinungsfreiheit/video6afc78bfcdc4b5009f0a9226/ulf-poschardt-kritisiert-in-meinungsfreiheit-gruene-debatte-mit-katharina-beck-und-philipp-burger.html",
-        "https://www.welt.de/wirtschaft/article6afb37cb8c74195fa20c36f0/energiepolitik-zeigt-wie-schnell-deutschland-handeln-kann-lngterminal-in-stade-ist-in-betrieb-gegangen.html",
-        "https://www.welt.de/politik/deutschland/video6afaf3d504d5cec509c6cc01/standort-unter-druck-unternehmer-casper-brockhaus-fordert-deutlich-niedrigere-strompreise.html"
+        "https://www.welt.de/wirtschaft/article6afb37cb8c74195fa20c36f0/energiepolitik-zeigt-wie-schnell-deutschland-handeln-kann-lngterminal-in-stade-ist-in-betrieb-gegangen.html"
       ],
       "dominant_emotion": "optimism",
       "top_emotions": [
         {
           "emotion": "optimism",
-          "count": 2
+          "count": 3
         },
         {
           "emotion": "curiosity",
@@ -305,18 +305,18 @@
       "source_id": "zdf",
       "source": "ZDF heute",
       "bias": "neutral",
-      "article_count": 25,
+      "article_count": 26,
       "sample_titles": [
+        "Tag des offenen Heizungskellers",
         "Trump, Putin und Xi wollen Dialog über atomare Risiken",
         "Iran-Krieg: Preiskrise drängt zu Tempo bei Energiewende",
-        "Stahlgipfel: Zwischen teurer Produktion und billigen Importen",
-        "Energiewende oder keine Energiewende - was ist teurer?"
+        "Stahlgipfel: Zwischen teurer Produktion und billigen Importen"
       ],
       "urls": [
+        "https://www.zdfheute.de/video/heute-nachrichten/aktionstag-offener-heizungskeller-video-100.html",
         "https://www.zdfheute.de/politik/ausland/xi-trump-putin-friedenserklaerung-100.html",
         "https://www.zdfheute.de/wirtschaft/iran-krieg-energiewende-cop31-erneuerbare-energien-100.html",
-        "https://www.zdfheute.de/wirtschaft/stahl-industrie-gipfel-salzgitter-100.html",
-        "https://www.zdfheute.de/wirtschaft/energiewende-erneuerbare-energien-klimawandel-kosten-deutschland-100.html"
+        "https://www.zdfheute.de/wirtschaft/stahl-industrie-gipfel-salzgitter-100.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -373,16 +373,16 @@
       "bias": "far-right",
       "article_count": 20,
       "sample_titles": [
+        "Josef Erhard: „Das ist die ultimative Katastrophe“",
         "Deutschland droht ein Jahrzehnt Stillstand wegen überlasteter Stromnetze",
         "Die CDU und der Klima-Pranger",
-        "Trotz Milliarden-Subvention steigen die Stromnetzentgelte deutlich",
-        "Millionenförderung für Wasserstoffmüllwagen endet im Desaster"
+        "Trotz Milliarden-Subvention steigen die Stromnetzentgelte deutlich"
       ],
       "urls": [
+        "https://jungefreiheit.de/wirtschaft/josef-erhard-das-ist-die-ultimative-katastrophe.html",
         "https://jungefreiheit.de/wirtschaft/deutschland-droht-ein-jahrzehnt-stillstand-wegen-ueberlasteter-stromnetze.html",
         "https://jungefreiheit.de/meinung/die-cdu-und-der-klima-pranger.html",
-        "https://jungefreiheit.de/deutschland/trotz-milliarden-subvention-steigen-die-stromnetzentgelte-deutlich.html",
-        "https://jungefreiheit.de/deutschland/millionenfoerderung-fuer-wasserstoffmuellwagen-endet-im-desaster.html"
+        "https://jungefreiheit.de/deutschland/trotz-milliarden-subvention-steigen-die-stromnetzentgelte-deutlich.html"
       ],
       "dominant_emotion": "curiosity",
       "top_emotions": [
@@ -564,24 +564,24 @@
     }
   },
   "bias_distribution": {
+    "right-conservative": 99,
+    "neutral": 110,
     "far-right": 101,
-    "left-liberal": 129,
-    "right-conservative": 98,
-    "conservative-liberal": 88,
-    "neutral": 109,
-    "left": 59,
-    "populist-mixed": 19,
-    "economic-liberal": 60
+    "economic-liberal": 61,
+    "left": 57,
+    "left-liberal": 128,
+    "conservative-liberal": 85,
+    "populist-mixed": 19
   },
   "statements": {
     "de": {
-      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung betonen fast alle Beiträge die drohende Belastung der privaten Haushalte durch steigende Strom‑ und Heizkosten und fordern deshalb eine raschere Entlastung oder Preisstabilisierung. Gleichzeitig wird ein breiter Konsens darüber artikuliert, dass die aktuelle Geschwindigkeit beim Ausbau von Wind‑ und Solaranlagen sowie bei der Integration von Wasserstofftechnologien nicht ausreicht, um die Klimaziele und die Versorgungssicherheit zu gewährleisten. Schließlich finden sich in nahezu allen Diskursen kritische Verweise auf die langwierige Umsetzung von Kernenergie‑ und Kohleausstiegspolitiken, wobei sowohl linke als auch rechte Medien die Notwendigkeit einer pragmatischen Energiemisch‑Strategie betonen.",
-      "controversial_points": "Der Streit um den Energiemix spaltet Befürworter von Kernenergie von Befürwortern erneuerbarer Quellen. Die Kostenfrage verknüpft steigende Strompreise mit sozialer Gerechtigkeit und Belastung von Haushalten. Der Kohleausstieg kollidiert mit regionalen Arbeitsplätzen und dem Druck, Energieversorgungssicherheit zu garantieren. Wasserstoffstrategien erzeugen Konflikte zwischen Industrieinteressen, staatlicher Förderpolitik und Umweltkritik an Ressourcenverbrauch."
+      "shared_perspectives": "Trotz unterschiedlicher politischer Ausrichtung betonen fast alle deutschen Medien, dass die steigenden Strom‑ und Heizkosten die Akzeptanz der Energiewende gefährden und ein stärkerer Fokus auf bezahlbare Versorgungslösungen nötig ist, wobei sowohl konservative als auch linke Beiträge die Gefahr eines sozialen Rückschritts hervorheben. Gleichzeitig gibt es einen breiten Konsens darüber, dass das bestehende Stromnetz und die Speicher‑ bzw. Wasserstoffinfrastruktur massiv ausgebaut werden müssen, weil die aktuelle Kapazität das angestrebte Klimaziel von CO₂‑Neutralität bis 2045 nicht gewährleisten kann. Schließlich wird in nahezu allen Diskursen die Geschwindigkeit der Umsetzung kritisiert: Sowohl wirtschaftsliberale als auch linke Analysen sehen die derzeitige Politik als zu langsam, um die europäischen Klimaverpflichtungen zu erfüllen.",
+      "controversial_points": "Der Streit um den Energiemix spaltet Befürworter erneuerbarer Quellen von Befürwortern konventioneller Kraftwerke. Die Kostenfrage verbindet Diskussionen über Strompreise, Heizkosten und die soziale Belastung von Haushalten. Der Atomausstieg kollidiert mit Sicherheitsbedenken, geopolitischen Abhängigkeiten und Forderungen nach zuverlässiger Grundlast. Wasserstoffstrategien erzeugen Spannungen zwischen Industrieinteressen, Förderungsprioritäten und Umweltkritik an fossilen Ausgangsstoffen."
     },
     "en": {
-      "shared_perspectives": "Across the spectrum German media agree that electricity and heating costs are soaring and have become a pressing political problem for households. They also converge on the view that the current pace of renewable expansion and grid reinforcement is insufficient to guarantee supply security after the nuclear and coal phase‑out, prompting calls for accelerated investment in wind, solar and hydrogen infrastructure. Finally, despite divergent ideological framing, there is a shared recognition that the energy transition will require substantial public financing and that cost overruns are a central criticism of the present policy.",
-      "controversial_points": "The debate pits market‑driven cost efficiency against state‑led climate ambition. Renewable expansion clashes with regional opposition over landscape and property rights. Nuclear phase‑out creates a divide between security‑focused conservatives and green‑energy advocates. Coal exit fuels tension between social justice demands for job protection and climate‑target urgency."
+      "shared_perspectives": "Across the spectrum German media uniformly stress that the rapid phase‑out of nuclear and coal power is creating a supply gap that drives rising electricity and heating prices for households. They also converge on the view that expanding grid capacity and developing hydrogen infrastructure are essential to secure a stable energy supply while scaling up renewables.",
+      "controversial_points": "The core conflict pits market‑driven liberalism against state‑led climate ambition. Conservatives demand cheap energy and nuclear retention, while Greens push rapid renewables and coal exit. Regional opposition to wind farms clashes with national targets for decarbonisation and grid expansion. Rising electricity prices create social tension, linking energy policy to cost‑of‑living protests and voter backlash."
     }
   },
-  "cached_at": "2026-11-21T12:32:01.743261"
+  "cached_at": "2026-11-22T12:30:41.666012"
 }
